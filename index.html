@@ -3,230 +3,712 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CinchStack</title>
-<meta name="description" content="CinchStack is coming — making software stack decisions easier.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='6' width='20' height='5' rx='2' fill='%236ee7c9'/%3E%3Crect x='6' y='13.5' width='20' height='5' rx='2' fill='%236ee7c9' fill-opacity='.68'/%3E%3Crect x='6' y='21' width='20' height='5' rx='2' fill='%236ee7c9' fill-opacity='.36'/%3E%3C/svg%3E">
+<title>CinchStack — honest SaaS stack guides and software comparisons</title>
+<meta name="description" content="Opinionated, hands-on SaaS stack guides and head-to-head software comparisons. One recommendation per guide, the total cost, and who it's wrong for.">
+<meta name="theme-color" content="#F4F1EA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='6' width='24' height='5.5' rx='2.75' fill='%230E7A57'/%3E%3Crect x='9.5' y='13.5' width='13' height='5.5' rx='2.75' fill='%230E7A57'/%3E%3Crect x='4' y='21' width='24' height='5.5' rx='2.75' fill='%230E7A57'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
   :root {
-    --bg: #0b0d10;
-    --fg: #f4f5f3;
-    --muted: #8a9099;
-    --accent: #6ee7c9;
-    --field-bg: #14171b;
-    --field-border: #262b31;
+    --paper: #F4F1EA;
+    --paper2: #EAE5DA;
+    --rule: #D9D3C5;
+    --ink: #131410;
+    --ink2: #1E201A;
+    --soft: #4B4C43;
+    --mute: #83857A;
+    --accent: #0E7A57;
+    --accent-lift: #4ECBA5;
+    --on-dark: #EFEDE4;
+    --mute-dark: #93958A;
+    --rule-dark: #33352C;
+    --hair-dark: #262820;
   }
 
   * { box-sizing: border-box; }
 
-  html, body {
-    height: 100%;
-  }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
   body {
     margin: 0;
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    padding: 6vh 1.5rem;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
 
-  main {
-    width: 100%;
-    max-width: 30rem;
-    text-align: center;
+  a { color: inherit; text-decoration: none; }
+
+  .d {
+    font-family: "Bricolage Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 0.94;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .mono { font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace; }
+
+  .lbl {
+    font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+    font-size: 12px; font-weight: 500; letter-spacing: 0.15em;
+    text-transform: uppercase; line-height: 1;
   }
 
-  .mark {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-bottom: 1.75rem;
+  .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+
+  /* the cinch: a short accent bar, echoing the mark's pinched middle rule */
+  .eyebrow { margin-bottom: 38px; }
+  .eyebrow .bar { height: 3px; width: 42px; background: var(--accent); margin-bottom: 13px; }
+  .eyebrow.on-dark .bar { background: var(--accent-lift); }
+  .eyebrow.on-dark .lbl { color: var(--on-dark); }
+
+  .lead { font-size: 21px; line-height: 1.55; color: var(--soft); text-wrap: pretty; }
+  .lead.on-dark { color: var(--mute-dark); }
+
+  hr.r { height: 1px; background: var(--rule); border: 0; margin: 0; }
+  hr.rd { height: 1px; background: var(--rule-dark); border: 0; margin: 0; }
+
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .on-ink :focus-visible, .btn:focus-visible { outline-color: var(--accent-lift); }
+
+  .skip {
+    position: absolute; left: -9999px; top: 0; z-index: 10;
+    background: var(--ink); color: var(--paper); padding: 12px 18px; font-size: 15px;
   }
+  .skip:focus { left: 8px; top: 8px; }
 
-  .mark rect {
-    animation: pulse 3.2s ease-in-out infinite;
-  }
+  /* ---------- nav ---------- */
+  .nav { display: flex; align-items: center; justify-content: space-between; height: 96px; gap: 24px; }
+  .mark { display: inline-flex; align-items: center; gap: 11px; }
+  .mark svg { display: block; flex-shrink: 0; }
+  .mark span { font-family: "Bricolage Grotesque", "Helvetica Neue", Helvetica, sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.02em; }
+  .navlinks { display: flex; gap: 30px; }
+  .navlinks a { font-size: 15px; color: var(--soft); }
+  .navlinks a:hover { color: var(--accent); }
 
-  .mark rect:nth-child(2) { animation-delay: .35s; }
-  .mark rect:nth-child(3) { animation-delay: .7s; }
-
-  @keyframes pulse {
-    0%, 100% { opacity: .35; }
-    50% { opacity: 1; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .mark rect { animation: none; opacity: 1; }
-  }
-
-  h1 {
-    margin: 0 0 .9rem;
-    font-size: clamp(2.25rem, 6vw, 3.25rem);
-    font-weight: 650;
-    letter-spacing: -0.02em;
-    line-height: 1.05;
-  }
-
-  p.tagline {
-    margin: 0 0 2.75rem;
-    font-size: clamp(1rem, 2.4vw, 1.125rem);
-    line-height: 1.55;
-    color: var(--muted);
-  }
-
-  form {
-    display: flex;
-    gap: .5rem;
-  }
-
-  .hp {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-  }
-
-  input[type="email"] {
-    flex: 1;
-    min-width: 0;
-    padding: .85rem 1rem;
-    font-size: 1rem;
-    color: var(--fg);
-    background: var(--field-bg);
-    border: 1px solid var(--field-border);
-    border-radius: .5rem;
-    outline: none;
-    transition: border-color .15s ease;
-  }
-
-  input[type="email"]::placeholder {
-    color: #565c65;
-  }
-
-  input[type="email"]:focus {
-    border-color: var(--accent);
-  }
-
-  input[type="email"]:focus-visible {
-    outline: 3px solid var(--accent);
-    outline-offset: 2px;
-  }
-
-  button {
-    padding: .85rem 1.25rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #06120e;
-    background: var(--accent);
-    border: 1px solid var(--accent);
-    border-radius: .5rem;
-    cursor: pointer;
-    white-space: nowrap;
-    outline: none;
+  /* ---------- buttons + form ---------- */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    height: 52px; padding: 0 24px; border: 1px solid var(--accent);
+    background: var(--accent); color: #F6FBF8;
+    font-family: inherit; font-size: 16px; font-weight: 600; letter-spacing: -0.01em;
+    cursor: pointer; white-space: nowrap;
     transition: filter .15s ease;
   }
+  .btn:hover { filter: brightness(1.1); }
+  .btn:disabled { cursor: default; filter: grayscale(.35) brightness(.9); }
+  .btn-sm { height: 42px; padding: 0 18px; font-size: 15px; }
 
-  button:hover { filter: brightness(1.08); }
-  button:active { filter: brightness(.95); }
+  .signup { display: flex; gap: 10px; max-width: 480px; }
+  .signup input[type="email"] {
+    flex: 1; min-width: 0; height: 52px; padding: 0 16px;
+    font-family: inherit; font-size: 16px; color: var(--ink);
+    background: #FFFFFF; border: 1px solid var(--rule); outline: none;
+    transition: border-color .15s ease;
+  }
+  .signup input[type="email"]::placeholder { color: #9B9C90; }
+  .signup input[type="email"]:focus { border-color: var(--accent); }
+  .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
-  button:focus-visible {
-    outline: 3px solid var(--fg);
-    outline-offset: 3px;
+  .on-ink .signup input[type="email"] {
+    background: var(--ink2); border-color: var(--rule-dark); color: var(--on-dark);
+  }
+  .on-ink .signup input[type="email"]::placeholder { color: #6B6D62; }
+  .on-ink .signup input[type="email"]:focus { border-color: var(--accent-lift); }
+  .on-ink .btn { background: var(--accent-lift); border-color: var(--accent-lift); color: #06231A; }
+
+  .ok { display: none; padding: 15px 18px; font-size: 16px; max-width: 480px;
+        color: var(--accent); border: 1px solid var(--accent); background: rgba(14,122,87,.07); }
+  .on-ink .ok { color: var(--accent-lift); border-color: rgba(78,203,165,.45); background: rgba(78,203,165,.08); }
+  .is-done .signup, .is-done .subnote { display: none; }
+  .is-done .ok { display: block; }
+  .subnote { font-size: 13px; color: var(--mute); margin: 14px 0 0; }
+  .on-ink .subnote { color: #6B6D62; }
+
+  /* ---------- sections ---------- */
+  section { padding: 118px 0; }
+  .on-ink { background: var(--ink); color: var(--on-dark); }
+  .on-ink-2 { background: var(--ink2); color: var(--on-dark); }
+  h2.d { font-size: 68px; }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 84px; align-items: end; }
+  .cols3 { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 64px; }
+  .money-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 84px; align-items: start; }
+  .coverage-grid { display: grid; grid-template-columns: 360px 1fr 1fr; gap: 64px; align-items: start; }
+
+  /* hero */
+  .hero { display: grid; grid-template-columns: 1fr 380px; gap: 80px; align-items: start; padding: 76px 0 112px; }
+  h1.d { font-size: 104px; margin-bottom: 32px; }
+
+  .tabs { display: flex; flex-direction: column; gap: 9px; }
+  .tab {
+    border: 1px solid var(--rule); background: var(--paper2);
+    padding: 13px 15px; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--soft);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .tab i { width: 8px; height: 8px; background: #C4BDAC; flex-shrink: 0; display: block; }
+  .tab.faded { opacity: .45; }
+  .tab.ghost { opacity: .2; height: 42px; }
+
+  /* illustration */
+  .illo { display: block; width: 100%; height: auto; margin: 6px 0 10px; }
+  .illo-narrow { display: none; max-width: 400px; }
+  .illo-chips { display: none; flex-wrap: wrap; gap: 7px; margin-bottom: 30px; }
+  .illo-chips span { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--mute); border: 1px solid var(--rule); padding: 5px 9px; }
+  .sway { transform-box: fill-box; transform-origin: 50% 100%; animation: sway 6s ease-in-out infinite; }
+  .sway.s2 { animation-duration: 6.8s; animation-delay: -1.2s; }
+  .sway.s3 { animation-duration: 7.6s; animation-delay: -2.4s; }
+  @keyframes sway { 0%,100% { transform: rotate(-1.1deg); } 50% { transform: rotate(1.1deg); } }
+
+  .draw { stroke-dasharray: 1400; stroke-dashoffset: 1400; }
+  .draw.in { animation: draw 1100ms cubic-bezier(.22,.61,.36,1) forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sway { animation: none; }
+    .draw { stroke-dashoffset: 0; }
+    .draw.in { animation: none; }
   }
 
-  button:disabled {
-    cursor: default;
-    filter: grayscale(.3) brightness(.85);
-  }
+  /* numbered rows */
+  .row { display: grid; grid-template-columns: 60px 280px 1fr; gap: 36px; align-items: start; padding: 30px 0; }
+  .row .n { font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 600; color: var(--accent-lift); }
+  .row h3 { font-family: "Bricolage Grotesque", "Helvetica Neue", Helvetica, sans-serif; font-weight: 800; font-size: 26px; letter-spacing: -0.025em; line-height: 1.15; margin: 0; }
+  .row p { margin: 0; color: var(--mute-dark); }
 
-  .note {
-    margin: .9rem 0 0;
-    font-size: .8rem;
-    color: #565c65;
-  }
+  .listrow { padding: 19px 0; border-bottom: 1px solid var(--hair-dark); }
+  .listrow b { display: block; font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+  .listrow span { font-size: 15px; color: var(--mute-dark); }
 
-  .success {
-    display: none;
-    padding: .95rem 1.1rem;
-    font-size: .95rem;
-    color: var(--accent);
-    background: rgba(110, 231, 201, .08);
-    border: 1px solid rgba(110, 231, 201, .35);
-    border-radius: .5rem;
-  }
+  .coverage div { font-family: "Bricolage Grotesque", "Helvetica Neue", Helvetica, sans-serif; font-weight: 600; font-size: 21px; letter-spacing: -0.02em; padding: 16px 0; border-bottom: 1px solid var(--hair-dark); }
 
-  .success.show { display: block; }
-  form.hide, .note.hide { display: none; }
+  /* comparison mockup */
+  .card { border: 1px solid var(--rule-dark); background: var(--ink2); }
+  .card-hd { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 20px; border-bottom: 1px solid var(--rule-dark); flex-wrap: wrap; }
+  .verdict { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-dark); }
+  .verdict > div { background: var(--ink2); padding: 20px; }
+  .chartwrap { padding: 20px 20px 8px; border-top: 1px solid var(--rule-dark); }
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 12px; }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--mute-dark); }
+  .legend i { width: 10px; height: 10px; display: block; }
+
+  footer { background: var(--ink); color: var(--on-dark); }
+  .fcols { display: grid; grid-template-columns: 1.6fr repeat(3, minmax(0, 1fr)); gap: 40px; padding: 52px 0 56px; }
+  .fcols a, .fcols p { font-size: 14px; color: var(--mute-dark); overflow-wrap: anywhere; }
+  .fcols a:hover { color: var(--on-dark); }
+  .fcol { display: flex; flex-direction: column; gap: 10px; }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 1080px) {
+    .hero { grid-template-columns: 1fr; gap: 52px; }
+    .split, .money-grid { grid-template-columns: 1fr; gap: 40px; align-items: start; }
+    .coverage-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .coverage-grid > :first-child { grid-column: 1 / -1; }
+    .cols3 { grid-template-columns: 1fr; gap: 40px; }
+    h1.d { font-size: 76px; }
+    h2.d { font-size: 52px; }
+    .fcols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 760px) {
+    body { font-size: 16px; }
+    .wrap { padding: 0 24px; }
+    section { padding: 64px 0; }
+    .hero { padding: 40px 0 60px; }
+    h1.d { font-size: 46px; margin-bottom: 22px; }
+    h2.d { font-size: 34px; }
+    .lead { font-size: 17px; }
+    .navlinks { display: none; }
+    .signup { flex-direction: column; max-width: none; }
+    .signup .btn { width: 100%; }
+    .illo-wide { display: none; }
+    .illo-narrow { display: block; }
+    .illo-chips { display: flex; }
+    .row { grid-template-columns: 1fr; gap: 8px; padding: 22px 0; }
+    .row h3 { font-size: 22px; }
+    .verdict { grid-template-columns: 1fr; }
+    .fcols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; padding: 34px 0 40px; }
+    .fcol a { padding: 6px 0; }
+  }
+  /* the nav CTA can't sit beside the wordmark this narrow; the hero form is right below it */
+  @media (max-width: 430px) {
+    .nav .btn-sm { display: none; }
+    .nav { height: 76px; }
+  }
 </style>
 </head>
 <body>
-<main>
-  <svg class="mark" width="34" height="26" viewBox="0 0 34 26" aria-hidden="true">
-    <rect x="0" y="0" width="34" height="7" rx="3" fill="#6ee7c9"></rect>
-    <rect x="0" y="9.5" width="34" height="7" rx="3" fill="#6ee7c9"></rect>
-    <rect x="0" y="19" width="34" height="7" rx="3" fill="#6ee7c9"></rect>
-  </svg>
 
-  <h1>CinchStack</h1>
-  <p class="tagline">Choosing the right software stack shouldn&rsquo;t take a committee. We&rsquo;re making that decision easier.</p>
+<a class="skip" href="#main">Skip to content</a>
 
-  <form id="signup-form" name="signup" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="signup">
-    <p class="hp" aria-hidden="true">
-      <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
-    </p>
-    <input type="email" name="email" placeholder="you@company.com" required aria-label="Email address">
-    <button type="submit">Notify me</button>
-  </form>
-  <p class="note" id="form-note">No spam &mdash; just a note when we&rsquo;re live.</p>
+<div class="wrap">
+  <header class="nav">
+    <a class="mark" href="/" aria-label="CinchStack home">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="4" y="6" width="24" height="5.5" rx="2.75" fill="#131410"></rect>
+        <rect x="9.5" y="13.5" width="13" height="5.5" rx="2.75" fill="#0E7A57"></rect>
+        <rect x="4" y="21" width="24" height="5.5" rx="2.75" fill="#131410"></rect>
+      </svg>
+      <span>CinchStack</span>
+    </a>
+    <nav class="navlinks" aria-label="Primary">
+      <a href="#why">Why it's hard</a>
+      <a href="#how">How it works</a>
+      <a href="#coverage">What we cover</a>
+      <a href="#money">How we're paid</a>
+    </nav>
+    <a class="btn btn-sm" href="#signup">Get early access</a>
+  </header>
+  <hr class="r">
+</div>
 
-  <div class="success" id="form-success" role="status">You&rsquo;re on the list. We&rsquo;ll be in touch.</div>
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <div class="wrap">
+    <section class="hero" style="padding-top:76px;">
+      <div>
+        <div class="eyebrow">
+          <div class="bar"></div>
+          <div class="lbl">SaaS stack guides &amp; honest comparisons</div>
+        </div>
+
+        <h1 class="d">You've had 41 tabs open since Tuesday.</h1>
+
+        <p class="lead" style="max-width:620px;margin:0 0 40px;">Picking your software stack should take an afternoon, not a quarter. CinchStack publishes opinionated, hands-on stack guides and head-to-head comparisons — so you leave with a decision, not another shortlist.</p>
+
+        <form id="signup" class="signup js-signup" name="signup" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="signup">
+          <p class="hp" aria-hidden="true"><label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <input type="email" name="email" placeholder="you@company.com" required aria-label="Email address">
+          <button class="btn" type="submit">Get early access</button>
+        </form>
+        <div class="ok" role="status">You're on the list. We'll email you when the first guides publish.</div>
+        <p class="subnote">No spam, and no sponsored picks — ever.</p>
+      </div>
+
+      <div class="tabs" aria-hidden="true">
+        <div class="tab"><i></i>best crm for a 12 person team</div>
+        <div class="tab"><i></i>notion vs coda 2026</div>
+        <div class="tab"><i></i>is linear actually worth it</div>
+        <div class="tab"><i></i>cheapest transactional email</div>
+        <div class="tab faded"><i></i>g2 vs capterra — which is real</div>
+        <div class="tab ghost"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ WHY IT'S HARD ============ -->
+  <section id="why" style="background:var(--paper2);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);">
+    <div class="wrap">
+      <div class="eyebrow">
+        <div class="bar"></div>
+        <div class="lbl">Why this is so hard</div>
+      </div>
+
+      <h2 class="d" style="max-width:900px;margin-bottom:20px;">Every “best CRM” list was written by the CRM.</h2>
+      <p class="lead" style="max-width:660px;margin:0 0 12px;">Review sites are pay-to-play, listicles are affiliate farms, and the vendor's own pricing page is a riddle. So you keep the tabs open, and the decision keeps sliding a week.</p>
+
+      <svg class="illo illo-wide" viewBox="0 0 1200 460" role="img" aria-label="A person looking up at a precariously tall, leaning stack of software boxes, with two boxes tumbling off the top.">
+        <path d="M 40 418 H 1160" fill="none" stroke="#131410" stroke-width="3" stroke-linecap="round"></path>
+
+        <circle cx="132" cy="352" r="17" fill="none" stroke="#131410" stroke-width="3"></circle>
+        <path d="M 106 418 C 106 378, 111 362, 132 358 C 153 362, 158 378, 158 418" fill="none" stroke="#131410" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M 152 378 L 178 356" fill="none" stroke="#131410" stroke-width="3" stroke-linecap="round"></path>
+
+        <g fill="none" stroke="#131410" stroke-width="3">
+          <rect x="360" y="380" width="160" height="36" rx="2"></rect>
+          <rect x="363" y="342" width="160" height="36" rx="2" transform="rotate(-1.5 443 360)"></rect>
+          <rect x="368" y="304" width="160" height="36" rx="2" transform="rotate(2.5 448 322)"></rect>
+          <rect x="372" y="266" width="160" height="36" rx="2" transform="rotate(-3.5 452 284)" stroke="#0E7A57"></rect>
+          <rect x="380" y="228" width="160" height="36" rx="2" transform="rotate(4.5 460 246)"></rect>
+          <rect x="388" y="190" width="160" height="36" rx="2" transform="rotate(-6 468 208)"></rect>
+          <rect class="sway" x="400" y="152" width="160" height="36" rx="2" transform="rotate(8 480 170)"></rect>
+          <rect class="sway s2" x="414" y="114" width="160" height="36" rx="2" transform="rotate(-9.5 494 132)"></rect>
+          <rect class="sway s3" x="432" y="76" width="160" height="36" rx="2" transform="rotate(12 512 94)"></rect>
+          <rect x="626" y="96" width="160" height="36" rx="2" transform="rotate(38 706 114)"></rect>
+          <rect x="742" y="206" width="160" height="36" rx="2" transform="rotate(68 822 224)"></rect>
+        </g>
+
+        <path d="M 352 250 L 376 268" fill="none" stroke="#0E7A57" stroke-width="1.5"></path>
+        <text x="346" y="246" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#0E7A57">the one you'd actually pick</text>
+
+        <g class="illo-labels" font-family="IBM Plex Mono, monospace" font-size="13" fill="#83857A">
+          <text x="962" y="74">47 tabs open</text>
+          <text x="962" y="116">“best CRM 2026” · sponsored</text>
+          <text x="962" y="158">4.6 ★ from 12 reviews</text>
+          <text x="962" y="200">annual billing only</text>
+          <text x="962" y="242">seat minimum: 10</text>
+          <text x="962" y="284">free trial ends tomorrow</text>
+          <text x="962" y="326">top 10 list, written by #1</text>
+        </g>
+      </svg>
+
+      <!-- mobile: the same scene redrawn tight, not the wide one scaled down -->
+      <svg class="illo illo-narrow" viewBox="0 0 400 410" role="img" aria-label="A person looking up at a precariously tall, leaning stack of software boxes, with one tumbling off the top.">
+        <path d="M 10 392 H 390" fill="none" stroke="#131410" stroke-width="2.5" stroke-linecap="round"></path>
+        <circle cx="44" cy="330" r="14" fill="none" stroke="#131410" stroke-width="2.5"></circle>
+        <path d="M 24 392 C 24 358, 28 344, 44 341 C 60 344, 64 358, 64 392" fill="none" stroke="#131410" stroke-width="2.5" stroke-linecap="round"></path>
+        <path d="M 59 356 L 80 338" fill="none" stroke="#131410" stroke-width="2.5" stroke-linecap="round"></path>
+        <g fill="none" stroke="#131410" stroke-width="2.5">
+          <rect x="130" y="364" width="120" height="28" rx="2"></rect>
+          <rect x="133" y="334" width="120" height="28" rx="2" transform="rotate(-1.5 193 348)"></rect>
+          <rect x="137" y="304" width="120" height="28" rx="2" transform="rotate(2.5 197 318)"></rect>
+          <rect x="140" y="274" width="120" height="28" rx="2" transform="rotate(-3.5 200 288)" stroke="#0E7A57"></rect>
+          <rect x="146" y="244" width="120" height="28" rx="2" transform="rotate(4.5 206 258)"></rect>
+          <rect x="152" y="214" width="120" height="28" rx="2" transform="rotate(-6 212 228)"></rect>
+          <rect class="sway" x="161" y="184" width="120" height="28" rx="2" transform="rotate(8 221 198)"></rect>
+          <rect class="sway s2" x="171" y="154" width="120" height="28" rx="2" transform="rotate(-9.5 231 168)"></rect>
+          <rect class="sway s3" x="184" y="124" width="120" height="28" rx="2" transform="rotate(12 244 138)"></rect>
+          <rect x="280" y="120" width="120" height="28" rx="2" transform="rotate(40 340 134)"></rect>
+        </g>
+      </svg>
+
+      <div class="illo-chips" aria-hidden="true">
+        <span style="color:var(--accent);border-color:var(--accent);">the one you'd actually pick</span>
+        <span>47 tabs open</span>
+        <span>“best CRM 2026” · sponsored</span>
+        <span>4.6 ★ from 12 reviews</span>
+        <span>annual billing only</span>
+        <span>seat minimum: 10</span>
+        <span>free trial ends tomorrow</span>
+      </div>
+
+      <div class="cols3" style="margin-top:32px;">
+        <div>
+          <hr class="r" style="background:var(--ink);height:2px;margin-bottom:16px;">
+          <p style="margin:0;color:var(--soft);">The top result is an ad. The second is an affiliate farm. The third is the vendor comparing itself to its competitors.</p>
+        </div>
+        <div>
+          <hr class="r" style="background:var(--ink);height:2px;margin-bottom:16px;">
+          <p style="margin:0;color:var(--soft);">Ratings are aggregated from people who used the free tier for a week, and from a few who were sent a gift card.</p>
+        </div>
+        <div>
+          <hr class="r" style="background:var(--ink);height:2px;margin-bottom:16px;">
+          <p style="margin:0;color:var(--soft);">Nobody tells you the price at 40 seats, the annual lock-in, or the add-on you'll need by month three.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section id="how">
+    <div class="wrap">
+      <div class="split" style="margin-bottom:64px;">
+        <div>
+          <div class="eyebrow">
+            <div class="bar"></div>
+            <div class="lbl">How CinchStack works</div>
+          </div>
+          <h2 class="d">We buy the software, run it, and tell you what broke.</h2>
+        </div>
+        <p class="lead" style="margin:0;padding-bottom:6px;">Not aggregated ratings, not a feature matrix scraped from marketing pages. A small number of tools, used properly, on a real workload — and one clear pick at the end.</p>
+      </div>
+
+      <!-- the cinch: a loose line pulled taut -->
+      <svg viewBox="0 0 1200 72" aria-hidden="true" style="display:block;width:100%;height:auto;">
+        <path class="draw" d="M 8 38 C 30 10, 52 64, 74 36 C 92 14, 106 54, 120 38 L 1190 38"
+              fill="none" stroke="#0E7A57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle cx="176" cy="38" r="7" fill="#0E7A57"></circle>
+        <circle cx="600" cy="38" r="7" fill="#0E7A57"></circle>
+        <circle cx="1024" cy="38" r="7" fill="#0E7A57"></circle>
+      </svg>
+
+      <div class="cols3" style="margin-top:26px;">
+        <div>
+          <div class="mono" style="font-size:13px;font-weight:600;color:var(--accent);margin-bottom:14px;">01</div>
+          <h3 class="d" style="font-size:28px;letter-spacing:-0.025em;line-height:1.12;margin-bottom:12px;">We run it for real</h3>
+          <p style="margin:0;color:var(--soft);">Every tool in a guide gets set up on a real workload and used properly — long enough to hit the limits you'd hit in month two, not month zero.</p>
+        </div>
+        <div>
+          <div class="mono" style="font-size:13px;font-weight:600;color:var(--accent);margin-bottom:14px;">02</div>
+          <h3 class="d" style="font-size:28px;letter-spacing:-0.025em;line-height:1.12;margin-bottom:12px;">We publish the tradeoffs</h3>
+          <p style="margin:0;color:var(--soft);">Including the ones vendors bury: the seat minimum, the annual-only discount, the feature that turns out to be a separate SKU.</p>
+        </div>
+        <div>
+          <div class="mono" style="font-size:13px;font-weight:600;color:var(--accent);margin-bottom:14px;">03</div>
+          <h3 class="d" style="font-size:28px;letter-spacing:-0.025em;line-height:1.12;margin-bottom:12px;">You get a pick</h3>
+          <p style="margin:0;color:var(--soft);">Each guide ends with one recommendation, the team it's wrong for, and what we'd choose instead at three different sizes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT A GUIDE LOOKS LIKE ============ -->
+  <section class="on-ink">
+    <div class="wrap">
+      <div class="split" style="margin-bottom:56px;">
+        <div>
+          <div class="eyebrow on-dark">
+            <div class="bar"></div>
+            <div class="lbl">What a guide looks like</div>
+          </div>
+          <h2 class="d">A decision, with the receipts.</h2>
+        </div>
+        <p class="lead on-dark" style="margin:0;padding-bottom:6px;">Every comparison carries the thing the vendors leave out: what it actually costs as your team grows, and the point where the cheaper option stops being cheaper.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-hd">
+          <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+            <span class="d" style="font-size:19px;">Northgate</span>
+            <span class="mono" style="font-size:12px;color:var(--mute-dark);">vs</span>
+            <span class="d" style="font-size:19px;">Palisade</span>
+          </div>
+          <span class="mono" style="font-size:11px;color:var(--accent-lift);border:1px solid #2A4A3E;padding:4px 9px;">VERIFIED THIS MONTH</span>
+        </div>
+
+        <div class="verdict">
+          <div>
+            <div class="lbl" style="color:#6B6D62;margin-bottom:10px;">Our pick</div>
+            <p style="margin:0 0 8px;font-size:16px;">Northgate, under about 18 people. It is genuinely cheaper and quicker to set up, and the reporting gap won't bite you at that size.</p>
+          </div>
+          <div>
+            <div class="lbl" style="color:#6B6D62;margin-bottom:10px;">Don't pick it if</div>
+            <p style="margin:0;font-size:16px;color:var(--mute-dark);">You expect to pass 20 seats this year, need SSO (an add-on here), or bill in more than one currency.</p>
+          </div>
+        </div>
+
+        <div class="chartwrap">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:2px;">
+            <h4 style="margin:0;font-size:16px;font-weight:600;">What it costs as you grow</h4>
+            <div class="legend">
+              <span><i style="background:#33A392;"></i>Northgate</span>
+              <span><i style="background:#E06438;"></i>Palisade</span>
+            </div>
+          </div>
+          <div class="mono" style="font-size:11px;color:#6B6D62;margin-bottom:10px;">USD PER MONTH, BILLED ANNUALLY</div>
+
+          <svg viewBox="0 0 720 300" role="img" style="display:block;width:100%;height:auto;"
+               aria-label="Line chart of monthly cost by team size. Northgate is cheaper below about 18 seats but rises to 3,600 dollars at 200 seats, while Palisade starts at 240 dollars and reaches 1,500.">
+            <path d="M 56 20 H 616 M 56 77.5 H 616 M 56 135 H 616 M 56 192.5 H 616" stroke="#2A2C24" stroke-width="1"></path>
+            <path d="M 56 250 H 616" stroke="#454840" stroke-width="1"></path>
+
+            <text x="44" y="24" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">4k</text>
+            <text x="44" y="81.5" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">3k</text>
+            <text x="44" y="139" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">2k</text>
+            <text x="44" y="196.5" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">1k</text>
+            <text x="44" y="254" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">0</text>
+
+            <path d="M 228 20 V 250" stroke="#6B6D62" stroke-width="1" stroke-dasharray="3 4"></path>
+            <text x="236" y="34" font-family="IBM Plex Mono, monospace" font-size="11" fill="#93958A">breaks even ≈ 18 seats</text>
+
+            <path d="M 56 244.8 L 168 239.7 L 280 224.1 L 392 198.3 L 504 146.5 L 616 43" fill="none" stroke="#33A392" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M 56 236.2 L 168 236.2 L 280 227 L 392 215.5 L 504 192.5 L 616 163.75" fill="none" stroke="#E06438" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+            <circle cx="616" cy="43" r="4.5" fill="#33A392" stroke="#1E201A" stroke-width="2"></circle>
+            <circle cx="616" cy="163.75" r="4.5" fill="#E06438" stroke="#1E201A" stroke-width="2"></circle>
+
+            <circle cx="634" cy="39" r="4" fill="#33A392"></circle>
+            <text x="644" y="43" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="500" fill="#EFEDE4">$3,600</text>
+            <circle cx="634" cy="160" r="4" fill="#E06438"></circle>
+            <text x="644" y="164" font-family="IBM Plex Sans, sans-serif" font-size="12" font-weight="500" fill="#EFEDE4">$1,500</text>
+
+            <text x="56" y="272" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">5</text>
+            <text x="168" y="272" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">10</text>
+            <text x="280" y="272" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">25</text>
+            <text x="392" y="272" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">50</text>
+            <text x="504" y="272" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">100</text>
+            <text x="616" y="272" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#6B6D62">200</text>
+            <text x="336" y="292" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="0.14em" fill="#6B6D62">TEAM SIZE (SEATS)</text>
+          </svg>
+        </div>
+      </div>
+      <p class="mono" style="font-size:12px;color:#6B6D62;margin:14px 0 0;">Illustrative example — “Northgate” and “Palisade” are fictional products, shown to demonstrate the format.</p>
+    </div>
+  </section>
+
+  <!-- ============ COVERAGE ============ -->
+  <section id="coverage" class="on-ink" style="padding-top:0;">
+    <div class="wrap">
+      <hr class="rd" style="margin-bottom:84px;">
+      <div class="coverage-grid">
+        <div>
+          <div class="eyebrow on-dark">
+            <div class="bar"></div>
+            <div class="lbl">What we cover</div>
+          </div>
+          <h2 class="d" style="font-size:42px;margin-bottom:18px;">The categories where the wrong pick is expensive.</h2>
+          <p class="lead on-dark" style="font-size:17px;">Software you sign an annual contract for, wire into everything else, and can't swap in an afternoon.</p>
+        </div>
+        <div class="coverage">
+          <div>CRM &amp; sales</div>
+          <div>Analytics</div>
+          <div>Billing &amp; payments</div>
+          <div>Customer support</div>
+          <div>Email &amp; messaging</div>
+        </div>
+        <div class="coverage">
+          <div>Auth &amp; identity</div>
+          <div>Data warehouse</div>
+          <div>Project management</div>
+          <div>HR &amp; payroll</div>
+          <div>Observability</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT MAKES IT DIFFERENT ============ -->
+  <section class="on-ink-2">
+    <div class="wrap">
+      <div class="eyebrow on-dark">
+        <div class="bar"></div>
+        <div class="lbl">What makes it different</div>
+      </div>
+      <h2 class="d" style="max-width:880px;margin-bottom:56px;">Six things a review site won't do.</h2>
+
+      <hr class="rd">
+      <div class="row"><div class="n">01</div><h3>We pay for everything</h3><p>No free vendor accounts, no press units, no briefings in exchange for coverage. If we're writing about it, we bought it.</p></div>
+      <hr class="rd">
+      <div class="row"><div class="n">02</div><h3>Rankings before links</h3><p>The recommendation is settled and written down before anyone checks whether an affiliate programme exists. Where we earn, we mark it on the line where we earn it.</p></div>
+      <hr class="rd">
+      <div class="row"><div class="n">03</div><h3>We publish who shouldn't buy</h3><p>Every recommendation names the team it's wrong for. A pick that suits everyone is a pick that was never tested.</p></div>
+      <hr class="rd">
+      <div class="row"><div class="n">04</div><h3>Prices are re-checked</h3><p>SaaS pricing moves quietly. Each guide carries a visible last-verified date, and we re-check rather than let it rot.</p></div>
+      <hr class="rd">
+      <div class="row"><div class="n">05</div><h3>Total cost, not sticker price</h3><p>Seat minimums, annual lock-in, onboarding fees, and the add-on you'll need by month three — modelled at the size you'll actually be.</p></div>
+      <hr class="rd">
+      <div class="row"><div class="n">06</div><h3>We show our method</h3><p>The test workload, how we scored it, and what we got wrong last time. If you disagree with the pick, you can see exactly where.</p></div>
+      <hr class="rd">
+    </div>
+  </section>
+
+  <!-- ============ HOW WE'RE PAID ============ -->
+  <section id="money" class="on-ink">
+    <div class="wrap money-grid">
+      <div>
+        <div class="eyebrow on-dark">
+          <div class="bar"></div>
+          <div class="lbl">How we're paid</div>
+        </div>
+        <h2 class="d" style="font-size:58px;margin-bottom:22px;">In plain English, before you ask.</h2>
+        <p class="lead on-dark" style="margin:0;">Independence is the whole product. If the money is invisible, the recommendation isn't worth reading — so here is the arrangement, on the homepage, rather than buried in a footer link.</p>
+      </div>
+      <div style="padding-top:6px;">
+        <hr class="rd">
+        <div class="listrow"><b>Affiliate commission, on some tools</b><span>When a link earns us a commission, it is marked as such inline — not once at the bottom of the page.</span></div>
+        <div class="listrow"><b>No paid placements</b><span>No vendor can buy a ranking, a mention, a review, or a spot in a guide. There is no rate card, because there is nothing to sell.</span></div>
+        <div class="listrow"><b>Tools with no programme rank the same</b><span>Plenty of the best software pays nothing to anybody. It wins guides here anyway.</span></div>
+        <div class="listrow" style="border-bottom:0;"><b>Corrections are public</b><span>When we get something wrong, the guide says what changed and when — we don't quietly edit.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="on-ink" style="padding-top:0;">
+    <div class="wrap" style="text-align:center;">
+      <hr class="rd" style="margin-bottom:96px;">
+      <h2 class="d" style="font-size:76px;margin-bottom:22px;">Close the tabs.</h2>
+      <p class="lead on-dark" style="max-width:520px;margin:0 auto 38px;">The first guides are being researched now. Leave your email and you'll get them as they publish.</p>
+
+      <div style="display:flex;flex-direction:column;align-items:center;">
+        <form class="signup js-signup" name="signup" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="signup">
+          <p class="hp" aria-hidden="true"><label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <input type="email" name="email" placeholder="you@company.com" required aria-label="Email address">
+          <button class="btn" type="submit">Get early access</button>
+        </form>
+        <div class="ok" role="status">You're on the list. We'll email you when the first guides publish.</div>
+        <p class="subnote">No spam, and no sponsored picks — ever.</p>
+      </div>
+    </div>
+  </section>
+
 </main>
+
+<footer>
+  <div class="wrap">
+    <hr class="rd">
+    <div class="fcols">
+      <div>
+        <a class="mark" href="/" aria-label="CinchStack home" style="margin-bottom:14px;">
+          <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
+            <rect x="4" y="6" width="24" height="5.5" rx="2.75" fill="#EFEDE4"></rect>
+            <rect x="9.5" y="13.5" width="13" height="5.5" rx="2.75" fill="#4ECBA5"></rect>
+            <rect x="4" y="21" width="24" height="5.5" rx="2.75" fill="#EFEDE4"></rect>
+          </svg>
+          <span style="color:var(--on-dark);font-size:18px;">CinchStack</span>
+        </a>
+        <p class="mono" style="margin:0;max-width:250px;line-height:1.7;">SaaS stack guides and software comparisons, for people who have to actually pick one.</p>
+      </div>
+      <div class="fcol">
+        <div class="lbl" style="color:#6B6D62;margin-bottom:4px;">Site</div>
+        <a href="#why">Why it's hard</a>
+        <a href="#how">How it works</a>
+        <a href="#coverage">What we cover</a>
+      </div>
+      <div class="fcol">
+        <div class="lbl" style="color:#6B6D62;margin-bottom:4px;">Trust</div>
+        <a href="#money">How we're paid</a>
+        <a href="#money">Independence</a>
+        <a href="#money">Corrections</a>
+      </div>
+      <div class="fcol">
+        <div class="lbl" style="color:#6B6D62;margin-bottom:4px;">Contact</div>
+        <a href="mailto:hello@cinchstack.com">hello@cinchstack.com</a>
+        <a href="#signup">Get early access</a>
+      </div>
+    </div>
+    <hr class="rd">
+    <div style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:24px 0 40px;">
+      <div class="mono" style="font-size:12px;color:#6B6D62;">&copy; 2026 CinchStack</div>
+      <div class="mono" style="font-size:12px;color:#6B6D62;">Independent. Reader-funded.</div>
+    </div>
+  </div>
+</footer>
 
 <script>
   (function () {
-    var form = document.getElementById("signup-form");
-    var note = document.getElementById("form-note");
-    var success = document.getElementById("form-success");
-
+    /* --- Netlify Forms, submitted over fetch so the page can show a success state --- */
     function encode(data) {
-      return Object.keys(data)
-        .map(function (key) { return encodeURIComponent(key) + "=" + encodeURIComponent(data[key]); })
-        .join("&");
+      return Object.keys(data).map(function (k) {
+        return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+      }).join("&");
     }
 
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var button = form.querySelector("button");
-      var email = form.querySelector('input[name="email"]').value;
-      var bot = form.querySelector('input[name="bot-field"]').value;
+    Array.prototype.forEach.call(document.querySelectorAll(".js-signup"), function (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var button = form.querySelector("button");
+        var email = form.querySelector('input[name="email"]').value;
+        var bot = form.querySelector('input[name="bot-field"]').value;
+        if (bot) return; /* honeypot tripped — drop silently */
 
-      if (bot) return; // honeypot tripped, silently drop
+        button.disabled = true;
+        button.textContent = "Sending…";
 
-      button.disabled = true;
-      button.textContent = "Sending…";
-
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "signup", email: email })
-      })
-        .then(function () {
-          form.classList.add("hide");
-          note.classList.add("hide");
-          success.classList.add("show");
-        })
-        .catch(function () {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "signup", email: email })
+        }).then(function () {
+          form.parentNode.classList.add("is-done");
+        }).catch(function () {
           button.disabled = false;
-          button.textContent = "Notify me";
-          note.textContent = "Something went wrong — please try again.";
+          button.textContent = "Get early access";
+          var note = form.parentNode.querySelector(".subnote");
+          if (note) note.textContent = "Something went wrong — please try again.";
         });
+      });
     });
+
+    /* --- draw the cinch line when it scrolls into view --- */
+    var drawn = document.querySelectorAll(".draw");
+    if ("IntersectionObserver" in window && drawn.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) { entry.target.classList.add("in"); io.unobserve(entry.target); }
+        });
+      }, { threshold: 0.4 });
+      Array.prototype.forEach.call(drawn, function (el) { io.observe(el); });
+    } else {
+      Array.prototype.forEach.call(drawn, function (el) { el.classList.add("in"); });
+    }
   })();
 </script>
 </body>
