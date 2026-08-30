@@ -197,6 +197,11 @@
   .legend span { display: inline-flex; align-items: center; gap: 7px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--mute-dark); }
   .legend i { width: 10px; height: 10px; display: block; }
 
+  .about-grid { display: grid; grid-template-columns: 300px 1fr; gap: 48px; align-items: start; }
+  .about-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .about-links a { color: var(--accent-lift); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; }
+  .about-links a:hover { color: #FFFFFF; }
+
   footer { background: var(--ink); color: var(--on-dark); }
   .fcols { display: grid; grid-template-columns: 1.6fr repeat(3, minmax(0, 1fr)); gap: 40px; padding: 52px 0 56px; }
   .fcols a, .fcols p { font-size: 14px; color: var(--mute-dark); overflow-wrap: anywhere; }
@@ -233,6 +238,7 @@
     .verdict { grid-template-columns: 1fr; }
     .fcols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; padding: 34px 0 40px; }
     .fcol a { padding: 6px 0; }
+    .about-grid { grid-template-columns: 1fr; gap: 20px; }
   }
   /* the nav CTA can't sit beside the wordmark this narrow; the hero form is right below it */
   @media (max-width: 430px) {
@@ -240,6 +246,46 @@
     .nav { height: 76px; }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cinchstack.com/#org",
+      "name": "CinchStack",
+      "url": "https://cinchstack.com/",
+      "description": "Independent SaaS stack guides and software comparisons, funded by disclosed affiliate commission rather than paid placement.",
+      "founder": {
+        "@id": "https://cinchstack.com/#rohail-nisar"
+      },
+      "publishingPrinciples": "https://cinchstack.com/#money"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cinchstack.com/#rohail-nisar",
+      "name": "Rohail Nisar",
+      "url": "https://cinchstack.com/#about",
+      "jobTitle": "Founder",
+      "description": "Founder of CinchStack, an independent publisher of hands-on SaaS stack guides and software comparisons. Responsible for the testing approach and the funding-disclosure policy the site publishes under.",
+      "email": "rohail.nisar786@gmail.com",
+      "worksFor": {
+        "@id": "https://cinchstack.com/#org"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/rohailnisarahmad/",
+        "https://github.com/rohail524823",
+        "https://www.upwork.com/freelancers/rohailnisaracademy"
+      ],
+      "knowsAbout": [
+        "SaaS tool selection",
+        "Software comparison",
+        "SaaS pricing and total cost of ownership"
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -596,6 +642,24 @@
         <div class="listrow"><b>Tools with no programme rank the same</b><span>Plenty of the best software pays nothing to anybody. It wins guides here anyway.</span></div>
         <div class="listrow" style="border-bottom:0;"><b>Corrections are public</b><span>When we get something wrong, the guide says what changed and when — we don't quietly edit.</span></div>
       </div>
+
+      <div id="about" style="grid-column:1 / -1;">
+        <hr class="rd" style="margin-bottom:34px;">
+        <div class="about-grid">
+          <div>
+            <div class="lbl" style="color:#6B6D62;margin-bottom:14px;">Who's behind this</div>
+            <div class="d" style="font-size:30px;margin-bottom:8px;">Rohail Nisar</div>
+            <div class="lbl" style="color:var(--accent-lift);">Founder</div>
+          </div>
+          <div>
+            <p style="margin:0 0 20px;color:var(--mute-dark);">CinchStack is run by one person, not an anonymous review desk. I set the testing approach and the funding disclosure above, and every recommendation the site publishes goes out under my name.</p>
+            <div class="about-links">
+              <a href="https://www.linkedin.com/in/rohailnisarahmad/" rel="me noopener" target="_blank">LinkedIn</a>
+              <a href="https://github.com/rohail524823" rel="me noopener" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -645,7 +709,7 @@
       <div class="fcol">
         <div class="lbl" style="color:#6B6D62;margin-bottom:4px;">Trust</div>
         <a href="#money">How we're paid</a>
-        <a href="#money">Independence</a>
+        <a href="#about">Who's behind this</a>
         <a href="#money">Corrections</a>
       </div>
       <div class="fcol">
