@@ -1,0 +1,5 @@
+---
+import { longDate } from '../lib/format.mjs';
+interface Props { modified: string; published: string }
+---
+<p class="updated">First published {longDate(Astro.props.published)} · Last updated <time datetime={Astro.props.modified}>{longDate(Astro.props.modified)}</time></p>

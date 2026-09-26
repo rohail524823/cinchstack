@@ -1,0 +1,138 @@
+SOURCE: https://help.shopify.com/en/manual/your-account/manage-billing/managing-your-bills/billing-plan-changes
+FETCHED: 2026-09-26T21:52:58.587Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Managing your bills
+Managing your Shopify billing plan changes
+
+You can change your Shopify plan at any time. Upgrading or downgrading your plan has billing implications, and some changes require specific permissions.
+
+On this page
+Billing options for changing your Shopify plan
+Review your current plan
+Change your store's subscription plan
+Before you contact Shopify Support about a plan change issue
+Billing options for changing your Shopify plan
+
+You can switch to any plan that's currently available, as listed on Shopify's pricing page. If you're on a discontinued plan, then you can't switch back to it after changing plans or pausing your store.
+
+Note
+
+If you change the billing cycle during your plan modification (either upgrading or downgrading), then an immediate bill for your current plan is issued and a new billing cycle starts for your new plan. If you don't change the billing cycle, then your payments adjust according to the current billing period.
+
+Billing implications of upgrading your plan
+
+Be aware of the following billing implications when you upgrade your plan:
+
+Immediate billing: Upon upgrading your plan, you receive an immediate bill that covers only the subscription fee for your new plan.
+Pending charges: The immediate bill doesn't cover any outstanding charges on your account. These charges are added separately and billed after they exceed your billing threshold or at the close of your billing cycle.
+Immediate activation: Features associated with your new plan take effect immediately when you upgrade.
+Prorated adjustments: Billing adjustments for your new plan are prorated from the upgrade date. This means any difference in cost is calculated based on the number of days remaining in your billing cycle.
+Previous plan deductions: The cost of your previous plan is also prorated and subtracted from the total cost of your new plan during that month.
+Annual cycle considerations: If you switch to an annual billing cycle, then a new billing cycle starts. If your new plan has a lower subscription fee, then you receive a prorated bill reflecting this reduction.
+Shipping carrier information reset: If you switch from a monthly to an annual billing cycle on either the Basic or Grow plan, then your shipping carrier information resets. You need to re-enter this information for each shipping carrier.
+Billing implications of downgrading your plan or changing your billing cycle
+
+Be aware of the following billing implications when you downgrade your plan or change your billing cycle:
+
+Pre-paid plans: Your Shopify plan is pre-paid, meaning that any changes to a lower plan take effect at the end of your current billing cycle.
+End-of-cycle changes: Any modifications to your plan are implemented at the end of your current billing cycle, not immediately.
+Changing billing cycles: If you switch from an annual billing cycle to a monthly one, then the change takes effect at the end of your existing annual cycle.
+Shipping carrier information reset: If you switch from a monthly to an annual billing cycle on either the Basic or Grow plan, then your shipping carrier information resets. You need to re-enter this information for each carrier.
+Examples:
+Changing to the Basic plan: If you want to downgrade to the Basic plan, then the change takes effect at the end of your current billing cycle. You stay on your current plan until the billing cycle ends.
+Changing to monthly payment cycle: If you request a change to a monthly payment cycle but are still charged the annual amount, then the switch occurs at the end of your current annual billing cycle. For example, if your annual billing cycle ends on October 31, then your account displays the annual charge until that date. Switching from annual billing to monthly might result in the loss of features or benefits included with your annual plan. To switch to monthly billing, contact Shopify Support before your annual cycle ends.
+Required permissions for plan modifications
+
+To modify your plan, either for an upgrade or a downgrade, the store owner or a staff member with the Manage plan permission must authorize the change.
+
+Impact of upgrading during a free trial on your Shopify plan
+
+If you upgrade your plan during a free trial, then it won't change the length of the trial or affect your store data. You won't be charged until your free trial ends. Learn more about trying Shopify with a free trial.
+
+If you're on promotional pricing after your free trial ends, then refer to monthly plan promotional pricing for details on how plan changes interact with promotional offers.
+
+Changing plans or billing cycles during a promotional trial
+
+If you're on a promotional trial, then plan changes work differently than during a free trial:
+
+Changing to a different plan tier: Your new plan takes effect immediately. The promotional pricing carries over for the remainder of the original promotional period and the end date doesn't reset. You receive a prorated invoice at the time of the change at the promotional price, not the new plan's full price. After the promotion ends, you pay the new plan's standard rate. If you change to a plan that the promotion doesn't cover, such as the Plus plan, then the promotional pricing doesn't apply to the new plan.
+Changing from monthly to annual billing: The billing cycle change takes effect after the promotional trial ends. During the promotional trial, you continue to pay the promotional price per month. After the trial ends, the annual billing cycle starts and you're charged the full annual amount upfront.
+Changing from annual to monthly billing: To make this change, go to Settings > Plan and select the monthly billing option. Review the billing cycle considerations before confirming the change.
+Confirm your current billing cycle
+
+To confirm the current billing cycle and when changes take effect:
+
+From your Shopify admin, go to Settings > Plan.
+
+In the Plan details section, review the billing cycle and any scheduled changes.
+
+Review your current plan
+Desktop
+
+From your Shopify admin, go to Settings > Plan.
+
+Review your current plan.
+
+Mobile
+Change your store's subscription plan
+Note
+
+When upgrading to the Plus plan, you might want to update your billing currency before upgrading. Local currency billing for new merchants on the Plus plan is available in India (INR), European Union countries (EUR), the United Kingdom (GBP), Australia (AUD), Japan (JPY), and Canada (CAD). If your billing address isn't located in those countries, then your billing currency is USD. Learn more about changing your billing currency.
+
+Tip
+
+To see more videos, visit our YouTube channel.
+
+Steps:
+Desktop
+
+From your Shopify admin, go to Settings > Plan.
+
+Click Change plan, Choose plan, or Select plan.
+
+Review the currently available plans. Depending on the plan that you want to change to, click Select Basic, Select Grow, Select Advanced, or Select Plus.
+
+Select a billing cycle and read the description of the credit card charges that you're agreeing to.
+
+If a saved payment method from another Shopify store is available, then you can select it instead of entering a new payment method. For security, you might need to enter the card's security code before you subscribe.
+
+Click Subscribe to accept the new agreement.
+
+If you click Select Plus, then complete the following steps to verify your identity:
+
+In the Verify your identity to confirm subscription dialog, click Go to Stripe.
+Review the terms, and then click Agree and continue.
+A QR code is displayed for you to scan with your camera on your mobile device. Click Other options to select Email link, Text link, Copy link, or Continue on this device.
+Get your government-issued photo ID ready to take pictures of the front and back.
+In the Get ready to scan your ID dialog, click I'm ready.
+Take a picture of the front of your photo ID, and then click Submit photo or Retake photo to try again.
+Click I'm ready to submit the back of your photo ID.
+Take a picture of the back of your photo ID, and then click Submit photo or Retake photo to try again.
+A confirmation message is displayed when the verification is successful. If you receive an error, then you can try clicking Subscribe to verify with a different government-issued photo ID.
+Mobile
+Before you contact Shopify Support about a plan change issue
+
+Before contacting Shopify Support about a plan change issue, gather the following information to help resolve your issue faster:
+
+Your store URL and account email address
+Your current plan and the plan you want to change to
+The date the plan change was requested and whether it was an upgrade or downgrade
+The billing cycle you're on (monthly or annual) and the date it resets
+Any error messages that are displayed when attempting the plan change
+Screenshots of the billing discrepancy, if applicable
+Steps you've already tried, including verifying your plan in Settings > Plan
+
+This information helps Shopify Support assist you more efficiently.
+
+Note
+
+To switch from annual billing to monthly billing, you need to contact Shopify Support before your annual cycle ends. This change can't be made on your own through the Shopify admin.
+
+Leave feedback
+Chat with a human

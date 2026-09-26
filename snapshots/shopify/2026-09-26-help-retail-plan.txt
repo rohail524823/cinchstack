@@ -1,0 +1,55 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-retail-plan
+FETCHED: 2026-09-26T21:46:59.705Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+Retail plan
+Note
+
+The Retail plan isn't available to new stores. If you're a merchant currently on the Retail plan and you decide to change your plan, then you can't revert back to the Retail plan.
+
+The Retail plan is for retail businesses that sell in store and also want to have a simple online presence. It offers all the features of the Starter plan, along with multiple Shopify POS app features.
+
+The Retail plan provides you with features to manage staff, inventory, and customers, and with tools to create a simple online store.
+
+View pricing plans
+On this page
+Available features on the Retail plan
+Unavailable features on the Retail plan
+Available features on the Retail plan
+
+In addition to the features available on all plans, and the features available on the Starter plan, the Retail plan offers the following features:
+
+Feature	Description
+Shopify POS app	The Retail plan comes with the following Shopify POS app features:
+One Shopify POS Pro location. You can add additional POS Pro locations from the POS sales channel.
+Unlimited Shopify POS staff accounts.
+Professional reports.
+Unlimited registers.
+Customer relationship tools.
+Inventory management tools.
+Flexible shopping options, such as in-store shopping, in-store pickup, returns and exchanges at any location.
+Data security payment card industry (PCI) compliance.
+24/7 retail support.
+
+Spotlight theme	
+
+With the Retail plan you can use only the Spotlight theme. You can't use any other theme with the Retail plan.
+
+You can use the theme editor to add a logo, a cover image, a brand introduction, a slogan, and social media links. You can also customize the colors of your theme. Further customization options aren't available on the Retail plan.
+
+Transaction fees	The Retail plan offers competitive transaction fees. Review the Retail plan to find the specific transaction fees for your region.
+Unavailable features on the Retail plan
+
+On the Retail plan, you're limited to using only the Spotlight theme. Other Shopify themes, aren't available with this plan.
+
+Unavailable feature	Description
+Themes by Shopify except for the Spotlight theme	If you're subscribed to the Retail plan, then themes by Shopify, with the exception of the Spotlight theme, aren't available with this plan. For example, popular themes such as Dawn, Colorblock, or Crave can't be used if you're on the Retail plan.
+Leave feedback
+Chat with a human

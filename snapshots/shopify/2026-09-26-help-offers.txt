@@ -1,0 +1,81 @@
+SOURCE: https://help.shopify.com/en/manual/your-account/manage-billing/offers
+FETCHED: 2026-09-26T21:51:51.456Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Managing your Shopify billing
+Shopify offers and promotions
+
+Offers are special promotions that can help you save on costs or access additional benefits as Shopify merchant. Eligibility varies by offer, and terms and conditions apply. Review the terms of the individual promotion for details and requirements.
+
+On this page
+Monthly plan promotional pricing
+Domain offer
+Shopify Rewards Promotion
+Troubleshooting pricing and offer display
+Before you contact Shopify Support about an offer or promotion
+Monthly plan promotional pricing
+
+Shopify might offer promotional pricing on monthly plans for new merchants, such as a reduced rate for a set period after your free trial ends. For information on eligibility, plan changes during the offer, end-of-offer requirements, and options if you're not ready to launch, refer to monthly plan promotional pricing.
+
+Domain offer
+
+You might be eligible to earn subscription credits towards future bills when you transfer a third-party domain to Shopify, buy a domain through Shopify, or connect a third-party domain to Shopify. The amount is displayed in your Shopify admin.
+
+After you connect, purchase, or transfer a domain, you'll receive the subscription credits amount displayed in your admin. The credits apply to your future subscription costs and you'll receive an email confirmation when they're applied.
+
+Only new merchants are eligible for the offer. Review the Terms and Conditions for more details. The domain must be claimed within 180 days of selecting an eligible Shopify plan. You can earn credits toward a maximum of 1 domain for a single Shopify store and up to 5 stores on your Shopify account.
+
+Shopify Rewards Promotion
+
+The Shopify Rewards Promotion lets you earn subscription credits based on your monthly sales. Only new merchants are eligible for the promotion. Review the Terms and Conditions for more details.
+
+The promotion period is during your first 6 months or until you reach the maximum credits for your plan, which begins after you sign up for a Shopify plan and pay your first invoice. During the promotion period, you can earn 1% back on all transactions processed through Shopify Payments and 0.5% back on all transactions processed through other payment providers. Maximum credits are set by plan type. Plan caps are localized per country. The following is an example of 1% back in USD markets:
+
+Basic plan: up to a maximum of $5,000 USD back in credits for $500,000 USD in sales processed through Shopify Payments.
+Grow plan: up to a maximum of $7,500 USD back in credits for $750,000 USD in sales processed through Shopify Payments.
+Advanced plan: up to $10,000 USD back in credits for $1,000,000 USD in sales processed through Shopify Payments.
+Plus plan through self-serve enrollment:
+1 year contracts: up to a maximum of $10,000 USD back in Credits for $1,000,000 USD in sales
+3 year contracts: up to a maximum of $15,000 USD back in Credits for $1,500,000 USD in sales.
+
+Your subscription credits are automatically added to your upcoming subscription bill every month after you reach $1,000 USD (or local equivalent) in sales in your local currency. If you cancel your subscription at any time, then you will lose your earned credits.
+
+Review your available subscription credits
+
+During the promotion period, your subscription credits are added to your store every month in your shop's local billing currency. You can review your rewards and how much you've earned in your Shopify admin.
+
+Steps:
+
+From your Shopify admin, go to Settings > Billing.
+
+If you've earned any subscription credits, then in the Upcoming bill section, click View breakdown.
+
+In the Breakdown dialog, view credits that you have available in any credit category.
+
+Troubleshooting pricing and offer display
+Troubleshoot admin price differing from the Shopify pricing page
+Before you contact Shopify Support about an offer or promotion
+
+Before reaching out to Shopify Support about an offer or promotion, gather the following information to help resolve your issue faster:
+
+Your store URL and account email address
+The name of the offer or promotion (such as domain credit, Shopify Rewards, or a promotional plan rate)
+The date you signed up and the date you became eligible for the offer
+The amount you expected to receive and when
+Screenshots of any offer details or error messages that are displayed
+Whether you've completed all required steps (such as purchasing or transferring a domain within the 180-day window)
+Steps you've already tried, such as checking your available credits in Settings > Billing
+
+Having this information ready helps Shopify Support assist you more efficiently.
+
+Caution
+
+Shopify Support can help investigate missing credits and verify offer eligibility, but can't override Terms and Conditions or apply offers retroactively if the eligibility window has passed.
+
+Leave feedback
+Chat with a human

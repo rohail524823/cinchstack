@@ -1,0 +1,156 @@
+SOURCE: https://www.klaviyo.com/pricing
+FETCHED: 2026-09-26T22:08:40.767Z
+RENDERER: headless Chromium, en-US, US timezone
+METHOD: Clicked the "Composer" pricing tab, then clicked each of the 7 FAQ questions to expand the answers; saved document.body.innerText.
+----
+___
+Skip to main content
+Platform
+Apps & Integrations
+Resources
+What’s New
+Pricing
+Log in
+Sign up
+Get a demo
+Home/Pricing
+Klaviyo pricing:
+Build your plan
+
+Find what needs attention, decide what to do next, and get the work done faster with an AI marketing agent grounded in your business.
+
+Platform
+GET STARTED
+Free
+SOLUTIONS PRICING
+Marketing
+Data + Analytics
+Service
+30% OFF
+AI AGENTS
+Composer
+Customer Agent
+30% OFF
+TALK TO SALES
+Professional Services
+Enterprise
+Composer
+
+Surface what needs attention, decide what to do next, and get the work done faster with an AI marketing agent grounded in your business.
+
+Composer
+
+Create, analyze, and automate more with Composer.
+
+Add to plan
+$20month
+What's included
+
+Additional Composer usage can be purchased in $10 increments.
+
+$1
+🇺🇸
+USD
+
+per month
+
+Estimated total price
+
+Email
+$1
+
+Included in every plan
+
+Standard support
+Included
+Total estimated
+$1.00
+Get started
+Frequently asked questions
+What can I do with Composer?
+How much does Composer cost?
+Is there a free version of Composer?
+How does Composer usage work?
+Every plan has a usage limit that resets monthly, with a maximum usage limit based on credits. Your Composer usage can vary based on the type and complexity of the work Composer performs. You can track your usage in the Billing tab.
+What happens when I use all of my credits?
+Do unused credits roll over?
+Why use Composer instead of a general-purpose AI tool?
+Composer is built for marketing and works directly in Klaviyo. It uses your customer data, brand context, campaign history, and marketing performance to deliver more relevant analysis, recommendations, and content—and helps you turn those insights into action without leaving Klaviyo.
+COMPANY
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+KLAVIYO FOR
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+PLATFORM
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+WHY KLAVIYO
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+CHANNELS
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOOLS + RESOURCES
+Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+TOP PRODUCTS + FEATURES
+Composer
+PREVIEW
+Customer Agent
+Customer Hub
+Helpdesk
+Personalization
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+EXPLORE MORE
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices
+Cookie Settings
+Your Privacy Preferences

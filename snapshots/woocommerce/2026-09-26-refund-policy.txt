@@ -1,0 +1,154 @@
+SOURCE: https://woocommerce.com/refund-policy/
+FETCHED: 2026-09-26T21:58:31.706Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Refund Policy
+
+We want to ensure that you are 100% happy with your purchase from the Woo Marketplace.
+
+For technical or sales queries, please contact us.
+If you have attempted to resolve issues with Support and still feel the product(s) you purchased do not best fit your requirements, we want to make things right.
+
+When requesting a refund, we’d appreciate you taking a moment to let us know why. We’re always looking to improve, so please include details about the reason for your refund request.
+
+Extensions and themes
+WooPayments In-Person Payments card readers
+Refund processing times
+Requesting a refund
+Extensions and themes
+
+For extensions and themes purchased from our Marketplace, we offer a full refund within 30 days of your date of purchase. Here’s how to request a refund for an extension or theme.
+
+WooPayments In-Person Payments card readers
+
+We offer a 30-day refund policy for purchases of WooPayments In-Person Payments card readers — the M2 or WisePad 3. Please contact Support to start this process. Refunds will be applied to the original purchase method on file. 
+
+Review our card reader return requirements.
+
+Refund processing times
+
+WooCommerce.com and our payment processor submit the refund immediately and make every attempt to process it as quickly as possible. Your financial institution can take up to 10 business days for the refund to appear in your bank account or on your card. Read more details on customer refund processing time.
+
+The refund process depends on the product or service purchased from WooCommerce.com. Please note that products using the Billing API for SaaS Products are subject to the respective third-party’s refund policy.
+
+Requesting a refund
+Extensions and themes
+WooPayments In-Person Payments Card Reader
+Extensions and themes
+
+To request a refund for an extension or theme subscription purchased from the WooCommerce.com Marketplace:
+
+Go to your orders at WooCommerce.com > Orders.
+Select the order number of the product you want to refund.
+Use the vertical ellipsis icon (three dots) in the Actions column for the item you want to refund.
+Note: The refund option via the ellipsis icon will only appear within the 30-day refund window.
+Select the link to Request a refund; a form will appear.
+Select a refund reason from the drop-down menu and add your reason for the refund request.
+Use the Request refund button to submit the form.
+
+An automated response confirming receipt is sent to the email address associated with your account. Often the refund will be processed immediately; if we need to review the request, we will be in touch with next steps.
+
+WooCommerce.com single order view with Request a refund option showing.
+
+WooPayments In-Person Payments card readers
+Return requirements
+
+M2 units and WisePad 3 units must be in their original packaging, and in good, original condition. You must return all products, cords, and cables, including parts and documentation that were included in the original packaging.
+
+In order to begin the refund process, please take the following steps:
+
+Locate the order number from your original order confirmation email or account dashboard.
+Submit a Support request with the subject line “Return Card Reader“.
+Once we’ve received your request, our Support team will respond and outline the next steps.
+
+If you’re outside of the 30-day return policy, we will not accept returns or refunds on the card readers. However, we want to ensure that you have the best customer experience, and are happy to help you troubleshoot or work through any issue with your card reader.
+
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+PRODUCTION
+Use of your personal data
+We and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.
+Customize
+Accept all

@@ -1,0 +1,8 @@
+---
+import { resolveLink } from '../lib/affiliate.mjs';
+interface Props { tool: string; href?: string; page: string; placement: string; label: string; variant?: 'button' | 'inline' }
+const { tool, href, page, placement, label, variant = 'button' } = Astro.props;
+const l = resolveLink(tool, { href, page });
+const cls = variant === 'inline' ? (l.paid ? 'aff-inline' : undefined) : (l.paid ? 'btn btn-aff' : 'btn');
+---
+<Fragment set:html={`<!-- ${l.marker} -->`} /><a class={cls} href={l.href} rel={l.rel} target="_blank" data-tool={tool} data-placement={placement} data-paid={l.paid ? '1' : '0'}>{label}{variant === 'button' && <span aria-hidden="true"> →</span>}</a>

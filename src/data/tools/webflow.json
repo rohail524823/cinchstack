@@ -1,0 +1,37 @@
+{
+  "id": "webflow",
+  "name": "Webflow",
+  "vendor": "Webflow, Inc.",
+  "tier": "core",
+  "layer": "site",
+  "category": "Website builder and CMS",
+  "url": "https://webflow.com",
+  "pricingUrl": "https://webflow.com/pricing",
+  "oneLiner": "Visual website builder with a built-in CMS and hosting, billed as a Site plan for each published site plus a Workspace where extra editors are paid seats.",
+  "summary": "Webflow is a visual site builder that gives designers control over layout and code and hosts the result, with a CMS for blogs and other structured content. Each site published to a custom domain needs its own Site plan (Premium is the CMS plan), and everyone besides the Workspace owner needs a paid seat, so the bill grows with both editors and traffic. Since May 2026 Premium includes 50 GB of bandwidth a month, and more is sold in tiers up to 2.5 TB.",
+  "bestFor": ["agency", "saas-startup", "freelancer"],
+  "notFor": [
+    "Sites with heavy traffic that want a flat price, since bandwidth past 50 GB a month is billed in tiers",
+    "Stores that need a full ecommerce back office (Standard is capped at 500 items and adds a 2% fee)",
+    "Owners who want a simple template editor with no design learning curve"
+  ],
+  "pros": [
+    "Premium includes 20,000 CMS items and 40 Collections for $39/mo month-to-month or $25/mo billed yearly",
+    "Content editors can be added as $19/mo Limited seats without upgrading the free Starter Workspace",
+    "Custom code and code components on paid Site plans, and HTML/CSS export on paid Workspace plans",
+    "The first month over the bandwidth limit is not charged, and Webflow notifies you before any upgrade",
+    "New Site and Workspace plan purchases are refundable within 14 days, monthly or annual",
+    "The free Starter plan has no time limit for building and testing on a webflow.io subdomain"
+  ],
+  "cons": [
+    "Bandwidth is metered: Premium includes 50 GB a month, and at 1 TB it costs $599/mo month-to-month",
+    "Bot traffic counts toward bandwidth, and two months in a row over the limit triggers a non-refundable automatic upgrade",
+    "Site plans and Workspace seats are separate bills, so the real cost is harder to predict than a single plan price",
+    "Seats, add-ons and renewals are non-refundable, and cancelling still leaves you paying the rest of the term",
+    "Ecommerce Standard adds a 2% transaction fee on top of Stripe or PayPal fees",
+    "Leaving is work: code export needs a paid Workspace plan, CMS content exports one Collection at a time, and forms stop working"
+  ],
+  "founded": 2013,
+  "hq": "San Francisco, California, US",
+  "affiliate": { "program": "webflow" }
+}

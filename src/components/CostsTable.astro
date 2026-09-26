@@ -1,0 +1,37 @@
+---
+import { price, tool } from '../lib/data.mjs';
+import Fig from './Fig.astro';
+interface Props { id: string }
+const t = tool(Astro.props.id);
+const p = price(Astro.props.id);
+const planName = (id) => p.plans.find((x) => x.id === id)?.name ?? id;
+const SHOW = 8; // longer tables show the first rows and fold the rest
+const head = (a) => a.slice(0, SHOW);
+const rest = (a) => a.slice(SHOW);
+const addOnRow = (a) => ({ name: a.name, v: a.price, unit: a.unit, note: [a.appliesTo?.length ? `Plans: ${a.appliesTo.map(planName).join(', ')}.` : '', a.note ?? ''].join(' ').trim() || '—' });
+const usageRow = (u) => ({ name: u.name, v: u.rate, unit: u.unit, note: u.note ?? '—' });
+---
+{p.addOns.length > 0 && (<>
+  <p class="table-lead">{p.addOns.length} paid add-on{p.addOns.length > 1 ? 's' : ''} {t.name} sells on top of the plans, with the price and what each is charged per.</p>
+  {[head(p.addOns), rest(p.addOns)].map((rows, i) => rows.length > 0 && (() => { const tbl = (
+    <div class="tbl-wrap"><table class="data stack">
+      <thead><tr><th scope="col">Add-on</th><th scope="col" class="num">Price</th><th scope="col">Charged</th><th scope="col">Notes</th></tr></thead>
+      <tbody>{rows.map(addOnRow).map((r) => <tr><th scope="row">{r.name}</th><td class="num" data-label="Price"><Fig v={r.v} /></td><td data-label="Charged">{r.unit}</td><td data-label="Notes">{r.note}</td></tr>)}</tbody>
+    </table></div>); return i === 0 ? tbl : <details class="more"><summary>Show {rows.length} more add-ons</summary>{tbl}</details>; })())}
+</>)}
+{p.usage.length > 0 && (<>
+  <p class="table-lead">{p.usage.length} usage-based charge{p.usage.length > 1 ? 's' : ''}: what {t.name} bills per unit on top of the subscription.</p>
+  {[head(p.usage), rest(p.usage)].map((rows, i) => rows.length > 0 && (() => { const tbl = (
+    <div class="tbl-wrap"><table class="data stack">
+      <thead><tr><th scope="col">Usage</th><th scope="col" class="num">Rate</th><th scope="col">Per</th><th scope="col">Notes</th></tr></thead>
+      <tbody>{rows.map(usageRow).map((r) => <tr><th scope="row">{r.name}</th><td class="num" data-label="Rate"><Fig v={r.v} /></td><td data-label="Per">{r.unit}</td><td data-label="Notes">{r.note}</td></tr>)}</tbody>
+    </table></div>); return i === 0 ? tbl : <details class="more"><summary>Show {rows.length} more usage rates</summary>{tbl}</details>; })())}
+</>)}
+{p.extraCosts.length > 0 && (<>
+  <p class="table-lead">Other costs that change the real bill: fees, processing and one-time charges.</p>
+  {[head(p.extraCosts), rest(p.extraCosts)].map((rows, i) => rows.length > 0 && (() => { const tbl = (
+    <div class="tbl-wrap"><table class="data stack">
+      <thead><tr><th scope="col">Cost</th><th scope="col">Amount</th><th scope="col">Notes</th></tr></thead>
+      <tbody>{rows.map((x) => <tr><th scope="row">{x.label}</th><td data-label="Amount">{x.amount !== null && x.kind !== 'percent-of-sales' ? <data value={String(x.amount)} data-fig>{x.display}</data> : x.display}</td><td data-label="Notes">{x.note ?? '—'}</td></tr>)}</tbody>
+    </table></div>); return i === 0 ? tbl : <details class="more"><summary>Show {rows.length} more costs</summary>{tbl}</details>; })())}
+</>)}

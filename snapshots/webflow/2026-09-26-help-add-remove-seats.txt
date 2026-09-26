@@ -1,0 +1,192 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961265346451-Add-or-remove-seats-and-manage-members
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961265346451.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:30.326673Z
+ARTICLE UPDATED: 2026-09-02T21:01:24Z | EDITED: 2026-09-02T21:01:24Z
+RENDERER: curl + HTML-to-text of article body
+----
+Add or remove seats and manage members
+
+Learn how to manage seats and members in your Workspace.
+A seat is an available spot for a team member to join your Workspace. Owners and Admins can add or remove seats from the Workspace’s Team settings to create a flexibly-sized, collaborative environment. You can choose from three seat types, based on which Workspace role the teammate will take.
+Compare the types of seats
+Each seat type is associated with workspace roles that you can set when you assign the team member.
+
+Seat type |
+Workspace role |
+Seat limit per Workspace |
+
+Full seat |
+Admin, Site admin, or Designer |
+Unlimited |
+
+Limited seat |
+Marketer or Content editor |
+Unlimited |
+
+Free seat |
+Reviewer |
+100 |
+
+How to add and remove seats
+
+Note
+
+By default, all Workspaces require at least one full seat for you, the Workspace owner.
+
+Add seats to your Workspace
+To add seats to your workspace:
+
+- Go to Workspace Settings > Team
+
+- Click Manage Seats
+
+- Click the “plus” icon next to the seat type you want to increase
+
+- Click Pay now to immediately charge the card on file and finalize your new seat count
+
+Enterprise customers can request additional seat packs here.
+Remove seats from your Workspace
+
+Note
+
+By default, all Workspaces require at least one full seat for you, the Workspace owner.
+
+To remove seats from your Workspace:
+
+- Go to Workspace Settings > Team
+
+- Click Manage Seats
+
+- Click the “minus” icon next to the seat type you want to decrease
+
+- Remove team members if your reduced seat count is fewer than your total number of Workspace members
+
+- Click Pay now to finalize your new seat count
+
+How to manage Workspace members
+Team members fill available seats in your Workspace. You can add a new member to an open seat or remove a member to free up a seat for someone else. If you don’t have an open Full or Limited seat for a new team member, you can add them and purchase a seat for them to fill during the invite process.
+Add a member to your Workspace
+
+Good to know
+
+You can also invite new Workspace members from a site’s Share button in Webflow.
+
+The invite flow varies depending on your plan. Some options, like site-specific access, may not appear in your Workspace, so the steps below could differ slightly.
+To invite a new member to fill a seat in your Workspace:
+
+- Go to Workspace Settings > Team
+
+- Click Invite member
+
+- Enter your teammate’s email address
+
+- Choose their Role and whether they Can publish
+
+- Assign site-specific access and CMS edit access if your plan supports it:
+- Click Select sites and choose which sites to invite them to
+
+- Click the Collections icon to choose which Collections they can edit (Enterprise plans and partners only)
+
+- Click Review to continue
+
+- Click Invite or Pay & invite if you’re purchasing a new seat
+
+Manage pending invites
+The invited member will receive an email notifying them of your Workspace invitation. Before they accept, you can cancel or resend the invite from the Team settings page:
+
+- Click the Options icon next to a member with an Invite pending status
+
+- Click Cancel invite or Resend invite
+
+Change a member's Workspace role
+
+Note
+
+If the member's new role requires they change seat types (e.g., from limited seat to full seat), the previously held seat (e.g., limited seat) will be removed from the Workspace. If applicable, you will be credited the balance.
+
+Review our roles and permissions overview to learn more about roles.
+To change a member's Workspace role:
+
+- Go to Workspace Settings > Team
+
+- Click the Role dropdown for a member
+
+- Choose their new role
+
+- Click Update role
+
+- Proceed with the Add a seat steps if the new role requires purchasing a seat
+
+Need to update more than one member? See Change roles for multiple members at once.
+Change roles for multiple members at once
+If you're on an Enterprise plan, you can select multiple Workspace members and change all their roles in one action instead of updating them one by one. Use the search bar or filters above the member list to narrow down who you want to select.
+To change roles for multiple members at once:
+
+- Go to Workspace Settings > Team > Users
+
+- Optional: Use the search and filter options above the members list to refine which members are shown
+
+- Select the checkbox next to each member whose role you want to change
+
+- Click Change role in the bulk action bar that appears
+
+- Choose the new role for the selected members
+
+- Click Update role to confirm
+
+If the new role needs more seats than you have available, none of the selected members' roles update until you add the seats you need. See Add seats to your Workspace.
+Export the Workspace members list to CSV
+Enterprise Workspaces let owners and admins download a copy of the members list to a CSV file. It includes the member's name, email, Workspace role, default Site role, and their status (i.e., active or invite pending).
+To export the member list as a CSV file:
+
+- Go to Workspace Settings > Team > Users
+
+- Click the Export CSV icon by the "Invite member" button
+
+Remove members from your Workspace
+
+Important
+
+Removing members from a Workspace does not also reduce the number of seats on your plan. If you want to also remove an open seat after removing a member, please remove seats from your Workspace plan.
+
+To remove a member from your Workspace:
+
+- Go to Workspace Settings > Team
+
+- Click the “three dots” icon next to the member’s role
+
+- Click Remove from Workspace
+
+- Type REMOVE to confirm
+
+You now have an open seat available and can invite a new member to fill that seat, or remove that seat if you no longer need it.
+Need to remove more than one member? See Remove multiple members at once.
+Remove multiple members at once
+If you're on an Enterprise plan, you can select multiple Workspace members and pending invites, then remove them all in one action instead of removing them one by one.
+To remove multiple members at once:
+
+- Go to Workspace Settings > Team > Users
+
+- Optional: Use the search and filter options above the members list to refine which members are shown
+
+- Select the checkbox next to each member or pending invite you want to remove
+
+- Click Remove from workspace in the bulk action bar that appears
+
+- Type REMOVE to confirm
+
+Removing members this way doesn't reduce your seat count. If you want to remove the open seats too, see Remove seats from your Workspace.
+Remove yourself from a Workspace
+To remove yourself from a Workspace:
+
+- Click the Workspaces dropdown menu
+
+- Click Manage Workspaces
+
+- Click the “three dots” icon next to the Workspace you want to leave
+
+- Click Leave Workspace
+
+Note
+
+You can’t remove yourself from a Workspace if you are the Workspace owner.

@@ -1,0 +1,193 @@
+SOURCE: https://woocommerce.com/document/roles-capabilities/
+FETCHED: 2026-09-26T22:00:28.894Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+WooCommerce
+Getting started
+Migrating to WooCommerce
+Products
+Expand
+Taxes
+Shipping
+Expand
+Payments
+Orders
+Data and reporting
+Customers
+Marketing
+Site administration
+Expand
+Store settings
+How-to guides
+Automation
+Performance
+Localization
+Security
+Store design
+Expand
+Mobile App
+Expand
+Get help
+Expand
+Documentation / WooCommerce / Site administration / Roles and Capabilities
+Roles and Capabilities
+WooCommerce user roles
+
+WooCommerce adds two user roles—Customer and Shop Manager—and extends the existing Administrator role with store management capabilities. Use these roles to control who can manage products, view reports, and configure store settings.
+
+To assign roles, go to Users > All Users in the WordPress admin, select a user, and choose a role from the Role dropdown.
+
+Administrator capabilities
+
+WooCommerce grants the existing Administrator user role two additional capabilities:
+
+Manage WooCommerce — Full access to all WooCommerce settings, including creating and editing products.
+View WooCommerce reports — Access to all WooCommerce analytics and reports.
+Customer role
+
+People become Customers when they register via the checkout or sign-up process. This role has limited access, similar to a standard WordPress Subscriber.
+
+Customers can perform the following actions:
+
+Read most site content.
+Edit their own account information.
+View past and present orders.
+Shop Manager role
+
+The Shop Manager role allows someone to manage your store without granting full Administrator access. Shop Managers have all the permissions of a Customer, plus these additional capabilities:
+
+Manage WooCommerce — Full access to all WooCommerce settings and configuration.
+View WooCommerce reports — Access to all WooCommerce analytics and reports.
+Manage products — Create, edit, delete, and publish products, including product categories and tags.
+Manage orders — View, edit, and delete orders, as well as process refunds.
+Manage coupons — Create, edit, delete, and publish coupons.
+Manage customers — View user details for all user roles, view and edit customer accounts and details.
+
+Shop Managers also have general WordPress editor capabilities, such as creating and editing posts and pages.
+
+Modify user roles and capabilities
+
+If you need to customize what each role can do, you can use an extension or plugin to adjust permissions without editing code. The following options are available as suggestions — WooCommerce does not endorse any specific third-party plugin:
+
+Questions and support
+
+Do you still have questions and need assistance? 
+
+This documentation is about the free, core WooCommerce plugin, for which support is provided in our community forums on WordPress.org. By searching this forum, you’ll often find that your question has been asked and answered before.
+
+If you haven’t created a WordPress.org account to use the forums, here’s how.
+
+If you’re looking to extend the core functionality shown here, we recommend reviewing available extensions in the WooCommerce Marketplace.
+Need ongoing advanced support or a customization built for WooCommerce? Hire a Woo Agency Partner.
+Are you a developer building your own WooCommerce integration or extension? Check our Developer Resources.
+
+If you weren’t able to find the information you need, please use the feedback thumbs below to let us know.
+
+User Roles Editor for WooCommerce — A WooCommerce extension that allows you to add, assign, and switch user roles within your store.
+Capability Manager Enhanced — A WordPress plugin that provides a detailed interface for editing role capabilities.
+Members — A WordPress plugin for managing user roles, capabilities, and content permissions.
+Groups — A WordPress plugin for managing group-based access control and permissions.
+
+WooCommerce support does not cover third-party plugins. For details, refer to the WooCommerce support policy.
+
+Developer reference
+
+This section contains developer-level details about WooCommerce role capabilities. If you are a developer customizing roles programmatically, the information below may be useful.
+
+WooCommerce registers the following capability slugs when assigning permissions to roles:
+
+manage_woocommerce — Grants access to WooCommerce settings and product management.
+view_woocommerce_reports — Grants access to WooCommerce reports.
+
+For a complete list of capabilities assigned to the Shop Manager role, see the create_roles method in class-WooCommerce-install.php in the WooCommerce GitHub repository.
+
+Was this guide helpful for you?
+ON THIS PAGE
+WooCommerce user roles
+Administrator capabilities
+Customer role
+Shop Manager role
+Modify user roles and capabilities
+Questions and support
+Developer reference
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+MEDLEY

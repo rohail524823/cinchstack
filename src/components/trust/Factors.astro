@@ -1,0 +1,16 @@
+---
+const ROWS = [
+  ['Real cost', 'At a typical small-business size, how far is the real monthly bill from the headline price once required add-ons and usage are counted?'],
+  ['Pricing honesty', 'Can a buyer work out the real cost from the vendor\'s own website, without booking a sales call?'],
+  ['Small-team fit', 'Can a small team set it up and run it without an agency, a developer or a week of onboarding?'],
+  ['Does the whole job', 'How completely does it cover its part of the stack, and how many other tools does it replace?'],
+  ['Freedom to leave', 'Can you export your data, cancel without a long contract, and move to something else without heavy cost?'],
+  ['Track record', 'Years in market, how often and how sharply prices have changed, and what is publicly known about reliability and support.'],
+];
+---
+<div class="tbl-wrap">
+  <table class="data stack">
+    <thead><tr><th scope="col">Factor</th><th scope="col">The question we ask</th></tr></thead>
+    <tbody>{ROWS.map(([f, q]) => <tr><th scope="row">{f}</th><td data-label="Question">{q}</td></tr>)}</tbody>
+  </table>
+</div>

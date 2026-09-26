@@ -1,0 +1,47 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/choosing-a-plan
+FETCHED: 2026-09-26T21:53:17.841Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Pricing plans
+Plan features
+Choosing the right plan
+
+The best plan for your business depends on your experience with ecommerce and your expected sales volume. Review the following plans:
+
+Basic plan: Best for new businesses that are ready to launch an online store and start making sales.
+Grow plan: Best for growing businesses with consistent sales that need more features, such as advanced reporting or additional staff accounts.
+Advanced plan: Best for high-volume businesses that need the lowest transaction fees, or businesses migrating from another platform. The Advanced plan also includes enhanced features for retail stores.
+On this page
+When to consider upgrading your plan
+When to consider upgrading your plan
+
+On higher-tier plans, credit card fees are lower. After your sales are high enough, these savings might cover the higher monthly plan cost. The exact point where upgrading saves you money depends on your location and whether you use Shopify Payments. Review the current rates on the Shopify pricing page.
+
+These estimates are based on the difference in credit card processing rates between plans. Your actual break-even point may vary.
+
+The following table displays estimated break-even points for the Grow plan:
+
+Grow plan break-even estimates
+Region	Using Shopify Payments	Not using Shopify Payments
+United States (US), United Kingdom (UK), and Ireland	$200,000 USD/year	$60,000 USD/year
+Canada, New Zealand	$300,000 USD/year	$60,000 USD/year
+Australia	$400,000 USD/year	$60,000 USD/year
+Singapore	$600,000 USD/year	$60,000 USD/year
+
+The following table displays estimated break-even points for the Advanced plan:
+
+Advanced plan break-even estimates
+Region	Using Shopify Payments	Not using Shopify Payments
+US, Australia	$1,320,000 USD/year	$528,000 USD/year
+Canada, UK, Ireland	$880,000 USD/year	$528,000 USD/year
+Singapore, New Zealand	$2,640,000 USD/year	$528,000 USD/year
+
+Review the current rates on the Shopify pricing page.
+
+Leave feedback
+Chat with a human

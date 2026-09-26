@@ -1,0 +1,455 @@
+SOURCE: https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=marketing-sms_1&term=annual&packs=CONTACTS_marketing-hub-professional_5000
+FETCHED: 2026-09-26T22:01:23.828Z
+RENDERER: headless Chromium, en-US, US timezone
+INTERACTION: accepted cookies ; clicked "View price breakdown"
+----
+___
+Skip to content
+English
+Select a language
+Customer Support
+Contact Sales
+Log in
+About
+About
+Products
+Products
+Solutions
+Solutions
+Pricing
+Resources
+Resources
+Get started
+USD ($)
+Platform Solutions
+
+Customer Platform
+
+Free Tools
+
+Create a Bundle
+
+HubSpot for Marketers
+
+Products
+
+Smart CRM
+
+Marketing
+
+Sales
+
+Service
+
+Content
+
+Data
+
+Revenue
+
+Create a Bundle
+Grow your business in the areas that matter most with a custom toolkit.
+Select products & add-ons
+Marketing Hub
+
+Starter
+
+$20/month
+
+Professional
+
+$890/month
+
+Enterprise
+
+$3,600/month
+Select number of marketing contacts:
+Includes 2,000 marketing contacts.
+Additional marketing contacts are sold in increments of 5,000 from $250/month.
+Sales Hub
+
+Starter
+
+$20/month
+
+Professional
+
+$100/month
+
+Enterprise
+
+$150/month
+Service Hub
+
+Starter
+
+$20/month
+
+Professional
+
+$100/month
+
+Enterprise
+
+$150/month
+Content Hub
+
+Starter
+
+$20/month
+
+Professional
+
+$500/month
+
+Enterprise
+
+$1,500/month
+Data Hub
+
+Starter
+
+$20/month
+
+Professional
+
+$800/month
+
+Enterprise
+
+$2,000/month
+Revenue Hub
+
+Professional
+
+$95/month
+
+Enterprise
+
+$140/month
+HubSpot Credits
+
+Included
+
+3,000 credits/mo
+
+Fuel agents and features that deliver work for you - add more to scale your impact.
+
+Add more
+
+Add-ons
+Customize and enhance your plan with additional features.
+
+Marketing SMS Long Code Add-On
+
+$75/mo
+
+Purchase required to use SMS for marketing. Includes SMS setup, maintenance, and 1,000 message segments per month, effective on your contract start date. Unused message segments don’t roll over into the following month. Sending is only available from U.S.-based phone numbers, and messages can only be sent to U.S./Canada (+1) phone numbers. Both incoming and outgoing SMS messages count against your message segment limit. As applicable, incoming MMS messages are counted as 5 message segments each.
+
+WhatsApp Limit Increase
+
+$70/mo
+
+WhatsApp Limit Increase
+Quantity
+Increase your account's WhatsApp messages limit by 1,000 messages per month. Purchase multiple limit increase packs for more volume. Unused WhatsApp messages don't roll over into the following month.
+
+Dedicated IP Add-On
+
+$300/mo
+
+Dedicated IP Add-On
+Quantity
+Purchase your own dedicated IP address that will be monitored 24/7 so you have more control over your individual sender reputation. This is a good fit for senders who consistently send a high volume of email each month.
+
+Ads Limit Increase
+
+$100/mo
+
+Ads Limit Increase
+Quantity
+Create 50 additional ad conversion events and 50 additional audiences that sync hourly between your HubSpot account and HubSpot-supported advertising accounts. Purchase multiple limit increase packs for more volume.
+
+Custom SSL Add-On
+
+$100/mo
+
+Your Marketing, Service, or Content Hub Professional or Enterprise plan comes with a standard SSL certificate to encrypt and secure your website content. This premium SSL service offers additional customization.
+
+Conversational Context Limit Increase
+
+$50/mo
+
+Conversational Context Limit Increase
+Quantity
+Analyze 5,000 more conversational records (e.g., call transcripts, chats, emails) per month in HubSpot. Purchase multiple limit increase packs for more volume.
+
+Video Limit Increase
+
+$50/mo
+
+Video Limit Increase
+Quantity
+Increase your included number of videos with advanced features by 50 videos. Purchase multiple limit increase packs for more volume.
+
+Transactional Email Add-On
+
+$600/mo
+
+Send relationship-based emails like automated commerce receipts, account updates, and system messages, and get full engagement tracking across your emails.
+
+Users Limit Increase
+
+$200/mo
+
+Users Limit Increase
+Quantity
+Increase your included users limit by 500 users. Purchase multiple limit increase packs for more volume.
+
+Workflows Limit Increase
+
+$200/mo
+
+Workflows Limit Increase
+Quantity
+Increase your included workflows volume for your HubSpot automations by 100 workflows. Purchase multiple limit increase packs for more volume. Maximum capacity of 10,000 workflows per account.
+
+SMS Limit Increase
+
+$15/mo
+
+SMS Limit Increase
+Quantity
+Increase your account's SMS message segment limit by 1,000 per month, effective on your contract start date with this optional SMS limit increase. Purchase multiple limit increase packs for more volume, up to 10 million message segments. Unused message segments don’t roll over into the following month. Sending is only available from U.S.-based phone numbers, and messages can only be sent to U.S./Canada (+1) phone numbers. Both incoming and outgoing SMS messages count against your message segment limit. As applicable, incoming and outgoing MMS messages are counted as 5 message segments each. Requires purchase of at least one of Service SMS, Marketing SMS 10DLC, or Marketing SMS Short Code Add-ons.
+
+Lists Limit Increase
+
+$200/mo
+
+Lists Limit Increase
+Quantity
+Increase your included active list volume by 100 lists and your included static list volume by 100 lists. Purchase multiple limit increase packs for more volume.
+
+Teams Limit Increase
+
+$200/mo
+
+Teams Limit Increase
+Quantity
+Increase your included teams limit by 100 teams. Purchase multiple limit increase packs for more volume.
+
+API Limit Increase
+
+$500/mo
+
+API Limit Increase
+Quantity
+Increase your included API call volume for your integrations between your HubSpot account and other services. Each capacity pack will add an additional 1,000,000 calls per day on top of the API calls included in your base subscription tier. Additionally, your rate limit will increase to 250 requests per 10-second.
+
+Reporting Limit Increase
+
+$200/mo
+
+Reporting Limit Increase
+Quantity
+Increase your dashboards limit by 300, and create 3,000 additional custom reports for your team based on any metric in Marketing Hub, Sales Hub, Service Hub, or Content Hub. Purchase multiple limit increase packs for additional dashboard and custom report volume.
+
+Custom Properties Limit Increase
+
+$220/mo
+
+Increase your included custom properties volume by 500. Purchase multiple limit increase packs for more volume. Maximum capacity of 3,000 custom properties per object per account.
+Billing period
+Pay Monthly
+Commit annually
+Pay Annually
+BEST VALUE
+
+Your products
+
+Marketing Hub Professional
+
+$800/mo
+Includes 2,000 marketing contacts
+
+5,000 additional marketing contacts
+
+$225/mo
+
+Credits
+
+3,000 credits/mo
+
+Included with plan
+
+$0
+
+Total credits
+
+3,000/mo
+
+Your Seats
+
+Total Core Seats (Professional):
+
+$45/mo/seat
+$0/mo
+
+Add-ons
+
+Marketing SMS Add-On
+
+$75/mo
+$1,100/mo
+billed annually at $14,580 $13,200/yr
+with an annual commitment
+
+Estimated cost to get started:
+
+$16,200*
+
+Talk to Sales
+View price breakdown
+Share this price
+
+*Cost shown also includes required, one-time Professional Onboarding for a fee of $3,000. Learn more
+
+Disclaimer
+Need help choosing a plan?
+
++1 (888) 482-7768
+
+Popular Features
+All Products and Features
+All Products and Features
+HubSpot AEO
+HubSpot AEO
+Free Meeting Scheduler App
+Free Meeting Scheduler App
+Agent Hub
+Agent Hub
+Email Tracking Software
+Email Tracking Software
+AI Content Writer
+AI Content Writer
+AI Website Generator
+AI Website Generator
+Email Marketing Software
+Email Marketing Software
+Lead Management Software
+Lead Management Software
+AI Prospecting Agent
+AI Prospecting Agent
+Free Website Builder
+Free Website Builder
+Free Landing Page Builder
+Free Landing Page Builder
+Free Online Form Builder
+Free Online Form Builder
+Free Chatbot Builder
+Free Chatbot Builder
+Free Live Chat Software
+Free Live Chat Software
+Marketing Analytics
+Marketing Analytics
+Breeze Assistant
+Breeze Assistant
+Free Web Hosting
+Free Web Hosting
+Free Tools
+See All Free Business Tools
+See All Free Business Tools
+AEO Grader
+AEO Grader
+AI Search Sensor
+AI Search Sensor
+Make My Persona
+Make My Persona
+Email Signature Generator
+Email Signature Generator
+Free Business Templates
+Free Business Templates
+Software Comparisons Library
+Software Comparisons Library
+Website Templates
+Website Templates
+Connector for Claude
+Connector for Claude
+Company
+About Us
+About Us
+Careers
+Careers
+Management Team
+Management Team
+Board of Directors
+Board of Directors
+Investor Relations
+Investor Relations
+Blog
+Blog
+Sustainability
+Sustainability
+Contact Us
+Contact Us
+Customers
+Customer Support
+Customer Support
+Join a Local User Group
+Join a Local User Group
+Partners
+All Partner Programs
+All Partner Programs
+Solutions Partner Program
+Solutions Partner Program
+Technology Partner Program
+Technology Partner Program
+HubSpot for Startups
+HubSpot for Startups
+Affiliate Program
+Affiliate Program
+Facebook
+Instagram
+Youtube
+Twitter
+Linkedin
+Reddit
+Tiktok
+
+Copyright © 2026 HubSpot, Inc.
+
+Legal Center
+ 
+Privacy Policy
+ 
+Security
+ 
+Website Accessibility
+ 
+Manage Cookies
+ 
+ Your Privacy Choices
+Pricing Estimate
+RECURRING FEES
+Marketing Hub Professional (2,000 marketing contacts included)
+$890$800/mo
+(billed annually)
+5,000 additional marketing contacts
+$250$225/mo
+(billed annually)
+Marketing SMS Add-On
+$75/mo
+(billed annually)
+ONE-TIME FEES
+Marketing Hub Professional Onboarding (required)
+$3,000
+(one-time fee)
+Monthly cost:
+$1,215$1,100/mo
+Plan subtotal:
+$14,580$13,200/yr
+(monthly cost × 12)
+Estimated cost to get started:
+$17,580$16,200
+(annual cost + one-time fees)
+We've estimated your monthly cost based on the options you’ve chosen. Any applicable taxes are not included, and your fees are subject to increase with additional purchases and additional marketing contacts.

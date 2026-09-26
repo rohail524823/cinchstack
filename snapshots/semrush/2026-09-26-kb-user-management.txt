@@ -1,0 +1,374 @@
+SOURCE: https://www.semrush.com/kb/1409-user-management
+FETCHED: 2026-09-26T21:50:22.384Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to content
+
+Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.
+
+Product
+Pricing
+Solutions
+Resources
+Enterprise
+Log In
+Start for free
+Knowledge Base
+Search
+What is Semrush?
+Getting Started
+How-To Articles
+Subscriptions and Toolkits
+Semrush One
+Billing and Account
+Semrush Toolkits
+App Center
+Integrations
+Teamwork
+User Management
+Sharing Features
+Data and Metrics
+The Ultimate SEO Glossary
+Kompyte
+API
+MCP
+Contact Us
+Knowledge Base  Teamwork  User Management
+User Management
+
+User Management feature allows you to add team members to your Semrush account so they can access the tools and data they need. By default, a Semrush subscription allows one email address to be logged in at a time. Adding users lets multiple people access Semrush simultaneously, each with their own login credentials.
+
+Here’s everything you can do when you add users to your account:
+
+Share your subscription with team members who get their own login credentials
+Control how subscription units are distributed—assign individual units to each user or let everyone share from a common pool
+Keep your account secure with separate logins for each team member
+Manually grant access to specific folders and collaborate together
+Enable optional Full Sharing to automatically share all assets (such as folders, keyword lists, etc.) with all team members
+Add notes to graphs that are visible to your teammates
+Give users personalized dashboards so they see only what's relevant to them
+Monitor team activity by viewing their folders, limit usage, and search history
+Assign admins to help manage users and distribute limits
+Types of Roles
+
+There are four user roles in Semrush, each with different permissions and capabilities.
+
+Owner
+
+The owner is the person who created the Semrush account and pays for the subscription. There's only one owner per account.
+
+What owners can do:
+
+Add and remove users
+Manage how subscription units are distributed
+View and manage all folders created by any user
+Appoint users as admins
+Access all user management features—including enabling optional Full Sharing to automatically share all assets with all team members
+User
+
+A user is someone added to your Semrush account with their own login, password, dashboard, and folders. Users share the subscription usage limits of the main account, so they don't need their own separate subscription.
+
+What users can do:
+
+Access all toolkits included in the subscription (except Traffic & Market Toolkit, AI Visibility Toolkit, and certain App Center apps, which require separate purchases)
+Create and manage their own folders
+Invite new users
+Admin
+
+Admins are users who've been given additional management permissions by the owner. They help manage the account and other users.
+
+What admins can do:
+
+Add and remove users
+Choose how subscription usage limits are distributed (individual allocation vs. shared pool)
+Edit the limits allocated to each user
+View, edit, delete, and share all folders created by any user
+Enable optional Full Sharing to automatically share all assets with all team members
+Change folder ownership
+View the search queries made by all users
+See a history of changes made to the account
+Guest
+
+Guests are people outside your account who you have given access to specific Semrush assets, such as folders, documents, or keyword lists.
+
+In the "User management" settings, the Guest List feature shows all the people you have shared Semrush assets with, along with how many assets each person has access to. From here, you can convert guests into full users (with no editing restrictions) by clicking "Invite to team."
+
+If a guest has "Editing restricted" access, they need their own subscription to edit your shared assets.
+
+Restricted guests will get access when you add them to your account as users. You can buy additional users in the User Management section of your account, or you can invite them directly by clicking the “Invite to team” button in the Guest List.
+
+How to Add Users to Your Account
+
+You can add new users to your account by purchasing additional user seats.
+
+By default, all Semrush plans come with one user seat. To add more users, go to your User Management page and click "Buy more" next to User count in the top left corner.
+
+Alternatively, contact Semrush to have an Account Executive help you set up additional users.
+
+Anyone on the account—the owner, admins, or current users—can purchase additional user seats. The owner's payment method is charged for all purchases.
+
+After purchasing additional user seats, invite team members to your account. To do so, navigate to the “User Management” page from the sidebar and click “Invite users.” Enter the email address your team member will use for their Semrush login.
+
+The invitation goes via email. They need to accept the invitation to join your account.
+
+What happens next:
+
+If they have a free Semrush account: They'll receive an email inviting them to join your subscription
+If they don't have a Semrush account: A new account is created for them, and they receive login information via email
+
+Once you invite your teammates, the shared limits setting applies by default. This lets your team use the overall subscription usage limits as needed. You can switch to individual limits anytime to assign specific amounts to each user. Learn more in our guide on how units work in a team.
+
+How Much Do Additional Users Cost?
+
+The cost of each additional user depends on which toolkits are included in your subscription.
+
+Each added user will have access to all toolkits included in your subscription, except for the Traffic & Market Toolkit, the AI Visibility Toolkit, and App Center, which must be purchased separately for additional users.
+
+Here's a table showing the pricing structure:
+
+Toolkits included in your subscription 
+
+	
+
+Price per additional user
+
+If you have the SEO toolkit and any additional toolkits in your plan. 
+
+	
+$45 for Pro tier
+$80 for Guru tier
+$100 for Business tier
+
+If you have the Semrush One subscription and any additional toolkits in your plan.
+
+Additional users get full access to SEO features. To give them AI Visibility Toolkit access, purchase the AI Visibility Toolkit for $99 per user.
+
+	
+$45 for Starter
+$80 for Pro+
+$100 for Advanced
+
+If you don’t have SEO toolkit in your subscription, but have one or any combination of these toolkits:
+
+Social
+Local
+Ads
+Content
+AI PR
+
+Exception: Traffic & Market Toolkit, AI Visibility Toolkit, and App Center apps.
+
+	
+
+$20 regardless of plan tier (Base, Pro or Business).
+
+ 
+
+If you want additional users to access the SEO Toolkit, the pricing per additional user will be $45, $80, or $100, depending on your subscription tier.
+
+If you would like to add an additional user for the Traffic & Market Toolkit, AI Visibility Toolkit, or App Center app	
+
+To give additional users access, first:
+
+Add a single additional user—the pricing is outlined above (20$/45$/80$/100$, depending on the toolkits in your subscription plan). 
+Purchase access separately for each user:
+Traffic & Market Toolkit: $289 per user
+AI Visibility Toolkit: $99 per user
+App Center app: price depends on the app.
+
+Contact us if interested, and we will help with the setup.
+
+Users can share view-only access to their folders for free.
+
+If you want additional help figuring out your needs, please contact us, and a team member will walk you through the process.
+
+Understand Subscription Usage Limits
+
+All users on your account share the subscription limits that come with your plan. This does not apply to App Center, Traffic & Market Toolkit, and AI Visibility Toolkit, which require separate access for each user.
+
+Consider this when choosing your subscription tier—make sure there are enough limits to support the number of users you plan to add.
+
+For example, if your plan includes 300,000 pages to crawl per month and you have 5 users, those 300,000 pages to crawl are shared across all 5 people.
+
+Frequently Asked Questions 
+Do I need to purchase access for each user?
+
+Yes, each additional user requires their own seat.
+
+All users share subscription usage limits, and all toolkits included in your subscription are available to every user. 
+
+However, the following products require separate per-user licenses. This means each user must have their own, and unlike other toolkits, this access is not shared across users or pooled at the account level.
+
+App Center apps
+Traffic & Market Toolkit
+AI Visibility Toolkit
+What Is Included in the User Count?
+
+The user count shows how many user seats are currently in use and the total number of seats available on your account. The total includes the owner, whose seat is included with your base subscription, plus any additional user seats you’ve purchased.
+
+For example, Users: 2/2 means that both available seats are in use: 1 owner + 1 additional user.
+
+How to Make a User an Admin?
+
+Go to User Management and click the edit button on that user's row. From there, you can change their role from User to Admin and adjust their limit allocation if needed.
+
+Click “Save” to save the changes.
+
+How to Delete Users And Remove Additional Seat?
+
+Go to the User Management page and click the delete button next to their name. This removes their email from your users list and frees up that seat for someone else. It doesn't remove the additional user seat from your subscription.
+
+To remove additional user seats from your subscription, contact Semrush customer support. Once removed, the seat will disappear from your User Management section.
+
+Why Can’t I Accept an Invitation?
+
+You can’t accept invitations while you have your own paid plan or are on a free trial. Team invitations can’t override existing paid subscriptions or trials. As a result, you’ll see a “Something went wrong” notification when trying to accept an invitation.
+
+This restriction doesn’t apply if you’re already invited to another team subscription.
+
+If you need help, contact Semrush support.
+
+How Much Does It Cost to Add a User with Traffic & Market Toolkit?
+
+The Traffic & Market Toolkit costs $289 per user. However, this isn't the only cost—you also need to pay the base price for adding that user to your account.
+
+How it works:
+
+First, you pay the standard user addition fee, which depends on your current subscription:
+
+If you have SEO Toolkit Pro: $45 per user
+If you have SEO Toolkit Guru: $80 per user
+If you have SEO Toolkit Business: $100 per user
+If you don't have SEO Toolkit: $20 per user
+
+Then, you add the Traffic & Market Toolkit cost of $289.
+
+Total cost examples:
+
+SEO Toolkit Pro: $45 (base user) + $289 (Traffic & Market) = $334 total
+SEO Toolkit Guru: $80 (base user) + $289 (Traffic & Market) = $369 total
+SEO Toolkit Business: $100 (base user) + $289 (Traffic & Market) = $389 total
+Without SEO Toolkit: $20 (base user) + $289 (Traffic & Market) = $309 total
+
+In simple terms: You're paying two separate fees—one to add the user to your account, and another to give them access to the Traffic & Market Toolkit.
+
+How Much Does It Cost to Add a User with AI Visibility Toolkit?
+
+The AI Visibility Toolkit costs $99 per user. Like the Traffic & Market Toolkit, this is in addition to the base cost of adding a user to your account.
+
+How it works:
+
+First, you pay the standard user addition fee based on your subscription:
+
+If you have SEO Toolkit Pro: $45 per user
+If you have SEO Toolkit Guru: $80 per user
+If you have SEO Toolkit Business: $100 per user
+If you don't have SEO Toolkit: $20 per user
+
+Then, you add the AI Visibility Toolkit cost of $99.
+
+Total cost examples:
+
+SEO Toolkit Pro: $45 (base user) + $99 (AI Visibility) = $144 total
+SEO Toolkit Guru: $80 (base user) + $99 (AI Visibility) = $179 total
+SEO Toolkit Business: $100 (base user) + $99 (AI Visibility) = $199 total
+Without SEO Toolkit: $20 (base user) + $99 (AI Visibility) = $119 total
+
+Important: The $99 AI Visibility Toolkit subscription covers Brand Performance reports for ONE domain only. If you need to track multiple domains in Brand Performance, you'll need to purchase a separate $99 subscription for each additional domain.
+
+Example: If you want to track 3 domains, you'd pay the base user fee once, plus $99 × 3 = $297 for the three domains.
+
+How Much Does It Cost to Add a User to Semrush One?
+
+Adding a user to a Semrush One subscription involves a base fee which grants access to the SEO components of the plan. Access to the AI Visibility Toolkit features requires an additional, separate purchase for each user.
+
+How it works:
+
+First, you pay the standard additional user fee based on your Semrush One subscription tier:
+
+Semrush One Starter: $45 per user
+Semrush One Pro+: $80 per user
+Semrush One Advanced: $100 per user
+
+To give a user access to the AI Visibility Toolkit features within the Semrush One bundle, you must purchase an additional AI Visibility Toolkit access for $99 per user.
+
+Total Cost Examples:
+
+Semrush One Starter: $45 (base user for SEO) + $99 (AI Visibility access) = $144 total
+Semrush One Pro+: $80 (base user for SEO) + $99 (AI Visibility access) = $179 total
+Semrush One Advanced: $100 (base user for SEO) + $99 (AI Visibility access) = $199 total
+Will Adding the SEO Toolkit to My Plan Change the Pricing for Additional Users?
+
+Yes, after adding the SEO toolkit to your subscription plan, the price of each additional user will increase from 20$ to 45$/80$/100$, depending on the tier of the plan.
+
+Manual
+•
+Team Units Allocation
+Table of contents
+Types of Roles
+How to Add Users to Your Account
+How Much Do Additional Users Cost?
+Understand Subscription Usage Limits
+Frequently Asked Questions 
+Is this article helpful?
+GET STARTED WITH SEMRUSH TODAY
+
+Try Semrush free for seven days. Cancel anytime.
+
+Start free trial
+
+Semrush
+
+Semrush One
+Features
+Solutions
+Pricing
+Free Trial
+Compare Semrush
+Success Stories
+Stats and Facts
+Affiliate Program
+
+More tools
+
+Semrush MCP
+Enterprise SEO
+Enterprise AIO
+Enterprise SI
+Insights24
+Mfour
+App Center
+Top Websites
+Free Tools
+Sensor
+
+Company
+
+About Us
+Semrush Questions
+News
+Careers
+Partners
+Semrush Select
+Global Issues Index
+Do not sell my personal info
+Contact Us
+
+Support
+
+Knowledge Base
+Academy
+Semrush API
+
+Community
+
+Semrush Blog
+Webinars
+Ambassador Program
+
+© 2026 Semrush Holdings. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Cookies Settings
+English

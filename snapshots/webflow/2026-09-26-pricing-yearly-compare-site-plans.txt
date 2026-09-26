@@ -1,0 +1,274 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:49:07.385Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Starter
+Basic
+Premium
+Publishing
+Site plans:
+Starter
+Basic
+Premier
+Publish to webflow.io
+Publish to a custom domain
+—
+Remove Webflow badge
+—
+Site features
+Site plans:
+Starter
+Basic
+CMS
+Static site pages
+2
+300
+Form submissions
+50/site
+Unlimited
+Form file upload
+—
+—
+Site password protection
+—
+Page password protection
+—
+Custom code
+—
+Code components
+—
+—
+Site search
+—
+—
+Search indexing
+—
+—
+Auto: 12 hours
+Manual: Hourly
+Well-known files
+—
+—
+Backups
+Unlimited
+CMS
+Site plans:
+Starter
+Basic
+Premier
+CMS items
+50
+—
+20,000
+CMS Collections
+20
+—
+40
+Content management APIs
+60 RPM
+—
+120 RPM
+Content delivery APIs
+—
+Per-item publishing & unpublishing
+—
+—
+Multi-item publishing & unpublishing
+—
+—
+Scheduled publishing
+—
+—
+Dynamic custom code
+—
+—
+RSS feeds
+—
+—
+Usage
+Site plans:
+Starter
+Basic
+CMS
+Bandwidth
+1 GB/month
+10 GB/month
+Up to 2.5 TB/month
+Surge protection
+—
+CDN
+Global
+Uptime
+—
+Standard agreement
+SEO & AEO
+Site plans:
+Starter
+Basic
+Premier
+WEBFLOW AI
+Improve SEO & AEO
+Must have a paid Workspace plan to access on a Starter site
+ON-PAGE SEO
+SEO metadata control
+Alt text control
+Open Graph settings
+CMS item indexing control
+—
+—
+TECHNICAL SEO
+Canonical tags
+Sitemap controls
+Must have a paid Workspace plan to access on a Starter site
+Crawler access controls
+Must have a paid Workspace plan to access on a Starter site
+Robots.txt & LLMs.txt
+Must have a paid Workspace plan to access on a Starter site
+Schema markup support
+Must have a paid Workspace plan to access on a Starter site
+301 redirects
+—
+Webflow AI
+Site plans:
+Starter
+Basic
+CMS
+Build a site
+Design sections
+Generate code components
+Get help
+Generate copy
+Must have paid Workspace plan to access on a Starter site
+Improve SEO & AEO
+Must have paid Workspace plan to access on a Starter site
+Generate CMS Collection items
+—
+Webflow Optimize
+—
+Optional add-on
+Webflow Analyze
+—
+Optional add-on
+Webflow Localize
+—
+Optional add-on
+Interactions
+Site plans:
+Starter
+Basic
+Premier
+Classic Interactions
+Interactions with GSAP
+Webflow Cloud
+Site plans:
+Starter
+Basic
+Premier
+Apps
+5
+5
+15
+Web app bandwidth
+Pooled with site bandwidth limits
+Web app requests
+1 million/month
+1 million/month
+2 million/month
+Then $2 per 1M; surge protection included
+Web app CPU usage
+15 CPU minutes
+15 CPU minutes
+30 CPU minutes
+Then $2 per 5 CPU hours; surge protection included
+Surge protection
+—
+Mount to staging
+Mount to custom domain
+—
+Remove Webflow badge
+—
+SQLITE (D1 DATABASE)
+Webflow gives at least 30 days notice before charging for overages.
+D1 databases
+Unlimited
+Unlimited
+Unlimited
+Storage
+100 MB
+100 MB
+200 MB
+Then $2 per 500 MB; surge protection included
+Simple operations
+10 million
+10 million
+20 million
+Then $2 per 50M; surge protection included
+Advanced operations
+500,000
+500,000
+600,000
+Then $2 per 1M; surge protection included
+KEY-VALUE STORE (KV DATABASE)
+Webflow gives at least 30 days notice before charging for overages.
+Key-value stores
+Unlimited
+Unlimited
+Unlimited
+Storage
+100 MB
+100 MB
+200 MB
+Then $2 per 500 MB; surge protection included
+Simple operations
+100,000
+100,000
+200,000
+Then $2 per 500k; surge protection included
+Advanced operations
+10,000
+10,000
+20,000
+Then $2 per 50k; surge protection included
+OBJECT STORAGE (R2 DATABASE)
+Webflow gives at least 30 days notice before charging for overages.
+R2 databases
+Unlimited
+Unlimited
+Unlimited
+Storage
+100 MB
+100 MB
+2 GB
+Then $2 per 5 GB; surge protection included
+Simple operations
+100,000
+100,000
+20,000
+Then $2 per 100k; surge protection included
+Advanced operations
+10,000
+10,000
+4,000
+Then $2 per 10k; surge protection included
+Security
+Site plans:
+Starter
+Basic
+Premier
+Two-factor authentication
+DDoS protection
+Support & admin
+Site plans:
+Starter
+Basic
+Premier
+Billing
+Credit card billing
+Support
+Help Center & Support Portal
+Customer success
+—
+Training
+Webflow University
+Close Modal

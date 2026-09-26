@@ -1,0 +1,35 @@
+{
+  "id": "gohighlevel",
+  "name": "GoHighLevel",
+  "vendor": "HighLevel LLC (a subsidiary of GoHighLevel Inc.)",
+  "tier": "core",
+  "layer": "run",
+  "category": "CRM, funnels and marketing automation",
+  "url": "https://www.gohighlevel.com/",
+  "pricingUrl": "https://www.gohighlevel.com/pricing",
+  "oneLiner": "CRM, funnel and website builder, email/SMS marketing and workflows with unlimited users, from $97/mo plus metered texts, calls, email and AI.",
+  "summary": "HighLevel (GoHighLevel) combines a CRM and pipelines, a website and funnel builder, calendars, email and SMS campaigns, workflow automation, reviews, courses and communities in one subscription, with unlimited users and contacts on every plan. The $97 Starter plan covers a single business with up to three sub-accounts; the $297 and $497 plans exist for agencies that run many client accounts or resell the platform under their own brand. Texts, calls, phone numbers, email sends and most AI features are billed on top of the plan from a prepaid wallet, so the real monthly cost is the plan plus usage.",
+  "bestFor": ["agency", "local-service"],
+  "notFor": [
+    "Teams that want a simple CRM without setting up their own funnels and automations",
+    "Buyers who need a fixed, predictable bill for heavy texting, calling or AI use",
+    "Businesses that only need email marketing, where a dedicated email tool costs less"
+  ],
+  "pros": [
+    "Unlimited users and contacts on every plan, including the $97 Starter",
+    "CRM, funnels and websites, calendars, workflows, reviews, courses and communities under one subscription",
+    "Email at $0.675 per 1,000 and US texts at $0.00747 per segment, billed at usage with no bundle to outgrow",
+    "Month-to-month with no long-term contract; annual billing costs 10 months' price",
+    "Agency plans add unlimited sub-accounts, white-labelling and rebilling of usage to clients"
+  ],
+  "cons": [
+    "Texts, calls, phone numbers, email, most AI and premium workflow steps are billed on top of the plan from a prepaid wallet whose auto-recharge cannot be turned off",
+    "US texting requires A2P 10DLC registration: $22.50 one-time plus a monthly campaign fee",
+    "AI Employee costs $50 or $97 per month per location, otherwise AI is metered per token or per minute",
+    "HighLevel's terms make all fees non-refundable, and canceled accounts' data is deleted after 90 days",
+    "HighLevel's own billing articles contradict each other in places, such as when the 5% phone pass-through markup applies",
+    "Built agency-first: plan names, the pricing page and many settings assume you manage client sub-accounts"
+  ],
+  "hq": "Dallas, Texas",
+  "affiliate": { "program": "gohighlevel" }
+}

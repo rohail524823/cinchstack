@@ -1,0 +1,107 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:49:18.342Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Optimize
+Features
+Optimize
+Optimize Enterprise
+Experiment & personalize
+Feautres:
+Optimize
+Optimize Enterprise
+Billing
+Up to 500k/month
+Custom/year
+Concurrent optimizations
+Up to 5
+Unlimited
+A/B testing
+Personalization
+AI Optimize
+Audience targeting
+Audience insights
+
+AI Assistant
+Advanced targeting with Enhanced Match
+—
+Integrate & amplify
+Features:
+Optimize
+Optimize Enterprise
+Integration with Webflow
+—
+Demandbase
+—
+6Sense
+—
+Salesforce
+—
+Marketo
+—
+HubSpot
+—
+Mixpanel
+—
+Segment
+—
+Google Analytics 4
+—
+Localize
+Features
+Essential
+Advanced
+Enterprise
+Design & build
+Features
+Essential
+Advanced
+Enterprise
+Number of locales
+Add up to 3 locales
+Add up to 10 locales
+Custom
+CMS localization
+Static content localization
+Alt text localization
+Style localization
+Asset localization
+—
+Element visibility per-locale
+—
+—
+Translate & connect
+Features
+Essential
+Advanced
+Enterprise
+Native AI-powered translation
+10K words per locale per month
+50K words per locale per month
+Custom
+Formality and tone
+—
+Partner translation apps
+API access
+Custom translation glossary
+—
+—
+Publish & deliver
+Features
+Essential
+Advanced
+Enterprise
+Control publishing
+per-locale
+Locale subdirectories
+Localized sitemap
+Localize SEO titles and descriptions
+Customizable locale selector
+Localized URLs
+—
+Automatic visitor routing
+—
+Draft locale specific static pages
+—
+—
+Close Modal

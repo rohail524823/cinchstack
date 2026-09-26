@@ -1,0 +1,14 @@
+---
+import { tool, comparisons, stacks } from '../lib/data.mjs';
+interface Props { id: string }
+const c = comparisons[Astro.props.id];
+const A = tool(c.a), B = tool(c.b);
+const BIZ = { agency: 'Marketing agency', 'course-creator': 'Coach or course creator', 'shopify-store': 'Online store', 'local-service': 'Local service business', freelancer: 'Freelancer or consultant', 'saas-startup': 'Early-stage SaaS' };
+---
+<p class="table-lead">Which one we would pick for each kind of business, and the one-line reason.</p>
+<div class="tbl-wrap"><table class="data stack">
+  <thead><tr><th scope="col">If you run a…</th><th scope="col">Pick</th><th scope="col">Why</th></tr></thead>
+  <tbody>
+    {c.verdicts.map((v) => <tr><th scope="row">{stacks[v.business] ? <a href={`/stacks/${v.business}/`}>{BIZ[v.business]}</a> : BIZ[v.business]}</th><td class="edge" data-label="Pick">{v.pick === 'a' ? A.name : v.pick === 'b' ? B.name : 'Neither'}</td><td data-prose data-label="Why">{v.why}</td></tr>)}
+  </tbody>
+</table></div>

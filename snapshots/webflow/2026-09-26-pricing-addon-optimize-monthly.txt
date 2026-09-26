@@ -1,0 +1,124 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T22:02:23.090Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+
+== state captured 2026-09-26T22:02:23.092Z | dropdown selection shown: page views/mo = "25,000" ==
+Optimize
+
+Maximize conversions from your site.
+
+$379/mo
+
+based on # of page views
+
+Add Optimize
+Add Optimize
+25,000
+50,000
+100,000
+250,000
+500,000
+page views/mo
+Up to 5 concurrent optimizations
+A/B testing
+Personalization
+AI Optimize
+Audience insights
+Audience targeting
+
+== state captured 2026-09-26T22:02:24.125Z | dropdown selection shown: page views/mo = "50,000" ==
+Optimize
+
+Maximize conversions from your site.
+
+$499/mo
+
+based on # of page views
+
+Add Optimize
+Add Optimize
+25,000
+50,000
+100,000
+250,000
+500,000
+page views/mo
+Up to 5 concurrent optimizations
+A/B testing
+Personalization
+AI Optimize
+Audience insights
+Audience targeting
+
+== state captured 2026-09-26T22:02:25.162Z | dropdown selection shown: page views/mo = "100,000" ==
+Optimize
+
+Maximize conversions from your site.
+
+$699/mo
+
+based on # of page views
+
+Add Optimize
+Add Optimize
+25,000
+50,000
+100,000
+250,000
+500,000
+page views/mo
+Up to 5 concurrent optimizations
+A/B testing
+Personalization
+AI Optimize
+Audience insights
+Audience targeting
+
+== state captured 2026-09-26T22:02:26.196Z | dropdown selection shown: page views/mo = "250,000" ==
+Optimize
+
+Maximize conversions from your site.
+
+$999/mo
+
+based on # of page views
+
+Add Optimize
+Add Optimize
+25,000
+50,000
+100,000
+250,000
+500,000
+page views/mo
+Up to 5 concurrent optimizations
+A/B testing
+Personalization
+AI Optimize
+Audience insights
+Audience targeting
+
+== state captured 2026-09-26T22:02:27.245Z | dropdown selection shown: page views/mo = "500,000" ==
+Optimize
+
+Maximize conversions from your site.
+
+$1,499/mo
+
+based on # of page views
+
+Add Optimize
+Add Optimize
+25,000
+50,000
+100,000
+250,000
+500,000
+page views/mo
+Up to 5 concurrent optimizations
+A/B testing
+Personalization
+AI Optimize
+Audience insights
+Audience targeting

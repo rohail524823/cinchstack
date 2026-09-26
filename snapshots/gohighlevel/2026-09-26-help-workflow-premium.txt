@@ -1,0 +1,175 @@
+SOURCE: https://help.gohighlevel.com/support/solutions/articles/155000005678
+FETCHED: 2026-09-26T21:46:18.646Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+HighLevel Support Portal
+Home
+Knowledge base
+Login
+Sign up
+Home
+...
+How to enable and rebill Premium Features for Workflows
+How to enable and rebill Premium Features for Workflows
+
+Modified on: Thu, 7 Aug, 2025 at 8:11 AM
+
+- Agencies on Any Plan  ($97, $970, $297, $2970, $497, $4970) can access Workflow - Premium Features.
+
+- Once Premium Features are enabled via the Agency settings, EXISTING and New Sub-Accounts will have 100 free executions.
+ 
+- For agencies to avoid accruing execution costs for EXISTING Sub-Accounts, rebilling will need to be enabled manually for each Sub-Account within the Agency view (more info). 
+
+- If premium featuress are enabled on the SaaS Configurator, new Sub-Accounts generated will automatically be enrolled in Premium Features, no further action is required by the agency.
+
+Covered in this Article:
+
+What are Premium Features?
+How does it work?
+New Premium Triggers
+New Premium Actions
+Google Sheets
+Slack Notifications
+Custom Outbound Webhook
+Workflow AI Actions
+How to enable Premium Features at the Agency level
+Premium Features Pricing
+Re-billing the costs to your clients and making a profit
+How to turn on re-billing for my clients?
+Some Examples of Re-billing
+How does re-billing work?
+White-labeled instructions for your clients
+What are Premium Features?
+
+Are you looking to take your workflows to the next level? If so, you must check out Premium Features, now available in the Workflow builder!
+
+Premium Features unlocks advanced capabilities such as connecting workflows to external systems or software - without using expensive third-party automation tools like Zapier, Integromat, or PabblyConnect.
+
+With Premium Features, you can integrate systems like Slack and Google Sheets into a workflow and catch inbound webhook actions (Post requests) within the same process. Even better, you can pass the cost of rebill executions onto your client at your desired markup.
+
+How does it work?
+New Premium Triggers
+Inbound Webhook
+
+An Inbound Webhook is a powerful feature that enables an external system to send data to your CRM automatically. Whenever an event occurs in the external system, you can trigger a workflow in your CRM by sending an HTTP POST request to a specific URL associated with the trigger. This real-time data transfer capability enhances the functionality of your CRM by allowing it to integrate seamlessly with other systems.
+
+.
+
+For more information, please refer to this article.
+
+New Premium Actions
+Google Sheets
+
+The Google Sheets Premium Workflow Action is a powerful tool that allows users to automate various data management tasks within their Google Sheets documents. This feature enables you to create, update, delete, and look up rows in your spreadsheets without any complex third-party integrations. This helpful article will guide you through setting up and using the Google Sheets Premium Workflow Action to streamline your data management processes. For full details and use cases, please refer to this help article -
+
+Slack Notifications
+
+Workflow Slack Premium Action is an advanced communication feature designed to automate and streamline messaging within Slack, a widely-used team collaboration tool. This feature allows users to send targeted messages to specific users, private or public channels within their Slack workspace. A user-friendly interface and customizable options ensure effective communication by enabling users to set up and schedule notifications based on their needs.
+
+The action offers three main events:
+
+Sending a message to a user: Users can choose from four options to send a direct message to the right person: Assigned User, Custom Email, Internal User, or Slack User. Each option serves a unique purpose in determining the Message's recipient, ensuring accurate and efficient communication.
+Sending a message to a private channel: Users can select a private channel within their workspace to send messages, which will appear as if sent manually by the User who created the Slack integration. This allows for secure communication within a select group of team members.
+Sending a message to a public channel: Users can choose a public channel within their workspace to broadcast messages, making information accessible to all workspace members.
+
+For full details and use cases, please refer to this article
+
+Custom Outbound Webhook
+
+The Custom Webhook - Premium Action is a powerful and flexible feature that enables real-time communication between your CRM system and third-party services. It allows you to configure and send custom data requests to specified URLs using different HTTP and authorization methods. This feature also supports adding headers, query parameters, and mapping custom values to create a tailored request structure that meets your needs. With autocomplete suggestions and user-friendly interfaces, the Custom Webhook streamlines data exchange and ensures accuracy in your workflows. However, it is crucial to consider API response success and server limitations when using this feature to prevent errors and disruptions in workflow execution.
+
+For full details & use cases please refer to this article:
+
+Workflow AI Actions
+
+Introducing the Workflow AI Premium Action, a transformative tool that enhances your business processes by leveraging artificial intelligence. Seamlessly integrate AI into your workflows, utilizing the power AI for a myriad of tasks, such as content generation, email crafting, and intent recognition. Unlock new dimensions of automation and personalization in your workflows, ensuring responsiveness and contextuality across your business operations. Elevate your business efficacy with the Workflow AI Premium Actions and experience a revolution in process automation and customer engagement. This Article covers more details.
+
+How to enable Premium Features at the Agency level
+
+To enable Premium Features for your whole Agency (including all your Sub-Accounts), head into your AgencyLevel > Settings > Company > Workflow - Premium Features and enable the toggle.
+
+You can enable or disable the Premium Features feature or rebill for each Sub-Account in Agency Settings > Workflows - Premium Features You can access Sub-Account Settings only if Premium Features are enabled at the Agency Level.
+
+         
+
+        Please Note:
+
+Agencies on Any Plan  ($97, $970, $297, $2970, $497, $4970) can access Premium Features
+
+Premium Features Pricing
+Once Premium Actions & Triggers are enabled via the Agency settings, EXISTING and New Sub-Accounts will have 100 free executions.
+
+Once the 100 free executions are consumed, 0.01$/execution will be debited from the Agency Wallet for each execution from any Sub-Accounts usages UNLESS re-billing is enabled (see below for more info).
+
+Re-billing the costs to your clients and making a profit
+
+(only for 497 SaaS Agencies)
+
+Once you have enabled Premium Features in your agency account, it will be automatically enabled for all your clients to use. 
+
+You can bill your clients at cost or add an additional markup.
+
+ 
+
+How to turn on re-billing for my clients?
+
+Ensure you have enabled Premium Features for your Agency first. (see instructions)
+
+If the sub-account isn't in SaaS Mode already, switch the sub-account into SaaS Mode by going into your Agency account > Accounts tab > Scroll to the sub-account > Click the three dots icon and select "Switch to SaaS."  How to convert a location to SaaS.
+
+In Agency account > Accounts tab > Scroll to the Sub-Account > Click the View Details link > Scroll to the Premium Features for Workflow Re-Sell Settings section and toggle it on.
+
+Use the slider to set the amount of markup you like to make and hit save!
+
+Rinse and repeat for all your Sub-Accounts where you wish to rebill for usage.
+
+Some Examples of Re-billing
+
+Premium Features are disabled below, meaning the Agency will pay for executions consumed after the complimentary 100 executions are used up. 
+
+The re-billing is turned on in this case, but there is no markup. So while the agency can pass on the costs to their clients, they are not making any profit (margins).
+
+The re-billing is turned on in this case, and there is a 5x markup. This means the agency has a 500% margin and earns $4 for every $1 their clients spend.
+
+How does re-billing work?
+Agencies pay HighLevel and get invoices with high-level branding
+Sub-accounts (your clients) pay you (the agency) and get invoices with your branding. The money is deposited in your Stripe account connected to your agency level. How do I connect my agency's Stripe account to collect payments from my clients? 
+
+This is very similar to other products that use re-billing or reselling models in the platform. Just like LC Phone or LC Email re-billing, re-billing of the Premium Workflow actions also utilizes "credits" from the agency wallet & the location wallet, respectively. 
+
+White-labeled instructions for your clients
+
+https://share-docs.clickup.com/8631005/d/h/87cpx-81404/c965877bd0063d8/87cpx-73044
+
+Inbound Webhook Trigger
+
+Google Sheets Action
+
+Custom Webhook Action
+
+Slack Action
+
+Date/Time Formatter Action
+
+Number Formatter Action
+
+Was this article helpful?
+No 
+Yes
+Print
+Articles in this Folder
+Introduction to Workflows and Automations
+Workflow Notes, Action Notes & Sticky Notes
+Workflows Pro Plan - New Pricing Tiers
+Comprehensive workflow stats
+Workflows - Advanced Filters & Smart List
+Workflow - Oauth2 in Custom Webhook
+Related Articles
+Guide from Zero to Saas Mode Sales + Troubleshooting
+Workflows Pro Plan - New Pricing Tiers
+HighLevel Pricing Guide
+Agency Company Settings in HighLevel
+Typeform – Actions & Triggers in Workflows
+Unified Payment Options Across All SaaS Locations
+Home Knowledge base

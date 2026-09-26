@@ -1,0 +1,106 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { SITE } from '../../../lib/site.mjs';
+import { tool, price, scenario, cheapestPaid, faqs, comparisonsFor } from '../../../lib/data.mjs';
+import { LAYER_LABELS, SIZE_LABELS } from '../../../lib/schemas.mjs';
+import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
+import { datesFor } from '../../../lib/meta.mjs';
+import { figHtml } from '../../../lib/format.mjs';
+import { breadcrumbNode, articleNode, softwareNode, reviewNode, faqNode } from '../../../lib/jsonld.mjs';
+import { mdxComponents } from '../../../components/mdx/index.mjs';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Byline from '../../../components/Byline.astro';
+import Disclosure from '../../../components/Disclosure.astro';
+import QuickAnswer from '../../../components/QuickAnswer.astro';
+import Glance from '../../../components/Glance.astro';
+import AffLink from '../../../components/AffLink.astro';
+import ScorePanel from '../../../components/ScorePanel.astro';
+import Provenance from '../../../components/Provenance.astro';
+import Faq from '../../../components/Faq.astro';
+import AuthorBox from '../../../components/AuthorBox.astro';
+import KeepReading from '../../../components/KeepReading.astro';
+import Updated from '../../../components/Updated.astro';
+import Fig from '../../../components/Fig.astro';
+
+export async function getStaticPaths() {
+  const reg = await registry();
+  return [...reg.values()].filter((r) => r.kind === 'tools').map((r) => ({ params: { tool: r.slug }, props: { r } }));
+}
+const { r } = Astro.props;
+const id = r.slug;
+const t = tool(id);
+const p = price(id);
+const e = r.entry;
+const path = `/tools/${id}/`;
+const url = `${SITE}${path}`;
+const { Content } = await render(e);
+const faq = faqs[`tools--${id}`]?.items ?? [];
+const d = datesFor(e);
+const cheapest = cheapestPaid(id);
+const pricingExists = await exists(`/tools/${id}/pricing/`);
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: t.name }];
+const related = await relatedFor(e.id, e.data.related);
+const reg = await registry();
+const cmps = comparisonsFor(id).filter((c) => reg.has(`/compare/${c.id}/`));
+const altExists = await exists(`/alternatives/${id}/`);
+const BIZ = { agency: 'marketing agencies', 'course-creator': 'coaches and course creators', 'shopify-store': 'online stores', 'local-service': 'local service businesses', freelancer: 'freelancers', 'saas-startup': 'early-stage SaaS teams' };
+const jsonld = [
+  breadcrumbNode(url, crumbs),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
+  softwareNode(id),
+  reviewNode(id, url),
+  faqNode(url, faq),
+];
+const glance = [
+  { label: 'Layer', value: `${LAYER_LABELS[t.layer]} · ${t.category}` },
+  { label: 'Best for', value: t.bestFor.length ? t.bestFor.map((b) => BIZ[b]).join(', ') : '—' },
+  { label: 'Cheapest paid plan', value: cheapest ? figHtml(cheapest.v, '/mo') : 'Custom' },
+  { label: 'Free plan', value: p.freeTier.exists ? 'Yes' : 'No' },
+];
+---
+<Base title={e.data.title} description={e.data.description} path={path} jsonld={jsonld}>
+  <div class="wrap page">
+    <article class="read" style="max-width:860px">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1>{r.h1}</h1>
+      <Byline modified={d.modified} published={d.published} verified={p.checkedOn} />
+      <Disclosure toolIds={[id]} />
+      {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
+      <ScorePanel id={id} />
+      <Glance items={glance} />
+      <div class="cta-row">
+        <AffLink tool={id} page={path} placement="top-hub" label={`Visit ${t.name}`} />
+        {pricingExists && <a class="btn" href={`/tools/${id}/pricing/`}>See the real cost</a>}
+      </div>
+      <div class="prose-body" data-prose>
+        <Content components={mdxComponents} />
+      </div>
+      <h2 id="pros-cons">What it does well, and where it falls short</h2>
+      <div class="picks">
+        <div class="pick"><span class="lbl">Strengths</span><ul>{t.pros.map((x) => <li>{x}</li>)}</ul></div>
+        <div class="pick"><span class="lbl">Weaknesses</span><ul>{t.cons.map((x) => <li>{x}</li>)}</ul></div>
+      </div>
+      <h2 id="real-cost">What {t.name} really costs</h2>
+      <p class="table-lead">The real monthly bill at three business sizes, every line included{pricingExists ? '; the full breakdown is on the pricing page' : ''}.</p>
+      <div class="tbl-wrap"><table class="data stack">
+        <thead><tr><th scope="col">Size</th><th scope="col">Scenario</th><th scope="col" class="num">Per month</th></tr></thead>
+        <tbody>{['solo', 'small', 'growing'].map((s) => { const sc = scenario(id, s); return <tr><th scope="row">{SIZE_LABELS[s]}</th><td data-label="Scenario">{sc.label}</td><td class="num" data-label="Per month"><Fig v={sc.monthly} /></td></tr>; })}</tbody>
+      </table></div>
+      {pricingExists && <p><a href={`/tools/${id}/pricing/`}>Every plan, add-on and hidden cost in {t.name}'s pricing →</a></p>}
+      {(cmps.length > 0 || altExists) && (<>
+        <h2 id="compare">Compare {t.name}</h2>
+        <ul>
+          {cmps.map((c) => <li><a href={`/compare/${c.id}/`}>{reg.get(`/compare/${c.id}/`).h1}</a></li>)}
+          {altExists && <li><a href={`/alternatives/${id}/`}>{reg.get(`/alternatives/${id}/`).h1}</a></li>}
+        </ul>
+      </>)}
+      <Provenance ids={[id]} />
+      <div class="cta-row"><AffLink tool={id} page={path} placement="end-cta" label={`Go to ${t.name}`} /></div>
+      <Faq items={faq} />
+      <AuthorBox />
+      <KeepReading links={related} />
+      <Updated modified={d.modified} published={d.published} />
+    </article>
+  </div>
+</Base>

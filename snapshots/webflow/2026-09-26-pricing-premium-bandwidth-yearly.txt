@@ -1,0 +1,412 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:55:32.594Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+
+== state captured 2026-09-26T21:55:32.596Z | dropdown selection shown: bandwidth = "50 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$25/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:33.613Z | dropdown selection shown: bandwidth = "100 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$45/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:34.634Z | dropdown selection shown: bandwidth = "150 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$65/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:35.649Z | dropdown selection shown: bandwidth = "200 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$85/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:36.678Z | dropdown selection shown: bandwidth = "300 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$125/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:37.700Z | dropdown selection shown: bandwidth = "400 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$165/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:38.720Z | dropdown selection shown: bandwidth = "500 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$199/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:39.736Z | dropdown selection shown: bandwidth = "750 GB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$299/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:40.752Z | dropdown selection shown: bandwidth = "1 TB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$399/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:41.769Z | dropdown selection shown: bandwidth = "1.5 TB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$599/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:42.786Z | dropdown selection shown: bandwidth = "2 TB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$799/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+
+== state captured 2026-09-26T21:55:43.802Z | dropdown selection shown: bandwidth = "2.5 TB" ==
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$999/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files

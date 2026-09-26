@@ -1,0 +1,100 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE, NAME, ORG_ID } from '../../lib/site.mjs';
+import { tools, pricing, toolIds, cheapestPaid } from '../../lib/data.mjs';
+import { LAYER_LABELS } from '../../lib/schemas.mjs';
+import { registry } from '../../lib/pages.mjs';
+import { longDate } from '../../lib/format.mjs';
+import { LICENSE, CITATION, lastChecked } from '../../lib/dataset.mjs';
+import { breadcrumbNode, webPageNode } from '../../lib/jsonld.mjs';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Fig from '../../components/Fig.astro';
+
+const reg = await registry();
+const path = '/data/';
+const url = `${SITE}${path}`;
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Pricing dataset' }];
+const title = 'Software pricing dataset (free to reuse, CC BY 4.0)';
+const description = 'Download the CinchStack software pricing dataset as JSON or CSV: every plan, add-on, usage fee and team-size cost we track, dated and sourced. CC BY 4.0.';
+const latest = lastChecked();
+const nPlans = Object.values(pricing).reduce((a, p) => a + p.plans.length, 0);
+const nScen = Object.values(pricing).reduce((a, p) => a + p.scenarios.length, 0);
+const toolHref = (id) => (reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
+const dataset = {
+  '@type': 'Dataset',
+  '@id': `${url}#dataset`,
+  name: `${NAME} software pricing dataset`,
+  description: 'US list prices for small-business software (plans, add-ons, usage fees and extra costs) read from each vendor\'s pricing page, with the date checked and the source URL, plus estimated monthly costs at three team sizes.',
+  url,
+  license: LICENSE,
+  isAccessibleForFree: true,
+  creator: { '@id': ORG_ID },
+  publisher: { '@id': ORG_ID },
+  dateModified: latest,
+  temporalCoverage: latest ? `${Object.values(pricing).map((p) => p.checkedOn).sort()[0]}/${latest}` : undefined,
+  keywords: ['software pricing', 'SaaS pricing', 'CRM pricing', 'ecommerce platform pricing', 'email marketing pricing', 'website builder pricing'],
+  variableMeasured: ['monthly price (USD)', 'annual price per month (USD)', 'add-on price (USD)', 'usage rate (USD)', 'estimated monthly cost by team size (USD)'],
+  distribution: [
+    { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${SITE}/data/pricing.json` },
+    { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: `${SITE}/data/pricing.csv` },
+    { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: `${SITE}/data/scenarios.csv` },
+  ],
+};
+---
+<Base title={title} description={description} path={path} jsonld={[breadcrumbNode(url, crumbs), webPageNode({ url, name: title, description, lastReviewed: latest }), dataset]}>
+  <div class="wrap page">
+    <div class="read">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1>The CinchStack pricing dataset</h1>
+      <p class="lede">Everything we record about software prices, in one file you can download and reuse. It covers {toolIds.length} tools, {nPlans} plans and {nScen} team-size cost estimates, each with the date we checked and the vendor page we read.</p>
+      {latest && <p class="muted">Last checked: <time datetime={latest}>{longDate(latest)}</time>. The files rebuild whenever a price changes.</p>}
+      <div class="cta-row">
+        <a class="btn btn-primary" href="/data/pricing.json" download>Download JSON</a>
+        <a class="btn" href="/data/pricing.csv" download>Plans CSV</a>
+        <a class="btn" href="/data/scenarios.csv" download>Team-cost CSV</a>
+      </div>
+
+      <h2 id="whats-in-it">What is in it</h2>
+      <ul>
+        <li><strong>Plans.</strong> The price when billed month to month and the effective monthly price when billed yearly, the unit (flat, per seat, per site) and the main limits.</li>
+        <li><strong>Add-ons, usage fees and extra costs.</strong> Extra seats, contact tiers, SMS and email rates, transaction fees and one-time onboarding charges.</li>
+        <li><strong>Team-size costs.</strong> Our estimate of the real monthly bill for one person, a five-person team and a fifteen-person team, with every line shown and a confidence level.</li>
+        <li><strong>Sources.</strong> The vendor URL each figure came from and the date we read it. Anything we could not confirm is listed separately and never shown as a price.</li>
+      </ul>
+
+      <h2 id="how-to-cite">How to cite this data</h2>
+      <p>You may copy, share and adapt the dataset for any purpose, including commercial use, under the <a href={LICENSE} rel="license noopener">Creative Commons Attribution 4.0 licence</a>. Please credit us and link back:</p>
+      <blockquote class="callout mono small">{CITATION}</blockquote>
+      <p>If you quote a single price, link to that tool's pricing page on this site so readers can see the check date. Prices change; a figure is only as good as the date beside it.</p>
+
+      <h2 id="fields">Field notes</h2>
+      <ul>
+        <li>All money is US dollars, as shown to a US buyer. Where a vendor prices by country, the tool's page says so.</li>
+        <li><code>monthly</code> is null when a plan is sold only on a yearly contract. <code>annualMonthly</code> is null when there is no yearly option.</li>
+        <li>Team-size costs use the assumptions written into each scenario. They are estimates for comparison, not quotes.</li>
+        <li>Card processing fees on e-commerce tools are listed as extra costs and are not added into the monthly totals.</li>
+      </ul>
+    </div>
+
+    <section class="section">
+      <h2 id="tools">Tools in the dataset</h2>
+      <p class="table-lead">Every tool in the files, with its cheapest paid plan (the month-to-month price where one is offered) and the date we last read its pricing page.</p>
+      <div class="tbl-wrap">
+        <table class="data stack">
+          <thead><tr><th scope="col">Tool</th><th scope="col">Layer</th><th scope="col" class="num">Plans</th><th scope="col" class="num">Cheapest paid plan</th><th scope="col">Checked</th></tr></thead>
+          <tbody>
+            {toolIds.map((id) => { const c = cheapestPaid(id); return (
+              <tr>
+                <th scope="row" data-label="Tool">{toolHref(id) ? <a href={toolHref(id)}>{tools[id].name}</a> : tools[id].name}</th>
+                <td data-label="Layer">{LAYER_LABELS[tools[id].layer]}</td>
+                <td data-label="Plans" class="num">{pricing[id].plans.length}</td>
+                <td data-label="Cheapest paid" class="num">{c ? <><Fig v={c.v} suffix="/mo" /> <span class="sub">{c.p.name}</span></> : '—'}</td>
+                <td data-label="Checked"><time datetime={pricing[id].checkedOn}>{longDate(pricing[id].checkedOn)}</time></td>
+              </tr>
+            ); })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</Base>

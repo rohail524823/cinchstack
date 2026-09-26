@@ -1,0 +1,131 @@
+SOURCE: https://woocommerce.com/tco-calculator/
+FETCHED: 2026-09-26T21:58:31.346Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Estimate your costs with WooCommerce
+
+WooCommerce offers total transparency and complete control over your costs, with no hidden fees or penalties.
+
+What’s your true total cost of ownership?
+
+Running a profitable ecommerce business means being in control of every cost — but most platforms make it hard to see where your money really goes. With WooCommerce, you only pay for what you use, not arbitrary plans or bundled tools.
+
+Use our free calculator to get a personalized cost estimate based on your store’s needs. You’ll get estimated costs for:
+
+Platform and hosting
+Transactions
+Development
+Extensions
+
+See how WooCommerce stacks up — and start scaling without surprises.
+
+Monthly revenue (in USD)*
+Orders per month*
+Store website*
+Site visits per month*
+Select
+Less than 30,000 (30K)
+30,000 – 50,000 (30K–50K)
+50,000 – 75,000 (50K–75K)
+75,000 – 150,000 (75K–150K)
+150,000 – 400,000 (150K–400K)
+400,000 – 1,000,000 (400K–1M)
+1,000,000 – 1,600,000 (1M–1.6M)
+1,600,000 – 2,000,000 (1.6M–2M)
+More than 2,000,000 (2M+)
+Product type(s)*
+ Physical
+ Digital
+ Bookings
+ Subscriptions
+Business email*
+First name*
+Last name*
+By clicking the button you agree to receive your estimated costs of ownership and marketing communications from Woo. You can opt-out from these communications at any time. You also understand that the information above will be used in accordance with our Privacy Policy. We track email opens and clicks for measurement and optimization purposes.
+Submit
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+INVENTION
+Use of your personal data
+We and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.
+Customize
+Accept all

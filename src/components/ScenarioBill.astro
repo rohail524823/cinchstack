@@ -1,0 +1,28 @@
+---
+import { price, tool } from '../lib/data.mjs';
+import { SIZE_LABELS } from '../lib/schemas.mjs';
+import { longDate } from '../lib/format.mjs';
+import Fig from './Fig.astro';
+interface Props { id: string }
+const t = tool(Astro.props.id);
+const p = price(Astro.props.id);
+const order = ['solo', 'small', 'growing'];
+const scen = order.map((s) => p.scenarios.find((x) => x.size === s));
+const planName = (id) => p.plans.find((x) => x.id === id)?.name ?? id;
+---
+<p class="table-lead">What a business actually pays for {t.name} each month at three sizes, with every line of the bill shown. Built from the prices above as of {longDate(p.checkedOn)}; open “How we worked this out” under any total for the assumptions.</p>
+<div class="scen">
+  {scen.map((s) => (
+    <article data-scenario={s.size}>
+      <span class="lbl">{SIZE_LABELS[s.size]}</span>
+      <p class="who">{s.label}</p>
+      <p class="total"><Fig v={s.monthly} /> <small>/ month</small></p>
+      <span class={`conf ${s.confidence}`}>{s.confidence} confidence</span>
+      <ul>
+        {s.lines.map((l) => <li><span>{l.label}</span><span><Fig v={l.amount} /></span></li>)}
+      </ul>
+      <p class="assume">Plan: {planName(s.planId)} · billed {s.billing === 'annual' ? 'annually' : 'monthly'}.</p>
+      <details class="work"><summary>How we worked this out</summary><p class="assume">{s.assumptions}{s.note ? ` ${s.note}` : ''}</p></details>
+    </article>
+  ))}
+</div>

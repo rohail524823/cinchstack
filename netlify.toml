@@ -1,0 +1,42 @@
+# cinchstack.com: static Astro build. The build fails if any gate in scripts/check.mjs fails,
+# so a broken page never goes live.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    Content-Security-Policy = "default-src 'self'; script-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; form-action 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/changes/rss.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=utf-8"
+
+# The old placeholder had no other URLs; www redirects to the apex.
+[[redirects]]
+  from = "https://www.cinchstack.com/*"
+  to = "https://cinchstack.com/:splat"
+  status = 301
+  force = true

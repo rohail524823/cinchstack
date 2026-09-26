@@ -1,0 +1,87 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/42067001590163-Surge-protection-for-overages
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/42067001590163.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:28.646515Z
+ARTICLE UPDATED: 2026-08-10T13:04:43Z | EDITED: 2026-08-10T13:04:43Z
+RENDERER: curl + HTML-to-text of article body
+----
+Surge protection for overages
+
+How Webflow protects your site from short-term usage spikes.
+Certain Webflow features and add-ons (listed below) have monthly plan limits. If your site experiences a sudden spike in traffic, it may exceed monthly plan limits. Surge protection acts as a built-in safety net, giving you a grace period where temporary overages won’t result in extra charges. If usage returns to normal the next month, no action is taken — but if it stays over the limit for two consecutive months, your site is automatically upgraded to match your usage at the start of your next billing month.
+What triggers surge protection?
+Your site plan and some add-ons include usage-based limits. If your site exceeds one of these limits surge protection is triggered. Instead of being charged for temporary spikes, you get a buffer to monitor or adjust your usage.
+Surge protection metrics vary by plan:
+
+-
+Bandwidth (Site plan) — total data transferred between your published site and visitors
+
+-
+Sessions (Analyze non-Enterprise plans) — a period of activity from a unique visitor on your site
+
+-
+Page views (Optimize and Analyze Enterprise plans) — total number of pages viewed by site visitors
+
+-
+Requests (Webflow Cloud) — total number of requests your app handles
+
+-
+CPU time (Webflow Cloud) — total compute time (e.g., the time your app code is actively executing)
+
+How does surge protection work?
+Once you exceed your limit for one billing month, breathe easy — you won’t be charged for overages this month. Surge protection gives you time to assess your usage and make changes if needed.
+What happens the following billing month?
+If your site usage lowers so that it is within your monthly limit, no action is taken.
+If your site usage exceeds the same limit for two consecutive billing months, your plan or add-on will be automatically upgraded to a higher tier:
+
+- Upgrades are based the lower usage metrics from your last two billing months
+
+- Only the plan or add-on that exceeds its limit will be upgraded — for example, the Analyze or Optimize tier, or for bandwidth overages, the site plan or bandwidth add-on
+
+- The upgrade includes new charges based on the new tier
+
+Note
+
+Automatic upgrades for Analyze and Optimize only move an active add-on
+to
+a higher tier. Webflow doesn’t automatically add either add-on to a site
+for the first time — Analyze and Optimize must initially be purchased manually.
+
+Does surge protection reset?
+Yes. If your usage returns to normal after an overage month, your surge protection resets.
+How to monitor your usage
+Webflow sends notifications by email and displays a banner in the dashboard as your site exceeds usage limits.
+You can also track your usage at any time by going to Site settings > Site usage or Plan usage. There, you can:
+
+- See your plan limits
+
+- View your current usage for bandwidth, sessions, and page views, requests, and CPU time
+
+- Download historical usage data to identify trends
+
+What is a billing month at Webflow?
+A billing month is the recurring monthly period Webflow uses to track usage and calculate overages — whether you’re on a monthly or annual plan. Understanding your billing month helps you monitor your usage and avoid unexpected charges.
+
+-
+Monthly subscribers — your billing month matches your billing cycle
+
+-
+Annual subscribers — even though you’re billed once a year, your usage is still tracked on a monthly basis for the duration of your annual plan. Your billing month begins when your annual subscription starts.
+
+For example, if you subscribed on March 5, your first two billing months are:
+
+- March 5 – April 4
+
+- April 5 – May 4
+
+When are overages calculated and applied?
+Overage calculations are based on the monthly billing period described here. If you exceed your usage for two consecutive billing months, any applicable overage charges are incurred at the beginning of your next billing month cycle.
+Tips to reduce your usage
+
+-
+Bandwidth — if bandwidth is exceeded, try these bandwidth optimization tips
+
+-
+Sessions and page views — these metrics accrue based on site traffic. Learn how sessions and page views are counted.
+
+-
+Requests and CPU time — these metrics accrue based on site traffic, how many assets are being served, and how interactive your Webflow Cloud app is. Learn more about Webflow Cloud usage.

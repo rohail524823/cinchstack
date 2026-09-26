@@ -1,0 +1,259 @@
+SOURCE: https://www.klaviyo.com/pricing
+FETCHED: 2026-09-26T22:12:29.927Z
+RENDERER: headless Chromium, en-US, US timezone
+METHOD: Clicked the "Data + Analytics" pricing tab; saved document.body.innerText, then clicked each of the 9 FAQ questions open and appended each question's row text.
+----
+___
+Skip to main content
+Platform
+Apps & Integrations
+Resources
+What’s New
+Pricing
+Log in
+Sign up
+Get a demo
+Home/Pricing
+Klaviyo pricing:
+Build your plan
+
+Scale as you grow with flexible pricing across marketing, service, and data products and features. Email marketing comes standard with every plan.
+
+Platform
+GET STARTED
+Free
+SOLUTIONS PRICING
+Marketing
+Data + Analytics
+Service
+30% OFF
+AI AGENTS
+Composer
+Customer Agent
+30% OFF
+TALK TO SALES
+Professional Services
+Enterprise
+Data + Analytics
+
+Unlock deeper insights with advanced analytics and a unified customer data platform.
+
+Personalization
+
+Turn customer insights into action with AI that optimizes who you reach, when, and what you show.
+
+Add to plan
+active profiles
+500
+
+Email, Customer Hub, and Social marketing are also based on active profiles. Moving this slider will affect those prices as well.
+
+$100
+What's included
+Advanced Klaviyo Data Platform (CDP)
+
+Unify customer data across all touchpoints with real-time profiles and predictive analytics.
+
+Add to plan
+total profiles
+100,000
+$500
+What's included
+Compare Klaviyo Analytics plans
+ 	Already included with Klaviyo	Unlocked with Personalization
+Audience and conversion dashboards	
+	
+
+Marketing and segment performance reports	
+	
+
+Customer behaviour funnels and cohort reports	
+	
+
+Customizable attribution and metrics	
+	
+
+Advanced personalization with customizable RFM analysis	
+	
+
+Predictive analytics and customer lifetime value	
+	
+
+Custom CLV prediction	
+	
+
+Advanced, actionable purchase pattern and catalog insights	
+	
+
+Industry benchmarks	
+	
+
+Multi-touch model (coming soon)	
+	
+
+Real-time personalization models	
+	
+Compare Klaviyo Data Platform plans
+ 	Already included with Klaviyo	Unlocked with Advanced Klaviyo Data Platform
+Unified, lifetime profiles	
+	
+
+Real-time segmentation	
+	
+
+Predictive analytics	
+	
+
+No-code data transformations	
+	
+
+Data export to third-party destinations	
+	
+
+Connect data from 350+ integrations	
+	
+
+Catalogue insights for cross-sell	
+	
+
+Including RFM segments	
+	
+
+Including custom CLV prediction	
+	
+
+Unlimited data retention	
+	
+$1
+🇺🇸
+USD
+
+per month
+
+Estimated total price
+
+Email
+$1
+
+Included in every plan
+
+Standard support
+Included
+Total estimated
+$1.00
+Get started
+Frequently asked questions
+What is Klaviyo Data + Analytics?
+What is included in Klaviyo’s Data + Analytics offering?
+How do Klaviyo’s built-in analytics differ from the Personalization add-on?
+What kinds of reports and dashboards are available in Klaviyo Analytics?
+What factors determine the price of Klaviyo’s Data + Analytics plans?
+Can I combine Personalization and the Advanced Data Platform in one plan?
+Do I need a minimum number of profiles to use Personalization or the Advanced Data Platform?
+How do I add Personalization or the Advanced Data Platform to my plan?
+Can I try Personalization or the Advanced Data Platform before committing?
+COMPANY
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+KLAVIYO FOR
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+PLATFORM
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+WHY KLAVIYO
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+CHANNELS
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOOLS + RESOURCES
+Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+TOP PRODUCTS + FEATURES
+Composer
+PREVIEW
+Customer Agent
+Customer Hub
+Helpdesk
+Personalization
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+EXPLORE MORE
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices
+Cookie Settings
+Your Privacy Preferences
+
+==== FAQ ANSWERS (each question clicked open, its row text saved) ====
+
+What is Klaviyo Data + Analytics?
+Klaviyo Data + Analytics is a suite of advanced analytical tools designed to help businesses unlock deeper insights from their marketing and customer data. It combines powerful reporting, predictive analytics and segmentation features to give you a complete view of customer behaviour across channels. With Klaviyo Data + Analytics, you can create custom reports, track performance with advanced attribution and forecast customer lifetime value (CLV) to make smarter, data-driven marketing decisions.
+
+(could not expand FAQ 1: locator.click: Timeout 3000ms exceeded.)
+
+How do Klaviyo’s built-in analytics differ from the Personalization add-on?
+Klaviyo includes standard reporting on campaign, flow and audience performance in every account. The Personalization add-on unlocks deeper, more customizable insights – such as advanced attribution, custom conversion metrics, multi-touch modelling (coming soon), predictive analytics and RFM segmentation.  With Personalization, you can track full customer journeys, benchmark performance against similar brands and visualise the impact of marketing across channels – all in one place.
+
+What kinds of reports and dashboards are available in Klaviyo Analytics?
+"Klaviyo Analytics provides a mix of pre-built dashboards and custom reporting tools to track every part of your marketing funnel. You can access: · Marketing performance dashboards for flows, campaigns and sign-up forms · Custom reports built around your own KPIs · Conversion overview and audience performance reports · Attribution and revenue dashboards for tracking true ROI · Segment, list and growth reports for understanding acquisition and retention trends All reports are customisable with filters, metrics and visualizations – helping you analyse performance and identify actionable insights quickly."
+
+What factors determine the price of Klaviyo’s Data + Analytics plans?
+"Pricing for Klaviyo’s Data + Analytics plans depends on your profile volume and the specific analytics products you choose: · Personalization pricing is based on your active profiles (contacts you market to) · Advanced Klaviyo Data Platform (CDP) pricing is based on the total number of profiles stored in your account As your list size or data volume grows, pricing scales accordingly. You can use the pricing slider on Klaviyo’s website to estimate your monthly cost."
+
+Can I combine Personalization and the Advanced Data Platform in one plan?
+Yes, you can combine Personalization and the Advanced Klaviyo Data Platform for a unified analytics and data management solution. Together, these add-ons provide end-to-end insight – from marketing attribution and predictive analytics to full data unification and segmentation across all touchpoints. The combined plan’s pricing reflects your active and total profile counts.
+
+Do I need a minimum number of profiles to use Personalization or the Advanced Data Platform?
+There’s no minimum requirement to access Klaviyo’s Data + Analytics products. However, pricing tiers are based on your number of profiles – so smaller brands with fewer contacts will pay less, and costs scale as your customer base grows. This makes it flexible for both start-ups and enterprise teams to begin at the right level and expand as they scale.
+
+(could not expand FAQ 7: locator.click: Timeout 3000ms exceeded.)
+
+Can I try Personalization or the Advanced Data Platform before committing?
+Yes, Klaviyo offers trial periods for Data + Analytics products so you can explore the features and see how they fit your business needs before making a long-term commitment. Contact your account manager or Klaviyo support to learn more about trial options.

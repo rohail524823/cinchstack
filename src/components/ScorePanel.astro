@@ -1,0 +1,31 @@
+---
+import { score, tool, paysUs } from '../lib/data.mjs';
+import { FACTORS } from '../lib/schemas.mjs';
+import { oneDecimal, stars, longDate } from '../lib/format.mjs';
+interface Props { id: string; compact?: boolean }
+const { id, compact = false } = Astro.props;
+const t = tool(id);
+const s = score(id);
+const LABEL = { realCost: 'Real cost', pricingHonesty: 'Pricing honesty', smallTeamFit: 'Small-team fit', doesTheJob: 'Does the whole job', freedomToLeave: 'Freedom to leave', trackRecord: 'Track record' };
+---
+<section class="score" data-score={s?.overall ?? 'none'}>
+  <div>
+    <span class="lbl">Our score</span>
+    {s && s.overall !== null ? (
+      <p class="big">{oneDecimal(s.overall)}<small> / 5</small></p>
+    ) : <p class="big" style="font-size:26px">Not scored</p>}
+    {s && s.overall !== null && <span class="stars" role="img" aria-label={`${oneDecimal(s.overall)} out of 5`}><i style={`width:${stars(s.overall)}%`}></i></span>}
+  </div>
+  <div>
+    {s ? <p style="margin:0">{s.basis}</p> : <p style="margin:0">We have not scored {t.name} yet. We score a tool only after two independent passes over its pricing and product evidence.</p>}
+    {s?.notScoredReason && <p class="small muted">{s.notScoredReason}</p>}
+    {!compact && s?.factors && (
+      <details class="why">
+        <summary>Why we score it {oneDecimal(s.overall)}</summary>
+        <ul class="factors">{FACTORS.map((f) => <li><span>{LABEL[f]}</span><strong>{oneDecimal(s.factors[f])}</strong></li>)}</ul>
+        <ul>{FACTORS.map((f) => <li><strong>{LABEL[f]}:</strong> {s.reasons?.[f]}</li>)}</ul>
+        <p class="small muted">Scored {longDate(s.scoredOn)} by two independent passes. {s.paysUs || paysUs(id) ? `${t.name} pays us a commission, so this is the lower of the two scores.` : `${t.name} does not pay us.`} <a href="/methodology/#scoring">How scoring works</a>.</p>
+      </details>
+    )}
+  </div>
+</section>

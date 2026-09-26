@@ -1,0 +1,41 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961379128723-Webflow-Workspace-and-Site-plans-overview
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961379128723.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:30.754801Z
+ARTICLE UPDATED: 2025-08-05T19:18:56Z | EDITED: 2025-04-11T13:10:31Z
+RENDERER: curl + HTML-to-text of article body
+----
+Webflow Workspace and Site plans overview
+
+Compare how paid Workspace plans and paid Site plans differ.
+To help you better manage your websites, consider these types of plans:
+
+- A paid Site plan applies to an individual website, unlocking the ability to publish to a custom domain. It also unlocks basic site capabilities like additional pages, advanced SEO controls, additional CMS items, custom code, etc.
+
+- Upgrading your Workspace plan gives you access to enhanced staging capabilities and advanced collaboration features
+
+What are Site plans?
+Our free Starter sites allow you to publish to a webflow.io domain of your choice. The site is also limited to just 2 pages (among other limits), unless you have upgraded your Workspace plan. You can create two Starter sites on the Starter Workspace.
+When you need to scale your site, add premium features like custom code, and/or are ready to publish to a custom domain, you can choose a paid Site plan to expand its individual site capabilities.
+You can review the pricing page for a detailed comparison of Site plan features.
+What are Workspace plans?
+When you or your team sign up for Webflow, you’ll begin with a free Starter Workspace. Each Starter Workspace lets you create 2 free Starter sites, which can be hosted on Webflow.io. You can add paid site plans in order to publish to a custom domain.
+If you need access to enhanced staging capabilities and advanced collaboration features, you can upgrade to a paid Workspace plan. Growth and Agency workspace plans, for example, provide advanced collaboration features in order to better manage a team within Webflow.
+You can review the pricing page for a detailed comparison of Workspace plan features.
+FAQ
+What’s the difference between a Workspace plan and a Site plan?
+Workspace plans operate at the Workspace level, meaning their features affect all of the sites in your Workspace. Paid Workspace plans also increase access to enhanced staging capabilities and advanced collaboration features.
+Site plans, on the other hand, work at the individual site level. Site plans allow you to publish your site to a custom domain and unlock additional site-specific features. Visit webflow.com/pricing for more info.
+Do I need a Workspace plan or a Site plan? Do I need both?
+It depends!
+If you intend to publish all your sites to a custom domain (e.g., yourdomain.com), you will need to purchase Site plans for those sites.
+If you want to build more than 2 free webflow.io Starter sites or unlock advanced tools for all the sites in your Workspace, or want access to team collaboration capabilities, then you’ll need to upgrade your Workspace plan.
+Or, if you want to build sites in Webflow and export production-ready code to host elsewhere, you’ll need a paid Workspace plan to unlock code export functionality. This lets you keep more free, unhosted Starter sites in your Dashboard — but you won’t need to purchase Site plans for those sites, since you’ll be hosting those sites elsewhere.
+
+Good to know
+
+If you want to buy seats to add additional team members, you don’t need to upgrade your Workspace plan from the Starter plan.
+
+How many Workspaces can I have?
+You can create as many paid Workspaces as you want, but you can only have one free Starter Workspace at a time.
+How many sites can I create?
+You can have an unlimited number of hosted sites (i.e., sites with a paid plan) on any Workspace plan. However, each Workspace plan tier differs in the number of free webflow.io Starter sites they support. Check out our pricing page for a comparison of each Workspace plan and the number of Starter sites they support.

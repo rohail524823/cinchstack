@@ -1,0 +1,193 @@
+SOURCE: https://woocommerce.com/document/managing-woocommerce-com-subscriptions/what-are-woocommerce-com-subscriptions/
+FETCHED: 2026-09-26T22:04:04.361Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Documentation
+WooCommerce
+Expand
+Products
+Expand
+Woo Marketplace
+Code Snippets
+Expand
+Documentation / Woo Marketplace / Managing WooCommerce.com Subscriptions / What are WooCommerce.com subscriptions?
+What are WooCommerce.com subscriptions?
+
+When you purchase an extension or theme from the WooCommerce.com Marketplace, you receive a WooCommerce.com subscription. This subscription grants you access to product updates, support, and downloadable files for the duration of your subscription term.
+
+You can view and manage all of your subscriptions from the My Subscriptions section of your WooCommerce.com account dashboard.
+
+Note: WooCommerce.com subscriptions are different from the WooCommerce Subscriptions extension, which allows store owners to sell subscription-based products to their customers. This page covers subscriptions for products purchased from the WooCommerce.com Marketplace.
+
+What does a subscription include?
+
+Each WooCommerce.com subscription gives you:
+
+Product updates and improvements — Receive the latest versions of your extension or theme, including compatibility updates for newer versions of WordPress and WooCommerce, bug fixes, and new features.
+Customer support — Access support from the product developer or the WooCommerce Happiness Engineers via the Help Desk.
+Downloadable product files — Download the latest version of the extension or theme at any time during your active subscription.
+30-day money-back guarantee — All WooCommerce.com Marketplace purchases are covered by a 30-day refund policy.
+Subscription billing periods
+
+Most WooCommerce.com extension and theme subscriptions are billed on one of the following schedules:
+
+BILLING PERIOD	DESCRIPTION
+Annual (1 year)	The most common billing option. Renews every 12 months.
+Biennial (2 years)	Available on select extensions, often at a lower per-year cost. Renews every 24 months.
+
+You can see the available billing options on each extension’s product page in the WooCommerce.com Marketplace.
+
+How to change your billing period
+
+To switch from a 1-year to a 2-year subscription (where available), disable auto-renewal on your current 1-year subscription. At the end of your current term, purchase a new 2-year subscription for the product.
+
+How much does renewal cost?
+
+Subscriptions renew at 100% of the current listed price for your selected subscription term. The renewal price is based on the price shown on the product’s WooCommerce.com Marketplace page at the time of renewal — not the price you originally paid.
+
+Coupon codes and promotional discounts do not apply to renewal charges.
+
+What do you receive when your subscription renews?
+
+Renewing your subscription entitles you to continued access to:
+
+Product updates and improvements
+Customer support
+Compatibility with newer versions of WordPress and WooCommerce
+Bug fixes, new features, and enhancements
+How many sites can a subscription be used on?
+
+One active subscription key can be used on one active (production) site and one staging, test, or development site at the same time. This allows you to test extensions in both a live and development environment without needing to swap or reactivate keys.
+
+What counts as a separate site:
+
+Subdomains are separate sites — a key activated on example.com does not cover staging.example.com.
+Sub-directory sites are separate sites — a key activated on example.com/site1 does not cover example.com/site2.
+Protocols — Due to how activation URLs are handled, http://example.com and https://example.com may be counted as separate sites.
+
+Legacy subscriptions: Before February 2020, 5-site and 25-site subscription options were available. If you hold a legacy subscription, it covers that number of active sites plus the same number of staging/test/development sites.
+
+Free product subscriptions
+
+If you have a free extension from the WooCommerce.com Marketplace, your subscription renews automatically at no cost. Free product subscriptions do not require a stored payment method. Auto-renewal keeps your key active so you continue to receive support and updates.
+
+What happens when a subscription expires?
+
+If your subscription expires or is canceled:
+
+You are no longer eligible for product updates or customer support.
+The extension or theme remains installed on your site but will no longer receive updates.
+Running outdated extensions may lead to compatibility issues with newer versions of WordPress or WooCommerce.
+
+To regain access to updates and support, renew your subscription from the My Subscriptions page or purchase a new subscription.
+
+Related documentation
+Auto-renewal, cancellation, refunds
+Installing extensions
+Connect your site to WooCommerce.com
+WooCommerce.com refund policy
+WooCommerce.com support policy
+Frequently asked questions
+Questions and support
+
+Do you still have questions and need assistance? 
+
+Get in touch with a Happiness Engineer via our Help Desk. We provide support for extensions developed by and/or sold on WooCommerce.com, and Jetpack/WordPress.com customers.
+If you are not a customer, we recommend finding help in the WooCommerce support forum or hiring a Woo Agency Partner. These are trusted agencies with a proven track record of building highly customized, scalable online stores. Learn more about Woo Agency Partners.
+Was this guide helpful for you?
+ON THIS PAGE
+What does a subscription include?
+Subscription billing periods
+How to change your billing period
+How much does renewal cost?
+What do you receive when your subscription renews?
+How many sites can a subscription be used on?
+Free product subscriptions
+What happens when a subscription expires?
+Related documentation
+Questions and support
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+THINGAMAJIG
+Use of your personal data
+We and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.
+Customize
+Accept all

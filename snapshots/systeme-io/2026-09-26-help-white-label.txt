@@ -1,0 +1,314 @@
+SOURCE: https://help.systeme.io/article/7532-white-label-feature
+FETCHED: 2026-09-26T21:47:20.634Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+CATEGORIES
+Affiliation
+Blog
+Booking calendar
+Contact management
+Courses
+Customer support
+Deliverability
+Editor
+Emails
+General
+›
+Migrating to systeme.io
+Model Context Protocol (MCP)
+Payments
+Sales funnels
+ON THIS PAGE
+I. What is White label?
+II. Setup and configuration
+1. White label settings
+2. Price plans
+3. Public pages
+III. Selling and managing accounts
+IV. Upgrading white label accounts
+V. Workspace collaboration and team access
+VI. Webhooks for white label users
+VII. Supported integrations for white label users
+General
+English
+How to white label systeme.io
+
+In this article, you will learn how to set up and configure the White Label feature and sell systeme.io accounts.
+
+You will need:
+
+A systeme.io account
+
+A custom domain
+
+I. What is White label?
+
+White label allows agencies/resellers to create and sell systeme.io accounts under their own brand to clients. They can customize the dashboard with their own logo, favicon, and brand colors.
+
+Pricing rule: while users have the freedom to set their own prices, they cannot sell these plans for less than systeme.io's official pricing.
+
+Does systeme.io take a cut of your sales?
+
+No. You keep 100% of the revenue you generate from your white-label sales.
+
+Systeme.io does not charge any revenue share or transaction fees on the plans you sell.
+
+II. Setup and configuration
+
+Navigate to the Reseller dashboard (1) under the Dashboard tab.
+
+You must connect a custom domain to your systeme.io account before activating the white-label feature. If you haven't connected your domain yet, please read the following help article.
+
+Important warning before activating: Currently, it is not possible to delete, reset, or deactivate the white label feature once it has been activated. Additionally, the custom domain you assign to your White label becomes strictly dedicated to it. It will be subject to special routing rules and can no longer be used for regular sales funnels or websites. Make sure to use a dedicated domain or subdomain specifically for your white label to avoid permanently breaking your existing pages.
+
+Click Activate White label.
+
+Select your white label domain and click Save.
+
+After the white label feature is activated, you will be redirected to the settings page, where you need to enter a new CNAME value.
+
+1. White label settings
+
+a. White label configuration:
+
+Enter your white label name (2). This name will be used as your company's name in transactional emails. You can also choose to change your white label custom domain (3).
+
+Note: In order to change your white label domain, a new domain needs to be integrated first.
+
+As mentioned before, the system will generate a unique CNAME for you to add (4). Create one new CNAME record in your DNS zone using the provided name and value (target) by clicking the copy icons (for the name, you only need to copy the asterisk).
+
+Example:
+
+Record type: CNAME
+
+Name (Host): *
+
+Target (Value): dv2d5y3rb5pl5.cloudfront.ne
+
+b. Sender email address:
+
+To configure your sender details, click the Edit button (5).
+
+The Sender email address window will open. Here, you can:
+
+Select an email address: Click the dropdown menu to choose from your list of verified email addresses. (If you need to use a new one, you can click Click here to add and verify a new email at the bottom).
+
+Enter a sender name: Type the name you want your recipients to see in the Name field.
+
+Once you have entered your details, click Save to apply the changes.
+
+Important: The sender email address and sender name you configure here will apply to all emails sent from your white label domain to your white label users.
+
+c. Brand customization:
+
+Choose your primary, secondary, and background colors by clicking the color icons to personalize the dashboard with your brand identity.
+
+Click Select an image to upload your Logo (6) and Favicon (7) images.
+
+Your brand customization (logo, favicon, and colors) will automatically be applied to the white label user dashboard, the login and registration pages, and all transactional emails sent to your users.
+
+2. Price plans
+
+Price plans are language-specific. Each language has its own currency, plan names, and payment gateways.
+
+When you activate the white label feature, a default price plan is automatically created using the language selected in your account.
+
+To create price plans for additional languages, go to Price plans (8) on your reseller dashboard, then click Add a new language (9).
+
+Select your desired language from the dropdown, then click Add (10).
+
+Once you've added a new language, click on it to expand and configure the settings.
+
+Currency: Select the currency for this language from the dropdown menu.
+
+Note: Make sure you have a payment gateway that supports the selected currency. If no payment gateway supports your chosen currency, you'll see an error message: "Currency not supported! No available payment methods support this currency. Please add a compatible provider."
+
+Plans: The system will display the plans you can offer based on your current systeme.io plan.
+
+To customize your plan, click Edit (11).
+
+You'll see several options to customize your plan:
+
+Plan name: Change the plan name to match your branding (e.g., rename "Startup" to "Growth Plan").
+
+Monthly and annual pricing: Switch between the Monthly price and Annual price tabs to configure each option.
+
+For each price, enter the:
+
+Price plan name displayed on the order form: Name shown to clients during purchase
+
+Price plan name displayed on your dashboard: Name you see in your dashboard
+
+Statement descriptor: Text on client's bank statement
+
+Payment amount: Your price (must be equal to or higher than the minimum shown)
+
+Tax behavior: Exclusive (tax added on top) or Inclusive (tax included)
+
+Price plan resources: Click Resources to add additional resources to this plan, such as tags or other assets that will be automatically granted when a client purchases this plan.
+
+Edit related pages: Customize the pages white label users will see:
+
+Upgrade page: Where white label users can upgrade their plan
+
+Thank you page: Confirmation page after a successful upgrade
+
+Click Save (12) to apply the changes.
+
+Notes:
+
+White label users will use the price plans you created to upgrade their plans.
+
+Each pricing option (monthly and annual) has its own separate Upgrade and Thank you pages.
+
+The page editor works the same as the standard systeme.io page editor.
+
+While on the Free plan, resellers can only offer free White label user accounts. Selling white label plans requires an upgrade.
+
+After saving a language, it will appear in your price plans list. Click the three-dot menu next to any language to access the following options:
+
+Set as default: Make this language the default for new white label users
+
+Duplicate for a new language: Copy this language's settings to create a new language with the same configuration
+
+Delete language: Remove this language and its plans
+
+Important: The price of any plan you create must not be lower than the systeme.io price in that currency.
+
+3. Public pages
+
+When you activate white label, a default website is automatically created on your White Label domain.
+
+You can access and edit your public pages directly from the Public pages tab in your white label dashboard.
+
+Your white label website includes:
+
+Homepage: The main landing page for your white label domain
+
+Pricing page: Displays available plans with pricing from your white label plans
+
+"Log in" and "Register buttons: Located in the website header for white label users to access their accounts
+
+If a website already exists for your white label domain, the pricing page will be automatically added to it.
+
+You can also access your website through Websites under the Site's tab, where it will appear as "WhiteLabel Website."
+
+III. Selling and managing accounts
+
+1. Selling accounts:
+
+You can automatically create free white label accounts when someone opts in to your funnel.
+
+Before you begin setting up your opt-in pages, it is important to understand exactly how the white label selling process works.
+
+You do not need to create custom order forms, pricing buttons, or set up webhooks to sell your plans. The entire upgrade flow is handled automatically by the system based on the Price plans you configured earlier.
+
+Here is the exact flow of how a user gets a paid account:
+
+User signs up: A visitor opts in through your funnel's opt-in page.
+
+Free account created: The automation rule automatically generates a free white label account for them.
+
+Note: You cannot sell paid plans directly upfront; every user must start by creating a free account.
+
+User upgrades: The user logs into their new dashboard, navigates to Settings > My plan, and chooses to upgrade.
+
+Payment processed: The system automatically displays the upgrade options you configured and handles the payment directly.
+
+Important: It is currently not possible for you to manually upgrade a user's account from your reseller dashboard. All upgrades must be performed by the user from within their own account.
+
+Step 1: Create a funnel with an opt-in page
+
+Navigate to Sites, then select Sales funnels to either create a new funnel or use an existing one. Add an opt-in page and a thank you page.
+
+Step 2: Set up the automation rule
+
+On the opt-in page, go to the Automation tab, click Add rule (1).
+
+Select Funnel step form subscribed as the trigger (2). Next, choose Create a new WL user as the action, select the user's language (3), and save the rule.
+
+Note: You can also set the automation rule directly from the Automation tab. To learn more, refer to the following page: How automation rules work.
+
+When a visitor fills out the opt-in form, they receive an email with a confirmation link.
+
+When they click the link, they land on a registration page where they enter their information (first name, last name, and set a password). After clicking Save, they are redirected to their white label account dashboard.
+
+And the white label user will automatically appear on the White label users tab of your reseller dashboard.
+
+Note: For a user to receive the confirmation email, their email address shouldn't be associated with any systeme.io account.
+
+2. Managing accounts:
+
+Once white label accounts are created, you can view and manage them from the White label users dashboard.
+
+For each white label user, you can see:
+
+Email address: The user's login email
+
+Resources: Their account usage (contacts, funnels, blogs, courses, creator stores)
+
+Statistics: Creation date, sales revenue, and new leads generated
+
+Plan: Current plan type (Free, Startup, Webinar, Unlimited)
+
+Status: Account status indicated by color
+
+You can also use the search bar to find users by email address. You can also filter users by Price plan or Status using the dropdown menus, then click Filter.
+
+Additionally, you can manage each account individually by clicking the three-dot menu next to any user to access management options:
+
+Impersonate: Access the user's account to see their dashboard and help with setup
+
+Block user: Temporarily block the user from accessing their account
+
+IV. Upgrading white label accounts
+
+White label users can upgrade their plans directly from their account settings.
+
+To upgrade, the white label user must navigate to Settings > My plan in their dashboard. They can view available plans and select the one they want to upgrade to.
+
+After completing the payment, their account is automatically upgraded with the new plan limits and features.
+
+Note: When a white label user clicks to upgrade their plan, they are redirected to the Upgrade page, which you can customize under Price plans (mentioned earlier on the page).
+
+V. Workspace collaboration and team access
+
+Both you and your white label users can invite team members to collaborate and manage accounts as a team.
+
+1. Team access to your Reseller dashboard: You can delegate day-to-day user support to your own workspace team members without giving them full ownership of your reseller account. When you invite team members to your systeme.io workspace, their access to the Reseller dashboard is determined by their role:
+
+Admins: Can browse the full list of white label users, block or unblock users, impersonate accounts, and edit your white label public pages.
+
+Assistants: Can search for a specific white label user by their exact email address and impersonate them to provide direct support. (Assistants cannot browse the full user list).
+
+Note: To protect your core configuration, neither admins nor assistants have access to your price plans or your core white label settings (white label name and domain).
+
+2. Workspace collaboration for your white label users: Your white label users can also invite team members to their own workspace to help manage their accounts. By going to Settings > Workspace members, they can invite collaborators via email and assign them either an Assistant or Admin role.
+
+Note: White label users can only invite collaborators who already belong to your specific reseller account or brand-new users who do not yet have a systeme.io or white label account.
+
+VI. Webhooks for white label users
+
+White label users can create, configure, and manage webhooks directly from their accounts to automatically send event data to external applications.
+
+To protect your brand identity, the entire Webhooks interface inside your clients' accounts is fully adapted to the white label experience. All systeme.io references and branding are completely removed from this section.
+
+VII. Supported integrations for white label users
+
+Your white label users can connect external tools to their accounts to help manage their business operations. Currently, the following integrations are fully supported and available for all white-label accounts:
+
+Zoom (How to integrate Zoom with systeme.io)
+
+Twilio (How to integrate your Twilio account with systeme.io)
+
+Your users can set up and manage these integrations directly from their own account settings.
+
+Note: We are actively working on expanding this list to support more integrations for White label users in the future.
+
+Did this answer your question?
+🙂
+🙁
+
+Last updated on September 16, 2026
+
+© 2026 systeme.io Help Center · help.systeme.io

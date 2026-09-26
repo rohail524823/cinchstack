@@ -1,0 +1,226 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:49:14.330Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Team
+Enterprise
+Core capabilities
+Site plans:
+Team
+Enterprise
+Site & Workspace
+Localize
+2 locales included
+Custom
+Webflow Optimize
+Optional add-on
+Custom
+Webflow Analyze
+Optional add-on
+Custom
+AI credits
+100,000 credits/year
+Custom
+Seats & roles
+Site plans:
+Team
+Enterprise
+Full seats
+5 included
+Custom
+Limited seats
+5 included
+Custom
+Free seats
+Up to 100
+Guest role
+10 teams included (up to 10 members per team)
+Publishing & staging
+Site plans:
+Team
+Enterprise
+Single-page publishing
+Bulk library updates
+Publishing workflows
+Publish summary
+Branch staging
+Private staging
+—
+Custom staging domain
+—
+Site configuration & Workspace management APIs
+—
+Staged webflow.io sites
+Unlimited
+Non-production sites
+Add-on
+Custom
+Governance
+Site plans:
+Team
+Enterprise
+Page branching
+Site activity log & API
+Custom roles
+—
+Granular access controls
+—
+Design approvals
+—
+Audit logs API
+—
+SEO & AEO
+Site plans:
+Team
+Enterprise
+Improve SEO & AEO
+AEO technical agents
+AEO content agents
+AEO recommendations dashboard
+Webflow AI
+Site plans:
+Team
+Premier
+Build a site
+Design sections
+Generate code components
+Get help
+Generate copy
+Improve SEO & AEO
+Webflow AEO agents
+Generate CMS Collection items
+Interactions
+Site plans:
+Team
+Enterprise
+Classic Interactions
+Interactions with GSAP
+Support & partnership
+Site plans:
+Team
+Enterprise
+24/7 priority support
+Guided onboarding
+Webflow University Pro
+Dedicated customer success manager
+—
+Available with Premium SLA
+Dedicated solutions architect
+—
+Available with Premium SLA
+Phone support
+—
+Available with Premium SLA
+Project hosting & scale
+Site plans:
+Team
+Enterprise
+CMS items
+20,000
+Custom
+CMS Collections
+100
+CMS Collection structure
+100 fields
+20 reference fields
+Static pages
+500
+Custom
+Bandwidth
+Up to 30 TB/month
+Custom
+Form submissions
+Unlimited
+Integrations & extensibility
+Site plans:
+Team
+Enterprise
+Content management APIs
+Content management API rate limit
+600 RPM
+Custom
+Content delivery APIs
+Content delivery API cached requests
+Custom
+Content delivery API TTL
+2 min
+Webflow Cloud
+Site plans:
+Team
+Enterprise
+Apps
+15
+Custom
+Web app bandwidth
+Pooled with site bandwidth limits
+Web app requests
+Custom
+Web app CPU usage
+Custom
+Mount to staging
+Mount to custom domain
+Remove Webflow badge
+SQLite (D1 database)
+Webflow gives at least 30 days notice before charging for overages.
+D1 databases
+Unlimited
+Storage
+Custom
+Simple operations
+Custom
+Advanced operations
+Custom
+Key-value store (KV database)
+Webflow gives at least 30 days notice before charging for overages.
+Key-value stores
+Unlimited
+Storage
+Custom
+Simple operations
+Custom
+Advanced operations
+Custom
+Object storage (R2 database)
+Webflow gives at least 30 days notice before charging for overages.
+R2 databases
+Unlimited
+Storage
+Custom
+Simple operations
+Custom
+Advanced operations
+Custom
+Security & compliance
+Site plans:
+Team
+Enterprise
+HSTS
+Custom SSL certificates
+Custom security headers
+Custom security questionnaires
+Single sign-on
+—
+Just-in-time (JIT) provisioning
+—
+SCIM
+—
+Service agreements
+Terms of Service
+MSA
+SLAs
+Site plans:
+Team
+Enterprise
+Application uptime
+99.90%
+99.90%
+Hosting uptime
+99.00%
+99.99%
+Support incident response time
+Major: 12 hours
+Minor: 24 hours
+Major: 1 hour
+Minor: 4 hours
+Close Modal

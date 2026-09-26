@@ -1,0 +1,201 @@
+SOURCE: https://help.gohighlevel.com/support/solutions/articles/155000001152
+FETCHED: 2026-09-26T21:47:56.420Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+HighLevel Support Portal
+Home
+Knowledge base
+Login
+Sign up
+Home
+...
+LC Email - Complete Guide to Dedicated IP
+LC Email - Complete Guide to Dedicated IP
+
+Modified on: Tue, 30 Jun, 2026 at 4:46 AM
+
+Dedicated IP for LC Email
+
+Send from an exclusive IP address — take full control of your email sender reputation and deliverability.
+
+Dedicated IPs offer a distinct advantage by sending your email messages from a unique, exclusive IP address. Email service providers (ESPs) closely monitor the reputation and behaviour of an IP address to determine the deliverability of emails linked to specific domains associated with that IP.
+
+Getting a dedicated IP address provides your organization with exclusive ownership, giving you full control over the management of the email sender reputation and deliverability tied to that IP.
+
+This article will cover what Dedicated IP in LC Email is, pricing, why the feature was built, and several FAQs.
+
+TABLE OF CONTENTS
+
+TABLE OF CONTENTS
+
+Dedicated IP for LC Email
+When should I get a dedicated IP address?
+What are the benefits of a dedicated IP?
+What are some tips for sending emails with dedicated IPs?
+Who can buy a dedicated IP?
+How to buy a Dedicated IP?
+How to Manage Your Dedicated IP
+How To Assign a Dedicated IP to a Domain
+Frequently Asked Questions
+1. When should I get a dedicated IP address?
+2. What are the benefits of a dedicated IP?
+3. What are some tips for sending emails with dedicated IPs?
+4. Who can buy a dedicated IP?
+5. How to buy a Dedicated IP?
+6. How to Manage Your Dedicated IP
+7. How To Assign a Dedicated IP to a Domain
+8. Frequently Asked Questions
+When should I get a dedicated IP address?
+
+If you're sending a significant volume of emails, in the ballpark of hundreds of thousands to millions per month (especially if exceeding 200,000), it becomes prudent to establish your reputation on a dedicated IP. It's worth noting that obtaining a dedicated IP might be a distinct investment.
+
+Furthermore, when setting up email authentication protocols, including SPF, DMARC, DKIM, and SSL certificates to bolster protection against email spoofing, a dedicated IP becomes vital. Shared IPs don't offer the same level of security, leaving you vulnerable to the actions of other senders using the same IP.
+
+Additionally, possessing a dedicated IP shields you from potential domain hijacking risks, ensuring the integrity and security of your email communications.
+
+What are the benefits of a dedicated IP?
+
+While a dedicated IP might come with higher costs compared to a shared IP, it presents several distinct advantages:
+
+1
+
+Enhanced Email Delivery
+
+Dedicated IPs often result in faster email delivery. Renowned email service providers like Gmail and Yahoo tend to favour emails from dedicated IPs, ensuring quicker inbox placement. Without sharing bandwidth, your performance isn't influenced by others using the same IP.
+
+2
+
+Full Control Over Sender and IP Reputation
+
+As the sole user of a dedicated IP, you have total control over your sending habits, IP reputation, and SEO efforts. This allows you to customize your strategies without external interference.
+
+3
+
+Efficient Problem Resolution
+
+Being the only sender on your dedicated IP simplifies identifying and addressing IP-related issues. Pinpointing problems and implementing solutions becomes more straightforward, improving overall reliability.
+
+4
+
+Enhanced Cybersecurity
+
+A dedicated IP provides an additional layer of protection against threats like domain hijacking, malware, and hacking attempts, ensuring better security for your online resources.
+
+While dedicated IPs might be more costly, the tangible benefits they offer in performance, control, problem-solving, and security make them a valuable investment for organizations with significant online and email needs.
+
+What are some tips for sending emails with dedicated IPs?
+
+Within the world of email service providers (ESPs), your reputation is critical. With a dedicated IP, the challenge is to manage email volume and timing adeptly to prevent activating spam filters. Ideally, you should pace your email dispatches, allowing for a gradual increase in volume every 24 hours.
+
+Dedicated IPs are most beneficial when consistently dispatching large volumes of emails. However, sporadic, high-volume sending can be counterproductive, potentially flagging you as a spammer to email filters or even resulting in blocklisting. ESPs are particularly wary of abrupt surges in email dispatches.
+
+If your email traffic is inconsistently high, a shared IP might be more advantageous. This aligns your intermittent high volumes with the steady traffic patterns of other senders on the same IP.
+
+Through thorough testing and adjustments, we've perfected and automated the dedicated IP warm-up process, ensuring a robust sender reputation. Users may experience a transitional period where their emails alternate between the dedicated IP and their old shared IP in a 50/50 split until the dedicated IP is fully warmed up.
+
+Note: Users may still be in the warmup phase even after a considerable amount of time has passed since the IP was assigned.
+Who can buy a dedicated IP?
+Dedicated IPs are exclusively available for Agencies on the $297/$2970 and $497/$4970 plans.
+
+We strongly advise sending a minimum of 50,000 messages per week to uphold a robust reputation and reduce throttling issues with mailbox providers. Additionally, we recommend allocating one dedicated IP address for every 1 million messages sent monthly.
+
+Agency: An agency that has been established within the last 14 days is eligible to purchase the IP.
+
+Sub-accounts: Accounts with a total contact count exceeding 10,000 or those that have sent more than 50,000 emails in the last 10 days, and belong to an agency type created within the last 14 days, are eligible to acquire the IP.
+
+Payment setup exists in the sub-account: If payment setup is missing, the purchase flow will not continue.
+
+Dedicated IP purchase is enabled by the agency: If the agency has not enabled Dedicated IP purchase for sub-accounts, the purchase flow will not continue.
+
+Both Agencies and sub-accounts can purchase a dedicated IP if they are using LC - Email as the Email provider.
+
+Note: Non-SaaS locations are eligible to purchase if the Agency grants permission. This setup is detailed on the Agency Sub-accounts page.
+How to buy a Dedicated IP?
+
+LC Email users can acquire a dedicated IP through the Email service.
+
+1
+
+Go to Agency Settings
+
+Navigate to the agency settings page and click on Email Services.
+
+2
+
+Open Dedicated Domain And IP
+
+Click on Dedicated Domain And IP in the LC email provider section.
+
+3
+
+Click "Buy IP"
+
+On the next page, click on "Buy IP".
+
+4
+
+Confirm Purchase
+
+A modal will appear with the option to buy a new IP. Click on the "Buy Now" button to proceed with the purchase.
+
+✓
+
+Billing
+
+One IP at $59 per month will be charged to the agency. The agency can set up rebilling to cover this cost.
+
+How to Manage Your Dedicated IP
+
+If you own a dedicated sending domain, you'll notice a tag indicating whether your domain is associated with a Dedicated or Shared IP.
+
+Note: A Dedicated IP can only be linked to a dedicated sending domain.
+
+Additionally, you can assign one or more dedicated IPs to your domains. In this configuration, a single domain can be linked to multiple IPs, and vice versa. If your domain is associated with multiple IPs, emails will be sent through all these IPs in a round-robin manner. This method ensures a balanced distribution of email traffic among the IPs linked to your domain.
+
+How To Assign a Dedicated IP to a Domain
+1
+
+Open Assign IP
+
+Click the three dots next to your domain and select "Assign IP".
+
+2
+
+Select Your IP
+
+The "IP Assignment" modal will appear, displaying all the IPs you've purchased. Select the IP you wish to assign to the domain.
+
+Frequently Asked Questions
+
+Q: How can I bill my clients for usage?
+
+If you're on the Pro-plan, you can rebill your clients, saving you the effort of manual billing.
+
+Q: Will dedicated IP reselling work with ISV?
+
+Absolutely! Agencies on the Pro Plan will maintain the capability to resell.
+
+Q: How do I set up rDNS?
+
+Yes, follow the instructions in this article and set up the rDNS.
+
+Was this article helpful?
+No 
+Yes
+Print
+Articles in this Folder
+Dedicated Email Sending Domains Overview & Setup
+Google Dedicated Sending Domain Setup (LC Email)
+GoDaddy Dedicated Sending Domain Setu (LC Email)
+Siteground Dedicated Sending Domain Setup (LC Email)
+Migrate Mailgun Sending Domain to LC Email
+Deleting Your LC Email Sending Domain
+Related Articles
+Email Sending Guide: Email Best Practices & Email Warm Up
+Email Tracking for LC Email
+What is LC Email?
+Dedicated Email Sending Domains Overview & Setup
+Deleting Your LC Email Sending Domain
+Domain Warmup: How It Works (Fixed-Stage Model)
+Home Knowledge base

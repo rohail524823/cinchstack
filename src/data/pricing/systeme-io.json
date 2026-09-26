@@ -1,0 +1,265 @@
+{
+  "tool": "systeme-io",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from systeme.io's pricing page in both billing states, the plans API that page loads, the annual order pages, the terms and conditions and help-centre billing articles in a US-locale headless browser (API responses fetched with curl); snapshots saved.",
+  "sources": [
+    { "url": "https://systeme.io/pricing", "label": "Systeme.io pricing page (monthly billing, default view)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-pricing.txt" },
+    { "url": "https://systeme.io/pricing", "label": "Systeme.io pricing page with the Annual billing toggle switched on", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-pricing-billing-toggle-after-click-1.txt" },
+    { "url": "https://systeme.io/api/user-plans/en", "label": "Plans API behind the English pricing page (limits, monthCost and annualCost in US cents)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-api-user-plans.txt" },
+    { "url": "https://systeme.io/startupannual", "label": "Startup annual order page", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-order-startupannual.txt" },
+    { "url": "https://systeme.io/webinarannual", "label": "Webinar annual order page", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-order-webinarannual.txt" },
+    { "url": "https://systeme.io/unlimitedannual", "label": "Unlimited annual order page", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-order-unlimitedannual.txt" },
+    { "url": "https://systeme.io/terms-and-conditions", "label": "Systeme.io terms and conditions (refunds, automatic upgrades, free-plan revenue limit)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-terms.txt" },
+    { "url": "https://help.systeme.io/article/1509-how-systeme-io-subscription-plans-are-moderated", "label": "Help centre: how systeme.io subscription plans work (upgrade, downgrade)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-plans-moderated.txt" },
+    { "url": "https://help.systeme.io/article/1758-how-to-cancel-a-subscription-to-systeme-io", "label": "Help centre: cancelling a systeme.io subscription", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-cancel-subscription.txt" },
+    { "url": "https://help.systeme.io/article/1709-invite-assistant-account", "label": "Help centre: inviting assistant (staff) accounts", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-assistant-accounts.txt" },
+    { "url": "https://help.systeme.io/article/4243-how-to-create-a-sub-account-on-systeme-io", "label": "Help centre: sub-accounts", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-sub-accounts.txt" },
+    { "url": "https://help.systeme.io/article/4483-how-to-send-sms-messages-with-systeme-io", "label": "Help centre: sending SMS through Twilio", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-sms.txt" },
+    { "url": "https://help.systeme.io/article/286-how-to-remove-the-affiliate-badge-from-your-page", "label": "Help centre: removing the systeme.io affiliate badge (paid plans only)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-badge.txt" },
+    { "url": "https://help.systeme.io/article/7532-white-label-feature", "label": "Help centre: white label feature", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-white-label.txt" },
+    { "url": "https://help.systeme.io/article/225-how-to-connect-your-stripe-account-to-systeme-io", "label": "Help centre: connecting your own Stripe account", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-help-stripe.txt" },
+    { "url": "https://systeme.io/free-migration", "label": "Systeme.io free migration service page", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-free-migration.txt" },
+    { "url": "https://stripe.com/pricing", "label": "Stripe standard US pricing (card processing)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-stripe-us-pricing.txt" },
+    { "url": "https://systeme.io/api/user-plans/fr", "label": "Plans API for the French site (EUR prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-api-user-plans-fr.txt" },
+    { "url": "https://systeme.io/api/user-plans/pt", "label": "Plans API for the Portuguese site (BRL prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-api-user-plans-pt.txt" },
+    { "url": "https://systeme.io/pricing", "label": "Systeme.io pricing page after clicking the Startup plan's Start for free button", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-pricing-startup-cta-after-click-1.txt" },
+    { "url": "https://systeme.io/why-systeme", "label": "Why systeme.io page (founder and founding year)", "checkedOn": "2026-09-26", "snapshot": "snapshots/systeme-io/2026-09-26-why-systeme.txt" }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free forever with no credit card: 2,000 contacts, 3 sales funnels, 1 automation rule, 1 custom domain, 1 course (500 students), unlimited email sends and 0% transaction fees. The limit that matters for a seller is in the terms: Free accounts are capped at USD 10,000 in lifetime sales revenue. Once you hit it you get 3 days to upgrade, and then your payment pages stop taking new sales. The systeme.io affiliate badge can't be removed from pages on Free."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "Paid plans have no free trial. On the pricing page, the \"Start for free\" button on each paid plan opens a \"Create your free account\" signup for the Free plan. The Free plan never expires and needs no credit card, and you upgrade from inside the app.",
+    "source": 19
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-month",
+      "note": "Free forever, no credit card. Terms Article 5a caps Free accounts at USD 10,000 in lifetime sales revenue (affiliate commissions excluded). After the cap and a 3-day window, payment pages stop accepting new sales until you subscribe to a paid plan. You are not upgraded or charged automatically.",
+      "limits": [
+        "2,000 contacts",
+        "3 sales funnels (15 funnel steps)",
+        "1 automation rule, 1 workflow",
+        "1 custom domain",
+        "1 course, 500 students",
+        "1 blog, 1 website (2 languages)",
+        "1 email campaign, 1 tag, 1 CRM pipeline",
+        "No evergreen webinars",
+        "USD 10,000 lifetime sales revenue cap",
+        "systeme.io affiliate badge cannot be removed"
+      ],
+      "highlights": [
+        "Unlimited emails sent",
+        "0% transaction fees",
+        "Unlimited assistant accounts",
+        "Unlimited sub-accounts",
+        "No credit card required"
+      ],
+      "source": 0
+    },
+    {
+      "id": "startup",
+      "name": "Startup",
+      "monthly": 17,
+      "annualMonthly": 14.17,
+      "priceUnit": "per-month",
+      "note": "Billed annually it costs $170 a year (\"2 months free\" on the pricing page's annual toggle), which the annual order page shows as $14.17/month.",
+      "limits": [
+        "5,000 contacts",
+        "10 sales funnels (50 funnel steps)",
+        "10 automation rules, 5 workflows",
+        "3 custom domains",
+        "5 courses, 5 blogs, 5 websites",
+        "10 email campaigns, 10 tags, 5 CRM pipelines",
+        "No evergreen webinars"
+      ],
+      "highlights": [
+        "Unlimited emails sent",
+        "Unlimited students",
+        "0% transaction fees",
+        "Unlimited assistant accounts",
+        "Affiliate badge can be removed"
+      ],
+      "source": 0
+    },
+    {
+      "id": "webinar",
+      "name": "Webinar",
+      "monthly": 47,
+      "annualMonthly": 39.17,
+      "priceUnit": "per-month",
+      "note": "Billed annually it costs $470 a year, which the annual order page shows as $39.17/month.",
+      "limits": [
+        "10,000 contacts",
+        "50 sales funnels (300 funnel steps)",
+        "100 automation rules, 20 workflows",
+        "10 custom domains",
+        "20 courses, 20 blogs, 20 websites",
+        "100 email campaigns, 100 tags, 20 CRM pipelines",
+        "10 evergreen webinars"
+      ],
+      "highlights": [
+        "Evergreen (automated) webinars",
+        "Unlimited emails sent",
+        "0% transaction fees",
+        "Unlimited assistant accounts"
+      ],
+      "source": 0
+    },
+    {
+      "id": "unlimited",
+      "name": "Unlimited",
+      "monthly": 97,
+      "annualMonthly": 80.83,
+      "priceUnit": "per-month",
+      "note": "Billed annually it costs $970 a year. $970 ÷ 12 = $80.83/month, which the annual order page rounds to \"$80.9\". The pricing page calls contacts unlimited, but the plans API behind it sets this plan's contact limit at 1,000,000.",
+      "limits": [
+        "100 CRM pipelines",
+        "Contacts listed as unlimited (plans API limit: 1,000,000)"
+      ],
+      "highlights": [
+        "Unlimited contacts, funnels, automation rules and custom domains",
+        "Unlimited evergreen webinars",
+        "Free done-for-you migration, also on monthly billing",
+        "Early access to new features",
+        "0% transaction fees"
+      ],
+      "source": 0
+    },
+    {
+      "id": "for-teams",
+      "name": "For teams",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Price is given only on a sales call (\"Let's talk\" / \"Book a call\").",
+      "limits": [],
+      "highlights": [
+        "Everything in Unlimited",
+        "Dedicated success manager",
+        "Support built for teams"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "platform-transaction-fee",
+      "label": "Systeme.io transaction fee",
+      "amount": 0,
+      "display": "0% of each sale, on every plan",
+      "kind": "percent-of-sales",
+      "note": "The comparison table shows 0% transaction fees on Free, Startup, Webinar and Unlimited. The page also says \"Accept payments using Stripe or PayPal at no extra cost\".",
+      "source": 0
+    },
+    {
+      "id": "card-processing-stripe",
+      "label": "Card processing (Stripe standard US rate)",
+      "amount": 2.9,
+      "display": "2.9% + 30¢ per successful domestic card charge",
+      "kind": "percent-of-sales",
+      "note": "Stripe charges this on your own connected Stripe account. Systeme.io does not charge it. Stripe adds 1.5% for international cards, 0.5% for manually entered cards and 1% when currency conversion is needed. It is left out of the scenario totals because every platform pays it. PayPal and the other gateways charge their own rates, which were not captured.",
+      "source": 16
+    },
+    {
+      "id": "sms-via-twilio",
+      "label": "SMS sending (through your own Twilio account)",
+      "amount": null,
+      "display": "Billed by Twilio at Twilio's rates",
+      "kind": "other",
+      "note": "Systeme.io's SMS feature sends through a Twilio account you connect. Its help centre says \"SMS costs and delivery are managed directly through Twilio\". Systeme.io publishes no SMS rate of its own.",
+      "source": 11
+    },
+    {
+      "id": "automatic-upgrade",
+      "label": "Automatic upgrade when usage exceeds a paid plan's limits",
+      "amount": null,
+      "display": "Next plan's price for the rest of the billing period",
+      "kind": "other",
+      "note": "If a paid account goes over its limits (contacts, funnels, courses, etc.), systeme.io emails you and gives you 3 days to cut usage. After that it upgrades the subscription and bills the new plan's price for the rest of the period.",
+      "source": 6
+    }
+  ],
+  "billingNotes": [
+    "Every paid plan can be billed monthly or annually. Annual billing costs 10× the monthly price (\"2 months free\"): $170, $470 or $970 a year for Startup, Webinar or Unlimited.",
+    "Subscriptions are not refundable (terms, Article 3). The terms also say prices can change at any time, but an order keeps the price shown when it was placed.",
+    "Downgrading is not self-serve. You contact support, they send a custom order form, and you must fit the lower plan's limits. Cancelling takes effect just before the next renewal date.",
+    "Upgrading by card turns the time left on your current plan into a free trial of the new plan, and then the full new price is charged. PayPal cannot prorate, so PayPal users pay the full new price straight away and must ask support to cancel the old subscription.",
+    "Free done-for-you migration comes with the Unlimited monthly plan or any annual plan.",
+    "Every plan, including Free, includes unlimited assistant (staff) accounts. Assistants and admins cannot reach owner-only areas such as the plan, payment gateways and custom domains.",
+    "Every plan also allows unlimited sub-accounts, and each sub-account gets the same limits as the main plan. Selling sub-accounts below systeme.io's official prices breaks the terms.",
+    "With white label, a reseller keeps 100% of what they charge and systeme.io takes no revenue share. Resale prices cannot be lower than systeme.io's official price in that currency.",
+    "The pricing page contradicts itself in places. Its FAQ (marked \"Last updated: April 2026\") says Startup has \"unlimited funnels\" and Webinar \"unlimited everything\", but the comparison table and the plans API show 10 and 50 funnels. The \"All plans include\" section says unlimited students, while the table and API show 500 on Free. This record follows the table and API."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "Plan prices depend on the site language and currency. The English site bills USD ($17/$47/$97 a month). The French site's plans API shows the same numbers in euros (€17/€47/€97), and the Portuguese site shows BRL (R$95/R$200/R$414). Other language sites list other local currencies, which were not captured. We publish the US list price in USD."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo seller, $3,000/month in sales",
+      "assumptions": "1 person with 1 staff account (the owner) selling $3,000/month. The sell grid fixes only sales and staff, and systeme.io tiers its plans by contacts, so we borrow the run-layer figure of about 1,000 contacts. Free is ruled out by its USD 10,000 lifetime sales cap, which this seller passes in month 4 ($3,000 × 4 = $12,000). Startup, billed monthly, covers it. Card processing is left out: at Stripe's standard 2.9% + 30¢, 2.9% × $3,000 = $87 plus 30¢ per order, paid to Stripe.",
+      "planId": "startup",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Startup plan, billed monthly", "amount": 17 },
+        { "label": "Systeme.io transaction fee: 0% × $3,000 in sales", "amount": 0 }
+      ],
+      "monthly": 17,
+      "confidence": "high",
+      "note": "Billed annually, the same plan costs $170/year ($14.17/month)."
+    },
+    {
+      "size": "small",
+      "label": "Small team, $30,000/month in sales, 3 staff accounts",
+      "assumptions": "5 people with 3 staff accounts selling $30,000/month, using the borrowed run-layer figure of about 5,000 contacts. We chose Webinar over Startup for three reasons. Startup's 5,000-contact cap equals the assumed list, leaving no headroom. Going over it triggers an automatic upgrade after 3 days. And Startup allows only 10 tags, 10 automation rules and 10 funnels, which is tight at this sales volume. Assistant (staff) accounts are unlimited and included on every plan. Billed monthly. Card processing is left out: 2.9% × $30,000 = $870 plus 30¢ per order at Stripe's standard rate, paid to Stripe.",
+      "planId": "webinar",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Webinar plan, billed monthly", "amount": 47 },
+        { "label": "3 staff accounts (assistant accounts, unlimited on every plan)", "amount": 0 },
+        { "label": "Systeme.io transaction fee: 0% × $30,000 in sales", "amount": 0 }
+      ],
+      "monthly": 47,
+      "confidence": "medium",
+      "note": "The plan choice depends on the assumed list size and automation needs. If the list stays at or under 5,000 contacts and 10 tags and 10 automation rules are enough, Startup at $17/month works. Billed annually, Webinar costs $470/year ($39.17/month)."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, $150,000/month in sales, 8 staff accounts",
+      "assumptions": "15 people with 8 staff accounts selling $150,000/month, using the borrowed run-layer figure of about 25,000 contacts. Unlimited is the only plan above Webinar's 10,000-contact cap, so the contact limit forces it. Assistant (staff) accounts are unlimited and included. Billed monthly. Card processing is left out: 2.9% × $150,000 = $4,350 plus 30¢ per order at Stripe's standard rate, paid to Stripe.",
+      "planId": "unlimited",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Unlimited plan, billed monthly", "amount": 97 },
+        { "label": "8 staff accounts (assistant accounts, unlimited on every plan)", "amount": 0 },
+        { "label": "Systeme.io transaction fee: 0% × $150,000 in sales", "amount": 0 }
+      ],
+      "monthly": 97,
+      "confidence": "high",
+      "note": "Billed annually, Unlimited costs $970/year ($80.83/month). Free migration is included either way. The \"For teams\" plan adds a dedicated success manager at a price given only on a sales call."
+    }
+  ],
+  "unverified": [
+    "The \"For teams\" plan has no published price. It is quoted only on a sales call.",
+    "Monthly-plan checkout pages are not public (systeme.io/startup and /unlimited return 404, and /webinar is an inactive page). The monthly prices come from the pricing page and the plans API it loads. Monthly upgrades happen inside the app.",
+    "The Perks rows in the comparison table (free migration, early access) and other check-mark features are drawn as icons and did not come through as text. Free-migration eligibility comes from the free-migration page instead.",
+    "The pricing FAQ tells agencies wanting white label or resale to contact systeme.io for white-label pricing, while the help centre describes a self-serve white-label feature. We captured no separate white-label fee.",
+    "SMS cost depends on the customer's own Twilio account and was not captured.",
+    "Third-party reviews say Startup cost $27/month before a cut to $17 in May 2025. We did not capture a vendor source for the old price, so it is not recorded in history."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

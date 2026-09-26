@@ -1,0 +1,26 @@
+---
+import { stacks, stackBill, tool } from '../lib/data.mjs';
+import { LAYER_LABELS } from '../lib/schemas.mjs';
+import Fig from './Fig.astro';
+import { registry } from '../lib/pages.mjs';
+const reg = await registry();
+const best = (x) => (reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/` : reg.has(`/tools/${x}/`) ? `/tools/${x}/` : null);
+interface Props { id: string }
+const s = stacks[Astro.props.id];
+const bill = stackBill(Astro.props.id);
+const sizes = ['solo', 'small', 'growing'];
+---
+<p class="table-lead">The whole stack's monthly bill at three sizes: one row per layer, using each tool's real-cost scenario for that size, with the total at the bottom.</p>
+<div class="tbl-wrap"><table class="data stack">
+  <thead><tr><th scope="col">Layer</th><th scope="col">Tool</th>{sizes.map((z) => <th scope="col" class="num">{s.sizeLabels[z]}</th>)}</tr></thead>
+  <tbody>
+    {bill.rows.map((r) => (
+      <tr>
+        <td data-label="Layer">{LAYER_LABELS[r.layer]}<span class="sub">{r.role}</span></td>
+        <td data-label="Tool">{best(r.pick) ? <a href={best(r.pick)}>{tool(r.pick).name}</a> : tool(r.pick).name}</td>
+        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={r.cells[z].amount} />{r.cells[z].override && <span class="sub">{r.cells[z].note}</span>}</td>)}
+      </tr>
+    ))}
+  </tbody>
+  <tfoot><tr><th scope="row" colspan="2" data-label="Total">Total per month</th>{sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={bill.totals[z]} /></td>)}</tr></tfoot>
+</table></div>

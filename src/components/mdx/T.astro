@@ -1,0 +1,11 @@
+---
+// MDX token: <T id="hubspot" /> links the tool's pricing page (or hub with to="hub") if it exists; plain text otherwise.
+import { tool } from '../../lib/data.mjs';
+import { exists } from '../../lib/pages.mjs';
+interface Props { id: string; to?: 'pricing' | 'hub' | 'alternatives'; label?: string }
+const { id, to = 'pricing', label } = Astro.props;
+const t = tool(id);
+const href = to === 'hub' ? `/tools/${id}/` : to === 'alternatives' ? `/alternatives/${id}/` : `/tools/${id}/pricing/`;
+const ok = await exists(href);
+---
+{ok ? <a href={href}>{label ?? t.name}</a> : <span>{label ?? t.name}</span>}

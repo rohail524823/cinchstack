@@ -1,0 +1,464 @@
+SOURCE: https://woocommerce.com/products/woocommerce-subscriptions/
+FETCHED: 2026-09-26T21:58:33.041Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Marketplace / WooCommerce extensions / Merchandising / Subscriptions / WooCommerce Subscriptions
+Excellence verified
+Trending
+WooCommerce Subscriptions
+by Woo
+WooCommerce Subscriptions is a WooCommerce extension that lets customers subscribe to your products or services and pay on a weekly, monthly, or annual basis. It integrates with over 25 payment gateways for automatic recurring payments and supports automatic rebilling on failed subscription payments. Subscribers can manage their own plan — upgrading, downgrading, suspending, or canceling — and update their shipping address or payment method. It's a paid annual extension with a 30-day money-back guarantee.
+WooCommerce Subscriptions is compatible with Cart and Checkout blocks — a customizable, conversion-optimized checkout experience available in WooCommerce core.
+Multiple billing schedules available to suit your store’s needs.
+Integration with over 25 payment gateways for automatic recurring payments.
+Supports manual renewal payments through any WooCommerce payment gateway, along with automatic email invoices and receipts.
+Supports automatic rebilling on failed subscription payments, so you never lose revenue.
+Give subscribers the ability to manage their own plan, including upgrading or downgrading, without needing to wait on you for help.
+Built-in renewal notifications and automatic emails let you — and your customers — know when subscription payments have been processed, so there are never any surprises.
+Detailed reports allow you to keep track of recurring revenue, number of active subscribers, and more.
+Allow shoppers to gift subscriptions to each other, helping you reach new shoppers and grow recurring revenue with less effort.
+Include simple and variable downloadable products with your subscriptions. Link new downloadable products and manage existing ones directly from within WooCommerce Subscriptions.
+New! Create multiple plans for a single product and turn one-time purchases into recurring revenue.
+Capture residual revenue with recurring payments
+
+Can you guarantee how much money your store is going to make this month? If you offered subscription-based products, you could do just that.
+
+With WooCommerce Subscriptions, you can create and manage products with recurring payments — payments that will give you residual revenue you can track and count on.
+
+WooCommerce Subscriptions allows you to introduce a variety of subscriptions for physical or virtual products and services. Create product-of-the-month clubs, weekly service subscriptions or even yearly software billing packages. Add sign-up fees, offer free trials, or set expiration periods.
+
+A subscription-based model will allow you to capture more residual revenue — and all you have to do is ship the orders.
+
+WooCommerce Subscriptions features
+Reusable subscription plans
+
+Create storewide plans — with your own frequency and pricing — and apply them across the subscription products in your store.
+
+Flexible purchase options
+
+Choose how each product is sold: as a one-time purchase, a subscription, or both. Offer every storewide plan, just a select few, or create custom plans unique to that product.
+
+Free trials and sign-up fees
+
+Let customers try before they buy, or recoup your setup costs upfront — add free trials and sign-up fees to any subscription plan.
+
+Aligned renewals
+
+Sync all subscribers on a plan to the same renewal date with billing date alignment — ideal for shipping on set days. You can also choose how the first payment is charged: in full, on the next billing date, or prorated.
+
+Subscription coupons
+
+Offer customers a discount on their recurring payments, or on the sign-up fee alone — with dedicated recurring discount coupons and sign-up fee coupons.
+
+Gifting
+
+Allow shoppers to buy any subscription as a gift for someone else. Recipients get their own account to manage their subscription — helping you reach new customers and grow recurring revenue.
+
+Multiple subscriptions
+
+Your customers can purchase different subscription products in the same transaction, and WooCommerce Subscriptions will group them by billing schedule — so future renewals process as a single order and a single payment, with fewer gateway fees.
+
+Switching
+
+Allow customers to upgrade, downgrade, or switch between subscription plans, variations, and products. With flexible proration for the recurring amount, sign-up fee and length, you can customize the cost of switching to suit your store.
+
+Subscription management
+
+Manage every subscription from your WP Admin dashboard. Suspend or cancel a subscription, change the trial end date, add products, shipping, fees, or taxes, or adjust the recurring total for future payments.
+
+Subscriber account management
+
+Your customers can manage their own subscriptions from their account — suspend, cancel, or reactivate, switch plans, update their shipping address, and manage their payments — so routine changes don’t turn into support requests.
+
+Subscription emails
+
+Both you and your customers stay in the loop with built-in subscription emails for key events: renewal receipts, invoices awaiting payment, failed payment retries, cancellations, expirations, and switches.
+
+Subscriptions Health Check
+
+Stay in control of renewal health. The Subscriptions Health Check routinely scans every subscription in your store and flags the ones that need attention — renewals that didn’t process on schedule, or manual subscriptions that could be renewing automatically — right from your dashboard.
+
+Capture more residual revenue
+
+Whether your goal is to ship a surprise bundle of products to faithful customers every month or bill them for an in-person service provided by your small business, WooCommerce Subscriptions can take the stress out of capturing that all-important residual revenue.
+
+You’ll be able to track how many subscribers you have, when they’re being billed, and how much revenue you’re generating — meaning you’ll always know how much revenue your store can count on as you continue to grow.
+
+How to get started
+Download, install, and activate this extension in your WooCommerce store.
+Set up your first subscription-based product or service and take it live.
+Check out our detailed documentation to help you customize your subscription products, renewal options and more.
+Sit back and enjoy earning more revenue!
+Frequently asked questions
+What can I sell with WooCommerce Subscriptions?
+How can WooCommerce Subscriptions help me build predictable, recurring revenue?
+Which payment gateways work with WooCommerce Subscriptions?
+Does WooCommerce Subscriptions use Stripe or my payment gateway's own subscription tools?
+Can I offer free trials and sign-up fees?
+Can customers manage their own subscriptions?
+Can customers upgrade or downgrade their subscription?
+What happens when a renewal payment fails?
+Can I bill all my subscribers on the same day?
+Can I create subscription plans with different options or price points?
+Can I offer subscription discounts or coupons?
+Can customers buy more than one subscription at the same time?
+Can shoppers gift a subscription to someone else?
+Does WooCommerce Subscriptions send renewal notifications automatically?
+How do I turn products I already sell into subscriptions?
+What is the difference between WooCommerce Subscriptions and WooCommerce Memberships?
+Do I need WooCommerce Memberships if I only want recurring payments?
+Who is WooCommerce Subscriptions best for?
+When should I not use WooCommerce Subscriptions?
+What is the best way to sell subscription boxes or recurring product shipments in WooCommerce?
+Can I manage subscriptions after they are set up?
+WooCommerce Subscriptions 
+by Woo
+Choose a billing option
+1-year plan
+Price:
+$279
+2-year plan
+Save 20%
+$558
+Price:
+$446.40
+Buy now
+Add to cart
+View demo
+Price $23.25
+$23.25
+Per month
+ monthly billed annually at $279
+
+Reviews
+
+3.9
+(140)
+3.9 out of 5 stars,140 reviews
+
+Latest version
+
+9.2.0
+
+Active installs
+
+100K+
+
+Product comparison
+
+VS
+Not sure? Compare with similar options
+See how this compares to other solutions and choose with confidence
+
+Subscription includes
+
+Product updates and improvements
+Customer support
+30-day money-back guarantee
+
+Support
+
+Documentation
+Feature requests
+Get support
+
+Categories
+
+WooCommerce extensions
+Developed by Woo
+Payment management
+Merchandising
+Product variations
+Subscriptions
+Store management
+
+Extension information
+
+ 
+PHP version required: 7.4
+Tested with WordPress: 7.1
+Tested with WooCommerce: 11.1
+Requires at least WordPress: 7.0
+Requires at least WooCommerce: 11.0
+
+Quality Checks
+
+ 
+Known vulnerability check passed
+Dependent packages vulnerability check passed
+Follows Marketplace best practices
+Compatible with standard WooCommerce flows and extensions
+
+Compatibility
+
+ 
+Cart & checkout blocks
+High performance order storage (HPOS)
+
+Countries
+
+ 
+Worldwide
+Customer reviews
+Average rating
+3.9
+
+140 reviews from verified users
+
+5 stars, 52% of reviews
+5
+4 stars, 18% of reviews
+4
+3 stars, 11% of reviews
+3
+2 stars, 4% of reviews
+2
+1 star, 14% of reviews
+1
+Rated 5 out of 5
+kariekameleon
+·
+United States (US)
+·
+Sep 5, 2026
+Yes, it’s an expensive plugin. The support makes it worth it. They are dedicated and go above and beyond. I had a serious issue that ended up being a conflict with a discount rules plugin that was suppressing it. I never would have found that myself. I’d been chasing cron and Action Scheduler problems, and I’m genuinely grateful for how persistent and patient they were. Special shout-out to Lynn and David R. Thank you again for all the help.
+Read more
+1 reply
+Rated 5 out of 5
+nitsagraphic
+·
+Israel
+·
+Aug 25, 2026
+très bon!
+1 reply
+Rated 4 out of 5
+BioTropicLabs.com
+·
+United States (US)
+·
+Aug 22, 2026
+Great product but has gotten WAY too expensive since I first started using it. I'm seeking an out at this time due to its cost.
+1 reply
+Rated 4 out of 5
+mfedesign
+·
+United States (US)
+·
+Jun 28, 2026
+Woohoo for WooCommerce Subscriptions I really like the reliability of this plugin...It finally implemented a missing key feature - reminder emails.
+1 reply
+Rated 3 out of 5
+danieldotcom68
+·
+Argentina
+·
+May 28, 2026
+We weren't successful configuring woocommerce subscription in Argentina. We couldn't even give 1 star because the submit button does not activate unless we give 3. Not too reliable, to be honest.
+1 reply
+Pagination
+1
+2
+…
+28
+Related to WooCommerce Subscriptions
+Constellation - Memberships
+Price $249 annually
+$249
+annually
+Buy Now or Subscribe and Save for WooCommerce Subscriptions
+Price $49 annually
+$49
+annually
+Rated 4 out of 5 stars
+4 
+(3)
+Email Reminders for WooCommerce Subscriptions
+Excellence verified
+Price $39 annually
+$39
+annually
+Rated 3.6 out of 5 stars
+3.6 
+(5)
+Custom Cancelation Rules for WooCommerce Subscriptions
+Price $89 annually
+$89
+annually
+Buy Once or Subscribe for WooCommerce Subscriptions
+Price $79 annually
+$79
+annually
+Rated 4.6 out of 5 stars
+4.6 
+(11)
+Custom Start Date for WooCommerce Subscriptions
+Price $89 annually
+$89
+annually
+Rated 2.6 out of 5 stars
+2.6 
+(8)
+Minimum Periods for WooCommerce Subscriptions
+Price $39 annually
+$39
+annually
+Enhancer for WooCommerce Subscriptions
+Excellence verified
+Price $99 annually
+$99
+annually
+Rated 3.8 out of 5 stars
+3.8 
+(6)
+Related Products
+WooCommerce Memberships
+Excellence verified
+Price $199 annually
+$199
+annually
+Rated 4 out of 5 stars
+4 
+(150)
+Product Add-Ons
+Price $79 annually
+$79
+annually
+Rated 3.4 out of 5 stars
+3.4 
+(49)
+Shipment Tracking
+Price $59 annually
+$59
+annually
+Rated 3.1 out of 5 stars
+3.1 
+(30)
+USPS Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2.7 out of 5 stars
+2.7 
+(30)
+UPS Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2 out of 5 stars
+2 
+(27)
+Min/Max Quantities
+Excellence verified
+Price $49 annually
+$49
+annually
+Rated 4.1 out of 5 stars
+4.1 
+(16)
+FedEx Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2.3 out of 5 stars
+2.3 
+(19)
+EU VAT Number
+Price $39 annually
+$39
+annually
+Rated 2.8 out of 5 stars
+2.8 
+(11)
+Australia Post Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2.6 out of 5 stars
+2.6 
+(8)
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+OPUS

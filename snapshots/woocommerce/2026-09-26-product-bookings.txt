@@ -1,0 +1,402 @@
+SOURCE: https://woocommerce.com/products/woocommerce-bookings/
+FETCHED: 2026-09-26T21:58:31.862Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Marketplace / WooCommerce extensions / Merchandising / Bookings and appointments / WooCommerce Bookings
+WooCommerce Bookings
+by Woo
+WooCommerce Bookings is the official WooCommerce extension that lets store owners sell appointments, reservations, rentals, or classes with bookable time or date slots. It supports fixed time slots or flexible ranges, group and individual pricing, and resources — staff, rooms, or equipment — each with its own availability to prevent double-booking. It syncs with Google Calendar and works with any WooCommerce payment gateway. It's a paid annual extension with a 30-day money-back guarantee.
+
+Let your customers book reservations, appointments or rentals on their own — no phone calls required. Save yourself time and fill up your calendar by letting your site do the work for you.
+
+Is WooCommerce Bookings right for you?
+
+WooCommerce Bookings is best for letting customers book time or date slots directly on your store, whether that’s appointments, rentals, classes, or reservations. If you need to sell one-off event tickets, consider Box Office. If you need check-in/check-out style accommodation bookings, pair it with the free Accommodation Bookings add-on. If you want automated booking reminders and follow-ups, pair it with AutomateWoo.
+
+Let customers book classes, schedule appointments, or reserve items
+
+Whatever options you want to offer to your customers, Bookings makes it possible:
+
+Define set options, like fixed time slots for a class, appointment or guided tour
+Let customers choose the times that work best by giving them the flexibility to book whatever range they need, like checking into a hotel
+
+With either option, you can also block time off as un-bookable, leaving you time to take care of your other priorities and create buffers between bookings, to make sure the schedule works for you.
+
+Get as specific as you want with your time slots—the extension allows for bookings in days, hours, even minutes.
+
+Book one-on-one appointments or multi-person events
+
+You can set the minimum and maximum number of participants: limit a booking to one-at-a-time for appointments or let multiple people reserve a class or tour.
+
+Offer special pricing for groups, days, or individuals
+
+Offer discounts for groups or people booking multiple slots, show lower prices for early birds, higher prices on weekends, or special prices for kids. Bookings lets you customize pricing any way you want.
+
+Show availability in the customer’s time zone
+
+If your services are online or if you’re shipping something to the customer, display your availability in the customer’s time zone so they book the time they really need. Whether bookings come from New York, New Mexico or New Zealand, they’ll be within the hours you set, so no surprise appointments!
+
+It’s perfect for virtual classes, online appointments, or rentals that need to be delivered to the customer.
+
+Require confirmation, offer free cancellations — it’s all up to you
+
+Set up confirmations, allowing you time to review before making the booking official. Automatically send out reminders leading up to a booking to reduce no-shows, and set whether bookings can be cancelled.
+
+Send reminders and reduce no-shows
+
+Remind clients about their appointments with handy notification emails when a reservation is made, confirmed, and a day before the booking date.
+
+If you’d like to do more, you can send a special reminder right from your site.
+
+Never get double-booked
+
+Avoid double bookings by assigning the needed resources to a particular booking. For example, if your 2:00 bride books a fitting and a stylist until 3:30, that stylist won’t appear available for the bride scheduling a fitting at 3:00. You’ll never have to worry about offering the same resource to two customers at the same time.
+
+Manage your calendar your way — including syncing with Google Calendar
+
+Use the calendar view to see how your day or month is shaping up. Update existing bookings or availability, or filter to view specific services or resources.
+
+Still have customers calling in to make bookings the old-fashioned way? Add them manually from the calendar while you’re on the phone.
+
+Manage bookings on your store, and see it reflected on your Google Calendar in 60 seconds or less.
+
+Give your bookings a boost
+
+For a fully-customized experience, consider these add-ons other WooCommerce customers use with Bookings.
+
+Take a deposit for a reservation with Deposits.
+Use AutomateWoo to help improve your customer’s experience, decrease cancellations, or even upsell customers after they make bookings with automated booking confirmation or completion emails.
+Sell more bookings by presenting a calendar or schedule of available slots in a page or post with Bookings Availability.
+Try our free Accommodation Bookings add-on, if you have a hotel or B&B
+Allow service providers to submit and manage offerings themselves using Product Vendors.
+Offer add-ons for services, such as an oil treatment with a massage, or limited edition merchandise with a group booking for a baseball field, using Product Add-Ons.
+Frequently asked questions
+What can I use WooCommerce Bookings for?
+What is the best way to take appointments or reservations in WooCommerce?
+Can I control my availability and avoid double bookings?
+Can customers book for different lengths of time?
+Can I charge different prices for different bookings?
+Can WooCommerce Bookings manage staff, rooms, or equipment?
+Can customers book for more than one person at a time?
+Can I approve bookings before taking payment?
+Can I take a deposit instead of full payment for a booking?
+Does WooCommerce Bookings sync with Google Calendar?
+Can I display available booking slots on a page or post?
+Which payment gateways does WooCommerce Bookings work with?
+Can I use WooCommerce Bookings for hotel or accommodation reservations?
+Can I offer recurring or subscription-based bookings?
+Can I add extra options or add-ons to a booking?
+Who is WooCommerce Bookings best for?
+When should I not use WooCommerce Bookings?
+Can WooCommerce Bookings help reduce no-shows and last-minute cancellations?
+Can I manage and edit bookings after they come in?
+Bookings-compatible themes
+Pizzeria
+Price $59 annually
+$59
+annually
+Vegan Food Shop
+Price $49 annually
+$49
+annually
+WooCommerce Bookings
+by Woo
+Choose a billing option
+1-year plan
+Price:
+$249
+2-year plan
+Save 20%
+$498
+Price:
+$398.40
+Buy now
+Add to cart
+View demo
+Price $20.75
+$20.75
+Per month
+ monthly billed annually at $249
+
+Reviews
+
+2.7
+(60)
+2.7 out of 5 stars,60 reviews
+
+Latest version
+
+3.10.0
+
+Active installs
+
+20K+
+
+Product comparison
+
+VS
+Not sure? Compare with similar options
+See how this compares to other solutions and choose with confidence
+
+Subscription includes
+
+Product updates and improvements
+Customer support
+30-day money-back guarantee
+
+Support
+
+Documentation
+Feature requests
+Get support
+
+Categories
+
+WooCommerce extensions
+Developed by Woo
+Merchandising
+Bookings and appointments
+Cart and checkout features
+
+Extension information
+
+ 
+PHP version required: 7.4
+Tested with WordPress: 7.0
+Tested with WooCommerce: 11.0
+Requires at least WordPress: 6.8
+Requires at least WooCommerce: 10.6
+
+Quality Checks
+
+ 
+Known vulnerability check passed
+Dependent packages vulnerability check passed
+Compatible with standard WooCommerce flows and extensions
+
+Works with
+
+ 
+AutomateWoo, Follow-Ups, Product Add-Ons, Product Vendors, WooCommerce Accommodation Bookings, WooCommerce Bookings Availability, WooCommerce Deposits, Pizzeria, Vegan Food Shop
+
+Compatibility
+
+ 
+Cart & checkout blocks
+High performance order storage (HPOS)
+
+Countries
+
+ 
+Worldwide
+Customer reviews
+Average rating
+2.7
+
+60 reviews from verified users
+
+5 stars, 20% of reviews
+5
+4 stars, 15% of reviews
+4
+3 stars, 15% of reviews
+3
+2 stars, 12% of reviews
+2
+1 star, 38% of reviews
+1
+Rated 3 out of 5
+Jairo
+·
+Spain
+·
+Feb 23, 2026
+Even though it’s the official bookings plugin, it has significant shortcomings. One of the most critical issues is that it only synchronizes with a single calendar. Professionals using this plugin who manage one or more apartments on Booking_com cannot properly sync availability. The Booking_com extranet generates a separate calendar for each apartment, but the WooCommerce Bookings plugin only supports one calendar. As a result, you cannot independently synchronize reservations made through the Booking_com portal with those made on the business’s official website. Please build realistic plugins that actually serve real businesses. At least in Europe, Booking_com is used by the vast majority of hotels and apartments. If we want to defend and promote open-source software, we need tools that are versatile and aligned with real-world operational needs. In practice, many clients for whom we build websites using the bookings plugin eventually shut down their sites because they experience double bookings for the same dates. The lack of proper synchronization between the website and Booking_com leads to overbookings and ultimately creates a poor experience for tourists trying to reserve a room. In the end, Booking_com wins — and WooCommerce loses.
+Read more
+1 reply
+Rated 1 out of 5
+jonathan2138
+·
+Australia
+·
+Aug 26, 2025
+the calendar never work for me, it got stuck in an infinite loop loosing a lot of money due to the inability to make bookings
+Rated 3 out of 5
+seanmomsen
+·
+South Africa
+·
+Jun 11, 2025
+1. Api not working propperly. 2. Plugin produces the following error in the WP debug log: Function _load_textdomain_just_in_time was called incorrectly Im not going to fix it as the next update of this plugin will just break it again. 3. Also why would you save the booking data into the wp_post and wp_metadata tables in the database. It's a mess trying to find bookings inbetween page and posts? Create a uniue bookings table so its easy to export, delete, manage and archive historic data. Our website does over 100 000 bookings a year. We need to purge it to keep the frontend to load quickly.
+Read more
+Rated 1 out of 5
+belperroud
+·
+Belgium
+·
+Jun 5, 2025
+Please make some important update... For a plugin of this price it's really disappointing... There are still two issues that are for me really hard to deal with; 1. bug with email notification and WPML 2. API that isn't working at all...
+Rated 2 out of 5
+flexitim
+·
+Ireland
+·
+Jun 3, 2025
+Bookings plugin is confusing for users Okay. I have been working with the bookings plugin for 12 months now and it is so complicated. I have found glitches within the system and although according to the documentation, it can work, however, it's far too complicated for normal users. I have a good understanding of it and it still baffles me at times. I have vendors who join my site and leave because they find creating bookings too complicated. This is having a direct hit on my bottom line and reputation. Why is woocommerce not paying attention to the reviews and trying to make it easier. Far too expensive a plugin when compared to others on the market. Ye need to wake up guys!
+Read more
+Pagination
+1
+2
+…
+12
+Related Products
+WooCommerce Subscriptions
+Excellence verified
+Price $279 annually
+$279
+annually
+Rated 3.9 out of 5 stars
+3.9 
+(136)
+WooCommerce Memberships
+Excellence verified
+Price $199 annually
+$199
+annually
+Rated 4 out of 5 stars
+4 
+(150)
+Table Rate Shipping
+Price $119 annually
+$119
+annually
+Rated 3.5 out of 5 stars
+3.5 
+(19)
+WooCommerce Deposits
+Price $219 annually
+$219
+annually
+Rated 1.9 out of 5 stars
+1.9 
+(14)
+Product Vendors
+Price $119 annually
+$119
+annually
+Rated 2.9 out of 5 stars
+2.9 
+(25)
+WooCommerce Accommodation Bookings
+Free download
+Free download
+WooCommerce Bookings Availability
+Price $59 annually
+$59
+annually
+Rated 1.9 out of 5 stars
+1.9 
+(8)
+Product Add-Ons
+Price $79 annually
+$79
+annually
+Rated 3.4 out of 5 stars
+3.4 
+(49)
+Shipment Tracking
+Price $59 annually
+$59
+annually
+Rated 3.1 out of 5 stars
+3.1 
+(30)
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+MEDLEY
+Use of your personal data
+We and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.
+Customize
+Accept all

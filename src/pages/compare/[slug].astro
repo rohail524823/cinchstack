@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { SITE } from '../../lib/site.mjs';
+import { tool, price, comparisons, faqs } from '../../lib/data.mjs';
+import { registry, relatedFor } from '../../lib/pages.mjs';
+import { datesFor } from '../../lib/meta.mjs';
+import { breadcrumbNode, articleNode, softwareNode, itemListNode, faqNode } from '../../lib/jsonld.mjs';
+import { mdxComponents } from '../../components/mdx/index.mjs';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Byline from '../../components/Byline.astro';
+import Disclosure from '../../components/Disclosure.astro';
+import QuickAnswer from '../../components/QuickAnswer.astro';
+import Verdicts from '../../components/Verdicts.astro';
+import CompareCost from '../../components/CompareCost.astro';
+import CompareDims from '../../components/CompareDims.astro';
+import ScorePanel from '../../components/ScorePanel.astro';
+import AffLink from '../../components/AffLink.astro';
+import Provenance from '../../components/Provenance.astro';
+import Faq from '../../components/Faq.astro';
+import AuthorBox from '../../components/AuthorBox.astro';
+import KeepReading from '../../components/KeepReading.astro';
+import Updated from '../../components/Updated.astro';
+
+export async function getStaticPaths() {
+  const reg = await registry();
+  return [...reg.values()].filter((r) => r.kind === 'compare').map((r) => ({ params: { slug: r.slug }, props: { r } }));
+}
+const { r } = Astro.props;
+const c = comparisons[r.slug];
+const A = tool(c.a), B = tool(c.b);
+const e = r.entry;
+const path = `/compare/${c.id}/`;
+const url = `${SITE}${path}`;
+const { Content } = await render(e);
+const faq = faqs[`compare--${c.id}`]?.items ?? [];
+const d = datesFor(e);
+const verified = [price(c.a).checkedOn, price(c.b).checkedOn].sort()[0];
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Compare', href: '/compare/' }, { label: `${A.name} vs ${B.name}` }];
+const related = await relatedFor(e.id, e.data.related);
+const reg = await registry();
+const hubHref = (id) => (reg.has(`/tools/${id}/`) ? `/tools/${id}/` : reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
+const jsonld = [
+  breadcrumbNode(url, crumbs),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
+  softwareNode(c.a), softwareNode(c.b),
+  itemListNode(url, `${A.name} vs ${B.name}`, [c.a, c.b].map((id) => ({ name: tool(id).name, url: `${SITE}${hubHref(id) ?? path}` }))),
+  faqNode(url, faq),
+];
+---
+<Base title={e.data.title} description={e.data.description} path={path} jsonld={jsonld}>
+  <div class="wrap page">
+    <article class="read" style="max-width:900px">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1>{r.h1}</h1>
+      <Byline modified={d.modified} published={d.published} verified={verified} />
+      <Disclosure toolIds={[c.a, c.b]} />
+      {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
+      <h2 id="which-to-pick">Which should you pick?</h2>
+      <Verdicts id={c.id} />
+      <h2 id="real-cost">What each one really costs</h2>
+      <CompareCost a={c.a} b={c.b} />
+      <h2 id="side-by-side">{A.name} and {B.name} side by side</h2>
+      <CompareDims id={c.id} />
+      <div class="prose-body" data-prose>
+        <Content components={mdxComponents} />
+      </div>
+      <h2 id="scores">How we score them</h2>
+      <h3>{A.name}</h3>
+      <ScorePanel id={c.a} />
+      <h3>{B.name}</h3>
+      <ScorePanel id={c.b} />
+      <div class="cta-row">
+        <AffLink tool={c.a} page={path} placement="end-cta-a" label={`Go to ${A.name}`} />
+        <AffLink tool={c.b} page={path} placement="end-cta-b" label={`Go to ${B.name}`} />
+      </div>
+      <Provenance ids={[c.a, c.b]} />
+      <Faq items={faq} />
+      <AuthorBox />
+      <KeepReading links={related} />
+      <Updated modified={d.modified} published={d.published} />
+    </article>
+  </div>
+</Base>

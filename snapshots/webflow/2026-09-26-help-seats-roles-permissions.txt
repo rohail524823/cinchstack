@@ -1,0 +1,114 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961273067411-Seats-roles-and-permissions-overview
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961273067411.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:29.933241Z
+ARTICLE UPDATED: 2026-09-02T21:01:54Z | EDITED: 2026-09-02T21:01:54Z
+RENDERER: curl + HTML-to-text of article body
+----
+Seats, roles, and permissions overview
+
+Understand how seats and roles are used in Webflow.
+In order to access a Workspace, each individual must be assigned a seat. The seat acts as a key to the Workspace and/or site. There are different types of seats and each serves a unique purpose. Each member that occupies a seat is also assigned a role. Roles are associated with permissions that determine what the member can and can't do in both the Workspace and the sites they have access to.
+Overview of seats
+The seat type determines which roles can be assigned to the member. For Workspace seats (e.g., full and limited seats), each member that fills a seat is assigned a Workspace role and automatically assigned the equivalent Site role for sites they have access to.
+If the Workspace allows site-specific access or the member is filling a client seat, members can be assigned a Site role at the site level. The same member can be assigned a different Site role on different sites.
+Which roles can be assigned to which seats?
+
+Seat type |
+Description |
+Available Workspace roles |
+Available site roles |
+
+Full seat |
+This seat type allows for roles with the most permissions. |
+Admin, Site admin, or Designer |
+Site manager, Designer |
+
+Limited seat |
+This seat type allows for roles with limited permissions. |
+Marketer or Content editor |
+Marketer, Content editor |
+
+Client seat |
+This is a seat type exclusive in Workspace plans for service providers (e.g., Starter, Freelancer, and Agency) to invite their clients to access their site. The seat type exists at the site level and allows for roles with limited permissions. |
+N/A |
+Marketer, Content editor, Reviewer |
+
+Free seat |
+These seats allow members to review and comment on sites. |
+Reviewer |
+Reviewer |
+
+Freelancer or Agency Guest |
+This is a seat type exclusive for clients to invite freelancers and agencies to their Workspace in order to work on the client's site. |
+Guest |
+Site manager, Designer, Marketer, Content editor, Reviewer |
+
+How many seats can I have per Workspace?
+
+- All workspaces include one full seat for the owner and 100 free seats for reviewers
+
+- An unlimited number of full seats and limited seats may be purchased
+
+- Workspaces for freelancers and agencies include a number of client seats per site, based on the Workspace plan — Starter includes 1 per paid site, Freelancer includes 1 per site, and Agency includes 3 per site
+
+- Customers can invite up to two Freelancer or Agency guest teams to join their workspace for free (or up to 10 guest teams for customers on an Enterprise Workspace plan)
+
+How to manage seats
+Owners and admins can manage members and seats to create a flexibly-sized, collaborative environment. They can:
+
+-
+Add or remove Workspace seats from the Workspace’s Team settings
+
+-
+Add or remove members from client seats in Site settings (for service provider Workspaces)
+
+-
+Remove multiple Workspace members at once (Enterprise plans only)
+
+Overview of roles and permissions
+Roles define your level of access, and each role comes with a set of permissions — the specific actions you’re allowed to take, like designing pages, editing content, or managing billing. Workspaces have two types of roles, a Workspace role and a Site role.
+What is a Workspace role?
+For Workspace seats, the Workspace role is applied at the Workspace level. It defines what the member can do in the Workspace. Each Workspace role has a default site role that is applied to all sites the member has access to, which defines what the member can do in those sites.
+Review our Workspace roles and permissions guide for more info.
+What is a site role?
+The site role defines what the member can do in the site (e.g., design pages vs. only edit content vs. only make comments). By default, when a member is assigned a Workspace role, they're also assigned the equivalent site role.
+If the Workspace allows site-specific access or the member is filling a client seat, members can be assigned a Site role at the site level. The same member can be assigned a different Site role on different sites.
+Review our Site roles and permissions guide for more info.
+What permissions are associated with each role?
+Below is an overview of roles and their permissions. For a full breakdown, see our Workspace roles and permissions guide and Site roles and permissions guide.
+
+-
+Owner — manage all Workspace and Site settings + design with all features
+
+-
+Admin — manage most Workspace settings and all Site settings + design with all features
+
+-
+Site manager — manage all Site settings + design with all features
+
+-
+Designer — design with all features
+
+-
+Marketer — create and edit pages using components
+
+-
+Content editor — only edits content (e.g., update text, replace images, manage Collection items)
+
+-
+Reviewer — view and comment on sites
+
+-
+Guest — agencies and freelancers can be invited to design a client's site
+
+How do I manage role assignments?
+Workspace owners and admins can:
+
+-
+Change Workspace roles from the Workspace’s Team settings
+
+-
+Change site roles for client seats or change site roles with site-specific access from the site's Site Settings
+
+-
+Change roles for multiple Workspace members at once (Enterprise plans only)

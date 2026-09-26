@@ -1,0 +1,354 @@
+{
+  "tool": "woocommerce",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from WooCommerce's pricing page, the WooPayments fee schedule, Woo Marketplace extension pages and subscription/refund documentation, Woo's hosting recommendations, and the pricing pages of two hosts Woo recommends (Pressable, WordPress.com) in a US-locale headless browser, flipping billing toggles where offered; snapshots saved.",
+  "sources": [
+    { "url": "https://woocommerce.com/pricing/", "label": "WooCommerce pricing page (core free, hosting and extension cost ranges, comparison table)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-pricing.txt" },
+    { "url": "https://woocommerce.com/document/woopayments/fees/", "label": "WooPayments fee schedule by country (US card, BNPL, dispute, in-person and payout fees)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-woopayments-fees.txt" },
+    { "url": "https://woocommerce.com/products/woopayments/", "label": "WooPayments Marketplace page (free install, no setup or monthly fees, first-3-months promotion)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-product-woopayments.txt" },
+    { "url": "https://woocommerce.com/payments/", "label": "WooPayments overview page (pay-as-you-go, no setup costs or monthly fees)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-payments.txt" },
+    { "url": "https://woocommerce.com/products/woocommerce-subscriptions/", "label": "WooCommerce Subscriptions extension page (1-year and 2-year prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-product-subscriptions.txt" },
+    { "url": "https://woocommerce.com/products/woocommerce-bookings/", "label": "WooCommerce Bookings extension page (1-year and 2-year prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-product-bookings.txt" },
+    { "url": "https://woocommerce.com/collection/woocommerce-essentials/", "label": "WooCommerce Essentials collection (bundle price and individual extension prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-essentials.txt" },
+    { "url": "https://woocommerce.com/refund-policy/", "label": "Woo Marketplace refund policy (30-day full refund on extensions and themes)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-refund-policy.txt" },
+    { "url": "https://woocommerce.com/document/managing-woocommerce-com-subscriptions/what-are-woocommerce-com-subscriptions/", "label": "Docs: what a WooCommerce.com extension subscription includes (billing periods, renewal price, sites covered, expiry)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-doc-what-are-subscriptions.txt" },
+    { "url": "https://woocommerce.com/document/managing-woocommerce-com-subscriptions/auto-renewal-cancellation-refunds/", "label": "Docs: auto-renewal, cancellation, failed payments and expiry of extension subscriptions", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-doc-auto-renewal.txt" },
+    { "url": "https://woocommerce.com/document/managing-woocommerce-com-subscriptions/activate-and-manage-your-subscriptions/", "label": "Docs: activating extension subscriptions (extensions keep working without activation; one live plus one staging site)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-doc-activate-subscriptions.txt" },
+    { "url": "https://woocommerce.com/hosting-solutions/", "label": "Woo's recommended WooCommerce hosts (no prices listed)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-hosting-solutions.txt" },
+    { "url": "https://woocommerce.com/posts/woocommerce-hosting/", "label": "Woo hosting guide (April 2026): recommended host by store revenue tier", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-post-woocommerce-hosting.txt" },
+    { "url": "https://pressable.com/pricing/", "label": "Pressable pricing, Pay Yearly (default view)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-pressable-pricing.txt" },
+    { "url": "https://pressable.com/pricing/", "label": "Pressable pricing with every Pay Monthly toggle clicked (all eight Signature plans, visit limits, overage rates)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-pressable-pricing-pay-monthly.txt" },
+    { "url": "https://wordpress.com/pricing/", "label": "WordPress.com pricing, Pay yearly (default view)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-wpcom-pricing.txt" },
+    { "url": "https://wordpress.com/pricing/", "label": "WordPress.com pricing with the billing dropdown set to Pay monthly", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-wpcom-pricing-pay-monthly.txt" },
+    { "url": "https://wordpress.com/pricing/", "label": "WordPress.com pricing after clicking Compare plans (transaction-fee rows; a second yearly renewal price)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-wpcom-compare-after-click-1.txt" },
+    { "url": "https://wordpress.com/support/plan-features/ecommerce-plan/", "label": "WordPress.com support: Commerce plan features (extensions bundled with the plan)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-wpcom-commerce-plan-support.txt" },
+    { "url": "https://woocommerce.com/document/roles-capabilities/", "label": "Docs: WooCommerce user roles (Shop Manager role for staff; core support via WordPress.org forums)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-doc-roles.txt" },
+    { "url": "https://woocommerce.com/tco-calculator/", "label": "WooCommerce total-cost-of-ownership calculator (results emailed only after a lead form)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-tco-calculator.txt" },
+    { "url": "https://woocommerce.com/about/", "label": "About Woo (WooCommerce launched 2011; acquired by Automattic 2015)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-about.txt" }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "The WooCommerce plugin is free to download and use, with no monthly subscription, no plan tiers and 0% revenue share. It includes unlimited products, orders and APIs. There is no free way to run a live store, though: WooCommerce runs on a WordPress site you host yourself, and Woo's own pricing page puts hosting at $25–$350/month for most stores. WooPayments and some Woo extensions, such as Google for WooCommerce, are free downloads."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "There is no trial, because the core plugin is free. Paid extensions and themes from the Woo Marketplace come with a 30-day money-back guarantee instead: a full refund within 30 days of purchase, requested from your WooCommerce.com orders page. WooPayments installs free, and its Marketplace page says \"No payment details required\".",
+    "source": 7
+  },
+  "plans": [
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce (free core plugin)",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-month",
+      "note": "WooCommerce has one tier: the free, open-source plugin. The pricing page says \"Free, with no monthly subscription\" and \"no platform fees, no revenue share\". You pay other vendors for hosting (Woo's estimate: $25–$350/month for most stores), for any paid extensions ($29–$299/year each, per Woo) and for card processing. The pricing page also offers a custom cost estimate from Woo's team (\"Get a custom quote\"). That is a consultation, not a paid plan.",
+      "limits": [
+        "Needs a self-hosted WordPress site; hosting is not included",
+        "Core plugin support is through the WordPress.org community forums",
+        "Paid features (subscriptions, bookings, bundles, etc.) are separate yearly extensions"
+      ],
+      "highlights": [
+        "Unlimited products, orders and APIs",
+        "0% revenue share and no platform fee",
+        "No extra fee for using a third-party payment gateway",
+        "Unlimited product variants",
+        "Sell in unlimited markets at no extra fee"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [
+    {
+      "id": "woocommerce-subscriptions",
+      "name": "WooCommerce Subscriptions (sell recurring products and memberships)",
+      "price": 279,
+      "unit": "per year, per site (1-year plan)",
+      "note": "The product page shows it as $23.25/month billed annually at $279. A 2-year plan costs $446.40, down from a listed $558 (\"Save 20%\"). Each subscription covers one live site plus one staging site, renews at the list price in force at renewal, and has a 30-day money-back guarantee.",
+      "source": 4
+    },
+    {
+      "id": "woocommerce-bookings",
+      "name": "WooCommerce Bookings (appointments, reservations, rentals, classes)",
+      "price": 249,
+      "unit": "per year, per site (1-year plan)",
+      "note": "The product page shows it as $20.75/month billed annually at $249. A 2-year plan costs $398.40, down from a listed $498 (\"Save 20%\"). It covers one live site plus one staging site and has a 30-day money-back guarantee.",
+      "source": 5
+    },
+    {
+      "id": "product-add-ons",
+      "name": "Product Add-Ons (gift wrapping, messages and other paid options)",
+      "price": 79,
+      "unit": "per year, per site",
+      "note": "Included with WordPress.com's Commerce hosting plan.",
+      "source": 6
+    },
+    {
+      "id": "product-bundles",
+      "name": "Product Bundles",
+      "price": 79,
+      "unit": "per year, per site",
+      "source": 6
+    },
+    {
+      "id": "gift-cards",
+      "name": "Gift Cards",
+      "price": 79,
+      "unit": "per year, per site",
+      "note": "Included with WordPress.com's Commerce hosting plan.",
+      "source": 6
+    },
+    {
+      "id": "automatewoo",
+      "name": "AutomateWoo (marketing automation)",
+      "price": 159,
+      "unit": "per year, per site",
+      "source": 6
+    },
+    {
+      "id": "composite-products",
+      "name": "Composite Products (kit builders and product configurators)",
+      "price": 149,
+      "unit": "per year, per site",
+      "source": 6
+    },
+    {
+      "id": "smart-coupons",
+      "name": "Smart Coupons (by StoreApps)",
+      "price": 129,
+      "unit": "per year, per site",
+      "note": "A third-party extension sold on the Woo Marketplace.",
+      "source": 6
+    },
+    {
+      "id": "jetpack-vaultpress-backup",
+      "name": "Jetpack VaultPress Backup (real-time backups)",
+      "price": 120,
+      "unit": "per year, per site",
+      "source": 6
+    },
+    {
+      "id": "essentials-collection",
+      "name": "WooCommerce Essentials collection (10 products)",
+      "price": 753,
+      "unit": "per year, per site",
+      "note": "\"Get 10 extensions for $753\", with a year of updates and a 30-day money-back guarantee. The ten are WooPayments and Google for WooCommerce (both free), Product Add-Ons, Product Bundles and Gift Cards ($79 each), AutomateWoo ($159), Smart Coupons ($129), Composite Products ($149), Jetpack VaultPress Backup ($120) and Luminate ($79). Bought separately, the eight paid items total $873/year (79 × 4 + 159 + 129 + 149 + 120), so the bundle saves $120.",
+      "source": 6
+    }
+  ],
+  "usage": [
+    {
+      "id": "woopayments-international-card",
+      "name": "WooPayments international card surcharge (US merchants)",
+      "rate": 1.5,
+      "unit": "% added to the 2.9% + $0.30 card fee when the card was issued outside the US",
+      "note": "Cards issued in Puerto Rico also trigger this fee.",
+      "source": 1
+    },
+    {
+      "id": "woopayments-currency-conversion",
+      "name": "WooPayments currency conversion surcharge (US merchants)",
+      "rate": 1,
+      "unit": "% added when the customer pays in a currency that doesn't match any of your payout bank accounts",
+      "source": 1
+    },
+    {
+      "id": "woopayments-dispute",
+      "name": "WooPayments card dispute fee (US)",
+      "rate": 15,
+      "unit": "USD per dispute",
+      "note": "Refunded automatically if you challenge the dispute and win.",
+      "source": 1
+    },
+    {
+      "id": "woopayments-stripe-billing-subscription",
+      "name": "WooPayments subscription surcharge (Stripe Billing engine)",
+      "rate": 1,
+      "unit": "% of the whole order, on any order containing a subscription payment billed through the Stripe Billing engine",
+      "note": "The fee schedule applies it to the initial payment and to renewals. WooCommerce's pricing page says there are no subscription processing fees when you use the WooCommerce Subscriptions extension.",
+      "source": 1
+    },
+    {
+      "id": "woopayments-affirm-afterpay",
+      "name": "WooPayments Affirm or Afterpay (buy now, pay later), US",
+      "rate": 6,
+      "unit": "% + $0.30 per payment",
+      "source": 1
+    },
+    {
+      "id": "woopayments-klarna",
+      "name": "WooPayments Klarna (buy now, pay later), US",
+      "rate": 5.99,
+      "unit": "% + $0.30 per payment",
+      "note": "Klarna disputes cost $15.",
+      "source": 1
+    },
+    {
+      "id": "woopayments-in-person",
+      "name": "WooPayments in-person card payment (US)",
+      "rate": 2.7,
+      "unit": "% + $0.10 per in-person card payment",
+      "note": "+1.00% for international cards and +1.00% for currency conversion. Disputes cost $15.",
+      "source": 1
+    },
+    {
+      "id": "woopayments-card-reader",
+      "name": "WooPayments active card reader fee (US)",
+      "rate": 5,
+      "unit": "USD per active card reader per month",
+      "note": "A reader counts as active after 3 or more transaction attempts in a month. Tap to Pay on a phone does not trigger this fee.",
+      "source": 1
+    },
+    {
+      "id": "woopayments-instant-payout",
+      "name": "WooPayments Instant Payouts (US only)",
+      "rate": 1.5,
+      "unit": "% of the instant payout amount",
+      "note": "Optional, US only. Using it does not change your regular payout schedule.",
+      "source": 1
+    },
+    {
+      "id": "pressable-visit-overage",
+      "name": "Pressable hosting overage: visits",
+      "rate": 1.2,
+      "unit": "USD per 1,000 visits above your Signature plan's monthly allowance",
+      "note": "Third-party host, not a WooCommerce charge. Pressable bills storage above the allowance at $1.00 per GB.",
+      "source": 14
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "platform-transaction-fee",
+      "label": "WooCommerce platform fee / revenue share",
+      "amount": 0,
+      "display": "0% of each sale, with no fee for third-party gateways",
+      "kind": "percent-of-sales",
+      "note": "The pricing page says \"0% revenue share\" and \"no platform fees\". Its comparison table lists \"None\" for WooCommerce's \"Additional fee for using third-party payment solution\" and \"Subscription processing fees\" (the latter when using WooCommerce Subscriptions).",
+      "source": 0
+    },
+    {
+      "id": "card-processing-woopayments",
+      "label": "Card processing through WooPayments (US merchants, US cards)",
+      "amount": 2.9,
+      "display": "2.9% + $0.30 per card transaction",
+      "kind": "percent-of-sales",
+      "note": "This is the US base fee in Woo's WooPayments fee schedule. Apple Pay, Google Pay, Link and WooPay cost the same as cards. WooPayments has no setup or monthly fee, and transaction fees are not returned when you refund a customer. You can use another gateway (for example Stripe or PayPal) at that gateway's rates with no WooCommerce surcharge. Card processing is left out of the scenario totals because every platform pays it.",
+      "source": 1
+    },
+    {
+      "id": "hosting-woo-estimate",
+      "label": "Hosting (required; bought from a third-party host)",
+      "amount": null,
+      "display": "$25–$350/month for most stores (Woo's own estimate)",
+      "kind": "monthly",
+      "note": "WooCommerce's pricing page gives this range and says hosting \"scales with traffic and performance needs\". Woo's hosting page recommends WordPress.com, Pressable, WordPress VIP, Bluehost, Hostinger, Seravo and SiteGround without listing their prices.",
+      "source": 0
+    },
+    {
+      "id": "hosting-pressable",
+      "label": "Pressable Signature hosting (a Woo-recommended host)",
+      "amount": 25,
+      "display": "From $25/month billed monthly (Signature 1: 1 install, 30K visits)",
+      "kind": "monthly",
+      "note": "Monthly prices: Signature 1 $25 (30K visits), 2 $45 (50K), 3 $60 (75K), 4 $90 (150K), 5 $155 (400K), 6 $350 (1M), 7 $545 (1.6M), 8 $675 (2M). Billed yearly, each costs 10× its monthly price (\"2 Months Free\"), e.g. Signature 1 is $250/year ($20.83/month). Every Signature plan includes 5 dedicated PHP workers per site, backups, a CDN and Jetpack Security. Woo's hosting guide recommends Pressable (or Convesio) for stores making $10,000–$500,000 a month.",
+      "source": 14
+    },
+    {
+      "id": "hosting-wordpress-com-commerce",
+      "label": "WordPress.com Commerce plan (Woo's pick for stores under $10,000/month)",
+      "amount": 70,
+      "display": "$70/month billed monthly; $45/month for the first year billed yearly",
+      "kind": "monthly",
+      "note": "WordPress.com is run by Automattic, which also owns WooCommerce, and the Commerce plan comes with WooCommerce installed. It bundles several Woo extensions, including Product Add-Ons and Gift Cards, and MailPoet email marketing. WordPress.com's plan comparison lists a 0% transaction fee on standard WooCommerce payment features (standard processing fees still apply). The yearly renewal price differed between two page loads on the same day ($50/month on one, $57/month on another), so we use only the monthly price.",
+      "source": 16
+    },
+    {
+      "id": "paid-extensions",
+      "label": "Paid extensions from the Woo Marketplace",
+      "amount": null,
+      "display": "$29–$299 per year per extension (Woo's own range)",
+      "kind": "other",
+      "note": "Sold as yearly (or 2-year) subscriptions for one live site plus one staging site. They renew automatically at the list price in force at renewal. If you stop paying, the extension keeps working but stops getting updates and support. See Add-ons for captured prices.",
+      "source": 0
+    }
+  ],
+  "billingNotes": [
+    "WooCommerce has no plans, tiers or seat charges. The core plugin is free. Staff get WordPress user accounts, and the Shop Manager role gives full store access without full admin rights. Neither WooCommerce nor the hosts we checked lists a per-user fee, and WordPress.com advertises unlimited users.",
+    "Woo Marketplace extensions and themes are billed yearly, or every 2 years where offered. Subscriptions and Bookings show \"Save 20%\" on the 2-year plan. They auto-renew by default, and renewals charge 100% of the product's list price at renewal time, not what you first paid. Coupons and promotions don't apply to renewals.",
+    "One extension subscription covers one live (production) site plus one staging, test or development site. Subdomains and sub-directory sites count as separate sites.",
+    "If an extension subscription expires or is cancelled, the extension stays installed and keeps working, but you lose updates (including security patches) and support. A failed renewal is retried for about 26 days before the subscription expires.",
+    "All Woo Marketplace extensions and themes can be fully refunded within 30 days of purchase. WooPayments card readers (M2, WisePad 3) also have a 30-day refund window.",
+    "WooPayments has no setup or monthly fees. Its fees are taken from each payment and are not refunded when you refund a customer. Custom pricing is available by contacting Woo's Customer Success team, with no published threshold.",
+    "The WooPayments Marketplace page advertises a limited-time offer of 10% off processing fees for the first 3 months, for eligible merchants who sign up.",
+    "Hosting is billed by the host, not by Woo. Pressable charges 10× the monthly price for a year (\"2 Months Free\") and has a 30-day money-back guarantee. WordPress.com's Commerce plan is $70/month billed monthly, or $45/month for the first year on yearly billing, after which a higher renewal price applies.",
+    "Woo's hosting guide (April 2026) recommends a host by revenue: WordPress.com Commerce or Bluehost Cloud under $10,000/month, Pressable or Convesio for $10,000–$500,000/month, and WordPress VIP for multi-million-dollar stores."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "The core plugin is free everywhere, and extensions are listed in USD by default (woocommerce.com has a site-currency switcher, and other currencies were not captured). WooPayments fees depend on the merchant's country. US merchants pay 2.90% + $0.30 per card. Eurozone merchants such as Germany and France pay 1.50% + €0.25, plus 2.00% for cards from outside Europe. Australian merchants pay 1.75% + $0.30 as listed. VAT or GST is added to WooPayments fees in many countries. Hosting prices are set by each host. We publish US list prices in USD."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo seller, $3,000/month in sales",
+      "assumptions": "1 person, 1 staff account (the owner), $3,000/month in sales. WooCommerce itself is free, so the bill is hosting. The sell grid sets no traffic figure and hosts price by visits, so we borrow the site-layer figure of about 10,000 visits/month. Hosting is Pressable Signature 1, billed monthly: $25/month for 1 WordPress install and up to 30K visits. Pressable is on Woo's recommended-host list, and $25 is the bottom of Woo's own $25–$350/month hosting estimate. A basic store needs no paid extension. WooCommerce takes 0% of sales. Card processing is left out: at WooPayments' US rate of 2.9% + $0.30, 2.9% × $3,000 = $87, plus $0.30 per order.",
+      "planId": "woocommerce",
+      "billing": "monthly",
+      "lines": [
+        { "label": "WooCommerce core plugin", "amount": 0 },
+        { "label": "Hosting: Pressable Signature 1, billed monthly (third-party host)", "amount": 25 },
+        { "label": "WooCommerce platform fee: 0% × $3,000 in sales", "amount": 0 }
+      ],
+      "monthly": 25,
+      "confidence": "medium",
+      "note": "The host is the buyer's choice, and the plan depends on the borrowed traffic figure. Woo's hosting guide names WordPress.com's Commerce plan for stores under $10,000/month. At $70/month billed monthly it would make this $70, and it bundles Product Add-Ons, Gift Cards and other extensions. Billed yearly, Pressable Signature 1 is $250/year ($20.83/month). Selling subscriptions adds WooCommerce Subscriptions at $279/year ($23.25/month). A domain name is extra and was not priced."
+    },
+    {
+      "size": "small",
+      "label": "Small team, $30,000/month in sales, 3 staff accounts",
+      "assumptions": "5 people with 3 staff accounts, $30,000/month in sales, using the borrowed site-layer figure of about 50,000 visits/month. Woo's hosting guide recommends Pressable or Convesio for stores making $10,000–$500,000 a month and calls Pressable the cheaper of the two. Pressable Signature 2, billed monthly, costs $45/month for up to 50K visits. Staff accounts are WordPress users with the Shop Manager role, at no charge. A basic store needs no paid extension. WooCommerce takes 0% of sales. Card processing is left out: 2.9% × $30,000 = $870, plus $0.30 per order, at WooPayments' US rate.",
+      "planId": "woocommerce",
+      "billing": "monthly",
+      "lines": [
+        { "label": "WooCommerce core plugin", "amount": 0 },
+        { "label": "Hosting: Pressable Signature 2, billed monthly (third-party host)", "amount": 45 },
+        { "label": "3 staff accounts (WordPress users, Shop Manager role)", "amount": 0 },
+        { "label": "WooCommerce platform fee: 0% × $30,000 in sales", "amount": 0 }
+      ],
+      "monthly": 45,
+      "confidence": "medium",
+      "note": "The traffic figure sets the plan. 50K visits is exactly Signature 2's allowance, and Pressable bills each extra 1,000 visits at $1.20. Signature 3, at $60/month, covers 75K visits. Billed yearly, Signature 2 is $450/year ($37.50/month). Typical paid extensions add to this: WooCommerce Subscriptions $279/year ($23.25/month), Bookings $249/year ($20.75/month), AutomateWoo $159/year."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, $150,000/month in sales, 8 staff accounts",
+      "assumptions": "15 people with 8 staff accounts, $150,000/month in sales, using the borrowed site-layer figure of about 250,000 visits/month. That is still in Woo's $10,000–$500,000/month hosting tier, so the host is again Pressable. Signature 4 covers only 150K visits: $90 + 100 × $1.20 of overage = $210/month. So Signature 5, at $155/month billed monthly for up to 400K visits, is the cheaper fit. Staff accounts are WordPress users with the Shop Manager role, at no charge. A basic store needs no paid extension. WooCommerce takes 0% of sales. Card processing is left out: 2.9% × $150,000 = $4,350, plus $0.30 per order, at WooPayments' US rate.",
+      "planId": "woocommerce",
+      "billing": "monthly",
+      "lines": [
+        { "label": "WooCommerce core plugin", "amount": 0 },
+        { "label": "Hosting: Pressable Signature 5, billed monthly (third-party host)", "amount": 155 },
+        { "label": "8 staff accounts (WordPress users, Shop Manager role)", "amount": 0 },
+        { "label": "WooCommerce platform fee: 0% × $150,000 in sales", "amount": 0 }
+      ],
+      "monthly": 155,
+      "confidence": "medium",
+      "note": "Billed yearly, Signature 5 is $1,550/year ($129.17/month). Paid extensions would add to this. The ten-product WooCommerce Essentials collection costs $753/year ($62.75/month), and each extension is priced per site per year. Convesio, the other host Woo's guide names for this tier, was not priced."
+    }
+  ],
+  "unverified": [
+    "WooCommerce's cost calculator (woocommerce.com/tco-calculator) emails its estimate only after you submit a lead form with a business email, so we could not capture its figures.",
+    "The pricing page's comparison table shows WooPayments card processing as \"~2.50-2.90% + 30¢\". The published US fee schedule lists only 2.90% + $0.30 for cards, so the 2.50% low end is unexplained. It may be custom pricing, which Woo says is available through its Customer Success team but does not publish.",
+    "The terms and eligibility for the \"Save 10% on processing fees for the first 3 months\" WooPayments offer were not captured.",
+    "Hosting is a third-party cost. We captured only Pressable and WordPress.com prices. Convesio and Bluehost Cloud (named in Woo's hosting guide) and Bluehost, Hostinger, Seravo, SiteGround and WordPress VIP (on Woo's hosting page) were not priced.",
+    "WordPress.com's yearly renewal price for the Commerce plan changed between page loads on the same day ($50/month, then $57/month), so we don't record a yearly renewal price.",
+    "The scenarios borrow visit counts from the site layer (10K, 50K, 250K visits/month). A store's real traffic decides which Pressable plan it needs.",
+    "Domain registration is not included in the scenarios. Pressable's pricing page lists no domain, and WordPress.com includes a free domain for the first year only.",
+    "The WooPayments page's related-products widget lists the WisePad 3 and M2 card readers at $84.99 and $79.99 with an \"annually\" label, which is unclear for hardware, so we don't record them as prices."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

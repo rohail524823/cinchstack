@@ -1,0 +1,29 @@
+---
+import { price, tool, checks } from '../lib/data.mjs';
+import { longDate } from '../lib/format.mjs';
+interface Props { ids: string[] }
+const items = Astro.props.ids.map((id) => ({ t: tool(id), p: price(id) }));
+---
+<section class="prov" data-provenance>
+  <h2 id="how-we-checked">How we checked this</h2>
+  {items.map(({ t, p }) => (
+    <div>
+      <p><strong>{t.name}:</strong> {p.method} Last verified <time datetime={p.checkedOn}>{longDate(p.checkedOn)}</time>. Prices are US list prices in USD{p.regional.pricedByCountry ? `; ${p.regional.note}` : '.'}</p>
+      <ul>
+        {p.sources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
+      </ul>
+      {checks[t.id] && (() => { const c = checks[t.id]; return (
+        <p class="small" data-check={c.status}>{
+          c.status === 'passed' ? <>Automated re-check on <time datetime={c.ranOn}>{longDate(c.ranOn)}</time>: all {c.checked} prices we re-read were still on {t.name}'s pages.</>
+          : c.status === 'changed' ? <>Automated re-check on <time datetime={c.ranOn}>{longDate(c.ranOn)}</time> found {c.missing.length} price{c.missing.length > 1 ? 's' : ''} no longer shown on the vendor's page. We are reviewing it; until then, confirm on the vendor's page before buying.</>
+          : c.status === 'blocked' ? <>Our automated re-check on <time datetime={c.ranOn}>{longDate(c.ranOn)}</time> could not read the vendor's page, which blocks automated visits, so these prices rest on our last manual check.</>
+          : <>These prices appear only after choosing options on the vendor's page, so they are re-checked by hand rather than automatically.</>
+        }</p>
+      ); })()}
+      {p.unverified.length > 0 && (
+        <div class="unv"><strong>What we could not verify:</strong><ul>{p.unverified.map((u) => <li>{u}</li>)}</ul></div>
+      )}
+    </div>
+  ))}
+  <p class="small muted">We re-check every price against the vendor's page each Monday; changes are logged on <a href="/changes/">the changes page</a>. See a price that's wrong? <a href="/contact/">Tell us</a> and we will correct it the same week.</p>
+</section>

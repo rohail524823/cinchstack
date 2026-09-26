@@ -1,0 +1,314 @@
+SOURCE: https://www.semrush.com/kb/1011-subscriptions#upgrade-extend-trial
+FETCHED: 2026-09-26T21:54:58.790Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to content
+
+Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.
+
+Product
+Pricing
+Solutions
+Resources
+Enterprise
+Log In
+Start for free
+Knowledge Base
+Search
+What is Semrush?
+Getting Started
+How-To Articles
+Subscriptions and Toolkits
+Semrush One
+Billing and Account
+Semrush Toolkits
+App Center
+Integrations
+Teamwork
+Data and Metrics
+The Ultimate SEO Glossary
+Kompyte
+API
+MCP
+Contact Us
+Knowledge Base  Subscriptions and Toolkits
+Subscriptions and Toolkits
+
+Semrush offers marketing toolkits, plus stand-alone apps in the Semrush App Center, available as monthly or yearly subscriptions. This page covers what each toolkit includes, how much it costs, and how to subscribe.
+
+Sign Up Today
+
+Overview of Semrush Toolkits
+
+Semrush’s toolkits each focus on a specific area of marketing. They include the following:
+
+SEO Toolkit
+AI Visibility Toolkit
+Traffic & Market Toolkit
+Local Toolkit
+Content Toolkit
+Social Toolkit
+Advertising Toolkit
+AI PR Toolkit
+Flexible subscription model
+
+Semrush plans combine features for SEO and AI visibility in a single subscription. Add specialist toolkits — Traffic & Market, Local, Content, Social, Advertising, and AI PR — on top, so your subscription matches your marketing strategy.
+
+Here’s how it works:
+
+Choose a plan for SEO and AI visibility, then subscribe to the specialist toolkits you need
+Add or remove specialist toolkits at any time as your priorities shift
+Share toolkits with your team by adding users to your account
+Pay only for the tools you use
+Scale your capabilities as your business grows
+
+Most specialist toolkits have a range of subscription levels, with different features and limits to match your needs and budget. This modular approach means your subscription grows with your marketing, not ahead of it — whether you're a small business or a seasoned agency, you choose the level of support you need, without paying for features you don't.
+
+Plans and pricing
+
+Each Semrush plan and toolkit offers tiers designed for different marketing needs and levels of expertise.
+
+Here's an overview. To get pricing details, follow the links to the pricing pages.
+
+Semrush plans
+
+Semrush plans combine the SEO Toolkit and the AI Visibility Toolkit in a single subscription, from a free entry tier through to large-scale operations.
+
+Free: For trying out the platform, with no credit card required. Includes 1 demo project, 10 reports per day across all vital tools, and a limited set of AI Visibility features.
+SEO: For freelancers and small businesses growing online visibility with SEO. Includes 5 websites to monitor, 500 keywords tracked daily, basic keyword research and competitor analysis, Position Tracking, Site Audit, AI search performance tracking, AI sentiment monitoring, and AI visibility reports for any domain. This plan doesn't include the full AI visibility feature set — no dedicated prompt-tracking quota, AI-ready Site Audit, or per-domain AI brand performance.
+Starter (SEO + AI Search): For small teams and agencies growing across organic search and AI. Includes 5 websites to monitor, 500 keywords tracked daily, keyword research and optimization tools, competitor insights tools, and MCP access. AI Visibility covers Google Search, ChatGPT, Perplexity, and Gemini, with 50 prompts tracked daily, 1 domain for AI brand performance, 300 AI visibility reports per day, and an AI-ready Site Audit.
+Pro+ (SEO + AI Search): For growing teams and agencies scaling SEO and AI visibility across multiple markets, locations, or websites. All Starter features, plus 15 websites to monitor, 1,500 keywords tracked daily, historical SEO data, content optimization, keyword cannibalization analysis, multi-location and device tracking, and 100 prompts tracked daily.
+Advanced (SEO + AI Search): For organizations and agencies scaling SEO and AI visibility with deeper insights, API access, and automation. All Pro+ features, plus 40 websites to monitor, 5,000 keywords tracked daily, SEO Share of Voice, API data integration, and 200 prompts tracked daily.
+Semrush for Enterprise: For complex organizations managing multiple brands, regions, and teams. Includes unlimited projects and custom limits, custom large-scale AI prompt tracking, multi-brand and multi-product AI visibility, forecasting and ROI attribution, multi-million-page crawling, custom integrations and API, SSO with team governance and audit logs, a dedicated account manager, and 24/7 support. Pricing is custom — book a demo to see the platform in action.
+
+For complete details, check the Plans and Pricing page.
+
+SEO Toolkit 
+
+Uncover competitor strategies, discover high-converting keywords, and track your rankings. Identify exactly what's holding your site back, with clear fixes and AI-powered recommendations.
+
+See SEO Toolkit for tiers and limits.
+
+AI Visibility Toolkit
+
+The AI Visibility Toolkit shows how AI platforms such as ChatGPT, Google AI, and Gemini feature your brand and competitors. Analyze AI visibility, audience sentiment, and competitor positioning across your niche, and get recommendations.
+
+Check out a free demo to see how it works.
+
+Traffic & Market Toolkit
+
+The Traffic & Market Toolkit shows how any business performs online and how it compares to the market. It combines traffic analysis, audience insights, benchmarking, and market trends in one view.
+
+ 
+
+The subscription plans for the Traffic & Market Toolkit are as follows:
+
+Traffic & Market Pro Plan: For professionals who rely on strategic, data-driven decisions. Includes full access to core dashboards, tracking for up to 100 competitors, analysis of trends across 190+ countries, daily traffic insights, and historical data dating back to 2017.
+Traffic & Market Custom Plan: For large organizations and power users. Offers customized dashboards, advanced competitor monitoring, collaboration features, and API integration tailored to your specific workflows and business objectives.
+
+Find out more about pricing for the Traffic & Market Toolkit here.
+
+Local Toolkit
+
+The Local Toolkit covers local search across Google, AI-driven results, maps, directories, and review platforms. Optimize your Google Business Profile (GBP), keep listings accurate across authoritative directories, generate and respond to customer reviews, and track visibility on Google Maps from one platform. AI-powered automation supports ongoing GBP activity, review management, and local marketing workflows.
+
+The subscription plans for the Local Toolkit are as follows:
+
+Local Base Plan: For businesses focused on maximizing their GBP performance through automation. Includes the GBP AI Agent, which generates and publishes posts, replies to reviews, uploads photos on schedule, and enhances your business description automatically. Track local rankings on Google Maps with the Map Rank Tracker, and benchmark performance against competitors with local heatmap reports.
+Local Pro Plan: For growing businesses that need broader local visibility and reputation control. Includes all Local Base features, plus Listing Management to distribute and maintain business information across 70+ authoritative directories (availability varies by country), automated review generation and management, centralized monitoring, alerts, and competitor review analytics. Adds increased Map Rank Tracker credits, advanced GBP management features such as profile performance insights, team collaboration, and bulk location management, and API access for reporting and integrations.
+Local Business Plan: Built for businesses that manage local marketing at scale. Adds full personalization of Semrush Local and API access for Listing Management, so you can integrate with your own tech stack or third-party tools.
+
+Plans are priced per location and can be added to any Semrush subscription or purchased separately. For full plan breakdowns and volume pricing, visit the Local Toolkit Pricing and Plans article.
+
+Content Toolkit
+
+Create content that drives relevant traffic to your site. Powered by AI and real-time Semrush data, the Content Toolkit finds topic ideas with Topic Finder, generates briefs with SEO Brief Generator, creates full articles with Article Generator, and optimizes your drafts to boost visibility. Automate your workflow and create original content without SEO expertise.
+
+The Content Toolkit is available on a single plan, Content Base. Create unlimited SEO-friendly articles, and generate 5 SEO-boosted pieces per month with advanced SERP analysis. Get data-driven content ideas for your region, and optimize your drafts to rank higher. Improve your writing with the Chrome browser extension, send articles directly to your CMS, and create content in your brand voice.
+
+This plan offers a 7-day free trial. For full feature details, visit the Content Toolkit Pricing and Plans article.
+
+Social Toolkit
+
+Plan your content calendar and schedule posts. The Social Toolkit includes Social Tracker for monitoring competitor strategies and social media trends, tools to find influencers, and social listening for brand conversations. An analytics dashboard shows what performs best.
+
+The subscription plans for the Social Toolkit are as follows:
+
+Social Base Plan: For individuals or small teams starting out with social media management. Manage 5 profiles, schedule 50 posts per month, and track 10 competitors.
+Social Pro Plan: For businesses and agencies that need flexibility. Everything in Base, plus unlimited post scheduling with expanded limits, 10 profiles, and 20 tracked competitors.
+Social Business Plan: For brands expanding their reach. Includes all Pro features, plus influencer discovery and analytics for Instagram, TikTok, YouTube, and Twitch, and social listening across major platforms and the wider web.
+
+Each plan offers different levels of access and data limits tailored to your social media strategy. For full plan breakdowns, visit the Social Toolkit Pricing and Plans article.
+
+Advertising Toolkit
+
+Reveal competitor ad tactics with Advertising Research, and launch campaigns with the AI-powered Ads Launch Assistant. The Advertising Toolkit covers research, planning, and campaign launch for paid ads.
+
+The subscription plans for the Advertising Toolkit are as follows:
+
+Advertising Base Plan: For businesses getting started with data-driven paid campaigns. Access tools for campaign research, planning, and launch, including Advertising Research, PLA Research, and the Ads Launch Assistant.
+Advertising Pro Plan: Everything in Base, plus full access to AdClarity for competitive insights across display, video, and social ads. Includes advanced reporting, historical data, and market comparisons across 30+ global regions.
+
+Both plans include 7-day free trials. To compare features in detail, read the Advertising Toolkit Pricing and Plans article.
+
+AI PR Toolkit
+
+Grow your media and AI visibility through earned press. The AI PR Toolkit helps you run PR campaigns without prior experience. Find media outlets that LLMs cite in your niche, research contributing journalists, and use AI to create emails and press releases. Send pitches, automate follow-ups, track email performance, and monitor your coverage online.
+
+The subscription plans for the AI PR Toolkit are as follows:
+
+AI PR Base plan: For PR beginners who need essential tools for a simplified workflow. Find AI-cited media outlets, research journalists with AI, create emails and press releases with PR-trained AI, contact journalists with 500 email sends, and track your outreach.
+AI PR Pro plan: For small and medium businesses that want to grow and track their PR impact. Includes all the Base features, plus online Media Monitoring with AI support, mention Alerts and Digests, contact exports from the Media Database, and email follow-ups. Adds audience and traffic insights for media outlets, advanced Email Analytics, and 1,250 email sends. It also detects whether your earned press can be attributed to the pitches you’ve sent from the AI PR Toolkit.
+
+Both plans include 7-day free trials. Find out more about pricing for the AI PR Toolkit here.
+
+My Reports Suite
+
+This cross-toolkit suite generates reports using data from across your Semrush tools and other marketing solutions. Track performance, make data-driven decisions, and show results to your stakeholders or clients.
+
+The subscription plans for the My Reports Suite are as follows:
+
+Base Report: Includes internal integrations with Semrush tools, Google Analytics, and Google Search Console. Schedule reports daily, weekly, or monthly, export them to PDF, share reports between users, and utilize the AI Summary feature. Available at $10 per month per report.
+Pro Report: Everything in Base, plus 20+ third-party integrations, timed report delivery, white-labeling, branding, AI-generated summaries with more customization options, custom domain for reports, online dashboard, and link sharing. Available at $20 per month per report.
+
+For full feature details, visit the My Reports Suite article.
+
+Agency Partners Platform
+
+List your digital agency on the Agency Partners Platform, a directory that connects brands looking for support with marketing partners. The listing includes a branded profile and a verified badge, available at $90 per month.
+
+Add users to your plan
+
+Bring your team on board to collaborate across your Semrush toolkits. Each team member receives their own login, giving them access to your tools and subscription limits, while you keep oversight of activity, usage, and data security.
+
+Pricing for additional users depends on the toolkits in your subscription:
+
+Plans that include the SEO Toolkit: Additional user pricing starts at $45 per month and scales with your plan tier
+Plans without the SEO Toolkit: Additional users for toolkits such as Social, Local, or Content cost a flat rate of $20 each, regardless of plan tier
+Traffic & Market Toolkit: Each additional user starts at $289 per month. Without the SEO Toolkit, the total per user is 309(289 base plus $20). With the SEO Toolkit, user pricing follows your SEO plan tier
+
+View-only access to folders is free for any user.
+
+You can contact the Sales team for more details.
+
+Try Semrush Now
+
+Free trial subscriptions
+
+Most Semrush toolkits include a 7-day free trial, so you can explore the tools before purchasing a subscription. You can cancel at any time before the trial ends.
+
+You can activate trials for different toolkits separately and at different times. For example, start a Social Toolkit trial today and try the Advertising Toolkit later. Each toolkit trial can be activated once per account.
+
+Available free trials
+
+Here's what's currently available to try for free:
+
+SEO + AI Search plans, Traffic & Market, Local, Content, Social, Advertising, and AI PR Toolkits: 7-day free trial available for all plans
+Agency Partners Platform add-on: 14-day free trial
+Additional users: Each account can add up to 3 additional users. Added users receive 7-day free access to all toolkits included in the main account subscription, except the Traffic & Market Toolkit.
+Restrictions during trials
+Exports: Semrush trials provide access to most core features, but exporting data is disabled during the trial period. This restriction applies across trial subscriptions, even if exports are normally included in the paid version of the plan. Once you upgrade to a paid subscription, export functionality becomes available according to your plan's limits.
+Local Toolkit: Add a Local trial while your SEO or Traffic & Market trials are active, and Local limits match the remainder of those trials. Once those trials finish, you can't add a Local trial, even if you've never tried it.
+
+Note: If you currently have, or previously had, a trial or paid subscription for one or more toolkits, you aren't eligible for free access to the SEO or Traffic & Market Toolkits. These toolkits are exceptions to the standard trial policy.
+
+Frequently asked questions
+Can I upgrade or extend my trial?
+
+Trial upgrade and extension options are limited. Contact Customer Support to check what may be available for your account.
+
+What happens after my trial ends?
+
+After your 7-day trial, your account converts to the plan you selected unless you cancel. You can cancel any time during the trial period at no charge. 
+
+If you continue, you're billed at the standard rate for the plan you chose.
+
+Can I purchase multiple toolkits at once?
+Can I upgrade my Semrush subscription?
+Are annual plans more cost-effective? 
+
+Yes, annual plans are more cost-effective. Annual billing saves up to 17% compared to monthly billing. Check the billing FAQ to learn how.
+
+An annual subscription means you pay for the entire year upfront. It isn't a monthly payment plan spread over 12 months.
+
+I already have a subscription. Where can I check my limits?
+Can I use Semrush for free? 
+Yes, you can use Semrush for free. The Free plan gives you access to a limited set of features, including 1 demo project and 10 reports per day. Check what's included in the guide to the Semrush free account.
+Does Semrush offer a student plan?
+Does Semrush have a lifetime plan?
+
+Get Started with Semrush
+ 
+
+Other articles about Subscriptions and Toolkits
+•
+Semrush Features for AI Visibility
+Table of contents
+Overview of Semrush Toolkits
+Flexible subscription model
+Plans and pricing
+Add users to your plan
+Free trial subscriptions
+Frequently asked questions
+Is this article helpful?
+GET STARTED WITH SEMRUSH TODAY
+
+Try Semrush free for seven days. Cancel anytime.
+
+Start free trial
+
+Semrush
+
+Semrush One
+Features
+Solutions
+Pricing
+Free Trial
+Compare Semrush
+Success Stories
+Stats and Facts
+Affiliate Program
+
+More tools
+
+Semrush MCP
+Enterprise SEO
+Enterprise AIO
+Enterprise SI
+Insights24
+Mfour
+App Center
+Top Websites
+Free Tools
+Sensor
+
+Company
+
+About Us
+Semrush Questions
+News
+Careers
+Partners
+Semrush Select
+Global Issues Index
+Do not sell my personal info
+Contact Us
+
+Support
+
+Knowledge Base
+Academy
+Semrush API
+
+Community
+
+Semrush Blog
+Webinars
+Ambassador Program
+
+© 2026 Semrush Holdings. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Cookies Settings
+English

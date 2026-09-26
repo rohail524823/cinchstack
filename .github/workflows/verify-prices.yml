@@ -1,0 +1,44 @@
+name: Weekly price check
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # Mondays 07:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: verify-prices
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install Chromium
+        run: npx -y playwright@1.56.0 install --with-deps chromium
+      - name: Re-read every vendor pricing page
+        run: node scripts/verify-prices.mjs
+      - name: Build with the new results (gates must pass)
+        run: npm run build
+      - name: Commit results
+        run: |
+          if git diff --quiet -- src/data/_checks.json; then echo "No change"; exit 0; fi
+          git config user.name "cinchstack-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/_checks.json
+          git commit -m "Weekly price check $(date -u +%F)"
+          git push
+      - name: Open an issue for changed prices
+        if: hashFiles('price-check-report.md') != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('price-check-report.md', 'utf8');
+            const title = body.split('\n')[0].replace(/^# /, '');
+            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['price-change'] });

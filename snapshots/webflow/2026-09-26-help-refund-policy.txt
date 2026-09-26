@@ -1,0 +1,47 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/40102090399635-Webflow-Refund-Policy
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/40102090399635.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:53.621682Z
+ARTICLE UPDATED: 2026-09-22T15:47:27Z | EDITED: 2026-09-22T15:47:26Z
+RENDERER: curl + HTML-to-text of article body
+----
+Webflow Refund Policy
+
+Learn what's refundable, what's not, and how to prevent unintended charges.
+Policy last updated: September 2026
+What's refundable
+New plan purchases: New Site and Workspace plan purchases are fully refundable if you cancel and request a refund within 14 days of your initial purchase date. This applies to both monthly and annual plans.
+Legal right to cancel: If you're an individual (not a business) purchasing for personal use, you may have a legal right to cancel and request a full refund within 14 days of your initial purchase under the laws of your jurisdiction. For digital content such as Marketplace items, this right may not apply once you've downloaded or installed the item, provided you gave your express consent to begin delivery and acknowledged that doing so waives your right of withdrawal. Nothing in this policy limits any rights you have under applicable local consumer protection laws.
+What's not refundable
+Renewals: Plan renewals are non-refundable. To avoid an unwanted renewal, cancel your plan before the next billing date. Annual plans send a reminder at least 7 days before renewal.
+Add-ons and seats: Add-on and seat purchases are non-refundable. When you cancel an add-on, the remaining balance is credited to your account as account credit. Account credit can't be refunded.
+Marketplace purchases: Marketplace purchases are final and non-refundable. Before purchasing:
+
+-
+Templates — use "Preview in Browser" and "Preview in Webflow" to evaluate before buying
+
+-
+Libraries — use "Open demo site" to explore features before buying
+
+-
+Apps — contact the creator via their support page before buying. Refund policies vary by creator, so review the app's terms page for details
+
+Bandwidth and usage auto-upgrades: Auto-upgrades triggered by bandwidth or usage overages are non-refundable. Webflow provides complimentary surge protection and notifies you before any auto-upgrade takes place.
+AI Credits: AI Credits are non-refundable. Track your AI credit consumption in your Workspace usage dashboard. For self-serve Workspace plans, credits reset every month. Team and Enterprise plan credits reset annually. Unused credits don't roll over and expire at the end of each billing cycle. Webflow may adjust AI credit allocations, pricing, and available features at any time, with changes taking effect at the start of your next billing cycle.
+Plan changes
+Upgrading, downgrading, or switching billing cycles applies prorated charges or credits based on the remaining days in your billing cycle. Downgrading to a free Starter plan doesn't result in a refund or credit for unused time.
+Cancelling your plan
+You can cancel your plan at any time. When you cancel:
+
+- Your plan remains active until the end of your current billing cycle, and you keep full access to everything included in your plan until that date
+
+- You won't be charged again unless you choose to upgrade or reactivate
+
+- Cancelling doesn't trigger a refund for the current cycle. If you're within 14 days of a new purchase, request a refund under the what's refundable section instead
+
+Where to cancel: Site plans vs. Workspace plans
+Site plans and Workspace plans are billed separately and cancelled in different places. Cancelling one doesn't cancel the other, so if you're leaving Webflow entirely, cancel both.
+Site plan: Cancel in Site settings > Plans by downgrading to the free Starter Site plan. Paid features stay active until the end of the current billing period. At that point, your custom domains are removed and your site is unpublished from its custom domain and its webflow.io subdomain. The project stays in your Workspace.
+Workspace plan: Cancel in Workspace settings > Plans by downgrading to the free Starter Workspace plan. Remove all team members and seats first. Paid features stay active until the end of the current billing period. Published sites with their own active Site plans stay live.
+You can also cancel both plans immediately instead of waiting out the billing period. Immediate cancellation issues no credit for unused time, and for Site plans, it also takes your site offline right away.
+Need help?
+If you believe you were charged incorrectly, review your invoices across all Workspaces and accounts. If you still don't recognize a charge, contact Webflow support before initiating a dispute with your payment provider. Filing a chargeback or payment dispute without first contacting Webflow may result in suspension of your account pending resolution.

@@ -1,0 +1,66 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961232582419-Choose-a-Site-plan
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961232582419.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:29.196886Z
+ARTICLE UPDATED: 2026-08-02T20:07:58Z | EDITED: 2026-08-02T20:07:58Z
+RENDERER: curl + HTML-to-text of article body
+----
+Choose a Site plan
+
+Learn about available Site plans and choose a plan according to your hosting needs.
+A Site plan is tied to an individual site, allowing you to publish it to a custom domain and unlock site-specific features like CMS collections, custom code, and advanced SEO. Site plans are billed separately from your Workspace plan, and each site you want to host with Webflow on a custom domain needs its own Site plan.
+How to choose a Site plan
+Only site managers can manage the billing settings of a Site plan. Site plan fees are charged to the default payment card associated with the Workspace that the site is within.
+Go to Site settings > Plans to:
+
+- Purchase a Site plan
+
+-
+Upgrade or downgrade a site with an existing Site plan
+
+Which Site plan do I need?
+The needs of your site determine the Site plan you choose. The following is a brief overview, but you can read more about each plan and its associated features in the Site plan section of our pricing page. Or you can view a detailed comparison table of the various Site plan features from:
+
+- Go to Site settings > Plans
+
+- Choose either the Website tab or the Ecommerce site tab
+
+- Scroll down below the plan options
+
+Starter Site plan (free)
+When you create a site, you'll start out with the free Starter Site plan by default. The free Starter Site plan allows your site up to 1,000 monthly visits, 50 CMS items, and 2 static pages, and comes with the ability to publish your site on the .webflow.io subdomain. You'll also have limited CMS management, form customization functionality, and the ability to test Ecommerce features on this plan. If you need additional pages and features (such as checkout functionality for Ecommerce) or the ability to host your site on a custom domain, you'll need to upgrade to a paid Site plan.
+Basic Site plan
+If you would like to host your site on a custom domain and need access to additional pages and features that a paid Site plan offers, the Basic plan is a good starting point. Basic Site plans are specifically for sites that do not use any CMS or Ecommerce features (e.g., your site wouldn't need a dynamic blog, portfolio, or store). If you want to use CMS or Ecommerce features in the future, you can always upgrade your plan at a later time.
+
+Note
+
+Webflow Cloud requires a Premium Site plan or higher to mount to a custom domain.
+
+Premium Site plan
+Ready to build something more powerful? The Premium plan is designed for sites that use Content Management System (CMS) features — like a blog, portfolio, or any page driven by dynamic content.
+Premium also unlocks additional features like form file upload, well-known files support, and faster search engine indexing. And if you need more bandwidth down the road, you can increase your limit by adding bandwidth add-ons.
+Ecommerce Site plan
+If your site uses Webflow's native Ecommerce features, you will need an Ecommerce plan to enable checkout. Go to Site settings > Plans and click the Ecommerce site tab to select an Ecommerce plan.
+
+Note
+
+If you've created a site or purchased a template that uses Ecommerce features, you aren't locked into using an Ecommerce plan. You can switch to a Premium Site plan, but the Ecommerce checkout will be disabled.
+
+Enterprise plan
+If you need to have plans tailored to your brand, you can inquire about a Webflow Enterprise plan.
+How to find your current Site plan
+You can manage any site's Site plan from Site settings > Plans.
+To make sure you are in the correct site's Plans:
+
+- Go to your Dashboard
+
+- Locate the site whose Site plan you want to manage
+
+- Click the plan name link to open the Plans for that site (you'll find Site plan options available for your site, or details about your current, paid site plan)
+
+- Click the Website tab to view non-Ecommerce options, or click the Ecommerce site tab to view Ecommerce options
+
+Good to know
+
+To make sure you're viewing the correct site's settings in your Workspace, you can verify the name and subdomain of the site in Site settings > General.
+
+You can go to Site settings > Billing to see your current paid Site plan. If you haven't yet upgraded to a paid Site plan, you'll be on the free, Starter Site plan.

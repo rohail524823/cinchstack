@@ -1,0 +1,348 @@
+SOURCE: https://wordpress.com/pricing/
+FETCHED: 2026-09-26T22:01:49.064Z
+RENDERER: headless Chromium, en-US, US timezone (billing dropdown opened and "Pay monthly" selected)
+----
+Products
+Resources
+Support
+Pricing
+Log in
+Get started
+There is a plan for you
+
+Choose a plan today and unlock a powerful bundle of features. Or start with our free plan.
+
+WordPress.com Plans
+Pay monthly
+Pay monthly
+Pay yearly
+up to 55% off
+Pay every 2 years
+up to 63% off
+Pay every 3 years
+up to 69% off
+Personal
+Build your presence with a site you can customize.
+$9
+per month
+Get Personal
+Auto-renews at $9 per month. Billed every month, excl. taxes.
+6 GB storage
+Unlimited pages, posts, users, and visitors
+Create and collaborate freely — no caps or restrictions.
+Free domain for one year Free
+Get a custom domain – like yourgroovydomain.com – free for the first year.
+No ads for visitors
+Free sites display WordPress.com ads to visitors. Upgrade to Personal to turn them off.
+Guided website builder (usage limits apply)
+Skip the blank screen — create and launch a WordPress.com website in minutes by chatting with AI.
+Dozens of premium themes
+Install select premium themes from the WordPress.com marketplace.
+Free support
+Get support from our expert, friendly Happiness team.
+Extend your site with WordPress plugins
+Install any of over 60,000 plugins from the WordPress.com marketplace, or upload a plugin directly to your site.
+
+Most popular
+Premium
+Accept payments on your site and reach more people.
+$18
+per month
+Get Premium
+Auto-renews at $18 per month. Billed every month, excl. taxes.
+13 GB storage
+Unlimited pages, posts, users, and visitors
+Create and collaborate freely — no caps or restrictions.
+Free domain for one year
+Get a custom domain – like yourgroovydomain.com – free for the first year.
+No ads for visitors
+Free sites display WordPress.com ads to visitors. Upgrade to Personal to turn them off.
+Create your site with a guided website builder
+Skip the blank screen — create and launch a WordPress.com website in minutes by chatting with AI.
+All premium themes
+Install any premium theme from the WordPress.com marketplace.
+Free support
+Get support from our expert, friendly Happiness team.
+Extend your site with WordPress plugins
+Install any of over 60,000 plugins from the WordPress.com marketplace, or upload a plugin directly to your site.
+Premium stats and analytics
+Access all stats & analytics, including UTM tracking and device insights.
+Add payment buttons New
+Collect payments and donations with PayPal and Stripe.
+Upload videos
+Host your videos on your own site.
+
+Best value
+WP Cloud gives you the tools you need to add scalable, highly available, extremely fast WordPress hosting.
+Business
+Grow your business with powerful tools and priority support.
+$40
+per month
+Get Business
+Auto-renews at $40 per month. Billed every month, excl. taxes.
+50 GB storage
+Unlimited pages, posts, users, and visitors
+Create and collaborate freely — no caps or restrictions.
+Free domain for one year
+Get a custom domain – like yourgroovydomain.com – free for the first year.
+No ads for visitors
+Free sites display WordPress.com ads to visitors. Upgrade to Personal to turn them off.
+Create your site with a guided website builder
+Skip the blank screen — create and launch a WordPress.com website in minutes by chatting with AI.
+All premium themes
+Install any premium theme from the WordPress.com marketplace.
+Free 24/7 priority expert support
+Your support questions answered first by our expert, friendly Happiness team.
+Extend your site with WordPress plugins
+Install any of over 60,000 plugins from the WordPress.com marketplace, or upload a plugin directly to your site.
+Premium stats and analytics
+Access all stats & analytics, including UTM tracking and device insights.
+Add payment buttons
+Collect payments and donations with PayPal and Stripe.
+Use VideoPress with 250GB dedicated storage
+Showcase your video beautifully with the high-quality, ad-free VideoPress player.
+Built-in site assistant
+Use the WordPress AI Assistant to generate content, design, and manage your site — all without leaving WordPress.
+Free business email account for one year Email
+Build and grow your online presence with a professional email address at your domain name, powered by Titan
+Email marketing New
+Create and automate beautiful emails to 500 subscribers right from your WordPress dashboard, with the MailPoet Business plan.
+Free advertising credits worth $200
+Promote your content with Blaze ads.
+Real-time backups and one-click restores
+Protect against disaster with easy backups and restores.
+SFTP/SSH, WP-CLI, Git commands, and GitHub Deployments
+Access your site via SSH and manage it with WP-CLI. Deploy from GitHub with a few clicks.
+
+Make your online store a reality with the power of WooCommerce.
+Commerce
+Run an online store and keep more of what you earn.
+$70
+per month
+Get Commerce
+Auto-renews at $70 per month. Billed every month, excl. taxes.
+50 GB storage
+Unlimited pages, posts, users, and visitors
+Create and collaborate freely — no caps or restrictions.
+Free domain for one year
+Get a custom domain – like yourgroovydomain.com – free for the first year.
+No ads for visitors
+Free sites display WordPress.com ads to visitors. Upgrade to Personal to turn them off.
+Create your site with a guided website builder
+Skip the blank screen — create and launch a WordPress.com website in minutes by chatting with AI.
+Premium store themes
+Jumpstart your store’s design with a professionally designed theme.
+Free 24/7 priority expert support
+Your support questions answered first by our expert, friendly Happiness team.
+Extend your site with WordPress plugins
+Install any of over 60,000 plugins from the WordPress.com marketplace, or upload a plugin directly to your site.
+Premium stats and analytics
+Access all stats & analytics, including UTM tracking and device insights.
+Add payment buttons
+Collect payments and donations with PayPal and Stripe.
+Use VideoPress with 250GB dedicated storage
+Showcase your video beautifully with the high-quality, ad-free VideoPress player.
+Built-in site assistant
+Use the WordPress AI Assistant to generate content, design, and manage your site — all without leaving WordPress.
+Free business email account for one year
+Build and grow your online presence with a professional email address at your domain name, powered by Titan
+Email marketing
+Create and automate beautiful emails to 500 subscribers right from your WordPress dashboard, with the MailPoet Business plan.
+Free advertising credits worth $200
+Promote your content with Blaze ads.
+Real-time backups and one-click restores
+Protect against disaster with easy backups and restores.
+SFTP/SSH, WP-CLI, Git commands, and GitHub Deployments
+Access your site via SSH and manage it with WP-CLI. Deploy from GitHub with a few clicks.
+Ecommerce tools and WooCommerce experience
+Enjoy a hosting solution tailored to enhance the performance and security of sites running WooCommerce.
+Sell in 60+ countries
+Grow globally by accepting 135+ currencies.
+The trusted choice for enterprise WordPress hosting.
+Enterprise
+Publish securely at enterprise scale.
+Learn more
+Compare plans
+Building sites for customers? Here’s how to earn more
+
+Earn up to 50% revenue share and get volume discounts on WordPress.com hosting when you migrate sites to our platform and promote Automattic’s products to clients.
+
+Start saving and earning today
+Your site. Built by us.
+
+Let our team of experts build your WordPress.com site. Whether you need a landing page or a full ecommerce site, we can build it for you.
+
+Learn more
+The best way to WordPress.
+
+From the free plan on up, when you build with WordPress.com you get all of the benefits of fast, secure managed WordPress hosting.
+
+Stress‑free refund policy
+
+If you change your mind, our no‑questions‑asked refund policy has your back.
+
+Superlative support
+
+Get free, expert help in our community forums, or upgrade to any plan for expert support.
+
+End-to-end security
+
+Superior security comes with every plan, keeping your site safe and protected around the clock.
+
+The speed you need
+
+Your site runs lightning fast, wherever in the world it’s accessed from. 
+
+There’s beauty in everything.
+
+Make your website look stunning with our custom‑made patterns and themes. Transform your design with a click, then magically drag and drop breathtaking layouts.
+
+Build your site
+Design that shines on any screen.
+
+Easily create a mobile-friendly website, optimized for every device, so your visitors can access your content from anywhere.
+
+Your store. Your way.
+There’s a pattern for that.
+Your audience is out there.
+
+Your site is the start of something. Connect with your audience and reach new people by meeting them where they are.
+
+Start your site
+Say it with a Newsletter.
+
+Write directly to your audience. Every WordPress.com site is a newsletter waiting to happen.
+
+Spread the word.
+
+Reach more people across your socials and promote your posts with Blaze.
+
+Meet the Reader.
+
+With the Reader, you can keep up with what’s new and find your people.
+
+Keep them up to date.
+
+RSS makes it simple for your audience to subscribe to your latest updates and never miss a beat.
+
+Frequently asked questions
+
+No worries, we get your questions answered.
+
+Can I install plugins on any paid WordPress.com plan?
+What is the most affordable WordPress.com plan that includes plugins?
+What’s included in every WordPress.com paid plan?
+How much does WordPress.com cost per month?
+Does WordPress.com include web hosting?
+Do WordPress.com plans include a free domain?
+What is included in the free WordPress.com plan?
+What is the difference between WordPress.com and WordPress.org?
+Can I migrate my existing website to WordPress.com?
+What is the difference between the Business and Commerce plans?
+Can I switch plans after I sign up?
+Does WordPress.com hosting include security and backups?
+WordPress.com
+Products
+WordPress Hosting
+WordPress for Agencies
+Ecommerce
+Become an Affiliate
+Domain Names
+AI Website Builder
+Website Builder
+Create a Blog
+Professional Email
+Website Design Services
+WordPress Studio
+Enterprise WordPress
+Features
+Overview
+WordPress Themes
+WordPress Plugins
+WordPress Patterns
+WordPress AI Features
+Google Apps
+Resources
+WordPress.com Blog
+Business Name Generator
+Logo Maker
+WordPress.com Reader
+Accessibility
+Help
+Support Center
+Guides
+Courses
+Forums
+Contact
+Developer Resources
+Company
+About
+Press
+Terms of Service
+Privacy Policy
+Do Not Sell or Share My Personal Information
+Privacy Notice for California Users
+Deutsch
+Español
+Français
+Bahasa Indonesia
+Italiano
+Nederlands
+Norsk bokmål
+Polski
+Português do Brasil
+Română
+Svenska
+Türkçe
+Tiếng Việt
+Ελληνικά
+Русский
+العربية
+עִבְרִית
+हिन्दी
+日本語
+한국어
+ไทย
+简体中文
+繁體中文
+English
+Deutsch
+Español
+Français
+Bahasa Indonesia
+Italiano
+Nederlands
+Norsk bokmål
+Polski
+Português do Brasil
+Română
+Svenska
+Türkçe
+Tiếng Việt
+Ελληνικά
+Русский
+العربية
+עִבְרִית
+हिन्दी
+日本語
+한국어
+ไทย
+简体中文
+繁體中文
+English
+Mobile Apps
+Download on the
+App Store
+Get it on
+Google Play
+Social Media
+WordPress.com on Facebook
+WordPress.com on X (Twitter)
+WordPress.com on Instagram
+WordPress.com on YouTube
+Automattic
+An
+Automattic
+medley
+Work With Us
+Questions about plans? Ask me.

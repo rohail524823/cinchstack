@@ -1,0 +1,118 @@
+SOURCE: https://help.systeme.io/article/1509-how-systeme-io-subscription-plans-are-moderated
+FETCHED: 2026-09-26T21:46:33.882Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+CATEGORIES
+Affiliation
+Blog
+Booking calendar
+Contact management
+Courses
+Customer support
+Deliverability
+Editor
+Emails
+General
+›
+Migrating to systeme.io
+Model Context Protocol (MCP)
+Payments
+Sales funnels
+ON THIS PAGE
+1. What types of subscriptions does systeme.io offer?
+2. Purchase or upgrade your subscription
+3. Downgrade your subscription
+4. Cancel your subscription
+5. Managing your billing information
+6. Frequently asked questions
+General
+English
+How systeme.io subscription plans are moderated
+
+This article will explain how systeme.io subscriptions work and how you can manage your subscription.
+
+To get started, you will need the following:
+
+A systeme.io account
+
+Paid systeme.io subscription (in some cases)
+
+1. What types of subscriptions does systeme.io offer?
+
+Systeme.io offers two types of subscriptions:
+
+Monthly
+
+Annual
+
+You can view our pricing options here: Systeme.io pricing plans
+
+2. Purchase or upgrade your subscription
+
+You can purchase or upgrade your systeme.io subscription directly from your account by clicking on Settings (1).
+
+Next, in the My plan (2) section, select the option you are interested in, then click on Upgrade plan (3).
+
+Fill out the order form and click the Start button to complete your purchase:
+
+a. Credit card users:
+
+If you used a card for your previous subscription, the remaining time on your current subscription will be converted to a free trial during the upgrade. After this trial ends, you will be charged the full price of the new subscription. Access to the higher plan will only be granted upon successful payment.
+
+b. PayPal users:
+
+Since PayPal does not support prorated payments, you will be charged the full price of the new subscription. This applies even if you upgrade using a credit card. Additionally, you will need to contact support to ensure your previous subscription is cancelled.
+
+3. Downgrade your subscription
+
+To downgrade your subscription, please contact support and let us know which plan you would like to switch to.
+
+Our team members will provide you with a custom order form for your chosen plan. Please make sure you fill in the same email address as your account.
+
+Once the work is complete, inform the team so they can cancel your previous subscription.
+
+Note: Ensure your account stays within the limits of your new plan, as exceeding them may result in your account being automatically upgraded or restricted.
+
+4. Cancel your subscription
+
+To cancel your subscriptions, please check out this help article.
+
+5. Managing your billing information
+
+When you purchase a subscription, your billing details (such as company name, address, and VAT number) are registered at the time of the transaction. Note that changing your information in your general profile settings does not automatically update your billing details for existing invoices.
+
+To update your company information for future invoices, go to Settings (1), then Manage my subscriptions (2).
+
+Click Update my information (3).
+
+Note: Updating your billing information will only apply to future invoices. Invoices that have already been generated are locked to the details that were saved at the moment of your purchase.
+
+6. Frequently asked questions
+
+Question: I accidentally purchased the subscription twice:
+
+Answer: Please inform our support team via the contact form and provide the email address you used on the order form. Our team will cancel the additional subscription and process the refund.
+
+Question: I was charged for a different subscription (e.g., I purchased the $17 Startup subscription but was charged for the $47 Webinar subscription):
+
+Answer: If the payment amount was changed after a few months of subscription, you may have accidentally switched to a higher plan from your account.
+
+You can contact customer service to cancel your subscription at systeme.io.
+
+Question: I didn't receive the login and password email after purchasing.
+
+Answer: If you have previously logged into your account and used the free plan, you will not be asked for your login information again. After purchasing, you can log in using your email address and the password you created during your first login.
+
+If you don't remember your password, you can reset it by clicking here.
+
+Question: I'm being charged double the amount I subscribed to.
+
+Answer: You have likely purchased the subscription twice. Please contact our support team so they can investigate your case and cancel the additional subscription if necessary.
+
+Did this answer your question?
+🙂
+🙁
+
+Last updated on September 25, 2026
+
+© 2026 systeme.io Help Center · help.systeme.io

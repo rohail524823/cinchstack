@@ -1,0 +1,802 @@
+SOURCE: https://www.hubspot.com/pricing/marketing?term=monthly
+FETCHED: 2026-09-26T21:44:32.079Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+___
+×
+close
+
+We use cookies to improve HubSpot’s site. Some cookies are necessary for our website and services to function properly. Other cookies are optional and help personalize your experience, including advertising and analytics. You can consent to all cookies, decline all optional cookies, or manage optional cookies. Without a selection, our default cookie settings will apply. You can change your preferences at any time. To learn more, check out our Cookie Policy.
+
+Accept All
+Decline All
+Manage Cookies
+Skip to content
+English
+Select a language
+Customer Support
+Contact Sales
+Log in
+About
+About
+Products
+Products
+Solutions
+Solutions
+Pricing
+Resources
+Resources
+Get started
+USD ($)
+Platform Solutions
+
+Customer Platform
+
+Free Tools
+
+Create a Bundle
+
+HubSpot for Marketers
+
+Products
+
+Smart CRM
+
+Marketing
+
+Sales
+
+Service
+
+Content
+
+Data
+
+Revenue
+
+Save up to 65% on Starter
+Smarter tools, lower price. Get special Starter pricing when you choose a monthly or annual subscription. New customers only. Select offers available for a limited time.
+Buy Now
+Marketing Hub
+Generate leads and automate marketing that drives growthCalculate your price
+Free
+
+Start generating and emailing new leads, and measuring your success — for free
+
+$0/mo
+
+Free for up to 2 users. No credit card required.
+
+Get started free
+Includes:
+
+Free Marketing tools
+
+Free Sales tools
+
+Free Service tools
+
+Free Content tools
+
+Free Data tools
+
+Free Revenue tools
+
+Starter
+
+Essential marketing, sales, service, content, and data management software
+
+Starts at
+$10/mo/seat
+
+$20/mo/seat
+
+Billing period
+Pay Monthly
+Commit monthly
+Pay Annually
+BEST VALUE
+Buy now
+Talk to Sales
+
+500 HubSpot Credits
+
+1,000 marketing contacts
+
+Free tools with increased limits, plus remove HubSpot branding from:
+feature available
+Email marketing
+feature available
+Live chat
+And:
+feature available
+Agent Hub
+feature available
+Agent Builder
+feature available
+Simple marketing automation
+feature available
+CRM segments
+feature available
+Ad management
+feature available
+Data Agent
+Professional
+
+For marketing teams who want to effectively run omni-channel campaigns, automation, and reporting to build a scalable demand engine
+
+$890/mo
+
+Includes 3 Core Seats
+
+Additional Core Seats start at $50/mo
+
+Billing period
+Pay Monthly
+Commit annually
+Pay Annually
+BEST VALUE
+Talk to Sales
+
+3,000 HubSpot Credits
+
+2,000 marketing contacts
+
+Marketing Hub Starter, plus:
+feature available
+Marketing studio
+BETA
+feature available
+AEO
+BETA
+feature available
+Content Agent
+BETA
+feature available
+Nurture Agent
+BETA
+feature available
+Social media
+feature available
+Video creation & editing
+
+*Cost shown does not include the required, one-time Professional Onboarding for a fee of $3,000. Learn more
+
+Enterprise
+
+For marketing organizations seeking power, flexibility, and governance to orchestrate data-driven customer journeys at scale and accelerate revenue growth
+
+Starts at
+$3,600/mo
+
+Includes 5 Core Seats
+
+Additional Core Seats start at $75/mo
+
+Talk to Sales
+
+5,000 HubSpot Credits
+
+10,000 marketing contacts
+
+Marketing Hub Professional, plus:
+feature available
+Multi-touch revenue attribution
+feature available
+Lookalike Segments
+BETA
+feature available
+Customer journey analytics
+feature available
+Email approvals
+feature available
+Limit access to content and data
+feature available
+Behavioral event triggers and reporting
+
+*Cost shown does not include the required, one-time Enterprise Onboarding for a fee of $7,000. Learn more
+
+View Professional & Enterprise plans
+
+HubSpot AEO
+
+New
+
+See how your business shows up in answer engines
+
+HubSpot AEO shows you how you appear in ChatGPT, Gemini, and Perplexity, where competitors are winning, and what to do about it.
+
+$50/mo
+$45/mo if you pay annually
+
+Track 25 prompts across 3 answer engines daily. Purchase additional prompts anytime.
+
+Buy now
+Start 28-day trial
+
+No additional subscription required.
+
+Learn about AEO
+
+WHAT'S INCLUDED
+
+Brand visibility scores across answer engines
+
+Prompt tracking and suggestions
+
+Competitor comparison
+
+Source and citation analysis
+
+Prioritized recommendations
+
+3x
+
+increase in lead conversion rate from AI, at HubSpot
+
+*Also included in Marketing Hub Professional and Enterprise
+
+HubSpot Credits:
+Fuel powerful features that scale work at your own pace
+
+HubSpot has powerful tools that scale work alongside your teams. You can take advantage of these tools with HubSpot Credits—a simple, flexible way to pay for what you use.
+
+Simple
+
+Get started fast and test the latest AI tools with included credits.
+
+See credit balance, track usage, and more—all in a single workspace.
+
+Report on exactly which tools are delivering the most value.
+
+Flexible
+
+Easily plan your spend with credit packs, or enable pay as you go.
+
+Add more packs, adjust your spend cap, or pause features—staying in control without disruption.
+
+Use arrow keys to see other items
+AI Agents
+customer agent
+
+Resolves inquiries with fast, accurate responses — and escalates when needed, so your team can focus on complex cases and building loyalty. Learn more
+
+70%+
+
+of conversations resolved automatically
+
+39%
+
+faster ticket resolution vs. teams not using customer agent
+
+Generate Leads
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$10/mo
+
+Buy now
+	
+
+Professional
+
+$890/mo
+
+Talk to Sales
+	
+
+Enterprise
+
+$3,600/mo
+
+Talk to Sales
+
+Agent Hub
+
+		
+	
+	
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.	Build and deploy custom agents with advanced automation and event-based triggers.	Build and deploy custom agents with advanced automation and event-based triggers.
+
+Prospecting agent
+
+		
+	
+	
+
+Nurture Agent
+
+(Beta)
+			
+	
+
+Content Agent
+
+(Beta)
+			Create blog posts, social posts, and landing pages from a recommendation or a full campaign in campaign agent.	Create blog posts, social posts, and landing pages from a recommendation or a full campaign in campaign agent.
+
+Customer agent
+
+			
+	
+
+AEO
+
+(Beta)
+			Get started with 25 prompts, each run daily across 3 engines, for 2,500 answers per month. Purchase the AEO Answers Limit Increase for additional prompts and tracking volume.	Get started with 50 prompts, each run daily across 3 engines, for 5,000 answers per month. Purchase the AEO Answers Limit Increase for additional prompts and tracking volume.
+
+SEO recommendations & optimizations
+
+	Basic recommendations.	Basic recommendations, one page at a time.	Advanced recommendations, full site auditing, and topics.	Advanced recommendations, full site auditing, and topics.
+
+Ad management
+
+	All available ad types. Simple website audiences only.	All available ad types. 2 contact and company list audiences. 5 ad conversion events.	All available ad types. 5 audiences.	All available ad types. 15 audiences.
+
+Ad retargeting
+
+	All available ad types
+2 audiences	All available ad types
+2 audiences	All available ad types
+5 audiences	All available ad types
+15 audiences
+
+Simple ad automation
+
+		1 simple workflow per form, with up to 10 actions.	Unlimited simple workflows per form, with unlimited actions.	Unlimited simple workflows per form, with unlimited actions.
+
+Ad conversion events
+
+			Up to 50 synced events to ad accounts	Up to 100 synced events to ad accounts
+
+CRM segments
+
+	
+	Up to 50 active CRM segments and 1,000 static CRM segments. CRM segmentation criteria limited to form submission data, contact property information, and marketing email activity.	Up to 1,200 active CRM segments and 1,200 static CRM segments. Create random samples from any CRM segment.	Up to 2,000 active CRM segments and 2,000 static CRM segments. Create random samples from any CRM segment, or split segments into random smaller segments (up to 10).
+
+Filter insights in segments
+
+(Beta)
+	
+	
+	
+	
+
+Segment analytics
+
+(Beta)
+	
+	
+	
+	
+
+Web visitor segments
+
+(Beta)
+			
+	
+
+AI Segment Suggestions
+
+(Beta)
+			
+	
+
+Lookalike Segments
+
+(Beta)
+				
+
+Live chat
+
+	Includes HubSpot branding	Remove HubSpot branding	Remove HubSpot branding	Remove HubSpot branding
+
+Conversational bots
+
+	Limited features	Limited features	Additional features	Additional features
+
+Facebook Messenger integration
+
+	Send and receive simple messages and quick replies	Remove HubSpot branding	Includes advanced Messenger bot branching and advanced reporting	Includes the ability to use code snippets for custom Messenger bot actions
+
+Draggable chat widget
+
+			
+	
+
+Logged-in visitor identification
+
+			
+	
+
+WhatsApp integration
+
+			Up to 1,000 messages per month	Up to 1,000 messages per month
+
+CTAs
+
+		Does not include custom targeting by device type, country, referral URL, etc.	Includes custom targeting by device type, country, referral URL, and more.	Includes custom targeting by device type, country, referral URL, and more.
+
+Social media
+
+			Up to 50 connected accounts, 10,000 posts per month, and post scheduling up to 3 years in advance.	Up to 300 connected accounts, 10,000 posts per month, and post scheduling up to 3 years in advance. Limit of up to 3 competitor streams connected.
+
+Social media approvals
+
+				
+
+Lead scoring
+
+			Up to 5 scores.	Includes AI recommendations. Up to 50 scores.
+
+Multi-account management
+
+				Connect up to 30 total HubSpot accounts within one multi-account management organization. Available when one connected account is an Enterprise subscription. All additional connected accounts must be Professional or Enterprise subscriptions, share a super admin, and be in the same data hosting location.
+
+Automate Marketing
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$10/mo
+
+Buy now
+	
+
+Professional
+
+$890/mo
+
+Talk to Sales
+	
+
+Enterprise
+
+$3,600/mo
+
+Talk to Sales
+
+Email marketing
+
+	2,000 email sends per calendar month, with HubSpot branding	5x marketing contact tier email send limit per calendar month. Connect and authenticate an email sending domain.
+Remove HubSpot branding	10x marketing contact tier email send limit per calendar month
+Remove HubSpot branding
+Additional features	20x marketing contact tier email send limit per calendar month
+Remove HubSpot branding
+Additional features
+
+Email automation
+
+	1 automated action	Up to 10 automated actions	Unlimited actions, plus omni-channel marketing automation	Unlimited actions, plus omni-channel marketing automation
+
+Email health reporting
+
+	Limited features	Limited features	Additional features	Additional features
+
+Messaging Insights
+
+(Beta)
+		
+	
+	
+
+A/B testing
+
+			
+	
+
+Smart content for marketing email
+
+			
+	
+
+Advanced personalization
+
+			
+	Includes email marketing content powered by HubDB tables.
+
+Programmable email
+
+			Includes email marketing content powered by CRM object data.	Includes email marketing content powered by CRM object or HubDB data.
+
+AI email template upload
+
+(Beta)
+			100 template uploads per account per month.	100 template uploads per account per month.
+
+Email approvals
+
+				
+
+Marketing email single send API
+
+				
+
+Email send time optimization
+
+(Beta)
+				
+
+Cookie Management Tools
+
+	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button.	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding.	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding.	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding.
+
+Reporting dashboard
+
+	10 dashboards, 50 reports per dashboard	30 dashboards, 50 reports per dashboard	75 dashboards, 50 reports per dashboard	100 dashboards, 50 reports per dashboard
+
+Website traffic analytics
+
+	Standard web analytics dashboard	Standard web analytics dashboard	Customizable website traffic analytics	Customizable website traffic analytics
+
+Custom reporting
+
+			Up to 100 custom reports and 10 million events per custom reporting query	Up to 500 custom reports and 100 million events per custom reporting query
+
+SEO analytics
+
+			
+	
+
+Google Search Console integration
+
+			
+	
+
+Multi-touch revenue attribution
+
+				Track up to 10,000 logged interactions per contact
+
+Customer journey analytics
+
+				Each report can include up to 15 stages (with 1-5 events per stage, up to a max of 15 unique events) and is limited to 60 months of data or 20 million events (whichever comes first).
+
+Marketing studio
+
+(Beta)
+			
+	Includes the ability to customize attribution reports.
+
+Campaign Agent
+
+			
+	
+
+Campaign management
+
+			
+	
+
+Campaign reporting
+
+			5,000 campaigns per account	10,000 campaigns per account
+
+HubSpot Work
+
+(Beta)
+		Limited automation	Full automation	Full automation
+
+Video creation & editing
+
+			
+	
+
+Omni-channel marketing automation
+
+			Up to 300 workflows for 10 teams.	Up to 1,000 workflows for 300 teams, with the ability to leverage behavioral events and predictive lead scoring. Also includes workflow health monitoring.
+
+Custom events
+
+				Includes codeless creation via the event visualizer. Limited to 500 event definitions and 30 million completions per month.
+
+Event Visualizer
+
+				
+
+View the Product & Services Catalog for full technical limits and definitions
+
+Need help choosing a plan?
+
++1 (888) 482-7768
+
+Seamlessly integrate your apps
+
+Over 2,000 leading apps and web services available
+
+Amplitude
+
+Jira
+
+Adobe Express
+
+Aircall
+
+LinkedIn
+
+Microsoft Teams
+
+Frequently asked questions
+What is Marketing Hub?
+What are marketing contacts, and how does contact pricing work?
+Under this new contact model, you can set any of your contacts as ‘marketing contacts.’ These contacts count toward your paid contact tier and can be targeted with marketing emails and ads. Conversely, you can also set contacts as ‘non-marketing contacts.’ You can store your non-marketing contacts in your CRM for free, up to a limit of 15 million overall contacts. However, you cannot target non-marketing contacts with marketing emails or ads.
+
+When you purchase Marketing Hub, you’ll have the opportunity to select your contact tier, or how many marketing contacts you want to start out with. All paid Marketing Hub subscriptions also include a number of marketing contacts at no cost. You can change individual marketing contacts to non-marketing contacts any time from your HubSpot account. Their status will be updated once a month. However, once you select a contact tier, you cannot downgrade until your contract renews.
+How many marketing contacts can I have with a Marketing Hub plan?
+Each Marketing Hub edition comes with a different number of included marketing contacts.
+
+Marketing Hub Starter: includes 1,000 marketing contacts
+Marketing Hub Professional: includes 2,000 marketing contacts
+Marketing Hub Enterprise: includes 10,000 marketing contacts
+
+While you’ll enjoy these included marketing contacts at no additional cost, you can purchase additional marketing contacts with any of our editions at any time.
+
+Once you select a contact tier, you cannot downgrade to a lower contact tier until your contract renews.
+How many emails can I send with a paid Marketing Hub plan?
+The number of emails you can send per month depends on the Marketing Hub plan and the number of contacts you purchase.
+
+Marketing Hub Starter: email send limit is 5 times your marketing contact tier per calendar month
+Marketing Hub Professional: email send limit is 10 times your marketing contact tier per calendar month
+Marketing Hub Enterprise: email send limit is 20 times your marketing contact tier per calendar month
+
+If you need to send even more than that, you can purchase more marketing contacts or purchase the Dedicated IP Add-On for unlimited email sends.
+How many users do I get with my Marketing Hub plan?
+Give users access to your Marketing Hub plan with Core Seats. All Core Seats in an account are priced based on the highest level across all products of your subscription. For example, if you're subscribed to both Marketing Hub Professional and Sales Hub Enterprise, your highest-level subscription would be Enterprise.
+
+Paid Marketing Hub plans include a set number of Core Seats based on the edition of the plan.
+
+Marketing Hub Starter is priced per seat
+Marketing Hub Professional includes 3 Core Seats
+Marketing Hub Enterprise includes 5 Core Seats
+
+You can increase the number of Core Seats on your Marketing Hub subscription on a per-user basis for an additional monthly cost. The edition of your Marketing Hub plan determines the cost of additional paid users.
+
+You can also allow a user to access your Marketing Hub account without making any changes with View-only Seats. View-only Seats are available at no additional cost.
+How many HubSpot Credits do I get with my Marketing Hub plan?
+HubSpot Credits provide a simple, flexible way to power AI agents and features that deliver work to scale your impact. Learn more about the agents and features that run on HubSpot Credits with our Rate Sheet.
+
+Paid Marketing Hub subscriptions include HubSpot Credits at no additional cost. Included credits are not additive across products. If you've purchased multiple products, you'll receive the highest available included credit allotment based on the highest level of your subscription services.
+
+Marketing Hub Starter subscriptions include 500 HubSpot Credits
+Marketing Hub Professional subscriptions include 3,000 HubSpot Credits
+Marketing Hub Enterprise subscriptions include 5,000 HubSpot Credits
+
+You can choose when and how to add HubSpot Credits to your account at $0.010 per credit. Buy HubSpot Credits in packs to easily plan your spend, or enable Pay-as-You-Go to add credits automatically as you use them.
+
+HubSpot Credits reset monthly during your subscription term. Unused credits do not roll over into the following month.
+Do I need to buy onboarding for Marketing Hub?
+When you purchase Marketing Hub Professional or Enterprise, you’ll automatically be charged for onboarding to ensure you get started on the right foot with your inbound marketing efforts. Inbound marketing is about much more than just using a bunch of software to get marketing done; it’s about transforming your business to create marketing people love. That’s much easier to do in the thriving ecosystem of HubSpot customer training programs and with the personal support of our famously passionate inbound marketing professors and consultants.
+
+When you purchase Marketing Hub Starter, you won’t need to buy onboarding, but Inbound Consulting is available for an additional fee.
+What type of support does HubSpot offer?
+Does HubSpot offer discount pricing for startups and nonprofits?
+HubSpot offers discount pricing for eligible startups and nonprofits through the ​HubSpot for Startups and HubSpot for Nonprofits programs. If you work for a startup and would like to determine your eligibility for the startup program and apply, visit HubSpot for Startups Program. If you are part of a nonprofit and would like to determine your eligibility for the nonprofit program and apply, visit HubSpot for Nonprofits.
+Still have questions about how HubSpot's software can help your business?
+
++1 (888) 482-7768
+
+Popular Features
+All Products and Features
+All Products and Features
+HubSpot AEO
+HubSpot AEO
+Free Meeting Scheduler App
+Free Meeting Scheduler App
+Agent Hub
+Agent Hub
+Email Tracking Software
+Email Tracking Software
+AI Content Writer
+AI Content Writer
+AI Website Generator
+AI Website Generator
+Email Marketing Software
+Email Marketing Software
+Lead Management Software
+Lead Management Software
+AI Prospecting Agent
+AI Prospecting Agent
+Free Website Builder
+Free Website Builder
+Free Landing Page Builder
+Free Landing Page Builder
+Free Online Form Builder
+Free Online Form Builder
+Free Chatbot Builder
+Free Chatbot Builder
+Free Live Chat Software
+Free Live Chat Software
+Marketing Analytics
+Marketing Analytics
+Breeze Assistant
+Breeze Assistant
+Free Web Hosting
+Free Web Hosting
+Free Tools
+See All Free Business Tools
+See All Free Business Tools
+AEO Grader
+AEO Grader
+AI Search Sensor
+AI Search Sensor
+Make My Persona
+Make My Persona
+Email Signature Generator
+Email Signature Generator
+Free Business Templates
+Free Business Templates
+Software Comparisons Library
+Software Comparisons Library
+Website Templates
+Website Templates
+Connector for Claude
+Connector for Claude
+Company
+About Us
+About Us
+Careers
+Careers
+Management Team
+Management Team
+Board of Directors
+Board of Directors
+Investor Relations
+Investor Relations
+Blog
+Blog
+Sustainability
+Sustainability
+Contact Us
+Contact Us
+Customers
+Customer Support
+Customer Support
+Join a Local User Group
+Join a Local User Group
+Partners
+All Partner Programs
+All Partner Programs
+Solutions Partner Program
+Solutions Partner Program
+Technology Partner Program
+Technology Partner Program
+HubSpot for Startups
+HubSpot for Startups
+Affiliate Program
+Affiliate Program
+Facebook
+Instagram
+Youtube
+Twitter
+Linkedin
+Reddit
+Tiktok
+
+Copyright © 2026 HubSpot, Inc.
+
+Legal Center
+ 
+Privacy Policy
+ 
+Security
+ 
+Website Accessibility
+ 
+Manage Cookies
+ 
+ Your Privacy Choices

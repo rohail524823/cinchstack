@@ -1,0 +1,111 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:49:10.983Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Starter
+Core
+Growth
+Collaboration
+Seats
+1 full seat
+Workspace plans:
+Starter
+Core
+Growth
+Enterprise
+Agency/freelancer guests
+2 teams
+(5 guests each)
+Comment-only links
+Page building
+Real-time collaboration
+Content editing role
+Site-specific access
+—
+—
+Site-level roles
+—
+—
+Publishing permissions
+—
+—
+Enhanced staging for free webflow.io sites
+Features
+Starter
+Core
+Growth
+Webflow.io staging sites
+2
+10
+Unlimited
+Pages per staged site
+2
+300
+300
+Webflow AI
+Custom code
+—
+Staging site password protection
+—
+—
+301 redirects
+—
+—
+Remove Webflow badge
+—
+—
+Publish to a custom domain
+
+Available with a paid Site plan
+Site management
+Features
+Starter
+Core
+Growth
+Site transfer
+Code export
+—
+Shared Libraries
+—
+1
+1
+Security, support, and admin
+Workspace plans:
+Starter
+Core
+Growth
+Two-factor authentication
+Billing
+Credit card billing
+Support
+Help Center & Support Portal
+Customer success
+—
+Training
+Webflow University
+Webflow AI
+Site plans:
+Starter
+Growth
+Core
+AI credits
+200/month
+300/month
+400/month
+Build a site
+Design sections
+Generate CMS Collections
+Generate code components
+Get help
+Generate copy
+Must have paid Workspace plan to access on a Starter site
+Improve SEO & AEO
+Must have paid Workspace plan to access on a Starter site
+Webflow Optimize
+Available with a paid Site plan
+Webflow Analyze
+Available with a paid Site plan
+Webflow Localize
+Available with a paid Site plan
+Close Modal

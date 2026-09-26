@@ -1,0 +1,31 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-advanced-plan
+FETCHED: 2026-09-26T21:48:08.615Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+Advanced plan
+
+The Advanced plan helps you accommodate your growing business and use analytics to find expansion opportunities. The Advanced plan contains all the features of the Basic plan and the Grow plan, and has the lowest credit card rates and transaction fees.
+
+View pricing plans
+On this page
+Advanced plan features
+Advanced plan features
+
+In addition to the features available on all plans, the Advanced plan offers the following features:
+
+Feature	Description
+Competitive transaction fees	The Advanced plan offers the most competitive transaction fees. Review Shopify's pricing page to find the specific transaction fees under plans in your region.
+Staff	The Advanced plan supports 15 user accounts.
+Carrier-calculated shipping	Carrier-calculated shipping lets you integrate with a third-party shipping service to provide your customers with up-to-date shipping rates and options at the time that they place an order in your store.
+Reports	The Advanced plan offers the most comprehensive reports to help you track your business performance. The Advanced plan also allows you to create custom reports and activate predicted values for certain reports.
+International commerce	The Advanced plan lets you tailor the buying experience for each of your markets. You can customize your online store theme for each market, and customize your checkout and customer accounts pages for each market.
+Customer Support	The Advanced plan offers enhanced 24/7 chat support.
+Leave feedback
+Chat with a human

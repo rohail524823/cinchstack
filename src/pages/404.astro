@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found" description="The page you asked for is not on CinchStack. It may have moved. Try the stacks, the tools list or the price changes log instead." path="/404/" noindex={true} ogType="website">
+  <div class="wrap page">
+    <div class="read">
+      <h1>We could not find that page</h1>
+      <p class="lede">It may have moved, or the link may be wrong. These are good places to start:</p>
+      <ul>
+        <li><a href="/stacks/">Software stacks by business</a></li>
+        <li><a href="/tools/">Every tool and what it really costs</a></li>
+        <li><a href="/compare/">Comparisons</a></li>
+        <li><a href="/changes/">Price changes</a></li>
+      </ul>
+    </div>
+  </div>
+</Base>

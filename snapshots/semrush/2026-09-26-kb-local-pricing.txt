@@ -1,0 +1,161 @@
+SOURCE: https://www.semrush.com/kb/1611-local-toolkit-pricing-and-plans
+FETCHED: 2026-09-26T21:59:28.869Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to content
+
+Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.
+
+Product
+Pricing
+Solutions
+Resources
+Enterprise
+Log In
+Start for free
+Knowledge Base
+Search
+What is Semrush?
+Getting Started
+How-To Articles
+Subscriptions and Toolkits
+Semrush One
+Billing and Account
+Semrush Toolkits
+SEO
+AI Visibility
+Traffic & Market
+Local
+Local Toolkit Pricing and Plans
+GBP Optimization
+Listing Management
+Map Rank Tracker
+Review Management
+GBP AI Agent
+Advertising
+Content
+Social
+AI PR
+My Reports
+Folders
+Agency Partners Platform
+App Center
+Integrations
+Teamwork
+Data and Metrics
+The Ultimate SEO Glossary
+Kompyte
+API
+MCP
+Contact Us
+Knowledge Base  Semrush Toolkits  Local  Local Toolkit Pricing and Plans
+Local Toolkit Pricing and Plans
+
+Semrush Local tools can be added to your existing Semrush subscription or purchased as a standalone option. Semrush Local offers 2 main plans to suit different business needs: Local Base and Local Pro. There’s also a customizable offer for 20+ location businesses called Local Business — contact our Sales team to learn more.
+
+Note: For businesses with multiple locations, you need a limit for each location. If you're on an older plan, such as Semrush Local Basic, Premium, or Essentials, you don't have access to some of these features. Upgrade your locations in the toolkit to unlock them.
+
+Local Base
+
+Local Base includes GBP AI Agent, which grows your Google Business Profile (GBP) automatically, and Map Rank Tracker, which monitors your Google Maps rankings. The plan costs $30 monthly per location.
+
+Google Business Profile audit and optimization plan: Connect your GBP and get a personalized audit with improvements to increase visibility
+Automated post generation and publishing: GBP AI Agent creates, schedules, and publishes unique posts to drive activity and engagement
+Auto-replies to reviews: GBP AI Agent replies to new Google reviews as they arrive, using your selected tone of voice and language
+Automated photo posting: GBP AI Agent publishes photos you provide at an optimal frequency to keep your profile appealing and trustworthy
+Business description optimization: GBP AI Agent creates a keyword-rich description covering what your business is, what it offers, and why customers should choose it
+Geo Grid Local Rank Tracking: Track your local rankings on Google Maps using Map Rank Tracker, with 375 credits included
+Competitor reports: See where your business stands against others in a detailed heatmap comparison view
+Map Rank Tracker reporting API: Build custom reports and simplify multi-location monitoring and analysis
+Local Pro
+
+Local Pro provides the GBP AI Agent functionality included in Local Base, plus a broader suite of local marketing tools: Listing Management, Review Management, and GBP Optimization. It also increases your Map Rank Tracker credits. The plan costs $60 monthly per location.
+
+Listing Management
+Listing management: Share and manage your business information across 70+ directories with just 1 click. See available directories by country.
+Healthcare directories (USA only): Unlock specialized medical directories, such as WebMD, Vitals, and Wellness.com, for US locations with a healthcare-related category
+Duplicate and user suggestion management: Track and suppress duplicates, and manage user suggestions
+Listing management API: Integrate your listing data with external tools and workflows
+Review Management
+Centralized review monitoring: Track reviews from supported review sites all in one place
+Negative review alerts: Receive email notifications for negative GBP reviews
+Hourly review updates: Get GBP review updates in the Local dashboard every hour
+Review generation: Run automated SMS or email campaigns to increase the number of online reviews and build credibility with customers
+AI-powered GBP review management: Create reply drafts with AI, or set up auto-replies to all GBP reviews or selected categories
+Competitor review analytics: Track your competitors’ review progress and see what their customers are saying. Receive up to 10 reports per month, each analyzing up to 10 competitors.
+GBP Optimization
+GBP data and insights: Explore your business profile views and interactions over time, including historical data unavailable in the GBP interface
+GBP posting with AI: Create GBP posts with an AI writer and schedule them weeks or months in advance
+GBP edits and suggestions: Monitor edits and suggestions made by others, and accept or reject them
+Bulk GBP connect and edit: Connect and manage multiple GBPs at once
+Team collaboration: Work with your team on local SEO across shared locations
+Location grouping: Group locations by criteria for simpler management and reporting
+Map Rank Tracker
+
+GEO grid tracking with Map Rank Tracker with 1,225 credits included.
+
+Table of contents
+Local Base
+Local Pro
+Is this article helpful?
+GET STARTED WITH SEMRUSH TODAY
+
+Try Semrush free for seven days. Cancel anytime.
+
+Start free trial
+
+Semrush
+
+Semrush One
+Features
+Solutions
+Pricing
+Free Trial
+Compare Semrush
+Success Stories
+Stats and Facts
+Affiliate Program
+
+More tools
+
+Semrush MCP
+Enterprise SEO
+Enterprise AIO
+Enterprise SI
+Insights24
+Mfour
+App Center
+Top Websites
+Free Tools
+Sensor
+
+Company
+
+About Us
+Semrush Questions
+News
+Careers
+Partners
+Semrush Select
+Global Issues Index
+Do not sell my personal info
+Contact Us
+
+Support
+
+Knowledge Base
+Academy
+Semrush API
+
+Community
+
+Semrush Blog
+Webinars
+Ambassador Program
+
+© 2026 Semrush Holdings. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Cookies Settings
+English

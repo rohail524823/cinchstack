@@ -1,0 +1,76 @@
+SOURCE: https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/sms/pricing
+FETCHED: 2026-09-26T22:00:44.471Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Shopify Messaging SMS marketing campaigns
+Pricing and billing for SMS marketing campaigns
+
+When you send SMS campaigns using Shopify Messaging, you're charged per message and billed monthly. In addition to the per-message cost, other charges apply depending on your region and the types of messages you send. If you send SMS marketing messages to the United States or Canada, then a monthly fee applies for your toll-free number.
+
+On this page
+Per-SMS message charges
+Toll-free number fees
+Viewing Shopify Messaging SMS charges
+Setting a monthly spending threshold
+Per-SMS message charges
+
+You're charged based on the number of SMS marketing messages sent to each recipient. For example, if you're located in Denmark and you send 1,000 messages to recipients in Denmark, then you're billed $80 USD.
+
+If you create an SMS campaign that exceeds the character limits for a single message, then the message displays to the customer as one continuous message, but you're charged for multiple messages per recipient. For example, if your campaign is split into 2 messages for 100 recipients, then you're charged for 200 messages.
+
+Automated message fees
+
+In addition to your marketing campaigns, you're charged per SMS message for the following types of automated messages:
+
+Confirmation messages sent to new subscribers
+Double opt-in messages, when activated
+Replies to keywords from customers sending requests, such as "INFO" or "HELP"
+Test messages
+
+You can send up to 25 test messages per week for free. If you test a campaign that's sent in multiple messages, then each message counts towards your free test messages.
+
+Price per message
+Note
+
+As of September 15, 2026, SMS marketing to Spanish phone numbers is paused, and starting October 1, 2026, SMS marketing to Austrian phone numbers is paused.
+
+You can't set up Austria or Spain as new recipient countries.
+
+The following table lists the price per SMS message in each supported region.
+
+Country	Price per SMS message in USD
+Austria	$0.092 USD
+Canada	$0.025 USD
+Denmark	$0.08 USD
+Finland	$0.108 USD
+Italy	$0.075 USD
+Luxembourg	$0.13 USD
+Poland	$0.041 USD
+Portugal	$0.045 USD
+Spain (Paused)	$0.06 USD
+Sweden	$0.072 USD
+United Kingdom	$0.06 USD
+United States	$0.012 USD
+Toll-free number fees
+
+A $2.15 USD monthly charge applies to each approved toll-free number used for SMS marketing in the United States and Canada. Toll-free number billing starts after your toll-free number is activated.
+
+If you no longer want your toll-free number, then remove Canada and the United States from your targeted SMS countries.
+
+Viewing Shopify Messaging SMS charges
+
+Any SMS marketing costs are added to your Shopify bill as Messaging. To view details about the cost of each SMS campaign, from your Shopify admin, go to Settings > Billing, then click View details for the relevant billing period.
+
+Setting a monthly spending threshold
+
+To get an email notification when your total Shopify Messaging costs reach an amount that you set, you can set a monthly spending threshold. The threshold applies to your combined spending across email, SMS, and WhatsApp.
+
+When you view your monthly spending alert, your costs are broken down by channel and by source, so that you can understand where your monthly costs come from.
+
+Leave feedback
+Chat with a human

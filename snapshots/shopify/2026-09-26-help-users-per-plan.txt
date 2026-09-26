@@ -1,0 +1,57 @@
+SOURCE: https://help.shopify.com/en/manual/your-account/users/users-plan-requirements
+FETCHED: 2026-09-26T21:46:59.205Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Managing users
+Maximum number of users for each pricing plan
+
+The maximum number of users that you can add to your store or organization depends on your pricing plan. Some user types don't count towards your total number of users.
+
+On this page
+Considerations for user limitations
+Maximum number of Shopify admin users on each plan
+Users for partner organizations
+Exempted user types
+Considerations for user limitations
+
+Review the following considerations for adding users to your store or organization:
+
+Users are available only on the Grow plan and higher.
+If your store is on either the Basic or Starter plan and requires the ability to add users, then you need to upgrade to a higher plan such as Grow, Advanced, or Shopify Plus.
+The 0-user limit on the Basic and Starter plans applies to staff accounts only. Other user types, such as collaborator accounts and POS-only staff, don't count toward this limit. For a complete list, review exempted user types.
+When you downgrade your pricing plan to a plan with a lower user limit, users over the limit for your new plan will be suspended in the following order:
+Pending users, starting with the most recently invited user.
+Active users based on their last login date, starting with those who have been inactive for the longest period.
+Maximum number of Shopify admin users on each plan
+
+The maximum number of users that you can have in your Shopify admin depends on your store's pricing plan.
+
+Pricing plan	Maximum number of user accounts
+Pause and Build	1 user
+Starter	0 users
+Basic	0 users
+Grow	5 users
+Advanced	15 users
+Shopify Plus	Unlimited users
+Users for partner organizations
+
+Partner organizations aren't subject to the same user limits as merchant stores. You can add unlimited users to a partner organization.
+
+Stores in the Dev Dashboard don't have seat limits and this includes both development stores and client transfer stores for both merchant and partner organizations.
+
+Exempted user types
+
+Certain user types don't count towards your total user limit, but might still have restrictions on the number of each type of user that you can add.
+
+User type	Description	Maximum number of user type
+Store owner	Each store has only one store owner.	1 user
+Organization owner	Each organization has only one organization owner.	1 user
+Collaborators	You can grant access to Shopify Partners or other freelancers with collaborator accounts.	Unlimited users
+POS only staff	If you have the Point of Sale channel, then you can add POS only staff. POS only staff don't have access to your Shopify admin. To add POS only staff, you need at least one location with a Shopify POS Pro subscription, and POS only staff can log in only to POS Pro locations.	Unlimited users
+Leave feedback
+Chat with a human

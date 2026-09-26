@@ -1,0 +1,448 @@
+SOURCE: https://woocommerce.com/products/woopayments/
+FETCHED: 2026-09-26T21:57:59.515Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Marketplace / WooCommerce extensions / Official payments / Processors & gateways / WooPayments
+Trending
+WooPayments
+by Woo
+The only payment solution fully integrated with WooCommerce. Accept credit/debit cards and local payment options with no setup or monthly fees.
+A fully integrated payments solution for WooCommerce stores
+
+Built by Woo, for WooCommerce. Securely accept major credit cards, debit cards, and local payment methods on your site with no setup costs or monthly fees.
+
+Save 10% on processing fees!
+
+Simplify your payments — for less. Sign up for WooPayments and save 10% on payment processing costs for the first 3 months! Merchants must meet eligibility requirements. Limited time offer, terms and conditions apply.
+
+Klarna, Afterpay, and Affirm are now available in WooPayments!
+
+Increase your average order value, convert more sales, and give customers real buying power when you offer the world’s favorite buy now, pay later (BNPL) options at checkout — all from one fully integrated dashboard.
+
+Available in:
+Australia
+Austria
+Belgium
+Bulgaria
+Canada
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Greece
+Hong Kong
+Hungary
+Ireland
+Italy
+Japan
+Latvia
+Lithuania
+Luxembourg
+Malta
+Netherlands
+New Zealand
+Norway
+Poland
+Portugal
+Romania
+Singapore
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Arab Emirates
+United Kingdom
+United States
+All of your store’s transactions in one place
+
+With WooPayments, you can collect payments, track cash flow, handle disputes, and manage recurring revenue directly from your store’s dashboard — without needing to log into a third-party platform.
+
+WooPayments simplifies the payment process for you and your customers, leaving you with more time to focus on growing your business. This fully integrated solution is the only payment method designed exclusively for WooCommerce, by Woo.
+
+What are the benefits for me?
+Get started for free. Pay-as-you-go fees per transaction. There are no monthly fees, either. Learn more about our fees.
+Unlike other gateways, WooPayments doesn’t charge extra for tools like saved credit cards, Card Account Updater, Adaptive Acceptance, and 3D Secure that enhance security and and drive more revenue.
+Try Tap to Pay or order a card reader that syncs with your inventory through WooPayments. Learn more about Tap to Pay on iPhone and Android.
+Multi-currency support is built-in. Accept payments in 135+ currencies using WooPayments.
+Responsive checkout design. Crafted to look great on almost any website, for both desktop and mobile browsers.
+Increase conversions by enabling payment methods including WooPay, Apple Pay®, Google Pay, iDeal, P24, EPS, and Bancontact.
+PCI compliance. Payment data is securely tokenized and never stored on your site.
+Enable buy now, pay later (BNPL) in one click. Sell ​​​​more and reach new customers with top BNPL options built into your dashboard (not available in all geographies).
+3DS/SCA compatible. Helps avoid fraud by authenticating 3D Secure cards when they’re used in checkout.
+Integrated fraud protection. Detects suspect transactions with Stripe Radar or your own advanced protection rules.
+Simplify your workflow. No more logging into third-party payment processor sites – manage everything from the comfort of your store’s dashboard.
+Set a custom payout schedule to get your funds into your bank account as often as you need — daily, weekly, monthly, or even on-demand.
+Reduce cart abandonment with a streamlined checkout flow.
+Stay on top of chargebacks, disputes, and refunds thanks to the integrated dashboard.
+ 
+Deposit history
+What are the benefits for my customers?
+Customers pay directly on your store instead of being redirected to a third-party checkout page— a seamless experience resulting in fewer abandoned carts.
+They can see prices and pay in their preferred currency — no more checking conversion rates or manual price calculations.
+Customers can save their credit card details for faster checkouts in the future.
+ 
+Payment method entry
+Earn recurring revenue with WooPayments and Subscriptions
+
+By adding WooCommerce Subscriptions to the mix, you can increase your bottom line and harness the power of recurring revenue.
+
+Whether you’re selling memberships, accepting installments, or making it simpler for customers to reorder their favorite products, WooPayments’ integrated dashboard makes managing subscription payments a breeze. View information about renewals and cancellation data, plus date changes and payment methods.
+
+Get paid within minutes with Instant Payouts
+
+Stay flexible with immediate access to your funds when you need them. With WooPayments’ new Instant Payouts feature, transfer your earnings to a debit card within minutes — including nights, weekends, and holidays.
+
+Eligible merchants can receive a payout of their pending balance at a cost of just 1.5% of the payout amount without affecting their regular payout schedule.
+
+Learn more about Instant Payouts eligibility. Only available in the US.
+
+Convenient sorting, detailed payouts, and quick refunds
+
+Dig into the details of each transaction, and sort or filter transactions by type, date, amount, fees, and net revenue.
+
+Quickly access payout information, see details of previous and estimated payouts, and keep track of the transactions associated with them.
+
+Process refunds in a snap, returning all or part of a charge to the card your customer used to purchase.
+
+Get paid with WooPayments
+Add WooPayments to your cart and check out.
+Download, install, and activate the extension in your WooCommerce store.
+Once the extension is active, click WooCommerce > Payments in your store’s WP Admin.
+Click Get Started .
+Complete the onboarding process to create your account and verify your business details with our payment partner, Stripe.
+That’s it — you’re ready to get paid with WooPayments. Happy selling!
+
+Free download
+
+Frequently asked questions
+What is WooPayments and how does it work with my WooCommerce store?
+Are there any setup costs or monthly fees to use WooPayments?
+Can I manage payments, refunds, disputes, and payouts in one place?
+Can I sell internationally and accept payments in multiple currencies?
+Which express checkout and digital wallet options does WooPayments support?
+Can WooPayments help increase average order value with buy now, pay later options?
+Can I take in-person payments with WooPayments?
+Can WooPayments help me earn recurring revenue from subscriptions?
+How does WooPayments help protect my store against fraud?
+Is my customers' payment data secure with WooPayments?
+Can I control how often I get paid?
+Can I access my funds faster with Instant Payouts?
+Do I need anything special to set up WooPayments?
+Do I get support if I use WooPayments?
+How are disputes and chargebacks handled with WooPayments?
+Who is WooPayments best for?
+When might WooPayments not be the right fit for my store?
+Related Products
+WooCommerce In-Person Payments WisePad 3
+by
+Woo
+
+Accept secure and fast payments in person with the WisePad 3 card reader
+
+Price $84.99 annually
+$84.99
+annually
+WooCommerce In-Person Payments M2
+by
+Woo
+
+Accept secure and fast payments in person with the M2 card reader  
+
+Price $79.99 annually
+$79.99
+annually
+Rated 3.6 out of 5 stars
+3.6 
+(14)
+WooPayments
+by Woo
+Install for free
+Add to cart
+No payment details required • Set up in minutes
+
+Reviews
+
+4.1
+(169)
+4.1 out of 5 stars,169 reviews
+
+Latest version
+
+11.1.0
+
+Active installs
+
+800K+
+
+Subscription includes
+
+Free updates
+Free customer support
+
+Support
+
+Documentation
+Feature requests
+Get support
+
+Categories
+
+Buy now pay later
+Developed by Woo
+Free
+In-person payments
+Official payments
+Point of sale
+Processors & gateways
+Wallets & express checkouts
+WooCommerce extensions
+
+Extension information
+
+ 
+PHP version required: 7.4
+Tested with WordPress: 7.0
+Tested with WooCommerce: 11.0.0
+Requires at least WordPress: 6.0
+Requires at least WooCommerce: 7.6
+
+Quality Checks
+
+ 
+Known vulnerability check passed
+Dependent packages vulnerability check passed
+Compatible with standard WooCommerce flows and extensions
+
+Works with
+
+ 
+WooCommerce Subscriptions
+
+Countries
+
+ 
+ Australia
+ Austria
+ Belgium
+ Bulgaria
+ Canada
+ Croatia
+ Cyprus
+ Czech Republic
+ Denmark
+ Estonia
+ Finland
+More
+Customer reviews
+Average rating
+4.1
+
+169 reviews
+
+5 stars, 64% of reviews
+5
+4 stars, 14% of reviews
+4
+3 stars, 6% of reviews
+3
+2 stars, 2% of reviews
+2
+1 star, 14% of reviews
+1
+Rated 5 out of 5
+data-9572
+·
+United States (US)
+·
+Sep 17, 2026
+Rated 2 out of 5
+oldtoolman2
+·
+Australia
+·
+Sep 7, 2026
+It's been good, but the over promotion of Apple and Google is annoying. The change of function in the legacy cart and checkout has also been annoying in that it no longer seems to allow defaulting to shipping and seems to default to local pickup.
+1 reply
+Rated 5 out of 5
+Waziha Time
+·
+Saudi Arabia
+·
+Sep 6, 2026
+1 reply
+Rated 4 out of 5
+olufunmytai
+·
+United Kingdom (UK)
+·
+Aug 28, 2026
+I felt excited to see this alert of my first payment on woo. I can see that some commission was taken out, I wasn’t aware of this initially so I will have to make some adjustments. I’m yet to see it reflect in my stripe account. I can’t wait!
+1 reply
+Rated 5 out of 5
+beautyofholinessintgmailcom
+·
+United States (US)
+·
+Aug 26, 2026
+We love WooPayments! I can take it everywhere I go: no additional hardware or software needed, and I can keep track of all my sales- Internationally!
+1 reply
+Pagination
+1
+2
+…
+34
+Related Products
+WooCommerce Shipping
+Free download
+Free download
+Rated 2.6 out of 5 stars
+2.6 
+(20)
+Mastercard Merchant Cloud
+Free download
+Free download
+Product Add-Ons
+Price $79 annually
+$79
+annually
+Rated 3.4 out of 5 stars
+3.4 
+(49)
+WooCommerce Subscriptions
+Excellence verified
+Price $279 annually
+$279
+annually
+Rated 3.9 out of 5 stars
+3.9 
+(136)
+Shipment Tracking
+Price $59 annually
+$59
+annually
+Rated 3.1 out of 5 stars
+3.1 
+(30)
+USPS Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2.7 out of 5 stars
+2.7 
+(30)
+UPS Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2 out of 5 stars
+2 
+(27)
+Min/Max Quantities
+Excellence verified
+Price $49 annually
+$49
+annually
+Rated 4.1 out of 5 stars
+4.1 
+(16)
+FedEx Shipping Method
+Price $109 annually
+$109
+annually
+Rated 2.3 out of 5 stars
+2.3 
+(19)
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+OPUS
+Use of your personal data
+We and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.
+Customize
+Accept all

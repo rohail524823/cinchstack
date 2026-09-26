@@ -1,0 +1,6 @@
+---
+interface Props { items: { label: string; value: string }[] }
+---
+<dl class="glance">
+  {Astro.props.items.map((i) => <div><dt>{i.label}</dt><dd set:html={i.value} /></div>)}
+</dl>

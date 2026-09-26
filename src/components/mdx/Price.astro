@@ -1,0 +1,10 @@
+---
+// MDX token: <Price tool="hubspot" plan="starter" /> or field="annualMonthly"
+import { plan } from '../../lib/data.mjs';
+import Fig from '../Fig.astro';
+interface Props { tool: string; plan: string; field?: 'monthly' | 'annualMonthly' }
+const { tool: t, plan: pid, field = 'monthly' } = Astro.props;
+const p = plan(t, pid);
+if (!p) throw new Error(`<Price>: unknown plan ${t}/${pid}`);
+---
+<Fig v={p[field]} />

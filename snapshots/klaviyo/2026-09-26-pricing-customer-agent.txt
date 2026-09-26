@@ -1,0 +1,157 @@
+SOURCE: https://www.klaviyo.com/pricing
+FETCHED: 2026-09-26T22:09:04.891Z
+RENDERER: headless Chromium, en-US, US timezone
+METHOD: Clicked the "Customer Agent" pricing tab, then clicked each of the 7 FAQ questions to expand the answers; saved document.body.innerText.
+----
+___
+Skip to main content
+Platform
+Apps & Integrations
+Resources
+What’s New
+Pricing
+Log in
+Sign up
+Get a demo
+Home/Pricing
+Klaviyo pricing:
+Build your plan
+
+Scale as you grow with flexible pricing across marketing, service, and data products and features. Email marketing comes standard with every plan.
+
+Platform
+GET STARTED
+Free
+SOLUTIONS PRICING
+Marketing
+Data + Analytics
+Service
+30% OFF
+AI AGENTS
+Composer
+Customer Agent
+30% OFF
+TALK TO SALES
+Professional Services
+Enterprise
+
+Special introductory pricing through 9/30/2026
+
+50 FREE CONVERSATIONS
+Customer Agent
+
+A 24/7 personalized AI assistant for your customers that answers questions and recommends products.
+
+Add to plan
+AI conversations per month
+200
+$200
+30% OFF
+$140
+What's included
+$1
+🇺🇸
+USD
+
+per month
+
+Estimated total price
+
+Email
+$1
+
+Included in every plan
+
+Standard support
+Included
+Total estimated
+$1.00
+Get started
+Frequently asked questions
+How is Klaviyo Service priced?
+Can I purchase just one product, or do I need to buy all three?
+Do you offer a free trial or pilot program for Klaviyo Service products?
+Are there any discounts available for Klaviyo Service?
+Yes, early adopters can lock in a special introductory price list. Customers lock in on the introductory price list for as long as they maintain a subscription to the applicable product. If they cancel or end their subscription and later choose to re-purchase, they'll be subject to the then-current list price at the time of purchase.
+Are there any setup or onboarding fees for Klaviyo Service?
+What happens if I exceed my plan limits?
+What kind of support do I receive with Klaviyo?
+Klaviyo offers a range of support options, including our comprehensive Help Center, community forums, live chat, and email support. The availability of specific support channels may vary based on your plan.
+COMPANY
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+KLAVIYO FOR
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+PLATFORM
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+WHY KLAVIYO
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+CHANNELS
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOOLS + RESOURCES
+Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+TOP PRODUCTS + FEATURES
+Composer
+PREVIEW
+Customer Agent
+Customer Hub
+Helpdesk
+Personalization
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+EXPLORE MORE
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices
+Cookie Settings
+Your Privacy Preferences

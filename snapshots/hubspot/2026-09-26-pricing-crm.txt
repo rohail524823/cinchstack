@@ -1,0 +1,769 @@
+SOURCE: https://www.hubspot.com/pricing/crm
+FETCHED: 2026-09-26T21:38:29.654Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+___
+×
+close
+
+We use cookies to improve HubSpot’s site. Some cookies are necessary for our website and services to function properly. Other cookies are optional and help personalize your experience, including advertising and analytics. You can consent to all cookies, decline all optional cookies, or manage optional cookies. Without a selection, our default cookie settings will apply. You can change your preferences at any time. To learn more, check out our Cookie Policy.
+
+Accept All
+Decline All
+Manage Cookies
+Skip to content
+English
+Select a language
+Customer Support
+Contact Sales
+Log in
+About
+About
+Products
+Products
+Solutions
+Solutions
+Pricing
+Resources
+Resources
+Get started
+USD ($)
+Platform Solutions
+
+Customer Platform
+
+Free Tools
+
+Create a Bundle
+
+HubSpot for Marketers
+
+Products
+
+Smart CRM
+
+Marketing
+
+Sales
+
+Service
+
+Content
+
+Data
+
+Revenue
+
+Save up to 65% on Starter
+Smarter tools, lower price. Get special Starter pricing when you choose a monthly or annual subscription. New customers only. Select offers available for a limited time.
+Buy Now
+Free Tools
+Get access to all of HubSpot's free foundational tools
+Free
+
+Foundational tools to get you started
+
+$0/mo
+
+Free for up to 2 users. No credit card required.
+
+Get started free
+Includes:
+
+Free Marketing tools
+
+Free Sales tools
+
+Free Service tools
+
+Free Content tools
+
+Free Data tools
+
+Free Revenue tools
+
+Starter Customer Platform
+
+Essential marketing, sales, service, content, and data management software
+
+Starts at
+$7/mo/seat
+
+$20/mo/seat
+
+Billing period
+Pay Monthly
+Commit monthly
+Pay Annually
+BEST VALUE
+Buy now
+Talk to Sales
+
+500 HubSpot Credits
+
+Free tools, plus:
+
+Marketing Hub Starter
+
+Includes 1,000 marketing contacts
+
+Sales Hub Starter
+
+Service Hub Starter
+
+Content Hub Starter
+
+Data Hub Starter
+
+Need help choosing a plan?
+
++1 (888) 482-7768
+
+Marketing Hub
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo
+
+Buy now
+
+Agent Hub
+
+		
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.
+
+Prospecting agent
+
+		
+
+SEO recommendations & optimizations
+
+	Basic recommendations.	Basic recommendations, one page at a time.
+
+Ad management
+
+	All available ad types. Simple website audiences only.	All available ad types. 2 contact and company list audiences. 5 ad conversion events.
+
+Ad retargeting
+
+	All available ad types
+2 audiences	All available ad types
+2 audiences
+
+Simple ad automation
+
+		1 simple workflow per form, with up to 10 actions.
+
+CRM segments
+
+	10 active CRM segments
+1,000 static CRM segments
+Additional limits	Up to 50 active CRM segments and 1,000 static CRM segments. CRM segmentation criteria limited to form submission data, contact property information, and marketing email activity.
+
+Filter insights in segments
+
+(Beta)
+	
+	
+
+Segment analytics
+
+(Beta)
+	
+	
+
+Live chat
+
+	Includes HubSpot branding	Remove HubSpot branding
+
+Conversational bots
+
+	Limited features	Limited features
+
+Facebook Messenger integration
+
+	Send and receive simple messages and quick replies	Remove HubSpot branding
+
+CTAs
+
+		Does not include custom targeting by device type, country, referral URL, etc.
+
+Email marketing
+
+	2,000 email sends per calendar month, with HubSpot branding	5x marketing contact tier email send limit per calendar month. Connect and authenticate an email sending domain.
+Remove HubSpot branding
+
+Email automation
+
+	1 automated action	Up to 10 automated actions
+
+Email health reporting
+
+	Limited features	Limited features
+
+Messaging Insights
+
+(Beta)
+		
+
+Cookie Management Tools
+
+	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button.	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding.
+
+Reporting dashboard
+
+	10 dashboards, 50 reports per dashboard	30 dashboards, 50 reports per dashboard
+
+Website traffic analytics
+
+	Standard web analytics dashboard	Standard web analytics dashboard
+
+HubSpot Work
+
+(Beta)
+		Limited automation
+
+Sales Hub
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo
+
+Buy now
+
+HubSpot mobile app
+
+	
+	
+
+1-to-1 email
+
+	Includes HubSpot branding	HubSpot branding removed
+
+Canned snippets
+
+	Up to 3 snippets	Up to 5,000 snippets
+
+Email templates
+
+	Up to 3 email templates per account.	Up to 10,000 email templates per account.
+
+Agent Hub
+
+		
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.
+
+Data Agent
+
+		
+
+Prospecting agent
+
+		
+
+Live chat
+
+	Includes HubSpot branding	Remove HubSpot branding
+
+Conversational bots
+
+	Limited features	Limited features
+
+Facebook Messenger integration
+
+	Send and receive simple messages and quick replies	Remove HubSpot branding
+
+Calling
+
+		500 minutes
+
+HubSpot-provided phone numbers
+
+		1 phone number. Not supported in all countries.
+
+Sales automation
+
+		Up to 50 workflows with restricted triggers and actions.
+
+Pipelines
+
+		Up to 15 total pipelines per account across object types.
+
+Meeting scheduling
+
+	Maximum of 1 personal meetings link
+Includes HubSpot branding	1,000 personal & team meetings links
+Remove HubSpot branding
+
+Reporting dashboard
+
+	10 dashboards, 50 reports per dashboard	30 dashboards, 50 reports per dashboard
+
+Sales analytics
+
+		
+
+Goals
+
+		Limited features
+
+Custom Signals
+
+(Beta)
+		
+
+Notetaker
+
+		
+
+HubSpot Work
+
+(Beta)
+		Limited automation
+
+Service Hub
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo
+
+Buy now
+
+Live chat
+
+	Includes HubSpot branding	Remove HubSpot branding
+
+Conversational bots
+
+	Limited features	Limited features
+
+Facebook Messenger integration
+
+	Send and receive simple messages and quick replies	Remove HubSpot branding
+
+Ticketing
+
+	
+	
+
+Calling
+
+		500 minutes
+
+HubSpot-provided phone numbers
+
+		1 phone number. Not supported in all countries.
+
+Agent Hub
+
+		
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.
+
+Prospecting agent
+
+		
+
+Data Agent
+
+		
+
+Reporting dashboard
+
+	10 dashboards, 50 reports per dashboard	30 dashboards, 50 reports per dashboard
+
+Service analytics
+
+		
+
+1-to-1 email
+
+	Includes HubSpot branding	HubSpot branding removed
+
+Canned snippets
+
+	Up to 3 snippets	Up to 5,000 snippets
+
+Email templates
+
+	Up to 3 email templates per account.	Up to 10,000 email templates per account.
+
+Meeting scheduling
+
+	Maximum of 1 personal meetings link
+Includes HubSpot branding	1,000 personal & team meetings links
+Remove HubSpot branding
+
+Notetaker
+
+		
+
+HubSpot Work
+
+(Beta)
+		Limited automation
+
+Content Hub
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo
+
+Buy now
+
+Agent Hub
+
+		
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.
+
+Prospecting agent
+
+		
+
+Data Agent
+
+		
+
+Ad management
+
+	All available ad types. Simple website audiences only.	All available ad types. 2 contact and company list audiences. 5 ad conversion events.
+
+AI assistants
+
+		
+
+AI image generator
+
+		
+
+Blog
+
+	One blog on the same subdomain as your website. Up to 100 blog posts, 20 authors, and 50 tags. Includes HubSpot branding.	One blog on the same subdomain as your website. Includes 10K blog posts, up to 20 authors, and 50 tags. Remove HubSpot branding.
+
+Built-in AMP (Accelerated Mobile Pages) support for blogs
+
+	
+	
+
+CTAs
+
+		Does not include custom targeting by device type, country, referral URL, etc.
+
+Landing pages
+
+	Up to 30 total landing pages. Includes HubSpot branding.	Up to 30 total landing pages. Includes custom templates. Remove HubSpot branding.
+
+Live chat
+
+	Includes HubSpot branding	Remove HubSpot branding
+
+Conversational bots
+
+	Limited features	Additional features
+
+Facebook Messenger integration
+
+	Send and receive simple messages and quick replies	Remove HubSpot branding
+
+Website pages
+
+	Up to 30 total website pages.
+Includes HubSpot branding.
+Favicon is not customizable.	Up to 30 total website pages.
+Remove HubSpot branding.
+
+99.95% measured uptime
+
+	
+	
+
+Advanced menus
+
+	Applies to website pages and blog posts. Does not include landing pages.	Applies to website pages and blog posts. Does not include landing pages.
+
+Apex hosting and redirects
+
+	
+	
+
+Automatically-generated XML sitemap
+
+	
+	
+
+Cookie Management Tools
+
+	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button.	Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding.
+
+Connect a custom domain
+
+	
+	
+
+Custom domain security settings
+
+	
+	
+
+Design manager
+
+	
+	
+
+Drag-and-drop editor
+
+	
+	
+
+Local website development
+
+	
+	
+
+Mobile optimization
+
+	
+	
+
+Premium hosting
+
+	
+	
+
+Site export
+
+	
+	
+
+Website structure import
+
+	
+	
+
+Content library
+
+	Includes content library module, with HubSpot branding.	Includes content library module. Remove HubSpot branding.
+
+URL mappings
+
+		
+
+Multi-language content creation
+
+	Up to 3 HubSpot-supported languages	Up to 50 HubSpot-supported languages
+
+Reporting dashboard
+
+	10 dashboards, 50 reports per dashboard	30 dashboards, 50 reports per dashboard
+
+Website traffic analytics
+
+	Standard web analytics dashboard	Standard web analytics dashboard
+
+SEO recommendations & optimizations
+
+	Basic recommendations.	Basic recommendations.
+
+Data Hub
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo
+
+Buy now
+
+Agent Hub
+
+		
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.
+
+Prospecting agent
+
+		
+
+Data Agent
+
+		
+
+Data sync
+
+		
+
+Data quality overview
+
+(Beta)
+		Scan account for data quality issues every 2 weeks.
+
+View the Product & Services Catalog for full technical limits and definitions
+
+Frequently asked questions
+What are the limits of my free HubSpot account?
+Does HubSpot's free tools integrate with my email?
+How many users can I add to my free HubSpot account?
+What types of support are available to free HubSpot users?
+Does HubSpot offer discount pricing for startups and nonprofits?
+Still have questions about how HubSpot's software can help your business?
+
++1 (888) 482-7768
+
+Join 306,000+ customers who grow their businesses with HubSpot
+Get started free
+Popular Features
+All Products and Features
+All Products and Features
+HubSpot AEO
+HubSpot AEO
+Free Meeting Scheduler App
+Free Meeting Scheduler App
+Agent Hub
+Agent Hub
+Email Tracking Software
+Email Tracking Software
+AI Content Writer
+AI Content Writer
+AI Website Generator
+AI Website Generator
+Email Marketing Software
+Email Marketing Software
+Lead Management Software
+Lead Management Software
+AI Prospecting Agent
+AI Prospecting Agent
+Free Website Builder
+Free Website Builder
+Free Landing Page Builder
+Free Landing Page Builder
+Free Online Form Builder
+Free Online Form Builder
+Free Chatbot Builder
+Free Chatbot Builder
+Free Live Chat Software
+Free Live Chat Software
+Marketing Analytics
+Marketing Analytics
+Breeze Assistant
+Breeze Assistant
+Free Web Hosting
+Free Web Hosting
+Free Tools
+See All Free Business Tools
+See All Free Business Tools
+AEO Grader
+AEO Grader
+AI Search Sensor
+AI Search Sensor
+Make My Persona
+Make My Persona
+Email Signature Generator
+Email Signature Generator
+Free Business Templates
+Free Business Templates
+Software Comparisons Library
+Software Comparisons Library
+Website Templates
+Website Templates
+Connector for Claude
+Connector for Claude
+Company
+About Us
+About Us
+Careers
+Careers
+Management Team
+Management Team
+Board of Directors
+Board of Directors
+Investor Relations
+Investor Relations
+Blog
+Blog
+Sustainability
+Sustainability
+Contact Us
+Contact Us
+Customers
+Customer Support
+Customer Support
+Join a Local User Group
+Join a Local User Group
+Partners
+All Partner Programs
+All Partner Programs
+Solutions Partner Program
+Solutions Partner Program
+Technology Partner Program
+Technology Partner Program
+HubSpot for Startups
+HubSpot for Startups
+Affiliate Program
+Affiliate Program
+Facebook
+Instagram
+Youtube
+Twitter
+Linkedin
+Reddit
+Tiktok
+
+Copyright © 2026 HubSpot, Inc.
+
+Legal Center
+ 
+Privacy Policy
+ 
+Security
+ 
+Website Accessibility
+ 
+Manage Cookies
+ 
+ Your Privacy Choices

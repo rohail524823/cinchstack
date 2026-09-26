@@ -1,0 +1,106 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-agentic-plan
+FETCHED: 2026-09-26T21:52:25.048Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+Agentic plan
+
+The Agentic plan is for merchants that don't already use Shopify as their ecommerce platform. This plan lets you add your products to Shopify Catalog and sell them with Shopify agentic storefronts, without needing to have a Shopify online store or migrate from your existing commerce platform.
+
+Customers can discover your products and purchase them in AI channels. The Agentic plan also lets you sell on other Shopify channels, such as the Shop channel.
+
+You can also build a Shopify online store with the Agentic plan. To publish your Shopify online store and sell through it, you need to move to a paid Shopify subscription plan. Learn more about Online Store access on the Agentic plan.
+
+The Agentic plan can work for the following types of businesses:
+
+Businesses on legacy or custom platforms that want to sell through agentic commerce without extensive development work.
+Businesses of any scale that want to sell through agentic commerce, but don't want to have to manually connect to each agentic channel individually.
+Businesses that want to build a Shopify online store before moving to a paid Shopify subscription plan.
+
+To learn more about selling on agentic storefronts with the Agentic plan, refer to Setting up agentic storefronts for stores on the Agentic plan.
+
+On this page
+Features of the Agentic plan
+Eligibility requirements for selling with agentic storefronts
+Moving to a paid Shopify subscription plan
+Agentic plan for enterprise businesses
+Features of the Agentic plan
+
+The Agentic plan has no monthly subscription fee. The following other fees might still apply to your store:
+
+When a customer completes their purchase in an AI channel's Shopify-powered direct checkout, you pay Shopify Payments fees or third-party transaction fees, depending on your payment provider.
+If you use paid services or paid apps, then those charges apply to your store.
+If you move to a paid Shopify subscription plan, then that plan's subscription fee applies.
+
+Payment fees depend on which type of checkout the customer uses. Some AI channels send customers to your existing online store checkout. Other AI channels use a Shopify-powered direct checkout, which requires having a payment provider set up in your Shopify admin.
+
+To learn more about what you can do with the Agentic plan, refer to Features on all plans.
+
+Online Store access on the Agentic plan
+
+You can use the Online Store sales channel with the Agentic plan to build and prepare a Shopify online store. Your online store stays password protected, so customers can't visit it, and customers can't complete a purchase in your online store checkout.
+
+To publish your Shopify online store and accept orders through your online store checkout, you need to move to a paid Shopify subscription plan.
+
+Your agentic storefront isn't affected when you build a Shopify online store. Customers can still discover and buy your products in AI channels, and your product links continue to point to your existing online store. To learn how to build a Shopify online store with the Agentic plan, refer to Online store access with the Agentic plan.
+
+Unavailable features on the Agentic plan
+
+The following features aren't available with the Agentic plan:
+
+Publishing your online store or selling through your online store checkout
+Shopify Messaging
+Selling gift cards
+Creating orders manually
+Shop post-purchase offers
+Eligibility requirements for selling with agentic storefronts
+
+Your eligibility to sell with Shopify agentic storefronts depends on the following factors:
+
+Your business and your products.
+Your customer's location.
+The payment setup in your Shopify admin.
+The AI channel that the customer uses.
+
+Your products must also meet the Shopify Catalog requirements before they're made available to AI channels.
+
+Eligibility doesn't guarantee that your products are displayed in a specific AI answer or product placement. Each AI channel decides which products to display for a customer's request.
+
+Moving to a paid Shopify subscription plan
+
+You can move from the Agentic plan to a paid Shopify subscription plan for the following reasons:
+
+To publish your Shopify online store.
+To accept orders through your Shopify online store checkout.
+To use Shopify features that the Agentic plan doesn't include.
+
+Your products, store settings, and agentic storefronts setup carry over to any new plan that you sign up for. Your agentic storefronts product links point to your Shopify online store only after you publish your online store.
+
+To compare Shopify subscription plans, refer to Choosing the right plan. To learn about changing your plan, refer to Managing your Shopify billing plan changes.
+
+Agentic plan for enterprise businesses
+Note
+
+For information about Agentic plan for enterprise businesses, get in touch.
+
+In addition to what you can do on the standard Agentic plan, the following features are available with Agentic plan for enterprise businesses:
+
+Unlimited staff
+Combined Listings
+Carrier-calculated shipping
+Payment capture per fulfillment
+Additional inventory locations
+
+For developers, Agentic plan for enterprise businesses includes the following features:
+
+API rate limits consistent with Shopify Plus
+Access to level 2 protected customer data in custom apps
+Custom apps that contain Shopify Functions APIs
+Leave feedback
+Chat with a human

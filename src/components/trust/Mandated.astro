@@ -1,0 +1,6 @@
+---
+// Disclosure wording that a program's contract requires us to publish, verbatim.
+import { programs } from '../../lib/data.mjs';
+const items = Object.values(programs).filter((p) => p.status === 'approved' && p.rules.mandatoryDisclosure);
+---
+{items.length > 0 ? items.map((p) => <blockquote class="callout"><p><strong>{p.label}:</strong> {p.rules.mandatoryDisclosure}</p></blockquote>) : <p>No program currently requires specific wording.</p>}

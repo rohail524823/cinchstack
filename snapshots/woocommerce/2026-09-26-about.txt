@@ -1,0 +1,118 @@
+SOURCE: https://woocommerce.com/about/
+FETCHED: 2026-09-26T22:06:36.650Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+About Woo
+
+Woo is the company behind WooCommerce, the flexible, open-source commerce solution built on WordPress.
+
+Our mission
+
+Beginning in 2008 as WooThemes, Woo switched exclusively to ecommerce in 2017. Today, we empower businesses to sell online by building exactly the store they want. Our legacy as an all-remote company endures, with hundreds of team members around the world.
+
+Woo is committed to democratizing commerce and putting you in control of your livelihood.
+
+Our core platform, WooCommerce, is free and open source, empowering anyone to sell anything, anywhere.
+
+The origin story
+
+In November 2007, Mark Forrester, Magnus Jepson, and Adii Pienaar teamed up online to build a new theme for WordPress. After a few months of selling themes together, they decided to make their working relationship official and launched WooThemes.
+
+In 2011 they launched the WooCommerce plugin, enabling users to transform their WordPress site into a professional ecommerce storefront.
+
+From themes to carts
+
+By pivoting from commercial themes to ecommerce, Woo quickly became the fastest-growing ecommerce platform on the internet. In 2014, after passing seven million downloads and hosting the first-ever WooConf in San Francisco for 320 attendees, there was an appetite to go even further.
+
+We wanted to join forces with someone who shared our values, culture, and work ethic — a partner who could also help us grow our team and market share.
+
+Joining Automattic
+
+In 2015, WooThemes was acquired by Automattic, the company best known for WordPress.com, Tumblr, Pocket Casts, Jetpack, and more.
+
+Bolstered by a passionate community of partners, developers, and business leaders, we’ve continued our efforts to develop and democratize commerce.
+
+Work with us
+A new brand
+
+In early 2025, we refreshed the WooCommerce brand with a new logo, color palette, imagery and more. The new brand was designed to better resonate with our audiences, represent our product, and compete in the market.
+
+Learn more
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+PRODUCTION

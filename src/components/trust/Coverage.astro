@@ -1,0 +1,7 @@
+---
+import { toolIds, pricing } from '../../lib/data.mjs';
+import { longDate } from '../../lib/format.mjs';
+const dates = Object.values(pricing).map((p) => p.checkedOn).sort();
+const nSrc = Object.values(pricing).reduce((a, p) => a + p.sources.length, 0);
+---
+<p>Right now we track <strong>{toolIds.length} tools</strong> from <strong>{nSrc} vendor pages</strong>. The oldest price record was last checked on {longDate(dates[0])} and the newest on {longDate(dates.at(-1))}.</p>

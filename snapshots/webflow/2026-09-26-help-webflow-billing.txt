@@ -1,0 +1,47 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961371683987-Webflow-billing
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961371683987.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:53.123268Z
+ARTICLE UPDATED: 2026-09-16T21:28:16Z | EDITED: 2026-09-16T21:28:16Z
+RENDERER: curl + HTML-to-text of article body
+----
+Webflow billing
+
+Get an overview of Webflow billing, including Workspaces billing and Site plan billing.
+When you first subscribe to any paid Webflow Workspace plan or Site plan, we ask you to provide a payment method to complete your purchase. This card is stored in your Workspace's Billing settings and used for all future payments for subscriptions within your Workspace, including any paid Workspace plans and paid Site plans added to sites in your Dashboard.
+Workspace billing
+Your Workspace billing settings allow you to access all your billing and invoicing information, the active card on file, credit balances, details about your Workspace plan subscription, and any Site plan subscriptions that you have within your Workspace.
+Learn more about Workspace billing and invoices.
+Site plan billing
+You can create sites in your Workspace Dashboard. Once you decide you're ready to host a site, you can add a Site plan and publish it on your custom domain. By default, the card on file for your Workspace will be used to pay for your Site plan subscription.
+Learn more about:
+
+- Site plans
+
+- Choosing a Site plan
+
+Common questions
+Are Webflow plans auto-renewed?
+Paid Webflow plans are auto-renewed at the end of each billing cycle (e.g., at the end of the month or at the end of the year). Therefore, when you subscribe to a paid plan, you automatically activate a recurring payment for that plan.
+Can I stop a plan from auto-renewing?
+Yes, you can stop a plan from auto-renewing. Let's walk through how this works for:
+Workspace plans
+At any time, you can cancel auto-renewal of a paid Workspace plan by downgrading your paid plan to a free Starter Workspace plan. The paid Workspace plan will remain active until the end of its billing cycle.
+Site plans
+At any time, you can cancel auto-renewal of a paid Site plan by downgrading your paid plan to a free Starter Site plan. Your paid Site plan features are maintained until the end of your current billing period, unless you choose to downgrade your Site plan immediately.
+What does an open invoice status mean?
+If you view an invoice for either a Workspace plan or a Site plan, you can check its status. An "open" status means the invoice is finalized and is awaiting your payment.
+A "paid" status means you have successfully paid that invoice.
+
+Good to know
+
+If a payment has been attempted but was unsuccessful, your invoice will continue to show an "open" status.
+
+Can I delete my Webflow account?
+Deleting your Webflow account permanently deletes your Workspace and all sites in it (including published sites), along with your account information — for example, billing history and invoices. Learn more about deleting your account.
+
+Important
+
+All Site plans and paid Workspace plans must be canceled in order to delete your account.
+
+Does Webflow provide refunds?
+Webflow purchases are nonrefundable, see our Refund policy for more details.
