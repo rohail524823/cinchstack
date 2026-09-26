@@ -1,0 +1,12 @@
+---
+import { paysUs, program } from '../lib/data.mjs';
+interface Props { toolIds: string[] }
+const paid = [...new Set(Astro.props.toolIds)].filter((id) => paysUs(id));
+const mandated = [...new Set(paid.map((id) => program(id)?.rules?.mandatoryDisclosure).filter(Boolean))];
+---
+{paid.length > 0 && (
+  <div class="disclosure" data-disclosure>
+    <p>Amber buttons are affiliate links: if you sign up through one, that vendor pays us a commission at no extra cost to you. Plain buttons are not. <a href="/how-we-earn/">How we earn</a>.</p>
+    {mandated.map((m) => <p>{m}</p>)}
+  </div>
+)}

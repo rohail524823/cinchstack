@@ -1,0 +1,48 @@
+SOURCE: https://help.systeme.io/article/286-how-to-remove-the-affiliate-badge-from-your-page
+FETCHED: 2026-09-26T21:53:35.946Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+CATEGORIES
+Affiliation
+Blog
+Booking calendar
+Contact management
+Courses
+Customer support
+Deliverability
+Editor
+Emails
+General
+›
+Migrating to systeme.io
+Model Context Protocol (MCP)
+Payments
+Sales funnels
+General
+English
+How to remove the affiliate badge from your page
+
+This article will show you how to remove the affiliate badge from your page.
+
+What you'll need:
+
+A systeme.io account with a paid subscription plan (Startup, Webinar, or Unlimited)
+A sales funnel page
+
+Navigate to your sales funnel and click Edit page (1) to open the editor.
+
+Click Settings (2) at the top left of your screen.
+
+Scroll down the settings menu to the Display an affiliate badge to earn lifetime commissions checkbox (3).
+
+Uncheck the box to remove the affiliate badge from your page.
+
+IMPORTANT: Users on the Free plan cannot remove the affiliate badge.
+
+Did this answer your question?
+🙂
+🙁
+
+Last updated on April 13, 2026
+
+© 2026 systeme.io Help Center · help.systeme.io

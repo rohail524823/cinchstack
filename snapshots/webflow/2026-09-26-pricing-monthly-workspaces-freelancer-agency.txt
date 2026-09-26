@@ -1,0 +1,144 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:49:24.274Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Workspace plans
+
+Every Webflow account includes a free Workspace plan. Upgrade yours at any time for enhanced staging and more collaboration tools.
+
+For teams
+For freelancers & agencies
+Starter
+
+For freelancers and agencies new to Webflow.
+
+Free
+
+Start for free
+Start for free
+2 staging sites
+Agency/freelancer guests
+1 full seat
+1 free client seat per paid site
+200 AI credits
+Freelancer
+
+For freelancers with a small client roster.
+
+$24/mo
+
+billed monthly
+
+Upgrade Workspace plan
+Upgrade Workspace plan
+
+Everything in Starter, plus:
+
+10 staging sites
+Free guest access in client Workspaces
+1 free client seat per site
+Full CMS access on staging sites
+Client payments
+Shared Libraries
+300 AI credits
+Agency
+
+For agencies with a large client roster.
+
+$42/mo
+
+billed monthly
+
+Upgrade Workspace plan
+Upgrade Workspace plan
+
+Everything in Freelancer, plus:
+
+Unlimited staging sites
+3 free client seats per site
+Unlimited Shared Libraries
+Site-level roles
+Publishing permissions
+Site password protection
+301 redirects
+400 AI credits
+Webflow Certifications
+
+Get certified as a Webflow Practitioner and showcase your expertise with confidence.
+
+Learn about certification
+Learn about certification
+
+All prices in USD, plus applicable taxes at checkout.
+
+View all plan features
+Add seats
+
+Add unlimited team members to your Workspace.
+
+1 INCLUDED
+
+Full
+
+Design full sites or manage admin settings.
+
+$45/mo
+
+per seat, billed monthly
+
+Buy seats
+Buy seats
+Limited
+
+Edit content or build pages with components.
+
+$19/mo
+
+per seat, billed monthly
+
+Buy seats
+Buy seats
+Free
+
+Invite reviewers and commenters from the team page.
+
+$0/mo
+Buy seats
+Buy seats
+Add AI credits
+
+Power Webflow AI feature usage across your Workspace.
+
+Buy AI credits
+Buy AI credits
+
+2,000 credits/mo
+
+$25/mo
+
+billed monthly
+
+See the business impact of moving to Webflow
+
+Use this calculator to estimate the impact of Webflow’s platform on your goals — backed by real-world results.
+
+Use the calculator
+→
+Use the calculator
+Need more?
+Webflow
+for Enterprise
+
+Need enterprise-grade scalability, security, and support — plus a unified dashboard for your design team?
+
+Talk to us
+Talk to us
+Custom billing and invoicing
+Can’t pay with a credit card? We’ll set up custom billing for your accounting team’s requirements.
+
+Enterprise traffic scaling
+Expecting lots of traffic? We can set up custom hosting clusters to ensure Webflow handles your scale.
+Security audits and questionnaires
+We’ll work with your team to answer security questionnaires and meet your procurement requirements.
+MSAs and SLAs
+We provide enterprise customers with master service agreements (MSA) and service level agreements (SLA) to guarantee compliance and uptime.

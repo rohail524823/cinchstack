@@ -1,0 +1,39 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/basic-shopify-plan
+FETCHED: 2026-09-26T21:47:32.381Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+Basic plan
+
+The Basic plan offers all the tools you need to run your business. If your store is on the Basic plan or higher, then you can create and customize an online store to showcase your products. You can manage all your products, orders, and customer information from your Shopify admin.
+
+View pricing plans
+On this page
+Available features on the Basic plan
+Unavailable features on the Basic plan
+Available features on the Basic plan
+
+In addition to the features available on all plans, except for staffing your Shopify store, the Basic Shopify plan offers the following features:
+
+Feature	Description
+Online store	With the Basic plan or higher, you can create and customize an online store for your products, and manage it through the Shopify admin. You can change the appearance of your store by using Shopify's built-in theme editor.
+Competitive transaction fees	The Basic plan offers competitive transaction fees. Review Shopify's pricing page to find the specific transaction fees under plans in your region.
+Blog	Your online store comes with a built-in blogging engine, which you can use to publish articles, update your customers about events and promotions, and get comments and feedback from your customers.
+SSL certificates	An SSL certificate is a security protocol that creates a safe connection between a server and a browser to keep your and your customers’ information secure. With Shopify, you can activate SSL certificates to encrypt your online store's content and publish it securely using 'HTTPS' instead of 'HTTP'. This displays the SSL padlock icon beside your online store's URL in the address bar.
+Reports	You can track your business performance using reports. The Basic plan comes with access to all reports, including the ability to create custom reports with data explorations.
+International commerce	The Basic plan supports your international growth with international sales tools, which are cross-border management tools that let you configure specific settings for each international region.
+Unavailable features on the Basic plan
+
+If you're on the Basic Shopify plan, then the staffing your Shopify store and activating third-party carrier-calculated shipping features are unavailable with this plan.
+
+Unavailable feature	Description
+Staffing your Shopify store	The Basic plan doesn't support adding staff accounts to your store. To add staff accounts, you need to upgrade to a higher plan such as Grow, Advanced, or Shopify Plus. Learn more about user limits and exempted user types for each pricing plan.
+Activating third-party carrier-calculated shipping	The Basic plan doesn't support activating third-party carrier-calculated shipping. To activate third-party carrier-calculated shipping, you need to upgrade to a higher plan such as Grow, Advanced, or Shopify Plus. Learn more about activating third-party carrier-calculated shipping.
+Leave feedback
+Chat with a human

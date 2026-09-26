@@ -1,0 +1,964 @@
+SOURCE: https://woocommerce.com/document/woopayments/fees/
+FETCHED: 2026-09-26T21:58:33.102Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Documentation
+WooCommerce
+Expand
+Products
+Expand
+Extensions
+Expand
+Themes
+Expand
+WooPayments
+WooPay
+WooCommerce Shipping
+WooCommerce Tax
+Retired Products
+Expand
+Woo Marketplace
+Code Snippets
+Expand
+Documentation / Products / WooPayments / WooPayments Documentation / WooPayments: Fees
+WooPayments: Fees
+
+WooPayments uses a pay-as-you-go pricing model. In other words, there are no setup fees, monthly fees for online payments, or other hidden charges. Instead, our fees are deducted directly from each payment made via WooPayments.
+
+The exact fees we charge differ based on various factors, such as:
+
+The country your business is located in.
+The country your customer is located in.
+The currency in which the customer paid.
+The specific payment method used to pay.
+
+To learn about custom pricing, please contact our Customer Success team.
+
+Definitions
+
+Please familiarize yourself with the terms used on this page so that you can accurately assess the fees you will be charged for any given transaction.
+
+Base Fee: The fee that applies to every transaction using a given payment method. In other words, this is the smallest amount that you can possibly be charged. It usually has a variable portion (a percentage) and a fixed portion (a flat fee).
+International Payment: An added percentage fee applied if the customer’s payment method originates from outside your WooPayments account country.
+Currency Conversion: An added percentage fee applied if the customer’s payment currency does not match the currency of any bank account you use for payouts.
+Dispute: A flat fee charged for each dispute filed by a customer. This fee is refunded to you automatically should you challenge and win the dispute.
+N/A: “Not applicable”, meaning there are no additional fees in that particular scenario, or that the scenario cannot even occur (e.g. currency conversion for BNPL methods).
+
+Finally, note that this document uses . as the decimal separator and , as the digit grouper, even when showing fees for countries where other rules are customary.
+
+Notes for all countries
+
+The following items apply to all merchants, regardless of country:
+
+Transaction fees are not refunded to you when you issue refunds to customers.
+Fees for most express checkout methods (Apple Pay, Google Pay, Link by Stripe, WooPay) are the same as for cards. Amazon Pay fees may vary depending on the payment instrument the shopper uses. See below for more information.
+The currency in which fees are charged may vary if you enable multi-currency.
+VAT, GST, or Consumption Tax may apply to the WooPayments fees and are noted for each applicable country below. If your business is registered for VAT or GST, then you may qualify for a zero rate. Being exempt from registering for VAT or GST does not exempt you from taxes on your WooPayments fees.
+Your account balance may become negative for various reasons. If it does, that might cause WooPayments to debit your bank account. These debits, if they occur, are not a type of fee. Please see the above links for more information.
+Amazon Pay fees
+
+Because Amazon Pay is a wallet that can be funded by cards, bank accounts, and other methods, the fees will vary depending on how the shopper chooses to pay.
+
+The shopper pays your listed price, and (as with all WooPayments fees) the Amazon Pay fee is deducted from your payout and is not added to the customer’s total.
+
+Card-funded payments: You are charged the same fee as a regular card payment in your country, including any international payment or currency conversion fees.
+Non-card payments: These are processed by Stripe directly, and they charge their own fees. WooPayments’ fee is applied as well, but we automatically refund our fee once the payment completes so that you only pay a single fee. The original fee and the matching refund will both appear in the order timeline and fee breakdown.
+Automatic refund of the WooPayments fee for a non-card Amazon Pay transaction
+
+Because the shopper chooses their funding method during checkout, you may not know which type was used until the transaction has completed.
+
+Also, since the non-card fee can vary by funding method, the exact fees for any given order are shown in the fee breakdown for that order rather than as a fixed rate here.
+
+For Stripe’s general Amazon Pay processing rates, see Stripe’s pricing page.
+
+Countries in Europe
+
+For some countries, the International Payment fee is based on whether the customer used a European card or a non-European card. As a reference, WooPayments considers “European cards” to be those issued in any of the following countries:
+
+Andorra
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Faroe Islands
+Finland
+France
+Germany
+Gibraltar
+Greece
+Greenland
+Guernsey
+Hungary
+Iceland
+Ireland
+Isle of Man
+Israel
+Italy
+Jersey
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+St. Pierre and Miquelon
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Türkiye
+Vatican City
+
+For example, if an Austrian merchant takes a payment from a Lithuanian card, the merchant would not be charged the International Payment fee for that order.
+
+Passing on fees to customers
+
+WooPayments does not have an easy way to add the amount of the transaction fees to the order total, thus making your customers more or less “subsidize” your fees.
+
+You may be able to use the Payment Gateway Based Fees extension (or a similar plugin) to approximate this, but there are some important things to keep in mind:
+
+We haven’t tested this solution ourselves, and cannot guarantee that it will work.
+There may be legal implications to doing this, depending on your country.
+Card reader fees
+
+Stores using in-person payments with an external card reader are subject to a monthly active card reader fee for each reader they use.
+
+Readers with 3 or more transaction attempts in a month are considered active.
+Using Tap to Pay on a mobile phone does not trigger this fee.
+Unlike other fees, this fee is deducted from your WooPayments account balance and not from any specific payment.
+Fees report
+
+As of July 2026, WooPayments also provides a detailed ledger of all fee-related activity on your account from any selected time period. To learn more, including how to enable these reports, please see our Balance and fees reports document.
+
+ Australia
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.75% + $0.30	+1.50%	+2.00%	$25.00
+In-person	1.7% + $0.10	+0.6%	N/A	$25.00
+Afterpay	6.00% + $0.30	N/A	N/A	N/A
+Alipay	2.90% + $0.30	N/A	+2.00%	N/A
+Bancontact	1.40% + $0.30	+1.50%	+2.00%	N/A
+EPS	1.80% + $0.30	+1.50%	+2.00%	N/A
+iDEAL | Wero	$0.80	+1.50%	+2.00%	N/A
+Przelewy24	2.20% + $0.30	+1.50%	+2.00%	N/A
+SEPA	0.80% + $0.30
+(capped at $8.00)	+1.50%	+2.00%	$12.00
+WeChat Pay	2.90% + $0.30	N/A	+2.00%	N/A
+
+There is also a 10% GST on fees we charge for WooPayments services. For merchants that are GST-registered, no GST will be charged where a valid GST ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+$5.00 per active card reader per month
+ Austria
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	2.99% + €0.35	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 20% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Belgium
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	2.99% + €0.35	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Bulgaria
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+
+There is also a 20% VAT on fees we charge for WooPayments services For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Canada
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	2.90% + $0.30	+1.00%	+2.00%	$20.00
+In-person
+(non-Interac)	2.70% + $0.05	+1.00%	+0.60%	$20.00
+In-person
+(Interac)	$0.15	N/A	N/A	$20.00
+Affirm	6.00% + $0.30	N/A	N/A	N/A
+Afterpay	6.00% + $0.30	N/A	N/A	N/A
+Alipay	2.90% + $0.30	N/A	+2.00%	N/A
+Bancontact	1.40% + $0.30	+1.50%	+2.00%	N/A
+EPS	1.80% + $0.30	+1.50%	+2.00%	N/A
+iDEAL | Wero	$0.80	+1.50%	+2.00%	N/A
+Przelewy24	2.20% + $0.30	+1.50%	+2.00%	N/A
+SEPA	0.80% + $0.30
+(capped at $8.00)	+1.50%	+2.00%	$11.00
+WeChat Pay	2.90% + $0.30	N/A	+2.00%	N/A
+
+In-person payments are also subject to the following fees:
+
+$5.00 per active card reader per month.
+ Croatia
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+
+There is also a 25% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Cyprus
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 19% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Czech Republic
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + 0.20 Kč	+2.00% outside Europe	+2.00%	550.00 Kč
+Alipay	2.90% + 6.50 Kč	N/A	+2.00%	N/A
+Bancontact	1.40% + 6.50 Kč	N/A	N/A	N/A
+EPS	1.80% + 6.50 Kč	N/A	N/A	N/A
+iDEAL | Wero	7.50 Kč	N/A	N/A	N/A
+Multibanco	2.95% + 6.50 Kč	N/A	+2.00%	N/A
+Przelewy24	2.20% + 6.50 Kč	N/A	N/A	N/A
+SEPA	9.00 Kč	N/A	N/A	200.00 Kč
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Denmark
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + 0.20kr.	+2.00% outside Europe	+2.00%	200.00kr.
+Alipay	2.90% + 2.00kr.	N/A	+2.00%	N/A
+Bancontact	1.40% + 2.00kr.	N/A	N/A	N/A
+EPS	1.80% + 2.00kr.	N/A	N/A	N/A
+iDEAL | Wero	2.50kr.	N/A	N/A	N/A
+Klarna	2.99% + 3.50kr.	N/A	N/A	200.00kr.
+Multibanco	2.95% + 2.00kr.	N/A	+2.00%	N/A
+Przelewy24	2.20% + 2.00kr.	N/A	N/A	N/A
+SEPA	2.60kr.	N/A	N/A	75.00kr.
+WeChat Pay	2.90% + 2.00kr.	N/A	+2.00%	N/A
+
+There is also a 25% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Estonia
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 24% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Finland
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+In-person	1.40% + €0.10	+0.60% outside Europe	N/A	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	2.99% + €0.40	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 25.5% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+€5.00 per active card reader per month
+ France
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	4.99% + €0.40	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 20% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Germany
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	2.99% + €0.35	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 19% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Greece
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 24% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Hong Kong
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	3.40% + HK$2.35	+1.50%	+2.00%	HK$85.00
+Alipay	2.20% + HK$2.00	N/A	+2.00%	N/A
+Bancontact	1.40% + HK$2.35	+1.50%	+2.00%	
+EPS	1.80% + HK$2.35	+1.50%	+2.00%	
+iDEAL | Wero	HK$3.95	+1.50%	+2.00%	
+Przelewy24	2.20% + HK$2.35	+1.50%	+2.00%	
+SEPA	0.80% + HK$2.35
+(capped at HK$45.00)	+1.50%	+2.00%	HK$70.00
+WeChat Pay	2.20% + HK$2.00	N/A	+2.00%	N/A
+ Hungary
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + 20.00 Ft‎	+2.00% outside Europe	+2.00%	7,000 Ft‎
+Alipay	2.90% + 0.85 Ft	N/A	+2.00%	N/A
+Bancontact	1.40% + 85.00 Ft‎	N/A	N/A	N/A
+EPS	1.80% + 85.00 Ft‎	N/A	N/A	N/A
+iDEAL | Wero	105.00 Ft‎	N/A	N/A	N/A
+Multibanco	2.95% + 85.00 Ft‎	N/A	+2.00%	N/A
+Przelewy24	2.20% + 85.00 Ft‎	N/A	N/A	N/A
+SEPA	125.00 Ft‎	N/A	N/A	2,500 Ft‎
+
+There is also a 27% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Ireland
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+In-person	1.40% + €0.10	+0.60% outside Europe	N/A	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	4.99% + €0.40	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 23% VAT on fees we charge for WooPayments services, including fees charged to VAT-registered merchants. Reverse charge does not apply, as fees are paid to WooCommerce Ireland, an Ireland-based entity.
+
+In-person payments are also subject to the following fees:
+
+€5.00 per active card reader per month
+ Italy
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	4.99% + €0.40	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 22% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Japan
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	3.60%	+2.00%	+2.00%	¥1,500
+Alipay	3.60%	N/A	+2.00%	N/A
+Bancontact	1.40% + ¥35	N/A	N/A	N/A
+EPS	1.60% + ¥35	N/A	N/A	N/A
+iDEAL | Wero	¥55	N/A	N/A	N/A
+Przelewy24	2.20% + ¥35	N/A	N/A	N/A
+SEPA	0.80% + ¥35
+(capped at ¥620)	N/A	N/A	¥920
+WeChat Pay	3.60%	N/A	+2.00%	N/A
+
+There is also a 10% CT (Consumption Tax) on fees we charge for WooPayments services.
+
+ Latvia
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Lithuania
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Luxembourg
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+In-person	1.40% + €0.10	+0.60% outside Europe	N/A	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 17% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+€5.00 per active card reader per month
+ Malta
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 18% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Netherlands
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+In-person	1.40% + €0.10	+0.60% outside Europe	N/A	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	2.99% + €0.35	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+€5.00 per active card reader per month
+ New Zealand
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	2.90% + $0.30	+1.50%	+2.00%	$25.00
+In-person	2.6% + $0.05	+0.60%	N/A	$25.00
+Afterpay	6.00% + $0.30	N/A	N/A	N/A
+Alipay	2.9% + $0.30	N/A	+2.00%	N/A
+Bancontact	1.40% + $0.30	+1.50%	+2.00%	N/A
+EPS	1.80% + $0.30	+1.50%	+2.00%	N/A
+iDEAL | Wero	$0.80	+1.50%	+2.00%	N/A
+Przelewy24	2.20% + $0.30	+1.50%	+2.00%	N/A
+SEPA	0.80% + $0.30
+(capped at $9.00)	+1.50%	+2.00%	$15.00
+
+There is also a 15% GST on fees we charge for WooPayments services. For merchants that are GST-registered, no GST will be charged where a valid GST ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+$5.00 per active card reader per month
+ Norway
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	2.40% + 2.00kr.	+2.00% outside Europe	+2.00%	200.00kr.
+Alipay	2.90% + 2.40kr.	N/A	+2.00%	N/A
+Bancontact	1.40% + 2.40kr.	N/A	N/A	N/A
+EPS	1.80% + 2.40kr.	N/A	N/A	N/A
+iDEAL | Wero	3.10kr.	N/A	N/A	N/A
+Klarna	2.99% + 4.00kr.	N/A	N/A	200.00kr.
+Multibanco	2.95% + 2.40kr.	+1.50%	+2.00%	N/A
+Przelewy24	2.20% + 2.40kr.	N/A	N/A	N/A
+SEPA	3.70kr.	N/A	N/A	75.00kr.
+WeChat Pay	2.90% + 2.40kr.	N/A	+2.00%	N/A
+
+There is also a 25% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID (MVA number) is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Poland
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + 1.00zł‎	+2.00% outside Europe	+2.00%	65.00zł
+Bancontact	1.40% + 1.00zł‎	N/A	N/A	N/A
+EPS	1.80% + 1.00zł‎	N/A	N/A	N/A
+iDEAL | Wero	1.30zł‎	N/A	N/A	N/A
+Multibanco	2.95% + 1.00zł‎	N/A	+2.00%	N/A
+Przelewy24	1.90% + 1.00zł‎	N/A	N/A	N/A
+SEPA	1.60zł‎	N/A	N/A	30.00zł‎
+
+There is also a 23% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Portugal
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 23% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Romania
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.40% + 1.00 lei	+2.00% outside Europe	+2.00%	100 lei
+Alipay	2.90% + 1.25 lei	N/A	+2.00%	N/A
+Bancontact	1.40% + 1.00 lei	N/A	N/A	N/A
+EPS	1.80% + 1.00 lei	N/A	N/A	N/A
+iDEAL | Wero	1.50 leu	N/A	N/A	N/A
+Multibanco	2.95% + 1.00 lei	N/A	+2.00%	N/A
+Przelewy24	2.20% + 1.00 lei	N/A	N/A	N/A
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Singapore
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	3.40% + $0.50	+1.50%	+2.00%	$15.00
+In-person	3.40% + $0.50	+0.60%	N/A	$15.00
+Alipay	2.20% + $0.35	N/A	+2.00%	N/A
+Bancontact	1.40% + $0.50	+1.50%	+2.00%	N/A
+EPS	1.80% + $0.50	+1.50%	+2.00%	N/A
+GrabPay	3.30%	N/A	N/A	N/A
+iDEAL | Wero	$1.00	+1.50%	+2.00%	N/A
+Przelewy24	2.20% + $0.50	+1.50%	+2.00%	N/A
+SEPA	0.80% + $0.50
+(capped at $8.00)	+1.50%	+2.00%	$12.00
+WeChat Pay	2.20% + $0.35	N/A	+2.00%	N/A
+
+There is also a 9% GST on fees we charge for WooPayments services. For merchants that are GST-registered, no GST will be charged where a valid GST ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+$5.00 per active card reader per month
+ Slovakia
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 23% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Slovenia
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+
+There is also a 22% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Spain
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + €0.25	+2.00% outside Europe	+2.00%	€15.00
+Alipay	2.90% + €0.25	N/A	+2.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + €0.25	N/A	N/A	N/A
+EPS	1.80% + €0.25	N/A	N/A	N/A
+iDEAL | Wero	€0.29	N/A	N/A	N/A
+Klarna	4.99% + €0.40	N/A	N/A	€20.00
+Multibanco	2.95% + €0.25	N/A	+2.00%	N/A
+Przelewy24	2.20% + €0.25	N/A	N/A	N/A
+SEPA	€0.35	N/A	N/A	€7.50
+WeChat Pay	2.90% + €0.25	N/A	+2.00%	N/A
+
+There is also a 21% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Sweden
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + 0.20 kr‎	+2.00% outside Europe	+2.00%	200.00 kr‎
+Alipay	2.90% + 2.40 kr	N/A	+2.00%	N/A
+Bancontact	1.40% + 2.40 kr‎	N/A	N/A	N/A
+EPS	1.80% + 2.40 kr‎	N/A	N/A	N/A
+iDEAL | Wero	3.00 kr‎	N/A	N/A	N/A
+Klarna	2.99% + 4.00 kr	N/A	N/A	200.00 kr
+Multibanco	2.95% + 2.40 kr‎	N/A	+2.00%	N/A
+Przelewy24	2.20% + 2.40 kr‎	N/A	N/A	N/A
+SEPA	3.60 kr‎	N/A	N/A	75.00 kr‎
+WeChat Pay	2.90% + 2.40 kr	N/A	+2.00%	N/A
+
+There is also a 25% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+ Switzerland
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	2.90% + 0.30 Fr.	+2.00%	+2.00%	15.00 Fr.
+Alipay	2.90% + 0.30 Fr.	N/A	+2.00%	N/A
+Bancontact	1.40% + 0.30 Fr.	N/A	N/A	N/A
+EPS	2.90% + 0.30 Fr.	N/A	N/A	N/A
+iDEAL | Wero	0.35 Fr.	N/A	N/A	N/A
+Multibanco	3.40% + 0.30 Fr.	N/A	+2.00%	N/A
+Przelewy24	2.90% + 0.30 Fr.	N/A	N/A	N/A
+SEPA	0.40 Fr.	N/A	N/A	10.00 Fr.
+WeChat Pay	2.90% + 0.30 Fr.	N/A	+2.00%	N/A
+
+There is also a 8.10% VAT on fees we charge for WooPayments services.
+
+ United Arab Emirates
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	2.90% + Dh 1	+2.00%	+2.00%	Dhs 60.00
+ United Kingdom
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	1.50% + £0.25	+2.00%	+2.00%	£15.00
+In-person	1.40% + £0.20	+2.00%	N/A	£15.00
+Alipay	2.90% + $0.30	N/A	+1.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + £0.20	N/A	N/A	N/A
+Clearpay	6.00% + £0.30	N/A	N/A	N/A
+EPS	1.60% + £0.20	N/A	N/A	N/A
+iDEAL | Wero	£0.25	N/A	N/A	N/A
+Klarna	4.99% + £0.35	N/A	N/A	£20.00
+Multibanco	2.95% + £0.20	+1.50%	+2.00%	N/A
+Przelewy24	2.20% + £0.20	N/A	N/A	N/A
+SEPA	£0.30	N/A	N/A	£7.00
+WeChat Pay	2.90% + £0.20	N/A	+2.00%	N/A
+
+There is also a 20% VAT on fees we charge for WooPayments services. For merchants that are VAT-registered, no VAT will be charged where a valid VAT ID is provided, as the supply will be subject to the reverse charge mechanism.
+
+In-person payments are also subject to the following fees:
+
+£5.00 per active card reader per month
+ United States
+
+Puerto Rico-based merchants are charged the same rates shown below.
+
+PAYMENT
+METHOD	BASE FEE	INTERNATIONAL
+PAYMENT	CURRENCY
+CONVERSION	DISPUTE
+Cards	2.90% + $0.30	+1.50%	+1.00%	$15.00
+In-person	2.70% + $0.10	+1.00%	+1.00%	$15.00
+Affirm	6.00% + $0.30	N/A	N/A	N/A
+Afterpay	6.00% + $0.30	N/A	N/A	N/A
+Alipay	2.90% + $0.30	N/A	+1.00%	N/A
+Amazon Pay	Varies	Varies	Varies	Varies
+Bancontact	1.40% + $0.30	+1.50%	+1.00%	N/A
+EPS	1.80% + $0.30	+1.50%	+1.00%	N/A
+iDEAL | Wero	$0.80	+1.50%	+1.00%	N/A
+Klarna	5.99% + $0.30	N/A	N/A	$15.00
+Multibanco	2.95% + $0.30	+1.50%	+1.00%	N/A
+Przelewy24	2.20% + $0.30	+1.50%	+1.00%	N/A
+SEPA	0.80% + $0.30
+(capped at $6.00)	+1.50%	+1.00%	$10.00
+WeChat Pay	2.90% + $0.30	N/A	+1.00%	N/A
+
+All payments are also subject to the following fees:
+
+Charges from cards issued in Puerto Rico will trigger the international payment fee.
++1.00% on any order containing a subscription payment (the initial payment or a renewal) if that subscription is using the Stripe Billing engine. Note that this fee applies to the entire order, not just the subscription line item.
+
+In-person payments are also subject to the following fees:
+
+$5.00 per active card reader per month
+
+Instant Payouts are also subject to the following fees:
+
+1.5% fee on the total instant payout amount.
+Was this guide helpful for you?
+ON THIS PAGE
+Definitions
+Notes for all countries
+Amazon Pay fees
+Countries in Europe
+Passing on fees to customers
+Card reader fees
+Fees report
+ Australia
+ Austria
+ Belgium
+ Bulgaria
+ Canada
+ Croatia
+ Cyprus
+ Czech Republic
+ Denmark
+ Estonia
+ Finland
+ France
+ Germany
+ Greece
+ Hong Kong
+ Hungary
+ Ireland
+ Italy
+ Japan
+ Latvia
+ Lithuania
+ Luxembourg
+ Malta
+ Netherlands
+ New Zealand
+ Norway
+ Poland
+ Portugal
+ Romania
+ Singapore
+ Slovakia
+ Slovenia
+ Spain
+ Sweden
+ Switzerland
+ United Arab Emirates
+ United Kingdom
+ United States
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+OPUS

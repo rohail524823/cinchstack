@@ -1,0 +1,26 @@
+---
+import { tool, scenario, price } from '../lib/data.mjs';
+import { SIZE_LABELS } from '../lib/schemas.mjs';
+import { longDate } from '../lib/format.mjs';
+import Fig from './Fig.astro';
+interface Props { a: string; b: string }
+const { a, b } = Astro.props;
+const A = tool(a), B = tool(b);
+const sizes = ['solo', 'small', 'growing'];
+const rows = sizes.map((s) => ({ s, x: scenario(a, s), y: scenario(b, s) }));
+const d = [price(a).checkedOn, price(b).checkedOn].sort()[0];
+---
+<p class="table-lead">The real monthly bill for {A.name} and {B.name} at three business sizes, using the same assumptions for both, as of {longDate(d)}. Open either pricing page for every line of each bill.</p>
+<div class="tbl-wrap"><table class="data stack">
+  <thead><tr><th scope="col">Size</th><th scope="col" class="num">{A.name}</th><th scope="col" class="num">{B.name}</th><th scope="col">Cheaper</th></tr></thead>
+  <tbody>
+    {rows.map((r) => (
+      <tr>
+        <th scope="row">{SIZE_LABELS[r.s]}<span class="sub">{r.x.label}</span></th>
+        <td class="num" data-label={A.name}><Fig v={r.x.monthly} /><span class="sub">{r.x.confidence} confidence</span></td>
+        <td class="num" data-label={B.name}><Fig v={r.y.monthly} /><span class="sub">{r.y.confidence} confidence</span></td>
+        <td data-label="Cheaper">{Math.abs(r.x.monthly - r.y.monthly) < 0.5 ? 'About the same' : r.x.monthly < r.y.monthly ? <span class="edge">{A.name}, by <Fig v={Math.round((r.y.monthly - r.x.monthly) * 100) / 100} />/mo</span> : <span class="edge">{B.name}, by <Fig v={Math.round((r.x.monthly - r.y.monthly) * 100) / 100} />/mo</span>}</td>
+      </tr>
+    ))}
+  </tbody>
+</table></div>

@@ -1,0 +1,192 @@
+SOURCE: https://www.klaviyo.com/pricing
+FETCHED: 2026-09-26T22:09:52.153Z
+RENDERER: headless Chromium, en-US, US timezone
+METHOD: Clicked the "Enterprise" pricing tab, then clicked each of the 11 FAQ questions to expand the answers; saved document.body.innerText.
+----
+___
+Skip to main content
+Platform
+Apps & Integrations
+Resources
+What’s New
+Pricing
+Log in
+Sign up
+Get a demo
+Home/Pricing
+Klaviyo enterprise pricing
+
+Custom enterprise plans designed for growth. Unify marketing, service, analytics and reporting in one AI-powered platform trusted by global brands.
+
+Platform
+GET STARTED
+Free
+SOLUTIONS PRICING
+Marketing
+Data + Analytics
+Service
+30% OFF
+AI AGENTS
+Composer
+Customer Agent
+30% OFF
+TALK TO SALES
+Professional Services
+Enterprise
+Enterprise
+
+Custom plans to support your growth with marketing automation, analytics, service, and data in one AI-first platform.
+
+Contact sales
+
+Contact sales for our Klaviyo Advanced pricing
+
+Compare Enterprise Plans
+ 	Klaviyo Standard	Klaviyo Advanced
+
+Custom integrations & features	
+	
+
+Enterprise-grade security & compliance	
+	
+
+Next-level omnichannel personalization	
+	
+
+Audience and conversion dashboards	
+	
+
+Marketing and segment performance reports	
+	
+
+Unified, lifetime profiles	
+	
+
+Real-time segmentation	
+	
+
+Email, SMS, and push	
+(Usage Limits Apply)
+	
+(Usage Limits Apply)
+
+Profiles, segments, integrations, and reporting	
+	
+
+AI-powered recommendations and marketing automation	
+	
+
+Multi Brand Management	
+	
+
+Marketing Analytics	Add On	
+
+Data Warehouse Sync	Add On	
+
+Advanced Data Management	Add On	
+
+Customer Hub	Add On	
+
+K:Social	Add On	
+
+Composer Credits	Public Beta	Public Beta
+
+Mobile Credits	Add On	Add On
+
+Standard Klaviyo Support	
+	
+
+Comprehensive Enterprise Support	Add on	Add on
+Contact sales
+Frequently asked questions
+What's included in every Klaviyo enterprise plan?
+What's the difference between Klaviyo Standard and Klaviyo Advanced?
+What is Klaviyo Advanced?
+How is Klaviyo Advanced priced?
+Can I customize the products included in Klaviyo Advanced?
+Are there discounts for choosing Klaviyo Advanced?
+Yes. Klaviyo Advanced is priced to cost less than purchasing each included product separately as an add-on to Standard.
+What are Composer Credits?
+What are Mobile Credits?
+What support is included with Klaviyo Enterprise?
+Are there any setup or onboarding fees for Klaviyo?
+What happens if I exceed my plan limits?
+We'll notify you in advance and provide easy options to upgrade. There are no surprise overage fees.
+COMPANY
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+KLAVIYO FOR
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+PLATFORM
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+WHY KLAVIYO
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+CHANNELS
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOOLS + RESOURCES
+Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+TOP PRODUCTS + FEATURES
+Composer
+PREVIEW
+Customer Agent
+Customer Hub
+Helpdesk
+Personalization
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+EXPLORE MORE
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices
+Cookie Settings
+Your Privacy Preferences

@@ -1,0 +1,113 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/pricing-overview
+FETCHED: 2026-09-26T21:46:17.369Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Pricing plans and billing overview
+
+There are a variety of pricing plans, billing cycles, credit card rates, and more available on Shopify. To get the most accurate and detailed information regarding plans, features, and costs, visit the pricing page. For more information about billing, review Managing billing.
+
+Tip
+
+If you want information about Shopify Plus plan pricing, then contact us.
+
+If you want to cancel your plan, then you need to pause or deactivate your store. Learn more about Shopify's refund policy for plans before canceling.
+
+On this page
+Plan fees and charges
+Payment provider
+Billing cycle
+Related information
+Plan fees and charges
+
+The Basic, Grow, and Advanced pricing plans have multiple rates and fees, such as monthly price, credit card rates, and third-party transaction fees. Depending on your location, your subscription is billed in one of the following currencies:
+
+Euros (EUR)
+British pounds (GBP)
+US dollars (USD)
+Indian rupees (INR)
+
+Learn more about local pricing for your Shopify subscription plan.
+
+Monthly price
+
+The monthly price is a recurring subscription charge for using Shopify, which varies depending on the plan you choose. The price associated with whichever plan you choose is included in the bill issued at the end of your assigned billing cycle.
+
+If you switch to an annual billing cycle, then you can receive a discount on your subscription charge. Annual billing charges the full year upfront and presents a lower effective monthly rate. Learn more about how billing cycles affect pricing.
+
+Note
+
+Charges for Shopify subscription plans are generally non-refundable as stated in section 5.10 of the Shopify Terms of Service. Refer to Shopify's refund policy for plans for details on eligibility.
+
+Credit card rates
+
+If you use Shopify Payments as your payment provider, then Shopify charges you a small fee to allow you to accept major credit cards, such as Visa and Mastercard, as payment in your store. You don't pay any fees to the credit card payment provider (such as Visa or Mastercard) itself. These fees vary for online and in-person transactions using Shopify POS due to the security and risk of taking a payment online versus taking a payment in person.
+
+Credit card rates vary depending on the plan that you choose.
+
+As a result of Brexit, Visa and Mastercard have changed how they classify and charge for United Kingdom (UK) and European Union (EU) transactions. To comply with these changes, Shopify classifies these transactions as international, and you're charged at the current international rate for your region.
+
+Note
+
+Credit card transaction fees aren't returned to you when you issue a refund.
+
+Third-party transaction fees
+
+Third-party transaction fees cover the cost for Shopify to provide a secure checkout platform and integrate with external payment providers. Transaction fees vary depending on the Shopify plan that you choose, and are charged in the following circumstances:
+
+When you use a third-party payment provider to accept customer payments.
+When an order includes store credit or gift cards as a payment method, on Shopify stores created on or after May 12, 2025. For example, if your store uses Shopify Payments and a customer pays for an order using both a credit card and $10 CAD of store credit, then you're charged third-party transaction fees only on the $10 CAD of store credit.
+Note
+
+For Shopify stores created on or after May 12, 2025, orders that include store credit or gift cards as a payment method are charged third-party transaction fees on the amount paid for using store credit or gift cards. Store credit and gift card transaction fees don't apply to Shopify stores created before May 12, 2025.
+
+When you use Shopify Payments, you aren't charged third-party transaction fees for orders that are processed using the following payment methods:
+
+Shopify Payments
+Shop Pay
+Shop Pay Installments
+Paypal Express Checkout
+Manual payment methods such as cash, cash on delivery (COD), and bank transfers.
+
+Stores on the Shopify Plus plan that use Shopify Payments as their sole payment provider have their third-party transaction fees waived, including fees on store credit and gift cards. If you use Shopify Payments alongside a third-party payment provider, then transaction fees apply.
+
+Payment provider
+
+Payment providers offer a service that transfers money from your customers to you. Credit card payment providers allow your customers to pay using a credit card. If you want to accept credit card payments from your customers, then you can set up Shopify Payments or a third-party payment provider.
+
+Shopify Payments
+
+Shopify has its own payment provider, Shopify Payments, which integrates directly with your checkout. If your business is eligible for Shopify Payments, then you have the following advantages:
+
+You only pay the credit card rate without additional third-party transaction fees.
+Your customers can enter their payment information at checkout without leaving your online store.
+You can set up Shopify Payments right from your Shopify admin instead of having to log in to another website or account.
+You can view your payouts in real-time, right from your Shopify admin.
+
+If you want to give your customers another way of paying, for example, through PayPal or with a custom payment method, then you can set these up in addition to Shopify Payments without having to pay any extra third-party transaction fees.
+
+Third-party payment providers
+
+If Shopify Payments isn't available in your country, or if you prefer not to use it, then you can activate one of the third-party payment providers that integrates with Shopify. In this case, Shopify charges third-party transaction fees which vary depending on the plan that you choose. Your third-party payment provider charges you their credit card rates themselves, separately.
+
+After you decide what payment provider you want to use from the available options, you can configure your payment settings in your Shopify admin.
+
+Billing cycle
+
+A billing cycle is the 30-day interval at which Shopify bills your plan fees and charges. You can't select the date that you get charged on, but you can extend your billing cycle to a longer one-year interval to earn a discount.
+
+A different billing cycle applies to app subscriptions, so their billing cycles might not always match the billing date of your Shopify subscription billing cycle.
+
+If you ever pause or deactivate your store, then make sure you cancel your app subscriptions as well to avoid additional future charges.
+
+Related information
+
+Learn more about the various plan and transaction charges: View your Shopify bill.
+
+Leave feedback
+Chat with a human

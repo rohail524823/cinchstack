@@ -1,0 +1,37 @@
+{
+  "id": "systeme-io",
+  "name": "Systeme.io",
+  "vendor": "Systeme.io",
+  "tier": "core",
+  "layer": "sell",
+  "category": "Funnels, courses and email marketing platform",
+  "url": "https://systeme.io",
+  "pricingUrl": "https://systeme.io/pricing",
+  "oneLiner": "Sales funnels, email marketing, online courses, communities and a store in one account, with 0% transaction fees and a free plan for up to 2,000 contacts.",
+  "summary": "Systeme.io combines sales funnels, email marketing with unlimited sends, online courses, communities, websites and blogs, a booking calendar and an affiliate-program manager in one account. Plans are tiered mainly by contact count: Free (2,000 contacts), Startup at $17/month (5,000), Webinar at $47/month (10,000) and Unlimited at $97/month. No plan takes a cut of sales, but the Free plan stops taking payments after USD 10,000 in lifetime sales, and the lower tiers have tight caps on tags, automation rules and funnels.",
+  "bestFor": ["course-creator", "freelancer"],
+  "notFor": [
+    "Stores with large physical-product catalogs (product variants are capped at 50, 100 and 250 on Free, Startup and Webinar)",
+    "Businesses that want built-in SMS without opening and paying for a separate Twilio account",
+    "Buyers who need a refund window, because subscriptions are non-refundable"
+  ],
+  "pros": [
+    "0% transaction fee on every plan, including Free",
+    "Unlimited email sends on every plan, including Free",
+    "Free plan with 2,000 contacts and no credit card required",
+    "Unlimited assistant (staff) accounts on every plan at no extra cost",
+    "Annual billing is 10× the monthly price, and annual or Unlimited plans include free done-for-you migration",
+    "Unlimited sub-accounts, each with the same limits as the main plan"
+  ],
+  "cons": [
+    "Free plan stops accepting payments after USD 10,000 in lifetime sales",
+    "Startup caps you at 10 tags, 10 automation rules and 10 funnels",
+    "Going over a paid plan's limits triggers an automatic upgrade after a 3-day notice",
+    "Subscriptions are non-refundable, and downgrades go through support",
+    "Evergreen webinars start on the $47/month Webinar plan",
+    "SMS needs your own Twilio account, billed separately by Twilio"
+  ],
+  "founded": 2018,
+  "hq": "Dublin, Ireland",
+  "affiliate": { "program": "systeme-io" }
+}

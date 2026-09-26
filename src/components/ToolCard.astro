@@ -1,0 +1,18 @@
+---
+import { tool, scenario, score, cheapestPaid } from '../lib/data.mjs';
+import { LAYER_LABELS } from '../lib/schemas.mjs';
+import { oneDecimal } from '../lib/format.mjs';
+import Fig from './Fig.astro';
+interface Props { id: string; href: string }
+const { id, href } = Astro.props;
+const t = tool(id);
+const small = scenario(id, 'small');
+const s = score(id);
+const c = cheapestPaid(id);
+---
+<a class="card" href={href}>
+  <span class="tag">{LAYER_LABELS[t.layer]} · {t.category}</span>
+  <h3>{t.name}</h3>
+  <p>{t.oneLiner}</p>
+  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" />{s?.overall ? ` · Score ${oneDecimal(s.overall)}` : ''}</p>
+</a>

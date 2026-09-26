@@ -1,0 +1,111 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961279888019-Workspace-billing-and-invoices
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961279888019.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:52.706651Z
+ARTICLE UPDATED: 2026-09-10T13:39:46Z | EDITED: 2026-09-10T13:39:46Z
+RENDERER: curl + HTML-to-text of article body
+----
+Workspace billing and invoices
+
+Learn how to manage billing and invoices for your Workspace plan.
+
+Good to know
+
+Billing details are only available to the Workspace owner and Workspace admins. Learn more about Workspace roles.
+
+All of your billing details and subscription invoices are available to review on the Billing page. Invoices are only available in USD currency.
+
+- Open the Workspace you want to review
+
+- Click Billing from your Workspace settings
+
+View your Workspace billing details
+In the Workspace section of your Workspace's Billing settings, you can access the billing details for your Workspace plan, paid Seats, and Workspace Add-ons. You can click the Edit icon beside a listing to adjust the subscription (e.g., upgrade, downgrade, or switch the billing frequency of your Workspace plan).
+View your Site plan subscriptions
+
+Note
+
+Site plan subscriptions are invoiced separately from your Workspace plan subscription. The Site plan subscription section will only appear if you have active, paid Site plans for a website.
+
+In the Site plan subscription summary section of your Workspace's Billing settings, you can get an overview of your site plans. The information for each Site plan subscription includes:
+
+-
+Site name — click this to access that specific site's billing settings
+
+-
+Plan name — name of the active Site plan
+
+-
+Price/frequency — how much you're paying and when (per month or per year)
+
+-
+Billing start and end dates — the date the plan was renewed and the date it will expire
+
+-
+Latest invoice — click Download to download the latest invoice for the Site plan
+
+View your invoice settings
+
+Note
+
+Invoice settings only appear if you have a payment card on file.
+
+In the Invoice settings section of your Workspace's Billing settings, you can view and update your invoice settings for all your Workspace purchases, including Site plans. Invoice settings include:
+
+-
+Billing email — the email address where invoices and receipts are sent. Receipts include a link to download corresponding invoices. If no billing email is added here, receipts are sent to the Workspace owner's email address on file
+
+-
+Company billing profile — company information that appears on invoices (e.g., address, PO number, etc.)
+
+View additional billing info
+In the Additional billing info section of your Workspace's Billing settings, you can update your Tax ID number and check on your Sales tax exemption status. Learn more about Tax ID numbers and sales tax exemption status.
+
+Good to know
+
+The Tax ID number field will only appear if your billing address is in a VAT ID- or GST ID-supported country.
+
+View your account balances
+In the Balances section of your Workspace's Billing settings, you can review your available account and bulk hosting balance. For example, a positive account balance may occur if you purchased a yearly plan and received credit for downgrading to a monthly plan before the yearly plan finished its billing cycle.
+Webflow uses any available positive balance before using your active card on file for most purchases.
+
+Note
+
+Account balance is not applied to template purchases.
+
+View all invoices
+In the All invoices section of your Workspace's Billing settings, you can review subscription invoices for your Workspace (e.g., Workspace plans, Site plans, Seats, Add-ons, etc.). Note that invoices for templates and libraries are stored in your Workspace's Templates & Libraries settings.
+Click Show more to see older invoices. The information for each invoice includes:
+
+-
+Invoice date — the date your invoice was issued
+
+-
+Invoice detail — what you were invoiced for
+
+-
+Total charged — how much you paid (or were credited)
+
+-
+Invoice — click Download PDF to download the invoice
+
+Note
+
+Template invoices are not included in the All invoices section. You can find your template purchases and invoices in Workspace settings Templates.
+
+View a summary of your next bill
+In the Next bill summary section of your Workspace's Billing settings, you can view details about your upcoming invoice. Review the upcoming date, invoice number, invoiced items, any available credit that will be applied toward your total, and the invoice total. The number of days until the next payment attempt is also displayed.
+View your payment method
+In the Payment method section of your Workspace's Billing settings, you can manage your card on file. You can view the current card and update or remove it. Learn more about supported card types and how to update your card on file.
+
+Note
+
+Your payment card on file is used to pay for all subscriptions associated with your Workspace — this includes Workspace plans and Site plans.
+
+Switch your Workspace plan's billing frequency
+You can switch the billing frequency of your Workspace plan from yearly to monthly (and vice versa) without having to cancel your current plan. Learn more about switching your Workspace plan's billing frequency.
+Understand proration and refunds
+Webflow prorates plan changes (i.e., upgrades, downgrades, or billing frequency switches) based on your existing balance, credits, and how many days you have remaining in your billing cycle. Your prorated charge and credits appear at checkout. Learn more about proration and refunds. Please note: any prorated amount will be issued as a credit for future subscription purchases.
+
+Note
+
+Webflow purchases are nonrefundable, see our Refund policy for more details.

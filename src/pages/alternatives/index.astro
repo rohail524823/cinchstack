@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { tool, alternatives } from '../../lib/data.mjs';
+import { registry } from '../../lib/pages.mjs';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { SITE } from '../../lib/site.mjs';
+import { breadcrumbNode } from '../../lib/jsonld.mjs';
+const reg = await registry();
+const live = Object.keys(alternatives).filter((id) => reg.has(`/alternatives/${id}/`));
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Alternatives' }];
+---
+<Base title="Alternatives to popular small-business software" description="Honest alternatives to the software small businesses outgrow or overpay for, grouped by the reason you want to leave, each with its real monthly cost." path="/alternatives/" noindex jsonld={[breadcrumbNode(`${SITE}/alternatives/`, crumbs)]}>
+  <div class="wrap page">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1>Alternatives</h1>
+    <ul>{live.map((id) => <li><a href={`/alternatives/${id}/`}>{reg.get(`/alternatives/${id}/`).h1}</a></li>)}</ul>
+  </div>
+</Base>

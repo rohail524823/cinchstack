@@ -1,0 +1,108 @@
+SOURCE: https://www.shopify.com/pricing
+FETCHED: 2026-09-26T22:02:22.272Z
+RENDERER: headless Chromium, en-US, US timezone
+EXTRACT: rows of table.comparison-table; cells with no text show the icon's accessible label in [brackets] (e.g. [Included], [Not included]); columns are Basic | Grow | Advanced | Plus
+----
+Compare all features | 
+Pricing | 
+Pay monthly | $39 USD/mo | $105 USD/mo | $399 USD/mo | Starts at $2,300 USD/mo
+Pay yearly | $29 USD/mo | $79 USD/mo | $299 USD/mo | [Not included]
+Core features | 
+Earn 1% back on all sales | Up to $5,000 USD | Up to $7,500 USD | Up to $10,000 USD | Up to $15,000 USD
+Online store | Full-featured | Full-featured | Full-featured | Full-featured
+Themes and templates | [Included] | [Included] | [Included] | [Included]
+Sell unlimited products | [Included] | [Included] | [Included] | [Included]
+World's best-converting checkout | [Included] | [Included] | [Included] | [Included]
+Sell on social and marketplaces | [Included] | [Included] | [Included] | [Included]
+Sell in AI chats | [Included] | [Included] | [Included] | [Included]
+Shopify B2B | Up to 3 catalogs | Up to 3 catalogs | Up to 3 catalogs | Unlimited catalogs
+Inventory management | [Included] | [Included] | [Included] | [Included]
+Inventory locations | 10 | 10 | 10 | 200
+Additional staff accounts | [Not included] | 5 | 15 | Unlimited
+Invite third-party collaborators | [Included] | [Included] | [Included] | [Included]
+Sell and source products with Shopify Collective | [Included] | [Included] | [Included] | [Included]
+200+ real-time reports, plus custom analytics | [Included] | [Included] | [Included] | [Included]
+24/7 support | Live chat | Live chat | Enhanced live chat | Priority support
+Free Shopify Academy courses | [Included] | [Included] | [Included] | [Included]
+In-person sales | 
+Casual, in-person sales at pop-ups and events | [Included] | [Included] | [Included] | [Included]
+POS Pro: Advanced tools for brick‑and‑mortar retailers | $89/mo per location | $89/mo per location | $89/mo per location | Includes 20 locations. Up to 200 with Shopify Payments.
+AI features | 
+Website builder | [Included] | [Included] | [Included] | [Included]
+Millions of tokens | [Included] | [Included] | [Included] | [Included]
+Sidekick, AI assistant for commerce | [Included] | [Included] | [Included] | [Included]
+Accepting payments | 
+Shopify Payments | [Included] | [Included] | [Included] | [Included]
+Online standard card rates | 2.9% + 30¢ | 2.7% + 30¢ | 2.5% + 30¢ | 2.25% + 30¢
+Online premium card rates | 3.5% + 30¢ | 3.3% + 30¢ | 3.1% + 30¢ | 2.95% + 30¢
+Online international rates | + 1% | + 1% | + 1% | + 1%
+PayPal Wallet rates | Starting at 3.49% + 49¢ | Starting at 3.49% + 49¢ | Starting at 3.49% + 49¢ | Starting at 3.49% + 49¢
+MB WAY rates | 3.9% + 30¢ | 3.7% + 30¢ | 3.5% + 30¢ | 3.25% + 30¢
+Bizum rates | 3.9% + 30¢ | 3.7% + 30¢ | 3.5% + 30¢ | 3.25% + 30¢
+In-person card rates | 2.6% + 10¢ | 2.5% + 10¢ | 2.4% + 10¢ | 2.3% + 10¢
+USDC rates | 2.9% + 30¢ | 2.7% + 30¢ | 2.5% + 30¢ | 2.25% + 30¢
+In-person manual rates | 3.5% + 10¢ | 3.5% + 10¢ | 3.5% + 10¢ | 3.4% + 10¢
+Third-party transaction fees | 2% | 1% | 0.6% | 0.2%
+Built-in fraud analysis* | [Included] | [Included] | [Included] | [Included]
+undefined | *Requires Shopify Payments
+Hosting | 
+Unlimited web hosting | [Included] | [Included] | [Included] | [Included]
+Custom domain name | [Included] | [Included] | [Included] | [Included]
+Free SSL certificate | [Included] | [Included] | [Included] | [Included]
+Marketing | 
+Unlimited contacts | [Included] | [Included] | [Included] | [Included]
+Create customer segments | [Included] | [Included] | [Included] | [Included]
+Create email campaigns | [Included] | [Included] | [Included] | [Included]
+Pay-per-send SMS campaigns | [Included] | [Included] | [Included] | [Included]
+Capture customer leads | [Included] | [Included] | [Included] | [Included]
+Chat with customers | [Included] | [Included] | [Included] | [Included]
+Create marketing automations | [Included] | [Included] | [Included] | [Included]
+Abandoned checkout recovery | [Included] | [Included] | [Included] | [Included]
+Create and share discount codes | [Included] | [Included] | [Included] | [Included]
+Sell gift cards | [Included] | [Included] | [Included] | [Included]
+Acquire customers risk-free with Shop Campaigns | [Included] | [Included] | [Included] | [Included]
+Shipping | 
+Shipping discounts | Up to 87% off | Up to 87% off | Up to 87% off | Up to 87% off
+Buy and print shipping labels | [Included] | [Included] | [Included] | [Included]
+Shipping insurance* | [Included] | [Included] | [Included] | [Included]
+3rd-party calculated shipping rates | [Not included] | ADD ON | [Included] | [Included]
+undefined | *Requires Shopify Payments
+Marketplaces | 
+Import unlimited orders from marketplaces | [Included] | [Included] | [Included] | [Included]
+50 synced marketplace orders per month | Free | Free | Free | Free
+Over 50 synced marketplace orders | 1% up to $99/mo | 1% up to $99/mo | 1% up to $99/mo | 1% up to $99/mo
+Customization | 
+Integrate with 1000s of apps | [Included] | [Included] | [Included] | [Included]
+Checkout customization | Limited | Limited | Limited | Full
+Build custom apps using Shopify APIs | Limited data access | Full data access | Full data access | Full data access
+API rate limits | Standard | Standard | Up to 2x on select APIs | Up to 10x on select APIs
+Build headless storefronts | 1 | 1 | 1 | 25
+Sell globally | 
+Translate your storefront | [Included] | [Included] | [Included] | [Included]
+Show prices in local currencies* | [Included] | [Included] | [Included] | [Included]
+Localized selling with Shopify Markets | [Included] | [Included] | [Included] | [Included]
+Accept local payment methods* | [Included] | [Included] | [Included] | [Included]
+Assign local domains | [Included] | [Included] | [Included] | [Included]
+Estimate and collect duties and taxes | [Included] | [Included] | [Included] | [Included]
+undefined | *Requires Shopify Payments
+Finance | 
+Manage money with Shopify Balance¹ | 2.52% earnings rate | 2.52% earnings rate | 2.52% earnings rate | 3.54% earnings rate
+Flexible growth funding through Shopify Capital² | [Included] | [Included] | [Included] | [Included]
+Shopify Credit pay-in-full Visa® card³ | Up to 3% cashback | Up to 3% cashback | Up to 3% cashback | Up to 3% cashback
+Schedule, pay, and manage bills with Shopify Bill Pay | [Included] | [Included] | [Included] | [Included]
+Tax | 
+Automated sales tax calculations | [Included] | [Included] | [Included] | [Included]
+Tax liability tracking | [Included] | [Included] | [Included] | [Included]
+VAT validation, exemptions, and invoicing | [Included] | [Included] | [Included] | [Included]
+Advanced tax platform | ADD ON | ADD ON | ADD ON | ADD ON
+Just for Plus | 
+High volume checkout | [Not included] | [Not included] | [Not included] | [Included]
+Merchandise with Shopify Combined Listings | [Not included] | [Not included] | [Not included] | [Included]
+Optimize ads with Shopify Audiences | [Not included] | [Not included] | [Not included] | [Included]
+Free expansion stores | [Not included] | [Not included] | [Not included] | Up to 9
+Bot protection | [Not included] | [Not included] | [Not included] | [Included]
+Up to 500% higher API call limits | [Not included] | [Not included] | [Not included] | [Included]
+Test new features before launch | [Not included] | [Not included] | [Not included] | [Included]
+Personalize store with custom functions | [Not included] | [Not included] | [Not included] | [Included]
+Custom user groups | [Not included] | [Not included] | [Not included] | [Included]
+Plus Certified apps | [Not included] | [Not included] | [Not included] | [Included]

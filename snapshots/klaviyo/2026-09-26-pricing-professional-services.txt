@@ -1,0 +1,217 @@
+SOURCE: https://www.klaviyo.com/pricing
+FETCHED: 2026-09-26T22:09:23.090Z
+RENDERER: headless Chromium, en-US, US timezone
+METHOD: Clicked the "Professional Services" pricing tab, then clicked each of the 0 FAQ questions to expand the answers; saved document.body.innerText.
+----
+___
+Skip to main content
+Platform
+Apps & Integrations
+Resources
+What’s New
+Pricing
+Log in
+Sign up
+Get a demo
+Home/Pricing
+Klaviyo professional service plans
+
+Get the expert support and strategic guidance you need to scale faster, improve performance and make the most of the Klaviyo platform.
+
+Platform
+GET STARTED
+Free
+SOLUTIONS PRICING
+Marketing
+Data + Analytics
+Service
+30% OFF
+AI AGENTS
+Composer
+Customer Agent
+30% OFF
+TALK TO SALES
+Professional Services
+Enterprise
+Support packages
+
+Optimize your growth with professional services and support packages that provide the guidance and help you need to reach, and exceed, your goals.
+
+Standard
+
+Included in paid plans
+
+INCLUDED
+24/7 email support with 4-48hr response times
+Live chat support (weekdays only)
+Unlimited access to customer education
+
+BEST FOR:
+
+Growing businesses that need reliable support and self-service resources
+
+Professional
+
+More strategic guidance
+
+Starts at
+$500
+/month
+Contact sales
+Priority support with 2-24hr response times
+Extended live chat hours including weekends
+One dedicated training session per year
+Deliverability strategist on request
+
+BEST FOR:
+
+Scaling businesses that need faster response times and strategic guidance
+
+Enterprise
+
+Most comprehensive
+
+Start at
+$1,800
+/month
+Contact sales
+Fastest support with 1-12hr response times
+24/7 live chat support including weekends
+Two dedicated training sessions per year
+Dedicated solutions architect & deliverability team
+
+BEST FOR:
+
+Large enterprises requiring white-glove support and proactive monitoring
+
+Compare Klaviyo support packages
+Feature	Standard	Professional	Enterprise
+24/7 email support	
+	
+	
+
+Email response time – Urgent issues	4 hours	2 hours	1 hour
+Email response time – High priority	12 hours	8 hours	4 hours
+Email response time – Normal issues	24 hours	12 hours	6 hours
+Email response time – Low priority	48 hours	24 hours	12 hours
+Live chat support – Weekdays	24/5	24/5	24/7
+Live chat support – Weekends	No coverage	Local business hours	24/7
+Unlimited access to customer education	
+	
+	
+
+Dedicated training sessions	
+	1x per year	2x per year
+Deliverability strategist	
+	
+	Up to 1 domain, 2x/year
+Tailored deliverability remediation strategies	
+	
+	Up to 5 domains
+Solutions architect	
+	
+	
+
+Guidance and enablement on technical topics	
+	
+	
+
+Quarterly deliverability performance reviews	
+	
+	For monitored domains
+$1
+🇺🇸
+USD
+
+per month
+
+Estimated total price
+
+Email
+$1
+
+Included in every plan
+
+Standard support
+Included
+Total estimated
+$1.00
+Get started
+COMPANY
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+KLAVIYO FOR
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+PLATFORM
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+WHY KLAVIYO
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+CHANNELS
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOOLS + RESOURCES
+Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+TOP PRODUCTS + FEATURES
+Composer
+PREVIEW
+Customer Agent
+Customer Hub
+Helpdesk
+Personalization
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+EXPLORE MORE
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices
+Cookie Settings
+Your Privacy Preferences

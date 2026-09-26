@@ -1,0 +1,624 @@
+SOURCE: https://www.gohighlevel.com/terms-of-service
+FETCHED: 2026-09-26T21:52:50.624Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Terms of Service | HighLevel
+Login to App
+Terms Of Service
+
+Last Updated: June 2026
+
+THIS AGREEMENT CONTAINS A MANDATORY ARBITRATION CLAUSE AND A CLASS ACTION WAIVER THAT WAIVES YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION. YOU MUST REVIEW THIS DOCUMENT IN ITS ENTIRETY, INCLUDING THE DISPUTE RESOLUTION SECTION BELOW, BEFORE USING THE PLATFORM.
+
+THESE TERMS OF SERVICE GOVERN YOUR SUBSCRIPTION TO AND USE OF THE PLATFORM AND SERVICES. PLEASE READ THESE TERMS OF SERVICE CAREFULLY. CAPITALIZED TERMS HAVE THE DEFINITIONS SET FORTH HEREIN. BY COMPLETING THE REGISTRATION PROCESS, CREATING AN ACCOUNT OR ACCESSING OR USING ANY OF THE PLATFORM AND/OR SERVICES, YOU REPRESENT THAT (1) YOU HAVE READ, UNDERSTAND, AND AGREE TO BE BOUND BY THESE TERMS OF SERVICE, (2) YOU ARE OF LEGAL AGE TO FORM A BINDING CONTRACT WITH HIGHLEVEL, (3) THE INFORMATION YOU PROVIDED IN CONNECTION WITH YOUR REGISTRATION FOR THE PLATFORM/SERVICES IS TRUE, ACCURATE AND COMPLETE, AND (4) YOU HAVE THE AUTHORITY TO ENTER INTO THESE TERMS OF SERVICE PERSONALLY OR ON BEHALF OF THE BUSINESS ENTITY YOU HAVE NAMED AS THE USER, AND TO BIND THAT BUSINESS ENTITY TO THE AGREEMENT. CERTAIN PORTIONS OF THE PLATFORM MAY BE SUBJECT TO “OPEN SOURCE” OR “FREE SOFTWARE LICENSES”. SUCH COMPONENTS WILL BE GOVERNED BY THE TERMS OF THEIR RESPECTIVE TERMS OF USE AND NOT BY THESE TERMS.
+
+ONCE ACCEPTED, THESE TERMS OF SERVICE, IN COMBINATION WITH OUR PRIVACY POLICY, DATA PROCESSING AGREEMENT, AND AFFILIATE AGREEMENT (WHEREVER APPLICABLE) (COLLECTIVELY THE “TERMS”), BECOME A BINDING LEGAL COMMITMENT BETWEEN YOU (OR THE BUSINESS ENTITY THAT YOU REPRESENT) AND HIGHLEVEL LLC AND ITS RESPECTIVE OFFICERS, DIRECTORS, BUSINESS AFFILIATES, SUCCESSORS AND ASSIGNS (HEREINAFTER REFERRED TO AS “HIGHLEVEL,” “WE” OR “US”) AND WILL GOVERN YOUR ACCESS TO AND USE OF THE PLATFORM AND ALL OTHER INTERACTIONS WITH HIGHLEVEL RELATED TO THE PLATFORM.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT ACCEPT THEM AND/OR CREATE A PLATFORM ACCOUNT, AND/OR USE OR ACCESS THE PLATFORM. YOU SHALL BE DEEMED TO HAVE ACCEPTED AND CONSENTED TO THESE TERMS IF YOU DO ANY ONE OR MORE OF THE FOREGOING ACTS. IN THE EVENT OF A CONFLICT BETWEEN THESE TERMS OF SERVICE AND THE ADDITIONAL AGREEMENTS INCORPORATED HEREIN BY REFERENCE, THESE TERMS OF SERVICE SHALL PREVAIL.
+
+HighLevel reserves the right to make changes to these Terms at any time. All changes are effective immediately when posted. Your continued use of the Platform following the posting of any revised Terms constitutes your acceptance and agreement to the updated Terms.
+
+HighLevel is only providing the Platform for your business use without any promise of exclusivity. HighLevel’s customers, users, entrepreneurs, affiliate marketers, experts, and partners are not HighLevel’s employees, contractors, or representatives. HighLevel is not responsible for any interactions between you and your customers, other than providing access to the Platform. HighLevel is in no way liable for any disputes, claims, losses, injuries, or damages arising from your relationship with your customers, including their reliance upon any information or content you provide. You agree and acknowledge that you are responsible for implementing your own terms of service to govern the relationship between you and your customers.
+
+You should consult a lawyer for legal advice to ensure your use of the Platform complies with these Terms and applicable law.
+
+1. Use of the Platform.
+
+Restrictions. You must be at least 18 years old to use the Platform. By accepting these Terms, creating a Platform Account, or using the Platform, you represent that you are at least 18 years old. You may not use the Platform or the Services if You are an employee, partner, or director of our Competitors or intend to gain access to the Platform in order to compete with the Platform.
+
+Platform Account Ownership. Your use of the Platform is conditioned on your provision of complete, current, and accurate information when registering for a Platform Account. The Platform is intended for business use or in connection with an individual’s trade, craft, or profession. As the individual who accepts these Terms, You are the owner of the Platform Account unless You are acting on behalf of a business entity, in which case, the business entity is the owner of the Platform Account. If You accept these Terms on behalf of a business entity, You represent and warrant that you have the authority to bind the business entity to these terms. In the event of a dispute regarding the ownership of a Platform Account, HighLevel reserves the right to request documentation to determine the rightful owner. HighLevel is not obligated to act as an arbiter or adjudicator of such disputes. Our determination, made in our sole discretion, will be final and binding on all parties. In resolving an ownership dispute, HighLevel may consider, without limitation, the following factors: (a) The identity of the individual or entity that has consistently paid the Fees for the Platform Account via the credit card or other payment method on file; (b) The identity of the individual who created the Platform Account; (c) Verifiable, government-issued documentation demonstrating ownership of the underlying business entity associated with the Platform Account (e.g., articles of incorporation, business license, partnership agreement); (d) a court order or other binding legal settlement agreement; and (e) Any other documentation or evidence HighLevel deems relevant to the dispute. HighLevel reserves the right to disregard any documentation it believes, in its sole discretion, to be fraudulent, tampered with, or otherwise unreliable. If a rightful owner cannot be reasonably determined by HighLevel, or if the disputing parties fail to provide a resolution, HighLevel reserves the right to suspend or terminate the Platform Account until the parties have reached a mutual written agreement or a court of competent jurisdiction has issued an order resolving the dispute. You agree to defend, indemnify, and hold HighLevel harmless from any and all claims, liabilities, and expenses (including reasonable attorneys’ fees) arising out of or related to HighLevel’s resolution of any ownership dispute. By agreeing to these Terms, you waive any claims against HighLevel arising from our management of your Platform Account and our resolution of any ownership disputes.
+
+Intended Use. You and your customers may use the Platform only as intended for lawful purposes and in accordance with these Terms. You agree that You and Your customers will not use the Platform in any way that violates any applicable law or regulation or engage in any Prohibited Uses. HighLevel reserves the right to monitor the use of the Platform by you and your customers. If HighLevel determines, in its sole discretion, that a Sub-Account is engaging in suspicious activity, violating applicable law, or is otherwise in breach of these Terms, HighLevel may request that you suspend or terminate the Sub-Account’s access to the Platform. You agree to promptly comply with any such request. Failure to do so may result in the suspension or termination of your Platform Account. In addition, you represent and warrant that: (i) You and Your customers will maintain in effect all licenses, permissions, authorizations, consents, and permits necessary to carry out the obligations under these Terms; (ii) You are fully responsible for your actions and the actions of your employees, agents, and customers who use the Platform; (iii) You are fully responsible for the use of the Platform by your customers; (iv) You, your employees, agents and customers will not misrepresent the Platform or the Services; (v) You will ensure that your employees with access to the Platform Account are bound by these Terms, and you will require that your customers accept terms at least as restrictive as these Terms; (vi) You own or control all rights in and to all content you provide to HighLevel, including, but not limited to, any code provided to customize the Platform for your customers; (vii) You, your employees, and your customers will provide reasonable cooperation regarding information requests from law enforcement, regulators, or telecommunication provider; and (viii) You will not give access to the Platform or Services to a direct Competitor of HighLevel, (ix) You will not directly or indirectly reverse engineer, decompile, disassemble or otherwise attempt to uncover or discover the source code, object code or underlying structure, ideas, know-how or algorithms; (x) You will not modify, translate, or create derivative works based on the Platform (except to the extent expressly permitted by us); and (xi) You will not remove any proprietary notices or labels
+
+Compliance. You will be solely responsible for your use of the Platform and Services, including (a) the quality and integrity of any data and other information, including Information, made available to us by or for you through the use of the Platform, (b) securing and maintaining proper insurance as required, and (c) compliance with all applicable laws and regulations including but not limited to HIPAA and other data privacy laws such as the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), California Privacy Rights Act (CPRA), Virginia Consumer Data Protection Act (VCDPA), Colorado Privacy Act (CPA), Utah Consumer Privacy Act (UCPA), Connecticut Data Privacy Act (CTDPA), PCI DSS, Gramm-Leach-Bliley Act, all tax laws, regulations, and obligations, applicable accessibility laws and standard, including ensuring websites, applications, and communications created using the Platform meet relevant accessibility requirements for your jurisdiction and customer base, and other similar laws and regulations, whether currently in effect or enacted in the future. You are solely responsible for determining, calculating, collecting, reporting, and remitting all taxes applicable to your business operations and customer transactions. HighLevel provides technology tools only and is not engaged in providing tax, accounting, or professional services advice.. HighLevel is not responsible for your compliance with laws and does not represent that your use of the Platform will comply with any laws, including but not limited to the laws and regulations listed above, tax laws, sales tax regulations, VAT/GST requirements, and other similar laws and regulations.
+
+Privacy. By using the Platform and providing Information on or through the Platform, you consent to HighLevel’s use and disclosure of the Information in accordance with the Privacy Policy available here and incorporated herein by reference. You agree that HighLevel has no responsibility or liability for the deletion or failure to store any Information or content maintained or transmitted on or through the Platform. When you provide your customers with access to the Platform, you must implement and enforce your own terms of service and Privacy Policy, providing the level of protection at least equal to that provided to you by HighLevel. You must obtain consent from your customers, affirmatively acknowledging that your customers agree to be bound by your privacy policy. You represent and warrant that you have provided, and will continue to provide, adequate notices and have obtained, and will continue to obtain, the necessary permissions and consents to provide your customers’ data to us for use and disclosure in accordance with these Terms and our Privacy Policy.
+
+Data Subject Rights Management. You are solely responsible for managing and responding to all data subject rights requests from your customer and end users, including but not limited to requests for access, deletion, correction, portability, restriction of processing, and objection to processing of personal data. You must establish and maintain appropriate procedures to receive, document, respond to, and fulfill such requests within the timeframes required by applicable privacy laws. If HighLevel receives any data subject rights requests directly from your customers or end users, HighLevel may direct such requests to you, and you shall promptly respond to and fulfill such requests in accordance with applicable law. You shall indemnify and hold HighLevel harmless from any claims, damages, or liabilities arising from your failure to properly respond to or fulfill data subject rights requests.
+
+Data Breach Notification. You are solely responsible for complying with all applicable data breach notification laws and regulations. In the event you discover or are notified by HighLevel of a security incident affecting personal data processed through the Platform, you shall: (a) promptly investigate the incident and take appropriate remedial measures; (b) determine if the incident triggers any notification obligations under applicable laws; (c) make all legally required notifications to affected individuals, regulatory authorities, and other required parties within the timeframes specified by applicable laws; (d) bear all costs associated with such notifications and remedial measures; and (e) promptly inform HighLevel of any notifications made to regulatory authorities or affected individuals. HighLevel reserves the right, but has no obligation, to review and approve the content of your notifications prior to their distribution. Nothing in this section shall be construed to limit HighLevel's own obligations to notify you of security incidents for which HighLevel is directly responsible
+
+Data Retention and Deletion. You are solely responsible for establishing and implementing appropriate data retention periods and deletion procedures for personal data processed through the Platform, in compliance with all applicable privacy laws and regulations. You shall not retain personal data for longer than necessary to fulfill the purposes for which it was collected, or as required by applicable laws. Upon termination of your Platform Account or upon request from your customers or end users in accordance with their data subject rights, you shall ensure the timely deletion or anonymization of personal data as required by applicable laws. You acknowledge that HighLevel may retain certain information as required by law or for legitimate business purposes as outlined in our Privacy Policy, but such retention by HighLevel does not relieve you of your own data retention and deletion obligations.
+
+You may not use, resell, authorize or permit anyone to use, or license or make available data you obtain from People Data Labs, for any purposes prohibited in the People Data Labs Acceptable Data Use Policy posted here https://privacy.peopledatalabs.com/policies?name=acceptable-data-use-policy. You further agree to comply with applicable law when collecting personal data that will be sent to People Data Labs.
+
+Login Credentials. You are responsible for maintaining the confidentiality of your Login Credentials. You are responsible for all uses of your Platform Account and Login Credentials, whether or not authorized by you. You agree to notify HighLevel immediately of any unauthorized access to or use of your Platform Account or Login Credentials or any other breach of security. HighLevel reserves the right to disable your Login Credentials at any time in its sole discretion for any or no reason, including if, in HighLevel’s opinion, you have violated any provision of these Terms. Platform Accounts are non-transferable. You are obligated to take preventative measures to prohibit unauthorized users from accessing your Platform Account with your Login Credentials. In addition to maintaining the confidentiality of your Login Credentials, you are responsible for implementing all recommended security protocols and best practices provided or made available by HighLevel, including but not limited to, enabling two-factor authentication (2FA) for your Platform Account and all associated user accounts. HighLevel shall not be liable for any damages, losses, or liabilities arising from or related to any security breach, data compromise, or unauthorized access to your Platform Account that results from your failure, or the failure of your users, to implement such recommended security measures. You give consent to HighLevel to access and monitor your Platform Account and your customer’s accounts for support and security purposes, and/or to perform its obligations under these Terms or to enforce these Terms.
+
+Use of Communication Services. The Platform may include certain communications features such as RCS, SMS, MMS, email, voice call capabilities and other methods. Separate Communication Surcharges for these services may apply and will be charged to your invoice. Communication Surcharges are subject to the Leadconnector Terms of Service. Upon cancellation or termination of your Platform Account, all phone numbers procured through the Platform on your behalf will be released within fourteen (14) days. Notwithstanding the foregoing, if your customer ported an external phone number to the Platform for use in their Sub-Account, that number is the property of the Sub-Account owner. You hereby authorize HighLevel to release such ported phone numbers to the applicable Sub-Account owner upon their request following the cancellation or termination of your Platform Account.
+
+Third Party Services. You may choose to access certain Third-Party Services through the Platform. You are responsible for enabling and managing the integration of each Third-Party Service. You acknowledge that by purchasing or integrating Third Party Services through the Platform, you grant permission to HighLevel to share your data with the Third-Party Services providers in order to facilitate the integration and use of the Third Party Services through the Platform. The use of information received from Workspace APIs will adhere to the Google User Data Policy, including the Limited Use requirements. You also represent and warrant that You have the appropriate consents for importing any data (including data of your customers) that you request HighLevel to import from other Third-Party Services and/or are the rightful owner of such data. HighLevel is not responsible for, and HighLevel hereby disclaims any liability for, any act or omission of any Third-Party Services provider or the operation of any Third-Party Services, including access to, modification of, or deletion of data, regardless of whether HighLevel endorses, approves, promotes, or supports any such Third-Party Services. You hereby irrevocably waive any claim against HighLevel with respect to the content or operation of any Third-Party Services. Your use of the Third-Party Services is governed by Your agreement with such Third Party, including any supplemental policies imposed by the Third Party. You are solely responsible for reviewing and complying with any terms of use, privacy policies or other terms governing your use of these Third-Party Services, which you use at your own risk. HighLevel disclaims all liability related to outages or downtime of Third Party Services.
+
+HighLevel does not guarantee the interoperation, integration, or support of any Third-Party Services nor give any representation, warranty or endorsement, express or implied, with respect to the legality, accuracy, quality, or authenticity of content, information, or services provided by those Third-Party Services. HighLevel may, at any time, in its sole discretion, modify the Platform or Services, which may impact interoperation, integration, or support of Third-Party Services.
+
+If you elect to pause or delete some or all of your Platform Account, certain features, functionality, or Services, including Third Party Services (such as LeadConnector phone numbers or email services), may not be recoverable or retrievable upon reactivation. If you pause some or all of your Platform Account for more than thirty (30) days, and HighLevel is still incurring costs on your behalf related to Third Party Services (such as the costs of securing a particular phone number on your behalf), HighLevel reserves the right to release the phone number or delete some or all of your Platform Account in its sole discretion, without liability to you.
+
+HighLevel is not responsible for, and HighLevel hereby disclaims any liability for, any act or omission of any Third-Party Services provider or the operation of any Third-Party Services, including tax calculation services, access to, modification of, or deletion of data, regardless of whether HighLevel endorses, approves, promotes, or supports any such Third-Party Services.
+
+If you are a customer located in Australia and you use any PayPal services integrated with the Platform, you acknowledge and agree to the following: (i) iThe PayPal services are provided by PayPal Australia Pty Ltd, not by HighLevel, (ii) HighLevel is not an agent, representative, or authorized representative of PayPal or PayPal Australia; and (iii) For any inquiries or issues related to the PayPal services, you must contact PayPal Australia directly.
+
+Platform Provider Role. You acknowledge and agree that HighLevel is a technology platform and communications service provider only. HighLevel provides the software infrastructure that enables you to send communications, but HighLevel does not initiate, create, send, or control the content, timing, or recipients of any communications. All communications sent using the Platform are created and initiated solely by you and/or your customers. You, and not HighLevel, will be deemed the “seller,” “telemarketer,” “advertiser,” or “sender” of all communications for all legal and regulatory purposes.
+
+Your Telecommunications Compliance Obligations. You are exclusively responsible for all communications sent using the Platform and for compliance with all applicable federal, state, and international laws governing marketing, advertising, or communications, as amended from time to time. This includes, but is not limited to:
+
+The Telephone Consumer Protection Act (TCPA), 47 U.S.C. § 227, and its implementing regulations;
+
+The Telemarketing Sales Rule (TSR), 16 C.F.R. Part 310;
+
+The CAN-SPAM Act of 2003;
+
+All federal and state laws and regulations related to do-not-call registries;
+
+All state-specific telemarketing laws, including but not limited to those requiring registration, licensing, or bonding of telemarketers (such as Texas Business & Commerce Code Ch. 302, as amended, and similar mini-TCPA laws in other jurisdictions).
+
+Carrier or telecommunications provider rules, including but not limited to 10DLC registration and use requirements.
+
+International laws and regulations governing marketing and electronic communications, including but not limited to the EU’s General Data Protection Regulation (GDPR) and Canada’s Anti-Spam Legislation (CASL).
+
+You represent and warrant that you have obtained all necessary consents, permissions, and authorizations from recipients before contacting them using the Platform. You further warrant that you will not use the Platform to contact any individual who has not provided the requisite level of consent under applicable law. You also represent and warrant that you have determined whether you are required to register, license, or post a bond under any applicable telemarketing, marketing, or advertising law, and that you have satisfied all such obligations prior to sending communications using the Platform. You covenant to maintain such compliance throughout the term of this Agreement. You are solely responsible for maintaining accurate and complete records of such consent and compliance. These obligations survive termination or expiration of this Agreement.
+
+You acknowledge and agree that you are solely responsible for the content of all communications sent through the Platform, including any claims relating to false, misleading, or deceptive advertising, privacy or data protection violations, or other unlawful conduct. HighLevel disclaims all liability for the content or legality of communications transmitted through the Platform.
+
+You acknowledge that any compliance-related features provided within the Platform are offered solely for your convenience. Their provision does not constitute legal advice, and their use does not guarantee compliance with any law. You agree that you are solely responsible for configuring and using such features correctly.
+
+Third Party Content. The Platform may include Third Party Content. Your use of Third Party Content is entirely at your own risk and discretion. All statements and opinions expressed in Third Party Content are solely the opinions and the responsibility of the third party and do not necessarily reflect the opinion of HighLevel. HighLevel is not responsible for Third Party Content and makes no endorsements, representations or warranties and assumes no liability, obligation or responsibility for Third Party Content. You are responsible for ensuring that your engagement or transactions with Third Party Content is in compliance with these Terms and any applicable laws. To the extent that Third Party Content or Third Party Services that are available for purchase or download in the HighLevel Marketplace includes Snapshots, you agree that any purchase or download of the Snapshots gives you only a non-exclusive license to use, copy or share the Snapshots within HighLevel’s Platform according to the terms of the HighLevel Marketplace, and does not grant you ownership of the purchased or downloaded Snapshots.
+
+API and Marketplace Use. HighLevel may make available a Marketplace for third-party applications or provide access to its application programming interfaces (“APIs”) to allow you to connect other services to the Platform. HighLevel makes no warranties of any kind regarding applications or services provided by third parties on our Marketplace. Your use of any third-party application is at your own risk and is subject to the terms and conditions agreed upon between you and the third-party provider. HighLevel is not responsible for any aspect of such third-party applications and disclaims all liability for any harm, damage, or loss arising from your use of them. When you use HighLevel’s APIs, you are solely responsible for your use of them. You represent and warrant that you have obtained all necessary rights and consents to transmit your data to any third party via the API and that such transmission is in compliance with all applicable laws. You agree not to use the APIs in any manner that is excessive or abusive, or that threatens the security, integrity, or performance of the Platform. HighLevel may, in its sole discretion, limit or suspend your access to the APIs if we believe your use violates these Terms.
+
+Fair Use Policy; Excessive Use Restrictions; Trials. Any subscription plans marketed as “unlimited” are subject to this Fair Use Policy. HighLevel provides access to the Platform on a tiered-pricing basis, and some tiers can process more data with less impact on performance. We have no liability for the effect that your excessive data use may have on performance. If, in HighLevel’s sole discretion, we determine that your data use is excessive, abusive, or otherwise exceeds the scope of our Fair Use Policy, or has a negative effect on the Platform in any way, we may throttle, pause, suspend or terminate your use of the Platform or Services, or require you to upgrade your plan to continue usage at your existing rate.
+
+Trial periods are not intended to be used consecutively. If we discover that you are doing back-to-back trials to avoid paying a subscription fee, then, without prejudice to any other remedies available under law, HighLevel reserves the right to suspend or terminate your use of the Platform or Services and further ban you from using the Platform or Services in HighLevel’s sole discretion.
+
+Platform Updates. HighLevel reserves the right to make updates or changes to the Platform at any time, including changes that may affect the previous mode of operation of the Platform. You agree that your use of the Platform or purchase of Services is not contingent on HighLevel’s future delivery or release of any functionality or feature, including but not limited to the continuation of a certain Service or any Third-party Service.
+
+International Use. If you are in an embargoed country or are a sanctioned person or entity, you are prohibited from using the Platform. HighLevel makes no representation that materials on the Platform are appropriate or available for use in locations outside the United States. Those who choose to access the Platform from other locations do so on their own initiative and at their own risk. If you choose to access the Platform from outside the United States, you are responsible for compliance with local laws in your jurisdiction, including but not limited to, the taxation of products purchased over the Internet. You agree to comply with all economic sanctions and export control laws, rules and regulations, including without limitation the regulations promulgated by the U.S. Department of Commerce’s Bureau of Industry and Security (“BIS”) and the U.S. Department of the Treasury’s Office of Foreign Assets Control (collectively, “Export Control Laws”). By using the Platform, you agree not to use, export, import, sell, release, or transfer the Platform, the Services, or any software or technology that supports the Platform or your content, or the Platform Content violating any such Export Control Laws. Specifically, and without limitation, the Platform, the Services, or any software or technology that supports the Platform, or your content, or Platform Content may not be exported, transferred, or released, or provide access (a) into any U.S. embargoed countries (including, without limitation Cuba, Iran, North Korea, Syria and the Crimea, Donetsk, and Luhansk regions, Russia and Belarus (a “Prohibited Jurisdiction”); or (b) to anyone included in the U.S. Treasury Department’s list of Specially Designated Nationals or any other applicable restricted party lists.
+
+You represent, warrant and covenant that (i) You are not named on, or owned or controlled by any party named on, any U.S. government’s (or other government’s or international body’s) list of persons or entities prohibited from receiving U.S. exports, or transacting with any U.S. person, (ii) You are not a national of, located in, or an entity (or a director/employee/agent/representative of such entity) registered in, any Prohibited Jurisdiction, or an entity that is or has been greater than 50% owned or controlled by any person or persons described in Clause (i) or (ii) and are not Military End Users and will not put HighLevel or the Platform to a Military End Use, as defined in 15 C.F.R. 744.21, (iii) You will not permit your users to access or use the Platform and/or Service or provide any services to any person(s) in violation of any Export Control Laws, (iv) no user data created or submitted by You is subject to any restriction on disclosure, transfer, download, export or re-export under the Export Control Laws, and (v) You shall comply with all applicable laws regarding the transmission of technical data exported from the United States and the country in which You and Your Users are located. You further agree that You will not use the Platform and/or Services to disclose, transfer, download, export or re-export, directly or indirectly, any of your user data or your content to any country, entity or other party which is ineligible to receive such items under the Export Control Laws or under other laws or regulations to which You may be subject. You acknowledge that the Platform and/or Service and other software may not be available in all jurisdictions and that You are solely responsible for complying with the Export Control Laws. Any offer for any product, Services, and/or information made in connection with the Platform is void where prohibited. We reserve the right to terminate access to any Platform Account that we determine to be a prohibited end-user or engaging in prohibited end-use, without any liability to such user.
+
+Artificial Intelligence Acceptable Use policy: Before using Artificial Intelligence (“AI”) features of the Platform, you must ensure that you are in a jurisdiction that allows AI usage. If you elect to use any AI-based features of the Platform, you are responsible for ensuring that you are using our AI-based features in compliance with our Artificial Intelligence Acceptable Use Policy and Disclaimers which is attached hereto as Exhibit B.
+
+Domain Names. The Platform allows you to purchase new domain names and transfer existing domain names from third-party registrars. These services are provided through third-party providers, such as Cloudflare. By using these services, you agree to the following terms:
+
+Domain Name Purchasing. If you use the Platform to purchase a domain name, HighLevel will facilitate the purchase on your behalf, and HighLevel will be the listed registrant and administrative contact. You agree that you will use the domain name in compliance with these Terms and all applicable laws. You further agree that HighLevel has the authority to act as your agent in all matters related to the domain. This authority includes, but is not limited to, the right to transfer, pause, remove, or cancel your domain name, or otherwise settle disputes related to the domain name, in HighLevel’s sole discretion. If HighLevel receives a notice, such as a cease and desist letter or a Uniform Domain-Name Dispute-Resolution Policy (UDRP) complaint, alleging that a domain name you purchased infringes upon a third party’s intellectual property rights, you grant HighLevel the authority to settle the matter, which may include transferring the domain to the complaining party upon providing you with reasonable notice.
+
+Domain Name Transfers to HighLevel. You may request to transfer a domain name to HighLevel from a third-party registrar. When you confirm and finalize the transfer, HighLevel will first deduct the applicable fee from your Platform Account wallet and then initiate the transfer via our third-party provider’s API. We will issue a refund of the transfer fee to your wallet only if: (i) the transfer fails due to a rejection from the third-party provider’s API after your wallet has been charged, or (ii) you cancel the transfer at the losing registrar within five (5) days of initiating the request. HighLevel is not liable for any impact to existing services, such as email hosting or website functionality, that may be disrupted as a result of the transfer process. It is your sole responsibility to follow all transfer instructions carefully and to reconfigure any necessary DNS settings or other services post-transfer. To avoid service interruptions, all domain names transferred to HighLevel will be set to auto-renew approximately thirty (30) to sixty (60) days prior to their expiration date. The renewal fee will be automatically deducted from your Platform Account wallet. HighLevel may, in its sole discretion, elect to accept or reject your domain name transfer application for any reason. You agree to indemnify and hold HighLevel harmless from any claim or demand, including reasonable attorneys’ fees, arising from your use of any domain name purchased or transferred through the Platform.
+
+Nameserver Requirements. Domains purchased or transferred through the Platform must use the nameservers required by our third-party provider. You may not change the nameservers while the domain is registered through HighLevel. If you wish to use different nameservers, you must transfer the domain to another registrar. HighLevel is not responsible for any service issues resulting from attempts to change nameservers or from transferring the domain.
+
+Customer Account Transfer Requests. HighLevel will not fulfill Sub-Account transfer requests made by your customers unless you have approved the transfer through our in-app transfer request process. HighLevel will only fulfill transfers of Sub-Accounts without Your approval if: (i) the Sub-Account has attempted to seek your approval through the in-app transfer request process, (ii) you have failed to respond to the Customer for at least 30 days, and (iv) either (a) your Platform Account has been canceled by you or force-canceled for non-payment and not reactivated within 30 days, or (b) your Platform Account has been suspended or terminated due to your breach of these Terms.
+
+Bug Bounty Program. HighLevel does not have a bug bounty program and does not pay bug bounties. HighLevel prohibits any third party access to the Platform or any HighLevel systems or networks, including any network penetration testing, security assessment or probing, except as expressly permitted by these Terms or as agreed to by HighLevel in a separate written agreement. If you’d like to report a bug or vulnerability to our Cyber Security Team, you can do so by visiting HighLevel’s Privacy and Security page located at: https://www.gohighlevel.com/privacy-and-security
+
+Certification Program. HighLevel’s Certification Program allows third parties to demonstrate their knowledge of the HighLevel Platform by passing a certification exam. Certified individuals are not employees, agents, contractors, representatives, or affiliates of HighLevel, and HighLevel does not background check, vet, supervise, sponsor, or endorse any certified individual or their business. Certification only indicates that the individual has passed a HighLevel-administered exam and does not constitute a guarantee of quality, suitability, or fitness for any particular purpose. Certification badges are unique to the individual who earned the badge and do not apply to any agency, organization, or other individuals. You agree not to misrepresent certification badges on your store, social media, or the Platform, or to state or imply that you are an employee, agent, or representative of HighLevel, or that your certification constitutes an endorsement, partnership, or business relationship with HighLevel beyond your certification status. By participating in the Certification Program, you grant HighLevel permission to display your name and contact information on the HighLevel Certified Directory. While participating in the Certification Program, you may not use the Certification Directory to solicit or recruit other certified parties for your own business, or engage in any activity inconsistent with the spirit of the Certification Program. HighLevel reserves the right to terminate your participation in the Certification Program at any time, for any reason, in its sole discretion.
+
+The directory is provided solely as a convenience for customers and does not constitute a recommendation, endorsement, or guarantee by HighLevel. Any engagement or transaction you enter into with a certified individual is solely at your own risk. HighLevel makes no warranties or guarantees regarding the outcome of any such engagement and assumes no liability for any damages, losses, or disputes arising from your use of the directory or engagement with certified individuals.
+
+You agree to indemnify and hold HighLevel harmless from any claims, damages, or liabilities arising out of your participation in the Certification Program or your use of or reliance on the Certification Directory.
+
+Ecommerce Products and Services. You are solely responsible for the Materials that you may sell through the Platform and/or Services (including description, price, fees, all tax determinations, calculations, collection, reporting, and remittance, defects, required legal disclosures, regulatory compliance, offers or promotional content), including compliance with any applicable laws or regulations.You acknowledge and agree to provide public-facing contact information, a refund policy and order fulfillment timelines on Your store using the Platform. HighLevel does not provide refunds to your customers. HighLevel does not pre-screen Materials, and it is in our sole discretion to refuse or remove any Materials from any part of the Platform, including if HighLevel determines in its sole discretion that the Materials that you offer through the Platform, or the Materials uploaded or posted to the Platform, violate our Code of Conduct or these Terms. You agree that HighLevel can, at any time, review and delete any or all of the Materials submitted to the Platform and/or Services, although HighLevel is not obligated to do so. You acknowledge and agree that the Platform and/or Services are not a marketplace, and any contract of sale made through the Platform and/or Services is directly between You and the customer. You are the seller of record for all items you sell through the Platform and/or Services. You are responsible for the creation and operation of Your store, Your Materials, the goods and services that you may sell through the Platform and/or Services, and all aspects of the transactions between You and Your customer(s). This includes, but is not limited to, authorizing the charge to the customer in respect of the customer’s purchase, refunds, returns, fulfilling any sales or customer service, fraudulent transactions, required legal disclosures, regulatory compliance, alleged or actual violation of applicable laws (including but not limited to consumer protection laws in any jurisdiction where you offer products or services for sale), or Your breach of these Terms. You represent and warrant that Your store, Your Materials and the goods and services you sell through the Platform and/or Services will be true, accurate, and complete, and will not violate any applicable laws, regulations or rights of third parties. For the avoidance of doubt, HighLevel will not be the seller or merchant or record and will have no responsibility for Your store or items sold to customers through the Platform and/or Services. HighLevel reserves the right to provide our Services and/or Platform to Your competitors and make no promise of exclusivity. You further acknowledge and agree that HighLevel employees and contractors may also be HighLevel customers or merchants and that they may compete with You. HighLevel is not responsible for damages or lawsuits that arise if you break the law, breach this agreement or go against the rights of a third party. You need to ensure that the terms & conditions applicable to your transactions with your customers do not conflict with these Terms. HighLevel is not responsible for any tax-related obligations, calculations, or compliance requirements related to your ecommerce activities. Any tax calculation features provided through the Platform are tools only and do not constitute tax advice or guarantee compliance with applicable tax laws.
+
+Tax Calculation Services. The Platform may include optional tax calculation features that integrate with third-party tax calculation service providers ("Tax Services"). Your use of any Tax Services is entirely optional and at your own risk and discretion. HighLevel provides technology integration tools only and does not provide tax advice, accounting services, or professional services of any kind. You acknowledge that HighLevel is not a tax advisor, accountant, or professional service provider. All tax calculations, whether performed by you directly or through integrated Tax Services, are provided for informational purposes only. You remain solely responsible for: (i) determining all applicable tax obligations for your business and customer transactions; (ii) ensuring accuracy of all tax calculations and filings; (iii) collecting, reporting, and remitting all required taxes; (iv) maintaining compliance with all applicable tax laws and regulations; and (v) consulting with qualified tax professionals regarding your specific tax obligations. If you elect to use Tax Services through the Platform, you acknowledge that: (i) such services are provided by third-party vendors, not HighLevel; (ii) your use of Tax Services may be subject to additional terms and conditions imposed by the tax service provider; (iii) HighLevel makes no representations, warranties, or guarantees regarding the accuracy, completeness, or reliability of any tax calculations or Tax Services; and (iv) you are solely responsible for reviewing and complying with all terms governing your use of Tax Services. HIGHLEVEL DISCLAIMS ALL LIABILITY RELATED TO TAX CALCULATIONS, TAX COMPLIANCE, AND TAX SERVICES. HighLevel makes no endorsements, representations, warranties, or guarantees and assumes no liability, obligation, or responsibility for: (i) the accuracy or completeness of any tax calculations; (ii) your compliance with applicable tax laws; (iii) any penalties, interest, or other consequences resulting from tax non-compliance; (iv) the performance or availability of Tax Services; or (v) any decisions you make based on tax calculations provided through the Platform. You agree to indemnify, defend, and hold HighLevel harmless from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising from or relating to: (i) your use of tax calculation features or Tax Services; (ii) your tax compliance or non-compliance; (iii) any tax-related disputes with customers, tax authorities, or third parties; (iv) any inaccuracies in tax calculations; and (v) your failure to comply with applicable tax laws or regulations.
+
+You acknowledge that any tax-related features provided within the Platform are offered solely for your convenience. Their provision does not constitute tax advice, and their use does not guarantee compliance with any tax laws. You agree that you are solely responsible for configuring and using such features correctly.
+
+Data Migration Services. From time to time, HighLevel may, in its sole discretion, offer to provide data migration services to assist you in transferring your data from a competitor’s platform to the HighLevel Platform (“Migration Services”). By requesting or using the Migration Services, you agree to the following terms: You represent and warrant that you have the full right and authority to provide HighLevel with access to your external accounts and to authorize the transfer of your data. You are solely responsible for providing all necessary login credentials and other information required to perform the Migration Services. HighLevel assumes no liability for an incomplete or failed migration due to your failure to provide the necessary information. Migration timelines are estimates only and delays may occur. HighLevel does not guarantee that migrations will be completed within any specific timeframe. For migrations that are unusually large or complex, or that fall outside the scope of HighLevel’s standard courtesy migration service, HighLevel may require a separate statement of work (SOW) or decline to perform the migration at its discretion. HighLevel does not guarantee service continuity, compatibility, or preservation of integrations, automations, workflows, or data relationships post-migration. You are solely responsible for verifying the completeness and accuracy of your data and for re-establishing any integrations or automations after migration. In addition to the indemnification obligations in Section 8, you agree to indemnify, defend, and hold HighLevel harmless from and against any and all third-party claims, fines, and expenses (including reasonable attorneys’ fees) arising from: (i) the data you provide for migration, including any claims of improper collection, disclosure, or processing of such data; (ii) your external accounts and any violation of the terms governing those accounts; or (iii) your violation of any applicable laws or third-party rights related to the Migration Services.
+
+2. White Labeling and Resale MAP Policy.
+
+Resale Restrictions. When reselling access to the Platform, you agree that you are fully liable to your customers for their access to and use of the Platform, and you are solely responsible for the resolution of all customer disputes and inquiries. If HighLevel determines, in its sole discretion, that you are consistently and repeatedly failing to provide your customers with adequate resolutions to their disputes and inquiries, or if we receive complaints that you are not responding to legitimate customer disputes or inquiries, we reserve the right to exercise our ability to terminate your Platform Account.
+
+Minimum Advertised Price. If you are authorized to white-label and resell access to the Platform, You may not digitally advertise access to any HighLevel package or plan for an effective price that is less than HighLevel’s then-current standard pricing for the same or substantially similar package or plan (the “MAP Policy”). This MAP Policy applies only to offerings that grant access to HighLevel’s Core Platform (the “Core Platform”) but includes instances where your offering is white-labeled, even if third parties are unaware that your offering is built on the HighLevel Platform. The Core Platform is defined as a combination of 2 or more of the following Platform features: (i) Funnel and Website Builder, (ii) Forms, (iii) Surveys, (iv) Customer Relationship Manager (“CRM”), (v) Email Builder, (vi) Calendars, and/or (vii) Automation workflows. For the avoidance of doubt, offering any of the foregoing features (or any other features not listed above) as a standalone product is not subject to the MAP Policy. HighLevel reserves the right to change its standard pricing at any time, for any reason. In the event of a change to HighLevel’s standard pricing, you are responsible for ensuring your continued compliance with the MAP Policy. HighLevel may run special pricing offers, promotions, or discounts from time-to-time (“Special Pricing”). HighLevel’s use of Special Pricing does not create an exception to the MAP Policy. Any changes to this MAP Policy will be communicated by a change to these Terms or by other forms of communication deemed appropriate by HighLevel in its sole discretion. The price at which you are digitally advertising access to the Platform is determined after deduction of coupon discounts, rebates, value of product giveaways, gift card amounts, and other promotional offers, that have the effect of lowering a digitally advertised price (“Advertised Price”). The MAP Policy only applies to the Advertised Price. The final price at which you resell access to the Platform (“Final Price”) is not subject to the MAP Policy.
+
+Lifetime Licenses Restriction. Subscription fees for access to the Platform or any standalone Platform features must be charged on a recurring basis (i.e. monthly, annually, etc.). It is a violation of these Terms to resell lifetime access to the Core Platform or any standalone features of the Platform for a one-time fee unless you have a prior written approval from HighLevel. HighLevel reserves the right to grant exceptions and revoke any such exceptions to this restriction in its sole discretion.
+
+Exceptions to MAP Policy.
+
+Exceptions. HighLevel reserves the right to make exceptions to this MAP Policy at any time, for any reason, in its sole and absolute discretion. Such exceptions must be made in writing, and may be revoked at any time, for any reason, in its sole and absolute discretion.
+
+Exclusions. The MAP Policy does not apply to Advertised Prices displayed at brick-and-mortar selling locations where the Advertised Price is not distributed or visible to customers outside said location, or where Final Prices are first disclosed to customers in “shopping carts” for web-based sales (so long as such Final Prices cannot be retrieved by search engines or otherwise displayed to customers).
+
+Limitations. This MAP Policy does not apply to advertising within any jurisdiction in which minimum advertised price policies are prohibited by law. It is a violation of this policy, however, to transmit an Advertised Price less than the MAP Policy from any such jurisdiction to customers in any jurisdiction in which the MAP Policy is permissible.
+
+Scope. For sales into the European Union and United Kingdom, this MAP Policy does not prohibit you from offering customers discounts or communicating to customers that the Final Price could differ from the Advertised Price.
+
+White Label License and Restrictions.
+
+License to White Label. Subject to your continued compliance with these Terms, we hereby grant you a limited, non-exclusive, non-transferable and revocable license to use the Platform including the design and trade-dress, as may be reasonably required for re-branding and reselling access to the Platform under your own white-label brand. Any license granted to You under this Section will automatically terminate upon a breach of this license or the Terms or a violation of the restrictions set forth below. Under this license, portions of the Platform may be modified by you, incorporating your name, logo, trademark, and color scheme into your individual access area within the Platform. You are solely responsible for copyright, trademark or other intellectual property concerns connected with you and your customers’ customized look and feel of the Platform. You acknowledge that you may not be able to customize the Platform according to your unique branding to the extent that your customization would appear to be independently developed. HighLevel may remove any of your modifications at any time without advance notice and without liability to you. You are authorized to make your white-labeled version of the Platform available on application store platforms; however, You acknowledge that HighLevel shall not be responsible in any manner whatsoever in case you are unable to publish your white-labeled version of the Platform on any app store.
+
+Restrictions. You are prohibited from participating in any illegal, deceptive, misleading or unethical practices including, but not limited to, disparagement of the Platform or Services or other practices which may be detrimental to the Platform or Services, HighLevel or the public interest. You will not, nor make any attempt to, acquire any rights in the Platform or any of its components. If you acquire any rights in the Platform or any portion thereof, by operation of law or otherwise, you, at no expense to HighLevel hereby assign all such rights to HighLevel. You are prohibited from representing yourself as a HighLevel employee or otherwise implying an association with HighLevel when reselling access to the Platform. You may not direct your customers to contact HighLevel for any reason, including but not limited to Platform support. You may not directly or indirectly solicit existing HighLevel customers to cancel their Platform Account in order to purchase a subscription to your white-label branded version of the Platform. You may not distribute marketing collateral or other advertising or sales content that directly compares HighLevel’s product to your white-label branded version of the Platform or makes claims that suggest your white-label branded version of the Platform is superior to or has more features than HighLevel’s Platform.
+
+Suspension and Termination. We may suspend or terminate your ability to resell access to the Platform in our sole discretion, with or without notice, if you violate the MAP Policy or these Terms or for any other reason in our sole and absolute discretion.
+
+Code of Conduct. You represent and warrant that, when using the Platform, you will comply with the Code of Conduct set forth in Exhibit A. HighLevel reserves the right to seek all remedies available to it in the event that You violate this Agreement, including the Code of Conduct, up to and including termination of your Platform Account.
+
+3. Payment and Taxes
+
+Fees and Auto-Renewal. You agree to provide us with accurate and complete billing information (name, address, credit card information, and phone number) and notify us of any changes within 10 days of the change. Your use of the Platform is subject to the timely payment of your and your customers’ Fees. Fees may include, but are not limited to: subscription fees, Communication Surcharges, add-on service fees, or other usage-based or subscription-based Fees offered by HighLevel as incurred by you and your customers. Fee rates and amounts may change from time to time. Fees for subscription services will be billed in advance of Services on a monthly or annual basis, depending on your subscription plan until cancelled.
+
+By agreeing to these terms, you acknowledge that your subscription will automatically renew and your payment method will be charged the then-current rates without further authorization from You.
+
+Wallets and Rebilling. Your Platform Account contains a “wallet” where you can pre-load funds to purchase Services through the Platform or to support rebilling of your customers’ Fees. If you are on the $297 or $497 plan, You are automatically enrolled in our rebilling feature and will need to update your settings in your Platform Account if You want to turn off the rebilling feature or change the automatic re-load amount. This wallet system is used for all usage-based Fees, including but not limited to Communication Surcharges, which are deducted from your wallet balance in real-time as they are incurred. When your wallet balance falls below the designated threshold of $10 USD, we will automatically charge the payment method on file to replenish your wallet to your pre-defined amount. Products purchased with wallet funds are generally subject to taxes in many jurisdictions. HighLevel calculates taxes on wallet spending after the end of each calendar month and will collect taxes from customer wallet balances at that time. It is possible that taxes collected from the wallet balance result in a negative balance. In the event you have a negative wallet balance, we will automatically charge the credit card we have on file to cover the negative balance and add funds to avoid any overdrafts. You provide your consent for HighLevel to charge your credit card to avoid any overdrafts. By using the wallet feature, You authorize HighLevel to make these automatic deductions and charges to maintain a positive wallet balance.
+
+Late Payments and Payment Disputes. If, for any reason, your credit card company declines or otherwise refuses to pay the amount owed for the Services you have purchased, we will re-attempt to charge the card on file for a period of 28 business days. Access to your account may be revoked or limited until payment is received. If, after re-attempting to charge your card, we are still unable to process the transaction, your Platform Account may be force-cancelled for non-payment in HighLevel’s sole discretion. Additionally, we may require you to pay any overdue Fees and other amounts incurred (including any third-party chargeback fees or penalties) by other means acceptable to us. In the event legal action is necessary to collect on balances due, you agree to reimburse us for all expenses incurred to recover sums due, including attorney fees and other legal expenses. In the event that you dispute any charges , You must notify us in writing within thirty (30) days of the invoice date. You must pay all invoiced Fees and charges while the dispute is pending or you waive the right to pursue the dispute. Where you are disputing any Fees or charges, you must act reasonably and in good faith and cooperate diligently with us to resolve the dispute. All HighLevel determinations regarding your obligation to pay invoiced Fees and charges are final.
+
+Cancellations. You may cancel your subscription through your Platform Account, by submitting a support ticket, or by calling our support team at (888) 732-4197 (Toll free). You are solely responsible for the cancellation of Services associated with your account, and, subject to other provisions of these Terms, you will be responsible for all Fees incurred until such cancellation occurs. No refunds will be provided for your failure to properly cancel the Services associated with your account.
+
+Mark-ups. You may not mark-up or increase any HighLevel Fees that you pass through to Your customers or third parties unless you are enrolled in our $497 tier plan. You are solely responsible for all customer pass-through Fees and related expenses, including but not limited to refunds and chargebacks of such pass-through Fees. HighLevel is not responsible for resolving issues or disputes between You and Your customers regarding pass-through Fees. You are solely responsible for all financial transactions you and your customers engage in on the Platform or while using the Services, including transactions conducted using billing tools enabled by the Services. You are exclusively responsible for all chargebacks related to activities of you and your customers, regardless of the reason for the chargeback. You are solely responsible for collecting and remitting to government authorities any taxes and government assessments related to Your resale or markup of the Services.
+
+Refunds.
+
+Nonrefundable Fees. All Fees assessed by HighLevel are non-refundable, including subscription Fees, Communication Surcharges, and HighLevel’s resale of Third Party Services, regardless of whether you actually accessed or used the Platform Account or Services during your subscription period. You are solely responsible for any excess Fees incurred by You as a result of an error or omission made by You or a third party. HighLevel does not provide Fee refunds or credits for such errors or omissions, or for partially used or unused Platform or Services subscriptions. Except as may be required by law, HighLevel reserves the right to issue or deny a refund or credit in its sole and absolute discretion, at any time, for any reason, and HighLevel’s determination of if and when to issue or deny a refund or credit is final.
+
+Pre-paid and Minimum Commitment Subscriptions. HighLevel resells some Services and Third Party Services that require pre-payment (including but not limited to ad-buying and other services). Unused or cancelled pre-paid services are non-refundable. HighLevel may, in its sole discretion, issue account credits for future services in the event that You elect to cancel any pre-paid services before the services are fully performed. Some subscriptions for Services require a non-cancellable minimum subscription commitment which cannot be canceled until the commitment is fulfilled. Fees for such non-cancellable minimum subscription commitments will continue to be automatically applied to your bill until the minimum commitment has been achieved. Some add-on services or products cannot be canceled or refunded once HighLevel has technically enabled such products and/or services on your Platform Account, including but not limited to the HIPAA package. Furthermore, your Business Associate Agreement (“BAA”) with HighLevel is contingent upon your active and fully paid subscription to the HIPAA compliance package. In the event of non-payment or payment failure for this package, any BAA entered into between you and HighLevel shall be immediately and automatically terminated and considered null and void without further notice. Upon such termination, HighLevel shall no longer be considered a Business Associate under HIPAA with respect to your account, and you are solely responsible for ensuring the compliant handling of any Protected Health Information (PHI) within the Platform.
+
+Wallet Credit Refunds. When Your Services are canceled, terminated or expired, it is Your sole obligation to request HighLevel to refund any amounts remaining in your account’s “wallet”. Any amounts remaining in the “wallet” for over thirty (30) days after expiration, termination or cancellation of your Platform Account, will automatically become the property of HighLevel. Any unused free promotional credits added to your wallet by HighLevel have no cash value, are nonrefundable, and automatically expire after 90 days if not used.
+
+Taxes and Government Assessments. All Fees are exclusive of any sales, VAT, GST and use taxes, levies, fees, duties, interest, penalties and other governmental assessments (“Taxes”) unless mentioned otherwise in these Terms. Business entities with a valid VAT or GST identification number should provide HighLevel with their VAT or GST identification number. You hereby confirm that Highlevel can rely on the VAT or GST number provided. Where applicable by law, HighLevel will shift the liability to pay VAT/GST on the Fees to you due to the application of a VAT/GST reverse charge mechanism. You are exclusively responsible for Taxes associated with your use of the Platform, including all Taxes associated with transactions you conduct with your customers. HighLevel reserves the right to calculate and add applicable Taxes, including but not limited to sales, VAT, GST, and other applicable taxes, to your invoice or wallet as legally required or as HighLevel deems appropriate, and all HighLevel determinations regarding what Taxes to collect are final. Failure to provide HighLevel with a valid VAT or GST identification number may result in VAT or GST being assessed by HighLevel. If you provide a valid VAT or GST identification number after a Fee has been paid, the VAT and GST taxes charged may not be refunded. HighLevel may recalculate and collect additional Taxes from you if it determines at any point that they are due. You will indemnify HighLevel for all Claims related to Taxes that are associated with your activities on the Platform, including any Taxes related to your transactions with your customers as further described above. Taxes are nonrefundable. You hereby confirm that HighLevel can rely on the name and address that You provide to HighLevel and You agree that the billing address you provide to HighLevel can be considered the place of supply for Tax purposes where You have established Your business. You agree to the fees in connection with your payment method, if applicable. Without limiting the generality of this Section 3.7, if any amount payable by You to Highlevel is subject to any withholding or similar taxes, You shall pay for all withholding taxes without any reduction in the Fees and Taxes charged above.
+
+4. Affiliate Program
+
+HighLevel offers an Affiliate Program under which commissions can be earned for referring new customers to HighLevel. Your participation in the Affiliate Program is subject to HighLevel’s approval and your acceptance of the Affiliate Agreement, a copy of which is available here and is incorporated herein by reference. You must establish a payment account linked to your HighLevel account in order to earn and receive commission payouts. Commissions may be forfeited if HighLevel is unable to submit payment to your payment account for any reason. Any unused commissions may be subject to escheatment under applicable laws. Employees of HighLevel are not eligible to participate in the Affiliate Program or earn commissions for at least six (6) months after termination of their employment with HighLevel.
+
+5. Intellectual Property
+
+Platform Content. The Platform and Platform Content are the property of HighLevel or its licensors and are protected by copyright, trademark and other intellectual property laws, except as indicated below. Platform Content does not include User Contribution(s), as defined below. HighLevel grants you a personal, royalty-free, non-assignable, revocable, and non-exclusive license to access and use the Platform Content while using the Platform for the purpose of making the Platform available to You and Your customers. Any other use, including the reproduction, modification, distribution, transmission, republication, framing, display or performance of Platform Content without prior permission of HighLevel is strictly prohibited.
+
+HighLevel Marks and Advertisements. HighLevel’s name, logo, or Marks (including but not limited to HighLevel, SaasPrenuer, GoHighLevel, LeadConnector) are trademarks and service marks of HighLevel and may not be used without advance written permission of HighLevel, including but not limited to as part of any company name or domain name or in connection with any product or service that is not provided by HighLevel, or in any manner that is likely to cause confusion, or in any manner that disparages, discredits, or misrepresents HighLevel. Unless you are authorized to white label and resell access to the Platform, You may not remove any HighLevel Marks, name or logo or other proprietary notices, including, without limitation, attribution information, credits, and copyright notices that have been placed on or near the Platform or Platform Content. Other products or company names mentioned on the Platform may be trademarks or service marks of their respective owners. Third-party websites may feature HighLevel Marks, with or without authorization, and such usage of HighLevel Marks does not constitute or imply any approval, sponsorship, or endorsement by HighLevel. You will not (i) make any unauthorized representations, warranties or false, misleading or deceptive statements regarding HighLevel, its Platform and Services (ii) include HighLevel or any of its Services or the Platform in any of your comparative and/or marketing advertisements.
+
+User Contributions. User Contributions are considered non-confidential and non-proprietary. You grant HighLevel, our service providers and each of their licensees, successors, and assigns the right to use, reproduce, modify, perform, display, distribute, and otherwise disclose User Contributions to third parties for the sole purpose of fulfilling HighLevel’s obligations under these Terms. HighLevel is not responsible or liable to any third party for the content or accuracy of any User Contributions, nor do we endorse the User Contribution of third parties. HighLevel is not responsible for any failure or delay in removing User Contributions that violate the Terms. HighLevel reserves the right to delete or otherwise remove any User Contributions we deem to be in violation of these Terms, with or without notice, at any time, for any reason. You represent and warrant that: (i) You own or control all rights in and to the User Contributions and have the right to grant the license granted above; (ii) All of your User Contributions comply with these Terms; and (iii) You understand and acknowledge that you are responsible for the legality, reliability, accuracy and appropriateness of your User Contribution.
+
+Prohibited User Contributions. You are prohibited from posting User Contributions on the Platform that: (i) Are unlawful, threatening, abusive, harassing, defamatory, deceptive, fraudulent, tortious, invasive of another’s privacy, or includes graphic descriptions of sexual or violent content; (ii) Victimize, harass, degrade, or intimidate an individual or group of individuals on the basis of religion, gender, sexual orientation, race, ethnicity, age, disability, or otherwise; (iii) Infringe any patent, trademark, trade secret, copyright, right of publicity, or other proprietary or intellectual property right of any party; or (iv) Breach the security of, compromise or otherwise allow access to secured, protected or inaccessible areas of the Platform, or attempt to gain access to other networks or servers via your Platform Account.
+
+Feedback. If you provide Feedback, you agree and acknowledge that your submission of Feedback is voluntary, non-confidential, and gratuitous, and HighLevel and its affiliates have no obligation to use the Feedback. You grant HighLevel and its designees a perpetual, irrevocable, non-exclusive, fully-paid up and royalty-free license to use any Feedback you submit to HighLevel without restrictions or payment or other consideration of any kind, or permission or notification to you or any third party. The license includes, without limitation, the irrevocable right to reproduce, prepare derivative works, combine with other works, alter, translate, distribute copies, display, perform, license the Feedback, and all rights therein, in the name of HighLevel or its designees throughout the universe in perpetuity in any and all media now or hereafter known.
+
+Feedback Waiver. You hereby irrevocably release and forever discharge HighLevel from any and all actions, causes of actions, claims, damages, liabilities and demands, whether absolute or contingent and of any nature whatsoever, which you now have or hereafter can, shall or may have against HighLevel with respect to the Feedback, including without limitation how HighLevel directly or indirectly uses the Feedback. You agree that you are responsible for the content of the Feedback and further agree (at HighLevel's option and at your sole expense) to defend, indemnify, and hold HighLevel harmless from any and all actions, claims, and liabilities, demands, whether absolute or contingent and of any nature whatsoever, damages, losses, costs, fees, fines or expenses, including reasonable attorneys' fees, which HighLevel may incur as a result of use of the Feedback in accordance with these Terms.
+
+Copyright; Digital Millennium Copyright Act. HighLevel is an online service provider as defined in 17 U.S.C. § 512 and is entitled to the limitations of liability (“safe harbor”) under the Digital Millennium Copyright Act (“DMCA”). If you believe that Your copyrights or intellectual property rights have been infringed by a user of the HighLevel Platform, You may submit a DMCA Takedown Request or a DMCA Counter-Notice by completing the forms located at gohighlevel.com/DMCA. If you include any personally identifiable information in your DMCA Takedown Request or Counter-Notice, you consent to the disclosure of that personally identifiable information when providing a copy of the Takedown Notice of Counter-Notice to the intended recipient and/or their representatives, unless otherwise agreed upon.
+
+Upon receipt of a fully compliant DMCA Takedown Request, a HighLevel designated copyright agent will notify and provide a copy of the DMCA Takedown Request to the alleged infringer. HighLevel may reject any notice that is incomplete, non-compliant, or not submitted via the proper channels. HighLevel will make reasonable efforts to remove the allegedly infringing content in a reasonable amount of time after receipt of the fully compliant DMCA Takedown Request, but does not guarantee a specific timeframe.
+
+The alleged infringer may submit a DMCA Counter-Notice by completing the forms located at gohighlevel.com/DMCA. Upon receipt of a fully compliant DMCA Counter-Notice, a HighLevel designated copyright agent will send a copy of the Counter-Notice to the original complaining party. HighLevel will permit reinstatement of the removed content in no less than 10 business days and no more than 14 business days after receipt of the Counter-Notice, at HighLevel’s sole discretion, unless the original complaining party files an action seeking a valid and filed court order against the content provider, member, or user. HighLevel considers a valid and filed court order to be a federal legal filing, or the appropriate country’s equivalent if the alleged infringement occurs outside of the United States. Legal actions including, but not limited to, cease and desist letters, letters of intent to take legal action, local state/city filings, and other similar actions will not be considered a valid and filed court order.
+
+Alternatively, you may email a DMCA Takedown Request or Counter-Notice in the forms described below to legalcompliance@gohighlevel.com (Subject line: “DMCA Takedown Request”) with a physical copy mailed to the designated copyright agent address below.
+
+Our designated copyright agent to receive DMCA Notices is:
+
+HighLevel LLC
+
+Attention: Copyright Agent
+
+5473 Blair Rd Ste 100, PMB 383313
+
+Dallas, Texas 75231-4227
+
+To be effective, the notification must be in writing and contain the information below. DMCA Takedown Requests or Counter-Notices that do not comply with the following requirements may be rejected and not processed
+
+For DMCA Takedown Requests:
+
+an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
+
+a description of the copyrighted work or other intellectual property that you claim has been infringed;
+
+a description of and/or a link to where the allegedly infringing material is located on the Platform, with enough detail that we may locate it;
+
+your full legal name, mailing address, telephone number, and email address;
+
+a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright or intellectual property owner, its agent, or the law; and
+
+a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner's behalf.
+
+For Counter-Notices:
+
+your electronic or physical signature;
+
+identification of the content that has been removed or to which access has been disabled and the location at which the content appeared before it was removed or disabled;
+
+a statement that you have a good-faith belief that the content was removed or disabled as a result of mistake or a misidentification of the content;
+
+your full legal name, mailing address, telephone number, and email address; and
+
+a statement that you will accept service of process from the person who provided notification of the alleged infringement.
+
+Copyright. The HighLevel Platform is a registered work under the United States Copyright Act, Registration Number TXu 2-435-865 with an effective date of registration of June 19, 2024.
+
+Patents and Patent Applications. You acknowledge that certain features and services provided within the Platform are protected by patents and pending patent applications filed with the United States Patent and Trademark Office. HighLevel’s intellectual property portfolio includes, but is not limited to, the following:
+
+U.S. Patent No. 12,010,184, issued June 11, 2024, from Application Ser. No. 18/460,891, filed on September 5, 2023.
+
+U.S. Patent No. 12,120,190, from Application Ser. No. 18/651,892, filed on May 1, 2024.
+
+U.S. Patent No. 12,205,177, from Application Ser. No. 18/341,261, filed on June 26, 2023.
+
+U.S. Patent Application Ser. No. 18/322,978, filed on May 24, 2023.
+
+U.S. Patent Application Ser. No. 18/457,510, filed on August 29, 2023.
+
+U.S. Patent Application Ser. No. 18/469,702, filed on September 19, 2023.
+
+U.S. Patent Application Ser. No. 18/470,799, filed on September 20, 2023.
+
+U.S. Patent Application Ser. No. 18/508,729, filed on November 14, 2023.
+
+U.S. Patent Application Ser. No. 18/515,750, filed on November 21, 2023.
+
+U.S. Patent Application Ser. No. 18/749,809, filed on June 21, 2024.
+
+U.S. Patent Application Ser. No. 18/762,873, filed on July 3, 2024.
+
+U.S. Patent Application Ser. No. 18/829,456, filed on September 10, 2024.
+
+U.S. Provisional Patent Application No. 63/708,917, filed on October 19, 2024.
+
+U.S. Provisional Patent Application No. 63/709,597, filed on October 21, 2024.
+
+Usage Data. HighLevel may access, collect, analyze, and use the data, information, or insights generated or derived from the provision, use and performance of the Platform, the Service and related software, programs, and technologies (“Usage Data”) in accordance with our Privacy Policy. HighLevel owns all such Usage Data. If HighLevel desires to disclose any Usage Data, then HighLevel will anonymize all Usage Data in such disclosure and disclose such Usage Data in aggregate form only in a manner that does not identify You or your customers and would not permit a third party to identify You or your customers.
+
+6. Disclaimers
+
+HighLevel makes no guarantees that your business will be profitable and that you will make money using the Platform or the Services. Except as otherwise set forth in these Terms, HighLevel is not providing any business opportunities with use of the Platform and/or Service.
+
+THE PLATFORM IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR THE WARRANTY OF NON-INFRINGEMENT. YOUR USE OF THE PLATFORM IS AT YOUR OWN DISCRETION AND RISK AND WITH YOUR AGREEMENT THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM SUCH ACTIVITIES. YOU AGREE THAT HIGHLEVEL HAS NO RESPONSIBILITY OR LIABILITY FOR THE DELETION OR FAILURE TO STORE ANY INFORMATION OR CONTENT MAINTAINED OR TRANSMITTED ON OR THROUGH THE PLATFORM.
+
+WITHOUT LIMITING THE FOREGOING, WE MAKE NO WARRANTY THAT (A) THE PLATFORM WILL MEET YOUR REQUIREMENTS, (B) THE PLATFORM WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, (C) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE PLATFORM WILL BE EFFECTIVE, ACCURATE OR RELIABLE, (D) CERTAIN FEATURES WILL BE ADDED TO THE PLATFORM, OR (E) THE QUALITY OF THE PLATFORM WILL MEET YOUR EXPECTATIONS OR BE FREE FROM MISTAKES, ERRORS OR DEFECTS.
+
+YOU ACKNOWLEDGE THAT THE INTERNET AND TELECOMMUNICATIONS PROVIDERS’ NETWORKS ARE INHERENTLY INSECURE. ACCORDINGLY, YOU AGREE THAT HIGHLEVEL IS NOT LIABLE FOR ANY CHANGES TO, INTERCEPTION OF, OR LOSS OF YOUR DATA WHILE IN TRANSIT VIA THE INTERNET OR A TELECOMMUNICATIONS PROVIDER’S NETWORK.
+
+HIGHLEVEL MAKES NO WARRANTY REGARDING ANY TRANSACTIONS EXECUTED THROUGH A THIRD PARTY OR THIRD PARTY SERVICES, OR IN CONNECTION WITH THE PLATFORM, AND YOU UNDERSTAND AND AGREE THAT SUCH TRANSACTIONS ARE CONDUCTED ENTIRELY AT YOUR OWN RISK. ANY WARRANTY THAT IS PROVIDED IN CONNECTION WITH ANY SERVICES OR CONTENT AVAILABLE ON OR THROUGH THE PLATFORM FROM A THIRD PARTY OR THROUGH THIRD PARTY SERVICES IS PROVIDED SOLELY BY SUCH THIRD PARTY.
+
+WE RESERVE THE SOLE RIGHT TO EITHER MODIFY OR DISCONTINUE THE PLATFORM, INCLUDING ANY SERVICES OR FEATURES THEREIN, AT ANY TIME WITH OR WITHOUT NOTICE TO YOU. WE SHALL NOT BE LIABLE TO YOU OR ANY THIRD PARTY SHOULD WE EXERCISE SUCH RIGHT. MODIFICATIONS MAY INCLUDE, BUT ARE NOT LIMITED TO, CHANGES IN THE PRICING STRUCTURE AND THE ADDITION OF FREE OR FEE-BASED SERVICES. ANY NEW FEATURES THAT AUGMENT OR ENHANCE THE THEN-CURRENT SERVICES ON THIS PLATFORM SHALL ALSO BE SUBJECT TO THESE TERMS OF SERVICE.
+
+SOME STATES OR JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. PLEASE CONSULT THE LAWS IN YOUR JURISDICTION.
+
+BETA PRODUCTS OR EARLY RELEASE PRODUCTS. FROM TIME TO TIME, YOU MAY HAVE THE OPTION TO PARTICIPATE IN A PROGRAM WITH HIGHLEVEL WHERE YOU GET TO USE EARLY RELEASE OR BETA PRODUCTS, FEATURES OR DOCUMENTATION (COLLECTIVELY, “BETA PRODUCTS”) OFFERED BY HIGHLEVEL. THE BETA PRODUCTS ARE NOT GENERALLY AVAILABLE AND ARE PROVIDED “AS IS” AND AS AVAILABLE EXCLUSIVE OF ANY WARRANTY WHATSOEVER. HIGHLEVEL DOES NOT PROVIDE ANY INDEMNITIES, SERVICE LEVEL COMMITMENTS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, TITLE, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE, IN RELATION THERETO. YOU OR HIGHLEVEL MAY TERMINATE YOUR ACCESS TO THE BETA PRODUCTS AT ANY TIME.
+
+7. Limitation of Liability, Indemnification, and Mitigation
+
+Your exclusive remedy and our entire liability, if any, for any claims arising out of these Terms and your use of the Platform or the Services shall be limited to the amount you paid us for Services purchased on the Platform during the three (3) month period before the act giving rise to the liability, provided however, this limitation will not apply to you if you only use the free Services, and in this case, if HighLevel determines to have any liability to you or any third party arising from your use of the free Services, then HighLevel’s aggregate liability will be limited to one hundred U.S. dollars.
+
+IN NO EVENT SHALL HIGHLEVEL BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY SPECIAL, PUNITIVE, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, THOSE RESULTING FROM MALICIOUS CODE, LOSS OF USE, DATA OR PROFIT LOSS, WHETHER OR NOT WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE PLATFORM OR THIRD PARTY SERVICES OR OF ANY WEBSITE REFERENCED OR LINKED TO FROM THE PLATFORM.
+
+FURTHER, WE SHALL NOT BE LIABLE IN ANY WAY FOR THIRD PARTY SERVICES OR DISRUPTIONS THEREOF, OR THIRD PARTY PROMISES AND/OR STATEMENTS REGARDING OUR PLATFORM SERVICES OR CONTENT OR FOR TRANSACTIONS WITH THE THIRD PARTY THROUGH THE PLATFORM, INCLUDING WITHOUT LIMITATION THE PROCESSING OF ORDERS.
+
+SOME JURISDICTIONS PROHIBIT THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. PLEASE CONSULT THE LAWS IN YOUR JURISDICTION.
+
+You agree to defend, indemnify, and hold HighLevel harmless against all demands, claims, actions, proceedings, damages, liabilities, losses, fees, costs or expenses (including without limitation reasonable attorneys’ fees and the costs of any investigation) directly or indirectly arising from or in any way connected with your use of the Platform (“Claims”), including, but not limited to: (a) our use of or reliance on information or data supplied or to be supplied by you, your employees, agents, or customers; (b) any breach of or default under these Terms by you, your employees, agents, or customers; (c) the wrongful use or possession of any HighLevel property by you, your employees, agents, or customers; (d) any actual or alleged negligence, gross negligence or willful misconduct by you or your employees, agents, or customers; (e) any actual or alleged misrepresentations by you, your employees, agents, or customers (f) actual or alleged violation(s) of applicable law by you, your employees, agents, or customers, (g) your actions and the actions of your employees, agents, or customers; (h) the acts or omissions of you, your employees, agents, or customers in connection with providing notice and obtaining consents regarding the origination or content of the RCS, SMS or MMS messages, email or other communications using the Services, (i) Taxes and other Fees (j) any disputes between (1) you and other users (2) you and your client(s) and/or (3) your customers; (k) any actual or alleged claims arising from the collection, use, storage, or disclosure of Protected Health Information (PHI) that you or your users store, manage, or transmit using the Platform in violation of the Health Insurance Portability and Accountability Act (HIPAA), the HITECH Act, any other applicable law, or any Business Associate Agreement (BAA) entered into with HighLevel; and/or (l) any actual or alleged violations of data protection or privacy laws in connection with your use of the Platform, including but not limited to actual or alleged claims related to unauthorized data processing, failure to provide required privacy notices, failure to obtain valid consents, failure to respond to data subject rights requests, improper data retention or deletion practices, and data breaches resulting from your failure to implement appropriate security measures.
+
+If the Platform is found to violate any third-party intellectual property right, at our option we may: (a) obtain the right for you to continue to use the Platform as contemplated by these Terms; (b) modify or replace the Platform, in whole or in part, to seek to make the Platform non-infringing; or (c) require you to immediately cease any use of the Platform.
+
+8. Limitation On Time to File Claims
+
+ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THESE TERMS OR THE PLATFORM MUST BE COMMENCED WITHIN THREE (3) MONTHS AFTER THE EVENT GIVING RISE TO THE ACTION OR CLAIM OCCURRED, REGARDLESS OF WHEN YOU KNEW OR SHOULD HAVE KNOWN ABOUT IT; OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.
+
+9. Injunctive Relief
+
+You agree that a breach of these Terms will cause irreparable injury to HighLevel for which monetary damages would not be an adequate remedy, and HighLevel shall be entitled to seek equitable relief, in addition to any remedies it may have hereunder or at law, without having to post a bond or other security.
+
+10. Waiver And Severability
+
+No waiver by HighLevel of a term or condition set forth in these Terms shall be deemed a continuing waiver of such term or condition or a waiver of any other term or condition. Any failure of HighLevel to assert a right or provision under these Terms shall not constitute a waiver of such right or provision.
+
+If any provision of these Terms is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms of Service will continue in full force and effect.
+
+11. Change of Control
+
+HighLevel may assign its rights under these Terms at any time, without notice to you. You may not assign your rights under these Terms without HighLevel’s prior written consent which may be withheld at HighLevel’s sole discretion.
+
+12. Entire Agreement
+
+Except as noted below, these Terms constitute the sole and entire agreement between you and HighLevel with respect to the Platform and supersede all prior and contemporaneous understandings, agreements, representations and warranties, both written and oral, with respect to the Platform. These Terms may not be altered, supplemented, or amended by the use of any other document(s) unless such document is signed by an authorized representative of HighLevel.
+
+HighLevel may enter into a separate agreement with you. The terms of any separate agreement between you and HighLevel will be considered a part of your entire agreement with HighLevel. To the extent there is a conflict between these Terms and the terms of your separate agreement with HighLevel, your separate agreement with HighLevel will control.
+
+13. Term and Termination.
+
+These Terms will remain in full force and effect so long as you maintain a Platform Account. The sections of these Terms that are intended to survive termination of your Platform Account will remain binding even after you are no longer a Platform user.
+
+Grounds for Termination. You agree that HighLevel, in its sole discretion, may suspend or terminate your access to the Platform (or any part thereof) for any reason, with or without notice, and without any liability to you or to any third party for any claims, damages, costs or losses resulting therefrom. Any suspected fraudulent, abusive or illegal activity may be grounds for barring your access to this Platform, and reporting you to the proper authorities, if necessary. HighLevel reserves the right to delete Platform Accounts that have remained inactive for ninety (90) days or more.
+
+No Right to Services Upon Termination. Upon termination and regardless of the reason(s) motivating such termination, your right to use the Platform will immediately cease. Following the termination or cancellation of your Platform Account, HighLevel will retain any data associated with your account for a period of ninety (90) days. During this period, you may have the option to reactivate your account to regain access to your data. After this ninety (90) day period, HighLevel reserves the right, in its sole discretion, to permanently delete all of your data from our systems. This process is irreversible, and HighLevel will not be liable for any loss of data or any other damages resulting from such deletion. HighLevel is not liable to you or any third party for any claims for damages arising out of any termination or suspension or any other actions taken by us with regards to your Platform access.
+
+No Termination by Third Party Users. HighLevel has limited access to subscriptions not directly purchased from us. Any user who has been given access to the Platform by any party other than HighLevel must contact the party who originally provided access to the Platform for any inquiries related to termination.
+
+Force Majeure. In addition to any excuse provided by applicable law, we shall be excused from liability for non-delivery or delay in delivery of the Platform or any associated product or service through the Platform arising from any event beyond our reasonable control, whether or not foreseeable by either party, including but not limited to: labor disturbance, war, fire, accident, adverse weather, inability to secure transportation, governmental act or regulation, and other causes or events beyond our reasonable control, whether or not similar to those which are enumerated above.
+
+14. Applicable Law, Binding Arbitration, and Class Action Waiver
+
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY BECAUSE THEY REQUIRE YOU TO AGREE TO RESOLVE ALL DISPUTES BETWEEN US THROUGH BINDING INDIVIDUAL ARBITRATION.
+
+The laws of the State of Texas will govern these Terms of Service and any disputes under them, without giving effect to any principles of conflicts of laws. These Terms may be translated into different languages—only the English version is valid and enforceable.
+
+Any controversy or claim arising out of or relating to these Terms shall be exclusively settled by arbitration administered by the American Arbitration Association in accordance with Commercial Arbitration Rules, then in effect. This arbitration provision is governed by the Federal Arbitration Act. The arbitration proceedings shall be held in Dallas, Texas. Any arbitration award may be entered in a court of competent jurisdiction.
+
+All claims and disputes within the scope of this arbitration agreement must be arbitrated or litigated on an individual basis and not on a class basis. Claims of more than one customer or user cannot be arbitrated or litigated jointly or consolidated with those of any other customer or user.
+
+15. Communications and Contact Information
+
+General Communications
+
+Except as otherwise provided in this Section 15, notices relating to the Platform, your Platform Account, or these Terms must be in writing and may be provided by email or through the Platform. General account, billing, support, product, or Platform-related communications to HighLevel should be submitted through the Platform support channels or sent to support@gohighlevel.com.
+
+Formal notices to HighLevel under these Terms that are not legal process must be sent to notices@gohighlevel.com or by mail to:
+
+HighLevel LLC
+
+ATTN: Legal Department
+
+5473 Blair Rd Ste 100, PMB 383313
+
+Dallas, Texas 75231-4227
+
+You agree to allow us to submit notices to you through the email address you provided when registering, through any other address we have on record, through the Platform, or by any other legally permissible means. Notices sent by HighLevel are effective when sent or posted, unless otherwise stated in the notice or required by applicable law.
+
+HighLevel may contact you regarding these Terms using any information you provide, or by any other means if you do not provide contact information. If you no longer wish to receive marketing communications from HighLevel, you can click the “unsubscribe” link provided in such communications or contact us at support@gohighlevel.com. Transactional, account, legal, security, and service-related communications may still be sent where permitted by applicable law.
+
+When you create a Platform Account, you must designate a primary email address that will be used for receiving electronic communications related to these Terms and the Platform. HighLevel will never send you an email requesting confidential information such as account numbers, usernames, or passwords, and you should never respond to any email requesting such information. If you receive a suspicious email purportedly from HighLevel, do not respond to the email and report it through HighLevel’s support channels or by contacting support@gohighlevel.com.
+
+For all other feedback, comments, requests for technical support, and other communications relating to the Platform, please contact us through the Platform support channels or at support@gohighlevel.com.
+
+Legal Process
+
+Notwithstanding the foregoing, subpoenas, warrants, court orders, civil investigative demands, regulatory inquiries, preservation requests, litigation holds, and other legal process directed to HighLevel must be properly served on HighLevel’s registered agent or otherwise served in accordance with applicable law.
+
+HighLevel does not consent to accept service of legal process by email, support ticket, chat, social media message, telephone, text message, or delivery to any HighLevel employee, contractor, executive, office location, or Platform feature unless HighLevel expressly agrees in writing or applicable law authorizes that method of service.
+
+A courtesy copy of legal process may be sent to notices@gohighlevel.com for routing and intake purposes only. Sending a courtesy copy to that address does not constitute valid service, acceptance of service, waiver of service requirements, or waiver of any objection, defense, privilege, or other right available to HighLevel. Sending a courtesy copy also does not create any obligation for HighLevel to preserve, collect, produce, disclose, or otherwise act on any information except as required by applicable law.
+
+Requests submitted to notices@gohighlevel.com should identify the requesting party, the legal authority invoked, the matter or investigation, the Platform Account or Sub-Account at issue, the specific information requested, the relevant date range, any applicable response deadline, and the requester’s complete contact information. Government and law enforcement requests should be submitted from an official government-issued email domain unless HighLevel approves another method. Requests or legal correspondence sent to any other address, channel, employee, contractor, agent, executive, or Platform feature may not be processed.
+
+HighLevel reserves the right to reject, challenge, seek clarification regarding, or seek narrowing of any request that HighLevel believes is unlawful, overbroad, vague, unduly burdensome, improperly served, inconsistent with applicable law, or otherwise inappropriate. Where legally permitted, HighLevel may notify affected customers or account owners of requests relating to their accounts or information and may direct requesters to seek information directly from the relevant customer or account owner.
+
+Nothing in this Section limits HighLevel’s ability to respond to emergency requests, report unlawful activity, preserve or disclose information, or otherwise cooperate with law enforcement, regulators, or other third parties where HighLevel reasonably determines that doing so is permitted or required by applicable law.
+
+16. Definitions
+
+“Communication Surcharges” means any applicable communications service or telecommunication provider (e.g., carrier) fees or surcharges related to your use of the Platform.
+
+“Competitor” shall include, but not be limited to, any entity carrying on a business of marketing and sales platform, SaaS, any entity offering one or more services offered by the Platform, or any entity carrying on a business similar to the business of HighLevel LLC and its subsidiaries, as determined by HighLevel in its sole discretion. For the avoidance of doubt, Highlevel customers who white-label and resell the Platform are not Competitors.
+
+"Feedback” means ideas You provide to HighLevel regarding improvements, enhancements, new features, new products, or other concepts related to the Platform, Services, or other services, products, matters related to HighLevel’s or its affiliates’ business. “Feedback” includes any ideas posted to HighLevel’s ideaboard.
+
+“Fees” means any fees associated with the Platform, including but not limited to the monthly subscription services fee and any fees associated with add-in Services that you may purchase.
+
+"HighLevel Marks” means the HighLevel name and related logos and service marks of HighLevel.
+
+“Information” means data about You and Your customers that HighLevel collects on the Platform, including but not limited to information required to create a Platform Account and use the Platform for the intended purpose.
+
+“Login Credentials” means the username and password used to access your Platform Account, including API keys and access to third party integrations used with the Platform.
+
+“Marketplace” means the digital third party application marketplace made available through the HighLevel Platform.
+
+“Materials” means Your trademarks, copyright content, any tangible products or services you sell through the Platform (including description and price), and any photos, images, videos, graphics, written content, audio files, code, information, or other data provided or made available by you or your affiliates to HighLevel or its affiliates.
+
+“Platform” means any Services, Training, content, functionality, communication channels, and software or other services or features offered to customers on or through HighLevel’s website or mobile application.
+
+“Platform Account” means the account you created in order to access and use the Platform.
+
+“Platform Content” means content, data, features, and functionality, including but not limited to text, graphics, videos, logos, button icons, databases, music, sounds, images, or other material that can be viewed on the Platform. Platform Content does not include User Contributions.
+
+“Prohibited Uses” means the behaviors described in Section 3.
+
+“Services” means the variety of product integrations and services that HighLevel makes available on the Platform. Services may include Third Party Services.
+
+“Snapshot” means a computer program representing a saved version of a specific configuration or setup of a marketing campaign. Snapshots can include digital files of any type, including software code, photos, images, videos, graphics, written content, audio files, information, or other data.
+
+“Sub-Account” means a subscription for one business under a Platform Account.
+
+“Third Party Content” means content, promotions or offers provided by third parties or links to external third-party websites that may be accessible on the Platform.
+
+“Third Party Services” means third-party websites, databases, networks, servers, information, software, programs, systems, directories, applications, or products or services offered by a third party through the Highlevel Platform. This includes but is not limited to applications downloaded from the HighLevel Marketplace, integrations with third party applications, or any functionality that is provided by a third party through the Platform.
+
+“Training” means any training, information or suggested usages conveyed by HighLevel about the Platform.
+
+“User Contributions” means content or materials that you post, submit, upload, publish, display, or transmit on or through the Platform or to HighLevel directly.
+
+“You” or “you” or any derivatives thereof means the individual who accepted the Terms or the business entity that the individual represents. “You” also includes any and all agents, employees, or third parties that are authorized to act on your behalf.
+
+EXHIBIT A
+
+CODE OF CONDUCT
+
+The following are considered Prohibited Uses of the Platform. Engaging in a Prohibited Use is a material breach of these Terms for which HighLevel may immediately suspend or terminate your Platform Account in accordance with these Terms:
+
+Use of the Platform in any way that violates any applicable law or regulation.
+
+Use of the Platform in a country that prohibits or restricts the use of Artificial Intelligence. 
+
+Use of the Platform to exploit, harm, or attempt to exploit or harm anyone in any way. 
+
+Use of the Platform to send, receive, upload, download, use, or re-use any material that does not comply with these Terms.
+
+Use of the Platform to transmit, or procure the sending of any unlawful advertising or promotional material, including any “junk mail,” “chain letter,” “spam,” or any other similar solicitation.
+
+Impersonating or attempting to impersonate HighLevel, a HighLevel employee, another user or any other person or entity (including, without limitation, by using email addresses associated with any of the foregoing).
+
+Engaging in any other conduct that restricts or inhibits anyone's use or enjoyment of the Platform
+
+Engaging in any conduct that may, as determined by HighLevel, harm Platform users or HighLevel, or expose either to liability. 
+
+Use of the Platform in any manner that could disable, overburden, damage, or impair the Platform or interfere with any other party's use of the Platform, including their ability to engage in real time activities through the Platform.
+
+Use of any robot, spider or other automatic device, process or means to access the Platform for any purpose, including monitoring or copying any of the material on the Platform.
+
+Use of any manual process to monitor or copy any of the material on the Platform or for any other unauthorized purpose without HighLevel’s prior written consent.
+
+Use of any device, software or routine that interferes with the proper working of the Platform.
+
+Introducing any viruses, Trojan horses, worms, logic bombs, or other material that is malicious or technologically harmful.
+
+Attempting to gain unauthorized access to, interfere with, damage, or disrupt any parts of the Platform, the server on which the Platform is stored, any server, computer, or database connected to the Platform.
+
+Attacking the Platform via a denial-of-service attack or a distributed denial-of-service attack.
+
+Otherwise attempting to interfere with the proper working of the Platform.
+
+Child sexual exploitation or abuse content.
+
+Sexually explicit content.
+
+Generation of hateful, harassing, or violent content. 
+
+Abusive or fraudulent conduct.
+
+This includes but is not limited to:
+
+Promoting or facilitating the generation or distribution of spam, fraudulent activities, scams, phishing, or malware;
+
+Compromising cybersecurity systems or gaining unauthorized access to violate the integrity of any user, network, computer or communications system, software application, or network or computing device;
+
+Violate any natural person’s rights, including privacy rights as defined in applicable privacy law;
+
+Appropriating confidential or personal information;
+
+Impersonating a human by presenting results as human-generated;
+
+Engaging in disinformation campaigns;
+
+Astroturfing, or the generation of fake grassroots support or fake review information;
+
+Plagiarize or engage in other forms of academic dishonesty.
+
+Illegal or highly regulated goods or services content, or other activity that has a high risk of economic or physical harm. This includes but is not limited to:
+
+Engaging in any illegal activity;
+
+Providing instructions on how to commit or facilitate any type of crime;
+
+Gambling;
+
+Payday lending;
+
+Cryptomining practices;
+
+Automatic determinations of eligibility for credit, employment, educational institutions, or public assistance services;
+
+Engaging in unauthorized practice of law or seeking unreviewed legal advice;
+
+Engaging in unauthorized practice of medicine or seeking unreviewed medical advice;
+
+Providing unauthorized financial advice;
+
+Law enforcement application or criminal justice decisions;
+
+Military or warfare application, weapons development;
+
+Management or operation of critical infrastructure in energy, transportation, and water;
+
+Political campaigning or lobbying in violation of campaign laws
+
+EXHIBIT B
+
+ARTIFICIAL INTELLIGENCE ACCEPTABLE USE POLICY & DISCLAIMERS
+
+Your use of any Artificial Intelligence (“AI”) features of the Platform is subject to the following terms in addition to the main Terms of Service.
+
+Disclaimers and Acknowledgement of Risk.
+
+AI Output May Be Inaccurate. You acknowledge that artificial intelligence and machine learning are rapidly evolving fields. The AI features may produce content that is inaccurate, incomplete, offensive, or that does not reflect the most current information. HighLevel makes no warranty or guarantee as to the accuracy, reliability, timeliness, or appropriateness of any content generated by the AI features.
+
+No Professional Advice. As stated elsewhere in these Terms, content generated by the AI features does not constitute legal, financial, medical, or other professional advice. You should consult with a qualified professional for such advice.
+
+AS-IS Basis. THE AI FEATURES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. HIGHLEVEL EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT WITH RESPECT TO THE AI FEATURES.
+
+Your Responsibilities.
+
+Review of AI Output. You are solely responsible for reviewing, editing, and validating all AI-generated content before its use, publication, or distribution. You should not rely on any AI-generated content without independent verification. You assume all risks associated with the use of content generated by the AI features.
+
+Sensitive Information. You agree not to provide any sensitive personal information, Protected Health Information (PHI), or other confidential information as input into the AI features. You acknowledge that data you provide may be processed by third-party AI service providers subject to their own terms and privacy policies.
+
+Indemnification. In addition to the indemnification obligations in Section 8 of these Terms, you agree to indemnify, defend, and hold HighLevel harmless from any and all claims, damages, and liabilities arising from your use of the AI features or any content generated therefrom, including but not limited to claims of copyright infringement, defamation, or misinformation.
+
+Acceptable Use.
+
+You agree not to use the AI features of the Platform in any manner contrary to relevant laws, regulations, and industry standards, including, but not limited to:
+
+In any jurisdiction that prohibits or restricts the use of AI.
+
+To discriminate against any person or group, or to generate hateful, harassing, or violent content.
+
+To generate content that infringes on any third-party intellectual property rights.
+
+To spread misinformation, engage in fraudulent or deceptive practices, or for any other malicious purpose.
+
+For any other Prohibited Uses as defined in the Code of Conduct (Exhibit A).
+
+AI features of the Platform may not be used in any manner contrary to the relevant laws, regulations, and industry standards, including, but not limited to, data protection and privacy regulations (e.g., GDPR, CCPA); financial industry guidelines (e.g., PCI DSS); as a part of automated decision making process with legal or similarly significant effects; or in violation of any intellectual property rights or geographical restriction.
+
+AI features may not be used to discriminate against any person or groups on grounds of religion, race, sexual orientation, gender, national/ethnic origin, political beliefs. disability, health status, trade union membership, age, criminal convictions or engage in any biased, intimidating, defamatory, harassing, bullying or otherwise inappropriate behaviors.
+
+AI features may not be used for generating individualized advice that in the ordinary course of business would be provided by a licensed professional including but not limited to medical, financial, tax, or legal advice. You must disclose to your customers when they are interacting with an AI-based voice or chatbot.
+
+All assets created through the use of generative AI systems must be professional and respectful. You may not use offensive or abusive language and may not engage in any behavior that could be considered discriminatory, harassing, or biased when applying generative techniques.
+
+You must take necessary steps to protect confidential and sensitive information of your users and customers
+
+AI usage may not not damage, disable, overburden, or impair any websites or launches any automated system, including “robots,” “spiders,” or “offline readers,” that sends more request messages to any servers in a given period of time than a human can reasonably produce in the same period by using a conventional browser.
+
+AI features may not be used to spread misinformation, engage in malicious activities, or any other uses that could harm individuals or society.
+
+AI features may not be used in any manner which is prohibited by the Agreement or the Code of Conduct provided herein.
+
+HIGHLEVEL VS
+
+HighLevel Vs ActiveCampaign
+
+HighLevel Vs Hubspot
+
+HighLevel Vs ClickFunnels
+
+HighLevel Vs Keap
+HighLevel Vs LinkTree
+HighLevel Vs Kartra
+HighLevel Vs Vendasta
+HighLevel Vs SharpSpring
+HighLevel Vs Klaviyo
+HighLevel Vs Zoho
+HighLevel Vs Salesforce
+
+ABOUT HIGHLEVEL
+
+Careers
+
+Blogs
+
+Events
+
+Affiliate Program
+
+Affiliate Login
+Become an Affiliate
+Affiliate Agreement
+
+CONTACT US
+
+Corporate HQ
+
+1801 N. Lamar St.
+Suite 600
+Dallas, Texas 75202
+
+Toll Free: +1 888 732 4197
+
+SOCIALS
+
+© 2026 HighLevel LLC, a subsidiary of GoHighLevel Inc. | All Rights Reserved
+
+Privacy Policy | Terms of Service | Privacy and Security

@@ -1,0 +1,28 @@
+---
+// "Our pick among tools that pay us" shown beside the highest-scored option, whatever it pays.
+import { tool, score, paysUs, scenario } from '../lib/data.mjs';
+import { oneDecimal } from '../lib/format.mjs';
+import AffLink from './AffLink.astro';
+import Fig from './Fig.astro';
+interface Props { candidates: string[]; page: string; heading?: string }
+const { candidates, page, heading = 'Where we would start' } = Astro.props;
+const scored = candidates.map((id) => ({ id, s: score(id)?.overall ?? 0 })).sort((a, b) => b.s - a.s);
+const top = scored[0]?.id;
+const paid = scored.filter((x) => paysUs(x.id))[0]?.id;
+const cards = paid && paid !== top ? [{ id: paid, kind: 'paid' }, { id: top, kind: 'top' }] : [{ id: top, kind: paid === top ? 'paid-top' : 'top' }];
+const label = { paid: 'Our pick among tools that pay us', top: 'Highest-scored option', 'paid-top': 'Highest-scored, and it pays us' };
+---
+{top && (<>
+  <h2 id="where-to-start">{heading}</h2>
+  <div class="picks">
+    {cards.map((c) => (
+      <div class={`pick${c.kind !== 'top' ? ' paid' : ''}`}>
+        <span class="lbl">{label[c.kind]}</span>
+        <h3>{tool(c.id).name}</h3>
+        <p>{tool(c.id).oneLiner}</p>
+        <p class="small">Score {score(c.id)?.overall ? oneDecimal(score(c.id).overall) : 'not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" /></p>
+        <AffLink tool={c.id} page={page} placement={`pick-${c.kind}`} label={`Visit ${tool(c.id).name}`} />
+      </div>
+    ))}
+  </div>
+</>)}

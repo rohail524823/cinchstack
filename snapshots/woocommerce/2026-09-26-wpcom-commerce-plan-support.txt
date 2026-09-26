@@ -1,0 +1,262 @@
+SOURCE: https://wordpress.com/support/plan-features/ecommerce-plan/
+FETCHED: 2026-09-26T22:04:22.604Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Products
+Resources
+Support
+Pricing
+Log in
+Get started
+Support Center
+Guides
+Courses
+Forums
+Contact
+Search
+Guides
+/
+Manage your account
+/
+Billing
+/
+Commerce plan
+Commerce plan
+Last reviewed on September 8, 2026
+Copy page
+
+Choose the Commerce plan (formerly known as the Entrepreneur plan) for everything you need to create a profitable website to sell products and services. This guide explains what’s included in the WordPress.com Commerce plan.
+
+Video tutorial
+
+In this video, you’ll learn what WooCommerce is and how to prepare your WordPress.com site for an online store. It covers choosing a store theme, activating the WooCommerce plugin, completing the setup flow, selecting optional add-ons, and setting your store location and currency.
+
+From the course: Build your store with WooCommerce
+Included in the Commerce plan
+
+The Commerce plan gives you:
+
+WordPress hosting.
+Everything included in the free version of WordPress.com.
+Everything included in the Personal plan (free domain for one year, ad-free experience, Activity Log, extra themes, install plugins, Styles to change colors and fonts, and more!)
+Everything included in the Premium plan (premium themes, advertising, Google Analytics, SEO tools, and more!)
+Everything included in the Business plan (the most storage, real-time backups, developer tools, and more).
+Create unlimited products to sell physical goods, digital products and downloadable files, personalized products (e.g., embroidered names), product bundles, and gift cards.
+Leverage exclusive and professionally designed themes for stores.
+Fine-tune your website’s design to match your brand.
+Use our large collection of blocks and patterns to showcase your products.
+Customize your cart and checkout experience.
+Process unlimited orders.
+Sell on the most popular social media channels.
+Issue coupon codes and run sales.
+Offer product recommendations.
+Capture lost sales with abandoned cart emails.
+Automate your marketing campaigns to drive return purchases and grow your store.
+View detailed analytics and segment your customers.
+Integrations with top shipping carriers.
+Accept payments in 60+ countries.
+Automate your tax calculations.
+Manage your store via the WooCommerce Mobile App.
+24/7 support from our expert Happiness Engineers.
+
+E-commerce features are provided by our WooCommerce plugin, which we automatically install with your Commerce plan. The Commerce plan expands upon the WooCommerce plugin with:
+
+A suite of handpicked WooCommerce extensions and tools to help you sell more types of products and grow your business.
+A streamlined navigation and store management experience that brings all the essential functionality to your fingertips.
+All extensions are designed to work together to help grow your store.
+Extension updates are rolled out automatically for you, empowering you to focus on growing your business – not managing plugins and updates.
+
+Below is a detailed list of extensions and features included in the Commerce plan:
+
+Products and merchandising
+Product Add-ons: Offer extra products and services that complement your products. Gift wrapping, a special message, extended warranty, insurance, customizations, and more. Allow users to upload media files, offer add-ons in formats such as checkboxes, text, radio buttons, and dropdowns, and increase the order value. For more information, visit the WooCommerce guide to Product Add-ons.
+Product Bundles: Combine products in bundles. Offer discount packages and create product kits and curated lists of products that are bought together often. For more, visit this detailed guide on Product Bundles.
+Gift Cards: Offer multipurpose gift cards that customers can redeem online. Increase loyalty and introduce new customers to your store. More information on WooCommerce Gift Cards.
+Min/Max Quantities: Set minimum and maximum quantity limits per product or order. Create rules to sell your products in quantity multiples. Learn more about setting up Min/Max Quantities.
+Back In Stock Notifications: Send automated emails to your customers when their favorite products are restocked. Recover lost sales, build customer loyalty, and gain more in-depth insights into your inventory. Learn more about Back in Stock Notifications.
+Product Recommendations: Offer smart upsells, cross-sells, and “frequently bought together” recommendations and measure their impact with in-depth analytics. More details can be found in our Product Recommendations guide.
+Getting paid
+WooPayments: Accept online payments, track revenue, and handle all payment activity from your store’s dashboard with the solution built and supported by WooCommerce. WooPayments is included with the Commerce plan, and it is also available with WooCommerce on any other paid plan. If WooPayments is not supported in your country, you can choose a gateway that works for your region.
+In-Person Payments: Accept in-person payments using WooPayments and an approved card reader. Enjoy inventory sync and payment collection with cards, swipe, tap, and contactless payment options. Available for stores based in the U.S. or Canada.
+EU VAT Number: Give EU businesses with a valid VAT number the choice to pay tax at your store.
+Marketing
+Google Listing and Ads: Create free listings and ads and showcase your products to shoppers across Google. Connect your store with Google Merchant Center and increase store traffic and sales with the extension ​​built in partnership with Google Ads. If you’re interested in learning more, take a look at our Google Listings & Ads guide.
+WooCommerce Google Analytics: Understand your site and customers better with insights on traffic sources. Use data to improve the customer journey and drive better business results. Learn more about the WooCommerce Google Analytics Integration.
+AutomateWoo: Convert and retain customers with marketing workflows that do the hard work for you. Send beautiful follow-up emails to keep your customers engaged, set up abandoned cart emails to capture lost sales, and send personalized promotions to win back your customers. Learn more about setting up AutomateWoo.
+MailPoet: Our integration with MailPoet Business offers advanced email marketing that works in tandem with WooCommerce. All features from MailPoet are designed to help your business and audience grow, including unlimited monthly emails; pre-designed newsletter templates; custom signup forms; personalized thank-you messages; and more.
+Integrations with social media: Be visible and let your customers connect with your brand on social media channels. From new businesses to enterprise leaders, our integrations for Pinterest, TikTok, and Facebook are designed to help your store be found.
+Promote your products and services to over 100 million users across Tumblr and WordPress blogs, with Blaze for WooCommerce.
+Create surveys and get feedback with Crowdsignal.
+
+Design
+Premium WooCommerce Themes: Choose from themes purposefully designed for an online store: Amulet, Kiosko, Storefront, and a few others. Can’t find a layout that you like? On the Commerce plan, you can upload any WordPress theme from the many thousands of designs by any theme creator or even a theme you designed yourself.
+Shipping
+Shipment Tracking: Give customers an easy way to track their shipment, no matter how you ship your products.
+Worldwide Shipping Methods: Get real-time rates and ship your orders via UPS, USPS, FedEx, Canada Post, Royal Mail, or Australia Post.
+Print shipping labels. Print labels for your orders for popular carriers right from WooCommerce.
+Taxes
+
+Use one of the following included extensions to simplify your tax processes in your store:
+
+Automate sales tax compliance for your multichannel e-commerce business. Accurate sales tax calculations, data aggregation, quality reporting, and filing for your WooCommerce store using TaxJar.
+Automate tax compliance for your WooCommerce store: Avalara AvaTax automates compliance from sales tax calculation and tax returns to exempt sales and more.
+
+Just purchased the Commerce plan? Learn how to get started with our step-by-step Commerce guide.
+
+Free site migration
+
+Thinking about migrating your WordPress site to WordPress.com?
+
+Our expert team can migrate the site for you while your live site remains unaffected.
+
+Our team typically completes the migration within 2–3 business days. Once it’s complete, we’ll guide you through connecting your domain and getting your new site up and running. To get started, enter your site details, then click the “Get started” button on the Let us migrate your site screen. We’ll handle the rest.
+
+Request a Free Migration
+
+Learn more about the migration process.
+
+Commerce plan free trial
+
+You can sign up for a 14-day free trial of the Commerce plan that creates a new site on your WordPress.com account. The free trial lets you test a limited set of the commerce features before purchasing to evaluate whether the plan meets your store’s needs.
+
+The free trial includes these restrictions:
+
+Your store remains in “Coming Soon” mode. When you’re ready to launch your site, upgrade to the paid Commerce plan.
+You cannot install or manage additional plugins during the free trial, other than the plugins that come installed with the plan.
+You will have access to all the themes in our Theme Showcase. Upgrade to the paid plan to install third-party themes.
+While on the free trial, you will not have access to hosting features like SFTP, SSH, or phpMyAdmin.
+VideoPress uploads are limited to one video on the free trial.
+Site admins can test the end-to-end purchase flow using WooPayments or one of our recommended payment gateways during the free trial. Upgrade to the paid Commerce plan when you’re ready to accept payments from customers.
+
+All limitations are removed when you upgrade to the paid Commerce plan. Visit Upgrades → Plans from your site’s dashboard to complete your upgrade.
+
+Was this guide helpful for you?
+
+Yay! 
+Nay! 
+Related guides
+Student plan
+5 min read
+Premium plan
+2 min read
+Personal plan
+3 min read
+Business plan
+6 min read
+
+In this guide
+
+Video tutorial
+Included in the Commerce plan
+Products and merchandising
+Getting paid
+Marketing
+Design
+Shipping
+Taxes
+Free site migration
+Commerce plan free trial
+
+Have a question?
+
+Ask our Support Assistant
+Back to top
+Couldn't find what you needed?
+Contact us
+
+Get answers from our AI assistant, with access to 24/7 expert human support on paid plans.
+
+Ask a question in our forum
+
+Browse questions and get answers from other experienced users.
+
+WordPress.com
+Products
+WordPress Hosting
+WordPress for Agencies
+Ecommerce
+Become an Affiliate
+Domain Names
+AI Website Builder
+Website Builder
+Create a Blog
+Professional Email
+Website Design Services
+WordPress Studio
+Enterprise WordPress
+Features
+Overview
+WordPress Themes
+WordPress Plugins
+WordPress Patterns
+WordPress AI Features
+Google Apps
+Resources
+WordPress.com Blog
+Business Name Generator
+Logo Maker
+WordPress.com Reader
+Accessibility
+Help
+Support Center
+Guides
+Courses
+Forums
+Contact
+Developer Resources
+Company
+About
+Press
+Terms of Service
+Privacy Policy
+Do Not Sell or Share My Personal Information
+Privacy Notice for California Users
+Deutsch
+Español
+Français
+Bahasa Indonesia
+Italiano
+Nederlands
+Português do Brasil
+Svenska
+Türkçe
+Русский
+العربية
+עִבְרִית
+日本語
+한국어
+简体中文
+繁體中文
+English
+Deutsch
+Español
+Français
+Bahasa Indonesia
+Italiano
+Nederlands
+Português do Brasil
+Svenska
+Türkçe
+Русский
+العربية
+עִבְרִית
+日本語
+한국어
+简体中文
+繁體中文
+English
+Mobile Apps
+Download on the
+App Store
+Get it on
+Google Play
+Social Media
+WordPress.com on Facebook
+WordPress.com on X (Twitter)
+WordPress.com on Instagram
+WordPress.com on YouTube
+Automattic
+An
+Automattic
+ruckus
+Work With Us

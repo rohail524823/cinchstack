@@ -1,0 +1,410 @@
+SOURCE: https://woocommerce.com/posts/woocommerce-hosting/
+FETCHED: 2026-09-26T21:59:34.322Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+
+The WooCommerce Blog
+
+All Categories
+
+Feeling stuck with your ecommerce solution? Let’s talk.
+
+Get in touch
+Choosing the best WooCommerce hosting in 2026: A practical guide
+By Christopher Jones • Apr 24, 2026
+Sell Online
+
+The right host is invisible. Your checkout loads fast, your site stays up during the campaign spike, and the only time you think about hosting is when you’re upgrading because business is good. That’s the goal. And with WooCommerce, getting there is mostly about knowing what to ask for that will set you up for success.
+
+So how do you cut through the technical jargon and find the best fit? Here’s what I tell merchants about how to get everything they need — and nothing they don’t — from a hosting platform.
+
+The good news about picking a host
+
+One of the major advantages of building with WooCommerce is the choice you have. Unlike SaaS platforms that force you to use their servers regardless of performance, WooCommerce allows you the flexibility to choose, switch, or leave a host whenever you need to. So if you outgrow your host, or are unhappy with a low-performing one, you’re not locked in.
+
+The specs that matter
+
+Most hosting companies design their plans for general WordPress sites, which is fine for blogs or static websites. But WooCommerce stores have unique needs to support heavy product catalogs, secure (and fast) checkout processes, and traffic spikes. 
+
+So as you start to consider a host, ask about these five things: 
+
+PHP workers. A PHP worker is the mechanism that takes all the code your site is built with (pulling in product details, prices, inventory), compiles it, and then renders it as HTML for your customer’s browser. Each customer visit, checkout process, etc., will use a single PHP worker behind the scenes. You’ll want to ensure you have enough to support your online store’s needs. A good starting point would be looking for a host that offers dedicated 5-10 workers.
+Object caching. Every time the PHP worker builds your page, it needs to access the dynamic content of your store. Content like the product description, price, SKU, and inventory. Your database will have those answers and serve the content back to the PHP worker. Object caching will save those answers so your database doesn’t need to answer them every time. Not having an object caching mechanism in your host will ultimately slow down your site, as those PHP workers will have to fetch the content on every page request.
+A built-in Content Distribution Network (CDN). CDNs can (and should) support both the static assets of your website, like product images, as well as the rendered HTML pages of your site. Those PHP workers went to the effort of building the page, so be sure that a host can store and serve it through a CDN so the PHP worker is available for something else.
+Vertical scaling. Email campaigns, paid ads, or influencer mentions can suddenly triple or even quintuple your usual traffic. Ensure that your host can handle these spikes automatically, without your intervention.
+WooCommerce-specific support. General WordPress support is a great starting point, but be certain to ask about WooCommerce-specific support before you choose a host.
+Hosting recommendations by growth stage
+
+Here are my recommendations for each stage.
+
+Tier 1: The starter store
+
+Best for launching your store or for stores making less than $10,000 a month.
+
+At this stage, you don’t need dedicated servers or real-time backups. You need WooCommerce pre-installed, SSL, automatic backups, and an uptime guarantee you can trust. Everything else is overhead you’re paying for before you need it. Start small. You can always move up. 
+
+My recommendation: Use the WordPress.com Commerce plan or any Bluehost Cloud’s WooCommerce starter plans
+
+Both options run on WP Cloud, Automattic’s infrastructure made for WordPress and WooCommerce. When your store grows, you can upgrade to more robust options.
+
+WordPress.com is the simplest choice. It’s made by the same company behind WooCommerce (Automattic), so you won’t run into compatibility issues. If you prefer a classic hosting dashboard, then Bluehost Cloud could be another great option. 
+
+If you’re unsure, start with WordPress.com.
+
+Tier 2: The growing store 
+
+Best for stores making $10,000 to $500,000 a month with over 1,000 daily visitors, or for those with big seasonal traffic spikes.
+
+At this stage of your store’s journey, slow checkout will cost you real money. So, the non-negotiables are vertical scaling that kicks in automatically, object caching, a built-in CDN, and support staff who can actually read and diagnose a WooCommerce stack trace. 
+
+What can wait: a dedicated account manager, enterprise SLAs, and multi-region infrastructure, unless you’re actively selling across continents. If you’re manually adjusting PHP-FPM settings (or adjusting things like `innodb_buffer_pool_size`) at this volume, something has already gone wrong. You deserve to be free of those responsibilities. Your host should handle that.
+
+My recommendation: Choose Pressable or Convesio.
+
+Both are designed for stores at this level and can gracefully handle traffic spikes by automattically adding more resources to support your potential customers.
+
+Pressable’s team specializes in WooCommerce. They usually respond in under four minutes, offer the same support on every plan, and don’t charge extra if a campaign uses more resources than expected.
+
+Convesio puts each website in its own Docker container, so another site’s traffic spike won’t affect yours. Cloudflare Enterprise is included (which offers enterprise-grade speed, security, and reliability), and every plan comes with a private Slack channel for direct technical support.
+
+If you’re watching your budget, Pressable offers a lot of bang for your buck, with cheaper plans than Convesio. If your team uses Slack a lot, you process many transactions, or you want separate infrastructure, choose Convesio.
+
+Tier 3: The big store
+
+Best for stores with multi-million annual revenue, a global audience, and a need for SLAs written in stone.
+
+At this level, hosting is as much about legal and business needs as it is about technology. In addition to everything from tier two, you need:
+
+Custom SLAs.
+Compliance documentation (SOC 2, GDPR, PCI).
+Dedicated infrastructure.
+Assigned migration and optimization support.
+Multi-region coverage.
+An account manager and support that doesn’t route through a general queue.
+
+My recommendation: WordPress VIP
+
+This is Automattic’s enterprise platform. It supports publishers and retailers who get hundreds of thousands of requests per second during big events. The support is unique: a team is assigned to your environment, codebase, and traffic patterns before any problems arise.
+
+If you’re not sure whether you need VIP, you probably don’t. But if you’re getting regular security questionnaires from your company’s procurement team, then you do.
+
+What to skip, regardless of tier
+
+Avoid generic shared hosting that only mentions “WordPress hosting” and not WooCommerce. Your cart, checkout, and account pages can’t be cached. A host that doesn’t get this might work at first, but not once your store grows.
+
+One signal that’s easy to miss: if your host asks you to “disable plugins” to diagnose a performance problem, that’s not a troubleshooting step — it’s a confession that they don’t have the ability to surface the root cause of your problem without taking destructive measures in hopes of stumbling into it. 
+
+Compare prices for the entry-level plans, not just the upgrades. Start with what fits your store now, but keep your planned growth in mind.
+
+Signals that you’ve outgrown your host
+
+Outgrowing your host is a good thing; your store is growing in both sales and functionality! Here are some signals to look out for that might indicate it’s time to consider a new hosting partner:
+
+If your checkout’s time to first byte (TTFB) is consistently over 800ms.
+WP Admin becomes slow after you reach 5,000 products or 10,000 orders.
+Your site slows down or crashes during a promotion, even once. Look out for “502 Bad Gateway” type-of messages when folks are trying to load the site.
+Support tells you to “disable plugins” to diagnose a problem. You deserve a host that can find the root cause without disrupting your business.
+You hesitate before adding a new plugin or extension.
+You’re asking for SSH access, but your host doesn’t offer it. Not having the proper tools will make a ten-minute task, into a three-hour job.
+You’re hit with overage fees after a successful week.
+You can always upgrade your hosting
+
+I recommend starting with the hosting tier that fits your store today. When you notice these signals, you can move up. Upgrading doesn’t mean starting over. And the best part, all of those hosting options will help with the migration process.
+
+​Not sure which option to pick? I tell customers to start with the smaller plan. It’s often cheaper to upgrade later than to pay for resources you don’t need yet.
+
+Have questions about your setup? Contact us.
+
+Feeling stuck with your ecommerce solution? Let’s talk.
+
+Get in touch
+
+About
+
+Christopher Jones
+Christopher is a Solutions Architect at Woo, partnering with growing merchants to solve the tricky technical problems standing in the way of their next stage of growth. When he’s not working, he’s somewhere on the Carolina coast with his family and their golden doodle, or holding a dessert he has no intention of putting down.
+On this page
+The good news about picking a host
+The specs that matter
+Hosting recommendations by growth stage
+Signals that you’ve outgrown your host
+You can always upgrade your hosting
+28 comments
+Danial
+September 21, 2020 
+Direct link to this comment
+
+Can you recommend any cloud hosting? I’ve heard Cloudways WooCommerce hosting, do you guys have any experience with them?
+
+Gareth
+Woo staff
+September 23, 2020 
+Direct link to this comment
+
+Hi, Danial
+
+Thanks for your message – good question.
+
+We don’t have an existing relationship with Cloudways, so I can’t really speak to the quality of their services. The good news is that a couple of our preferred hosting solutions offer cloud-based services (SiteGround, for example) that you may want to look into. I encourage you to reach out to them and see if their particular offering suits your needs.
+
+All the best!
+
+Sangam
+March 18, 2024 
+Direct link to this comment
+
+Start drop shipping
+
+I want E-commerce website
+
+Kathryn Marr
+March 20, 2024 
+Direct link to this comment
+
+Hi Sangam! Here’s our guide to starting a dropshipping store: How to start dropshipping in 2025
+
+Hope you find it helpful!
+
+Abdul Wahab
+April 26, 2026 
+Direct link to this comment
+
+I want to run my own store and want to earn please help me to reach my goals
+
+Christina Bevitori
+Woo staff
+May 1, 2026 
+Direct link to this comment
+
+Hi Abdul! Feel free to reach out to our team for more information on how WooCommerce can help. Get in touch
+
+Sajid
+April 27, 2026 
+Direct link to this comment
+
+Good
+
+Kathryn Marr
+May 13, 2026 
+Direct link to this comment
+
+Thanks for reading, Sajid!
+
+Dandji Mathieu
+May 16, 2026 
+Direct link to this comment
+
+J’ai commencé l’e-commerce
+
+Nesru Michael
+April 28, 2026 
+Direct link to this comment
+
+Waaw goog
+
+bineta ngom
+April 30, 2026 
+Direct link to this comment
+
+Faites les choses en français tout le monde ne comprends pas l’anglais
+
+Isaac
+May 5, 2026 
+Direct link to this comment
+
+Je commence le e commerce
+
+Kathryn Marr
+May 13, 2026 
+Direct link to this comment
+
+This was a great starting point then, Isaac! For more guidance, I recommend reading our post on How to Sell Online: How to start selling online: Nail the decisions that matter most 
+
+Traore
+May 10, 2026 
+Direct link to this comment
+
+Cool
+
+Kathryn Marr
+May 13, 2026 
+Direct link to this comment
+
+Thanks, Traore!
+
+Philemon
+May 10, 2026 
+Direct link to this comment
+
+I want to learn more
+
+Kathryn Marr
+May 13, 2026 
+Direct link to this comment
+
+Hi Philemon! For more information on hosting, I would recommend checking out our recommended hosts here: Trusted WooCommerce hosting solutions
+
+Our recent post on “What I’d tell every ecommerce merchant about hosting before they launch” will be helpful as well! What I'd tell every ecommerce merchant about hosting before they launch
+
+Liam Hughes
+May 12, 2026 
+Direct link to this comment
+
+One thing I’d add from the storefront side: with WooCommerce, raw server specs matter less than how the host handles bursty traffic. A product launch or email drop can turn into 10x traffic for a few minutes, and the painful failures are usually PHP workers, object cache, and database contention rather than the headline bandwidth number. We learned to care a lot more about latency under load than the marketing benchmarks. If the host can’t keep TTFB stable when carts, checkout, and search all spike together, you end up paying for the same sale twice — once in ads, once in lost conversions. That’s the kind of detail we try to bake into our setup.
+
+Kathryn Marr
+May 13, 2026 
+Direct link to this comment
+
+Great point, Liam!
+
+Ayan Shaikh
+May 17, 2026 
+Direct link to this comment
+
+Unn, surat Gujarat
+
+Flavio
+May 18, 2026 
+Direct link to this comment
+
+.
+
+Promise Omozogie
+May 19, 2026 
+Direct link to this comment
+
+I want to start a print on demand store can i
+
+Wilfried junior Brou
+May 21, 2026 
+Direct link to this comment
+
+Simple et positive
+
+elbou junior
+May 21, 2026 
+Direct link to this comment
+
+J c est bien
+
+elbou junior
+May 21, 2026 
+Direct link to this comment
+
+L’application est magnifique tout et bien
+
+elbou junior
+May 21, 2026 
+Direct link to this comment
+
+J’ai rien dire c’est bien l’application est-ce que est-ce que je sais pas ce que vous faites pour vous aussi un fournisseur pour l’application la boutique que vous avez créé pour moi
+
+Trending
+Social media checkout data is split — here’s what that means for your 2026 Black Friday campaigns
+
+By Sydney Hamilton • Sep 14, 2026
+
+Marketing
+Why the fastest-growing channel in retail can’t find your products
+
+By Lindsey Peacock • Sep 11, 2026
+
+Sell Online
+How to choose a B2B ecommerce platform
+
+By Shubert Koong • Sep 10, 2026
+
+Enterprise Ecommerce
+Sell Online
+Never miss a beat — join our mailing list
+Subscribe
+
+View our privacy policy. You can unsubscribe anytime.
+
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+JOINT
+Use of your personal data
+We and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.
+Customize
+Accept all

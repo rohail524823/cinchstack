@@ -1,0 +1,417 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/27853679334157-Transaction-fees-and-payment-processing-rates
+FETCHED: 2026-09-26T22:11:37.409Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+PAYMENTS AND SUBSCRIPTIONS
+Transaction fees and payment processing rates
+An overview of the cost associated with selling on Squarespace.
+
+Last updated August 3, 2026
+
+English
+
+If you sell products, collect donations, or charge visitors for access to gated content, review this guide to understand which rates and fees apply to you, how you’re charged, and how to view every rate and fee applied to each of your transactions.
+
+There are two types of costs for completing a sale through Squarespace: payment processing rates and Squarespace transaction fees. Payment processing rates are charged for every purchase, while transaction fees depend on your billing plan and what you’re selling.
+
+Tip
+
+To sell on Squarespace, first connect a payment processing solution.
+
+Can I use Squarespace Payments?
+
+Review this availability guide to check if Squarespace Payments is available in your area. We’ll be rolling out Squarespace Payments to more countries soon.
+
+Squarespace Payments rates for websites
+
+Every time you process a transaction, you’ll be charged a fee based on the payment processing rates below. Squarespace Payments is fully integrated within the Squarespace platform, which simplifies accepting and managing payments on Squarespace. The Squarespace Payments service fees are set out below, with rates differing depending on your billing plan and the country in which your business operates. With Squarespace Payments, you can also unlock some lower payment rates with our new website billing plans.
+
+The payment solution you use, determines your payment processing rates. You can collect and manage payments all within Squarespace with our native payment solution, Squarespace Payments. You can also connect to a third-party processor such as Stripe, PayPal, or Square.
+
+Note
+
+For US rates, standard card rates apply to major credit and debit cards and premium card rates apply to American Express and select business, commercial, and corporate cards. International cards incur an extra surcharge.
+
+Squarespace Payments rates: Basic, Core, Plus, Advanced plans
+
+If you're on the Basic, Core, Plus, or Advanced plan, your fees will depend on which country your business operates in:
+
+🇺🇸 US
+🇨🇦 CA
+🇬🇧 UK
+🇮🇪 IE, 🇫🇷 FR, 🇩🇪 DE, 🇳🇱 NL, 🇪🇸 ES, 🇧🇪 BE, 🇫🇮 FI, 🇦🇹 AT, 🇮🇹 IT, 🇵🇹 PT
+🇦🇺 AU
+🇳🇿 NZ
+	Basic	Core	Plus	Advanced
+Standard Cards	2.9% + $0.30	2.9% + $0.30	2.7% + $0.30	2.5% + $0.30
+International Cards surcharge	+1.5%	+1.5%	+1.5%	+1.5%
+ACH Direct Debit	1.5%	1%	1%	1% ($10 maximum fee)
+Currency conversion	+1%	+1%	+1%	+1%
+Premium Cards	3.2% + $0.30	3.2% + $0.30	3.2% + $0.30	3.2% + $0.30
+Klarna	5.45% + $0.30	5.45% + $0.30	5.45% + $0.30	5.45% + $0.30
+Afterpay	6% + $0.30	6% + $0.30	6% + $0.30	6% + $0.30
+SEPA	€0.35	€0.35	€0.35	€0.35
+	Basic	Core	Plus	Advanced
+Domestic Cards (Credit/Debit)	2.9% + CA$0.30	2.9% + CA$0.30	2.7% + CA$0.30	2.5% + CA$0.30
+International Cards (Credit/Debit)	+0.7%	+0.7%	+0.7%	+0.7%
+Currency conversion	+2%	+2%	+2%	+2%
+American Express	2.9% + CA$0.30	2.9% + CA$0.30	2.9% + CA$0.30	2.9% + CA$0.30
+Klarna	5.45% + CA$0.30	5.45% + CA$0.30	5.45% + CA$0.30	5.45% + CA$0.30
+Afterpay	6% + CA$0.30	6% + CA$0.30	6% + CA$0.30	6% + CA$0.30
+SEPA	€0.35	€0.35	€0.35	€0.35
+	Basic	Core	Plus	Advanced
+Domestic Personal Cards (Credit/Debit)	2.0% + £0.25	2.0% + £0.25	1.7% + £0.25	1.5% + £0.25
+Domestic Business/Corporate Card (Credit/Debit)	3.0% + £0.25	3.0% + £0.25	3.0% + £0.25	3.0% + £0.25
+International Cards (Credit/Debit)	+1%	+1%	+1%	+1%
+Currency conversion	+2%	+2%	+2%	+2%
+American Express	3% + £0.25	3% + £0.25	3% + £0.25	3% + £0.25
+Klarna	5.99% + £0.30	5.99% + £0.30	5.99% + £0.30	5.99% + £0.30
+Clearpay	6% + £0.30	6% + £0.30	6% + £0.30	6% + £0.30
+iDEAL	€0.29	€0.29	€0.29	€0.29
+SEPA	€0.35	€0.35	€0.35	€0.35
+	Basic & Core	Plus	Advanced
+Domestic Personal Cards (Debit/Credit)	2% + €0.25	1.7% + €0.25	1.5% + €0.25
+Domestic Business/Corporate Cards (Debit/Credit)	3% + €0.25	3% + €0.25	3% + €0.25
+International Cards (Debit/Credit)	3% + €0.25	3% + €0.25	3% + €0.25
+American Express	3% + €0.25	3% + €0.25	3% + €0.25
+Klarna	5.99% + €0.30	5.99% + €0.30	5.99% + €0.30
+iDEAL	€0.29	€0.29	€0.29
+SEPA	€0.35	€0.35	€0.35
+Currency Conversion Rate	2%	2%	2%
+	Basic & Core	Plus	Advanced
+Domestic Personal Cards (Debit/Credit)	1.75% + A$0.30	1.55% + A$0.30	1.35% + A$0.30
+Domestic Business/Corporate Cards (Debit/Credit)	2.9% + A$0.30	2.9% + A$0.30	2.9% + A$0.30
+International Cards (Debit/Credit)	2.9% + A$0.30	2.9% + A$0.30	2.9% + A$0.30
+American Express	2.9% + A$0.30	2.9% + A$0.30	2.9% + A$0.30
+Klarna	5.99% + A$0.30	5.99% + A$0.30	5.99% + A$0.30
+iDEAL	€0.29	€0.29	€0.29
+SEPA	€0.35	€0.35	€0.35
+Currency Conversion Rate	2%	2%	2%
+	Basic & Core	Plus	Advanced
+Domestic Personal Cards (Debit/Credit)	2.7% + NZ$0.30	2.5% + NZ$0.30	2.3% + NZ$0.30
+Domestic Business/Corporate Cards (Debit/Credit)	3.5% + NZ$0.30	3.5% + NZ$0.30	3.5% + NZ$0.30
+International Cards (Debit/Credit)	3.5% + NZ$0.30	3.5% + NZ$0.30	3.5% + NZ$0.30
+American Express	3.5% + NZ$0.30	3.5% + NZ$0.30	3.5% + NZ$0.30
+Klarna	5.99% + NZ$0.30	5.99% + NZ$0.30	5.99% + NZ$0.30
+iDEAL	€0.29	€0.29	€0.29
+SEPA	€0.35	€0.35	€0.35
+Currency Conversion Rate	2%	2%	2%
+Squarespace Payments rates: Personal, Business, Commerce Basic, Commerce Advanced plans
+
+If you're on the Personal, Business, Commerce Basic, or Commerce Advanced plan, your rates depend on which country your business operates in. These rates also apply if you're on a legacy Personal or legacy Business plan with commerce features.
+
+North America
+
+🇺🇸 USA
+🇨🇦 CAN
+	Personal, Business	Commerce Basic, Commerce Advanced
+Standard Cards	2.9% + $0.30	2.9% + $0.30
+International Cards surcharge	+1.5%	+1.5%
+Premium Cards	3.2% + $0.30	3.2% + $0.30
+ACH / Direct Debit	1%	1%
+Klarna	5.49% + $0.30	5.49% + $0.30
+Afterpay	6% + $0.30	6% + $0.30
+SEPA	€0.35	€0.35
+Currency Conversion	+1%	+1%
+Domestic Cards (Debit/Credit)	2.9% + CA$0.30
+International Cards (Debit/Credit)	3.6% + CA$0.30
+Klarna	5.49% + CA$0.30
+Afterpay	6% + CA$0.30
+SEPA	€0.35
+Currency Conversion Rate	2%
+
+Europe
+
+🇬🇧 UK
+🇮🇪 IE, 🇫🇷 FR, 🇩🇪 DE, 🇳🇱 NL, 🇪🇸 ES, 🇧🇪 BE, 🇫🇮 FI, 🇦🇹 AT, 🇮🇹 IT, 🇵🇹 PT
+Domestic Personal Cards (Debit/Credit)	2% + £0.25
+Domestic Business/Corporate Cards (Debit/Credit)	3% + £0.25
+International Personal Cards (Debit/Credit)	3% + £0.25
+International Business/Corporate Cards (Debit/Credit)	4% + £0.25
+American Express	3% + £0.25
+Klarna	5.99% + £0.30
+Clearpay	6% + £0.30
+iDEAL	€0.29
+SEPA	€0.29
+Currency Conversion Rate	2%
+Domestic Personal Cards (Debit/Credit)	2% + €0.25
+Domestic Business/Corporate Cards (Debit/Credit)	3% + €0.25
+International Cards (Debit/Credit)	3% + €0.25
+American Express	3% + €0.25
+Klarna	5.99% + €0.30
+iDEAL	€0.29
+SEPA	€0.35
+Currency Conversion Rate	2%
+
+Australia and New Zealand
+
+🇦🇺 AU
+🇳🇿 NZ
+Domestic Personal Cards (Debit/Credit)	1.75% + A$0.30
+Domestic Business/Corporate Cards (Debit/Credit)	2.9% + A$0.30
+International Cards (Debit/Credit)	2.9% + A$0.30
+American Express	2.9% + A$0.30
+Klarna	5.99% + A$0.30
+iDEAL	€0.29
+Currency Conversion Rate	2%
+Domestic Personal Cards (Debit/Credit)	2.7% + NZ$0.30
+Domestic Business/Corporate Cards (Debit/Credit)	3.5% + NZ$0.30
+International Cards (Debit/Credit)	3.5% + NZ$0.30
+American Express	3.5% + NZ$0.30
+Klarna	5.99% + NZ$0.30
+iDEAL	€0.29
+SEPA	€0.35
+Currency Conversion Rate	2%
+Instant payouts with Squarespace Payments
+
+Service fees for the use of instant payouts with Squarespace Payments are debited from your Squarespace Payments account balance. The service fee is 1.5% of the payout amount, subject to a minimum fee depending on your location:
+
+EU: €0.50 minimum
+UK: £0.40 minimum
+US: $0.50 minimum
+Squarespace Payments rates for pay links for domains
+
+When processing orders with pay links from a Squarespace domain, you’ll be charged a processing rate. The rate can vary depending on the payment method used on the pay link. 
+
+The EU processing rates apply to Austria, Belgium, Finland, France, Germany, Ireland, Italy, Netherlands, Portugal, and Spain.
+
+Payment Method	🇺🇸 US	🇨🇦 CA	🇬🇧 UK	🇪🇺 EU	🇦🇺 AU	🇳🇿 NZ
+Domestic Personal Cards (Debit/Credit)	2.9% + $0.30	2.9% + CA$0.30	2.0% + £0.25	2% + €0.25	1.75% + A$0.30	2.7% + NZ$0.30
+Domestic Business/Corporate Cards (Debit/Credit)	—	—	3.0% + £0.25	3% + €0.25	2.9% + A$0.30	3.5% + NZ$0.30
+International Cards Surcharge	+1.5%	+0.7%	+1%	3% + €0.25	2.9% + A$0.30	3.5% + NZ$0.30
+Premium Cards (e.g. Amex)	3.2% + $0.30	2.9% + CA$0.30	3% + £0.25	3% + €0.25	2.9% + A$0.30	3.5% + NZ$0.30
+ACH / Direct Debit	1.50%	—	—	—	—	—
+Klarna	5.45% + $0.30	5.45% + CA$0.30	5.99% + £0.30	5.99% + €0.30	5.99% + A$0.30	5.99% + NZ$0.30
+Afterpay / Clearpay	6% + $0.30	6% + CA$0.30	6% + £0.30	—	—	—
+iDEAL	—	—	€0.29	€0.29	€0.29	€0.29
+SEPA	€0.35	€0.35	€0.35	€0.35	€0.35	€0.35
+Currency Conversion	+1%	+2%	+2%	+2%	+2%	+2%
+Third-party processing fees
+
+If you accept payments with a third-party solution (like Stripe, Paypal, or Square), you’ll pay them a percentage of each sale for payment processing.
+
+STRIPE
+PAYPAL
+SQUARE
+
+Stripe’s processing fees vary by country. Visit Stripe’s documentation for details:
+
+United States
+United Kingdom
+Ireland
+Australia
+
+If you don’t see your country listed above, contact Stripe for help.
+
+To review a breakdown of your Stripe fees per order, open the order in Stripe. Find the Fee line item in the Payment details section. Hover over the info icon next to the fee amount to review fee details. These details will vary depending on your website plan:
+
+Stripe processing fees - The amount reflects Stripe's processing fee
+Squarespace application fees - The amount reflects the Squarespace transaction fee
+
+To learn more, visit Stripe's documentation.
+
+PayPal’s rates and fees may vary by location. Visit PayPal’s documentation for details. You can also contact PayPal for help.
+To review your Paypal fees, log into your PayPal Business account. In the Activity tab, transaction fees appear as a payment to Squarespace
+Transaction fees are charged to the payment method on file with your PayPal account.
+Square’s processing rates vary based on how the payment is made. Visit Square’s documentation to learn more.
+Square is available as a payment processor for Squarespace point of sale in the iOS Squarespace app only.
+To review the processing fees per order in Square, view transactions in your Square dashboard.
+Transaction fees
+
+As your online store host, we collect a percentage of the total sale amount for each completed transaction. Your fee depends on your plan and what you’re selling:
+
+Commerce
+
+Fees for the sale of physical products, download products, service products, and donations.
+
+These are the commerce transaction fees for our current plans:
+
+Business	3%
+Commerce Basic	0%
+Commerce Advanced	0%
+
+These are the commerce transaction fees for our plans that we're currently rolling out in waves:
+
+Basic	2%
+Core	0%
+Plus	0%
+Advanced	0%
+
+Note
+
+The Plus website plan may not be available to you on the pricing page based on your country.
+
+These are the commerce transaction fees for our Legacy plans:
+
+Legacy Personal	3%
+Legacy Business	2%
+
+Keep in mind:
+
+If you signed up for Squarespace before November 3, 2015, and haven’t moved into a current billing plan, the Squarespace Commerce transaction fee doesn’t apply to you.
+The Legacy Business and Legacy Personal rates apply to customers who signed up for Squarespace between November 3, 2015 and November 30, 2017, and haven’t moved into a current billing plan.
+If you sell digital products, you may have different fees.
+Automated tax rates
+
+When you use automated taxes, a fee is applied to each transaction. It's combined with your total payment processing fee rather than shown as a separate line item.
+
+Digital products
+
+Fees for the sale of Digital Products like courses, video pages, and member sites are separate from commerce fees.
+
+These are the digital products transaction fees for our plans that we're currently rolling out in waves:
+
+Basic	7%
+Core	5%
+Plus	1%
+Advanced	0%
+All other plans	9% unless you have a Digital Products plan
+
+Digital Products plans
+
+If your site is on an older billing plan, your fees will depend on your digital products plan:
+
+No digital products plan	9%
+Starter	7%
+Core	3%
+Pro	0%
+Invoices
+
+Invoices are a way to send professional invoices that are personalized to your brand to your customers or clients. There are no transaction fees for invoices.
+
+Pay Links
+
+Transaction fees aren’t collected for standard Pay Links at checkout for Squarespace websites or for pay links for domains. 
+
+Acuity Scheduling
+
+You can use Acuity for booking appointments or classes. There isn't a transaction fee from Squarespace when your customer or client makes a payment for appointments. There is a payment processor fee. To learn more, visit Connecting payment processors to Acuity.
+
+Refunds
+
+You can provide a full or partial refund to your customers. When you refund customer orders, refund processing rates vary between payment solutions.
+
+Squarespace Payments
+
+If you’re subscribed to a Squarespace plan that involves transaction fees, the transaction fee is refunded to you. The Squarespace Payments rate isn't refundable.
+
+Refunds come out of your Payments account balance, which is the total amount of payments you’ve received that day. If you don't have a balance when you initiate a refund, there will be a negative balance.
+
+Any future payments you receive are used to balance out the negative figure. In the absence of new payments, we’ll initiate a debit from your connected bank account to cover the negative balance.
+
+Review your fees
+
+To view the fees you’re paying for each transaction, follow the steps below based on the site's billing plan and payment solution you use.
+
+Note
+
+Squarespace Balance doesn’t incur transaction fees or monthly fees. You can view your Squarespace Balance account information in the Finance panel.
+
+Processing rates
+
+Squarespace Payments
+
+To view the rates for a specific transaction:
+
+Open the Finance panel.
+Click Payments.
+Click a payment line item to view the payment details.
+
+Third-party processors
+
+You can view detailed payment receipts in your Stripe, PayPal, or Square account. This is the best place to find information about transaction fees and when payments will be deposited into your bank account.
+
+COMPUTER
+SQUARESPACE APP
+
+In the Orders panel, click an order to open the Order details. Scroll down and click View charge in Stripe or View in [Payment Processor].
+
+In the order details, tap Payment.
+Tap View Charge in [Payment Processor].
+Your payment processor will open in a new window. Log in to view the charge.
+Transaction fees
+
+To view the fees for a specific transaction:
+
+Open the Finance panel.
+Click Payments.
+Click a payment line item to view the payment details.
+
+Tip
+
+We don't create separate receipts for your commerce transaction fees and Digital Products transaction fees.
+
+IN THIS GUIDE
+Can I use Squarespace Payments?
+Squarespace Payments rates for websites
+Squarespace Payments rates for pay links for domains
+Transaction fees
+Refunds
+Review your fees
+Processing rates
+Transaction fees
+People also viewed
+
+Digital Products plan pricing, billing, and invoices
+
+Accept Klarna payments on your site
+
+Set up Afterpay or Clearpay for your store
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

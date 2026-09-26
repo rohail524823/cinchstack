@@ -1,0 +1,8 @@
+SOURCE: https://systeme.io/api/user-plans/pt
+FETCHED: 2026-09-26T21:47:54Z
+METHOD: curl -sL (same plan endpoint as the English pricing page, for the pt site language; monthCost/annualCost are in minor units of the listed currency)
+----
+{"title": "Gratuito", "maxContacts": 2000, "monthCost": 0, "annualCost": 0, "currency": "brl"}
+{"title": "Startup", "maxContacts": 5000, "monthCost": 9500, "annualCost": 95000, "currency": "brl"}
+{"title": "Webinar", "maxContacts": 10000, "monthCost": 20000, "annualCost": 200000, "currency": "brl"}
+{"title": "Ilimitado", "maxContacts": 1000000, "monthCost": 41400, "annualCost": 414000, "currency": "brl"}

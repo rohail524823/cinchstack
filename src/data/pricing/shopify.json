@@ -1,0 +1,558 @@
+{
+  "tool": "shopify",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from Shopify's US pricing page (with the billing switch on both Pay yearly and Pay monthly, and the FAQ expanded), the Shopify Plus and POS pricing pages, and Shopify Help Center articles on plans, fees, staff limits and billing, in a US-locale headless browser; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.shopify.com/pricing",
+      "label": "Shopify pricing page (default Pay yearly view, with full plan comparison table)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.shopify.com/pricing",
+      "label": "Shopify pricing page with the billing switch flipped to Pay monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-pricing-pay-monthly.txt"
+    },
+    {
+      "url": "https://www.shopify.com/pricing",
+      "label": "Shopify pricing page FAQ, answers expanded (cost, fees, cancellation, countries)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-pricing-faq-expanded.txt"
+    },
+    {
+      "url": "https://www.shopify.com/about",
+      "label": "What is Shopify? (plan cards and trial terms)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-about.txt"
+    },
+    {
+      "url": "https://www.shopify.com/plus/pricing",
+      "label": "Shopify Plus pricing, 1-year term selected",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-plus-pricing-1-year-term.txt"
+    },
+    {
+      "url": "https://www.shopify.com/plus/pricing",
+      "label": "Shopify Plus pricing, 3-year term selected",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-plus-pricing-3-year-term.txt"
+    },
+    {
+      "url": "https://www.shopify.com/plus/pricing",
+      "label": "Shopify Plus pricing FAQ, answers expanded (variable fee, card rates, transaction fees, other costs)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-plus-pricing-faq-expanded.txt"
+    },
+    {
+      "url": "https://www.shopify.com/pos/pricing",
+      "label": "Shopify POS pricing (plan cards, in-person rates, POS Pro)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-pos-pricing.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/pricing-overview",
+      "label": "Shopify Help Center: Pricing plans and billing overview",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-pricing-overview.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-charges/third-party-transaction-fees",
+      "label": "Shopify Help Center: Third-party transaction fees",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-third-party-transaction-fees.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/your-account/users/users-plan-requirements",
+      "label": "Shopify Help Center: Maximum number of users for each pricing plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-users-per-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/basic-shopify-plan",
+      "label": "Shopify Help Center: Basic plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-basic-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/grow-plan",
+      "label": "Shopify Help Center: Grow plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-grow-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-advanced-plan",
+      "label": "Shopify Help Center: Advanced plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-advanced-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-agentic-plan",
+      "label": "Shopify Help Center: Agentic plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-agentic-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-starter-plan",
+      "label": "Shopify Help Center: Starter plan (closed to new stores)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-starter-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-retail-plan",
+      "label": "Shopify Help Center: Retail plan (closed to new stores)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-retail-plan.txt"
+    },
+    {
+      "url": "https://www.shopify.com/starter",
+      "label": "shopify.com/starter (now redirects to the free-trial offer page)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-starter-redirects-to-free-trial-offer.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/local-pricing",
+      "label": "Shopify Help Center: Local pricing for your subscription plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-local-pricing.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/your-account/manage-billing/offers",
+      "label": "Shopify Help Center: Offers and promotions (Shopify Rewards credits)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-offers.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/your-account/manage-billing/managing-your-bills/billing-plan-changes",
+      "label": "Shopify Help Center: Managing billing plan changes",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-billing-plan-changes.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/choosing-a-plan",
+      "label": "Shopify Help Center: Choosing the right plan (break-even estimates)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-choosing-a-plan.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/fulfillment/setup/shipping-rates/third-party-carrier-calculated-shipping",
+      "label": "Shopify Help Center: Third-party carrier-calculated shipping",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-carrier-calculated-shipping.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/email/pricing",
+      "label": "Shopify Help Center: Shopify Messaging email pricing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-messaging-email-pricing.txt"
+    },
+    {
+      "url": "https://shopify.dev/changelog/adding-publicdisplayname-field-on-shopplan",
+      "label": "Shopify developer changelog: plan previously named Shopify renamed to Grow",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-dev-changelog-grow-rename.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/sms/pricing",
+      "label": "Shopify Help Center: Pricing and billing for SMS marketing campaigns",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-messaging-sms-pricing.txt"
+    },
+    {
+      "url": "https://www.shopify.com/pricing",
+      "label": "Shopify pricing page plan comparison table, with included / not-included icons read from their labels",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-pricing-compare-table.txt"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features",
+      "label": "Shopify Help Center: Plan features (index of current and legacy plans)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/shopify/2026-09-26-help-plan-features.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "The Agentic plan costs $0/mo but only puts your products in Shopify Catalog for AI chat channels and the Shop channel. You can build an online store on it but not publish it or take orders through its checkout, and Shopify Payments or third-party transaction fees apply to sales made through Shopify's direct checkout. There is no free plan for running a public online store."
+  },
+  "trial": {
+    "days": 3,
+    "cardRequired": false,
+    "summary": "3-day free trial with no credit card required. New stores then pay $1/month for the first 3 months on Basic, Grow or Advanced (monthly billing) before the standard monthly price applies.",
+    "source": 2
+  },
+  "plans": [
+    {
+      "id": "agentic",
+      "name": "Agentic",
+      "monthly": 0,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "No subscription fee. For selling in AI chat channels through Shopify Catalog; you pay only payment fees when you make a sale.",
+      "limits": [
+        "Can't publish an online store or take orders through the online store checkout",
+        "No gift cards, manual orders, Shopify Messaging or Shop post-purchase offers"
+      ],
+      "highlights": [
+        "Online card rates from 2.9% + 30¢ with Shopify Payments",
+        "Also sells on the Shop channel",
+        "Store settings and products carry over when you move to a paid plan"
+      ],
+      "source": 0
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "monthly": 39,
+      "annualMonthly": 29,
+      "priceUnit": "per-month",
+      "note": "For solo entrepreneurs. Store owner only: no staff accounts.",
+      "limits": [
+        "0 staff accounts (store owner only; collaborators and POS-only staff don't count)",
+        "No third-party carrier-calculated shipping",
+        "10 inventory locations",
+        "Up to 3 B2B catalogs"
+      ],
+      "highlights": [
+        "Online card rate 2.9% + 30¢ with Shopify Payments",
+        "2% Shopify fee on orders taken through a third-party payment provider",
+        "Unlimited products, full online store and blog",
+        "In-person selling included; POS Pro is $89/mo per location extra"
+      ],
+      "source": 0
+    },
+    {
+      "id": "grow",
+      "name": "Grow",
+      "monthly": 105,
+      "annualMonthly": 79,
+      "priceUnit": "per-month",
+      "note": "For small teams. Previously named the Shopify plan.",
+      "limits": [
+        "Up to 5 staff accounts",
+        "Carrier-calculated shipping only with annual billing or for an extra monthly fee",
+        "10 inventory locations",
+        "Up to 3 B2B catalogs"
+      ],
+      "highlights": [
+        "Online card rate 2.7% + 30¢ with Shopify Payments",
+        "1% Shopify fee on orders taken through a third-party payment provider",
+        "Full data access for custom apps built on Shopify APIs"
+      ],
+      "source": 0
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced",
+      "monthly": 399,
+      "annualMonthly": 299,
+      "priceUnit": "per-month",
+      "note": "For global reach.",
+      "limits": [
+        "Up to 15 staff accounts",
+        "10 inventory locations",
+        "Up to 3 B2B catalogs"
+      ],
+      "highlights": [
+        "Online card rate 2.5% + 30¢ with Shopify Payments",
+        "0.6% Shopify fee on orders taken through a third-party payment provider",
+        "Third-party calculated shipping rates included",
+        "Enhanced 24/7 live chat support",
+        "Per-market store, checkout and customer account customization"
+      ],
+      "source": 0
+    },
+    {
+      "id": "plus",
+      "name": "Plus",
+      "monthly": null,
+      "annualMonthly": 2500,
+      "priceUnit": "per-month",
+      "note": "Requires a 1-year term at $2,500/mo or a 3-year term at $2,300/mo (the advertised starting price). More complex, higher-volume businesses pay a variable platform fee based on revenue instead (quote from sales).",
+      "limits": [
+        "1- or 3-year term; no month-to-month option",
+        "Card rates vary by country; Shopify says to contact sales for current rates"
+      ],
+      "highlights": [
+        "Unlimited staff accounts",
+        "Online card rate 2.25% + 30¢ on the US pricing page",
+        "0.2% fee with a third-party payment provider; waived if Shopify Payments is the only provider",
+        "20 POS Pro locations included",
+        "Up to 9 free expansion stores and unlimited B2B catalogs",
+        "Fully customizable checkout and priority 24/7 support"
+      ],
+      "source": 6
+    }
+  ],
+  "addOns": [
+    {
+      "id": "pos-pro",
+      "name": "POS Pro",
+      "price": 89,
+      "unit": "per location per month",
+      "appliesTo": [
+        "basic",
+        "grow",
+        "advanced"
+      ],
+      "note": "Advanced in-store tools: unlimited staff roles and permissions, in-store inventory management, in-store pickup and flexible delivery. Plus includes 20 locations (up to 200 with Shopify Payments).",
+      "source": 0
+    },
+    {
+      "id": "sms-toll-free-number",
+      "name": "Toll-free number for SMS marketing (US and Canada)",
+      "price": 2.15,
+      "unit": "per toll-free number per month",
+      "note": "Required to send SMS marketing to US or Canadian numbers; billing starts once the number is activated.",
+      "source": 25
+    }
+  ],
+  "usage": [
+    {
+      "id": "marketing-emails",
+      "name": "Shopify Messaging marketing emails beyond the free allowance",
+      "rate": 1,
+      "unit": "per 1,000 emails after the first 10,000 free each month (up to 300,000)",
+      "note": "10,000 emails a month are free on Basic, Grow, Advanced and Plus; unused emails don't carry over. Abandoned checkout automations are always free.",
+      "source": 23
+    },
+    {
+      "id": "marketing-emails-300k",
+      "name": "Shopify Messaging marketing emails, volume tier",
+      "rate": 0.65,
+      "unit": "per 1,000 emails after 300,000 in a month",
+      "source": 23
+    },
+    {
+      "id": "marketing-emails-750k",
+      "name": "Shopify Messaging marketing emails, top volume tier",
+      "rate": 0.55,
+      "unit": "per 1,000 emails after 750,000 in a month",
+      "source": 23
+    },
+    {
+      "id": "sms-us",
+      "name": "Shopify Messaging SMS marketing message to a US number",
+      "rate": 0.012,
+      "unit": "per SMS message per recipient",
+      "note": "A campaign too long for one message is charged as several messages per recipient. Subscriber confirmations, double opt-in messages, keyword replies and test messages beyond 25 a week are charged the same way.",
+      "source": 25
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "card-rate-basic",
+      "label": "Shopify Payments online card rate, Basic (US)",
+      "amount": 2.9,
+      "display": "2.9% + 30¢ per online card payment",
+      "kind": "percent-of-sales",
+      "note": "Standard card processing; every platform pays an equivalent, so it is not summed into the scenario totals.",
+      "source": 0
+    },
+    {
+      "id": "card-rate-grow",
+      "label": "Shopify Payments online card rate, Grow (US)",
+      "amount": 2.7,
+      "display": "2.7% + 30¢ per online card payment",
+      "kind": "percent-of-sales",
+      "note": "Not summed into the scenario totals.",
+      "source": 0
+    },
+    {
+      "id": "card-rate-advanced",
+      "label": "Shopify Payments online card rate, Advanced (US)",
+      "amount": 2.5,
+      "display": "2.5% + 30¢ per online card payment",
+      "kind": "percent-of-sales",
+      "note": "Not summed into the scenario totals.",
+      "source": 0
+    },
+    {
+      "id": "card-rate-plus",
+      "label": "Shopify Payments online card rate, Plus (US)",
+      "amount": 2.25,
+      "display": "2.25% + 30¢ per online card payment",
+      "kind": "percent-of-sales",
+      "note": "Rate shown on the US pricing page; the Plus pricing page says card rates vary by country and to contact sales.",
+      "source": 0
+    },
+    {
+      "id": "card-rate-premium",
+      "label": "Shopify Payments online premium card rates (US)",
+      "amount": null,
+      "display": "3.5% / 3.3% / 3.1% / 2.95% + 30¢ (Basic / Grow / Advanced / Plus)",
+      "kind": "percent-of-sales",
+      "note": "The pricing page lists these as online premium card rates without defining which cards count as premium.",
+      "source": 0
+    },
+    {
+      "id": "card-rate-international",
+      "label": "Shopify Payments international card surcharge",
+      "amount": 1,
+      "display": "+1% on top of the online card rate",
+      "kind": "percent-of-sales",
+      "note": "The pricing page lists online international rates as the plan's online rate plus 1% on every plan.",
+      "source": 0
+    },
+    {
+      "id": "card-rate-in-person",
+      "label": "Shopify Payments in-person card rates (US)",
+      "amount": null,
+      "display": "2.6% / 2.5% / 2.4% / 2.3% + 10¢ (Basic / Grow / Advanced / Plus)",
+      "kind": "percent-of-sales",
+      "note": "In-person manual rates are 3.5% + 10¢ on Basic, Grow and Advanced and 3.4% + 10¢ on Plus.",
+      "source": 0
+    },
+    {
+      "id": "paypal-wallet",
+      "label": "PayPal Wallet rates",
+      "amount": null,
+      "display": "Starting at 3.49% + 49¢ on every plan",
+      "kind": "percent-of-sales",
+      "source": 0
+    },
+    {
+      "id": "third-party-fee-basic",
+      "label": "Shopify transaction fee with a third-party payment provider, Basic",
+      "amount": 2,
+      "display": "2% of each order",
+      "kind": "percent-of-sales",
+      "note": "Charged on top of the provider's own processing fees. Not charged on orders paid through Shopify Payments.",
+      "source": 0
+    },
+    {
+      "id": "third-party-fee-grow",
+      "label": "Shopify transaction fee with a third-party payment provider, Grow",
+      "amount": 1,
+      "display": "1% of each order",
+      "kind": "percent-of-sales",
+      "note": "Charged on top of the provider's own processing fees.",
+      "source": 0
+    },
+    {
+      "id": "third-party-fee-advanced",
+      "label": "Shopify transaction fee with a third-party payment provider, Advanced",
+      "amount": 0.6,
+      "display": "0.6% of each order",
+      "kind": "percent-of-sales",
+      "note": "Charged on top of the provider's own processing fees.",
+      "source": 0
+    },
+    {
+      "id": "third-party-fee-plus",
+      "label": "Shopify transaction fee with a third-party payment provider, Plus",
+      "amount": 0.2,
+      "display": "0.2% of each order",
+      "kind": "percent-of-sales",
+      "note": "Waived when Shopify Payments is the store's only payment provider.",
+      "source": 6
+    },
+    {
+      "id": "marketplace-sync",
+      "label": "Synced marketplace orders over 50 a month",
+      "amount": null,
+      "display": "1% up to $99/mo",
+      "kind": "other",
+      "note": "The first 50 synced marketplace orders each month are free on every plan; importing marketplace orders is unlimited.",
+      "source": 0
+    }
+  ],
+  "billingNotes": [
+    "Basic, Grow and Advanced cost $39, $105 and $399 a month month-to-month, or $29, $79 and $299 a month billed yearly. Yearly billing charges the full year upfront ($348, $948 and $3,588).",
+    "Shopify Plus has no month-to-month option: it starts at $2,500/mo on a 1-year term or $2,300/mo on a 3-year term, and more complex, higher-volume businesses pay a variable platform fee based on revenue. A Plus subscription can be cancelled when its term commitment expires.",
+    "New stores get a 3-day free trial with no credit card, then $1/month for the first 3 months on Basic, Grow or Advanced, after which the standard price applies. Switching to yearly billing during that promotion starts the annual cycle when the promotion ends, with the full year charged upfront.",
+    "Shopify Rewards (new merchants only): for the first 6 months, 1% back on sales through Shopify Payments (0.5% through other providers) as subscription credits, capped at $5,000 on Basic, $7,500 on Grow, $10,000 on Advanced and $10,000 or $15,000 on Plus (1- or 3-year contract). Credits are lost if you cancel. The scenarios leave these credits out.",
+    "No Shopify transaction fee applies to orders paid through Shopify Payments, Shop Pay, Shop Pay Installments, PayPal Express Checkout or manual methods such as cash on delivery and bank transfer.",
+    "For stores created on or after May 12, 2025, the part of an order paid with gift cards or store credit is charged the plan's third-party transaction fee even when the store uses Shopify Payments. Plus stores that use Shopify Payments as their only provider have these fees waived.",
+    "Staff accounts: Basic allows none (store owner only), Grow up to 5, Advanced up to 15, Plus unlimited. The store owner, collaborator accounts for freelancers and agencies, and POS-only staff don't count toward the limit.",
+    "Third-party carrier-calculated shipping is included on Advanced and Plus. Grow gets it only with yearly billing or for an extra monthly fee; Basic can't activate it.",
+    "Themes and apps are real, variable extra costs: paid themes are one-time purchases, and third-party apps charge their own subscriptions on their own billing cycle. Neither is included in the scenarios.",
+    "There are no setup fees. Plan charges are generally non-refundable. Downgrades, and switches from yearly to monthly billing, take effect at the end of the current billing cycle; the help centre says to contact Shopify Support before the yearly cycle ends to move to monthly billing.",
+    "The Starter and Retail plans are closed to new stores, and merchants who leave either plan can't switch back to it.",
+    "Shopify's own estimate for US stores using Shopify Payments: Grow's lower card rates pay for its higher price at about $200,000 a year in sales, and Advanced's at about $1,320,000 a year.",
+    "Grow is the plan previously named Shopify; the rename is noted in Shopify's developer changelog."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "Shopify adjusts subscription prices to the local cost of living in some regions and bills in EUR, GBP, INR or USD depending on where the store is located, and card rates and Shopify Payments availability vary by country."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo store owner, $3,000/mo in sales",
+      "assumptions": "1 person, the store owner, so Basic's lack of staff accounts doesn't matter. $3,000/mo of online sales paid through Shopify Payments, so Shopify adds no transaction fee. Card processing is not summed: at Basic's 2.9% + 30¢ online rate it is about $87 on $3,000 plus 30¢ per order. Themes and apps are excluded.",
+      "planId": "basic",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Basic plan, month-to-month",
+          "amount": 39
+        },
+        {
+          "label": "Shopify transaction fee (none with Shopify Payments)",
+          "amount": 0
+        }
+      ],
+      "monthly": 39,
+      "confidence": "high",
+      "note": "Billed yearly, Basic is $29/mo ($348 upfront). With a third-party payment provider instead of Shopify Payments, Shopify adds 2% of sales: $60/mo on $3,000 (2% × $3,000)."
+    },
+    {
+      "size": "small",
+      "label": "Small team, $30,000/mo in sales, 3 staff accounts",
+      "assumptions": "5 people, 3 of whom need their own Shopify admin login. Basic allows no staff accounts, so Grow (up to 5) is the cheapest plan that fits. $30,000/mo of online sales through Shopify Payments, so no Shopify transaction fee. Card processing is not summed: at Grow's 2.7% + 30¢ online rate it is about $810 on $30,000 plus 30¢ per order. Themes and apps are excluded.",
+      "planId": "grow",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Grow plan, month-to-month",
+          "amount": 105
+        },
+        {
+          "label": "Shopify transaction fee (none with Shopify Payments)",
+          "amount": 0
+        }
+      ],
+      "monthly": 105,
+      "confidence": "high",
+      "note": "Billed yearly, Grow is $79/mo ($948 upfront). With a third-party payment provider, Shopify adds 1% of sales: $300/mo on $30,000 (1% × $30,000)."
+    },
+    {
+      "size": "growing",
+      "label": "Growing store, $150,000/mo in sales, 8 staff accounts",
+      "assumptions": "15 people, 8 of whom need their own Shopify admin login. Grow caps staff accounts at 5, so Advanced (up to 15) is required. $150,000/mo of online sales through Shopify Payments, so no Shopify transaction fee. Card processing is not summed: at Advanced's 2.5% + 30¢ online rate it is about $3,750 on $150,000 plus 30¢ per order. Themes and apps are excluded.",
+      "planId": "advanced",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Advanced plan, month-to-month",
+          "amount": 399
+        },
+        {
+          "label": "Shopify transaction fee (none with Shopify Payments)",
+          "amount": 0
+        }
+      ],
+      "monthly": 399,
+      "confidence": "high",
+      "note": "Billed yearly, Advanced is $299/mo ($3,588 upfront). With a third-party payment provider, Shopify adds 0.6% of sales: $900/mo on $150,000 (0.6% × $150,000)."
+    }
+  ],
+  "unverified": [
+    "Starter plan price: Shopify's current pricing page no longer lists Starter, shopify.com/starter now redirects to the free-trial offer, and the help centre says Starter isn't available to new stores. No captured Shopify page shows its price, so it is not listed.",
+    "Retail plan price: the plan is closed to new stores and no captured Shopify page shows its price.",
+    "The monthly fee for adding carrier-calculated shipping to a Grow plan billed monthly is not published; the help centre only says it costs an additional monthly fee.",
+    "The Advanced tax platform is marked as an add-on on every plan, with no price on the pricing page.",
+    "Shopify Plus: the variable platform fee for complex businesses is quote-only, non-US card rates require contacting sales, and Shopify's pages differ on how the Plus term is paid (the pricing page's comparison table puts 'Starts at $2,300 USD/mo' in its Pay monthly row and marks Pay yearly as not included, while shopify.com/about shows $2,300 'billed yearly' on a 3-year term). We list the 1-year term price in the annual column because every Plus option carries at least a 1-year commitment. The terms behind the pricing page's 'Try for $399' Plus button were not captured.",
+    "The pricing page does not define which cards count as premium cards for the higher online rate.",
+    "Domain registration and paid theme prices vary and were not captured."
+  ],
+  "history": [
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
+  ]
+}

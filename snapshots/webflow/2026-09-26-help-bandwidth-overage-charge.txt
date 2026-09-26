@@ -1,0 +1,21 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/38084158877075-Why-was-I-charged-when-my-site-exceeded-its-bandwidth-limit
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/38084158877075.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:27.995183Z
+ARTICLE UPDATED: 2025-07-03T19:01:17Z | EDITED: 2025-07-03T19:01:17Z
+RENDERER: curl + HTML-to-text of article body
+----
+Why was I charged when my site exceeded its bandwidth limit?
+
+Why you may be charged if your site exceeds its bandwidth limit.
+If your site exceeds its bandwidth limit in a one month period, we’ll notify you and you won’t be charged for the overage, giving you time to reduce your site’s bandwidth usage. However, if your site exceeds its bandwidth limit for a second consecutive month, it’ll be automatically upgraded at the start of your next billing month to the appropriate Site plan or add-on with a higher bandwidth limit and you’ll be charged an additional fee.
+If you're on an annual billing cycle, your plan will upgrade but your billing cycle will remain the same. The charge for the new plan will be prorated based on the amount of time left in your current plan.
+
+Note
+
+Check our pricing page for details on bandwidth add-on pricing.
+
+I reduced my bandwidth but was still charged
+If you took steps to reduce your site’s bandwidth usage after being notified that it had exceeded its limit in the first month, but were still charged after the second month, please check that the actions you took to reduce your site’s bandwidth usage (e.g., compressing or deleting assets) were successful.
+Automatic upgrades are based on the lower bandwidth usage from your last two billing months.
+We are unable to issue refunds for bandwidth overages. However, if your bandwidth usage decreases below your new plan limits in the following months, you can downgrade your plan accordingly to better suit your needs.
+Still have questions about your bandwidth consumption? Get in touch with our support team. To help us assist you, please include the date you received the initial overage notification and any actions you took to reduce your site’s bandwidth usage.

@@ -1,0 +1,208 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/51059955082387-Updated-pricing-and-simplified-plans-for-May-2026
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/51059955082387.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:51:17.037599Z
+ARTICLE UPDATED: 2026-08-31T19:40:46Z | EDITED: 2026-08-31T19:40:46Z
+RENDERER: curl + HTML-to-text of article body
+----
+Updated pricing and simplified plans for May 2026
+
+Get answers to questions about the updated Site plans, new Team plan, and AI credits.
+Starting May 13, 2026, Webflow is simplifying its Site plan lineup, updating pricing, introducing the Team plan, and adding AI credits to all Workspace plans. These changes are designed to make it easier to choose the right plan and grow without hitting unexpected walls. This page answers common questions about what's changing, when it takes effect, and what to expect.
+
+Before you get started
+
+Check out our blog announcement for more details.
+
+What's changing and when
+Here's an overview of what's changing:
+
+- Combining CMS and Business Site plans into a unified plan called the Premium Site plan
+
+- Adjusting pricing and feature access across our paid Site plans
+
+- Introducing Team plan, an all-in-one plan for fast-growing teams that have outgrown self-serve but aren't ready for Enterprise
+
+- Including AI credits in all Workspace plans, with add-ons available to purchase extra credits
+
+The changes are rolling out in phases, based on your account, Workspace, and Site plan:
+
+Date |
+Milestone |
+
+May 13, 2026 |
+
+- Site plan changes live for new Site plan purchases
+
+- Team plan available
+
+- AI credits added to all new and existing Workspace plans and AI usage dashboard live
+
+|
+
+June 29, 2026 |
+
+- Starting this date, Site plan changes go into effect for existing sites (excluding sites in Freelancer or Agency Workspaces OR sites on legacy pricing from 2022 or earlier)
+
+- AI credit limits enforced
+
+|
+
+November 16, 2026 |
+- Starting this date, Site plan changes go into effect for existing sites in Freelancer or Agency Workspace OR sites on legacy discounts from 2022 or earlier. Customers who will see updated pricing in November were specifically notified about this timeline. All other customers will see updated pricing starting in June.
+
+|
+
+Site plan changes FAQs
+
+Good to know
+
+If you switch from monthly to yearly billing before the Site plan changes go into effect for your account, you can lock in your current plan for one more year.
+
+I'm on a Basic plan — what's changing for me?
+Here's what to expect:
+
+-
+Plan price — increases to $15/month (yearly) or $25/month (monthly)
+
+-
+Static page limit — increases from 150 to 300 pages
+
+If you're an existing customer, no changes will occur before the Site plan changes go into effect for your account. On or after that date, the above changes take effect at your next renewal or if you make a billable change.
+I'm on the CMS plan — what's changing for me?
+Here's what to expect:
+
+-
+Plan price — increases to $25/month (yearly) or $39/month (monthly)
+
+-
+Static pages — increases from 150 to 300
+
+-
+CMS items — increases from 2,000 to 20,000
+
+-
+CMS Collections — increases from 20 to 40
+
+-
+Webflow Cloud — usage limits increase across the board, including web app requests (1M to 2M/month), CPU usage (15 to 30/month), and other limits across SQLite, key-value store, and object storage
+
+-
+New features — file form upload, well-known files, and faster search indexing are now included
+
+If you're an existing customer, no changes will occur before the Site plan changes go into effect for your account. On or after that date, your site will be automatically migrated to the Premium plan at your next renewal date or if you make a billable change.
+I'm on the Business plan — what's changing for me?
+Here's what to expect:
+
+-
+Plan price — decreases to $25/month (yearly) or $39/month (monthly)
+
+-
+CMS items — increases from 10,000 to 20,000. If you have a CMS items add-on, it will be removed at renewal since the new item limit covers what it previously unlocked.
+
+-
+Bandwidth — decreases from 100GB to 50GB; if your site has exceeded 50GB in the past two billing months, Bandwidth add-ons will be added to your Site plan to cover your usage
+
+-
+Webflow Cloud — usage limits decrease across the board, including web app requests (10M to 2M/month), CPU usage (120 to 30/month), and other limits across SQLite, key-value store, and object storage
+
+If you're an existing customer, no changes will occur before the Site plan changes go into effect for your account. On or after that date, your site will be automatically migrated to the Premium plan at your next renewal date or if you make a billable change.
+I'm on an Ecommerce plan — what's changing for me?
+Nothing is changing for the Ecommerce Site plans at this time.
+What counts as a billable change?
+A billable change is any of the following:
+
+- Upgrading or downgrading your base Site plan
+
+- Switching between billing cycles (i.e., monthly vs. yearly billing)
+
+What if I need more bandwidth on the Premium plan?
+The Premium Site plan lets you purchase additional bandwidth add-ons.
+-
+Bandwidth — add extra bandwidth starting at an extra 50GB up to 2.5TB total
+
+Visit our pricing page for more details and pricing info.
+What happened to CMS items add-ons?
+CMS items add-ons have been removed. The Premium plan now includes 20,000 CMS items — enough to cover what the add-ons were previously available for. If you had a CMS items add-on on a Business plan, the add-on cost will be removed from your subscription and those CMS items are now included in your Premium plan for no additional cost.
+I'm on the Business plan — how does my bandwidth usage affect my price?
+It depends on your billing cycle, bandwidth usage, and if you had CMS item add-ons. You can use our pricing change calculator to determine your new price. Below are a few examples, with pricing in USD.
+Scenario A — Business plan on monthly billing, under 50GB bandwidth
+
+|
+Business plan (before) |
+Premium plan (after) |
+
+Plan price |
+$49/mo |
+$39/mo |
+
+Bandwidth used |
+50GB |
+50GB |
+
+Bandwidth add-ons needed |
+None |
+None |
+
+Monthly total |
+$49 |
+$39 |
+
+Your plan price drops by $10/mo and no add-ons are needed. You'll pay less.
+Scenario B — Business plan on yearly billing, 500GB bandwidth
+
+|
+Business plan (before) |
+Premium plan (after) |
+
+Plan price |
+$39/mo |
+$25/mo |
+
+Bandwidth used |
+500GB |
+500GB |
+
+Bandwidth add-ons needed |
++400GB ($160/mo) |
++450GB ($174/mo) |
+
+Monthly total |
+$199 |
+$199 |
+
+The lower plan price is offset by the add-ons needed to maintain your bandwidth. You'll pay the same.
+Scenario C — Business plan on yearly billing, 150GB bandwidth
+
+|
+Business plan (before) |
+Premium plan (after) |
+
+Plan price |
+$39/mo |
+$25/mo |
+
+Bandwidth used |
+150GB |
+150GB |
+
+Bandwidth add-ons needed |
++50GB ($20/mo) |
++100GB ($40/mo) |
+
+Monthly total |
+$59 |
+$65 |
+
+The plan price is lower, but covering your bandwidth usage with add-ons results in a higher total. You'll pay more.
+Team plan FAQ
+What makes the Team plan different from other Webflow plans?
+Most Webflow plans are purchased separately — you choose a Workspace plan, a Site plan, and add-ons independently. The Team plan bundles all into a single all-in-one plan designed for fast-growing teams that have outgrown self-serve but aren't quite ready for Enterprise. It includes a site with 100 CMS Collections, 10 seats, Webflow Localize, and features previously not available on self-serve like our new AEO agents, page branching, single-page publishing, and so much more.
+Can I purchase more sites on the Team plan?
+Yes, you can discuss that when you speak to the Webflow team.
+Is the Team plan available for monthly billing?
+No. The Team plan is only available for annual billing.
+How do I get the Team plan?
+To get started, reach out to the Webflow team from the pricing page.
+AI credits FAQs
+What are AI credits?
+AI credits are the unit used to measure usage of certain Webflow AI features. Starting May 13, 2026, AI credits are included in all Workspace plans. To learn more about which features use AI credits, how many credits are included in your plan, when credits reset, how to track usage, how to get more credits, and more, visit our Webflow AI credits help page.

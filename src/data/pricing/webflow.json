@@ -1,0 +1,823 @@
+{
+  "tool": "webflow",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from Webflow's pricing page in a US-locale headless browser (monthly and yearly billing, Site, Ecommerce and Workspace sections, comparison modals, tooltips and every Premium bandwidth option) and from Webflow Help Center billing articles fetched through the Help Center API; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Webflow pricing page with Monthly billing selected, Site, Ecommerce and Workspace sections and FAQ expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-monthly-expanded.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Webflow pricing page with Yearly billing selected, Site, Ecommerce and Workspace sections and FAQ expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-expanded.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Workspace plans, 'For freelancers & agencies' tab, Monthly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-monthly-workspaces-freelancer-agency.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Workspace plans, 'For freelancers & agencies' tab, Yearly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-workspaces-freelancer-agency.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "'Compare all Site plans' modal (CMS items, Collections, bandwidth, Webflow Cloud limits)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-compare-site-plans.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Workspace plans 'View all plan features' modal (seats, staging, AI credits)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-compare-workspace-plans.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "'Compare all Platform plans' modal (Team plan seats, CMS, bandwidth)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-compare-platform-plans.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Premium plan card with each bandwidth option selected, Monthly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-premium-bandwidth-monthly.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Premium plan card with each bandwidth option selected, Yearly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-premium-bandwidth-yearly.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Pricing card tooltips (CMS items, bandwidth guidance, transaction fee, seats)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-tooltips.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Analyze add-on card with each sessions tier selected, Monthly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-addon-analyze-monthly.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Analyze add-on card with each sessions tier selected, Yearly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-addon-analyze-yearly.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Optimize add-on card with each page-views tier selected, Monthly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-addon-optimize-monthly.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Optimize add-on card with each page-views tier selected, Yearly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-addon-optimize-yearly.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/51059955082387-Updated-pricing-and-simplified-plans-for-May-2026",
+      "label": "Webflow Help Center: Updated pricing and simplified plans for May 2026",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-may-2026-pricing-update.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961410031507-Bandwidth-overview",
+      "label": "Webflow Help Center: Bandwidth overview",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-bandwidth-overview.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/38084158877075-Why-was-I-charged-when-my-site-exceeded-its-bandwidth-limit",
+      "label": "Webflow Help Center: Why was I charged when my site exceeded its bandwidth limit?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-bandwidth-overage-charge.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/42067001590163-Surge-protection-for-overages",
+      "label": "Webflow Help Center: Surge protection for overages",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-surge-protection.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961232582419-Choose-a-Site-plan",
+      "label": "Webflow Help Center: Choose a Site plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-choose-site-plan.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961218263059-Choose-a-Workspace-plan",
+      "label": "Webflow Help Center: Choose a Workspace plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-choose-workspace-plan.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961273067411-Seats-roles-and-permissions-overview",
+      "label": "Webflow Help Center: Seats, roles, and permissions overview",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-seats-roles-permissions.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961265346451-Add-or-remove-seats-and-manage-members",
+      "label": "Webflow Help Center: Add or remove seats and manage members",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-add-remove-seats.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961379128723-Webflow-Workspace-and-Site-plans-overview",
+      "label": "Webflow Help Center: Webflow Workspace and Site plans overview",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-workspace-and-site-plans-overview.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961232231571-Switch-your-Workspace-or-Site-plan-billing-frequency",
+      "label": "Webflow Help Center: Switch your Workspace or Site plan billing frequency",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-switch-billing-frequency.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/40102090399635-Webflow-Refund-Policy",
+      "label": "Webflow Help Center: Webflow Refund Policy",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-refund-policy.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961232347411-Proration-and-refunds-on-Workspace-and-Site-plans",
+      "label": "Webflow Help Center: Proration and refunds on Workspace and Site plans",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-proration-refunds.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961279888019-Workspace-billing-and-invoices",
+      "label": "Webflow Help Center: Workspace billing and invoices",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-workspace-billing.txt"
+    },
+    {
+      "url": "https://help.webflow.com/hc/en-us/articles/33961371683987-Webflow-billing",
+      "label": "Webflow Help Center: Webflow billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-help-webflow-billing.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Webflow pricing page, default view as first loaded (Yearly billing, sections collapsed)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "'View all add-on features' modal (Optimize and Localize limits)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-compare-addons.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "The Starter Site plan is free with no time limit, but it publishes only to a webflow.io subdomain and is capped at 2 static pages, 50 CMS items (20 Collections), 1 GB bandwidth (which Webflow says usually covers ~250 page views a month) and 50 form submissions over the site's lifetime. The free Starter Workspace includes 1 full seat, 2 staging sites and 200 AI credits a month. Webflow asks for a payment method when you first subscribe to a paid plan."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "No time-limited trial of paid plans; Webflow points to the free Starter plan instead ('Try Webflow for as long as you like'). New Site and Workspace plan purchases, monthly or annual, are fully refundable if you cancel and request a refund within 14 days of the initial purchase.",
+    "source": 24
+  },
+  "plans": [
+    {
+      "id": "starter-site",
+      "name": "Starter (Site plan)",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-site-month",
+      "note": "Free site plan for building and testing; publishes to a webflow.io subdomain only.",
+      "limits": [
+        "webflow.io domain only (no custom domain)",
+        "2 static pages",
+        "50 CMS items, 20 CMS Collections",
+        "1 GB bandwidth (Webflow: usually ~250 page views per month)",
+        "50 form submissions over the lifetime of the site"
+      ],
+      "highlights": [
+        "Webflow AI",
+        "MCP server",
+        "Webflow Cloud app hosting"
+      ],
+      "source": 0
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "monthly": 25,
+      "annualMonthly": 15,
+      "priceUnit": "per-site-month",
+      "note": "For sites that don't need a CMS; no blog or other Collection-driven pages. $15/mo applies when billed yearly.",
+      "limits": [
+        "No CMS",
+        "300 static pages",
+        "10 GB bandwidth (Webflow: usually 1k-5k page views per month)"
+      ],
+      "highlights": [
+        "Custom domain",
+        "Unlimited form submissions",
+        "Password protection",
+        "Custom code"
+      ],
+      "source": 0
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "monthly": 39,
+      "annualMonthly": 25,
+      "priceUnit": "per-site-month",
+      "note": "The CMS plan; it replaced the CMS and Business plans on May 13, 2026. Price shown includes 50 GB of bandwidth; larger bandwidth options (up to 2.5 TB/month) are priced as add-ons on top. $25/mo applies when billed yearly.",
+      "limits": [
+        "20,000 CMS items, 40 CMS Collections",
+        "300 static pages",
+        "50 GB bandwidth/month included (Webflow: usually 5k–25k page views); up to 2.5 TB with bandwidth add-ons",
+        "Content management API: 120 requests per minute",
+        "Webflow Cloud: 15 apps, 2 million requests/month, 30 CPU minutes"
+      ],
+      "highlights": [
+        "Custom domain",
+        "Unlimited form submissions",
+        "Code components",
+        "Site search",
+        "Form file upload (max 10 MB)",
+        "Well-known files"
+      ],
+      "source": 0
+    },
+    {
+      "id": "ecommerce-standard",
+      "name": "Ecommerce Standard",
+      "monthly": 42,
+      "annualMonthly": 29,
+      "priceUnit": "per-site-month",
+      "note": "Ecommerce Site plan; charges a 2% transaction fee on top of Stripe or PayPal processing fees. $29/mo applies when billed yearly.",
+      "limits": [
+        "500 ecommerce items",
+        "2% transaction fee"
+      ],
+      "highlights": [
+        "Custom shopping cart and checkout"
+      ],
+      "source": 0
+    },
+    {
+      "id": "ecommerce-plus",
+      "name": "Ecommerce Plus",
+      "monthly": 84,
+      "annualMonthly": 74,
+      "priceUnit": "per-site-month",
+      "note": "$74/mo applies when billed yearly.",
+      "limits": [
+        "5,000 ecommerce items",
+        "0% transaction fee"
+      ],
+      "highlights": [
+        "Custom shopping cart and checkout",
+        "Unbranded emails"
+      ],
+      "source": 0
+    },
+    {
+      "id": "ecommerce-advanced",
+      "name": "Ecommerce Advanced",
+      "monthly": 235,
+      "annualMonthly": 212,
+      "priceUnit": "per-site-month",
+      "note": "$212/mo applies when billed yearly.",
+      "limits": [
+        "15,000 ecommerce items",
+        "0% transaction fee"
+      ],
+      "highlights": [
+        "Custom shopping cart and checkout",
+        "Unbranded emails"
+      ],
+      "source": 0
+    },
+    {
+      "id": "team",
+      "name": "Team (Platform plan)",
+      "monthly": null,
+      "annualMonthly": 2500,
+      "priceUnit": "per-month",
+      "seatsIncluded": 10,
+      "note": "Bundles a site, a Workspace and add-ons in one plan. Annual contract required; sold through Webflow's sales team.",
+      "limits": [
+        "5 full seats and 5 limited seats included",
+        "20,000 CMS items, 100 CMS Collections",
+        "500 static pages",
+        "Bandwidth up to 30 TB/month",
+        "2 Localize locales included",
+        "100,000 AI credits/year"
+      ],
+      "highlights": [
+        "Publishing workflows",
+        "Single-page publishing",
+        "Page branching",
+        "AEO agents",
+        "Priority support"
+      ],
+      "source": 0
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Custom quote ('Talk to us'); custom bandwidth, seats and roles.",
+      "limits": [],
+      "highlights": [
+        "Granular permissions",
+        "Custom roles",
+        "Dedicated account manager",
+        "Enhanced SLAs"
+      ],
+      "source": 0
+    },
+    {
+      "id": "starter-workspace",
+      "name": "Starter Workspace",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-workspace-month",
+      "seatsIncluded": 1,
+      "note": "Free Workspace every account gets. Includes the owner's full seat; extra Full and Limited seats can be bought without upgrading the Workspace plan.",
+      "limits": [
+        "2 staging (webflow.io) sites",
+        "2 pages per staged site",
+        "50 CMS items per staged site",
+        "200 AI credits/month"
+      ],
+      "highlights": [
+        "Unlimited paid hosted sites",
+        "Agency/freelancer guests"
+      ],
+      "source": 0
+    },
+    {
+      "id": "core-workspace",
+      "name": "Core Workspace",
+      "monthly": 28,
+      "annualMonthly": 19,
+      "priceUnit": "per-workspace-month",
+      "seatsIncluded": 1,
+      "note": "Per Workspace, including the owner's full seat; other members need paid seats. $19/mo applies when billed yearly.",
+      "limits": [
+        "10 staging sites",
+        "300 pages per staged site",
+        "300 AI credits/month",
+        "1 Shared Library"
+      ],
+      "highlights": [
+        "Custom code",
+        "Code export",
+        "Shared Libraries"
+      ],
+      "source": 0
+    },
+    {
+      "id": "growth-workspace",
+      "name": "Growth Workspace",
+      "monthly": 60,
+      "annualMonthly": 49,
+      "priceUnit": "per-workspace-month",
+      "seatsIncluded": 1,
+      "note": "Per Workspace, including the owner's full seat; other members need paid seats. $49/mo applies when billed yearly.",
+      "limits": [
+        "Unlimited staging sites",
+        "400 AI credits/month"
+      ],
+      "highlights": [
+        "Site-specific access",
+        "Site-level roles",
+        "Publishing permissions",
+        "301 redirects",
+        "Password protection for staged sites"
+      ],
+      "source": 0
+    },
+    {
+      "id": "freelancer-workspace",
+      "name": "Freelancer Workspace",
+      "monthly": 24,
+      "annualMonthly": 16,
+      "priceUnit": "per-workspace-month",
+      "seatsIncluded": 1,
+      "note": "For freelancers building client sites. $16/mo applies when billed yearly.",
+      "limits": [
+        "10 staging sites",
+        "1 free client seat per site",
+        "300 AI credits/month"
+      ],
+      "highlights": [
+        "Free guest access in client Workspaces",
+        "Full CMS access on staging sites",
+        "Client payments",
+        "Shared Libraries"
+      ],
+      "source": 2
+    },
+    {
+      "id": "agency-workspace",
+      "name": "Agency Workspace",
+      "monthly": 42,
+      "annualMonthly": 35,
+      "priceUnit": "per-workspace-month",
+      "seatsIncluded": 1,
+      "note": "For agencies with many client sites. $35/mo applies when billed yearly.",
+      "limits": [
+        "Unlimited staging sites",
+        "3 free client seats per site",
+        "400 AI credits/month"
+      ],
+      "highlights": [
+        "Unlimited Shared Libraries",
+        "Site-level roles",
+        "Publishing permissions",
+        "301 redirects"
+      ],
+      "source": 2
+    }
+  ],
+  "addOns": [
+    {
+      "id": "full-seat",
+      "name": "Full seat",
+      "price": 45,
+      "unit": "per seat per month, billed monthly",
+      "appliesTo": [
+        "starter-workspace",
+        "core-workspace",
+        "growth-workspace",
+        "freelancer-workspace",
+        "agency-workspace"
+      ],
+      "note": "$39 per seat per month billed yearly. For Admin, Site admin or Designer roles. One full seat for the owner is included in every Workspace.",
+      "source": 0
+    },
+    {
+      "id": "limited-seat",
+      "name": "Limited seat",
+      "price": 19,
+      "unit": "per seat per month, billed monthly",
+      "appliesTo": [
+        "starter-workspace",
+        "core-workspace",
+        "growth-workspace",
+        "freelancer-workspace",
+        "agency-workspace"
+      ],
+      "note": "$15 per seat per month billed yearly. For Marketer or Content editor roles (edit content or build pages with components). Can be bought on the free Starter Workspace.",
+      "source": 0
+    },
+    {
+      "id": "reviewer-seat",
+      "name": "Free seat (Reviewer)",
+      "price": 0,
+      "unit": "per seat, up to 100 per Workspace",
+      "note": "View and comment only. Webflow allows up to 100 free Reviewer seats per Workspace.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-100gb",
+      "name": "Premium bandwidth: 100 GB total (+50 GB)",
+      "price": 30,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$20/month billed yearly. Premium at 100 GB shows as $69/mo monthly or $45/mo yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-150gb",
+      "name": "Premium bandwidth: 150 GB total (+100 GB)",
+      "price": 60,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$40/month billed yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-200gb",
+      "name": "Premium bandwidth: 200 GB total (+150 GB)",
+      "price": 90,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$60/month billed yearly. Premium at 200 GB shows as $129/mo monthly or $85/mo yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-300gb",
+      "name": "Premium bandwidth: 300 GB total (+250 GB)",
+      "price": 150,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$100/month billed yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-400gb",
+      "name": "Premium bandwidth: 400 GB total (+350 GB)",
+      "price": 210,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$140/month billed yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-500gb",
+      "name": "Premium bandwidth: 500 GB total (+450 GB)",
+      "price": 260,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$174/month billed yearly. Premium at 500 GB shows as $299/mo monthly or $199/mo yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-750gb",
+      "name": "Premium bandwidth: 750 GB total (+700 GB)",
+      "price": 410,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$274/month billed yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-1tb",
+      "name": "Premium bandwidth: 1 TB total (+950 GB)",
+      "price": 560,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$374/month billed yearly. Premium at 1 TB shows as $599/mo monthly or $399/mo yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-1-5tb",
+      "name": "Premium bandwidth: 1.5 TB total (+1.450 TB)",
+      "price": 860,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$574/month billed yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-2tb",
+      "name": "Premium bandwidth: 2 TB total (+1.950 TB)",
+      "price": 1160,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$774/month billed yearly.",
+      "source": 0
+    },
+    {
+      "id": "bandwidth-2-5tb",
+      "name": "Premium bandwidth: 2.5 TB total (+2.450 TB)",
+      "price": 1460,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "premium"
+      ],
+      "note": "$974/month billed yearly. Premium at 2.5 TB shows as $1,499/mo monthly or $999/mo yearly; beyond this Webflow points to Enterprise hosting.",
+      "source": 0
+    },
+    {
+      "id": "ai-credits-2000",
+      "name": "Extra AI credits (2,000 credits/month)",
+      "price": 25,
+      "unit": "per month, billed monthly",
+      "note": "$20/month billed yearly. Workspaces include 200 (Starter), 300 (Core) or 400 (Growth) AI credits a month; unused credits don't roll over.",
+      "source": 0
+    },
+    {
+      "id": "analyze",
+      "name": "Analyze (site analytics)",
+      "price": 12,
+      "unit": "per month at 2,000 sessions/month, billed monthly",
+      "appliesTo": [
+        "basic",
+        "premium"
+      ],
+      "note": "$9/month billed yearly. Priced by sessions: 10,000 sessions $39 monthly / $29 yearly, up to 500,000 sessions at $299 monthly / $229 yearly.",
+      "source": 10
+    },
+    {
+      "id": "optimize",
+      "name": "Optimize (A/B testing and personalization)",
+      "price": 379,
+      "unit": "per month at 25,000 page views/month, billed monthly",
+      "appliesTo": [
+        "basic",
+        "premium"
+      ],
+      "note": "$299/month billed yearly. Priced by page views, up to 500,000 page views at $1,499 monthly / $1,199 yearly.",
+      "source": 12
+    },
+    {
+      "id": "localize-essential",
+      "name": "Localize Essential",
+      "price": 12,
+      "unit": "per month for 1 added locale, billed monthly",
+      "appliesTo": [
+        "basic",
+        "premium"
+      ],
+      "note": "$9/month billed yearly. Priced by number of locales, up to 3 locales; 10K AI-translated words per locale per month.",
+      "source": 0
+    },
+    {
+      "id": "localize-advanced",
+      "name": "Localize Advanced",
+      "price": 35,
+      "unit": "per month for 1 added locale, billed monthly",
+      "appliesTo": [
+        "basic",
+        "premium"
+      ],
+      "note": "$29/month billed yearly. Priced by number of locales, up to 10 locales; 50K AI-translated words per locale per month; adds localized URLs and automatic visitor routing.",
+      "source": 0
+    }
+  ],
+  "usage": [
+    {
+      "id": "cloud-requests",
+      "name": "Webflow Cloud web app requests",
+      "rate": 2,
+      "unit": "per 1 million requests above the plan allowance",
+      "note": "Allowance: 1 million/month on Starter and Basic, 2 million/month on Premium. Only applies to apps hosted on Webflow Cloud.",
+      "source": 4
+    },
+    {
+      "id": "cloud-cpu",
+      "name": "Webflow Cloud CPU usage",
+      "rate": 2,
+      "unit": "per 5 hours of CPU usage above the plan allowance",
+      "note": "Allowance: 15 CPU minutes on Starter and Basic, 30 CPU minutes on Premium. Database storage and operations have their own $2 overage steps; Webflow gives at least 30 days notice before charging for those overages.",
+      "source": 4
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "ecommerce-transaction-fee",
+      "label": "Ecommerce Standard transaction fee",
+      "amount": 2,
+      "display": "2% of each sale on Ecommerce Standard",
+      "kind": "percent-of-sales",
+      "note": "Charged in addition to Stripe or PayPal processing fees; Ecommerce Plus and Advanced charge 0%.",
+      "source": 9
+    },
+    {
+      "id": "bandwidth-auto-upgrade",
+      "label": "Automatic bandwidth upgrade after overage",
+      "amount": null,
+      "display": "Automatic upgrade to a higher bandwidth tier after 2 consecutive months over the limit",
+      "kind": "other",
+      "note": "The first month over the limit is not charged (surge protection). If the site is over again the next billing month, the plan or bandwidth add-on is upgraded at the start of the following billing month, sized to the lower of the two months' usage. These upgrades are non-refundable, and bot traffic counts toward bandwidth.",
+      "source": 15
+    }
+  ],
+  "billingNotes": [
+    "Site plans and the Workspace are separate subscriptions: each site published to a custom domain needs its own Site plan, while the Workspace plan and any paid seats are billed on their own. One card on file pays for both.",
+    "Yearly billing is cheaper: Basic $15 vs $25, Premium $25 vs $39, Limited seat $15 vs $19 and Full seat $39 vs $45 per month. Webflow advertises 'Save up to 40%'.",
+    "The Team platform plan ($2,500/mo) requires an annual contract and has no monthly option.",
+    "Switching the Workspace plan between monthly and yearly billing also switches the billing frequency of its paid seats.",
+    "Cancelling keeps a plan active until the end of the term, and you still pay the remainder of the term. Only new Site and Workspace plan purchases are refundable (within 14 days); renewals, seats, add-ons, AI credits and bandwidth auto-upgrades are not.",
+    "Upgrades, downgrades and billing-frequency switches are prorated, with any credit held as Workspace credit rather than refunded.",
+    "May 2026 price change: the CMS and Business plans were merged into Premium ($25/mo yearly, $39/mo monthly) and Basic went up to $15/mo yearly, $25/mo monthly. Existing sites move over at their next renewal or billable change from June 29, 2026, or from November 16, 2026 for sites in Freelancer or Agency Workspaces and sites on legacy pricing from 2022 or earlier. Switching from monthly to yearly billing before the change applies locks in the current plan for one more year.",
+    "Bandwidth is metered per site and counts traffic from bots as well as people.",
+    "AI credits reset every month on self-serve Workspace plans and unused credits don't roll over.",
+    "Prices are in USD, with applicable taxes added at checkout."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "Webflow publishes one price list in USD ('All prices in USD, per site, plus applicable taxes added at checkout') and issues invoices only in USD. Checked from a US locale only."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 site, 1 editor, ~20-page blog, ~10k visits/mo",
+      "assumptions": "The blog needs the CMS, so Premium is the cheapest plan that fits (Basic has no CMS). The owner is the only editor and uses the full seat included in the free Starter Workspace. Bandwidth is estimated at about 3-4 MB per visit, the middle of Webflow's own guidance (50 GB 'usually covers 5k–25k page views'; 1 GB 'usually covers ~250 page views'), so ~33-40 GB a month, inside the 50 GB Premium includes. Month-to-month billing.",
+      "planId": "premium",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Premium Site plan, billed monthly (includes 50 GB bandwidth)",
+          "amount": 39
+        },
+        {
+          "label": "Starter Workspace with the owner's included full seat",
+          "amount": 0
+        }
+      ],
+      "monthly": 39,
+      "confidence": "medium",
+      "note": "Billed yearly the same setup is $25/mo. Bandwidth is the uncertain part: a heavy site (Webflow's range allows ~10 MB per page view) could pass 50 GB, and the 100 GB option adds $30/mo billed monthly."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 1 site, 3 editors, ~200 CMS items, ~50k visits/mo",
+      "assumptions": "Premium covers the CMS (20,000 items). The owner uses the included full seat; the other 2 editors get Limited seats (Content editor or Marketer role), which can be bought on the free Starter Workspace without upgrading it: 2 x $19 = $38. Bandwidth at about 3-4 MB per visit (the middle of Webflow's guidance) is ~167-200 GB a month, which needs the 200 GB bandwidth option (+150 GB). Month-to-month billing.",
+      "planId": "premium",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Premium Site plan, billed monthly",
+          "amount": 39
+        },
+        {
+          "label": "Bandwidth add-on to 200 GB total (+150 GB), billed monthly",
+          "amount": 90
+        },
+        {
+          "label": "2 Limited seats x $19, billed monthly",
+          "amount": 38
+        },
+        {
+          "label": "Starter Workspace with the owner's included full seat",
+          "amount": 0
+        }
+      ],
+      "monthly": 167,
+      "confidence": "medium",
+      "note": "Billed yearly: $25 + $60 + 2 x $15 = $115/mo. At the most optimistic end of Webflow's range (~2 MB per page view) the 100 GB option (+$30) would be enough, making it $107/mo month-to-month."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 1 site, 8 editors, ~1,000 CMS items, ~250k visits/mo",
+      "assumptions": "Premium covers the CMS (20,000 items). The owner uses the included full seat; the other 7 editors get Limited seats: 7 x $19 = $133. The free Starter Workspace is kept because no Workspace limit forces an upgrade (Growth, $60/mo monthly, adds per-site publishing permissions and site-level roles). Bandwidth at about 3-4 MB per visit (the middle of Webflow's guidance) is ~833 GB-1 TB a month, which needs the 1 TB option (+950 GB). Month-to-month billing.",
+      "planId": "premium",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Premium Site plan, billed monthly",
+          "amount": 39
+        },
+        {
+          "label": "Bandwidth add-on to 1 TB total (+950 GB), billed monthly",
+          "amount": 560
+        },
+        {
+          "label": "7 Limited seats x $19, billed monthly",
+          "amount": 133
+        },
+        {
+          "label": "Starter Workspace with the owner's included full seat",
+          "amount": 0
+        }
+      ],
+      "monthly": 732,
+      "confidence": "medium",
+      "note": "Billed yearly: $25 + $374 + 7 x $15 = $504/mo. At the most optimistic end of Webflow's range (~2 MB per page view) the 500 GB option (+$260 monthly) would be enough: $432/mo month-to-month. Bandwidth, not seats, drives this bill."
+    }
+  ],
+  "unverified": [
+    "Bandwidth per visit: Webflow publishes only a page-view range (50 GB 'usually covers 5k–25k page views'), so the bandwidth option in each scenario is our estimate of ~3-4 MB per visit. Real usage depends on page weight and on bot traffic, which Webflow counts.",
+    "Team platform plan: only the $2,500/mo headline is published; the cost of extra sites or seats on Team is quoted by sales.",
+    "Enterprise plans and Optimize for non-Webflow sites are quote-only.",
+    "Localize prices for more than one added locale appear only in a dropdown; we captured the 1-locale prices only.",
+    "Whether Webflow charges different prices by country was not checked outside a US locale.",
+    "Webflow's 'Choose a Site plan' help article still says the free Starter plan allows up to 1,000 monthly visits, while the pricing page says its 1 GB bandwidth usually covers ~250 page views; this record follows the pricing page."
+  ],
+  "history": [
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
+  ]
+}

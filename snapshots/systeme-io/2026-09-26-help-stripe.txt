@@ -1,0 +1,95 @@
+SOURCE: https://help.systeme.io/article/225-how-to-connect-your-stripe-account-to-systeme-io
+FETCHED: 2026-09-26T21:52:11.670Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+CATEGORIES
+Affiliation
+Blog
+Booking calendar
+Contact management
+Courses
+Customer support
+Deliverability
+Editor
+Emails
+General
+Migrating to systeme.io
+Model Context Protocol (MCP)
+Payments
+›
+Sales funnels
+Payments
+English
+How to connect your Stripe account to systeme.io
+
+In this article, you will learn how to connect your Stripe account to systeme.io.
+
+To get started, you will need:
+
+A systeme.io account
+A Stripe account (click here to create a Stripe account)
+To connect your systeme.io account to your Stripe account, click on your profile picture and then Settings (1). Next, in the menu on the left side of your page, click Payment Gateways (2).
+On the payment gateway options page, click on Connect (3) for the Stripe option.
+
+You will be redirected to a page where you can log in to your Stripe account or create a new one.
+
+First, select the country where your business is registered and the type of business (individual, company, or nonprofit organization).
+
+On the next screen, verify your personal information. This is required to activate payments on systeme.io.
+
+Once completed, click Authorize access to this account. You will be redirected back to systeme.io.
+
+Note: For Stripe to work correctly, the Email and First Name fields are required on your payment pages.
+
+Supported currencies and payment methods:
+
+Stripe allows you to process payments using credit/debit cards, Apple Pay, and several local payment methods. Below are the specific rules, supported currencies, and restrictions for each method:
+
+1. Stripe Card
+
+Supported buyers: Worldwide
+Recurring payments: Yes (supports subscriptions in all 46 currencies).
+Supported currencies: AED, ALL, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, LKR, MAD, MXN, MYR, NGN, NOK, NZD, PEN, PHP, PLN, RON, RSD, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, USD, VND, XAF, XOF, and ZAR.
+Merchant restrictions: None (available to merchants in any supported Stripe country).
+
+2. Stripe Apple Pay
+
+Supported buyers: Worldwide (on supported Apple devices/wallets).
+Recurring payments: Yes (processed via saved card).
+Supported currencies: The same 46 currencies as Stripe Card.
+Merchant restrictions: Blocked in India. If your Stripe merchant account is registered in India (IN), you cannot offer Apple Pay.
+
+3. Stripe iDEAL
+
+Supported buyers: Netherlands (NL)
+Recurring payments: Yes, processed via SEPA mandate. (SEPA must be enabled in your Stripe account).
+Supported currencies: EUR only.
+Merchant restrictions: None.
+
+4. Stripe Bancontact
+
+Supported buyers: Belgium (BE)
+Recurring payments: Yes, processed via SEPA mandate. (SEPA must be enabled in your Stripe account).
+Supported currencies: EUR only.
+Merchant restrictions: None.
+
+5. Stripe Klarna
+
+Supported buyers: Klarna-supported countries.
+Recurring payments: Yes.
+Supported currencies: The currency must match the merchant's country according to Klarna's rules.
+Merchant restrictions: Your Stripe merchant account must be registered in a Klarna-supported country.
+
+6. Stripe Multibanco
+
+Supported buyers: Portugal (PT)
+Recurring payments: Yes (generates a payment voucher with a 10-day due date for each billing cycle).
+Supported currencies: EUR only.
+Merchant restrictions: None.
+Did this answer your question?
+🙂
+🙁
+
+Last updated on July 30, 2026
+
+© 2026 systeme.io Help Center · help.systeme.io

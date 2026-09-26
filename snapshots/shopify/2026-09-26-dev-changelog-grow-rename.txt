@@ -1,0 +1,68 @@
+SOURCE: https://shopify.dev/changelog/adding-publicdisplayname-field-on-shopplan
+FETCHED: 2026-09-26T21:53:49.772Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+Apps
+Storefronts
+Agents
+References
+Changelog
+Ask assistant
+/
+Help
+•
+Log in
+Collapse sidebar
+Changelog
+Search changelog
+Subscribe
+All posts
+Blog & announcements
+Release notes
+APRIL 17, 2025
+Adding publicDisplayName field on ShopPlan
+Install AI Toolkit
+Ask about this page
+Copy MD
+DATE
+April 17, 2025
+VERSION
+2025-07
+FLAGS
+New
+SURFACES
+API
+AFFECTED APIS
+Admin GraphQL API
+
+The publicDisplayName field is being added to the ShopPlan object. This field provides the publicly displayable name of the shop's current plan when requesting shop properties.
+
+The publicDisplayName field returns a standardized set of plan names, similar to those currently provided by the displayName field. This standardization aims to simplify and unify the plan names that are publicly exposed.
+
+Additionally, the plan previously known as Shopify has been renamed to Grow, and this change is reflected in the publicDisplayName field.
+
+Please note that the displayName field will be deprecated in the future. We recommend updating your applications to use the publicDisplayName field to ensure compatibility with future updates.
+
+Was this page helpful?
+Yes
+No
+Updates
+Developer changelog
+Shopify Editions
+Business growth
+Shopify Partners Program
+Shopify App Store
+Shopify Academy
+Legal
+Terms of service
+API terms of use
+Privacy policy
+Partners Program Agreement
+Shopify
+About Shopify
+Shopify Plus
+Careers
+Investors
+Press and media
+Assistant

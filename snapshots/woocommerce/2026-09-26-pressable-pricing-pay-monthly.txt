@@ -1,0 +1,233 @@
+SOURCE: https://pressable.com/pricing/
+FETCHED: 2026-09-26T22:03:01.812Z
+RENDERER: headless Chromium, en-US, US timezone (every "Pay Monthly" toggle clicked)
+----
+Skip to main content
+Toggle color theme (currently dark)
+Log In
+Pricing
+Solutions
+Features
+Changelog
+Resources
+Schedule a demo
+Managed WordPress Plans & Pricing
+Signature Plans
+Sign up risk-free with our 30-day money-back guarantee.
+
+Need more sites, visits, or storage? We have the plan for you. See below.
+
+Pay Yearly
+Pay Monthly
+Signature 1
+$25.00/mo
+
+Billed in USD monthly
+
+1 WordPress Install
+Up to 30K Visits
+20GB Storage
+Start Now
+Signature 3
+$60.00/mo
+
+Billed in USD monthly
+
+5 WordPress Installs
+Up to 75K Visits
+35GB Storage
+Start Now
+Signature 5
+$155.00/mo
+
+Billed in USD monthly
+
+20 WordPress Installs
+Up to 400K Visits
+80GB Storage
+Start Now
+Signature 8
+$675.00/mo
+
+Billed in USD monthly
+
+100 WordPress Installs
+Up to 2M Visits
+325GB Storage
+Start Now
+View All Signature Features
+Premium Site Plans
+
+For mission critical sites that demand extra attention and resources.
+
+Plans starting at
+
+$350.00/mo
+Starting at 10 Base vCPUs Per Site
+Up to Millions of Visits Per Month
+512MB X Each PHP Worker/Process
+Vertical Scaling with Bursting to 100+ Cores
+Custom Storage with Add-On Capabilities
+Talk with Sales
+Explore Premium
+View All Premium Features
+Secure Hosting Alliance Certified
+Pressable has earned certification from the Secure Hosting Alliance, an i2 Coalition initiative that independently verifies hosting providers for infrastructure security, anti-abuse practices, privacy, and operational excellence.
+Pressable vs. Other Hosts
+	Pressable	Other Hosts
+DupliKits Site Templates	
+Clone & reuse configured sites
+	
+Jetpack Security Included ($239/yr value)		
+100% Uptime SLA		
+24/7 Expert Support (~4 Min Avg First Response)		
+Granular Collaborator Permissions for Teams		
+Staging + Sandbox Environments	
+Production + Staging + Sandbox
+	
+Production + Staging only
+
+Dedicated PHP Workers (1:1, 512MB Each)	
+No shared memory pools
+	
+Shared / pooled resources
+
+Unlimited WordPress Site Migrations		
+Hourly & Daily Backups	
+Hourly DB + Daily Full
+	
+Daily backups only
+
+Geo-Redundant HA with Auto-Failover		
+Built-in Edge Cache + Global CDN		
+Malware Monitoring & Threat Response		
+Multisite and Headless Capable		
+Customizable Plugin Update Scheduler		
+What People Are Saying About Pressable
+“It’s truly been a game-changer for us.”
+
+The scalability, reliability, and ease of use have allowed us to focus on development rather than firefighting server issues. It’s truly been a game-changer for us.
+
+MATT SCHWARTZ, INSPRY
+
+“Pressable has given us the confidence and performance we need.”
+
+Pressable has given us the confidence and performance we need to continue to advocate for WooCommerce as a serious, enterprise-grade platform.
+
+MITCHELL CALLAHAN, SAUCAL
+
+“Pressable has exceeded all my expectations.”
+
+The performance is top-notch, with blazing-fast load times and rock-solid stability. Plus, their support team is on another level – always responsive, knowledgeable, and ready to help with anything.
+
+JARCIANO SILVA
+
+Pay Yearly
+Pay Monthly
+Sign up risk-free with our 30-day money-back guarantee.
+	
+Signature 1
+$25.00/mo
+Billed in USD monthly
+Start Now	
+Signature 2
+$45.00/mo
+Billed in USD monthly
+Start Now	
+Signature 3
+$60.00/mo
+Billed in USD monthly
+Start Now	
+Signature 4
+$90.00/mo
+Billed in USD monthly
+Start Now	
+Signature 5
+$155.00/mo
+Billed in USD monthly
+Start Now	
+Signature 6
+$350.00/mo
+Billed in USD monthly
+Start Now	
+Signature 7
+$545.00/mo
+Billed in USD monthly
+Start Now	
+Signature 8
+$675.00/mo
+Billed in USD monthly
+Start Now	
+WordPress Installs	1	3	5	10	20	50	80	100
+Staging Sites	1	3	5	10	20	50	80	100
+Sandbox Sites	1	3	5	10	20	50	80	100
+Visits Per Month	30K	50K	75K	150K	400K	1M	1.6M	2M
+Storage	20GB	30GB	35GB	50GB	80GB	200GB	275GB	325GB
+
+Usage above your plan’s included visits and storage is billed at $1.20 per 1,000 visits and $1.00 per GB of storage. Learn More.
+
+All Signature Plans Features:
+5 Dedicated PHP Workers (5 vCPUs) Per Site
+Additional PHP Worker Burst Capacity 
+Edge Cache & OPcache
+512MB X Each PHP Worker/Process
+Health & Performance Reports
+Hourly & Daily Backups
+Geo-redundant HA Cloud
+AMD EPYC Milan CPUs (64 Core/128 Thread)
+Page Cache & Query Cache
+24/7 WordPress Hosting Support
+WP Cloud Platform
+Jetpack Security
+Free Site Migrations
+Professional Email 
+Where WordPress Works Best
+
+Pressable is the original managed WordPress hosting provider built on Automattic’s WP Cloud. This means your website benefits from the expertise and cutting-edge technology behind WordPress.com and WooCommerce. Want a guided tour of our hosting dashboard? We’d be happy to schedule time with you and answer all of your questions.
+
+Book A Demo
+
+Chat with Sales
+1 (888) 602-6756
+sales@pressable.com
+Report a Concern
+Back to top ↑
+Get Started
+Pricing & Plans
+Hire a WordPress Agency
+Automattic for Agencies
+Affiliate Program
+Solutions
+Managed WordPress Hosting
+Agency WordPress Hosting
+Ecommerce Hosting
+Web Hosting
+WooCommerce Hosting
+Resources
+Web Tools
+API Documentation
+Case Studies
+eBooks
+Webinars
+Company
+About Us
+Contact
+Careers
+Press Kit
+Legal
+Sitemap
+
+Do not sell or share my personal information
+
+An
+hosting lab
+
+Powered by WordPress
+
+© 2026 Pressable, Inc. All rights reserved.
+
+SLA
+Support Policy
+Cookies
+
+2

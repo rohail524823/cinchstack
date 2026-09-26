@@ -1,0 +1,68 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961232231571-Switch-your-Workspace-or-Site-plan-billing-frequency
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961232231571.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:51.808193Z
+ARTICLE UPDATED: 2026-08-13T13:16:32Z | EDITED: 2026-08-13T13:16:32Z
+RENDERER: curl + HTML-to-text of article body
+----
+Switch your Workspace or Site plan billing frequency
+
+Change how often you’re billed for your Workspace or Site plan.
+If your subscription is in good standing, you can switch between monthly and yearly billing for your Workspace or Site plan without canceling. When you change billing frequency, the prorated amount for your new billing cycle is shown at checkout.
+For example, if you switch a Core Workspace plan from monthly to yearly, you’ll be credited for unused time on the monthly plan. If you switch a Site plan from yearly to monthly, the unused time becomes Workspace credit and is applied to future charges.
+
+Note
+
+If your subscription is past due, you can't change its billing frequency. You’ll need to pay the overdue invoice first or cancel the subscription. You can check your total Workspace balance in Workspace settings > Billing.
+
+How to switch from a monthly Workspace plan to a yearly Workspace plan
+
+Note
+
+Switching your Workspace plan's billing frequency also changes the billing frequency of any paid seats to match.
+
+To switch from a monthly billing cycle to a yearly billing cycle, first, open the Workspace for which you’d like to change the billing cycle. Then:
+
+- Click Plans in the left sidebar
+
+- Toggle Billed yearly to display yearly plan pricing
+
+- Click Switch to yearly under your current Workspace plan
+
+- Confirm the details of your change and click Pay now
+
+How to switch from a yearly Workspace plan to a monthly Workspace plan
+
+Note
+
+Switching your Workspace plan's billing frequency also changes the billing frequency of any paid seats to match.
+
+To switch from a yearly billing cycle to a monthly billing cycle, first, open the Workspace for which you’d like to change the billing cycle. Then:
+
+- Click Plans in the left sidebar
+
+- Toggle Billed monthly to display monthly plan pricing
+
+- Click Switch to monthly under your current Workspace plan
+
+- Confirm the details of your change and click Pay now
+
+When you switch from a yearly Workspace plan to a monthly Workspace plan, you’ll likely be credited the remaining time on your yearly plan which will be used towards the monthly plan. In the case where you have less than a month left on your yearly plan, you will likely be charged when you switch to a monthly plan.
+How to switch from a monthly Site plan to a yearly Site plan
+
+- Go to Site settings > Plans
+
+- Toggle Billed yearly to display yearly plan pricing
+
+- Click Switch to yearly under the Site plan name
+
+- Confirm the details of your change and click Pay now to immediately charge your card on file
+
+How to switch from a yearly Site plan to a monthly Site plan
+
+- Go to Site settings > Plans
+
+- Toggle Billed monthly to display monthly plan pricing
+
+- Click Switch to monthly under the Site plan name
+
+- Confirm the details of your change and click Pay now to immediately charge your card on file

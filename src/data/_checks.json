@@ -1,0 +1,18 @@
+{
+  "gohighlevel": {
+    "ranOn": "2026-09-26",
+    "status": "passed",
+    "checked": 38,
+    "missing": [],
+    "pages": 10,
+    "blockedPages": 0
+  },
+  "systeme-io": {
+    "ranOn": "2026-09-26",
+    "status": "passed",
+    "checked": 3,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0
+  }
+}

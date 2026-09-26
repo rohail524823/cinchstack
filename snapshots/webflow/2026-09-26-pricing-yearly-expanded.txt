@@ -1,0 +1,746 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:49:02.280Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO MAIN CONTENT
+Platform
+Source
+Solutions
+Resources
+Enterprise
+Pricing
+Log in
+Contact Sales
+Start for free
+Our pricing
+Monthly
+Toggle between yearly and monthly pricing
+Yearly (Save up to 40%)
+Site plans
+
+Start building with Webflow's AI-native platform for free. Upgrade any time to unlock advanced features.
+
+Starter
+
+For exploring and experimenting with Webflow.
+
+Free
+
+Start for free
+Webflow.io domain
+Limited Webflow CMS
+2 static pages
+1 GB bandwidth
+50 form submissions
+Webflow AI
+MCP server
+Webflow Cloud app hosting
+Free Starter Workspace
+Basic
+
+For simple sites that don't need a CMS.
+
+$15/mo
+
+billed yearly
+
+Add plan
+Custom domain
+300 static pages
+10 GB bandwidth
+Unlimited form submissions
+Password protection
+Webflow AI
+MCP server
+Webflow Cloud app hosting
+Free Starter Workspace
+Premium
+
+For content-rich sites with robust CMS and traffic needs.
+
+NEW
+
+$25/mo
+
+billed yearly
+
+Add plan
+
+Everything in Basic, plus:
+
+Webflow CMS
+50 GB
+100 GB
+150 GB
+200 GB
+300 GB
+400 GB
+500 GB
+750 GB
+1 TB
+1.5 TB
+2 TB
+2.5 TB
+bandwidth
+Code components
+Site search
+Form file upload
+Well-known files
+Platform plans
+
+Curated essentials for growing organizations.
+
+Team
+
+For growing teams that need more control without complexity. 
+
+NEW
+
+$2,500/mo
+
+Annual contract required
+
+Talk to us
+Talk to us
+
+Everything in Premium, plus:
+
+Site & Workspace
+Webflow Localize
+AEO agents
+Publishing workflows
+Single-page publishing
+Site activity log & API
+Foundational governance
+Enhanced security & compliance
+Priority support
+Enterprise
+
+For organizations that need a flexible, fully customizable solution.
+
+Talk to us
+Talk to us
+
+Everything in Team, plus:
+
+Enterprise-ready scale
+Granular permissions
+Custom roles
+Advanced governance
+Secure integrations
+Dedicated account manager
+Enhanced SLAs
+Custom configurations
+
+All prices in USD, per site, plus applicable taxes added at checkout.
+
+Compare all Site plans
+Compare all Platform plans
+Add-ons
+
+Add-ons help you do more with your site.
+
+For Site plans
+For Enterprise
+Optimize
+
+Maximize conversions from your site.
+
+$299/mo
+
+based on # of page views
+
+Add Optimize
+Add Optimize
+25,000
+50,000
+100,000
+250,000
+500,000
+page views/mo
+Up to 5 concurrent optimizations
+A/B testing
+Personalization
+AI Optimize
+Audience insights
+Audience targeting
+Analyze
+
+Get actionable insights on your site performance.
+
+$9/mo
+
+based on # of sessions
+
+Add Analyze
+Add Analyze
+2,000
+10,000
+25,000
+50,000
+100,000
+250,000
+500,000
+sessions/mo
+Auto-captured page views, sessions, and visitors
+Auto-captured click data
+Site analytics overview
+Page-level insights
+Share insights
+Integrations with consent management solutions
+Localize Essential
+
+Localize your site for audiences around the world.
+
+$9/mo
+
+based on # of locales
+
+Add Localize
+Add Localize
+1
+2
+3
+locales added
+AI-powered translation
+CMS localization
+Static page localization
+Localized SEO
+Style localization
+Localize Advanced
+
+Extend to more locales and content capabilities.
+
+$29/mo
+
+based on # of locales
+
+Add Localize
+Add Localize
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+locales added
+AI-powered translation
+CMS localization
+Static page localization
+Localized SEO
+Style localization
+Asset localization
+Localize URLs
+Automatic visitor routing
+Optimize for non-Webflow sites
+
+Use Webflow Optimize, no matter where your site lives. Connect with our sales team to learn about pricing.
+
+Contact us
+→
+Contact us
+Preview Localize for free
+
+You can try out basic Localize functionality for free, no matter what plan you’re on. Pay only when you’re ready to publish.
+
+Read more
+→
+Read more
+View all add-on features
+Ecommerce plans
+
+Purchase an ecommerce site plan to unlock features designed especially for online retailers.
+
+Standard
+
+Perfect for businesses getting off the ground.
+
+$29/mo
+
+billed yearly
+
+Add ecommerce plan
+Add ecommerce plan
+500 ecommerce items
+2% transaction fee
+Custom shopping cart and checkout
+Plus
+
+Best for higher volume businesses.
+
+$74/mo
+
+billed yearly
+
+Add ecommerce plan
+Add ecommerce plan
+5,000 ecommerce items
+0% transaction fee
+Custom shopping cart and checkout
+Unbranded emails
+Advanced
+
+Scale your online business to new heights.
+
+$212/mo
+
+billed yearly
+
+Add ecommerce plan
+Add ecommerce plan
+15,000 ecommerce items
+0% transaction fee
+Custom shopping cart and checkout
+Unbranded emails
+
+All prices in USD, per site, per month, plus applicable taxes at checkout.
+
+View all plan features
+Workspace plans
+
+Every Webflow account includes a free Workspace plan. Upgrade yours at any time for enhanced staging and more collaboration tools.
+
+For teams
+For freelancers & agencies
+Starter
+
+For just getting started with Webflow.
+
+Free
+
+Start for free
+Start for free
+Unlimited paid hosted sites
+2 staging sites
+2 pages per staged site
+50 CMS items per staged site
+200 AI credits
+1 full seat
+Agency/freelancer guests
+Core
+
+For more staging needs.
+
+$19/mo
+
+billed yearly
+
+Upgrade Workspace plan
+Upgrade Workspace plan
+
+Everything in Starter, plus:
+
+10 staging sites
+300 pages per staged site
+300 AI credits
+Custom code
+Code export
+Shared Libraries
+Growth
+
+For unlimited staging and advanced collaboration tools.
+
+$49/mo
+
+billed yearly
+
+Upgrade Workspace plan
+Upgrade Workspace plan
+
+Everything in Core, plus:
+
+Unlimited staging sites
+400 AI credits
+Site password protection
+301 redirects
+Site-specific access
+Site-level roles
+Publishing permissions
+
+All prices in USD, plus applicable taxes at checkout.
+
+View all plan features
+Add seats
+
+Add unlimited team members to your Workspace.
+
+1 INCLUDED
+
+Full
+
+Design full sites or manage admin settings.
+
+$39/mo
+
+per seat, billed yearly
+
+Buy seats
+Buy seats
+Limited
+
+Edit content or build pages with components.
+
+$15/mo
+
+per seat, billed yearly
+
+Buy seats
+Buy seats
+Free
+
+Invite reviewers and commenters from the team page.
+
+$0/mo
+Buy seats
+Buy seats
+Add AI credits
+
+Power Webflow AI feature usage across your Workspace.
+
+Buy AI credits
+Buy AI credits
+
+2,000 credits/mo
+
+$20/mo
+
+billed yearly
+
+See the business impact of moving to Webflow
+
+Use this calculator to estimate the impact of Webflow’s platform on your goals — backed by real-world results.
+
+Use the calculator
+→
+Use the calculator
+Need more?
+Webflow
+for Enterprise
+
+Need enterprise-grade scalability, security, and support — plus a unified dashboard for your design team?
+
+Talk to us
+Talk to us
+Custom billing and invoicing
+Can’t pay with a credit card? We’ll set up custom billing for your accounting team’s requirements.
+
+Enterprise traffic scaling
+Expecting lots of traffic? We can set up custom hosting clusters to ensure Webflow handles your scale.
+Security audits and questionnaires
+We’ll work with your team to answer security questionnaires and meet your procurement requirements.
+MSAs and SLAs
+We provide enterprise customers with master service agreements (MSA) and service level agreements (SLA) to guarantee compliance and uptime.
+Frequently asked questions
+Workspace and Site plans
+What’s the difference between a Workspace and a Site plan?
+
+Every site built in Webflow automatically lives inside of a Workspace.
+
+When you sign up for Webflow, you get a free Workspace plan by default. A Workspace is a space where you stage sites — and where you can invite teammates and clients to work on sites together. Upgrading your Workspace plan gives you access to enhanced staging capabilities and advanced collaboration features.
+
+Site plans give you the tools to build your site. When you sign up for Webflow, you automatically get a free Starter Site plan. When you need to publish, host, or unlock additional site-building features, you can upgrade that specific site to a paid Site plan.
+
+How many Workspaces can I have?
+
+Workspaces are designed to be a space for you to organize and build your sites, and invite people to build with you. You may have different needs for different Workspaces, so you can create as many as you need, but each Webflow customer is limited to one free Workspace.
+
+How many paid Site plans can I have in my Workspace?
+
+Any Workspace tier can support an unlimited number of paid Site plans. The main difference in site limits on Workspace tiers is the number of Starter sites each tier supports (Free = 2; Core = 10; Growth = Unlimited). As soon as you upgrade a Starter site to a paid Site plan, it no longer counts against your free Starter site limit.
+
+Can I cancel my Site and/or Workspace at any time?
+
+Yes, but you’ll still pay the remainder of the term for the plan you signed up for.
+
+What is a Platform plan?
+
+A Platform plan bundles a site, Workspace, add-ons, and more to help growing teams and enterprise organizations get started faster with Webflow.
+
+What Premium plan add-ons are available?
+
+Bandwidth
+
+Price
+
++50 GB
+
++$20 /month, billed annually
+
++$30 /month, billed monthly
+
++100 GB
+
++$40 /month, billed annually
+
++$60 /month, billed monthly
+
++150 GB
+
++$60 /month, billed annually
+
++$90 /month, billed monthly
+
++250 GB
+
++$100 /month, billed annually
+
++$150 /month, billed monthly
+
++350 GB
+
++$140 /month, billed annually
+
++$210 /month, billed monthly
+
++450 GB
+
++$174 /month, billed annually
+
++$260 /month, billed monthly
+
++700 GB
+
++$274 /month, billed annually
+
++$410 /month, billed monthly
+
++950 GB
+
++$374 /month, billed annually
+
++$560 /month, billed monthly
+
++1.450 TB
+
++$574 /month, billed annually
+
++$860 /month, billed monthly
+
++1.950 TB
+
++$774 /month, billed annually
+
++$1,160 /month, billed monthly
+
++2.450 TB
+
++$974 /month, billed annually
+
++$1,460 /month, billed monthly
+
+Webflow Cloud
+
+Price
+
+Web app bandwidth
+
+Pooled with site bandwidth
+
+Web app requests
+
+$2 / million requests
+
+Web app CPU usage
+
+$2 / 5 hours of CPU usage
+
+Capabilities and support
+What kind of support does Webflow offer?
+
+We provide customer support via email and aim to reply to all requests within 48 hours. You can also find guides and solutions in the Webflow Help Center, courses and tutorials on Webflow University, and a host of helpful Webflow customers in the Webflow Community.
+
+Can I host my website somewhere else?
+
+You can export your site and host it anywhere you like with any of our paid Workspace plans, no attribution required.‍
+
+Note: Dynamic content must be exported on a collection-by-collection basis and forms will stop working.
+
+Can my clients or coworkers upload their own content?
+
+For Starter, Freelancer, and Agency Workspace plans, clients can use client seats to publish new content anytime.
+
+How much traffic can Webflow hosting handle?
+
+Webflow hosting scales automatically to handle millions of simultaneous visits and uses Cloudflare's CDN to load websites in milliseconds.
+
+How does Webflow Cloud pricing work?
+
+Webflow Cloud provides built-in storage for web apps. Apps can be created and deployed without a Webflow site using the app project type, or added to an existing Webflow site to extend its functionality.
+
+Usage follows Webflow’s existing site plan structure, with limits for bandwidth, requests, CPU usage, and storage. Paid plans include surge protection to handle temporary traffic spikes, and additional capacity can be added as usage grows.
+
+Can I import my website or my code?
+
+No, you can only develop websites in Webflow. If you export your code, it can’t be reimported.
+
+Are Webflow websites SEO-friendly?
+
+Yes, Webflow sites are SEO-friendly. Our blazing-fast hosting, standards-based code, free SSL, and mobile-friendliness all help Webflow sites rank in search.
+
+Does Webflow have an API?
+
+Webflow’s REST API allows you to add, update, and remove items from your CMS. Read the documentation.
+
+How much does a Webflow Certification exam cost?
+
+The Webflow Practitioner Certification exam is $100 USD. In some countries and regions, additional taxes (such as VAT) may apply.
+
+Need help?
+Site vs. Workspace plans
+
+Check out this article explaining the different types of Webflow plans.
+
+↗
+Read article
+Looking for support?
+
+Visit our support portal for product or account help.
+
+↗
+Go to support portal
+10x
+In cost savings annually
+Read story
+→
+67%
+decrease in dev ticketing
+Read story
+→
+$6M
+in cost savings annually
+Read story
+→
+56%
+increase in form fills
+Read story
+→
+1,170%
+increase in traffic YoY
+Read story
+→
+$200M
+in new pipeline generated post-site launch
+Read story
+→
++20%
+increase in site-wide conversion
+Read story
+→
+10x
+In cost savings annually
+Read story
+→
+67%
+decrease in dev ticketing
+Read story
+→
+$6M
+in cost savings annually
+Read story
+→
+56%
+increase in form fills
+Read story
+→
+1,170%
+increase in traffic YoY
+Read story
+→
+$200M
+in new pipeline generated post-site launch
+Read story
+→
++20%
+increase in site-wide conversion
+Read story
+→
+Get started for free
+Get started — it’s free
+Get started — it’s free
+Watch demo
+Watch demo
+
+Try Webflow for as long as you like with our free Starter plan. Purchase a paid Site plan to publish, host, and unlock additional features.
+
+Source by Webflow
+Research preview
+Product
+Platform
+Design
+Edit content
+Interactions
+GSAP
+Page building
+Shared Libraries
+Collaboration
+CMS
+Hosting
+Localize
+Security
+Ecommerce
+Analyze
+Optimize
+SEO
+MCP NEW
+AEO NEW
+Webflow Cloud
+DevLinkLABS
+Figma to WebflowLABS
+Accessibility
+AI
+Solutions
+Enterprise
+Global alliances
+Agencies
+Freelancers
+Resources
+University
+Blog
+Customer stories
+Webinars & ebooks
+Apps
+Libraries
+Templates
+Developers
+Made in Webflow
+Glossary
+Livestreams
+The Webflow Way
+Business Value Calculator
+Company
+About
+CareersWE'RE HIRING
+Press
+Webflow Ventures
+Webflow Shop
+Terms of Service
+Privacy policy
+Cookie policy
+Accessibility statement
+Compare
+Contentful
+Framer
+Sitecore
+Wix
+WordPress
+Community
+Discover the community
+Partner with Webflow
+Certified Partners
+Become a template designer
+Become an affiliate
+Become a Global Leader
+Find a meetup near you
+Get help
+Support
+Pricing
+Status
+Community Homebase
+Wishlist
+© 2026 Webflow, Inc. All rights reserved
+Webflow's homepage
+Made in Webflow

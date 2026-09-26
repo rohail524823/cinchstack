@@ -1,0 +1,40 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/local-pricing
+FETCHED: 2026-09-26T21:51:10.640Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Local pricing for your Shopify subscription plan
+
+In some regions, Shopify offers subscription plan prices that are adjusted to the local cost of living. Eligibility for local pricing for Shopify plans is determined based on where your store is located. The Shopify Terms of Service require you to maintain an accurate location based on your current jurisdiction.
+
+In regions where local pricing for Shopify subscription plans is available, the subscription rate for your plan is applied when you sign up. If you open a new store, then your local prices are automatically displayed. If your store was opened prior to the availability of local pricing and is located in a region with local pricing, then you can switch your subscription plan to the local rate by changing to the same plan priced according to the local rate. Local pricing applies only to Shopify subscription plan rates.
+
+On this page
+Change your plan to local pricing
+Change your plan to local pricing
+
+If local pricing is available for your Shopify subscription plan, then you can switch your subscription plan to the local rate for your plan by changing to the same plan you're currently on, priced at the local rate.
+
+If you update your plan, then a bill is issued immediately that reflects only the subscription fee for your new plan. The price of your previous plan is prorated and applied against the cost of your new subscription for the month that you change your plan.
+
+Steps:
+Desktop
+
+From your Shopify admin, go to Settings > Plan.
+
+From the Plan page, click Change Plan in the Plan details section.
+
+Review the currently available plans, and then click Choose plan.
+
+Select a billing cycle and payment method, and then review the plan details, billing date, and plan charges.
+
+Click Start plan. If you don't want to change your plan, then click Cancel.
+
+Mobile
+Leave feedback
+Chat with a human

@@ -1,0 +1,334 @@
+SOURCE: https://www.semrush.com/kb/1536-content-toolkit-pricing-and-plans
+FETCHED: 2026-09-26T21:59:29.545Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to content
+
+Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.
+
+Product
+Pricing
+Solutions
+Resources
+Enterprise
+Log In
+Start for free
+Knowledge Base
+Search
+What is Semrush?
+Getting Started
+How-To Articles
+Subscriptions and Toolkits
+Semrush One
+Billing and Account
+Semrush Toolkits
+SEO
+AI Visibility
+Traffic & Market
+Local
+Advertising
+Content
+Content Toolkit Pricing and Plans
+Getting Started with Content Toolkit
+AI Article Generator
+Content Optimizer
+Content Repurposing
+Topic Finder
+SEO Brief Generator
+AI Chat and Board Mode
+Chrome Browser Extension
+Social
+AI PR
+My Reports
+Folders
+Agency Partners Platform
+App Center
+Integrations
+Teamwork
+Data and Metrics
+The Ultimate SEO Glossary
+Kompyte
+API
+MCP
+Contact Us
+Knowledge Base  Semrush Toolkits  Content  Content Toolkit Pricing and Plans
+Content Toolkit Pricing and Plans
+
+Let’s break down the Semrush Content Toolkit pricing and features. 
+
+We’ll explain what’s included, what the tool limits are, and how it compares to other content creation options.
+
+Feature
+
+	
+
+Content Toolkit plan ($60/month)
+
+Free trial
+
+	
+
+7 days
+
+Standard articles
+
+	
+
+Unlimited 
+
+SEO-boosted articles
+
+	
+
+5 per month
+
+You can purchase an additional 10 SEO Boosted articles for $30/month.
+
+SEO briefs
+
+	
+
+Included
+
+Content ideas
+
+	
+
+Included
+
+Content optimization
+
+	
+
+Included
+
+AI writing tools
+
+	
+
+AI rewriting features, integrated AI Chat
+
+AI image generation
+
+	
+
+Included
+
+Brand voices
+
+	
+
+Up to 50
+
+WordPress publishing
+
+	
+
+One-click export, supports up to 100 sites
+
+Plan Details
+
+Here’s what you get with Semrush’s Content Toolkit.
+
+Key features:
+
+Unlimited standard articles: Generate as many long-form articles as you want, using AI and Semrush data
+SEO-boosted articles: Add advanced SERP analysis to increase your chances of ranking
+Topic Finder: Discover high-impact content ideas, backed by real search data
+SEO Brief Generator: Build detailed briefs, with keywords, content outlines, and competitor insights
+Content Optimizer: Analyze and improve your content with SEO, tone, and readability tips
+AI writing tools: Compose copy with AI Chat built into your blog editor and instantly rewrite your text
+AI image generation: Create custom visuals directly in your workspace
+Brand Voice: Create and save up to 50 unique writing tones to keep your content consistent
+Google Docs transfers: Send your drafts to Google Docs directly from the tool
+WordPress integration: Publish to up to 100 connected sites with one click
+
+Included limits:
+
+5 SEO-bosted articles per month 
+Additional SEO Boost credits available: get an additional 10 articles for $30/month.
+Why Choose Semrush Content Toolkit?
+
+Unlike generic AI tools, the Semrush Content Toolkit is built on real SEO data—so every article you write is set to rank high. 
+
+Plus, it integrates data-driven topic search, drafting, optimization, and publishing into one seamless workflow.
+
+Here’s how Content Toolkit compares to ChatGPT:
+
+Feature
+
+	
+
+Semrush Content Toolkit
+
+	
+
+ChatGPT
+
+SEO data
+
+	
+
+✅
+
+Uses Semrush’s competitive data
+
+	
+
+❌
+
+Doesn’t offer access to real-time SEO data
+
+Full SEO article generation
+
+	
+
+✅
+
+Generates full long-form, SEO-ready drafts with a single click
+
+	
+
+❌
+
+Requires multi-step prompting to write long-form SEO copy
+
+SEO brief generation
+
+	
+
+✅
+
+Generates briefs by analyzing your keywords and top-ranking competitors
+
+	
+
+❌
+
+Creates basic briefs based on your input
+
+Suitability for SEO beginners and small teams
+
+	
+
+✅
+
+Integrates SEO best practices and offers an intuitive interface
+
+	
+
+❌
+
+Requires prior SEO knowledge and prompting skills to succeed
+
+Content ideas based on data
+
+	
+
+✅
+
+Generates data-driven topics for your target location
+
+	
+
+❌
+
+Comes up with generic content ideas based on your input
+
+Local SEO content optimization
+
+	
+
+✅
+
+Analyzes local search trends and optimizes your content accordingly
+
+	
+
+❌
+
+Doesn’t have access to local SEO data
+
+Simplified content creation in your brand voice
+
+	
+
+✅
+
+Creates a brand voice based on a writing sample and applies it to each new content piece
+
+	
+
+❌
+
+Requires multi-step prompting when trying to mirror your writing style
+
+Explore Content Toolkit now
+
+ 
+
+Table of contents
+Plan Details
+Why Choose Semrush Content Toolkit?
+Is this article helpful?
+GET STARTED WITH SEMRUSH TODAY
+
+Try Semrush free for seven days. Cancel anytime.
+
+Start free trial
+
+Semrush
+
+Semrush One
+Features
+Solutions
+Pricing
+Free Trial
+Compare Semrush
+Success Stories
+Stats and Facts
+Affiliate Program
+
+More tools
+
+Semrush MCP
+Enterprise SEO
+Enterprise AIO
+Enterprise SI
+Insights24
+Mfour
+App Center
+Top Websites
+Free Tools
+Sensor
+
+Company
+
+About Us
+Semrush Questions
+News
+Careers
+Partners
+Semrush Select
+Global Issues Index
+Do not sell my personal info
+Contact Us
+
+Support
+
+Knowledge Base
+Academy
+Semrush API
+
+Community
+
+Semrush Blog
+Webinars
+Ambassador Program
+
+© 2026 Semrush Holdings. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Cookies Settings
+English

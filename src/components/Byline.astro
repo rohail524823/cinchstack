@@ -1,0 +1,11 @@
+---
+import { longDate } from '../lib/format.mjs';
+import { AUTHOR } from '../lib/site.mjs';
+interface Props { modified: string; published?: string; verified?: string | null }
+const { modified, published, verified } = Astro.props;
+---
+<p class="byline">
+  <span>By <a href="/about/"><strong>{AUTHOR.name}</strong></a></span>
+  <span>Updated <time datetime={modified}>{longDate(modified)}</time></span>
+  {verified && <span>Prices verified <time datetime={verified} data-verified>{longDate(verified)}</time></span>}
+</p>

@@ -1,0 +1,114 @@
+SOURCE: https://help.systeme.io/article/4243-how-to-create-a-sub-account-on-systeme-io
+FETCHED: 2026-09-26T21:52:43.499Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+CATEGORIES
+Affiliation
+Blog
+Booking calendar
+Contact management
+Courses
+Customer support
+Deliverability
+Editor
+Emails
+General
+›
+Migrating to systeme.io
+Model Context Protocol (MCP)
+Payments
+Sales funnels
+ON THIS PAGE
+Introduction
+How to create a sub-account on systeme.io
+FAQ:
+General
+English
+How to create a sub-account on systeme.io
+Introduction
+
+Managing multiple projects or clients from a single systeme.io account can quickly become confusing. Fortunately, systeme.io offers a powerful solution: sub-accounts.
+
+You can create an unlimited number of sub-accounts, even with a free plan.
+
+Each sub-account is a fully-fledged systeme.io account that comes with the same resource limits as your main account, depending on your current plan.
+
+So, if you're on the Startup plan with a limit of 10 sales funnels, your main account and your sub-accounts can each create up to 10 funnels. This also applies to other resources, such as courses, contacts, emails, tags, and more.
+
+To help you get started, this article will show you how to create a sub-account on systeme.io.
+
+IMPORTANT:
+
+Publicly offering sub-accounts as "lifetime deals" or at prices lower than systeme.io’s official subscriptions is considered a violation of our Terms and Conditions and may result in the immediate suspension of your account.
+
+How to create a sub-account on systeme.io
+
+1. From the dashboard, click on your profile picture in the top right corner, then select Sub-accounts (1).
+
+2. Click on the Create (2) button at the top right.
+
+A popup window will appear where you need to enter the following information:
+Name (3): Assign a name to your sub-account (required).
+Subdomain (4): Customize the sub-account by assigning a subdomain, which allows you to access the account (example: project-1.systeme.io).
+
+Once finished, click on Save (5).
+
+4. After saving the sub-account, a message stating Sub-account has been successfully created will appear at the top of the screen.
+
+Locate the sub-account, click on the three small dots on the right, then select Log in to sub-account (6) to start using it.
+
+You can verify that you are logged into the sub-account by checking the name of the sub-account that appears after clicking on the profile picture.
+
+You can change the name of the sub-account by clicking on the Settings (7), or delete your sub-account by clicking on Delete (8).
+
+Notes:
+
+1. You benefit from distinct statistics for each sub-account, allowing for precise analysis of the activity of each project.
+
+2. From the main account, you keep an overall view and can easily manage all your sub-accounts.
+
+3. Each sub-account can be linked to one of the different available payment gateways, which is ideal for managing multiple brands, clients, or entities independently.
+
+FAQ:
+Question 1: Can I give an assistant or customer access to a specific sub-account?
+Answer 1: Yes, you can add an assistant or customer to a sub-account's workspace so that they can access it and collaborate with you.
+
+This assistant can be a member of your team, an external provider, or even a customer if you wish to give them direct access to their dedicated space.
+
+Steps to invite an assistant to a sub-account:
+
+Log in to your sub-account: From your main account, go to Sub-accounts, then click on Log in to sub-account next to the relevant sub-account.
+Access the workspace settings of the sub-account: Once in the sub-account, navigate to Settings and then select the Workspace Members section.
+Invite your assistant: Click on Invite, enter their email address, and then select the desired access level: Assistant or administrator.
+Confirm the invitation: The assistant will receive an email containing an invitation link to access the sub-account.
+
+For more details, you can check out our complete guide: How to invite an assistant to your systeme.io account.
+
+Question 2: Is there a limit to the number of sub-accounts allowed on our plans?
+Answer 2: No, there is no limit. You can create an unlimited number of sub-accounts, whether you have a free or paid account.
+Question 3: Is it possible to share content between the main account and its sub-accounts (or between sub-accounts)?
+Answer 3: Yes, you can share content from one account or sub-account to another using the sharing option provided by Systeme.io.
+
+You can share various elements, such as sales funnels, newsletters, email campaigns, courses, and custom blocks.
+
+For more information, please refer to the following help pages:
+
+How to share a sales funnel
+How to share a newsletter
+How to share a campaign
+How to share a course
+How to share a block
+Question 4: Is it possible to change the subdomain of a sub-account?
+Answer 4: Yes, you can modify the subdomain of a sub-account.
+
+To do this, simply access the relevant sub-account and navigate to the Settings section. From the left panel, click on Custom Domains, where you can modify your systeme.io subdomain.
+
+For more details, you can check out our article: How to modify the systeme.io subdomain
+
+Did this answer your question?
+🙂
+🙁
+
+Last updated on May 4, 2026
+
+© 2026 systeme.io Help Center · help.systeme.io

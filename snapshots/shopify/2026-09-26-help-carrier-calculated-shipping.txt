@@ -1,0 +1,37 @@
+SOURCE: https://help.shopify.com/en/manual/fulfillment/setup/shipping-rates/third-party-carrier-calculated-shipping
+FETCHED: 2026-09-26T21:55:14.677Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Shipping rates
+Third-party carrier-calculated shipping
+Plan requirement
+
+Third-party carrier-calculated shipping (CCS) is available on Shopify Advanced and Shopify Plus plans. Shopify Grow stores can add CCS for an additional monthly fee or by switching to annual billing. Learn about plan availability and supported carriers.
+
+You can connect your own account with carriers such as UPS, FedEx, USPS, Canada Post, or Australia Post to display real-time shipping rates at checkout. When customers check out, Shopify requests live rates from your connected carrier accounts based on the order's weight, dimensions, and destination, then displays those rates as shipping options. This ensures customers pay the exact amount your carrier will charge you for the shipping label.
+
+Note
+
+If you use an app or carrier to display calculated rates, then backup shipping rates are displayed only when those calculated rates fail and no other eligible shipping rate is available. You can also add flat shipping rates as reliable options for the same destinations. Flat rates are always displayed when eligible, so customers might choose them even when calculated rates are working.
+
+In this section
+
+Third-party shipping carrier accounts and availability
+
+Activating calculated shipping with Australia Post
+
+Activating calculated shipping with Canada Post
+
+Activating calculated shipping with FedEx
+
+Activating calculated shipping with UPS
+
+Activating calculated shipping with USPS
+
+Leave feedback
+Chat with a human

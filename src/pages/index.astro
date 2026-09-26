@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, TAGLINE } from '../lib/site.mjs';
+import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing } from '../lib/data.mjs';
+import { registry } from '../lib/pages.mjs';
+import { longDate } from '../lib/format.mjs';
+import { itemListNode, webPageNode } from '../lib/jsonld.mjs';
+import ToolCard from '../components/ToolCard.astro';
+import Fig from '../components/Fig.astro';
+
+const reg = await registry();
+const liveStacks = Object.values(stacks).filter((s) => reg.has(`/stacks/${s.id}/`));
+const toolHref = (id) => (reg.has(`/tools/${id}/`) ? `/tools/${id}/` : reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
+const liveCore = coreToolIds.filter((id) => toolHref(id));
+const liveCompare = Object.values(comparisons).filter((c) => reg.has(`/compare/${c.id}/`)).slice(0, 8);
+const realChanges = changelog.filter((c) => c.kind !== 'initial-record').slice(0, 5);
+const toolsTracked = Object.keys(pricing).length;
+const latest = Object.values(pricing).map((p) => p.checkedOn).sort().at(-1);
+const path = '/';
+const url = `${SITE}/`;
+const title = `CinchStack — ${TAGLINE}`;
+const description = 'Find the software stack that fits your business. Real monthly costs for every tool, read from vendor pricing pages, dated, and re-checked weekly.';
+const ld = [
+  webPageNode({ url, name: title, description, lastReviewed: latest }),
+  liveStacks.length ? itemListNode(url, 'Software stacks by business', liveStacks.map((s) => ({ name: reg.get(`/stacks/${s.id}/`).h1, url: `${SITE}/stacks/${s.id}/` }))) : null,
+];
+---
+<Base title={title} description={description} path={path} ogType="website" jsonld={ld}>
+  <div class="wrap">
+    <section class="hero">
+      <p class="lbl">CinchStack recommends</p>
+      <h1>The software stack that's best for your business, and what it really costs.</h1>
+      <p class="lede">Pick your kind of business. We name one tool for each job, say when to choose something else, and add up the whole monthly bill with every add-on counted. Every price is read from the vendor's own pricing page, dated, and checked again each week.</p>
+      {latest && <p class="muted small">{toolsTracked} tools tracked · prices last checked <time datetime={latest}>{longDate(latest)}</time></p>}
+    </section>
+
+    {liveStacks.length > 0 && (
+      <section class="section" aria-labelledby="stacks">
+        <h2 id="stacks">Start with your business</h2>
+        <div class="grid">
+          {liveStacks.map((s) => { const b = stackBill(s.id); return (
+            <a class="card" href={`/stacks/${s.id}/`}>
+              <span class="tag">Stack</span>
+              <h3>{s.label}</h3>
+              <p>{s.layers.map((l) => tool(l.pick).name).join(' · ')}</p>
+              <p class="cost">{s.sizeLabels.small}: <Fig v={b.totals.small} suffix="/mo" /></p>
+            </a>
+          ); })}
+        </div>
+      </section>
+    )}
+
+    <section class="section" aria-labelledby="changes">
+      <h2 id="changes">Latest price changes</h2>
+      {realChanges.length > 0 ? (
+        <ul class="changes-list">
+          {realChanges.map((c) => <li><time datetime={c.date}>{longDate(c.date)}</time><div><strong>{toolHref(c.tool) ? <a href={toolHref(c.tool)}>{tool(c.tool).name}</a> : tool(c.tool).name}:</strong> {c.summary}</div></li>)}
+        </ul>
+      ) : (
+        <p>No vendor has changed a price since we started recording. When one does, it shows up here and on the <a href="/changes/">price changes log</a> the same week.</p>
+      )}
+    </section>
+
+    {liveCore.length > 0 && (
+      <section class="section" aria-labelledby="tools">
+        <h2 id="tools">The tools we cover most closely</h2>
+        <p class="muted">Each card shows the real monthly bill for a five-person team, not the headline price.</p>
+        <div class="grid">{liveCore.map((id) => <ToolCard id={id} href={toolHref(id)} />)}</div>
+        <p><a href="/tools/">See every tool we track</a></p>
+      </section>
+    )}
+
+    {liveCompare.length > 0 && (
+      <section class="section" aria-labelledby="compare">
+        <h2 id="compare">Head-to-head comparisons</h2>
+        <ul class="related-list">
+          {liveCompare.map((c) => <li><a href={`/compare/${c.id}/`}>{tools[c.a].name} vs {tools[c.b].name}</a></li>)}
+        </ul>
+        <p><a href="/compare/">All comparisons</a></p>
+      </section>
+    )}
+
+    <section class="section read" aria-labelledby="verify">
+      <h2 id="verify">How we check a price</h2>
+      <p>We open the vendor's pricing page, save a copy of what it says, and record each plan, add-on and usage fee with the date. Every monthly bill on this site is worked out from those records for a stated team size, so you can see exactly what is counted. A script re-reads the pages every Monday, and any change is logged publicly. <a href="/methodology/">Read the full method</a>.</p>
+      <p>Some links on this site may earn us a commission. That never changes a price, a score or a pick, and <a href="/how-we-earn/">we list every program here</a>.</p>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,14 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961232347411-Proration-and-refunds-on-Workspace-and-Site-plans
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961232347411.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:52.238216Z
+ARTICLE UPDATED: 2026-09-16T21:28:16Z | EDITED: 2026-09-16T21:28:16Z
+RENDERER: curl + HTML-to-text of article body
+----
+Proration and refunds on Workspace and Site plans
+
+Understand proration and refunds in Webflow.
+Webflow prorates plan changes (e.g., upgrades to paid plans, billing frequency switches, or downgrades between paid plans) based on your existing balance, credits, and how many days you have remaining in your billing cycle. Your prorated charge and credits appear at checkout.
+If you want to make any changes to your plan, you can determine an estimate of your prorated charge with the following equation:
+(current monthly price ÷ 30) x (days left in billing period) - (new monthly price ÷ 30) x (days left in billing period) = Total prorated charge or credit
+The exact charge or credit at the time of your plan change may differ slightly from these calculations.
+Webflow purchases are nonrefundable, see our Refund policy for more details. This includes downgrading a paid Site or Workspace plan to the free Starter plan, whether the downgrade takes effect immediately or at the end of your billing period.

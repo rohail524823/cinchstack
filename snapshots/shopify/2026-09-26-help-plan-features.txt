@@ -1,0 +1,47 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features
+FETCHED: 2026-09-26T21:47:05.862Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+
+There are several plans to help your business grow at every stage. Each Shopify pricing plan offers a variety of features. There is no one specific plan that works for every business, but you can use this guide to help you decide which plan works for you.
+
+If you have a retail store and need hardware such as a cash register, a barcode scanner, or a receipt printer, then consider Shopify POS.
+
+Tip
+
+To see more videos, visit our YouTube channel.
+
+View pricing plans
+In this section
+
+Choosing the right plan
+
+Features on all plans
+
+Starter plan
+
+Lite plan
+
+Retail plan
+
+Basic plan
+
+Grow plan
+
+Advanced plan
+
+Shopify Plus plan
+
+Shopify for enterprise
+
+Agentic plan
+
+Leave feedback
+Chat with a human

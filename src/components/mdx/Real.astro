@@ -1,0 +1,10 @@
+---
+// MDX token: <Real tool="hubspot" size="small" /> -> the real monthly bill for that scenario
+import { scenario } from '../../lib/data.mjs';
+import Fig from '../Fig.astro';
+interface Props { tool: string; size: 'solo' | 'small' | 'growing'; year?: boolean }
+const s = scenario(Astro.props.tool, Astro.props.size);
+if (!s) throw new Error(`<Real>: no scenario ${Astro.props.tool}/${Astro.props.size}`);
+const v = Astro.props.year ? Math.round(s.monthly * 12 * 100) / 100 : s.monthly;
+---
+<Fig v={v} />

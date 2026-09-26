@@ -1,0 +1,191 @@
+SOURCE: https://help.webflow.com/hc/en-us/articles/33961410031507-Bandwidth-overview
+VIA: https://help.webflow.com/api/v2/help_center/en-us/articles/33961410031507.json (Zendesk Help Center API; the HTML page returns a Cloudflare bot challenge to headless Chromium)
+FETCHED: 2026-09-26T21:59:27.283684Z
+ARTICLE UPDATED: 2026-08-31T16:00:42Z | EDITED: 2026-08-31T16:00:42Z
+RENDERER: curl + HTML-to-text of article body
+----
+Bandwidth overview
+
+Use the site usage dashboard to understand bandwidth consumption on your site.
+Bandwidth is the total amount of data transferred between your published site and your site visitors.
+When a site visitor loads a page on your site, Webflow sends that page and all its assets to the visitor's browser. If your site displays a basic page to just one visitor, bandwidth consumption is negligible. However, if your site delivers a complex page with many heavy assets (e.g., images, videos, etc.) to a large number of visitors, bandwidth consumption increases significantly. Higher bandwidth consumption can slow down site performance and create a poor experience for visitors.
+Use Webflow's site usage dashboard to monitor your site's bandwidth, identify high-bandwidth assets, and take steps to reduce usage.
+
+Note
+
+Bandwidth limits are set per site and vary based on your Site plan.
+
+Total bandwidth vs. asset bandwidth
+In the usage dashboard, you can review total bandwidth usage and asset bandwidth usage.
+
+-
+Total bandwidth — every byte Webflow’s CDN delivers for your site, including HTML, CSS, JavaScript, and assets. This is what counts against your plan’s bandwidth allotment. Traffic proxied through Google Tag Gateway (GTG) doesn’t count toward this total
+
+-
+Asset bandwidth — bandwidth attributed to individual files (images, videos, fonts, scripts, and stylesheets). The asset bandwidth chart and breakdown table show usage by file type or individual asset. Asset bandwidth is typically a subset of total bandwidth, so the asset total may be lower than the Total used tile for the same date range.
+
+How to view bandwidth usage
+To view your site's bandwidth usage, go to Site settings > Site usage.
+Set a date range
+Use the date picker to filter the report. You can choose from preset ranges (e.g., Today, Yesterday, This week) or set a custom range up to 366 days. The earliest date you can select is April 1, 2024.
+The selected date range is reflected in the page URL, so you can share a link that opens to the same view.
+Bandwidth details tiles
+Five tiles summarize bandwidth for the selected date range:
+
+-
+Total used — the sum of daily bandwidth across the range
+
+-
+Avg per day — total bandwidth divided by the number of days in the range
+
+-
+Peak day — the highest single-day bandwidth and the date it occurred
+
+-
+Active traffic — the number of days with non-zero bandwidth
+
+-
+Trend — a sparkline showing daily bandwidth across the range
+
+Total bandwidth over time chart
+The chart plots daily bandwidth as a blue area chart. If usage crosses your plan's limit, the area above the limit turns red and a reference line marks the limit value. The chart also includes the following features:
+
+-
+Previous period comparison — above the chart, a comparison shows how the selected range stacks up against the equivalent number of days immediately before it.
+
+-
+Spike detection — when a single day's bandwidth jumps significantly above the trailing 7-day baseline, a callout appears below the chart. Click the provided link to open the Total bandwidth details page filtered to the month of the spike.
+
+Total bandwidth details page
+Click View details on the bandwidth chart to see a detailed breakdown. From here you can:
+
+-
+Filter — use the selector to filter by All days or Active days only
+
+-
+Export CSV — download a copy of the currently filtered data as a CSV file
+
+Asset bandwidth donut chart
+A donut chart shows the share of asset bandwidth by file type for the selected range: Images, Videos, Fonts, Scripts, Stylesheets, and Other. The center shows the total asset bandwidth. Hover a segment to see that file type's bandwidth and percentage.
+Assets breakdown table
+The assets breakdown table lists either the top assets by bandwidth or bandwidth by asset type — use the By top assets / By asset type dropdown to switch between views.
+Assets details page
+Click View details on the assets breakdown table to see a detailed breakdown. From here you can:
+
+-
+Search assets — filter assets by name
+
+-
+Filter — choose All (every asset that served bandwidth), Top bandwidth (top 50 assets by bandwidth in the selected period), or Biggest movers (top 50 assets by absolute change vs. the prior period)
+
+-
+Export CSV — download a copy of the currently filtered data as a CSV file
+
+When an asset meets one of Webflow's optimization criteria, a warning icon appears next to its file size. Hover the icon to see a tip:
+
+-
+Resize image — the image is over 2,000 px on either dimension. Re-upload it at display size in the Designer's Assets panel
+
+-
+Replace GIF with video — the GIF is over 1 MB. Upload an MP4 to the Assets panel and add a Video element with Autoplay, Loop, and Muted enabled
+
+-
+Compress image — the image isn't in WebP or AVIF format. Use the Assets panel's Compress action to convert it
+
+-
+Reduce video size — a self-hosted video is over 100 MB. Embed it via YouTube or Vimeo, or upload a lower-bitrate version
+
+-
+Trim font file — a font file is over 80 KB and loaded more than 1,000 times. Remove unused weights and styles in Site settings > Fonts
+
+-
+Move to page — a JavaScript or CSS bundle is over 250 KB. Move page-specific scripts from Site settings > Custom code to the relevant page's Page settings > Custom code
+
+The Where column identifies where each asset lives or where it's referenced from. Here's what each value means:
+
+Where value |
+What it means |
+
+(deleted) |
+The asset was deleted from the CMS, but it's still using bandwidth because cached pages or external links continue to request it. |
+
+Font |
+A web font file uploaded by you, or supplied by Webflow or Google Fonts. All font formats (.ttf, .otf, .woff, .woff2) are grouped under this single label. |
+
+CMS item name |
+A file referenced by a specific item in one of your CMS Collections. The tooltip names the item and the Collection (or Collections) that reference it. |
+
+CMS |
+The asset is uploaded to your CMS, but no CMS items currently reference it. |
+
+Assets |
+The asset lives at the top level of your Asset manager, not inside a folder. |
+
+CMS Collection folder |
+The asset is referenced by items in one or more CMS Collections. The tooltip lists the Collections. |
+
+Asset manager folder name |
+The asset lives inside a folder in your Asset manager. The tooltip shows the folder name. |
+
+Code |
+A JavaScript or CSS file, either generated by Webflow when your site publishes, or added through custom code. |
+
+— (em dash) |
+Webflow couldn't match the file to anything in your Asset manager or CMS. This usually means the file was renamed, removed, or served from an external source. |
+
+How to reduce bandwidth usage and improve site performance
+After identifying pages and assets consuming the most bandwidth, you can take the following steps to reduce usage:
+
+- Compress images in the Assets panel
+
+- Compress images in the CMS panel
+
+- Reduce usage of background videos
+
+- Minify your site's HTML, CSS, and JS
+
+- Clean up unused styles
+
+- Clean up unused interactions
+
+- Optimize your site for different devices and browsers
+
+- Replace background image styles with inline images positioned via object-fit
+
+-
+Delete unused fonts from your site
+
+-
+Delete unused assets from the Assets panel
+
+Note
+
+Webflow's built-in responsive images feature automatically resizes inline images based on the visitor's device, but responsive images aren't generated for background images or images in rich text elements. You can also use Webflow's image conversion tool to compress existing assets by converting them to WebP — this updates the file type in the Assets panel and every instance on the canvas.
+
+FAQ
+What factors impact bandwidth usage?
+Assets (e.g., images, videos, files, etc.) typically consume the most bandwidth, but traffic volume, device differences, and browser behavior also play a role.
+How does Webflow define bandwidth? What types of traffic count toward bandwidth consumption?
+Bandwidth includes both asset bandwidth (e.g., images, videos, files, etc.) and hosting bandwidth (e.g., HTML, CSS, and JS files, etc.). Webflow counts traffic from any type of user agent (bot or non-bot) and traffic with any status code (e.g., 200, 404s, redirects, etc.).
+How far back can I view historical bandwidth data?
+The site usage dashboard lets you view bandwidth from April 1, 2024 onward.
+Can I identify what percentage of site traffic comes from bots?
+The site usage dashboard doesn't differentiate between bot and non-bot traffic at this time. You can add a robots.txt file to your site to allow or disallow traffic from specific pages or bots.
+Once I identify high-bandwidth assets, how can I find and compress them on my site?
+To find and compress high-bandwidth assets with Webflow's image conversion tool, open the Assets panel, click the "Expand Assets panel" icon, and search for the asset name. Then, follow the steps to convert existing assets to WebP files.
+Do interactions and animations impact bandwidth usage?
+Generally, no. However, interactions that load additional assets (e.g., infinite scroll) or trigger server requests (e.g., loading data from the CMS API) can contribute to higher bandwidth usage and slower performance.
+Do third-party integrations impact bandwidth usage?
+Scripts and content from third-party services (e.g., analytics tools, embedded content, social media widgets, etc.) generally don’t impact bandwidth usage, but they can contribute to slower site performance. Traffic proxied through Google Tag Gateway (GTG) doesn’t count toward your bandwidth allocation.
+What happens if I go over my bandwidth limits?
+If your site is on a Basic or Premium Site plan (or legacy CMS or Business Site plan), it will receive complimentary surge protection. This means if your site exceeds its monthly allotment for one billing month, you won't be charged.
+If your site exceeds its monthly allotment again the following billing month, your site plan or bandwidth tier will be automatically upgraded at the start of your next billing month, based on the lower of your last two months' usage.
+If optimizing assets isn't enough and you anticipate needing higher bandwidth limits, reach out to our Enterprise team to discuss transitioning to our Enterprise hosting plan, which offers custom bandwidth and traffic support.
+I want to use videos on my site. What are my options to optimize these assets?
+You have the following options to optimize video assets on your site:
+
+- Compress video files before uploading.
+
+- Host your video on a third-party platform (YouTube, Vimeo, Cloudflare Stream, etc.). You can use the custom element to add an externally hosted video to your site.
+
+- Use an app from our Marketplace such as Flowdrive or Vidzflow.

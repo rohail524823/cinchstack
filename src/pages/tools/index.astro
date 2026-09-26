@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../lib/site.mjs';
+import { tools, toolsByLayer } from '../../lib/data.mjs';
+import { LAYERS, LAYER_LABELS, LAYER_QUESTIONS } from '../../lib/schemas.mjs';
+import { registry } from '../../lib/pages.mjs';
+import { breadcrumbNode, itemListNode, webPageNode } from '../../lib/jsonld.mjs';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ToolCard from '../../components/ToolCard.astro';
+const reg = await registry();
+const href = (id) => (reg.has(`/tools/${id}/`) ? `/tools/${id}/` : reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
+const byLayer = toolsByLayer();
+const listed = Object.keys(tools).filter((id) => href(id));
+const path = '/tools/';
+const url = `${SITE}${path}`;
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools' }];
+const title = 'Software tools for small businesses and what they really cost';
+const description = 'Every tool CinchStack covers, grouped by what it does for your business, with the real monthly bill for a five-person team and our score.';
+---
+<Base title={title} description={description} path={path} jsonld={[breadcrumbNode(url, crumbs), webPageNode({ url, name: title, description, type: 'CollectionPage' }), itemListNode(url, 'Tools', listed.map((id) => ({ name: tools[id].name, url: `${SITE}${href(id)}` })))]}>
+  <div class="wrap page">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1>The tools, and what they really cost</h1>
+    <p class="lede">Grouped by the job they do in your stack. Each card shows the real monthly bill for a five-person team — every add-on and usage fee counted — not the headline price.</p>
+    {LAYERS.map((l) => { const ids = byLayer[l].filter((id) => href(id)); return ids.length > 0 && (
+      <section class="section">
+        <h2 id={l}>{LAYER_LABELS[l]} <span class="muted" style="font-weight:400;font-size:.7em">— {LAYER_QUESTIONS[l]}</span></h2>
+        <div class="grid">{ids.map((id) => <ToolCard id={id} href={href(id)} />)}</div>
+      </section>
+    ); })}
+  </div>
+</Base>

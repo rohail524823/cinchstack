@@ -1,0 +1,6 @@
+---
+import { price } from '../../lib/data.mjs';
+import { longDate } from '../../lib/format.mjs';
+const p = price(Astro.props.tool);
+---
+<time datetime={p.checkedOn}>{longDate(p.checkedOn)}</time>

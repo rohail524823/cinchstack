@@ -1,0 +1,1600 @@
+SOURCE: https://www.framer.com/pricing
+FETCHED: 2026-09-26T22:11:52.240Z
+RENDERER: headless Chromium, en-US, US timezone
+ACTION: "Yearly billing" switch = On (yearly billing selected); each option of the Basic and Pro "Credits per month" dropdowns selected in turn; plan-card section recorded after each selection
+----
+==== Basic card: selected "1,000 AI credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Basic card: selected "2,000 AI credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$20
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Basic card: selected "3,000 AI credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$30
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Basic card: selected "5,000 AI credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$50
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Basic card: selected "8,000 AI credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$80
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Basic card: selected "10,000 AI credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$100
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Basic card: selected "15,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$150
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "3,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$30
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "5,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$50
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "10,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$100
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "20,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$200
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "30,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$300
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "50,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$500
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more
+
+==== Pro card: selected "100,000 credits / month" in the credits dropdown; Yearly billing switch = On (yearly billing selected) ====
+Start free, then scale your site
+
+Yearly billing
+
+Free
+Try for free
+
+$0
+
+500 AI credits to try
+
+Free Framer domain
+
+1 GB bandwidth
+
+Design pages
+
+Start for Free
+
+Basic
+Creative personal sites
+
+$10
+
+per month
+
+1,000 AI credits / month
+2,000 AI credits / month
+3,000 AI credits / month
+5,000 AI credits / month
+8,000 AI credits / month
+10,000 AI credits / month
+15,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+2 CMS collections
+
+50 GB bandwidth
+
+Built-in SEO
+
+Localization (add-on)
+
+Start with Basic
+
+Pro
+
+Growing professional sites
+
+$1,000
+
+per month
+
+3,000 credits / month
+5,000 credits / month
+10,000 credits / month
+20,000 credits / month
+30,000 credits / month
+50,000 credits / month
+100,000 credits / month
+
+Free custom domain
+
+2× credits first month
+
+10 CMS collections
+
+100 GB bandwidth
+
+Site redirects
+
+Staging environment
+
+Branching with previews
+
+Advanced hosting (add-on)
+
+A/B testing (add-on)
+
+Start with Pro
+
+Enterprise
+Mission critical sites
+
+Custom
+
+Credits with volume discounts
+
+Custom limits
+
+Unlimited editors
+
+Enterprise-grade security
+
+Uptime guarantee
+
+SCIM
+
+SSO
+
+Request Trial
+
+Additional editors are 
+
+$20
+
+ / month,
+
+and viewers are free. Learn more

@@ -1,0 +1,8 @@
+SOURCE: https://systeme.io/api/user-plans/fr
+FETCHED: 2026-09-26T21:47:54Z
+METHOD: curl -sL (same plan endpoint as the English pricing page, for the fr site language; monthCost/annualCost are in minor units of the listed currency)
+----
+{"title": "Gratuit", "maxContacts": 2000, "monthCost": 0, "annualCost": 0, "currency": "eur"}
+{"title": "Startup", "maxContacts": 5000, "monthCost": 1700, "annualCost": 17000, "currency": "eur"}
+{"title": "Webinaire", "maxContacts": 10000, "monthCost": 4700, "annualCost": 47000, "currency": "eur"}
+{"title": "Illimité", "maxContacts": 1000000, "monthCost": 9700, "annualCost": 97000, "currency": "eur"}

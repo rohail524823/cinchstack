@@ -1,0 +1,35 @@
+{
+  "id": "shopify",
+  "name": "Shopify",
+  "vendor": "Shopify Inc.",
+  "tier": "core",
+  "layer": "sell",
+  "category": "Ecommerce platform",
+  "url": "https://www.shopify.com",
+  "pricingUrl": "https://www.shopify.com/pricing",
+  "oneLiner": "Hosted ecommerce platform for running an online store, selling in person with Shopify POS, and listing products on social, marketplaces and AI chats.",
+  "summary": "Shopify is a hosted commerce platform: a flat monthly plan covers the online store, checkout, hosting, point-of-sale software and order management in one admin. Basic, Grow and Advanced can be paid month-to-month or at about 25% less billed yearly, while Plus needs a 1- or 3-year term. Stores that take payments through Shopify Payments avoid the extra transaction fee Shopify charges on orders processed by other payment providers.",
+  "bestFor": ["shopify-store"],
+  "notFor": [
+    "Course creators whose main product is courses, memberships or coaching",
+    "Service businesses that mainly need bookings and invoices rather than a product catalog",
+    "Teams that need staff logins on the cheapest plan (Basic has no staff accounts)"
+  ],
+  "pros": [
+    "No Shopify transaction fee on orders paid through Shopify Payments, Shop Pay or PayPal Express Checkout",
+    "Every plan includes unlimited products, hosting, a custom domain, SSL and casual in-person selling",
+    "Abandoned checkout recovery, discount codes, gift cards and automated sales tax calculation on every plan",
+    "10,000 marketing emails a month included, then $1 per 1,000",
+    "Month-to-month billing on Basic, Grow and Advanced, or about 25% less billed yearly",
+    "Collaborator accounts for freelancers and agencies don't count toward staff limits"
+  ],
+  "cons": [
+    "Basic has no staff accounts, so a single employee login means moving to Grow at $105/mo month-to-month",
+    "Using a third-party payment provider adds a Shopify fee of 2% (Basic), 1% (Grow) or 0.6% (Advanced) on top of the provider's own fees",
+    "Stores created since May 12, 2025 pay that fee on the part of an order paid with gift cards or store credit, even with Shopify Payments",
+    "Paid themes and third-party apps add one-time and monthly costs that the plan price doesn't show",
+    "Live carrier-calculated shipping needs Advanced, or on Grow either yearly billing or an extra monthly fee",
+    "Plus has no month-to-month option: it needs a 1- or 3-year term starting at $2,300/mo"
+  ],
+  "affiliate": { "program": "shopify" }
+}

@@ -1,0 +1,53 @@
+---
+// Trust and utility pages written as MDX in src/content/pages/.
+import Base from '../layouts/Base.astro';
+import { render } from 'astro:content';
+import { SITE, AUTHOR_ID, AUTHOR } from '../lib/site.mjs';
+import { registry } from '../lib/pages.mjs';
+import { datesFor } from '../lib/meta.mjs';
+import { breadcrumbNode, webPageNode } from '../lib/jsonld.mjs';
+import { mdxComponents } from '../components/mdx/index.mjs';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Updated from '../components/Updated.astro';
+import AuthorBox from '../components/AuthorBox.astro';
+import Programs from '../components/trust/Programs.astro';
+import Mandated from '../components/trust/Mandated.astro';
+import ContactForm from '../components/trust/ContactForm.astro';
+import Factors from '../components/trust/Factors.astro';
+import Coverage from '../components/trust/Coverage.astro';
+
+export async function getStaticPaths() {
+  const reg = await registry();
+  return [...reg.values()].filter((r) => r.kind === 'pages').map((r) => ({ params: { page: r.slug }, props: { r } }));
+}
+const { r } = Astro.props;
+const e = r.entry;
+const slug = r.slug;
+const path = `/${slug}/`;
+const url = `${SITE}${path}`;
+const { Content } = await render(e);
+const d = datesFor(e);
+const NOINDEX = new Set(['thanks']);
+const TYPE = { about: 'AboutPage', contact: 'ContactPage', methodology: 'WebPage', 'how-we-earn': 'WebPage' };
+const crumbs = [{ label: 'Home', href: '/' }, { label: r.h1 }];
+const page = webPageNode({ url, name: e.data.title, description: e.data.description, type: TYPE[slug] ?? 'WebPage' });
+page.datePublished = d.published;
+page.dateModified = d.modified;
+const extra = [];
+if (slug === 'about') {
+  // The author page: a ProfilePage whose main entity is the Person node already in the graph.
+  extra.push({ '@type': 'ProfilePage', '@id': `${url}#profile`, url, name: `${AUTHOR.name}, ${AUTHOR.jobTitle} of CinchStack`, mainEntity: { '@id': AUTHOR_ID }, dateCreated: d.published, dateModified: d.modified });
+}
+const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage };
+---
+<Base title={e.data.title} description={e.data.description} path={path} noindex={NOINDEX.has(slug)} ogType="website" jsonld={[breadcrumbNode(url, crumbs), page, ...extra]}>
+  <div class="wrap page">
+    <article class="read">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1>{r.h1}</h1>
+      <div class="prose-body"><Content components={components} /></div>
+      {slug === 'about' && <AuthorBox />}
+      {!NOINDEX.has(slug) && <Updated published={d.published} modified={d.modified} />}
+    </article>
+  </div>
+</Base>

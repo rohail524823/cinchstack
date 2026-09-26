@@ -1,0 +1,623 @@
+SOURCE: https://www.hubspot.com/pricing/sales
+FETCHED: 2026-09-26T21:38:30.480Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+___
+×
+close
+
+We use cookies to improve HubSpot’s site. Some cookies are necessary for our website and services to function properly. Other cookies are optional and help personalize your experience, including advertising and analytics. You can consent to all cookies, decline all optional cookies, or manage optional cookies. Without a selection, our default cookie settings will apply. You can change your preferences at any time. To learn more, check out our Cookie Policy.
+
+Accept All
+Decline All
+Manage Cookies
+Skip to content
+English
+Select a language
+Customer Support
+Contact Sales
+Log in
+About
+About
+Products
+Products
+Solutions
+Solutions
+Pricing
+Resources
+Resources
+Get started
+USD ($)
+Platform Solutions
+
+Customer Platform
+
+Free Tools
+
+Create a Bundle
+
+HubSpot for Marketers
+
+Products
+
+Smart CRM
+
+Marketing
+
+Sales
+
+Service
+
+Content
+
+Data
+
+Revenue
+
+Manage your full revenue journey on one customer platform
+Go from prospecting to payment faster. Buy Sales Hub, get Revenue Hub Professional for $57/mo/seat (was $95/mo/seat) or Enterprise for $98/mo/seat (was $140/mo/seat) when billed annually. New Sales Hub and Revenue Hub customers only.
+Talk to Sales
+Sales Hub
+Close more deals and accelerate growth with powerful sales softwareCalculate your price
+Free
+
+Start closing deals faster with time-saving sales tools you can use for free
+
+$0/mo
+
+Free for up to 2 users. No credit card required.
+
+Get started free
+Includes:
+
+Free Marketing tools
+
+Free Sales tools
+
+Free Service tools
+
+Free Content tools
+
+Free Data tools
+
+Free Revenue tools
+
+Starter
+
+Essential marketing, sales, service, content, and data management software
+
+Starts at
+$7/mo/seat
+
+$20/mo/seat
+
+Billing period
+Pay Monthly
+Commit monthly
+Pay Annually
+BEST VALUE
+Buy now
+Talk to Sales
+
+500 HubSpot Credits
+
+feature available
+Agent Hub
+feature available
+Agent Builder
+feature available
+Prospecting agent
+feature available
+Notetaker
+feature available
+Calling
+feature available
+Task queues
+feature available
+Intent signals
+Professional
+
+Comprehensive sales software to automate and scale your sales processes
+
+Starts at
+$90/mo/seat
+
+$100/mo/seat
+
+Billing period
+Pay Monthly
+Commit annually
+Pay Annually
+BEST VALUE
+Buy now
+Talk to Sales
+
+3,000 HubSpot Credits
+
+Sales Hub Starter, plus:
+feature available
+Deal Progression
+BETA
+feature available
+Forecasting
+feature available
+Deal Plans
+BETA
+feature available
+Conversation intelligence
+feature available
+Sequences
+
+*Cost shown does not include the required, one-time Professional Onboarding for a fee of $1,500. Learn more
+
+Enterprise
+
+Our most powerful sales software for advanced control and flexibility
+
+Starts at
+$150/mo/seat
+Talk to Sales
+
+5,000 HubSpot Credits
+
+Sales Hub Professional, plus:
+feature available
+Deal splits
+feature available
+Deal journey analytics
+feature available
+Lead Form Routing
+feature available
+Pipeline approvals for Deals
+feature available
+Standard sandbox account
+
+*Cost shown does not include the required, one-time Enterprise Onboarding for a fee of $3,500. Learn more
+
+View Professional & Enterprise plans
+HubSpot Credits:
+Fuel powerful features that scale work at your own pace
+
+HubSpot has powerful tools that scale work alongside your teams. You can take advantage of these tools with HubSpot Credits—a simple, flexible way to pay for what you use.
+
+Simple
+
+Get started fast and test the latest AI tools with included credits.
+
+See credit balance, track usage, and more—all in a single workspace.
+
+Report on exactly which tools are delivering the most value.
+
+Flexible
+
+Easily plan your spend with credit packs, or enable pay as you go.
+
+Add more packs, adjust your spend cap, or pause features—staying in control without disruption.
+
+Use arrow keys to see other items
+AI Agents
+customer agent
+
+Resolves inquiries with fast, accurate responses — and escalates when needed, so your team can focus on complex cases and building loyalty. Learn more
+
+70%+
+
+of conversations resolved automatically
+
+39%
+
+faster ticket resolution vs. teams not using customer agent
+
+Build Pipeline
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo/seat
+
+Buy now
+	
+
+Professional
+
+$90/mo/seat
+
+Buy now
+	
+
+Enterprise
+
+$150/mo/seat
+
+Talk to Sales
+
+HubSpot mobile app
+
+	
+	
+	
+	
+
+1-to-1 email
+
+	Includes HubSpot branding	HubSpot branding removed	HubSpot branding removed	HubSpot branding removed
+
+Canned snippets
+
+	Up to 3 snippets	Up to 5,000 snippets	Up to 5,000 snippets	Up to 5,000 snippets
+
+Email templates
+
+	Up to 3 email templates per account.	Up to 10,000 email templates per account.	Up to 10,000 email templates per account.	Up to 10,000 email templates per account.
+
+1:1 video messaging
+
+			
+	
+
+Sales email frequency controls
+
+			
+	
+
+Agent Hub
+
+		
+	
+	
+
+Agent Builder
+
+		Build and deploy custom agents with simple automation tailored to your business.	Build and deploy custom agents with advanced automation and event-based triggers.	Build and deploy custom agents with advanced automation and event-based triggers.
+
+Data Agent
+
+		
+	
+	
+
+Prospecting agent
+
+		
+	
+	
+
+Customer agent
+
+			
+	
+
+Live chat
+
+	Includes HubSpot branding	Remove HubSpot branding	Remove HubSpot branding	Remove HubSpot branding
+
+Conversational bots
+
+	Limited features	Limited features	Additional features	Additional features
+
+Facebook Messenger integration
+
+	Send and receive simple messages and quick replies	Remove HubSpot branding	Includes advanced Messenger bot branching and advanced reporting	Includes the ability to use code snippets for custom Messenger bot actions
+
+Calling
+
+		500 minutes	3,000 minutes	12,000 minutes
+
+HubSpot-provided phone numbers
+
+		1 phone number. Not supported in all countries.	Up to 3 phone numbers. Not supported in all countries.	Up to 5 phone numbers. Not supported in all countries.
+
+Call recording and transcription
+
+			750 hours of transcription per account per month.	1,500 hours of transcription per account per month.
+
+Coaching Playlists
+
+			
+	
+
+Interactive Voice Response
+
+			
+	
+
+Sales automation
+
+		Up to 50 workflows with restricted triggers and actions.	Up to 300 fully customizable workflows.	Up to 1,000 fully customizable workflows, with the ability to trigger sequences. Also includes quote-based workflows and workflow health monitoring.
+
+ABM tools and automation
+
+			
+	
+
+LinkedIn Sales Navigator and CRM Sync integrations
+
+			
+	
+
+Lead scoring
+
+			Up to 5 scores.	Up to 10 scores.
+
+Sequences
+
+			5,000 sequences per account, and up to 500 email sends/user/day. LinkedIn actions require a Sales Navigator subscription.	5,000 sequences per account, and up to 1,000 email sends/user/day. LinkedIn actions require a Sales Navigator subscription. Includes the ability to trigger sequences via workflows.
+
+Close Deals
+
+	
+
+Free tools
+
+Get started free
+	
+
+Starter
+
+$7/mo/seat
+
+Buy now
+	
+
+Professional
+
+$90/mo/seat
+
+Buy now
+	
+
+Enterprise
+
+$150/mo/seat
+
+Talk to Sales
+
+Pipelines
+
+		Up to 15 total pipelines per account across object types.	Up to 100 total pipelines per account across object types.	Up to 350 total pipelines per account across object types.
+
+Deal Summaries
+
+			
+	
+
+Deal Progression
+
+(Beta)
+			
+	
+
+Pipeline approvals for Deals
+
+				
+
+Deal splits
+
+				
+
+Deal Plans
+
+(Beta)
+			
+	
+
+Meeting scheduling
+
+	Maximum of 1 personal meetings link
+Includes HubSpot branding	1,000 personal & team meetings links
+Remove HubSpot branding	1,000 personal & team meetings links
+Remove HubSpot branding	1,000 personal & team meetings links
+Remove HubSpot branding
+
+Lead Form Routing
+
+				
+
+Reporting dashboard
+
+	10 dashboards, 50 reports per dashboard	30 dashboards, 50 reports per dashboard	75 dashboards, 50 reports per dashboard	100 dashboards, 50 reports per dashboard
+
+Sales analytics
+
+		
+	
+	
+
+Custom reporting
+
+			Up to 100 custom reports and 10 million events per custom reporting query	Up to 500 custom reports and 100 million events per custom reporting query
+
+Deal journey analytics
+
+				Each report can include up to 10 stages and 10 unique steps, and is limited to 36 months of data or 20 million events (whichever comes first).
+
+Goals
+
+		Limited features	Template goals	Template and custom goals
+
+Custom Signals
+
+(Beta)
+		
+	
+	
+
+Forecasting
+
+			Default and custom forecasting and reporting	Default and custom forecasting and reporting, including forecasting across team hierarchies.
+
+Notetaker
+
+		
+	
+	
+
+Meeting prep and recap
+
+			
+	
+
+Conversation intelligence
+
+			
+	Includes tracked terms.
+
+Playbooks
+
+			Create up to 5 playbooks, and capture notes in playbooks	Create up to 5,000 playbooks. Embed properties or capture notes in playbooks.
+
+HubSpot Work
+
+(Beta)
+		Limited automation	Full automation	Full automation
+
+View the Product & Services Catalog for full technical limits and definitions
+
+Need help choosing a plan?
+
++1 (888) 482-7768
+
+Seamlessly integrate your apps
+
+Over 2,000 leading apps and web services available
+
+Amplitude
+
+Jira
+
+Adobe Express
+
+Aircall
+
+LinkedIn
+
+Microsoft Teams
+
+Frequently asked questions
+What is Sales Hub?
+What's the difference between Sales Hub and HubSpot Smart CRM?
+How many users do I get with my Sales Hub plan?
+How many HubSpot Credits do I get with my Sales Hub plan?
+What's the difference between Sales and Service Hub?
+What type of support does HubSpot offer?
+Does HubSpot offer discount pricing for startups and nonprofits?
+Still have questions about how HubSpot's software can help your business?
+
++1 (888) 482-7768
+
+Popular Features
+All Products and Features
+All Products and Features
+HubSpot AEO
+HubSpot AEO
+Free Meeting Scheduler App
+Free Meeting Scheduler App
+Agent Hub
+Agent Hub
+Email Tracking Software
+Email Tracking Software
+AI Content Writer
+AI Content Writer
+AI Website Generator
+AI Website Generator
+Email Marketing Software
+Email Marketing Software
+Lead Management Software
+Lead Management Software
+AI Prospecting Agent
+AI Prospecting Agent
+Free Website Builder
+Free Website Builder
+Free Landing Page Builder
+Free Landing Page Builder
+Free Online Form Builder
+Free Online Form Builder
+Free Chatbot Builder
+Free Chatbot Builder
+Free Live Chat Software
+Free Live Chat Software
+Marketing Analytics
+Marketing Analytics
+Breeze Assistant
+Breeze Assistant
+Free Web Hosting
+Free Web Hosting
+Free Tools
+See All Free Business Tools
+See All Free Business Tools
+AEO Grader
+AEO Grader
+AI Search Sensor
+AI Search Sensor
+Make My Persona
+Make My Persona
+Email Signature Generator
+Email Signature Generator
+Free Business Templates
+Free Business Templates
+Software Comparisons Library
+Software Comparisons Library
+Website Templates
+Website Templates
+Connector for Claude
+Connector for Claude
+Company
+About Us
+About Us
+Careers
+Careers
+Management Team
+Management Team
+Board of Directors
+Board of Directors
+Investor Relations
+Investor Relations
+Blog
+Blog
+Sustainability
+Sustainability
+Contact Us
+Contact Us
+Customers
+Customer Support
+Customer Support
+Join a Local User Group
+Join a Local User Group
+Partners
+All Partner Programs
+All Partner Programs
+Solutions Partner Program
+Solutions Partner Program
+Technology Partner Program
+Technology Partner Program
+HubSpot for Startups
+HubSpot for Startups
+Affiliate Program
+Affiliate Program
+Facebook
+Instagram
+Youtube
+Twitter
+Linkedin
+Reddit
+Tiktok
+
+Copyright © 2026 HubSpot, Inc.
+
+Legal Center
+ 
+Privacy Policy
+ 
+Security
+ 
+Website Accessibility
+ 
+Manage Cookies
+ 
+ Your Privacy Choices

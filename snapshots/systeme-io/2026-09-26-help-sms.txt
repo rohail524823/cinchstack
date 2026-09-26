@@ -1,0 +1,143 @@
+SOURCE: https://help.systeme.io/article/4483-how-to-send-sms-messages-with-systeme-io
+FETCHED: 2026-09-26T21:47:10.627Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+CATEGORIES
+Affiliation
+Blog
+Booking calendar
+Contact management
+Courses
+Customer support
+Deliverability
+Editor
+Emails
+General
+›
+Migrating to systeme.io
+Model Context Protocol (MCP)
+Payments
+Sales funnels
+ON THIS PAGE
+Step 1: Connect your Twilio account
+Step 2: Create SMS templates
+Step 3: Automate your SMS messages
+Step 4: Track SMS performance
+Notes:
+General
+English
+How to send SMS messages with systeme.io
+
+In this article, you will learn how to send SMS messages from your systeme.io account using the new SMS feature integrated with Twilio.
+
+This feature allows you to reach your contacts via SMS using automation rules and workflows. You’ll be able to create message templates, view SMS performance statistics, and manage all related actions directly from your systeme.io dashboard.
+
+Step 1: Connect your Twilio account
+
+Before you can start sending SMS messages, you’ll need to connect your Twilio account to systeme.io.
+
+Twilio is a trusted platform that powers many popular SMS apps and ensures compliant message delivery.
+
+Follow the steps in this tutorial on: How to integrate Twilio with systeme.io
+
+Step 2: Create SMS templates
+
+Next, you’ll need to create SMS templates to send via automations and workflows.
+
+Go to SMS (1) on the top menu and click SMS Templates (2).
+
+Click Create (3) to open the template editor
+Add a name for your template (4)
+Select your sender type (5). You have three options:
+Sender phone number: Send from a specific phone number available in your connected Twilio account.
+Alphanumeric Sender ID: Send one-way messages using your brand name (e.g., "CompanyXYZ").
+Messaging Services: Use a pre-configured service from your Twilio account that automatically selects the best sender for each recipient’s country to ensure high delivery rates globally.
+Write your message (6)
+You can use personalization substitutes to make your SMS more engaging (7)
+Click Save (8) when finished
+
+Note: Personalization substitutes will be replaced with the recipient's info, which may affect the final text length and cost. The maximum message length allowed is 1600 characters.
+
+Step 3: Automate your SMS messages
+
+You can now automate the process of sending SMS messages using the Send SMS action, which is available in both automation rules and workflows:
+
+Using Automation rules
+Click on the Automations tab, then on Rules (1)
+On the automation rules page, click the Create button (2)
+
+To add a trigger, click the Add + button (3)
+
+From the Add trigger list (4), select the option that matches your use case
+
+Click Add + (5) to select an action
+
+From the Add action list, select Send SMS (6)
+
+Choose an existing SMS template (7)
+
+Save the rule when finished (8)
+
+You can also create a new SMS template by clicking on the Add + icon (9)
+
+It's also possible to edit an existing template by clicking the pencil icon (10)
+
+Using Workflows
+Click on the Automations tab, then on Workflows (1)
+On the workflows page, click the Create button (2)
+
+A popup window will appear; add a name for your workflow, then click Save (3)
+
+Once your workflow is created, click on its name to open the workflow editor (4)
+
+Click on Create your first trigger (5)
+
+In the Create trigger pop-up, choose the condition that will start your workflow (6)
+
+Click the Add + button to create the next step of your workflow
+
+A new window will appear. From the three available steps, select Add action (8)
+
+On the Create an action pop-up, select Send SMS (9)
+
+A new field will appear where you can select an SMS template from the list (10)
+
+If needed, you can edit the template (11)
+
+You can also create a new SMS template (12)
+
+Once your workflow is finished, click the Exit button (13)
+
+Finally, go to the three-dot menu of your workflow and click Activate (14)
+
+Once your automation is configured, systeme.io will automatically send your SMS message to the corresponding contact whenever the automation rule or workflow is triggered.
+
+Step 4: Track SMS performance
+
+You can also monitor your SMS activity on the Statistics page under the SMS menu.
+
+Here, you’ll find metrics such as:
+
+Total number of messages sent
+Average delivery rate
+Average failure rate
+
+At the bottom of the page, you can also view a list of all sent messages.
+
+By clicking a specific SMS template, you can access detailed statistics for that message, including the delivery status, recipient phone numbers, the date each SMS was sent, and the links it contains.
+
+Notes:
+SMS costs and delivery are managed directly through Twilio, depending on your country and plan
+Make sure your funnels and forms include a phone number field to collect contacts’ numbers before sending SMS messages
+Anyone with a Twilio account can connect it to systeme.io and start sending SMS messages
+Did this answer your question?
+🙂
+🙁
+
+Last updated on May 11, 2026
+
+Related articles
+How automation rules work
+How to create workflows in systeme.io
+How to integrate your Twilio account with systeme.io
+© 2026 systeme.io Help Center · help.systeme.io

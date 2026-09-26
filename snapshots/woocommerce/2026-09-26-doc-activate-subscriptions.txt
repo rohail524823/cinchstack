@@ -1,0 +1,232 @@
+SOURCE: https://woocommerce.com/document/managing-woocommerce-com-subscriptions/activate-and-manage-your-subscriptions/
+FETCHED: 2026-09-26T22:04:06.368Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+Documentation
+WooCommerce
+Expand
+Products
+Expand
+Woo Marketplace
+Code Snippets
+Expand
+Documentation / Woo Marketplace / Managing WooCommerce.com Subscriptions / Activate and manage your subscriptions
+Activate and manage your subscriptions
+
+After you purchase an extension or theme from the Woo Marketplace and install it on your site, you need to activate the subscription to receive updates and support. This page explains how to activate your subscriptions and manage them from both WooCommerce.com and your site’s WP Admin dashboard.
+
+What does “activating” a subscription mean?
+
+When you activate a WooCommerce.com subscription on your site, you link that subscription’s license to your specific store. This enables:
+
+Product updates delivered through the WooCommerce.com Update Manager.
+Support access for that extension or theme via the WooCommerce.com Help Desk.
+
+An installed extension or theme will continue to function on your site without activation, but you will not receive updates or be able to submit support tickets for it.
+
+How to activate a subscription on your site
+
+If your site is already connected to your WooCommerce.com account, subscriptions activate automatically when you install the extension or theme.
+
+If the subscription does not activate automatically, you can activate it manually:
+
+In your site’s WP Admin, go to WooCommerce > Extensions > My Subscriptions.
+Find the extension or theme in the list.
+Click the Connect button next to it.
+Connect an extension to WooCommerce.com
+
+Once connected, the subscription status updates and you begin receiving updates and support for that product.
+
+Note: You must be connected to the WooCommerce.com account that holds the subscription. If the extension does not appear in your My Subscriptions list, verify that the correct account is connected. See Connect your site to WooCommerce.com for details.
+
+WooCommerce.com does not use license keys; the connection process detailed above is how you activate your subscription.
+
+Connect or disconnect a subscription from a store
+
+Disconnecting a site and connecting it to a different WooCommerce.com account does not transfer the subscription or its order. It may create a new, unpriced copy of the extension on the destination account. To move ownership and billing, use Transfer a subscription. Refund options for the original purchase remain associated with the original paid order and account.
+
+Each current single-site subscription can be active on one active site and one staging, test, or development site. Legacy 5-site and 25-site subscriptions have different limits. See How many sites can I use my subscriptions on? for details.
+
+To connect a subscription to a site, connect the site to the WooCommerce.com account that owns the subscription. Then go to WooCommerce > Extensions > My Subscriptions in the site’s WP Admin, find the product, and select Connect. You can also select Add to store for the product from the My Subscriptions page on WooCommerce.com.
+
+For eligible single-site subscriptions, move a subscription to another site by disconnecting it from the old site before connecting it to the new one. Multi-site subscriptions use the Assign to store action instead; Disconnect from store is not available for those subscriptions.
+
+On WooCommerce.com, go to My Subscriptions.
+Find the product and open its three-dot menu (⋮).
+Select Disconnect from store.
+Choose the store to disconnect, then select Disconnect.
+
+This disconnects the product from the selected store; it does not cancel the subscription. Use the product’s Disconnect from store action when you want to free one subscription connection. Disconnecting an entire store is a separate action that can affect the store’s other WooCommerce.com connections.
+
+After disconnecting the old store, connect the subscription from the new site’s WP Admin or use Add to store from My Subscriptions on WooCommerce.com.
+
+Assigning subscriptions to connected stores
+
+Multi-store settings on WooCommerce.com make it easier to manage subscriptions when a user has multiple connected stores.
+
+Imagine an agency or a developer having two customers. The agency purchases WooCommerce.com extensions on behalf of both customers and connects the store to WooCommerce.com using the agency account.
+
+Let’s assume the agency purchased our AutomateWoo extension. The extension will be visible under the subscription list of both customers.
+
+Subscriptions installed on this store
+
+But in some cases we only need to display a particular extension on a selected store.
+
+The user can achieve this by enabling the “Assign to store feature” in Multi-Store Settings under the profile tab of the My Account section.
+
+Multi-Store settings under user profile
+
+Note:
+
+Selecting whitelist mode will stop showing subscriptions on connected stores unless it’s specifically assigned to the store.
+
+This allows the user to assign selected subscriptions to connected stores under the My Subscriptions section.
+
+Managing a subscription’s connected-store assignments
+
+Once a subscription is assigned to a store, it will start getting listed in my subscriptions list of the connected store. This is what was displayed under WooCommerce -> Extensions - My subscriptions menu of wallaby-of-whippets.jurassic.ninja.
+
+Manage subscriptions from WooCommerce.com
+
+You can view and manage all of your subscriptions from the My Subscriptions page on WooCommerce.com. From here, you can:
+
+View active and expired subscriptions, including expiration dates and connected sites.
+Install a subscription on a connected site using the Add to store button:
+Adding a subscription to a connected store from My Subscriptions
+Cancel a subscription to stop auto-renewal (you retain access until the expiration date).
+Transfer or share a subscription with another WooCommerce.com account.
+Renew an expired subscription to restore updates and support.
+Archive an expired subscription to remove it from your list.
+
+Each subscription displays a three-dot menu (⋮) with the available actions for that subscription.
+
+Auto-renewal
+
+Read more about autorenewal in Auto-renewal, cancellations, refunds
+
+Note: Collaborators cannot enable or disable auto-renewal on your behalf. Only the account owner can manage this setting. For more information, see Adding collaborators to your WooCommerce.com account.
+
+Manage subscriptions from WP Admin
+
+When your site is connected to WooCommerce.com and the WooCommerce.com Update Manager plugin is installed, you can manage your subscriptions directly from your site’s WP Admin dashboard.
+
+Go to WooCommerce > Extensions > My Subscriptions to:
+
+View your active subscriptions and their status.
+Renew expired subscriptions without leaving WP Admin.
+Access documentation for installed extensions.
+Install new extensions from the Discover, Browse, and Themes tabs.
+
+The WooCommerce.com Update Manager plugin is installed automatically the first time you install a Woo Marketplace extension. If you need to install it manually, download it here.
+
+Subscription billing
+
+Read more about subscription billing periods in What are WooCommerce.com subscriptions
+
+Related documentation
+What are WooCommerce.com subscriptions?
+Install extensions and themes
+Connect your site to WooCommerce.com
+Transfer a subscription
+Share a subscription
+Auto-renewal, cancellation, refunds
+Adding collaborators to your WooCommerce.com account
+Questions and support
+
+Do you still have questions and need assistance? 
+
+Get in touch with a Happiness Engineer via our Help Desk. We provide support for extensions developed by and/or sold on WooCommerce.com, and Jetpack/WordPress.com customers.
+If you are not a customer, we recommend finding help in the WooCommerce support forum or hiring a Woo Agency Partner. These are trusted agencies with a proven track record of building highly customized, scalable online stores. Learn more about Woo Agency Partners.
+Was this guide helpful for you?
+ON THIS PAGE
+What does "activating" a subscription mean?
+How to activate a subscription on your site
+Connect or disconnect a subscription from a store
+Assigning subscriptions to connected stores
+Manage subscriptions from WooCommerce.com
+Auto-renewal
+Manage subscriptions from WP Admin
+Subscription billing
+Related documentation
+Questions and support
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+CREATION

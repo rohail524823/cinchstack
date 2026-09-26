@@ -1,0 +1,254 @@
+SOURCE: https://webflow.com/pricing
+FETCHED: 2026-09-26T21:57:17.488Z
+RENDERER: headless Chromium, en-US, US timezone
+NOTE: each entry = the visible row text, then the tooltip text shown when hovering that row's (i) icon
+----
+
+[0] ROW: Webflow.io domain
+    TOOLTIP: Upgrade to a Basic or Premium plan to publish to a custom domain.
+
+[1] ROW: Limited Webflow CMS
+    TOOLTIP: Includes 20 CMS Collections and 50 CMS items.
+
+[2] ROW: 2 static pages
+    TOOLTIP: Total site pages not generated from CMS Collections. Includes pages like a homepage or contact page, but not CMS-generated pages like blog posts.
+
+[3] ROW: 1 GB bandwidth
+    TOOLTIP: Total data transfer limit for your site, which usually covers ~250 page views per month. We'll let you know if you go over.
+
+[4] ROW: 50 form submissions
+    TOOLTIP: Total over the lifetime of the site.
+
+[5] ROW: Webflow AI
+    TOOLTIP: Access Webflow AI features.
+
+[6] ROW: MCP server
+    TOOLTIP: Connect AI tools directly to your Webflow projects.
+
+[7] ROW: Webflow Cloud app hosting
+    TOOLTIP: Host your web app via Webflow Cloud. Limits vary by Site plan.
+
+[8] ROW: Free Starter Workspace
+    TOOLTIP: Upgrade to a paid Workspace for enhanced features.
+
+[9] ROW: Custom domain
+    TOOLTIP: Connect and publish your site to a custom domain.
+
+[10] ROW: 300 static pages
+    TOOLTIP: Total site pages not generated from CMS Collections. Includes pages like a homepage or contact page, but not CMS-generated pages like blog posts.
+
+[11] ROW: 10 GB bandwidth
+    TOOLTIP: Total data transfer limit for your site, which usually covers 1k-5k page views per month. We'll let you know if you go over.
+
+[12] ROW: Unlimited form submissions
+    TOOLTIP: Collect form submissions, customize notification emails, and download submissions as a CSV (comma-separated values) file.
+
+[13] ROW: Password protection
+    TOOLTIP: Add password protection at the site or individual page level.
+
+[14] ROW: Webflow AI
+    TOOLTIP: Access Webflow AI features.
+
+[15] ROW: MCP server
+    TOOLTIP: Connect AI tools directly to your Webflow projects.
+
+[16] ROW: Webflow Cloud app hosting
+    TOOLTIP: Host your web app via Webflow Cloud. Limits vary by Site plan.
+
+[17] ROW: Free Starter Workspace
+    TOOLTIP: Upgrade to a paid Workspace for enhanced features.
+
+[18] ROW: Webflow CMS
+    TOOLTIP: Includes 40 CMS Collections and 20,000 CMS items.
+
+[19] ROW: 50 GB 100 GB 150 GB 200 GB 300 GB 400 GB 500 GB 750 GB 1 TB 1.5 TB 2 TB 2.5 TB bandwidth
+    TOOLTIP: Total monthly data transfer limit for your site. All options include 50GB, which usually covers 5k–25k page views. We'll let you know if you go over.
+
+[20] ROW: Code components
+    TOOLTIP: Use developer-built or AI-generated components directly on the Webflow canvas.
+
+[21] ROW: Site search
+    TOOLTIP: Create a custom search engine for users to navigate your site content.
+
+[22] ROW: Form file upload
+    TOOLTIP: Accept file uploads from site visitors through forms. Max file size: 10 MB.
+
+[23] ROW: Well-known files
+    TOOLTIP: Host files at the /.well-known/ path for domain verification and third-party integrations.
+
+[24] ROW: AEO agents
+    TOOLTIP: Get on-brand AEO recommendations, then ship them at scale with AI agents. Learn more about Webflow AEO.
+
+[51] ROW: 25,000 50,000 100,000 250,000 500,000 page views/mo
+    TOOLTIP: The total number of page views from all visitors to your site. For Enterprise Workspaces, this limit is pooled across the Workspace.
+
+[52] ROW: Up to 5 concurrent optimizations
+    TOOLTIP: Total optimizations you can run across your site.
+
+[53] ROW: A/B testing
+    TOOLTIP: Compare two (or more) variations to find a winner.
+
+[54] ROW: Personalization
+    TOOLTIP: Create different variations for different audiences.
+
+[55] ROW: AI Optimize
+    TOOLTIP: Let AI make real-time decisions to surface the best-fit variation to your visitors.
+
+[56] ROW: Audience insights
+    TOOLTIP: Visualize and understand how different types of visitors are engaging with your variations.
+
+[57] ROW: Audience targeting
+    TOOLTIP: Including device type, behavioral, UTM, and geolocation.
+
+[58] ROW: 2,000 10,000 25,000 50,000 100,000 250,000 500,000 sessions/mo
+    TOOLTIP: A session begins when a single user lands on your site and ends when they leave the site or are inactive for 30 mins.
+
+[59] ROW: Auto-captured page views, sessions, and visitors
+    TOOLTIP: As soon as it’s added to your site, Analyze auto-captures foundational visitor behavior data including page views, sessions, and visitors with no manual set up needed.
+
+[60] ROW: Auto-captured click data
+    TOOLTIP: As soon as it’s added to your site, Analyze auto-captures what buttons / elements visitors click on –no manual set up required.
+
+[61] ROW: Site analytics overview
+    TOOLTIP: Summary of site performance at a glance –including overall traffic and top pages –with the ability to search for specific pages to see how they rank relatively.
+
+[62] ROW: Page-level insights
+    TOOLTIP: View traffic and engagement stats at the page-level such as # of views and most clicked events — as well as page-to-page comparisons.
+
+[63] ROW: Share insights
+    TOOLTIP: Share visibility to Analyze insights with other team members through a preview mode url.
+
+[64] ROW: Integrations with consent management solutions
+    TOOLTIP: Our consent management partner integrations are available via Webflow’s vetted app marketplace for all customers.
+
+[65] ROW: 1 2 3 locales added
+    TOOLTIP: Add up to 3 locales on the Essential plan, not including the primary locale.
+
+[66] ROW: AI-powered translation
+    TOOLTIP: Automatically translate any text in your supported locales
+
+[67] ROW: CMS localization
+    TOOLTIP: Customize your collection content for each locale.
+
+[68] ROW: Static page localization
+    TOOLTIP: Customize any static content for each locale.
+
+[69] ROW: Localized SEO
+    TOOLTIP: Translate meta titles and descriptions across pages for each locale.
+
+[70] ROW: Style localization
+    TOOLTIP: Adjust typography and styles per-locale.
+
+[71] ROW: 1 2 3 4 5 6 7 8 9 10 locales added
+    TOOLTIP: Add up to 10 locales on the Advanced plan, not including the primary locale.
+
+[72] ROW: AI-powered translation
+    TOOLTIP: Automatically translate any text in your supported locales
+
+[73] ROW: CMS localization
+    TOOLTIP: Customize your collection content for each locale.
+
+[74] ROW: Static page localization
+    TOOLTIP: Customize any static content for each locale.
+
+[75] ROW: Localized SEO
+    TOOLTIP: Translate meta titles and descriptions across pages for each locale.
+
+[76] ROW: Style localization
+    TOOLTIP: Adjust typography and styles per-locale.
+
+[77] ROW: Asset localization
+    TOOLTIP: Display unique images per-locale.
+
+[78] ROW: Localize URLs
+    TOOLTIP: Customize your locale slug to improve your localized site’s SEO profile.
+
+[79] ROW: Automatic visitor routing
+    TOOLTIP: Automatically route site visitors to their locale and language.
+
+[112] ROW: 500 ecommerce items
+    TOOLTIP: Products, variants, and categories in your store, independent of your CMS item limit.
+
+[113] ROW: 2% transaction fee
+    TOOLTIP: In addition to Stripe or Paypal processing fees.
+
+[114] ROW: Custom shopping cart and checkout
+    TOOLTIP: Take full control of your shopping cart and checkout page design and layout.
+
+[115] ROW: 5,000 ecommerce items
+    TOOLTIP: Products, variants, and categories in your store, independent of your CMS item limit.
+
+[116] ROW: Custom shopping cart and checkout
+    TOOLTIP: Take full control of your shopping cart and checkout page design and layout.
+
+[117] ROW: Unbranded emails
+    TOOLTIP: Remove Webflow branding from the footer of transaction emails.
+
+[118] ROW: 15,000 ecommerce items
+    TOOLTIP: Products, variants, and categories in your store, independent of your CMS item limit.
+
+[119] ROW: Custom shopping cart and checkout
+    TOOLTIP: Take full control of your shopping cart and checkout page design and layout.
+
+[120] ROW: Unbranded emails
+    TOOLTIP: Remove Webflow branding from the footer of transaction emails.
+
+[121] ROW: Unlimited paid hosted sites
+    TOOLTIP: Host as many sites as you want in this Workspace. Each site needs its own Site plan to be published to a custom domain.
+
+[122] ROW: 2 staging sites
+    TOOLTIP: Work-in-progress sites you can preview on free webflow.io subdomains before purchasing a Site plan.
+
+[123] ROW: 2 pages per staged site
+    TOOLTIP: Pages allowed per staged site before a Site plan is required.
+
+[124] ROW: 50 CMS items per staged site
+    TOOLTIP: CMS records, like blog posts or team members, allowed per staged site before a Site plan is required. Add more for a separate fee.
+
+[125] ROW: 200 AI credits
+    TOOLTIP: Power Webflow AI feature usage across your Workspace. Add more for a separate fee.
+
+[126] ROW: 1 full seat
+    TOOLTIP: Seats with full design and admin access, included for the Workspace owner. Add more as needed.
+
+[127] ROW: Agency/freelancer guests
+    TOOLTIP: Add agency and freelancer guests for free without using seats.
+
+[128] ROW: 10 staging sites
+    TOOLTIP: Work-in-progress sites you can preview on free webflow.io subdomains before purchasing a Site plan.
+
+[129] ROW: 300 pages per staged site
+    TOOLTIP: Pages allowed per staged site before a Site plan is required.
+
+[130] ROW: 300 AI credits
+    TOOLTIP: Power Webflow AI feature usage across your Workspace. Add more for a separate fee.
+
+[131] ROW: Custom code
+    TOOLTIP: Add custom code and scripts that apply to your entire site or to individual pages.
+
+[132] ROW: Code export
+    TOOLTIP: Export clean, semantic HTML and CSS files for your dev team. Dynamic content (CMS items/pages) can’t be exported.
+
+[133] ROW: Shared Libraries
+    TOOLTIP: Share components, variables, and assets across all sites in your Workspace.
+
+[134] ROW: Unlimited staging sites
+    TOOLTIP: Work-in-progress sites you can preview on free webflow.io subdomains before purchasing a Site plan.
+
+[135] ROW: 400 AI credits
+    TOOLTIP: Power Webflow AI feature usage across your Workspace. Add more for a separate fee.
+
+[136] ROW: Site password protection
+    TOOLTIP: Secure the privacy of your staged webflow.io site with a password.
+
+[137] ROW: 301 redirects
+    TOOLTIP: Permanently redirect traffic from an old URL to a new one.
+
+[138] ROW: Site-specific access
+    TOOLTIP: Control which sites each team member or guest can access.
+
+[139] ROW: Site-level roles
+    TOOLTIP: Assign a default role per user to control what they can do on each site.
+
+[140] ROW: Publishing permissions
+    TOOLTIP: Control which teammates can publish to production on a site-by-site level.

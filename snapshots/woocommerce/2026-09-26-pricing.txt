@@ -1,0 +1,173 @@
+SOURCE: https://woocommerce.com/pricing/
+FETCHED: 2026-09-26T21:38:41.979Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 22 more items
+Enterprise ecommerce
+Log in
+Get started
+WooCommerce pricing puts you in control
+
+WooCommerce is the free, open-source ecommerce platform for WordPress. Build a custom online store and only pay for the added features you use — no platform fees, no revenue share.
+
+Estimate your costs
+How WooCommerce pricing works
+
+WooCommerce is free to download and use, and you choose where to invest your budget from there. Get everything you need and nothing you don’t, with total transparency and no tiers or surprise fees.
+
+0
+%
+
+revenue share
+
+Core platform: WooCommerce
+
+Free, with no monthly subscription.
+
+Payments: Pick your processor
+
+No extra costs, just your solution’s processing fees.
+
+Hosting: Choose your provider
+
+$25 – $350/month for most stores, but scales with traffic and performance needs.
+
+Extensions: Add à la carte
+
+$29 – $299/year per extension to enhance your store.
+
+Compare the costs
+
+WooCommerce’s flexible and transparent model translates into long-term savings for your business. Scroll right to compare pricing across platforms.
+
+											
+			Shopify Basic	Shopify Advanced	Shopify Plus	BigCommerce Core	BigCommerce Enterprise	Salesforce Commerce Cloud	Wix Enterprise	Adobe Commerce (Magento)	
+	Monthly platform and hosting fees	$0 platform fee
+
+Choose the host that makes sense for your business	$29/mo	$399/month	$2,300+/month	$29/mo, online revenue capped at $50k	~$1,000–5,000+/month	1-3% of GMV	~$500–2,000+/month	$22k–$125k+/year	
+	Card payment processing	~2.50-2.90% + 30¢ per transaction with WooPayments	2.9% + 30¢ per transaction	2.5% + $0.30 per transaction	2.4% + $0.30 per transaction	2.89% + 29¢ per transaction	~2.35% + $0.49 per transaction	~2.9% + $0.30 per transaction	~2.9% + $0.30 per transaction	~2.9% + $0.30 per transaction	
+	Additional fee for using third-party payment solution	None	2% per transaction	0.6% per transaction	0.2% per transaction	2% per transaction	None	None	None	None	
+	Revenue share	None	None	None	0.25% on monthly sales over $800k	None	0.6% on GMV above $250k/month	1-3% of GMV	None	None	
+	Subscription processing fees	None with WooCommerce Subscriptions	~1–3% depending on app (no native subscription billing)	~1–3% depending on app	~1–3% depending on app	~1–3% depending on app (no native subscription billing)	0–2% plus up to $500/month, depending on app	Varies based on app; annual fees can reach $2,000-10,000	None	Varies based on app; annual fees can exceed $1,000	
+	Fee for localized selling in global markets	$0, can sell in unlimited markets	3 markets included. Unable to add more	$59/month per market after first 3 markets	$59/month per market after first 50 markets	None	$0	$59/month per market after first 50 markets	$0, but requires development	$0	
+	Product variant limits	Unlimited	Up to 2,048 variants per product; max 3 option types per product	Up to 2,048 variants per product; max 3 option types per product	Up to 2,048 variants per product; max 3 option types per product	Up to 600 variants per product	Maximum 600 SKUs per product	Unlimited	Max 1,000 variants per product	Unlimited	
+											
+Estimate your costs with WooCommerce
+
+Use our free tool to calculate an estimated total cost of ownership.
+
+Try it free
+
+Maksimer
+
+“WooCommerce offers unmatched control over both costs and capabilities. Unlike rigid SaaS platforms, we can tailor every part of the stack — only paying for the features the business truly needs.”
+
+Nils-Fredrik Winther-Kaland, CEO
+
+Grow your business, not your costs
+
+WooCommerce doesn’t believe in taxing your growth. There’s no revenue share, and we don’t lock features away behind higher-priced plan tiers. The free core platform includes:
+
+Unlimited products, orders, and APIs.
+
+Costs tied to infrastructure, not sales volume.
+
+Customizations that stay yours.
+
+Offer any payments without penalties
+
+WooCommerce lets you choose and change your payments solution without fees, restrictions, or forced bundles.
+
+Use any gateway or BNPL provider without penalty.
+
+Run multiple gateways to maximize conversion.
+
+Negotiate processor rates directly as volume grows.
+
+Customize your checkout without forced upgrades.
+
+Get started
+Get a custom quote
+
+Share a few details about your business and our team will model your costs on Woo. See how much you'll pay today, and as you grow.
+
+Talk to a consultant
+
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+CREATION

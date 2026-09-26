@@ -1,0 +1,65 @@
+SOURCE: https://help.shopify.com/en/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-charges/third-party-transaction-fees
+FETCHED: 2026-09-26T21:46:17.273Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+...
+Third-party charges on your bills
+Third-party transaction fees on your Shopify bills
+
+Third-party transaction fees cover the cost for Shopify to provide a secure checkout platform and integrate with external payment providers. Transaction fees vary depending on the Shopify plan that you choose, and are charged in the following circumstances:
+
+When you use a third-party payment provider to accept customer payments.
+When an order includes store credit or gift cards as a payment method, on Shopify stores created on or after May 12, 2025. For example, if your store uses Shopify Payments and a customer pays for an order using both a credit card and $10 CAD of store credit, then you're charged third-party transaction fees only on the $10 CAD of store credit.
+Note
+
+For Shopify stores created on or after May 12, 2025, orders that include store credit or gift cards as a payment method are charged third-party transaction fees on the amount paid for using store credit or gift cards. Store credit and gift card transaction fees don't apply to Shopify stores created before May 12, 2025.
+
+When you use Shopify Payments, you aren't charged third-party transaction fees for orders that are processed using the following payment methods:
+
+Shopify Payments
+Shop Pay
+Shop Pay Installments
+Paypal Express Checkout
+Manual payment methods such as cash, cash on delivery (COD), and bank transfers.
+
+Stores on the Shopify Plus plan that use Shopify Payments as their sole payment provider have their third-party transaction fees waived, including fees on store credit and gift cards. If you use Shopify Payments alongside a third-party payment provider, then transaction fees apply.
+
+How your account is billed for third-party transaction fees depends on your store's transaction volume, any recurring app charges, and the payment provider that you use.
+
+Transaction fees don't apply for POS orders or for manual payment methods, which include cash on delivery (COD), bank deposits, checks, test orders, and draft orders marked as paid or pending. Third-party transaction fees aren't returned to you when you issue an order refund.
+
+Transaction fees are in addition to processing fees charged by your third-party payment provider.
+
+Note
+
+The Advanced Cash on Delivery app is no longer available from the Shopify App Store. You can use the standard Cash on Delivery option in your payment settings.
+
+On this page
+Calculate your third-party transaction fees
+View a breakdown of your third-party transaction fees
+Calculate your third-party transaction fees
+
+Shopify uses this formula to calculate third-party transaction fees for a 30-day period:
+
+[(cost of products - discounts) + tax + shipping charges] x rate
+
+The rate for third-party transaction charges varies depending on your pricing plan.
+
+View a breakdown of your third-party transaction fees
+
+From your Shopify admin, go to Settings > Billing.
+
+Click the bill that you want to view in the Past bills section.
+
+If a bill includes transaction fees, then the Transaction fees section displays the total fees for orders within specific date ranges.
+
+Note
+
+To view third-party transaction fees for stores on the Plus plan, in your Shopify admin, go to the Billing page for your organization, and then export the bill that you want to review.
+
+Leave feedback
+Chat with a human

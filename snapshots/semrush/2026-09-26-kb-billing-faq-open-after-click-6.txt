@@ -1,0 +1,202 @@
+SOURCE: https://www.semrush.com/kb/1013-billing-faq#cc-trial
+FETCHED: 2026-09-26T21:55:01.830Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to content
+
+Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.
+
+Product
+Pricing
+Solutions
+Resources
+Enterprise
+Log In
+Start for free
+Knowledge Base
+Search
+What is Semrush?
+Getting Started
+How-To Articles
+Subscriptions and Toolkits
+Semrush One
+Billing and Account
+Profile Settings
+Billing FAQ
+Canceling Your Subscription
+Managing Notifications
+Taxes
+Legal Info
+Query Log
+Security
+SAML SSO
+Semrush Toolkits
+App Center
+Integrations
+Teamwork
+Data and Metrics
+The Ultimate SEO Glossary
+Kompyte
+API
+MCP
+Contact Us
+Knowledge Base  Billing and Account  Billing FAQ
+Billing FAQ
+Change billing info 
+
+Please check out the answers below if you need to change your billing information or find your previous payments and invoices.
+
+How to update credit card information?
+Will the card update impact the subscription and future payments?
+Why did Semrush automatically update my card information?
+How to Delete or Remove Payment Card Details?
+How to change my billing country/state?
+What payment methods are available?
+Where to add a CPF (Cadastro de Pessoas Físicas) or CNPJ (Cadastro Nacional da Pessoa Jurídica) number?
+Billing issues
+
+The answers below will help you to resolve possible issues with your payments.
+
+Why can't I change the bank card associated with my account?
+What can I do if the transaction failed?
+Credit card is not accepted to activate the trial
+
+If you see a notification “Sorry, the credit card you entered cannot be used for this payment. Please provide a different card”  this could be because you’re trying to pay with a virtual card, and we don’t accept such a payment method (you can pay using all major physical credit cards, including Visa, Mastercard, Discover, American Express, and UnionPay).
+
+In this case, try using a different card.
+
+If this is not the case, feel free to Contact our Sales team via this form, they will be happy to assist.
+
+Please kindly note that you can use the option to get a free trial only once. All the following attempts will lead to the purchase of a monthly plan, and you will be charged accordingly. 
+
+Why did a $1 transaction appear on my bank statement?
+Our system sends over a request to your issuing bank for a $1 (or an equivalent of a $1) authorization to verify that the card exists, and the bank will allow it to be authorized. This kind of transaction is a common practice that helps verify that the payment information is valid. 
+
+Please do not worry—the authorization transaction is not a charge, and, eventually, it will disappear from your statement. In most cases, it is reversed almost immediately, but depending on your bank's internal policies, it can take up to several weeks.
+Why do I see the “Credit card linked to your account will expire soon” message?
+Manage subscription 
+
+If you would like to modify your subscription, cancel it or get a refund, please refer to the answers below.
+
+Where can I check my subscription and limits?
+Where can I find payment history, receipts, and invoices?
+Why was I charged a different amount than expected?
+
+If a Semrush charge is different from the amount you expected, check the Payments tab of the Subscription Info page to review your payment history.
+
+One reason the amount may differ is that you added another product to your subscription.
+
+When you add a product during a monthly billing cycle, the initial charge is typically prorated for the period between the purchase date and your next subscription renewal date. At your next subscription renewal, the product’s full recurring price is included in the total renewal charge.
+
+For example, if your subscription renews on the 16th of each month and you add a product on the 10th, you are initially charged only for the period from the 10th until the 16th of that month. On that renewal date, the product’s full monthly recurring price is included in your total subscription renewal charge.
+
+After the first charge, the added product is no longer displayed as a separate transaction. If a renewal charge includes multiple products, the Product column displays only the name of your original subscription, not an itemized breakdown of the total charge. The total amount still includes the recurring prices of other products added to the subscription.
+
+To identify products added recently, review earlier purchases in the Product column. Each product typically appears as a separate purchase when it is first added.
+
+If you still cannot identify the reason for the charge or believe the amount is incorrect, contact Semrush Support and provide the Sale ID of the relevant transaction.
+
+Note: For annual subscriptions, any additional products are aligned with the existing annual billing cycle. You pay a one-time prorated amount for the remaining subscription term, and all added products share the same renewal and expiration date as the original annual subscription. They are not billed monthly.
+
+How do I check my subscription renewal date?
+Is a tool subscription billed monthly or annually?
+
+The billing frequency for tools depends on your current subscription billing cycle.
+
+If you’re on a monthly billing cycle, your tools are billed monthly. If you’re on an annual billing cycle, your tools are billed annually and align with your existing annual subscription term.
+
+How to change from a monthly to an annual plan?
+Is the annual plan billed monthly or upfront?
+Choosing an annual subscription means you pay for the entire year upfront. It is not a monthly payment plan spread over 12 months. 
+What happens if I purchase additional limits, apps, toolkits, or add-ons on an annual subscription?
+
+All purchases are tied to your current billing cycle and align with your annual subscription term.
+
+For annual subscriptions:
+
+Any additional limits, apps, toolkits, or add-ons are applied to the same annual cycle.
+You pay a one-time upfront amount calculated for the remaining time in your annual subscription (prorated).
+All items expire at the end of the annual billing cycle, regardless of when they were added.
+
+Example:
+
+If you have an annual SEO Toolkit (SEO Classic) subscription running from January 1 to December 31 and decide to add the AI Visibility Toolkit on July 1, you will be charged a one-time prorated amount covering the remaining six months of your annual term (July–December). The AI Visibility Toolkit will share the same renewal and expiration date as your annual subscription and will not be billed monthly.
+
+Can I switch from an annual to a monthly subscription?
+How can I switch from a corporate subscription to an individual subscription?
+How do I upgrade my account/subscription?
+Is my subscription upgrade prorated?
+How do I downgrade my account/subscription?
+Can I customize my Semrush subscription?
+Can I pause my subscription?
+How to cancel a subscription?
+How to remove additional limits?
+Do I need to remove add-ons before upgrading if I don't want to use them in the upgraded plan?
+Can I continue with a free account?
+How can I get a refund?
+Table of contents
+Change billing info 
+Billing issues
+Manage subscription 
+Is this article helpful?
+GET STARTED WITH SEMRUSH TODAY
+
+Try Semrush free for seven days. Cancel anytime.
+
+Start free trial
+
+Semrush
+
+Semrush One
+Features
+Solutions
+Pricing
+Free Trial
+Compare Semrush
+Success Stories
+Stats and Facts
+Affiliate Program
+
+More tools
+
+Semrush MCP
+Enterprise SEO
+Enterprise AIO
+Enterprise SI
+Insights24
+Mfour
+App Center
+Top Websites
+Free Tools
+Sensor
+
+Company
+
+About Us
+Semrush Questions
+News
+Careers
+Partners
+Semrush Select
+Global Issues Index
+Do not sell my personal info
+Contact Us
+
+Support
+
+Knowledge Base
+Academy
+Semrush API
+
+Community
+
+Semrush Blog
+Webinars
+Ambassador Program
+
+© 2026 Semrush Holdings. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Cookies Settings
+English

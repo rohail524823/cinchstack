@@ -1,0 +1,31 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/grow-plan
+FETCHED: 2026-09-26T21:51:36.013Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+Grow plan
+
+The Grow plan supports your growing business. It offers all the features of the Basic plan, along with lower credit card rates and transaction fees.
+
+The Grow plan provides powerful reports that help you plan for growth by giving you sales information in your Shopify admin. You can use customer reports to gather useful data on how your customers are using your store and who is purchasing your products.
+
+View pricing plans
+On this page
+Grow plan features
+Grow plan features
+
+In addition to the features available on all plans, and the features available on the Basic plan, the Grow plan offers the following features:
+
+Feature	Description
+Competitive transaction fees	The Grow plan offers more competitive transaction fees. Review Shopify's pricing page to find the specific transaction fees under plans in your region.
+Staff	The Grow plan supports five user accounts.
+Reports	You can track your business performance using reports. The Grow plan comes with the analytics page, finances reports, product analytics, Live View, acquisition reports, inventory reports, behavior reports, marketing reports, order reports, sales reports, retail sales reports, profit reports, customers reports, and the ability to create custom reports with data explorations.
+International commerce	The Grow plan supports your international growth through international sales tools, which are cross-border management tools that let you configure specific settings for each international region.
+Leave feedback
+Chat with a human

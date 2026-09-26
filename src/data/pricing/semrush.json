@@ -1,0 +1,601 @@
+{
+  "tool": "semrush",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from Semrush's SEO + AI Search and toolkit pricing pages (both billing toggles, the expanded plan comparison and the FAQ answers) plus Semrush knowledge-base articles on plans, users, billing, trials and refunds in a US-locale headless browser; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page, SEO + AI Search (default annual toggle, as first captured)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page, annual toggle, full plan comparison expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-seo-ai-annual-details-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page, monthly toggle, full plan comparison expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-seo-ai-details-after-click-2.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page FAQ: Can I use Semrush for free?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-seo-ai-details-after-click-3.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page FAQ: Am I charged when I enter my credit card?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-seo-ai-details-after-click-4.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page FAQ: What is the pricing currency?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-seo-ai-details-after-click-5.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/seo-ai-search/",
+      "label": "Semrush pricing page FAQ: What payment methods do you accept?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-seo-ai-details-after-click-10.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/ai/",
+      "label": "AI Visibility Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-ai.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/ai/",
+      "label": "AI Visibility Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-ai-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/local/",
+      "label": "Local Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-local.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/local/",
+      "label": "Local Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-local-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/content/",
+      "label": "Content Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-content.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/content/",
+      "label": "Content Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-content-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/traffic-and-market/",
+      "label": "Traffic & Market Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-traffic-and-market.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/traffic-and-market/",
+      "label": "Traffic & Market Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-traffic-and-market-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/social/",
+      "label": "Social Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-social.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/social/",
+      "label": "Social Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-social-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/advertising/",
+      "label": "Advertising Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-advertising.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/advertising/",
+      "label": "Advertising Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-advertising-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/pr/",
+      "label": "AI PR Toolkit pricing (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-pr.txt"
+    },
+    {
+      "url": "https://www.semrush.com/pricing/pr/",
+      "label": "AI PR Toolkit pricing (monthly toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-pricing-pr-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1011-subscriptions",
+      "label": "Semrush KB: Subscriptions and Toolkits (plans, users, trials, FAQ answers expanded)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-subscriptions-open-after-click-4.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1409-user-management",
+      "label": "Semrush KB: User Management (additional user prices)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-user-management.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1493-ai-visibility-toolkit",
+      "label": "Semrush KB: AI Visibility Toolkit (price, per-user licence, extra domains and prompts)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-ai-visibility-toolkit.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1547-seo-toolkit-pricing-and-plans",
+      "label": "Semrush KB: SEO Toolkit Pricing and Plans (Pro, Guru, Business)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-seo-toolkit-pricing-limits.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1013-billing-faq",
+      "label": "Semrush KB: Billing FAQ (annual billing, add-on proration, card authorization)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-billing-faq-open-after-click-6.txt"
+    },
+    {
+      "url": "https://www.semrush.com/semrush-free-trial/",
+      "label": "Semrush free trial page (How does the free trial work?)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-free-trial-open-after-click-1.txt"
+    },
+    {
+      "url": "https://www.semrush.com/company/legal/refund-policy/",
+      "label": "Semrush Cancellation and Refund Policy",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-refund-policy.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1611-local-toolkit-pricing-and-plans",
+      "label": "Semrush KB: Local Toolkit Pricing and Plans",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-local-pricing.txt"
+    },
+    {
+      "url": "https://www.semrush.com/kb/1536-content-toolkit-pricing-and-plans",
+      "label": "Semrush KB: Content Toolkit Pricing and Limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/semrush/2026-09-26-kb-content-pricing.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free account with no credit card: 1 demo project, 10 reports per day across the main tools, one website to monitor, 10 keywords in Position Tracking and a limited set of AI Visibility features."
+  },
+  "trial": {
+    "days": 7,
+    "cardRequired": true,
+    "summary": "7-day free trial. The pricing page shows 'Try for free' on SEO, Starter and Pro+ but only 'Subscribe' on Advanced, although Semrush's knowledge base says every SEO + AI Search plan has the 7-day trial. You must enter a card. Semrush places a $1 authorization that is reversed, and the trial becomes a paid plan at the standard rate unless you cancel. Exports are turned off during trials, and each toolkit's trial can be used once per account. The AI Visibility Toolkit has no trial.",
+    "source": 21
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "No credit card required. The Analytics reports allow 10 requests a day, against 3,000 on SEO, 5,000 on Pro+ and 10,000 on Advanced (per the pricing FAQ).",
+      "limits": [
+        "1 demo project",
+        "10 reports per day across all vital tools",
+        "1 website to create and monitor",
+        "10 keywords in Position Tracking"
+      ],
+      "highlights": [
+        "Help Center and basic onboarding",
+        "Limited AI Visibility features"
+      ],
+      "source": 3
+    },
+    {
+      "id": "seo",
+      "name": "SEO",
+      "monthly": 139.95,
+      "annualMonthly": 117.33,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "SEO-only plan, called SEO Toolkit (SEO Classic) in Semrush's knowledge base. It has the same price and limits as the older SEO Toolkit Pro. The monthly toggle shows $139.95 (source 2). The annual toggle shows $117.33/mo billed annually (source 1), and there the card rounds the monthly price down to 'instead of $139 monthly'. The plan card lists AI search tracking, sentiment and 'Monitor custom prompts', but the comparison table gives it no custom-prompt quota and no AI Analysis reports.",
+      "limits": [
+        "5 websites to monitor",
+        "500 keywords to track daily",
+        "100,000 pages to crawl per month (20,000 per monitored website)",
+        "10,000 results per report",
+        "3,000 reports per day",
+        "250 keyword metric updates per month",
+        "No historical data, no API access",
+        "1 user included; extra users $45/user per month"
+      ],
+      "highlights": [
+        "Keyword research and competitor analysis",
+        "Position Tracking and Site Audit",
+        "Backlinks data",
+        "MCP access"
+      ],
+      "source": 2
+    },
+    {
+      "id": "starter",
+      "name": "Starter (SEO + AI Search)",
+      "monthly": 199,
+      "annualMonthly": 165.17,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Same SEO limits as the SEO plan, with the AI Visibility Toolkit added. Monthly price from source 2; $165.17/mo billed annually from source 1.",
+      "limits": [
+        "5 websites to monitor",
+        "500 keywords to track daily",
+        "50 AI prompts tracked daily",
+        "1 domain for AI brand performance",
+        "300 AI visibility reports per day",
+        "100,000 pages to crawl per month",
+        "10,000 results per report; 3,000 reports per day",
+        "1 user included; extra users $45/user per month (SEO access only)"
+      ],
+      "highlights": [
+        "Keyword research and optimization tools",
+        "Competitor insights tools",
+        "AI share of voice, brand visibility and sentiment analysis",
+        "AI-ready Site Audit",
+        "MCP access"
+      ],
+      "source": 2
+    },
+    {
+      "id": "pro-plus",
+      "name": "Pro+ (SEO + AI Search)",
+      "monthly": 299,
+      "annualMonthly": 248.17,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Lowest plan that tracks more than 500 keywords. Monthly price from source 2; $248.17/mo billed annually from source 1. Its SEO limits (15 sites, 1,500 keywords, 300,000 pages, 30,000 results) match those listed for the older SEO Toolkit Guru plan in Semrush's knowledge base.",
+      "limits": [
+        "15 websites to monitor",
+        "1,500 keywords to track daily",
+        "100 AI prompts tracked daily",
+        "300,000 pages to crawl per month",
+        "30,000 results per report; 5,000 reports per day",
+        "1,000 keyword metric updates per month",
+        "1 user included; extra users $80/user per month (SEO access only)"
+      ],
+      "highlights": [
+        "Historical SEO data",
+        "Content optimization and Topics",
+        "Keyword cannibalization report",
+        "Multi-location and device tracking",
+        "JavaScript rendering",
+        "Looker Studio integration"
+      ],
+      "source": 2
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced (SEO + AI Search)",
+      "monthly": 549,
+      "annualMonthly": 455.67,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Only plan with API access. Monthly price from source 2; $455.67/mo billed annually from source 1. The pricing page offers 'Subscribe' or 'try custom plan' here rather than 'Try for free'.",
+      "limits": [
+        "40 websites to monitor",
+        "5,000 keywords to track daily",
+        "200 AI prompts tracked daily",
+        "1,000,000 pages to crawl per month (100,000 per monitored website)",
+        "50,000 results per report; 10,000 reports per day",
+        "5,000 keyword metric updates per month",
+        "1 user included; extra users $100/user per month (SEO access only)"
+      ],
+      "highlights": [
+        "SEO Share of Voice",
+        "API data integration",
+        "Migration from third-party tools",
+        "Everything in Pro+"
+      ],
+      "source": 2
+    },
+    {
+      "id": "enterprise",
+      "name": "Semrush for Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Custom pricing through sales ('Let's talk' / 'Request demo').",
+      "limits": [
+        "Unlimited projects and custom limits"
+      ],
+      "highlights": [
+        "Custom large-scale AI prompt tracking",
+        "SSO, team governance and audit logs",
+        "Dedicated account manager",
+        "Enterprise SLA and 24/7 support"
+      ],
+      "source": 2
+    }
+  ],
+  "addOns": [
+    {
+      "id": "extra-user-seo-starter",
+      "name": "Additional user (SEO or Starter plan)",
+      "price": 45,
+      "unit": "per user per month",
+      "appliesTo": ["seo", "starter"],
+      "note": "The comparison table shows $45/user under both the monthly and annual toggles. Extra users share the account's limits. On Starter they get SEO features but not AI Visibility.",
+      "source": 2
+    },
+    {
+      "id": "extra-user-pro-plus",
+      "name": "Additional user (Pro+ plan)",
+      "price": 80,
+      "unit": "per user per month",
+      "appliesTo": ["pro-plus"],
+      "note": "Gives SEO access only. AI Visibility access is sold separately per user.",
+      "source": 2
+    },
+    {
+      "id": "extra-user-advanced",
+      "name": "Additional user (Advanced plan)",
+      "price": 100,
+      "unit": "per user per month",
+      "appliesTo": ["advanced"],
+      "note": "Gives SEO access only. AI Visibility access is sold separately per user.",
+      "source": 2
+    },
+    {
+      "id": "extra-user-ai-visibility",
+      "name": "AI Visibility access for an additional user",
+      "price": 99,
+      "unit": "per additional user (a separate AI Visibility Toolkit licence)",
+      "appliesTo": ["starter", "pro-plus", "advanced"],
+      "note": "Semrush's KB says extra users on Starter, Pro+ or Advanced get full SEO features, and giving them AI Visibility means buying the AI Visibility Toolkit for $99 per user, on top of the user price. Semrush's example: $45 + $99 = $144 in total for an extra Starter user, $179 on Pro+ and $199 on Advanced. The toolkit itself is listed at $99 per month.",
+      "source": 22
+    },
+    {
+      "id": "extra-user-without-seo",
+      "name": "Additional user (subscriptions without an SEO plan)",
+      "price": 20,
+      "unit": "per user per month",
+      "note": "Flat rate for accounts that have only toolkits such as Local, Content, Social, Advertising or AI PR, whatever the tier.",
+      "source": 10
+    },
+    {
+      "id": "ai-visibility-toolkit",
+      "name": "AI Visibility Toolkit (Base)",
+      "price": 99,
+      "unit": "per month (per domain)",
+      "appliesTo": ["seo"],
+      "note": "Adds AI visibility tracking to the SEO plan, or can be bought on its own: 25 custom prompts tracked daily, 1 domain for Brand Performance, mentions from ChatGPT, Google AI, Gemini and Perplexity. Same price under the monthly and annual toggles. No free trial.",
+      "source": 8
+    },
+    {
+      "id": "ai-visibility-extra-domain",
+      "name": "AI Visibility: additional Brand Performance domain",
+      "price": 99,
+      "unit": "per domain per month",
+      "note": "Adds a domain or location to Brand Performance. It does not give another user access.",
+      "source": 23
+    },
+    {
+      "id": "ai-visibility-extra-prompts",
+      "name": "AI Visibility: 50 additional tracked prompts",
+      "price": 60,
+      "unit": "per 50 prompts per month",
+      "source": 23
+    },
+    {
+      "id": "local-base",
+      "name": "Local Toolkit Base",
+      "price": 30,
+      "unit": "per location per month",
+      "note": "Google Business Profile AI Agent (posts, review auto-replies, photo posting) and Map Rank Tracker with 375 credits. Same price under the monthly and annual toggles. Semrush's KB (source 28) says Local Business, for 20+ locations, is custom-priced.",
+      "source": 10
+    },
+    {
+      "id": "local-pro",
+      "name": "Local Toolkit Pro",
+      "price": 60,
+      "unit": "per location per month",
+      "note": "Adds listing management, review management and generation, and advanced GBP management. Map Rank Tracker has 1,225 credits.",
+      "source": 10
+    },
+    {
+      "id": "content-toolkit",
+      "name": "Content Toolkit Base",
+      "price": 60,
+      "unit": "per month",
+      "note": "Content ideas, SEO briefs, AI article generation and 5 SEO content boosts a month. Same price under both toggles.",
+      "source": 12
+    },
+    {
+      "id": "content-seo-boost-pack",
+      "name": "Content Toolkit: 10 extra SEO-boosted articles",
+      "price": 30,
+      "unit": "per 10 articles per month",
+      "source": 29
+    },
+    {
+      "id": "traffic-and-market",
+      "name": "Traffic & Market Toolkit Pro",
+      "price": 289,
+      "unit": "per month",
+      "note": "Competitor traffic, market and audience data. Same price under both toggles, and the page shows 'Contact us' for extra users. Semrush's KB (source 21) says each additional user who needs this toolkit costs from $289 per month, or $309 in total ($289 + $20) on an account without an SEO plan.",
+      "source": 14
+    },
+    {
+      "id": "social-base",
+      "name": "Social Toolkit Base",
+      "price": 20,
+      "unit": "per month",
+      "note": "5 profiles to manage, 10 to track, 50 scheduled posts a month.",
+      "source": 16
+    },
+    {
+      "id": "social-pro",
+      "name": "Social Toolkit Pro",
+      "price": 40,
+      "unit": "per month",
+      "note": "10 profiles to manage, 20 to track, unlimited posts.",
+      "source": 16
+    },
+    {
+      "id": "social-business",
+      "name": "Social Toolkit Business",
+      "price": 250,
+      "unit": "per month",
+      "note": "Adds the Influencer Analytics and Media Monitoring tools.",
+      "source": 16
+    },
+    {
+      "id": "advertising-base",
+      "name": "Advertising Toolkit Base",
+      "price": 99,
+      "unit": "per month",
+      "source": 18
+    },
+    {
+      "id": "advertising-pro",
+      "name": "Advertising Toolkit Pro",
+      "price": 220,
+      "unit": "per month",
+      "note": "Adds AdClarity: competitors' display, video and social ads.",
+      "source": 18
+    },
+    {
+      "id": "ai-pr-base",
+      "name": "AI PR Toolkit Base",
+      "price": 149,
+      "unit": "per month",
+      "source": 20
+    },
+    {
+      "id": "ai-pr-pro",
+      "name": "AI PR Toolkit Pro",
+      "price": 279,
+      "unit": "per month",
+      "source": 20
+    },
+    {
+      "id": "ai-pr-business",
+      "name": "AI PR Toolkit Business",
+      "price": 499,
+      "unit": "per month",
+      "source": 20
+    },
+    {
+      "id": "lead-generation",
+      "name": "Lead Generation (Agency Partners Platform listing)",
+      "price": 90,
+      "unit": "per month",
+      "note": "Branded agency profile and Semrush verified badge.",
+      "source": 2
+    },
+    {
+      "id": "base-report",
+      "name": "My Reports: Base Report",
+      "price": 10,
+      "unit": "per report per month",
+      "source": 2
+    },
+    {
+      "id": "pro-report",
+      "name": "My Reports: Pro Report",
+      "price": 20,
+      "unit": "per report per month",
+      "note": "Adds 20+ external integrations, white-labelling and sharing by link.",
+      "source": 2
+    }
+  ],
+  "usage": [],
+  "extraCosts": [],
+  "billingNotes": [
+    "Every SEO + AI Search plan can be paid month to month or annually. Annual billing is charged upfront for the whole year, not in 12 monthly payments. Semrush says it saves 'up to 17%'. From the listed prices, the saving is about 17% on Starter, Pro+ and Advanced and about 16% on SEO ($117.33 vs $139.95 a month).",
+    "The toolkit add-ons (AI Visibility, Local, Content, Traffic & Market, Social, Advertising, AI PR) show the same price under the Monthly and Annually toggles, so annual billing brings no discount on them. A toolkit or add-on added to an annual subscription is charged once, prorated to the end of the annual term.",
+    "Refunds: the 7-day money-back guarantee covers only initial annual (12-month or longer) subscriptions and initial add-on purchases made online by credit card. Month-to-month subscriptions are not refundable, and a cancellation takes effect at the end of the paid term.",
+    "Each plan includes one user login. Extra users share the account's limits. On Starter, Pro+ and Advanced, an extra user gets SEO features only: AI Visibility, Traffic & Market and App Center apps have to be bought again for each user.",
+    "Semrush's KB article 'SEO Toolkit Pricing and Plans' still lists SEO Toolkit Pro at $139.95, Guru at $249.95 and Business at $499.95 a month. The public pricing page shows only the SEO plan at $139.95 next to Starter, Pro+ and Advanced, so a buyer who needs Guru-level limits (15 sites, 1,500 keywords) or Business-level limits (40 sites, 5,000 keywords) now sees Pro+ at $299 or Advanced at $549 instead.",
+    "Payment: all major credit cards (Visa, Mastercard, Discover, American Express, UnionPay); wire transfer on request; check or money order on request (US only). Semrush's billing FAQ says virtual cards are not accepted."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "The pricing page FAQ says 'All prices are in US dollars.' We captured it from a US-locale session only and did not check whether other countries see local-currency prices or added VAT/sales tax."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 user, up to 3 sites, ~500 tracked keywords",
+      "assumptions": "One user tracking about 500 keywords across 1–3 sites, billed month to month. The SEO plan covers 5 websites and 500 keywords tracked daily with 1 user included, so nothing else is needed.",
+      "planId": "seo",
+      "billing": "monthly",
+      "lines": [
+        { "label": "SEO plan (monthly)", "amount": 139.95 }
+      ],
+      "monthly": 139.95,
+      "confidence": "high",
+      "note": "500 keywords is exactly the SEO plan's cap, which leaves no headroom. Starter ($199/mo) has the same keyword cap and adds AI Visibility. Paid annually, the SEO plan works out to $117.33/mo."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 2 users, ~5 sites, ~1,500 tracked keywords",
+      "assumptions": "Two users, about 5 sites and 1,500 tracked keywords, billed month to month. SEO and Starter both stop at 500 tracked keywords, so the 1,500-keyword limit forces Pro+ (15 websites, 1,500 keywords, 1 user included). The second user costs $80/month on Pro+ and gets SEO features only.",
+      "planId": "pro-plus",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Pro+ plan (monthly)", "amount": 299 },
+        { "label": "1 additional user on Pro+ (1 × $80)", "amount": 80 }
+      ],
+      "monthly": 379,
+      "confidence": "high",
+      "note": "Giving the second user AI Visibility access would add $99 (per Semrush's KB). Paid annually: $248.17 plan + $80 user = $328.17/mo, assuming user prices stay the same, as the comparison table shows."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 4 users, ~15 sites, ~5,000 tracked keywords",
+      "assumptions": "Four users, about 15 sites and 5,000 tracked keywords, billed month to month. Pro+ would cover 15 websites but only 1,500 keywords, so the keyword count forces Advanced (40 websites, 5,000 keywords, 1 user included). The three extra users cost $100 each on Advanced: 3 × $100 = $300.",
+      "planId": "advanced",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Advanced plan (monthly)", "amount": 549 },
+        { "label": "3 additional users on Advanced (3 × $100)", "amount": 300 }
+      ],
+      "monthly": 849,
+      "confidence": "high",
+      "note": "Extra users get SEO features only. Giving all three AI Visibility access would add 3 × $99 = $297. Paid annually: $455.67 + $300 = $755.67/mo, if user prices are the same on annual billing (the comparison table shows the same $100/user under both toggles)."
+    }
+  ],
+  "unverified": [
+    "The price of more SEO limits (extra tracked keywords, projects or crawl pages) beyond what a plan includes is not published on the pricing page or in the captured KB articles. Semrush points customers to the in-account Subscription info page.",
+    "We could not confirm whether new customers can still buy SEO Toolkit Guru or Business. A Semrush KB article lists them at $249.95 and $499.95 a month, but the public pricing page does not show them and no captured page gives their annual prices.",
+    "Free trial on Advanced: the pricing page shows no 'Try for free' button for Advanced, while Semrush's KB says the 7-day trial covers every SEO + AI Search plan. Not tested at checkout.",
+    "Additional-user prices under annual billing: the comparison table shows the same $45/$80/$100 per user under both toggles, but we did not see whether the annual checkout charges users per month or upfront for the year.",
+    "Local Toolkit Business (20+ locations) and Traffic & Market Custom are sales-quoted. Their prices were not captured."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

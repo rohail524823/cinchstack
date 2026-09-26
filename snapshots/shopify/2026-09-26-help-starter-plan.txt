@@ -1,0 +1,48 @@
+SOURCE: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-starter-plan
+FETCHED: 2026-09-26T21:47:22.018Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help
+Log in
+Contents
+Home
+Intro to Shopify
+Pricing plans
+Plan features
+Starter plan
+
+The Starter plan is for merchants that are just starting out and who want to sell to their customers through social media platforms or messaging apps, with a simplified online store. The Starter plan lets you create product links which you can share on social media posts or in messages. To start selling, activate your checkout by choosing a paid plan or deactivating private mode.
+
+Note
+
+The Starter plan isn't available to new stores. If you're a merchant currently on the Starter plan and you decide to change your plan, then you can't revert back to the Starter plan.
+
+On this page
+Available features on the Starter plan
+Unavailable features on the Starter plan
+Available features on the Starter plan
+
+In addition to the features available on all plans, except for staffing your Shopify store, grouping products into collections, and the POS Pro subscription, the Shopify Starter plan offers the following features:
+
+Feature	Description
+Transaction fees	The Starter plan offers competitive transaction fees. Review the Starter plan to find the specific transaction fees for your region.
+Spotlight theme	
+
+The Spotlight theme is ready to use with the Starter plan. You can use the theme editor to add a logo, a brand introduction, and social media links. You can also customize the colors of your theme.
+
+Other themes and customization options aren't available on the Starter plan.
+
+Reports	You can track your business performance using reports. The Starter plan comes with the analytics page, finances reports, product analytics, Live View, acquisition reports, inventory reports, behavior reports, marketing reports, order reports, sales reports, retail sales reports, profit reports, and customers reports.
+International commerce	The Starter plan supports your international growth through international sales tools, which are cross-border management tools that help you with every step of the international selling process.
+Unavailable features on the Starter plan
+
+If you're on the Shopify Starter plan, then staffing your Shopify store, grouping products into collections, activating third-party carrier-calculated shipping and upgrading to the POS Pro subscription are unavailable with this plan.
+
+Unavailable feature	Description
+Staffing your Shopify store	The Starter plan doesn't support adding staff accounts to your store. You need to be on the Grow plan or higher to add staff accounts. If you require the ability to add staff members, then you need to upgrade to a higher plan such as Grow, Advanced, or Shopify Plus. Learn more about managing staff and staff account limits for different plans.
+Product collections	The Starter plan doesn't offer the capability to group your products into collections to make it easier for customers to find them by category. If you require the ability to create collections, then you need to upgrade to a higher plan such as Basic, Grow, Advanced, or Shopify Plus. Learn more about collections.
+Templates	The Starter plan doesn't support creating any new templates. You have a default home, product page, a contact page, 404 page, cart page, and checkout. If you require the ability to create other pages, then you need to upgrade to a higher plan such as Basic, Grow, Advanced, or Shopify Plus. Learn more about templates.
+Activating third-party carrier-calculated shipping	The Starter plan doesn't support activating third-party carrier-calculated shipping. To activate third-party carrier-calculated shipping, you need to upgrade to a higher plan such as Grow, Advanced, or Shopify Plus. Learn more about activating third-party carrier-calculated shippings.
+Shopify POS Pro subscription	The Starter plan doesn't support upgrading your POS plan to the POS Pro subscription. To upgrade to the POS Pro subscription, you need to upgrade to a higher plan such as Basic, Grow, Advanced, or Shopify Plus. Learn more about the POS Pro subscription.
+Leave feedback
+Chat with a human
