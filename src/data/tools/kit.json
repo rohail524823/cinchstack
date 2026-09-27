@@ -35,6 +35,6 @@
     "Downgrading to a lower subscriber tier is manual: Kit does not do it automatically even if a list shrinks"
   ],
   "affiliate": {
-    "program": null
+    "program": "kit"
   }
 }

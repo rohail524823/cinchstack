@@ -99,7 +99,7 @@
   "webflow": {
     "label": "Webflow affiliate program",
     "network": "PartnerStack",
-    "status": "not-applied",
+    "status": "applied",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?webflow\\.com(/|$)",
@@ -114,7 +114,8 @@
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": []
+    "rateHistory": [],
+    "notes": "Applied 27 September 2026, as reported by the owner. Pending; the status shows at dash.partnerstack.com. Once approved: read the contract terms before any link goes live."
   },
   "semrush": {
     "label": "Semrush affiliate program",
@@ -176,7 +177,8 @@
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": []
+    "rateHistory": [],
+    "notes": "Checked 27 September 2026: Notion’s affiliate program is not accepting new partners. Check again later; links stay plain until then."
   },
   "squarespace": {
     "label": "Squarespace affiliate program",
@@ -219,5 +221,26 @@
     },
     "rateHistory": [],
     "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310, with Wix’s application survey; declined within minutes (the notification email was blank, with the subject “SUBJECT”). The same day, a note linking the four CinchStack pages that feature Wix was sent through Wix’s chat on Impact. Impact shows a Re-apply button; wait for their answer before using it."
+  },
+  "kit": {
+    "label": "Kit affiliate program",
+    "network": "PartnerStack",
+    "status": "not-applied",
+    "approvedOn": null,
+    "template": null,
+    "match": "^https://(www\\.)?kit\\.com(/|$)",
+    "terms": "50% of each referred customer’s payments for their first 12 months; after that, 10–20% recurring for affiliates who reach Kit’s Bronze, Silver or Gold status. Paid monthly through PartnerStack once earnings pass $5. Confirm in the contract before any link goes live.",
+    "recurring": true,
+    "paysOnTrial": null,
+    "cookieDays": null,
+    "payoutRail": "PartnerStack (Stripe, PayPal or bank deposit depending on country; PayPal doesn’t pay out to Pakistan)",
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
+    "rateHistory": [],
+    "notes": "27 September 2026: the application on PartnerStack did not submit. Its Submit button turned into a padlock under the banner “Unlock the PartnerStack Marketplace. To join more programs, all you need to do is earn a single commission in any of the programs you are already a part of.” Next: check dash.partnerstack.com; if Kit isn’t pending there, try Kit’s own application form (https://dash.partnerstack.com/application?company=kit) once, and if it is locked too, ask PartnerStack or Kit support. The Marketplace unlocks after a first commission in any PartnerStack program (for example Webflow)."
   }
 }
