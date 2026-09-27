@@ -36,7 +36,7 @@
         },
         {
           "tool": "gohighlevel",
-          "why": "Its $97 Starter plan already bundles a CRM, a funnel and site builder, and usage-priced email and SMS in one subscription; only its AI agent costs extra, at $50 or $97 per location."
+          "why": "Its $97 Starter plan already bundles a CRM, a funnel and site builder, and prices email and SMS as metered usage instead of a stacked subscription; its AI agent is the one extra sold as a recurring add-on, at $50 or $97 per location."
         }
       ]
     },
