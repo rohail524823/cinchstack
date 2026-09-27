@@ -67,3 +67,7 @@ export function figHtml(v, suffix = '', floor = false) {
   if (v === null || v === undefined) return '—';
   return `${floor ? '<span class="floor">from </span>' : ''}<data value="${v}" data-fig>${money(v)}${suffix}</data>`;
 }
+/** Possessive of a product name, matching the prose: "Ahrefs'", "HubSpot's". */
+export function poss(name) {
+  return /s$/i.test(name) ? `${name}'` : `${name}'s`;
+}

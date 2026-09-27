@@ -78,6 +78,21 @@ export function paysUs(id) {
 export function scenario(id, size) {
   return price(id).scenarios.find((s) => s.size === size);
 }
+// What each standard business size counts for a tool's job, as in the table on /methodology/.
+// Shown next to real-bill figures: a five-person business needs 2 SEO seats but 5 workspace seats.
+const SIZE_BASIS = {
+  run: { solo: '1 user, 1,000 contacts', small: '3 users, 5,000 contacts', growing: '8 users, 25,000 contacts' },
+  sell: { solo: '1 staff, $3,000/mo in sales', small: '3 staff, $30,000/mo in sales', growing: '8 staff, $150,000/mo in sales' },
+  site: { solo: '1 editor', small: '3 editors', growing: '8 editors' },
+  seo: { solo: '1 user, 500 keywords', small: '2 users, 1,500 keywords', growing: '4 users, 5,000 keywords' },
+  email: { solo: '1,000 subscribers', small: '10,000 subscribers', growing: '50,000 subscribers' },
+  organize: { solo: '1 seat', small: '5 seats', growing: '15 seats' },
+};
+export function sizeBasis(id, size) {
+  const t = tool(id);
+  const job = t.layer === 'grow' ? (/\bseo\b/i.test(t.category) ? 'seo' : 'email') : t.layer;
+  return SIZE_BASIS[job]?.[size] ?? '';
+}
 export function plan(id, planId) {
   return price(id).plans.find((p) => p.id === planId);
 }
