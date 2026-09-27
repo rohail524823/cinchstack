@@ -1,0 +1,51 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/33463620625559-Workspace-storage-limits
+FETCHED: 2026-09-26T22:50:32.596Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+Account settings
+Workspace storage limits
+
+Workspace storage includes:
+
+Attachments uploaded to tasks, List info, Notepad, or Docs.
+Attachments uploaded to Chat.
+Cover images uploaded from your device. Cover images can be added to Forms, tasks, Docs, Board view, and Team Overviews.
+Voice and screen Clip recordings.
+Workspace storage limits per plan
+
+This table shows the Workspace storage available for all ClickUp Plans:
+
+Plan	Workspace storage
+Free Forever	60MB
+All paid plans	Unlimited
+Was this article helpful?
+Related articles
+Manage your Workspace storage
+Add attachments to tasks
+Browser tab limits
+Manage Custom Role permissions
+Notification settings
+Articles in this section 
+Workspace storage limits
+Browser tab limits
+My Settings
+Intro to profiles
+Change your Workspace appearance and theme
+Change your account language, region, and time and date formats
+Dark Mode
+Activate High Contrast mode
+Restore items from the Trash
+Become ClickUp Verified
+
+See all 11 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

@@ -1,0 +1,116 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/16332627413148-How-to-start-keyword-grouping
+FETCHED: 2026-09-26T22:55:45.006Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+SEO Research tools
+Keyword Grouper
+  Articles in this section
+Keyword Grouper Overview
+How to start keyword grouping
+How to manage Keyword Grouper results
+How to start keyword grouping
+General Settings
+How to check the Search Volume
+How to add queries
+
+General settings
+
+Access the Keyword Grouper tool and follow the instructions below.
+
+1. Name the report.
+
+2. Specify the region. For example, USA. The system will scan the TOP-10 of the search engine of your choice in the region you’ve specified to find the search queries that match the same website’s URLs and to group the queries into a cluster. 
+
+3. Specify the location: city/zip code. For example: Houston. The system will scan the TOP-10 of the search engine of your choice in the region you’ve specified to find the search queries that match the same website’s URLs and to group the queries into a cluster.
+
+4. Specify the language of Google's interface.
+
+5. Choose the accuracy of keyword grouping. This is the minimum number of URLs in SERPs required for clustering. The higher the accuracy, the more precise grouping is and the fewer number of queries falls into one group.
+
+6. Choose the grouping method: Soft or Hard.
+
+Soft grouping means that all keywords are compared against the query with the highest search volume, and, if the number of URLs in TOP-10 matches the set accuracy level, they are grouped into clusters. All queries in the group will be connected with the same URLs that have the biggest search volume, but might not have the same URLs among themselves. The name of the group will be the keyword with the highest search volume. This method allows to group a large number of queries, but does not guarantee that irrelevant keywords are put into the group. Once the first group is created, the process starts over until the only queries that are left have no matching URL in the TOP-10 for the set grouping accuracy level.
+
+Hard grouping means that all queries will be compared against each other, which eliminates the grouping of irrelevant keywords. Those keywords are clustered, if they have the same set of URLs in the TOP-10 for the specified accuracy level. All queries in the group will be connected with the same URLs. The name of the group will be the query with the highest search volume. Once the first group is created, the process starts over until the only queries that are left have no matching URL in the TOP-10 for the set grouping accuracy level.
+
+ 
+
+How to check the search volume
+
+You can check the search volume by using the Keyword Grouper tool. In this case, each group formed during the clustering will be named after the query with the highest search volume.
+
+You can upload a file containing keywords and their search volume. Structure the file so that you have two columns: one containing the keywords that have to be grouped, the other - the search volumes. The compatible file formats are .XLS, .XLSX and .CSV, exported from Excel. Use a semicolon (;) to separate the columns in the .CSV files. The name of the group will be the keyword with the highest search volume.
+
+Choose the corresponding tab from the drop-down menu and hit “Choose the file” to upload a file with the search volumes.
+
+If the search volume check is disabled, the group will be named after the very first query that got clustered.
+
+ 
+
+How to add queries
+
+There are two ways you can add keywords for clustering:
+
+manually;
+from a file.
+
+To add queries manually, specify the keywords, placing each one on a separate line.
+
+Keep the keyword field empty if you want to upload keywords via a file. With that in mind, you’ll see a new field that you can use to import a file. The accepted file formats are XLS, XLSX, .CSV, exported from Excel, or just a plain .TXT file where every keyword is placed on a separate line.
+
+To upload the file, just drag and drop it into the highlighted field and hit the “Choose the file” button.
+
+Check the setting once the keywords have been added, and, if everything is set correctly, start the grouping process. One check costs $0.004.
+
+Was this article helpful?
+Yes No
+1 out of 1 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

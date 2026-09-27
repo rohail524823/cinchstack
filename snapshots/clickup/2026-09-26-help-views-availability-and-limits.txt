@@ -1,0 +1,156 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/32274881672599-Views-feature-availability-and-limits
+FETCHED: 2026-09-26T22:51:35.478Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+API & MCP
+Status:
+My Tickets
+Search
+Ask me anything
+ClickUp Help
+ Get started
+ Views
+ Intro to views
+Views feature availability and limits
+
+Each view provides a different focus on your and your team's work.
+
+Views availability plan
+
+The following table describes the views available on each ClickUp Plan:
+
+View	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Activity view	24 hours of activity	7 days of activity	Unlimited	Unlimited	Unlimited
+Board - Kanban view	Yes	Yes	Yes	Yes	Yes
+Calendar view	Yes	Yes	Yes	Yes	Yes
+Dashboard view	Yes	Yes	Yes	Yes	Yes
+Doc view	Yes	Yes	Yes	Yes	Yes
+Embed views	40 uses	100 uses	Unlimited	Unlimited	Unlimited
+Form view	1 Form	Unlimited	Unlimited	Unlimited	Unlimited
+List view	Yes	Yes	Yes	Yes	Yes
+Gantt view	60 uses	Unlimited	Unlimited	Unlimited	Unlimited
+Map view	No	5 uses	Unlimited	Unlimited	Unlimited
+Mind map view	No	40 uses	Unlimited	Unlimited	Unlimited
+Table view	Yes	Yes	Yes	Yes	Yes
+Team view	No	100 uses	Unlimited	Unlimited	Unlimited
+Timeline view	60 uses	100 uses	Unlimited	Unlimited	Unlimited
+Whiteboard view	3 Whiteboards	10 Whiteboards	Unlimited	Unlimited	Unlimited
+Workload view	60 uses	100 uses	Unlimited	Unlimited	Unlimited
+What counts as a use?
+
+Dashboard views count towards the uses of Dashboards.
+
+The following actions count as a use in Team view:
+
+Updating task statuses.
+Creating tasks.
+Expanding boxes.
+Updating workload type.
+Updating Sorting options.
+Updating Layout options in the Customize menu.
+
+The following actions count as a use in Mind Map view:
+
+Creating a view
+Creating a node
+Deleting a node
+Saving changes
+Loading the Mind Map
+List view performance limitations
+
+Up to 5,000 tasks can load at a time in List view. Use filters to refine the tasks displayed in List view.
+
+Add Everything level views
+
+The following table describes the ability to add Everything level views by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Add Everything level views	Yes	Yes	Yes	Yes	Yes
+Calculate columns
+
+The following table describes the ability to calculate columns by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Calculate columns	No	No	Yes	Yes	Yes
+Use Private views
+
+Required views cannot be made Private.
+
+The following table describes the ability to use Private views by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Use Private views	No	No	Yes	Yes	Yes
+Protect views
+
+The following table describes the ability to protect views by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Protect views	No	No	10 uses	Yes	Yes
+Protect Doc views	No	No	No	Yes	Yes
+What counts as a use?
+
+Uses of protected views include protecting and unprotecting a view.
+
+For example, you protect a List view. Then, you unprotect the view to make changes to the filter. Then protect it again. These actions count as three uses.
+
+Set default views
+
+Default views cannot be set on the ClickUp mobile app.
+
+The following table describes the ability to protect views by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Set default views	No	No	5 uses	Unlimited	Unlimited
+Baselines in Gantt view
+
+The following table describes usage of baselines in Gantt view by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Use baselines in Gantt view	No	No	10 baselines per location	10 baselines per location	20 baselines per location
+Export data from List and Table views
+
+The following table describes the ability to protect export data from List and Table views by plan:
+
+Action	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Export data from List and Table views	No	5 uses	Unlimited	Unlimited	Unlimited
+Views availability by user role
+
+To create views, you must have Edit or Full edit permissions to the List, Subfolder, Folder, or Space where the view is created.
+
+The following table describes views by user role:
+
+	Guests	Members	Admins	Owner
+Use views	Only on Lists, Subfolders, and Folders shared with them.	Yes	Yes	Yes
+Create views	Yes	Yes	Yes	Yes
+Create views at the Everything level	No	Yes	Yes	Yes
+Calculate columns	Yes	Yes	Yes	Yes
+Export List and Table views	No	Yes	Yes	Yes
+Protect views	No	Yes	Yes	Yes
+Set default views	No	No	Yes	Yes
+Create private views	Yes	Yes	Yes	Yes
+Make existing views private	No	Yes	Yes	Yes
+Was this article helpful?
+Related articles
+Create and share a Gantt view
+Export List and Table views
+Add an Embed view
+Intro to views
+How do I export my Workspace's data?
+Articles in this section
+Export List and Table views
+The views control bar
+Use custom icons for your views
+Views feature availability and limits
+Add a view
+Group and reorder views
+Pin a view
+Intro to views
+Use Page views
+Intro to the Views Bar
+
+See all 28 articles
+
+Go to ClickUp
+English (United States) 
+Get Help

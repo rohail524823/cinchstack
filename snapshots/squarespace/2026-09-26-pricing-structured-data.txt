@@ -1,0 +1,420 @@
+SOURCE: https://www.squarespace.com/pricing
+FETCHED: 2026-09-26T22:55:16.000Z
+RENDERER: curl (raw server-rendered HTML, US egress, Accept-Language en-US); extracted (1) each plan card's and comparison-table column's price elements with their CSS class names, where the class suffix __monthly marks the price shown under "Pay monthly" and __annual the price shown under "Pay annually", (2) the page's BillingPeriodProvider default, and (3) the page's schema.org JSON-LD (OfferCatalog with monthly and annual offers, and the FAQPage with every FAQ answer) verbatim.
+----
+BillingPeriodProvider defaultPeriod: annual
+
+== Plan card price elements (class name -> text) ==
+Plan card "Basic":
+  Price-module ...__monthly  -> $25/mo
+  Price-module ...__annual   -> $19/mo
+Plan card "Core":
+  Price-module ...__monthly  -> $39/mo
+  Price-module ...__annual   -> $29/mo
+Plan card "Plus":
+  Price-module ...__monthly  -> $65/mo
+  Price-module ...__annual   -> $49/mo
+Plan card "Advanced":
+  Price-module ...__monthly  -> $139/mo
+  Price-module ...__annual   -> $99/mo
+
+== Comparison table header price elements (class name -> text) ==
+Table column "Basic": HeaderCell ...__monthly -> $25/mo | HeaderCell ...__annual -> $19/mo
+Table column "Core": HeaderCell ...__monthly -> $39/mo | HeaderCell ...__annual -> $29/mo
+Table column "Plus": HeaderCell ...__monthly -> $65/mo | HeaderCell ...__annual -> $49/mo
+Table column "Advanced": HeaderCell ...__monthly -> $139/mo | HeaderCell ...__annual -> $99/mo
+
+== schema.org JSON-LD: OfferCatalog (verbatim, pretty-printed) ==
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.squarespace.com/#organization",
+   "name": "Squarespace",
+   "url": "https://www.squarespace.com",
+   "logo": "https://media-www.sqspcdn.com/logos/apple-touch-icon-1024.png",
+   "email": "support@squarespace.com",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8 Clarkson",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10013",
+    "addressCountry": "US"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/squarespace",
+    "https://x.com/squarespace",
+    "https://www.instagram.com/squarespace",
+    "https://www.facebook.com/squarespace",
+    "https://www.youtube.com/squarespace"
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "url": "https://www.squarespace.com/pricing",
+   "name": "Beautiful websites",
+   "description": "Free for 14 days. Pay annually to save up to 36%.",
+   "isPartOf": {
+    "@id": "https://www.squarespace.com/#website"
+   },
+   "mainEntity": {
+    "@id": "https://www.squarespace.com/pricing#offers"
+   },
+   "about": [
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-basic"
+    },
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-core"
+    },
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-plus"
+    },
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-advanced"
+    }
+   ]
+  },
+  {
+   "@type": "OfferCatalog",
+   "@id": "https://www.squarespace.com/pricing#offers",
+   "name": "Squarespace Plans",
+   "description": "These prices are quoted in USD for the regions each offer names. Squarespace prices its plans per billing country: a customer in another country is offered a different currency and a different amount than the ones in this catalog.",
+   "url": "https://www.squarespace.com/pricing",
+   "itemListElement": [
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-basic"
+    },
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-core"
+    },
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-plus"
+    },
+    {
+     "@id": "https://www.squarespace.com/pricing#plan-advanced"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://www.squarespace.com/pricing#plan-basic",
+   "name": "Squarespace Basic",
+   "description": "Entry-level Squarespace website plan. Includes a custom domain (free for one year on annual billing), unlimited bandwidth, SSL security, mobile-optimized templates, SEO tools, and basic analytics. Suitable for personal sites, portfolios, and simple business pages.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "brand": {
+    "@id": "https://www.squarespace.com/#organization"
+   },
+   "url": "https://www.squarespace.com/pricing",
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Basic — Monthly",
+     "priceCurrency": "USD",
+     "price": "25.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "25.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "MON"
+      },
+      "billingDuration": "P1M"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    },
+    {
+     "@type": "Offer",
+     "name": "Basic — Annually",
+     "priceCurrency": "USD",
+     "price": "228.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "228.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "ANN"
+      },
+      "billingDuration": "P1Y"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://www.squarespace.com/pricing#plan-core",
+   "name": "Squarespace Core",
+   "description": "Squarespace plan for growing businesses. Adds advanced site analytics, premium integrations, customer accounts, gift cards, point-of-sale, and the ability to sell unlimited products with a 3% transaction fee on commerce sales.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "brand": {
+    "@id": "https://www.squarespace.com/#organization"
+   },
+   "url": "https://www.squarespace.com/pricing",
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Core — Monthly",
+     "priceCurrency": "USD",
+     "price": "39.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "39.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "MON"
+      },
+      "billingDuration": "P1M"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    },
+    {
+     "@type": "Offer",
+     "name": "Core — Annually",
+     "priceCurrency": "USD",
+     "price": "348.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "348.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "ANN"
+      },
+      "billingDuration": "P1Y"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://www.squarespace.com/pricing#plan-plus",
+   "name": "Squarespace Plus",
+   "description": "Squarespace plan for established commerce businesses. Includes everything in Core plus zero Squarespace transaction fees, abandoned-cart recovery, advanced shipping and discount tools, subscriptions, and merchandising features.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "brand": {
+    "@id": "https://www.squarespace.com/#organization"
+   },
+   "url": "https://www.squarespace.com/pricing",
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Plus — Annually",
+     "priceCurrency": "USD",
+     "price": "588.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "588.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "ANN"
+      },
+      "billingDuration": "P1Y"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    },
+    {
+     "@type": "Offer",
+     "name": "Plus — Monthly",
+     "priceCurrency": "USD",
+     "price": "65.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "65.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "MON"
+      },
+      "billingDuration": "P1M"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://www.squarespace.com/pricing#plan-advanced",
+   "name": "Squarespace Advanced",
+   "description": "Squarespace plan for high-volume commerce and enterprise needs. Includes everything in Plus along with advanced commerce APIs, custom code, and priority support.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "brand": {
+    "@id": "https://www.squarespace.com/#organization"
+   },
+   "url": "https://www.squarespace.com/pricing",
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Advanced — Annually",
+     "priceCurrency": "USD",
+     "price": "1188.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "1188.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "ANN"
+      },
+      "billingDuration": "P1Y"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    },
+    {
+     "@type": "Offer",
+     "name": "Advanced — Monthly",
+     "priceCurrency": "USD",
+     "price": "139.00",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "139.00",
+      "priceCurrency": "USD",
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "MON"
+      },
+      "billingDuration": "P1M"
+     },
+     "eligibleRegion": [
+      {
+       "@type": "Country",
+       "name": "US"
+      }
+     ],
+     "availability": "https://schema.org/InStock",
+     "category": "Subscription",
+     "seller": {
+      "@id": "https://www.squarespace.com/#organization"
+     }
+    }
+   ]
+  }
+ ]
+}
+
+== schema.org JSON-LD: FAQPage (each question and its full answer, verbatim) ==
+Q: How long is a Squarespace subscription? Is there a discount for annual plans?
+A: Squarespace offers both monthly and annual subscriptions. We make it simple to start—and stop—your plan at any time. We also offer discounts when you choose an annual plan instead of paying monthly. Annual subscriptions also include one year of free domain registration for new websites.
+
+Q: Can I change or cancel my Squarespace plan later?
+A: Yes. You can upgrade, downgrade, or cancel your plan at any time. Changes take effect at the end of your current billing cycle, and if you cancel, your service will continue through the period you've already paid for.
+
+Q: Is there a free Squarespace plan?
+A: Squarespace doesn't offer a free plan, but every site starts with a free trial—no credit card required.
+
+Q: How long is the Squarespace free trial?
+A: Every Squarespace website starts with a 14-day free trial. You can upgrade to a paid plan at any time during or after your trial.
+
+Q: Does Squarespace include a free domain?
+A: Yes. If you purchase an annual plan, you'll receive a free custom domain for one year. You can also connect a domain you already own or buy a new domain through Squarespace with any subscription.
+
+Q: Is hosting included with Squarespace plans?
+A: Yes. All Squarespace plans include our fully-managed cloud hosting, ensuring your website remains available at all times.
+
+Q: Does Squarespace offer promo codes?
+A: Squarespace occasionally runs promotions, and we always share them directly through our website or emails. For the best price long-term, our annual plans offer built-in savings compared to monthly billing. Find our current offers, discounts, and student pricing here.
+
+Q: Does Squarespace offer student discounts?
+A: Yes, eligible students can get a discount through our student program. Learn more here.
+
+Q: Which Squarespace plans include ecommerce?
+A: All paid Squarespace plans let you sell products or services, but specific ecommerce features vary by plan. Compare plans above to see which best supports your business.
+
+Q: How do I accept payments with Squarespace Payments?
+A: With Squarespace Payments as your payment solution, you can centralize your finances in one easy-to-use dashboard while accepting Klarna, Afterpay, Apple Pay, ACH, and all major credit cards. Squarespace Payments is currently available in the United States, United Kingdom, Austria, Belgium, Canada, Finland, France, Germany, Ireland, Italy, Netherlands, Portugal, and Spain.
+
+Q: How much does it cost to process payments through Squarespace Payments?
+A: Squarespace Payments transaction fees and rates vary per subscription plan. Please see above in the Full Feature Comparison for details.
+
+Q: What payment options can I use to purchase a Squarespace subscription?
+A: We accept AMEX, Visa, Mastercard, Discover (US dollars only), PayPal*, SEPA, Diners Club, Japan Credit Bureau (JCB). *currently only available for non-US subscribers
+

@@ -1,0 +1,213 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206536797-Choosing-the-right-Squarespace-plan
+FETCHED: 2026-09-26T22:12:34.414Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+GETTING STARTED
+SIGNING UP
+Choosing the right Squarespace plan
+Select a website plan that includes the features you need for your business or project.
+
+Last updated September 17, 2026
+
+English
+
+Choosing the right website plan ensures you have the features you need for your site. You can invoice clients, and sell products, content, and memberships on any plan. As you upgrade, your fees will decrease and you'll receive more features such as in depth commerce analytics and form integrations.
+
+You can also purchase domains through Squarespace, reserving your site with a domain parking page. 
+
+Watch a video
+Before you begin
+We sometimes change our plans to best group features for our customers. The plans on this page reflect our current options. To learn more about older plans, visit Legacy billing plans.
+Billing plans apply to individual sites only. If you have more than one Squarespace site, you’ll pay for each one separately, and each will have its own billing plan.
+The following are separate Squarespace services and require their own subscriptions: Acuity Scheduling, Bio Sites, Domains, Email Campaigns, Google Workspace, and Unfold. 
+Pricing and billing
+For our current pricing on any of these plans and a full comparison chart, visit our pricing page. What appears on the pricing page and the plan selection screen are the plans you currently have access to.
+For a full listing of our fees for sales, visit Transaction fees and payment processing rates. 
+Domain pricing varies by TLD.
+All website plans are available in annual or monthly billing cycles. On an annual billing cycle, the average monthly cost is lower, and you can register a free custom domain for a year.
+After the initial registration period ends, domain subscriptions renew annually.
+Why your price changed
+
+We periodically adjust our plans and pricing as we continue to improve our service. If you got an email about a price increase for your website plan, you’ll pay the updated price on your next scheduled renewal date. You won’t be charged on the “effective date” listed in the email.
+
+Next steps you can take:
+
+Check your renewal date (when you’ll actually be charged).
+Compare current plans
+Change your plan
+Review past invoices
+Basic, Core, Plus, and Advanced plans
+
+‌With all of our plans, you can use our drag-and-drop editing system to lay out your content, add pages to navigation menus, upload galleries of images or videos, and more. You can also monetize your site by selling unlimited products, sending invoices and proposals, and selling courses and memberships. 
+
+Review the tabs below for a more in depth look at each plan’s key features. For a full list of features visit our pricing page:
+
+BASIC
+CORE
+PLUS
+ADVANCED
+
+The Basic plan is well-suited to smaller sites with one or two contributors. If you're an individual or small group looking to run a small online shop, invoice customers for custom services, hide your content behind a paywall, display work, write a blog, or establish a basic web presence, the Basic plan should meet your needs.
+
+Key features include:
+
+2% commerce transaction fee
+2.9% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+7% Digital Product fee
+30 minutes of video storage
+24/7 customer support
+A mobile-optimized website with up to 1000 pages
+Free custom domain for one year
+Selling unlimited products
+Selling content and memberships
+Selling subscription products
+Abandoned checkout recovery
+Local and regional shipping
+Customer reviews
+Squarespace point of sale
+Sync your products with Facebook and Instagram
+Donation blocks
+Sending invoices
+Customer accounts
+Limited availability labels
+Collecting payments with Squarespace Payments
+Project management tools
+SSL security
+Two contributors
+Website analytics (panels vary by plan)
+Product importing from other ecommerce platforms or a .csv file
+
+For more substantial sites, choose the Core plan to invite unlimited contributors and use premium features like custom code, and built-in integrations with third-party services. If you need extensive content or a team of editors or admins, the Core plan is an affordable way to create and manage a site.
+
+Includes all features in the Basic plan, plus:
+
+No commerce transaction fee
+2.9% + $0.30Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+5% Digital Product fee
+5 hours of video storage
+One free user/inbox for the first year on the Google Workspace Business Starter plan
+Announcement and mobile information bars
+Commerce analytics (panels vary by plan)
+Third-party commerce integrations
+Purchase funnel analytics
+Custom code, including the code block and code injection
+Mailchimp integration
+Google shopping
+Shipping labels
+Automatic discounts
+Carrier calculated shipping
+Product waitlists
+Promotional pop-ups
+Use Meta Pixel and Facebook's dynamic ads to promote products
+Unlimited contributors
+ChowNow integration
+Code block - JavaScript and iframe code.
+Code injection - site-wide and per-page
+Developer Platform (version 7.0 only)
+Facebook Pixel
+Zapier integration
+
+The Plus plan includes all features in the Basic and Core plans, plus a decrease in fees and an increase in video storage:
+
+No commerce transaction fee
+2.7% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+1% Digital Product fee
+50 hours of video storage
+
+For larger e-commerce stores that process many orders, the Advanced plan is a good option due to low transaction fees. It includes all features in the Basic, Core, and Plus plans, plus:
+
+No commerce transaction fee
+Connect your own carrier for carrier-calculated shipping
+2.5% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+No Digital Product fee
+Unlimited video storage
+Squarespace domains (domain only)
+
+You can purchase a Squarespace domain to reserve a URL without building a full site. The domain will redirect to a parking page, a standard minimalist design with your domain in the center and a Squarespace logo in the top corner.
+
+This option is ideal if you’re not ready to create a website but want to claim a space on the web. After you have a domain, you can add a custom email address through Google Workspace, purchase more domains, or switch to a trial to begin building your site.
+
+Mobile Start plan
+
+If you have a trial site and you're using the iOS Squarespace app, you can upgrade to a Mobile Start plan using in-app purchase. This is a great way to get started with the paid version of Squarespace without committing to a plan with recurring payments.
+
+Upgrade to paid service
+
+After starting a trial at squarespace.com, you can select a plan whenever you're ready to upgrade to paid service.
+
+To upgrade your trial to a paid website plan, visit Upgrading to paid service.
+To upgrade your trial to a Mobile Start plan, visit Upgrading to a Mobile Start plan.
+After upgrading to paid service, you can change your billing plan anytime.
+IN THIS GUIDE
+Watch a video
+Before you begin
+Pricing and billing
+Why your price changed
+Basic, Core, Plus, and Advanced plans
+Squarespace domains (domain only)
+Mobile Start plan
+Upgrade to paid service
+People also viewed
+
+Digital Products plan pricing, billing, and invoices
+
+Connect a payment processor
+
+Email Campaigns pricing, billing, and invoices
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

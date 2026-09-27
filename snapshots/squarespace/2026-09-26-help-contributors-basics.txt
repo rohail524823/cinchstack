@@ -1,0 +1,119 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/115010355107-Contributors-basics
+FETCHED: 2026-09-26T22:12:37.500Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+ACCOUNT
+CONTRIBUTORS
+Contributors basics
+Add contributors and assign them different permissions.
+
+Last updated April 30, 2026
+
+English
+
+With contributors, you can invite multiple people to log in and work on your Squarespace site, each with their own accounts. Having contributors is an efficient way to run a site as a team or hand off sites you're building for clients. Contributors can have different permissions based on their responsibilities and which settings they're allowed to see.
+
+Each contributor needs their own Squarespace account. When they accept a contributor invitation, they can create an account for free or add the site to an existing account.
+
+Accessing this feature
+
+There's a two-contributor limit for sites on the Basic, Personal, and Cover Page plans (discontinued). The Owner counts as a contributor. If a trial site has more than two contributors, you won't be able to upgrade to these plans.
+
+Tip
+
+Create branded email addresses for each of your contributors with Google Workspace.
+
+Watch a video
+Site ownership
+When you create a new Squarespace site, you automatically become the site owner, with Owner-level permissions.
+You can transfer ownership to another contributor any time, during or after the trial. You'll stay on as a contributor, which can be helpful if you'll continue working on the site.
+Invite and remove contributors
+You can invite a contributor using their email address. After they accept the invitation, they can log into your site. You can also invite contributors to parked Squarespace domains or Acuity subscriptions without a website.
+If someone no longer needs access, Owners and Administrators can remove contributors. Contributors can also remove themselves. 
+If you're a Squarespace Enterprise or Premium customer, you can set up single sign-on (SSO) with authentication applications like Okta, Azure, or ClassLink, plus SAML options including Google. 
+Roles and permissions
+There are different types of permission levels that you can give to contributors, depending on your subscriptions.
+You can give a contributor multiple permissions for tailored access.
+Owners and Administrators can change contributor permissions.
+
+Note
+
+Squarespace domains that don't share billing information with a website have different contributor roles than those in this guide. To learn more, visit Managing domain permissions.
+
+Google Workspace users vs. domain contributors
+
+Google Workspace users and domain contributors are managed separately. To add users in Google Worspace, visit this guide. To add contributors to a domain that doesn't share billing information with a Squarespace website, visit this guide.
+
+Basic authors
+To publish content by a guest or a general name without adding another contributor, add a basic author instead.
+IN THIS GUIDE
+Watch a video
+Site ownership
+Invite and remove contributors
+Roles and permissions
+Google Workspace users vs. domain contributors
+Basic authors
+People also viewed
+
+Invite a contributor
+
+Contributor roles and permissions
+
+Accept a website contributor invitation
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

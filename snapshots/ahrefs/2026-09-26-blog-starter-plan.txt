@@ -1,0 +1,217 @@
+SOURCE: https://ahrefs.com/blog/starter-plan/
+FETCHED: 2026-09-26T22:40:16.247Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+We value your privacy
+
+This website or its third-party tools process personal data. You can opt out of the sale of your personal information by clicking on the “Do Not Sell or Share My Personal Information” link.
+
+Do Not Sell or Share My Personal Information
+
+“
+The AI marketing platform we needed didn’t exist. So we built it.”
+
+Tim Soulo, CMO at Ahrefs
+
+Get Started
+Ahrefs
+Data & Studies
+Product Updates
+All topics
+Evolve
+Subscribe to Newsletter
+Ahrefs
+Product Blog
+Ahrefs’ $29 Starter plan – what’s included and how it compares
+
+By Rebekah Bek
+
+Product Marketing at Ahrefs
+
+September 2, 2024
+2 min read
+5.1K Organic traffic
+128 Linking websites
+Article performance data from Ahrefs
+
+If you haven’t heard yet, we’ve launched a new plan at Ahrefs.
+Meet our Starter plan: a $29/month offering that’s great for SEO beginners who are looking to go beyond the basics offered in our Ahrefs Free plan.Here’s what you need to know.
+
+Who's the Starter plan for?
+
+The Starter plan is perfect if you're just starting out, or want to explore our platform without a big commitment. It's designed for light usage and gives you a fantastic introduction to the potential of the Ahrefs toolset.
+
+If you end up loving Ahrefs and start using our tools intensively, you may outgrow the Starter plan quickly – but don't worry, upgrading is super easy. You can find a new plan that fits your needs right on our pricing page.
+
+What’s offered in the Starter plan?
+
+Like our Lite plan, the Starter plan is credit-based. On a Starter plan, you’ll get 200 credits each month. You consume these credits when accessing reports and requesting new data from most core tools.You’ll have access to these Ahrefs tools:
+
+SEO Dashboard
+Site Explorer
+Keywords Explorer (not included in Ahrefs Free)
+Site Audit
+Rank Tracker (not included in Ahrefs Free)
+Ahrefs SEO Toolbar
+Web Analytics
+Social Media Manager
+
+NOTE
+
+Site Audit and Rank Tracker do not consume credits since they have their own limits.
+
+How does the Starter plan compare against others?
+
+Here are some comparison charts of how the Starter plan stacks up against our free Ahrefs Free offering, and our $129/month Lite plan. See pricing page
+
+¹ Learn more about what actions consume credits² Verified projects are projects that have gone through a verification process to prove you own the website.³ These additional 500 credits can only be spent for URLs within any of the verified projects.
+
+*Keywords Explorer is not included in Ahrefs Free
+
+Terms & Conditions
+Additional users, credits or any other add-ons cannot be purchased on the Starter plan.
+You cannot downgrade from a Lite or higher plan to a Starter plan.
+The Starter plan can only be renewed monthly.
+Features and limits on this plan may be changed without prior notice.
+How do I sign up for a Starter plan?
+
+Follow this link!Sign up for Starter
+
+Questions?
+
+If something wasn't covered in this post, feel free to check in with our support team.
+
+Post by
+Rebekah Bek
+
+Helping you understand and love using Ahrefs. Find me on:
+
+Your weekly marketing’s must-reads
+
+Join 284K marketers for weekly news, useful reads, industry updates, and the memes you didn’t know you needed.
+
+Explore what’s inside the newsletter →
+Subscribe
+Blog
+Data & Studies
+AI Search
+Product Updates
+MARKETING
+General Marketing
+Content Marketing
+Affiliate Marketing
+Paid Marketing
+Video Marketing
+SEO
+General SEO
+Keyword Research
+On-Page SEO
+Link Building
+Technical SEO
+Local SEO
+Enterprise SEO
+The Beginner’s Guide to SEO ↗
+A beginner’s guide to SEO basics, with resources to help you start ranking higher.
+Product
+CORE TOOLS
+Brand Radar
+Dashboard
+Site Explorer
+Keywords Explorer
+Site Audit
+Rank Tracker
+GSC Insights
+Content Explorer
+Web Analytics
+Bot Analytics
+GBP Monitor
+Social Media Manager
+AI Content Helper
+Report Builder
+USE CASES →
+Competitive Intelligence
+PPC
+SEO
+AEO
+Content Marketing
+Brand Marketing
+Investing
+EXTRA TOOLS & FEATURES
+Domain Comparison
+Batch Analysis
+Link Intersect
+Content Gap
+Email Alerts
+SEO Checker
+Traffic Checker
+Data Studio Connectors
+Top Websites
+Patches
+Portfolios
+IndexNow
+AI Tech SEO
+All tools
+OTHER PRODUCTS
+Letaido ↗
+Firehose ↗
+Yep ↗
+FREE SEO TOOLS →
+Ahrefs Free
+AI Mode Tracker
+AI Overviews Tracker
+AI Visibility Checker
+AI Writing Tools
+Backlink Checker
+Broken Link Checker
+Website Authority Checker
+Keyword Generator
+SERP Checker
+SEO Toolbar
+Keyword Rank Checker
+Keyword Difficulty Checker
+Website Checker
+SEO Audit Tool
+Sitemap Generator
+Website Change Monitor
+Word Count
+ALTERNATIVES →
+Ahrefs vs Semrush
+PRODUCT
+Pricing
+Our data
+AhrefsBot
+API
+Ask Ahrefs
+SEO MCP
+Enterprise
+What’s new?
+COMPANY
+About
+Testimonials
+Events
+Team
+Careers
+Tech
+Media kit
+FAQ
+Contact us
+RESOURCES
+Blog
+Tech blog
+Podcast
+Webinars
+SEO Guide
+AEO Guide
+Help center
+Academy
+Marketing Agencies
+Digest
+Discoverable
+
+© 2026 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581
+
+Legal info
+Privacy Policy
+Cookie Settings
+Terms of Service
+English

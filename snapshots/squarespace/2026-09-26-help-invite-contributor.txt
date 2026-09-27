@@ -1,0 +1,162 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206537287-Invite-a-contributor
+FETCHED: 2026-09-26T22:52:43.978Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+ACCOUNT
+CONTRIBUTORS
+Invite a contributor
+Invite team members to help manage your website.
+
+Last updated September 14, 2026
+
+English
+
+A contributor is anyone with a Squarespace account who can log in and edit your site content. If multiple people manage your site, domain, or subscriptions, invite contributors and assign permissions to control their access through the Permissions & Ownership panel.
+
+Also try: Contributor basics and Contributor roles and permissions
+
+Accessing this feature
+
+Only owners and administrators can invite contributors.
+
+Video on how to invite a contributor
+
+In this 2-minute video, you’ll learn how to invite a contributor to your site using the Permissions & Ownership panel.
+
+Invite a contributor
+
+When you invite a contributor to your Squarespace site, domain, or Acuity account, you set permission levels based on your subscription.
+
+COMPUTER
+SQUARESPACE APP
+
+To invite a contributor:
+
+Open the Permissions & Ownership panel.
+Click Invite Contributor.
+In the Invite Contributor window, enter the contributor's name and email address.
+Switch the toggles to turn on each permission the contributor needs. You can choose multiple permissions.
+Click Invite to send your invitation.
+The contributor gets an email invitation asking them to log in to their Squarespace account or create a new one.
+
+Invited contributors are listed under Invites Sent.
+
+Copy an invitation link
+
+If the invited contributor didn't get your invitation email, ask them to check their spam folder or search for no-reply@squarespace.com. If they still can't find it, click their profile under Invites Sent, copy the invitation link, and send it to them.
+
+To invite a contributor on the Squarespace app:
+
+Tap More, tap Settings, then tap Permissions.
+Scroll down then tap Invite Contributor.
+Enter the contributor’s name and email address.
+Switch the toggles to turn on each permission the contributor needs. You can select more than one.
+Tap Send to send the invitation.
+Your contributor gets an email invitation asking them to log in to their Squarespace account or create a new one. You'll find invited contributors under Invites Sent.
+How many contributors can I invite?
+
+The number of contributors you can invite depends on your plan. On parking pages, you can only add contributors with admin permissions.
+
+Basic - One contributor (for a total of two, including the owner).
+Core - Unlimited
+Plus - Unlimited
+Advanced - Unlimited
+Legacy Personal - One contributor (for a total of two, including the owner).
+Legacy Business - Unlimited
+Legacy Commerce Basic - Unlimited
+Legacy Commerce Advanced - Unlimited
+Legacy Cover Page - One contributor (for a total of two, including the owner).
+Trial sites - Up to 5 contributors. Remove contributors if you upgrade to a plan with a lower limit.
+How do I change an invitation before it’s accepted?
+COMPUTER
+SQUARESPACE APP
+
+To edit a contributor's permissions before they accept, click their name under Invites Sent. Then, change their information in the panel.
+
+If you entered the wrong email or want to cancel the invite, click ... and click Cancel Invite. Follow the steps to resend a new invitation.
+
+To edit a contributor's permissions before they accept, tap their name under Invites Sent. Then, change their permission level.
+
+If you entered the wrong email or want to cancel the invite, swipe down and tap Remove Invitation. Follow the steps to resend a new invitation.
+
+Can contributors make edits on a site at the same time?
+
+Yes, but if multiple contributors edit at the same time, their changes can overwrite each other. Work with your team so you don't overwrite each other's work.
+
+Can I add a contributor to a domain that doesn’t share billing with my site?
+
+Yes. Learn more about managing domain permissions.
+
+If your domain moved from Google Domains to Squarespace and isn't billed with a Squarespace site, follow these steps to manage, remove, and change ownership of your domain, and manage Google Workspace users.
+
+IN THIS GUIDE
+Video on how to invite a contributor
+Invite a contributor
+How many contributors can I invite?
+How do I change an invitation before it’s accepted?
+Can contributors make edits on a site at the same time?
+Can I add a contributor to a domain that doesn’t share billing with my site?
+People also viewed
+
+Contributor roles and permissions
+
+Managing domain permissions
+
+Change the site owner
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

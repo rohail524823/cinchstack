@@ -1,0 +1,112 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/16332574701852-User-seats-and-how-they-work
+FETCHED: 2026-09-26T22:40:50.930Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+User account & settings
+Users
+  Articles in this section
+How to add a new user to the account
+Users Overview
+User seats and how they work
+What can sub-accounts do
+How to give/restrict access to certain websites
+User seats and how they work
+
+  
+Each subscription plan offers a limited number of unique User seats. By default, 1 user seat is occupied by the account administrator. Here’s a breakdown of the user seat limits included in our subscription plans:
+
+Core plan subscribers: 1 user seat (occupied by the administrator)
+Growth plan subscribers: up to 3 total user seats
+Enterprise plan subscribers: up to 5 total user seats
+
+Note: The same principle applies to our Legacy plans — Essential (1), Pro (up to 3), and Business (up to 5).
+
+One login per user: how it works
+How to add more User seats?
+What happens when the User seat subscription expires?
+One login per user: how it works
+
+Disclaimer: SE Ranking values the security of your data. That is why we have a “one login per user” policy in place. It means that only one person can be logged in to the account at a time. We strongly discourage sharing your username and password with anyone, as it may compromise your data. When a different browser or device is used to log in to the same account, the new browser is taken to a lock screen that shows where the existing session is active. Clicking Continue promotes the new session and ends the earlier one — so the browser that clicks Continue is the session that survives. You can create user profiles for each member of your team via the Users module in your account.
+
+A session is treated as stale after roughly 3 hours without activity (the active session refreshes its heartbeat about every 15 minutes). Once the earlier session has gone stale, a new login goes through without a lock screen.
+
+The limit is applied per account identity, not per subscription plan. Each sub-account holds its own independent session, so two people signed in to two different sub-accounts do not conflict with each other. Only two concurrent logins under the same account identity trigger the lock screen.
+
+How to add more User seats?
+
+Regardless of your subscription plan, you can purchase additional user seats once you reach the limit (monthly fee).
+
+To purchase additional User seats, navigate to the Billing page in your account and click on the Extend the limit button next to User seats.
+
+Select the number of additional user seats and click on Buy.
+
+By default, automatic renewal is enabled for the User seat subscription. You can disable automatic renewal at any time via the Edit button next to User seats on the Subscription page of your account.
+
+What happens when the User seat subscription expires?
+
+Once your User seat subscription expires, any Users added on top of your default limit will be blocked. They won’t be able to access the platform until you renew your User seat subscription or upgrade to a subscription plan with a higher User seat limit.
+
+ icn-alert-Aug-04-2023-04-37-00-8896-PM.svg
+1 KB Download
+ icn-alert-Aug-04-2023-04-37-00-8896-PM-4.svg
+1 KB Download
+ icn-alert-Aug-18-2023-09-57-13-0109-AM.svg
+1 KB Download
+ icn-alert-Aug-11-2023-01-16-41-2741-PM.svg
+1 KB Download
+ icn-alert-Aug-31-2023-09-10-38-9050-AM.svg
+1 KB Download
+ icn-alert-Aug-23-2023-04-08-56-0870-PM.svg
+1 KB Download
+Was this article helpful?
+Yes No
+1 out of 2 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

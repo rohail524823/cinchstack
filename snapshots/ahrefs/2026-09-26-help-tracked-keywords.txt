@@ -1,0 +1,129 @@
+SOURCE: https://help.ahrefs.com/en/articles/1446270-how-are-tracked-keywords-calculated
+FETCHED: 2026-09-26T22:42:11.714Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Rank Tracker
+Terminology
+How are tracked keywords calculated?
+How are tracked keywords calculated?
+
+Understand how rank tracker keywords are calculated, updated, and where to track its usage.
+
+Written by Anna
+Updated over 3 weeks ago
+
+Tracked keywords are keywords that are added in the Rank Tracker tool, to track positions in Google search results for a given website.
+
+ 
+
+Each tracked keyword consists of 1 keyword, for 1 location, in 1 project.
+
+ 
+
+For example, if you track 3 keywords in 2 locations, then 6 rank tracker keywords will be consumed:
+
+ 
+
+ 
+
+Another example is if you are tracking 1 Tracked keyword with the same location, but for two projects, then 2 rank tracker keywords will be consumed.
+
+ 
+
+How many rank tracker keywords does my plan have?
+
+Each subscription comes with a base number of Tracked Keywords, which is mentioned as "Included in plan" on Account Settings > Limits and Usage page. This is the total amount of keywords you may add across all your Rank Tracker projects. 
+
+ 
+
+ 
+
+The number of Tracked keywords that comes included depends on your subscription plan:
+
+ 
+
+ 
+
+Purchasing additional Tracked keywords in Rank Tracker
+
+ Additional Tracked keywords can be purchased as an add-on to any subscription plan in batches of 500. You can choose to purchase this on a pay-as-you-go basis. 
+
+ 
+
+Additional Tracked keywords can also be purchased on a pre-paid basis. Please contact our support team at support@ahrefs.com if you wish to do so. 
+
+ 
+
+If you do not wish to exceed the Tracked keywords included in your plan, make sure "Pay-as-you-go" for Rank Tracker is toggled off in the Limits and Usage page.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Update frequency
+
+Shows how often Rank Tracker will update the SERPs for for all of your tracked keywords to check for changes in ranking positions. By default on any subscription plan, this is Weekly.
+
+ 
+
+Frequently Asked Questions
+Why do I have Frozen keywords?
+
+Any Tracked keywords that exceed the tracked keywords on your plan will be frozen, and will not have their rankings updated. 
+
+ 
+
+You can either purchase additional Tracked keywords to unfreeze them, or delete them from the project.
+
+ 
+
+ 
+
+If I delete a project that already has Tracked keywords, will that give back more Tracked keywords to be used in other projects?
+
+Yes, equal to the number of tracked keywords used in that deleted project. 
+
+ 
+
+ 
+
+What is the max number of Tracked keywords that a single project can have?
+
+10,000 keywords per project. Even if your plan’s limit is more than 10,000 Tracked keywords, it will not increase the number of keywords you can add to any particular project.
+
+ 
+
+Related Articles
+How frequently do my tracked keywords get updated?
+What is the best way to track my Google rankings for multiple keywords?
+How to add keywords onto Rank Tracker for an existing project
+Difference between the Rank Tracker and Site Explorer's Organic Keywords Report
+How to delete keywords on Rank Tracker
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+How many rank tracker keywords does my plan have?
+Purchasing additional Tracked keywords in Rank Tracker
+Update frequency
+Frequently Asked Questions
+Ahrefs AcademyBlogYouTubePricing

@@ -1,0 +1,136 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/18508323416092-Local-Marketing-Plans
+FETCHED: 2026-09-26T22:51:37.560Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+Local Marketing
+Local Marketing Section
+  Articles in this section
+Local Marketing Overview
+Local Marketing Plans
+Local Rankings
+Local Marketing Audit
+Google Business Profile
+Business Listings
+Reviews
+Local Marketing Plans
+
+Lite Plan Overview
+Plus Plan Overview
+Plan Comparison
+
+Our Local Marketing Add-on is subscription-based and features two plans for users to choose from–Lite and Plus. These two plans are designed to make the tool more flexible, allowing you to focus on features and options that you need and also create a custom package with a set number of locations.
+
+Lite Plan Overview
+
+This plan takes the functionality of our legacy Local Marketing and improves on it. Lite provides access to Local and Grid Rank Tracker and Google Business Profile integration. It lets you monitor listings across 30+ directories and manage your listings on four platforms: GBP, Facebook, Apple, and Bing. 
+
+Additionally, the Lite plan enables you to manage and reply to user reviews on Google and Facebook directly from the platform, making it easier to maintain and improve your online reputation by engaging with your audience.
+
+Key Upgrades from the Legacy Version:
+
+Expanded Listings Management
+
+Previously, only GBP profiles could be synced and updated. Now, you can also manage and sync listings on Facebook, Apple, and Bing through the platform.
+
+More Monitored Directories
+
+Listings monitoring capabilities have increased from 15 to around 30 directories, depending on the country.
+
+Enhanced GBP Integration
+
+The Lite plan introduces an expanded location profile with additional fields, such as payment options, attributes, and social media links. These fields can now be synced to GBP to provide a more comprehensive and accurate data representation of your business profile.
+
+Plus Plan Overview
+
+Everything from the Lite plan is available in the Plus plan. In addition, it features advanced listings management, scheduled GBP posts, and higher keyword limits for the Local and Map Rank Tracker. The keyword limit is 500 per location, compared to 250 in the Lite plan. These limits can be used across all purchased locations, meaning you can allocate the full limit to a single location if needed.
+
+Users can assign different plans to different locations: some locations can remain on the Lite plan, while others can be upgraded to the Plus plan. The number of locations under each plan is flexible and can be adjusted as needed. Locations on the Lite plan can be upgraded to the Plus plan at any time, which can scale your setup based on your business needs.
+
+See the breakdown of this plan’s capabilities below.
+
+Listings Management in ~100 directories
+
+The Plus plan offers listings management capabilities for 100+ directories across all supported countries (many directories are region-specific, so their availability differs from country to country), i.e. Google Business Profile, Apple Maps, etc.
+
+This includes local directories, social media, maps, navigation systems, and digital assistants. 
+
+The tool allows you to ensure consistency across all directories by automatically distributing accurate business information, including your name, address, phone number, URL, and other data. It can also update existing listings, create new listings from scratch where they are absent, and remove duplicates, ensuring your business details remain accurate across platforms.
+
+Google Business Profile Posts
+
+The GBP posts scheduler tool is designed to help you plan, create, and publish posts directly from the platform. You can create multiple posts and schedule them beforehand, specifying when they must be published. You can also select the location and post type, add media, and specify start and end dates where applicable. In addition to scheduling, you can also:
+
+View all your previous GBP posts (published both through Google’s interface or other GBP post management tools)
+Check post statuses (Live, Pending, Not Approved, Scheduled)
+Edit or delete posts as needed
+Plan Comparison
+
+You can use our Local Marketing tool as an add-on, with pricing based on your selected plan and the number of locations. Keep in mind that you can have locations of both Lite and Plus plans in your account at the same time. With Plus, you can manage listings across 100+ directories instead of just 4, manage reviews across a larger set of review sites, gain extra features like GBP Posts, and track more keywords per location.
+
+Please note: All plans — Core, Growth, and Enterprise — include 3 Plus Local Marketing locations. Additional Plus locations can be purchased if needed.
+
+Legacy plans: Pro includes 1 Lite location, Business includes 3. 
+
+For a quick comparison of the features available in the Lite and Plus plans, refer to the screenshot below. More information about our Local Marketing add-on can be found here.   
+
+FEATURE	PLUS PLAN	LITE PLAN
+Local & Map Rank Tracker	500 keywords per location	250 keywords per location
+Google Business Profile integration	✅	✅
+GBP, Facebook, Apple & Bing profiles management	✅	✅
+Business Listings Monitoring in 30+ Directories	✅	✅
+Reviews Management	Expanded directories, incl. Trustpilot & Meinestadt	4 directories,
+incl. Google & Facebook
+Listings Management in 100+ directories	✅	✖️
+GBP Posts	✅	✖️
+Was this article helpful?
+Yes No
+4 out of 6 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

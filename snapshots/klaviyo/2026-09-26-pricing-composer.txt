@@ -1,7 +1,7 @@
 SOURCE: https://www.klaviyo.com/pricing
-FETCHED: 2026-09-26T22:08:40.767Z
+FETCHED: 2026-09-26T22:13:43.546Z
 RENDERER: headless Chromium, en-US, US timezone
-METHOD: Clicked the "Composer" pricing tab, then clicked each of the 7 FAQ questions to expand the answers; saved document.body.innerText.
+METHOD: Clicked the "Composer" pricing tab; saved document.body.innerText, then clicked each of the 7 FAQ questions open and appended each question's row text.
 ----
 ___
 Skip to main content
@@ -71,11 +71,9 @@ What can I do with Composer?
 How much does Composer cost?
 Is there a free version of Composer?
 How does Composer usage work?
-Every plan has a usage limit that resets monthly, with a maximum usage limit based on credits. Your Composer usage can vary based on the type and complexity of the work Composer performs. You can track your usage in the Billing tab.
 What happens when I use all of my credits?
 Do unused credits roll over?
 Why use Composer instead of a general-purpose AI tool?
-Composer is built for marketing and works directly in Klaviyo. It uses your customer data, brand context, campaign history, and marketing performance to deliver more relevant analysis, recommendations, and content—and helps you turn those insights into action without leaving Klaviyo.
 COMPANY
 About Klaviyo
 Newsroom
@@ -154,3 +152,26 @@ Trust
 Intellectual Property Notices
 Cookie Settings
 Your Privacy Preferences
+
+==== FAQ ANSWERS (each question clicked open, its row text saved) ====
+
+What can I do with Composer?
+Composer helps you analyze, create, and optimize your marketing in Klaviyo. Use it to uncover opportunities, analyze campaigns, flows, segments, and forms, create on-brand campaigns across channels, build flows, catch issues before they impact performance, and automate recurring marketing work.
+
+How much does Composer cost?
+Composer is available for $20/month which includes everything in a Free plan with 4X more usage and the full set of Composer capabilities. If you need more, you can purchase more capacity via our Flexible Overage feature on your Billing Preferences tab.
+
+Is there a free version of Composer?
+Yes. You can use Composer for free with a limited amount of capacity. This capacity resets each month, so you can try Composer before upgrading to the paid plan.
+
+How does Composer usage work?
+Every plan has a usage limit that resets monthly, with a maximum usage limit based on credits. Your Composer usage can vary based on the type and complexity of the work Composer performs. You can track your usage in the Billing tab.
+
+What happens when I use all of my credits?
+If you reach your plan's included usage for the month, Flex lets you keep using Composer by billing additional usage as you go, at $10 per 1,000 credits. If you'd rather not use additional capacity, you can set your upgrade preference to None on your Billing Preferences tab—Composer will pause until your usage resets at the start of your next billing period. You can check your usage and any charges in Klaviyo at any time.
+
+Do unused credits roll over?
+No. Your plan's included usage resets at the start of each billing period, and anything unused does not carry over to the next month.
+
+Why use Composer instead of a general-purpose AI tool?
+Composer is built for marketing and works directly in Klaviyo. It uses your customer data, brand context, campaign history, and marketing performance to deliver more relevant analysis, recommendations, and content—and helps you turn those insights into action without leaving Klaviyo.

@@ -1,0 +1,347 @@
+SOURCE: https://help.ahrefs.com/en/articles/13002606-what-can-i-use-for-free-in-ahrefs
+FETCHED: 2026-09-26T22:46:52.945Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Getting Started with Ahrefs
+Plans and Pricing
+What can I use for free in Ahrefs?
+What can I use for free in Ahrefs?
+
+Learn which tools and capabilities you can use for free at Ahrefs
+
+Written by Constance Tan
+Updated over 3 weeks ago
+
+Not ready for a subscription just yet, but would still like to try our tools? Don't fret! 
+
+ 
+
+We have a whole spread of powerful tools you can use without spending a single dollar, with an Ahrefs free account.
+
+ 
+
+Ahrefs Free Account
+
+ 
+
+A free account gives you access to the following 6 tools:
+
+Tool
+
+	
+
+Limit
+
+Site Explorer¹
+
+	
+
+1000 backlinks & keywords visible at once
+
+Site Audit¹
+
+	
+
+5000 crawl credits/month per project
+
+Web Analytics
+
+	
+
+1,000,000 events per project
+
+Social Media Manager
+
+	
+
+Unlimited posts and channels
+
+AI Content Helper
+
+	
+
+1 document / month
+
+SEO Toolbar
+
+	
+
+Metrics: DR and UR only.
+
+All other On-page features: content, indexability, etc. are fully available.
+
+¹Available for websites you can prove ownership for. This is done by verifying ownership
+
+ 
+
+When you're ready for access to even more features such as Keywords Explorer, check out the Starter plan.
+
+ 
+
+Site Explorer
+
+ 
+
+View SEO insights such as backlinks, organic traffic, and paid traffic using Site Explorer for websites you own. These are the reports in Site Explorer that you can access on the free account:
+
+Section
+
+	
+
+Reports
+
+Overview
+
+	
+
+Overview
+
+Backlink profile
+
+	
+
+Backlinks
+
+Referring domains
+
+Anchors
+
+Organic search
+
+	
+
+Organic keywords
+
+Organic Positions
+
+Top pages
+
+Organic Competitors
+
+Paid search
+
+	
+
+Paid keywords
+
+Ads
+
+Paid pages
+
+Pages
+
+	
+
+Best by links
+
+Crawled pages
+
+Internal links
+
+	
+
+Internal links
+
+Most linked pages
+
+Internal anchors
+
+Check out Opportunities for a quick way to learn about use cases for Site Explorer
+
+ 
+
+→ Learn more about what Site Explorer can do
+
+ 
+
+ 
+
+Site Audit
+
+ 
+
+Crawl your website on demand for technical issues using Site Audit. 
+
+All 170+ issues that site audit tracks by default can be done for websites you own. 
+
+For websites larger than 5000 URLs, consider upgrading to Starter or a higher plan.
+
+ 
+​→ Learn more about what Site Audit can do
+
+ 
+
+ 
+
+Web Analytics
+
+Track where your website's traffic is coming from (including from AI assistants)
+
+Set up funnels to analyze how visitors move through your website
+
+Set up custom events to monitor important interactions like purchases or registrations
+
+Measure performance of campaigns using UTM tags
+
+→ Learn more about what Web Analytics can do
+
+ 
+
+Ahrefs Web analytics is free up to 1 million events per month. If your website exceeds that, consider upgrading your project to Pro or Max
+
+ 
+
+Social Media Manager
+
+Draft, schedule, and manage posts across Facebook, X, LinkedIn, Instagram and TikTok
+
+Drag and drop to schedule posts effortlessly across your calendar
+
+Create once, and publish on multiple channels
+
+ 
+
+→ Learn more about SMM
+
+ 
+
+AI Content Helper
+
+ 
+
+Create content that competes well against top performing pages for your target keyword
+
+Built-in AI helps you speed up research, improve topic coverage and level up your copywriting
+
+Create a Brand Kit from existing articles to keep AI writing consistent with your brand's tone and style.
+
+→ Learn more about AI Content Helper
+
+ 
+
+SEO toolbar
+
+A great way to audit on-page SEO issues of your current page, see redirect chains, check outgoing links and more!
+
+ 
+
+ 
+
+💡With a Starter plan or higher, you can also view SEO metrics of URLs linked in Google Search result pages and Google trends.
+
+→ Ahrefs SEO Toolbar 
+
+ 
+
+Free Domain Rating API Endpoint
+
+Check the Domain Rating and gauge the backlink authority of any website with our free API endpoint, subjected to our terms of use.
+
+ 
+
+ 
+
+→ API Documentation
+
+→ License & Terms of Use
+
+ 
+
+Other free tools:
+
+ 
+
+Firehose
+
+ 
+
+Firehose is a free, real-time, web mentions API powered by Yep. Define a set of rules, and get notified when the freshest pages matching those rules get published or changed.
+
+ 
+
+→ Firehose
+
+ 
+
+ 
+
+Free AI Writing tools by Ahrefs
+
+A whole list of small but powerful AI powered tools.
+
+Create the perfect copy for different social media platforms
+
+Detect AI in text paragraphs and humanize it
+
+Generate SEO-friendly page titles, meta descriptions, Image alt text
+
+Create outlines for essays, landing pages, blog posts
+
+...and more!
+
+​→ AI writing tools
+
+ 
+
+ 
+
+Word Count
+
+Originally a simple tool that helped you count words and characters in your written text, Wordcount today also supports a wide variety of AI powered capabilities:
+
+Proofread your written content
+
+Rewrite with a different tone/style
+
+Humanize the text
+
+Summarize the content
+
+Detect AI Content
+
+...and more!
+
+💡 Free AI features are capped at 3 a day. To get unlimited access to all the AI editing capabilities, sign up for Wordcount Pro
+
+ → Wordcount
+
+ 
+
+Related Articles
+What is Ahrefs?
+What are the best practices for doing keyword research with the help of Ahrefs?
+What is Ahrefs Rank (AR)?
+What's the difference between all Ahrefs subscription plans?
+About Ahrefs' Starter plan
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Ahrefs Free Account
+Site Explorer
+Site Audit
+Web Analytics
+Social Media Manager
+AI Content Helper
+SEO toolbar
+Free Domain Rating API Endpoint
+Other free tools:
+Firehose
+Free AI Writing tools by Ahrefs
+Word Count
+Ahrefs AcademyBlogYouTubePricing

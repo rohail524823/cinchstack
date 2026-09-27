@@ -1,0 +1,179 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/13615710869399-Sales-tax
+FETCHED: 2026-09-26T22:52:31.658Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+API & MCP
+Status:
+My Tickets
+Search
+Ask me anything
+ClickUp Help
+ Get started
+ Owners and Admins
+Sales tax
+
+ClickUp is required to charge Value-Added Tax (VAT), Goods and Services Tax (GST), or sales tax in certain jurisdictions. We determine the tax rate applied to your ClickUp bill using the address entered during checkout.
+
+We began charging taxes in June 2025, starting with Canada and South Africa, and are gradually expanding to other regions. No action is needed from customers in the US or Puerto Rico at this time.
+
+Tax exemption
+
+ClickUp uses your Tax ID to determine if you are a business or a consumer. If you’re located in a jurisdiction where ClickUp is only required to account for tax on supplies to non-tax-registered recipients, and ClickUp has verified your Tax ID, we will not charge you tax.
+
+VAT-registered businesses may be responsible for accounting for the VAT under the reverse charge mechanism and reporting the tax in their tax return. We recommend checking with your tax advisor or local tax authority if you’re unsure of your exact requirements.
+
+Enter or update your Tax ID
+
+To enter or update your Tax ID, your Workspace owner or admin can do the following:
+
+In the upper-left corner, click your Workspace avatar and select Settings.
+In the All settings sidebar, click Billing.
+At the top, select the Invoices tab.
+In the Invoices section, click the Invoice details dropdown.
+Enter or update your information.
+When you select your country, the appropriate Tax ID field is displayed.
+Enter your Tax ID. In some countries, you will not need to enter information.
+Hover over the info icon to the right of the Tax ID field to learn your jurisdiction's ID format.
+
+The field may be labeled something other than Tax ID. For example, VAT ID.
+
+Info that applies to all jurisdictions
+ClickUp will not accept alternative documents or evidence to support your status as a business. The only exception to this is in the UK. See the UK section, below, for details.
+If you have multiple Workspaces, ensure your Tax ID is uploaded to each one.
+Tax amounts are displayed on your invoices.
+Find your jurisdiction in the article below to learn more.
+Australia
+
+ClickUp is required to charge our Australian customers Goods and Services Tax (GST) on services provided to non-GST-registered businesses. If you provide a valid Australian Business Number (ABN) and are GST-registered, you will not be charged the tax.
+
+Canada (all provinces besides BC, QC, and SK)
+
+Depending on the province, ClickUp is required to charge our Canadian customers Goods and Services Tax (GST), Harmonized Sales Tax (HST), Québec Sales Tax (QST), and Provincial Sales Tax (PST) on services provided to consumers and businesses.
+
+The provinces that require GST in combination with PST or QST are listed in the subsections below.
+
+ClickUp is required to charge our customers in the other provinces either GST or HST on services provided to consumers. If you are GST or HST registered and provide a valid GST or HST registration number, you will not be charged any GST or HST.
+
+British Columbia (BC)
+
+ClickUp is required to charge BC Provincial Sales Tax (BC PST) for all sales to our customers in British Columbia. In addition to BC PST, ClickUp is required to charge Goods and Services Tax (GST) on any supplies to customers in British Columbia that are not GST registered.
+
+Quebec (QC)
+
+ClickUp is required to charge our QC customers Goods and Services Tax (GST) and Quebec Sales Tax (QST) on services provided to consumers. If you are GST-registered and provide a valid GST and QST number, you will not be charged the tax.
+
+Saskatchewan (SK)
+
+ClickUp is required to charge SK Provincial Sales Tax (SK PST) for all sales to our customers in Saskatchewan. In addition to SK PST, ClickUp is required to charge Goods and Services Tax (GST) on any supplies to customers in Saskatchewan that are not GST-registered.
+
+EU
+
+ClickUp is required to charge our EU customers EU Value-Added Tax (EU VAT) on services provided to consumers. You will be charged the standard rate in the EU member state where you're located. If you provide a valid EU VAT number and are EU VAT-registered, you will not be charged the tax.
+
+India
+
+ClickUp is required to charge our Indian customers Goods and Services Tax (GST) on services provided to consumers. If you are GST registered and provide a valid GST number, you will not be charged the tax.
+
+Japan
+
+ClickUp is required to charge Japanese Consumption Tax (JCT) for all sales to customers in Japan. You do not need to enter your JCT information on the Billing page in ClickUp.
+
+You may be able to recover the JCT. ClickUp is registered as a qualified invoice issuer in Japan. We will issue a compliant-qualified invoice for all sales to Japanese customers. If you are JCT registered, the qualified invoice should allow you to recover the tax charged, subject to your JCT recovery position and the JCT recovery rules.
+
+Malaysia
+
+ClickUp is required to charge Malaysian Service Tax (SST) for all sales to our customers in Malaysia. You do not need to enter your SST information on the Billing page in ClickUp.
+
+Norway
+
+ClickUp is required to charge our Norwegian customers Norwegian VAT on services provided to consumers. If you are VAT registered and provide a valid VAT number, you will not be charged the tax.
+
+The Philippines
+
+ClickUp is required to charge Philippines VAT for all customers in the Philippines on services provided to consumers. If you provide a valid Philippines TIN, you will not be charged the tax.
+
+Singapore
+
+ClickUp is required to charge our Singaporean customers Goods and Services Tax (GST) on services provided to consumers. If you are GST registered and provide a valid GST number, you will not be charged the tax.
+
+Saudi Arabia
+
+ClickUp is required to charge our Saudi Arabian customers the Kingdom of Saudi Arabia VAT (KSA VAT) on services provided to consumers. If you are VAT registered and provide a valid VAT number, you will not be charged the tax.
+
+South Africa
+
+ClickUp is required to charge South African VAT for all sales to our customers in South Africa.
+
+We will issue a compliant tax invoice for all sales to our customers in South Africa. If you are VAT registered, the tax invoice should allow you to recover the tax charged, subject to the usual VAT recovery rules.
+
+Switzerland and Liechtenstein
+
+ClickUp is required to charge Swiss VAT for all sales to our customers in Switzerland and Liechtenstein. You do not need to enter your Swiss VAT information on the Billing page in ClickUp.
+
+We will issue a compliant invoice for all sales to our customers in Switzerland and Liechtenstein. If you are VAT registered, the invoice should allow you to recover the tax charged, subject to the usual VAT recovery rules.
+
+Tanzania
+
+ClickUp is required to charge our Tanzanian customers Tanzanian VAT on services provided to consumers. If you are VAT registered and provide a valid VAT number, you will not be charged the tax.
+
+UK
+
+ClickUp is required to charge our UK customers UK VAT on services provided to consumers. If you are VAT registered or provide a valid VAT number, you will not be charged the tax.
+
+If your UK-based business is not VAT registered in the UK, provide a copy of your certificate of incorporation or other information evidencing that you are a business.
+
+US states and Puerto Rico
+
+ClickUp is required to charge sales tax in the following jurisdictions:
+
+Arizona
+Colorado
+Connecticut
+Chicago
+District of Columbia
+Hawaii
+Iowa
+Kentucky
+Massachusetts
+New Mexico
+New York
+Ohio
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Washington
+West Virginia
+Puerto Rico
+Tax exemption in the US
+
+If you qualify for tax exemption in the US, contact Support. They will request the qualified documentation from you.
+
+Was this article helpful?
+Related articles
+Manage invoices
+Intro to billing
+Upgrade your plan
+Is there a discount for non-profit or educational companies?
+What is ClickUp Brain AI?
+Articles in this section
+Set up your team's Workspace
+Intro to pricing
+Invite people to your Workspace
+Track your Workspace's Brain AI usage
+Invite people to join your Workspace from Chat
+Default user role permissions
+User role availability and limits
+Set up your team's Workspace from scratch
+Intro to billing
+Intro to ClickUp Assist
+
+See all 26 articles
+
+Go to ClickUp
+English (United States) 
+Get Help

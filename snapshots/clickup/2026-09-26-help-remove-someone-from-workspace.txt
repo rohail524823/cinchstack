@@ -1,0 +1,111 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/6310514663319-Remove-someone-from-a-Workspace
+FETCHED: 2026-09-26T22:51:04.895Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+API & MCP
+Status:
+My Tickets
+Search
+Ask me anything
+ClickUp Help
+ Get started
+ Owners and Admins
+Remove someone from a Workspace
+
+Removing someone from your Workspace is a permanent action and cannot be undone.
+
+After you remove a member or limited member from a Workspace, their seat will remain open until filled by another person. When you invite someone new to the Workspace, they will automatically take the vacant seat.
+
+Remove someone from a Workspace
+
+Workspace owners and admins can remove people from a Workspace.
+
+To remove someone from your Workspace:
+
+In the upper-left corner, click your Workspace avatar.
+Select People.
+On the Manage people page, in the search bar, search for the person.
+To the right of their name, click the ellipsis ... icon.
+
+Select Remove.
+To confirm, click Remove.
+Remove someone from a private Space
+
+Members can remove people from a private Space they own. Workspace owners and admins can remove people from private spaces they can access.
+
+You can remove people from private Spaces in two ways: from the Hierarchy location they have access to or Workspace settings.
+
+To remove people from a Hierarchy location they have access to:
+
+In the Spaces Sidebar, hover over the Space and click the ellipsis ... icon.
+In the Space Settings modal, select Sharing & Permissions.
+In the Share this Space modal's Share with section, click People.
+To the right of the person, click the toggle. You can remove one or more people at a time.
+You can also click Remove all to remove all invited people.
+
+From Workspace settings
+
+To remove someone using Workspace settings:
+
+Click your Workspace avatar and select Settings.
+From the All settings sidebar, select Spaces.
+Find the Space and click Shared With.
+
+In the Share this Space modal's Share with section, click People.
+To the right of the person, click the toggle. You can remove one or more people at a time.
+You can also click Remove all to remove all invited people.
+What happens to data when someone is removed from a Workspace?
+Any unshared, private items that they had will be off-limits. They will lose access to all Private items. Even if they are re-added to the Workspace, they will not regain access to those Private items.
+Private Folders, Lists, and tasks owned by a deactivated person will be deleted and removed when they leave the Workspace.
+Any public items created by the person will remain and maintain an activity history.
+They will still show as assigned to tasks and comments, but a Deactivated label is added next to their name. It's easy to remove them and reassign those tasks with the Bulk Action Toolbar!
+If you re-invite a person who was previously removed and the tasks they were assigned have not been reassigned, they will regain ownership of these tasks.
+Any time tracked by a person who is later removed will remain on any tasks that they had previously tracked time on.
+If you remove them from a paid plan, that seat remains open, and you can reassign it to a new user. If no one is assigned that seat before your next billing cycle begins, it will be removed.
+Attachments that were unshared and private will count towards your storage.
+If the creator of an Automation is removed, the Automation will remain active.
+Inaccessible Spaces
+
+If the owner of the inaccessible Space is removed, you can transfer ownership.
+
+Reassign tasks from a deactivated user
+
+You can reassign tasks from a deactivated user using filters or the assignee sidebar.
+
+To reassign tasks using filters:
+
+In All Tasks, sort your tasks by assignee. You can filter for the assignee's tasks from any location. Filtering in All Tasks ensures every task assigned to them in the Workspace displays.
+In the upper-right corner, you can click Closed to show closed tasks.
+Only the deactivated person's tasks display. If they were on a team or a task with one or more other people, those tasks will also display.
+Use the Bulk Action Toolbarto select these tasks and unassign or reassign them.
+
+To reassign tasks using the assignee sidebar:
+
+In All Tasks in the upper-right corner, click Assignees. You can filter for the assignee's tasks from any location. Filtering in All Tasks ensures every task assigned to them in the Workspace displays.
+On the right in the assignee sidebar, click the deactivated person's avatar.
+Use the Bulk Action Toolbarto select these tasks and unassign or reassign them.
+Was this article helpful?
+Related articles
+Invite people to your Workspace
+Pricing per user role and plan
+Intro to billing
+Create a template
+Google Calendar integration
+Articles in this section
+Set up your team's Workspace
+Intro to pricing
+Invite people to your Workspace
+Track your Workspace's Brain AI usage
+Invite people to join your Workspace from Chat
+Default user role permissions
+User role availability and limits
+Set up your team's Workspace from scratch
+Intro to billing
+Intro to ClickUp Assist
+
+See all 26 articles
+
+Go to ClickUp
+English (United States) 
+Get Help

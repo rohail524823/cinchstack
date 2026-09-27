@@ -1,0 +1,61 @@
+SOURCE: https://www.notion.com/pricing
+FETCHED: 2026-09-27T02:02:28.906Z
+RENDERER: headless Chromium, en-US, US timezone. Extracted from the DOM of the "Plans and features" comparison table (default Pay yearly view), one row per feature, cells in column order.
+COLUMNS: Feature | Free | Plus | Business | Enterprise. "[check icon]" = a checkmark icon with no text; "—" = empty cell.
+----
+Pages & blocks | Unlimited for individuals limited for 2+ members | Unlimited | Unlimited | Unlimited
+File uploads | Up to 5 MB | Unlimited | Unlimited | Unlimited
+Page history | 7 days | 30 days | 90 days | Unlimited
+Verify any page | — | — | [check icon] | [check icon]
+Offline | Choose pages to download for offline use. | Recents and Favorites auto-download for offline use. | Recents and Favorites auto-download for offline use. | Recents and Favorites auto-download for offline use.
+External guest limit | 10 | Unlimited guests | Unlimited guests | Unlimited guests
+Teamspaces (open & closed) | [check icon] | [check icon] | [check icon] | [check icon]
+Teamspaces (private) | — | — | [check icon] | [check icon]
+Permission groups | [check icon] | [check icon] | [check icon] | [check icon]
+Advanced teamspace permissions | — | — | [check icon] | [check icon]
+Granular database permissions | — | — | [check icon] | [check icon]
+Notion Agent (chat, generate, autofill, translate) | Limited Trial | Limited Trial | [check icon] | [check icon]
+Meeting notes | Limited Trial | Limited Trial | [check icon] | [check icon]
+Enterprise Search | — | — | [check icon] | [check icon]
+Research modeBeta | Limited Trial | Limited Trial | [check icon] | [check icon]
+Data retention | 30 day retention | 30 day retention | 30 day retention | Zero data retention
+Custom Agents | — | — | Requires Notion credits [icon] | Requires Notion credits [icon]
+Subtasks and dependencies | [check icon] | [check icon] | [check icon] | [check icon]
+Custom properties and filtering | [check icon] | [check icon] | [check icon] | [check icon]
+Charts | 1 | Unlimited | Unlimited | Unlimited
+Forms | Basic | Custom | Custom + conditional logic | Custom + conditional logic
+Dashboards | — | — | [check icon] | [check icon]
+CLI | [check icon] | [check icon] | [check icon] | [check icon]
+WorkersBeta | — | — | Requires Notion credits [icon] | Requires Notion credits [icon]
+Public API | [check icon] | [check icon] | [check icon] | [check icon]
+Webhooks | [check icon] | [check icon] | [check icon] | [check icon]
+Embeds and link previews | [check icon] | [check icon] | [check icon] | [check icon]
+Connected properties | — | [check icon] | [check icon] | Same as business
+Automations | Basic buttons only | Custom database automations | Same as plus | Same as plus
+1-way database syncs | — | — | [check icon] | Same as business
+Unlimited published pages | [check icon] | [check icon] | [check icon] | [check icon]
+notion.site domains | 1 | 5 | 5 | 5
+Search engine indexing (SEO) | Basic | Advanced | Advanced | Advanced
+Site customizations | — | [check icon] | [check icon] | [check icon]
+Custom domains and branding | — | Pay per domain | Pay per domain | Pay per domain
+Export entire workspace as HTML, Markdown, & CSV | [check icon] | [check icon] | [check icon] | [check icon]
+2-step verification | [check icon] | [check icon] | [check icon] | [check icon]
+Export entire workspace as PDF | — | — | [check icon] | [check icon]
+SAML single sign-on (SSO) | — | — | [check icon] | [check icon]
+User provisioning (SCIM) | — | — | — | [check icon]
+Advanced workspace & teamspace security controls | — | — | — | [check icon]
+Organization level controls | — | — | — | [check icon]
+Workspace analytics | — | — | — | [check icon]
+Granular admin roles | — | — | — | [check icon]
+Audit log | — | — | — | [check icon]
+Admin content search | — | — | — | [check icon]
+Domain Management | — | — | — | [check icon]
+Workspace consolidation | — | — | — | Custom
+Managed users dashboard & controls | — | — | — | [check icon]
+Security & Compliance connections | — | — | — | [check icon]
+Guest invite requests | — | — | — | [check icon]
+Custom data retention settings | — | — | — | [check icon]
+AI Meeting Notes transcript deletion | — | — | — | [check icon]
+Priority support | — | [check icon] | [check icon] | [check icon]
+Premium support | — | — | — | Custom
+Customer success manager | — | — | — | Custom

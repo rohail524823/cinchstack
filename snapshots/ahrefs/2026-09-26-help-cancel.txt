@@ -1,0 +1,94 @@
+SOURCE: https://help.ahrefs.com/en/articles/73707-how-do-i-unsubscribe-cancel-my-subscription-delete-my-account
+FETCHED: 2026-09-26T22:45:56.813Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Your Subscription
+How do I unsubscribe / cancel my subscription / delete my account?
+How do I unsubscribe / cancel my subscription / delete my account?
+
+Find out how to cancel your subscription or delete your account
+
+Written by Helen
+Updated over 3 weeks ago
+Cancelling your subscription
+
+You may unsubscribe/ cancel your subscription via "Billing" tab under Account settings. Navigate to Account Settings → Billing to access your subscriptions, then proceed with the cancellation by following the prompts.
+
+ 
+
+Cancelling your subscription will cause your subscription to terminate at the the end of its billing cycle (The day before the Next billing date mentioned in your subscription).
+
+ 
+
+Once subscription is terminated, your account will change to the free tier. No further charges will occur unless you resubscribe. The transition to the free tier is automatic and occurs immediately after the current billing cycle ends.
+
+ 
+
+Should you still encounter any issues with subscription cancellation, please send us your request to support@ahrefs.com from your account registered email in Ahrefs or drop a note in our live chat (click the chat icon in the bottom right corner).
+
+ 
+
+Removing your payment card after subscription cancellation
+
+To remove your saved payment card, please follow these steps:
+
+Cancel your subscription: Go to Account Settings → Billing → Subscriptions and proceed with the cancellation. Your subscription will remain active until the end of the billing cycle.
+
+ 
+
+Wait for automatic downgrade: After your paid period ends, your account will be downgraded to the free tier. Only then will you be able to remove your saved payment method.
+
+ 
+
+Delete the payment card: Navigate to Account Settings → Billing → Payment Methods and delete your card. This option becomes available only when on the free tier. Note: Cards cannot be deleted while subscriptions are active. However, you can replace saved cards at any time.
+
+Deleting your account
+
+You must contact our support team and request to have your account deleted. We will help to assist with the request. 
+
+ 
+
+Please send us your request to support@ahrefs.com from your account registered email in Ahrefs, or drop a note in our live chat (click the chat icon in the bottom right corner).
+
+ 
+
+Once request is made, please wait for a confirmation email from our team that your account has been deleted. If you don't receive this email, please follow up with a reply to confirm if the account has been deleted completely.
+
+Do note that accounts that have outstanding bills cannot be deleted. The unpaid bills must be settled first.
+
+ 
+
+ 
+
+Information about the terms and conditions of your subscription can be found here.
+
+Related Articles
+How do I change or reset my password?
+What kind of emails will I receive from Ahrefs and how do I change the frequency of emails or disable them?
+Can I pause or suspend my subscription?
+Why am I being kicked out of Ahrefs account?
+How to update payment info if subscription has ceased due to failed payment?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Cancelling your subscription
+Removing your payment card after subscription cancellation
+Deleting your account
+Ahrefs AcademyBlogYouTubePricing

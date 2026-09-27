@@ -1,0 +1,230 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/16332657221276-Account-and-project-settings-FAQ
+FETCHED: 2026-09-26T22:50:35.005Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+FAQ
+FAQ Section
+  Articles in this section
+Account and project settings FAQ
+Payment and billing details FAQ
+SERankingBacklinksBot Crawler
+Technical Requirements — SERankingPCFBot Crawler Page
+AI Results Tracker FAQ
+SE Ranking's API FAQ
+Verifying SE Ranking Crawler FAQ
+Affiliate program FAQ
+Website Audit FAQ
+Accuracy of rankings FAQ
+See more
+Account and project settings FAQ
+How do I retrieve my password?
+What’s included in the free trial?
+How to remove extra keywords/projects/prompts after switching to a subscription plan with lower limits?
+How to delete a user?
+How do I change my login and password?
+Where can I find my inactive projects?
+I deleted keywords, but I still can’t add new ones. What should I check?
+How to migrate to SE Ranking from other services?
+Can I customize my SE Ranking account?
+How to delete a project?
+How to restore a deleted project?
+Can SE Ranking improve my website rankings?
+How to set the location where I want to track keywords?
+How do I retrieve my password?
+
+Click “Forgot Password?” on the login page and submit the email address you used when registering your account. A new password will be sent to that email.
+
+What’s included in the free trial?
+
+You will have access to the following tools and features for 14 days:
+
+Trial Limits
+Account
+Projects per Account	10
+Manager Seats	3
+Guest Link	Yes
+Data Export (rows)	50,000
+SEO Limits
+Tracked Keywords (daily)	750
+Google Top 100 Tracking	Yes
+Share of Voice	Yes
+Competitive & Keyword Research	10 reports/day
+Backlink Research	10 reports/day
+Historical Data	3 months
+Added Competitors	5
+GEO (AI) Limits
+Prompts (daily)	20
+LLMs to Track	5
+AI Competitive Research (domains)	3
+Audit
+Pages per Account	10,000
+Max Pages per Project	1,000
+Page Changes Monitoring	100 pages
+On-Page Checker & SERP Analyzer	20 reports
+API & Integrations
+API (Projects & Research)	Yes
+API Credits	100,000
+Looker Studio / Matomo / GA / GSC	Yes
+Add-ons & extra tools
+Agency Pack	Yes
+AI Search	Yes
+Content Marketing (articles)	2
+Local Marketing Plus (locations)	3
+Report Builder (reports)	5
+Insights	Yes
+Not Available on Trial
+Keyword Database Expansion	Not available
+MCP Access	Not available
+Additional Client Seats	Not available
+Extra Limit Expansions (Keywords, Seats, Locations)	Not available
+
+To continue working with the platform after the 14-day trial, you will need to subscribe to the service.
+
+How do I remove extra keywords/projects/prompts after switching to a subscription plan with lower limits?
+
+If you switch (or plan to switch) to a subscription plan with lower limits and, as a result, your account was blocked, this means that you have added more keywords, projects, prompts, or users than can be included in the new plan. 
+
+To unblock your account, you must remove the excess items. The notification you see in the platform specifies what exactly exceeds the limit (keywords, projects, prompts, or users) and how many items must be deleted. 
+
+Make sure you delete the same type of item that exceeds your plan limits. For example, if the notification indicates that you exceeded the prompt limit, deleting keywords or projects will not resolve the issue.
+
+How to remove a project
+Go to Projects.
+Open the project you want to remove.
+Navigate to Project settings.
+Delete the project from the General information tab.
+
+Note: Deleted projects can be restored within 30 days of deletion. After this period, they are permanently removed from our system and cannot be recovered. See How to restore a deleted project? below.
+
+ 
+
+How to remove extra keywords
+Select a project from the Projects menu.
+Go to Settings → Keywords.
+Select the keywords you want to remove.
+Click the Trash icon on the right-hand side to delete them.
+
+How to remove extra prompts
+Open the project where the prompts were added.
+Go to Project settings → Prompts.
+Select the prompts you want to remove.
+Click the Delete (trash icon) to delete the selected prompts.
+
+How to delete a user?
+
+Navigate to Users via the top-right menu or directly from the Settings. Then click the bin icon next to the user you want to delete.
+
+Important: Deleting a user also deletes the projects that user owns (usually the projects they created). These projects are moved to your main account and then deleted, so they disappear from your project list. Projects that belong to your main account and were only shared with the user are not affected.
+
+To keep a user’s projects, contact SE Ranking Support before you delete the user so the projects can be moved first. If you have already deleted the user, contact Support as soon as possible: deleted projects can be restored within 30 days (see How to restore a deleted project?). To move a project to a different SE Ranking account, see How to move a project to another SE Ranking account. 
+
+ 
+How do I change my login and password?
+
+Go to Settings → Profile to update your account credentials.
+
+Where can I find my inactive projects?
+
+You will always see your inactive projects on the main page. You can set them to Active at any time by changing the settings.
+
+Inactive projects still count towards your account limits. The keywords and backlinks in a deactivated project are included when your limits are calculated, so deactivating a project does not free up space. To free up space, delete the keywords, backlinks, or the entire project. For details, see Do inactive projects count towards account limits?
+
+I deleted keywords, but I still can’t add new ones. What should I check?
+
+If you have hit your keyword or project limit and deleting items did not free up space, check the following in this order:
+
+You deleted the type of item that exceeds the limit. The notification in the platform says what exceeds the limit (keywords, projects, prompts, or users). Deleting a different type of item will not resolve it, and deleting reports does not affect keyword or project limits at all. See How to remove extra keywords/projects/prompts.
+Your inactive projects. Keywords and backlinks in deactivated projects still count towards your account limits. Delete them, or delete the project, instead of deactivating it. A deleted project stops counting right away, even though it can still be restored for 30 days.
+How many search engines each keyword is tracked in. On the current plans, a keyword counts once for every search engine it is tracked in. See How does keyword limit calculation work in the new subscription plans?
+Your daily limit for adding keywords. Deleting keywords frees space in your account keyword limit immediately, but it does not reset the number of keywords you can add per day. If you have reached that daily limit, you can add more keywords after it resets the next day. 
+
+If you still can’t add new keywords after these checks, contact SE Ranking Support.
+
+How to migrate to SE Ranking from other services?
+
+It’s possible to import historical rankings data into SE Ranking if you’ve been using a different platform to monitor keyword positions in the past. Currently, we support manual data imported from SEMRush and other platforms. You can find the full list and detailed instructions on how to transfer the data in our Knowledge base. Contact SE Ranking support if you can’t find your service in the list. Our specialists will manually import all the necessary keywords for you and help you with migration.
+
+Can I customize my SE Ranking account?
+
+The White Label feature allows you to personalize the SE Ranking platform, making it look like it’s your own SEO software. You can easily customize everything in the system – logo, interface color scheme, reports. The platform will be accessible via your domain with no hint of or association with SE Ranking. White-labeling your service adds credibility to the relationship with your customers while building a community of avid users and brand advocates. The feature is available in our pricing plans – no need to purchase it separately.
+
+How to delete a project?
+
+There are two ways you can delete a project from your account: You can go to the Projects, find the necessary project in the table and hover over it. Then, click the three dots menu, also known as the kebab menu, and choose “Delete”. Alternatively, you can go to the Projects, tick the checkmark next to the project you want to delete, and then click on the Trash icon that appears at the top of the websites menu.
+
+How to restore a deleted project?
+
+Deleting a project is not immediately permanent. A deleted project can be restored within 30 days of deletion. After those 30 days it is permanently removed from our system and cannot be recovered.
+
+Note: If you deleted a project by mistake, contact SE Ranking Support as soon as you notice it, and in any case before the 30-day window expires. Once the project has been permanently removed, it cannot be restored by Support either.
+
+Can SE Ranking improve my website rankings?
+
+SE Ranking can help you improve your website rankings by providing recommendations and analytical data, but it doesn’t make any changes directly on your site. You have to select the keywords, analyze the reports provided by SE Ranking, and make all the recommended changes or adjustments on your own.
+
+With SE Ranking, you can expand your semantic core, group your keywords, audit your website(s) to find all errors, and check whether the pages on your website are correctly optimized for certain keywords.
+
+You can benefit tremendously from using our Marketing plan, which provides clear, step-by-step instructions on how to achieve and maintain high rankings in the SERPs. Additionally, SE Ranking allows you to control your backlink profile by broadening it and removing all spammy links, analyze competitor backlink profiles to find new sites to place your links, research your competitors’ organic and paid keywords to adjust your own, as well as check your website positions to track your SEO progress.
+
+Use our onboarding guide to start your SEO journey with SE Ranking, or schedule a live demo to learn how to navigate the platform. Subscribe to our blog to stay on top of all things SEO and online marketing and to receive important updates about our tools and services.
+
+How to set the location where I want to track keywords?
+
+You can select your preferred search engine and location in the project settings under the Search Engines tab.
+
+Up to 5 search engines or locations can be assigned per project. Start typing a city or ZIP code and choose from the suggestions.
+
+ icn-alert.svg
+30 KB Download
+Was this article helpful?
+Yes No
+4 out of 11 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

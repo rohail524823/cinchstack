@@ -1,0 +1,155 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/46668956855053-Use-AI-credits-for-Squarespace-AI-tools
+FETCHED: 2026-09-26T22:14:09.749Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+PAYMENTS AND SUBSCRIPTIONS
+Use AI credits for Squarespace AI tools
+Review your AI credit balance, track your usage, and add more AI credits to your account.
+
+Last updated August 21, 2026
+
+English
+
+You spend AI Credits to use Squarespace's AI features, like the AI Visibility tool. These tools use credits to run prompts on Large Language Models (LLMs) like ChatGPT and Gemini.
+
+How many AI credits do I get?
+
+Trial sites include 10 trial credits for select AI tools. When you upgrade to a plan, your trial credits expire, and you get 10 non-renewable starter AI credits. These starter credits are one-time use, don’t roll over, and don’t renew monthly.
+
+The Basic plan only includes the 10 starter AI credits.
+
+The Core, Plus, and Advanced plans include the 10 starter credits, plus renewable subscription credits, as shown on our pricing page. Subscription credits don't roll over, but they renew monthly with your billing cycle.
+
+Can I get more AI credits?
+
+To increase your monthly AI credits, upgrade your website subscription plan or buy credit packs.
+
+Buy AI credit packs
+
+Buy AI credit packs to get more AI credits when your monthly balance runs out. Unused purchased credits roll over to the next month. Purchased AI credit packs expire one year after purchase. You can buy as many AI credit packs as you need.
+
+To buy AI credit packs:
+
+In the AI Credit Wallet panel, click Buy credits.
+Click the dropdown to select the amount of credits you’d like to buy. You can buy up to 400 credits.
+Click Select to confirm the amount.
+Review your order and click Confirm payment.
+Click Done to return back to the AI Credit Wallet panel. Your purchased credits will appear in your wallet, shown in the credit bar in blue.
+How can I cancel my AI credit pack?
+
+Credit packs are one-time purchases and aren't automatically refunded when you cancel your account or delete your site. If you’ve used any credits from a pack, you can’t cancel or get a refund for any portion of the AI credit pack.
+
+To cancel purchased credit packs that haven't been used at all, contact us.
+
+How are my AI credits used?
+
+Using AI tools deducts credits from your balance. When you upgrade to a paid plan, any unused trial credits expire and you start using subscription credits.
+
+If you bought a credit pack, subscription credits are used first. When you run out of subscription credits, you start using your credit pack.
+
+If your credit pack expires before your subscription credits, you use the purchased credits first.
+
+Where can I view my AI credits?
+
+You can view your overall AI credit balance in the SEO/AI Visibility panel, next to the AI Visibility section of the dashboard. Your AI credits balance bar displays your subscription and purchased credits separately. A banner at the top of the panel alerts you of any expiring credits, which you can also track in your AI credit purchase history.
+
+To review your usage:
+
+In the SEO Appearance panel, click AI Visibility.
+Click the balance chip next to the panel title to see the available credits, your monthly credit limit, and the renewal date for your credits.
+Click View wallet to go to your AI Credit Wallet dashboard.
+In the AI Credit Wallet panel, use the dropdown menu next to Usage to review how many AI credits you’ve used on a monthly range.
+Which Squarespace AI Tools use AI credits?
+
+AI credits can be used for these AI Tools on your Squarespace site:
+
+AI Visibility (using ChatGPT & Gemini models)
+Image Studio
+
+Note
+
+Clarkson and Text AI tools don’t cost AI credits.
+
+How many credits do I need to use an AI tool?
+
+The amount of credits needed depends on the AI tool. For example, you can view the amount of credits needed to run a prompt under the Run Cost field in the AI Visibility tool. You can also view the overall Balance after run of your remaining credits on your account.
+
+Why don’t I have any AI credits?
+
+You might not have AI credits if your site expired, or you reached your monthly AI credit limit. To get more credits, upgrade your site or buy credit packs.
+
+IN THIS GUIDE
+How many AI credits do I get?
+Can I get more AI credits?
+Buy AI credit packs
+How can I cancel my AI credit pack?
+How are my AI credits used?
+Where can I view my AI credits?
+Which Squarespace AI Tools use AI credits?
+How many credits do I need to use an AI tool?
+Why don’t I have any AI credits?
+People also viewed
+
+Optimize your site for AI-powered search engines
+
+Sample messages for your privacy policy
+
+Moving from Squarespace version 7.0 to version 7.1
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

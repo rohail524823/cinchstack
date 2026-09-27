@@ -1,0 +1,189 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/20686299081879-ClickUp-Brain-AI-feature-availability-and-limits
+FETCHED: 2026-09-26T22:49:59.222Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+ClickUp Brain AI
+Intro to ClickUp Brain AI
+ClickUp Brain AI feature availability and limits
+
+Learn about ClickUp Brain AI feature access by plan and user role.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+ClickUp Brain AI availability
+All Brain AI features are subject to the terms of our fair use policy.
+Future restrictions may apply to Brain AI features.
+Brain AI usage limits may change as we assess usage and costs.
+Brain AI access by plan
+
+All plans get a trial of select Brain AI features. After that, only paid plans can purchase various Brain AI add-ons.
+
+Access to Brain by user role
+
+Brain is a context-aware AI coworker available from anywhere in your Workspace. Brain is sometimes called Brain Assistant.
+
+This table details Brain access by user role:
+
+Plan	Can use Brain
+All user roles	Can use Brain in the locations and items they have access to.
+Access to @Brain by user role
+
+@mention Brain in task comments or Chat, just like you would mention a team member.
+
+This table details @Brain access by user role:
+
+User role	Can access @Brain
+Free Forever guests
+View only guests
+Permission controlled guests
+Limited members view only
+Limited members	No
+Members
+Admins
+Owners	Yes
+Access to the Brain MAX desktop app by user role
+
+Access Brain on the dedicated Brain MAX desktop app.
+
+This table details these apps' access by user role:
+
+User role	Can access Brain MAX desktop app
+Free Forever guests
+View only guests
+Permission controlled guests
+Limited members view only
+Limited members	No
+Members
+Admins
+Owners	Yes
+Access to the Brain MAX Chrome extension by user role
+
+Read the Brain MAX Chrome extension's feature availability and limits article.
+
+Access to Super Agents by user role
+
+Super Agents have the complete context of your Workspace, allowing them to efficiently and securely perform multi-step workflows around the clock.
+
+This table details Super Agent access by user role:
+
+User role	Can this role create, trigger, manage, or interact with Super Agents?
+Free Forever guests
+View only guests
+Permission controlled guests
+Limited members view only
+Limited members	These roles cannot see Super Agents profiles or create or trigger a Super Agent.
+Responses, or any other content Super Agents generate, are visible to anyone with access to that response or content.
+Members
+Admins
+Owners	Yes, by default, these roles can create, trigger, manage, and interact with all public Super Agents. Learn more about Super Agent permissions.
+To edit Super Agent permissions, you must be on a paid plan.
+Access to AI Skills by user role
+
+AI Skills are saved instructions that ClickUp Brain and Super Agents can use to consistently handle requests the way you want.
+
+This table details AI Skills access by user role:
+
+User role	Can this role create AI Skills?	Can this role use AI Skills?
+Free Forever guests
+View only guests
+Permission controlled guests
+Limited members view only
+Limited members	No	If a member or admin shares the Skill with them directly.
+Members
+Admins
+Owners	Yes	Yes
+Access to Autopilot Agents by user role
+
+All user roles can only use Autopilot Agents from locations and items they can access and have full or full edit permissions for.
+
+This table details Autopilot Agent access by user role:
+
+User role	Can this role create, trigger, or be responded to by Autopilot Agents?
+Free Forever guests	Can't create
+Can trigger an Autopilot Agent created on a Space, Folder, Subfolder, or List. For example, an Autopilot Agent is configured so that when a task status changes, it will perform a specified action.
+If a Free Forever guest changes a task status in the Autopilot Agent's location, the Agent will act.
+Autopilot Agent won't respond to their Chat messages and task comments.
+View only guests	Can't create
+Can't trigger
+Permission controlled guests	Can't create
+Can trigger an Autopilot Agent created on a Space, Folder, Subfolder, or List. For example, an Autopilot Agent is configured so that when a task status changes, it will perform a specified action.
+If a permission-controlled guest changes a task status in the Autopilot Agent's location, the Agent will act.
+Autopilot Agents won't respond to their Chat messages and task comments.
+Limited members view only	Can't create
+Autopilot Agents won't respond to their Chat messages and task comments.
+Limited members	Can create Autopilot Agents if they have edit or full edit permissions.
+All Autopilot Agents except Ambient Answers will respond to their Chat messages and task comments.
+Members
+Admins
+Owners	Yes
+ClickUp AI trial usage limits by plan
+
+ClickUp Brain AI is activated in all Workspaces on a trial basis.
+
+Brain trial access
+
+Brain trial usage is measured by number of uses. Any option that generates an AI response counts as a use:
+
+Free Forever: 25 uses per Workspace (up to 10 people) or 50 uses per Workspace (more than 10 people). This limit does not reset.
+Unlimited and Business: 50 uses per Workspace (up to 10 people) or 75 uses per Workspace (more than 10 people). This limit does not reset.
+Business Plus and Enterprise: 100 uses per Workspace (up to 10 people) or 175 uses per Workspace (more than 10 people). This limit does not reset.
+
+Free Forever Workspaces must upgrade to a paid plan to purchase an AI add-on.
+
+AI Super Credits trial access
+
+AI Super Credits power automatic AI features like Super Agents, Autopilot Agents, AI Fields, AI Cards, and more. Brain does not consume AI Super Credits.
+
+Trial AI Super Credit limits by plan:
+
+Free Forever: 500 total credits per Workspace. This limit does not reset.
+Paid plans with no AI add-on: 1,000 credits per user. This limit does not reset.
+
+After purchasing an AI add-on:
+
+Brain add-on: 1,500 credits per user per month.
+Everything AI add-on: 5,000 credits per user per month.
+
+Once trial credits are consumed, automatic AI features pause until you purchase an AI add-on or credit pack.
+
+Talk to Text trial access
+
+Talk to Text trial usage is measured by number of words transcribed:
+
+Free Forever: 2,000 words per Workspace
+Paid plans: 10,000 words per Workspace
+
+After purchasing an AI add-on:
+
+Brain add-on: 25,000 words per Workspace.
+Everything AI add-on: Unlimited usage.
+Was this article helpful?
+Related articles
+What is ClickUp Brain AI?
+Intro to billing
+Record, send, and transcribe Voice Clips
+Create a wiki
+Set up your individual Workspace
+Articles in this section 
+What is ClickUp Brain AI?
+Perform data analysis with ClickUp Brain AI
+Which features are included with the Brain AI add-ons?
+How can Brain help my team?
+ClickUp Brain Memory
+Collaborate with ClickUp Brain anywhere in your Workspace
+AI Hub
+@mention Brain
+Analyze spreadsheets with Brain AI
+Use Brain on task comments
+
+See all 15 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

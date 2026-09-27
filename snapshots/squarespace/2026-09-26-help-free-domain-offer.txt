@@ -1,0 +1,161 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206541787-Free-Squarespace-domain-offer
+FETCHED: 2026-09-26T22:48:01.519Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+DOMAINS
+REGISTERING SQUARESPACE DOMAINS
+Free Squarespace domain offer
+Claim your free year of a custom domain subscription.
+
+Last updated March 20, 2026
+
+English
+
+All eligible Squarespace sites on an annual billing plan include one free custom domain for one year. This domain is free for the first year, starting from the date it's registered or transferred. This includes domains with a multi-year registration term.
+
+The free Squarespace domain offer is valid within one year of signing up or switching to an eligible plan.
+
+This guide walks you through these options in detail.
+
+Watch a video
+Eligibility
+
+You can claim the offer through one of these ways:
+
+Register your first eligible Squarespace domain through a site on an annual plan.
+Receive a balance adjustment after registering a domain during a trial, then upgrading to an annual plan.
+Receive a balance adjustment after upgrading a Squarespace domain and parking page to a website.
+Receive a balance adjustment to your purchase when transferring an eligible domain. 
+
+Accessing this feature
+
+This offer isn't valid for:
+
+Mobile Start plans
+Sites on monthly billing plans
+Resold domains
+
+Billing details
+
+Before registering or transferring a free domain, note these billing details:
+
+After the first year of domain service, your domain will renew at the annual TLD price. This policy applies to eligible domains linked to sites created in January 2014 or later.
+You can't transfer the free domain offer from one domain to another.
+If you cancel at any time during your free domain year, you forfeit your eligibility for this offer.
+If you switch to monthly billing at any point during your free domain year, you won’t forfeit your eligibility for this offer.
+If you cancel your annual billing plan in the first 14 days, you forfeit your eligibility for this offer. You'll receive a prorated refund, with a deduction to cover the nonrefundable domain registration fee. 
+If you downgrade your website platform subscription to an individual subscription for each Squarespace product, we’ll cover the cost of your domain by adding a balance adjustment to your account.
+If you select a multi-year registration for your domain, the free domain offer applies to the first year. This appears as a balance adjustment at checkout. 
+Option 1 - Register a free Squarespace domain
+
+You can register a free Squarespace domain if the domain and site meet the following requirements:
+
+The domain has an eligible TLD.
+The site is on an annual billing plan.
+The site hasn’t already registered a free Squarespace domain.
+
+To learn more, visit Registering Squarespace domains.
+
+Tip
+
+When you register your free domain, you can purchase more domains at the same time. Prices vary by TLD. Learn why we recommend multiple domains in our Domains FAQ.
+
+Option 2 - Receive a balance adjustment
+
+In certain situations, we might make an automatic balance adjustment to your account. A balance adjustment is like a credit, reducing what you’ll owe in future purchases on a specific site.
+
+For example, let’s say you start a trial site, then register a $20 domain that’s eligible for the free offer. If you upgrade your site to an annually-billed plan within a year of registering the domain, we may reduce your first payment for the website subscription by $20. The $20 is the balance adjustment, and in this example, it would appear on your invoice as a free domain offer.
+
+The amount we reduce your balance can’t be transferred to a cash refund and will only apply to payments on future invoices.
+
+Here are the situations where you'll receive a balance adjustment equal to your domain purchase after purchasing an eligible Squarespace domain:
+
+Register a Squarespace domain during a trial - When you upgrade to a website on an annual plan, a balance adjustment will appear at checkout for the domain you previously purchased.
+Start with a domain on a parking page - If you upgrade your parking page to a website on an annual plan within the first year of your domain registration or domain transfer, contact us for a balance adjustment.
+Transfer a third-party domain to Squarespace - When you transfer a domain to a website on an annual plan, we'll adjust your balance to account for your domain purchase when you confirm the transfer. Learn more about transfer costs in our FAQ.
+
+We won't adjust your balance for a domain you previously purchased if you upgrade your site billing plan from monthly to annual, or if you transfer your domain from a site on a monthly plan to one on an annual plan. After you upgrade your site to an annual plan, however, you can register a new Squarespace domain for free.
+
+Tip
+
+To review your free domain discount and other billing information, review your account invoices in the Billing panel. Learn more in Reviewing your Squarespace account invoices.
+
+Eligible TLDs
+
+Any of our TLDs priced at the same rate as .com domains are eligible for free registration. It's not possible to use the free domain offer as a discount for a more expensive TLD.
+
+For a complete list of TLDs visit our List of top-level domains (TLDs). To find a domain's price, you can search for it on our domain name search page or your domains dashboard.
+
+ 
+
+IN THIS GUIDE
+Watch a video
+Eligibility
+Billing details
+Option 1 - Register a free Squarespace domain
+Option 2 - Receive a balance adjustment
+Eligible TLDs
+People also viewed
+
+Register a domain for an existing site
+
+List of top-level domains (TLDs)
+
+Manage your Squarespace billing
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

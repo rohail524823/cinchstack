@@ -1,0 +1,40 @@
+{
+  "id": "clickfunnels",
+  "name": "ClickFunnels",
+  "vendor": "Etison LLC",
+  "tier": "secondary",
+  "layer": "sell",
+  "category": "Funnel builder with courses, store, community and email marketing",
+  "url": "https://www.clickfunnels.com",
+  "pricingUrl": "https://www.clickfunnels.com/pricing",
+  "oneLiner": "Funnel, store, course and email platform sold in four tiers priced by workspaces, team seats and contacts, with no percentage-of-sales fee.",
+  "summary": "ClickFunnels bundles a drag-and-drop funnel and website builder, an online store, courses, community, email/automation tools and a CRM into one platform, sold as four tiers (Launch, Scale, Optimize, Dominate) that scale by workspace count, team-member seats and contact limits. Launch, Scale and Optimize can be billed monthly or annually; Dominate is sold annually only. ClickFunnels takes no percentage of sales; card payments run through Stripe or its own Payments AI gateway at each processor's standard rate.",
+  "bestFor": [
+    "agency",
+    "course-creator",
+    "freelancer"
+  ],
+  "notFor": [
+    "Sellers who want a free-forever tier to start with, since the cheapest plan runs $81-97/month with no ongoing free plan",
+    "Teams needing more than 20 team-member seats or 400,000 contacts without a custom/enterprise conversation",
+    "Buyers who need the exact free-trial terms (length, card requirement) confirmed up front, since ClickFunnels does not state them plainly on its current pricing or signup pages"
+  ],
+  "pros": [
+    "No percentage-of-sales fee on any plan (\"you'll keep every penny you make\")",
+    "Same base card-processing rate, 2.9% + $0.30, on both supported gateways (Stripe and Payments AI), with no ClickFunnels markup on top",
+    "Sub-account \"Workspaces\" scale from 1 (Launch) to 20 (Dominate), letting an agency run multiple client accounts under one subscription",
+    "Online courses (3 to 20, by plan), a store, community and email/automation tools are bundled in every tier rather than sold as separate add-ons",
+    "Monthly billing is available on Launch, Scale and Optimize, with no forced annual commitment except on the top Dominate plan",
+    "30-day money-back guarantee on payments, and plans can be changed at any time"
+  ],
+  "cons": [
+    "Contact limits are tight at the entry tier: Launch caps out at 10,000 contacts and 50,000 emails/month",
+    "Team-member seats are capped per plan (2/5/10/20) with no published add-on price to buy extra seats without upgrading the whole plan",
+    "Dominate, the only plan above 150,000 contacts or 10 team members, is sold annually only at $5,997/year with no month-to-month option",
+    "The pricing page markets \"Unlimited Funnels\" on every plan but flags it \"Limited Time,\" so the funnel count is not guaranteed to stay unlimited",
+    "Free-trial length and card requirement are not stated on the current pricing or signup pages"
+  ],
+  "affiliate": {
+    "program": null
+  }
+}

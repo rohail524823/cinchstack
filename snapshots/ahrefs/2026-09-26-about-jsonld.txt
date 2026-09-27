@@ -1,0 +1,71 @@
+SOURCE: https://ahrefs.com/about
+FETCHED: 2026-09-26T22:52:09.000Z
+RENDERER: curl (raw HTML); extracted the page's schema.org JSON-LD block (AboutPage > Organization), not visible text
+----
+{
+  "@context": "https://schema.org/",
+  "@type": "AboutPage",
+  "@id": "https://ahrefs.com/about",
+  "url": "https://ahrefs.com/about",
+  "description": "Learn more about Ahrefs, the marketing platform for discoverability in search, AI, and the web. Meet the team, explore our mission, and see how 15 years of crawling the internet powers the platform modern marketers rely on.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://ahrefs.com/#website",
+    "url": "https://ahrefs.com",
+    "name": "Ahrefs",
+    "publisher": { "@id": "https://ahrefs.com/#organization" }
+  },
+  "about": {
+    "@type": "Organization",
+    "@id": "https://ahrefs.com/#organization",
+    "name": "Ahrefs",
+    "legalName": "Ahrefs Pte. Ltd.",
+    "url": "https://ahrefs.com",
+    "logo": "https://assets-3b70.kxcdn.com/images/mediakit/logo_blue@2x.png?v=2",
+    "foundingDate": "2010-07-15",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "SG",
+      "postalCode": "048581",
+      "streetAddress": "16 Raffles Quay"
+    },
+    "description": "Ahrefs is the marketing platform for discoverability. We help brands stay visible across search, AI, and the web by turning web-scale data into insights marketers can act on. Powered by one of the world’s largest web crawlers and 15 years of expertise, Ahrefs enables marketers to see what people want, fix what holds them back, ship what wins, and track their growth.",
+    "email": "support@ahrefs.com",
+    "owns": {
+      "@type": "Product",
+      "name": "Ahrefs",
+      "description": "Ahrefs is an all-in-one SEO toolset for growing search traffic and optimizing websites. To do that, Ahrefs crawls the web, stores tons of data and makes it accessible via a simple user interface.",
+      "mainEntityOfPage": "https://ahrefs.com",
+      "url": "https://ahrefs.com"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Dmitry Gerasimenko",
+      "alternateName": "Dmytro Gerasymenko",
+      "gender": "Male",
+      "jobTitle": "CEO",
+      "image": "https://static.ahrefs.com/images/team/dmitry-g.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/dmitrygerasimenko/",
+        "https://x.com/botsbreeder"
+      ]
+    },
+    "sameAs": [
+      "https://x.com/ahrefs", "https://www.wikidata.org/wiki/Q107533769",
+      "https://www.youtube.com/c/AhrefsCom",
+      "https://www.linkedin.com/company/ahrefs/",
+      "https://www.crunchbase.com/organization/ahrefs",
+      "https://www.zoominfo.com/c/ahrefs-pte-ltd/346986605",
+      "https://uk.wikipedia.org/wiki/Ahrefs",
+      "https://www.facebook.com/ahrefs"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "support@ahrefs.com",
+        "url": "https://ahrefs.com"
+      }
+    ]
+  }
+}

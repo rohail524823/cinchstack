@@ -1,7 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { SITE } from '../../lib/site.mjs';
-import { tools, toolsByLayer } from '../../lib/data.mjs';
+import { tools, toolsByLayer, toolIds, cheapestPaid, scenario, pricing } from '../../lib/data.mjs';
+import { longDate } from '../../lib/format.mjs';
+import Fig from '../../components/Fig.astro';
 import { LAYERS, LAYER_LABELS, LAYER_QUESTIONS } from '../../lib/schemas.mjs';
 import { registry } from '../../lib/pages.mjs';
 import { breadcrumbNode, itemListNode, webPageNode } from '../../lib/jsonld.mjs';
@@ -22,6 +24,24 @@ const description = 'Every tool CinchStack covers, grouped by what it does for y
     <Breadcrumbs crumbs={crumbs} />
     <h1>The tools, and what they really cost</h1>
     <p class="lede">Grouped by the job they do in your stack. Each card shows the real monthly bill for a five-person team — every add-on and usage fee counted — not the headline price.</p>
+    <section class="section">
+      <h2 id="sticker-vs-real">Sticker price vs the real bill</h2>
+      <p class="table-lead">For every tool we track: the cheapest paid plan as the vendor advertises it, next to what a five-person team really pays each month once seats, contact tiers, add-ons and usage are counted. Prices as verified on each tool's check date.</p>
+      <div class="tbl-wrap"><table class="data stack">
+        <thead><tr><th scope="col">Tool</th><th scope="col">Job</th><th scope="col" class="num">Cheapest paid plan</th><th scope="col" class="num">Real bill, 5-person team</th><th scope="col">Checked</th></tr></thead>
+        <tbody>
+          {toolIds.map((id) => { const c = cheapestPaid(id); const sm = scenario(id, 'small'); return (
+            <tr>
+              <th scope="row">{href(id) ? <a href={href(id)}>{tools[id].name}</a> : tools[id].name}</th>
+              <td data-label="Job">{LAYER_LABELS[tools[id].layer]}</td>
+              <td class="num" data-label="Cheapest paid">{c ? <><Fig v={c.v} suffix="/mo" /><span class="sub">{c.p.name}{c.p.priceUnit === 'per-seat-month' ? ', per seat' : ''}</span></> : 'Custom'}</td>
+              <td class="num" data-label="Real bill"><Fig v={sm.monthly} suffix="/mo" /><span class="sub">{sm.confidence} confidence</span></td>
+              <td data-label="Checked"><time datetime={pricing[id].checkedOn}>{longDate(pricing[id].checkedOn)}</time></td>
+            </tr>
+          ); })}
+        </tbody>
+      </table></div>
+    </section>
     {LAYERS.map((l) => { const ids = byLayer[l].filter((id) => href(id)); return ids.length > 0 && (
       <section class="section">
         <h2 id={l}>{LAYER_LABELS[l]} <span class="muted" style="font-weight:400;font-size:.7em">— {LAYER_QUESTIONS[l]}</span></h2>

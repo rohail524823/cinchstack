@@ -1,0 +1,137 @@
+SOURCE: https://help.ahrefs.com/en/articles/9734884-what-is-the-difference-between-credit-based-plans-and-unlimited-credit-plans
+FETCHED: 2026-09-26T22:43:46.265Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Your Subscription
+What is the difference between Credit-based plans and Unlimited credit plans?
+What is the difference between Credit-based plans and Unlimited credit plans?
+
+How does a plan with unlimited usage compare to the older credit based plans? What are the differences? Learn more in this article
+
+Written by Constance Tan
+Updated over 3 weeks ago
+
+🙋‍♀️ If you are unsure which plan you have, read this guide to check which of these plans apply to you.
+
+ 
+
+Credit based plans
+
+These are:
+
+Current Starter, Lite plans
+
+All plans purchased between 18 March 2022 - 21st April 2024.
+
+Credit based plans have a monthly usage limit which can be increased by purchasing additional credits or add-ons. The limit depends on your plan's tier.
+
+ 
+
+Using any tools except Site Audit and Rank Tracker will consume credits. Learn more about what actions consume credits.
+
+ 
+
+Additional users are billed based on credit usage on their accounts. 
+
+Users that do not use credits are considered Inactive users (free).
+
+Users that use between 5-100 credits per month are billed as Casual users.
+
+Users that use more than 101 credits per month are billed as Power users.
+
+Learn more about how to manage additional users and credits from your account settings.
+
+ 
+
+Unlimited credit plans
+
+These are the current Standard, Advanced, and Enterprise plans
+
+Unlike credit-based plans, there's no monthly limit of how much viewing, searching, sorting or filtering that is done on Unlimited credit plans.
+
+ 
+
+However, to protect our service to all users, we still monitor for suspicious activity that violates our Terms and Conditions. If detected, access may be temporarily restricted. Repeat offenders may have their account usage permanently suspended.
+
+ 
+
+Additional users are priced based on your plan's tier. Unlike credit-based plans, all additional users are priced the same, no matter their usage:
+
+ 
+
+ 
+
+ 
+
+Frequently asked questions
+Is everything unlimited on Unlimited credit plans?
+
+Browsing, filtering, sorting data on our platform is unlimited. However each plan has access to different tools, historical data, export limits, or can only view a max number of results per report:
+​
+
+ 
+
+You can view the limits of your plan for Projects, Rank Tracker and Site Audit from your Account Settings > Limits and usage page.
+
+ 
+
+Can I share login access of my Unlimited plan account with multiple people?
+
+No. Access and usage on our platform still needs to abide by our Terms and Conditions. If usage of your account violates any of our Terms and conditions, you will likely find your Ahrefs account getting temporarily or permanently blocked.
+
+ 
+
+If you need multiple users to share your Ahrefs subscription, please purchase additional seats so each person can login with their own account to share your workspace.
+
+ 
+
+The same goes for unauthorized software use on our platform.
+
+ 
+
+How can I switch to a plan with unlimited usage?
+
+You can follow this guide to upgrade your plan
+
+ 
+
+Can I check keywords and backlinks on this plan?
+
+All paid plans allow you to check both keywords and backlinks for any website.
+
+ 
+
+Related Articles
+Ahrefs' usage-based pricing for credit-based plans
+What's the difference between all Ahrefs subscription plans?
+How to control credits usage
+About Ahrefs' Starter plan
+What is my subscription plan? How can I check what I have?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Credit based plans
+Unlimited credit plans
+Frequently asked questions
+Is everything unlimited on Unlimited credit plans?
+Can I share login access of my Unlimited plan account with multiple people?
+How can I switch to a plan with unlimited usage?
+Can I check keywords and backlinks on this plan?
+Ahrefs AcademyBlogYouTubePricing

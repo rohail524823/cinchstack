@@ -1,0 +1,851 @@
+SOURCE: https://www.squarespace.com/api/checkout/available-plans/plan-types/website/applicable?currency=USD&entry-point=SQSP_FRONT_SITE
+FETCHED: 2026-09-26T22:54:49.000Z
+RENDERER: curl (JSON from Squarespace's public checkout API, US egress, currency=USD); queried with plan type "website" (the Email Campaigns pricing section calls the same endpoint with plan type "campaigns", observed in the headless browser). Below: one summary line per plan (feature level, billing period, price, per-month display, annual saving and the yearly total at the monthly price, as returned), then the full JSON pretty-printed.
+----
+== Summary (one line per plan, sorted by rank then billing period) ==
+website_basic | displayName "Basic" | billingPeriod P1M (Monthly) | price USD 25.00 | formattedPrice $25 | formattedPricePerMonth $25 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name website-basic-monthly-usd-jul-2024-new-plan-arch-variant-1
+    rateSheet (US): cardRate 2.9% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.5% + $0.00; fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_basic | displayName "Basic" | billingPeriod P1Y (Annually) | price USD 228.00 | formattedPrice $228 | formattedPricePerMonth $19 | annualSavingsPercent 24 | yearlyTotalFromMonthlyPrice 300.00 | plan name website-website_basic-annual-usd-apr-2026-us-increase-variant-3
+    rateSheet (US): cardRate 2.9% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.5% + $0.00; fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_core | displayName "Core" | billingPeriod P1M (Monthly) | price USD 39.00 | formattedPrice $39 | formattedPricePerMonth $39 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name website-website_core-monthly-usd-may-2026-us-price-v3-variant-2
+    rateSheet (US): cardRate 2.9% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.0% + $0.00; fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_core | displayName "Core" | billingPeriod P1Y (Annually) | price USD 348.00 | formattedPrice $348 | formattedPricePerMonth $29 | annualSavingsPercent 25 | yearlyTotalFromMonthlyPrice 468.00 | plan name website-website_core-annual-usd-apr-2026-us-increase-variant-2
+    rateSheet (US): cardRate 2.9% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.0% + $0.00; fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_plus | displayName "Plus" | billingPeriod P1M (Monthly) | price USD 65.00 | formattedPrice $65 | formattedPricePerMonth $65 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name website-website_plus-monthly-usd-may-2026-us-price-v3-variant-2
+    rateSheet (US): cardRate 2.7% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.0% + $0.00; fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_plus | displayName "Plus" | billingPeriod P1Y (Annually) | price USD 588.00 | formattedPrice $588 | formattedPricePerMonth $49 | annualSavingsPercent 24 | yearlyTotalFromMonthlyPrice 780.00 | plan name website-website_plus-annual-usd-apr-2026-us-increase-variant-2
+    rateSheet (US): cardRate 2.7% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.0% + $0.00; fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_advanced | displayName "Advanced" | billingPeriod P1M (Monthly) | price USD 139.00 | formattedPrice $139 | formattedPricePerMonth $139 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name website_advanced-monthly-usd-oct-2024-npa-phase-1-1-variant-2
+    rateSheet (US): cardRate 2.5% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.0% + $0.00 (max $10.00); fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+website_advanced | displayName "Advanced" | billingPeriod P1Y (Annually) | price USD 1188.00 | formattedPrice $1,188 | formattedPricePerMonth $99 | annualSavingsPercent 28 | yearlyTotalFromMonthlyPrice 1668.00 | plan name website_advanced-annual-usd-oct-2024-npa-phase-1-1-variant-2
+    rateSheet (US): cardRate 2.5% + $0.30; internationalCardRate 1.5% + $0.00; amexRate 3.2% + $0.30; businessCardRate 3.2% + $0.30; achRate 1.0% + $0.00 (max $10.00); fxRate 1.0% + $0.00; klarnaRate 5.49% + $0.30; afterpayRate 6.0% + $0.30
+
+== Full JSON response (pretty-printed) ==
+{
+ "results": [
+  {
+   "id": "4f3ab384-af7e-4ed0-88e5-705c1646a6e1",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website-website_basic-annual-usd-apr-2026-us-increase-variant-3",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_basic"
+    }
+   ],
+   "displayName": "Basic",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "228.00"
+   },
+   "planTierId": "ae90aefd-1c77-4928-b724-a0e64fe7e55d",
+   "planTierName": "website_basic",
+   "rank": 4,
+   "rateSheet": {
+    "publicId": "24824f3a-b708-4e62-b3b9-a2d642461ae7",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.029
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 24,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "300.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "72.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "228.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$228",
+   "formattedPricePerMonth": "$19",
+   "formattedDiscountedPrice": "$228",
+   "formattedDiscountedPricePerMonth": "$19"
+  },
+  {
+   "id": "efc2f0b3-ec9b-4fc5-a6d4-e4ed50ced335",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website-website_plus-annual-usd-apr-2026-us-increase-variant-2",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_plus"
+    }
+   ],
+   "displayName": "Plus",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "588.00"
+   },
+   "planTierId": "418b51f4-a9d1-463d-a5fc-114aa8f7d72e",
+   "planTierName": "website_plus",
+   "rank": 9,
+   "rateSheet": {
+    "publicId": "d2f55d79-5768-4c23-8a71-38af8d110dbc",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.027
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 24,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "780.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "192.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "588.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$588",
+   "formattedPricePerMonth": "$49",
+   "formattedDiscountedPrice": "$588",
+   "formattedDiscountedPricePerMonth": "$49"
+  },
+  {
+   "id": "335f93dd-fea4-4eaa-9fb0-65d1282369d8",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website-basic-monthly-usd-jul-2024-new-plan-arch-variant-1",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_basic"
+    }
+   ],
+   "displayName": "Basic",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "25.00"
+   },
+   "planTierId": "ae90aefd-1c77-4928-b724-a0e64fe7e55d",
+   "planTierName": "website_basic",
+   "rank": 4,
+   "rateSheet": {
+    "publicId": "24824f3a-b708-4e62-b3b9-a2d642461ae7",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.029
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "25.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$25",
+   "formattedPricePerMonth": "$25",
+   "formattedDiscountedPrice": "$25",
+   "formattedDiscountedPricePerMonth": "$25"
+  },
+  {
+   "id": "e0b6284f-fa30-41cd-88eb-91cb9bc9565c",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website-website_core-monthly-usd-may-2026-us-price-v3-variant-2",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_core"
+    }
+   ],
+   "displayName": "Core",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "39.00"
+   },
+   "planTierId": "c1c7eb4c-2a38-4c48-b579-28b17e79cee9",
+   "planTierName": "website_core",
+   "rank": 6,
+   "rateSheet": {
+    "publicId": "c1ad9eaa-fb72-491f-8472-6a588a3da4e9",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.029
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "39.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$39",
+   "formattedPricePerMonth": "$39",
+   "formattedDiscountedPrice": "$39",
+   "formattedDiscountedPricePerMonth": "$39"
+  },
+  {
+   "id": "ca33a5c8-d048-4504-bd60-2141f55ea337",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website_advanced-annual-usd-oct-2024-npa-phase-1-1-variant-2",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_advanced"
+    }
+   ],
+   "displayName": "Advanced",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "1188.00"
+   },
+   "planTierId": "3d0d757c-d4e5-4bb5-a173-3ebbe641c889",
+   "planTierName": "website_advanced",
+   "rank": 10,
+   "rateSheet": {
+    "publicId": "a41b73a1-e03d-453d-a8c9-b8e362602ef3",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.025
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "maxFee": {
+      "currency": "USD",
+      "value": "10.00"
+     },
+     "percentFee": 0.01
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 28,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "1668.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "480.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "1188.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$1,188",
+   "formattedPricePerMonth": "$99",
+   "formattedDiscountedPrice": "$1,188",
+   "formattedDiscountedPricePerMonth": "$99"
+  },
+  {
+   "id": "b32e980d-c6c4-4661-b76c-33b38829fd54",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website_advanced-monthly-usd-oct-2024-npa-phase-1-1-variant-2",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_advanced"
+    }
+   ],
+   "displayName": "Advanced",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "139.00"
+   },
+   "planTierId": "3d0d757c-d4e5-4bb5-a173-3ebbe641c889",
+   "planTierName": "website_advanced",
+   "rank": 10,
+   "rateSheet": {
+    "publicId": "a41b73a1-e03d-453d-a8c9-b8e362602ef3",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.025
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "maxFee": {
+      "currency": "USD",
+      "value": "10.00"
+     },
+     "percentFee": 0.01
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "139.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$139",
+   "formattedPricePerMonth": "$139",
+   "formattedDiscountedPrice": "$139",
+   "formattedDiscountedPricePerMonth": "$139"
+  },
+  {
+   "id": "7ee095bf-8f18-4525-b7d8-f953db9cc70d",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website-website_core-annual-usd-apr-2026-us-increase-variant-2",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_core"
+    }
+   ],
+   "displayName": "Core",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "348.00"
+   },
+   "planTierId": "c1c7eb4c-2a38-4c48-b579-28b17e79cee9",
+   "planTierName": "website_core",
+   "rank": 6,
+   "rateSheet": {
+    "publicId": "c1ad9eaa-fb72-491f-8472-6a588a3da4e9",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.029
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 25,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "468.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "120.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "348.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$348",
+   "formattedPricePerMonth": "$29",
+   "formattedDiscountedPrice": "$348",
+   "formattedDiscountedPricePerMonth": "$29"
+  },
+  {
+   "id": "933cec7f-0e1d-4969-90ea-c4f65f44e17a",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "website-website_plus-monthly-usd-may-2026-us-price-v3-variant-2",
+   "planType": "website",
+   "planLine": "website-commerce",
+   "products": [
+    {
+     "productType": "website",
+     "featureLevel": "website_plus"
+    }
+   ],
+   "displayName": "Plus",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "65.00"
+   },
+   "planTierId": "418b51f4-a9d1-463d-a5fc-114aa8f7d72e",
+   "planTierName": "website_plus",
+   "rank": 9,
+   "rateSheet": {
+    "publicId": "d2f55d79-5768-4c23-8a71-38af8d110dbc",
+    "country": "US",
+    "cardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.027
+    },
+    "internationalCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.015
+    },
+    "businessCardRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "amexRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.032
+    },
+    "achRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "klarnaRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.0549
+    },
+    "fxRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.00"
+     },
+     "percentFee": 0.01
+    },
+    "afterpayRate": {
+     "flatFee": {
+      "currency": "USD",
+      "value": "0.30"
+     },
+     "percentFee": 0.06
+    },
+    "createdOn": "2026-04-03T18:18:17.898Z",
+    "flatInternationalRate": false,
+    "hasDiscountedBasicCCRate": false,
+    "hasDiscountedAchRate": false
+   },
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "65.00"
+   },
+   "offeringId": "5df3f6fe-cffb-4800-a449-d1ac640cea9f",
+   "subOfferingId": "97964380-9f6c-4553-af5a-9dd7ef293963",
+   "formattedPrice": "$65",
+   "formattedPricePerMonth": "$65",
+   "formattedDiscountedPrice": "$65",
+   "formattedDiscountedPricePerMonth": "$65"
+  }
+ ]
+}

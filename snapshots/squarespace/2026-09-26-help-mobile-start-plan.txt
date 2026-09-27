@@ -1,0 +1,157 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/360029595191-Upgrade-to-a-Mobile-Start-plan
+FETCHED: 2026-09-26T22:49:25.077Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+WEBSITE BILLING
+Upgrade to a Mobile Start plan
+Convert your trial site to a paid plan on the iOS Squarespace app.
+
+Last updated September 8, 2026
+
+English
+
+Upgrade an active site trial in the iOS Squarespace app to a 30-day Mobile Start plan using in-app purchase. All Mobile Start plans last 30 days, and don’t auto renew.
+
+New sites are private by default, and when you upgrade you can make your private site public to visitors and search engines.
+
+Watch a video
+Am I eligible for a Mobile Start plan?
+
+You can sign up for a Mobile Start plan if:
+
+Your site is on a trial, or previously used a Mobile Start plan. Sites currently or previously on a standard website plan can't switch to Mobile Start.
+You’re using the iOS Squarespace app. You can’t sign up using the Android app.
+Sign up for a Mobile Start plan
+
+To upgrade to a paid site on a Mobile Start plan, open your Squarespace app:
+
+Tap More, tap Settings, then tap Billing.
+Tap Select Plan, then swipe left and right to see all plans. Tap See all features for more details on any plan.
+When you find a plan that meets your needs, tap Purchase.
+Review the purchase details, enter your Apple ID password, and tap Buy.
+After the prompt confirms your purchase, tap OK.
+
+Apple will email you a receipt confirming your purchase. You can also see your purchase history in the App Store.
+
+Tip: Your site may be private, password-protected, or public after you upgrade to paid service, depending on your settings and when you upgraded. Learn how to make it public.
+
+Features not available on Mobile Start plans
+
+The following features and add-ons aren't available for Mobile Start plans:
+
+Email Campaigns subscription after the trial period
+Getty Images
+Unsplash images
+Google Workspace
+Domain registration or transfer
+Moving a Squarespace domain to your site
+Point of sale
+Acuity Scheduling
+Can I switch to a different Mobile Start plan?
+
+Once your Mobile Start plan expires, you can only repurchase that same plan. It's not possible to switch to a different Mobile Start plan.
+
+However, you can cancel your Mobile Start plan and reactivate your site on a standard website plan whenever you'd like.
+
+What happens after your Mobile Start plan expires
+
+After your 30-day plan expires, you have a short grace period to keep your site active and buy a new plan. After the grace period ends, your site expires and we permanently delete your content.
+
+To keep your site active, choose an upgrade option:
+
+Move to a standard website plan - Log in on a computer and click Select a plan in the bottom banner to reactivate on any standard website plan. This is permanent, so it's not possible to move that site back to a Mobile Start plan. Before you switch, review the plan options.
+Buy another 30 days - In the app, buy another 30 days of your current Mobile Start plan. You can’t switch to a different Mobile Start plan.
+Cancel a Mobile Start plan
+
+To stop using your Mobile Start plan before the end of the 30 days, you can cancel and request a refund from Apple. We can't issue refunds for Mobile Start plans, since Apple processes the purchase
+
+To hide your site from visitors and search engines after cancelling, set your site availability to Private.
+
+My site already has a standard website billing plan. Can I manage it in an app?
+
+You can view your standard website plan details in the iOS Squarespace app. It's not possible to make edits in the app, but you can manage your plan by logging in on a computer.
+
+Can I access other Billing settings in the Squarespace app?
+
+No. Use the app's Billing panel to upgrade to a Mobile Start plan, repurchase an expired Mobile Start plan, or view your current plan. Log in on a computer for other tasks, like updating your credit card or reviewing invoices.
+
+Can I use an offer code on a Mobile Start plan?
+
+No. It's not possible to use promo codes for Mobile Start plans. To use a promo code, log in on a computer and subscribe to a standard website plan. Enter your code in the Promo code field on the Review order panel.
+
+IN THIS GUIDE
+Watch a video
+Am I eligible for a Mobile Start plan?
+Sign up for a Mobile Start plan
+Features not available on Mobile Start plans
+Can I switch to a different Mobile Start plan?
+What happens after your Mobile Start plan expires
+Cancel a Mobile Start plan
+My site already has a standard website billing plan. Can I manage it in an app?
+Can I access other Billing settings in the Squarespace app?
+Can I use an offer code on a Mobile Start plan?
+People also viewed
+
+Reactivating a site
+
+Edit your site with the Squarespace app
+
+Choosing the right Squarespace plan
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

@@ -1,0 +1,183 @@
+SOURCE: https://help.ahrefs.com/en/articles/411099-how-do-i-add-and-manage-users-to-my-account-s-workspace
+FETCHED: 2026-09-26T22:43:46.187Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Your Account
+How do I add and manage users to my account's workspace?
+How do I add and manage users to my account's workspace?
+
+Learn more about adding and managing users / members to your Ahrefs workspace to control subscription access and spending
+
+Written by Anna
+Updated over 3 weeks ago
+
+Note: Starter plan, and some older legacy subscriptions do not support the possibility of adding new users. If you are unsure what plan you have, please consult this guide or contact our support team for more details.
+
+  
+
+Adding members to your account workspace
+
+You can only add members to your workspace if you have a Lite or higher paid subscription. The maximum number of members you can have depends on your plan:
+
+ 
+
+ 
+
+You can invite others to join your workspace in two ways:
+
+From the Members tab in your Account settings
+
+ 
+
+Click “Invite members” in your workspace switcher (upper right corner)
+
+ 
+
+You can invite multiple additional members in one go, separating each member's email by a comma.
+
+ 
+
+Member Access levels
+
+Access levels determine which workspace settings and objects individual users are allowed to access.
+
+The Member level has access to objects explicitly shared with them plus objects shared with the “All workspace members” group, and can create new objects.
+
+The Admin level has access to all objects in the workspace and can manage workspace settings, subscription, and users.
+
+The Owner level has the same permissions as the Admin level. It is automatically assigned to the person who initially registered for the account, and cannot be changed from within Ahrefs.
+
+A user’s access level must be defined when inviting them to the workspace. This level can be changed at any time from Account settings > Members.
+
+ 
+
+💡A user set as a Guest can access only objects (such as projects) explicitly shared with them. This is a feature exclusive to Enterprise plans. For more information about this feature, click here.
+
+ 
+
+Accepting the invitation link
+
+Invited members will receive an "Invitation to join Ahrefs" email sent to the email address indicated in the invite.
+
+ 
+
+ 
+
+If they have yet to click the "Accept invitation" button, you will see them under Pending:
+
+ 
+
+For invited members who are new to Ahrefs
+
+They will first need to create a new account in Ahrefs. 
+
+ 
+
+After clicking on the "Accept invitation" link from the email, they will be asked to create their account's name and password (see below) and hit "Continue" to complete the account setup.
+
+ 
+
+ 
+
+For invited members who already have an account in Ahrefs
+
+Clicking on the "Accept invitation" link will prompt them to log in to their account. 
+
+ 
+
+ 
+
+Once logged in, they should be able to see the new workspace added below their own workspace:
+
+ 
+
+ 
+
+And the workspace owner will get a notification that a new user has accepted the invitation and joined their workspace:
+
+ 
+
+ 
+
+Switching to the correct workspace
+
+Each Ahrefs user has their own Workspace. Once the invited member has accepted the invitation and logged in, they will be able to access both their own workspace and the workspaces they are invited to. 
+​
+​Below is an example where the invited member has access to their workspace (Free plan) and a different person's workspace that they were invited to, which has an Standard plan and 3 other members. This can be seen from the Workspace switcher in the top right:
+
+ 
+
+ 
+
+This user is currently on their own workspace. To access the tools and data on the other workspace that they were invited to, they must click on that workspace in order to switch to it.
+
+ 
+
+Controlling credit usage for workspace members
+
+Note: The following section applies only to certain plans purchased before 22nd April 2024, Lite, and Starter plans. To check which plan you have, go to your account settings
+
+ 
+
+New Standard plans and higher have unlimited fair usage for every non-guest user. To upgrade your plan, go to https://app.ahrefs.com/pricing and select a new plan.
+
+ 
+
+You can follow this guide to manage a member's Credit usage limits.
+
+Only members that have accepted your invitation to join your workspace can have their credit limits configured.
+
+ 
+
+Deleting a member
+
+Only Owners and Admins can delete members. They can do so from the Members tab in your Account settings by selecting the 3 dot menu next to the user's email, and click on "Delete":
+
+ 
+
+ 
+
+Deleting a pending member
+
+Invited a user by mistake? If their invitation is still pending, head over to the Pending tab, click on the 3 dot menu next to their email, and select "Delete":
+
+ 
+
+ 
+​
+​
+
+Related Articles
+About shared workspaces
+How can I set up Ahrefs Alerts for my client?
+How do I see my Google Search Console performance in Ahrefs?
+Access control features
+How can I get my agency listed on Ahrefs' SEO agencies directory?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Adding members to your account workspace
+Member Access levels
+Accepting the invitation link
+Switching to the correct workspace
+Controlling credit usage for workspace members
+Deleting a member
+Deleting a pending member
+Ahrefs AcademyBlogYouTubePricing

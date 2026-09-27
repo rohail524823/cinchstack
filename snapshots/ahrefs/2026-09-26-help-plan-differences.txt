@@ -1,0 +1,231 @@
+SOURCE: https://help.ahrefs.com/en/articles/6117209-what-s-the-difference-between-all-ahrefs-subscription-plans
+FETCHED: 2026-09-26T22:43:46.035Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Your Subscription
+What's the difference between all Ahrefs subscription plans?
+What's the difference between all Ahrefs subscription plans?
+
+Understand the different limits and features across all subscription plans. Use this guide to better decide which plan best fits your needs.
+
+Written by Constance Tan
+Updated this week
+
+Note: Current Standard plans and higher have unlimited fair usage for every active user. If you have a Standard or higher plan that has limited credits per month, you have a legacy subscription. To upgrade to a plan with unlimited credits, go to https://app.ahrefs.com/pricing and select a new plan.
+
+This article gives a more comparative overview of the differences between our subscription plans that can be found on our pricing page.
+
+ 
+
+What's included in the free plan
+
+These are
+
+SEO Dashboard
+
+Site Explorer
+
+Site Audit
+
+Web analytics
+
+Social Media Manager
+
+Bot analytics
+
+A full breakdown of all the things you can do free on Ahrefs can be found in this article. 
+
+ 
+
+Free versus Starter
+
+Compared to Ahrefs free account, the Starter plan allows you to use:
+
+200 credits to check any website in 
+
+Site Explorer (unverified websites)
+
+Keywords Explorer
+
+Rank Tracker
+
+SERP Comparison
+
+Position History graph
+
+Ahrefs SEO Toolbar (see SEO metrics)
+
+Web Analytics
+
+Bot Analytics (while in beta)
+
+Report Builder
+
+Social Media Manager (unlimited while in beta)
+
+Compare all plan limits: Free vs Starter
+
+ 
+
+Learn more about the Starter plan.
+
+ 
+
+Ahrefs Starter versus Lite
+
+Compared to the Starter plan, the Lite plan allows you to use:
+
+Up to 1000 credits per month on unverified websites
+
+Site Explorer
+
+Keywords Explorer
+
+Competitive Analysis
+
+Page Inspect
+
+Purchase additional credits per month (can be spent by any power user)
+
+Add additional users to your workspace
+
+Export reports
+
+Schedule Alerts
+
+Custom prompts you can use to track AI responses with
+
+Report Builder
+
+Direct access to API v3, Ahrefs MCP, and Ahrefs Connect
+
+Compare all plan limits: Starter vs Lite
+Ahrefs Lite versus Standard
+Standard allows access to more features
+
+Everything in Lite. Plus...
+
+More reports in Site Explorer compared to the Lite plan:
+
+Calendar view
+
+Broken Backlinks
+
+Broken links
+
+Outgoing links
+
+Linking Authors
+
+Link Intersect
+
+Domain & Country comparison
+
+Site Structure
+
+Linking Authors
+
+Portfolios - Standard plans start with 100 URLs per portfolio
+
+Content Explorer
+
+Keyword Explorer
+
+Keyword Clusters
+
+More features in Keywords Explorer
+
+SERP Updates
+
+AI Suggestions
+
+AI Identify Intents
+
+Batch Analysis
+
+Compare all plan limits: Lite vs Standard
+
+  
+
+Ahrefs Standard versus Advanced
+Advanced allows access to even more features
+
+Everything in Standard. Plus...
+
+Looker Studio Connector
+
+HTTP Authentication in Site Audit
+
+More features in Keywords Explorer
+
+Images, Video, News search volume
+
+Directory Listing
+
+Advanced or higher subscribers can apply to be listed on our SEO Agencies Directory. Learn how to do so here.
+
+  
+
+Compare all plan limits: Standard vs Advanced
+Ahrefs Advanced versus Enterprise
+Enterprise gets full access to what our platform can offer
+
+Everything in Advanced. Plus...
+
+SSO
+
+Audit Log
+
+Access Management
+
+Forecasting / Trends
+
+Payment via Bank Transfer / Wire Transfer
+
+Only Enterprises can pay their subscriptions upfront with Bank transfer or Wire transfer. Interested? Please fill up the interest form on our Enterprise Page here for more info.
+
+ 
+
+Compare all plan limits: Advanced vs Enterprise
+
+💡 An overview of these features for Enterprise can also be found here: Ahrefs Enterprise New Features
+
+I hope this detailed comparison will help you choose the best pricing plan for you.
+
+If you’re still hesitant, allow us dispel your doubts :) Contact us on our live chat or drop us a line at support@ahrefs.com.
+
+Related Articles
+About Ahrefs' Starter plan
+What is my subscription plan? How can I check what I have?
+What is the difference between Credit-based plans and Unlimited credit plans?
+What can I use for free in Ahrefs?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+What's included in the free plan
+Free versus Starter
+Ahrefs Starter versus Lite
+Ahrefs Lite versus Standard
+Standard allows access to more features
+Ahrefs Standard versus Advanced
+Advanced allows access to even more features
+Ahrefs Advanced versus Enterprise
+Enterprise gets full access to what our platform can offer
+Ahrefs AcademyBlogYouTubePricing

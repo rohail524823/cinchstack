@@ -1,0 +1,130 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/18503246465692-How-to-purchase-additional-keywords
+FETCHED: 2026-09-26T22:49:40.482Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+User account & settings
+Payment and billing
+  Articles in this section
+Payment and billing overview
+Purchasing a subscription plan
+How to purchase and start using Planable in SE Ranking
+How to purchase additional keywords
+How to cancel your SE Ranking subscription
+How to cancel add-ons
+Moving your billing from 2Checkout to Stripe
+Affiliate Program
+Bonus program
+How to purchase additional keywords
+
+How to buy more keywords
+FAQ
+
+How to buy more keywords
+
+The Keyword Purchase feature lets you add more keywords and increase your plan’s limits without upgrading to a higher-tier SE Ranking subscription. Purchased keywords activate instantly and follow a separate billing cycle from your main subscription.
+
+Note: Only users with admin permissions can purchase additional keywords.
+
+Here’s how to purchase additional keywords:
+
+Go to Rankings in your project from the left-hand menu.
+Click on the Keyword Limits tab in the top-right corner of your account.
+In the pop-up, click "here".
+
+After clicking "here", you can adjust your keyword selection based on how many you need:
+
+PLAN	KEYWORDS
+Core	100 keywords
+Growth	500 keywords
+Enterprise	5000 keywords
+
+Note: The same principle applies to our Legacy plans — Essential (100), Pro (500), and Business (1000).
+
+After specifying how many keywords you need, click "Buy Now." You will be redirected to the checkout page to complete your purchase. Once the payment is processed, the keywords will be added to your account right away.
+
+Purchasing additional keywords from the Billing tab
+
+You can also increase your keyword limit directly from the Billing page. Here’s how:
+
+Go to Billing.
+Under “Your Limits”, locate the Keywords Added section.
+Hover over Keywords Added to see your current usage.
+Click the Extend The Limit button.
+FAQ
+
+Q Will the keywords I purchased be reflected in my current billing cycle?
+
+A No, keyword purchases follow a separate billing cycle from your main subscription.
+
+Q Can I cancel my subscription to additional keywords?
+
+A Yes, go to the Billing page and search for the Keyword Add-On. Click Cancel. The keywords will now remain active until the end of the current billing period.
+
+Q What happens if I downgrade my plan?
+
+A Your purchased keywords will remain active as long as the add-on payment is active.
+
+Q Can I get a refund for unused keywords?
+
+A We don’t offer partial refunds, but your purchased keywords will stay active until the end of their billing period.
+
+Q Can I purchase keywords for specific projects only?
+
+A No, all purchased keywords are applied account-wide and shared across all projects.
+
+Q Can I buy keywords for just one month?
+
+A The minimum commitment is one billing cycle. You can cancel anytime, and the keywords will remain active until the end of the paid period.
+
+Was this article helpful?
+Yes No
+2 out of 2 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

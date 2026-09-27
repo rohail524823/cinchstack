@@ -1,0 +1,93 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/31944097870487-AI-Notetaker-and-Meetings-Hub-feature-availability-and-limits
+FETCHED: 2026-09-26T22:52:05.464Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+ClickUp Brain AI
+AI Notetaker
+AI Notetaker and Meetings Hub feature availability and limits
+
+Learn about ClickUp AI Notetaker and Meetings Hub access by plan and user role.
+
+AI Notetaker is in early access. Pricing may evolve as we assess infrastructure costs.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+Activate the AI Notetaker ClickApp
+
+To use AI Notetaker and access Meetings Hub, an admin or owner must activate the AI Notetaker ClickApp.
+
+Try AI Notetaker
+
+For a limited time, admins can try AI Notetaker for free.
+
+Workspaces have 5 hours of free AI Notetaker usage per admin. Free hours are shared between all admins and do not reset. Personal, Shared, and Workspace AI Notetaker usage counts toward the five hour limit.
+
+The Workspace owner counts as an admin.
+
+For example, a Workspace with 3 admins shares 15 hours of free AI Notetaker usage. Members and guests cannot use free hours.
+
+Standard and advanced features
+
+Standard AI Notetaker includes Personal Notetaker notes and recordings.
+
+Advanced AI Notetaker includes:
+
+Personal, Shared, and Workspace Notetakers
+Custom AI Notetaker bot names
+Access to AI Notetaker by plan
+
+AI Notetaker usage can be purchased via the Everything AI Bundle on paid plans or as a standalone add-on on any plan. Both options are available in your Workspace's billing page.
+
+Plan	Can purchase AI Notetaker?	Can use advanced AI Notetaker features?	Can use AI Notetaker in SyncUps?
+Free Forever	Can be purchased as a standalone add-on	No	No
+Unlimited	Can be purchased via the Everything AI Bundle
+Can be purchased as a standalone add-on	No	Yes, once AI Notetaker usage has been purchased
+Business	Can be purchased via the Everything AI Bundle
+Can be purchased as a standalone add-on	No	Yes, once AI Notetaker usage has been purchased
+Business Plus	Can be purchased via the Everything AI Bundle
+Can be purchased as a standalone add-on	Yes	Yes, once AI Notetaker usage has been purchased
+Enterprise	Can be purchased via the Everything AI Bundle
+Can be purchased as a standalone add-on	Yes	Yes, once AI Notetaker usage has been purchased
+Access to AI Notetaker by user role
+
+The following table shows AI Notetaker feature availability by user role:
+
+User role	Can use AI Notetaker
+Free Forever guests	No
+View only guests	No
+Permission controlled guests	No
+Limited members view only	No
+Limited members	No
+Members	Yes
+Admins	Yes
+Access to Meetings Hub by plan
+
+Meetings Hub can be accessed on all plans.
+
+Access to Meetings Hub by user role
+
+Meetings Hub can be accessed by all user roles. People can only see the AI Notes they have permission to.
+
+Was this article helpful?
+Related articles
+Use AI Notetaker to take notes and record meetings
+Purchase or cancel ClickUp add-ons
+Intro to user roles
+What is the Planner?
+Microsoft Teams integration
+Articles in this section 
+Zoom recording notifications for ClickUp AI Notetaker
+Activate the AI Notetaker ClickApp
+AI Notetaker and Meetings Hub feature availability and limits
+Use AI Notetaker to take notes and record meetings
+Customize AI Notetaker
+Supported languages for AI Notetaker
+Go to ClickUp
+English (United States) 
+    
+Get Help

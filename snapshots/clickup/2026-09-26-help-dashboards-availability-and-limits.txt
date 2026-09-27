@@ -1,0 +1,116 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/21257864098071-Dashboards-feature-availability-and-limits
+FETCHED: 2026-09-26T22:51:01.414Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Features and ClickApps
+Dashboards
+Dashboards feature availability and limits
+
+ClickUp Dashboards enable teams and organizations to visualize, measure, and collaboratively report on their work. Availability and limits vary by plan and user role.
+
+Cards added to Dashboards also vary by plan and user role. Learn more
+
+Learn about availability and limits for other ClickUp features on our pricing page.
+
+Dashboards plan availability
+
+The following table describes Dashboard usage limits by plan:
+
+Plan	Dashboards usage limits
+Free Forever	60 uses
+Unlimited	100 uses
+Business	Unlimited uses
+Business Plus	Unlimited uses
+Enterprise	Unlimited uses
+What counts as a use
+
+Uses of Dashboards include the following actions:
+
+Create a Dashboard
+Create a Dashboard view
+View a Dashboard
+Add a card
+Edit a card
+Remove a card
+Remove a Dashboard
+
+These uses do not reset.
+
+Scheduled reports plan availability
+
+The following table describes scheduled reports usage limits by plan:
+
+Plan	Scheduled reports usage limits
+Free Forever	40 uses
+Unlimited	40 uses
+Business	40 uses
+Business Plus	Unlimited uses
+Enterprise	Unlimited uses
+What counts as a use?
+
+A use of scheduled reports is counted each time an email is sent to any number of recipients.
+
+For example, a Dashboard sends a scheduled report to ten recipients every Monday and Friday. This counts as two uses per week.
+
+These uses do not reset.
+
+Scheduled reports Automations usage
+
+Scheduled reports are also counted as active Automations and contribute to your monthly Automations usage.
+
+Dashboard availability by user role
+
+The following table describes the availability of Dashboard features by user role:
+
+Feature	Guests	Members	Admins
+Access Dashboards	Only when the Dashboard is shared with them.	Yes	Yes
+Access Dashboard views	Only when the location has been shared with them.	Yes	Yes
+Create Dashboards	No	Yes	Yes
+Add cards to Dashboards	No	Yes	Yes
+Use drilldown	Yes	Yes	Yes
+Save as PDF	Yes	Yes	Yes
+Guest limitations
+
+Guests are also subject to the following limitations:
+
+Guests will only see cards on a Dashboard if they have access to the tasks, Lists, Subfolders, or Folders included in the card.
+Guests can be invited to specific Dashboards with view only permissions.
+Comment and View only guests can’t change date and time-range controls on Timesheet and Time Reporting cards.
+Dashboard performance limitations
+
+The following table describes limits that are enforced to improve platform performance:
+
+Limit	Description
+100 cards per Dashboard	You can add a maximum of 100 cards to a Dashboard.
+Once you reach the 100 card limit, you won't be able to add new cards or duplicate existing cards, until at least one card is removed.
+500 rows per Dashboard or Overview	You can have up to 500 rows of cards on each Dashboard or Overview.
+Was this article helpful?
+Related articles
+Intro to Dashboards
+Create and share a Dashboard view
+Dashboards FAQ
+Create and share a Gantt view
+How do I import my work into ClickUp?
+Articles in this section 
+Dashboard settings
+Move a Dashboard
+Move and resize cards on Dashboards
+Schedule Dashboard Reports
+Pie Chart cards
+Intro to Dashboards
+Dashboards Hub
+Create and share a Dashboard view
+Drill-down view for Dashboard cards
+Average age of tasks
+
+See all 43 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

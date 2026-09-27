@@ -11,10 +11,11 @@ const money = (n) => (n === null || n === undefined ? '—' : `$${Number(n).toLo
 const ids = fs.readdirSync('src/data/pricing').filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5)).sort();
 const index = [];
 for (const id of ids) {
-  const p = JSON.parse(fs.readFileSync(`src/data/pricing/${id}.json`, 'utf8'));
   const tf = `src/data/tools/${id}.json`;
   if (!fs.existsSync(tf)) continue;
-  const t = JSON.parse(fs.readFileSync(tf, 'utf8'));
+  let p, t;
+  try { p = JSON.parse(fs.readFileSync(`src/data/pricing/${id}.json`, 'utf8')); t = JSON.parse(fs.readFileSync(tf, 'utf8')); } catch { console.log(`skip ${id}: data is being edited`); continue; }
+  if (!p.plans || !p.scenarios || !t.pros) continue;
   const L = [];
   L.push(`# ${t.name} — fact sheet (tool id \`${id}\`)`);
   L.push(`Prices verified ${p.checkedOn}. Layer: ${t.layer}. Category: ${t.category}. Vendor: ${t.vendor}. Tier: ${t.tier}.`);

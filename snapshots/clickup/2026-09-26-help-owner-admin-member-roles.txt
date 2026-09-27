@@ -1,0 +1,157 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/25710132309655-Owner-admin-and-member-type-user-roles
+FETCHED: 2026-09-26T22:50:44.450Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+User roles and permissions
+Owner, admin, and member-type user roles
+
+Quickly compare pricing and permissions for member-type user roles. Learn how to invite and convert people to these user roles.
+
+To learn about the guest-type user roles, take a look at our Guest-type user roles article.
+
+User role availability and limits vary by plan. Learn more
+
+Member types overview
+
+Member-type roles fit the needs of everyone in your organization.
+
+The following table provides an overview of these roles:
+
+Chat permissions for limited members view only and limited members differ from their permissions to other items and locations:
+
+Limited members view only and limited members can actively collaborate in Chat. This includes sending messages, DMs, and @mentions. Limited members can also create Chat Channels if they're given permission to Create views.
+
+Take a look at our Chat feature availability and limits article to see user role permissions for Chat.
+
+Role	Overview
+Limited members view only/Chat collaborators	Need someone with view-only permissions who can collaborate in Chat? Invite free Chat collaborators! Learn more about limited members view only/Chat collaborator Chat permissions.
+This role eliminates noise for people who don't actively engage in the details. Limited members view only/Chat collaborators have view only permissions to locations and items they are invited to.
+If they're given comment, edit, or full edit permissions to a location or item, they become a limited member.
+Unlike guests, they can be invited to Spaces!
+Limited members	This role is great for people who only need access to Chat and the locations where they work. Access is limited by default, making it easier to manage.
+When a location or item is shared with them, they can be given view only, comment, or edit permissions to that location or item.
+Unlike guests, limited members can be invited to and create Spaces!
+Members	This role is helpful for people who work and collaborate on multiple tasks and cross-functional teams.
+By default, members have full edit permissions to all public items. On Business Plus plans and above, Custom role permissions can be given.
+Admins	Admins are members with extra permissions to manage the Workspace, including billing, permissions, and integrations. By default, the admin role has every custom role permission activated except the Custom Role permission.
+On Business Plus and Enterprise plans, Workspace owners can disable any custom role permission for all admins. They can also create a custom admin role with access to all permissions.
+Owner	The owner created your Workspace or had ownership transferred to them. Each Workspace can only have one owner.
+Member types in detail
+
+These tables compare plan availability, pricing, permissions, and how these user roles are invited to your Workspace.
+
+Plan availability
+
+The following table shows the plan availability per member-type user role:
+
+Plan	Availability
+Limited members view only/Chat collaborators	Unlimited and above
+Limited members, members, admins, and owners	All plans
+Pricing
+
+The following table details pricing per member-type user role:
+
+User role	Subscription fee?	Pricing details
+Limited members view only/Chat collaborators	No	None
+Limited members
+members
+admins
+owners	Yes.
+Take a look at our Pricing page to see the subscription fee per plan.	What is an open seat?
+When you remove a limited member, member, or admin from your Workspace, their seat remains open.
+If your Workspace has an open seat, you can fill it by adding a paid user or converting a limited member view only or guest to a paid role at no charge.
+If you add a paid user in the middle of your billing cycle, you're charged a prorated amount for the number of days left until your plan renews.
+How do I check for open seats?
+See our article Manage admins, members, and guests to learn how to check if you have any open member-type seats.
+Permissions
+
+The following table details permissions per user role for items other than Chat:
+
+Chat permissions for limited members view only and limited members differ from their permissions to other items and locations:
+
+Limited members view only and limited members can actively collaborate in Chat. This includes sending messages, DMs, and @mentions. Limited members can also create Chat Channels if they're given permission to Create views.
+
+Take a look at our Chat feature availability and limits article to see user role permissions for Chat.
+
+User role	Permissions details
+Limited members view only/Chat collaborators	Have view only permissions to locations and items they are invited to.
+When a comment, edit, or full edit permission to a location or item is given, the user becomes a limited member, and a subscription fee is charged.
+If a limited member view only is invited to a team, they become a limited member.
+Limited members	When inviting them to a location or item, view only, comment, edit, or full edit permissions can be given for that location or item.
+Members and admins	By default, they have full edit permissions to all public locations and items.
+Owners	Have full edit permissions to all public locations and items. They have full access to all Workspace settings.
+How do invite permissions impact default permissions for Workspace locations and items?
+
+To learn how view only, comment, and edit permissions impact default permissions to specific items and locations, browse the tables in our Permissions in detailarticle. For example:
+
+By default, a member can access all public Folders.
+A member with comment permissions can comment on tasks in this Folder, but can't edit the Folder settings.
+What Workspace-level permissions do these user roles have by default?
+
+See our article Default permissions for guests, limited members, members, and admins for an overview of Workspace-level permissions for these roles.
+
+Invite permissions
+
+Permission to invite users to the Workspace is a Workspace-level permission.
+
+Invite people to your Workspace
+
+Read our Invite people to join your Workspace article to learn how to:
+
+Invite members and admins to join your Workspace.
+Invite people from a Chat or Channel.
+Share Workspace locations and items with limited members view only/Chat collaborators and limited members.
+On the Enterprise plan only, invite via our API or SCIM provisioning.
+Manage individual permissions for view only users
+
+Limited members view only/Chat collaborators and guests have four individual permissions. Admins and owners can edit individual permissions for time estimates, time tracking, adding or removing tags, or creating views.
+
+Manage people settings
+
+Your Workspace manage people settings tracks the users in your Workspace, their info, and activity.
+
+Identify the members in your Workspace
+
+Owners, admins, and member-type users are easily identified by the circle in the lower-right corner of their avatars. The circle is green when the person is online and white when they're not.
+
+Guest-type users have a green or white square in the upper-right corner of their avatars.
+
+See user status
+
+User status indicates a person's availability in the Workspace. For example, they're out of office, have paused notifications, or are on vacation.
+
+You can see a person's status to the right of their name.
+
+If an owner, admin, or member-type's notifications are paused, there's a z on the white circle in the lower-right corner of their avatar.
+
+Was this article helpful?
+Related articles
+Guest-type user roles
+Pricing per user role and plan
+Manage the people in your Workspace
+Permissions in detail
+Intro to user roles
+Articles in this section 
+Guest-type user roles
+Manage invite permissions
+Manage individual permissions for view only users
+Allow requests for full edit permissions
+Owner, admin, and member-type user roles
+Allow requests to upgrade to a member
+Permissions FAQ
+Intro to user roles
+Convert user roles
+Intro to permissions
+
+See all 14 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

@@ -1,0 +1,1457 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206537297-Contributor-roles-and-permissions
+FETCHED: 2026-09-26T22:14:02.181Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+ACCOUNT
+CONTRIBUTORS
+Contributor roles and permissions
+Assign roles to your contributors to manage their access to your site's content and settings.
+
+Last updated September 17, 2026
+
+English
+
+When you invite a contributor, you can assign permission levels depending on your subscription. If you have multiple contributors, you can use permissions to limit their access to specific areas. You can assign multiple roles to a contributor, or make them an administrator to give them full access. Contributors can remove themselves at any time.
+
+Also try: Managing domain permissions, Contributor basics, Inviting a contributor, Edit contributor permissions, Removing another contributor from your site, Removing yourself as a contributor, Basic authors, and Change a site owner.
+
+Video on contributor permissions
+
+This video shows contributor levels and the actions they can take based on their permissions.
+
+Basic permission roles
+
+As an owner or administrator, you can invite contributors and edit their permissions. Parking page domains only support owners and administrators.
+
+Most Squarespace subscriptions include these basic permissions:
+
+Owner - Each subscription has one owner, usually the person who created the account. Owners can manage all content and settings, and transfer ownership to a different account.
+Administrator - Administrators can do almost everything the owner can, except transfer ownership.
+Billing - These contributors can change or cancel subscriptions and view invoices. They can’t add or edit content.
+
+Note
+
+To let all contributors license Getty Images, turn on Let non-admins purchase assets in the Permissions & Ownership panel.
+
+Permission roles by subscription
+
+Some subscriptions will have unique permission roles based on the features available.
+
+WEBSITES
+ACUITY SCHEDULING
+ENTERPRISE
+
+These permission roles are for Squarespace websites:
+
+Analytics - Can access website and commerce analytics panels.
+Comment moderator - Can review and post blog comments without moderation, and receive email notifications for new comments.
+Email Campaign editor - Can create, send, and track analytics for Email Campaigns. They can't add or make changes to an Email Campaigns subscription.
+Store manager - Can add and reorder products, manage orders, and invoice clients. They can also add some content like blog posts and events. To edit customer reviews or abandoned checkout recovery emails, store managers also need Administrator or Email Campaigns editor permissions.
+Viewer - Can view private sites and password-protected sites without entering the site password. They still need passwords for specific password-protected pages.
+Website editor - Can add products, blocks, and other content to existing pages. They can’t add new pages or make style changes.
+
+If you log in to Acuity with a Squarespace account, you can assign these roles:
+
+Scheduling administrator - Can view and manage everything in the scheduling panel.
+Scheduling view & edit - Can view and edit their assigned calendars.
+Scheduling view only - Can view their assigned calendars.
+
+Note
+
+If you log in with an Acuity account, you can assign staff the same access through a different process. Learn more about inviting contributors to Acuity Scheduling.
+
+If you’re on an Enterprise plan, you can assign organization-level roles, and site-level permissions to the team members in your organization.
+
+Organization roles
+
+Team administrator - Can access, edit, and publish all organization sites, and manage member permissions at both the organization and site levels.
+Team member - Can access select organization sites and create trial sites.
+
+Site permissions
+
+Admin - Can edit all site content and site settings.
+Draft editor - Can create, edit, and save page drafts, and manage Asset library images. They can't edit live pages or publish changes.
+Website editor - Can edit site content and manage Asset library images, but can’t change site settings.
+Website manager - Can edit site content and page settings in the Pages panel, customize styles in the Design panel, and manage media in the Asset library.
+Access for each permission level
+
+If a permission type isn't listed, contributors with those permissions can't make changes in this part of the site.
+
+Access to site settings panel
+
+These permissions are for features and settings found in your Settings panel.
+
+	
+
+Owner
+
+	
+
+Administrator
+
+	
+
+Billing
+
+Buy or connect domains	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Change business information	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Change site availability	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Change site language	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Change site ownership	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Connect Squarespace Extensions	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Connect third-party accounts	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Delete the site	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+Edit comments settings	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Enable developer mode
+
+(version 7.0 only)
+
+	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Import/export	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Manage domains	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Manage Google Workspace billing	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Manage notifications settings	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Manage permissions	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+View owner email address	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Access to billing information
+
+Note
+
+Domains are billed separately from a Squarespace site and have different contributor roles. Learn more about managing domain permissions.
+
+Owners, administrators, or team members with billing permissions can:
+
+Cancel subscription
+Change billing plan
+Upgrade trial to paid service
+View and change billing information
+View invoices
+Access to edit and manage commerce content
+
+Website editors can edit commerce-related site content. Store managers can manage daily online store tasks.
+
+	
+
+Owner and Administrator
+
+	
+
+Website editor
+
+	
+
+Store manager
+
+Add, edit, or remove all products	
+
+✅
+
+	
+
+✅ *
+
+	
+
+✅
+
+Buy shipping labels	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Change shipping settings	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Change store currency	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Change tax settings	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Connect a payment processor	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Create, edit, and delete discounts	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Edit checkout settings	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Edit customer email notifications	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Edit related products	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Enable/disable customer reviews	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Fulfill, cancel, and refund orders	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+Invoice clients and manage projects	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+Manage donations	
+
+✅
+
+	
+
+✅ *
+
+	
+
+✅
+
+Manage accounting data	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+Reorder products	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+Use Squarespace point of sale	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+View orders	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+* Website editors can edit products, except subscription settings. They can also add donation blocks and create or edit donation funds. They can't delete funds or view contributions.
+
+Access to edit pages and content
+
+These permissions can view, add, or edit site content, like pages and blocks.
+
+	
+
+Owner and Administrator
+
+	
+
+Website editor
+
+	
+
+Billing
+
+	
+
+Store manager
+
+	
+
+Viewer
+
+Add and edit blog posts	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Add and edit events	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Add and edit gallery images	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Add and edit portfolio sub-pages (version 7.1 only)	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Add code blocks	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Add code injection	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Add pages	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Comment without moderation	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Connect third-party storage options to form blocks	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Delete pages	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Edit cover pages
+
+(version 7.0 only)
+
+	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Edit footers	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Edit headers (version 7.0 only)	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Edit navigation titles and URL slugs	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Edit page content	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Edit page settings	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Reorder pages	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Reply to comments	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+View password-protected site content	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+✅
+
+View deleted pages and restore pages	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Access to edit design and site styles
+
+Only the owner and administrators can make design changes to a site. This includes:
+
+Changing the logo and title
+Creating a lock screen
+Creating an announcement bar
+Making style changes
+Switching templates (version 7.0 only)
+Access to the asset library
+
+Only the owner, administrators and website editors can access and manage the asset library. They can:
+
+Access and use the asset library
+Add content to the asset library
+Delete content from the asset library
+Download asset library content
+Edit asset library content
+Empty asset library trash
+License Getty images
+Organize asset library content using folders
+Restore deleted content
+
+Note
+
+Email Campaigns editors and store managers can add files to the Asset library by uploading them to the site. However, they can’t manage files directly from the library.
+
+Access to site analytics
+
+Only the owner, administrators, and analytics contributors can view a site's analytics panel.
+
+Access to the Contacts panel
+
+Contributors can access these features through the Contacts panel on the site.
+
+	
+
+Owner and Administrator
+
+	
+
+Store Manager
+
+	
+
+Email Campaigns editor
+
+Access to Subscribers	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+Access to Leads	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+Access to Customers	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Access to Members	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Access to Donors	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Access to Form Submitters	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+Add Subscribers	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+Manage Tags	
+
+✅
+
+	
+
+✅
+
+	
+
+✅
+
+Export contacts	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Delete contacts	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Access to Email Campaigns and Marketing tools
+
+These permissions apply to your Email Campaigns dashboard and marketing tools across your site.
+
+	
+
+Owner and Administrator
+
+	
+
+Billing
+
+	
+
+Email Campaigns editor
+
+	
+
+Store Manager
+
+Automations	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Create mailing lists	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+✅
+
+Create sender details	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Draft and send email campaigns	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+❌
+
+Edit promotional pop-up settings	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Edit share button settings (version 7.0 only)	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Manage Email Campaigns billing	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Manage SEO settings	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+	
+
+❌
+
+Import and export mailing lists	
+
+❌
+
+	
+
+❌
+
+	
+
+✅
+
+	
+
+✅
+
+Do contributors get email notifications?
+
+Yes. Contributors receive automated email notifications based on their role and permissions. To manage notifications, go to the Notifications tab in your contributor profile.
+
+We send these emails to the address listed in your profile. You can review and update your email address in the Account & Security tab of your contributor profile.
+
+Can my billing contributors disable emails?
+
+Administrators and billing contributors receive important emails about site billing. This includes receipts for one-time purchases. Because these contain essential information, it's not possible to turn off these notifications.
+
+If a permission type isn't listed, contributors with those permissions won't receive email notifications.
+
+	
+
+Owner and Administrator
+
+	
+
+Billing
+
+	
+
+Store manager
+
+Billing notifications	
+
+✅
+
+	
+
+✅
+
+	
+
+❌
+
+Comments notifications	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Commerce orders and donations notifications	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+Domain verification	
+
+✅
+
+	
+
+❌
+
+	
+
+❌
+
+Pricing plans for paywalled content	
+
+✅
+
+	
+
+❌
+
+	
+
+✅
+
+Manage site owner notifications in Acuity Scheduling
+
+You manage site owner notifications for Acuity Scheduling separately. Learn more about sending internal appointment notifications and agendas with Scheduling.
+
+IN THIS GUIDE
+Video on contributor permissions
+Basic permission roles
+Permission roles by subscription
+Access for each permission level
+Do contributors get email notifications?
+Can my billing contributors disable emails?
+Manage site owner notifications in Acuity Scheduling
+People also viewed
+
+Invite a contributor
+
+Editing contributor permissions
+
+Managing domain permissions
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

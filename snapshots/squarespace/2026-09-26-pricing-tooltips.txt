@@ -1,0 +1,303 @@
+SOURCE: https://www.squarespace.com/pricing
+FETCHED: 2026-09-26T22:15:48.518Z
+RENDERER: curl (raw server-rendered HTML, US egress); text extracted from the page's feature tooltips (<details role="tooltip">), which the headless-browser text dump does not include because they are collapsed
+----
+Beautiful templates and powerful tools for any website
+  TOOLTIP: Squarespace offers beautiful templates designed to solve your business or personal goals.
+
+Free custom domain*
+  TOOLTIP: All Squarespace website plans purchased for an annual term include one (1) year of free domain registration on available domains on our cheapest pricing tier. Domains registered through this promotion will renew at our standard rate, plus applicable taxes, after the first year. Outside of this offer, you can attach unlimited domains to any website plan, on a monthly or yearly basis. *The free domain must be registered within one year of the start of your eligible website subscription and there may only be one free domain per website.
+
+Built-in AI Tools
+  TOOLTIP: Generate professional content with powerful AI tools built right into Squarespace
+
+Up to 2 contributors
+  TOOLTIP: The number of contributors allowed on your website.
+
+Credit card rates starting at 2.9% + $0.30
+  TOOLTIP: Accept all major credit and debit cards with Squarespace Payments. Available only with Squarespace Payments.
+
+Online store transaction fee of 2%
+  TOOLTIP: Applied when selling online products, services, or donations. Upgrade your plan for 0% transaction fees.
+
+Digital Content and Memberships transaction fee of 7%
+  TOOLTIP: Build your business and your community with Courses, Memberships, and more. Upgrade your plan for lower transaction fees.
+
+Sell products and services
+  TOOLTIP: There's no limit to the number of products and services you can sell on your online store. Sell physical products, services, and digital products.
+
+Send invoices for free
+  TOOLTIP: Accept payments from clients with a single click and maintain a consistent brand presence with a professional invoice that matches your brand identity, included for free on all plans.
+
+Sell content and memberships
+  TOOLTIP: Sell content and memberships, including online courses, blogs, and video with a transaction fee.
+
+Unlimited contributors
+  TOOLTIP: The number of contributors allowed on your website.
+
+Advanced website analytics
+  TOOLTIP: All website analytics plus additional conversion metrics to understand which areas of your site drive visitors to take actions.
+
+Complete customization with CSS and Javascript
+  TOOLTIP: Build upon Squarespace's beautiful templates by adding bespoke CSS and Javascript elements.
+
+Professional email from Google Workspace**
+  TOOLTIP: If you sign up for select plans and register or connect a domain, you'll receive one (1) professional Gmail and Google Workspace account, free for the first year. Additional users on your Google Workspace account will be billed at the standard rate. After the first year your Gmail and Google Workspace account will renew at the standard annual or monthly rate, plus applicable taxes, depending on which billing plan you choose. **Offer is only valid for new Google Workspace accounts set up through Squarespace. Domains that have previously had or currently have a Google Workspace account cannot be used to redeem the offer. Offer must be redeemed within one year from purchase of the eligible plan.
+
+Online store transaction fee of 0%
+  TOOLTIP: Applied when selling online products, services, or donations.
+
+Digital Content and Memberships transaction fee of 5%
+  TOOLTIP: Build your business and your community with Courses, Memberships, and more. Upgrade your plan for lower transaction fees.
+
+Professional shipping and tax services
+  TOOLTIP: Buy and print shipping labels, get real-time carrier rates, and calculate shipping costs. Calculate tax rates in real-time for over 100 countries with automated taxes, for 0.15% (maximum $0.99) per transaction.
+
+Sales funnel analytics
+  TOOLTIP: Access to ecommerce analytics including form and button conversion insights.
+
+API integrations for advanced sales functionality
+  TOOLTIP: Build custom integrations to third party systems to handle your back office and ecommerce needs, from order fulfillment to inventory management and much more.
+
+Basic functionality for selling in releases
+  TOOLTIP: Enable one-click checkout and set purchase limits on products and services.
+
+Credit card rates starting at 2.7% + $0.30
+  TOOLTIP: Accept all major credit and debit cards with Squarespace Payments. Available only with Squarespace Payments.
+
+Digital Content and Memberships transaction fee of 1%
+  TOOLTIP: Build your business and your community with Courses, Memberships, and more. Upgrade your plan for lower transaction fees.
+
+Professional shipping and tax services
+  TOOLTIP: Buy and print shipping labels, get real-time carrier rates, and calculate shipping costs. Calculate tax rates in real-time for over 100 countries with automated taxes, for 0.10% (maximum $0.99) per transaction.
+
+Advanced functionality for selling in releases
+  TOOLTIP: Enable one-click checkout, set purchase limits on products and services, and enable cart reservations and countdown timer.
+
+Credit card rates starting at 2.5% + $0.30
+  TOOLTIP: Accept all major credit and debit cards with Squarespace Payments. Available only with Squarespace Payments.
+
+Digital Content and Memberships transaction fee of 0%
+  TOOLTIP: Build your business and your community with Courses, Memberships, and more.
+
+Professional shipping and tax services
+  TOOLTIP: Buy and print shipping labels, get real-time carrier rates, and calculate shipping costs. Calculate tax rates in real-time for over 100 countries with automated taxes, for 0.05% (maximum $0.99) per transaction.
+
+Designer templates to fit every need
+  TOOLTIP: Squarespace offers beautiful templates designed to solve your business or personal goals.
+
+Drag-and-drop editor
+  TOOLTIP: Customize page layouts easier than ever with Fluid Engine, our newest website editing experience on version 7.1 websites
+
+AI Credits
+  TOOLTIP: Credits represents total capacity for all AI features. Included subscription credits reset monthly.
+
+AI Visibility
+  TOOLTIP: Track your brand in AI search. One run scans a single query on one AI model. (Available for English-language accounts only).
+
+Mobile-optimized websites
+  TOOLTIP: All Squarespace websites are optimized for mobile. Shopping and checkout work flawlessly on any device.
+
+SEO tools
+  TOOLTIP: Squarespace guides you through simple steps to help improve your site's search ranking.
+
+24/7 customer support
+  TOOLTIP: Squarespace's award-winning customer care team is ready to help 24/7.
+
+Basic website metrics
+  TOOLTIP: Track website visits, traffic sources, visitor geography, popular content, and more.
+
+Video hosting & storage
+  TOOLTIP: Upload video, display your video library beautifully, and allow visitors to stream directly on your site.
+
+Unlimited bandwidth
+  TOOLTIP: Scale with confidence. There are no caps on your bandwidth or storage usage.
+
+Contributors
+  TOOLTIP: The number of contributors allowed on your website.
+
+SSL security
+  TOOLTIP: Squarespace automatically creates and configures free SSL certificates with industry recommended 2048-bit keys and SHA-2 signatures for all of our websites, including ones with custom domains. SSL secure sites rank more highly on Google.
+
+Squarespace Extensions
+  TOOLTIP: Squarespace Extensions are a collection of third-party tools to enhance your site and streamline key tasks, like sales tax compliance, drop shipping, SEO, and social media marketing. Built and managed by third-party services, our extensions connect to your site and are the equivalent of plugins, add-ons, or apps.
+
+Code block (basic)
+  TOOLTIP: Use HTML, plain text, markdown, or CSS code to customize your website.
+
+CSS Editor
+  TOOLTIP: Change fonts, colors, and backgrounds
+
+Embed block
+  TOOLTIP: Embed content from external sites that use the oEmbed standard.
+
+Accept Donations
+  TOOLTIP: Use the Donation block to easily collect donations for your charity or cause through Squarespace Payments, Stripe, or PayPal.
+
+Code block (advanced)
+  TOOLTIP: Customize with CSS, HTML, iFrames, JavaScript
+
+Code injection
+  TOOLTIP: Add code that affects your entire site or a single page, like Meta Pixel or live chat services.
+
+Premium integrations and blocks
+  TOOLTIP: Grow your website with integrations and apps that connect with your visitors, create leads, and build your customer database. Add restaurant reservation booking through OpenTable or ordering through ChowNow. Even showcase and sell items via Instagram.
+
+Mobile information bar
+  TOOLTIP: Display your business information in a banner at the bottom of your mobile site.
+
+Announcement bar
+  TOOLTIP: Create and style a message that displays across your pages. Great for announcing sales, promotions, or change to your hours.
+
+Squarespace Payments
+  TOOLTIP: Centralize your business finances in one unified dashboard with Squarespace Payments. Accept all major credit and debit cards along with popular methods like Apple Pay, Klarna, and Afterpay.
+
+Standard cards
+  TOOLTIP: Accept all major credit and debit cards with Squarespace Payments.
+
+Premium cards
+  TOOLTIP: The Premium card rate applies to all cards issued by American Express and some commercial, corporate, and business cards depending on your country. Refer to the Squarespace Help Center for details specific to your country.
+
+ACH payments
+  TOOLTIP: Accept electronic transfers to your bank as payment for the products and services you sell on your Squarespace site. ($250 minimum transaction amount on all plans, available only in the US)
+
+International card surcharge
+  TOOLTIP: Take your business global and accept and process payments from around the world.
+
+Currency conversion fee
+  TOOLTIP: Accept payments from around the world in your own currency
+
+Point of Sale (POS) Payment Processor
+  TOOLTIP: Sell face-to-face and accept payment with a Point of Sale system (available in the U.S. and U.K.)
+
+Online store transaction fee
+  TOOLTIP: Applied when selling online products, services, or donations. Upgrade your plan for 0% transaction fees.
+
+Digital Content and Memberships transaction fee
+  TOOLTIP: Build your business and your community with Courses, Memberships, and more. Upgrade your plan for lower transaction fees.
+
+Send Pay Links to collect payments
+  TOOLTIP: Maximum number of active pay links for products, services, and custom amounts (fixed or variable).
+
+No invoice transaction fees
+  TOOLTIP: Send and process invoices for free on all Squarespace plans.
+
+Fully integrated eCommerce
+  TOOLTIP: With robust order, inventory, and product catalog management, plus payment, tax and shipping tools needed to sell online. Accept payments with Stripe or PayPal, and allow customers to pay with credit card, Apple Pay or Afterpay.
+
+Sell unlimited products and services
+  TOOLTIP: There's no limit to the number of products and services you can sell on your online store. Sell physical products, services, and digital products.
+
+Gift cards
+  TOOLTIP: Create and sell digital gift cards to your customers.
+
+Send invoices and manage projects
+  TOOLTIP: Accept payments from clients with a single click and maintain a consistent brand presence with a professional invoice that matches your brand identity, included for free on all plans.
+
+Sell courses, blogs, videos, memberships, subscriptions
+  TOOLTIP: Sell content and memberships, including online courses, blogs, and video with a transaction fee.
+
+Checkout on your domain
+  TOOLTIP: Direct customers to a secure checkout page on your domain (e.g., https://example.com/checkout) for a consistent shopping experience and stronger sense of security.
+
+Promote products on Facebook and Instagram
+  TOOLTIP: Connect with Facebook to sync your product catalog.
+
+Abandoned cart recovery
+  TOOLTIP: Send automated email reminders to customers who abandon the checkout process before completing their purchases.
+
+Product Status (limited availability labels, out of stock notifications)
+  TOOLTIP: Increase urgency and encourage conversion by letting your customers know the current inventory level of any product.
+
+Sell in person with Squarespace point of sale (POS)
+  TOOLTIP: Use the Squarespace mobile app (available only in the U.S. for iOS and Android) to accept payments through Square and keep your inventory, customers, and sales analytics in sync.
+
+Sell subscription goods or services
+  TOOLTIP: Create and sell subscription products to sell goods or services in your online store on a weekly or monthly basis to generate recurring revenue.
+
+OpenTable block
+  TOOLTIP: Encourage visitors to book reservations or sign up for waitlists through OpenTable.
+
+Menu block
+  TOOLTIP: Organize your restaurant's appetizers, entrees, and desserts with a menu directly on your site.
+
+Sell custom merchandise using a print on demand drop shipping service
+  TOOLTIP: Connect your store to Printful to sell custom printed, embroidered, and engraved products anywhere in the world. Design and sell on any plan.
+
+Automated global tax rate calculations
+  TOOLTIP: Get automatic tax rate calculations in over 100 countries. Pay a fee when tax is calculated, capped at a maximum based on your store's currency.
+
+Offer discounts
+  TOOLTIP: Create discounts that apply to qualifying orders in checkout, with options like 'Buy X, Get Y,' automatic application, and free shipping. Set usage limits, subscription discounts, and customer restrictions to fully control your store's promotions.
+
+Payment plans
+  TOOLTIP: Let customers pay over time with upfront deposits and incremental installments. Customize payment amounts, intervals, and schedules to lock in commitments early and automatically collect remaining balances.
+
+Display physical products in Google Shopping
+  TOOLTIP: Using our integration with Google Merchant Center, you can display your physical products in product listings across Google, like in Google Shopping, Google image searches, and on YouTube.
+
+Advanced Facebook and Instagram advertising and insights
+  TOOLTIP: Use Meta Pixel and Facebook's dynamic ads to promote the products you sell, and drive more traffic to your site.
+
+Advanced merchandising features
+  TOOLTIP: Tools designed to help you increase sales: display related products, offer product waitlists, drive urgency with quantity limits and low stock alerts, and more.
+
+Shipping labels
+  TOOLTIP: Get UPS or USPS shipping labels directly through your store for orders shipping within the United States.
+
+Carrier-calculated shipping
+  TOOLTIP: Calculate the shipping cost at checkout based on your shopper's address and shopping cart with real-time rates from popular carriers in your country.
+
+ChowNow integration
+  TOOLTIP: Add online food ordering to your site.
+
+Commerce APIs
+  TOOLTIP: Build custom integrations to third party systems to handle your back office and ecommerce needs, from order fulfillment to inventory management and much more.
+
+Mini cart
+  TOOLTIP: Provide customers with a quick view of their cart and a faster pathway to checkout.
+
+Express checkout
+  TOOLTIP: Allow customers to complete purchases using their preferred digital wallet the moment a release happens.
+
+Quantity limits
+  TOOLTIP: Set limits on the amount of items or services a customer can purchase, ensuring fairness during high-demand releases and drops.
+
+Reserved cart & timer
+  TOOLTIP: Allow customers to reserve an item in their cart for a limited time, with a countdown timer that boosts urgency and encourages checkout.
+
+Contacts Panel for audience management
+  TOOLTIP: Collect unlimited email subscribers, customers, members, donors, and form submissions. Maintain detailed user profiles, and segment your audience.
+
+Customer accounts
+  TOOLTIP: Your customers can create accounts and sign in for faster checkout, helping you increase sales and build ongoing relationships.
+
+Generate leads via Form blocks
+  TOOLTIP: Create and customize forms to collect information from visitors using contact forms, surveys, polls, applications, and more.
+
+Grow audience subscriptions using Newsletter blocks
+  TOOLTIP: Encourage visitors to subscribe to your mailing list.
+
+Traffic and activity insights
+  TOOLTIP: Measure your site's traffic and engagement.
+
+Search keyword analysis for SEO
+  TOOLTIP: Identify which terms direct visitors to your site so you can focus your content on the search terms people use.
+
+Track popular site content
+  TOOLTIP: Understand how your site performs against the goals you set for visitor engagement.
+
+Promotional pop-ups
+  TOOLTIP: Trigger a new subscribers form, share a discount, or make an announcement that appears when a visitor loads your site.
+
+Form and button conversion insights
+  TOOLTIP: Gain insight into how visitors engage with the forms and buttons on your site.
+
+Ecommerce analytics
+  TOOLTIP: Review data on the how often your customers visit your site, view products, add products to carts, and make purchases.
+
+Mailchimp integration
+  TOOLTIP: Grow your subscriber list, send newsletters, and sync information from your online store.
+
+Zapier integration
+  TOOLTIP: Use Zapier as form storage to trigger automated actions when visitors submit a form.

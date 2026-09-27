@@ -1,0 +1,150 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/34741383911959-Track-your-Workspace-s-Brain-AI-usage
+FETCHED: 2026-09-26T22:51:33.745Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+Owners and Admins
+Track your Workspace's Brain AI usage
+
+The Analytics page displays your Workspace's AI use, including the value AI created, your AI Credit consumption by feature, and individual Super Agent runs.
+
+Brain AI feature availability and limits vary by plan and user role. Learn more
+
+Admins and members can view the AI usage dashboard. Guests and limited members cannot.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+Open your Analytics page
+
+There are multiple ways to open your Analytics page.
+
+From your Workspace settings
+
+To open your Workspace's AI reporting from your Workspace settings:
+
+In the upper-left corner, click your Workspace avatar.
+Select Settings.
+In the All settings sidebar, click AI Usage.
+
+From the AI Hub
+
+To open your Workspace's AI reporting from the AI Hub:
+
+In your Global Navigation, hover over AI.
+In the AI Hub sidebar, select Analytics.
+View AI value and activity on the Analytics tab
+
+On the Analytics tab, the Overview section shows the value your AI created over the last 30 days.
+The overview includes two metrics:
+
+Metric	Description
+Time Saved	The time your Workspace saved by using AI. Each completed AI action is multiplied by a time benchmark, and the results are added together.
+Human Cost Savings	Time Saved multiplied by an hourly rate of $50.
+Time benchmarks
+
+A time benchmark is the number of minutes a person would spend doing an action by hand. Change the benchmarks to match how fast your team works.
+To edit the time benchmarks:
+
+In the Overview section, select Edit.
+In the Time benchmark modal, enter the minutes for each action type.
+
+Select Save.
+
+To go back to ClickUp's defaults, select Restore default.
+These are the default benchmarks:
+
+Action	Default minutes
+Each task creation & update	4
+Each doc creation & update	6
+Each comment creation & update	2
+Each summary creation & update generated	6
+Each search & load assets	3
+Each image generation	30
+Each external app action	5
+Each app search	5
+Each view creation or update	7
+Each Artifact creation	60
+
+Editing a benchmark changes the Time Saved and Human Cost Savings metrics. It doesn't change how many AI Credits an action uses.
+
+Actions completed
+
+The Actions completed section counts AI actions by type, including tasks created or updated, Docs created or updated, images generated, comments or chats sent, Artifacts created or edited, and assets searched or loaded. The chart below it plots these actions by day.
+The Agent Performance table shows what each of your Super Agents produced:
+
+Column	Description
+Agent	The Super Agent's name.
+Actions completed	The number of actions the Super Agent finished.
+Time saved	The Super Agent's actions multiplied by their time benchmarks.
+Value created	The Super Agent's time saved multiplied by the hourly rate.
+Cost	What the Super Agent's runs cost.
+ROI	Value created compared to cost, shown as a multiplier such as 330x.
+Creator	The person who created the Super Agent.
+
+Use My agents to see only the Super Agents you created. Use Find agent to search for one by name.
+
+Recent activity
+
+The Recent activity section lists the latest AI actions.
+
+View your credit usage breakdown
+
+On the Credits Usage tab, see how many of your monthly credits your Workspace has used, and the breakdown by feature. Use this tab to see which feature is driving your total usage before you investigate that feature in more detail.
+The Usage Trend chart plots credits used against your monthly Limit, with a marker for Today.
+
+View individual Super Agent runs on the Activity tab
+
+On the Activity tab, see individual Super Agent runs. Filter them by Date run, Status, My agents, and Agent using the options in the upper-left corner.
+To open a Super Agent, click its name.
+For estimated credit use by other AI features, read How are AI Credits consumed?
+
+Super Fair Billing policy
+
+Learn more about our Super Fair Billing policy.
+
+Usage notification
+
+Admins are notified via a banner and in the Agents and Automations menus in location headers when your Workspace is at 80%, 90%, and 100% of your AI usage.
+At just over 100% of usage, you won't be able to access premium features until they renew the following month.
+To avoid interruption of your premium features, you can purchase more AI Credits. To prevent future disruptions to your AI productivity, you can set up overage protection.
+
+Purchase AI Credits and overage protection
+
+To add AI Credits, click Add credits in the upper-right corner.
+Select a suggested amount or click Custom to add more credits in $10 increments. Credits are $0.001 / credit, and the suggested amounts are $10, $20, and $30.
+
+To avoid interruption of your premium features, click the Avoid interruption toggle to set up overage protection. The toggle sets a Max monthly top-up of $10. You can also purchase overage protection when purchasing AI Credits from the add-ons tab of your Workspace's Billing page.
+If you trigger overage protection by using all of your AI Credits, your credit pack size will be upgraded upon your next renewal.
+
+To deactivate overage protection, click the Avoid interruption toggle off.
+
+Was this article helpful?
+Related articles
+ClickUp Brain AI feature availability and limits
+Purchase or cancel ClickUp add-ons
+Intro to billing
+Manage Super Agents and create templates
+Use relative or absolute dates
+Articles in this section 
+Set up your team's Workspace
+Intro to pricing
+Invite people to your Workspace
+Track your Workspace's Brain AI usage
+Invite people to join your Workspace from Chat
+Default user role permissions
+User role availability and limits
+Set up your team's Workspace from scratch
+Intro to billing
+Intro to ClickUp Assist
+
+See all 26 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

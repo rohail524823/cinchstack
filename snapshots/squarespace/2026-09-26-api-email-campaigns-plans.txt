@@ -1,0 +1,791 @@
+SOURCE: https://www.squarespace.com/api/checkout/available-plans/plan-types/campaigns/applicable?currency=USD&entry-point=SQSP_FRONT_SITE
+FETCHED: 2026-09-26T22:54:49.000Z
+RENDERER: curl (JSON from Squarespace's public checkout API, US egress, currency=USD); this is the request the Email Campaigns pricing section on squarespace.com/email-marketing makes to fill in its prices (observed in the headless browser). Below: one summary line per plan (feature level, billing period, price, per-month display, annual saving and the yearly total at the monthly price, as returned), then the full JSON pretty-printed.
+----
+== Summary (one line per plan, sorted by rank then billing period) ==
+campaigns_starter_unlimited | displayName "500 emails per month" | billingPeriod P1M (Monthly) | price USD 12.00 | formattedPrice $12 | formattedPricePerMonth $12 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_500-monthly-usd-aug-2025-tier-test-variant-1
+campaigns_starter_unlimited | displayName "500 emails per month" | billingPeriod P1Y (Annually) | price USD 96.00 | formattedPrice $96 | formattedPricePerMonth $8 | annualSavingsPercent 33 | yearlyTotalFromMonthlyPrice 144.00 | plan name campaigns-campaigns_500-annual-usd-aug-2025-tier-test-variant-1
+campaigns_core_unlimited | displayName "5,000 emails per month" | billingPeriod P1M (Monthly) | price USD 20.00 | formattedPrice $20 | formattedPricePerMonth $20 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_5000-monthly-usd-jun-2025-variant
+campaigns_core_unlimited | displayName "5,000 emails per month" | billingPeriod P1Y (Annually) | price USD 168.00 | formattedPrice $168 | formattedPricePerMonth $14 | annualSavingsPercent 30 | yearlyTotalFromMonthlyPrice 240.00 | plan name campaigns-campaigns_5000-annual-usd-jun-2025-variant
+campaigns_10000 | displayName "10,000 emails per month" | billingPeriod P1M (Monthly) | price USD 28.00 | formattedPrice $28 | formattedPricePerMonth $28 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_10000-monthly-usd-jun-2025-variant
+campaigns_10000 | displayName "10,000 emails per month" | billingPeriod P1Y (Annually) | price USD 240.00 | formattedPrice $240 | formattedPricePerMonth $20 | annualSavingsPercent 28 | yearlyTotalFromMonthlyPrice 336.00 | plan name campaigns-campaigns_10000-annual-usd-jun-2025-variant
+campaigns_25000 | displayName "25,000 emails per month" | billingPeriod P1M (Monthly) | price USD 40.00 | formattedPrice $40 | formattedPricePerMonth $40 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_25000-monthly-usd-jun-2025-variant
+campaigns_25000 | displayName "25,000 emails per month" | billingPeriod P1Y (Annually) | price USD 336.00 | formattedPrice $336 | formattedPricePerMonth $28 | annualSavingsPercent 30 | yearlyTotalFromMonthlyPrice 480.00 | plan name campaigns-campaigns_25000-annual-usd-jun-2025-variant
+campaigns_pro_unlimited | displayName "50,000 emails per month" | billingPeriod P1M (Monthly) | price USD 48.00 | formattedPrice $48 | formattedPricePerMonth $48 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_50000-monthly-usd-jun-2025-variant
+campaigns_pro_unlimited | displayName "50,000 emails per month" | billingPeriod P1Y (Annually) | price USD 408.00 | formattedPrice $408 | formattedPricePerMonth $34 | annualSavingsPercent 29 | yearlyTotalFromMonthlyPrice 576.00 | plan name campaigns-campaigns_50000-annual-usd-jun-2025-variant
+campaigns_100000 | displayName "100,000 emails per month" | billingPeriod P1M (Monthly) | price USD 60.00 | formattedPrice $60 | formattedPricePerMonth $60 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_100000-monthly-usd-jun-2025-variant
+campaigns_100000 | displayName "100,000 emails per month" | billingPeriod P1Y (Annually) | price USD 504.00 | formattedPrice $504 | formattedPricePerMonth $42 | annualSavingsPercent 30 | yearlyTotalFromMonthlyPrice 720.00 | plan name campaigns-campaigns_100000-annual-usd-jun-2025-variant
+campaigns_150000 | displayName "150,000 emails per month" | billingPeriod P1M (Monthly) | price USD 73.00 | formattedPrice $73 | formattedPricePerMonth $73 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_150000-monthly-usd-jun-2025-variant
+campaigns_150000 | displayName "150,000 emails per month" | billingPeriod P1Y (Annually) | price USD 624.00 | formattedPrice $624 | formattedPricePerMonth $52 | annualSavingsPercent 28 | yearlyTotalFromMonthlyPrice 876.00 | plan name campaigns-campaigns_150000-annual-usd-jun-2025-variant
+campaigns_max | displayName "250,000 emails per month" | billingPeriod P1M (Monthly) | price USD 96.00 | formattedPrice $96 | formattedPricePerMonth $96 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_250000-monthly-usd-jun-2025-variant
+campaigns_max | displayName "250,000 emails per month" | billingPeriod P1Y (Annually) | price USD 816.00 | formattedPrice $816 | formattedPricePerMonth $68 | annualSavingsPercent 29 | yearlyTotalFromMonthlyPrice 1152.00 | plan name campaigns-campaigns_250000-annual-usd-jun-2025-variant
+campaigns_350000 | displayName "350,000 emails per month" | billingPeriod P1M (Monthly) | price USD 127.00 | formattedPrice $127 | formattedPricePerMonth $127 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_350000-monthly-usd-aug-2025-tier-test-variant-1
+campaigns_350000 | displayName "350,000 emails per month" | billingPeriod P1Y (Annually) | price USD 1068.00 | formattedPrice $1,068 | formattedPricePerMonth $89 | annualSavingsPercent 29 | yearlyTotalFromMonthlyPrice 1524.00 | plan name campaigns-campaigns_350000-annual-usd-aug-2025-tier-test-variant-1
+campaigns_500000 | displayName "500,000 emails per month" | billingPeriod P1M (Monthly) | price USD 169.00 | formattedPrice $169 | formattedPricePerMonth $169 | annualSavingsPercent 0 | yearlyTotalFromMonthlyPrice None | plan name campaigns-campaigns_500000-monthly-usd-aug-2025-tier-test-variant-1
+campaigns_500000 | displayName "500,000 emails per month" | billingPeriod P1Y (Annually) | price USD 1416.00 | formattedPrice $1,416 | formattedPricePerMonth $118 | annualSavingsPercent 30 | yearlyTotalFromMonthlyPrice 2028.00 | plan name campaigns-campaigns_500000-annual-usd-aug-2025-tier-test-variant-1
+
+== Full JSON response (pretty-printed) ==
+{
+ "results": [
+  {
+   "id": "314fb9d2-a3e7-4e25-9b13-5894be45eb46",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_100000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_100000"
+    }
+   ],
+   "displayName": "100,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "504.00"
+   },
+   "planTierId": "0fa0f273-4fa5-472c-8ad4-61145ec7e872",
+   "planTierName": "campaigns_100000",
+   "rank": 11,
+   "annualSavingsPercent": 30,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "720.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "216.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "504.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$504",
+   "formattedPricePerMonth": "$42",
+   "formattedDiscountedPrice": "$504",
+   "formattedDiscountedPricePerMonth": "$42"
+  },
+  {
+   "id": "a19cc4ae-8baa-4f1f-864c-7b77a0ea4d7d",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_5000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_core_unlimited"
+    }
+   ],
+   "displayName": "5,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "168.00"
+   },
+   "planTierId": "bc1f98fb-4822-4a9f-89fb-6368eaa35f71",
+   "planTierName": "campaigns_core_unlimited",
+   "rank": 7,
+   "annualSavingsPercent": 30,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "240.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "72.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "168.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$168",
+   "formattedPricePerMonth": "$14",
+   "formattedDiscountedPrice": "$168",
+   "formattedDiscountedPricePerMonth": "$14"
+  },
+  {
+   "id": "f33af251-a386-4054-9b5b-e3069a188f90",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_10000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_10000"
+    }
+   ],
+   "displayName": "10,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "28.00"
+   },
+   "planTierId": "f34089e9-8e0d-4f12-aeee-abefb28ea78f",
+   "planTierName": "campaigns_10000",
+   "rank": 8,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "28.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$28",
+   "formattedPricePerMonth": "$28",
+   "formattedDiscountedPrice": "$28",
+   "formattedDiscountedPricePerMonth": "$28"
+  },
+  {
+   "id": "e6aab742-3ddc-4dff-b053-60df9944fc86",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_25000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_25000"
+    }
+   ],
+   "displayName": "25,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "40.00"
+   },
+   "planTierId": "6740877e-069d-4af8-a8b6-22a2964d87e5",
+   "planTierName": "campaigns_25000",
+   "rank": 9,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "40.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$40",
+   "formattedPricePerMonth": "$40",
+   "formattedDiscountedPrice": "$40",
+   "formattedDiscountedPricePerMonth": "$40"
+  },
+  {
+   "id": "0dc7e533-4f30-41e4-b0fa-4c1e4745900c",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_100000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_100000"
+    }
+   ],
+   "displayName": "100,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "60.00"
+   },
+   "planTierId": "0fa0f273-4fa5-472c-8ad4-61145ec7e872",
+   "planTierName": "campaigns_100000",
+   "rank": 11,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "60.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$60",
+   "formattedPricePerMonth": "$60",
+   "formattedDiscountedPrice": "$60",
+   "formattedDiscountedPricePerMonth": "$60"
+  },
+  {
+   "id": "b03866f6-62ba-4971-a736-571fae1f5d76",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_350000-annual-usd-aug-2025-tier-test-variant-1",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_350000"
+    }
+   ],
+   "displayName": "350,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "1068.00"
+   },
+   "planTierId": "0a5c43de-9f0b-416b-97b2-2caca7de963c",
+   "planTierName": "campaigns_350000",
+   "rank": 14,
+   "annualSavingsPercent": 29,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "1524.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "456.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "1068.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$1,068",
+   "formattedPricePerMonth": "$89",
+   "formattedDiscountedPrice": "$1,068",
+   "formattedDiscountedPricePerMonth": "$89"
+  },
+  {
+   "id": "0506fd0f-70ff-40d9-9420-550cb793da4f",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_500000-annual-usd-aug-2025-tier-test-variant-1",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_500000"
+    }
+   ],
+   "displayName": "500,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "1416.00"
+   },
+   "planTierId": "d82f42bd-36a7-4b71-a4bf-8379c669a394",
+   "planTierName": "campaigns_500000",
+   "rank": 15,
+   "annualSavingsPercent": 30,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "2028.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "612.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "1416.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$1,416",
+   "formattedPricePerMonth": "$118",
+   "formattedDiscountedPrice": "$1,416",
+   "formattedDiscountedPricePerMonth": "$118"
+  },
+  {
+   "id": "9778c76a-54fd-4536-a016-7b0350455362",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_50000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_pro_unlimited"
+    }
+   ],
+   "displayName": "50,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "408.00"
+   },
+   "planTierId": "9565d287-05f7-498c-b742-ac09976eff8a",
+   "planTierName": "campaigns_pro_unlimited",
+   "rank": 10,
+   "annualSavingsPercent": 29,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "576.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "168.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "408.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$408",
+   "formattedPricePerMonth": "$34",
+   "formattedDiscountedPrice": "$408",
+   "formattedDiscountedPricePerMonth": "$34"
+  },
+  {
+   "id": "447e6841-8984-4c63-bad0-38316232c176",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_150000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_150000"
+    }
+   ],
+   "displayName": "150,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "73.00"
+   },
+   "planTierId": "e63b910b-2dba-41bc-9a23-fbbac746dd78",
+   "planTierName": "campaigns_150000",
+   "rank": 12,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "73.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$73",
+   "formattedPricePerMonth": "$73",
+   "formattedDiscountedPrice": "$73",
+   "formattedDiscountedPricePerMonth": "$73"
+  },
+  {
+   "id": "857b16ab-e918-4f23-a4e4-787313a5967b",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_250000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_max"
+    }
+   ],
+   "displayName": "250,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "816.00"
+   },
+   "planTierId": "ff16a1f0-ca9a-3ebc-9971-8c368e240898",
+   "planTierName": "campaigns_max",
+   "rank": 13,
+   "annualSavingsPercent": 29,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "1152.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "336.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "816.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$816",
+   "formattedPricePerMonth": "$68",
+   "formattedDiscountedPrice": "$816",
+   "formattedDiscountedPricePerMonth": "$68"
+  },
+  {
+   "id": "f4cc5854-01a7-4de8-bc9a-57a2dd7f97bd",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_500000-monthly-usd-aug-2025-tier-test-variant-1",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_500000"
+    }
+   ],
+   "displayName": "500,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "169.00"
+   },
+   "planTierId": "d82f42bd-36a7-4b71-a4bf-8379c669a394",
+   "planTierName": "campaigns_500000",
+   "rank": 15,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "169.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$169",
+   "formattedPricePerMonth": "$169",
+   "formattedDiscountedPrice": "$169",
+   "formattedDiscountedPricePerMonth": "$169"
+  },
+  {
+   "id": "3e9ad0aa-e917-48c6-ada3-27e8eb550cbb",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_500-annual-usd-aug-2025-tier-test-variant-1",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_starter_unlimited"
+    }
+   ],
+   "displayName": "500 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "96.00"
+   },
+   "planTierId": "3cce537a-7c54-4c01-8607-14eed16fffbb",
+   "planTierName": "campaigns_starter_unlimited",
+   "rank": 6,
+   "annualSavingsPercent": 33,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "144.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "48.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "96.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$96",
+   "formattedPricePerMonth": "$8",
+   "formattedDiscountedPrice": "$96",
+   "formattedDiscountedPricePerMonth": "$8"
+  },
+  {
+   "id": "08c4eda8-a70a-4c83-b0ad-2baeaa181aa2",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_25000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_25000"
+    }
+   ],
+   "displayName": "25,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "336.00"
+   },
+   "planTierId": "6740877e-069d-4af8-a8b6-22a2964d87e5",
+   "planTierName": "campaigns_25000",
+   "rank": 9,
+   "annualSavingsPercent": 30,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "480.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "144.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "336.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$336",
+   "formattedPricePerMonth": "$28",
+   "formattedDiscountedPrice": "$336",
+   "formattedDiscountedPricePerMonth": "$28"
+  },
+  {
+   "id": "4265eed0-5649-4dae-815f-8bdfb1a6c7dc",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_250000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_max"
+    }
+   ],
+   "displayName": "250,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "96.00"
+   },
+   "planTierId": "ff16a1f0-ca9a-3ebc-9971-8c368e240898",
+   "planTierName": "campaigns_max",
+   "rank": 13,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "96.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$96",
+   "formattedPricePerMonth": "$96",
+   "formattedDiscountedPrice": "$96",
+   "formattedDiscountedPricePerMonth": "$96"
+  },
+  {
+   "id": "c5b9fb8c-bb60-4524-9e5e-6ab0983e2325",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_5000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_core_unlimited"
+    }
+   ],
+   "displayName": "5,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "20.00"
+   },
+   "planTierId": "bc1f98fb-4822-4a9f-89fb-6368eaa35f71",
+   "planTierName": "campaigns_core_unlimited",
+   "rank": 7,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "20.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$20",
+   "formattedPricePerMonth": "$20",
+   "formattedDiscountedPrice": "$20",
+   "formattedDiscountedPricePerMonth": "$20"
+  },
+  {
+   "id": "8ff701d9-e2ae-41a4-8694-d83a52299f6d",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_50000-monthly-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_pro_unlimited"
+    }
+   ],
+   "displayName": "50,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "48.00"
+   },
+   "planTierId": "9565d287-05f7-498c-b742-ac09976eff8a",
+   "planTierName": "campaigns_pro_unlimited",
+   "rank": 10,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "48.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$48",
+   "formattedPricePerMonth": "$48",
+   "formattedDiscountedPrice": "$48",
+   "formattedDiscountedPricePerMonth": "$48"
+  },
+  {
+   "id": "71291094-5a85-4e31-bd4c-8e03101e6534",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_500-monthly-usd-aug-2025-tier-test-variant-1",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_starter_unlimited"
+    }
+   ],
+   "displayName": "500 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "12.00"
+   },
+   "planTierId": "3cce537a-7c54-4c01-8607-14eed16fffbb",
+   "planTierName": "campaigns_starter_unlimited",
+   "rank": 6,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "12.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$12",
+   "formattedPricePerMonth": "$12",
+   "formattedDiscountedPrice": "$12",
+   "formattedDiscountedPricePerMonth": "$12"
+  },
+  {
+   "id": "b8697e6a-6015-4eba-9081-3370ce40238d",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_10000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_10000"
+    }
+   ],
+   "displayName": "10,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "240.00"
+   },
+   "planTierId": "f34089e9-8e0d-4f12-aeee-abefb28ea78f",
+   "planTierName": "campaigns_10000",
+   "rank": 8,
+   "annualSavingsPercent": 28,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "336.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "96.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "240.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$240",
+   "formattedPricePerMonth": "$20",
+   "formattedDiscountedPrice": "$240",
+   "formattedDiscountedPricePerMonth": "$20"
+  },
+  {
+   "id": "df40c695-9851-4edf-9522-8c73fc957cf8",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_150000-annual-usd-jun-2025-variant",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_150000"
+    }
+   ],
+   "displayName": "150,000 emails per month",
+   "billingPeriod": "P1Y",
+   "periodDisplayName": "Annually",
+   "price": {
+    "currency": "USD",
+    "value": "624.00"
+   },
+   "planTierId": "e63b910b-2dba-41bc-9a23-fbbac746dd78",
+   "planTierName": "campaigns_150000",
+   "rank": 12,
+   "annualSavingsPercent": 28,
+   "yearlyTotalFromMonthlyPrice": {
+    "currency": "USD",
+    "value": "876.00"
+   },
+   "annualSavingsAmount": {
+    "currency": "USD",
+    "value": "252.00"
+   },
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "624.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$624",
+   "formattedPricePerMonth": "$52",
+   "formattedDiscountedPrice": "$624",
+   "formattedDiscountedPricePerMonth": "$52"
+  },
+  {
+   "id": "bceed38a-2748-4e5c-95a5-08a3bf13ee72",
+   "sellerId": "5ca1ab1e-0000-4000-a000-000000000000",
+   "name": "campaigns-campaigns_350000-monthly-usd-aug-2025-tier-test-variant-1",
+   "planType": "campaigns",
+   "planLine": "campaigns",
+   "products": [
+    {
+     "productType": "campaigns",
+     "featureLevel": "campaigns_350000"
+    }
+   ],
+   "displayName": "350,000 emails per month",
+   "billingPeriod": "P1M",
+   "periodDisplayName": "Monthly",
+   "price": {
+    "currency": "USD",
+    "value": "127.00"
+   },
+   "planTierId": "0a5c43de-9f0b-416b-97b2-2caca7de963c",
+   "planTierName": "campaigns_350000",
+   "rank": 14,
+   "annualSavingsPercent": 0,
+   "discountedPrice": {
+    "currency": "USD",
+    "value": "127.00"
+   },
+   "offeringId": "8eb50ece-5003-4a88-bf2a-0152f4533e63",
+   "subOfferingId": "714627e9-4d99-4687-aeda-0a437c75f017",
+   "formattedPrice": "$127",
+   "formattedPricePerMonth": "$127",
+   "formattedDiscountedPrice": "$127",
+   "formattedDiscountedPricePerMonth": "$127"
+  }
+ ]
+}

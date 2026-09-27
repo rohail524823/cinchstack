@@ -1,0 +1,334 @@
+{
+  "tool": "se-ranking",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from SE Ranking's pricing/subscription page (Monthly and Annually toggle states, and the expanded 'Compare plans' table under both toggle states) plus SE Ranking Help Center articles on users, seats, keyword purchases, billing, trial limits, the AI Search Add-on, the Agency Pack and Local Marketing plans, in a US-locale headless browser; snapshots saved. Also checked the German-locale pricing page to confirm the USD list price does not vary by locale.",
+  "sources": [
+    {
+      "url": "https://seranking.com/subscription.html",
+      "label": "Pricing page, Monthly billing toggle (Core $129, Growth $279, add-ons)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-pricing-toggle-after-click-1.txt"
+    },
+    {
+      "url": "https://seranking.com/subscription.html",
+      "label": "Pricing page, default view showing both Annual and Monthly prices together (Core $103.20/$129, Growth $223.20/$279, Enterprise, Agency Pack $69, API add-on $45)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://seranking.com/subscription.html",
+      "label": "Compare plans table (Annually toggle) — Extra Manager Seats, Extra keywords, Extra articles, Extra locations starting prices",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-pricing-compare-after-click-1.txt"
+    },
+    {
+      "url": "https://seranking.com/subscription.html",
+      "label": "Compare plans table (Monthly toggle) — same add-on starting prices, confirmed unchanged by the toggle",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-pricing-compare-after-click-2.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/16332687022108-Users-FAQ",
+      "label": "Help Center — Users FAQ (extra seats $20/month per user)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-users-faq.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/16332574701852-User-seats-and-how-they-work",
+      "label": "Help Center — User seats and how they work (seat counts per plan, incl. legacy plans)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-user-seats.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/18503246465692-How-to-purchase-additional-keywords",
+      "label": "Help Center — How to purchase additional keywords (block sizes per plan, incl. legacy plans)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-additional-keywords.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/16332687136924-Payment-and-billing-details-FAQ",
+      "label": "Help Center — Payment and billing details FAQ (legacy plans, Solo Plan, VAT, Stripe-only payments)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-billing-faq.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/16332657221276-Account-and-project-settings-FAQ",
+      "label": "Help Center — Account and project settings FAQ (14-day trial limits in detail)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-account-faq-trial.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/22120452776476-AI-Search-Add-on",
+      "label": "Help Center — AI Search Add-on (pricing tiers: 200/450/1000 checks per month)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-ai-search-addon.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/16333590268572-Agency-Pack-Overview",
+      "label": "Help Center — Agency Pack Overview (features, annual-only billing, client-seat count)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-agency-pack.txt"
+    },
+    {
+      "url": "https://seranking.com/de/subscription.html",
+      "label": "Pricing page, German locale (regional USD price check)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-pricing-de.txt"
+    },
+    {
+      "url": "https://seranking.com/about-us.html",
+      "label": "About page (founding year 2013, legal entity, hubs)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-about.txt"
+    },
+    {
+      "url": "https://help.seranking.com/hc/en-us/articles/18508323416092-Local-Marketing-Plans",
+      "label": "Help Center — Local Marketing Plans (locations included per plan)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/se-ranking/2026-09-26-help-local-marketing-plans.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": false,
+    "summary": "No persistent free tier. SE Ranking is trial-only: a 14-day free trial with no credit card required, after which continued use requires subscribing to a paid Core, Growth or Enterprise plan."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": false,
+    "summary": "14-day free trial, no credit card required. Trial limits: 10 projects, 3 manager seats, 750 tracked keywords/day, 20 AI prompts/day, AI competitive research for up to 3 domains, 50,000 data-export rows, and access to the Agency Pack and AI Search add-ons during the trial. Extra-limit purchases (more keywords, seats, locations) and MCP access are not available on trial. Continuing past 14 days requires subscribing.",
+    "source": 8
+  },
+  "plans": [
+    {
+      "id": "core",
+      "name": "Core",
+      "monthly": 129,
+      "annualMonthly": 103.2,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Pitched as 'SEO + GEO for marketing teams with repeatable delivery.' Both the monthly ($129) and annual-equivalent ($103.20, i.e. 20% off) prices are shown together on the pricing page's default view (source 1); the page's Monthly-only toggle shows $129/mo alone (source 0). An extra manager seat costs $20/month; buying more tracked keywords starts from $22.40/month (see addOns).",
+      "limits": [
+        "10 projects",
+        "1 manager seat (the administrator) included",
+        "2,000 keywords tracked daily (default keyword-tracking tier) & 100 AI prompts tracked daily",
+        "5 domains in GEO/AI competitive research",
+        "250,000 pages/month in Website Audit (max 250,000 pages per project)",
+        "25,000 API credits/month & MCP access",
+        "50,000 data-export rows",
+        "10 Report Builder reports; 25 Content Marketing articles/month",
+        "6 months of historical data",
+        "3 Local Marketing Plus locations included"
+      ],
+      "highlights": [
+        "Rank tracking across major search engines",
+        "Unlimited keyword, competitor and backlink research",
+        "Website & on-page audit",
+        "AI Overviews / AI Mode / Perplexity / ChatGPT tracking up to the plan's prompt limit",
+        "Data Studio / Matomo / GA / GSC integrations"
+      ],
+      "source": 1
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "monthly": 279,
+      "annualMonthly": 223.2,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "Pitched as 'Automation and collaboration for multi-client SEO + GEO.' Both the monthly ($279) and annual-equivalent ($223.20, i.e. 20% off) prices are shown together on the pricing page's default view (source 1); the page's Monthly-only toggle shows $279/mo alone (source 0). An extra manager seat costs $20/month; buying more tracked keywords starts from $32/month (see addOns).",
+      "limits": [
+        "30 projects",
+        "3 manager seats included",
+        "5,000 keywords tracked daily (default keyword-tracking tier) & 250 AI prompts tracked daily",
+        "15 domains in GEO/AI competitive research",
+        "2,000,000 pages/month in Website Audit (max 1,000,000 pages per project)",
+        "100,000 API credits/month & MCP access",
+        "100,000 data-export rows",
+        "30 Report Builder reports; 50 Content Marketing articles/month",
+        "All-time historical data",
+        "3 Local Marketing Plus locations included"
+      ],
+      "highlights": [
+        "All Core features, plus:",
+        "Historical data across the project's full lifetime",
+        "Guest links for collaboration",
+        "Page-change monitoring",
+        "Dedicated Customer Success support"
+      ],
+      "source": 1
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Contact-sales tier: 'Flexible terms. Custom limits and pricing. Full API & advanced integrations.' Not broken out in the pricing page's own Compare-plans grid (that table only lists Core and Growth side by side). SE Ranking's Users and keyword-purchase Help Center articles put its default manager-seat allowance at up to 5 and its keyword-purchase block at 5,000, grouping it alongside Core/Growth rather than giving it a page of its own.",
+      "limits": [
+        "Custom limits negotiated with sales",
+        "Up to 5 manager seats included by default (Help Center; not shown on the pricing page itself)",
+        "5,000-keyword purchase increments (Help Center)"
+      ],
+      "highlights": [
+        "Full API & advanced integrations",
+        "Flexible contract terms"
+      ],
+      "source": 1
+    }
+  ],
+  "addOns": [
+    {
+      "id": "extra-manager-seat",
+      "name": "Extra manager seat",
+      "price": 20,
+      "unit": "per user per month",
+      "appliesTo": ["core", "growth"],
+      "note": "SE Ranking's Users FAQ states additional user seats cost $20/month per user on any plan once you hit its included-seat limit (source 4), confirmed by the User seats help article (source 5). The pricing page's own 'Compare plans' table separately lists 'Extra Manager Seats: from $16' for both Core and Growth, unchanged whether the page's Monthly or Annually toggle is active (sources 2 and 3) — see unverified[] for this discrepancy.",
+      "source": 4
+    },
+    {
+      "id": "extra-keywords-core",
+      "name": "Extra tracked keywords (Core)",
+      "price": 22.4,
+      "unit": "per month, 'starting from' price for the smallest extra-keyword block (100 extra keywords/day)",
+      "appliesTo": ["core"],
+      "note": "Shown as 'from $22.40' on the Compare plans table, unchanged whether the page's Monthly or Annually toggle is active (sources 2 and 3). Block size (100 keywords for Core) is from SE Ranking's keyword-purchase help article (source 6); the page does not label which billing term the $22.40 assumes, and no price for larger blocks is published.",
+      "source": 2
+    },
+    {
+      "id": "extra-keywords-growth",
+      "name": "Extra tracked keywords (Growth)",
+      "price": 32,
+      "unit": "per month, 'starting from' price for the smallest extra-keyword block (500 extra keywords/day)",
+      "appliesTo": ["growth"],
+      "note": "Shown as 'from $32' on the Compare plans table, unchanged whether the page's Monthly or Annually toggle is active (sources 2 and 3). Block size (500 keywords for Growth) is from SE Ranking's keyword-purchase help article (source 6).",
+      "source": 2
+    },
+    {
+      "id": "agency-pack",
+      "name": "Agency Pack",
+      "price": 69,
+      "unit": "per month, billed annually together with the main subscription (annual Core, Growth or Enterprise plans only)",
+      "appliesTo": ["core", "growth", "enterprise"],
+      "note": "Adds white-label platform/reporting, unlimited scheduled reports & AI summaries, Agency Catalog placement and the Lead Generator widget; can only be added to an annual subscription (source 10). The pricing page lists '30 projects, 30 client seats' for the Agency Pack (source 1), but SE Ranking's own Agency Pack help article describes its Client Seats feature as 'Invite up to 10 specialists' (source 10) — see unverified[] for this discrepancy.",
+      "source": 1
+    },
+    {
+      "id": "ai-search-addon",
+      "name": "AI Search Add-on (200 checks/month)",
+      "price": 89,
+      "unit": "per month for 200 AI-visibility checks (1 check = 1 prompt tracked on 1 AI platform)",
+      "appliesTo": ["core", "growth", "enterprise"],
+      "note": "$71.20/month if billed annually (20% off), per the pricing page (source 1). Higher tiers per SE Ranking's AI Search Add-on help article (source 9): 450 checks/month for $179/mo ($143.20/mo annual), 1,000 checks/month for $345/mo ($276/mo annual); custom volume pricing above 1,000 checks/month via SE Ranking's sales team.",
+      "source": 9
+    },
+    {
+      "id": "api-addon",
+      "name": "API Add-on",
+      "price": 45,
+      "unit": "per month, billed annually only, for 3,000,000 API credits/month",
+      "appliesTo": ["core", "growth", "enterprise"],
+      "note": "Adds Backlinks API, Domain Analysis API, Keyword Research API, AI Search API and Website Audit API access beyond a plan's included API credits (25K/mo on Core, 100K/mo on Growth).",
+      "source": 1
+    },
+    {
+      "id": "extra-content-articles",
+      "name": "Extra Content Marketing articles",
+      "price": 39.2,
+      "unit": "per month, 'starting from' price for the smallest extra-article block",
+      "appliesTo": ["core", "growth"],
+      "note": "Shown as 'from $39.20' on the Compare plans table for both Core (25 articles/month included) and Growth (50 included), unchanged whether the page's Monthly or Annually toggle is active.",
+      "source": 2
+    },
+    {
+      "id": "extra-local-locations",
+      "name": "Extra Local Marketing Plus locations",
+      "price": 18.4,
+      "unit": "per month, 'starting from' price for 1 extra location beyond the 3 included",
+      "appliesTo": ["core", "growth"],
+      "note": "Shown as 'from $18.40' on the Compare plans table, unchanged whether the page's Monthly or Annually toggle is active. SE Ranking's Local Marketing Plans help article confirms Core, Growth and Enterprise all include 3 Plus-tier locations by default (source 13).",
+      "source": 2
+    }
+  ],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "vat-eu-uk",
+      "label": "VAT (EU / UK customers)",
+      "amount": null,
+      "display": "VAT added on top for EU and UK customers; not charged on US billing",
+      "kind": "other",
+      "note": "SE Ranking's billing FAQ says its payment processor (Stripe) adds VAT for customers in European Union countries and the UK, per worldwide tax rules; business buyers can avoid it by entering a valid EU VAT ID at checkout. Not applicable to the US list prices recorded here.",
+      "source": 7
+    }
+  ],
+  "billingNotes": [
+    "SE Ranking's Essential, Pro and Business plans are legacy: retired for new subscriptions after an October 2024 pricing overhaul that introduced Core, Growth and Enterprise, and kept active only for existing subscribers on their original terms (their own seat counts, keyword-purchase blocks and feature set, e.g. the classic On-Page SEO Checker and Content Marketing as an add-on only). New subscribers can only buy Core, Growth or the custom Enterprise plan; no current price for the legacy plans is published anywhere on the site.",
+    "Both Core and Growth can be billed monthly or annually; annual billing is a flat 20% discount on the effective monthly rate ($103.20 vs $129 on Core; $223.20 vs $279 on Growth), billed upfront for the year. SE Ranking's FAQ says you cannot get the annual discount while paying in monthly installments, apart from a quarterly-payment schedule arranged directly with sales.",
+    "The Agency Pack and API add-ons are 'Annual billing only', even on top of an otherwise-monthly main subscription; the AI Search add-on can be bought on either a monthly or annual basis.",
+    "Free assisted migration from another platform is included with an annual subscription; monthly subscribers get self-serve import tools only.",
+    "Purchased extra keywords run on their own separate billing cycle from the main subscription (confirmed by the keyword-purchase FAQ); whether extra manager seats follow the main plan's billing cycle is not stated.",
+    "All payments run through Stripe (major cards, Apple Pay, Google Pay, Link, and bank transfer/Direct Debit depending on country). PayPal is not accepted. Accounts still billed through 2Checkout are being migrated to Stripe during 2026.",
+    "SE Ranking also lists a one-time 'Solo Plan': $65 for 3 months of reduced-limit access (150 keywords/day, 2 projects, 1 user, no extra seats, no AI Results Tracker, no Agency Pack/Content Marketing/Local Marketing/SMM) — a promotional entry path outside the Core/Growth/Enterprise structure, not one of the three main plans.",
+    "If a subscription is not renewed within 60 days of expiring, SE Ranking deletes the account's data.",
+    "Cancellation/refunds: cancel anytime; payments are non-refundable except where service wasn't delivered as promised or a promotion says otherwise."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "The German-locale pricing page (seranking.com/de/subscription.html) shows the same USD list prices ($129/$103.20 Core, $279/$223.20 Growth) as the US page — checked from the DE locale only, no other countries tested. SE Ranking's billing FAQ says VAT is added on top of these prices for customers in EU countries and the UK (see extraCosts); no VAT applies to US billing."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 user, 1–3 projects, ~500 tracked keywords",
+      "assumptions": "One user tracking about 500 keywords across 1-3 projects, billed month to month. Core covers it outright: 10 projects, 1 manager seat and 2,000 keywords/day tracked by default, all above what's needed.",
+      "planId": "core",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Core plan (month-to-month)", "amount": 129 }
+      ],
+      "monthly": 129,
+      "confidence": "high",
+      "note": "Paid annually instead, this would run $103.20/month, but the scenario uses month-to-month per the standard methodology."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 2 users, ~5 projects, ~1,500 tracked keywords",
+      "assumptions": "Two users, about 5 projects and 1,500 tracked keywords, billed month to month. Core's default limits (10 projects, 2,000 keywords/day) cover the projects and keywords with room to spare, but Core includes only 1 manager seat; the 2nd user requires 1 extra manager seat at $20/month. Growth ($279/mo, 3 seats included) would also fit but costs far more than Core plus one extra seat.",
+      "planId": "core",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Core plan (month-to-month), 1 manager seat included", "amount": 129 },
+        { "label": "1 extra manager seat (2nd user, $20/month)", "amount": 20 }
+      ],
+      "monthly": 149,
+      "confidence": "high",
+      "note": "Paid annually instead, the Core plan alone would run $103.20/month; the extra-seat add-on's annual price was not confirmed (see unverified[])."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 4 users, ~15 projects, ~5,000 tracked keywords",
+      "assumptions": "Four users, about 15 projects and 5,000 tracked keywords, billed month to month. Growth's default 5,000 keywords/day tracking tier exactly covers the keyword target and its 30-project limit easily covers 15 projects, but Growth includes only 3 manager seats; the 4th user requires 1 extra manager seat at $20/month.",
+      "planId": "growth",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Growth plan (month-to-month), 3 manager seats included", "amount": 279 },
+        { "label": "1 extra manager seat (4th user, $20/month)", "amount": 20 }
+      ],
+      "monthly": 299,
+      "confidence": "high",
+      "note": "5,000 keywords/day is exactly Growth's default keyword-tracking tier, with no headroom; more would require the 'extra keywords' add-on (from $32/month, see addOns). Paid annually instead, the Growth plan alone would run $223.20/month; the extra-seat add-on's annual price was not confirmed."
+    }
+  ],
+  "unverified": [
+    "The Compare plans table shows 'Extra Manager Seats: from $16' for both Core and Growth, unchanged whether the page's Monthly or Annually toggle is selected — this conflicts with SE Ranking's own Users FAQ, which states extra seats cost $20/month per user. We used the $20/month figure (the explicit, unambiguous statement) for the extra-manager-seat add-on; whether $16 is an annual-commitment rate, a different SKU, or which figure a live checkout actually charges was not resolved.",
+    "'Extra keywords: from $22.40' (Core) and 'from $32' (Growth) on the Compare plans table are 'starting from' prices for the smallest purchasable keyword block; like the seat add-on, this figure did not change between the page's Monthly and Annually toggle states, and no price for larger keyword blocks is published anywhere we captured.",
+    "SE Ranking's pricing page lists the Agency Pack with '30 projects, 30 client seats', while its own Agency Pack Help Center article describes Client Seats as 'Invite up to 10 specialists.' We could not confirm which figure is current.",
+    "Enterprise has no published list price, seat count or keyword allowance; the 'up to 5 seats' and 5,000-keyword purchase block figures come only from Help Center articles that group Enterprise with Core/Growth, not from the pricing or Compare-plans page itself.",
+    "Legacy Essential, Pro and Business plans (retired for new subscribers after SE Ranking's October 2024 pricing overhaul) have no current published prices anywhere on the site; only their seat counts (1/3/5) and keyword-purchase blocks (100/500/1000) survive in Help Center articles for existing subscribers. No price for these legacy plans is recorded because none is published."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

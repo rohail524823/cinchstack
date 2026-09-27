@@ -1,0 +1,57 @@
+SOURCE: https://help.ahrefs.com/en/collections/87738-account-access-and-billing
+FETCHED: 2026-09-26T22:45:26.058Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Account Access and Billing
+
+Managing your account; upgrading, downgrading and cancellations; payment methods, invoices, VAT and billing cycles
+
+By Anna and 6 others
+29 articles
+Your Account
+Can I change my Ahrefs login email?
+SAML SSO configuration
+How do I change or reset my password?
+What kind of emails will I receive from Ahrefs and how do I change the frequency of emails or disable them?
+How do I change the language of Ahrefs interface?
+How can I update my personal particulars within Ahrefs' interface?
+How do I add and manage users to my account's workspace?
+Why am I being kicked out of Ahrefs account?
+Why does Ahrefs keep asking me to verify my account?
+Two-factor authentication (2FA)
+How to customize the new "All Tools" menu
+Your Subscription
+What's the difference between all Ahrefs subscription plans?
+How to control credits usage
+How do I unsubscribe / cancel my subscription / delete my account?
+Can I pause or suspend my subscription?
+What is my subscription plan? How can I check what I have?
+What is the difference between Credit-based plans and Unlimited credit plans?
+How does upgrading your Ahrefs subscription work?
+About Rows, Export rows, and user limits
+Payments
+How does "2 months free" discount work with a yearly plan?
+My scheduled subscription payment failed. How can I re-attempt the payment?
+How to update payment info if subscription has ceased due to failed payment?
+Why am I charged GST/VAT/consumption tax/sales tax and how can I get it refunded?
+What e-mail should I specify when making payment: the one attached to Ahrefs account or the one for billing/payer's one?
+Why is my next billing date different from expiry date?
+I used to pay for Ahrefs in my national currency. When I try to re-purchase, it shows me a different price. Why?
+How do I change the credit card that is linked to my Ahrefs account?
+Invoicing
+Where can I see my invoices?
+Can I change my billing address for invoices?
+Ahrefs AcademyBlogYouTubePricing

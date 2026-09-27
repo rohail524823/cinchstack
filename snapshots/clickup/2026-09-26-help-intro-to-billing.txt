@@ -1,0 +1,107 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/9180575416215-Intro-to-billing
+FETCHED: 2026-09-26T22:53:29.986Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+Owners and Admins
+Intro to billing
+
+All billing and plan info is available in your Workspace settings on the Billing page.
+
+The billing page is accessible to all paid plan Workspaces.
+
+Only the Workspace owner or an admin can manage billing or discuss billing information with Customer Support.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+If you have questions about your billing contract, reach out to the Account Executive that you worked with or sales@clickup.com. If you don't have a contract, please contact Support.
+
+Access your billing page
+
+To access your billing page:
+
+In the upper-left corner, click your Workspace avatar and select Settings.
+In the All settings sidebar, click Billing.
+Billing page info
+
+Your billing page includes the following sections. Use the tabs at the top of the billing page to navigate between these sections.
+
+Plans
+
+Info about your current plan and links to upgrade or downgrade your plan.
+
+Add-ons
+
+From the billing page's Add-ons tab, you can purchase or remove add-on features.
+
+Billing
+
+The Billing section includes the following information about your plan.
+
+Make sure you have all the info. Learn about our pricing model. Also, take a look at when and how we charge for adding members, guests, or admins. When discussing billing, a member or member seat refers to anyone invited as a member or admin. Owners are members, too. There can only be one Workspace owner, but ownership can be transferred.
+
+Billing Cycle: Yearly or monthly billing cycle.
+You cannot mix yearly and monthly licenses within the same Workspace.
+Next billing date: The date your billing cycle renews.
+Total: Total cost of renewing your plan. This includes sales tax, if applicable. Take a look at our article Update your credit card information to learn how to manage your payment methods.
+To see itemized pricing, to the right of your total, click the dropdown.
+
+Payment method
+
+Workspace owners and admins manage payment methods from the billing page of the Workspace settings menu. You can change your payment method, add a card, remove a card, or set a default payment method.
+
+We accept the following debit and credit cards:
+
+Visa
+Mastercard
+American Express
+Discover
+
+We can't process prepaid debit cards or PayPal at this time.
+
+If you're experiencing payment issues, we'll let you know. You can take these troubleshooting steps before contacting support.
+
+Credit
+
+If you have Workspace credits, you'll see them in the Payment Method section to the right of the Add card button. Your Workspace credit is applied automatically when you add new members, upgrade your plan, or when your plan renews.
+
+Invoice History
+
+From the Invoice details section, you can view or download invoices and get invoice notification emails. This is also where you add invoice info, such as your billing address or VAT number.
+
+Switch from monthly to yearly billing
+
+You can switch from monthly to yearly billing at any time. To switch, contact Support.
+
+When switching to the yearly cycle, you'll be charged for the next 12 months when your plan renews.
+
+Was this article helpful?
+Related articles
+Pricing per user role and plan
+Delete your account
+Downgrade your plan
+Invite people to your Workspace
+Update your credit card information
+Articles in this section 
+Set up your team's Workspace
+Intro to pricing
+Invite people to your Workspace
+Track your Workspace's Brain AI usage
+Invite people to join your Workspace from Chat
+Default user role permissions
+User role availability and limits
+Set up your team's Workspace from scratch
+Intro to billing
+Intro to ClickUp Assist
+
+See all 26 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

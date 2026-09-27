@@ -1,0 +1,299 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/16332687136924-Payment-and-billing-details-FAQ
+FETCHED: 2026-09-26T22:49:29.787Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+FAQ
+FAQ Section
+  Articles in this section
+Account and project settings FAQ
+Payment and billing details FAQ
+SERankingBacklinksBot Crawler
+Technical Requirements — SERankingPCFBot Crawler Page
+AI Results Tracker FAQ
+SE Ranking's API FAQ
+Verifying SE Ranking Crawler FAQ
+Affiliate program FAQ
+Website Audit FAQ
+Accuracy of rankings FAQ
+See more
+Payment and billing details FAQ
+
+How to make a payment for a subscription?
+How to apply a discount code?
+How can I buy the Agency Pack?
+Do inactive projects count towards account limits?
+What are Legacy plans?
+How does keyword limit calculation work in the new subscription plans?
+How can I manage keyword limits effectively?
+Can I upgrade my subscription plan anytime?
+I still have an unused subscription. Will I lose it if I upgrade now?
+Does the number of keywords refer to a single website or the entire account?
+How can I buy a subscription plan?
+What payment options do you provide for clients?
+Can I pay with PayPal?
+My subscription is billed through 2Checkout. What do I need to do?
+Can I keep using my current payment provider?
+Where can I find the invoices?
+How do I stop automatic recurring billing?
+Why was VAT added to my payment?
+How can I pay for a subscription plan without VAT?
+What is Solo Plan?
+Where can I change the payment method?
+Can I pay monthly for a subscription plan?
+I've made a payment, but don't see any activated subscription plan in my account?
+How to get a refund?
+How to purchase Local Marketing and/or Content Marketing tools?
+
+How to make a payment for a subscription?
+
+To get started, navigate to the Billing page in your profile and select the plan you’d like to proceed with. Make sure to choose either the monthly or annual billing option.
+
+There are two options for making a payment directly in your account:
+
+Subscription: Purchase one of our core plans.
+Account Balance: Top up your balance to pay for extra tools, such as Keyword Grouper, Search Engine Autosuggest, Search Volume Checker, or Parameter Checker.
+Please note: Money on your balance is intended solely for paying for extra tools and cannot be used to purchase a subscription plan.
+How to apply a discount code?
+
+Once you’re on the checkout page, click Add coupon code and enter your promo code to apply the discount before finalizing the transaction.
+
+How can I buy the Agency Pack?
+
+The Agency Pack is available as an add-on for users on annual Core, Growth, or Enterprise plans.
+
+How to buy: It must be purchased separately and is billed annually together with your main subscription. Go to the Agency Pack section on the pricing page to proceed.
+
+Activation: After payment, new sections and features will open, and limits will be added to your account automatically.
+
+Trial accounts: Trial accounts also have access to the Agency Pack during the trial period.
+
+Please note: If you are on a legacy Pro or Business plan, the Agency Pack remains available under the same conditions as before.
+Do inactive projects count towards account limits?
+
+Even if you deactivate a project, the keywords and backlinks in it will still be considered when calculating your account limits. To free up space, you must delete keywords, backlinks, or entire projects.
+
+What are Legacy plans?
+
+Legacy plans were in use until the October 2024 update, which introduced new subscription plans with flexible keyword limits. In those Legacy plans, each added keyword deducted 1 point from the keyword limit regardless of how many search engines (“targets”)* were used for position tracking. With Legacy plans, users could only have up to 5 search engines (“targets”) per project, and positions for all keywords added to a project would be tracked in all the added search engines.
+
+*In this case, a search engine (“target”) refers to a combination of conditions in which positions are tracked: the selected search engine site (Google, Bing, etc.), the selected country and region in which you track positions, and the search engine interface language.
+
+In our new plans, the keyword limit is based on the available combinations of [Keyword] x [Search Engine (“target”)], and its usage depends on the number of keywords added to projects and the number of search engines used to track the website positions for each keyword. Note that the number of search engines can be different from keyword to keyword.
+
+Moreover, Legacy plan subscribers might not have access to some enhanced or new tools introduced in the latest SE Ranking updates. See the table below for a quick comparison of features in the Legacy and New plans:
+
+Feature	Legacy Plans	New Plans
+Project Overview	✖️	✅
+AI Results Tracker	Trial only	✅
+Insights	✖️	✅
+Share of Voice	✖️	✅
+Social Media Management	FB and X only	Advanced SM Management
+On-Page SEO Checker	Classic version	AI-powered version
+Content Marketing	Add-on only	3 articles & 5500 AI words
+Local Marketing	Add-on only	1 location (Pro) / 3 locations (Business)
+White Label	Available	Available (with Agency Pack)
+Lead Generator	Available	Available (with Agency Pack)
+Please note: The data in this table is approximate because the availability of features may vary depending on the tier and account age.
+How does keyword limit calculation work in the new subscription plans?
+
+Limit usage depends on the number of keywords added to the projects and the number of search engines used to track the website positions for each keyword. The number of keyword and search engine combinations you create will be deducted from the available keyword limit provided in your subscription plan.
+
+Example
+
+Legacy plan	New plan
+Keyword phrase "taxi service" in two search engines–Google Desktop, USA, New York and Google Desktop, USA, Chicago–counts as 1 keyword	Keyword phrase "taxi service" in two search engines–Google Desktop, USA, New York and Google Desktop, USA, Chicago–counts as 2 keywords (1 keyword per search engine)
+Keyword phrase “phone repair” tracked in Boston across Google and Bing counts as 1 keyword	Keyword phrase “phone repair” tracked in Boston across Google and Bing counts as 2 keywords (1 keyword per search engine)
+How can I manage keyword limits effectively?
+
+If you are tight on the keyword limit, we recommend you optimize and prioritize:
+
+Remove unnecessary keywords: Regularly audit your lists and delete irrelevant keywords.
+Prioritize geographical locations: Focus tracking only on relevant areas (countries, cities, etc.) rather than tracking all.
+Prioritize search engine sites: Concentrate on search engines relevant to your business and target audience.
+Can I upgrade my subscription plan anytime?
+
+Yes, you can upgrade or downgrade your plan at any time.
+
+How to change: Go to Account Settings → Billing and click Buy subscription. Select the plan you’d like to switch to and click Buy.
+
+Cost calculation: The system automatically calculates the price difference between your current plan and the new one. You’ll be able to review the final amount on the checkout page.
+
+Subscription dates: If you don’t change the billing period (for example, monthly to monthly), your new plan keeps the same end date. If you change the period (for example, monthly to annual), the system adjusts the dates; your new subscription starts on the day you make the change and the end date is based on the new period.
+
+Credits for downgrades: If you switch to a lower-priced plan, the unused balance will be credited to your Stripe account. This balance will automatically be used for any future SE Ranking purchases.
+
+I still have an unused subscription. Will I lose it if I upgrade now?
+
+The new plan will be activated instantly once you upgrade. The system automatically calculates your unused subscription’s paid amount and subtracts it from the price of the upgrade, so you’ll only have to cover the difference.
+
+Does the number of keywords refer to a single website or the entire account?
+
+The total number of keywords is available for the entire account. Keywords can be distributed among different projects in any proportion.
+
+How can I buy a subscription plan?
+
+There are a few ways to buy a subscription plan:
+
+from your trial account Billing page
+from the website Plans & Pricing page
+
+When you select a subscription plan, you will be transferred to the checkout page, where you will be able to select a payment method and submit your payment through Stripe – our partner billing system.
+
+What payment options do you provide for clients?
+
+All payments go through our billing partner, Stripe.
+
+Cards: Visa, Mastercard, American Express, and other major brands. The full list of supported card brands is available here.
+
+Digital wallets: Apple Pay, Google Pay, and Link. These are the fastest option if you would rather not enter card details.
+
+Bank transfer and Direct Debit: available depending on your country and currency. These require additional verification and take longer to clear than card or wallet payments, so allow extra time if your subscription is close to renewal.
+
+The methods shown at your checkout depend on your country and account currency.
+
+Can I pay with PayPal?
+
+No. PayPal is not available as a payment method. All payments are processed through Stripe, where you can pay by card, Apple Pay, Google Pay, Link, bank transfer, or Direct Debit.
+
+If your subscription is currently billed by PayPal through 2Checkout, that provider is being retired during 2026 and your account needs to move to Stripe. Please contact our support team or your account manager and we will handle the transition with you.
+
+My subscription is billed through 2Checkout. What do I need to do?
+
+2Checkout is being retired during 2026 and all accounts are transitioning to Stripe. Please contact our support team or your account manager. We will confirm your transition date and walk you through setting up your new payment method. See Moving your billing from 2Checkout to Stripe for details.
+
+Can I keep using my current payment provider?
+
+No. Stripe is our only payment provider going forward. If you are currently billed through 2Checkout, please contact our support team and we will move your account across.
+
+Where can I find the invoices?
+
+All invoices are available in the Invoices section of your SE Ranking account. You can view or download them at any time.
+
+How do I stop automatic recurring billing?
+
+You can cancel it directly in your account by opening the Billing page > Current plan and clicking the Cancel automatic renewal button.
+
+Why was VAT added to my payment?
+
+Stripe's VAT policy complies with worldwide tax regulations. Currently, VAT is charged for users from European Union countries and the UK.
+
+How can I pay for a subscription plan without VAT?
+
+If you are a business, here is how to avoid paying VAT:
+
+Check the Billing and tax information box under the payment method block on the checkout page.
+Open the Tax ID information list and select the European VAT number corresponding to your country.
+Fill out the other required fields and complete the purchase.
+ 
+What is Solo Plan?
+
+The Solo plan is a one-time payment option for new users who need day-to-day SEO tools without committing to a subscription. It costs $65 for 3 months and allows access to standard features like keyword tracking, backlink monitoring, and website audit.
+
+Below is a summary of what is included in the Solo Plan and what is not available compared to higher-tier plans:
+
+Available Features
+General	2 projects, 1 user
+Rank Tracker	150 keywords daily, 100 search engines, Visibility Rating, SERP Competitors
+Website Audit	40,000 pages per account, 6,000 pages per project
+Backlinks	7,000 backlinks monitored, 20 domains/URLs per day, 4,000 backlinks per report
+Competitive and Keyword Research	400 reports per day, 400 rows per export, Keyword Manager (24 keywords per list, 12,000 total keywords)
+SEO Reporting	Unlimited manual reporting, 2 scheduled reports
+Additional Features	Mobile App, Competitor Monitoring, Traffic Analysis, Google Analytics & Search Console Integration
+Not Available in Solo Plan
+Extra user seats	Not available
+AI Results Tracker	Not available
+On-Page SEO Checker, SERP Analyzer	Not available
+Historical Data	Not available
+API, Insights, Parameter Checker, Looker Studio	Not available
+Agency Pack, Content Marketing, Local Marketing, SMM	Not available
+Where can I change the payment method?
+
+To update the card or payment method on an active subscription: open the Billing page in your account and click Billing details.
+
+To start a new subscription or renew one that has ended: open the Billing page, click Buy subscription, choose your plan, then click Continue with to reach the Stripe checkout page. Choose whether you are paying as a Person or a Company, add your VAT ID if you are a business, and complete the payment.
+
+If your subscription is not currently active, updating billing details alone will not restart it. You need to complete the purchase step.
+
+Can I pay monthly for a subscription plan?
+
+All our current plans — Core and Growth — are billed on a monthly basis.
+
+Note: Legacy plans (Essential, Pro, and Business) are no longer available for new subscriptions. They remain active only for existing users.
+
+More details on our subscription plans can be found here.
+
+I've made a payment, but don't see any activated subscription plan in my account
+
+After payment, it can take up to 40 minutes for your subscription plan to become active.
+
+To ensure the plan is applied to the correct account:
+
+complete the payment from within your account, or
+use the same email address that you registered with when purchasing from the Plans & Pricing page.
+
+If a different email address is used, the system will automatically create a new account. If you need to transfer the subscription to your original account, please contact our support team for assistance.
+
+Please note: Bank transfers and SEPA payments may require additional verification and can take longer than card payments to reflect in your account.
+How to get a refund?
+
+According to the Terms of Use, the Service Administration does not refund paid but unused funds, except for cases of poor service inconsistent with Service obligations or as specified by special promotions.
+
+Please contact our support team for help with the refund procedure.
+
+How to purchase Local Marketing and/or Content Marketing tools?
+
+Both these tools are included by default in the Core, Growth, and Enterprise subscription plans. Users can also purchase them as separate add-ons and buy additional limits directly from the Billing page in their account.
+
+Please note: For users on legacy plans (such as Pro and Business), Local Marketing and Content Marketing remain available under the same conditions as before.
+Was this article helpful?
+Yes No
+3 out of 9 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

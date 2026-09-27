@@ -1,0 +1,33 @@
+{
+  "id": "se-ranking",
+  "name": "SE Ranking",
+  "vendor": "SE Ranking",
+  "tier": "secondary",
+  "layer": "grow",
+  "category": "SEO",
+  "url": "https://seranking.com/",
+  "pricingUrl": "https://seranking.com/subscription.html",
+  "oneLiner": "SEO and AI-visibility platform for rank tracking, site audits and backlink research. Core is $129/mo ($103.20/mo annual); Growth is $279/mo ($223.20/mo annual).",
+  "summary": "SE Ranking is an SEO and AI-visibility platform for rank tracking, site audits, backlink research and reporting, sold as two self-serve plans (Core and Growth) plus a custom Enterprise tier. Core costs $129/month (or $103.20/month billed annually) with 1 seat and 2,000 tracked keywords/day; Growth costs $279/month (or $223.20/month billed annually) with 3 seats and 5,000 tracked keywords/day. Optional add-ons cover extra seats, extra tracked keywords, an agency white-label pack, AI-search visibility tracking and API access.",
+  "bestFor": ["agency", "local-service", "freelancer"],
+  "notFor": [
+    "Teams needing more than 3 seats without paying per-seat add-on fees outside a negotiated Enterprise contract",
+    "Buyers who want month-to-month billing on the Agency Pack or API add-on"
+  ],
+  "pros": [
+    "14-day free trial with no credit card required, including Agency Pack and AI Search add-on access during the trial",
+    "Both self-serve plans include AI Overviews/AI Mode/ChatGPT/Perplexity tracking and MCP access built in, not sold as a separate add-on tier",
+    "Free assisted migration from another SEO platform when paying annually",
+    "Extra manager seats ($20/month) and extra tracked keywords (from $22.40-$32/month) can be added incrementally instead of forcing a jump to the next plan"
+  ],
+  "cons": [
+    "Only 1 manager seat is included on Core ($129/mo); a 2nd user costs $20/month more",
+    "The Agency Pack and API add-on can only be bought on an annual subscription, even though the base plans also offer monthly billing",
+    "The pricing page and SE Ranking's own Agency Pack help article disagree on how many client seats the Agency Pack includes (30 vs. up to 10)",
+    "Legacy Essential/Pro/Business customers keep older limits and pricing that are no longer published anywhere on the current site",
+    "Enterprise has no list price, seat count or keyword allowance on the pricing page itself; the only published seat/keyword figures for it come from Help Center articles that group it with Core/Growth",
+    "PayPal isn't accepted; all billing runs through Stripe, and accounts still on 2Checkout must migrate during 2026"
+  ],
+  "founded": 2013,
+  "affiliate": { "program": null }
+}

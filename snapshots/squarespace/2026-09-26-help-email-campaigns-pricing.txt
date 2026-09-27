@@ -1,0 +1,195 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/360002123507-Email-Campaigns-pricing-billing-and-invoices
+FETCHED: 2026-09-26T22:14:15.327Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+EMAIL CAMPAIGNS
+EMAIL CAMPAIGNS BILLING
+Email Campaigns pricing, billing, and invoices
+Important information about managing your Email Campaigns subscription.
+
+Last updated August 27, 2026
+
+English
+
+Compare pricing and features for Email Campaigns billing plans, including monthly send limits, mailing list details, and how to manage your automated marketing subscription.
+
+Compare Email Campaigns plans
+
+The Email Campaigns plan you choose affects your monthly send limit and your ability to remove the branding text that appears at the bottom of emails. On the 500 email sends plan, you can't remove the "Powered by Squarespace" text. You can remove it on all other plans.
+
+What is the current Email Campaigns pricing?
+
+For current pricing by billing plan, visit our Email Campaigns page and click Pricing.
+
+Can I switch between Email Campaigns plans?
+
+Yes. You can change your billing plan at any time.
+
+Are there mailing list limits?
+
+There's no limit to the number of contacts you can have on an individual mailing list, but mailing list size can't override other plan limits. For example, if you have a mailing list with 510 contacts on the Starter plan, that exceeds your monthly send limit and you won't be able to send your campaign to that list. 
+
+What happens when I reach my monthly send limit?
+
+After you reach your monthly limit for email sends, you can't send email campaigns for the remainder of the usage period. To learn more, visit Billing cycle vs. usage period.
+
+Is my Email Campaigns subscription taxed?
+
+Email Campaigns may be subject to state and local sales taxes. If your account is subject to tax, you’ll see it added at checkout. To learn more, visit our guides on taxes in the United States, United Kingdom, European Union, or Australia.
+
+Subscribe to Email Campaigns
+
+When you subscribe to Email Campaigns, you’re paying to send your campaigns. You can build mailing lists, compose drafts, and review past campaigns without an active Email Campaigns subscription. To prevent service interruptions, Email Campaigns subscriptions renew automatically.
+
+View and manage your Email Campaigns subscription
+
+After you sign up, you can access your Email Campaigns billing details in the billing panel.
+
+Review your plan, billing cycle, and next auto-renew date
+
+To review your Email Campaigns subscription details and invoices:
+
+Open the Billing panel.
+Under Subscriptions, click Email Campaigns.
+Your plan details and invoices will display.
+Check your usage
+
+To check your usage during the current period: 
+
+Open the Billing panel.
+Under Subscriptions, click Email Campaigns.
+Your current usage will display.
+Change your billing plan
+
+You can change your Email Campaigns billing plan at any time. 
+
+Open the Billing panel.
+Under Subscriptions, click Email Campaigns.
+Beside the name of your current billing plan, click Change.
+Disable auto-renew or cancel your Email Campaigns subscription
+
+To cancel your Email Campaigns subscription, you can disable auto-renew or cancel immediately.
+
+Open the Billing panel.
+Under Subscriptions, click Email Campaigns.
+To disable auto-renew, switch the Renew automatically toggle off. Your subscription will expire when your billing cycle ends, at the time of day when you originally signed up. You’ll still be able to access your drafts and mailing lists, but you won’t be able to send campaigns.
+To cancel your subscription immediately, click Cancel subscription. 
+Email campaigns auto-renew reminder emails
+
+We send an email reminder 15 days before your renewal date to give you time to update your credit card information, or turn off the renewal. 
+
+What happens to Email Campaigns when you cancel your website or Acuity Scheduling subscription
+
+Billing for Email Campaigns is separate from your site subscription. If you cancel your site subscription, or let it expire, we won’t turn off auto-renew for an existing Email Campaigns subscription, and you can continue using it.
+
+Failed Email Campaigns subscription charges
+
+To renew your subscription, you don’t need to take any action as long as the credit card you have on file is valid. If the renewal charge fails, your subscription will become past-due. We’ll try to charge the credit card on file over the next 15 days. You can update your card at any time during this grace period to manually prompt a charge.
+
+If we still can’t charge your card after 15 days, your Email Campaigns subscription will expire, and you won’t be able to send campaigns. As long as your website subscription remains active, you can purchase a new Email Campaigns subscription at any time.
+
+Glossary of Email Campaigns terms
+Mailing list size - The number of email addresses you can add to a single mailing list. You can have up to 20 mailing lists on any plan.
+Blast campaigns - individual campaigns you send to one or more mailing lists. 
+Automated campaigns - Schedule campaigns to send automatically based on a trigger, like when someone signs up for your mailing list. Also referred to as automations.
+Email send - An email from you to a recipient on your mailing list. If you send one campaign to a mailing list with ten recipients, that's ten sends.
+Total email sends per month - The total number of emails you can send in a month. Both blast campaigns and automated campaigns count toward the total sends. Each time you send a campaign to an individual email address is a send. For example, if you send one campaign to ten email addresses, then send another campaign to the same ten email addresses, that’s twenty sends toward your total.
+Squarespace branding in footer - “Powered by Squarespace” appears in the footer of your campaigns. This can be removed on any plan above the 500 email sends plan.
+Billing cycle vs. usage period
+
+Your Email Campaigns subscription has a billing cycle and a usage period. These periods of time are related but not the same:
+
+Billing cycle - How frequently you’re charged, either monthly or annually.
+Usage period - The time you have to reach the limits of certain Email Campaigns features, always monthly.
+Your usage period resets monthly
+
+Regardless of your billing cycle, your usage period resets monthly, based on the start date of your subscription. For example, Starter plans on both annual and monthly billing cycles can send up to 500 total email sends during their monthly usage period.
+
+What happens when you reach your email send limit
+
+After reaching the total email sends per month limit during your usage period, you can't send more campaigns. If you're on the Starter plan and send five campaigns to 100 subscribers each, you can't send to additional subscribers because you've reached the limit of your total email sends per month. If you reach the limits of your plan, you’ll have to wait until the next usage period to send new or existing campaigns or change your plan to raise your limits. You can check your usage in the billing panel.
+
+Why is my plan different from the current plans?
+
+We periodically adjust the pricing and features of each plan. Many customers remain on older plans that are less expensive than new subscriptions but have different features. For example, some older plans have limited blast campaigns per month, and don't offer automated campaigns. 
+
+You’re welcome to stay on your current plan as long as your plan remains active. To gain access to more features, you can move to a similar current plan. Keep in mind if you move to a current plan, or cancel service, it's not possible to return to your old plan.
+
+IN THIS GUIDE
+Compare Email Campaigns plans
+Subscribe to Email Campaigns
+View and manage your Email Campaigns subscription
+Review your plan, billing cycle, and next auto-renew date
+Check your usage
+Change your billing plan
+Disable auto-renew or cancel your Email Campaigns subscription
+Email campaigns auto-renew reminder emails
+What happens to Email Campaigns when you cancel your website or Acuity Scheduling subscription
+Failed Email Campaigns subscription charges
+Glossary of Email Campaigns terms
+Billing cycle vs. usage period
+Why is my plan different from the current plans?
+People also viewed
+
+Changing your Email Campaigns billing plan
+
+Getting started with Squarespace Email Campaigns
+
+Build mailing lists
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

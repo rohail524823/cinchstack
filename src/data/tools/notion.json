@@ -1,0 +1,41 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "vendor": "Notion Labs, Inc.",
+  "tier": "core",
+  "layer": "organize",
+  "category": "Docs and project workspace",
+  "url": "https://www.notion.com",
+  "pricingUrl": "https://www.notion.com/pricing",
+  "oneLiner": "Per-member workspace for docs, databases, forms and simple sites; full Notion AI (Agent, Meeting Notes, Enterprise Search) starts at the Business plan.",
+  "summary": "Notion is a workspace for pages and databases (with subtasks, dependencies and custom properties), plus forms and simple published sites, priced per member per month on Free, Plus, Business and Enterprise plans. Free and Plus include only a limited trial of Notion AI; Notion Agent, AI Meeting Notes and Enterprise Search come with Business and Enterprise, where Custom Agents and Workers are also available and billed separately in Notion credits. Yearly billing is about 17% cheaper per seat than month-to-month.",
+  "bestFor": [
+    "agency",
+    "saas-startup",
+    "freelancer"
+  ],
+  "notFor": [
+    "Teams that want Custom Agents or Workers on Free or Plus: they are offered only on Business and Enterprise, and billed in Notion credits on top of the seat price",
+    "Teams that need page-version history longer than 90 days below Enterprise (Business keeps 90 days, Plus 30, Free 7)",
+    "Buyers who need SCIM user provisioning or an audit log at a published price, since both are Enterprise-only and Enterprise is quote-only"
+  ],
+  "pros": [
+    "Free is unlimited in pages and blocks for a one-person workspace and includes a trial of Notion AI",
+    "Plus ($12/member/month, $10 billed yearly) adds unlimited file uploads, unlimited guests, custom database automations and 30-day page history",
+    "Business ($24/member/month, $20 billed yearly) includes Notion Agent, AI Meeting Notes and Enterprise Search in the seat price",
+    "Guests are free and unlimited on every paid plan, and can only open the pages they're invited to",
+    "Public API, webhooks and CLI are listed on every plan, including Free",
+    "A member who leaves frees a paid seat that the next new member reuses at no extra cost"
+  ],
+  "cons": [
+    "Free and Plus get only a 'Limited Trial' of Notion Agent, Meeting Notes and Research mode",
+    "Custom Agents and Workers need Business or Enterprise and bill separately at $10 per 1,000 monthly Notion credits after a free trial whose size isn't published",
+    "Free's pages and blocks become 'limited' once a workspace has 2 or more members, and Notion doesn't publish the cap",
+    "A paid seat is kept and billed for the rest of the billing period even if the member is removed mid-cycle",
+    "Custom domains for Notion sites cost extra ('Pay per domain'), and the price isn't shown on the pricing page",
+    "SCIM, audit log and other admin controls are Enterprise-only, and Enterprise pricing is quote-only"
+  ],
+  "affiliate": {
+    "program": "notion"
+  }
+}

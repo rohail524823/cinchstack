@@ -1,7 +1,7 @@
 SOURCE: https://www.klaviyo.com/pricing
-FETCHED: 2026-09-26T22:09:04.891Z
+FETCHED: 2026-09-26T22:14:25.158Z
 RENDERER: headless Chromium, en-US, US timezone
-METHOD: Clicked the "Customer Agent" pricing tab, then clicked each of the 7 FAQ questions to expand the answers; saved document.body.innerText.
+METHOD: Clicked the "Customer Agent" pricing tab; saved document.body.innerText, then clicked each of the 7 FAQ questions open and appended each question's row text.
 ----
 ___
 Skip to main content
@@ -72,11 +72,9 @@ How is Klaviyo Service priced?
 Can I purchase just one product, or do I need to buy all three?
 Do you offer a free trial or pilot program for Klaviyo Service products?
 Are there any discounts available for Klaviyo Service?
-Yes, early adopters can lock in a special introductory price list. Customers lock in on the introductory price list for as long as they maintain a subscription to the applicable product. If they cancel or end their subscription and later choose to re-purchase, they'll be subject to the then-current list price at the time of purchase.
 Are there any setup or onboarding fees for Klaviyo Service?
 What happens if I exceed my plan limits?
 What kind of support do I receive with Klaviyo?
-Klaviyo offers a range of support options, including our comprehensive Help Center, community forums, live chat, and email support. The availability of specific support channels may vary based on your plan.
 COMPANY
 About Klaviyo
 Newsroom
@@ -155,3 +153,26 @@ Trust
 Intellectual Property Notices
 Cookie Settings
 Your Privacy Preferences
+
+==== FAQ ANSWERS (each question clicked open, its row text saved) ====
+
+How is Klaviyo Service priced?
+Klaviyo Service includes three products — Customer Hub, Customer Agent, and Helpdesk. Pick the setup that works best for your business, and unlock even more value when you use them together.
+
+Can I purchase just one product, or do I need to buy all three?
+Each product is designed to work independently, but they integrate seamlessly for a more powerful experience. You can start with one and add others anytime.
+
+Do you offer a free trial or pilot program for Klaviyo Service products?
+Yes. We offer a free 30-day trial for Customer Hub and Helpdesk, plus a one-time free trial of 50 conversations for Customer Agent. Start your free trials here.
+
+Are there any discounts available for Klaviyo Service?
+Yes, early adopters can lock in a special introductory price list. Customers lock in on the introductory price list for as long as they maintain a subscription to the applicable product. If they cancel or end their subscription and later choose to re-purchase, they'll be subject to the then-current list price at the time of purchase.
+
+Are there any setup or onboarding fees for Klaviyo Service?
+We do not charge hidden fees. Some plans include onboarding support— for larger implementations, we offer optional paid services.
+
+What happens if I exceed my plan limits?
+We will notify you in advance and provide easy options to upgrade. There are no surprise overage fees.
+
+What kind of support do I receive with Klaviyo?
+Klaviyo offers a range of support options, including our comprehensive Help Center, community forums, live chat, and email support. The availability of specific support channels may vary based on your plan.

@@ -1,0 +1,159 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/37837088720151-How-are-AI-Credits-consumed
+FETCHED: 2026-09-26T22:50:57.850Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+ClickUp Agents
+Super Agents
+How are AI Credits consumed?
+
+Learn how AI Credits are applied toward your Workspace's AI usage.
+
+ClickUp Brain AI feature availability and limits vary by plan and user role. Learn more
+
+Learn how to purchase our AI add-ons.
+
+All Brain AI features are subject to the terms of our fair use policy. Future restrictions may apply to Brain AI features. Brain AI usage limits may change as we assess usage and costs.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+Brain AI trial
+
+Brain AI is activated on a trial basis in all Workspaces. AI trial usage limits vary by plan.
+
+Purchase Brain AI
+
+Once your trial is over, paid plans can purchase Brain AI.
+
+What are AI Credits?
+
+AI Credits are applied toward the use of premium AI features for your entire Workspace. They automatically renew and do not roll over into the next month.
+
+Learn which features consume AI Credits.
+
+AI Credits are currently $0.001 per credit. You can purchase credits monthly in $10 increments.
+
+For example, if you purchase $10 of credits, you'll have a usage limit of 10,000 AI Credits that month across the features included in the AI Credit add-on.
+
+View a Super Agent's cost and usage panel
+
+To open a Super Agent's cost and usage panel:
+
+Open the Super Agent's profile.
+In the upper-right corner, hover over Credits. This panel is only visible to Workspace admins and members who are managers of that Agent.
+How are AI Credits consumed?
+
+An AI Credit is used only when an action occurs. Building a Super Agent does not consume credits. When the Super Agent performs the actions specified in its prompt, those actions consume credits.
+
+AI Credit consumption varies by the complexity and number of actions used by the feature, and our Super Fair Billing policy (explained below).
+
+Premium AI features	Estimated AI Credits consumed
+1 use of AI Fields	10
+1 use of Create tasks from Chat messages	10
+1 use of AI Assign	10
+1 use of AI Prioritize	10
+1 use of AI cards	20
+1 use of AI image generation	100
+1 use of Autopilot Agents or Super Agents	100–300
+See the tables below for detailed info on how Super Agent actions consume AI Credits.
+
+With Super Agents, AI Credit consumption varies by the complexity and number of actions the Agent performs. For example, when Super Agents are triggered, they use tools to perform the job they were built to do.
+
+The following tables provide specific examples of the range of actions that consume AI Credits when using Super Agents:
+
+Simple Super Agent workflow
+
+Bug Helper Super Agent
+
+When triggered by a Chat message containing a bug report, the simple Super Agent uses these tools:
+
+Action	Tools used
+Action 1	Retrieve Chat messages: Agent retrieves a Chat message containing a bug report.
+Action 2	Tasks and subtasks, create task: Agent creates a task.
+Action 3	Load assets and objects: Agent evaluates the bug's priority.
+Action 4	Update task: Agent updates the priority field.
+Action 5	Reply to thread: Agent replies to the Chat thread to alert you that it has done actions 1–4.
+Intermediate Super Agent workflow
+
+Bug Researcher Super Agent
+
+When triggered by a Chat message containing a bug report, the intermediate Super Agent does everything the simple Super Agent does, plus it updates the task's priority field, searches the web and your Workspace for a bug fix, and suggests the bug fix.
+
+The intermediate Super Agent uses these tools:
+
+Action	Tools used
+Action 1	Agent retrieves a Chat message containing a bug report.
+Action 2	Agent creates a task.
+Action 3	Agent evaluates the bug's priority.
+Action 4	Agent updates the priority field.
+Action 5	Search web: Agent searches the web.
+Action 6	Search Workspace: Agent searches your Workspace.
+Action 7	Tasks and subtasks, post task comment: Agent posts a task comment suggesting a solution to fix the bug.
+Action 8	Agent replies to the Chat thread to alert you that it has done actions 1–7.
+Complex Super Agent workflow
+
+Bug Manager
+
+When triggered by a Chat message containing a bug report, the complex Super Agent does everything the intermediate Super Agent does, plus it searches for and retrieves similar tasks, creates a Doc, and diagrams the bug fix implementation.
+
+The complex Super Agent uses these tools:
+
+Action	Tools used
+Action 1	Agent retrieves a Chat message containing a bug report.
+Action 2	Agent creates a task.
+Action 3	Search Workspace: Agent searches your Workspace for similar tasks.
+Action 4	Load assets and objects: Agent retrieves similar tasks.
+Action 5	Agent updates the priority field.
+Action 6	Agent searches the web.
+Action 7	Agent searches your Workspace.
+Action 8	Agent sends a task comment suggesting a solution to fix the bug.
+Action 9	Docs, create Doc: Agent creates a Doc outlining implementation guidance.
+Action 10	Generate image: Agent creates a diagram outlining the implementation.
+Action 11	Generate image: Agent creates a diagram outlining the implementation.
+Action 12	Generate image: Agent creates a diagram outlining the implementation.
+Action 13	Generate image: Agent creates a diagram outlining the implementation.
+Action 14	Agent replies to the Chat thread to alert you that it has done actions 1–14.
+ClickUp's Super Fair Billing Policy
+When we optimize, you save
+
+We know paying for AI Credits is new and sometimes confusing. That's why we're introducing Super Fair Billing. It's our way to keep things transparent and reasonable. Plus, it's designed to save you money.
+
+If there are sudden increases in AI costs from AI model providers (like OpenAI or Anthropic), we subsidize the difference so your credit usage remains steady. That's not all:
+
+When we save on AI costs, those savings are passed directly to you.
+If you exceed your AI Credits for any reason, we provide a grace period to keep your teams on track.
+We use cost-plus pricing, so you're billed fairly based on the AI Credits you use.
+
+We may adjust pricing gradually if AI costs rise, but we'll always communicate changes transparently and with plenty of notice.
+
+If you ever experience unexpected billing issues, our support team is here to help make it right.
+
+Was this article helpful?
+Related articles
+Purchase or cancel ClickUp add-ons
+ClickUp Brain AI feature availability and limits
+Track your Workspace's Brain AI usage
+How can Super Agents help your team?
+What are Super Agents?
+Articles in this section 
+What are Super Agents?
+How can Super Agents help your team?
+Create a Super Agent
+Super Agent catalog
+Refine your Super Agent
+Super Agent instructions, Skills, triggers, knowledge, and memory
+Manage Super Agents and create templates
+What is Super Agent Memory?
+Ask Brain to help you with Autopilot Agents
+Super Agent Activity
+
+See all 13 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

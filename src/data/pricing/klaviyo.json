@@ -1,0 +1,457 @@
+{
+  "tool": "klaviyo",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read Klaviyo's pricing page (the 'Free' tab; the 'Marketing' tab's Email active-profiles slider at its default 500-profile position and moved to 1,000, 10,000, 50,000 and 60,000 profiles, plus the full 50-position slider sweep; the Composer, Professional Services and Enterprise tabs) with FAQ answers expanded, plus klaviyo.com/uk/pricing, the sign-up and About pages and Klaviyo Help Center articles on billing, plan changes, active profiles, mobile messaging and Composer, all in a US-locale headless browser; snapshots saved. An independent fact-check on 2026-09-27 re-read every cited figure against its snapshot and re-rendered the Marketing tab live, which still showed the same Email, add-on and SMS figures.",
+  "sources": [
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, default 'Free' tab (initial load)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Free' tab with all 11 FAQ answers expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-free-faq.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Email active-profiles slider at its default 500 profiles, with all FAQ answers expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 1,000 profiles",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-1000-profiles.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 10,000 profiles",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-10000-profiles.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 50,000 profiles",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-50000-profiles.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 60,000 profiles",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-60000-profiles.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Email active-profiles slider swept through all 50 positions (500 to 150,000+), one line per position",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-email-profile-tiers.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Composer' tab, with all 7 FAQ answers expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-composer.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Professional Services' tab",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-professional-services.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Enterprise' tab, with all 11 FAQ answers expanded",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-enterprise.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/uk/pricing",
+      "label": "UK pricing page, default 'Free' tab",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-uk.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/sign-up",
+      "label": "Sign-up page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-signup.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/about",
+      "label": "About Klaviyo page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-company-about.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115000976672",
+      "label": "Help Center: How Klaviyo billing works",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-how-billing-works.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005246968",
+      "label": "Help Center: Understanding active email profiles in Klaviyo",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-active-profiles.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/360050759151",
+      "label": "Help Center: Understanding how free and paid plans differ",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-free-vs-paid-plans.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/33136281415451",
+      "label": "Help Center: FAQ: Feb 18 billing changes",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-feb-18-billing-changes.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/13502982552347",
+      "label": "Help Center: Understand Klaviyo's mobile messaging system",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-mobile-messaging-system.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/52952739755931",
+      "label": "Help Center: FAQ 7/13 Mobile Messaging Update (credits to dollar-based rates)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-mobile-messaging-update-faq.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/1260805595309",
+      "label": "Help Center: How to downgrade to free, cancel a plan, or close your Klaviyo account",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-cancel-downgrade.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/18745921973915",
+      "label": "Help Center: Understanding manual billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-manual-billing.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/55587298026395",
+      "label": "Help Center: How your Composer plan works",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-composer-plan.txt"
+    },
+    {
+      "url": "https://help.klaviyo.com/hc/en-us/articles/8356575957275",
+      "label": "Help Center: How to add or change a billing plan (manual upgrades, auto-upgrade default)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/klaviyo/2026-09-26-help-add-change-plan.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free with no time limit while the account stays at or under 250 active profiles and 500 email sends per month; it also includes $5 of mobile-messaging usage and $5 of Composer AI usage per month. Going over 250 profiles blocks sending until you are back under the limit or upgrade; hitting the 500-email cap blocks email until the next month or an upgrade. Email support is included only for the first 60 days after sign-up, then Community and Help Center only."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "No time-limited trial of the paid Email plan: Klaviyo offers a free-forever plan instead (250 active profiles, 500 emails/month). The pricing calculator labels the separate Customer Hub add-on 'FREE 30-DAY TRIAL'. Whether a payment card is needed at sign-up was not confirmed: the captured sign-up page shows only the first step (email and password), not the later 'Company' and 'About you' steps.",
+    "source": 2
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Stays free indefinitely as long as active profiles stay at or under 250 and monthly sends at or under 500.",
+      "limits": [
+        "Up to 250 active profiles",
+        "500 email sends per month",
+        "$5 of mobile messaging (SMS/MMS) usage per month",
+        "$5 of Composer AI usage per month",
+        "Full email support only for the first 60 days after signup"
+      ],
+      "highlights": [
+        "Drag-and-drop email/SMS editors, automations, segmentation and reporting",
+        "Web forms and basic email templates",
+        "350+ integrations, including Shopify and WooCommerce"
+      ],
+      "source": 0
+    },
+    {
+      "id": "email-500",
+      "name": "Email (500 active profiles)",
+      "monthly": 20,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Smallest paid Email tier. A time-limited promo shown at exactly this tier ('$19 off your first month of Klaviyo Email (500 profiles only)') cuts the first month to $1; $20/month is the recurring price. The pricing page offers no annual billing.",
+      "limits": [
+        "500 active profiles",
+        "5,000 emails/month included"
+      ],
+      "highlights": [],
+      "source": 2
+    },
+    {
+      "id": "email-1000",
+      "name": "Email (1,000 active profiles)",
+      "monthly": 30,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Klaviyo's Email plan is priced by active-profile count on a continuous tier scale, not a small set of named plans. This is the price at exactly 1,000 active profiles, with no promo applied at this tier.",
+      "limits": [
+        "1,000 active profiles",
+        "10,000 emails/month included"
+      ],
+      "highlights": [
+        "Personalized email campaigns and automated flows",
+        "AI-powered subject line generator",
+        "Mobile app marketing"
+      ],
+      "source": 3
+    },
+    {
+      "id": "email-10000",
+      "name": "Email (10,000 active profiles)",
+      "monthly": 150,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Same Email plan, at the 10,000-active-profile tier.",
+      "limits": [
+        "10,000 active profiles",
+        "100,000 emails/month included"
+      ],
+      "highlights": [
+        "Personalized email campaigns and automated flows",
+        "AI-powered subject line generator",
+        "Mobile app marketing"
+      ],
+      "source": 4
+    },
+    {
+      "id": "email-50000",
+      "name": "Email (50,000 active profiles)",
+      "monthly": 720,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Same Email plan, at the 50,000-active-profile tier.",
+      "limits": [
+        "50,000 active profiles",
+        "500,000 emails/month included"
+      ],
+      "highlights": [
+        "Personalized email campaigns and automated flows",
+        "AI-powered subject line generator",
+        "Mobile app marketing"
+      ],
+      "source": 5
+    },
+    {
+      "id": "email-60000",
+      "name": "Email (60,000 active profiles)",
+      "monthly": 860,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Same Email plan, at the 60,000-active-profile tier (the slider has 5,000-profile steps between 50,000 and 150,000; $790 at 55,000).",
+      "limits": [
+        "60,000 active profiles",
+        "600,000 emails/month included"
+      ],
+      "highlights": [
+        "Personalized email campaigns and automated flows",
+        "AI-powered subject line generator",
+        "Mobile app marketing"
+      ],
+      "source": 6
+    },
+    {
+      "id": "email-enterprise",
+      "name": "Email (150,000+ active profiles)",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Above 150,000 active profiles the calculator shows 'Talk to sales' instead of a price. The Enterprise tab sells custom 'Klaviyo Standard' and 'Klaviyo Advanced' plans through sales only, with no published price.",
+      "limits": [
+        "150,000+ active profiles"
+      ],
+      "highlights": [],
+      "source": 7
+    }
+  ],
+  "addOns": [
+    {
+      "id": "composer",
+      "name": "Composer (AI marketing agent add-on)",
+      "price": 20,
+      "unit": "per month, flat (layers onto any Email plan; not priced by active profiles)",
+      "note": "Every account also gets a smaller free Composer allotment automatically; this $20/month upgrade gives 4x that free allotment (help.klaviyo.com, source 22). Usage is metered in dynamic AI credits rather than a fixed action count — Klaviyo's own published ranges put 'Create a campaign' at $0.10–$10.00 and 'Analyze data' at $0.35–$0.90 per action (source 22). Unused credits expire at the end of each billing period.",
+      "source": 8
+    },
+    {
+      "id": "composer-overage",
+      "name": "Composer: additional usage (Flexible Overage)",
+      "price": 10,
+      "unit": "per 1,000 credits, charged once you exceed your Composer plan's monthly credit allotment",
+      "note": "Optional; only applies if you opt in to Flexible Overages. Klaviyo bills the full $10 at the time of use regardless of how much of the 1,000-credit increment you actually need, and repeated overages in one billing period each incur their own $10 charge. You can opt out and instead pause Composer until the next billing cycle.",
+      "source": 8
+    },
+    {
+      "id": "customer-hub",
+      "name": "Customer Hub",
+      "price": 20,
+      "unit": "per month for up to 10,000 active profiles (scales up with active-profile count)",
+      "note": "Klaviyo's help center: 'Customer Hub is priced based on your active profile count, starting at $20 per month for up to 10,000 active profiles' (source 14). On the pricing calculator the same tier shows a $30 list price cut 30% to $20 as 'special introductory pricing ... through 09/30/2026' (sources 2-4), so the price after that date may be $30. At 50,000 active profiles the calculator showed $123 list / $86 discounted, and at 60,000 profiles $147 list / $103 discounted (sources 5, 6). The calculator also labels Customer Hub 'FREE 30-DAY TRIAL'.",
+      "appliesTo": [
+        "email-500",
+        "email-1000",
+        "email-10000",
+        "email-50000",
+        "email-60000"
+      ],
+      "source": 14
+    },
+    {
+      "id": "social-marketing",
+      "name": "Social Marketing",
+      "price": 38,
+      "unit": "per month at the 10,000-active-profile tier shown on the calculator (25%-off introductory rate); Klaviyo says full pricing scales with active-profile count but publishes no separate starting figure",
+      "note": "List price $50/month at this tier, discounted 25% to $38 as 'special introductory pricing ... through 09/30/2026' (source 2). Social Marketing has its own coarser profile tiers: its card still read '10,000 profiles' while the Email slider was at 500 or 1,000, read 50,000 profiles ($200 list / $150 discounted) at the 50,000 Email setting, and jumped to 150,000 profiles ($300 list / $225 discounted) at the 60,000 Email setting (sources 5, 6).",
+      "appliesTo": [
+        "email-500",
+        "email-1000",
+        "email-10000",
+        "email-50000",
+        "email-60000"
+      ],
+      "source": 2
+    },
+    {
+      "id": "reviews",
+      "name": "Reviews",
+      "price": 25,
+      "unit": "per month for up to 250 orders/month (Shopify and WooCommerce stores only)",
+      "note": "Priced by monthly store order volume, not active profiles (source 14). Pricing above the 250-order tier shown by default on the calculator was not captured.",
+      "source": 2
+    },
+    {
+      "id": "professional-support",
+      "name": "Professional support package",
+      "price": 500,
+      "unit": "per month, starting price ('Contact sales' for an exact quote)",
+      "note": "Adds 2-24hr priority email response, weekend live chat during local business hours, one dedicated training session per year and a deliverability strategist on request, on top of the Standard support included with paid plans.",
+      "source": 9
+    },
+    {
+      "id": "enterprise-support",
+      "name": "Enterprise support package",
+      "price": 1800,
+      "unit": "per month, starting price ('Contact sales' for an exact quote)",
+      "note": "Adds 1–12hr priority email response, 24/7 weekend live chat, two dedicated training sessions per year, and a dedicated solutions architect plus deliverability team.",
+      "source": 9
+    }
+  ],
+  "usage": [
+    {
+      "id": "sms-us-toll-free",
+      "name": "Outbound SMS — US, toll-free number",
+      "rate": 0.01,
+      "unit": "per SMS segment sent to a US recipient from a toll-free number (carrier fees included)",
+      "note": "The calculator shows '$0.01 + carrier fees* per send', with the footnote '*Price includes carrier fees where applicable'; Klaviyo's mobile-messaging FAQ confirms carrier fees are included in rates with no separate line item (source 19), and long messages are billed per segment (source 18). The calculator rounds to whole cents and did not say which Mobile Messaging subscription size this rate belongs to; Klaviyo says rates vary by country, channel, number type (toll-free vs short code) and plan size, with volume discounts on larger plans (source 19). SMS is sold through a prepaid monthly Mobile Messaging subscription, not pure pay-as-you-go. MMS, WhatsApp and RCS rates showed as $0.00 on the calculator and were not recorded (see unverified).",
+      "source": 2
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "email-flex-overage",
+      "label": "Email flexible-sending overage (optional)",
+      "amount": null,
+      "display": "Variable — next tier's extra email capacity, billed once at your plan's per-email unit rate",
+      "kind": "one-time",
+      "note": "Only applies if you choose 'Flexible sending' as your upgrade preference and then send more emails in a month than your tier includes. Klaviyo's worked example: an $80/month plan entitling 35,000 emails (a $1.14-per-thousand unit rate) that needs 10,000 more emails is charged for the next tier's 15,000-email increment: 15,000 x ($1.14 / 1,000) = $17.10 (source 17). The alternatives are auto-upgrade (on by default for new subscriptions; permanently moves you to a larger tier, source 23) or 'None' (sending stops until the next billing cycle).",
+      "source": 17
+    }
+  ],
+  "billingNotes": [
+    "Self-serve Klaviyo plans are billed and renew monthly; the pricing calculator has no annual toggle and shows no annual-prepay discount for Email, Composer, Customer Hub, Social Marketing or Reviews. Contracted ('manually billed') accounts, available only at $2,000/month or more, can have monthly, quarterly, semi-annual or annual billing cycles set in the contract; any discount for those is not published.",
+    "Klaviyo enforces 'profile compliance': if your active-profile count exceeds your current Email plan's tier, you are automatically moved to a profile-compliant (more expensive) tier at the start of your next billing cycle, whether or not you opted into any auto-upgrade preference. The only way to avoid it is to suppress or delete enough profiles at least 24 hours before your billing cycle renews.",
+    "For email-send overages (sending more emails than your profile tier includes, while still within your profile limit), you choose one of: Flexible sending (a one-time charge for the next tier's extra sends, at your current plan's per-unit rate), Auto-upgrade (permanently moves you to a larger tier; on by default when you first buy a subscription), or 'None' (stops sending until the next billing cycle). You can also manually upgrade to a larger tier at any time; upgrades take effect immediately and you pay the difference for that first month.",
+    "As of this check (2026-09-26), Customer Hub is discounted 30% and Social Marketing 25% off their list prices, and the Email plan carries a $19-off first-month promo at the 500-profile tier only; Klaviyo's site says these run 'through 09/30/2026' — i.e., about to end within days of this check.",
+    "Cancelling immediately (rather than at the end of the billing cycle) forfeits the rest of the paid cycle with no refund; cancelling at the end of the cycle keeps the plan active, and billed, through its last day.",
+    "Self-serve customers pay month to month by credit card with no long-term contract. 'Manual billing' (an invoiced contract, ACH or wire) is only available once combined Klaviyo plans total $2,000/month or more, and is arranged through a Klaviyo representative rather than self-serve checkout.",
+    "Klaviyo's pricing FAQ, asked whether there are setup or onboarding fees, answers 'We do not charge hidden fees. Some plans include onboarding support — for larger implementations, we offer optional paid professional services.' No setup fee appears anywhere on the pricing calculator.",
+    "Composer, Customer Hub, Social Marketing, Reviews, Helpdesk, Marketing Analytics and Advanced Klaviyo Data Platform are all separate line items from the core Email plan; none is required to send email. This record captures the ones most relevant to an email-marketing buyer (Composer, Customer Hub, Social Marketing, Reviews) and scopes out the Service/Data-platform products (Helpdesk, Customer Agent, Marketing Analytics, Advanced KDP)."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "We captured klaviyo.com/uk/pricing (source 11) with the same US-locale/timezone headless browser (US egress through our proxy), and it showed the same '$5 of mobile messages/month' USD figures as the US Free-tab page, not GBP. The Marketing-tab calculator elsewhere shows a country/currency selector (captured as '🇺🇸 USD'), so pricing may be personalized by a visitor's real geo-IP or an explicit selector rather than by the URL path; we could not test a genuine non-US locale/IP, so we can't confirm whether GBP or other local-currency pricing exists for visitors actually located outside the US. All prices in this record are the US list price in USD."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo operator, 1,000 active profiles",
+      "assumptions": "One person, about 1,000 active profiles and roughly 4 campaigns/month, billed month to month. Klaviyo's Email plan is priced by active-profile count, not seats; the 1,000-profile tier includes 10,000 emails/month, above ~4 campaigns x 1,000 profiles = 4,000 sends.",
+      "planId": "email-1000",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Email plan — 1,000 active profiles",
+          "amount": 30
+        }
+      ],
+      "monthly": 30,
+      "confidence": "high",
+      "note": "Composer, Customer Hub, Social Marketing and Reviews are all optional add-ons a solo operator could skip entirely; none is included here."
+    },
+    {
+      "size": "small",
+      "label": "Small team, 10,000 active profiles",
+      "assumptions": "About 10,000 active profiles and roughly 8 campaigns/month, billed month to month. The 10,000-profile tier includes 100,000 emails/month, above ~8 campaigns x 10,000 profiles = 80,000 sends.",
+      "planId": "email-10000",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Email plan — 10,000 active profiles",
+          "amount": 150
+        }
+      ],
+      "monthly": 150,
+      "confidence": "high",
+      "note": "Composer ($20/month) or Customer Hub ($20/month at the introductory rate) are optional and not included; neither is required to send email."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, 50,000 active profiles",
+      "assumptions": "About 50,000 active profiles and roughly 12 campaigns/month to the full list, i.e. about 600,000 email sends/month, billed month to month. The 50,000-profile tier includes only 500,000 emails/month, so the send volume, not the profile count, forces the 60,000-profile tier ($860/month, 600,000 emails/month). Klaviyo lets you upgrade to a larger tier at any time, and auto-upgrade is on by default, so an account on the 50,000 tier sending this volume would be moved up anyway.",
+      "planId": "email-60000",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Email plan — 60,000-profile tier (600,000 emails/month)",
+          "amount": 860
+        }
+      ],
+      "monthly": 860,
+      "confidence": "high",
+      "note": "If campaigns go to segments rather than the full list and total sends stay under 500,000/month, the 50,000-profile tier at $720/month is enough. Staying on that tier and using flexible sending for the extra 100,000 emails would cost about $144 on top (100,000 x $720 / 500,000 emails), more than the $140 difference to the 60,000 tier. Add-ons (Composer, Customer Hub, Social Marketing, Reviews) are optional and not included."
+    }
+  ],
+  "unverified": [
+    "MMS, WhatsApp (marketing and transactional) and RCS (Basic and Single) per-message rates: the pricing calculator displayed all four at a literal $0.00 + carrier fees per send at every tier we checked, which we don't believe is the real rate (Klaviyo's own help center says MMS costs more to send than SMS). We could not get the calculator to render a non-zero, channel-specific number, so these were left out of usage[] rather than record a figure we don't trust.",
+    "Full profile-tier price tables for Customer Hub and Social Marketing beyond the single data points captured (their displayed tier breakpoints don't move in lockstep with the Email plan's own slider), and Reviews pricing above the 250-orders/month tier.",
+    "Mobile Messaging's own subscription tiers and starting price: SMS is bought as a prepaid monthly Mobile Messaging plan, but Klaviyo's help articles give only example amounts ('$115 Mobile Messaging plan', a '$900/month plan'), and the calculator's Mobile messages card showed 'Monthly cost $40.00' without stating the message volume behind it, so no Mobile Messaging subscription price went into addOns.",
+    "Marketing Analytics (help center: starting at $100/month for up to 13,500 active profiles), Advanced Klaviyo Data Platform (help center example: $4,765/month for 1,000,000 profiles), Helpdesk (starting at $10/month for up to 50 tickets) and Customer Agent (starting at $50/month for up to 75 conversations) all have published starting prices in Klaviyo's help center, but this record is scoped to the Email/Marketing side of Klaviyo and does not verify or include these Service/Data-platform products as add-ons.",
+    "Whether a visitor with a genuine non-US geo-IP sees a different currency or price on klaviyo.com; see the regional note. Only US-locale/egress sessions were captured.",
+    "Exact Professional and Enterprise support-package prices beyond the published 'starting at $500/month' and 'starting at $1,800/month' figures; both require 'Contact sales' for a final quote.",
+    "Whether a payment card is required to create a free account: the captured sign-up page shows only the first form step (email and password). Klaviyo's help center says no card is needed to start the free Composer plan, but that article is about Composer, not account sign-up.",
+    "Whether the introductory Customer Hub ($20) and Social Marketing ($38 at 10,000 profiles) prices continue after 09/30/2026; the calculator's list prices at those tiers are $30 and $50."
+  ],
+  "history": [
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
+  ]
+}

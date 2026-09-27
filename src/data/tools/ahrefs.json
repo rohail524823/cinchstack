@@ -1,0 +1,37 @@
+{
+  "id": "ahrefs",
+  "name": "Ahrefs",
+  "vendor": "Ahrefs Pte. Ltd.",
+  "tier": "secondary",
+  "layer": "grow",
+  "category": "SEO",
+  "url": "https://ahrefs.com/",
+  "pricingUrl": "https://ahrefs.com/pricing",
+  "oneLiner": "SEO toolset built on its own web crawler: backlink and keyword research, site audits, weekly rank tracking and AI-answer brand tracking. Paid plans from $29/mo.",
+  "summary": "Ahrefs is a Singapore-based SEO platform for backlink and keyword research, competitor analysis, technical site audits and rank tracking, and its Brand Radar tool tracks how brands show up in AI answers. Paid plans run from Starter at $29/mo (50 tracked keywords) through Lite ($129/mo) and Standard ($249/mo) to Advanced at $449/mo (5,000 keywords), each with one user, and paying annually for Lite, Standard or Advanced gives two months free. There is no free trial; instead, the free Ahrefs Free account gives limited Site Explorer and Site Audit data for sites you verify.",
+  "bestFor": ["agency", "freelancer", "saas-startup"],
+  "notFor": [
+    "Anyone who wants to test the paid tools before paying: there is no free trial",
+    "Teams that need daily rank updates: Rank Tracker refreshes keywords weekly on every plan",
+    "Teams of four or more on a Lite budget: Lite allows at most 2 additional users"
+  ],
+  "pros": [
+    "Free Ahrefs Free account with Site Explorer and Site Audit for sites you verify, with no card and no expiry",
+    "No monthly credit cap on Standard, Advanced and Enterprise (fair use)",
+    "API and MCP access on every plan from Lite ($129/mo) up",
+    "Annual billing is two months free: Lite costs $1,290 a year instead of $1,548",
+    "Lite, Standard and Advanced track 5, 10 or 20 of your own AI prompts daily in Brand Radar at no extra cost",
+    "Inactive team members are free and can still use Site Audit and Rank Tracker"
+  ],
+  "cons": [
+    "No free trial and no discounts; the free account only covers sites you verify",
+    "Rank Tracker updates keywords weekly by default on every plan, including Enterprise",
+    "Each plan includes one user; extra users cost $40–$100 a month, and Lite caps a team at 3 users",
+    "Lite is metered at 1,000 credits per user a month; extra credits cost $50 per 500",
+    "Enterprise ($1,499/mo) requires a one-year commitment",
+    "Refunds only for monthly subscriptions that haven't been used, at Ahrefs' discretion"
+  ],
+  "founded": 2010,
+  "hq": "Singapore",
+  "affiliate": { "program": null }
+}

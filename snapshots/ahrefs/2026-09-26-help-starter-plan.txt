@@ -1,0 +1,419 @@
+SOURCE: https://help.ahrefs.com/en/articles/9419051-about-ahrefs-starter-plan
+FETCHED: 2026-09-26T22:43:49.816Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Getting Started with Ahrefs
+Plans and Pricing
+About Ahrefs' Starter plan
+About Ahrefs' Starter plan
+
+Understand the limits and tools that the Starter plan provides, and how it compares to the free plan
+
+Written by Constance Tan
+Updated over 3 weeks ago
+
+The Starter plan is a great plan for beginners in SEO that are looking to go beyond the basics offered in our free account.
+
+ 
+
+Available tools
+
+Here are the accessible tools on the Starter plan:
+
+SEO Dashboard
+
+Site Explorer
+
+Keywords Explorer
+
+Site Audit
+
+Rank Tracker
+
+Ahrefs SEO Toolbar
+
+ 
+
+Account usage limits
+
+Limit
+
+	
+
+Ahrefs Free account
+
+	
+
+Starter ($29)
+
+	
+
+Lite ($129)
+
+Credits per month¹
+
+	
+
+0
+
+	
+
+200
+
+	
+
+1000
+
+Additional users
+
+	
+
+0
+
+	
+
+0
+
+	
+
+2
+
+Unverified projects
+
+	
+
+0
+
+	
+
+1
+
+	
+
+5
+
+Verified projects²
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+Additional credits that can be used on all verified projects³
+
+ 
+
+Additional crawl credits for each verified project
+
+	
+
+500
+
+ 
+
+ 
+
+5,000
+
+	
+
+500
+
+ 
+
+ 
+
+5,000
+
+	
+
+500
+
+ 
+
+ 
+
+5,000
+
+¹Learn more about what actions consume credits
+
+²Verified projects are projects that have gone through a verification process to prove you own the website. 
+
+³These additional limits can only be spent for URLs within any of the verified projects.
+
+ 
+
+Site Explorer and Keywords Explorer limits
+
+Limit
+
+	
+
+Ahrefs Free account
+
+	
+
+Starter ($29)
+
+	
+
+Lite ($129)
+
+Historical data
+
+	
+
+0
+
+	
+
+1 month
+
+	
+
+6 months
+
+Max rows per report
+
+	
+
+-
+
+	
+
+250
+
+	
+
+2,500
+
+Max rows in Top pages report
+
+	
+
+0
+
+	
+
+25
+
+	
+
+2,500
+
+Export rows per month
+
+	
+
+None
+
+	
+
+None
+
+	
+
+500,000
+
+Keyword lists
+
+	
+
+0
+
+	
+
+5, max 100 keywords per list
+
+	
+
+50
+
+ 
+
+Site Audit limits
+
+Limit
+
+	
+
+Ahrefs Free account
+
+	
+
+Starter ($29)
+
+	
+
+Lite ($129)
+
+Verified project
+- Crawl credits per project per month
+
+	
+
+ 
+
+5,000
+
+	
+
+ 
+
+5,000
+
+	
+
+ 
+
+5,000
+
+Unverified project
+- Max pages per project
+- Crawl credits per month
+
+	
+
+ 
+
+0
+0
+
+	
+
+ 
+
+500
+10,000
+
+	
+
+ 
+
+25,000
+
+100,000
+
+ 
+
+Rank Tracker limits
+
+Limit
+
+	
+
+Ahrefs Free account
+
+	
+
+Starter ($29)
+
+	
+
+Lite ($129)
+
+Rank Tracker Keywords
+
+	
+
+0
+
+	
+
+50
+
+	
+
+750
+
+ 
+
+SEO Toolbar limits
+
+Limit
+
+	
+
+Ahrefs Free account
+
+	
+
+Starter ($29)
+
+	
+
+Lite ($129)
+
+SERPs with SEO Metrics per month⁴
+
+	
+
+0
+
+	
+
+up to 800
+
+	
+
+up to 40,000
+
+SEO metrics will be shown in Google search results as below:
+
+ 
+
+⁴Actual limit will be lower, depending on how much other tools such as Site Explorer and Keywords Explorer are also used in the same month.
+
+ 
+
+ 
+
+Other terms and conditions of the plan
+
+Additional users and credits can't be bought on this plan. All other add-ons are available for the purchase.
+
+Starter plan can only be renewed monthly.
+
+Features and limits on this plan may be changed without prior notice.
+
+ 
+
+If you have any questions about the starter plan, feel free to contact our live chat support, or email support@ahrefs.com
+
+Related Articles
+Ahrefs SEO Toolbar: Installation and Usage
+What's the difference between all Ahrefs subscription plans?
+About API v3
+What is my subscription plan? How can I check what I have?
+About Rows, Export rows, and user limits
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Available tools
+Account usage limits
+SEO Toolbar limits
+Other terms and conditions of the plan
+Ahrefs AcademyBlogYouTubePricing

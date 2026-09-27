@@ -1,0 +1,139 @@
+SOURCE: https://help.ahrefs.com/en/articles/14333008-about-rows-export-rows-and-user-limits
+FETCHED: 2026-09-26T22:45:56.869Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Your Subscription
+About Rows, Export rows, and user limits
+About Rows, Export rows, and user limits
+
+Each Subscription plan comes with limits on users, rows, export rows of data you can access. See how these limits are calculated when you consume them.
+
+Written by Constance Tan
+Updated over 3 weeks ago
+
+ This article gives an overview on the Data limits of each subscription plan: what they are, and how they are calculated.
+
+ 
+
+ 
+
+Credits per month
+
+Starter and Lite are the only plans limited by credits.
+
+ 
+
+If you search and use filters on any tools that are not Site Audit or Rank Tracker, you will consume Credits per month. More information about how credits are spent can be found here.
+
+ 
+
+If your plan uses credits, you can quickly check the number of credits you can use monthly by clicking on this icon next to your workspace name:
+
+ 
+
+500 additional credits can be earned by verifying ownership of your website. These additional credits can only be spent for URLs within any of the verified projects. Verified projects are projects that have gone through a verification process to prove you own the website.
+
+ 
+
+Crawl credits per month
+
+This is one of the usage limits for Site Audit. 
+
+ 
+
+ 
+
+Only internal HTML pages that return the 200 (OK) HTTP status code consume monthly Crawl Credits. Learn more
+
+ 
+
+Ahrefs also provides the most generous free SEO crawler on the Internet 💪.
+
+​5,000 additional crawl credits can be spent for each verified project you have.
+
+ 
+
+Rows per report
+
+The higher your subscription, the more rows of results you can see for any report that is not in Site Audit and Rank Tracker.
+
+For example, the below report has 158 rows:
+
+ 
+
+ 
+
+ Export rows per month
+
+ 
+
+This refers to number of rows of data exported on all tools that are not Site Audit and Rank Tracker.
+
+ 
+
+ 
+
+Users
+
+Each subscription except the Enterprise plan comes included with 1 user. That means only 1 person can access the workspace that has your paid subscription.
+
+ 
+
+You can add additional users to share your workspace up to your plan's user limit:
+
+ 
+
+ 
+
+Each additional user comes with credit limits specific to your plan:
+
+ 
+
+Inactive users
+
+Adding inactive users is free, but they can only use Site Audit and Rank Tracker. You can control this from Account settings > Limits and Usage
+
+ 
+
+ 
+
+Active users
+
+Active users can use all tools that your current subscription allows. Only Active users are counted against your subscription's max user limit.
+
+ 
+
+ 
+
+Related Articles
+How are Crawl Credits in Site Audit spent?
+What is a verified project?
+What's the difference between all Ahrefs subscription plans?
+About Ahrefs' Starter plan
+What is the difference between Credit-based plans and Unlimited credit plans?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Credits per month
+Crawl credits per month
+Rows per report
+Export rows per month
+Users
+Ahrefs AcademyBlogYouTubePricing

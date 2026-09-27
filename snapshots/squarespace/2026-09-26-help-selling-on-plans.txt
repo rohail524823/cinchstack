@@ -1,0 +1,274 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/29215717722637-Selling-on-the-Basic-Core-Plus-and-Advanced-plans
+FETCHED: 2026-09-26T22:12:33.721Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+PAYMENTS AND SUBSCRIPTIONS
+Selling on the Basic, Core, Plus, and Advanced plans
+Review the pricing, features, fees, and eligibility requirements of our most recent website billing plans.
+
+Last updated April 3, 2026
+
+English
+
+Use this guide to learn about our most current billing plans, and decide which option is best for you.
+
+Eligibility
+
+The Basic, Core, Plus, and Advanced plans have replaced the Personal, Business, Commerce Basic, and Commerce Advanced plans. If you're still on these plans, you can consider switching to a new plan by reviewing the section below. 
+
+Pricing and billing
+
+​​For current pricing and a full comparison of these plans, visit our pricing page. Keep in mind the following:
+
+All website plans are available in annual or monthly billing cycles. On an annual billing cycle, the average monthly cost is lower, and you can register a free custom domain for a year.
+Domain pricing varies by TLD.
+You can review tax amounts at checkout. To learn more, visit US sales tax and Squarespace billing.
+Payment processing rates and transaction fees
+
+Squarespace plans include fees for sales. If you sell products, collect donations, or charge visitors for access to gated content, you’ll pay fees for these services. With Squarespace Payments as your payment solution, you can centralize your finances in one easy-to-use dashboard.
+
+To understand which fee rates apply to you, how you’re charged, and how to view your fees per order, review Transaction fees and payment processing rates.
+
+Purchasing a plan
+
+To learn more about each billing plan and their features, review the plan comparison section below. When you’re ready to purchase a billing plan, follow the steps in Upgrading to paid service. Use any of our accepted currencies, and accepted payment methods to purchase a plan.
+
+Please note that billing plans apply to individual sites only. If you have more than one Squarespace site, you’ll pay for each one separately, and each will have its own billing plan.
+
+Plan comparison
+
+With all of our plans, you can use our drag-and-drop editing system to lay out your content, add pages to navigation menus, upload galleries of images or videos, and more. You can also monetize your site by selling unlimited products, sending invoices and proposals, and selling courses and memberships.
+
+Review the tabs below for a more in depth look at each plan’s key features. For a full list of features visit our pricing page:
+
+BASIC
+CORE
+PLUS
+ADVANCED
+
+The Basic plan is well-suited to smaller sites with one or two contributors. If you're an individual or small group looking to run a small online shop, invoice customers for custom services, hide your content behind a paywall, display work, write a blog, or establish a basic web presence, the Basic plan should meet your needs.
+
+Key features include:
+
+2% commerce transaction fee
+2.9% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+7% Digital Product fee
+30 minutes of video storage
+24/7 customer support
+A mobile-optimized website with up to 1000 pages
+Free custom domain for one year
+Selling unlimited products
+Selling content and memberships
+Selling subscription products
+Automatic tax rate calculations
+Abandoned checkout recovery
+Local and regional shipping
+Customer reviews
+Squarespace point of sale
+Donation blocks
+Sending invoices
+Customer accounts
+Limited availability labels
+Collecting payments with Squarespace Payments
+Project management tools
+SSL security
+Two contributors
+Website analytics (panels vary by plan)
+Product importing from other ecommerce platforms or a .csv file
+
+For more substantial sites, choose the Core plan to invite unlimited contributors and use premium features like custom code, and built-in integrations with third-party services. If you need extensive content or a team of editors or admins, the Core plan is an affordable way to create and manage a site.
+
+Includes all features in the Basic plan, plus:
+
+No commerce transaction fee
+2.9% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+5% Digital Product fee
+5 hours of video storage
+One free user/inbox for the first year on the Google Workspace Business Starter plan
+Announcement and mobile information bars
+Commerce analytics (panels vary by plan)
+Third-party commerce integrations
+Purchase funnel analytics
+Mailchimp integration
+Google shopping
+Shipping labels
+Automatic discounts
+Automatic tax rate calculations
+Carrier calculated shipping
+Product waitlists
+Promotional pop-ups
+Unlimited contributors
+ChowNow integration
+Code block - JavaScript and iframe code.
+Code injection - site-wide and per-page
+Developer Platform (version 7.0 only)
+Facebook Pixel
+Zapier integration
+
+The Plus plan includes all features in the Basic and Core plans, plus a decrease in fees and an increase in video storage:
+
+No commerce transaction fee
+2.7% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+1% Digital Product fee
+50 hours of video storage
+
+For larger e-commerce stores that process many orders, the Advanced plan is a good option due to low transaction fees. It includes all features in the Basic, Core, and Plus plans, plus:
+
+No commerce transaction fee
+2.5% + $0.30 Squarespace Payments fee on domestic cards (View a full breakdown of fees)
+No Digital Product fee
+Unlimited video storage
+Tips for choosing the right plan
+
+If you plan to sell a lot of offerings through Squarespace we suggest you consider the Core, Plus, and Advanced plans. With the extra features you can more seamlessly market your business and analyze your sales data. And depending on your transaction volume, the lower rates and fees may offset the cost of a higher tiered plan.
+
+When you’re done with your trial, and if you have any features on your site that are not included in the Basic plan, we recommend choosing the Core plan or higher. If you subscribe to the Basic plan, your site won't include these premium features. You can upgrade your plan at any time to use them again.
+
+Tip
+
+For more advice, our award-winning Customer Support team can help you choose the right plan for your needs.
+
+Changing your billing plan
+
+You can change your plan or billing cycle at any time. To learn how to change plans, and when upgrades and downgrades take effect, visit Changing your website billing plan.
+
+Can I switch from my older billing plan to one of the new plans?
+
+If you meet the eligibility requirements, you can switch to the Basic, Core, Plus, or Advanced plan at any time. If you already have a paid subscription and would like to compare plans, you can check which plan you're currently on by following the steps in Checking your billing subscriptions. Visit Choosing the right Squarespace plan and Legacy website billing plans to review features from both our legacy and our newer plans.
+
+To switch from your current website plan to the Basic, Core, Plus, or Advanced plan, follow the steps in Changing your website billing plan.
+
+Leaving an older (legacy) plan
+
+If you change your billing plan, or reactivate an expired legacy site, you’ll leave your legacy plan and move to a current pricing and plan. It's not possible to return to a legacy plan after switching to a current plan or canceling service.
+
+If you move from a legacy plan to a comparable current billing plan, you'll typically gain access to more features we've added to our current plans. However, we recommend reviewing the list of features on our pricing page and in our Help Center to ensure the current plan supports the features your site uses.
+
+What will happen to my Digital Products subscription if I switch?
+
+The ability to sell Digital Products is included in the Basic, Core, Plus, and Advanced plans. This means you don’t need an add-on subscription. If you’re on a legacy plan (Personal, Business, Commerce Basic, or Commerce Advanced) with an active Digital Products subscription and want to move to a current website plan:
+
+Ensure the Basic, Core, Plus, and Advanced plans appear on the pricing page. This means you meet the eligibility requirements to switch to these plans.
+Cancel your Digital Product subscription. After canceling, your Digital Products go into a 30-day pause state during which subscribers will still have access to their customer accounts, but can’t view navigation links to gated content. Also keep in mind that after 30 days, your site visitors' subscriptions are canceled.
+Contact us immediately to let us know you canceled your Digital Products subscription. We can issue a prorated refund for the time left on the subscription, and help you upgrade to a Basic, Core, Plus, or Advanced plan.
+Access to plan features
+
+Although each of our new plans have access to most commerce features, there are some that remain premium, such as custom code and certain analytics features. To learn more about how you gain or lose access to these features, review the sections below. For a full list of features visit our pricing page.
+
+Feature access during your trial
+
+During your 14-day Squarespace trial, you’ll have access to most premium features so you can play with them and decide if they’ll work for your site's needs.
+
+Trial sites can’t accept payments, so commerce features and the donation block won't be fully functional. However, you can use your trial to set up your store, add products, and preview what it’s like to run an ecommerce business on Squarespace.
+
+How downgrading affects your access to features
+
+When you downgrade to a lower-priced plan, you’ll have access to premium features until the end of your current billing cycle. When your subscription renews on the downgraded plan, you’ll lose access to certain premium features. We don’t issue refunds when you downgrade plans.
+
+When you choose a new plan, a message appears reminding you that you’ll lose these features. You can change your plan at any time to regain access to specific features. To learn more about changing plans, visit Changing your website billing plan.
+
+Core, Plus, or Advanced plan to Basic website plan
+
+If you’re on the Core, Plus, or Advanced website plan and switch to the Basic website plan, you’ll have access to premium features until the end of your current billing period. Before downgrading to the Basic plan:
+
+Delete any carrier calculated shipping options.
+Disable automatic tax rates.
+Remove contributors if you have more than two. Basic plans have a limit of two contributors for a site, including the site owner.
+Code block premium features
+
+On every plan, the code block supports:
+
+HTML
+Plain text
+Markdown
+CSS code, when surrounded by <style></style> tags.
+
+Adding JavaScript or iframes to a code block is a premium feature available in the Core plan and higher.
+
+Available in:
+All trials
+All Legacy Business and Commerce plans
+Not available in:
+Current Basic plan
+
+If you added Javascript or iframes code while on a trial or plan that supports premium features, then upgrade or switch to the current Basic plan, the code will remain in the block, but it won't be functional. When logged in, you'll see a note that the code isn't supported. This note isn't visible to your visitors. To use JavaScript or iframe code, upgrade your plan.
+
+IN THIS GUIDE
+Eligibility
+Pricing and billing
+Payment processing rates and transaction fees
+Purchasing a plan
+Plan comparison
+Tips for choosing the right plan
+Changing your billing plan
+Can I switch from my older billing plan to one of the new plans?
+Access to plan features
+Feature access during your trial
+How downgrading affects your access to features
+Core, Plus, or Advanced plan to Basic website plan
+Code block premium features
+People also viewed
+
+Transaction fees and payment processing rates
+
+Manage paid access to your content
+
+Managing domain permissions
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

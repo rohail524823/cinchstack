@@ -1,0 +1,387 @@
+{
+  "tool": "squarespace",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read Squarespace's pricing page in a US-locale headless browser with both the Pay-monthly and Pay-annually toggle states and the full feature-comparison table expanded; cross-checked every plan price and card-processing rate against Squarespace's own checkout API (curl, JSON) and the page's schema.org JSON-LD and tooltip text (curl); and read Squarespace Help Center articles on transaction fees, contributor roles and limits, page limits, AI credits, Google Workspace pricing, Email Campaigns pricing (plus its own checkout API and pricing-slider captures), domain pricing, student discounts and the refund policy. Snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.squarespace.com/pricing",
+      "label": "Pricing page, default view (Pay annually selected)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/pricing",
+      "label": "Pricing page structured data: plan-card price elements (Pay monthly and Pay annually) and schema.org JSON-LD (OfferCatalog + FAQPage), extracted via curl",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-pricing-structured-data.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/pricing",
+      "label": "Pricing page with Pay monthly clicked",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-pricing-toggle-after-click-1.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/pricing",
+      "label": "Full feature-comparison table, expanded (annual-billing view)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-pricing-full-features-after-click-1.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/pricing",
+      "label": "Feature tooltip text (hidden <details> tooltips), extracted via curl",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-pricing-tooltips.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/api/checkout/available-plans/plan-types/website/applicable?currency=USD&entry-point=SQSP_FRONT_SITE",
+      "label": "Squarespace checkout API: website plan prices and card-processing rate sheets (JSON)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-api-website-plans.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/27853679334157-Transaction-fees-and-payment-processing-rates",
+      "label": "Help Center: Transaction fees and payment processing rates",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-transaction-fees.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/206537297-Contributor-roles-and-permissions",
+      "label": "Help Center: Contributor roles and permissions",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-contributor-roles.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/115010355107-Contributors-basics",
+      "label": "Help Center: Contributors basics",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-contributors-basics.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/206543087-Page-limits",
+      "label": "Help Center: Page limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-page-limits.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/206536797-Choosing-the-right-Squarespace-plan",
+      "label": "Help Center: Choosing the right Squarespace plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-choosing-plan.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/29215717722637-Selling-on-the-Basic-Core-Plus-and-Advanced-plans",
+      "label": "Help Center: Selling on the Basic, Core, Plus, and Advanced plans",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-selling-on-plans.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/46668956855053-Use-AI-credits-for-Squarespace-AI-tools",
+      "label": "Help Center: Use AI credits for Squarespace AI tools",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-ai-credits.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/205812258-Google-Workspace-pricing-billing-and-invoices",
+      "label": "Help Center: Google Workspace pricing, billing, and invoices",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-google-workspace-pricing.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/students",
+      "label": "Squarespace Students page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-students.txt"
+    },
+    {
+      "url": "https://domains.squarespace.com/",
+      "label": "Squarespace Domains home page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-domains-home.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/218193418-Squarespace-domain-renewals",
+      "label": "Help Center: Squarespace domain renewals",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-domain-renewals.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/46051001586701-Website-refund-policy",
+      "label": "Help Center: Website refund policy",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-website-refund-policy.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/email-marketing",
+      "label": "Email Campaigns pricing slider, Pay annually selected, stepped through every tier",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-email-campaigns-slider-annually.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/email-marketing",
+      "label": "Email Campaigns pricing slider, Pay monthly selected, stepped through every tier",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-email-campaigns-slider-monthly.txt"
+    },
+    {
+      "url": "https://www.squarespace.com/api/checkout/available-plans/plan-types/campaigns/applicable?currency=USD&entry-point=SQSP_FRONT_SITE",
+      "label": "Squarespace checkout API: Email Campaigns plan prices (JSON)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-api-email-campaigns-plans.txt"
+    },
+    {
+      "url": "https://support.squarespace.com/hc/en-us/articles/360002123507-Email-Campaigns-pricing-billing-and-invoices",
+      "label": "Help Center: Email Campaigns pricing, billing, and invoices",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/squarespace/2026-09-26-help-email-campaigns-pricing.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": false,
+    "summary": "No free-forever plan. Squarespace offers a 14-day free trial of a paid plan instead; trial sites can't accept real payments."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": false,
+    "summary": "Every Squarespace website starts with a 14-day free trial, no credit card required, and you can upgrade to a paid plan at any time during or after the trial.",
+    "source": 1
+  },
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "monthly": 25,
+      "annualMonthly": 19,
+      "priceUnit": "per-site-month",
+      "note": "Entry plan; capped at 2 contributors (owner included) and the only plan without custom code, code injection, or a Google Workspace offer. $19/mo applies when billed annually ($228/yr).",
+      "limits": [
+        "Up to 2 contributors, including the site owner",
+        "10 one-time starter AI credits (no monthly renewal)",
+        "30 minutes of video storage",
+        "No JavaScript/iframe code blocks or code injection",
+        "No Google Workspace email offer"
+      ],
+      "highlights": [
+        "Free custom domain for the first year on annual billing",
+        "Built-in AI website tools",
+        "Unlimited products, invoicing, and content/membership sales",
+        "Up to 1,000 pages, unlimited bandwidth",
+        "24/7 customer support"
+      ],
+      "source": 1
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "monthly": 39,
+      "annualMonthly": 29,
+      "priceUnit": "per-site-month",
+      "note": "Squarespace's recommended plan; removes the contributor cap and adds custom code plus a first-year-free Google Workspace inbox. $29/mo applies when billed annually ($348/yr).",
+      "limits": [
+        "Unlimited contributors",
+        "10 one-time starter AI credits plus 20 renewing credits/month",
+        "5 hours of video storage",
+        "0% online-store transaction fee; 5% digital-content/memberships fee"
+      ],
+      "highlights": [
+        "Custom code (JS/iframe) and code injection",
+        "One free Google Workspace inbox for the first year",
+        "Advanced website analytics and sales-funnel analytics",
+        "Mailchimp, Zapier, Google Shopping, and Meta Pixel integrations"
+      ],
+      "source": 1
+    },
+    {
+      "id": "plus",
+      "name": "Plus",
+      "monthly": 65,
+      "annualMonthly": 49,
+      "priceUnit": "per-site-month",
+      "note": "Same feature set as Core with a lower card-processing rate and lower digital-content fee. $49/mo applies when billed annually ($588/yr).",
+      "limits": [
+        "Unlimited contributors",
+        "10 one-time starter AI credits plus 40 renewing credits/month",
+        "50 hours of video storage",
+        "0% online-store transaction fee; 1% digital-content/memberships fee"
+      ],
+      "highlights": [
+        "2.7% + $0.30 Squarespace Payments card rate (down from 2.9%)",
+        "Reserved cart & countdown timer for product releases",
+        "Everything in Basic and Core"
+      ],
+      "source": 1
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced",
+      "monthly": 139,
+      "annualMonthly": 99,
+      "priceUnit": "per-site-month",
+      "note": "Top plan: lowest card-processing rate and 0% on both online-store and digital-content sales. $99/mo applies when billed annually ($1,188/yr).",
+      "limits": [
+        "Unlimited contributors",
+        "10 one-time starter AI credits plus 120 renewing credits/month",
+        "Unlimited video storage",
+        "0% online-store transaction fee; 0% digital-content/memberships fee"
+      ],
+      "highlights": [
+        "2.5% + $0.30 Squarespace Payments card rate, the lowest of the four plans",
+        "API integrations for advanced sales functionality",
+        "Everything in Basic, Core and Plus"
+      ],
+      "source": 1
+    }
+  ],
+  "addOns": [
+    {
+      "id": "google-workspace-starter",
+      "name": "Google Workspace Starter (extra/renewal inbox)",
+      "price": 8.40,
+      "unit": "per user per month, billed monthly",
+      "note": "$84/yr (~$7/mo) per user billed annually. Core, Plus and Advanced include one Starter inbox free for the first year when you register or connect a domain; Basic does not. Google Workspace Standard costs $16.80/mo ($168/yr) and Plus costs $26.40/mo ($264/yr) per user.",
+      "source": 13
+    },
+    {
+      "id": "email-campaigns-500",
+      "name": "Email Campaigns – 500 emails/month",
+      "price": 12,
+      "unit": "per month, billed monthly (sold separately from a website plan)",
+      "note": "$8/mo if billed annually ($96/yr). This is the only Email Campaigns tier that keeps 'Powered by Squarespace' in the footer; every higher tier can remove it.",
+      "source": 19
+    },
+    {
+      "id": "email-campaigns-10000",
+      "name": "Email Campaigns – 10,000 emails/month",
+      "price": 28,
+      "unit": "per month, billed monthly (sold separately from a website plan)",
+      "note": "$20/mo if billed annually ($240/yr). Unlimited contacts on every Email Campaigns tier.",
+      "source": 19
+    },
+    {
+      "id": "email-campaigns-100000",
+      "name": "Email Campaigns – 100,000 emails/month",
+      "price": 60,
+      "unit": "per month, billed monthly (sold separately from a website plan)",
+      "note": "$42/mo if billed annually ($504/yr). Tiers go up to 500,000 emails/month at $169/mo monthly or $118/mo annual.",
+      "source": 19
+    }
+  ],
+  "usage": [
+    {
+      "id": "card-rate-basic-core",
+      "name": "Squarespace Payments standard card rate – Basic & Core",
+      "rate": 2.9,
+      "unit": "% + $0.30 per transaction, domestic US cards",
+      "note": "Premium cards (e.g. Amex) are 3.2% + $0.30 on every plan; international cards add a 1.5% surcharge.",
+      "source": 6
+    },
+    {
+      "id": "card-rate-plus",
+      "name": "Squarespace Payments standard card rate – Plus",
+      "rate": 2.7,
+      "unit": "% + $0.30 per transaction, domestic US cards",
+      "source": 6
+    },
+    {
+      "id": "card-rate-advanced",
+      "name": "Squarespace Payments standard card rate – Advanced",
+      "rate": 2.5,
+      "unit": "% + $0.30 per transaction, domestic US cards",
+      "source": 6
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "online-store-transaction-fee",
+      "label": "Squarespace online-store transaction fee",
+      "amount": 2,
+      "display": "2% of each sale on Basic; 0% on Core, Plus, and Advanced",
+      "kind": "percent-of-sales",
+      "note": "Squarespace's own cut of each commerce sale (physical products, services, donations), on top of the payment-processing rate above — and it still applies if you use a third-party processor like Stripe, PayPal, or Square instead of Squarespace Payments.",
+      "source": 6
+    },
+    {
+      "id": "digital-content-transaction-fee",
+      "label": "Squarespace digital-content/memberships transaction fee",
+      "amount": 7,
+      "display": "7% of each sale on Basic; 5% on Core; 1% on Plus; 0% on Advanced",
+      "kind": "percent-of-sales",
+      "note": "Applies to Digital Products (courses, video, memberships) sales; separate from the online-store fee above.",
+      "source": 6
+    },
+    {
+      "id": "domain-registration",
+      "label": "Domain registration/renewal",
+      "amount": null,
+      "display": "$11–$130 per year depending on the domain/TLD (new domains listed from $10)",
+      "kind": "other",
+      "note": "Free for the first year with an annual website-plan purchase (one domain per site); renews at the domain's list price after year one, or costs from day one on monthly billing or if the domain is registered outside that offer.",
+      "source": 15
+    }
+  ],
+  "billingNotes": [
+    "The pricing page banner advertises 'Pay annually to save up to 36%,' but Squarespace's own checkout API reports each current plan's actual annual discount as 24% (Basic), 25% (Core), 24% (Plus), and 28% (Advanced) — none of the four current plans reaches 36%.",
+    "Annual billing includes one year of free custom domain registration (one per site); monthly billing does not. The domain renews at its normal list price after year one.",
+    "Core, Plus and Advanced include one free Google Workspace (Starter) inbox for the first year when you register or connect a domain; Basic does not get this perk.",
+    "AI credits: Basic gets 10 one-time starter credits with no monthly renewal. Core/Plus/Advanced get those same 10 one-time credits plus a renewing monthly allotment (20/40/120). Additional AI credit packs (up to 400 credits per purchase) can be bought in-app; their USD price isn't published outside the account dashboard.",
+    "Refunds: a new ANNUAL website subscription is refundable in full if canceled within 14 days of the first payment; monthly subscriptions and any renewal charge (annual or monthly) are not refundable.",
+    "Students get 50% off their first full year, but only on a new annual plan purchase, via Student Beans verification.",
+    "The current Basic/Core/Plus/Advanced plans replaced the Personal/Business/Commerce Basic/Commerce Advanced plans (no longer sold to new signups as of February 2026); legacy customers who haven't switched keep those plans' own commerce transaction fees (Business 3%; Commerce Basic and Commerce Advanced 0%) until they change plans. An even older Legacy Personal/Legacy Business generation (customers who signed up between November 2015 and November 2017) pays 3%/2% respectively and is a separate, older legacy tier.",
+    "All current plans (Basic/Core/Plus/Advanced) allow up to 1,000 pages total and unlimited bandwidth; only the discontinued legacy Personal plan has a 20-page cap.",
+    "Billing plans apply per site: a business with more than one Squarespace site pays and manages each site's subscription separately."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "Squarespace's own OfferCatalog markup states it prices per billing country, with a different currency and amount offered outside the US. This record captures US-locale USD list prices only and was not compared against other countries' pricing."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 site, 1 editor, ~20-page blog/CMS, ~10k visits/mo",
+      "assumptions": "Basic covers this: its only binding limit is 'up to 2 contributors, including the owner,' and this scenario has just 1 editor. All current plans allow up to 1,000 pages and unlimited bandwidth, so the ~20 pages and ~10k visits/month don't affect plan choice. Month-to-month billing.",
+      "planId": "basic",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Basic plan, billed monthly", "amount": 25 }
+      ],
+      "monthly": 25,
+      "confidence": "high",
+      "note": "Billed annually the same plan is $19/mo ($228/yr, a 24% saving per Squarespace's own figures)."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 1 site, 3 editors, ~200 CMS items, ~50k visits/mo",
+      "assumptions": "3 editors exceed Basic's 2-contributor cap (owner included), so Core is the cheapest plan that fits — Core, Plus, and Advanced all include unlimited contributors. The ~200 CMS items (e.g. blog posts or products) don't force a higher plan either: Squarespace's page-limit article says individual blog posts have no cap and store products are capped at 10,000 site-wide, well above 200 — the 1,000-page limit governs distinct structural pages, not CMS entries. ~50k visits/month is also moot since bandwidth is unlimited on every current plan. Month-to-month billing.",
+      "planId": "core",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Core plan, billed monthly", "amount": 39 }
+      ],
+      "monthly": 39,
+      "confidence": "high",
+      "note": "Billed annually the same plan is $29/mo ($348/yr, a 25% saving per Squarespace's own figures)."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 1 site, 8 editors, ~1,000 CMS items, ~250k visits/mo",
+      "assumptions": "8 editors still fit under Core's unlimited-contributor allowance. ~1,000 CMS items (e.g. blog posts or products) don't hit Squarespace's 1,000-page limit, because that limit counts distinct structural pages, not CMS entries — per Squarespace's own page-limits article, blog posts have no cap and store products are capped at 10,000 site-wide; bandwidth is unlimited on every current plan too. Nothing in Squarespace's published limits forces Plus or Advanced at this size — those plans mainly buy down commerce transaction fees, and this scenario states no sales volume. Month-to-month billing.",
+      "planId": "core",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Core plan, billed monthly", "amount": 39 }
+      ],
+      "monthly": 39,
+      "confidence": "high",
+      "note": "Billed annually the same plan is $29/mo ($348/yr, a 25% saving). A business at this size that also sells physical products or digital content at real volume would want Plus (0% commerce fee, 1% digital fee, $49/mo annual) or Advanced (0% on both, $99/mo annual) to cut transaction-fee costs — see extraCosts."
+    }
+  ],
+  "unverified": [
+    "AI credit pack price: Squarespace lets you buy up to 400 extra AI credits per purchase from inside the account dashboard, but no USD price per credit or per pack is shown on any public page — only the purchase flow itself, which requires a logged-in account.",
+    "A single per-domain renewal price (e.g. for a .com): Squarespace's domain pages show only a $10 promotional entry price and an overall '$11–$130' range across TLDs; the exact renewal price for a specific domain is shown only in Squarespace's interactive domain search/checkout, not as a static figure.",
+    "Non-US pricing: Squarespace's own markup says it prices per billing country in local currency; this record checked US-locale USD pricing only and did not capture any other country's amounts."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

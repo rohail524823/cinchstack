@@ -1,0 +1,125 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/6303244318999-Pricing-per-user-role-and-plan
+FETCHED: 2026-09-26T22:49:56.233Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+Owners and Admins
+Pricing per user role and plan
+
+This article outlines how we determine pricing per Workspace user and plan.
+
+User role availability and limits vary by plan. Learn more
+
+If you have questions about your billing contract, contact your Account Executive or Sales. If you don't have a contract, please contact Support.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+Our plans
+
+A new ClickUp account is automatically set up with a Free Forever Workspace. You can create as many Workspaces as you want. Each Workspace must be individually upgraded from Free Forever to use paid plan features.
+
+It is not possible for users to be on different plans in one Workspace.
+
+Following is an overview of all of our plans:
+
+Free Forever: Best for personal use. Provides an industry-leading number of features and makes ClickUp accessible to everyone.
+Unlimited: Best for small teams. Unlock unlimited storage.
+Business: Best for mid-sized teams. Includes more guest seats so you can work with freelancers, clients, and other collaborators.
+Business Plus: Best for multiple teams. Includes custom role permissions and priority support.
+Enterprise: Customize ClickUp with your organization's branding. Unlocks advanced permissions, unlimited custom roles, and SSO.
+
+For current pricing and full feature details, visit our Pricing page.
+
+Our pricing model
+
+Some user roles require a subscription fee, and some are free. The fee depends on your ClickUp Plan. One seat is assigned to each user in your Workspace, whether they require a fee or not.
+
+Feature usage limits
+
+Depending on your plan, certain features have usage limits. This allows you to test some advanced features before upgrading.
+
+Feature usage limits do not reset. If you reach a limit on your current plan, you'll need to upgrade your Workspace to continue using the feature. You can upgrade anytime during your billing cycle.
+
+When you hit a usage limit, data created using that feature won't be impacted. You won't be able to edit or add new information using the feature until your Workspace is upgraded.
+
+For example, if you reach your plan's Doc tags usage limit, the Doc tags you created will not be deleted. You won't be able to add or edit Doc tags until you upgrade your Workspace. You can continue to use all other Docs features.
+
+Add-ons
+
+Add-ons purchased as part of your paid plan are itemized in your billing invoice.
+
+Refund policy
+
+We offer a 30-day satisfaction guarantee for new customers, including any add-ons purchased as part of your paid plan.
+
+You can request a full refund within 30 days of purchasing your first paid plan subscription. After 30 days, we will not be able to offer a refund. All paid plan subscriptions automatically renew at the end of the billing cycle.
+
+Subscription fees
+
+The following roles are charged a subscription fee:
+
+Owners
+Admins
+Members
+Limited members
+Permission controlled guests
+Number of permission controlled guests per plan
+
+Each paid plan includes a specific number of permission controlled guest seats. For each member you invite, a permission controlled guest seat is added.
+
+For example, the owner is the first member of the Workspace. On the Unlimited Plan, a Workspace of 1 owner has 5 permission controlled guest seats. The owner invites 1 member. The addition of that member increases permission controlled guest seats from 5 to 7.
+
+The following table shows how the permission controlled guest-to-member ratio works:
+
+Plan	Permission controlled guest seats for a one-member Workspace	Increase in permission controlled guest seats per member invited	Permission controlled guests seats included for a two-member Workspace
+Unlimited	5	+2	7
+Business
+Business Plus
+Enterprise	10	+5	15
+
+See the number of open permission controlled guest seats in your Workspace.
+
+Charges for exceeding your Workspace's number of permission controlled guests
+
+If you run out of permission controlled guests and invite a guest with permissions, a paid member seat is added. This increases your permission controlled guest seat limit to accommodate the new invite. The open member seat will be filled by the next member you invite.
+
+You'll be automatically charged for a new member seat when:
+
+You've run out of permission controlled guest seats and you invite a permission controlled guest.
+You've run out of permission controlled guest seats and you add a view only or permission controlled guest to a Team. When adding view only guests to a Team, they automatically become permission controlled.
+
+You can reduce the number of permission controlled guests by doing one of the following:
+
+Set an existing guest's permissions to view only.
+Remove a view only guest from all of their Teams.
+Remove a guest from your Workspace.
+Was this article helpful?
+Related articles
+Invite people to your Workspace
+Owner, admin, and member-type user roles
+Guest-type user roles
+Intro to billing
+Manage the people in your Workspace
+Articles in this section 
+Set up your team's Workspace
+Intro to pricing
+Invite people to your Workspace
+Track your Workspace's Brain AI usage
+Invite people to join your Workspace from Chat
+Default user role permissions
+User role availability and limits
+Set up your team's Workspace from scratch
+Intro to billing
+Intro to ClickUp Assist
+
+See all 26 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

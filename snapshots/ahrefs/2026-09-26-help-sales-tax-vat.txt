@@ -1,0 +1,347 @@
+SOURCE: https://help.ahrefs.com/en/articles/73770-why-am-i-charged-gst-vat-consumption-tax-sales-tax-and-how-can-i-get-it-refunded
+FETCHED: 2026-09-26T22:45:25.894Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Payments
+Why am I charged GST/VAT/consumption tax/sales tax and how can I get it refunded?
+Why am I charged GST/VAT/consumption tax/sales tax and how can I get it refunded?
+
+Find out if GST/VAT/consumption tax/sales tax applies on your purchase, and how you can request for a refund of your tax charges.
+
+Written by Helen
+Updated over 3 weeks ago
+
+Our listed prices do not include sales tax. 
+
+ 
+
+What countries Ahrefs charges Tax for
+
+Ahrefs charges GST/VAT/consumption tax/sales tax for any countries that we are tax registered in. Ahrefs is currently tax registered in:
+
+United States**
+
+Canada
+
+All countries in European Union
+
+United Kingdom
+
+South Africa
+
+India
+
+Malaysia
+
+Australia
+
+Thailand
+
+Vietnam
+
+Mexico
+
+Indonesia
+
+Japan
+
+Turkey
+
+Switzerland
+
+**See below table for full list of states.
+
+ 
+
+US States where Ahrefs is Tax Registered
+
+State Code
+
+	
+
+US State
+
+TX
+
+	
+
+Texas
+
+NY
+
+	
+
+New York
+
+NJ
+
+	
+
+New Jersey
+
+MA
+
+	
+
+Massachusetts
+
+WA
+
+	
+
+Washington
+
+CO
+
+	
+
+Colorado
+
+PA
+
+	
+
+Pennsylvania
+
+NC
+
+	
+
+North Carolina
+
+GA
+
+	
+
+Georgia
+
+SC
+
+	
+
+South Carolina
+
+AZ
+
+	
+
+Arizona
+
+VA
+
+	
+
+Virginia
+
+OH
+
+	
+
+Ohio
+
+UT
+
+	
+
+Utah
+
+MI
+
+	
+
+Michigan
+
+NV
+
+	
+
+Nevada
+
+TN
+
+	
+
+Tennessee
+
+MN
+
+	
+
+Minnesota
+
+WI
+
+	
+
+Wisconsin
+
+WY
+
+	
+
+Wyoming
+
+IN
+
+	
+
+Indiana
+
+CT
+
+	
+
+Connecticut
+
+KS
+
+	
+
+Kansas
+
+OK
+
+	
+
+Oklahoma
+
+ID
+
+	
+
+Idaho
+
+KY
+
+	
+
+Kentucky
+
+IA
+
+	
+
+Iowa
+
+NE
+
+	
+
+Nebraska
+
+US Capital
+
+	
+
+District of Columbia
+
+LA
+
+	
+
+Louisiana
+
+AR
+
+	
+
+Arkansas
+
+NM
+
+	
+
+New Mexico
+
+HI
+
+	
+
+Hawaii
+
+MS
+
+	
+
+Mississippi
+
+SD
+
+	
+
+South Dakota
+
+VT
+
+	
+
+Vermont
+
+RI
+
+	
+
+Rhode Island
+
+WV
+
+	
+
+West Virginia
+
+ND
+
+	
+
+North Dakota
+
+ 
+
+How to get your tax refunded
+For United States, Canada, Switzerland, India, Australia, Thailand, Vietnam, Mexico, UK, European Union countries
+
+To get your tax refunded, you'll need to contact our human support team directly. Please email support@ahrefs.com or use live chat and ask to speak with a support agent. Provide your valid tax ID and, if possible, any relevant tax certificates for your organization. Depending on your country, we may ask for additional supporting documents. Once submitted, a support agent will apply the tax details to your account and process a refund for eligible orders made in the last 90 days.
+
+ 
+
+For Malaysia, Indonesia, South Africa, Japan and Turkey
+
+Tax is charged on all transactions, so there will be no tax refund option.
+
+ 
+
+For orders older than 90 days
+
+Tax amounts have already been passed along to the tax office. You can, however, take your invoice to your local tax office and claim credit or refunds for those, subject to your eligibility to claim input tax credits. It is best to clarify with your local tax representative.
+
+ 
+
+ 
+
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+What countries Ahrefs charges Tax for
+US States where Ahrefs is Tax Registered
+How to get your tax refunded
+For United States, Canada, Switzerland, India, Australia, Thailand, Vietnam, Mexico, UK, European Union countries
+For Malaysia, Indonesia, South Africa, Japan and Turkey
+For orders older than 90 days
+Ahrefs AcademyBlogYouTubePricing

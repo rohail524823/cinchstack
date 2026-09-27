@@ -1,0 +1,91 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/29754533547415-Time-Tracking-feature-availability-and-limits
+FETCHED: 2026-09-26T22:52:27.148Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Features and ClickApps
+Time tracking
+Time Tracking feature availability and limits
+
+Track time spent on software implementations, client deliverables, or any kind of work with ClickUp time tracking.
+
+Timesheet and timesheet approvals features and plan availability are subject to change. You can try out these new features with unlimited usage on any plan for a limited time.
+
+Time tracked via integrations
+
+Use of time tracking integrations count towards time tracking use limits.
+
+Time tracked via ClickUp Brain AI
+
+Time entries created by Brain and Super Agents count toward the same time tracking limits as time entries created manually.
+
+ClickUp Brain AI feature availability and limits vary by plan and user role. Learn more
+
+Time tracking features by plan
+
+The following table outlines the time tracking features available on each ClickUp plan:
+
+Feature	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus and Enterprise Plans
+Time tracking features, including:
+Create a time entry
+Edit a time entry
+Delete time entry	100 uses	Unlimited	Unlimited	Unlimited
+Advanced time tracking features, including:
+Create, edit, or delete time entries from Timesheets
+Create, edit, or delete time entries for other users
+Add descriptions to time entries
+Add tags to time entries
+Mark time entries as billable
+Track time that is not associated with a task	40 uses	40 uses	100 uses	Unlimited
+Timesheet approvals, including:
+Submitting a timesheet
+Requesting changes
+Approving timesheets	No	No	100 uses	Yes
+View Time Tracked by Other Users custom role permission	No	No	No	Yes
+Access to time tracking by user role
+
+The following table outlines the time tracking features available to guests and members:
+
+Action	Guests	Members	Owners and admins
+Enable ClickApps, including:
+Time Tracking
+Time Tracking Rollup	No	No	Yes
+Set time entries to billable by default	No	No	Yes
+Track time	Guests can track time if:
+A Workspace owner or admin has enabled time tracking for them.
+They have edit or full edit permissions to the task.	Yes.	Yes
+Create time entries for other users	No	No	Yes
+Edit other people's time entries	No	No	Yes
+Submit timesheets	Yes	Yes	Yes
+View all timesheets	No	No	Yes
+Set timesheet approvers	No	No	Yes
+Approve timesheets	No	Yes	Yes
+Was this article helpful?
+Related articles
+Intro to time tracking
+Time tracking integrations
+Timesheet approvals
+Timesheets Hub
+Track time on tasks
+Articles in this section 
+Intro to time tracking
+Report on time tracking
+Track time without a task
+Set default time tracking settings
+Activate time tracking
+Time Tracking feature availability and limits
+Timesheet approvals
+Edit time entries
+Track time on tasks
+Timesheets Hub
+
+See all 11 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

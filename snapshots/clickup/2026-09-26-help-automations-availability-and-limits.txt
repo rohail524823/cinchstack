@@ -1,0 +1,93 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/23477062949911-Automations-feature-availability-and-limits
+FETCHED: 2026-09-26T22:50:04.157Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Features and ClickApps
+Automations
+Automations feature availability and limits
+
+Take a look at our article Intro to Automations to learn about all our Automations features.
+
+Activate the Automations ClickApp
+
+To use Automations, the Workspace admin or owner must activate the Automation ClickApp.
+
+Access and usage limits by plan
+
+Action limits reset on the first of every month (PST). Usage alert emails are sent to owners and admins when Automations usage reaches 90% and 100%.
+
+All plans can use Automations. The number of total active Automations and Actions per Workspace depends on your plan in the following way:
+
+Plan	Active Automations	Actions	Are task webhooks, Automations integrations, and Chat webhooks available?
+Free Forever	5 total active Automations	100 Actions per month	No
+Unlimited	500 total active Automations	1,000 Actions per month	No
+Business	Unlimited total active Automations	5,000 Actions per month	Yes. Task webhooks, Automations integrations, and Chat webhooks are available.
+Business Plus	Unlimited total active Automations	25,000 Actions per month
+Can purchase more Actions	Yes
+Enterprise	Unlimited total active Automations	250,000 Actions per month
+Can purchase more Actions	Yes
+
+When your limit has been exceeded, your Workspace's Automations are paused for that month.
+
+Trigger, Conditions, and Actions limits
+
+To avoid firing issues, we recommend creating the simplest Automation you can.
+
+This table shows the limits for each part of an Automation:
+
+Part of the Automation	Number of Triggers, Conditions, and Actions allowed in one Automation
+Triggers	1
+Conditions
+Conditions are optional criteria available on the Business Plan and above that must be true for the Automation to launch.	15
+Actions	6
+Usage history
+
+Read our article Track your Workspace Automations usage to learn how to manage your Automations.
+
+The amount of time your usage history is stored depends on your plan:
+
+Plan	Usage history stored
+Free Forever, Unlimited, and Business	1 day of activity
+Business Plus	30 days of activity
+Enterprise	6 months of activity
+Access by user role
+
+The following table details which user roles can create Automations:
+
+User role	Can create Automations?
+Free Forever guests	No
+View only guests	No
+Permission controlled guests	No
+Limited members view only	No
+Limited members	Yes. Limited members can create Automations in locations where they have edit or full edit permissions.
+Members, admins, and owners	Yes. Members, admins, and owners can create Automations unless they have view only or comment permissions to the location.
+Was this article helpful?
+Related articles
+Intro to Automations
+Track your Automations Actions usage
+Intro to ClickApps
+Intro to billing
+Intro to ClickUp University
+Articles in this section 
+Create a List and apply a template using Automations
+Add to List Automation permissions
+Use Custom Fields in Automations
+Automatically rename form submissions
+Integrate ClickUp using Automation webhooks
+Keep task names consistent with Automations
+Apply an Automation to a specific task
+Access the Automations modal
+Create a Chat Automation
+Create a task webhook Automation
+
+See all 25 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

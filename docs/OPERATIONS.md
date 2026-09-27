@@ -31,6 +31,14 @@ The plan is to apply once the site has real traffic (about 1,000 visits a month)
 2. **Bing Webmaster Tools**: sign in and choose "Import from Google Search Console". Bing also feeds Copilot and ChatGPT search, so this matters as much as Google.
 3. Leave both alone for two weeks. New sites take time to be crawled.
 
+### 4. Switch on the contact form
+
+The "Report a wrong price" form uses Netlify Forms, which needs one setting:
+
+1. In Netlify, open the `cinchstack-site` project, then **Project configuration → Forms**.
+2. Click **Enable form detection**, then trigger a redeploy (Deploys → Trigger deploy).
+3. Submissions appear under **Forms → contact**. Add a form notification there to get each message by email.
+
 ## Jobs that run by themselves
 
 | Job | When | What it does |

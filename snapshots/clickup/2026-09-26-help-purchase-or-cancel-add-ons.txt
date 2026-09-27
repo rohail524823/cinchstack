@@ -1,0 +1,146 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/6303101719831-Purchase-or-cancel-ClickUp-add-ons
+FETCHED: 2026-09-26T22:51:50.819Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+Owners and Admins
+Purchase or cancel ClickUp add-ons
+
+Purchase Brain AI, more Automation actions, or ClickUp Assist.
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+Open the Add-ons tab
+
+To open the Add-ons tab:
+
+In the upper-left corner, click your Workspace avatar and select Settings.
+In the All settings sidebar, click Plans.
+At the top, select the Add-ons tab.
+Purchase Brain AI
+
+Brain AI is activated in all Workspaces on a trial basis.
+After the trial, Brain AI add-ons can be purchased to activate different AI features in your Workspace.
+To purchase Brain AI:
+
+In the Add-ons tab, select the Bundle and save or Customize tab. Or scroll down to the AI Super Credits section.
+Click Add to plan.
+On the order page, confirm your payment details and billing cycle.
+Click Upgrade.
+Brain AI pricing model
+
+Brain AI is purchased per Workspace. If you have multiple Workspaces, you'll need to purchase Brain AI for each one.
+The fee applies to all members of your Workspace. Credits can be used by anyone who has access to Brain AI in the Workspace.
+You have an open seat if you've removed a member during your billing cycle. When you purchase Brain AI, you're charged for that seat, since a new member can fill the seat.
+
+Cancel your Brain AI auto-renewal
+
+Owners and admins can cancel auto-renewal of their add-ons while retaining their paid plan features until the end of their billing cycle.
+To cancel Brain AI:
+
+In the Add-ons tab, select the Bundle and save or Customize tab.
+Click Cancel, then Yes, cancel add-on.
+Purchase or cancel AI Talk to Text
+
+Owners and admins can purchase unlimited fair use of AI Talk to Text via the standalone add-on or by purchasing the Everything AI add-on:
+Usage limits are subject to change at ClickUp's discretion. New features may vary by plan.
+
+Purchase the AI Talk to Text add-on
+
+To purchase the standalone AI Talk to Text add-on:
+
+On the Add-ons page in the AI Talk to Text section, select an add-on option. You may need to select Customize in the ClickUp AI Add-Ons section to see the Talk to Text option.
+Click Add to plan.
+On the order page, confirm your payment details and billing cycle.
+Click Upgrade.
+Cancel the AI Talk to Text add-on
+
+Owners and admins can cancel the standalone AI Talk to Text add-on.
+To cancel AI Talk to Text:
+
+On the Add-Ons page in the AI Talk to Text section, click Cancel.
+Purchase or cancel AI Notetaker
+
+Owners and admins can purchase AI Notetaker as a standalone add-on or by purchasing the Everything AI add-on.
+AI Notetaker pricing is subject to change. Read AI Notetaker availability and limits for more information.
+
+Purchase AI Notetaker
+
+Owners and admins can purchase the standalone AI Notetaker add-on or the Everything AI add-on.
+For a limited time, admins can try AI Notetaker for free.
+To purchase the standalone AI Notetaker add-on:
+
+On the Add-ons page in the AI Notetaker section, select an add-on option. You may need to select Customize in the ClickUp AI Add-Ons section to see the Notetaker option.
+Click Add to plan.
+On the order page, confirm your payment details and billing cycle.
+Click Upgrade.
+
+To purchase the Everything AI add-on, which includes AI Notetaker:
+
+In the ClickUp AI Add-Ons section, select the Bundle and save.
+Cancel Notetaker
+
+Owners and admins can cancel the standalone AI Notetaker add-on.
+To cancel AI Notetaker:
+
+On the Add-ons page in the AI Notetaker section, click Cancel.
+
+Read our AI Notetaker article for more information.
+
+Purchase Automation Actions add-ons
+
+Owners and admins can purchase more Automation Actions for a monthly fee on the Business Plus and Enterprise Plans. Read our Automations article for more information.
+
+ClickUp Assist add-on
+
+Get personalized help creating workflows, onboarding your team, and setting up your Workspace. Learn more about adding ClickUp Assist to your plan.
+
+ClickUp Assist is charged in the following way:
+
+ClickUp Assist is charged and automatically renewed based on your current plan renewal cycle.
+For your first purchase, you'll be charged an amount prorated for the number of days left in the month.
+If you do not use the services, they do not roll over to the next month.
+Add-on trials
+
+We offer an AI trial on any plan. At this time, we're not offering trials of other add-ons.
+
+If you'd like to add a paid plan trial to your Workspace, contact Support.
+
+Purchasing an add-on during a billing cycle
+
+Add-ons are charged monthly or yearly, depending on your billing cycle.
+
+Brain AI, AI Notetaker, and Automation add-ons are charged in the following way:
+
+The add-on amount will be prorated to match the time left in your billing cycle.
+For example, if you have 6 months left in your yearly billing cycle and the total amount of the add-on is $400 per year, then you will be charged $200.
+Was this article helpful?
+Related articles
+Intro to billing
+Intro to Automations
+Use Email in ClickUp
+Use Automation Actions
+Set up your individual Workspace
+Articles in this section 
+Set up your team's Workspace
+Intro to pricing
+Invite people to your Workspace
+Track your Workspace's Brain AI usage
+Invite people to join your Workspace from Chat
+Default user role permissions
+User role availability and limits
+Set up your team's Workspace from scratch
+Intro to billing
+Intro to ClickUp Assist
+
+See all 26 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

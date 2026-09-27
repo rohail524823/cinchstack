@@ -1,0 +1,62 @@
+SOURCE: https://help.ahrefs.com/en/articles/73821-can-i-subscribe-to-ahrefs-services-for-1-month
+FETCHED: 2026-09-26T22:46:51.213Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Getting Started with Ahrefs
+Plans and Pricing
+Can I subscribe to Ahrefs services for 1 month?
+Can I subscribe to Ahrefs services for 1 month?
+
+Read on to learn if we have any contracts or fixed subscription periods at Ahrefs
+
+Written by Helen
+Updated over 3 weeks ago
+
+Yes, you may subscribe to any subscription plan for just 1 month, or any number of months you wish to. (The exception to this is the Enterprise Plan, which has a minimum of 1 year subscription)
+
+ 
+
+Your subscription can be upgraded, downgraded or cancelled at any time. There is no fixed period you have to be subscribed.
+
+ 
+
+It is to be noted, though, that at Ahrefs, we have an automated recurring billing system: at the end of each paid period, your subscription gets automatically extended for the next period. 
+
+ 
+
+Thus, if you plan to subscribe for a month only, be sure to cancel your subscription after your monthly subscription is purchased, before the renewal date.
+
+ 
+
+You may do that from the Subscription Plan tab of your personal account at Ahrefs. Check this Help article for more detailed instructions. 
+
+ 
+
+ 
+
+Related Articles
+Can I pause or suspend my subscription?
+I wonder what do "projects" mean? Is this how many websites I can check with Ahrefs?
+What can I use for free in Ahrefs?
+Getting started with Ahrefs MCP
+How does upgrading your Ahrefs subscription work?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Ahrefs AcademyBlogYouTubePricing

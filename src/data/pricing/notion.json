@@ -1,0 +1,244 @@
+{
+  "tool": "notion",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Read from Notion's pricing page in a US-locale headless browser: the default view (Pay yearly selected), the page after clicking 'Pay monthly', the billing FAQ answers expanded, and a DOM extract of the plan-comparison table that keeps each cell in its plan column; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.notion.com/pricing",
+      "label": "Notion pricing page, default view (Pay yearly selected): plan cards, comparison table, Custom Agents/Workers callouts, FAQ questions",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/notion/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.notion.com/pricing",
+      "label": "Notion pricing page with 'Pay monthly' selected (Plus $12, Business $24 per member/month)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/notion/2026-09-27-pricing-toggle-after-click-1.txt"
+    },
+    {
+      "url": "https://www.notion.com/pricing",
+      "label": "Notion pricing FAQ accordions expanded: how pricing is calculated, charges when adding members, how paid seats are counted, upgrade/downgrade behavior, cancellation",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/notion/2026-09-27-pricing-toggle-after-click-7.txt"
+    },
+    {
+      "url": "https://www.notion.com/pricing",
+      "label": "Notion pricing page 'Plans and features' comparison table, extracted from the page DOM with each cell kept in its Free/Plus/Business/Enterprise column",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/notion/2026-09-27-pricing-table-columns.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free costs $0 per member/month. Pages and blocks are unlimited in a one-person workspace but become 'limited' once the workspace has 2 or more members, and Notion doesn't publish that cap. Free also limits file uploads to 5 MB each, page history to 7 days, external guests to 10 and charts to 1, and it includes only a 'Limited Trial' of Notion Agent, Meeting Notes and Research mode."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "The pricing page doesn't mention a free trial of the paid Plus or Business plans. The Free and Plus plan cards list a 'Trial of Notion AI', and the comparison table marks Notion Agent, Meeting Notes and Research mode as 'Limited Trial' on those two plans. Custom Agents are 'Free to try, then $10 per 1,000 monthly Notion credits.' The page gives no length or usage cap for any of these trials.",
+    "source": 0
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-seat-month",
+      "note": "'For individuals to organize personal projects and life.'",
+      "limits": [
+        "Unlimited pages/blocks for a single member; 'limited' once the workspace has 2+ members (exact cap not published)",
+        "File uploads up to 5 MB each",
+        "7-day page history",
+        "Up to 10 external guests",
+        "1 chart",
+        "1 notion.site domain"
+      ],
+      "highlights": [
+        "Trial of Notion AI",
+        "Basic forms",
+        "Basic sites",
+        "Notion Calendar",
+        "Databases including subtasks, dependencies, custom properties and more"
+      ],
+      "source": 3
+    },
+    {
+      "id": "plus",
+      "name": "Plus",
+      "monthly": 12,
+      "annualMonthly": 10,
+      "priceUnit": "per-seat-month",
+      "note": "'For small teams and professionals to work together.' $12/member/month billed monthly (Pay monthly view), $10/member/month billed yearly (default Pay yearly view).",
+      "limits": [
+        "30-day page history",
+        "Unlimited external guests",
+        "Unlimited file uploads",
+        "Notion Agent, Meeting Notes and Research mode are 'Limited Trial' only",
+        "No Custom Agents or Workers",
+        "No SAML SSO or private teamspaces"
+      ],
+      "highlights": [
+        "Everything in Free",
+        "Trial of Notion AI",
+        "Custom forms",
+        "Custom sites",
+        "Unlimited charts",
+        "Unlimited collaborative blocks",
+        "Unlimited file uploads",
+        "Basic connections",
+        "Custom database automations",
+        "Priority support"
+      ],
+      "source": 1
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "monthly": 24,
+      "annualMonthly": 20,
+      "priceUnit": "per-seat-month",
+      "note": "'For growing businesses to streamline teamwork'; marked 'Recommended' on the pricing page. $24/member/month billed monthly (Pay monthly view), $20/member/month billed yearly (default Pay yearly view).",
+      "limits": [
+        "90-day page history",
+        "Unlimited external guests"
+      ],
+      "highlights": [
+        "Everything in Plus",
+        "Notion Agent",
+        "AI Meeting Notes",
+        "Enterprise Search (Beta)",
+        "SAML SSO",
+        "Granular database permissions",
+        "Verify any page",
+        "Private teamspaces",
+        "Domain verification",
+        "Premium connections",
+        "Custom Agents and Workers (Beta) available, billed in Notion credits"
+      ],
+      "source": 1
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "'For organizations to operate with scalability, control, and security.' Custom quote via 'Contact Sales'.",
+      "limits": [
+        "Unlimited page history"
+      ],
+      "highlights": [
+        "Everything in Business",
+        "Zero data retention with LLM providers",
+        "User provisioning (SCIM)",
+        "Advanced security & controls",
+        "Audit log",
+        "Customer success manager",
+        "Security & Compliance connections (DLP, SIEM)",
+        "Domain management",
+        "Advanced connections"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [],
+  "usage": [
+    {
+      "id": "notion-credits",
+      "name": "Notion credits (Custom Agents and Workers, Business and Enterprise only)",
+      "rate": 10,
+      "unit": "per 1,000 Notion credits per month",
+      "note": "The pricing page's Custom Agents callout says 'Free to try, then $10 per 1,000 monthly Notion credits.' The comparison table offers Custom Agents and Workers (Beta) only on Business and Enterprise, both marked 'Requires Notion credits'; Free and Plus don't have them. The page doesn't say how many credits the free trial includes or how many credits a typical agent run uses.",
+      "source": 0
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "custom-domain",
+      "label": "Custom domain for a Notion site",
+      "amount": null,
+      "display": "Priced per domain; amount not shown on the pricing page",
+      "kind": "other",
+      "note": "The comparison table lists 'Custom domains and branding' as 'Pay per domain' on Plus, Business and Enterprise; Free doesn't offer it. Only needed if you publish a Notion site on your own domain.",
+      "source": 3
+    }
+  ],
+  "billingNotes": [
+    "Prices are per member per month. The pricing page opens on yearly billing and says 'Save up to 20% with yearly', but Plus and Business are about 16.7% cheaper billed yearly ($10 vs $12 and $20 vs $24).",
+    "Guests are free of charge but can only open the individual pages they're invited to; they can't see the team pages under Teamspaces in the sidebar.",
+    "A paid seat is a license for one member. A new member takes an existing unused paid seat if there is one; otherwise the paid-seat count goes up by 1. Removing a member frees a seat that can be reused at no extra cost.",
+    "Once a paid seat is added you keep it (and pay for it) for the rest of the billing period. Seats added mid-cycle are charged pro rata, and those charges are invoiced on the day of the month you first subscribed.",
+    "At each renewal (monthly or yearly) the paid-seat count is reset to the number of members in the workspace, and you're charged the plan price times that count plus any prorated charges for seats added in the past month.",
+    "Upgrading is charged immediately, reduced by the share of the billing cycle already used. Downgrading takes effect at the end of the current billing cycle.",
+    "Monthly and yearly subscriptions renew automatically until cancelled. After cancelling, paid features stay active until the end of the billing cycle."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "Not verified. The pricing page has a 'Price in' currency selector showing USD, which suggests other currencies may be offered, but only the US-locale USD prices were captured. Whether prices differ by country is unknown."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 seat",
+      "assumptions": "Organize layer, solo = 1 seat. In a one-person workspace Free's pages and blocks are 'Unlimited for individuals', so the 2+ member limit doesn't apply. Free has no charge, so there is no billing cycle to choose.",
+      "planId": "free",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Free plan, 1 member",
+          "amount": 0
+        }
+      ],
+      "monthly": 0,
+      "confidence": "high",
+      "note": "The 7-day page history, 5 MB upload cap and 'Limited Trial' of Notion AI are the likely reasons to upgrade; Plus is $12/mo month-to-month ($10/mo billed yearly)."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 5 seats",
+      "assumptions": "Organize layer, small = 5 seats. Free's pages and blocks become 'limited' once a workspace has 2+ members, and Notion doesn't publish the cap, so a 5-person team is priced on Plus, the cheapest paid plan with unlimited blocks. Month-to-month: 5 × $12/member = $60.",
+      "planId": "plus",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Plus plan, 5 members x $12/member/month",
+          "amount": 60
+        }
+      ],
+      "monthly": 60,
+      "confidence": "high",
+      "note": "Billed yearly the same 5 seats are 5 × $10 = $50/mo. Business (5 × $24 = $120/mo month-to-month) is needed only for full Notion AI, SAML SSO, private teamspaces or Custom Agents."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 15 seats",
+      "assumptions": "Organize layer, growing = 15 seats. Plus has no published seat cap and unlimited pages, blocks, file uploads and guests, so no plan limit forces a move to Business at 15 people. Month-to-month: 15 × $12/member = $180.",
+      "planId": "plus",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Plus plan, 15 members × $12/member/month",
+          "amount": 180
+        }
+      ],
+      "monthly": 180,
+      "confidence": "high",
+      "note": "Billed yearly: 15 × $10 = $150/mo. If the team needs full Notion AI (Agent, Meeting Notes, Enterprise Search), SAML SSO, private teamspaces or 90-day page history, Business is 15 × $24 = $360/mo month-to-month or 15 × $20 = $300/mo billed yearly, plus Notion credits for any Custom Agents."
+    }
+  ],
+  "unverified": [
+    "Free's exact page/block cap once a workspace has 2 or more members isn't given as a number on the pricing page (it only says 'limited').",
+    "How many Notion credits the Custom Agents free trial includes, and how many credits a typical agent task uses, isn't stated on the pricing page, so a monthly credit bill can't be estimated.",
+    "The 'Trial of Notion AI' on Free and Plus has no stated length or usage cap on the pricing page.",
+    "The price of a custom domain for a Notion site ('Pay per domain') isn't shown on the pricing page.",
+    "Prices outside a US locale and in currencies other than USD were not checked, although the page has a currency selector."
+  ],
+  "history": [
+    {
+      "date": "2026-09-27",
+      "change": "Initial record."
+    }
+  ]
+}

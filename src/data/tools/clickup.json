@@ -1,0 +1,40 @@
+{
+  "id": "clickup",
+  "name": "ClickUp",
+  "vendor": "ClickUp",
+  "tier": "secondary",
+  "layer": "organize",
+  "category": "Project management and docs workspace",
+  "url": "https://clickup.com",
+  "pricingUrl": "https://clickup.com/pricing",
+  "oneLiner": "Per-member project management and docs platform with an uncapped free plan; Brain AI and Everything AI are separate add-ons billed per Workspace member.",
+  "summary": "ClickUp is a project management and docs workspace priced per paid Workspace member across Free Forever, Unlimited, Business and Enterprise plans, billed month-to-month or at a cheaper annual rate. Brain AI and Everything AI, ClickUp's AI features, are separate add-ons billed per member per month on top of a paid plan, alongside a shared pool of AI Super Credits that meters agents, AI fields and image generation. Free Forever has no time limit and unlimited members and tasks, but caps file storage at 60MB per Workspace and limits several views and fields to a fixed number of uses that never reset.",
+  "bestFor": [
+    "agency",
+    "freelancer",
+    "saas-startup"
+  ],
+  "notFor": [
+    "Teams that want unlimited Dashboards, Timeline or Workload views without upgrading past Unlimited, since those are capped at 100 uses per Workspace on Unlimited and never reset",
+    "Workspaces that want AI available to the whole team at no extra cost: Brain AI and Everything AI are separate per-member add-ons on top of a paid plan, charged for every member",
+    "Buyers who need SAML SSO, SCIM provisioning, an audit log or data residency at a published price, since those are Enterprise-only and Enterprise is quote-only"
+  ],
+  "pros": [
+    "Free Forever has no time limit and unlimited tasks and members, with two-factor authentication and 24/7 support included",
+    "Unlimited plan ($10/seat/mo, $7 billed yearly) removes the 60MB storage cap and unlocks unlimited Custom Fields, Gantt charts and native time tracking",
+    "Business plan ($19/seat/mo, $12 billed yearly) unlocks unlimited Dashboards, Timeline and Workload views and raises Automation actions to 5,000/month",
+    "Permission-controlled guest seats are included free and scale with paid seats (5 plus 2 per member on Unlimited, 10 plus 5 per member on Business and above)",
+    "30-day money-back guarantee on a first paid-plan subscription, including any add-ons bought with it"
+  ],
+  "cons": [
+    "Brain AI and Everything AI cost extra per Workspace member per month ($14/$9 and $33/$28, monthly vs. yearly) and are charged for every member, including seats left open by someone who was removed",
+    "Free Forever caps file storage at 60MB per Workspace and limits Custom Fields, Gantt, Timeline, Workload and Dashboards to a fixed number of uses that never reset",
+    "Unlimited plan still caps Dashboards, Timeline and Workload views at 100 uses per Workspace that never reset, which pushes teams that rely on those views to Business",
+    "Enterprise pricing is quote-only, with no published starting price",
+    "Monthly and yearly licenses can't be mixed in the same Workspace, and switching from monthly to yearly billing requires contacting support"
+  ],
+  "hq": "San Diego, California, US",
+  "affiliate": {
+    "program": null
+  }
+}

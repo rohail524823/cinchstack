@@ -1,0 +1,272 @@
+SOURCE: https://ahrefs.com/report-builder
+FETCHED: 2026-09-26T22:39:29.358Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+We value your privacy
+
+This website or its third-party tools process personal data. You can opt out of the sale of your personal information by clicking on the “Do Not Sell or Share My Personal Information” link.
+
+Do Not Sell or Share My Personal Information
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Report Builder
+
+Create custom reports with Ahrefs data
+
+Turn your data into professional reports you can configure once and deliver automatically.
+
+Sign up for Free
+
+Use an Ahrefs Free account to create 1 report per month.
+
+See All Plans
+BUILD
+Build reports that reflect your work
+
+Use widgets to pull and shape data across projects, portfolios, and URLs.
+
+15+ metric widgets
+
+Citations, impressions, clicks, AI Share of Voice, keyword rankings, backlinks, brand visibility, site performance, and more.
+
+Rich-text block
+
+Add headings, summaries, and commentary directly in the report canvas — no more explaining charts in a separate email.
+
+Duplication
+
+Duplicate any report with its settings to save time.
+
+SCHEDULE
+Configure once, deliver automatically
+
+Schedule PDF reports via email. No manual exports, no chasing stakeholders.
+
+Flexible schedules
+
+Hourly, daily, weekly, or quarterly. Daily supports workdays only (Mon–Fri).
+
+Up to 50 recipients per report
+
+Recipients don’t need an Ahrefs account. PDFs are delivered straight to their inbox.
+
+Preview next 3 send dates
+
+Confirm your schedule before sending — no surprises on delivery.
+
+TRACK
+Track what matters
+
+The right report for every marketing & SEO job: from organic rankings to AI visibility.
+
+AI visibility report
+See how your impressions, citations, brand mentions, and AI Share of Voice stack up against competitors.
+Monthly SEO report
+Share insights on how your SEO efforts add up.
+Competitive intelligence dashboard
+Pro-actively monitor the performance of your organic competitors’ websites.
+Brand share of voice
+Get a big-picture view of your brand’s share of voice in organic search.
+Backlink audit report
+Pull a full backlink profile for any URL or domain. Share it with link-building or PR teams without giving them tool access.
+Local rankings report
+Track how your main business keywords rank across different regions.
+Plans & limits
+
+Ahrefs Report Builder is available on all Ahrefs plans. Your plan determines how many reports you can generate.
+
+	
+Ahrefs Free / Starter
+	
+Lite
+	
+Standard
+	
+Advanced
+	
+Enterprise v3
+	
+RB Add-on
+	
+RB Enterprise
+
+Reports
+	
+1
+	
+5
+	
+5
+	
+15
+	
+25
+	
+50
+	
+Unlimited
+
+Widgets
+	
+5
+	
+30
+	
+30
+	
+150
+	
+250
+	
+500
+	
+Unlimited
+
+Scheduling
+	
+—
+	
+—
+	
+	
+	
+	
+	
+
+Free add-on: Ahrefs Free, Starter, Lite, Standard, Advanced, Enterprise v3 · Paid add-ons: RB Add-on, RB Enterprise
+
+Stop piecing data together. Set up reports once, share them automatically.
+20,957 users joined Ahrefs in the last 7 days
+Sign up for Free
+See All Plans
+Questions? We have answers
+
+Can I send reports to people who don’t have an Ahrefs account?
+
+Yes. PDF reports are exported and delivered by email, so recipients don’t need an Ahrefs login.
+
+Does the Text widget count against my widget limit?
+
+No. Text widgets are purely for formatting and don’t fetch metrics, so they don’t count toward your limit.
+Have other questions?
+If you have more questions, contact us so we can help.
+CORE TOOLS
+Brand Radar
+Dashboard
+Site Explorer
+Keywords Explorer
+Site Audit
+Rank Tracker
+GSC Insights
+Content Explorer
+Web Analytics
+Bot Analytics
+GBP Monitor
+Social Media Manager
+AI Content Helper
+Report Builder
+USE CASES →
+Competitive Intelligence
+PPC
+SEO
+AEO
+Content Marketing
+Brand Marketing
+Investing
+EXTRA TOOLS & FEATURES
+Domain Comparison
+Batch Analysis
+Link Intersect
+Content Gap
+Email Alerts
+SEO Checker
+Traffic Checker
+Data Studio Connectors
+Top Websites
+Patches
+Portfolios
+IndexNow
+AI Tech SEO
+All tools
+OTHER PRODUCTS
+Letaido ↗
+Firehose ↗
+Yep ↗
+FREE SEO TOOLS →
+Ahrefs Free
+AI Mode Tracker
+AI Overviews Tracker
+AI Visibility Checker
+AI Writing Tools
+Backlink Checker
+Broken Link Checker
+Website Authority Checker
+Keyword Generator
+SERP Checker
+SEO Toolbar
+Keyword Rank Checker
+Keyword Difficulty Checker
+Website Checker
+SEO Audit Tool
+Sitemap Generator
+Website Change Monitor
+Word Count
+ALTERNATIVES →
+Ahrefs vs Semrush
+PRODUCT
+Pricing
+Our data
+AhrefsBot
+API
+Ask Ahrefs
+SEO MCP
+Enterprise
+What’s new?
+COMPANY
+About
+Testimonials
+Events
+Team
+Careers
+Tech
+Media kit
+FAQ
+Contact us
+RESOURCES
+Blog
+Tech blog
+Podcast
+Webinars
+SEO Guide
+AEO Guide
+Help center
+Academy
+Marketing Agencies
+Digest
+Discoverable
+
+© 2026 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581
+
+Legal info
+Privacy Policy
+Cookie Settings
+Terms of Service
+English

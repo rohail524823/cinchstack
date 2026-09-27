@@ -1,0 +1,246 @@
+{
+  "tool": "clickfunnels",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Read ClickFunnels' pricing page in a US-locale headless browser in both its default \"Annual Discount\" view and after switching the \"Monthly Plans\" toggle, opened its FAQ accordion for the money-back-guarantee, change-plan and percentage-of-sales questions, followed the \"Start Free Trial\" signup flow one step, and read ClickFunnels' own support article comparing Stripe and Payments AI processing fees; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.clickfunnels.com/pricing",
+      "label": "ClickFunnels pricing page, default \"Annual Discount\" view (monthly price struck through against the annual-equivalent price on Launch/Scale/Optimize; Dominate shown as annual-only)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickfunnels/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.clickfunnels.com/pricing",
+      "label": "ClickFunnels pricing page after clicking the \"Monthly Plans\" toggle (plain month-to-month prices; Dominate disappears from the grid entirely)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickfunnels/2026-09-26-pricing-billing-toggle-after-click-1.txt"
+    },
+    {
+      "url": "https://www.clickfunnels.com/pricing",
+      "label": "ClickFunnels pricing-page FAQ accordion with the 30-day money-back-guarantee, change-plan-anytime and takes-a-percentage-of-sales answers opened",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickfunnels/2026-09-26-pricing-details-after-click-4.txt"
+    },
+    {
+      "url": "https://www.clickfunnels.com/launch-annual-step-1-7dt",
+      "label": "Signup flow reached from the Launch plan's \"Start Free Trial\" button (\"Create Your Account: Step 1 of 2\", asking only for name and email)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/clickfunnels/2026-09-27-pricing-trial-after-click-1.txt"
+    },
+    {
+      "url": "https://support.myclickfunnels.com/docs/getting-started-setting-up-payments-in-clickfunnels",
+      "label": "ClickFunnels support doc: setting up payments, with the Stripe-vs-Payments-AI fee comparison table",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/clickfunnels/2026-09-27-help-payments-setup.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": false,
+    "summary": "No free-forever plan. The cheapest paid plan is Launch ($81-$97/month). New signups get a free trial instead of an ongoing free tier (see trial)."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "Launch, Scale and Optimize show a \"Start Free Trial\" button; Dominate's button reads \"Dominate Now\" with no trial offered. Clicking \"Start Free Trial\" opens a 2-step signup (\"Create Your Account: Step 1 of 2\") that asks only for name and email on step 1; reaching step 2 (which likely asks for billing details) would require submitting real signup data, so the exact trial length and whether a card is required could not be confirmed from ClickFunnels' current site. Third-party sites and ClickFunnels' own \"Classic\"-product support articles describe a 14-day trial that auto-charges the card on file when it ends, but that support content is explicitly for the legacy ClickFunnels Classic product, not the current platform priced here, so that figure was not carried into this record.",
+    "source": 3
+  },
+  "plans": [
+    {
+      "id": "launch",
+      "name": "Launch",
+      "monthly": 97,
+      "annualMonthly": 81,
+      "priceUnit": "per-month",
+      "seatsIncluded": 2,
+      "note": "Monthly billing is $97/mo (shown on the \"Monthly Plans\" toggle). The default \"Annual Discount\" view shows $97 struck through against $81/mo billed annually, labelled \"Save $194/year.\"",
+      "limits": [
+        "1 workspace (sub-account)",
+        "2 team members",
+        "10,000 contacts",
+        "50,000 emails/month",
+        "3 courses",
+        "5 custom domains",
+        "AI tools: 1M words"
+      ],
+      "highlights": [
+        "Unlimited funnels (marked \"Limited Time\" on the pricing page)",
+        "Unlimited visitors",
+        "Group onboarding calls",
+        "Standard support"
+      ],
+      "source": 0
+    },
+    {
+      "id": "scale",
+      "name": "Scale",
+      "monthly": 197,
+      "annualMonthly": 164,
+      "priceUnit": "per-month",
+      "seatsIncluded": 5,
+      "note": "Monthly billing is $197/mo. The \"Annual Discount\" view shows $197 struck through against $164/mo billed annually, labelled \"Save $394/year.\" Marked \"Most Popular\" on the pricing page.",
+      "limits": [
+        "5 workspaces (sub-accounts)",
+        "5 team members",
+        "75,000 contacts",
+        "300,000 emails/month",
+        "6 courses",
+        "AI tools: 2M words"
+      ],
+      "highlights": [
+        "Unlimited funnels (marked \"Limited Time\")",
+        "Unlimited custom domains",
+        "Unlimited visitors",
+        "Group onboarding calls",
+        "Priority + live chat support",
+        "Custom code editor",
+        "Webhooks / full API access"
+      ],
+      "source": 0
+    },
+    {
+      "id": "optimize",
+      "name": "Optimize",
+      "monthly": 297,
+      "annualMonthly": 248,
+      "priceUnit": "per-month",
+      "seatsIncluded": 10,
+      "note": "Monthly billing is $297/mo. The \"Annual Discount\" view shows $297 struck through against $248/mo billed annually, labelled \"Save $594/year.\"",
+      "limits": [
+        "10 workspaces (sub-accounts)",
+        "10 team members",
+        "150,000 contacts",
+        "750,000 emails/month",
+        "10 courses",
+        "AI tools: 5M words"
+      ],
+      "highlights": [
+        "Unlimited funnels (marked \"Limited Time\")",
+        "Unlimited custom domains",
+        "Unlimited visitors",
+        "Group onboarding calls",
+        "Priority + live chat support",
+        "Custom code editor",
+        "Webhooks / full API access"
+      ],
+      "source": 0
+    },
+    {
+      "id": "dominate",
+      "name": "Dominate",
+      "monthly": null,
+      "annualMonthly": 499.75,
+      "priceUnit": "per-month",
+      "seatsIncluded": 20,
+      "note": "Annual-only: the plan is not shown at all when the \"Monthly Plans\" toggle is selected. Its only listed price is $5,997/yr (= $499.75/month); the pricing page does not show a monthly-equivalent figure or a \"Save\" label for this plan.",
+      "limits": [
+        "20 workspaces (sub-accounts)",
+        "20 team members",
+        "400,000 contacts",
+        "1,200,000 emails/month",
+        "20 courses",
+        "AI tools: 10M words"
+      ],
+      "highlights": [
+        "Unlimited funnels (marked \"Limited Time\")",
+        "Unlimited custom domains",
+        "Unlimited visitors",
+        "Group onboarding calls",
+        "VIP support",
+        "Custom code editor",
+        "Webhooks / full API access",
+        "3-hour private onboarding"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "platform-transaction-fee",
+      "label": "ClickFunnels transaction fee",
+      "amount": 0,
+      "display": "0% of each sale, on every plan",
+      "kind": "percent-of-sales",
+      "note": "ClickFunnels' own pricing-page FAQ: \"Does ClickFunnels take a percentage of my sales? No. You'll keep every penny you make.\"",
+      "source": 2
+    },
+    {
+      "id": "card-processing",
+      "label": "Card processing (Stripe or Payments AI base rate)",
+      "amount": 2.9,
+      "display": "2.9% + $0.30 per transaction, on either supported gateway (Stripe or ClickFunnels' own Payments AI)",
+      "kind": "percent-of-sales",
+      "note": "ClickFunnels' payments-setup doc states \"ClickFunnels charges no additional fees beyond the standard processor rates listed below,\" then lists Stripe's \"Standard Stripe Fees (2.9% + $0.30)\" alongside Payments AI's \"Standard Base Fee (2.9% + $0.30).\" Optional extras can stack on top: Stripe's Billing (+0.8%), Invoicing (+0.4%) and Tax (+0.5%) are priced separately, while Payments AI bundles Billing/Tax/Invoicing at +0.5% all-inclusive. Left out of the scenario totals below because every seller, on any platform, pays base card-processing fees.",
+      "source": 4
+    }
+  ],
+  "billingNotes": [
+    "Launch, Scale and Optimize can each be billed monthly or annually. Dominate is sold annually only and disappears from the plan grid entirely when the \"Monthly Plans\" toggle is selected.",
+    "The page's \"Save $X/year\" labels ($194/$394/$594 for Launch/Scale/Optimize) do not exactly equal 12 x (monthly minus the displayed annual-equivalent price): that arithmetic gives $192, $396 and $588. The $2-6 gaps suggest the displayed per-month annual price is rounded from a more precise annual total that the page never shows directly. This record uses the exact monthly and annual-equivalent prices as displayed, rather than a recomputed figure.",
+    "Every plan's funnel count is listed as \"Unlimited Funnels\" but flagged \"Limited Time\" on the pricing page, implying a numeric funnel cap could return later.",
+    "Pricing-page FAQ: a 30-day money-back guarantee applies (\"we'll happily cancel your account ... without any penalties or fees\"), and plans can be changed at any time, during or after the trial.",
+    "Clicking \"Start Free Trial\" from the default (\"Annual Discount\") view of the Launch plan opened a signup URL containing \"-annual-\" (/launch-annual-step-1-7dt), suggesting the trial signs up for annual billing by default from that view; this was not followed further and was not cross-checked from the \"Monthly Plans\" view."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "The pricing page showed USD prices with no visible country or currency selector when checked from a US-locale browser. Pricing for other countries or currencies was not checked."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo funnel builder, $3,000/month in sales",
+      "assumptions": "1 person with 1 staff account (the owner) selling $3,000/month. Launch's caps of 2 team members and 10,000 contacts comfortably cover a solo operator. Billed monthly. Card processing is left out of the total: Stripe's or Payments AI's standard rate of 2.9% + $0.30 applies either way (2.9% x $3,000 = $87 plus $0.30 per order), paid to whichever processor is connected, not to ClickFunnels.",
+      "planId": "launch",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Launch plan, billed monthly", "amount": 97 },
+        { "label": "ClickFunnels transaction fee: 0% x $3,000 in sales", "amount": 0 }
+      ],
+      "monthly": 97,
+      "confidence": "high",
+      "note": "Billed annually, Launch is shown at $81/month, labelled \"Save $194/year.\""
+    },
+    {
+      "size": "small",
+      "label": "Small team, $30,000/month in sales, 3 staff accounts",
+      "assumptions": "5 people with 3 staff accounts selling $30,000/month. Launch's cap of 2 team members is one short of the 3 staff accounts needed, so the team-member limit forces Scale, whose cap is 5 team members (and 75,000 contacts, well above what this size would need). Billed monthly. Card processing is left out: 2.9% x $30,000 = $870 plus $0.30 per order, paid to Stripe or Payments AI, not to ClickFunnels.",
+      "planId": "scale",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Scale plan, billed monthly", "amount": 197 },
+        { "label": "ClickFunnels transaction fee: 0% x $30,000 in sales", "amount": 0 }
+      ],
+      "monthly": 197,
+      "confidence": "high",
+      "note": "Billed annually, Scale is shown at $164/month, labelled \"Save $394/year.\""
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, $150,000/month in sales, 8 staff accounts",
+      "assumptions": "15 people with 8 staff accounts selling $150,000/month. Scale's cap of 5 team members is short of the 8 staff accounts needed, so the team-member limit forces Optimize, whose cap is 10 team members (and 150,000 contacts). Billed monthly. Card processing is left out: 2.9% x $150,000 = $4,350 plus $0.30 per order, paid to Stripe or Payments AI, not to ClickFunnels.",
+      "planId": "optimize",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Optimize plan, billed monthly", "amount": 297 },
+        { "label": "ClickFunnels transaction fee: 0% x $150,000 in sales", "amount": 0 }
+      ],
+      "monthly": 297,
+      "confidence": "high",
+      "note": "Billed annually, Optimize is shown at $248/month, labelled \"Save $594/year.\" Dominate (20 team members, $5,997/yr annual-only, about $500/month) would only be needed above 10 staff accounts or 150,000 contacts."
+    }
+  ],
+  "unverified": [
+    "Free-trial length and whether a credit card is required at signup could not be verified on ClickFunnels' current site: the \"Start Free Trial\" button leads only to a name/email step (\"Create Your Account: Step 1 of 2\") before real signup data would be needed to continue. Third-party sites and ClickFunnels' own \"Classic\"-product support articles describe a 14-day trial that auto-charges the card on file at the end, but that support content is explicitly for the legacy ClickFunnels Classic product, not the current platform priced here, so it was not carried into this record.",
+    "What happens when a workspace goes over its plan's contact, email-send or workspace limit (automatic upgrade, overage billing, or a feature lock) is not stated on the pricing page and was not found elsewhere.",
+    "The FAQ answers to \"Can I use a custom domain?\" and \"Do I need a hosting account?\" were never expanded or captured; custom-domain availability is inferred instead from each plan's own \"5 Custom Domains\" / \"Unlimited Custom Domains\" limit line.",
+    "Whether the \"AI Tools\" word allowance (1M/2M/5M/10M words) resets monthly, is a one-time signup credit, or something else was not stated on the pricing page."
+  ],
+  "history": [
+    {
+      "date": "2026-09-27",
+      "change": "Initial record."
+    }
+  ]
+}

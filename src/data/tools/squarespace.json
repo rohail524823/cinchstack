@@ -1,0 +1,36 @@
+{
+  "id": "squarespace",
+  "name": "Squarespace",
+  "vendor": "Squarespace, Inc.",
+  "tier": "secondary",
+  "layer": "site",
+  "category": "Website builder and online store",
+  "url": "https://www.squarespace.com",
+  "pricingUrl": "https://www.squarespace.com/pricing",
+  "oneLiner": "Website builder with built-in online stores, invoicing and AI tools, priced per site with no per-contributor fee above the entry-level Basic plan.",
+  "summary": "Squarespace bundles a drag-and-drop website builder, blog/CMS, online store, invoicing, scheduling and email marketing under one flat per-site subscription, billed monthly or annually. Its Basic plan caps contributors at two (owner included) and charges the highest commerce and digital-product transaction fees; Core, Plus and Advanced remove the contributor cap and step those fees down as the price rises. Every current plan allows up to 1,000 pages and unlimited bandwidth, so plan choice is driven mainly by team size and how much of each sale Squarespace keeps.",
+  "bestFor": ["freelancer", "local-service", "course-creator"],
+  "notFor": [
+    "Agencies managing many client sites — billing is per site, so each site is its own separate subscription and login rather than one multi-site account",
+    "Sites that need more than 2 contributors without upgrading off the cheapest plan"
+  ],
+  "pros": [
+    "Core, Plus and Advanced all include unlimited contributors — team size doesn't add per-seat fees",
+    "Every current plan allows up to 1,000 pages and unlimited bandwidth, so traffic growth alone never forces an upgrade",
+    "Commerce and digital-product transaction fees fall as you move up plans: 2%/7% on Basic down to 0%/0% on Advanced, on top of the card-processing rate",
+    "Annual billing includes a free custom domain for the first year, and Core/Plus/Advanced add a free Google Workspace inbox for the first year too",
+    "14-day free trial, no credit card required",
+    "Built-in invoicing has no Squarespace transaction fee on any plan"
+  ],
+  "cons": [
+    "Basic caps contributors at two, including the site owner, and is the only plan without custom code, code injection, or a Google Workspace offer",
+    "Basic's sales pay a 2% online-store fee plus a 7% fee on digital products/memberships — the highest of the four plans",
+    "Only Plus and Advanced get the lower 2.7%/2.5% Squarespace Payments card rate; Basic and Core both pay 2.9% + $0.30",
+    "AI credits beyond the plan's monthly allotment are sold in packs whose USD price isn't published outside the account dashboard",
+    "The pricing page's 'save up to 36%' annual-billing banner overstates it: Squarespace's own checkout figures put the actual saving at 24–28% depending on plan",
+    "Refunds only apply to a new annual plan's first 14 days — monthly subscriptions and any renewal charge are non-refundable"
+  ],
+  "founded": 2003,
+  "hq": "New York, New York, US",
+  "affiliate": { "program": null }
+}

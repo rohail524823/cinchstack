@@ -1,0 +1,170 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/205826008-Change-your-site-s-billing-plan-and-cycle
+FETCHED: 2026-09-26T22:12:36.087Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+WEBSITE BILLING
+Change your site’s billing plan and cycle
+Upgrade or downgrade your website plan and change how often you are billed.
+
+Last updated August 10, 2026
+
+English
+
+You can change your website plan and billing cycle at any time. Upgrading or downgrading your plan, switching your cycle, and reviewing your renewal dates can affect your site's features, billing dates, and custom domains.
+
+Also try: Upgrading to paid service, Choosing the right Squarespace plan, Checking your billing subscriptions, and Upgrading to a Mobile Start plan
+
+Watch a video how to change your billing plan and cycle
+
+This video guides you through navigating the Billing panel to change your website subscription plan or payment frequency.
+
+Switch your billing plan and cycle
+
+Squarespace has several website billing plans. You can choose a monthly or annual billing cycle. You can change your plan or cycle if you’re the site owner or a contributor with Admin or Billing permissions.
+
+To review and update your plan and billing cycle:
+
+Review your payment method and update your card on file.
+Open your Account Dashboard, then click your site.
+Open the Billing panel and click Subscriptions.
+Under Subscriptions, click Website or Squarespace, depending on your plan.
+Under Subscription Plan, click Change.
+Choose a new plan, or keep your current one. Learn more about our billing plans and choosing the right one for you.
+Choose an annual or monthly billing cycle, or keep your current one.
+Review your order and click Confirm and purchase.
+When does my new billing cycle take effect?
+
+If you only change your billing cycle, your renewal date moves based on the cycle you choose.
+
+If you switch to an annual cycle, your billing cycle changes immediately.
+If you switch to a monthly cycle, the change takes effect at the end of your current cycle.
+When is my new billing date?
+
+Your subscription is set to renew automatically. When you change your billing cycle, your new renewal date will be the day you change your cycle. If you don’t want your subscription to renew, cancel your subscription.
+
+To review your site's renewal status:
+
+Open the Billing panel.
+Under Subscriptions, click Website or Store, depending on your plan.
+Your next renewal/billing date is listed beside Payment due.
+Can I change my billing date?
+
+To change your site's billing date without changing your billing cycle, cancel your subscription and let it run until the end of your billing cycle. Then, resubscribe to your billing plan on the day you want to be charged.
+
+Note
+
+Canceling your site will cause your site to expire on the Payment due date. This means that your site will be taken offline until you reactivate it.
+
+What happens when I upgrade my plan?
+
+Upgrading your plan unlocks more features.
+
+If you keep your billing cycle, or switch to an annual cycle, you get access to new features immediately.
+
+If you upgrade your plan and change to a monthly cycle, you get access to new features at the end of your annual billing cycle. To get access to your upgraded features immediately, change your plan first.
+
+How am I charged if I upgrade my plan?
+
+We charge a prorated rate if you switch during your current billing cycle. For example, if you're on a monthly billing cycle, and halfway through the month you change to an annual billing cycle, you'll get a prorated refund for the unused part of the month. At the same time, we charge you for the full annual plan.
+
+Note
+
+If you’re on a Legacy plan, upgrade to a current plan. You can’t downgrade to a lower tier on a Legacy plan. Learn more about legacy website billing plans.
+
+What happens when I downgrade my plan?
+
+When you downgrade your plan, you’ll have access to features until the end of your current billing plan, even if you change your billing cycle. You can upgrade your plan at any time to regain access to features.
+
+If you're on a Core, Plus, or Advanced plan, before downgrading to the Basic plan, you need to:
+
+Delete any carrier calculated shipping options.
+Disable automatic tax rates.
+Edit your shipping options and remove shipping zones by city.
+Remove contributors if you have more than two. Basic plans have a limit of two contributors for a site, including the site owner.
+If you use PayPal as a payment processor and downgrade to a plan that charges transaction fees, you need to reconnect PayPal.
+Do I get a refund if I downgrade my plan?
+
+No. We don’t offer refunds for downgrades.
+
+How changes to your plan and cycle can affect Squarepace domains
+
+Squarespace domains are billed annually and separately from your site. If you purchased a Squarespace Domain and switch from annual to monthly billing cycles, the domain stays on its own annual billing cycle.
+
+If you have a legacy Squarespace Domain and switch to a monthly plan, you lose the domain. To keep it, check Renew my domain to convert it to a $20 USD annual subscription. If you don't want to keep the domain, leave the box unchecked and let it expire at the end of your billing cycle.
+
+When am I charged for my domain renewal?
+
+You can review your domain's charge date in the Domains panel. To keep your service online, we automatically charge your card 15 days before the renewal date. We email the account Owner and Admin domain contacts 15 days before this charge, giving you time to update your payment information or turn off auto-renew to cancel.
+
+IN THIS GUIDE
+Watch a video how to change your billing plan and cycle
+Switch your billing plan and cycle
+What happens when I upgrade my plan?
+What happens when I downgrade my plan?
+How changes to your plan and cycle can affect Squarepace domains
+When am I charged for my domain renewal?
+People also viewed
+
+Upgrade your trial to a paid website plan
+
+Choosing the right Squarespace plan
+
+Contact Squarespace Customer Support
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

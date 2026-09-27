@@ -1,0 +1,118 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/24906173921549-Accepted-currencies-for-your-Squarespace-subscriptions
+FETCHED: 2026-09-26T22:14:01.494Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+PAYMENTS AND SUBSCRIPTIONS
+Accepted currencies for your Squarespace subscriptions
+Review a list of currencies you can use to pay for your Squarespace subscriptions.
+
+Last updated October 8, 2025
+
+English
+
+You can pay for your subscription using one of our accepted currencies in the table below. Before choosing a currency, keep in mind:
+
+You'll use the same currency for all payments connected to the website.
+It's not possible to change your site's currency after your first payment, or if you move a domain to a trial site with no previous subscriptions. 
+Your location at the time of your first payment determines which currency you can choose. For example, if you’re located in Ireland when you make your first payment to Squarespace, your default currency is EUR, but you can also choose from GBP and USD.
+Accepted currencies
+A$ AUD (Australian dollar)	kr NOK (Norwegian krone)
+R$ BRL (Brazil real)	
+
+NZ$ NZD (New Zealand dollar)
+
+C$ CAD (Canadian dollar)	₱ PHP (Philippine peso)
+₣ CHF (Swiss franc)	zł PLN (Polish zloty)
+Col$ COP (Colombian peso)	kr SEK (Swedish krona)
+kr DKK (Danish krone)	S$ SGD (Singaporean dollar)
+€ EUR (euro)	฿ THB (Thai baht)
+£ GBP (British pound sterling)	₺ TRY (Turkish lira)
+HK$ HKD (Hong Kong dollar)	NT$ TWD (New Taiwan dollar)
+Rp IDR (Indonesian rupiah)	₫ VND (Vietnamese dong)
+¥ JPY (Japanese yen)	$ USD (US dollar)
+Mex$ MXN (Mexican peso)	R ZAR (South African rand)
+RM MYR (Malaysian ringgit)	₩ KRW (Korean Won)
+
+Note
+
+If you sign up for Acuity on the Squarespace site or the Acuity site, you can pay for Acuity using one of our accepted currencies above. However, if you have a legacy Acuity plan, you can only pay using in USD. To learn more, visit Acuity Scheduling billing.
+
+Before making your first payment, choose your currency at checkout by selecting the dropdown menu next to Select a plan.
+
+Exchange rates
+
+Subscription prices don’t change based on exchange rates. However, the amount reflected in your bank account may vary based on exchange rates. Contact your bank to learn more about this exchange rate and other possible exchange fees.
+
+Accepted currencies in Commerce
+
+Learn more about which currencies you can accept as a Squarespace Commerce merchant.
+
+IN THIS GUIDE
+Accepted currencies
+Exchange rates
+Accepted currencies in Commerce
+People also viewed
+
+Supported countries and currencies for Squarespace Commerce
+
+Accepted payment methods for your Squarespace subscriptions
+
+Update your billing information
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

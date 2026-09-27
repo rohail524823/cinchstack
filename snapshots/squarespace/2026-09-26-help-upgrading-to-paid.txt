@@ -1,0 +1,186 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206536807-Upgrade-your-trial-to-a-paid-website-plan
+FETCHED: 2026-09-26T22:12:40.710Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+WEBSITE BILLING
+Upgrade your trial to a paid website plan
+Subscribe to a website plan to publish your trial site and unlock more features.
+
+Last updated September 17, 2026
+
+English
+
+Upgrade your free trial to a paid website subscription during your trial or after it expires. When you upgrade, you can publish your site and access more features.
+
+Your trial site stays private until you subscribe to a paid website plan. Registering or connecting a domain doesn't publish the site.
+
+Also try: Choosing the right Squarespace plan and Change your site’s billing and cycle.
+
+Accessing this feature
+
+Site owners and contributors with billing permissions can upgrade a trial site. To let someone else upgrade, transfer ownership or invite them with billing permissions.
+
+Video on upgrading to a paid service
+
+Watch a 2-minute video on how to subscribe to a plan and upgrade your site to use features.
+
+Pick a plan that includes the features you used in your trial
+
+Compare plans and current prices on our pricing page. If you choose a plan that doesn't include a feature you used during your trial, that feature stops working on your site. You can switch to a higher plan later to turn it back on. Use the site launch checklist to confirm your site is ready before you publish it.
+
+Learn more about choosing the right Squarespace plan.
+
+Choose between annual and monthly billing
+
+Both cycles are paid in advance, and we bill the same payment method on the same day each following year or month.
+
+Annual - You pay for a full year today. Annual plans include a free eligible domain for your first year of service.
+Monthly - You pay for your first month today.
+
+Learn more about changing your site’s billing cycle.
+
+Review your payment methods, currencies, and taxes
+
+Review our accepted payment methods and billing currencies before you check out. The currency you pick for your first payment applies to every later payment and renewal on that site.
+
+You can't change your site's currency after your first payment, or if you move a domain to a trial site with no previous subscriptions. To bill in a different currency, start a new trial site and subscribe there.
+
+We add any applicable state or local sales tax at checkout. To learn more, visit taxes and Squarespace billing.
+
+Confirm you're on the site you want to upgrade
+
+You can't move a website subscription from one site to another. If you have more than one Squarespace site, check the site title and URL in your account dashboard and confirm the site you want still shows as a trial.
+
+What do I do if I upgraded the wrong site?
+
+You can't move a subscription between sites, so cancel the subscription on the wrong site and subscribe on the right one:
+
+Open your account dashboard and find the site you meant to upgrade, confirming it's still a trial.
+Log into the site you upgraded by mistake and cancel it.
+Log into the trial site you want and click Subscribe.
+
+Depending on your plan and how long the wrong site was active, you may not qualify for an automatic refund. Learn more about our refund policies.
+
+Upgrade to a paid plan
+
+To upgrade your trial site:
+
+Open the site you want to upgrade.
+Click Subscribe in the banner at the bottom of the browser window.
+Choose a plan from the plan picker, then click Select.
+Choose Annual or Monthly billing cycle, then click Confirm selection.
+Enter your billing information. If your business qualifies for tax exemption, add your business name and registration number.
+Click Save and continue.
+Choose a payment method. Make sure it’s the card or payment method you want to use. We can't reprocess the charge on a different one.
+To have a company name appear on your billing invoices, enter it in the Full name field. (optional)
+Review payment details, including the amount Due today and your next renewal payment date.
+Enter an offer code in the Promo code field, then click Apply. (optional)
+Click Confirm payment to subscribe. If your bank is located in the European Economic Area (EEA), you may need to authorize the purchase.
+Publish your site
+
+After upgrading, publish your site. You can change your site visibility by hiding it or adding a password. After your site is public, search engines can index your site. You can increase your site’s visibility by using Squarespace’s built-in SEO tools.
+
+Set up your online store
+
+If you set up an online store and connected a payment processor, customers can place orders after your site is public.
+
+Add a domain
+
+Register a custom domain through Squarespace. If you choose annual billing, you get a free domain for your first year.
+
+Subscribe to other Squarespace features
+
+Your plan determines which features you can use, but you can always add extra subscriptions. Every Squarespace subscription is billed separately with its own plan, cycle, and invoice. Changing or canceling one service doesn't affect your other subscriptions.
+
+You can add:
+
+Acuity Scheduling - Clients can book appointments or classes directly from your site with Acuity Scheduling.
+Email Campaigns - Send emails that match your site’s style and branding with Squarespace Email Campaigns. All sites start with a free Email Campaigns trial.
+Essential Email by Titan - Get a custom email address for your domain through Essential Email by Titan.
+Getty Images - License stock images for your site through Getty Images.
+Google Workspace - Get a custom email address for your domain through Google Workspace.
+LLC with Zenbusiness - Set up and manage your LLC formation with ZenBusiness using your custom domain.
+Review your billing information
+
+On the Billing panel, you can view invoices, update your billing information, or switch billing plans at any time.
+
+All sites are set to auto-renew to ensure continuous service. To disable auto-renew, cancel your subscription.
+Learn more about Squarespace billing basics.
+Review our refund policies for websites and other subscriptions.
+IN THIS GUIDE
+Video on upgrading to a paid service
+Pick a plan that includes the features you used in your trial
+Choose between annual and monthly billing
+Review your payment methods, currencies, and taxes
+Confirm you're on the site you want to upgrade
+Upgrade to a paid plan
+Publish your site
+Set up your online store
+Add a domain
+Subscribe to other Squarespace features
+Review your billing information
+People also viewed
+
+Connect a payment processor
+
+Choosing the right Squarespace plan
+
+Site launch checklist
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

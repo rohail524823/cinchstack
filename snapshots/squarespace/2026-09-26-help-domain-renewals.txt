@@ -1,0 +1,206 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/218193418-Squarespace-domain-renewals
+FETCHED: 2026-09-26T22:47:21.810Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+DOMAINS
+DOMAIN BILLING & LIFECYCLE
+Squarespace domain renewals
+Information about the renewal billing cycle of Squarespace-managed domains.
+
+Last updated August 5, 2026
+
+English
+
+When you register a domain with Squarespace, it's set to renew automatically to keep your site running smoothly.
+
+If we can't charge your payment method, your domain expires and disconnects from your site, and any email services associated with your domain (such as Google Workspace, Outlook, Zoho, etc.) will be disrupted. After your domain expires, you'll enter a grace period for more time to reactivate your domain.
+
+Note
+
+If your domain expires, it's important to reactivate it before its renewal grace period ends. After that, you could permanently lose access to your domain if someone else purchases it. To ensure you retain access to your domain, keep its billing information up to date, and if the domain expires, reactivate it before its grace period ends.
+
+Before you begin
+If you purchased a domain from a third-party provider (like BlueHost, HostGator, or GoDaddy) and connected the domain to your site, your domain provider manages the billing for your domain.
+Your domain’s billing and renewal is separate from any other Squarespace subscriptions you may have, like a website, Email Campaigns, Google Workspace, or Member Sites. 
+If you're canceling your site and want to maintain ownership of your domain, visit What to do with your domain if you cancel your website.
+If your domain isn't currently suspended or expired, and you'd like to add years to the registration, visit Adding years to your domain registration.
+Squarespace domains auto-renew by default
+
+By default, all Squarespace-managed domains are set to renew automatically to keep your site running smoothly. You’ll receive an email 30 days before the start of each renewal term reminding you that your domain will automatically renew if you don’t take any action. 15 days before the start of each renewal term, we'll charge the payment method on file for another term. We’ll then continue to automatically renew your domain based on the registration term you chose. You can also extend your registration term length.
+
+If your domain has auto-renew turned on and we successfully collect your renewal payment, your domain will renew.
+
+Disable auto-renew
+
+Squarespace domains are set to auto-renew by default, but you can disable auto-renew by opening your domains dashboard, clicking your domain, then switching the Auto-renew toggle off.
+
+Tip
+
+To review the renewal price after turning off auto-renew, hover over the question mark icon next to Expires on.
+
+To cancel the upcoming renewal, ensure you disable auto-renew at least one day before the Renews on date.
+
+If auto-renewal is turned off, you’ll receive an email 30 days before the expiration date, 5 days before the expiration date, and on the day your domain expires, reminding you that your domain will expire if you don't take action. To re-enable auto-renew, switch the Renew automatically toggle on.
+
+Domain renewal timeline
+
+To prevent service interruptions, we charge you 15 days before your domain's official renewal date. The day we charge you for your domain is your domain's charge date.
+
+Fifteen days before your charge date, we'll send an email to the Registrant and, if your TLD has one, the Admin domain contact about the upcoming domain renewal. This is a great time to check if your payment information is up to date or to disable auto-renew if you plan to cancel the renewal. If the card on file is correct, no more action is necessary to proceed with the renewal.
+
+Find your domain's charge date and price
+
+To confirm your domain’s charge date:
+
+Open your domains dashboard.
+Look at the Expiration column next to your domain.
+Your charge date is 15 days before the listed expiration date.
+
+To confirm your domain's renewal price:
+
+Open your domains dashboard
+ Click your domain to open its details page.
+The renewal price is listed next to the renewal date.
+Domains become past-due if auto-renew is disabled or a payment fails
+
+Domains typically expire when you disable auto-renew or if there's an issue with the payment method on file. If we can't charge the payment method on file for your site, your domain enters a "past due" status, but remains active for 15 days past the charge date. If your domains dashboard displays an error message that says “Payment is past due," update your payment information and retry the payment.
+
+We'll make additional attempts to charge your card every five days after the initial failed charge. After the third attempt, 15 days after the payment was due, the domain will officially expire and no longer connect to your site. Also note, that after expiration of a domain, all PayPal Payment Links linked to that domain will no longer work.
+
+After your domain expires, there’s a grace period during which you can reactivate it at the current domain price with no additional fees. If you reactivate it after the 30-day grace period, you may incur a redemption fee in addition to the current domain cost. The fee varies by TLD and appears in your order summary at checkout. To learn more about grace periods, visit Reactivating an expired Squarespace domain.
+
+Example domain life cycle
+
+Note
+
+Depending on its registrar, your domain's expiration, renewal, and grace periods may differ from what we list in this example. ccTLDs follow different rules than other TLDs. To learn more about the life cycle of your ccTLD, visit ccTLD basics.
+
+Lifecycle of a domain with auto-renew enabled
+
+Here’s an example of what the billing and notification schedule looks like for a .com domain registered on April 15, 2021 with auto-renew enabled:
+
+April 15, 2021 - Domain is purchased.
+April 30, 2021 - If the registrant doesn’t verify ownership via email, the domain is suspended.
+June 15, 2021 - Domain can be transferred to another provider.
+March 16, 2022 - The registrant receives an email notifying them that their domain renews in 15 days.
+March 31, 2022 - The card on file is charged for domain renewal.
+April 15, 2022 - If the card on file can’t be charged, the domain expires. The registrant receives an email notifying them that their domain has expired.
+April 15, 2022 - May 14, 2022 - The registrant has a 30-day grace period to reactivate their domain without incurring a domain redemption fee.
+May 15, 2022 - The domain may no longer be available for renewal. If the domain is available, and you reactivate it, you may incur a domain redemption fee in addition to the current domain price. 
+Lifecycle of a domain with auto-renew disabled
+
+Here’s an example of what the billing and notification schedule looks like for a .com domain registered on April 15, 2021 with auto-renew disabled:
+
+April 15, 2021 - Domain is purchased.
+April 30, 2021 - If the registrant doesn’t verify ownership via email, the domain is suspended.
+June 15, 2021 - Domain can be transferred to another provider.
+March 16, 2022 - The registrant receives an email that their domain expires in 30 days.
+April 10, 2022 - The registrant receives an email notifying them that their domain expires in 5 days.
+April 15, 2022 - The domain expires. The registrant receives an email notifying them that their domain has expired.
+April 15, 2022 - May 14, 2022 - The registrant has a 30-day grace period to reactivate their domain without incurring a domain redemption fee.
+May 15, 2022 - The domain may no longer be available for renewal. If the domain is available, and you reactivate it, you may incur a domain redemption fee in addition to the current domain price.
+Update payment information
+
+To learn how to update the billing information on your domain, visit Updating your billing information.
+
+Grouped domains share billing information
+
+If you have more than one Squarespace domain, the billing information for your domains may be grouped, meaning the payment information is linked. If you update the payment method information on one domain, it'll update the payment method for all grouped domains. To separate the billing information of a domain from the other domains in that group, contact us for help ungrouping your domains.
+
+Update payment information for domains purchased through a third party
+
+If you purchased your Squarespace domain through a reseller, like Google Workspace or another reseller of Squarespace domains, you'll need to manage your domain's billing information through the account you have with the reseller. Adding payment information to the Billing panel of your domain won't update the payment information for your resold domain. If you're not sure if you have a resold domain, open your domains dashboard and click your domain to open its details page. If you have a resold domain, the reseller's name appears under the domain's expiration date.
+
+How free domains renew
+
+Eligible Squarespace sites on an annual billing plan include one free custom domain.
+
+Renewal after the first year of free domain service
+
+All free domains registered as of March 5, 2015, are free for the first year of service. After the first year, the domain will renew for its listed price, and we'll charge the payment method connected to your site. To find a domain's price, you can search for it on our domain name search page.
+
+Renewal for free legacy domains
+
+If you registered a free domain prior to March 5, 2015 as part of our promotion, you have a free legacy domain. If you keep auto-renew enabled, your domain will continue to renew for free every year that your site remains active and on an annual website billing plan.
+
+There are a few situations where your free domain could convert to a paid domain. If the domain converts to a paid domain, you'll need to pay its listed price. To find a domain's price, you can search for it on our domain name search page.
+
+If you switch to a monthly website billing plan, you can choose to let your domain expire or convert it to a paid domain. If you choose a paid domain, you’ll be charged your domain's renewal cost when it renews.
+If your domain expires and you don't renew it before its renewal grace period ends, your domain will lose the free domain promotion. When you reactivate the domain, it'll convert to a paid domain.
+If you move your domain to a different Squarespace site that already has a free domain registered on it, your domain converts to a paid domain.
+If you move your domain to a different Squarespace site that uses a currency other than USD to pay for the site, your domain converts to a paid domain.
+It's not possible to transfer the price or the promotion to another domain.
+IN THIS GUIDE
+Before you begin
+Squarespace domains auto-renew by default
+Domain renewal timeline
+Domains become past-due if auto-renew is disabled or a payment fails
+Example domain life cycle
+Update payment information
+How free domains renew
+Renewal after the first year of free domain service
+Renewal for free legacy domains
+People also viewed
+
+Reactivate your expired Squarespace domain
+
+Update your billing information
+
+Managing domains registered through Google Workspace
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

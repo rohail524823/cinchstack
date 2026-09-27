@@ -1,0 +1,445 @@
+SOURCE: https://ahrefs.com/faq
+FETCHED: 2026-09-26T22:42:25.078Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+We value your privacy
+
+This website or its third-party tools process personal data. You can opt out of the sale of your personal information by clicking on the “Do Not Sell or Share My Personal Information” link.
+
+Do Not Sell or Share My Personal Information
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+The conference for search & marketing pros
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Frequently asked questions
+
+Everything you wanted to ask about Ahrefs
+
+Plans, credits, data, AI search, integrations, security — answered. 48 of the most common questions, written for buyers, founders, and SEO teams.
+
+What is Ahrefs
+
+What is Ahrefs and what can it help me do?
+
+Ahrefs is an SEO and marketing platform that makes your business discoverable in search, AI, and beyond. It helps you research keywords, analyze competitors, audit your site for technical issues, track rankings, monitor your AI visibility, and build a stronger backlink profile.
+
+Its core tools (Site Explorer for competitor research, Keywords Explorer for keyword research, Site Audit for technical SEO, Rank Tracker for monitoring positions, and Brand Radar for AI visibility) all draw on Ahrefs’ web crawl data. Letaido extends that: it’s an AI marketing platform with direct access to Ahrefs data that drafts briefs, SEO audits, landing pages, and reports, then pushes them into tools like Google Docs, Notion, HubSpot, Linear, and Slack. Ahrefs gives you data with built-in guidance, Letaido executes the work.
+
+What tools and features does Ahrefs include?
+
+Ahrefs includes six core SEO tools (Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, Content Explorer, and Brand Radar) plus AI features like AI Content Helper. Letaido, an AI marketing platform, works on top of that data to execute the work.
+
+Site Explorer analyzes backlink profiles, organic traffic, and competitor pages. Keywords Explorer helps you discover keyword ideas, analyze search volume and ranking difficulty, and estimate traffic potential based on Google search data. Site Audit crawls for technical issues like broken links, missing tags, and duplicate content. Rank Tracker monitors keyword positions across locations and devices. Content Explorer surfaces high-performing content by niche.
+
+On the AI side, Brand Radar tracks how your brand appears in AI tools like ChatGPT, Gemini, Perplexity, Copilot, Grok, and Claude, backed by the largest search-backed AI visibility database (400M+ prompts derived from real search demand). AI Content Helper sits inside Ahrefs and helps you write and optimize: it analyzes top-ranking pages for your target keyword, scores your draft on topical coverage, identifies gaps, and includes an AI chat for refining sections. Letaido is an AI marketing platform: it runs analyses end-to-end and pushes finished work directly into Google Docs, Notion, HubSpot, Slack, and Linear.
+
+Does Ahrefs just give me data, or does it tell me what to do with it?
+
+Ahrefs gives you data with built-in guidance, and Letaido executes the work.
+
+Site Audit categorizes issues by severity and explains how to fix them. Keywords Explorer surfaces metrics like Traffic Potential and Parent Topic so you know what’s worth targeting. Content Gap shows where competitors rank and you don’t. That’s the navigation layer; you can still drive yourself. Letaido goes further: it’s an AI marketing platform with full access to Ahrefs data that plans SEO work, drafts briefs and audits, refreshes pages, and delivers finished outputs to Google Docs, Notion, HubSpot, or Linear. You keep approval control throughout.
+
+Can I use Ahrefs to research my competitors?
+
+Yes, Ahrefs is built for competitor research across organic search, backlinks, and paid keywords.
+
+Site Explorer lets you enter any competitor’s domain to see the keywords they rank for, the pages driving their traffic, and their full backlink profile. The Content Gap tool surfaces keywords your competitors rank for that you don’t: a direct way to find content opportunities you’re missing. Link Intersect identifies sites linking to competitors but not to you, which guides outreach targeting. Ahrefs also shows competitors’ paid keyword data if they’re running Google Ads. If you’d rather skip assembling the picture manually, Letaido runs a full competitive analysis on demand, pulling keyword gaps, link intersects, top-page comparisons, and battlecards, and delivers the writeup directly into Notion, HubSpot, or Google Docs.
+
+Is Ahrefs right for me?
+
+Is Ahrefs only for large businesses and agencies, or can freelancers and small sites use it too?
+
+Ahrefs works for freelancers and small sites, not just agencies. An Ahrefs free account covers site auditing, backlinks, and basic rankings after you verify ownership, and paid plans start at $29/month (Starter).
+
+Starter is the entry point for small businesses and personal projects; Lite suits growing sites that need more data; Standard suits freelance SEOs and consultants managing a handful of sites; Advanced and Enterprise are for agencies and in-house teams at scale. The Ahrefs free account requires site ownership verification, so you can’t research competitors’ sites without paying. Credit-based usage on Starter and Lite can feel restrictive if you run frequent keyword or competitor lookups. At that point, plan fit depends more on how often you search than on the size of your business.
+
+Is Ahrefs useful for a brand-new site?
+
+Ahrefs is useful for a brand-new site, but only certain features apply until you have traffic and backlinks.
+
+The most immediately valuable tools are Keywords Explorer for finding low-competition topics you can realistically rank for, Site Audit for catching technical issues early, and Content Explorer for seeing what’s working in your niche. You don’t need a paid plan to start: the Ahrefs free account includes Site Audit and backlink data for your own verified domain, plus Web Analytics, AI Content Helper, Social Media Manager, and the Ahrefs Toolbar. If you want Keywords Explorer and competitor analysis, the Starter plan is a great entry point. Rank tracking and backlink analysis become more meaningful once your site has gained some traction.
+
+Do I need Ahrefs if I already use Google Search Console?
+
+GSC and Ahrefs solve different problems, so one doesn’t replace the other.
+
+GSC gives you first-party data directly from Google: real clicks, impressions, indexing status, and crawl errors for your own site. Ahrefs is a competitive intelligence tool: it shows what competitors rank for, estimates keyword difficulty and search volume across millions of queries, and analyzes backlinks across the web. None of that is available in GSC because GSC only reports on your own site. If you’re maintaining an existing site, GSC alone may be enough. If you’re trying to grow traffic, find new keyword opportunities, or understand what competitors are doing, Ahrefs covers ground GSC can’t. Even the free Ahrefs Webmaster Tools fills the gaps GSC leaves: 170+ SEO issues with fixes (vs a handful in GSC), all known backlinks (vs Top 1,000), and all known organic keywords with SEO metrics and SERP features.
+
+I’m in a non-English market, how complete is Ahrefs’ data for my country?
+
+Ahrefs covers 217+ locations and hundreds of country/language combinations, but data depth varies significantly by market.
+
+Large markets like Germany, France, Brazil, and Indonesia have solid keyword datasets with good long-tail coverage, while smaller markets (certain Baltic or African countries, for example) tend to have thinner keyword data and less reliable search volume estimates. Backlink data is a different story: AhrefsBot crawls globally regardless of language, so link analysis is generally just as strong in your market as in any English-speaking one. The most reliable way to gauge fit is to run a handful of representative local keywords through Keywords Explorer and compare the results against what you actually see in local search behavior.
+
+I run an e-commerce site, is Ahrefs built for product pages and category SEO?
+
+Ahrefs works well for both category and product page SEO, though it plays different roles for each.
+
+For category pages, Keywords Explorer surfaces high-volume head terms, Content Gap shows keywords competitors rank for that you don’t, and Site Explorer lets you reverse-engineer rival category structures. For product pages, it helps you find long-tail, high-intent keywords and flags common e-commerce issues (duplicate content, thin descriptions, canonicalization errors, and faceted navigation problems) through Site Audit. It won’t write product descriptions or run A/B tests; Ahrefs is a data and analysis tool, so it tells you what to fix and where to focus, but the implementation stays with you.
+
+I focus on local SEO, does Ahrefs handle local well?
+
+Yes. Ahrefs gives you the core local SEO stack: rank tracking, local keyword research, link prospecting, and a Google Business Profile Monitor that’s expanding fast.
+
+Rank Tracker tracks positions down to city or ZIP level. Keywords Explorer surfaces local search demand the same way it does for any other query. Link Intersect finds local citations and links your competitors have that you don’t. The GBP Monitor pulls reviews and ratings from all your locations into one dashboard, and lets you reply inline or in batches. AI-assisted replies and review intelligence are on the roadmap. The one piece Ahrefs doesn’t handle is NAP syncing and bulk directory submission.
+
+Can Ahrefs support SEO at scale across many pages or multiple sites?
+
+Ahrefs supports SEO at scale across multiple sites and large page volumes on all paid plans.
+
+You can add multiple websites as separate projects and monitor rankings, backlinks, and site health for each. The Portfolios feature groups up to 1000 targets (domains, subdomains, or specific URLs) into a single aggregated view, which is useful for agencies managing several properties. Site Audit handles sites with millions of pages, and Batch Analysis checks up to 1,000 URLs at once. The API and MCP gives teams programmatic access to backlink, keyword, and ranking data.
+
+How does Ahrefs support a full content workflow, from ideation to tracking?
+
+Ahrefs covers the full content workflow (ideation, research, optimization, and tracking) inside one platform.
+
+Keywords Explorer surfaces keyword ideas with search volume, difficulty, and traffic potential; Content Explorer shows what’s already performing across the web so you can validate topics before committing. Content Gap compares your site against competitors to find missing topics. AI Content Helper helps structure and refine drafts based on what’s ranking. Once content is live, Rank Tracker monitors keyword positions over time so you can measure impact and decide what to update. Letaido connects the entire workflow: it validates niches, drafts briefs and full articles overnight, watches rankings for decay, and pushes refreshes directly into tools like WordPress without manual handoffs between steps.
+
+Pricing & plans
+
+Can I pay for Ahrefs annually, and is payment by invoice an option?
+
+Yes, annual billing is available on all plans: Lite, Standard, Advanced, and Enterprise. You pay upfront for 10 months and get 12, saving roughly 17% versus monthly. Invoice and wire transfer payment is only available on Enterprise. Lite, Standard, and Advanced require a credit or debit card: Visa, Mastercard, Amex, or UnionPay.
+
+What does ’fair use’ mean in Ahrefs plans?
+
+“Fair use” on Ahrefs’ Standard, Advanced, and Enterprise plans means there’s no hard credit cap for normal SEO activity, but Ahrefs can throttle or restrict accounts that show automated, abusive, or disproportionately heavy usage.
+
+In practice, fair use covers everyday work (running reports, applying filters, exploring data) without counting credits. It doesn’t cover mass scraping, automation, API abuse, or sharing accounts beyond the intended user count. Starter and Lite plans work differently: specific actions like opening reports and applying filters consume credits from a fixed monthly quota. So fair use is essentially a soft limit that replaces the hard credit system on higher-tier plans.
+
+Can I buy additional API units on non-Enterprise Ahrefs plans?
+
+No. On Lite, Standard, and Advanced plans, API units are fixed per billing cycle. Once you hit your limit, the API stops working until the next cycle. No add-on packages or pay-as-you-go options exist on these tiers. To get more API capacity, upgrade to a higher plan (each plan tier comes with a larger API quota) or move to Enterprise, which supports add-ons, overage billing, and uncapped API access.
+
+Trial & free access
+
+What can I use in Ahrefs for free?
+
+Ahrefs offers two free tiers: the Ahrefs free account (Ahrefs Free) for your own verified sites, and a set of standalone tools anyone can use without an account.
+
+Ahrefs Free requires verifying site ownership, then gives you ongoing access to Site Explorer (backlink profile, organic keywords, estimated traffic, capped row limits per report) and Site Audit (crawls for 170+ technical SEO issues with a monthly crawl-credit budget), plus Web Analytics, AI Content Helper, Social Media Manager, and the Ahrefs Toolbar. The standalone tools need no account at all and include a Keyword Generator (top 100 ideas), Backlink Checker (top 20 backlinks for any domain), Keyword Difficulty Checker, SERP Checker, and Website Authority Checker, among others. There’s also a free browser toolbar showing Domain Rating, URL Rating, and basic SERP metrics. All free tools are intentionally limited compared to paid plans. Brand Radar is also sold standalone from $50/month, with custom prompt functionality and no Ahrefs subscription required, so it works alongside an Ahrefs Free account.
+
+Credits & usage limits
+
+Will I burn through Ahrefs credits doing normal day-to-day research?
+
+Most users don’t burn through their Ahrefs credits on routine research. Ahrefs reports that only about 20% of users ever need extra.
+
+Credits are consumed when you open a report, apply a filter, change a date range, or open a SERP view, so heavy exploratory work does add up. On the Lite plan, batching related searches and avoiding redundant queries helps. A few actions are free regardless of plan: reopening the same report within 30 minutes, paginating through results, and sorting columns don’t cost credits. If you stay deliberate rather than exploratory, most everyday SEO work fits comfortably within the standard allowance.
+
+How do Ahrefs credits work, and what actions consume them?
+
+Ahrefs credits are a usage-based currency spent when you load or request new data in core research tools. They apply only to the Starter and Lite plans; Standard, Advanced, and Enterprise use the fair-use model instead.
+
+Each report you open costs 1 credit, and certain follow-up actions cost 1 more each: applying filters and clicking “Show results,” changing date ranges, opening the SERP viewer or Position History graph, switching modes, or adding competitors to a chart. Tools covered include Site Explorer, Keywords Explorer, Content Explorer, Web Explorer, Competitive Analysis, Batch Analysis, Data Studio for Site Explorer, and Page Inspect. Site Audit and Rank Tracker don’t use credits; they have separate limits. Reopening the same report with identical filters within 30 minutes, paginating, and sorting tables are all free. Credits reset each billing cycle and don’t roll over.
+
+Seats, teams & clients
+
+How do Ahrefs seats work for staff, clients, and contractors?
+
+Everyone who needs their own Ahrefs login requires a dedicated seat, and sharing a single login is against Ahrefs’ terms and can trigger account restrictions.
+
+Every plan starts with one included seat, and additional seats can be purchased for staff who actively use tools like Site Explorer or Keywords Explorer. Clients and contractors who only need to view reports in Rank Tracker or Site Audit can often be covered by view-only access at lower or no extra cost. Roles (Owner, Admin, and Member) control permissions, but all users share the same workspace data, including projects, keyword lists, and credits.
+
+How granular is the permission model in Ahrefs?
+
+Ahrefs offers a two-layer permission model combining four workspace-level roles with per-project sharing controls.
+
+The workspace roles (Owner, Admin, Member, and Guest) determine how much of the account each user can reach. On top of that, individual projects and folders can be set to private, shared with all workspace members, or shared with specific people, with Editor or Object Owner rights assigned at that level. There are no custom roles and no per-tool restrictions, so you can’t limit someone to Site Explorer but not Keywords Explorer, for example. The Guest role, which restricts users to only the projects explicitly shared with them, is available on Enterprise plans only.
+
+How do I onboard a new client efficiently in Ahrefs, and offboard cleanly when an engagement ends?
+
+Create a Project on the client’s domain, connect Google Search Console, schedule weekly Site Audit crawls, tag target keywords by theme, add competitors in Rank Tracker for Share of Voice, enable Backlink Alerts, and set up a recurring Report Builder schedule to deliver the client’s branded snapshot on a fixed cadence. That’s the core onboarding sequence in Ahrefs.
+
+Add the client as a Member in Workspace Settings with the minimum role required; only the Owner controls billing, while Admins handle user management. Letaido compresses setup into a single run, producing a baseline audit, competitor snapshot, and onboarding report delivered to Notion or Google Docs. When the engagement ends, export all reports first (Letaido packages a final handover doc), then remove the client’s account, since Ahrefs has no suspend state and removal is immediate and permanent. Delete or archive the project to free up your project slot.
+
+Can I upgrade, downgrade, or add seats to my Ahrefs plan mid-cycle?
+
+Yes, you can adjust your plan mid-cycle. Upgrades take effect immediately and you’re charged a prorated amount for the remaining days in your billing period. Your renewal date stays the same. Downgrades are queued and take effect at the end of your current billing period. You can add extra user seats at any time on most plans. Make all changes in Account Settings → Billing.
+
+Billing & cancellation
+
+What happens to my Ahrefs projects and data when I cancel or downgrade?
+
+Your paid features stay active until the end of your billing cycle, then your account drops to Ahrefs Free.
+
+Once the billing period closes, projects that exceed the free plan’s limits or aren’t verified against a site you own become frozen: Rank Tracker stops tracking, Site Audit stops crawling, and Alerts stop firing. You can still view frozen project settings or delete them, but you can’t run new reports on them. Verified projects on your own sites retain limited access under the free tier. Export rank histories, keyword lists, backlink data, and Site Audit results before you cancel or downgrade, since full export access is tied to your paid plan.
+
+Can I delete my Ahrefs account and all my data permanently?
+
+Yes, you can permanently delete your account and all associated data. It’s not self-serve though. Contact support at support@ahrefs.com from your registered address or via live chat inside the dashboard. Any outstanding balance must be settled first. Note that canceling your subscription only moves you to a free tier. Your data stays until you explicitly request deletion. Export anything you need before confirming.
+
+Data accuracy & methodology
+
+How accurate is Ahrefs’ data?
+
+Ahrefs data is directionally reliable for competitive research but is best treated as estimates, not exact measurements.
+
+Backlink data is Ahrefs’ strongest area: AhrefsBot is one of the most active crawlers on the web, and the link index holds up well for link building and competitor analysis. Keyword search volume is useful for comparing and prioritizing terms but loses precision on long-tail queries, where clickstream sampling introduces more error. Organic traffic estimates show the biggest gaps from reality. Studies suggest roughly 20–50% variance from actual Search Console data depending on the site. Most practitioners pair Ahrefs with Google Search Console rather than relying on either alone.
+
+Where does Ahrefs get its data from?
+
+Ahrefs builds its data from two pillars: its own crawlers (AhrefsBot and AhrefsSiteAudit), running 24/7 since 2013, and a blend of third-party data sources for keywords— including Google Keyword Planner, Google Trends, Google Search Console, and other partners. Crucially, the backlink index is 100% Ahrefs-owned—no Google, no Bing, no Alexa. Third-party keyword data is collected with consent, then anonymized and aggregated.
+
+How often is Ahrefs’ data updated?
+
+Ahrefs updates its data on different schedules depending on the data type.
+
+The backlink index refreshes most often: new and lost links feed into a live index updated every 15 to 30 minutes, but that’s index processing speed, not crawl speed. AhrefsBot still has to discover and crawl a specific page, which can take days or weeks depending on the site’s authority and traffic. High-authority sites get crawled far more often than low-traffic ones. Rank Tracker updates keyword rankings weekly by default. Keyword data in other reports varies by search volume, with high-volume terms refreshing more frequently than long-tail ones.
+
+How big is Ahrefs’ backlink index?
+
+Ahrefs’ backlink index contains around 35 trillion external backlinks, plus roughly 28-29 trillion internal backlinks, for a total of approximately 43 trillion links across the web.
+
+The external backlink count has grown significantly over the past few years. Beyond raw link counts, Ahrefs indexes hundreds of billions of pages and tracks data across roughly 500 million domains. The index updates continuously, with new data added every 15 to 30 minutes, so the numbers you see in Site Explorer reflect fairly current link profiles rather than a periodic snapshot. AhrefsBot is one of the most active crawlers on the open web.
+
+AI visibility & Brand Radar
+
+Does Ahrefs track how my brand appears in AI tools like ChatGPT?
+
+Ahrefs tracks brand visibility in AI tools through Brand Radar, which monitors mentions across ChatGPT, Gemini, Perplexity, Copilot, Grok, Claude, and Google AI Overviews.
+
+Brand Radar works by running large sets of prompts (questions people commonly ask AI tools) and recording whether your brand appears in the responses. It reports metrics like AI share of voice, mention frequency, sentiment, and competitor comparisons. You can also add custom prompts to track how AI tools respond to specific questions about your brand. This is a sampling-based approach, not real-time monitoring; Ahrefs can’t access private conversations or OpenAI’s internal data, so the results reflect a structured sample, not every mention your brand receives.
+
+How does Ahrefs help me monitor and compare my AI visibility against competitors?
+
+Ahrefs Brand Radar tracks how often your brand is mentioned or cited in AI-generated responses and compares that directly against competitors in one dashboard. It’s backed by the largest search-backed AI visibility database (400M+ search-backed prompts from Ahrefs’ keyword database), so the prompts you’re measured against reflect real demand, not synthetic guesses.
+
+Brand Radar monitors responses from ChatGPT, Perplexity, Gemini, Copilot, Grok, Claude, and Google AI Overviews, and it separates simple text mentions from clickable citations. An AI Share of Voice metric shows your percentage of AI responses relative to rivals you add to the tracker. You can monitor specific conversational prompts, not just keywords, so you can see which questions surface your brand versus a competitor’s. Trend graphs track gains and losses over time, making it easier to spot content gaps. Letaido, an AI marketing platform, can help you create custom AI visibility reports, dashboards, custom metrics and even suggest custom prompts from your data (e.g. your CRM and customer support tools).
+
+Can Ahrefs track AI search differently from traditional search, and what should I do instead?
+
+Ahrefs doesn’t track AI search the way it tracks traditional Google rankings, and that’s by design.
+
+AI assistants like ChatGPT, Perplexity, and Gemini generate probabilistic, personalized answers with no fixed positions, hidden prompt volumes, and outputs that shift from session to session, so rank tracking doesn’t translate. Instead, Ahrefs shifts the measurement model: Brand Radar tracks how often your brand is mentioned or cited across AI-generated answers, and Rank Tracker lets you filter for keywords that trigger AI Overviews and whether your domain appears in them. The practical shift is to stop chasing keyword-level positions in AI and start measuring topic-level visibility and share of voice across a broad sample of prompts.
+
+How do I track my ChatGPT visibility and AI traffic with Ahrefs?
+
+Ahrefs tracks your ChatGPT visibility and AI traffic through Brand Radar, which runs the largest search-backed AI visibility database in the industry (400M+ search-backed prompts derived from Ahrefs’ keyword database, modeled on real People-Also-Ask demand).
+
+Brand Radar surfaces four core metrics: Mentions (how often your brand appears in AI responses), Citations (how often your domain is linked as a source), Impressions (mentions weighted by search demand of the prompt), and AI Share of Voice (your visibility relative to competitors). You can set up Custom Prompt Tracking to monitor how ChatGPT answers specific questions about your brand over time, add competitors to benchmark topic dominance, and use sentiment analysis to see whether AI responses reference your brand positively, neutrally, or negatively.
+
+How does Ahrefs choose which prompts/queries to use for AI visibility tracking?
+
+Ahrefs builds its AI visibility tracking from two sources: a pre-built library of search-backed prompts and your own Custom Prompts.
+
+The pre-built library pulls real queries from Ahrefs’ search index and converts them into conversational, AI-style questions covering high-volume, high-intent topics. Ahrefs automatically matches these to your site based on your content and competitive landscape, so you don’t need to supply anything to get started. Custom Prompts let you define exactly which questions to monitor (brand comparisons, product-specific queries, niche buyer questions), giving you granular control over what the pre-built set might not cover. The two layers work together to balance broad coverage with precise tracking.
+
+Can I monitor my YouTube video mentions in AI tools with Ahrefs?
+
+Ahrefs Brand Radar tracks YouTube as one of its Emerging Channels (beta, free on Lite or higher plans). It scans video titles, descriptions, and transcripts to surface both tagged and untagged brand mentions—and because Brand Radar also tracks AI platforms (ChatGPT, Perplexity, Gemini, Copilot, Grok, Claude, AI Overviews and AI Mode), you can see which of your YouTube videos are getting cited in AI answers.
+
+What is Ahrefs MCP and how do I use it with AI tools?
+
+Ahrefs MCP is a hosted protocol server that lets AI tools like Claude, ChatGPT, and Lovable pull live Ahrefs data directly into a conversation without manual exports.
+
+It works by connecting your AI tool to Ahrefs’ remote MCP server using a server URL and a scoped API key generated through your Ahrefs account. Once connected, you can ask plain-language questions (like “compare backlink profiles for my site and a competitor”) and the AI fetches real keyword, backlink, and competitor data from Ahrefs in the background. MCP is available on Lite plans and higher, and each data request the AI makes draws from your plan’s API unit allowance.
+
+What AI-generated content tools does Ahrefs offer, and how should I use them?
+
+Ahrefs offers two AI content surfaces — AI Content Helper and a set of free standalone writing utilities — plus Letaido, an AI marketing platform that writes and ships content end-to-end.
+
+AI Content Helper sits inside Ahrefs and helps you write and optimize. It analyzes top-ranking pages for your target keyword, scores your draft on topical coverage, identifies gaps, and includes an AI chat for refining sections. It’s designed for hands-on writers who want guidance, not finished output. Letaido goes further: it’s an AI marketing platform with full access to Ahrefs data that drafts briefs, SEO audits, landing pages, and full articles, then delivers them to Google Docs, Notion, HubSpot, or WordPress. The free standalone utilities (paraphrasing, grammar checking, conclusion generation) handle smaller tactical tasks outside either of those surfaces.
+
+Other
+
+Can I monitor my Reddit brand mentions with Ahrefs?
+
+Yes—Ahrefs Brand Radar tracks Reddit visibility as part of its Emerging Channels (currently in beta and free on Lite or higher plans). It surfaces your brand’s presence within Reddit threads that appear in search results, so you can see which discussions are shaping how your brand is perceived and discovered.
+
+Keep in mind, Brand Radar isn’t a real-time Reddit listening tool—you won’t get pinged the moment someone posts about you. What you get is a structured view of which Reddit threads are surfacing for your brand alongside your AI, SEO, YouTube, and TikTok visibility, so you can spot patterns and find threads worth engaging with. That said, you can use Letaido to keep an RSS feed of selected Reddit threads and look for brand mentions, as well as automatically analyze the context, sentiment and suggest next moves.
+
+Can I monitor my TikTok brand mentions with Ahrefs?
+
+Yes—Ahrefs Brand Radar tracks TikTok visibility as part of its Emerging Channels (currently in beta and free on Lite or higher plans). It maps your brand’s presence in short-form video so you can see where you’re showing up on the platform.
+
+Keep in mind, it isn’t a real-time social listening tool, so you won’t get instant alerts for every TikTok mention. Instead, you get a cross-platform view of your brand’s TikTok footprint sitting next to your AI, SEO, YouTube, and Reddit visibility—useful for spotting where your brand sits in short-form content and how that compares to other discovery surfaces.
+
+Integrations & workflow
+
+Does Ahrefs have an API, and can I pipe data into Looker Studio, Tableau, or other BI tools?
+
+Ahrefs has an API and official Data Studio connectors, though access depends on your plan tier.
+
+The Data Studio connectors cover Site Explorer, Rank Tracker, Site Audit, and Brand Radar and are available on Advanced plans and higher, with no extra setup required. Tableau and Power BI have no native connector, so you’d pull data through the API into a database or flat files first, or route it through a third-party tool like Supermetrics or Funnel.io. Direct API access for programmatic use is included from the Lite plan up, with a larger API quota on each higher tier, and it draws on a separate API allowance rather than your general Ahrefs credits.
+
+Reporting & white-label
+
+Can I schedule automated client reports in Ahrefs?
+
+Yes, you can schedule automated client reports in Ahrefs using Report Builder, with delivery as a PDF via email on hourly, daily, weekly, or quarterly schedules.
+
+Report Builder lets you send to up to 50 recipients, and clients don’t need an Ahrefs account to receive the emails. The number of automated reports you can run depends on your plan: Lite supports fewer than Advanced. For rank-tracking-only updates, Rank Tracker offers a simpler email notification on weekly or monthly schedules. If you need reports that pull in data from HubSpot, Google Analytics, or Fathom alongside Ahrefs, delivered into Notion, Google Docs, or Slack in a custom branded format, Letaido builds and refreshes those on a set cadence. Data Studio remains a practical option for combining Ahrefs data with other sources in a shared dashboard.
+
+Can I export Ahrefs data in client-ready formats like PDF?
+
+Yes, Ahrefs supports PDF exports. Report Builder lets you create custom dashboards combining rankings, backlinks, and traffic widgets, then export them as PDFs or schedule automatic email delivery to clients. Site Audit overview reports export as PDFs via the built-in Print option. Note though that most raw data exports (keyword lists, backlink data) come as CSV files, not PDFs.
+
+Can I collaborate on and share Ahrefs outputs with my team or clients?
+
+Ahrefs lets you collaborate through shared workspaces and share outputs with clients via exports, scheduled reports, or live Data Studio dashboards.
+
+Workspaces let you invite team members as Owner, Admin, or Member, so everyone works from the same projects, keyword lists, and reports under individual logins. For clients who don’t need tool access, you can export CSVs or PDFs on demand, or use Report Builder to send scheduled PDF reports by email with no client account required. If clients need always-current data, Ahrefs supports Data Studio integrations for shareable live views. One firm caveat: sharing a single login across multiple people violates Ahrefs’ terms of service, so use the official seat and workspace system instead.
+
+Ahrefs vs. competitors
+
+How is Ahrefs different from Semrush, Moz, and similar tools?
+
+Ahrefs, Semrush, and Moz all cover rank tracking, backlink analysis, and keyword research, but each tool has a different center of gravity.
+
+Ahrefs specializes in backlink intelligence and keyword research, powered by its own web crawler, AhrefsBot, making it the strongest choice for link building, competitive analysis, and content gap work. Semrush extends well beyond SEO into PPC research, social media, and content workflows, which suits agencies managing multiple channels. Moz offers solid core SEO features with a gentler learning curve and generally lower pricing. If you want depth in search data, Ahrefs; if you want breadth across marketing channels, Semrush; if you want simplicity, Moz.
+
+Learning & support
+
+Do I need technical skills to use Ahrefs?
+
+You don’t need technical skills to use Ahrefs.
+
+Most core features (keyword research, competitor analysis, backlink checking, and rank tracking) are point-and-click dashboards anyone can navigate. The real learning curve is understanding SEO concepts like search intent, keyword difficulty, and what backlinks mean, not operating the tool itself. Site Audit is the one area that gets more technical, since it surfaces crawl errors that may require hands-on fixes. If the interface ever feels dense, Letaido lets you describe what you want in plain language, “audit this client and send the report to Notion,” and runs the underlying Ahrefs tools for you. Free beginner courses and tutorials are also available if you want to build SEO knowledge alongside tool fluency.
+
+How steep is the learning curve, and where can I learn Ahrefs?
+
+Ahrefs has a moderate learning curve. Core features click within a few weeks, but advanced workflows take a few months of consistent use.
+
+The bigger challenge isn’t the interface; it’s the underlying SEO concepts like keyword difficulty, backlink analysis, and competitor strategy. Ahrefs Academy is the best starting point: it’s free, structured, and runs from beginner basics to deeper tool walkthroughs. The Ahrefs blog and YouTube channel add strategy-level context beyond button-clicking. If you need to ship work before you’ve climbed the curve, Letaido runs workflows (audits, briefs, competitor analyses, reports) on day one. It’s trained to use Ahrefs’ tools directly, so you can learn the concepts in parallel.
+
+What does onboarding look like, and how does Ahrefs support team adoption?
+
+Ahrefs onboards teams through an in-product setup flow, self-paced courses, and (for enterprise plans) dedicated account manager support.
+
+The setup flow walks users through creating a project, verifying their site, adding keywords and competitors, and connecting Google Search Console. Ahrefs Academy then handles deeper training, with a full “How to Use Ahrefs” course and role-specific modules for content teams, link builders, and technical SEOs. Enterprise and larger accounts get more structured onboarding: account managers assist with setup, role-based training, and SSO configuration. Ongoing support across all plans includes 24/7 multilingual chat, monthly webinars, and a help center.
+
+Enterprise & security
+
+Does Ahrefs offer SSO / SAML?
+
+Yes, Ahrefs supports SAML 2.0 single sign-on, but only on the Enterprise plan. Lite, Standard, and Advanced don’t include it.
+
+Ahrefs works with any SAML 2.0-compliant Identity Provider, so you can wire it up to Okta, Microsoft Entra ID, Google Workspace, or anything else that speaks the standard. Setup lives in Account Settings under SAML single sign-on, and Ahrefs’ support team can walk you through it. Admins can enforce SAML as the sole login method by switching Authentication method to Only SAML SSO. Note: workspace owners and admins always retain email and password access as a fail-safe in case the IdP fails. SCIM provisioning is available via Ahrefs support. Just-in-Time provisioning is on the roadmap but not yet live.
+
+What security and compliance documentation does Ahrefs provide, SOC 2, GDPR, DPA?
+
+Ahrefs publishes a Data Processing Addendum, a Security Measures page, and an annual penetration test summary. SOC 2 certification is in progress but not yet complete.
+
+The DPA at ahrefs.com/legal/data-processing-addendum covers controller and processor roles and includes pre-signed EU Standard Contractual Clauses (Module 2 for controller to processor, Module 3 for processor to processor) plus a Data Transfer Agreement for non-EEA transfers. It’s governed by Singapore law. The Security Measures page documents encryption at rest (AWS RDS) and in transit (TLS), access controls, defense-in-depth practices, and incident response. Ahrefs runs annual third-party penetration tests and publishes the latest summary at /legal/2024-Security-Assessment-Summary.pdf. SOC 2 certification is on the roadmap but Ahrefs is not yet certified, so no SOC 2 report exists to share.
+
+Have other questions?
+If you have more questions, contact us so we can help.
+CORE TOOLS
+Brand Radar
+Dashboard
+Site Explorer
+Keywords Explorer
+Site Audit
+Rank Tracker
+GSC Insights
+Content Explorer
+Web Analytics
+Bot Analytics
+GBP Monitor
+Social Media Manager
+AI Content Helper
+Report Builder
+USE CASES →
+Competitive Intelligence
+PPC
+SEO
+AEO
+Content Marketing
+Brand Marketing
+Investing
+EXTRA TOOLS & FEATURES
+Domain Comparison
+Batch Analysis
+Link Intersect
+Content Gap
+Email Alerts
+SEO Checker
+Traffic Checker
+Data Studio Connectors
+Top Websites
+Patches
+Portfolios
+IndexNow
+AI Tech SEO
+All tools
+OTHER PRODUCTS
+Letaido ↗
+Firehose ↗
+Yep ↗
+FREE SEO TOOLS →
+Ahrefs Free
+AI Mode Tracker
+AI Overviews Tracker
+AI Visibility Checker
+AI Writing Tools
+Backlink Checker
+Broken Link Checker
+Website Authority Checker
+Keyword Generator
+SERP Checker
+SEO Toolbar
+Keyword Rank Checker
+Keyword Difficulty Checker
+Website Checker
+SEO Audit Tool
+Sitemap Generator
+Website Change Monitor
+Word Count
+ALTERNATIVES →
+Ahrefs vs Semrush
+PRODUCT
+Pricing
+Our data
+AhrefsBot
+API
+Ask Ahrefs
+SEO MCP
+Enterprise
+What’s new?
+COMPANY
+About
+Testimonials
+Events
+Team
+Careers
+Tech
+Media kit
+FAQ
+Contact us
+RESOURCES
+Blog
+Tech blog
+Podcast
+Webinars
+SEO Guide
+AEO Guide
+Help center
+Academy
+Marketing Agencies
+Digest
+Discoverable
+
+© 2026 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581
+
+Legal info
+Privacy Policy
+Cookie Settings
+Terms of Service
+English

@@ -1,0 +1,351 @@
+SOURCE: https://www.squarespace.com/email-marketing
+FETCHED: 2026-09-26T22:43:52.967Z
+RENDERER: headless Chromium, en-US, US timezone (same browser settings as scripts/snapshot.mjs); billing radio "monthly" selected, then the "Emails per month" range slider on the pricing card stepped from its first to its last position with the keyboard (Home, then ArrowRight x9). For each step: the slider value, its aria-valuetext, the visible "Send up to ..." line, the visible price, and which billing radio (#annually / #monthly) is checked.
+----
+step 0: slider value=0 aria-valuetext="500" | Send up to 500 emails each month | price shown: $12/mo | #annually checked=false #monthly checked=true
+step 1: slider value=1 aria-valuetext="5,000" | Send up to 5,000 emails each month | price shown: $20/mo | #annually checked=false #monthly checked=true
+step 2: slider value=2 aria-valuetext="10,000" | Send up to 10,000 emails each month | price shown: $28/mo | #annually checked=false #monthly checked=true
+step 3: slider value=3 aria-valuetext="25,000" | Send up to 25,000 emails each month | price shown: $40/mo | #annually checked=false #monthly checked=true
+step 4: slider value=4 aria-valuetext="50,000" | Send up to 50,000 emails each month | price shown: $48/mo | #annually checked=false #monthly checked=true
+step 5: slider value=5 aria-valuetext="100,000" | Send up to 100,000 emails each month | price shown: $60/mo | #annually checked=false #monthly checked=true
+step 6: slider value=6 aria-valuetext="150,000" | Send up to 150,000 emails each month | price shown: $73/mo | #annually checked=false #monthly checked=true
+step 7: slider value=7 aria-valuetext="250,000" | Send up to 250,000 emails each month | price shown: $96/mo | #annually checked=false #monthly checked=true
+step 8: slider value=8 aria-valuetext="350,000" | Send up to 350,000 emails each month | price shown: $127/mo | #annually checked=false #monthly checked=true
+step 9: slider value=9 aria-valuetext="500,000" | Send up to 500,000 emails each month | price shown: $169/mo | #annually checked=false #monthly checked=true
+
+== Full page text at the last slider step ==
+SKIP TO MAIN CONTENT
+→
+PRODUCTS
+SOLUTIONS
+RESOURCES
+LOG IN
+TRY CAMPAIGNS
+→
+
+Email Campaigns
+
+Effortless email marketing to grow your business
+TRY CAMPAIGNS
+→
+
+No website or credit card required
+
+EMAIL CAMPAIGNS
+TRY CAMPAIGNS
+Campaigns
+Contacts
+Automations
+Pricing
+Beautiful, on-brand emails that get results
+
+Create eye-catching, high-impact emails in minutes. Easily pull in your website’s designs and products into an email template and hit send.
+
+Easy, intuitive editing
+
+Start with a predesigned layout and customize your email in seconds—no coding needed.
+
+AI email copy
+
+Generate engaging email copy that’s true to you and your brand. Describe your goal and target audience, then get ready to send.
+
+Real-time analytics
+
+Get actionable insights to help improve your marketing strategy with real-time analytics like open rates and conversions.
+
+On-brand designs
+
+Create compelling emails using your website's existing design elements for consistent branding that's recognizable in any inbox.
+
+Grow your list and turn emails into engagement
+
+Build out your contact lists, nurture relationships, and drive sales—all in one place.
+
+Contact list management
+
+Collect contact information, filter contacts based on activity, and build lists for targeted campaigns.
+
+Smart segmentation
+
+Automatically identify key audience groups and access tailored campaign flows for each segment to save time and boost engagement.
+
+Custom email capture
+
+Build your contact list with email signups. Add a newsletter block or opt-in form to your site, or use a custom signup page to grow and engage your audience.
+
+Ecommerce tools
+
+Promote your store products, newsletter, or paid content. Display product information directly in emails or add a discount code to turn subscribers into customers.
+
+Save time and streamline with automations
+
+Easily build personal relationships with your audience no matter the size. Powerful automation tools help you work smarter, not harder, to grow your business.
+
+Visual automation builder
+
+Use our intuitive automation builder to map out your subscriber’s email journey. Start with a pre-built template or create your own custom automation.
+
+Personalized communication
+
+Include your subscribers’ name in the subject line or body of your email to add a personal touch to every campaign you send.
+
+Pre-built automations
+
+Use premade automated emails to welcome new subscribers, send them a discount to increase sales, win back abandoned carts, and more.
+
+All-in-one platform
+
+Leverage our single platform to promote your brand and engage subscribers across website, online store, and email.
+
+Email marketing that grows with you
+
+Unlimited contacts included in every plan. Only pay for what you need. Upgrade and downgrade at any time.
+
+Pay annually (save up to 30%)
+
+Pay monthly
+
+From
+
+$169/mo
+
+Send up to 500,000 emails each month
+
+500
+
+500K
+
+TRY CAMPAIGNS
+→
+
+Also includes
+
+Unlimited contacts
+
+Premium email templates
+
+Smart segmentation
+
+Email personalization
+
+Marketing automations
+
+Real-time analytics
+
+Ecommerce tools
+
+AI email copy
+
+Email Campaigns features included with a website subscription:
+
+Designer templates
+
+Ability to auto-apply website branding and styles
+
+Unlimited contacts
+
+Ability to import contacts
+
+Blast email sends
+
+Access to robust email automations suite
+
+Mailing list signup trigger automation
+
+Contacts sign up landing page
+
+AI email copy and personalization options
+
+Analytics on email marketing performance
+
+Smart segmentation of your contacts list
+
+Ability to directly pull blog content in your emails
+
+Ability to easily add customized discount codes
+
+Add product details directly from your online store into emails
+
+Email Campaigns features included without a website subscription:
+
+Designer templates
+
+Unlimited contacts
+
+Ability to import contacts
+
+Blast email sends
+
+Mailing list signup trigger automation
+
+Access to robust email automations suite
+
+Contacts sign up landing page
+
+AI email copy and personalization options
+
+Analytics on email marketing performance
+
+Start with a best-in-class, customizable email template
+TRY CAMPAIGNS
+→
+
+Collect donations
+
+Say thanks
+
+Drive sales
+
+Welcome subscribers
+
+Share content
+
+Promote products
+
+Send discounts
+
+Collect donations
+
+Say thanks
+
+Drive sales
+
+Welcome subscribers
+
+Share content
+
+Promote products
+
+Send discounts
+
+Emails campaigns that service your entire business
+
+INVOICING
+
+Get paid for your services
+
+→
+
+ONLINE STORES
+
+Send discount codes to increase sales
+
+→
+
+SERVICES
+
+Promote and sell your offerings
+
+→
+
+Frequently asked questions
+What is Squarespace Email Campaigns?
+How much does Squarespace Email Campaigns cost?
+I’m already using an email marketing service. How do I switch?
+How do I create an email campaign on Squarespace?
+What is email marketing?
+How do I start an email list for my business?
+Do I need a Squarespace website to use Squarespace Email Campaigns?
+How do I use Squarespace Domains with Squarespace Email Campaigns?
+24/7 Support
+
+Help Center
+
+Get help from our award-winning Customer Support team.
+
+→
+
+Webinars
+
+Free online sessions to learn the basics and refine your skills.
+
+→
+
+Start your free website trial today
+
+No credit card required. Cancel anytime.
+
+TRY CAMPAIGNS
+→
+
+A website makes it real
+
+We are an ICANN accredited registrar.
+
+Products
+Website Templates
+Websites
+Domains
+AI Website Builder
+Design Intelligence
+Online Stores
+Services
+Invoicing
+Scheduling
+Content & Memberships
+Donations
+Payments
+Marketing Tools
+Professional Email
+Feature List
+Product Updates
+Pricing
+Solutions
+Creative Services
+Professional Services
+Education & Training
+Beauty
+Sports & Fitness
+Health & Wellness
+Home Services
+Events & Experiences
+Charities & Nonprofits
+Personal
+Resources
+Customer Examples
+Squarespace Collection
+Extensions
+Squarespace Blog
+Free Tools
+Business Name Generator
+Logo Maker
+From Squarespace
+Acuity Scheduling
+Bio Sites
+Unfold
+Email Campaigns
+Squarespace for Pros
+Programs
+Circle
+Affiliates
+Students
+Support
+Help Center
+Forum
+Webinars
+Hire an Expert
+Developer Blog
+Developer Platform
+System Status
+Company
+About
+Careers
+Our Brand
+Accessibility
+Newsroom
+Press & Media
+Contact Us
+Follow
+Instagram
+YouTube
+LinkedIn
+Facebook
+X
+English
+Terms
+Privacy
+Your Privacy Choices
+Specific Privacy Notice
+Security Measures
+Sitemap
+© 2003–2026 Squarespace, Inc.

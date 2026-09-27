@@ -1,0 +1,197 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/205812318-Register-a-domain-for-an-existing-site
+FETCHED: 2026-09-26T22:48:30.028Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+DOMAINS
+REGISTERING SQUARESPACE DOMAINS
+Register a domain for an existing site
+Steps to buy a domain when you already have a trial or active Squarespace website.
+
+Last updated August 12, 2026
+
+English
+
+You can register one or multiple domain names on all trial sites and most paid Squarespace plans at any time.
+
+Accessing this feature
+
+You can’t register a domain on a Mobile Start plan.
+
+Also try: If you don’t want to start a site, register a domain only. If you already own a domain through another provider, transfer it to Squarespace.
+
+Video on how to register a Squarespace domain
+
+This two-minute video walks through the steps you need to take to register a domain when you already have an active Squarespace account.
+
+Pricing information
+
+Pricing varies by top-level domain (TLD), premium status, and any applicable one-time premium fees. To find a domain's price, you can search for it on the domain name search page.
+
+Your domain’s price includes domain hosting, but doesn't include web hosting.
+
+Taxes
+
+Domains may be subject to state and local sales taxes, which appear at checkout. To learn more, visit our guides on taxes in the United States, United Kingdom, European Union, Canada, or Australia.
+
+Am I eligible for a free domain?
+
+If you're within the first year of an annual Squarespace website billing plan, you may be eligible for one free custom domain for a year.
+
+Choose a domain name
+
+Before choosing a domain name, review our tips and rules, learn more about TLDs, or try our free Domain Name Generator. You can rename most domains within five days of registration. If you deleted the domain by mistake during this five-day period, wait 48 hours to re-register the domain.
+
+Note
+
+If you're registering a country code top-level domain (ccTLD), review all registration requirements first.
+
+Purchase a domain
+
+Once you’ve chosen a domain name, review the price and register it:
+
+Open your domains dashboard. If you're claiming the free domain offer, open the Domains panel of your eligible website instead.
+Click Get a domain.
+Search for the domain name(s) you want. A list of suggested domains displays with labels:
+Free - Choose these domains to register for free for one year if you're eligible.
+A specific price - Purchase these domains for the specified price. Discounts only apply for the first year. Review the renewal price in the Cart Overview panel before checking out.
+Premium - Domain names that have short, memorable second-level domains (SLDs) paired with popular TLDs. For example, help.net. Pricing varies, and these domains may have an initial fee.
+Unavailable - You can't purchase these domains. If the unavailable domain’s registrar is Squarespace Domains LLC or Squarespace Domains II LLC, you can fill out the Whois contact form and we'll send your request to purchase to the domain's registrant.
+Click the domain(s) you want. To add more domains, search again using a different term.
+Click Checkout.
+Select the registration term length for each domain.
+To add a Google Workspace or website plan, click Pick a plan. If you've already designed a trial site, upgrade it separately. If you purchase a website plan here, it doesn’t apply to your trial site but instead creates a new site with no trial period.
+Enter your required contact information in the Registration panel. Whois privacy is included with most Squarespace domains.
+
+Note
+
+If you enter an Organization, ICANN recognizes it as the legal domain owner, overriding any individual listed in the First Name and Last Name fields.
+
+Click Save and continue.
+Review any applicable fees. Click the trash can icon to remove domains you don't want.
+Click the link to review our Terms of Service.
+Optional: Apply an offer code on the Review Order page.
+Click Confirm and purchase.
+Verify your contact information via email (important)
+
+After purchasing a domain, wait for a verification link sent to your registration email from customercare@squarespace.com or no-reply@squarespace.com within 24 hours. Click the link in this email to validate your contact information for the domain.
+
+If you previously verified a Squarespace domain using this same email address, your new domain may verify automatically, so you won't get an email.
+
+Note
+
+You're required to click this link within 15 days of registration or we’ll suspend your domain.
+
+Domain verification when registering multiple Key-Systems domains
+
+If you register multiple Key-Systems domains with the same registrant email address, the verification email will only list the first domain registered. Clicking the verification link in that email will confirm the registrant information for all domains using that same email address.
+
+Other potential emails you may receive
+Strong Customer Authentication
+
+If your credit card was issued in the European Economic Area (EEA), your bank may require Strong Customer Authentication (SCA). Your domain will have a red “Verify your purchase note” label in your domains dashboard, and you'll receive an email from no-reply@squarespace.com with next steps. Your bank will cancel the purchase if you don’t verify within two hours.
+
+Account verification
+
+If our system notices a suspicious domain registration, you'll receive an email from customercare@squarespace.com. Follow the instructions in the message to complete your domain registration.
+
+Data sharing settings
+
+If your registrar is Tucows, you’ll receive another email from customercare@squarespace.com with the subject "Set your data sharing settings for your domain." We’re required to send this email to comply with data regulations like GDPR. Sharing your data is optional and you don't need to take any action.
+
+Receive your domain purchase confirmation and receipt
+
+After registering your Squarespace domain(s), you'll receive an email from no-reply@squarespace.com with the subject "Thank you for choosing Squarespace Domains." This summarizes your domain purchase and acts as your receipt.
+
+If you receive an email from no-reply@squarespace.com with the subject "We were unable to complete purchasing your domain(s)," review common registration issues and how to resolve them.
+
+Check your domain’s registration status
+
+In your domains dashboard, your domain will have a yellow “Registration In Progress” label while it’s pending. Squarespace periodically checks your domain status, but you can click the domain and then click the Refresh status button to check it manually.
+
+Most domains resolve within an hour, though it may take up to 48 hours. When the domain is fully resolved and connected, it will appear in your dashboard with a green label and the renewal date and price.
+
+Renewals and expirations
+
+All Squarespace domains are set to auto-renew at the end of their registration term. Learn more about turning off auto-renew and expired domains.
+
+Cancellations and refunds
+
+Review our documentation on canceling your Squarespace domain and our refund policies.
+
+IN THIS GUIDE
+Video on how to register a Squarespace domain
+Pricing information
+Taxes
+Am I eligible for a free domain?
+Choose a domain name
+Purchase a domain
+Verify your contact information via email (important)
+Other potential emails you may receive
+Receive your domain purchase confirmation and receipt
+Check your domain’s registration status
+Renewals and expirations
+Cancellations and refunds
+People also viewed
+
+Verifying your Squarespace-managed domain
+
+Free Squarespace domain offer
+
+Register a domain without a site
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

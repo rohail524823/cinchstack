@@ -1,0 +1,42 @@
+SOURCE: https://help.ahrefs.com/en/articles/3493211-how-does-2-months-free-discount-work-with-a-yearly-plan
+FETCHED: 2026-09-26T22:45:56.218Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Payments
+How does "2 months free" discount work with a yearly plan?
+How does "2 months free" discount work with a yearly plan?
+
+Find out what discount you get subscribing for our annual package
+
+Written by Anna
+Updated over 3 weeks ago
+
+Let's look at this query in the context of Standard plan.
+
+ 
+
+Monthly it costs $249. If you subscribe for a yearly plan, you pay $2490 which is the price for 10 months ($249 * 10), but you get 12 months of access to the toolset which is your 2 months free bonus and ~20% discount if compared to monthly billing.  
+
+Related Articles
+Do you offer any discounts or free trials?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Ahrefs AcademyBlogYouTubePricing

@@ -1,0 +1,404 @@
+SOURCE: https://ahrefs.com/brand-radar
+FETCHED: 2026-09-26T22:40:20.356Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+We value your privacy
+
+This website or its third-party tools process personal data. You can opt out of the sale of your personal information by clicking on the “Do Not Sell or Share My Personal Information” link.
+
+Do Not Sell or Share My Personal Information
+
+The only AI marketing platform built on Ahrefs’ proprietary web index.
+
+Get Started
+Ahrefs
+Product
+Our data
+Resources
+Pricing
+Enterprise
+Evolve
+Sign in
+Sign up
+Ahrefs
+Brand Radar
+
+Make AI recommend your brand
+
+Track and grow your brand’s visibility across AI answers, YouTube, and Reddit. Turn SEO into AEO and reach new audiences.
+
+Sign up for Brand Radar
+AI Visibility
+/
+Custom prompts
+/
+AI Responses
+/
+Cited pages
+/
+Search queries
+/
+YouTube visibility
+/
+Reddit visibility
+Watch video
+Track visibility two ways
+TRACK
+Custom Prompts
+
+Track the exact questions your buyers ask. Works even if no one searches your brand name yet. Free for every paid Ahrefs Lite plan and above.
+
+See how it works →
+Starts at $50/mo
+EXPLORE
+AI Visibility Index
+
+See any brand’s AI visibility instantly across 449M prompts. No setup. Best once your brand already appears in AI search.
+
+Explore AI Visibility Index →
+Starts at $199/mo
+1
+CUSTOM PROMPTS
+Track the prompts your buyers actually use
+Add the exact questions your buyers ask before they choose a brand.
+Use AI to generate relevant prompts from competitor comparisons, pricing data, and other signals Ahrefs collects.
+Discover the fanout queries AI generates behind the scenes when processing a prompt to find content gaps.
+Organize prompts into tags to track performance by topic, funnel stage, or campaign.
+Track prompts daily, weekly, monthly. Each prompt uses 1 check per platform, location and update.
+2
+AI VISIBILITY
+Find out what AI says about your brand
+
+The largest AI visibility database. Every prompt is modeled from real user searches in Ahrefs’ keyword database.
+
+449
+M+
+Total monthly prompts
+Index
+Prompts
+AI Overviews
+311,784,614
+Perplexity
+30,960,168
+Gemini
+30,912,191
+ChatGPT
+30,854,274
+Copilot
+30,481,304
+AI Mode
+14,448,221
+Track your brand mentions across AI answers and see how often you show up in the conversations that matter.
+Benchmark your brand against competitors in AI search and spot the big players.
+Find valuable AI citations and secure new mentions to boost your visibility in LLM answers.
+Preview your AI visibility for free
+Check AI Visibility
+
+For example, Ahrefs
+
+3
+AI ANALYTICS
+See which pages AI sends traffic and bots to
+AI traffic
+Find the pages AI search already sends traffic to, then create more of what’s working.
+
+Free · Install Web Analytics →
+
+Bot visits
+Watch AI crawlers in real time: when they read your pages and which ones they visit most.
+
+Free while in beta · Install Bot Analytics →
+
+4
+AI SOURCES
+Track the offsite sources that influence AI visibility
+Scour YouTube for thumbnails, video titles, descriptions, and transcripts.
+See what’s trending on TikTok.
+Search across Reddit results in Google including titles, descriptions, and subreddit snippets.
+Used by 3,000+ companies
+
+Before Brand Radar, I was testing scripts and manually extracting AI responses from ChatGPT, AI Overviews, all the main AI-search platforms. With Brand Radar, it’s now just a few clicks to identify what I need, and export everything directly.
+
+Read Case Study →
+
+Laura Lancu,
+
+SEO Growth Specialist,
+
+Octopus Energy
+
+Customer of Ahrefs?
+
+Free AI prompts are already included in your paid plan.
+
+Lite
+Standard
+Advanced
+Enterprise
+Checks /mo
+150
+300
+600
+From 2,500
+Platforms
+Update frequency
+Daily
+Daily
+Daily
+Daily
+AI prompts
+5
+10
+20
+From 83
+
+Each prompt is checked daily on every selected platform. 5 prompts on 1 platform = 150 checks/mo. Claude consumes 8 checks per update.
+
+Pricing
+
+Custom prompts
+
+Track how AI answers the prompts you define, refreshed daily. Great if your niche is too specific to show up in any database.
+
+Starts at
+$
+50/mo
+$699/MO FOR ALL MODELS
+
+AI Visibility Index
+
+Map your AI visibility across 449M real prompts people ask AI platforms. See who gets mentioned in your market.
+
+$
+199/mo
+83 prompts/day
++2,500 checks/month
+Overage $0.020/check billed monthly
+All platforms (Claude available)
+Custom refresh cadence
+
+AI Overviews & AI Mode
+
+ChatGPT
+
+Perplexity
+
+Microsoft Copilot
+
+Gemini
+
+Bonus
+
+YouTube, TikTok & Reddit (free while in beta) 
+Search demand 
+Web visibility 
+
+Bonus
+
+YouTube, TikTok & Reddit (free while in beta) 
+Search demand 
+Web visibility 
+Sign up for Brand Radar
+Start free with Custom Prompts
+Give Brand Radar superpowers
+
+Connect Letaido for custom views, deeper analysis, and automated work.
+
+Explore Letaido →
+See it in action →
+1/ Control Brand Radar in bulk by creating and tagging hundreds of prompts at once.
+2/ Automate summaries, alerts, and reports on your schedule.
+3/ Build your perfect dashboard with your brands, competitors, and KPIs in one view.
+4/ Create your own metrics to track what matters most to your business.
+5/ Explain performance changes and understand what’s driving the numbers.
+6/ Find answers faster by asking questions in plain English.
+USE CASES
+See what marketers built
+
+Real workflows shared on YouTube.
+
+More stories coming soon
+
+Start with Ahrefs-built skills
+AI Bot & Web Analytics →
+AI Brand Sentiment →
+AI Citation Freshness Audit →
+AI Mention Gap Analysis →
+Questions? We have answers
+
+How is AI visibility measured in Ahrefs Brand Radar?
+
+Brand Radar measures AI visibility by running 449M+ search-backed prompts through AI platforms (AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot) and storing every response. Your visibility is then calculated from how often your brand is mentioned or cited in those responses, with these key metrics:
+
+Mentions – how often your brand name appears in AI answer text
+
+Citations – how often AI links to your pages or domains as a source
+
+AI Share of Voice – the percentage of AI responses within your topic set that mention or cite your brand versus competitors
+
+Estimated Impressions – potential visibility weighted by the real search volume behind each prompt
+
+What’s the difference between the AI Visibility Index and Custom Prompts?
+
+The AI Visibility Index maps how brands appear across millions of pre-collected AI responses, instantly, with no setup. It’s ideal for benchmarking share of voice and discovering topics you didn’t know AI was answering. It works best for established brands or topics with meaningful search demand, since the index is built on Ahrefs’ keyword database and may have limited coverage for brands with little or no search volume.
+
+Custom Prompts are specific buyer questions answered by the AI platforms that matter to your pipeline, defined and set up by you, populated with data from the moment you start tracking. Brand Radar runs them on demand as often as daily. They are great if your brand is not well-known, or you have uncommon queries to track.
+
+How does Ahrefs Brand Radar collect AI visibility data?
+
+Brand Radar builds two distinct kinds of indexes:
+
+Prompt-based indexes (ChatGPT, Perplexity, Gemini, Copilot, AI Overviews, AI Mode). Ahrefs takes real queries from its keyword database, expands them into natural questions via People Also Ask and semantic fanout, then runs the resulting 449M+ prompts through each AI platform and stores the responses.
+
+Search-query-based indexes (AI Overviews and AI Mode only). Instead of asking AI a question, these track the keywords that trigger an AI answer inside Google Search, and whether your brand appears in it. They exist only for AI Overviews and AI Mode, because those are the only AI surfaces that show up in Google’s own results.
+
+Question sets are re-tested monthly on a 90-day reporting window. Because both index types derive from real search demand, not synthetic guesses, the visibility metrics reflect what people really ask.
+
+What kind of queries can I track in Ahrefs Brand Radar?
+
+Brand Radar tracks AI visibility across two query types, filterable by platform:
+
+Prompts – long-tail natural-language questions available for ChatGPT, AI Overviews, AI Mode, Gemini, Perplexity, Copilot, and Claude.
+
+Search queries – short queries that triggered an AI answer in Google (via AI Overview or AI Mode). Brand Radar tracks whether your brand appears in it. This type only covers AI Overviews and AI Mode, because they’re the only ones that show up inside Google Search.
+
+Can I backtrack my AI visibility data to my SEO strategy?
+
+Yes. Every prompt in the Index maps back to real search demand, on two levels:
+
+Search demand – the branded keywords behind your mentions, so you can see the actual query volume driving your AI visibility.
+
+Topics – clustered keywords that group related queries, so you can see which high-volume topics trigger AI answers, which pages and domains get cited, and where your content is (or isn’t) feeding AI responses.
+
+Brand Radar also tracks the social channels that influence AI answers (Reddit threads ranking in Google and YouTube).
+
+Do I need to set anything up or wait for data to collect?
+
+For the AI Visibility Index, you don’t have to set anything up. You can immediately search any brand, product, or entire category, including historical responses back to 2025, and no domain cap.
+
+If you choose Custom Prompts, you have to configure them yourself. The data starts to accumulate from that point. You can choose the checking cadence from monthly to daily per AI platform.
+
+How fresh is the data, and which platforms are covered?
+
+The AI Visibility Index covers:
+
+AI Overviews
+
+AI Mode
+
+ChatGPT
+
+Perplexity
+
+Gemini
+
+Copilot
+
+Its question sets are re-tested monthly on a 90-day reporting window (Search Demand refreshes every few days, Web Visibility every few minutes).
+
+Custom Prompts supports all of the above plus Claude. You pick the tracking cadence per platform (daily, weekly, or monthly), so you can spend your checks where freshness matters most. Every paid Ahrefs plan includes a daily Custom Prompts quota (Lite 5, Standard 10, Advanced 20), with larger check-based packages available.
+
+Have other questions?
+If you have more questions, contact us so we can help.
+CORE TOOLS
+Brand Radar
+Dashboard
+Site Explorer
+Keywords Explorer
+Site Audit
+Rank Tracker
+GSC Insights
+Content Explorer
+Web Analytics
+Bot Analytics
+GBP Monitor
+Social Media Manager
+AI Content Helper
+Report Builder
+USE CASES →
+Competitive Intelligence
+PPC
+SEO
+AEO
+Content Marketing
+Brand Marketing
+Investing
+EXTRA TOOLS & FEATURES
+Domain Comparison
+Batch Analysis
+Link Intersect
+Content Gap
+Email Alerts
+SEO Checker
+Traffic Checker
+Data Studio Connectors
+Top Websites
+Patches
+Portfolios
+IndexNow
+AI Tech SEO
+All tools
+OTHER PRODUCTS
+Letaido ↗
+Firehose ↗
+Yep ↗
+FREE SEO TOOLS →
+Ahrefs Free
+AI Mode Tracker
+AI Overviews Tracker
+AI Visibility Checker
+AI Writing Tools
+Backlink Checker
+Broken Link Checker
+Website Authority Checker
+Keyword Generator
+SERP Checker
+SEO Toolbar
+Keyword Rank Checker
+Keyword Difficulty Checker
+Website Checker
+SEO Audit Tool
+Sitemap Generator
+Website Change Monitor
+Word Count
+ALTERNATIVES →
+Ahrefs vs Semrush
+PRODUCT
+Pricing
+Our data
+AhrefsBot
+API
+Ask Ahrefs
+SEO MCP
+Enterprise
+What’s new?
+COMPANY
+About
+Testimonials
+Events
+Team
+Careers
+Tech
+Media kit
+FAQ
+Contact us
+RESOURCES
+Blog
+Tech blog
+Podcast
+Webinars
+SEO Guide
+AEO Guide
+Help center
+Academy
+Marketing Agencies
+Digest
+Discoverable
+
+© 2026 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581
+
+Legal info
+Privacy Policy
+Cookie Settings
+Terms of Service
+English

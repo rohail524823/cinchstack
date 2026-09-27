@@ -1,0 +1,235 @@
+SOURCE: https://help.ahrefs.com/en/articles/6061657-ahrefs-usage-based-pricing-for-credit-based-plans
+FETCHED: 2026-09-26T22:42:12.671Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Getting Started with Ahrefs
+Ahrefs Explained
+Ahrefs' usage-based pricing for credit-based plans
+Ahrefs' usage-based pricing for credit-based plans
+
+Learn all about users, usage levels, and managing usage in your workspace.
+
+Written by Anna
+Updated over 3 weeks ago
+
+Note: The following article applies only to current Starter plans, Lite plans, and older credit-based plans. To check which plan you have, refer to this guide.
+
+ 
+
+Current Standard plans and higher have unlimited fair usage for every active user. To upgrade your plan, go to https://app.ahrefs.com/pricing and select a new plan.
+
+ 
+
+Learn more about how credit-based plans compare to the latest Unlimited credit plans
+
+ 
+
+How to know if your subscription uses credits
+
+You can check if your subscription uses credits by checking if it has a "Credits usage by user" section in your Limits and usage page.
+
+ 
+
+How Ahrefs’ usage-based pricing works for credit-based plans 
+
+We track usage with something called credits, and this system applies to all tools except Site Audit and Rank Tracker. For the tools using the credit system,  1 credit is consumed whenever you open a report, apply filters, or request additional data. Learn more about what actions consume credits. 
+
+ 
+
+Credit limits for Starter plans
+
+Starter plans have a max limit of 200 credits per month. Additional credits and users cannot be purchased on this plan.
+
+ 
+
+If you verify ownership of any project, you can get an additional 500 credits that can be used only within verified projects. For example, if you verify ownership of Project that has the scope: https://ahrefs.com and mode: Subdomains, you'll be able to use these 500 additional credits to view reports in Site Explorer for https://ahrefs.com, https://help.ahrefs.com, https://ahrefs.com/blog, and so on.
+
+ 
+
+Credit limits for Lite and legacy plans that use credits
+
+We have two types of limits: plan limits and user limits. 
+
+ 
+
+Plan limits depend on your subscription. If you have a credit-based plan, the limits will be shown in your account's Limits and usage page.  
+
+ 
+
+As for user limits, these are charged based on the amount of credits a user consumes on a monthly basis. A user starts out as Inactive and becomes a Casual or Power user as they use the Ahrefs toolset.
+
+User 
+
+	
+
+Credits consumption
+
+	
+
+Charge per user
+
+	
+
+If prepaid annually
+
+Inactive
+
+	
+
+0–5
+
+	
+
+$0
+
+	
+
+$0
+
+Casual
+
+	
+
+6–100
+
+	
+
+$20 /mo
+
+	
+
+$200 /year
+
+Power
+
+	
+
+Lite: 101–1000
+
+Legacy Standard: 101-600
+
+Legacy Advanced: 101-750
+
+Legacy Enterprise: Custom
+
+	
+
+Lite: $40 /mo
+Legacy Standard: $60 /mo
+Legacy Advanced: $80 /mo
+
+	
+
+Lite: $400 /yr
+Legacy Standard: $600 /yr
+Legacy Advanced: $800 /yr
+Legacy Enterprise: $1000 /yr
+
+*Note that each plan comes with one Power user included. So if you’re the only active user in your workspace, your plan comes included with 200 (Starter plans), 1000 (Lite plans), 600 ('2022 Standard plans), or 750 ('2022 Advanced & Enterprise plans) credits each month with your plan subscription fee.
+
+ 
+
+If you need more credits and are not on the Starter plan, you can purchase a package of pay-as-you-go additional credits at $50 per 500 credits billed monthly, or prepay to add 500 additional credits to your limits each month at $300 billed yearly.
+
+ 
+
+Additional credits are shared by all Power users after they hit their user limit, and pay-as-you-go purchases last for three billing months including the current one. So if your usage reset date is October 20 and you purchased additional credits on October 15, they will expire on December 20.
+
+ 
+
+Based on the usage patterns of all of Ahrefs’ paid users, only 20% of users needed additional monthly credits. So it’s likely that you won’t need to purchase more credits.
+
+ 
+
+In fact, pay-as-you go additional credits are disabled by default in your Account settings, so you won't incur any unexpected charges unless you manually enable this.
+
+ 
+
+Managing your workspace’s usage
+
+All users can always check their current usage level in the credits usage counter on the right side of the main header.
+
+ 
+
+  
+
+Workspace admins can go to the Limits & usage section in Account settings to take full control over every user’s limits. Learn more about how to control credit usage per user.
+
+ 
+
+Charges for usage
+
+Users and credits are charged according to this usage cycle:
+
+At the beginning of a billing month, each user starts as Inactive with their credit usage reset to 0.
+
+If a user consumes more than 5 credits, they become a Casual user and a $20 charge is added.
+
+If a user consumes more than 100 credits, they become a Power user and another charge is added ($20-$60 depending on your current subscription plan).
+
+If a Power user consumes more than what's included in their subscription, and  Pay-as-you-go is turned on, they start consuming additional credits from a pool shared by all workspace users. If there are credits available in the pool, the user will be able to consume them. Otherwise, 500 credits at $50 will be added on a pay-as-you-go basis.
+
+Enterprises have custom credit limits. Get in touch with the Enterprise team for more information.
+
+Charges apply for any activity or credit usage recorded during the billing period, even if the user was removed before the period ended.
+
+These charges are automatically added to your account balance.
+
+ 
+
+Your payment method will be charged either on the next subscription renewal date, or when enough charges are accumulated. Invoices may also reflect charges from prior billing periods, which can explain unexpected amounts.
+
+ 
+
+Pre-paid vs pay-as-you-go charges
+
+When you purchase pre-paid add-ons, they are pro-rated according to your subscription plan.
+
+When your pay-as-you-go charges accumulate, an invoice is generated and sent to you. Pay-as-you-go charges can also be added to upcoming invoices – for example, when your subscription is renewed or upgraded.
+
+Pay-as-you-go charges may be grouped across multiple months on a single invoice, with the covered periods indicated.
+
+NOTE: Consumable usages such as credits are reset every month on the date of subscription renewal for all plans at 00:00 UTC timezone.
+​
+User pay-as-you-go charges last until the next usage reset. Other pay-as-you-go purchases (report credits, export rows, crawl credits and API units) last for 3 billing months since the date they were accrued, but pre-paid limits are always used first.
+
+ 
+
+ 
+
+NOTE: Pay-as-you-go credits are valid for 3 billing months only if the subscription runs without interruptions and is renewed on time. 
+
+ 
+
+Related Articles
+How do I add and manage users to my account's workspace?
+What's the difference between all Ahrefs subscription plans?
+How to control credits usage
+About Ahrefs' Starter plan
+What is the difference between Credit-based plans and Unlimited credit plans?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+How to know if your subscription uses credits
+How Ahrefs’ usage-based pricing works for credit-based plans
+Credit limits for Starter plans
+Credit limits for Lite and legacy plans that use credits
+Managing your workspace’s usage
+Charges for usage
+Ahrefs AcademyBlogYouTubePricing

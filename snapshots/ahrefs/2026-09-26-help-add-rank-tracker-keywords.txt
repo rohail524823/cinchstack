@@ -1,0 +1,67 @@
+SOURCE: https://help.ahrefs.com/en/articles/1453205-how-to-add-keywords-onto-rank-tracker-for-an-existing-project
+FETCHED: 2026-09-26T22:45:25.729Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Rank Tracker
+Tutorials
+How to add keywords onto Rank Tracker for an existing project
+How to add keywords onto Rank Tracker for an existing project
+
+Find out how to add keywords to track on Rank Tracker for an existing project
+
+Written by May
+Updated over 3 weeks ago
+
+Let's say you already have a project set up on your Dashboard. Here's how to add new keywords that you wish to track on top of those you may have added earlier. 
+
+ 
+
+Within the Rank Tracker Dashboard, click on "Keywords" from the target project.
+
+ 
+
+ 
+
+Here within Rank Tracker, you will be able to see your current tracked keywords and their respective ranking position, search volume, search traffic, keyword difficulty, SERP features, the URL and the date last checked. Within the mobile view, you'll also be able to see the respective mobile related data.
+
+ 
+
+Click "Add Keywords". 
+
+ 
+
+ 
+
+Add additional location(s) if needed (by default locations you are already tracking your keywords for will be shown here), then select or key in your keywords whilst separating each keyword with a comma. Then click "Add keywords".
+
+ 
+
+The number of keywords you can add is calculated beside the "Add keywords" button. Keywords that exceed your subscription limits (find out how are tracked keywords calculated for Rank Tracker), will either be frozen, or incur additional charges if Pay-as-you-go is turned on for Rank Tracker.
+​
+
+Related Articles
+How do I see who else is ranking for a keyword I rank for, and the backlinks going to them?
+How to see your mobile rankings on Rank Tracker
+How to add tags for your keywords list in Rank Tracker
+Difference between the Rank Tracker and Site Explorer's Organic Keywords Report
+How to delete keywords on Rank Tracker
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Ahrefs AcademyBlogYouTubePricing

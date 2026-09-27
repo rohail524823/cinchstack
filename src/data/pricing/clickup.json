@@ -1,0 +1,468 @@
+{
+  "tool": "clickup",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from ClickUp's pricing page in a US-locale headless browser (plan cards, both AI billing toggles, the complete feature list and each FAQ answer) and from ClickUp Help Center articles on pricing, billing, add-ons, AI credits and plan limits; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "ClickUp pricing page as loaded: plan cards list both the billed-yearly and the billed-monthly price; AI section on its default Yearly setting",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "ClickUp pricing page, AI pricing section with its Monthly toggle selected",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-ai-monthly.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "ClickUp pricing page, AI pricing section with its Yearly toggle selected",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-ai-yearly.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "ClickUp pricing page with the 'Complete feature list' table expanded (Spaces, storage, automations, Teams, guests)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-features-after-click-1.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: What payment methods do you accept?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-payment-methods.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: What is your refund policy?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-refund-policy.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: How am I billed when I add paid users to a Workspace?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-adding-paid-users.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: What if I have multiple Workspaces?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-multiple-workspaces.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: What happens if I cancel?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-cancel.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: Do you offer discounts for nonprofits, students, educators, or startups?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-discounts.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: What is a 'use' in context of ClickUp's plans?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-uses.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: What happens when I hit my usage limits?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-usage-limits.txt"
+    },
+    {
+      "url": "https://clickup.com/pricing",
+      "label": "Pricing FAQ: Does adding Guests to my Workspace affect my plan or how I'm billed?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-faq-guests.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/10129535087383-Intro-to-pricing",
+      "label": "ClickUp Help Center: Intro to pricing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-intro-to-pricing.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/6303244318999-Pricing-per-user-role-and-plan",
+      "label": "ClickUp Help Center: Pricing per user role and plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-pricing-per-user-role-and-plan.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/9180575416215-Intro-to-billing",
+      "label": "ClickUp Help Center: Intro to billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-intro-to-billing.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/6303314345623-Upgrade-your-plan",
+      "label": "ClickUp Help Center: Upgrade your plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-upgrade-your-plan.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/13673035695127-Downgrade-your-plan",
+      "label": "ClickUp Help Center: Downgrade your plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-downgrade-your-plan.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/6303101719831-Purchase-or-cancel-ClickUp-add-ons",
+      "label": "ClickUp Help Center: Purchase or cancel ClickUp add-ons",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-purchase-or-cancel-add-ons.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/20686299081879-ClickUp-Brain-AI-feature-availability-and-limits",
+      "label": "ClickUp Help Center: ClickUp Brain AI feature availability and limits (AI trial uses and credits by plan)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-brain-ai-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/40085008147863-Which-features-are-included-with-the-Brain-AI-add-ons",
+      "label": "ClickUp Help Center: Which features are included with the Brain AI add-ons?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-brain-ai-add-on-features.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/37837088720151-How-are-AI-Credits-consumed",
+      "label": "ClickUp Help Center: How are AI Credits consumed?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-ai-credits-consumed.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/34741383911959-Track-your-Workspace-s-Brain-AI-usage",
+      "label": "ClickUp Help Center: Track your Workspace's Brain AI usage (credit top-ups and overage protection)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-track-brain-ai-usage.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/31944097870487-AI-Notetaker-and-Meetings-Hub-feature-availability-and-limits",
+      "label": "ClickUp Help Center: AI Notetaker and Meetings Hub feature availability and limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-ai-notetaker-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/23477062949911-Automations-feature-availability-and-limits",
+      "label": "ClickUp Help Center: Automations feature availability and limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-automations-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/33463620625559-Workspace-storage-limits",
+      "label": "ClickUp Help Center: Workspace storage limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-workspace-storage-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/32274881672599-Views-feature-availability-and-limits",
+      "label": "ClickUp Help Center: Views feature availability and limits (Gantt, Timeline, Workload, Whiteboards)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-views-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/21257864098071-Dashboards-feature-availability-and-limits",
+      "label": "ClickUp Help Center: Dashboards feature availability and limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-dashboards-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/6303536766231-Intro-to-Custom-Fields",
+      "label": "ClickUp Help Center: Intro to Custom Fields (uses by plan)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-intro-to-custom-fields.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/29754533547415-Time-Tracking-feature-availability-and-limits",
+      "label": "ClickUp Help Center: Time Tracking feature availability and limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-time-tracking-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/30914854991255-Teams-feature-availability-and-limits",
+      "label": "ClickUp Help Center: Teams feature availability and limits",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-teams-availability-and-limits.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/25710132309655-Owner-admin-and-member-type-user-roles",
+      "label": "ClickUp Help Center: Owner, admin, and member-type user roles (which roles are paid; open seats)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-owner-admin-member-roles.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/6310514663319-Remove-someone-from-a-Workspace",
+      "label": "ClickUp Help Center: Remove someone from a Workspace",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-remove-someone-from-workspace.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/13615710869399-Sales-tax",
+      "label": "ClickUp Help Center: Sales tax",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-sales-tax.txt"
+    },
+    {
+      "url": "https://help.clickup.com/hc/en-us/articles/7250693443607-Is-there-a-discount-for-non-profit-or-educational-companies",
+      "label": "ClickUp Help Center: Is there a discount for non-profit or educational companies?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-help-nonprofit-education-discount.txt"
+    },
+    {
+      "url": "https://clickup.com/de/pricing",
+      "label": "ClickUp German-language pricing page (regional check: same USD prices)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/clickup/2026-09-26-pricing-de-locale.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free Forever has no time limit and allows unlimited members and tasks, but caps file storage at 60MB per Workspace, allows 5 Spaces and 100 Automation actions a month, and gives many paid features only as a fixed number of trial 'uses' per Workspace that never reset: 60 each for Custom Fields, Gantt, Timeline, Workload and Dashboards, and 100 for time tracking. Guests on Free Forever get full edit access that can't be limited. Brain AI is a trial of 25 uses for a Workspace of up to 10 people, and AI add-ons can't be bought on Free Forever. ClickUp's FAQ says it offers a grace period when a limit is reached."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "No self-serve free trial of the paid plans: ClickUp's add-ons article says 'If you'd like to add a paid plan trial to your Workspace, contact Support.' Every Workspace gets an automatic AI trial (for example 50 Brain uses for a Workspace of up to 10 people on Unlimited or Business), and Free Forever has no time limit. New customers can get a full refund within 30 days of their first paid plan subscription, including add-ons bought with it.",
+    "source": 18
+  },
+  "plans": [
+    {
+      "id": "free-forever",
+      "name": "Free Forever",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-seat-month",
+      "note": "Free with no time limit and no cap on members. Many paid features are included only as a fixed number of trial 'uses' per Workspace that never reset.",
+      "limits": [
+        "60MB total file storage per Workspace",
+        "5 Spaces",
+        "5 active Automations and 100 Automation actions per month",
+        "Trial uses that never reset: 60 each for Custom Fields, Gantt, Timeline, Workload and Dashboards",
+        "100 time-tracking uses (creating, editing or deleting time entries)",
+        "1 Form, 3 Whiteboards, 2 Teams (user groups)",
+        "Chat message history: 30 days; Activity view: 24 hours",
+        "Guests get full edit access that can't be restricted",
+        "Brain AI trial only (25 uses for a Workspace of up to 10 people); AI add-ons can't be bought"
+      ],
+      "highlights": [
+        "Unlimited tasks",
+        "Unlimited members",
+        "Collaborative Docs",
+        "Kanban boards, Calendar view and Sprint management",
+        "In-app video recording",
+        "Two-factor authentication",
+        "24/7 support"
+      ],
+      "source": 0
+    },
+    {
+      "id": "unlimited",
+      "name": "Unlimited",
+      "monthly": 10,
+      "annualMonthly": 7,
+      "priceUnit": "per-seat-month",
+      "note": "Per paid member (owners, admins, members and limited members). $7 per member per month applies when billed yearly.",
+      "limits": [
+        "1,000 Automation actions per month; 500 active Automations",
+        "Dashboards, Timeline and Workload views: 100 uses each per Workspace, never reset (viewing a Dashboard counts as a use)",
+        "10 Whiteboards; 3 Teams (user groups)",
+        "Permission-controlled guest seats: 5 for a one-member Workspace, plus 2 per additional member",
+        "Activity view: 7 days"
+      ],
+      "highlights": [
+        "Unlimited storage",
+        "Unlimited Spaces, Folders and Forms",
+        "Unlimited Gantt charts and Custom Fields",
+        "Native time tracking",
+        "Guests with permission control",
+        "Goals and Portfolios",
+        "ClickUp Chat and Email in ClickUp",
+        "Unlimited integrations"
+      ],
+      "source": 0
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "monthly": 19,
+      "annualMonthly": 12,
+      "priceUnit": "per-seat-month",
+      "note": "Per paid member. $12 per member per month applies when billed yearly. Labeled 'Popular' on the pricing page.",
+      "limits": [
+        "5,000 Automation actions per month (unlimited active Automations)",
+        "10 Teams (user groups)",
+        "Permission-controlled guest seats: 10 for a one-member Workspace, plus 5 per additional member",
+        "Advanced time tracking (billable time, time entry tags and descriptions, Timesheet entries): 100 uses"
+      ],
+      "highlights": [
+        "Unlimited Dashboards, Timeline and Workload views",
+        "Unlimited message and activity history",
+        "Webhooks and Automation integrations",
+        "Google SSO",
+        "Mind maps and private Whiteboards",
+        "Custom exporting",
+        "Sprint points and reporting",
+        "SMS two-factor authentication"
+      ],
+      "source": 0
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Price by quote ('Contact sales'). ClickUp accepts bank transfers for Enterprise orders above a minimum it doesn't publish.",
+      "limits": [
+        "250,000 Automation actions per month; more can be purchased",
+        "Guest seats: same allowance as Business"
+      ],
+      "highlights": [
+        "SAML SSO and SCIM provisioning",
+        "Unlimited custom roles and enterprise permissions",
+        "Audit log and session management",
+        "Data residency; MSA and HIPAA available",
+        "Enterprise API (10,000 calls per minute)",
+        "Live onboarding training and a Customer Success Manager"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [
+    {
+      "id": "brain-ai",
+      "name": "Brain AI",
+      "price": 14,
+      "unit": "per Workspace member per month, billed monthly",
+      "appliesTo": ["unlimited", "business", "enterprise"],
+      "note": "$9 per member per month billed yearly. Bought per Workspace and charged for every member, not only the people who use AI; open seats left by removed members are charged too. Includes unlimited fair use of Brain (AI chat and writing with premium models such as Claude, ChatGPT and Gemini), Brain MAX apps and Workspace Enterprise Search, plus 1,500 AI Super Credits per user per month for Super Agents, AI Fields, Autopilot Agents and image generation. Free Forever Workspaces must upgrade to a paid plan first.",
+      "source": 1
+    },
+    {
+      "id": "everything-ai",
+      "name": "Everything AI",
+      "price": 33,
+      "unit": "per Workspace member per month, billed monthly",
+      "appliesTo": ["unlimited", "business", "enterprise"],
+      "note": "$28 per member per month billed yearly. Also purchased per Workspace member per month. Everything in Brain AI plus unlimited fair use of AI Notetaker, AI Fields, AI Assign and Prioritize, AI Cards, Ambient Answers, Autopilot Agents and image generation, 5,000 AI Super Credits per user per month for Super Agents, and two hours of 1:1 live onboarding with an AI expert.",
+      "source": 1
+    },
+    {
+      "id": "ai-notetaker-hours",
+      "name": "AI Notetaker hour block",
+      "price": 12,
+      "unit": "per month for a 60-hour block (smallest block)",
+      "appliesTo": ["free-forever", "unlimited", "business", "enterprise"],
+      "note": "ClickUp says the AI Notetaker add-on includes 20 free hours and more are bought as a monthly block of hours; 'Blocks start at $12 per month for 60 hours.' AI Notetaker is sold as a standalone add-on on any plan and is included in Everything AI. ClickUp says AI Notetaker is in early access and its pricing may evolve.",
+      "source": 20
+    }
+  ],
+  "usage": [
+    {
+      "id": "ai-super-credits",
+      "name": "AI Super Credits",
+      "rate": 10,
+      "unit": "per 10,000 credits per month ($0.001 per credit), bought in $10 increments",
+      "note": "Credits run Super Agents, Autopilot Agents, AI Fields, AI Cards, AI Assign and Prioritize and image generation; Brain chat does not use them. They renew monthly, are shared across the Workspace and don't roll over. Brain AI includes 1,500 credits per user per month and Everything AI 5,000; without an AI add-on, paid plans get a one-time trial of 1,000 credits per user and Free Forever 500 per Workspace. ClickUp estimates 10 credits per use of AI Fields, 100 per generated image and 100-300 per Autopilot Agent or Super Agent run. Just over 100% of the monthly allowance, premium AI features stop until they renew the next month unless more credits are bought.",
+      "source": 0
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "guest-overage-member-seat",
+      "label": "Paid member seat added when guest seats run out",
+      "amount": null,
+      "display": "A paid member seat is added automatically when you invite a permission-controlled guest beyond your allowance",
+      "kind": "other",
+      "note": "The new seat raises the guest allowance and stays open for the next member you invite. The same happens when a view-only guest is added to a Team (they become permission-controlled). View-only guests are unlimited and free. Allowance: 5 plus 2 per additional member on Unlimited; 10 plus 5 per additional member on Business, Business Plus and Enterprise.",
+      "source": 14
+    },
+    {
+      "id": "ai-credit-overage-protection",
+      "label": "AI credit overage protection (optional)",
+      "amount": 10,
+      "display": "Up to $10/month automatic AI credit top-up, then a larger credit pack from the next renewal",
+      "kind": "monthly",
+      "note": "Optional 'Avoid interruption' setting. It sets a maximum monthly top-up of $10; if it is triggered by using all AI Credits, ClickUp upgrades the Workspace's credit pack size at the next renewal.",
+      "source": 22
+    }
+  ],
+  "billingNotes": [
+    "Plans are priced per paid member and cover the whole Workspace: everyone in a Workspace is on the same plan, and each Workspace is upgraded and billed separately.",
+    "Yearly billing is cheaper: Unlimited $7 vs $10 and Business $12 vs $19 per member per month; Brain AI $9 vs $14 and Everything AI $28 vs $33. The page says 'Save up to 30% with yearly' for plans and 'Save up to 20% with yearly' for AI, but the listed prices work out to 30% off Unlimited, about 37% off Business, about 36% off Brain AI and about 15% off Everything AI.",
+    "Monthly and yearly licenses can't be mixed in one Workspace. Switching from monthly to yearly billing means contacting Support, and the switch charges the next 12 months when the plan renews.",
+    "Paid seats are owners, admins, members and limited members. 'Chat collaborators' (view-only limited members) are free on Unlimited and above, view-only guests are unlimited and free, and permission-controlled guests are free up to the plan's allowance. People from inside your organization are billed as paid users, not guests.",
+    "Paid users added mid-cycle are charged a prorated amount for the time left in the cycle. When a member is removed, their seat stays open until a new member fills it; ClickUp's help centre does not say whether an open seat still counts toward the bill, or is dropped, at the next renewal if it stays unfilled.",
+    "AI add-ons are bought per Workspace and billed for every member, including open seats: Brain AI for a 15-member Workspace is 15 x $14 = $210/mo month-to-month. Free Forever Workspaces can't buy AI add-ons.",
+    "Automation action allowances reset on the first of every month (PST). When a Workspace goes over, its Automations pause for the rest of that month; extra actions can be bought only on Business Plus and Enterprise.",
+    "Cancelling or downgrading takes effect at the end of the billing cycle, and add-ons must be removed separately. All paid plan subscriptions renew automatically.",
+    "Refunds: the pricing page advertises a '100% Money-back Guarantee' and its FAQ says to ask within 30 days; the help centre limits the full refund to new customers within 30 days of their first paid plan subscription (including add-ons bought with it), with no refunds after 30 days.",
+    "Payment by Visa, Mastercard, American Express or Discover; ClickUp can't process prepaid debit cards or PayPal. Bank transfer is accepted only for Enterprise orders above a minimum.",
+    "Business Plus (custom role permissions, priority support, 25,000 Automation actions a month) is not on the public pricing page; ClickUp says its details show only in the in-app upgrade flow. The help centre also says some Workspaces see a new set of plans that include more ClickUp AI.",
+    "ClickUp offers nonprofit and academic discounts and startup credits by application; amounts aren't published.",
+    "ClickUp charges sales tax in some US jurisdictions (including New York, Pennsylvania, Texas and Washington) and VAT or GST in many other countries; the renewal total includes tax where it applies."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "ClickUp publishes one USD price list: its German-language pricing page shows the same $7/$10/$12/$19 prices, and its help centre says customers whose local currency isn't USD are charged in USD, with no conversion fee from ClickUp (banks may add a foreign transaction fee). VAT, GST or sales tax is added based on the billing address. Checked from a US locale only."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 seat",
+      "assumptions": "One person running a business's projects and docs in ClickUp. Free Forever costs $0 but caps file storage at 60MB per Workspace and gives only a fixed number of trial uses that never reset (60 for Custom Fields and Gantt, 100 for time tracking), so the scenario uses Unlimited, the cheapest plan without those caps: 1 seat x $10, billed monthly. No AI add-on.",
+      "planId": "unlimited",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Unlimited plan, 1 seat x $10, billed monthly", "amount": 10 }
+      ],
+      "monthly": 10,
+      "confidence": "high",
+      "note": "Billed yearly: 1 x $7 = $7/mo. Adding Brain AI is +$14/mo month-to-month (+$9/mo yearly). Someone who attaches few files and can live with the trial limits can stay on Free Forever for $0."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 5 seats",
+      "assumptions": "5 members on Unlimited, the plan ClickUp describes as best for small teams: unlimited storage, Gantt charts, Custom Fields and time tracking, 1,000 Automation actions a month, and 13 permission-controlled guest seats for clients (5 + 2 x 4 additional members). 5 seats x $10, billed monthly. No AI add-on.",
+      "planId": "unlimited",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Unlimited plan, 5 seats x $10, billed monthly", "amount": 50 }
+      ],
+      "monthly": 50,
+      "confidence": "high",
+      "note": "Billed yearly: 5 x $7 = $35/mo. Unlimited allows only 100 uses each of Dashboards, Timeline and Workload views for the whole Workspace, never reset (viewing a Dashboard counts); a team that plans in those views needs Business: 5 x $19 = $95/mo month-to-month (5 x $12 = $60/mo yearly). Brain AI is charged on every member: +5 x $14 = $70/mo month-to-month."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 15 seats",
+      "assumptions": "15 members on Business. Unlimited's limits force the upgrade at this size: Dashboards, Timeline and Workload views are capped at 100 uses per Workspace that never reset (viewing a Dashboard counts as a use), Automation actions at 1,000 a month shared by everyone, and user groups (Teams) at 3. Business makes those views unlimited and raises the limits to 5,000 Automation actions a month and 10 Teams. 15 seats x $19, billed monthly. No AI add-on.",
+      "planId": "business",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Business plan, 15 seats x $19, billed monthly", "amount": 285 }
+      ],
+      "monthly": 285,
+      "confidence": "high",
+      "note": "Billed yearly: 15 x $12 = $180/mo. Staying on Unlimited would be 15 x $10 = $150/mo month-to-month. Brain AI for all 15 members adds 15 x $14 = $210/mo month-to-month (15 x $9 = $135/mo yearly); Everything AI adds 15 x $33 = $495/mo (15 x $28 = $420/mo yearly)."
+    }
+  ],
+  "unverified": [
+    "Enterprise pricing is quote-only ('Contact sales').",
+    "Business Plus, and the 'new set of plans that include more ClickUp AI' that ClickUp's help centre says some Workspaces see, are priced only inside the app's upgrade flow; their prices are not on the public pricing page and were not captured.",
+    "Prices of the Automation Actions add-on (Business Plus and Enterprise only), the standalone AI Talk to Text add-on and ClickUp Assist (live 1:1 training) are shown only in a Workspace's billing page or not at all on the pages we captured. Whether the standalone AI Notetaker add-on has a fee beyond its hour blocks is not stated.",
+    "Nonprofit, academic and startup discount amounts are not published.",
+    "ClickUp's 'Upgrade your plan' help article says Free Forever Workspaces with more than 100 MB of data must upgrade, while the pricing page, the feature list and the 'Workspace storage limits' article say 60MB; this record uses 60MB.",
+    "Prices were read from a US locale; we did not test whether checkout shows different prices when accessed from other countries.",
+    "Whether an open seat left by a removed member still counts toward the bill at the next renewal (or is dropped from it) is not stated anywhere in the captured Help Center articles; they only say the seat 'remains open' until a new member fills it."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

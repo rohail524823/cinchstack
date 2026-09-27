@@ -1,0 +1,103 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/16333590268572-Agency-Pack-Overview
+FETCHED: 2026-09-26T22:51:20.132Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+Agency Pack
+Agency Pack Section
+  Articles in this section
+Agency Pack Overview
+Agency Pack Overview
+
+What is the SE Ranking's Agency Pack
+What is included in the Agency Pack
+How to buy the Agency Pack?
+
+What is the SE Ranking's Agency Pack
+
+Our Agency Pack is a powerful add-on created to complement your SE Ranking subscription. This add-on is specifically designed to empower agencies at every stage of the client management cycle, helping them gain new clients while nurturing existing ones. Its exclusive features can boost your agency’s efficiency.
+
+What is included in the Agency Pack?
+
+The SE Ranking Agency Pack offers a variety of tools for SEO monitoring, analysis, and reporting. Here are the additional benefits you’ll receive when you purchase the AP subscription. 
+
+White Label
+
+Transform SE Ranking into your very own SEO service by personalizing the interface, creating custom-made reports, and even sending them from your own SMTP server.
+
+White Label Reporting
+
+Fully customize your reports by adding your brand’s logo, colors, and other distinctive elements, giving them a more professional look. 
+
+Client Seats
+
+Invite up to 10 specialists you cooperate with and grant them access to view various data on the SE Ranking platform (e.g., graphs, platform sections, etc.). Invited users are not allowed to create and manage projects or change info. 
+
+Lead Generator
+
+Generate leads by installing this neat little widget on your site. It provides website visitors with a detailed report on the technical health of a page. In exchange for the report, visitors are prompted to provide their email. You will receive 100 leads per month with the Agency Pack. 
+
+Scheduled Reports
+
+Create SEO reports in Report Builder that can be scheduled to be automatically sent to certain people on designated days. The frequency can be adjusted, and the number of schedulable reports is unlimited.  
+
+Package pricing
+
+The Agency Pack is available as an add-on for users on annual Core, Growth, or Enterprise plans. It must be purchased separately and is billed annually together with your main subscription. Trial accounts also have access to the Agency Pack during the trial period.
+
+Please note: If you are on a legacy Pro or Business plan, the Agency Pack remains available under the same conditions as before.
+How to buy the Agency Pack
+
+The Agency Pack can only be added to an annual subscription. If you don’t have a subscription yet, you can visit our plans & pricing page. Scroll down to the Agency Pack section, activate the Pay annually option, and click Buy Now.
+
+Was this article helpful?
+Yes No
+2 out of 4 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

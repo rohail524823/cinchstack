@@ -1,0 +1,245 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/14721894632589-Squarespace-website-platform-plans
+FETCHED: 2026-09-26T22:12:36.377Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+PAYMENTS AND SUBSCRIPTIONS
+Squarespace website platform plans
+Learn more about the products included in our platform plans.
+
+Last updated July 9, 2026
+
+English
+
+This guide details what’s included in each website platform plan and how to manage your plan.
+
+Accessing this feature
+
+We no longer offer website platform plans on our pricing page. To learn more visit Legacy website billing plans. 
+
+What’s the difference between website platform plans and individual subscription plans?
+
+The following table details the differences between website platform plans and individual subscription plans:
+
+Website platform plans	Individual subscription plans
+Multiple Squarespace products included in one price	All Squarespace products (websites, Email Campaigns, etc.) are priced and purchased independently
+Individual products in the plans can't be upgraded or downgraded. Instead, you need to upgrade or downgrade the entire plan.	Changing or canceling one product’s subscription doesn’t affect your other products. To learn more about our individual subscription plans, visit Choosing the right Squarespace plan.
+What plan am I on? What plans do I have access to?
+
+To check which plan you're currently on, follow the steps in Checking your billing subscriptions.
+
+The plans available to you will appear when you upgrade your trial, or change your plan.
+
+Plan features
+
+These are the features included in each website platform plan:
+
+ 	Personal	Professional	Premium
+Contributors	
+
+Two
+
+	
+
+Unlimited
+
+	
+
+Unlimited
+
+Ecommerce	Customer accounts	
+
+Same commerce features as Commerce Basic
+
+Payment processor transaction fees may still apply
+
+	
+
+Same commerce features as Commerce Advanced
+
+Payment processor transaction fees may still apply
+
+Invoices & projects	Full access to client invoicing and project management tools	
+
+Full access to client invoicing and project management tools
+
+	
+
+Full access to client invoicing and project management tools
+
+Email Campaigns and Marketing tools	--	
+
+Same features as the Email Campaigns Core plan
+
+Marketing Kit in the Squarespace app
+
+	
+
+Same features as the Email Campaigns Max plan
+
+Marketing Kit in the Squarespace app
+
+Gated content	Ability to sell Digital Products and upgrade to a Digital Product add-on plan.	Same features as the Digital Products Starter plan	Same features as the Digital Products Pro plan
+Pricing and invoices
+
+To review the price of your plan:
+
+Open your Billing panel.
+Click Subscriptions.
+Click on the subscription you'd like to review.
+
+Use any of our accepted currencies, and accepted payment methods to renew a website platform plan. Where applicable, all state and local taxes are applied to the price of the entire plan. To learn more, visit US sales tax and Squarespace billing.
+
+Invoices
+
+Your invoice will provide details on the whole website platform offering, rather than receiving an invoice for each subscription in the offering.
+
+Managing your website platform plan
+Switching between website platform plans and individual subscription plans
+
+You can move from a website platform plan to an individual subscription plan if:
+
+You haven’t made a payment to Squarespace yet
+
+To switch between a website platform plan and an individual subscription plan, please contact us.
+
+Changing your website platform plan or cycle
+
+To learn how to change your website platform plan or billing cycle, visit Changing your website billing plan. As a note, the guide covers changing our other plans for now, but the steps and concepts for website platform plans are similar.
+
+Changing ‌your billing cycle
+
+If you’re only changing the billing cycle, learn more about how your renewal date is affected.
+
+Upgrading or downgrading your plan
+
+If you upgrade your billing plan, you’re charged the prorated difference between your old and new plan. For example, if you’re on a plan that costs $150, and then upgrade to a plan that costs $200, your prorated charge would be $50. To learn more about when you gain access to features on your new upgraded plan, visit Changing your website billing plan.
+
+When you downgrade your plan, we don’t offer prorated refunds. You’ll have access to features until the end of your current billing plan, even if you change your billing cycle.
+
+Before downgrading to a Personal plan
+
+If you downgrade to the Personal plan, you’ll have access to commerce features until the end of your current billing period. Before downgrading to the Personal plan, review the following guidelines. 
+
+How plan changes impact accepting payments with PayPal
+
+If you already accept PayPal and then switch to a plan that requires Squarespace Commerce or Digital Product transaction fees, we may disconnect PayPal from your site. If this happens, reconnect PayPal, ensuring you sign the billing agreement to accept Squarespace Commerce or Digital Product transaction fees.
+
+Canceling your website platform plan
+
+When you cancel a website platform plan, all subscriptions included in that plan are canceled. To learn how to end a website platform plan, visit Canceling a website subscription. As a note, the guide covers canceling our other plans for now, but the steps and concepts for website platform plans are similar.
+
+Before canceling, you may want to review these things to consider.
+
+Digital Products plan
+
+If you no longer need a Digital Products plan but want to keep your site, you can downgrade to the Personal platform plan. Keep in mind that this will affect other features of your platform plan. At the end of the billing cycle, your Digital Products plan goes into a pause state for 30 days.
+
+To learn more about what happens when you cancel a Digital Products plan, visit Canceling your Digital Products plan.
+
+What happens if your payment fails
+
+If we can’t authorize the renewal payment, it becomes past due. We’ll try to charge the payment method on file again over the next 15 days. To keep your subscription active, you can update your card at any time during this grace period to manually prompt a charge.
+
+If we still can’t charge your card after 15 days, your plan will expire. As a result:
+
+Your site will no longer be visible to visitors and search engines.
+You can’t send campaigns.
+Your digital products go into a paused state for 30 days.
+Promotions and offer codes
+Free first year of custom domain
+
+All Squarespace sites on an annual billing cycle include one free custom domain. The free domain offer only applies to new domain purchases after subscribing to an annual website platform plan. Domains purchased before subscribing aren't eligible.
+
+Free first year of Google Workspace Starter Plan
+
+You may qualify for a free year of the Google Workspace Starter plan for one custom email address. To redeem this offer, you need to subscribe to the Professional or Premium plan, choose an annual billing cycle, and meet our eligibility requirements. This offer isn’t available on the Personal plan.
+
+Promotion eligibility
+
+Here's important information about how promotional offers work with the website platform plans:
+
+Both offers are only valid on new annual plan purchases. They're not valid, or redeemable for credit, when switching from monthly to annual billing.
+You can register a new Squarespace domain for free, after upgrading from a monthly to an annual billing cycle.
+If you redeemed these promotional offers before subscribing to a platform plan, it’s not possible to switch to a platform plan.
+If you redeemed these offers while in a platform plan and would like to switch to an individual subscription plan, contact us.
+Offer codes
+
+Any valid offer codes will apply to the total price of the plan.
+
+IN THIS GUIDE
+What’s the difference between website platform plans and individual subscription plans?
+What plan am I on? What plans do I have access to?
+Plan features
+Pricing and invoices
+Managing your website platform plan
+What happens if your payment fails
+Promotions and offer codes
+Free first year of custom domain
+Free first year of Google Workspace Starter Plan
+Promotion eligibility
+Offer codes
+People also viewed
+
+Choosing the right Squarespace plan
+
+Change your site’s billing plan and cycle
+
+Digital Products plan pricing, billing, and invoices
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

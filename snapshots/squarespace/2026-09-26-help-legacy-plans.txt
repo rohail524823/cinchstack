@@ -1,0 +1,198 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/212743478-Legacy-website-billing-plans
+FETCHED: 2026-09-26T22:53:52.071Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+BILLING
+WEBSITE BILLING
+Legacy website billing plans
+Determine what legacy billing plan you're on, and what happens if you leave a Legacy plan.
+
+Last updated July 29, 2026
+
+English
+
+We update our plans periodically to support the significant improvements we continue to make to the Squarespace platform. While we adjust our plans, many customers remain on the plans they signed up for.
+
+For our current pricing and plans, visit our Pricing page. If you're using Squarespace 5, visit Squarespace 5 billing plans.
+
+What plan am I on?
+
+Review your current subscriptions in your site's Billing panel. To learn more, visit Checking your billing subscriptions.
+
+Why your price changed
+
+We periodically adjust our plans and pricing as we continue to improve our service. If you got an email about a price increase for your website plan, you’ll pay the updated price on your next scheduled renewal date. You won’t be charged on the “effective date” listed in the email.
+
+Next steps you can take:
+
+Check your renewal date (when you’ll actually be charged)
+Compare current plans
+Change your plan
+Review past invoices
+What happens when I change my billing plan?
+
+If you change your billing plan, or reactivate an expired legacy site, you’ll leave your legacy plan and move to a current pricing and plan. It's not possible to return to a legacy plan after you switch to a current plan, cancel a service, or cancel changes to a subscription from a Legacy plan.
+
+If you move from a legacy plan to a comparable current billing plan, you'll gain access to more features we've added to our current plans. 
+
+Note
+
+If you’re on a Legacy plan that’s scheduled for a price increase, you won’t be able to cancel changes to your subscription.
+
+Legacy Website plans and their features
+
+There are several legacy website plans, including Personal, Business, and Commerce plans. You can no longer sign up for these plans. If you received an email about your subscription price changing, the site listed in that email is on a legacy website plan.
+
+Personal, Business, and Commerce plans
+
+As of February 2026, you can no longer sign up for Personal, Business, and Commerce plans. You can find plan details and features for these plans below:
+
+PERSONAL
+BUSINESS
+COMMERCE BASIC
+COMMERCE ADVANCED
+24/7 customer support
+A mobile-optimized website with up to 1000 pages
+Create and manage Pay Links
+Collecting payments with Squarespace Payments
+Free custom domain for one year
+Sending invoices
+Project management tools
+Selling content and memberships
+SSL security
+Tap to Pay on iPhone and Android
+Two contributors
+Website analytics (panels vary by plan)
+
+Includes all features in the Personal plan, plus:
+
+One free user/inbox for the first year on the Google Workspace Business Starter plan
+Announcement and mobile information bars
+Commerce analytics (panels vary by plan)
+ChowNow Integration
+Custom code, including the code block, code injection, and the Developer Platform
+Donation Blocks
+Fully integrated commerce (3% transaction fee)
+Mailchimp integration in form and newsletter blocks
+Meta Pixel integration
+Menu Blocks
+Mobile information bar
+OpenTable Blocks
+Promotional pop-ups
+Sending proposals, estimates, and contracts
+Unlimited contributors
+Zapier integration
+
+Includes all features in the Personal and Business plans, plus:
+
+Accepting payments with a Square reader
+Additional commerce analytics (panels vary by plan)
+Customer accounts
+Limited availability labels
+Local and regional shipping
+No Squarespace Commerce transaction fees
+Product importing from other ecommerce platforms or a .csv file
+Customer reviews
+
+Includes all features in the Personal, Business, and Commerce Basic plans, plus:
+
+Abandoned checkout recovery
+Automatic discounts
+Connect your own carrier account for carrier-calculated shipping
+Inventory, Orders, and Transactions API
+Subscription products
+
+If you’re currently on a Personal, Business, or Commerce plan, we'll continue to provide support as long as your subscription remains active. It's not possible to return to the plan if your site expires or if you cancel your site subscription.
+
+Cover page plan
+
+As of November 2016, you can no longer sign up for cover page subscriptions.
+
+If you’re currently on the cover page-only plan:
+
+You can continue with your subscription, but you can't convert it to a website subscription.
+It's not possible to return to the plan if your site expires.
+
+To start a new website, you can cancel your subscription then start a new Squarespace trial.
+
+Squarespace Select
+
+As of November 2021, you can no longer sign up for the Squarespace Select plan. If you're currently on a Squarespace Select plan, we'll continue to provide support as long as your subscription remains active.
+
+Why is my plan less expensive than the current plans?
+
+While we periodically adjust our pricing, many customers remain on older plans that are less expensive than new subscriptions, even after price adjustments we may make. You’re welcome to stay on your current plan as long as your plan remains active. Note that it’s not possible to switch from a current plan to a legacy plan.
+
+IN THIS GUIDE
+What plan am I on?
+Why your price changed
+What happens when I change my billing plan?
+Legacy Website plans and their features
+Personal, Business, and Commerce plans
+Cover page plan
+Squarespace Select
+Why is my plan less expensive than the current plans?
+People also viewed
+
+Choosing the right Squarespace plan
+
+Change your site’s billing plan and cycle
+
+Invite a contributor
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

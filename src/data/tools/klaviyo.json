@@ -1,0 +1,43 @@
+{
+  "id": "klaviyo",
+  "name": "Klaviyo",
+  "vendor": "Klaviyo, Inc.",
+  "tier": "core",
+  "layer": "grow",
+  "category": "Email and SMS marketing platform",
+  "url": "https://www.klaviyo.com/",
+  "pricingUrl": "https://www.klaviyo.com/pricing",
+  "oneLiner": "Email and SMS marketing platform priced by active profile count, with paid add-ons for an AI agent, an on-site customer hub, social and reviews.",
+  "summary": "Klaviyo is an email and SMS marketing platform that it describes as a B2C CRM, built on unified customer profiles and ecommerce integrations such as Shopify and WooCommerce. The core Email plan is priced by active profiles rather than seats, from $20/month at 500 profiles to $1,955/month at 150,000, and self-serve plans are billed monthly with no annual option on the pricing page. An AI agent (Composer), Customer Hub, Social Marketing, Reviews and SMS are each billed separately on top of the Email plan.",
+  "bestFor": [
+    "shopify-store",
+    "agency",
+    "freelancer"
+  ],
+  "notFor": [
+    "Buyers who want an annual-prepay discount: self-serve plans are month-to-month only, and the pricing page shows no annual option",
+    "Senders who need MMS, WhatsApp or RCS pricing up front: the public calculator did not show usable rates for those channels when checked",
+    "Teams that want one flat platform fee: Email, Composer, Customer Hub, Social Marketing, Reviews and SMS are separate line items, each scaled on its own metric"
+  ],
+  "pros": [
+    "Free plan with no time limit: up to 250 active profiles and 500 emails/month, plus $5 of mobile messages and $5 of Composer usage each month",
+    "Priced by active-profile count rather than per user seat",
+    "Every paid Email tier includes monthly email sends equal to 10x its profile count (e.g. 500,000 emails/month at 50,000 profiles)",
+    "Pricing FAQ says Klaviyo charges no hidden fees and that paid onboarding services are optional",
+    "Self-serve plans are month-to-month by credit card and can be cancelled from the Billing page, effective immediately or at the end of the cycle",
+    "SMS rates include carrier fees, with no separate carrier-fee line item on the invoice"
+  ],
+  "cons": [
+    "No annual-prepay discount for self-serve plans: Email, Composer, Customer Hub, Social Marketing and Reviews are billed monthly only",
+    "Cost climbs with list size, $30/month at 1,000 active profiles, $150 at 10,000 and $720 at 50,000, and you pay for inactive profiles unless you suppress them",
+    "If active profiles exceed your tier, Klaviyo moves you to a larger, more expensive tier at the next billing cycle whether or not you opted in to upgrades",
+    "Composer, Customer Hub, Social Marketing, Reviews, Helpdesk, Customer Agent and SMS are all billed separately from the Email plan",
+    "Cancelling immediately rather than at cycle end gives no refund for the rest of the paid month",
+    "The $20 Customer Hub and $38 Social Marketing prices shown when checked were introductory discounts advertised through 09/30/2026, off list prices of $30 and $50"
+  ],
+  "founded": 2012,
+  "hq": "Boston, MA, USA",
+  "affiliate": {
+    "program": "klaviyo"
+  }
+}

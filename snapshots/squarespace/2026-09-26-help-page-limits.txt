@@ -1,0 +1,166 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206543087-Page-limits
+FETCHED: 2026-09-26T22:14:07.617Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+PAGES AND CONTENT
+TROUBLESHOOTING CONTENT ISSUES
+Page limits
+Learn about different content limitations on your Squarespace site.
+
+Last updated January 14, 2026
+
+English
+
+You can add up to 1000 pages to any of our current Squarespace plans. Some page types have their own content limits. For example, we limit the number of products you can add to your store pages. These guidelines keep your site usable and fast.
+
+This guide explains the specific page and content limits in Squarespace.
+
+Accessing this feature
+
+If your site is on our legacy Personal plan, it has a 20-page limit. Learn more below.
+
+Page-specific limits
+
+Most pages have limits for the amount of content you can add to them: 
+
+VERSION 7.1
+VERSION 7.0
+Auto layouts - No official limit, but we recommend no more than 250 items, as pages with too much content may load and save slowly
+Blog pages - No limit for the number of blog posts you can add to a blog page
+Calendar pages - Up to 350 events per month
+Fluid Engine sections - Up to 1000 grid rows
+Dropdowns - No official limit, but we recommend a maximum of 10 pages to keep drop-down menus manageable
+Gallery sections - Up to 250 images
+Layout pages - We recommend adding no more than 60 blocks per page, as pages with too many blocks may load and save slowly
+Page sections - No official limit, but we recommend adding no more than 20 sections per page, as pages with too much content may load and save slowly
+Portfolio pages - Up to 60 projects
+Portfolio projects - We recommend adding no more than 60 blocks per project, as projects with too many blocks may load and save slowly
+Store pages - Can't exceed the site-wide limit of 10,000 products
+Videos pages - Up to 10,000 videos, but the video limits and requirements apply
+Album pages - Up to 60 tracks
+Blog pages - No limit for the number of blog posts you can add to a blog page
+Cover pages - No official limit, but pages with too much content may load and save slowly
+Events pages - Up to 350 events per month
+Dropdowns - No official limit, but we recommend a maximum of 10 pages to keep drop-down menus manageable
+Gallery pages and project pages - Up to 250 images or videos
+Index pages - Up to 100 sub-pages
+Layout pages - We recommend adding no more than 60 blocks per page, as pages with too many blocks may load and save slowly
+Store pages - Up to 200 products
+Legacy Personal plan limits
+
+If your site is on our older, legacy Personal plan, it has a 20-page limit. To learn more about legacy plans, visit Legacy billing plans.
+
+This section explains the pages that count or don't count toward that limit.  
+
+Pages that count toward the limit
+
+The pages that count toward the page limit are:
+
+Layout pages
+Album pages
+Blog pages (not individual blog posts)
+Calendar pages (called events pages in version 7.0)
+Course pages
+Cover pages
+Gallery pages
+Index pages and sub-pages
+Portfolio pages (not individual projects)
+Store pages
+Project pages
+Pages in the Not linked section of your navigation
+Template demo pages
+Videos pages
+Content that doesn't count toward the limit
+
+This content doesn't count toward the page limit:
+
+Navigation links
+Dropdowns
+The default 404 error page
+Individual blog posts
+Individual events
+Individual lessons on course pages
+Individual portfolio projects
+Individual product items
+Individual videos on videos pages
+Shopping cart
+Checkout page
+
+Note
+
+Disabled pages count toward the general 1000-page limit, but not toward the legacy Personal plan's 20-page limit.
+
+Suggested maximum is 400 pages
+
+While a site can have up to 1000 pages, we don't recommend adding more than 400. Sites with this much content may load slowly, especially on mobile devices. For larger sites, it's a good idea to regularly review and delete unused content.
+
+IN THIS GUIDE
+Page-specific limits
+Legacy Personal plan limits
+Pages that count toward the limit
+Content that doesn't count toward the limit
+Suggested maximum is 400 pages
+People also viewed
+
+Legacy website billing plans
+
+Videos pages
+
+Portfolio pages
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

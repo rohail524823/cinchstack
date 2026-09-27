@@ -1,0 +1,251 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/205812258-Google-Workspace-pricing-billing-and-invoices
+FETCHED: 2026-09-26T22:14:06.339Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+PROFESSIONAL EMAIL
+GOOGLE WORKSPACE BILLING
+Google Workspace pricing, billing, and invoices
+Important information about how much you’re paying for Google Workspace, and how to manage your subscription.
+
+Last updated July 9, 2026
+
+English
+
+Where you access your Google Workspace billing details depends on how you signed up:
+
+Squarespace signups - manage your Google Workspace account through your Squarespace account.
+Direct Google signups - manage your Google Workspace account through the Google Admin Console.
+
+Note
+
+After signing up for Google Workspace through Squarespace, you can’t switch to a different Google Workspace billing cycle or downgrade your plan (for example, Plus to Starter).
+
+Google Workspace pricing
+
+We offer the Google Workspace Starter, Standard and Plus plans. The following pricing is per-user (email address), may be subject to sales tax, and may differ from Google promotional pricing. If you add a user partway through an annual billing cycle, we prorate the first payment.
+
+Currency	Starter plan (Annual)	Standard plan (Annual)	Plus plan (Annual)
+USD	$84	$168	$264
+EUR	€81.60	€163.20	€253.20
+GBP	£70.80	£141.60	£220.80
+AUD	A$118.80	A$237.60	A$370.80
+CAD	CA$110.40	CA$220.80	CA$344.40
+BRL	R$490.80	R$981.60	R$1,540.80
+CHF	CHF 84	CHF 168	CHF 264
+COP	COP 350,400	COP 700,800	COP 1,090,800
+DKK	DKK 625.20	DKK 1,250.40	DKK 1,963.20
+HKD	HK$658.80	HK$1,317.60	HK$3,068.80
+IDR	IDR 1,368,000	IDR 2,760,000	IDR 4,320,000
+INR	₹7,260	₹14,532	₹22,824
+JPY	¥12,600	¥25,080	¥39,480
+MXN	MX$1,704	MX$3,408	MX$5,364
+MYR	MYR 372	MYR 744	MYR 1,170
+NOK	NOK 932	NOK 1,864	NOK 2,929
+NZD	NZ$126	NZ$252	NZ$396
+PHP	₱4,920	₱9,840	₱15,480
+PLN	PLN 378	PLN 756	PLN 1,188
+SEK	SEK 918	SEK 1,836	SEK 2,882.40
+SGD	SGD 113	SGD 226	SGD 352
+THB	THB 3,300	THB 6,600	THB 10,200
+TRY	TRY 3,048	TRY 6,096	TRY 9,576
+TWD	NT$2,760	NT$5,520	NT$8,640
+VND	₫2,148,000	₫4,284,000	₫6,732,000
+ZAR	ZAR 1,560	ZAR 3,120	ZAR 4,920
+KRW	₩10,000	₩20,000	₩31,500
+Currency	Starter plan (Monthly)	Standard plan (Monthly)	Plus plan (Monthly)
+USD	$8.40	$16.80	$26.40
+EUR	€8	€16	€25
+GBP	£7	£14	£22
+AUD	A$11.80	A$23.60	A$37
+CAD	CA$11	CA$22	CA$34
+BRL	R$49	R$98	R$154
+CHF	CHF 8	CHF 17	CHF 26
+COP	COP 35,000	COP 70,000	COP 109,000
+DKK	DKK 63	DKK 125	DKK 196
+HKD	HK$65.80	HK$131.60	HK$206.80
+IDR	IDR 137,000	IDR 275,000	IDR 432,000
+INR	₹725	₹1,453	₹2,283
+JPY	¥1,260	¥2,510	¥3,950
+MXN	MX$171	MX$341	MX$536
+MYR	MYR 37	MYR 74	MYR 117
+NOK	NOK 93	NOK 186	NOK 293
+NZD	NZ$13	NZ$25	NZ$40
+PHP	₱492	₱984	₱1,546
+PLN	PLN 38	PLN 76	PLN 119
+SEK	SEK 92	SEK 183	SEK 288
+SGD	SGD 11	SGD 22	SGD 35
+THB	THB 325	THB 650	THB 1,000
+TRY	TRY 305	TRY 610	TRY 958
+TWD	NT$275	NT$549	NT$863
+VND	₫214,000	₫429,000	₫674,000
+ZAR	ZAR 155	ZAR 311	ZAR 488
+KRW	₩12,000	₩24,000	₩37,500
+Are taxes applied to my Google Workspace subscription?
+
+Learn more about how we apply tax to your billing in your region:
+
+US sales tax
+VAT in the UK and EU
+Canadian taxes
+Australia
+Review your Google Workspace subscription details
+
+Review your subscription details like number of seats and users, and your renewal date, on the Billing panel.
+
+Review your Google Workspace invoices
+
+Review your Google Workspace invoices in the Invoices panel. If you have other Squarespace products, we bill them as a separate line item.
+
+If you have multiple Google Workspace users, the Google Workspace fee appears as a lump sum on your invoice. For example, if you have two users and you’re on the Google Workspace Starter monthly plan ($8.40/month), your invoice total is $16.80.
+
+Am I eligible for a free year of Google Workspace?
+
+You may be eligible for a free year of Google Workspace when you sign up for the Starter plan through Squarespace.
+
+Can I set my Google Workspace subscription to automatically renew?
+
+Yes. To prevent service interruptions, all Google Workspace subscriptions and filled seats renew automatically by default. If you have a valid method of payment on file and auto-renew enabled, your subscription will renew automatically. Unfilled seats are removed at renewal, and you won't receive a charge for them. You can disable auto-renew at any time.
+
+Note
+
+To enable auto-renew on an annual plan, you need to log in and accept Google Workspace’s Terms of Service.
+
+When does my subscription renew?
+
+You can find the renewal date of your Google Workspace subscription in the Billing panel. When you’re charged depends on your billing plan:
+
+Monthly - You’re charged on the listed renewal date. We don't send email reminders for monthly subscriptions.
+Annual - You’re charged 15 days before your renewal date. We send an email reminder 30 days before your renewal date so you have time to review your payment method or disable the renewal if necessary.
+How other subscriptions affect Google Workspace billing
+
+We charge the same payment method you use to pay for your parked domain or website (if applicable). However, each Squarespace subscription is billed separately. Here’s what happens if you cancel your other subscriptions or they expire:
+
+Website subscription - Auto-renew for your Google Workspace subscription remains on, and you can continue using it.
+Squarespace domain subscription - Auto-renew for Google Workspace remains on, but you can’t send/receive emails without an active domain with MX records. If you transfer your domain away from Squarespace, you can continue managing Google Workspace through Squarespace or cancel it to transfer the account to Google.
+If we can’t charge your card
+
+If we can’t authorize a renewal charge, your Google Workspace account becomes past-due and eventually suspended.
+
+Can I disable auto-renew?
+
+Yes. You can disable auto-renew at any time. When your billing cycle ends, your Google Workspace email will be suspended. After 40 days, it will be disconnected from your site and transferred to Google.
+
+If you disable auto-renew for an annual Google Workspace plan during the 15-day renewal window, your subscription still renews and then expires at the end of the next billing period.
+
+I canceled my Google Workspace subscription. Can I get a refund?
+
+Refund eligibility depends on your Google Workspace plan.
+
+Ensure Squarespace has access to your Google Admin console
+
+To help with billing and support, Squarespace needs to access your Google Admin console and locate your account details. Reseller access is enabled by default after you create a new subscription. We recommend keeping reseller access enabled. You can't add new Google Workspace users while reseller access is disabled.
+
+To enable access:
+
+Log into your Google Workspace Admin console with a super administrator account.
+In the Menu, click Account.
+Click Reseller Management.
+Ensure the Reseller Access toggle is switched on.
+Google Workspace isn’t showing up in my Squarespace account
+
+If we’re charging you for Google Workspace, but it doesn’t appear in your Google Workspace panel, you may be logged into the wrong Squarespace account. This can happen if you have multiple Squarespace accounts under different email addresses.
+
+To resolve this:
+
+Ensure you log into the correct Squarespace account.
+If you don’t know your login information, recover your account email address.
+If you're still having trouble, fill out this form to help us find your account.
+Why can’t I use the Google Voice feature?
+
+To use Google Voice, you need to sign up for Google Workspace directly through Google.
+
+If you already signed up for Google Workspace through Squarespace and want to upgrade or downgrade to a different Google Workspace plan or use Google Voice, transfer your Google Workspace account to Google.
+
+I can’t send or receive emails
+
+Review the common issues that could cause your Google Workspace account to stop sending/receiving emails.
+
+More help
+
+If you're having trouble with Google Workspace and your account is active, learn more about common issues and how to fix them.
+
+IN THIS GUIDE
+Google Workspace pricing
+Review your Google Workspace subscription details
+Review your Google Workspace invoices
+Am I eligible for a free year of Google Workspace?
+Can I set my Google Workspace subscription to automatically renew?
+When does my subscription renew?
+How other subscriptions affect Google Workspace billing
+If we can’t charge your card
+Can I disable auto-renew?
+I canceled my Google Workspace subscription. Can I get a refund?
+Ensure Squarespace has access to your Google Admin console
+Google Workspace isn’t showing up in my Squarespace account
+Why can’t I use the Google Voice feature?
+I can’t send or receive emails
+More help
+People also viewed
+
+Update your billing information
+
+Canceling your Google Workspace subscription
+
+Free Google Workspace offer
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

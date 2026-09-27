@@ -1,0 +1,79 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/30914854991255-Teams-feature-availability-and-limits
+FETCHED: 2026-09-26T22:50:09.869Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Get started
+Teams (User Groups)
+Teams feature availability and limits
+
+Teams Hub is the central place to manage the teams in your Workspace.
+
+Pricing and availability for Teams Hub features are subject to change.
+
+You can try out Teams Analytics on the Unlimited Plan and Business Plan with unlimited uses for a short time.
+
+Availability by plan
+
+The following table shows Teams feature availability by plan:
+
+Feature	Free Forever Plan	Unlimited Plan	Business Plan	Business Plus Plan	Enterprise Plan
+Teams	Yes	Yes	Yes	Yes	Yes
+Teams Hub	Not available	Yes	Yes	Yes	Yes
+Number of teams	2 teams	3 teams	10 teams	Unlimited teams	Unlimited teams
+Teams Analytics	1 day	1 day	7 days	30 days	30 days
+Teams Activity	Not available	1 day	7 days	30 days	Unlimited activity
+Share items with teams	Not available	Not available	Not available	Yes	Yes
+Share Spaces with teams	Not available	Not available	Not available	Not available	Yes
+Org Chart	Not available	Yes	Yes	Yes	Yes
+Sharing with Teams
+
+When a user has both team and individual permissions for an item or location, the individual user permission is applied.
+
+Availability by user role
+
+The following table shows access to Teams features by user role:
+
+Role	Create Teams and manage members	Can access Teams Hub	Can be managed from Teams Hub	Can see your Org Chart
+Guest	No	No	Yes	No
+Limited Member	No	No	Yes	No
+Limited members can view user profiles, allowing them to see a person's reporting line from there.
+Member	No	Yes	Yes	Yes
+Admin	Yes	Yes	Yes	Yes
+Guests and limited members in teams
+
+If view only guests or limited members view only are added to a team, they will be converted to permission controlled guests or limited members.
+
+The ability to add limited members view only to a team is gradually being released to all Workspaces.
+
+Permission controlled guests will not have access to Spaces even if the team does.
+
+Was this article helpful?
+Related articles
+Use Teams in your organization
+Intro to Teams Hub
+Find teams in your Workspace
+Intro to billing
+Assign tasks
+Articles in this section 
+Use Team Org Charts
+Update your Organizational Chart
+Find someone in your Organizational Chart
+Expand or collapse direct reports in your Organizational Chart
+Explore your Organizational Chart
+What is your Organizational Chart?
+Find teams in your Workspace
+People overview page in Teams Hub
+Team overview in Teams Hub
+Teams feature availability and limits
+
+See all 13 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

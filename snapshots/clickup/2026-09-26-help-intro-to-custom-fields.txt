@@ -1,0 +1,200 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/6303536766231-Intro-to-Custom-Fields
+FETCHED: 2026-09-26T22:52:00.228Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+Features and ClickApps
+Custom Fields
+Intro to Custom Fields
+Intro to Custom Fields
+
+Enrich your tasks with Custom Fields to add important context and improve your Dashboard reporting. Whether you're adding an email address for a customer relationship management task, a dropdown to categorize work, or location fields to plot your work on a map, Custom Fields allows you to fully customize your Workspace.
+
+Check out our Create Statuses and Custom Fields course on ClickUp University!
+
+Custom Fields by location
+
+Custom Fields can be added to Spaces, Folders, Subfolders, Lists, or your entire Workspace. You can use the same Custom Field in multiple locations.
+
+When you add a Custom Field to a List, it will display on all tasks and subtasks in that List.
+
+When you add a Custom Field to a Space, it will be added to every Folder, Subfolder, List, task, and subtask in that Space.
+
+Custom Fields by task type
+
+Custom Fields by task type appear on tasks based on their custom task type. They are available on tasks anywhere in your Workspace.
+
+You can use both Custom Fields by task type and Custom Fields by location on tasks.
+
+Feature availability and limits
+
+The following availability and limits apply to Custom Fields.
+
+Availability by plan
+
+The following table outlines Custom Fields availability by plan:
+
+Plan	Number of Custom Field uses	Use custom role permissions to manage Custom Fields	Can pin Custom Fields	Can use Custom Fields by task type
+Free Forever	60
+Learn more	No	No	No
+Unlimited	Unlimited	No	No	No
+Business	Unlimited	No	Yes	No
+Business Plus	Unlimited	Owners only	Yes	Yes
+Enterprise	Unlimited	Owners only	Yes	Yes
+
+Custom task types feature availability and limits vary by plan and user role. Learn more
+
+Availability by user role
+
+The following table outlines Custom Fields availability by user role:
+
+User role	Can edit Custom Field values	Create new options for Label and Dropdown Custom Fields	Can create Custom Fields
+Guest	Guests with edit or full permissions can edit Custom Field values on tasks, but cannot create new ones.	No	No
+Limited Member	Limited members with edit or full permissions can edit Custom Field values on tasks, but cannot create new ones.	No	No
+Member	Yes	Yes	Yes
+On Business Plus and Enterprise Workspaces, the Manage Custom Fields custom role permission must be enabled for members.
+Admins	Yes	Yes	Yes
+Activate the Custom Fields ClickApp
+
+To activate the Custom Fields ClickApp:
+
+Open the App Center.
+From the App Center's left sidebar, click All ClickApps.
+Browse or search for the Custom Fields ClickApp.
+Click the toggle to activate the ClickApp.
+You can use the first dropdown menu to activate the ClickApp in specific Spaces.
+You can use the second dropdown menu to select your sorting preferences.
+Custom Field types
+
+Different Custom Field types allow you to capture and use different types of information to organize tasks and maintain consistency.
+
+For example, you can create a Phone Custom Field to capture client phone numbers or use Formula Fields to perform calculations.
+
+Or, you can use a Dropdown Custom Field to track delivery quarter.
+
+Create Custom Fields
+
+Create new Custom Fields from other locations in your Workspace.
+
+Create Relationship Custom Fields
+
+Learn how to create Relationship Custom Fields.
+
+Show Custom Fields
+
+Show and explore the dataavailable in Custom Fields from tasks or views.
+
+Display data from related tasks in List view by adding a rollup field column!
+
+Add Custom Fields to new locations
+
+Add Custom Fields to additional Spaces, Folders, Subfolders, and Lists.
+
+Adding a Custom Field to a view will add it to that location. For example, adding a Custom Field column to a List view at the Everything level will add the Custom Field to all tasks in your Workspace.
+
+AI Fields
+
+Use AI Fields to summarize tasks, get updates, translate, and create action items, or create your own content custom AI fields for endless possibilities!
+
+Set Custom Field permissions
+
+You can set Custom Field permissions to safeguard important information.
+
+Use Formula Fields
+
+Create custom calculations using Formula Fields!
+
+Set Custom Field values
+
+Set Custom Fields values to organize and add context to your tasks!
+
+Search, sort, and filter tasks by Custom Fields
+
+Use Custom Fields to search, track, sort, and filter the work in your tasks.
+
+Manage Custom Fields
+
+Manage Custom Fields to make sure your data is captured and maintained consistently. The following articles will help you manage your Custom Fields:
+
+View and search Custom Fields
+Require Custom Fields
+Set default values
+Manually sort Custom Fields
+Hide Custom Fields from guests and limited members
+Edit Custom Fields
+Move Custom Fields
+Convert Custom Fields
+Merge Custom Fields
+Duplicate Custom Fields
+Pin Custom Fields
+Remove or delete Custom Fields
+Custom Fields searched by Brain AI
+
+The following Custom Fields are searched when you ask Agents or Brain a question about a task:
+
+Date
+Email
+Location
+Number
+Phone Number
+Text
+Text area (Long Text)
+URL
+Dropdown
+Label
+Checkbox
+Money
+Use Custom Fields with Brain AI
+
+You can write prompts for Agents or Brain to search or update Custom Fields.
+
+For example, type into Brain's prompt field:
+
+Find all the Tshirt size Custom Fields in this Folder with the content "Medium."
+
+Or, you could request:
+
+Change the Tshirt size Custom Field in Task A from "Medium" to "Large."
+
+Learn more about Brain AI tools!
+
+Unexpected Custom Field behavior
+
+If a Custom Field is not behaving as expected, ensure that the correct Custom Field type has been created for the expected behavior.
+
+If you enter a URL or location, make sure you're using the Website or Location Custom Field. The information can be put into Text Custom Fields, but it won't work as intended.
+
+Number not valid error for commas
+
+Commas are not supported for all Custom Fields at this time.
+
+Can't find an address in Location Custom Fields
+
+The Location Custom Field provides you with addresses to select using Google Maps data. If an address you enter is not showing up on Google Maps, it displays the closest match in the Location Custom Field.
+
+If you cannot find a specific address, try the following:
+
+Use Google Maps Plus Codes. Find the equivalent Plus Code and input it into the Location Custom Field.
+Use a Text Custom Field to contain the address. This allows you to input addresses in a text format without automatic suggestions. You will not be able to use the data directly in a Map view when using a Text Custom Field.
+Was this article helpful?
+Related articles
+Custom Field types
+Set Custom Fields on tasks
+Show Custom Fields in tasks and views
+Intro to Automations
+Intro to views
+Articles in this section 
+Intro to Custom Field Manager
+Intro to Custom Fields
+Custom Field types
+Custom Fields uses
+Set Custom Fields on tasks
+Show Custom Fields in tasks and views
+Go to ClickUp
+English (United States) 
+    
+Get Help

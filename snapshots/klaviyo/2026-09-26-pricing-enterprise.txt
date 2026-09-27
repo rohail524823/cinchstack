@@ -1,7 +1,7 @@
 SOURCE: https://www.klaviyo.com/pricing
-FETCHED: 2026-09-26T22:09:52.153Z
+FETCHED: 2026-09-26T22:15:26.405Z
 RENDERER: headless Chromium, en-US, US timezone
-METHOD: Clicked the "Enterprise" pricing tab, then clicked each of the 11 FAQ questions to expand the answers; saved document.body.innerText.
+METHOD: Clicked the "Enterprise" pricing tab; saved document.body.innerText, then clicked each of the 11 FAQ questions open and appended each question's row text.
 ----
 ___
 Skip to main content
@@ -105,13 +105,11 @@ What is Klaviyo Advanced?
 How is Klaviyo Advanced priced?
 Can I customize the products included in Klaviyo Advanced?
 Are there discounts for choosing Klaviyo Advanced?
-Yes. Klaviyo Advanced is priced to cost less than purchasing each included product separately as an add-on to Standard.
 What are Composer Credits?
 What are Mobile Credits?
 What support is included with Klaviyo Enterprise?
 Are there any setup or onboarding fees for Klaviyo?
 What happens if I exceed my plan limits?
-We'll notify you in advance and provide easy options to upgrade. There are no surprise overage fees.
 COMPANY
 About Klaviyo
 Newsroom
@@ -190,3 +188,38 @@ Trust
 Intellectual Property Notices
 Cookie Settings
 Your Privacy Preferences
+
+==== FAQ ANSWERS (each question clicked open, its row text saved) ====
+
+What's included in every Klaviyo enterprise plan?
+Every Klaviyo enterprise plan — Standard and Advanced — includes custom integrations and features, enterprise-grade security and compliance, omnichannel personalization, audience and conversion dashboards, marketing and segment performance reports, unified lifetime profiles, real-time segmentation, email/SMS/push (usage limits apply), AI-powered recommendations and marketing automation, and multi-brand management.
+
+What's the difference between Klaviyo Standard and Klaviyo Advanced?
+Both tiers include the full core platform above. Klaviyo Advanced additionally includes Advanced Personalization, Data Warehouse Sync, Advanced Data Management, Customer Hub, and Social — all of which are available to Klaviyo Standard only as separate add-ons.
+
+What is Klaviyo Advanced?
+Klaviyo Advanced is our most complete package for brands with advanced marketing needs. It brings together Advanced Personalization, Data Warehouse Sync, Advanced Data Management, Customer Hub, and Social with the full Klaviyo platform — billed under one metric: active profiles.
+
+How is Klaviyo Advanced priced?
+Klaviyo Advanced is priced based on your number of active profiles, giving you one predictable line item instead of separate bills for each product. Email, SMS, and push sends are purchased separately based on usage.
+
+Can I customize the products included in Klaviyo Advanced?
+Klaviyo Advanced is a fixed package, so the products inside it can't be swapped out individually. Advanced Personalization, Data Warehouse Sync, and Customer Hub are also available on their own as add-ons to Klaviyo Standard.
+
+Are there discounts for choosing Klaviyo Advanced?
+Yes. Klaviyo Advanced is priced to cost less than purchasing each included product separately as an add-on to Standard.
+
+What are Composer Credits?
+Composer Credits are a usage-based line item tied to Composer, currently in public beta, and apply to both Klaviyo Standard and Klaviyo Advanced.
+
+What are Mobile Credits?
+Mobile Credits are a usage-based add-on available on both Klaviyo Standard and Klaviyo Advanced.
+
+What support is included with Klaviyo Enterprise?
+All Klaviyo enterprise plans include Standard Klaviyo Support. Comprehensive Enterprise Support is available as an add-on on both Standard and Advanced.
+
+Are there any setup or onboarding fees for Klaviyo?
+We do not charge hidden fees. Some plans include onboarding support — for larger implementations, we offer optional paid professional services.
+
+What happens if I exceed my plan limits?
+We'll notify you in advance and provide easy options to upgrade. There are no surprise overage fees.

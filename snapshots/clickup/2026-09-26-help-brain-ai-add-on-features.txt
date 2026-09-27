@@ -1,0 +1,116 @@
+SOURCE: https://help.clickup.com/hc/en-us/articles/40085008147863-Which-features-are-included-with-the-Brain-AI-add-ons
+FETCHED: 2026-09-26T22:50:26.894Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+ Toggle navigation menu
+Search
+Ask me anything
+ClickUp Help
+ClickUp Brain AI
+Intro to ClickUp Brain AI
+Which features are included with the Brain AI add-ons?
+
+ClickUp Brain AI is purchased as add-ons to your plan. This article explains which Brain AI features are available in each add-on.
+
+Feature availability and limits vary by plan and user role. Learn more
+
+Some Workspaces see a new set of plans that include more ClickUp AI. Your current plan and features do not change.
+
+Skills extend Brain and Super Agent capabilities. Learn more
+
+AI add-ons
+
+This table details the pricing model and features included in the add-ons:
+
+Add-on	Details
+Bundle and save: Everything AI add-on (Formerly AI Autopilot Bundle)	The Everything AI add-on is purchased per Workspace member per month and automatically renews.
+Brain AI (Formerly AI Standard)	Get unlimited access to Brain. The Brain AI add-on is purchased per Workspace member per month and automatically renews.
+AI Talk to Text	Use your voice to quickly create comments and content across ClickUp.
+The AI Talk to Text add-on is purchased per Workspace member per month and automatically renews. It includes unlimited transcription.
+AI Notetaker	The AI Notetaker add-on includes 20 free hours. To add more, purchase a monthly block of hours. Blocks start at $12 per month for 60 hours.
+AI Super Credits	AI Credits fuel your Workspace's Super Agents. They do not roll over into the next month and automatically renew.
+AI Super Credits are currently $0.001 per credit. You can purchase credits monthly in $10 increments.
+For example, if you purchase $10 of credits, you'll have a usage limit of 10,000 AI Super Credits that month across the features included in the AI Super Credit add-on.
+Features included with the AI add-ons
+
+This table details each feature included in the AI add-ons:
+
+Brain AI add-on	Features included	Features not included
+Brain AI	Unlimited fair use of:
+Brain (sometimes called Brain Assistant)
+Premium AI models and AI Reasoning
+Project Summaries and Updates
+AI Writing
+Web Search and Research
+Brain MAX apps
+1,500 AI Super Credits per user, per month for use of:
+Super Agents
+AI Fields
+AI Assign and Prioritize
+AI Cards
+Ambient Answers
+Autopilot Agents
+Image generation
+25,000 words shared across the Workspace for use of:
+AI Talk to Text (this limit does not reset)	AI Notetaker
+AI Time-Blocking
+1:1 live onboarding with an AI expert
+Everything AI	Unlimited fair use of:
+Brain
+Premium AI models and AI Reasoning
+Project Summaries and Updates
+AI Writing
+Web Search and Research
+Brain MAX apps
+AI Fields
+AI Assign and Prioritize
+AI Cards
+Ambient Answers
+Autopilot Agents
+Image generation
+AI Notetaker
+AI Time-Blocking
+5,000 AI Super Credits per user, per month for use of:
+Super Agents
+MCP Server rate limits aligned with our public API rate limits.
+Two hours of:
+1:1 live onboarding with an AI expert	
+AI Super Credits	Super Agents
+AI Fields
+AI Assign and Prioritize
+AI Cards
+Ambient Answers
+Autopilot Agents
+Image generation	Brain
+Premium AI models and AI Reasoning
+Project Summaries and Updates
+AI Writing
+Web Search and Research
+Brain MAX apps
+1:1 live onboarding with an AI expert
+Was this article helpful?
+Related articles
+ClickUp Brain AI feature availability and limits
+What is ClickUp Brain AI?
+Collaborate with ClickUp Brain anywhere in your Workspace
+Notification settings
+Intro to the integration with Slack
+Articles in this section 
+What is ClickUp Brain AI?
+Perform data analysis with ClickUp Brain AI
+Which features are included with the Brain AI add-ons?
+How can Brain help my team?
+ClickUp Brain Memory
+Collaborate with ClickUp Brain anywhere in your Workspace
+AI Hub
+@mention Brain
+Analyze spreadsheets with Brain AI
+Use Brain on task comments
+
+See all 15 articles
+
+Go to ClickUp
+English (United States) 
+    
+Get Help

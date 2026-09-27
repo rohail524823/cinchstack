@@ -1,0 +1,283 @@
+SOURCE: https://seranking.com/de/subscription.html
+FETCHED: 2026-09-26T22:56:07.484Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Lösungen
+Tools
+Ressourcen
+Pakete & Preise
+DE
+Anmelden
+Kostenlos Testen
+Mach dich sichtbar – in der klassischen Suche und in KI-Antworten
+Monatlich
+Jährlich 20 % sparen
+
+Kostenlose Migration mit Jahresabo
+
+Core
+SEO + GEO für Marketing-Teams mit skalierbaren Prozessen
+$103.20
+$129.00
+/Mo.
+Kostenlos Testen
+Keine Kreditkarte erforderlich
+10 Projekte & 1 Manager-Platz
+2.000 Keywords & 100 Prompts im täglichen Tracking
+5 Domains in der GEO-Recherche
+250.000 Seiten pro Monat im Website-Audit
+25.000 API-Credits & MCP-Zugang
+Mehr Kapazität nötig? Du kannst jederzeit flexibel erweitern.
+Im Tarif enthalten:
+Rank-Tracking für alle großen Suchmaschinen
+Unbegrenzte Keyword-, Wettbewerbs- & Backlink-Analysen
+Website- & Onpage-Audits
+Integrationen: Data Studio / Matomo / GA / GSC
+Growth
+Automatisierung und Zusammenarbeit für Multi-Client SEO & GEO
+$223.20
+$279.00
+/Mo.
+Kostenlos Testen
+Keine Kreditkarte erforderlich
+30 Projekte & 3 Manager-Plätze
+5.000 Keywords & 250 Prompts im täglichen Tracking
+15 Domains in der GEO-Recherche
+2 Mio. Seiten pro Monat im Website-Audit
+100.000 API credits & MCP access
+Mehr Kapazität nötig? Du kannst jederzeit flexibel erweitern.
+Alles aus Core plus:
+Historische Daten über die gesamte Projektlaufzeit
+Gast-Links für einfache Zusammenarbeit
+Monitoring von Seitenänderungen
+Voller Support
+Enterprise
+Maßgeschneiderte SEO- & GEO-Plattform für große Teams und komplexe Anforderungen
+Flexible Vertragsmodelle
+Individuelle Limits und Preise
+Voller API-Zugriff & erweiterte Integrationen
+Sales kontaktieren
+Pläne vergleichen
+Konfiguriere das perfekte Setup für deinen Workflow
+
+Füge jederzeit zusätzliche Features hinzu
+
+Kundenprojekte ganzheitlich steuern
+ADD-ON
+Agency Pack
+
+White-Label-Reporting und Kunden-Tools – speziell für Agenturen
+
++$69.00
+/Mo.
+Nur jährliche Abrechnung
+30 Projekte
+30 Kundenplätze
+White-Label für Plattform und Reporting
+Unbegrenzte automatisierte Reports & KI-Zusammenfassungen
+Platzierung im Agentur-Katalog
+Lead-Generator
+KI-Sichtbarkeit jeder Marke aufdecken
+ADD-ON
+AI Search
+
+Tracke, analysiere und optimiere deine Markensichtbarkeit auf führenden KI-Plattformen
+
++$71.20
+$89.00
+/Mo.
+Jährliche Abrechnung
+200 Prompts
+KI-Ergebnis-Tracker: AI Overviews, AI Mode, Perplexity, ChatGPT
+Unbegrenzte Wettbewerbsanalyse in AI Overviews, AI Mode, Perplexity und ChatGPT
+Zugang zu   (200 Prompts): Ein strategisches Dashboard zur Analyse von Markenerwähnungen, Zitierungen und Sentiment-Trends
+Datenerfassung und Reporting automatisieren
+ADD-ON
+API
+
+Automatisiere dein Reporting, führe Bulk-SEO-Analysen durch und rufe strukturierte SEO-Daten ab
+
++$45.00
+/Mo.
+Nur jährliche Abrechnung
+3 Mio. Credits
+Backlinks API
+Domain-Analyse API
+Keyword-Recherche API
+AI Search API
+Website-Audit API
+Kostenlos Testen
+Miss den Wert der LLM-Sichtbarkeit in deinem Ökosystem
+
+Verbinde KI-Erwähnungen deiner Marke mit organischen und sozialen Signalen über Planable und die Data API. So siehst du, was sich verändert und was es treibt.
+
+SMM-PLATFORM
+Social-Media-Management-Plattform zum Planen, Zusammenarbeiten, Analysieren & Veröffentlichen
+
+Ab
+
+$33.00
+/Mo.
+20 % Rabatt mit SE Ranking
+Sales kontaktieren
+Multi-Channel-Planung für Social Media
+Team-Kollaboration & Freigabe-Workflows
+Content-Kalender & Planungstools
+Analytics & Performance-Reporting
+Brand-Asset-Bibliothek
+SEO-DATEN
+SE Ranking API
+Programmatischer Zugriff auf SEO- und GEO-Daten in Echtzeit, über das eigenständige API-Paket von SE Ranking
+
+Ab
+
+$179.00
+/Mo.
+Nur jährliche Abrechnung
+Mengenrabatte, wenn du skalierst
+Sales kontaktieren
+Analysiere 12 Mio. Backlinks / 120.000 Domains / 15.000 AI-Search-Anfragen und mehr
+Verbinde SE Ranking-Daten über MCP mit KI-Assistenten
+Reichere deine Produkte und Workflows mit Live-SEO-Daten an
+Baue SEO-Automatisierungen mit Data Studio, n8n und Make
+Häufig gestellte Fragen
+Q
+Was bietet die kostenlose 14-Tage-Testversion?
+A
+
+Die kostenlose 14-Tage-Testphase ist voll funktionsfähig und beinhaltet ein Start-Kontingent: bis zu 10 Projekte, 750 Keywords pro Tag, 20 KI-Prompts pro Tag und KI-Wettbewerbsanalyse für bis zu 3 Domains (mit unbegrenzten Reports). Wenn du mehr Kapazität benötigst, kannst du auf einen kostenpflichtigen Plan upgraden.
+
+Q
+Kann ich kündigen oder eine Erstattung erhalten?
+A
+
+Du kannst jederzeit kündigen. Zahlungen sind nicht erstattungsfähig, außer der Service wurde nicht wie versprochen erbracht (oder eine Sonderaktion sieht etwas anderes vor). Wenn du glaubst, Anspruch auf eine Erstattung zu haben, kontaktiere den Support und wir prüfen deinen Fall.
+
+Q
+Kann ich den Jahresplan wählen und monatlich zahlen?
+A
+
+Jahrespläne werden im Voraus abgerechnet, um den vergünstigten Tarif zu ermöglichen. Wenden Sie sich an unser Vertriebsteam, um Optionen zu besprechen, z. B. eine vierteljährliche Zahlungsweise bei jährlicher Laufzeit.
+
+Q
+Können mehrere Personen denselben Login nutzen?
+A
+
+Wir raten davon ab. Es ist nur eine aktive Sitzung gleichzeitig erlaubt. Wenn sich jemand anderes einloggt, wirst du aufgefordert, die Sitzung zu übergeben. Für die Zusammenarbeit füge bitte Nutzer hinzu oder nutze Gast-Links, wenn ein reiner Lesezugriff ausreicht.
+
+Q
+Kann ich ein individuelles Angebot erhalten?
+A
+
+Individuelle Pläne sind verfügbar, wenn du Limits benötigst, die über unsere vorkonfigurierten Pakete hinausgehen. Kontaktiere den Sales und wir stellen die passende Option für dein Team zusammen.
+
+Q
+Welchen Support erhalte ich nach dem Kauf?
+A
+
+Alle Kunden haben Zugriff auf das Help Center, Academy-Ressourcen sowie Chat- und E-Mail-Support. Höhere Pakete beinhalten zusätzlich Customer-Success-Support (z. B. Onboarding und laufende Betreuung).
+
+Q
+Erhalte ich persönlichen Support und Migrationshilfe?
+A
+
+Ja – bei Jahresabos ist eine kostenlose, begleitete Migration verfügbar. Wenn du ein Monatsabo nutzt, kannst du über unsere Self-Service-Import-Optionen migrieren, und der Support hilft dir bei Problemen weiter.
+
+Q
+Wie kann ich Daten migrieren oder ins System importieren?
+A
+
+Du kannst Projekte und Ranking-Historien über die integrierten Migrationsoptionen importieren. Falls deine vorherige Plattform nicht gelistet ist oder du auf Probleme stößt, kontaktiere den Support – wir helfen dir beim Umzug der Daten.
+
+Q
+Kann ich Features aus anderen Paketen einzeln dazubuchen?
+A
+
+Nein, die Features sind fest an das jeweilige Paket gebunden. Um Zugriff auf neue Feature-Sets zu erhalten, musst du ein Upgrade durchführen. Du kannst dein Setup jedoch mit Add-ons erweitern (sofern verfügbar) und zusätzliche Limits wie Keywords oder Nutzerplätze hinzukaufen.
+
+Q
+Kann ich Planable und SE Ranking zusammen im Bundle kaufen?
+A
+
+Ja. Planable ist ein eigenständiges Social-Media-Management-Produkt, aber als „Planable + SE Ranking“-Bundle verfügbar. Wenn du beide zusammen kaufst, erhältst du den Bundle-Preis (ein Rabatt gegenüber dem Einzelkauf). Wenn du bereits eines der Produkte nutzt, kann der Sales das Bundle-Angebot anwenden, wenn du das andere hinzufügst. Bei Problemen wende dich bitte an den Support.
+
+Q
+Wie kann ich auf monatliche, jährliche oder individuelle Konditionen upgraden?
+A
+
+Du kannst jederzeit in deinen Abrechnungseinstellungen ein Upgrade oder Downgrade durchführen, indem du „Plan ändern“ wählst. Wenn du individuelle Limits benötigst (über die Standard-Pakete hinaus), kontaktiere den Support oder Sales – wir helfen dir bei der Einrichtung.
+
+Unsicher, welcher Plan passt?
+
+Buche eine Demo – gemeinsam stellen wir die passenden Limits, Add-ons und Konditionen für dein Team zusammen: Core, Growth oder eine individuelle Enterprise-Lösung.
+
+Demo vereinbaren
+
+Keine Kreditkarte erforderlich
+
+Profis weltweit vertrauen uns
+1
+/
+4
+
+„Als Agenturinhaber kann ich das SEO-Tool SE Ranking nur wärmstens empfehlen. Es bietet eine praktische und unkomplizierte Möglichkeit, den digitalen Fußabdruck einer Webseite zu analysieren und zu verbessern.“
+
+Julian Hofmann
+SEO Experte & Agenturinhaber JSH
+
+„SE Ranking ist eines meiner Lieblings-SEO-Tools: Leistungsstark und einfach zu bedienen – die perfekte Unterstützung für meine täglichen SEO-Aktivitäten.“
+
+Aleyda Solis
+Internationale SEO-Beraterin & Gründerin von Orainti
+
+„SE Ranking ist seit Jahren fester Bestandteil unseres SEO-Stacks. Die Plattform überzeugt durch ihre Funktionsvielfalt und passt sich laufend neuen SEO-Herausforderungen an. Eine klare Empfehlung!“
+
+Christopher Schwab
+Inhaber von CSW.AGENCY
+
+„Am besten gefallen mir dir automatischen Berichte. Sie sind bis auf Kundenebene sehr gut anpassbar und man hat auch die Möglichkeit, sie nach eigenen Vorstellungen zu gestalten.“
+
+Bram van den Heuvel
+CEO bei Brijn Webproducts BV
+
+4.8
+
+4.9
+
+4.7
+
+4.0
+
+SEO Tools
+SEO Konkurrenzanalyse-Tool
+Kostenloses Keyword-Recherche-Tool
+SEO-Check
+Backlink Checker
+Backlink-Management
+SEO Onpage-Analyse-Tool
+Website-Audit
+Website-Traffic-Analyse
+SEO-Reporting-Tool
+Alle Funktionen
+SE Ranking Unternehmen & Ressourcen
+Blog
+Über uns
+Jobs
+Was ist neu?
+Testimonials
+Webinare
+Kostenlose Tools
+Hilfe & Partnership
+Kontaktiere uns
+Hilfe
+Affiliate-Programms
+Rechtliches & Technisches
+Datenschutzerklärung
+Cookie-Richtlinie
+SE Ranking Rechtsinformation
+Open-Source-Zuordnungen
+Impressum
+Herunterladen
+DE
+Deutsch
+© 2013 - 2026 SER Acquisition Inc. Alle Rechte vorbehalten

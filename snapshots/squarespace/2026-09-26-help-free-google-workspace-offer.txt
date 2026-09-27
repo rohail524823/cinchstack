@@ -1,0 +1,162 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/206537337-Free-Google-Workspace-offer
+FETCHED: 2026-09-26T22:14:04.614Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+PROFESSIONAL EMAIL
+GOOGLE WORKSPACE BILLING
+Free Google Workspace offer
+Claim a free year of the Google Workspace Starter plan.
+
+Last updated July 9, 2026
+
+English
+
+We offer a free year of the Google Workspace Starter plan to customers with websites on our higher subscription tiers. To qualify for the offer, you must meet the free offer eligibility requirements and the general requirements to sign up for Google Workspace through Squarespace.
+
+Note
+
+After the first year of service, your Google Workspace account renews at the standard rate. If you don't want it to renew, disable auto-renew.
+
+Watch a video
+Free Google Workspace offer eligibility
+
+To qualify for the free offer, you must meet the general requirements to sign up for Google Workspace through Squarespace, and these additional requirements.
+
+Squarespace website subscription
+You must sign up for Google Workspace from a website within its first year on the Core, Plus, Advanced, Business, Commerce Basic, or Commerce Advanced plans. If you upgraded to one of these plans, you must be within a year of the upgrade.
+If you’re on a monthly billing cycle, your subscription must be set to auto-renew.
+Google Workspace plan - You must choose the Google Workspace Starter plan.
+Domain - Your Squarespace domain must share billing and admin permissions with an eligible website. Third-party domains must be connected to an eligible site. To learn more about how your domain and website configuration can affect your free offer eligibility, review these domain scenarios.
+Check your free offer eligibility
+
+To check your eligibility for a free year of the Google Workspace Starter plan:
+
+Open the Google Workspace panel.
+Complete the signup steps and select the Google Workspace Starter plan.
+You’re eligible if Free Google Workspace Inbox appears in the order summary.
+
+Keep in mind, the free offer won’t display until you reach the checkout page.
+
+Offer terms
+The offer is valid for one new user (email address) per website on a valid website plan. You can add more users at the full price.
+If you sign up for a monthly billing plan, you need to keep auto-renew enabled to receive the full year for free.
+If you cancel your Google Workspace account or disable auto-renew for Google Workspace during the free year, we'll suspend the Google Workspace account at the end of your next billing cycle (either monthly or annual). You'll need to pay to reactivate the account.
+Claim your offer
+
+To claim this free offer:
+
+Ensure you meet our eligibility requirements. If needed, upgrade your website plan.
+Open the domains dashboard, then click the domain linked to the Google Workspace account you'd like to manage.
+Click Email.
+Click Get Started.
+Choose if you would like to pay Monthly or Annually, then click Select and choose the Starter plan. If you're eligible, the price will adjust on the review page.
+Follow the steps in Signing up for Google Workspace.
+Domain scenarios
+
+There are several ways custom domains can work with Squarespace websites. Review this section to learn about your setup and what it means for your free offer eligibility. These are the most common scenarios you may be in.
+
+ 	Scenario	Free offer implications
+1	You have a Squarespace domain that you manage on a Squarespace website.	If the website subscription is eligible, you can claim the free offer.
+2	You have a third-party domain that’s connected to a Squarespace website.	If the website subscription is eligible and the domain is connected correctly, you can claim the free offer.
+3	You have a Squarespace domain that you manage on a parking page, and the domain is not connected to a Squarespace website.	You can’t claim the free offer. But you can still sign up for Google Workspace through your parking page and pay full price.
+4	You have a Squarespace domain you manage on a parking page, and the domain is connected to an eligible Squarespace website.	
+
+Your Squarespace domain must share billing and permission settings with the eligible site, so you need to fully move the domain to the website to claim the free offer.
+
+If you don’t want to move the domain, you can still sign up for Google Workspace through the domain’s parking page and pay full price.
+
+Troubleshooting
+My domain is already associated with an inactive Google Workspace account
+
+If your domain is associated with an inactive Google Workspace account, you can follow these steps to free up your domain and sign up for Google Workspace again through Squarespace.
+
+I signed up for Google Workspace outside of Squarespace before learning about the free offer. What are my options?
+
+We recommend continuing with your existing Google Workspace subscription to prevent disruptions to your email service, users, and settings. It’s not possible to transfer an existing Google Workspace account to Squarespace.
+
+I signed up for an ineligible Google Workspace plan through Squarespace before learning about the free offer. What are my options?
+
+It’s not possible to downgrade your Google Workspace plan through Squarespace after you sign up, which means you can’t claim the free offer.
+
+I didn’t receive the offer but I should be eligible
+
+If you’re eligible for a free year of Google Workspace but didn’t receive the offer, we may be able to apply the offer retroactively. For help with this:
+
+Review our free offer eligibility requirements to ensure you qualify.
+Ensure you followed all the steps to claim your offer. If you're eligible, the price will adjust on the checkout page after you select your billing cycle.
+If the offer still doesn’t appear, contact us.
+IN THIS GUIDE
+Watch a video
+Free Google Workspace offer eligibility
+Offer terms
+Claim your offer
+Domain scenarios
+Troubleshooting
+My domain is already associated with an inactive Google Workspace account
+I signed up for Google Workspace outside of Squarespace before learning about the free offer. What are my options?
+I signed up for an ineligible Google Workspace plan through Squarespace before learning about the free offer. What are my options?
+I didn’t receive the offer but I should be eligible
+People also viewed
+
+Using Google Workspace with Squarespace
+
+Signing up for Google Workspace
+
+Fix Google Workspace errors and issues
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎

@@ -1,0 +1,83 @@
+SOURCE: https://help.ahrefs.com/en/articles/14057378-how-does-upgrading-your-ahrefs-subscription-work
+FETCHED: 2026-09-26T22:45:57.053Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+English
+Français
+Bahasa Indonesia
+日本語
+한국어
+Português
+简体中文
+Español
+English
+Search for articles...
+All Collections
+Account Access and Billing
+Your Subscription
+How does upgrading your Ahrefs subscription work?
+How does upgrading your Ahrefs subscription work?
+
+In this article, we explain how to upgrade your Ahrefs subscription and how upgrade charges are calculated
+
+Written by Anna
+Updated over 3 weeks ago
+How to upgrade your subscription
+
+While logged in, go to https://app.ahrefs.com/pricing and select a higher plan:
+
+ 
+
+ 
+
+Once you choose the plan to upgrade to, a payment will be triggered. Once that's successful, your upgraded subscription will be active on your account.
+
+ 
+
+How does billing work when I upgrade my subscription?
+
+When you upgrade your Ahrefs subscription, you don’t pay the full monthly price again. Instead, we charge only the difference between your current plan and the new plan, adjusted for the remaining time in your billing cycle.
+
+ 
+
+How upgrade charges are calculated
+
+When you upgrade your plan:
+
+The system calculates the price difference between the two plans.
+
+You are charged only for the remaining time in your current billing period.
+
+Your billing cycle does not change.
+
+Here's an example of how the upgrade charges will be calculated
+
+If you upgrade your plan with 10 days remaining in your billing cycle, you’ll only pay the pro-rated difference between the two plans for those 10 days.
+
+ 
+
+What happens after upgrading?
+
+The upgrade is applied immediately.
+
+You get instant access to the features of the new plan.
+
+Your next invoice will reflect the full price of the new plan for the next billing cycle.
+
+Related Articles
+How do I unsubscribe / cancel my subscription / delete my account?
+Can I subscribe to Ahrefs services for 1 month?
+Ahrefs' usage-based pricing for credit-based plans
+What's the difference between all Ahrefs subscription plans?
+Getting started with Ahrefs MCP
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+How to upgrade your subscription
+How does billing work when I upgrade my subscription?
+Ahrefs AcademyBlogYouTubePricing

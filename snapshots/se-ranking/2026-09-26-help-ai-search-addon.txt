@@ -1,0 +1,160 @@
+SOURCE: https://help.seranking.com/hc/en-us/articles/22120452776476-AI-Search-Add-on
+FETCHED: 2026-09-26T22:49:56.772Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Start free trial
+Getting Started
+Getting Started
+Create your first project
+Set up agency account
+Onboarding checklists
+Quickstart video tutorials
+Documentation
+Tools
+Project tools
+Website Audit tools
+SEO Research tools
+Backlink Tools
+AI Toolkit
+SEO Reporting
+Documentation
+Getting Started
+FAQ
+User account & settings
+Integrations
+Mobile App
+API
+Add-ons
+Agency pack
+Local Marketing
+Content Marketing
+Resources
+Education
+Blog Thorough SEO guides, client case studies, and more
+Webinars On-demand and upcoming online events with industry experts
+Academy Practical online courses for SEO experts and agency owners
+Other
+Request demo Request a free demo to see our tools and integrations in action
+What’s new Latest product updates from the SE Ranking team
+Podcast Engaging talks with seasoned SEO experts on hot topics
+Featured
+Free course
+Agency Profitability in 2026
+EN English  DE Deutsch ES Español FR Français あ 日本語 RU Русский
+Sign in Start free trial
+Knowledge Base
+AI Search
+Research
+  Articles in this section
+AI Search in Competitive Research
+AI Search Add-on
+AI Search Add-on
+
+Availability: Core, Growth and Enterprise plans
+
+What is the AI Search Add-on?
+What’s included
+Pricing
+FAQ
+What is the AI Search Add-on?
+
+The AI Search Add-on extends SE Ranking’s AI functionality and helps you track, analyze, and optimize brand visibility across leading AI platforms.
+
+The Add-on works directly inside your SE Ranking account and does not require additional tools or integrations.
+
+While AI Search features are available as part of SE Ranking subscription plans, the Add-on provides extended limits and advanced capabilities for teams working with multiple brands and larger datasets.
+
+What’s included
+
+AI Results Tracker: extended limits
+
+Additional tracking limits across all supported AI platforms:
+
+AI Overviews
+AI Mode
+ChatGPT
+Perplexity
+Gemini
+
+AI Research in Competitive Research: expanded scale
+
+AI Research is available in SE Ranking subscription plans with defined limits. With the AI Search Add-on, users can:
+
+Analyze an unlimited number of brands
+Conduct AI Research across five AI engines without brand-based restrictions
+
+This is designed for agencies and teams managing multiple projects.
+
+Access to SE Visible 
+
+The AI Search Add-on includes access to SE Visible , a standalone product focused on strategic AI visibility insights.
+
+Note: AI Research in Competitive Research is available with defined limits in subscription plans and can be expanded with the AI Search Add-on.
+
+Pricing
+
+1 check = 1 prompt + 1 AI platform
+
+Example: tracking one prompt across all five supported AI engines (AI Overviews, AI Mode, ChatGPT, Perplexity and Gemini) uses five checks — one check per prompt, per engine.
+CHECKS PER MONTH	MONTHLY PRICE	ANNUAL (-20%)
+200	$89	$71.20
+450	$179	$143.20
+1000	$345	$276
+
+Need more than 1000 checks? Contact our SE Ranking Team to discuss a volume-based package.
+
+FAQ
+
+Q What’s the difference between SE Visible and the AI Search Add-on?
+
+A SE Visible is a standalone product designed for marketing leaders and agencies who need a strategic overview of brand visibility across AI platforms.
+
+The AI Search Add-on expands AI functionality inside SE Ranking and supports operational workflows, including:
+
+AI prompts monitoring
+AI sources analysis
+AI visibility tracking
+AI competitive research
+
+These tools serve different use cases and can be used together.
+
+Q What’s planned for the AI Search Add-on?
+
+A The AI Search Add-on continues to evolve and is expected to include:
+
+More detailed competitive research with gap identification
+Additional actionable insights and recommendations
+Advanced prompts research capabilities
+
+Q What if the tracking limits included in the Add-on are not enough?
+
+A The AI Search Add-on is available in predefined tracking packages, allowing you to choose a starting limit that fits your needs. If the selected package does not provide sufficient tracking capacity, you can upgrade to a larger package at any time. For advanced requirements, it is also possible to request a custom package with a specific number of checks by contacting the Sales team.
+
+Q How do I get access to SE Visible after purchasing the Add-on?
+
+A After purchasing the AI Search Add-on:
+
+A SE Visible switcher becomes available in your SE Ranking account
+Use the switcher to proceed to SE Visible
+
+Complete a separate registration for SE Visible (no additional payment required)
+You will receive an email to set up your account password
+After logging in, set up your brand manually
+
+Brands are not created automatically because SE Visible uses a separate analysis system. Once setup is complete, you can use SE Visible with full access included in the Add-on.
+
+Q How do AI Search limits and “checks” work?
+
+A Your subscription plan and AI Search Add-on package each include a set number of checks per month. As shown in the Pricing section above, 1 check = 1 prompt tracked on 1 AI platform — so tracking one prompt across three platforms (for example ChatGPT, Gemini and Perplexity) uses three checks. When your monthly checks are used up, you will see a “limit reached” message and won’t be able to add another prompt or website until the limit renews or you upgrade to a larger package.
+
+Was this article helpful?
+Yes No
+3 out of 5 found this helpful
+Have more questions? Submit a request
+Return to top 
+ Knowledge Base
+© 2013 - 2026 SER Acquisition Inc. All Rights Reserved
+    
+seranking.com

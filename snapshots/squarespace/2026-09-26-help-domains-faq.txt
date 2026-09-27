@@ -1,0 +1,324 @@
+SOURCE: https://support.squarespace.com/hc/en-us/articles/205812208-Squarespace-domains-FAQ
+FETCHED: 2026-09-26T22:46:54.424Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+SKIP TO CHAT
+SQUARESPACE
+Help Center
+VIDEOS
+WEBINARS
+FORUM
+CONTACT US
+LOG IN
+SEARCH
+SQUARESPACE HELP CENTER
+DOMAINS
+REGISTERING SQUARESPACE DOMAINS
+Squarespace domains FAQ
+Some answers to common questions about registering domains through Squarespace.
+
+Last updated August 12, 2026
+
+English
+Getting started
+Can I register a domain with Squarespace?
+
+Yes. If your site is on a trial or a paid plan, you can purchase domains through Squarespace. If you're on an annual billing cycle, you may be eligible to register one domain for free.
+
+Can I transfer a domain to Squarespace?
+
+Yes. If you already have a third-party domain, but you'd prefer to manage it through Squarespace, you can transfer it. Note that your domain must be eligible for transfer.
+
+How long will it take to transfer a domain to Squarespace?
+
+Transferring a domain to Squarespace can take anywhere from one to 15 days. The speed depends on the domain provider you're starting with, but sometimes you can speed up the process.
+
+To learn more, visit Domain transfer timing.
+
+How much does it cost?
+
+All Squarespace sites within the first year of their an annual billing cycle include one free custom domain. This domain is free for its first year. Only select TLDs are eligible. Additional domains vary in price based on the TLD. For example, common TLDs like .com and .org are $20 per year, and other TLDs like .photography .media are $30 and $50 per year. To find a domain's price, you can search for it on the domain name search page or your domains dashboard.
+
+How do I get a free domain?
+
+All Squarespace sites on an annual billing cycle include one custom domain, free for its first year. To get started, visit Free Squarespace domain offer.
+
+Can I get more domains after getting my free domain?
+
+Yes. If you already claimed your one free domain, you can register more domains. Additional domains vary in price based on TLD. To find a domain's price, you can search for it on the domain name search page or your domains dashboard.
+
+Can I get a domain if I’m on a monthly plan?
+
+Yes. If you’re on a monthly billing cycle, you can now register domains for its listed price. To find a domain's price, you can search for it on the domain name search page or your domains dashboard.
+
+What TLDs are available?
+
+A TLD is the last part of a domain name after the ".", like .com or .pizza. You can choose from 200+ TLDs, including the most common options:
+
+.com
+.net
+.org
+.biz
+.info
+Can I buy a domain with a TLD specific to my country?
+
+Yes. You can view our list of the country code top-level domains (ccTLDs) available for purchase through Squarespace. The list also includes the specific requirements and features for each ccTLD.
+
+How many domains can I buy?
+
+You can register one free domain if you're on an annual billing cycle. You can register as many other domains as you want. Prices vary by TLD. 
+
+For example, if you're a business, you may want to buy multiple variations of your domain, like yourdomain.com, yourdomain.net, or yourdomain.biz.
+
+How do I get email for my domain?
+
+You can get a custom email address to use with one Squarespace domain through our partnership with Google Workspace by Google.
+
+Are the www and non-www versions of my domain linked? 
+
+A domain without the "www" is called a naked domain. By default, all Squarespace domains come with the "www" domain and naked domain automatically linked. If visitors type "yourdomain.com" into the address bar, the URL automatically updates to "www.yourdomain.com" when they land on your site.
+
+Will I have domain or Whois privacy?
+
+Yes. Domain privacy is included for free with all domains registered through Squarespace. To learn more, visit Whois privacy.
+
+The domain I want isn't available
+
+If the domain isn't available, there are a few reasons why this might happen. The domain you entered could already be taken or it might contain too many characters.
+
+Why should I register multiple domains?
+
+Registering multiple domains provides visitors with more ways to find you, captures common misspellings, and keeps competitors from registering similar domain names. With some TLDs priced at just $20 per year, additional domain names can improve your online presence at a low cost.
+
+I received an email asking me to set data sharing settings for my domain
+
+After registering a new domain, you'll receive an email from customercare@squarespace.com asking you to set your data sharing preferences. One of our domain registrars, Tucows, requires that we send this email to comply with data regulations like GDPR. To view and edit that info, click the link in the email, or you can ignore it. Sharing your data is optional and your domain will work normally even if you don't take any action.
+
+Can I register a premium domain with Squarespace?
+
+Yes, you can register premium domains through Squarespace, depending on your TLD. Premium domains are generally shorter domains with common nouns or verbs as the part of the domain that comes before the top-level domain. Premium domains are popular, which means they may cost more to register than a standard domain. When you register a domain, you can recognize a premium domain by the "Premium" tag that appears next to the domain name.
+
+It's not currently possible to transfer premium domains into Squarespace. To use your existing premium domain with a Squarespace site, connect it to your site instead.
+
+Domain management
+Do I have a Squarespace-managed domain?
+
+Having a Squarespace-managed domain means your domain's DNS records are edited in the DNS Settings panel.
+
+You have a Squarespace-managed domain if one of the following is true about your domain:
+
+The domain is registered through Squarespace
+The domain is transferred into Squarespace as a third-party domain
+The domain is connected to Squarespace using Nameserver Connect
+The domain is registered through a Squarespace reseller, like Google Workspace or another third-party reseller. If you have a resold domain, Squarespace is your domain provider, but you may need to manage certain aspects of your domain with your reseller.
+Can I start again or rename a domain?
+
+Your domain name is important to your online presence, so you have a five-day grace period where you can change it before it becomes permanent.
+
+After this five-day grace period, the domain can't be changed. To learn more, visit Changing a Squarespace domain name.
+
+Can I remove the "www" from my domain?
+
+Yes. You can remove the "www" from your domain.
+
+You can only remove the "www" from a Squarespace domain you already registered, and it must be set as your primary domain.
+
+Unless you're absolutely sure that you want to only display your naked domain, this isn't always necessary. Without changing any settings, visitors can find your site with or without typing "www" before it. If they type "yourdomain.com," they'll be taken to your domain, and the "www.yourdomain.com" will appear. This is a fairly standard practice across the internet.
+
+How long can I keep my domain?
+
+After you register a domain, you own it and can keep it as long as you'd like. As long as you maintain your service with Squarespace, the domain will point to your Squarespace site for the exact length of your plan with us.
+
+Will Squarespace help me purchase a registered domain from someone else?
+
+We don't get involved or assist with third-party domain transactions. If you'd like to inquire about purchasing a domain, you can contact the domain's registrant by searching for the domain's public records at its registrar and determining how this can be accomplished.
+
+If the domain is registered with Squarespace Domains LLC or Squarespace Domains II LLC, you can contact the domain's registrant by filling out this domain contact form, however, the domain's registrant isn't required to respond to your inquiry.
+
+Why doesn't my site load when I go to my Squarespace domain?
+
+If your Squarespace domain isn’t directing to your site, review the following:
+
+If you recently registered your domain, ensure that you’ve verified ownership. If you don't verify your domain within 15 days, it will be temporarily suspended and might not direct to your site.
+Ensure that your domain is active and not expired.
+If you’ve changed any DNS settings, restore the original settings with the Website Defaults preset. Wait up to 48 hours for your settings to readjust.
+
+If you’re still having trouble, contact us, and we’ll help you troubleshoot further.
+
+Which site is my domain attached to?
+
+If you have multiple sites and domains under the same account, it can be difficult to keep track of the site where a domain is linked. For an overview of all your domains and their sites, visit your account dashboard and review the Domains tab.
+
+How do I update the owner of my domain?
+
+How you change the owner, also known as the registered name holder, of your domain depends on if your domain shares its billing and permission settings with a Squarespace website.
+
+If your domain shares billing and permission settings with a Squarespace website
+
+If you're the owner of your Squarespace site and domain, you can transfer ownership of the site and domain to another contributor on your site. To learn more about adding a contributor and changing the owner of your site and domain, visit Changing site ownership.
+
+If your domain doesn't share billing and permission settings with a Squarespace website
+
+If you're the current owner of a domain, you can transfer ownership of your domain to one of your domain managers. After you transfer ownership, the former owner, along with any other domain managers, will no longer have access to the domain. The new owner can add the domain managers back as needed. To learn how to change the owner of your domain, visit Changing domain ownership.
+
+Moving domains
+Can I move my domain between Squarespace sites?
+
+Yes. If you want to use your domain with a different Squarespace site, you can move the domain. For the step-by-step process and best practices, visit Moving a Squarespace domain between Squarespace sites.
+
+After the domain is moved, you can always cancel service or change the billing plan for your other site.
+
+Can I connect my Squarespace domain to another provider?
+
+Yes, this is possible. However, if you're moving your site to a different provider, we recommend transferring your domain to them instead.
+
+If you want to keep your domain registered with Squarespace and direct it to a third-party site, you can forward it or point it. We recommend reviewing the two options before setting up your records.
+
+Can I transfer my Squarespace domain to another provider?
+
+Yes. You can transfer your Squarespace domain by first unlocking it from within your site. To learn more, visit Transferring a Squarespace domain.
+
+If you want to close your Squarespace site entirely, you'll need to cancel service separately.
+
+Billing
+
+Note
+
+If you purchased your Squarespace domain from Google Workspace during the Google Workspace setup process, you'll need to contact Google Workspace for help with domain billing. This includes cancellations, enabling or disabling auto-renew, and updating payment information. To learn more about getting support for your resold domain, visit Managing domains registered through Google Workspace.
+
+Is renewal automatic?
+
+By default, all Squarespace domains are set to auto-renew, and you can see the renewal date for the domain in the domains dashboard. You'll receive an email 15 days before the renewal date letting you know you'll soon be charged for your domain subscription.
+
+If you don't want your domain to renew automatically, you can disable auto-renew in the domain details page. If you disable auto-renew and let your domain expire, someone else can register it and use it for their site. Even if you're not using your domain or site now, you may want to hold onto your domain for later.
+
+What happens if my renewal fails?
+
+If we can't charge the credit card on file for your site, your domain will remain active and past-due for 15 days. We'll make additional attempts to charge your card every five days after the initial failed charge. After the third attempt, 15 days after the payment was due, the domain will no longer resolve to your site. We highly recommend that you keep an active, valid credit card on file to ensure uninterrupted service.
+
+After 15 days, you'll have a 30-day grace period in which you can reactivate your domain. After 30 days (45 days total after the renewal date), the domain will be released back to the registrar.
+
+How do I update my payment information?
+
+You can update the billing method you use to pay for your domain by clicking the domain in your Domains dashboard, then clicking Billing.
+
+Can I add registration years to an already registered domain?
+
+Yes, you can extend the registration term length of a registered domain. Before adding years, you can review our list of registration term lengths per tld. 
+
+What happens to my free domain if I downgrade to monthly billing?
+
+If you switch from annual to monthly billing, your domain will expire at what would be the end of your annual billing cycle. You'll receive an email notification 30 days before the expiration date.
+
+If I upgrade from a monthly to annual billing cycle, can I get a refund for a domain I bought?
+
+We can’t convert a domain you already bought to a free domain. However, you can take advantage of this benefit by registering another domain for free. For example, you may want to register a .net version of your domain.
+
+What happens to my domain if I delete my Squarespace site?
+
+If you delete your Squarespace site, you'll have the option to either let your domain expire or renew it for a fee. If you renew, you'll continue to manage the domain through Squarespace.
+
+If you're moving your site to a different provider, we'd be sad to see you go, but you may want to transfer your domain to the new provider so it works with your new site.
+
+To review all of these options, visit What to do with your domain if you cancel your website.
+
+Can I get a refund for a domain?
+
+You can cancel your domain immediately and receive a refund within five days of registration. We don't offer refunds after this five-day grace period.
+
+Your primary domain can't be removed. If the domain you want to remove is your primary domain, first set a different primary domain.
+
+To cancel your domain immediately and receive a refund:
+
+Open your domains dashboard.
+Click the domain to remove.
+Click Delete domain, and then click Confirm. This can't be undone.
+
+To learn more about refunds, visit Refund policies.
+
+Do I have to pay to renew my one free domain?
+
+All free domains registered as of March 5, 2015 will be free for the first year of service. After one year of service, the domain will renew for $20. We'll charge the credit card connected to your site.
+
+If you registered a free domain prior to March 5, 2015, your domain will continue to renew for free every year that your site remains active.
+
+What happens if my site expires?
+
+If your site expires while your Squarespace domain is still active, you can continue managing your domain from the expired site. Alternatively, you can reactivate the site or move your domain to another site on your account.
+
+If you're canceling your site, review your domain options before canceling service.
+
+Why did the payment information on all of my domains change when I only updated the payment information on one domain?
+
+If you have multiple Squarespace domains, the billing information of your domains may be grouped. Changes you make to the payment information of one domain in a group will affect the billing information of all domains in the group. If your domains are grouped, you'll see a message letting you know which domains are grouped when updating the payment information on a domain. To manage the payment information of your domains separately, contact us for help ungrouping your domains.
+
+IN THIS GUIDE
+Getting started
+Domain management
+Moving domains
+Billing
+Is renewal automatic?
+What happens if my renewal fails?
+How do I update my payment information?
+Can I add registration years to an already registered domain?
+What happens to my free domain if I downgrade to monthly billing?
+If I upgrade from a monthly to annual billing cycle, can I get a refund for a domain I bought?
+What happens to my domain if I delete my Squarespace site?
+Can I get a refund for a domain?
+Do I have to pay to renew my one free domain?
+What happens if my site expires?
+Why did the payment information on all of my domains change when I only updated the payment information on one domain?
+People also viewed
+
+Free Squarespace domain offer
+
+Transferring a domain to a Squarespace site
+
+About the Google Domains migration to Squarespace
+
+Get help from our community
+
+Get help from our community on advanced customizations.
+
+SEARCH IN THE FORUMS
+→
+→
+Hire a Squarespace Expert
+
+Stand out online with the help of an experienced designer or developer.
+
+GET MATCHED
+→
+→
+ENGLISH
+SUPPORT
+CONTACT US
+SERVICE STATUS
+@SQUARESPACEHELP
+SQUARESPACE 5
+COMMUNITY
+FORUM
+HIRE A DESIGNER
+WEBINARS
+BLOG
+DEVELOPERS
+API DOCS
+CIRCLE
+DEVELOPER PLATFORM
+ENTERPRISE
+RESOURCES
+WEBSITE TEMPLATES
+WEBSITE DESIGN
+DOMAIN NAME SEARCH
+ONLINE STORES
+WEBSITE MARKETING
+TERMS OF SERVICE
+PRIVACY POLICY
+ YOUR PRIVACY CHOICES
+
+Help us improve
+
+Are these responses helpful?
+
+👍
+👎
