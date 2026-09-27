@@ -12,23 +12,22 @@ It is funded by affiliate commissions from some of the tools it covers. Which on
 
 ## Status
 
-**Planning complete; build starting.** The full plan is in [`docs/plan/`](docs/plan/) — start with [`00-summary.md`](docs/plan/00-summary.md).
-
-The current `index.html` is a holding page (it carries the Impact site-verification tag) and will be replaced by the Astro site.
+**Built and launching.** The site is an Astro build driven entirely by the data in `src/data/`. Owner tasks, the weekly jobs and how to change things safely are in [`docs/OPERATIONS.md`](docs/OPERATIONS.md). The plan behind it is in [`docs/plan/`](docs/plan/); start with [`00-summary.md`](docs/plan/00-summary.md).
 
 ## Stack
 
 Astro · TypeScript · JSON data with zod schemas · one CSS file · zero client JS on content pages · Netlify · GitHub Actions for weekly price verification.
 
-## Repository (target layout)
+## Repository
 
 ```
-src/data/        every fact, once — tools, pricing, comparisons, stacks, programs, changelog
+src/data/        every fact, once: pricing, tools, scores, comparisons, stacks, alternatives, FAQs, programs, changelog
 src/content/     editorial prose (MDX) that adds what data can't say
-src/components/  PricingTable, CompareTable, StackBill, QuickAnswer, Provenance, Faq, …
-scripts/         check (all gates), verify-prices, send-changes, publish-dataset, lastmod
-docs/plan/       the plan
-growth/          exports and records, never published
+src/components/  plans table, real-cost bills, stack bill, quick answer, provenance, FAQ, score panel
+src/pages/       routes; a page exists only when its prose and its data both exist
+scripts/         check (all gates), lint-content, validate-data, verify-prices, snapshot, lastmod
+snapshots/       dated text copies of every vendor page a price came from
+docs/            operations manual, plan, and the research and writing briefs
 ```
 
 ## Principles, in one screen

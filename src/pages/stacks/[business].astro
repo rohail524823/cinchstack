@@ -38,6 +38,8 @@ const all = [...new Set([...s.layers.map((l) => l.pick), ...s.layers.flatMap((l)
 const verified = s.layers.map((l) => price(l.pick).checkedOn).sort()[0];
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Stacks', href: '/stacks/' }, { label: s.label }];
 const related = await relatedFor(e.id, e.data.related);
+// A layer whose pick is already paid for elsewhere in the stack (override of 0 at every size) needs no second button.
+const includedEverywhere = (i) => ['solo', 'small', 'growing'].every((z) => bill.rows[i].cells[z].override && bill.rows[i].cells[z].amount === 0);
 const reg = await registry();
 const best = (x) => (reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/` : reg.has(`/tools/${x}/`) ? `/tools/${x}/` : null);
 const jsonld = [
@@ -58,15 +60,17 @@ const jsonld = [
       <p class="lede" data-prose>{s.profile}</p>
       <h2 id="total-cost">What the whole stack costs</h2>
       <StackBill id={s.id} />
-      {s.layers.map((l) => (<>
+      {s.layers.map((l, i) => (<>
         <h2 id={`layer-${l.layer}`}>{LAYER_LABELS[l.layer]}: {l.role}</h2>
         <div class="picks">
           <div class="pick">
             <span class="lbl">Our pick</span>
             <h3>{tool(l.pick).name}</h3>
             <p data-prose>{l.why}</p>
-            <p class="small">For a small team: <Fig v={scenario(l.pick, 'small').monthly} suffix="/mo" />{best(l.pick) && <> · <a href={best(l.pick)}>real cost</a></>}</p>
-            <AffLink tool={l.pick} page={path} placement={`stack-${l.layer}`} label={`Visit ${tool(l.pick).name}`} />
+            {(() => { const cell = bill.rows[i].cells.small; return cell.override
+              ? <p class="small">{s.sizeLabels.small}: {cell.amount === 0 ? cell.note : <><Fig v={cell.amount} suffix="/mo" /> <span class="muted">({cell.note})</span></>}</p>
+              : <p class="small">{s.sizeLabels.small}: <Fig v={cell.amount} suffix="/mo" />{best(l.pick) && <> · <a href={best(l.pick)}>real cost</a></>}</p>; })()}
+            {!includedEverywhere(i) && <AffLink tool={l.pick} page={path} placement={`stack-${l.layer}`} label={`Visit ${tool(l.pick).name}`} />}
           </div>
           {l.alternatives.length > 0 && (
             <div class="pick">

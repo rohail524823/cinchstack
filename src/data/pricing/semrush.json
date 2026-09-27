@@ -192,7 +192,7 @@
   "trial": {
     "days": 7,
     "cardRequired": true,
-    "summary": "7-day free trial. The pricing page shows 'Try for free' on SEO, Starter and Pro+ but only 'Subscribe' on Advanced, although Semrush's knowledge base says every SEO + AI Search plan has the 7-day trial. You must enter a card. Semrush places a $1 authorization that is reversed, and the trial becomes a paid plan at the standard rate unless you cancel. Exports are turned off during trials, and each toolkit's trial can be used once per account. The AI Visibility Toolkit has no trial.",
+    "summary": "7-day free trial. The pricing page shows 'Try for free' on SEO, Starter and Pro+ but only 'Subscribe' on Advanced, although Semrush's knowledge base says every SEO + AI Search plan has the 7-day trial. You must enter a card. Semrush's billing FAQ says it places a $1 authorization that is reversed, and the trial becomes a paid plan at the standard rate unless you cancel. Exports are turned off during trials, and each toolkit's trial can be used once per account. The AI Visibility Toolkit has no trial. Semrush's KB adds that an account which has had a trial or paid subscription for any toolkit is not eligible for a free trial of the SEO or Traffic & Market toolkits.",
     "source": 21
   },
   "plans": [
@@ -345,7 +345,10 @@
       "name": "Additional user (SEO or Starter plan)",
       "price": 45,
       "unit": "per user per month",
-      "appliesTo": ["seo", "starter"],
+      "appliesTo": [
+        "seo",
+        "starter"
+      ],
       "note": "The comparison table shows $45/user under both the monthly and annual toggles. Extra users share the account's limits. On Starter they get SEO features but not AI Visibility.",
       "source": 2
     },
@@ -354,7 +357,9 @@
       "name": "Additional user (Pro+ plan)",
       "price": 80,
       "unit": "per user per month",
-      "appliesTo": ["pro-plus"],
+      "appliesTo": [
+        "pro-plus"
+      ],
       "note": "Gives SEO access only. AI Visibility access is sold separately per user.",
       "source": 2
     },
@@ -363,7 +368,9 @@
       "name": "Additional user (Advanced plan)",
       "price": 100,
       "unit": "per user per month",
-      "appliesTo": ["advanced"],
+      "appliesTo": [
+        "advanced"
+      ],
       "note": "Gives SEO access only. AI Visibility access is sold separately per user.",
       "source": 2
     },
@@ -372,7 +379,11 @@
       "name": "AI Visibility access for an additional user",
       "price": 99,
       "unit": "per additional user (a separate AI Visibility Toolkit licence)",
-      "appliesTo": ["starter", "pro-plus", "advanced"],
+      "appliesTo": [
+        "starter",
+        "pro-plus",
+        "advanced"
+      ],
       "note": "Semrush's KB says extra users on Starter, Pro+ or Advanced get full SEO features, and giving them AI Visibility means buying the AI Visibility Toolkit for $99 per user, on top of the user price. Semrush's example: $45 + $99 = $144 in total for an extra Starter user, $179 on Pro+ and $199 on Advanced. The toolkit itself is listed at $99 per month.",
       "source": 22
     },
@@ -381,15 +392,17 @@
       "name": "Additional user (subscriptions without an SEO plan)",
       "price": 20,
       "unit": "per user per month",
-      "note": "Flat rate for accounts that have only toolkits such as Local, Content, Social, Advertising or AI PR, whatever the tier.",
-      "source": 10
+      "note": "Flat rate for accounts that have only toolkits such as Local, Content, Social, Advertising or AI PR, whatever the tier (Semrush's User Management KB). The Local, Content, Social, Advertising and AI PR pricing pages show the same $20/mo.",
+      "source": 22
     },
     {
       "id": "ai-visibility-toolkit",
       "name": "AI Visibility Toolkit (Base)",
       "price": 99,
       "unit": "per month (per domain)",
-      "appliesTo": ["seo"],
+      "appliesTo": [
+        "seo"
+      ],
       "note": "Adds AI visibility tracking to the SEO plan, or can be bought on its own: 25 custom prompts tracked daily, 1 domain for Brand Performance, mentions from ChatGPT, Google AI, Gemini and Perplexity. Same price under the monthly and annual toggles. No free trial.",
       "source": 8
     },
@@ -553,7 +566,10 @@
       "planId": "seo",
       "billing": "monthly",
       "lines": [
-        { "label": "SEO plan (monthly)", "amount": 139.95 }
+        {
+          "label": "SEO plan (monthly)",
+          "amount": 139.95
+        }
       ],
       "monthly": 139.95,
       "confidence": "high",
@@ -566,8 +582,14 @@
       "planId": "pro-plus",
       "billing": "monthly",
       "lines": [
-        { "label": "Pro+ plan (monthly)", "amount": 299 },
-        { "label": "1 additional user on Pro+ (1 × $80)", "amount": 80 }
+        {
+          "label": "Pro+ plan (monthly)",
+          "amount": 299
+        },
+        {
+          "label": "1 additional user on Pro+ (1 × $80)",
+          "amount": 80
+        }
       ],
       "monthly": 379,
       "confidence": "high",
@@ -580,8 +602,14 @@
       "planId": "advanced",
       "billing": "monthly",
       "lines": [
-        { "label": "Advanced plan (monthly)", "amount": 549 },
-        { "label": "3 additional users on Advanced (3 × $100)", "amount": 300 }
+        {
+          "label": "Advanced plan (monthly)",
+          "amount": 549
+        },
+        {
+          "label": "3 additional users on Advanced (3 × $100)",
+          "amount": 300
+        }
       ],
       "monthly": 849,
       "confidence": "high",
@@ -596,6 +624,9 @@
     "Local Toolkit Business (20+ locations) and Traffic & Market Custom are sales-quoted. Their prices were not captured."
   ],
   "history": [
-    { "date": "2026-09-26", "change": "Initial record." }
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
   ]
 }

@@ -104,7 +104,7 @@ table.data .edge { color: var(--accent-ink); font-weight: 600; }
   table.data.stack thead { display: none; }
   table.data.stack tr { display: block; border-bottom: 1px solid var(--rule); padding: 10px 0; }
   table.data.stack th { display: block; border: 0; padding: 4px 12px 6px; text-align: left; }
-  table.data.stack td { display: grid; grid-template-columns: minmax(6.5em, 34%) 1fr; gap: 10px; border: 0; padding: 4px 12px; text-align: left; }
+  table.data.stack td { display: grid; grid-template-columns: minmax(7.5em, 40%) 1fr; gap: 10px; border: 0; padding: 4px 12px; text-align: left; }
   table.data.stack td.num { text-align: left; }
   table.data.stack td > .sub, table.data.stack td > span:not(.sub) ~ .sub { grid-column: 2; margin-top: -4px; }
   table.data.stack td::before { content: attr(data-label); font: 500 11px/1.7 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--mute); }

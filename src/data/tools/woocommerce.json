@@ -9,7 +9,10 @@
   "pricingUrl": "https://woocommerce.com/pricing/",
   "oneLiner": "Free, open-source ecommerce plugin for WordPress with no plan fees or revenue share. You pay separately for hosting, paid extensions and card processing.",
   "summary": "WooCommerce is a free, open-source plugin that turns a self-hosted WordPress site into an online store, with no subscription tiers and no cut of sales. The bill comes from elsewhere: hosting (Woo estimates $25–$350/month for most stores), paid extensions at $29–$299 a year each, and card processing, which through Woo's own WooPayments costs 2.9% + $0.30 per US card charge. You own the code and can change host or payment gateway without penalty, but updates, backups and plugin compatibility are your job.",
-  "bestFor": ["shopify-store", "agency"],
+  "bestFor": [
+    "shopify-store",
+    "agency"
+  ],
   "notFor": [
     "Owners who want hosting, security and updates handled by one vendor on one bill",
     "Stores with nobody to maintain WordPress, plugin updates and backups, in-house or through an agency"
@@ -17,19 +20,21 @@
   "pros": [
     "Core plugin is free and open source, with 0% revenue share and no plan tiers",
     "No extra fee for using a third-party payment gateway, and you can run several gateways at once",
-    "WooPayments has no setup or monthly fee: 2.9% + $0.30 per US card transaction",
+    "WooPayments has no setup fee and no monthly fee for online payments: 2.9% + $0.30 per US card transaction",
     "Unlimited products, orders and product variants on the free core",
     "Paid extensions keep working if you stop renewing; you lose only updates and support",
     "You pick and can switch your host, from $25/month on Woo-recommended Pressable"
   ],
   "cons": [
-    "Hosting is not included and is billed separately by a third-party host",
+    "Hosting is not included and is billed separately by whichever host you choose",
     "Key features are paid yearly per-site extensions: Subscriptions $279/year, Bookings $249/year",
     "Extension renewals charge the list price at renewal time, and coupons don't apply",
     "WooPayments adds 1.5% for international cards, 1% for currency conversion and $15 per dispute",
-    "Support for the free core plugin is only through the WordPress.org community forums",
+    "Woo points free-core users to the WordPress.org community forums; ticket support comes with paid extension subscriptions",
     "Costs are spread across host, extensions and payments, so there is no single all-in price"
   ],
   "founded": 2011,
-  "affiliate": { "program": null }
+  "affiliate": {
+    "program": null
+  }
 }

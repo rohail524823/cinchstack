@@ -183,6 +183,12 @@
       "label": "'View all add-on features' modal (Optimize and Localize limits)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/webflow/2026-09-26-pricing-yearly-compare-addons.txt"
+    },
+    {
+      "url": "https://webflow.com/pricing",
+      "label": "Pricing page dropdown options (bandwidth, Optimize, Analyze, Localize) read from the page on its default Yearly view, with Localize set to 2 and 3 locales",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/webflow/2026-09-26-pricing-dropdown-values.txt"
     }
   ],
   "freeTier": {
@@ -494,7 +500,7 @@
       "price": 0,
       "unit": "per seat, up to 100 per Workspace",
       "note": "View and comment only. Webflow allows up to 100 free Reviewer seats per Workspace.",
-      "source": 0
+      "source": 19
     },
     {
       "id": "bandwidth-100gb",
@@ -658,7 +664,7 @@
         "basic",
         "premium"
       ],
-      "note": "$9/month billed yearly. Priced by number of locales, up to 3 locales; 10K AI-translated words per locale per month.",
+      "note": "$9/month billed yearly for 1 locale. Priced per added locale, up to 3: billed yearly it is $9 per locale ($18 for 2, $27 for 3). 10K AI-translated words per locale per month.",
       "source": 0
     },
     {
@@ -670,7 +676,7 @@
         "basic",
         "premium"
       ],
-      "note": "$29/month billed yearly. Priced by number of locales, up to 10 locales; 50K AI-translated words per locale per month; adds localized URLs and automatic visitor routing.",
+      "note": "$29/month billed yearly for 1 locale. Priced per added locale, up to 10: billed yearly it is $29 per locale ($58 for 2, up to $290 for 10). 50K AI-translated words per locale per month; adds localized URLs and automatic visitor routing.",
       "source": 0
     }
   ],
@@ -732,7 +738,7 @@
     {
       "size": "solo",
       "label": "Solo: 1 site, 1 editor, ~20-page blog, ~10k visits/mo",
-      "assumptions": "The blog needs the CMS, so Premium is the cheapest plan that fits (Basic has no CMS). The owner is the only editor and uses the full seat included in the free Starter Workspace. Bandwidth is estimated at about 3-4 MB per visit, the middle of Webflow's own guidance (50 GB 'usually covers 5k–25k page views'; 1 GB 'usually covers ~250 page views'), so ~33-40 GB a month, inside the 50 GB Premium includes. Month-to-month billing.",
+      "assumptions": "The blog needs the CMS, so Premium is the cheapest plan that fits (Basic has no CMS). The owner is the only editor and uses the full seat included in the free Starter Workspace. Bandwidth is our estimate: we treat each visit as roughly one page view at about 3.3-4 MB, which is Webflow’s own mid-point guidance per page view (50 GB ‘usually covers 5k–25k page views’, i.e. 2-10 MB each; 1 GB ‘usually covers ~250 page views’, i.e. ~4 MB). At ~10k visits that is ~33-40 GB a month, inside the 50 GB Premium includes. Month-to-month billing.",
       "planId": "premium",
       "billing": "monthly",
       "lines": [
@@ -752,7 +758,7 @@
     {
       "size": "small",
       "label": "Small team: 1 site, 3 editors, ~200 CMS items, ~50k visits/mo",
-      "assumptions": "Premium covers the CMS (20,000 items). The owner uses the included full seat; the other 2 editors get Limited seats (Content editor or Marketer role), which can be bought on the free Starter Workspace without upgrading it: 2 x $19 = $38. Bandwidth at about 3-4 MB per visit (the middle of Webflow's guidance) is ~167-200 GB a month, which needs the 200 GB bandwidth option (+150 GB). Month-to-month billing.",
+      "assumptions": "Premium covers the CMS (20,000 items). The owner uses the included full seat; the other 2 editors get Limited seats (Content editor or Marketer role), which Webflow lets any Workspace plan buy, including the free Starter Workspace: 2 x $19 = $38. Bandwidth is our estimate: we treat each visit as roughly one page view at about 3.3-4 MB, which is Webflow’s own mid-point guidance per page view (50 GB ‘usually covers 5k–25k page views’, i.e. 2-10 MB each; 1 GB ‘usually covers ~250 page views’, i.e. ~4 MB). At ~50k visits that is ~167-200 GB a month, which needs the 200 GB bandwidth option (+150 GB). Month-to-month billing.",
       "planId": "premium",
       "billing": "monthly",
       "lines": [
@@ -780,7 +786,7 @@
     {
       "size": "growing",
       "label": "Growing team: 1 site, 8 editors, ~1,000 CMS items, ~250k visits/mo",
-      "assumptions": "Premium covers the CMS (20,000 items). The owner uses the included full seat; the other 7 editors get Limited seats: 7 x $19 = $133. The free Starter Workspace is kept because no Workspace limit forces an upgrade (Growth, $60/mo monthly, adds per-site publishing permissions and site-level roles). Bandwidth at about 3-4 MB per visit (the middle of Webflow's guidance) is ~833 GB-1 TB a month, which needs the 1 TB option (+950 GB). Month-to-month billing.",
+      "assumptions": "Premium covers the CMS (20,000 items). The owner uses the included full seat; the other 7 editors get Limited seats: 7 x $19 = $133. The free Starter Workspace is kept because no Workspace limit forces an upgrade (Growth, $60/mo monthly, adds per-site publishing permissions and site-level roles). Bandwidth is our estimate: we treat each visit as roughly one page view at about 3.3-4 MB, which is Webflow’s own mid-point guidance per page view (50 GB ‘usually covers 5k–25k page views’, i.e. 2-10 MB each; 1 GB ‘usually covers ~250 page views’, i.e. ~4 MB). At ~250k visits that is ~833 GB-1 TB a month, which needs the 1 TB option (+950 GB). Month-to-month billing.",
       "planId": "premium",
       "billing": "monthly",
       "lines": [
@@ -807,10 +813,10 @@
     }
   ],
   "unverified": [
-    "Bandwidth per visit: Webflow publishes only a page-view range (50 GB 'usually covers 5k–25k page views'), so the bandwidth option in each scenario is our estimate of ~3-4 MB per visit. Real usage depends on page weight and on bot traffic, which Webflow counts.",
+    "Bandwidth per visit: Webflow publishes only a page-view range (50 GB ‘usually covers 5k–25k page views’), not a per-visit figure, so the bandwidth option in each scenario is our estimate of ~3.3-4 MB per visit (about one page view per visit). Sites with several page views per visit, heavy images or video, or a lot of bot traffic (which Webflow counts) would need a higher bandwidth tier.",
     "Team platform plan: only the $2,500/mo headline is published; the cost of extra sites or seats on Team is quoted by sales.",
     "Enterprise plans and Optimize for non-Webflow sites are quote-only.",
-    "Localize prices for more than one added locale appear only in a dropdown; we captured the 1-locale prices only.",
+    "Localize month-to-month prices for more than one added locale were not captured; only the 1-locale monthly prices ($12 Essential, $35 Advanced) and the per-locale yearly prices are recorded.",
     "Whether Webflow charges different prices by country was not checked outside a US locale.",
     "Webflow's 'Choose a Site plan' help article still says the free Starter plan allows up to 1,000 monthly visits, while the pricing page says its 1 GB bandwidth usually covers ~250 page views; this record follows the pricing page."
   ],

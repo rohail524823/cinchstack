@@ -83,6 +83,10 @@ for (const [p, { doc, html, noindex }] of pages) {
   // 2. canonical
   const canon = doc.querySelector('link[rel="canonical"]')?.getAttribute('href');
   if (!noindex && canon !== `${SITE}${p}`) fail(p, `canonical is ${canon}, expected ${SITE}${p}`);
+  // 2b. unique ids (fragment links and citations depend on them)
+  const ids = [...doc.querySelectorAll('[id]')].map((e) => e.getAttribute('id'));
+  const dupIds = [...new Set(ids.filter((x, i) => ids.indexOf(x) !== i))];
+  if (dupIds.length) fail(p, `duplicate id: ${dupIds.join(', ')}`);
   // 3. one h1
   const h1s = doc.querySelectorAll('h1');
   if (h1s.length !== 1) fail(p, `${h1s.length} <h1> elements`);

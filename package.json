@@ -11,7 +11,8 @@
     "dates": "node scripts/lastmod.mjs",
     "snapshot": "node scripts/snapshot.mjs",
     "verify-prices": "node scripts/verify-prices.mjs",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "trace": "node scripts/trace-figures.mjs"
   },
   "engines": {
     "node": ">=20"

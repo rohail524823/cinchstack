@@ -206,7 +206,7 @@
       "name": "WooPayments Instant Payouts (US only)",
       "rate": 1.5,
       "unit": "% of the instant payout amount",
-      "note": "Optional, US only. Using it does not change your regular payout schedule.",
+      "note": "Optional. The WooPayments product page says Instant Payouts are only available in the US, for eligible merchants, and do not change your regular payout schedule.",
       "source": 1
     },
     {

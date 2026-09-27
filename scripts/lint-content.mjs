@@ -101,8 +101,10 @@ for (const file of files) {
   if (/^#\s/m.test(body)) bad('no H1 (#) in the body; the page renders its own H1');
   const h2s = [...body.matchAll(/^##\s+(.+)$/gm)].map((m) => m[1]);
   if (kind !== 'pages' && (h2s.length < 3 || h2s.length > 8)) bad(`${h2s.length} H2 sections (want 3–8)`);
-  const RESERVED = /^(frequently asked questions|faq|how we checked this|keep reading|what you will really pay|add-ons, usage and other costs)$/i;
-  h2s.forEach((h) => { if (RESERVED.test(h.trim())) bad(`H2 "${h}" duplicates a heading the page already renders`); });
+  // Headings the page template already renders; a prose H2 with the same words would repeat them.
+  const RESERVED = [/^(frequently asked questions|faqs?|how we checked this|keep reading|what you will really pay|add-ons, usage and other costs)\??$/i, /^which should you pick\??$/i, /^what each one really costs\??$/i, /side by side$/i, /^how we score (them|it)$/i, /^what the whole stack costs\??$/i, /^free tools we would add$/i, /^what to skip\??$/i, /^what it does well,? and where it falls short$/i, /^what .{2,40} really costs\??$/i, /^compare \S+$/i, /plans and prices$/i, /^billing rules worth knowing$/i, /^if you want one answer$/i, /^where we would start$/i];
+  h2s.forEach((h) => { const t = h.replace(/<[^>]+>/g, '').trim(); if (RESERVED.some((re) => re.test(t))) bad(`H2 "${h}" repeats a heading the page template already renders; choose a more specific question`); });
+  const dupH = h2s.filter((h, i) => h2s.indexOf(h) !== i); if (dupH.length) bad(`duplicate H2: ${dupH.join(', ')}`);
   // tokens
   for (const m of body.matchAll(/<(Price|Real|Stack|Checked|T)\b([^>]*)\/>/g)) {
     const attrs = Object.fromEntries([...m[2].matchAll(/(\w+)="([^"]*)"/g)].map((a) => [a[1], a[2]]));

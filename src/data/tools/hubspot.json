@@ -1,0 +1,37 @@
+{
+  "id": "hubspot",
+  "name": "HubSpot",
+  "vendor": "HubSpot, Inc.",
+  "tier": "core",
+  "layer": "run",
+  "category": "CRM and marketing automation",
+  "url": "https://www.hubspot.com/",
+  "pricingUrl": "https://www.hubspot.com/pricing/marketing",
+  "oneLiner": "CRM with free tools and paid hubs; Marketing Hub runs from per-seat Starter to Professional, which adds contact tiers and a required onboarding fee.",
+  "summary": "HubSpot sells marketing, sales, service, content, data and revenue software as separate hubs on one shared CRM database, with a free edition for up to two users. Marketing Hub Starter is priced per seat and can be paid month to month, while Professional and Enterprise start at a flat monthly base with seats included, charge more as marketing contacts grow, and require a 12-month commitment plus a one-time onboarding fee.",
+  "bestFor": ["saas-startup", "agency"],
+  "notFor": [
+    "Solo operators who need SMS marketing (HubSpot sells it only with Professional or Enterprise)",
+    "Teams that want month-to-month billing on advanced automation (Professional needs a 12-month commitment)",
+    "Businesses outside the U.S. that need native marketing SMS"
+  ],
+  "pros": [
+    "Free tools for up to 2 users and 1,000 contacts, with no credit card required",
+    "Only marketing contacts are billed; non-marketing contacts are stored free up to 15 million total contacts",
+    "Starter can be paid month to month and carries no onboarding fee",
+    "List prices, contact tiers, add-ons and limits are published in a public Product & Services Catalog",
+    "The public price calculator shows the first-year cost, onboarding included, before any sales call",
+    "Marketing, sales, service, content and data hubs all run on the same Smart CRM contact database"
+  ],
+  "cons": [
+    "Professional and Enterprise charge a mandatory one-time onboarding fee on top of the subscription",
+    "Professional needs a 12-month commitment and Enterprise is billed annually only",
+    "Marketing SMS is sold only as an add-on to Professional or Enterprise, and only to U.S. customers",
+    "Marketing contact tiers can't be lowered until renewal, and going over a tier is billed immediately",
+    "Starter caps email automation at 10 automated actions, so multi-step workflows push teams to Professional",
+    "Every Core Seat is billed at the highest edition you own across any hub"
+  ],
+  "founded": 2006,
+  "hq": "Cambridge, Massachusetts, USA",
+  "affiliate": { "program": "hubspot" }
+}

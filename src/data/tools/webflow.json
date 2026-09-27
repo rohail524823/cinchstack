@@ -18,8 +18,8 @@
   "pros": [
     "Premium includes 20,000 CMS items and 40 Collections for $39/mo month-to-month or $25/mo billed yearly",
     "Content editors can be added as $19/mo Limited seats without upgrading the free Starter Workspace",
-    "Custom code and code components on paid Site plans, and HTML/CSS export on paid Workspace plans",
-    "The first month over the bandwidth limit is not charged, and Webflow notifies you before any upgrade",
+    "Custom code on Basic and Premium, code components on Premium, and HTML/CSS export on paid Workspace plans",
+    "On Basic and Premium the first month over the bandwidth limit is not charged, and Webflow notifies you before any upgrade",
     "New Site and Workspace plan purchases are refundable within 14 days, monthly or annual",
     "The free Starter plan has no time limit for building and testing on a webflow.io subdomain"
   ],

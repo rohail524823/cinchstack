@@ -1,5 +1,5 @@
 ---
-import { score, tool, paysUs } from '../lib/data.mjs';
+import { score, tool, paysUs, program } from '../lib/data.mjs';
 import { FACTORS } from '../lib/schemas.mjs';
 import { oneDecimal, stars, longDate } from '../lib/format.mjs';
 interface Props { id: string; compact?: boolean }
@@ -24,7 +24,7 @@ const LABEL = { realCost: 'Real cost', pricingHonesty: 'Pricing honesty', smallT
         <summary>Why we score it {oneDecimal(s.overall)}</summary>
         <ul class="factors">{FACTORS.map((f) => <li><span>{LABEL[f]}</span><strong>{oneDecimal(s.factors[f])}</strong></li>)}</ul>
         <ul>{FACTORS.map((f) => <li><strong>{LABEL[f]}:</strong> {s.reasons?.[f]}</li>)}</ul>
-        <p class="small muted">Scored {longDate(s.scoredOn)} by two independent passes. {s.paysUs || paysUs(id) ? `${t.name} pays us a commission, so this is the lower of the two scores.` : `${t.name} does not pay us.`} <a href="/methodology/#scoring">How scoring works</a>.</p>
+        <p class="small muted">Scored {longDate(s.scoredOn)} by two independent passes. {paysUs(id) ? `${t.name} pays us a commission, so this is the lower of the two scores.` : program(id) ? `${t.name} runs an affiliate program we have joined or may join, so this is the lower of the two scores.` : `${t.name} does not pay us, so this is the average of the two.`} <a href="/methodology/#scoring">How scoring works</a>.</p>
       </details>
     )}
   </div>

@@ -19,5 +19,7 @@ jobs:
       - run: npm ci
       - name: Validate data
         run: node scripts/validate-data.mjs
+      - name: Trace every price to its saved vendor page
+        run: node scripts/trace-figures.mjs
       - name: Build and run every gate
         run: npm run build

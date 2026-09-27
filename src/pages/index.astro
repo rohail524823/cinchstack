@@ -42,7 +42,7 @@ const ld = [
             <a class="card" href={`/stacks/${s.id}/`}>
               <span class="tag">Stack</span>
               <h3>{s.label}</h3>
-              <p>{s.layers.map((l) => tool(l.pick).name).join(' · ')}</p>
+              <p>{[...new Set(s.layers.map((l) => tool(l.pick).name))].join(' · ')}</p>
               <p class="cost">{s.sizeLabels.small}: <Fig v={b.totals.small} suffix="/mo" /></p>
             </a>
           ); })}

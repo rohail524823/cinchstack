@@ -1,7 +1,7 @@
 {
   "id": "semrush",
   "name": "Semrush",
-  "vendor": "Semrush Holdings, Inc.",
+  "vendor": "Semrush Holdings",
   "tier": "core",
   "layer": "grow",
   "category": "SEO",
@@ -9,10 +9,14 @@
   "pricingUrl": "https://www.semrush.com/prices/",
   "oneLiner": "SEO and AI-search visibility platform: keyword research, rank tracking, site audits and backlinks, with paid toolkits for local, content, social, ads and PR.",
   "summary": "Semrush is a subscription SEO platform for keyword research, competitor and backlink analysis, daily rank tracking and site audits. It is now sold as SEO + AI Search plans that also track brand mentions in ChatGPT, Google AI, Gemini and Perplexity. Paid plans run from $139.95/mo (SEO, 500 tracked keywords) to $549/mo (Advanced, 5,000 keywords), each with one login; Local, Content, Social, Advertising, Traffic & Market and AI PR are separate toolkits, and Semrush's own timeline says it became an Adobe company in 2026.",
-  "bestFor": ["agency", "freelancer", "saas-startup"],
+  "bestFor": [
+    "agency",
+    "freelancer",
+    "saas-startup"
+  ],
   "notFor": [
     "Anyone who needs only occasional keyword lookups: the free plan caps at 10 reports a day and paid plans start at $139.95/mo",
-    "Teams that need many logins on a small budget: every extra user costs $45–$100/mo",
+    "Teams that need many logins on a small budget: each extra user costs $45–$100/mo on the SEO and SEO + AI Search plans",
     "Sites that need to track more than 500 keywords but cannot spend $299/mo (Pro+)"
   ],
   "pros": [
@@ -32,5 +36,7 @@
   ],
   "founded": 2008,
   "hq": "Boston, MA, USA",
-  "affiliate": { "program": "semrush" }
+  "affiliate": {
+    "program": "semrush"
+  }
 }

@@ -4,29 +4,144 @@
   "checkedOn": "2026-09-26",
   "method": "Read from HighLevel's pricing page (monthly, annual and Enterprise views), 18 help-centre billing articles plus one CSV rate attachment, and the Terms of Service in a US-locale headless browser; snapshots saved.",
   "sources": [
-    { "url": "https://www.gohighlevel.com/pricing", "label": "HighLevel pricing page (monthly view, add-ons, FAQ)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-pricing.txt" },
-    { "url": "https://www.gohighlevel.com/pricing", "label": "HighLevel pricing page (annual toggle)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-pricing-annual-after-click-1.txt" },
-    { "url": "https://www.gohighlevel.com/pricing", "label": "HighLevel pricing page (Enterprise plan details)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-pricing-enterprise-after-click-1.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide", "label": "HighLevel Pricing Guide (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-pricing-guide.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing", "label": "AI Product Pricing (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-ai-pricing.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001223556-lc-phone-pricing-structure", "label": "Phone System Pricing & Billing Guide (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-lc-phone-pricing.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000007147-understanding-the-5-markup-on-phone-system-pass-through-charges", "label": "Understanding the 5% Markup on Phone System Pass-Through Charges (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-phone-5pct-markup.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000005200-a2p-10dlc-messaging-fees-registration-monthly-and-carrier-costs", "label": "A2P 10DLC Messaging Fees (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-a2p-fees.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001220605", "label": "What is LC Email? (pricing and sending limits, help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-lc-email.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000001428", "label": "WhatsApp Pricing, Billing, and Rebilling Guide (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-whatsapp-pricing.txt" },
-    { "url": "https://help.gohighlevel.com/helpdesk/attachments/155081573332", "label": "WhatsApp Pricing - October 2026 CSV (attachment to the WhatsApp guide)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-whatsapp-oct2026-csv.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000002095-rebilling-reselling-and-wallets-explained", "label": "Rebilling, Reselling, and Wallets Explained (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-rebilling-explained.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001177740-activate-saas-mode-request-payment-and-configure-phone-rebilling", "label": "Activate SaaS Mode and Configure Phone Rebilling (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-saas-phone-rebilling.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001188579-email-re-billing-on-the-unlimited-297-2970-and-pro-497-4970-plans", "label": "Email Re-Billing on the Unlimited and Pro Plans (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-email-rebilling.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000005678", "label": "How to enable and rebill Premium Features for Workflows (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-workflow-premium.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000003971", "label": "Workflows Pro Plan - New Pricing Tiers (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-workflow-pro-plan.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000001152", "label": "What is a Dedicated IP? (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-dedicated-ip.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001226115-dedicated-email-sending-domains-overview-setup", "label": "Dedicated Email Sending Domains Overview & Setup (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-dedicated-sending-domain.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001208376-billing-related-questions-for-agencies", "label": "Billing Related Questions for Agencies (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-billing-faq.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api", "label": "HighLevel API: access by plan level (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-api-access.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000005620-wallet-auto-recharge-and-smart-adjustment-settings", "label": "Wallet Auto Recharge and Smart Adjustment Settings (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-wallet-auto-recharge.txt" },
-    { "url": "https://help.gohighlevel.com/support/solutions/articles/155000008643-wallet-pricing-page", "label": "Wallet Pricing Page (help centre)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-help-wallet-pricing-page.txt" },
-    { "url": "https://www.gohighlevel.com/terms-of-service", "label": "HighLevel Terms of Service (last updated June 2026)", "checkedOn": "2026-09-26", "snapshot": "snapshots/gohighlevel/2026-09-26-terms-of-service.txt" }
+    {
+      "url": "https://www.gohighlevel.com/pricing",
+      "label": "HighLevel pricing page (monthly view, add-ons, FAQ)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.gohighlevel.com/pricing",
+      "label": "HighLevel pricing page (annual toggle)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-pricing-annual-after-click-1.txt"
+    },
+    {
+      "url": "https://www.gohighlevel.com/pricing",
+      "label": "HighLevel pricing page (Enterprise plan details)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-pricing-enterprise-after-click-1.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide",
+      "label": "HighLevel Pricing Guide (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-pricing-guide.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing",
+      "label": "AI Product Pricing (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-ai-pricing.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001223556-lc-phone-pricing-structure",
+      "label": "Phone System Pricing & Billing Guide (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-lc-phone-pricing.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000007147-understanding-the-5-markup-on-phone-system-pass-through-charges",
+      "label": "Understanding the 5% Markup on Phone System Pass-Through Charges (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-phone-5pct-markup.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000005200-a2p-10dlc-messaging-fees-registration-monthly-and-carrier-costs",
+      "label": "A2P 10DLC Messaging Fees (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-a2p-fees.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001220605",
+      "label": "What is LC Email? (pricing and sending limits, help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-lc-email.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001428",
+      "label": "WhatsApp Pricing, Billing, and Rebilling Guide (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-whatsapp-pricing.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/helpdesk/attachments/155081573332",
+      "label": "WhatsApp Pricing - October 2026 CSV (attachment to the WhatsApp guide)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-whatsapp-oct2026-csv.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002095-rebilling-reselling-and-wallets-explained",
+      "label": "Rebilling, Reselling, and Wallets Explained (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-rebilling-explained.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001177740-activate-saas-mode-request-payment-and-configure-phone-rebilling",
+      "label": "Activate SaaS Mode and Configure Phone Rebilling (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-saas-phone-rebilling.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001188579-email-re-billing-on-the-unlimited-297-2970-and-pro-497-4970-plans",
+      "label": "Email Re-Billing on the Unlimited and Pro Plans (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-email-rebilling.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000005678",
+      "label": "How to enable and rebill Premium Features for Workflows (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-workflow-premium.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000003971",
+      "label": "Workflows Pro Plan - New Pricing Tiers (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-workflow-pro-plan.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001152",
+      "label": "What is a Dedicated IP? (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-dedicated-ip.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001226115-dedicated-email-sending-domains-overview-setup",
+      "label": "Dedicated Email Sending Domains Overview & Setup (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-dedicated-sending-domain.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001208376-billing-related-questions-for-agencies",
+      "label": "Billing Related Questions for Agencies (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-billing-faq.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api",
+      "label": "HighLevel API: access by plan level (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-api-access.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000005620-wallet-auto-recharge-and-smart-adjustment-settings",
+      "label": "Wallet Auto Recharge and Smart Adjustment Settings (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-wallet-auto-recharge.txt"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000008643-wallet-pricing-page",
+      "label": "Wallet Pricing Page (help centre)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-help-wallet-pricing-page.txt"
+    },
+    {
+      "url": "https://www.gohighlevel.com/terms-of-service",
+      "label": "HighLevel Terms of Service (last updated June 2026)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/gohighlevel/2026-09-26-terms-of-service.txt"
+    }
   ],
   "freeTier": {
     "exists": false,
@@ -119,62 +234,380 @@
     }
   ],
   "addOns": [
-    { "id": "ai-employee-growth", "name": "AI Employee Growth plan", "price": 50, "unit": "per sub-account (location) per month", "note": "Includes 1,000 Conversation AI agent responses and 100 Voice AI minutes a month, unlimited Reviews AI and Content AI; overage billed at pay-per-use rates. Phone System charges still apply to calls.", "source": 4 },
-    { "id": "ai-employee-unlimited", "name": "AI Employee Unlimited plan", "price": 97, "unit": "per sub-account (location) per month", "note": "Unlimited Conversation AI, Voice AI, Reviews AI and Content AI subject to fair use; Agent Studio is still pay-per-use and Phone System charges still apply to calls.", "source": 4 },
-    { "id": "whatsapp", "name": "WhatsApp integration", "price": 10, "unit": "per WhatsApp-enabled sub-account per month", "note": "Plus per-message charges (see usage).", "source": 9 },
-    { "id": "dedicated-email-ip", "name": "Dedicated email IP", "price": 59, "unit": "per IP per month", "appliesTo": ["unlimited", "agency-pro"], "note": "Only available on the $297 and $497 plans. HighLevel advises sending at least 50,000 emails a week on a dedicated IP.", "source": 16 },
-    { "id": "workflow-pro-starter", "name": "Workflow Pro (Starter tier)", "price": 10, "unit": "per month, 10,000 premium workflow executions included", "note": "Overage $0.008 per execution. Growth tier $25/mo (30,000 executions, $0.006 overage); Scale tier $50/mo (65,000 executions, $0.004 overage).", "source": 15 },
-    { "id": "hipaa-compliance", "name": "HIPAA compliance", "price": 297, "unit": "per month, account-wide", "note": "Available on any plan. Once purchased and enabled it cannot be deactivated.", "source": 3 },
-    { "id": "premium-support", "name": "Premium Support", "price": 500, "unit": "per month", "note": "Or $5,000 per year.", "source": 3 },
-    { "id": "white-label-mobile-app", "name": "White label mobile app", "price": 497, "unit": "per month", "note": "Or $1,491 per quarter.", "source": 3 },
-    { "id": "branded-client-portal-app", "name": "Branded Client Portal App", "price": 49, "unit": "per enabled sub-account per month", "source": 3 },
-    { "id": "online-listings", "name": "Online listings management", "price": 30, "unit": "per enabled sub-account per month", "note": "Also $150 per 6 months or $300 per year. HighLevel's billing FAQ says a 3-month commitment applies.", "source": 3 },
-    { "id": "premium-prospecting", "name": "Premium prospecting tool", "price": 29, "unit": "per enabled sub-account per month", "source": 3 },
-    { "id": "seo-search-atlas", "name": "SEO (powered by Search Atlas)", "price": 79, "unit": "per enabled sub-account per month", "source": 3 },
-    { "id": "wordpress-hosting", "name": "WordPress hosting (Standard)", "price": 10, "unit": "per month for 1 WordPress site", "note": "$108/yr. Utility plan $220/mo for 25 sites; Truly Unlimited $497/mo.", "source": 3 },
-    { "id": "certification-program", "name": "HighLevel Certification Program", "price": 97, "unit": "per month", "note": "Or $970 per year.", "source": 3 },
-    { "id": "whitelabel-zap", "name": "Whitelabel Zap", "price": 50, "unit": "per month", "source": 3 },
-    { "id": "pause-plan", "name": "Pause Plan (keep data instead of canceling)", "price": 27, "unit": "per month", "note": "Mentioned in HighLevel's billing FAQ as the way to keep data (canceled accounts are deleted after 90 days); the same article also says agency accounts cannot be paused.", "source": 18 }
+    {
+      "id": "ai-employee-growth",
+      "name": "AI Employee Growth plan",
+      "price": 50,
+      "unit": "per sub-account (location) per month",
+      "note": "Includes 1,000 Conversation AI agent responses and 100 Voice AI minutes a month, unlimited Reviews AI and Content AI; overage billed at pay-per-use rates. Phone System charges still apply to calls.",
+      "source": 4
+    },
+    {
+      "id": "ai-employee-unlimited",
+      "name": "AI Employee Unlimited plan",
+      "price": 97,
+      "unit": "per sub-account (location) per month",
+      "note": "Unlimited Conversation AI, Voice AI, Reviews AI and Content AI subject to fair use; Agent Studio is still pay-per-use and Phone System charges still apply to calls.",
+      "source": 4
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp integration",
+      "price": 10,
+      "unit": "per WhatsApp-enabled sub-account per month",
+      "note": "Plus per-message charges (see usage).",
+      "source": 9
+    },
+    {
+      "id": "dedicated-email-ip",
+      "name": "Dedicated email IP",
+      "price": 59,
+      "unit": "per IP per month",
+      "appliesTo": [
+        "unlimited",
+        "agency-pro"
+      ],
+      "note": "Only available on the $297 and $497 plans. HighLevel advises sending at least 50,000 emails a week on a dedicated IP.",
+      "source": 16
+    },
+    {
+      "id": "workflow-pro-starter",
+      "name": "Workflow Pro (Starter tier)",
+      "price": 10,
+      "unit": "per sub-account per month, 10,000 premium workflow executions included",
+      "note": "Execution allowances are per sub-account. Overage $0.008 per execution. Growth tier $25/mo (30,000 executions, $0.006 overage); Scale tier $50/mo (65,000 executions, $0.004 overage). Does not cover ChatGPT or Workflow AI executions.",
+      "source": 15
+    },
+    {
+      "id": "hipaa-compliance",
+      "name": "HIPAA compliance",
+      "price": 297,
+      "unit": "per month, account-wide",
+      "note": "Available on any plan. Once purchased and enabled it cannot be deactivated.",
+      "source": 3
+    },
+    {
+      "id": "premium-support",
+      "name": "Premium Support",
+      "price": 500,
+      "unit": "per month",
+      "note": "Or $5,000 per year.",
+      "source": 3
+    },
+    {
+      "id": "white-label-mobile-app",
+      "name": "White label mobile app",
+      "price": 497,
+      "unit": "per month",
+      "note": "Or $1,491 per quarter.",
+      "source": 3
+    },
+    {
+      "id": "branded-client-portal-app",
+      "name": "Branded Client Portal App",
+      "price": 49,
+      "unit": "per enabled sub-account per month",
+      "source": 3
+    },
+    {
+      "id": "online-listings",
+      "name": "Online listings management",
+      "price": 30,
+      "unit": "per enabled sub-account per month",
+      "note": "Also $150 per 6 months or $300 per year. HighLevel's billing FAQ says a 3-month commitment applies.",
+      "source": 3
+    },
+    {
+      "id": "premium-prospecting",
+      "name": "Premium prospecting tool",
+      "price": 29,
+      "unit": "per enabled sub-account per month",
+      "source": 3
+    },
+    {
+      "id": "seo-search-atlas",
+      "name": "SEO (powered by Search Atlas)",
+      "price": 79,
+      "unit": "per enabled sub-account per month",
+      "source": 3
+    },
+    {
+      "id": "wordpress-hosting",
+      "name": "WordPress hosting (Standard)",
+      "price": 10,
+      "unit": "per month for 1 WordPress site",
+      "note": "$108/yr. Utility plan $220/mo for 25 sites; Truly Unlimited $497/mo.",
+      "source": 3
+    },
+    {
+      "id": "certification-program",
+      "name": "HighLevel Certification Program",
+      "price": 97,
+      "unit": "per month",
+      "note": "Or $970 per year.",
+      "source": 3
+    },
+    {
+      "id": "whitelabel-zap",
+      "name": "Whitelabel Zap",
+      "price": 50,
+      "unit": "per month",
+      "source": 3
+    },
+    {
+      "id": "pause-plan",
+      "name": "Pause Plan (keep data instead of canceling)",
+      "price": 27,
+      "unit": "per month",
+      "note": "Mentioned in HighLevel's billing FAQ as the way to keep data (canceled accounts are deleted after 90 days); the same article also says agency accounts cannot be paused.",
+      "source": 18
+    }
   ],
   "usage": [
-    { "id": "local-number", "name": "Local phone number (LC Phone)", "rate": 1.15, "unit": "per US/Canada local number per month", "source": 5 },
-    { "id": "toll-free-number", "name": "Toll-free phone number (LC Phone)", "rate": 2.15, "unit": "per US/Canada toll-free number per month", "source": 5 },
-    { "id": "sms-segment", "name": "SMS", "rate": 0.00747, "unit": "per SMS segment, outbound or inbound (US/Canada)", "note": "10% below the $0.0083 list price. Inbound texts are charged at the same rate. Charged on every delivery attempt; no refunds for undelivered SMS.", "source": 5 },
-    { "id": "sms-carrier-fee", "name": "SMS carrier fee (T-Mobile or Verizon, outbound)", "rate": 0.0045, "unit": "per outbound SMS segment, on top of the SMS rate", "note": "Varies by recipient carrier: AT&T $0.0035, US Cellular $0.0050, all other carriers $0.0040. Inbound carrier fees run $0.0025 to $0.0100.", "source": 5 },
-    { "id": "mms-outbound", "name": "MMS, outbound (US/Canada)", "rate": 0.022, "unit": "per MMS segment", "note": "Inbound MMS $0.0165 (local number) or $0.0200 (toll-free), plus carrier fees.", "source": 5 },
-    { "id": "a2p-campaign-low-volume-mixed", "name": "A2P 10DLC monthly campaign fee (Low Volume Mixed)", "rate": 1.5, "unit": "per campaign per month", "note": "Required to text US numbers from local numbers. Standard campaign use cases cost $10.00/month; Sole Proprietor $2.00/month. Low Volume Mixed allows up to 2,000 segments/day to T-Mobile.", "source": 7 },
-    { "id": "call-outbound", "name": "Outbound call (US/Canada)", "rate": 0.0166, "unit": "per minute", "note": "$0.0126 carrier leg + $0.004 client minutes. Calls bill in full minutes (partials round up). Every outgoing call also runs as a conference call, adding conference charges.", "source": 5 },
-    { "id": "call-inbound", "name": "Inbound call answered in web, mobile app or desk phone (US/Canada)", "rate": 0.01165, "unit": "per minute", "note": "Forwarding to a US number costs $0.02/min; inbound to a toll-free number $0.0198/min.", "source": 5 },
-    { "id": "conference-leg", "name": "Conference call charge (US)", "rate": 0.0018, "unit": "per minute per participant", "note": "HighLevel applies conference charges to all outgoing calls, not only transfers.", "source": 5 },
-    { "id": "call-recording", "name": "Call recording", "rate": 0.0025, "unit": "per recorded minute", "note": "Storage adds $0.0005 per stored minute per month for as long as recordings are kept.", "source": 5 },
-    { "id": "call-transcription", "name": "Call transcription", "rate": 0.024, "unit": "per minute", "source": 5 },
-    { "id": "lc-email", "name": "Email (LC Email)", "rate": 0.675, "unit": "per 1,000 emails", "note": "Applies on all plans. All incoming and outgoing emails (To, CC and BCC) and forwarded emails are charged.", "source": 8 },
-    { "id": "email-validation", "name": "Email validation", "rate": 2.5, "unit": "per 1,000 validations", "source": 8 },
-    { "id": "premium-workflow-execution", "name": "Premium workflow trigger/action (e.g. inbound webhook, custom webhook, Google Sheets, Slack)", "rate": 0.01, "unit": "per execution after 100 free executions per sub-account", "note": "Standard workflow steps are free. Premium Workflow AI actions (Decision Maker, Intent Detection, Summarize, Translate) are also $0.01/execution; GPT and other external-model actions bill at model rates.", "source": 14 },
-    { "id": "conversation-ai-tokens-gpt5", "name": "Conversation AI, pay-per-use (GPT-5 input tokens)", "rate": 1.25, "unit": "per 1M input tokens", "note": "Output tokens $10.00 per 1M. GPT-5 Mini is $0.25 in / $2.00 out. Applies to locations not on an AI Employee plan.", "source": 4 },
-    { "id": "voice-ai-engine", "name": "Voice AI engine, pay-per-use", "rate": 0.045, "unit": "per minute", "note": "Plus text-to-speech (OpenAI or Cartesia $0.015/min, ElevenLabs V3 $0.170/min), LLM tokens, and Phone System call charges.", "source": 4 },
-    { "id": "voice-ai-s2s-gemini", "name": "Voice AI speech-to-speech (Gemini live model)", "rate": 0.1, "unit": "per minute, all-in AI rate", "note": "OpenAI gpt-realtime is $0.20/min. Phone System call charges still apply.", "source": 4 },
-    { "id": "reviews-ai", "name": "Reviews AI, pay-per-use", "rate": 0.01, "unit": "per AI-assisted review reply sent", "source": 4 },
-    { "id": "content-ai-image", "name": "Content AI image, pay-per-use", "rate": 0.063, "unit": "per image", "note": "Text is $0.0945 per 1,000 words.", "source": 4 },
-    { "id": "whatsapp-marketing-us", "name": "WhatsApp marketing template message (US & Canada)", "rate": 0.0263, "unit": "per delivered message", "note": "As listed in HighLevel's table; its October 2026 CSV lists $0.0250 and the guide says a 5% payment-processing fee is added, which matches $0.0263.", "source": 9 },
-    { "id": "whatsapp-utility-us", "name": "WhatsApp utility template message (US & Canada)", "rate": 0.0036, "unit": "per delivered message", "note": "Free inside an open 24-hour customer service window only through 30 September 2026; billable in and out of the window from 1 October 2026.", "source": 9 }
+    {
+      "id": "local-number",
+      "name": "Local phone number (LC Phone)",
+      "rate": 1.15,
+      "unit": "per US/Canada local number per month",
+      "source": 5
+    },
+    {
+      "id": "toll-free-number",
+      "name": "Toll-free phone number (LC Phone)",
+      "rate": 2.15,
+      "unit": "per US/Canada toll-free number per month",
+      "source": 5
+    },
+    {
+      "id": "sms-segment",
+      "name": "SMS",
+      "rate": 0.00747,
+      "unit": "per SMS segment, outbound or inbound (US/Canada)",
+      "note": "10% below the $0.0083 list price. Inbound texts are charged at the same rate. Charged on every delivery attempt; no refunds for undelivered SMS.",
+      "source": 5
+    },
+    {
+      "id": "sms-carrier-fee",
+      "name": "SMS carrier fee (T-Mobile or Verizon, outbound)",
+      "rate": 0.0045,
+      "unit": "per outbound SMS segment, on top of the SMS rate",
+      "note": "Varies by recipient carrier: AT&T $0.0035, US Cellular $0.0050, all other carriers $0.0040. Inbound carrier fees run $0.0025 to $0.0100.",
+      "source": 5
+    },
+    {
+      "id": "mms-outbound",
+      "name": "MMS, outbound (US/Canada)",
+      "rate": 0.022,
+      "unit": "per MMS segment",
+      "note": "Inbound MMS $0.0165 (local number) or $0.0200 (toll-free), plus carrier fees.",
+      "source": 5
+    },
+    {
+      "id": "a2p-campaign-low-volume-mixed",
+      "name": "A2P 10DLC monthly campaign fee (Low Volume Mixed)",
+      "rate": 1.5,
+      "unit": "per campaign per month",
+      "note": "Required to text US numbers from local numbers. Standard campaign use cases cost $10.00/month; Sole Proprietor $2.00/month. Low Volume Mixed allows up to 2,000 segments/day to T-Mobile.",
+      "source": 7
+    },
+    {
+      "id": "call-outbound",
+      "name": "Outbound call (US/Canada)",
+      "rate": 0.0166,
+      "unit": "per minute",
+      "note": "$0.0126 carrier leg + $0.004 client minutes. Calls bill in full minutes (partials round up). Every outgoing call also runs as a conference call, adding conference charges.",
+      "source": 5
+    },
+    {
+      "id": "call-inbound",
+      "name": "Inbound call answered in web, mobile app or desk phone (US/Canada)",
+      "rate": 0.01165,
+      "unit": "per minute",
+      "note": "Forwarding to a US number costs $0.02/min; inbound to a toll-free number $0.0198/min.",
+      "source": 5
+    },
+    {
+      "id": "conference-leg",
+      "name": "Conference call charge (US)",
+      "rate": 0.0018,
+      "unit": "per minute per participant",
+      "note": "HighLevel applies conference charges to all outgoing calls, not only transfers.",
+      "source": 5
+    },
+    {
+      "id": "call-recording",
+      "name": "Call recording",
+      "rate": 0.0025,
+      "unit": "per recorded minute",
+      "note": "Storage adds $0.0005 per stored minute per month for as long as recordings are kept.",
+      "source": 5
+    },
+    {
+      "id": "call-transcription",
+      "name": "Call transcription",
+      "rate": 0.024,
+      "unit": "per minute",
+      "source": 5
+    },
+    {
+      "id": "lc-email",
+      "name": "Email (LC Email)",
+      "rate": 0.675,
+      "unit": "per 1,000 emails",
+      "note": "Applies on all plans. All incoming and outgoing emails (To, CC and BCC) and forwarded emails are charged.",
+      "source": 8
+    },
+    {
+      "id": "email-validation",
+      "name": "Email validation",
+      "rate": 2.5,
+      "unit": "per 1,000 validations",
+      "source": 8
+    },
+    {
+      "id": "premium-workflow-execution",
+      "name": "Premium workflow trigger/action (e.g. inbound webhook, custom webhook, Google Sheets, Slack)",
+      "rate": 0.01,
+      "unit": "per execution after 100 free lifetime executions per sub-account (not a monthly allowance)",
+      "note": "Standard workflow steps are free. The 100 free executions are a one-time lifetime allowance per sub-account. Premium Workflow AI actions (Decision Maker, Intent Detection, Summarize, Translate) are also $0.01/execution per HighLevel's AI Product Pricing article; GPT and other external-model actions bill at model rates.",
+      "source": 14
+    },
+    {
+      "id": "conversation-ai-tokens-gpt5",
+      "name": "Conversation AI, pay-per-use (GPT-5 input tokens)",
+      "rate": 1.25,
+      "unit": "per 1M input tokens",
+      "note": "Output tokens $10.00 per 1M. GPT-5 Mini is $0.25 in / $2.00 out. Applies to locations not on an AI Employee plan.",
+      "source": 4
+    },
+    {
+      "id": "voice-ai-engine",
+      "name": "Voice AI engine, pay-per-use",
+      "rate": 0.045,
+      "unit": "per minute",
+      "note": "Plus text-to-speech (OpenAI or Cartesia $0.015/min, ElevenLabs V3 $0.170/min), LLM tokens, and Phone System call charges.",
+      "source": 4
+    },
+    {
+      "id": "voice-ai-s2s-gemini",
+      "name": "Voice AI speech-to-speech (Gemini live model)",
+      "rate": 0.1,
+      "unit": "per minute, all-in AI rate",
+      "note": "OpenAI gpt-realtime is $0.20/min. Phone System call charges still apply.",
+      "source": 4
+    },
+    {
+      "id": "reviews-ai",
+      "name": "Reviews AI, pay-per-use",
+      "rate": 0.01,
+      "unit": "per AI-assisted review reply sent",
+      "source": 4
+    },
+    {
+      "id": "content-ai-image",
+      "name": "Content AI image, pay-per-use",
+      "rate": 0.063,
+      "unit": "per image",
+      "note": "Text is $0.0945 per 1,000 words.",
+      "source": 4
+    },
+    {
+      "id": "whatsapp-marketing-us",
+      "name": "WhatsApp marketing template message (US & Canada)",
+      "rate": 0.0263,
+      "unit": "per delivered message",
+      "note": "As listed in HighLevel's table; its October 2026 CSV lists $0.0250 and the guide says a 5% payment-processing fee is added, which matches $0.0263.",
+      "source": 9
+    },
+    {
+      "id": "whatsapp-utility-us",
+      "name": "WhatsApp utility template message (US & Canada)",
+      "rate": 0.0036,
+      "unit": "per delivered message",
+      "note": "Free inside an open 24-hour customer service window only through 30 September 2026; billable in and out of the window from 1 October 2026.",
+      "source": 9
+    }
   ],
   "extraCosts": [
-    { "id": "a2p-registration", "label": "A2P 10DLC brand + first campaign registration", "amount": 22.5, "display": "$22.50 one-time", "kind": "one-time", "note": "Sole Proprietor or Low Volume Standard brand, includes the $3 Fast Track fee. High Volume Standard is $64.00. Charged when the campaign is submitted, whatever the review outcome.", "source": 7 },
-    { "id": "a2p-additional-campaign", "label": "Additional A2P campaign vetting", "amount": 15, "display": "$15.00 per additional campaign", "kind": "one-time", "note": "Resubmitting a rejected campaign is free.", "source": 7 },
-    { "id": "phone-pass-through-markup", "label": "5% markup on phone pass-through charges", "amount": null, "display": "+5% on A2P fees, SMS/MMS carrier fees, Verified Caller ID and RCS carrier fees", "kind": "other", "note": "HighLevel's docs conflict on when it applies: the 5% markup article says 'regardless of whether agency rebilling is enabled'; the Phone System guide says 'only when re-billing is enabled'. Not included in the scenarios.", "source": 6 },
-    { "id": "whatsapp-processing-fee", "label": "WhatsApp payment processing fee", "amount": null, "display": "5% added to WhatsApp message rates", "kind": "other", "note": "Stated in the WhatsApp pricing guide; the listed US rates appear to include it already.", "source": 9 },
-    { "id": "wallet-prepay", "label": "Prepaid usage wallet with forced auto-recharge", "amount": null, "display": "Card charged whenever the wallet drops below its threshold", "kind": "other", "note": "Usage (SMS, calls, email, AI, premium workflow steps) is prepaid from a wallet. Auto Recharge cannot be disabled; Smart Adjustment raises the recharge amount (e.g. $200 to $500) if it triggers more than three times in seven days unless you turn it off. The Terms cite a $10 threshold.", "source": 20 },
-    { "id": "advanced-account-setup", "label": "Advanced Account Setup (optional done-with-you setup)", "amount": 1000, "display": "$1,000 one-time", "kind": "one-time", "note": "Optional; not required to use the platform.", "source": 3 },
-    { "id": "wallet-balance-forfeit", "label": "Unclaimed wallet balance after cancellation", "amount": null, "display": "Forfeited after 30 days unless you request a refund", "kind": "other", "note": "Per the Terms, wallet funds left more than 30 days after cancellation become HighLevel's property; free promotional credits expire after 90 days.", "source": 22 },
-    { "id": "taxes", "label": "Sales tax / VAT", "amount": null, "display": "Added on top of all fees", "kind": "other", "note": "Fees exclude taxes; tax on wallet spending is calculated after each month and taken from the wallet balance.", "source": 22 }
+    {
+      "id": "a2p-registration",
+      "label": "A2P 10DLC brand + first campaign registration",
+      "amount": 22.5,
+      "display": "$22.50 one-time",
+      "kind": "one-time",
+      "note": "Sole Proprietor or Low Volume Standard brand, includes the $3 Fast Track fee. High Volume Standard is $64.00. Charged when the campaign is submitted, whatever the review outcome.",
+      "source": 7
+    },
+    {
+      "id": "a2p-additional-campaign",
+      "label": "Additional A2P campaign vetting",
+      "amount": 15,
+      "display": "$15.00 per additional campaign",
+      "kind": "one-time",
+      "note": "Resubmitting a rejected campaign is free.",
+      "source": 7
+    },
+    {
+      "id": "phone-pass-through-markup",
+      "label": "5% markup on phone pass-through charges",
+      "amount": null,
+      "display": "+5% on A2P fees, SMS/MMS carrier fees, Verified Caller ID and RCS carrier fees",
+      "kind": "other",
+      "note": "The 5% markup article says it applies 'regardless of whether agency rebilling is enabled', and the Phone System guide's key points say it 'always applies'; the same guide also says 'only when re-billing is enabled' and shows a no-rebilling example without it, and the A2P fee article says HighLevel adds no markup. The scenarios include it (5% of carrier fees and the A2P monthly fee) as the higher, more conservative reading.",
+      "source": 6
+    },
+    {
+      "id": "whatsapp-processing-fee",
+      "label": "WhatsApp payment processing fee",
+      "amount": null,
+      "display": "5% added to WhatsApp message rates",
+      "kind": "other",
+      "note": "Stated in the WhatsApp pricing guide; the listed US rates appear to include it already.",
+      "source": 9
+    },
+    {
+      "id": "wallet-prepay",
+      "label": "Prepaid usage wallet with forced auto-recharge",
+      "amount": null,
+      "display": "Card charged whenever the wallet drops below its threshold",
+      "kind": "other",
+      "note": "Usage (SMS, calls, email, AI, premium workflow steps) is prepaid from a wallet. Auto Recharge cannot be disabled; Smart Adjustment raises the recharge amount (e.g. $200 to $500) if it triggers more than three times in seven days unless you turn it off. The Terms cite a $10 threshold.",
+      "source": 20
+    },
+    {
+      "id": "advanced-account-setup",
+      "label": "Advanced Account Setup (optional done-with-you setup)",
+      "amount": 1000,
+      "display": "$1,000 one-time",
+      "kind": "one-time",
+      "note": "Optional; not required to use the platform.",
+      "source": 3
+    },
+    {
+      "id": "wallet-balance-forfeit",
+      "label": "Unclaimed wallet balance after cancellation",
+      "amount": null,
+      "display": "Forfeited after 30 days unless you request a refund",
+      "kind": "other",
+      "note": "Per the Terms, wallet funds left more than 30 days after cancellation become HighLevel's property; free promotional credits expire after 90 days.",
+      "source": 22
+    },
+    {
+      "id": "taxes",
+      "label": "Sales tax / VAT",
+      "amount": null,
+      "display": "Added on top of all fees",
+      "kind": "other",
+      "note": "Fees exclude taxes; tax on wallet spending is calculated after each month and taken from the wallet balance.",
+      "source": 22
+    }
   ],
   "billingNotes": [
     "Month-to-month with no long-term contract; cancel, upgrade or downgrade from the dashboard.",
     "Annual billing is $970, $2,970 or $4,970 a year: 10 times the monthly price.",
     "Upgrades are charged immediately with a prorated credit for the unused part of the old plan. Moving an existing yearly plan back to monthly requires contacting HighLevel.",
     "The Terms say all fees are non-refundable (subscriptions, communication surcharges, resold third-party services) and subscriptions auto-renew at the then-current rates.",
-    "The plan price does not include messaging: SMS, calls, phone numbers, email, most AI, WhatsApp messages and premium workflow steps are billed from a prepaid wallet that the subscription cannot pay for.",
+    "The plan price does not include messaging: SMS, calls, phone numbers, email, most AI, WhatsApp messages and premium workflow steps are billed separately from a prepaid wallet.",
     "Starter cannot rebill usage to sub-accounts. Unlimited rebills at cost (default 1.05x to cover Stripe fees). Only Agency Pro may mark up pass-through fees, and only Agency Pro can rebill AI Employee usage.",
     "You can connect your own SMTP provider instead of LC Email, and switch a location from LC Phone to your own Twilio account.",
     "LC Email sending ramps up over the first 7 days (250 on day 1 to 10,000 on day 7), then allows 25,000 a day on a shared domain or up to 550,000 a day with a dedicated sending domain.",
@@ -190,61 +623,127 @@
     {
       "size": "solo",
       "label": "Solo operator, 1,000 contacts, 200 texts a month",
-      "assumptions": "1 user, 1,000 contacts, 2,000 marketing emails/mo and 200 outbound SMS/mo for one business location using HighLevel's built-in LC Phone and LC Email, billed month to month. One local number ($1.15). Each SMS is 1 segment (160 plain-text characters or fewer): 200 x $0.00747 = $1.494. Carrier fee assumed at $0.0045/segment (T-Mobile/Verizon outbound rate): 200 x $0.0045 = $0.90. A2P 10DLC Low Volume Mixed campaign $1.50/mo (the $22.50 one-time registration is not included). Email 2,000 x $0.675/1,000 = $1.35. Inbound texts and inbound emails are also billed but not counted. No AI Employee, no calls, no premium workflow steps beyond the 100 free executions.",
+      "assumptions": "1 user, 1,000 contacts, 2,000 marketing emails/mo and 200 outbound SMS/mo for one business location using HighLevel's built-in LC Phone and LC Email, billed month to month. One local number ($1.15). Each SMS is 1 segment (160 plain-text characters or fewer): 200 x $0.00747 = $1.494. Carrier fee assumed at $0.0045/segment (T-Mobile/Verizon outbound rate): 200 x $0.0045 = $0.90. A2P 10DLC Low Volume Mixed campaign $1.50/mo (the $22.50 one-time registration is not included). Email 2,000 x $0.675/1,000 = $1.35. Inbound texts and inbound emails are also billed but not counted. No AI Employee, no calls, no premium workflow steps beyond the 100 free executions. HighLevel's 5% location-level markup on pass-through charges is applied to the carrier fees and the A2P monthly fee (HighLevel's docs conflict on whether it applies without rebilling; see unverified).",
       "planId": "starter",
       "billing": "monthly",
       "lines": [
-        { "label": "Starter plan", "amount": 97 },
-        { "label": "Local phone number (LC Phone)", "amount": 1.15 },
-        { "label": "SMS: 200 segments x $0.00747", "amount": 1.49 },
-        { "label": "SMS carrier fees: 200 x $0.0045 (assumed carrier mix)", "amount": 0.9 },
-        { "label": "A2P 10DLC campaign fee (Low Volume Mixed)", "amount": 1.5 },
-        { "label": "LC Email: 2,000 emails x $0.675/1,000", "amount": 1.35 }
+        {
+          "label": "Starter plan",
+          "amount": 97
+        },
+        {
+          "label": "Local phone number (LC Phone)",
+          "amount": 1.15
+        },
+        {
+          "label": "SMS: 200 segments x $0.00747",
+          "amount": 1.49
+        },
+        {
+          "label": "SMS carrier fees: 200 x $0.0045 (assumed carrier mix)",
+          "amount": 0.9
+        },
+        {
+          "label": "A2P 10DLC campaign fee (Low Volume Mixed)",
+          "amount": 1.5
+        },
+        {
+          "label": "LC Email: 2,000 emails x $0.675/1,000",
+          "amount": 1.35
+        },
+        {
+          "label": "5% pass-through markup on carrier fees and A2P fee: ($0.90 + $1.50) x 5%",
+          "amount": 0.12
+        }
       ],
-      "monthly": 103.39,
+      "monthly": 103.51,
       "confidence": "medium",
-      "note": "Starter already covers this size: 3 sub-accounts, unlimited users and contacts. On annual billing the plan line drops to $80.83/mo. First month also carries the $22.50 A2P registration."
+      "note": "Starter already covers this size: 3 sub-accounts, unlimited users and contacts. On annual billing the plan line drops to $80.83/mo. First month also carries the $22.50 A2P registration (plus 5% if the markup applies)."
     },
     {
       "size": "small",
       "label": "Small team, 3 users, 5,000 contacts, 1,000 texts a month",
-      "assumptions": "3 users, 5,000 contacts, 20,000 emails/mo and 1,000 outbound SMS/mo for one business location, billed month to month. One local number ($1.15). SMS 1,000 x $0.00747 = $7.47. Carrier fee assumed at $0.0045/segment: 1,000 x $0.0045 = $4.50. A2P 10DLC Low Volume Mixed campaign $1.50/mo. Email 20,000 x $0.675/1,000 = $13.50. Same exclusions as solo.",
+      "assumptions": "3 users, 5,000 contacts, 20,000 emails/mo and 1,000 outbound SMS/mo for one business location, billed month to month. One local number ($1.15). SMS 1,000 x $0.00747 = $7.47. Carrier fee assumed at $0.0045/segment: 1,000 x $0.0045 = $4.50. A2P 10DLC Low Volume Mixed campaign $1.50/mo. Email 20,000 x $0.675/1,000 = $13.50. Same exclusions as solo. HighLevel's 5% location-level markup on pass-through charges is applied to the carrier fees and the A2P monthly fee (HighLevel's docs conflict on whether it applies without rebilling; see unverified).",
       "planId": "starter",
       "billing": "monthly",
       "lines": [
-        { "label": "Starter plan", "amount": 97 },
-        { "label": "Local phone number (LC Phone)", "amount": 1.15 },
-        { "label": "SMS: 1,000 segments x $0.00747", "amount": 7.47 },
-        { "label": "SMS carrier fees: 1,000 x $0.0045 (assumed carrier mix)", "amount": 4.5 },
-        { "label": "A2P 10DLC campaign fee (Low Volume Mixed)", "amount": 1.5 },
-        { "label": "LC Email: 20,000 emails x $0.675/1,000", "amount": 13.5 }
+        {
+          "label": "Starter plan",
+          "amount": 97
+        },
+        {
+          "label": "Local phone number (LC Phone)",
+          "amount": 1.15
+        },
+        {
+          "label": "SMS: 1,000 segments x $0.00747",
+          "amount": 7.47
+        },
+        {
+          "label": "SMS carrier fees: 1,000 x $0.0045 (assumed carrier mix)",
+          "amount": 4.5
+        },
+        {
+          "label": "A2P 10DLC campaign fee (Low Volume Mixed)",
+          "amount": 1.5
+        },
+        {
+          "label": "LC Email: 20,000 emails x $0.675/1,000",
+          "amount": 13.5
+        },
+        {
+          "label": "5% pass-through markup on carrier fees and A2P fee: ($4.50 + $1.50) x 5%",
+          "amount": 0.3
+        }
       ],
-      "monthly": 125.12,
+      "monthly": 125.42,
       "confidence": "medium",
       "note": "Still Starter. Users and contacts are unlimited on every plan and Starter's only hard cap is 3 sub-accounts; one business needs one. What Unlimited ($297) adds (unlimited sub-accounts, rebilling usage to clients, dedicated-IP eligibility) serves agencies, not a single business."
     },
     {
       "size": "growing",
       "label": "Growing team, 8 users, 25,000 contacts, 5,000 texts a month",
-      "assumptions": "8 users, 25,000 contacts, 100,000 emails/mo and 5,000 outbound SMS/mo for one business location, billed month to month. One local number ($1.15) and one A2P campaign. SMS 5,000 x $0.00747 = $37.35. Carrier fee assumed at $0.0045/segment: 5,000 x $0.0045 = $22.50. A2P 10DLC Low Volume Mixed campaign $1.50/mo (5,000 texts a month is well under its 2,000 segments/day T-Mobile limit). Email 100,000 x $0.675/1,000 = $67.50. Same exclusions as solo.",
+      "assumptions": "8 users, 25,000 contacts, 100,000 emails/mo and 5,000 outbound SMS/mo for one business location, billed month to month. One local number ($1.15) and one A2P campaign. SMS 5,000 x $0.00747 = $37.35. Carrier fee assumed at $0.0045/segment: 5,000 x $0.0045 = $22.50. A2P 10DLC Low Volume Mixed campaign $1.50/mo (5,000 texts a month is well under its 2,000 segments/day T-Mobile limit). Email 100,000 x $0.675/1,000 = $67.50. Same exclusions as solo. HighLevel's 5% location-level markup on pass-through charges is applied to the carrier fees and the A2P monthly fee (HighLevel's docs conflict on whether it applies without rebilling; see unverified).",
       "planId": "starter",
       "billing": "monthly",
       "lines": [
-        { "label": "Starter plan", "amount": 97 },
-        { "label": "Local phone number (LC Phone)", "amount": 1.15 },
-        { "label": "SMS: 5,000 segments x $0.00747", "amount": 37.35 },
-        { "label": "SMS carrier fees: 5,000 x $0.0045 (assumed carrier mix)", "amount": 22.5 },
-        { "label": "A2P 10DLC campaign fee (Low Volume Mixed)", "amount": 1.5 },
-        { "label": "LC Email: 100,000 emails x $0.675/1,000", "amount": 67.5 }
+        {
+          "label": "Starter plan",
+          "amount": 97
+        },
+        {
+          "label": "Local phone number (LC Phone)",
+          "amount": 1.15
+        },
+        {
+          "label": "SMS: 5,000 segments x $0.00747",
+          "amount": 37.35
+        },
+        {
+          "label": "SMS carrier fees: 5,000 x $0.0045 (assumed carrier mix)",
+          "amount": 22.5
+        },
+        {
+          "label": "A2P 10DLC campaign fee (Low Volume Mixed)",
+          "amount": 1.5
+        },
+        {
+          "label": "LC Email: 100,000 emails x $0.675/1,000",
+          "amount": 67.5
+        },
+        {
+          "label": "5% pass-through markup on carrier fees and A2P fee: ($22.50 + $1.50) x 5%",
+          "amount": 1.2
+        }
       ],
-      "monthly": 227,
+      "monthly": 228.2,
       "confidence": "medium",
-      "note": "Still Starter: 8 users and 25,000 contacts sit inside Starter's unlimited users and contacts. 100,000 emails/mo is about 23,000 a week, under the 50,000/week HighLevel recommends before buying a dedicated IP (which would force Unlimited). One send to all 25,000 contacts hits the 25,000/day shared-domain cap exactly; adding a dedicated sending domain to the location raises it (the setup article lists no fee). Each extra local number for the team is $1.15/mo. At this size usage is $130 of the $227 bill, more than the plan itself."
+      "note": "Still Starter: 8 users and 25,000 contacts sit inside Starter's unlimited users and contacts. 100,000 emails/mo is about 23,000 a week, under the 50,000/week HighLevel advises for a dedicated IP (which would force Unlimited). One send to all 25,000 contacts reaches the 25,000/day shared-domain cap in the LC Email article, and the same article's FAQ mentions a 15,000 limit for sub-accounts without their own dedicated domain; adding a dedicated sending domain to the location raises the cap (the setup article lists no fee). Each extra local number for the team is $1.15/mo. At this size usage is about $131 of the $228.20 bill, more than the plan itself."
     }
   ],
   "unverified": [
     "Whether the 14-day trial requires a card up front: the signup form asks for business details first and its 'Trial Details' step was not reached. The pricing page says billing starts automatically when the trial ends unless canceled.",
-    "The 5% pass-through markup on A2P and carrier fees: the markup article (9 Sep 2026) says it applies whether or not rebilling is enabled; the Phone System guide (24 Sep 2026) says only when rebilling is enabled; the A2P fee article says HighLevel adds no markup. If it applies, the scenarios rise by $0.12 (solo), $0.30 (small) and $1.20 (growing).",
+    "The 5% pass-through markup on A2P and carrier fees: the markup article (9 Sep 2026) says it applies whether or not rebilling is enabled and the Phone System guide (24 Sep 2026) says it 'always applies', but the same guide also says 'only when re-billing is enabled' and the A2P fee article says HighLevel adds no markup. The scenarios include it; without it they fall by $0.12 (solo), $0.30 (small) and $1.20 (growing).",
     "The Phone System guide lists A2P monthly fees with the 5% built in (Sole Proprietor 'up to $2.10', Low Volume '$1.50-$10.50', High Volume '$10.50'), while the A2P article lists $2.00 / $1.50 / $10.00. The scenarios use the A2P article's $1.50.",
     "Carrier fees depend on each recipient's carrier; the scenarios assume $0.0045 per outbound segment for every text.",
     "Pay-per-use Conversation AI and Voice AI cost per conversation depends on token counts and cannot be priced in advance; only the per-token and per-minute rates are recorded.",
@@ -257,6 +756,9 @@
     "HighLevel's in-app Wallet Pricing page (the source it calls authoritative for usage rates) requires a login and was not captured."
   ],
   "history": [
-    { "date": "2026-09-26", "change": "Initial record." }
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
   ]
 }

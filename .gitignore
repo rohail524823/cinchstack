@@ -5,3 +5,4 @@ dist/
 growth/data/
 *.log
 .DS_Store
+.factpacks/

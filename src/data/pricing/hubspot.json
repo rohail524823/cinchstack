@@ -1,0 +1,539 @@
+{
+  "tool": "hubspot",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read from HubSpot's Marketing Hub pricing page (both billing toggles and the FAQ), its Create a Bundle price calculator set to each scenario, the Product & Services Catalog and the Customer Terms of Service in a US-locale headless browser; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.hubspot.com/pricing/marketing",
+      "label": "Marketing Hub pricing page (default Pay Annually view)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-pricing-marketing.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/marketing?term=monthly",
+      "label": "Marketing Hub pricing page, Pay Monthly selected",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-pricing-marketing-billing-after-click-1.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/marketing?term=monthly",
+      "label": "Marketing Hub pricing page FAQ answers (contacts, send limits, seats, credits, onboarding)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-pricing-marketing-billing-after-click-8.txt"
+    },
+    {
+      "url": "https://legal.hubspot.com/hubspot-product-and-services-catalog",
+      "label": "HubSpot Product & Services Catalog (list prices, contact tiers, add-ons, limits, onboarding)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-product-services-catalog-after-click-3.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-starter_1&term=monthly",
+      "label": "Price calculator: Starter, 1 seat, 1,000 contacts, billed monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-starter-monthly-1seat-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-starter_1&term=annual",
+      "label": "Price calculator: Starter, 1 seat, 1,000 contacts, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-starter-annual-1seat-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-starter_1&products=core-seats-starter_2&term=monthly&packs=CONTACTS_marketing-hub-starter_4000",
+      "label": "Price calculator: Starter, 3 seats, 5,000 contacts, billed monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-starter-monthly-3seats-5k-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-starter_1&products=core-seats-starter_2&term=annual&packs=CONTACTS_marketing-hub-starter_4000",
+      "label": "Price calculator: Starter, 3 seats, 5,000 contacts, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-starter-annual-3seats-5k-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-starter_1&products=core-seats-starter_7&term=monthly&packs=CONTACTS_marketing-hub-starter_24000",
+      "label": "Price calculator: Starter, 8 seats, 25,000 contacts, billed monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-starter-monthly-8seats-25k-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&term=monthly",
+      "label": "Price calculator: Professional base, paid monthly on annual commitment",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-monthly-base-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&term=annual",
+      "label": "Price calculator: Professional base, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-annual-base-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=marketing-sms_1&term=monthly&packs=CONTACTS_marketing-hub-professional_5000",
+      "label": "Price calculator: Professional, 3 seats, 7,000 contacts, SMS add-on, paid monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-monthly-3seats-7k-sms-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=marketing-sms_1&term=annual&packs=CONTACTS_marketing-hub-professional_5000",
+      "label": "Price calculator: Professional, 3 seats, 7,000 contacts, SMS add-on, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-annual-3seats-7k-sms-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=core-seats-professional_5&products=marketing-sms_1&term=monthly&packs=CONTACTS_marketing-hub-professional_25000",
+      "label": "Price calculator: Professional, 8 seats, 27,000 contacts, SMS add-on, paid monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-monthly-8seats-27k-sms-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=core-seats-professional_5&products=marketing-sms_1&term=annual&packs=CONTACTS_marketing-hub-professional_25000",
+      "label": "Price calculator: Professional, 8 seats, 27,000 contacts, SMS add-on, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-annual-8seats-27k-sms-breakdown.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-enterprise_1&term=annual",
+      "label": "Price calculator: Enterprise base, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-enterprise-annual-base-breakdown.txt"
+    },
+    {
+      "url": "https://legal.hubspot.com/terms-of-service",
+      "label": "HubSpot Customer Terms of Service (renewal, fee adjustments, downgrades)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-legal-terms-of-service.txt"
+    },
+    {
+      "url": "https://offers.hubspot.com/free-trial",
+      "label": "HubSpot free trial page (Marketing Hub Professional)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-offers-free-trial.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/marketing?term=monthly&currencyCode=EUR",
+      "label": "Marketing Hub pricing page in EUR",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-pricing-marketing-currency-after-click-2.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/marketing?term=monthly&currencyCode=INR",
+      "label": "Marketing Hub pricing page in INR",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-pricing-marketing-currency-after-click-4.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/crm",
+      "label": "Free tools and Starter Customer Platform pricing page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-pricing-crm.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=core-seats-professional_5&products=marketing-sms_1&products=marketing-sms-limit-increase_4&term=annual&packs=CONTACTS_marketing-hub-professional_25000",
+      "label": "Price calculator: Professional, 8 seats, 27,000 contacts, SMS add-on plus 4 SMS Limit Increase packs, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-annual-8seats-27k-sms-4packs.txt"
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1&products=core-seats-professional_5&products=marketing-sms_1&products=marketing-sms-limit-increase_4&term=monthly&packs=CONTACTS_marketing-hub-professional_25000",
+      "label": "Price calculator: Professional, 8 seats, 27,000 contacts, SMS add-on plus 4 SMS Limit Increase packs, paid monthly",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/hubspot/2026-09-26-calc-pro-monthly-8seats-27k-sms-4packs.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free tools for up to 2 users and up to 1,000 contacts: Smart CRM, forms, landing pages, live chat and email marketing capped at 2,000 sends per calendar month with HubSpot branding, plus 1 automated email action. No credit card required. No marketing SMS."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": false,
+    "summary": "14-day free trial of Marketing Hub Professional with no credit card or commitment required. The free tools are a separate free edition, not a trial.",
+    "source": 17
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free tools",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-month",
+      "seatsIncluded": 2,
+      "note": "HubSpot's free edition: Smart CRM plus free marketing, sales, service, content, data and revenue tools.",
+      "limits": [
+        "Up to 2 users",
+        "Up to 1,000 contacts",
+        "2,000 marketing email sends per calendar month, with HubSpot branding",
+        "1 automated email action",
+        "Up to 10 active CRM segments",
+        "Up to 3 connected ad accounts",
+        "No marketing SMS"
+      ],
+      "highlights": [
+        "No credit card required",
+        "Forms, landing pages and live chat (HubSpot-branded)",
+        "10 reporting dashboards"
+      ],
+      "source": 3
+    },
+    {
+      "id": "starter",
+      "name": "Marketing Hub Starter",
+      "monthly": 20,
+      "annualMonthly": 20,
+      "priceUnit": "per-seat-month",
+      "note": "List price is $20 per Core Seat per month (HubSpot's Product & Services Catalog), payable month-to-month or annually, with no onboarding fee. HubSpot's calculator shows the same $20 list price on annual billing ($240 per seat per year, struck through). A limited-time offer for new customers currently cuts the seat price to $10 billed monthly or $7/month ($84/year) billed annually; HubSpot does not say how long the offer price lasts, and its terms allow fees to rise to list price at renewal. The Starter card on the Marketing pricing page describes 'essential marketing, sales, service, content, and data management software' at the same per-seat price as the Starter Customer Platform on HubSpot's CRM pricing page.",
+      "limits": [
+        "1,000 marketing contacts included; more cost $50 per 1,000 per month (falling to $45 and $40 in higher bands)",
+        "Email send limit: 5x your marketing contact tier per calendar month",
+        "Email automation: up to 10 automated actions",
+        "Up to 50 active CRM segments",
+        "500 HubSpot Credits per month",
+        "No marketing SMS (the SMS add-on is sold only with Professional or Enterprise)"
+      ],
+      "highlights": [
+        "Removes HubSpot branding from marketing email and live chat",
+        "Connect and authenticate an email sending domain",
+        "Month-to-month billing available",
+        "No onboarding fee"
+      ],
+      "source": 3
+    },
+    {
+      "id": "professional",
+      "name": "Marketing Hub Professional",
+      "monthly": 890,
+      "annualMonthly": 800,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "12-month commitment required: $890/month paid monthly ('Pay Monthly, Commit annually'), or $9,600/year paid upfront ($800/month). There is no cancel-anytime monthly option. Includes 3 Core Seats; extra Core Seats cost $50/month ($45 billed annually). A one-time $3,000 Professional Onboarding fee is charged automatically. Bought through HubSpot sales.",
+      "limits": [
+        "2,000 marketing contacts included; more sold in 5,000-contact packs from $250/month",
+        "Email send limit: 10x your marketing contact tier per calendar month",
+        "Up to 300 workflows for 10 teams",
+        "Up to 100 custom reports and 75 dashboards",
+        "Lead scoring: up to 5 scores",
+        "3,000 HubSpot Credits per month"
+      ],
+      "highlights": [
+        "Omni-channel marketing automation with unlimited email automation actions",
+        "Marketing SMS available as a paid add-on (US customers only)",
+        "WhatsApp integration: up to 1,000 messages per month",
+        "Social media: up to 50 connected accounts",
+        "HubSpot AEO included: 25 prompts tracked daily across 3 answer engines"
+      ],
+      "source": 10
+    },
+    {
+      "id": "enterprise",
+      "name": "Marketing Hub Enterprise",
+      "monthly": null,
+      "annualMonthly": 3600,
+      "priceUnit": "per-month",
+      "seatsIncluded": 5,
+      "note": "Billed annually only ($43,200/year). Includes 5 Core Seats; extra Core Seats cost $75/month. A one-time $7,000 Enterprise Onboarding fee is required. Bought through HubSpot sales.",
+      "limits": [
+        "10,000 marketing contacts included; more sold in 10,000-contact packs from $100/month",
+        "Email send limit: 20x your marketing contact tier per calendar month",
+        "Up to 1,000 workflows for 300 teams",
+        "Up to 500 custom reports and 100 dashboards",
+        "Lead scoring: up to 50 scores",
+        "5,000 HubSpot Credits per month"
+      ],
+      "highlights": [
+        "Multi-touch revenue attribution",
+        "Customer journey analytics",
+        "Email approvals",
+        "Behavioral event triggers and reporting",
+        "Multi-account management: up to 30 connected HubSpot accounts"
+      ],
+      "source": 15
+    }
+  ],
+  "addOns": [
+    {
+      "id": "starter-extra-seat",
+      "name": "Extra Core Seat (Starter)",
+      "price": 20,
+      "unit": "per seat per month",
+      "appliesTo": ["starter"],
+      "note": "List price. Under the current new-customer offer HubSpot's calculator charges $10 per extra seat billed monthly, or $7 per seat per month billed annually.",
+      "source": 3
+    },
+    {
+      "id": "professional-extra-seat",
+      "name": "Extra Core Seat (Professional)",
+      "price": 50,
+      "unit": "per seat per month, paid monthly",
+      "appliesTo": ["professional"],
+      "note": "$45 per seat per month when billed annually.",
+      "source": 1
+    },
+    {
+      "id": "enterprise-extra-seat",
+      "name": "Extra Core Seat (Enterprise)",
+      "price": 75,
+      "unit": "per seat per month",
+      "appliesTo": ["enterprise"],
+      "source": 0
+    },
+    {
+      "id": "starter-contacts-1001-3000",
+      "name": "Marketing contacts 1,001 to 3,000 (Starter)",
+      "price": 50,
+      "unit": "per 1,000 marketing contacts per month",
+      "appliesTo": ["starter"],
+      "note": "Contacts are billed at a blended rate: each band is charged at its own price.",
+      "source": 3
+    },
+    {
+      "id": "starter-contacts-3001-5000",
+      "name": "Marketing contacts 3,001 to 5,000 (Starter)",
+      "price": 45,
+      "unit": "per 1,000 marketing contacts per month",
+      "appliesTo": ["starter"],
+      "note": "HubSpot's calculator prices the 4,000 contacts from 1,001 to 5,000 at $190/month billed monthly, or $142.50/month billed annually.",
+      "source": 3
+    },
+    {
+      "id": "starter-contacts-5001-plus",
+      "name": "Marketing contacts above 5,000 (Starter)",
+      "price": 40,
+      "unit": "per 1,000 marketing contacts per month",
+      "appliesTo": ["starter"],
+      "note": "HubSpot's calculator prices 24,000 extra contacts (25,000 total) at $990/month billed monthly.",
+      "source": 3
+    },
+    {
+      "id": "professional-contacts-2001-22000",
+      "name": "Marketing contacts 2,001 to 22,000 (Professional)",
+      "price": 250,
+      "unit": "per 5,000 marketing contacts per month",
+      "appliesTo": ["professional"],
+      "note": "$225 per 5,000 when billed annually, per HubSpot's calculator.",
+      "source": 3
+    },
+    {
+      "id": "professional-contacts-22001-42000",
+      "name": "Marketing contacts 22,001 to 42,000 (Professional)",
+      "price": 225,
+      "unit": "per 5,000 marketing contacts per month",
+      "appliesTo": ["professional"],
+      "note": "HubSpot's calculator prices 25,000 extra contacts (27,000 total) at $1,225/month paid monthly or $1,102.50/month billed annually.",
+      "source": 3
+    },
+    {
+      "id": "professional-contacts-42001-62000",
+      "name": "Marketing contacts 42,001 to 62,000 (Professional)",
+      "price": 200,
+      "unit": "per 5,000 marketing contacts per month",
+      "appliesTo": ["professional"],
+      "source": 3
+    },
+    {
+      "id": "professional-contacts-62001-82000",
+      "name": "Marketing contacts 62,001 to 82,000 (Professional)",
+      "price": 175,
+      "unit": "per 5,000 marketing contacts per month",
+      "appliesTo": ["professional"],
+      "source": 3
+    },
+    {
+      "id": "professional-contacts-82001-plus",
+      "name": "Marketing contacts above 82,000 (Professional)",
+      "price": 150,
+      "unit": "per 5,000 marketing contacts per month",
+      "appliesTo": ["professional"],
+      "source": 3
+    },
+    {
+      "id": "enterprise-contacts-10001-50000",
+      "name": "Marketing contacts 10,001 to 50,000 (Enterprise)",
+      "price": 100,
+      "unit": "per 10,000 marketing contacts per month",
+      "appliesTo": ["enterprise"],
+      "note": "Higher bands: $90 per 10,000 for 50,001 to 100,000; $80 for 100,001 to 200,000; $70 for 200,001 to 500,000; $60 above 500,000.",
+      "source": 3
+    },
+    {
+      "id": "marketing-sms",
+      "name": "Marketing SMS Long Code Add-On",
+      "price": 75,
+      "unit": "per month, includes 1,000 SMS message segments",
+      "appliesTo": ["professional", "enterprise"],
+      "note": "U.S. customers only; sends from a U.S. 10DLC number to +1 (U.S./Canada) numbers. Incoming and outgoing messages both count against the segment limit; unused segments don't roll over.",
+      "source": 3
+    },
+    {
+      "id": "dedicated-ip",
+      "name": "Dedicated IP Add-On",
+      "price": 300,
+      "unit": "per month",
+      "appliesTo": ["professional", "enterprise"],
+      "note": "HubSpot's stated route to unlimited email sends beyond the contact-tier send limit.",
+      "source": 3
+    },
+    {
+      "id": "transactional-email",
+      "name": "Transactional Email Add-On",
+      "price": 600,
+      "unit": "per month",
+      "appliesTo": ["professional", "enterprise"],
+      "note": "For receipts, account updates and other relationship emails with engagement tracking.",
+      "source": 3
+    },
+    {
+      "id": "whatsapp-limit-increase",
+      "name": "WhatsApp Message Limit Increase",
+      "price": 70,
+      "unit": "per 1,000 extra WhatsApp messages per month",
+      "appliesTo": ["professional", "enterprise"],
+      "note": "Professional and Enterprise include 1,000 WhatsApp messages per month; unused messages don't roll over.",
+      "source": 3
+    },
+    {
+      "id": "credits-capacity-pack",
+      "name": "HubSpot Credits capacity pack",
+      "price": 10,
+      "unit": "per 1,000 extra credits per month, for the rest of the term",
+      "note": "Alternative to pay-as-you-go credits; credits power AI agents and AI workflow actions.",
+      "source": 3
+    }
+  ],
+  "usage": [
+    {
+      "id": "sms-limit-increase",
+      "name": "SMS Limit Increase",
+      "rate": 15,
+      "unit": "per 1,000 extra SMS message segments per month (monthly pack)",
+      "note": "Requires the Marketing SMS add-on; Professional and Enterprise, U.S. customers only. HubSpot's calculator charges the same $15 per pack on annual and monthly billing (4 packs = $60/month). A text over 160 GSM-7 characters is split into 153-character segments; a text with emoji or other UCS-2 characters is one segment only up to 70 characters.",
+      "source": 3
+    },
+    {
+      "id": "hubspot-credits-payg",
+      "name": "HubSpot Credits, pay-as-you-go",
+      "rate": 0.01,
+      "unit": "per credit above the included monthly allotment",
+      "note": "Invoiced monthly in increments of 10 credits. Examples from HubSpot's rate sheet: 10 credits to personalize one email with the Nurture agent or to run one AI action in a workflow; 1,000 credits for one piece of content from the Content agent. Included credits reset monthly and don't roll over.",
+      "source": 3
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "professional-onboarding",
+      "label": "Marketing Hub Professional Onboarding (required)",
+      "amount": 3000,
+      "display": "$3,000 one-time",
+      "kind": "one-time",
+      "note": "Charged automatically when you buy Professional. Remote onboarding with a HubSpot specialist, delivered within 90 days of purchase.",
+      "source": 3
+    },
+    {
+      "id": "enterprise-onboarding",
+      "label": "Marketing Hub Enterprise Onboarding (required)",
+      "amount": 7000,
+      "display": "$7,000 one-time",
+      "kind": "one-time",
+      "note": "Charged automatically when you buy Enterprise. Remote onboarding, delivered within 90 days of purchase.",
+      "source": 3
+    },
+    {
+      "id": "contact-tier-overage",
+      "label": "Marketing contact tier overage",
+      "amount": null,
+      "display": "Billed immediately at the next tier; no downgrade until renewal",
+      "kind": "other",
+      "note": "If your marketing contacts exceed your tier at any time, HubSpot bills the next tier immediately. Marking contacts as non-marketing only takes effect at the start of the next month or at renewal, and the tier cannot be lowered until the contract renews.",
+      "source": 3
+    },
+    {
+      "id": "seat-edition-escalation",
+      "label": "Seats priced at your highest edition",
+      "amount": null,
+      "display": "All Core Seats billed at the highest edition you own",
+      "kind": "other",
+      "note": "If you combine hubs at different editions (for example Marketing Hub Professional with Sales Hub Enterprise), every Core Seat is priced at the highest edition.",
+      "source": 3
+    },
+    {
+      "id": "renewal-list-price",
+      "label": "Renewal at list price",
+      "amount": null,
+      "display": "Fees may rise to catalog list price at renewal",
+      "kind": "other",
+      "note": "HubSpot may raise subscription fees up to its then-current catalog list price at renewal, with at least 30 days' notice. Relevant to the discounted Starter offer.",
+      "source": 16
+    }
+  ],
+  "billingNotes": [
+    "Starter can be paid month-to-month ('Pay Monthly, Commit monthly') or annually. Professional requires a 12-month commitment whether paid monthly ($890/month) or upfront ($800/month). Enterprise is billed annually only.",
+    "Starter's limited-time new-customer offer ($10 per seat billed monthly, $7 per seat per month billed annually, against a $20 list price) applies to seats. Billed monthly, marketing contacts stay at the catalog rates; billed annually, the calculator shows contacts 25% lower ($142.50 instead of $190 a month for 4,000 extra contacts) without saying whether that part is standard or promotional.",
+    "Subscriptions renew automatically for the same term length, up to one year. You cannot downgrade or cancel during the current term, and prepaid fees are not refunded.",
+    "Marketing contact tiers cannot be lowered until renewal; going over your tier is billed immediately.",
+    "Included HubSpot Credits (500 Starter, 3,000 Professional, 5,000 Enterprise) reset monthly and don't roll over; extra credits cost $0.010 each.",
+    "Non-marketing contacts are free up to 15 million total contacts; View-only Seats are free on every edition.",
+    "HubSpot runs discount programs for eligible startups (HubSpot for Startups) and nonprofits (HubSpot for Nonprofits)."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "HubSpot's pricing page has a currency picker that shows local-currency prices: for example Marketing Hub Enterprise is €3,300/month in EUR and ₹300,000/month in INR against $3,600 in USD, and Professional onboarding is €2,930 or ₹250,000. We publish U.S. list prices in USD. Marketing SMS add-ons are sold to U.S. customers only."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo operator, 1,000 contacts, on Marketing Hub Starter (SMS not included)",
+      "assumptions": "1 user, 1,000 marketing contacts, 2,000 marketing emails and 200 SMS a month. Starter includes 1,000 marketing contacts and allows sends of 5x the contact tier (5,000 a month), so one Core Seat at the $20 list price covers the user, contacts and email. The free tools fit only exactly (1,000-contact cap, 2,000 sends a month, HubSpot branding), so Starter is the sensible buy. The 200 SMS a month are NOT covered: HubSpot sells marketing SMS only as an add-on to Professional or Enterprise, which a one-person business would not buy for 200 texts.",
+      "planId": "starter",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Marketing Hub Starter, 1 Core Seat at list price (1,000 marketing contacts included)", "amount": 20 }
+      ],
+      "monthly": 20,
+      "confidence": "high",
+      "note": "New customers currently pay $10/month for this seat under HubSpot's limited-time Starter offer; HubSpot doesn't say how long the offer price lasts. Sending the 200 SMS natively would mean Professional plus the $75/month SMS add-on: $875/month billed annually ($800 + $75) or $965/month paid monthly ($890 + $75), plus the $3,000 onboarding fee."
+    },
+    {
+      "size": "small",
+      "label": "Small team, 5,000 contacts with SMS, on Marketing Hub Professional",
+      "assumptions": "3 users, 5,000 marketing contacts, 20,000 emails and 1,000 SMS a month. SMS forces Professional: the Marketing SMS add-on is not sold with Starter. Professional's 3 included Core Seats cover the 3 users. Contacts above the 2,000 included are sold in 5,000-contact packs, so 5,000 contacts needs the 7,000 tier (one pack); the send limit is 10x the tier (70,000 a month). The SMS add-on's 1,000 message segments cover 1,000 texts if each is one segment (160 GSM-7 characters or fewer) and replies fit within the same 1,000. Professional requires a 12-month commitment, so this uses the annual-prepay rates from HubSpot's calculator ($1,100/month, $13,200/year).",
+      "planId": "professional",
+      "billing": "annual",
+      "lines": [
+        { "label": "Marketing Hub Professional base: 3 Core Seats, 2,000 contacts (billed annually)", "amount": 800 },
+        { "label": "5,000 additional marketing contacts, 7,000 tier (billed annually)", "amount": 225 },
+        { "label": "Marketing SMS Add-On, 1,000 message segments", "amount": 75 }
+      ],
+      "monthly": 1100,
+      "confidence": "medium",
+      "note": "Plus the required one-time $3,000 Professional Onboarding fee: HubSpot's calculator puts the first year at $16,200. Paid monthly on the same 12-month commitment the bill is $1,215/month. Without SMS, Starter covers this team for $250/month at list price billed monthly (3 seats plus 4,000 extra contacts), or $220/month under the current new-customer offer."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, 25,000 contacts with SMS, on Marketing Hub Professional",
+      "assumptions": "8 users, 25,000 marketing contacts, 100,000 emails and 5,000 SMS a month. SMS forces Professional (the SMS add-on is not sold with Starter). 8 users = 3 included Core Seats + 5 extra at $45/month billed annually. 25,000 contacts needs the 27,000 tier (2,000 included + five 5,000-contact packs: four in the $250 band and one in the $225 band, less 10% for annual billing), priced at $1,102.50/month by HubSpot's calculator; the send limit is 10x the tier (270,000 a month). SMS: the add-on includes 1,000 segments and 4 SMS Limit Increase packs at $15/month add 4,000, assuming single-segment texts and that replies fit within the same 5,000. Professional requires a 12-month commitment, so this uses annual-prepay rates. HubSpot's calculator, set to exactly this bundle, shows $27,150/year ($2,262.50/month).",
+      "planId": "professional",
+      "billing": "annual",
+      "lines": [
+        { "label": "Marketing Hub Professional base: 3 Core Seats, 2,000 contacts (billed annually)", "amount": 800 },
+        { "label": "25,000 additional marketing contacts, 27,000 tier (billed annually)", "amount": 1102.5 },
+        { "label": "5 additional Core Seats x $45 (billed annually)", "amount": 225 },
+        { "label": "Marketing SMS Add-On, 1,000 message segments", "amount": 75 },
+        { "label": "SMS Limit Increase x 4 packs x $15 (4,000 more segments)", "amount": 60 }
+      ],
+      "monthly": 2262.5,
+      "confidence": "medium",
+      "note": "Plus the required one-time $3,000 Professional Onboarding fee. Paid monthly on the same 12-month commitment HubSpot's calculator shows $2,500/month for the same bundle. Without SMS, Starter covers 8 seats and 25,000 contacts for $1,150/month at list price billed monthly ($1,070 under the current new-customer offer), but Starter caps email automation at 10 automated actions."
+    }
+  ],
+  "unverified": [
+    "How long the Starter new-customer offer price ($10 per seat billed monthly, $7 per seat per month billed annually) lasts: HubSpot says only 'New customers only. Select offers available for a limited time.' Its terms allow fees to rise to the catalog list price ($20 per seat) at renewal.",
+    "What Starter costs on annual billing once the new-customer offer ends: HubSpot's annual view shows the $7 offer price against a struck-through $20 list price, so Starter's annual price is recorded at the $20 list price. It is not stated whether the lower annual price for Starter marketing contacts ($142.50 instead of $190 a month for 4,000 extra) is a standard annual rate or part of the offer.",
+    "Whether HubSpot waives or reduces the required Professional or Enterprise onboarding fee (for example when a Solutions Partner handles onboarding): not stated on the public pricing pages.",
+    "Negotiated or multi-year discounts on Professional and Enterprise, which are sold through HubSpot sales: not published."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

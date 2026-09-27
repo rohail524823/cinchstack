@@ -24,6 +24,8 @@ Run `node scripts/lint-content.mjs <your .mdx>` and `node scripts/validate-data.
 
 ## Your sources, in order of trust
 
+Start with the fact sheets in `.factpacks/` (regenerate with `node scripts/factpack.mjs` if missing): `INDEX.md` lists every tool with verified data, and `<tool>.md` summarises its plans (with the ids tokens need), costs, the three real bills, fine print, unverifiable points, strengths, weaknesses and sources. They are generated from the data below, so they are the fastest accurate way in.
+
 1. `src/data/pricing/<tool>.json` and `src/data/tools/<tool>.json` for every tool you mention. Read the scenarios, the add-ons, the usage fees, `billingNotes`, `unverified` and `extraCosts`.
 2. The saved vendor pages in `snapshots/<tool>/*.txt` for context and detail (plan features, limits, policies).
 3. The vendor's own website and help centre, via WebFetch or WebSearch, for non-price facts (features, export, contracts). If you rely on one for a claim that matters, prefer the vendor's own docs and be conservative.
@@ -60,6 +62,7 @@ Run `node scripts/lint-content.mjs <your .mdx>` and `node scripts/validate-data.
   - `published: 2026-09-26`
   - `related`: optional list of up to 3 extra internal paths for "Keep reading".
 - Body: **3–7 H2 sections** (`##`), no H1. Phrase H2s as the questions people search where natural ("Which HubSpot plan does a small team need?"). Each section must stand on its own if quoted. Use `###` sparingly. Short paragraphs, lists where they help.
+- Headings the template already renders are reserved and the linter rejects them as H2s: "Which should you pick?", "What each one really costs", "… side by side", "How we score them", "What the whole stack costs", "Free tools we would add", "What to skip", "What it does well, and where it falls short", "What <tool> really costs", "Compare <tool>", "<tool> plans and prices", "Billing rules worth knowing", "If you want one answer". Write more specific questions instead.
 - Do not repeat what the page already renders from data (the plans table, the three bills, add-on tables, sources, the score). Refer to them ("the bills above"). Do not use these as H2s: "Frequently asked questions", "How we checked this", "What you will really pay", "Add-ons, usage and other costs", "Keep reading".
 - Comparison and stack pages must include one section headed **"Where most advice gets this wrong"** with an original, defensible point.
 - Links: use `<T id="tool" />` to mention and link a tool (it links its pricing page when that page exists, plain text otherwise; `to="hub"` or `to="alternatives"` for others). Markdown links only to pages in `docs/prompts/launch-pages.json` or `/methodology/`, `/how-we-earn/`, `/data/`, `/changes/`. Always with a trailing slash. Never link to vendor sites in prose; the template adds the vendor buttons.
@@ -86,7 +89,7 @@ Say everything true and useful, then stop. Targets for the MDX body: pricing 700
 The template shows, above your prose: quick answer, at-a-glance box, plans table, the three real bills. Below it: add-ons, usage, extra costs, billing notes, sources, FAQ. Suggested sections: which plan each kind of business needs; what pushes the bill up (the specific add-ons/usage/limits from the data); whether yearly billing is worth it; the catches the pricing page does not make obvious (from `billingNotes`, `extraCosts`, `unverified`, snapshot fine print); how the cost compares with the obvious alternatives (with `<T>` links).
 
 ### Tool review hub (`tools/<tool>`)
-The template shows the score panel, an at-a-glance box, your prose, strengths and weaknesses from `tools/<tool>.json`, the real-cost table, and links to comparisons. Your prose: what the tool is and who it is for, what it does well, where it falls short, who should not buy it, how it fits into a stack (link the relevant `/stacks/<business>/` pages), and a verdict by business type.
+The template shows the score panel, an at-a-glance box, your prose, then a strengths and weaknesses box built from `tools/<tool>.json`, the real-cost table, and links to comparisons. Do not restate the strengths and weaknesses as lists; explain the two or three that matter most to a buyer, with context. Your prose: what the tool is and who it is for, what it does well, where it falls short, who should not buy it, how it fits into a stack (link the relevant `/stacks/<business>/` pages), and a verdict by business type.
 
 ### Comparison (`compare/<a>-vs-<b>`)
 Data file per `comparisonSchema` in `src/lib/schemas.mjs`: `id`, `a`, `b`, `layer`, 5–12 `dimensions` `{ label, a, b, edge: "a"|"b"|"tie" }` (short, concrete cell text; cost cells may cite data figures), and `verdicts` for at least 4 of the six businesses `{ business, pick: "a"|"b"|"neither", why }` (one sentence each). The template renders the verdicts, the cost-at-three-sizes table, your dimensions table, your prose, both scores and both sources. Prose: the short answer, where A wins, where B wins, how the bills diverge as a business grows, switching cost, "Where most advice gets this wrong".
