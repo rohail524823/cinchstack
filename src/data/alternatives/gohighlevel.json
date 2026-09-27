@@ -1,0 +1,79 @@
+{
+  "tool": "gohighlevel",
+  "reasons": [
+    {
+      "reason": "The plan price is only the floor: texts, calls, phone numbers, email and most AI still meter against a prepaid wallet whose auto-recharge cannot be turned off.",
+      "picks": [
+        {
+          "tool": "hubspot",
+          "why": "Publishes flat per-seat and contact-tier pricing with a public calculator, and its free tools cover 2 users and 1,000 contacts with no card required, so the bill is known before you send a single message."
+        },
+        {
+          "tool": "zoho-crm",
+          "why": "Prices every edition strictly per seat, with no usage wallet and no native SMS feature to meter in the first place."
+        }
+      ]
+    },
+    {
+      "reason": "You need a sales pipeline, not a funnel builder, a website builder and a phone system bundled together.",
+      "picks": [
+        {
+          "tool": "pipedrive",
+          "why": "A sales-pipeline CRM billed per seat across four plans, with no funnel builder or phone system bundled in for you to pay for and never open."
+        }
+      ]
+    },
+    {
+      "reason": "You are a solo coach or course creator who wants funnels and email, not a phone system and client sub-accounts.",
+      "picks": [
+        {
+          "tool": "systeme-io",
+          "why": "Sales funnels, unlimited email sends and a course tool share one account, with 0% transaction fees and a free plan for up to 2,000 contacts, none of it metered by usage the way GoHighLevel's wallet is."
+        },
+        {
+          "tool": "kajabi",
+          "why": "A deeper course, coaching and community platform than GoHighLevel's courses feature bolted onto a CRM, with 0% revenue share and built-in checkout."
+        }
+      ]
+    },
+    {
+      "reason": "You only run email or SMS campaigns, with no CRM, funnels or phone features to pay for.",
+      "picks": [
+        {
+          "tool": "kit",
+          "why": "Built around a creator's own newsletter list, free for up to 10,000 subscribers, with none of GoHighLevel's CRM, funnel or phone features to pay for unused."
+        },
+        {
+          "tool": "klaviyo",
+          "why": "Priced by active profile count rather than seats, built around ecommerce customer data, with SMS priced per segment and no CRM or funnel bundle attached."
+        }
+      ]
+    },
+    {
+      "reason": "You need a real checkout, inventory and a storefront, not just funnels and payment links.",
+      "picks": [
+        {
+          "tool": "shopify",
+          "why": "A hosted storefront with checkout, inventory and point-of-sale built in, which GoHighLevel's funnel and payment-link tools were never built to replace."
+        },
+        {
+          "tool": "woocommerce",
+          "why": "A free, self-hosted plugin with no plan fee or revenue share, for a business that already runs WordPress and wants to own the checkout instead of renting a funnel builder."
+        }
+      ]
+    },
+    {
+      "reason": "You need a content-heavy marketing website with many pages, not a funnel-oriented builder.",
+      "picks": [
+        {
+          "tool": "webflow",
+          "why": "A visual site builder with a real CMS for a blog or many pages, the kind of site GoHighLevel's funnel-oriented builder is not designed to carry."
+        },
+        {
+          "tool": "squarespace",
+          "why": "A simpler flat-rate site builder with unlimited pages and bandwidth on every plan, for a business whose real need is a marketing website, not a funnel."
+        }
+      ]
+    }
+  ]
+}
