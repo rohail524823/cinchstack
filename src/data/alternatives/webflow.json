@@ -1,0 +1,70 @@
+{
+  "tool": "webflow",
+  "reasons": [
+    {
+      "reason": "Bandwidth is metered, so a traffic spike or a run of bot traffic can push the bill into a pricier tier on its own.",
+      "picks": [
+        {
+          "tool": "squarespace",
+          "why": "Every current plan, Basic through Advanced, allows unlimited bandwidth, so a jump in visits never changes what the site owes the way it can on Webflow's Premium plan."
+        },
+        {
+          "tool": "wix",
+          "why": "None of Wix's four paid tiers publishes a bandwidth limit or a bandwidth fee at all, so traffic growth is not something to budget for separately the way Webflow's add-on tiers are."
+        }
+      ]
+    },
+    {
+      "reason": "Every editor beyond the workspace owner is its own paid seat, stacked on top of the Site plan you already pay for.",
+      "picks": [
+        {
+          "tool": "framer",
+          "why": "The first editor is free the same way it is on Webflow, but every seat after that runs a flat $30 a month for full access or $15 for content-only, both under Webflow's $45 Full or $19 Limited rate, on either plan."
+        },
+        {
+          "tool": "wix",
+          "why": "Wix bakes the collaborator count into the plan itself, from 2 seats on Light up to 100 on Business Elite, with no separate per-seat line for a second or third editor."
+        }
+      ]
+    },
+    {
+      "reason": "The store has outgrown a 500-item ecommerce plan with a transaction fee stacked on top of card processing.",
+      "picks": [
+        {
+          "tool": "shopify",
+          "why": "Every plan allows unlimited products and includes point-of-sale software for in-person sales, and Shopify adds no platform fee at all once the store uses Shopify Payments."
+        },
+        {
+          "tool": "woocommerce",
+          "why": "The plugin itself is free with no item cap and no revenue share; the only recurring bill is hosting, which starts at $25 a month on Woo's own recommended host."
+        }
+      ]
+    },
+    {
+      "reason": "There's no in-house designer, and Webflow's canvas expects real design and code skill before a page looks finished.",
+      "picks": [
+        {
+          "tool": "squarespace",
+          "why": "Pages are built from a fixed set of professionally designed section layouts, so nothing needs custom CSS to look finished."
+        },
+        {
+          "tool": "wix",
+          "why": "The drag-and-drop editor bundles Wix's own AI creation tools on every plan, including the free one, so there is no separate AI add-on to buy first."
+        }
+      ]
+    },
+    {
+      "reason": "The page is really the front end of a funnel or a paid course, and Webflow has no checkout, email sending or course tool of its own to attach to it.",
+      "picks": [
+        {
+          "tool": "systeme-io",
+          "why": "Funnels, unlimited email sends and a course tool live in the same account as the pages themselves, starting at $17 a month, with no separate checkout to bolt on."
+        },
+        {
+          "tool": "kajabi",
+          "why": "A deeper course, coaching and community platform with checkout built in and 0% revenue share, for a business whose product is the paid program rather than the site in front of it."
+        }
+      ]
+    }
+  ]
+}

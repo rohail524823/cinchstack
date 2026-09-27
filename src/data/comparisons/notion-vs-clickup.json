@@ -1,0 +1,106 @@
+{
+  "id": "notion-vs-clickup",
+  "a": "notion",
+  "b": "clickup",
+  "layer": "organize",
+  "dimensions": [
+    {
+      "label": "Cheapest way to start",
+      "a": "Free is unlimited in pages and blocks for one person, so a real solo bill is $0",
+      "b": "Free Forever is $0 too, but its 60MB storage cap and one-time feature 'uses' push a real solo bill to $10 on Unlimited",
+      "edge": "a"
+    },
+    {
+      "label": "What the free plan really caps",
+      "a": "Blocks become 'limited' once a workspace has 2 or more members; Notion doesn't publish the number",
+      "b": "60MB total file storage per Workspace, plus fixed one-time 'uses' for Custom Fields, Gantt, Timeline, Workload and Dashboards that never reset",
+      "edge": "tie"
+    },
+    {
+      "label": "Core design center",
+      "a": "Pages and databases (subtasks, dependencies, custom properties) built for docs, wikis and light tracking",
+      "b": "Tasks first, with dedicated Gantt, Timeline, Workload and Dashboard views built for running day-to-day project work",
+      "edge": "tie"
+    },
+    {
+      "label": "Built-in project-tracking views",
+      "a": "The pricing page lists no dedicated Gantt, Timeline or Workload view; databases add subtasks and dependencies instead",
+      "b": "Free Forever's own limits confirm Gantt, Timeline, Workload and Dashboards exist from the start, uncapped from Unlimited and Business",
+      "edge": "b"
+    },
+    {
+      "label": "Seat price for a 5-person team",
+      "a": "$60 a month on Plus ($12 a seat)",
+      "b": "$50 a month on Unlimited ($10 a seat)",
+      "edge": "b"
+    },
+    {
+      "label": "Seat price for a 15-person team",
+      "a": "$180 a month, still on Plus; no plan limit forces an upgrade at this size",
+      "b": "$285 a month, forced onto Business once Dashboards, Timeline and Workload views exhaust their 100-use-per-Workspace ceiling",
+      "edge": "a"
+    },
+    {
+      "label": "Where AI pricing lives",
+      "a": "Notion Agent, Meeting Notes and Enterprise Search are bundled into the $24 Business seat price",
+      "b": "Brain AI and Everything AI are separate per-member add-ons on top of any plan, at $14 or $33 a month",
+      "edge": "a"
+    },
+    {
+      "label": "Guests",
+      "a": "Free and unlimited on every paid plan; a guest opens only the pages they're invited to",
+      "b": "View-only guests are unlimited and free; permission-controlled guest seats are capped by a formula that scales with paid seats",
+      "edge": "a"
+    },
+    {
+      "label": "Importing the other tool's content",
+      "a": "No documented importer for ClickUp content; moving in means exporting and rebuilding by hand or with a third-party tool",
+      "b": "A built-in importer turns a Notion HTML export into ClickUp Lists and a nested Doc on every plan, though comments and attachments are dropped",
+      "edge": "b"
+    },
+    {
+      "label": "Admin and security controls",
+      "a": "SAML SSO and private teamspaces from Business; SCIM provisioning and an audit log are Enterprise-only and quote-priced",
+      "b": "Google SSO from Business; SAML SSO, SCIM provisioning and an audit log are Enterprise-only and quote-priced",
+      "edge": "tie"
+    },
+    {
+      "label": "Contract and commitment",
+      "a": "Month-to-month or yearly by choice on every plan, with no mixed-billing restriction stated",
+      "b": "Month-to-month or yearly by choice, but a Workspace can't mix monthly and yearly licenses, and switching to yearly means contacting support",
+      "edge": "a"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "b",
+      "why": "ClickUp's Spaces, Lists and multiple views handle several client projects and deadlines directly, and five seats cost less on ClickUp's Unlimited plan than on Notion's Plus plan."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "Neither tool hosts lessons, sells a cohort or tracks student progress, so a course creator needs a platform built for that job instead of a wiki or a task board."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "a",
+      "why": "A Shopify store mostly needs a lightweight home for SOPs, supplier details and a content calendar, which fits Notion's page-and-database model at a lower cost before the store has enough staff to need Gantt charts or workload views."
+    },
+    {
+      "business": "local-service",
+      "pick": "b",
+      "why": "Recurring job checklists, crew assignments and scheduling fit ClickUp's task-first views better than Notion's page-and-database model, and its per-seat price is also lower at a small team's size."
+    },
+    {
+      "business": "freelancer",
+      "pick": "a",
+      "why": "A freelancer with a short client list and no team to coordinate can run Notion's free plan at no cost, while ClickUp's free plan's storage and feature-use caps push a real solo bill onto its paid Unlimited plan."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "b",
+      "why": "ClickUp's sprint points and reporting on the Business plan target a product team's workflow directly, a feature neither of Notion's plans lists."
+    }
+  ]
+}

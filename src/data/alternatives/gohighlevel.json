@@ -46,6 +46,19 @@
         {
           "tool": "klaviyo",
           "why": "Priced by active profile count rather than seats, built around ecommerce customer data, with SMS priced per segment and no CRM or funnel bundle attached."
+        },
+        {
+          "tool": "mailchimp",
+          "why": "Prices by contact-count band, from a free plan for up to 250 contacts to flat monthly tiers as the list grows, with purchase-behavior tracking and product recommendations on every plan, including free, and no CRM, funnel or phone system bundled in."
+        }
+      ]
+    },
+    {
+      "reason": "You want stronger email marketing automation and a light CRM, not a funnel builder, a website builder or a phone system.",
+      "picks": [
+        {
+          "tool": "activecampaign",
+          "why": "Bundles marketing automation with a CRM on every plan, including its cheapest tier, priced by contact count instead of a flat floor plus metered usage; there is no free-forever plan, only a 14-day trial."
         }
       ]
     },
@@ -71,7 +84,7 @@
         },
         {
           "tool": "squarespace",
-          "why": "A simpler flat-rate site builder with unlimited pages and bandwidth on every plan, for a business whose real need is a marketing website, not a funnel."
+          "why": "A simpler flat-rate site builder with up to 1,000 pages and unlimited bandwidth on every plan, for a business whose real need is a marketing website, not a funnel."
         }
       ]
     }

@@ -1,0 +1,100 @@
+{
+  "id": "klaviyo-vs-activecampaign",
+  "a": "klaviyo",
+  "b": "activecampaign",
+  "layer": "grow",
+  "dimensions": [
+    {
+      "label": "Pricing mechanism",
+      "a": "One Email plan priced only by active-profile count, with no seat limit at any tier",
+      "b": "Four named plans (Starter/Plus/Pro/Enterprise) priced by contact-count band, each bundling more CRM, automation actions and seats as you go up",
+      "edge": "tie"
+    },
+    {
+      "label": "Cheapest paid plan, at 1,000 contacts/profiles",
+      "a": "$30/mo (Email, 1,000 active profiles), billed monthly — no annual option on the pricing page",
+      "b": "$15/mo (Starter, 1,000 contacts), billed annually only — no self-serve monthly rate is published",
+      "edge": "b"
+    },
+    {
+      "label": "Cost at 10,000 contacts/profiles, small team",
+      "a": "$150/mo (Email, 10,000 profiles), billed monthly",
+      "b": "$149/mo (Starter, 10,000 contacts), billed annually",
+      "edge": "tie"
+    },
+    {
+      "label": "Billing cadence you can actually get self-serve",
+      "a": "Monthly only, by credit card, with no annual discount published for any plan",
+      "b": "Annual only on the public pricing page; a Monthly cadence exists per the Help Center, but its rate has never been published",
+      "edge": "a"
+    },
+    {
+      "label": "Team seats included and the cost to add more",
+      "a": "No seat limit or seat charge at any tier — price is set purely by profile count",
+      "b": "Fixed seats per plan (Starter 1, Plus 1, Pro 3, Enterprise 5); extra seats are purchasable but no price is published anywhere public",
+      "edge": "a"
+    },
+    {
+      "label": "Built-in sales CRM with a pipeline",
+      "a": "Calls itself a \"B2C CRM\" built on customer profiles, but has no deal-pipeline or sales-rep tooling",
+      "b": "A CRM and pipeline ship on every paid plan, including Starter; Pipelines and Sales Engagement add-ons go further on Plus and up, though their price is unpublished",
+      "edge": "b"
+    },
+    {
+      "label": "Ecommerce-specific features",
+      "a": "Flows read Shopify and WooCommerce order and browsing history natively; a Reviews add-on ($25/mo, up to 250 orders/month) is scoped to store order volume",
+      "b": "Lists Shopify and WooCommerce among 1,000+ integrations, but has no order-volume-priced add-on comparable to Klaviyo's Reviews",
+      "edge": "a"
+    },
+    {
+      "label": "SMS marketing cost",
+      "a": "Native and usage-priced: $0.01 per US toll-free segment sent, carrier fees included",
+      "b": "An SMS add-on exists on Plus and up, but its credit price is shown only inside an in-app purchase modal after signing in",
+      "edge": "a"
+    },
+    {
+      "label": "Free access before you pay anything",
+      "a": "A free-forever plan, up to 250 active profiles and 500 emails/month, with no time limit",
+      "b": "No free plan at all — only a 14-day trial that runs on Pro-plan features, no card required",
+      "edge": "a"
+    },
+    {
+      "label": "Refund or guarantee if it's not a fit",
+      "a": "None stated; cancelling immediately rather than at the end of the billing cycle forfeits the rest of the paid month",
+      "b": "A 30-day money-back guarantee on every paid plan",
+      "edge": "b"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "b",
+      "why": "An agency managing several clients' lead pipelines gets a CRM and pipeline on every ActiveCampaign plan, including Starter, while Klaviyo has no pipeline tooling at all."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "A course creator's list rarely comes from ecommerce order data or a sales pipeline, so Klaviyo's Shopify- and WooCommerce-specific tools and ActiveCampaign's CRM both solve a problem most course businesses don't have."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "a",
+      "why": "Klaviyo's flows are built directly on Shopify order and browsing history, with a Reviews add-on priced by store order volume that ActiveCampaign has no equivalent for."
+    },
+    {
+      "business": "local-service",
+      "pick": "b",
+      "why": "A business selling appointments and quotes rather than a product catalog gets more use from ActiveCampaign's built-in CRM and pipeline than from Klaviyo's ecommerce-scoped add-ons."
+    },
+    {
+      "business": "freelancer",
+      "pick": "a",
+      "why": "Klaviyo's free-forever plan lets a freelancer start at $0 and pay monthly with no annual commitment, while ActiveCampaign has no free tier and publishes its price only on an annual bill."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "b",
+      "why": "A software startup doing sales-led growth needs the CRM and pipeline that ship on every ActiveCampaign plan more than it needs Klaviyo's Shopify- and WooCommerce-specific integrations."
+    }
+  ]
+}

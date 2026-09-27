@@ -1,0 +1,73 @@
+{
+  "id": "freelancer",
+  "label": "Freelancer or solo consultant",
+  "profile": "A freelancer or solo consultant who sells their own time or expertise directly to clients, project by project or on retainer, rather than a course, a membership or a product sold to a wider audience.",
+  "sizeLabels": {
+    "solo": "Solo freelancer",
+    "small": "Freelancer with two contractors",
+    "growing": "A five-person consulting studio"
+  },
+  "layers": [
+    {
+      "layer": "site",
+      "role": "A professional portfolio and service site",
+      "pick": "squarespace",
+      "why": "Squarespace's templates are built to look like a finished, designed site on day one, which matters most when the site itself is the pitch. Every current plan allows up to 1,000 pages and unlimited bandwidth, so a portfolio, case studies and a handful of service pages never force an upgrade on their own; only adding a second person to edit the site does.",
+      "alternatives": [
+        { "tool": "wix", "when": "You want the cheapest published price for a bare portfolio and don't plan to invoice or take payment through the site itself." },
+        { "tool": "framer", "when": "The site has to read as a design portfolio rather than a service brochure, and you're fine handling invoicing somewhere else." }
+      ]
+    },
+    {
+      "layer": "sell",
+      "role": "Invoicing and getting paid",
+      "pick": "squarespace",
+      "why": "Squarespace's built-in invoicing tool sends a real, payable invoice with no Squarespace fee on any plan, so getting paid doesn't need a second subscription or a second login on top of the site you already pay for.",
+      "alternatives": [
+        { "tool": "systeme-io", "when": "You sell a fixed-price package or a paid consultation slot through a funnel rather than custom, itemized invoices, and want a free plan with no transaction fee." }
+      ],
+      "overrides": {
+        "solo": { "amount": 0, "note": "Included in Squarespace" },
+        "small": { "amount": 0, "note": "Included in Squarespace" },
+        "growing": { "amount": 0, "note": "Included in Squarespace" }
+      }
+    },
+    {
+      "layer": "run",
+      "role": "Track leads, proposals and client relationships",
+      "pick": "zoho-crm",
+      "why": "Zoho CRM's free plan tracks leads, deals and follow-up reminders for up to three users with no card required, and covers individual, one-to-one emails, which is how a consulting pipeline actually runs. That's different from the bulk marketing email that pushes most CRMs onto a paid plan.",
+      "alternatives": [
+        { "tool": "pipedrive", "when": "Sending a proposal the client can sign online is core to how you close deals, and you're willing to pay for a dedicated pipeline app plus its e-signature add-on to get that." }
+      ],
+      "overrides": {
+        "solo": { "amount": 0, "note": "Zoho's Free plan (no card required) already covers one person: contact and deal tracking, follow-up reminders and workflow automation, with individual emails covered up to 50 a day. A solo consultant's outreach is one-to-one, not the bulk marketing email that forces most CRM sizings onto a paid plan." },
+        "small": { "amount": 0, "note": "Still Free: its 3-user cap covers you plus two contractors, and one-to-one client follow-up still doesn't need Standard's Mass Email feature." },
+        "growing": { "amount": 100, "note": "Five seats on Standard, priced per user at Zoho's list rate: Free's hard cap is exactly 3 users with no way to add a 4th, so a five-person studio has to move up on seats alone, not because it suddenly needs Standard's bulk-email tools." }
+      }
+    },
+    {
+      "layer": "organize",
+      "role": "Client notes, proposals and SOPs",
+      "pick": "notion",
+      "why": "Notion is free and unlimited in pages and blocks for a single-person workspace, which fits a solo consultant's client notes, proposal drafts and SOPs without a task-board structure you don't need yet.",
+      "alternatives": [
+        { "tool": "clickup", "when": "You're assigning tasks and deadlines to a contractor rather than just sharing docs and notes." }
+      ],
+      "overrides": {
+        "small": { "amount": 36, "note": "3 seats on Plus, at Notion's listed per-member rate: Free becomes limited for any workspace with 2 or more members, and Notion doesn't publish the exact cap, so Plus is the safer buy the moment a contractor joins the workspace." },
+        "growing": { "amount": 60, "note": "5 seats on Plus, at the same per-member rate: Plus has no published seat cap, so a five-person studio doesn't need Business unless it wants Notion's full AI agent, SAML SSO or private teamspaces." }
+      }
+    }
+  ],
+  "extras": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/", "note": "Free professional profile most B2B clients check before they ever reach your site; keep it pointed at the same portfolio your site shows." },
+    { "name": "Google Search Console", "url": "https://search.google.com/search-console/about", "note": "Free. Shows which searches already bring visitors to your site and flags indexing problems before they cost you a lead." }
+  ],
+  "skip": [
+    { "what": "An agency-built CRM like GoHighLevel or HubSpot Professional", "why": "Both are priced and designed for a team running campaigns across many clients' accounts at once. A solo consultant's own pipeline is a fraction of that job, and a free CRM already covers it." },
+    { "what": "A separate invoicing or accounting app", "why": "Your site's own invoicing tool already sends a payable, professional invoice with no platform fee. Adding a stand-alone invoicing app on top means paying for, and re-entering client details into, the same job twice." },
+    { "what": "A dedicated email marketing tool", "why": "A referral-driven consulting practice doesn't run mass email campaigns the way a marketing business does, so a paid sender is overhead until you actually have a list worth mailing on a real schedule." },
+    { "what": "An ecommerce platform like Shopify or WooCommerce", "why": "Both are built for a product catalog, inventory and shipping. Selling your own time or a project doesn't need a shopping cart, and their fee structure and setup both assume physical goods moving through it." }
+  ]
+}

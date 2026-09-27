@@ -1,0 +1,33 @@
+{
+  "page": "alternatives/webflow",
+  "items": [
+    {
+      "q": "What is the cheapest alternative to Webflow?",
+      "a": "It depends on what the site needs to do, since Webflow's own cheapest plan with a CMS, Premium, costs $39 a month before any bandwidth or seat is added. Wix's cheapest plan with a custom domain, Light, is priced at $17 a month billed annually and still excludes online payments, customer accounts and any eCommerce tools at that tier. Squarespace's Basic plan runs $25 a month and already bundles a blog and a store, though it caps contributors at two, including the site owner. WooCommerce itself is free to install, but it needs its own WordPress hosting, which starts around $25 a month on Woo's own recommended host. None of these three match Webflow's code-level canvas or its Workspace structure for client sites; each is only the cheaper pick for the specific job it actually replaces."
+    },
+    {
+      "q": "Is there a free alternative to Webflow that allows a custom domain?",
+      "a": "Not among the site builders priced on this page. Webflow's own free Starter plan publishes only to a webflow.io subdomain, and Wix's Free plan works the same way: no time limit and no card required, but the site carries Wix's own branding and stays on a Wix subdomain until you move to the paid Light plan. Squarespace skips a permanent free plan altogether and instead gives every new site a 14-day trial, with no live payments allowed until a paid plan is chosen. Systeme.io's Free plan is the one exception worth naming: it includes one custom domain on its own page builder, alongside 2,000 contacts and 3 sales funnels, though that builder is built for a funnel-style page, not a content-heavy CMS site the way Webflow's Premium plan is. Match a free plan to the specific page being built, not to the word free by itself."
+    },
+    {
+      "q": "What happens to a Webflow site if you cancel?",
+      "a": "The site itself stays up until the current billing term actually ends, since Webflow's plans are prepaid and canceling mid-cycle does not return the unused part of the month. Once a Site plan lapses, the pages it was serving on a custom domain stop being reachable there, and a Workspace downgrade or cancellation removes the editors, staff seats and staging sites tied to it, separately from whatever happens to the Site plan underneath. Webflow's own export tool is the way to keep anything: a paid Workspace plan can export a site's HTML and CSS, and CMS content exports one Collection at a time, though forms stop working the moment the site leaves Webflow's hosting. None of this happens automatically on cancellation, so export the code and content, and rebuild the forms elsewhere, before the term ends rather than after."
+    },
+    {
+      "q": "Which Webflow alternative is best for an online store?",
+      "a": "Neither Webflow nor most site builders in its category are really built for that job, since Webflow's own Ecommerce plans cap out between 500 and 15,000 items and charge a transaction fee on the entry tier. Shopify is the more direct answer: a hosted store with unlimited products, checkout, inventory and point-of-sale software built in, starting at $39 a month, with no platform fee once the store uses Shopify Payments. WooCommerce is the free alternative for a business that already runs WordPress and would rather own its checkout and code than rent a hosted platform, though hosting, paid extensions and card processing then become separate bills to manage. Neither Squarespace nor Wix competes here on the same terms: both sell a store as one feature inside a general site plan rather than as a dedicated commerce back office the way Shopify is built."
+    },
+    {
+      "q": "Is Squarespace a good alternative to Webflow?",
+      "a": "For some businesses, yes, though it trades away exactly what Webflow sells. Squarespace's editor works in sections built from a fixed set of designed layouts, so a non-designer can get a page looking finished quickly, but it never opens up the raw HTML and CSS control that Webflow's canvas gives a comfortable designer. Squarespace wins on predictability instead: every current plan allows unlimited bandwidth and up to 1,000 pages, so a traffic spike never forces an upgrade the way Webflow's metered bandwidth can. Team size is cheaper too, since Core and every plan above it include unlimited contributors for one flat price, where Webflow charges $19 a month for every extra Limited seat. Pick Squarespace over Webflow when the business needs a finished-looking site fast and a predictable bill more than it needs design-level control; pick Webflow when that control is the actual point."
+    },
+    {
+      "q": "Which Webflow alternative is best for an agency running several client sites?",
+      "a": "Honestly, none of them beat Webflow at that specific job, which is why agencies are one of the businesses Webflow's own pricing page is built around. Its Agency Workspace, at $42 a month, bundles unlimited staging sites and three free client seats on every site, a structure none of Framer, Squarespace or Wix offers; each of those bills every site as its own separate account with no shared client-workspace layer at all. An agency that mainly needs a lighter tool for content-only edits, not full design control, could still hand simpler client sites to Framer, whose Content Editor seat costs $15 a month against Webflow's $19 Limited seat. For an agency running many design-heavy client sites day to day, though, switching away from Webflow's Workspace structure to save a few dollars a seat is rarely worth rebuilding everything elsewhere."
+    },
+    {
+      "q": "Can you export a Webflow site before switching to something else?",
+      "a": "Partly, and it is worth doing before you cancel, not after. Any paid Workspace plan, not the free Starter Workspace, can export a site's own HTML and CSS, which gives a new host real markup to start from instead of a screenshot to rebuild from scratch. CMS content is slower to move: Webflow exports it one Collection at a time, so a blog with several content types takes several separate exports rather than one file, and that time adds up on a content-heavy site. What does not come along at all is anything that depends on Webflow's own servers: connected forms, booking widgets and newsletter signups all go dark the instant the site is no longer hosted there, and any code embedded through Webflow Cloud has no equivalent on a plain static export. Run the new platform alongside Webflow for at least one full billing cycle before treating the move as finished."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "tool": "hubspot",
+  "reasons": [
+    {
+      "reason": "Marketing Hub Professional charges a mandatory one-time onboarding fee — $3,000 on Professional, $7,000 on Enterprise — before you send a single campaign.",
+      "picks": [
+        {
+          "tool": "gohighlevel",
+          "why": "Its Starter plan runs a flat $97 a month with no forced setup charge; HighLevel's own done-with-you setup service is optional, not billed automatically at signup."
+        },
+        {
+          "tool": "pipedrive",
+          "why": "Bills strictly per seat starting at $24 a month on Lite, with a 14-day trial and no onboarding fee written into any of its four plans."
+        }
+      ]
+    },
+    {
+      "reason": "Professional locks you into a 12-month term even when you pay monthly, and Enterprise sells on annual billing only, with no cancel-anytime option at either tier.",
+      "picks": [
+        {
+          "tool": "zoho-crm",
+          "why": "Every edition is pay-as-you-go, and Zoho's own pricing FAQ says you can pay monthly or yearly and switch plans at any time with nothing to sign."
+        },
+        {
+          "tool": "gohighlevel",
+          "why": "Month to month on every plan, including the ones with its deepest automation; you upgrade, downgrade or cancel from the dashboard rather than a new signed term."
+        }
+      ]
+    },
+    {
+      "reason": "Marketing contacts above your tier bill immediately, and asking to exclude contacts from marketing status to bring the count back down only takes effect at your next renewal.",
+      "picks": [
+        {
+          "tool": "zoho-crm",
+          "why": "Prices every edition strictly per user, with no contact-count tier to cross or wait out in the first place."
+        },
+        {
+          "tool": "pipedrive",
+          "why": "Ties its lead-and-deal capacity to the seats you already pay for instead of running a separate contact-tier meter on top of them."
+        }
+      ]
+    },
+    {
+      "reason": "Marketing SMS exists only as an add-on to Professional or Enterprise, and only for U.S. numbers texting U.S. and Canadian recipients.",
+      "picks": [
+        {
+          "tool": "klaviyo",
+          "why": "Sells SMS on every plan, including its free one, with carrier fees already built into the per-segment rate rather than a feature gated behind a CRM tier."
+        },
+        {
+          "tool": "gohighlevel",
+          "why": "Meters texting as usage on its $97 floor plan once a one-time A2P 10DLC registration is done, instead of holding SMS back for an $890-a-month tier."
+        }
+      ]
+    },
+    {
+      "reason": "Starter's email automation stops at 10 automated actions, so a small team building real multi-step workflows has to jump straight to Professional's much larger monthly base.",
+      "picks": [
+        {
+          "tool": "activecampaign",
+          "why": "Includes marketing automation and a light CRM on its cheapest paid plan, not a feature held back for a pricier tier the way Starter's cap works."
+        }
+      ]
+    },
+    {
+      "reason": "Every Core Seat is billed at your highest edition across every hub, so adding one pricier Sales or Service Hub tier quietly raises what your existing marketing seats cost too.",
+      "picks": [
+        {
+          "tool": "zoho-crm",
+          "why": "Prices seats on the CRM edition alone; there's no second product whose tier could push an existing seat's price up."
+        },
+        {
+          "tool": "systeme-io",
+          "why": "Every plan, including Free, includes unlimited staff accounts, so there's no per-seat price for a second product to inflate in the first place."
+        }
+      ]
+    }
+  ]
+}

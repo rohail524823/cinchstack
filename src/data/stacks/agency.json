@@ -1,0 +1,59 @@
+{
+  "id": "agency",
+  "label": "Marketing agency",
+  "profile": "A marketing agency of 1 to 15 people that runs lead generation, funnels, websites, CRM and follow-up on behalf of small-business clients such as local shops, clinics and contractors.",
+  "sizeLabels": { "solo": "Solo consultant", "small": "5-person agency", "growing": "15-person agency" },
+  "layers": [
+    {
+      "layer": "run",
+      "role": "CRM, funnels and client follow-up",
+      "pick": "gohighlevel",
+      "why": "GoHighLevel bundles a CRM, a funnel and website builder, and email and SMS follow-up under one subscription with unlimited users, and its sub-accounts let one login run a separate workspace per client.",
+      "alternatives": [
+        { "tool": "hubspot", "when": "your clients are large enough to need a shared marketing-and-sales record and a 12-month contract is not a problem" },
+        { "tool": "pipedrive", "when": "you only need a sales pipeline for the agency's own new business, not marketing automation run on behalf of clients" }
+      ],
+      "overrides": {
+        "small": { "amount": 297, "note": "Unlimited ($297), not Starter ($97): Starter caps at 3 client sub-accounts, and a 5-person agency usually runs more clients than that. Metered texts, calls and email are extra either way, at the same per-unit rates." },
+        "growing": { "amount": 297, "note": "Still Unlimited ($297): it removes Starter's 3-account cap. Agency Pro ($497) adds SaaS mode and marked-up client rebilling, worth it only if you resell HighLevel access under your own brand." }
+      }
+    },
+    {
+      "layer": "site",
+      "role": "Client websites",
+      "pick": "framer",
+      "why": "Framer prices a published site lower than Webflow at every size we checked, and the workspace's first editor is always free, so the agency doesn't pay a seat fee just to run the site.",
+      "alternatives": [
+        { "tool": "webflow", "when": "a client's site needs a real content blog or finer design control than Framer's templates give you" }
+      ]
+    },
+    {
+      "layer": "grow",
+      "role": "Local SEO and lead-gen research",
+      "pick": "se-ranking",
+      "why": "SE Ranking prices its plans by project, one project per client site, and its Local Marketing tools track Google Business Profile rankings by location, which is what small-business lead generation runs on.",
+      "alternatives": [
+        { "tool": "semrush", "when": "you also sell content, social or paid-ads services and want those toolkits under the same login" },
+        { "tool": "ahrefs", "when": "a client specifically wants Ahrefs' own crawler-based backlink research rather than rank tracking alone" }
+      ]
+    },
+    {
+      "layer": "organize",
+      "role": "Client and project management",
+      "pick": "clickup",
+      "why": "ClickUp tracks deadlines and deliverables per client and includes guest seats that scale with your paid seats, so a client can see task status without you buying them a seat.",
+      "alternatives": [
+        { "tool": "notion", "when": "you mainly need shared docs and SOPs, not Gantt charts or task automations" }
+      ]
+    }
+  ],
+  "extras": [
+    { "name": "Google Business Profile", "url": "https://www.google.com/business/", "note": "Free local listing for every client location, and the base input for SE Ranking's Local Marketing tools." },
+    { "name": "Google Search Console", "url": "https://search.google.com/search-console/about", "note": "Free indexing and search-performance data for each client site, alongside the paid SEO research tool." }
+  ],
+  "skip": [
+    { "what": "A separate email or SMS marketing tool", "why": "GoHighLevel already bills email and SMS campaigns as usage on top of the plan price; adding Mailchimp or Klaviyo on top means paying for the same follow-up twice." },
+    { "what": "A separate invoicing or payments tool", "why": "GoHighLevel's plan already includes payments and invoicing, so billing a client through a stand-alone tool means paying for the same job twice." },
+    { "what": "Semrush or Ahrefs running alongside SE Ranking", "why": "All three track rankings and audit sites, so running two at once is duplicate spend for a small agency. Add a second one only when a specific client needs backlink depth or a toolkit SE Ranking does not sell." }
+  ]
+}

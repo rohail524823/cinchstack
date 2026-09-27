@@ -1,0 +1,54 @@
+{
+  "tool": "systeme-io",
+  "reasons": [
+    {
+      "reason": "There's no native SMS: texting only works once you connect and pay for your own Twilio account, since systeme.io publishes no messaging rate of its own.",
+      "picks": [
+        {
+          "tool": "klaviyo",
+          "why": "Prices SMS at $0.01 per outbound US segment inside the same platform as email, with carrier fees already included in that rate, so texting is billed and sent from one account instead of a second one you open and fund yourself."
+        }
+      ]
+    },
+    {
+      "reason": "Product variants are capped at 50, 100 or 250 depending on plan, and even the plans API behind the $97 Unlimited tier still stops at 5,000 despite the pricing page calling that limit unlimited, so a real physical-product catalog needs a dedicated commerce back office.",
+      "picks": [
+        {
+          "tool": "shopify",
+          "why": "Every plan allows unlimited products, and Shopify adds no transaction fee at all once a store uses Shopify Payments, removing the ceiling systeme.io's funnel-first catalog was never built to lift."
+        },
+        {
+          "tool": "woocommerce",
+          "why": "The core plugin is free with no item cap and no revenue share, so a growing catalog is limited only by hosting, never by a plan tier."
+        }
+      ]
+    },
+    {
+      "reason": "Startup's own limits show up fast: 10 tags, 10 automation rules and 10 sales funnels, tight the moment a list or its sequences grow past a beginner setup.",
+      "picks": [
+        {
+          "tool": "activecampaign",
+          "why": "Every paid plan, including the entry tier billed at $15 a month annually, bundles marketing automation and a light CRM with no fixed count of tags, rules or funnels to bump against."
+        }
+      ]
+    },
+    {
+      "reason": "The course tool is one feature inside a funnel builder, not a dedicated platform, so a business built around courses, coaching and community outgrows it once campaigns and pages need to run with no cap at all.",
+      "picks": [
+        {
+          "tool": "kajabi",
+          "why": "Landing pages, funnels and marketing emails are unlimited on every plan, including the entry-level Basic plan, and a 30-day money-back guarantee covers a tier that turns out to be the wrong fit."
+        }
+      ]
+    },
+    {
+      "reason": "Running several client accounts turns into several capped accounts, not several separate allowances, since every sub-account simply inherits its parent plan's own tags, funnels and automation-rule limits.",
+      "picks": [
+        {
+          "tool": "gohighlevel",
+          "why": "Sub-accounts carry their own CRM and phone system rather than inheriting a parent plan's funnel and automation caps, and every plan includes unlimited users and contacts."
+        }
+      ]
+    }
+  ]
+}

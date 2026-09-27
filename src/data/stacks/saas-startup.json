@@ -1,0 +1,125 @@
+{
+  "id": "saas-startup",
+  "label": "SaaS startup",
+  "profile": "An early-stage SaaS company of 1 to 15 people selling software by subscription, running its own marketing site, tracking trials and demos in a sales pipeline, and building organic search traffic through content, before it has a dedicated marketing or revenue-operations hire.",
+  "sizeLabels": {
+    "solo": "Solo founder",
+    "small": "5-person startup",
+    "growing": "15-person startup"
+  },
+  "layers": [
+    {
+      "layer": "site",
+      "role": "Marketing site and content-driven blog",
+      "pick": "framer",
+      "why": "Framer's Basic plan costs $15 a month and beats Webflow's Premium plan at every size we checked, and the workspace's first editor is always free, so a solo founder pays no extra seat fee to add a co-founder or a contractor later. The catch: Basic is fixed at exactly two CMS collections and 1,000 items with no pay-as-you-go option, so a content plan that grows past a single blog into customer stories or comparison pages forces an upgrade to Pro.",
+      "alternatives": [
+        {
+          "tool": "webflow",
+          "when": "your content plan needs more than two collections from day one, such as a blog plus case studies or comparison pages, or finer design control matters more than the bandwidth-based bill at higher traffic"
+        }
+      ]
+    },
+    {
+      "layer": "run",
+      "role": "Sales pipeline for trials and demos",
+      "pick": "pipedrive",
+      "why": "Pipedrive is a dedicated sales-pipeline CRM billed per seat, with no bundled marketing-contact tiers or SMS billing to budget around, and its Lite plan costs $24 a month for one seat. The small and growing bills above also include Pipedrive's own Campaigns add-on for email; skip it once the email layer below is already running your campaigns, since paying for two email senders is a needless second bill.",
+      "alternatives": [
+        {
+          "tool": "hubspot",
+          "when": "you're two people or fewer and want a genuinely free CRM to start, with the option to add marketing and sales on one shared record later"
+        },
+        {
+          "tool": "zoho-crm",
+          "when": "you want the plainest flat per-seat price with no bundled email add-on to think about; Standard runs $20 a month per user"
+        }
+      ],
+      "overrides": {
+        "solo": {
+          "amount": 24,
+          "note": "Lite, 1 seat, without Pipedrive’s Campaigns add-on: ActiveCampaign sends the email"
+        },
+        "small": {
+          "amount": 147,
+          "note": "Growth, 3 seats, without the Campaigns add-on: ActiveCampaign sends the email"
+        },
+        "growing": {
+          "amount": 632,
+          "note": "Premium, 8 seats, without the Campaigns add-on: ActiveCampaign sends the email"
+        }
+      }
+    },
+    {
+      "layer": "grow",
+      "role": "Trial nurture and onboarding email",
+      "pick": "activecampaign",
+      "why": "ActiveCampaign pairs email automation with a light CRM built around contact behavior, which fits trial-nurture and onboarding sequences better than a tool built for newsletters or ecommerce order data. Starter costs $15 a month for 1,000 contacts, but ActiveCampaign's pricing page shows only the annual-billed rate, with no month-to-month price published for any plan.",
+      "alternatives": [
+        {
+          "tool": "mailchimp",
+          "when": "you want a widely recognized tool billed month-to-month, with a genuinely free plan under 250 contacts, rather than ActiveCampaign's annual-only published price"
+        }
+      ]
+    },
+    {
+      "layer": "grow",
+      "role": "Keyword and backlink research",
+      "pick": "ahrefs",
+      "why": "Ahrefs runs its own web crawler for keyword and backlink research and includes API access starting on its cheapest paid plan, useful once an engineer wants SEO data inside an internal dashboard rather than a browser tab. Lite costs $129 a month for one user and 750 tracked keywords; the catch is Ahrefs offers no free trial and no discounts of any kind, so there is no way to test a paid tier before paying.",
+      "alternatives": [
+        {
+          "tool": "semrush",
+          "when": "the marketing plan grows past search alone and you want Content, Social or Local toolkits under the same login, or a trial before committing; Semrush offers one and Ahrefs does not"
+        }
+      ]
+    },
+    {
+      "layer": "organize",
+      "role": "Team docs, specs and onboarding runbooks",
+      "pick": "notion",
+      "why": "Notion is free for a single founder and holds specs, onboarding runbooks and meeting notes without forcing the task-tracking structure of a full project-management tool a small team does not need yet. Plus costs $12 per seat a month once the workspace has more than one member, since Free's pages and blocks become limited past that point.",
+      "alternatives": [
+        {
+          "tool": "clickup",
+          "when": "the team is also tracking sprints, task boards or Gantt timelines alongside the docs, not just writing them down; its Unlimited plan runs $10 a month per seat"
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console/about",
+      "note": "Free. Shows which searches already bring visitors to specific pages and flags indexing problems before they cost traffic."
+    },
+    {
+      "name": "Google Analytics",
+      "url": "https://analytics.google.com/",
+      "note": "Free. Shows which channel actually brings trial signups, in more detail than a CRM's own reporting."
+    },
+    {
+      "name": "Cal.com",
+      "url": "https://cal.com/",
+      "note": "Free for one person. A booking link for demo calls that syncs to a calendar, without a paid scheduling tool as a sixth subscription."
+    }
+  ],
+  "skip": [
+    {
+      "what": "GoHighLevel or another agency-style all-in-one CRM",
+      "why": "It's built for running many client sub-accounts, not one company's own trial-to-paid pipeline, and its $97 Starter plan still bills phone numbers, texts and email as metered usage a SaaS company signing up trial users by email would rarely touch."
+    },
+    {
+      "what": "Klaviyo for trial or lifecycle email",
+      "why": "Its automations read a customer's order and browsing history from an ecommerce store like Shopify or WooCommerce; a SaaS company has no purchase history for Klaviyo's flows to read."
+    },
+    {
+      "what": "Pipedrive's own Campaigns add-on once you have a dedicated email tool",
+      "why": "Paying for two email senders is the easiest way to overspend on this stack; keep Pipedrive for the pipeline and send lifecycle email from ActiveCampaign alone."
+    },
+    {
+      "what": "A second SEO platform running alongside Ahrefs",
+      "why": "Semrush and Ahrefs both track rankings, audit sites and research keywords, so running both from day one is duplicate spend; add a second one only for a specific toolkit or backlink depth the first doesn't have."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "systeme-io-vs-kajabi",
+  "a": "systeme-io",
+  "b": "kajabi",
+  "layer": "sell",
+  "dimensions": [
+    {
+      "label": "Cheapest way to get started",
+      "a": "Free forever (2,000 contacts, 1 course, 500 students), or $17/mo Startup for 5,000 contacts",
+      "b": "$179/mo (Basic) — no free plan; only a 14-day trial that needs a card",
+      "edge": "a"
+    },
+    {
+      "label": "Cut of your sales, before card fees",
+      "a": "0% on every plan, including Free",
+      "b": "0% on every plan too",
+      "edge": "tie"
+    },
+    {
+      "label": "Funnels, landing pages and marketing emails",
+      "a": "Capped by plan — 3 funnels on Free, 10 on Startup, 50 on Webinar",
+      "b": "Unlimited on every plan, including the $179/mo Basic",
+      "edge": "b"
+    },
+    {
+      "label": "AI tools included",
+      "a": "Not part of Systeme.io's published plans",
+      "b": "Cofounder AI assistant on every plan; AI credits from 0/mo (Basic) to 1,000/mo (Pro)",
+      "edge": "b"
+    },
+    {
+      "label": "Evergreen (automated) webinars",
+      "a": "10 included from the $47/mo Webinar plan up; none on Free or Startup",
+      "b": "Not part of Kajabi's published plans",
+      "edge": "a"
+    },
+    {
+      "label": "Selling physical products",
+      "a": "Supported, with variant caps of 50 (Free), 100 (Startup) or 250 (Webinar)",
+      "b": "Plans list only digital products — courses, coaching, memberships, downloads, podcasts",
+      "edge": "a"
+    },
+    {
+      "label": "Staff and admin seats",
+      "a": "Unlimited assistant accounts on every plan, including Free",
+      "b": "Capped by plan — 2 total on Basic, 11 on Growth, 26 on Pro; $5/mo per extra seat",
+      "edge": "a"
+    },
+    {
+      "label": "Reselling to your own clients",
+      "a": "Unlimited white-label sub-accounts on every plan, keeping 100% of resale revenue",
+      "b": "Not published as a feature on any Kajabi plan",
+      "edge": "a"
+    },
+    {
+      "label": "Refund if you cancel",
+      "a": "None — subscriptions are non-refundable",
+      "b": "30-day money-back guarantee, stated at checkout",
+      "edge": "b"
+    },
+    {
+      "label": "What happens when you outgrow your plan's limits",
+      "a": "3-day notice, then Systeme.io auto-upgrades you and bills the next plan's price",
+      "b": "30-day grace period on contacts, then the account locks until you upgrade or pay for more",
+      "edge": "tie"
+    },
+    {
+      "label": "Downgrading to a cheaper plan",
+      "a": "Not self-serve — contact support and fit the lower plan's limits first",
+      "b": "Self-serve, but blocked while usage is over the lower plan's limits",
+      "edge": "b"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "course-creator",
+      "pick": "a",
+      "why": "Systeme.io is the better default for most course creators starting out — 0% fees, a free plan, and paid tiers that cost far less than Kajabi's $179 floor — though Kajabi is worth the jump once you need uncapped funnels and its built-in AI from day one."
+    },
+    {
+      "business": "freelancer",
+      "pick": "a",
+      "why": "A freelancer selling a handful of digital products or a single course gets everything needed on Systeme.io's free plan or its $17/mo Startup tier, well under Kajabi's $179/mo floor."
+    },
+    {
+      "business": "agency",
+      "pick": "a",
+      "why": "Systeme.io fits an agency managing several client funnels or course sites better, since every plan includes unlimited white-label sub-accounts at no extra cost, and Kajabi has no equivalent multi-client reseller feature."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "neither",
+      "why": "Neither is built for a real inventory-and-shipping business: Systeme.io caps physical-product variants at 50 to 5,000 depending on plan, and Kajabi's plan limits list only digital products, so a store selling physical goods needs a dedicated ecommerce platform instead."
+    },
+    {
+      "business": "local-service",
+      "pick": "neither",
+      "why": "Neither fits a local service business's daily work: both are built around selling courses, funnels and digital content, not appointment booking, invoicing or field-service scheduling for a plumber, salon or contractor."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "neither",
+      "why": "Neither fits a software company either: both are course-and-funnel platforms, not the recurring-billing and API infrastructure a SaaS product needs to run its own subscriptions."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page": "stacks/freelancer",
+  "items": [
+    {
+      "q": "What's the cheapest software stack for a freelancer just starting out?",
+      "a": "About $25 a month, all from Squarespace's Basic plan. That single subscription covers a solo freelancer's portfolio site and a built-in invoicing tool with no Squarespace fee on any plan, so the invoice and the site share one bill instead of two. Layer on Zoho CRM's free plan, capped at three users with no card required, to log leads and follow-ups, and Notion's free plan, unlimited in pages and blocks for a one-person workspace, for proposal drafts and client notes. Neither adds a cent at this size. The $25 a month is nearly the whole stack's cost: the CRM and the workspace tool ride along for free, so almost every dollar goes toward the one thing a client actually sees, the site itself."
+    },
+    {
+      "q": "How do I invoice clients as a freelancer without paying for a separate invoicing app?",
+      "a": "Squarespace's website plans include a built-in invoicing tool that sends a real, payable invoice with no Squarespace fee, on the same subscription as your site, starting at $25 a month on the Basic plan. You'll still pay Squarespace's own card-processing rate when a client pays by card, the same as any invoicing tool charges, but there's no separate platform fee stacked on top of it. That's usually a better deal than adding a stand-alone invoicing app, which means paying for, and keeping client details current in, a second system. The one plan to avoid this on is Squarespace's cheapest tier if more than two people also need to edit the site, since Basic caps contributors at two, including you; Core, at $39 a month, removes that cap."
+    },
+    {
+      "q": "Does a solo freelancer really need a CRM?",
+      "a": "Not an expensive one, but a free one removes any excuse not to track your pipeline. Zoho CRM's free plan covers up to three users with no card required: contact and deal tracking, follow-up reminders and workflow automation, plus up to 50 individual emails a day per user, which is how a consulting pipeline actually communicates. A marketing-heavy CRM's price usually jumps once you need to send bulk email, but a freelancer emailing prospects and clients one at a time never hits that wall. The free plan's real limit is seats, not features: it's hard-capped at exactly three users, with no way to add a fourth. Past that, Zoho's Standard plan costs $20 a user a month, still with no reason to pay for mass-email tools you won't use."
+    },
+    {
+      "q": "Is GoHighLevel or HubSpot worth it for a solo consultant?",
+      "a": "Usually not. Both are priced and built for a team running marketing campaigns across many clients' accounts at once, not for one person's own client list. GoHighLevel's cheapest plan starts at $97 a month before any texting, calling or email usage is added, and HubSpot's Marketing Hub Professional, the tier with real automation, costs $890 a month paid monthly plus a required $3,000 onboarding fee. A freelancer's actual need, tracking a personal pipeline of leads and clients, is covered by Zoho CRM's free plan for up to three users, with no monthly cost at all. The bigger platforms earn their price once you're running campaigns and follow-up for other businesses, the way a marketing agency does, not when you're managing your own client relationships."
+    },
+    {
+      "q": "What's the best website builder for a freelancer's portfolio?",
+      "a": "Squarespace, for most freelancers who also want to invoice through the same subscription. Its Basic plan costs $25 a month, or $19 a month billed annually, and includes a built-in invoicing tool with no Squarespace fee. Wix is the cheaper-looking option, with its Light plan at $17 a month, its only published rate, but Light excludes online payments, customer accounts and invoicing entirely, so you'd still need another way to get paid. Framer is worth the switch when the site itself needs to read as a design portfolio, with more visual polish than a template-based builder, though it has no built-in invoicing either. For most service-based freelancers, the site that also sends the invoice is worth more than a slightly cheaper site that doesn't."
+    },
+    {
+      "q": "Should a freelancer use Notion or ClickUp to manage client work?",
+      "a": "Notion, until you're actually assigning tasks to someone else. It's free and unlimited in pages and blocks for a one-person workspace, which covers client notes, proposal drafts and process docs with no seat fee. The catch is that Free becomes limited the moment a second person joins the workspace, and Notion doesn't publish exactly what that limit is, so Plus, at $12 a month per member, is the safer move once you bring on a contractor. ClickUp is the better fit once the job is assigning deadlines and deliverables across more than just you, not just sharing docs: its free plan has no time limit, and its paid plans add permission-controlled guest seats so a client can see task status without needing a paid seat of their own."
+    },
+    {
+      "q": "How much more does the stack cost once a freelancer starts hiring help?",
+      "a": "It roughly triples from solo to a small studio, but it stays modest. A solo freelancer runs this stack for about $25 a month, almost all of it the Squarespace site. Add two contractors and Notion needs its Plus plan for everyone in the workspace, pushing the total to about $75 a month; Zoho CRM stays free at that size, since its free plan covers up to three users. Grow to a five-person consulting studio and Zoho's three-user cap is what actually forces a change: Standard costs $20 a user a month, and five seats becomes the real trigger, not a fixed headcount goal. At that size the whole stack runs about $199 a month, still built around three tools, not a dozen."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page": "alternatives/shopify",
+  "items": [
+    {
+      "q": "What's the cheapest alternative to Shopify?",
+      "a": "It depends on what you actually need a storefront to do. If you just need to publish a real, live store, Squarespace's Basic plan costs $25 a month and includes hosting, checkout and invoicing in that price, cheaper than Shopify's own $39-a-month Basic. WooCommerce's core plugin is free, but it needs separately billed hosting, so its real floor is whatever a host charges, not $0. Systeme.io's Startup plan runs $17 a month and includes funnels and a store, though its catalog tools are lighter than a dedicated ecommerce platform's. None of the three copies Shopify's specific combination of POS hardware support, an app ecosystem built around a product catalog and Shopify Payments' built-in fee waiver, so match the swap to what your store actually sells before you pick on price alone."
+    },
+    {
+      "q": "Is there a free way to run an online store instead of Shopify?",
+      "a": "Not on Shopify itself: its only $0 plan, Agentic, keeps the online store password-protected and can't take an order through its own checkout, so a public storefront always costs at least $39 a month on Basic. Systeme.io comes closest to a genuine free live store: its Free plan needs no credit card and lets you build a funnel with a real checkout, until you pass its lifetime-sales cap, at which point new payments stop until you upgrade. WooCommerce's core plugin is also free and open source, with 0% revenue share, but it runs on a WordPress site you host yourself, and hosting is a real, separately billed cost, not a free one. Match the free option to what 'free' needs to mean for you: no monthly bill for the platform, or no bill of any kind until you're actually selling."
+    },
+    {
+      "q": "Do you get a refund if you cancel Shopify partway through a billing cycle?",
+      "a": "No. Shopify's plan charges are generally non-refundable, so canceling mid-cycle doesn't buy back the days you stop using the store; the current cycle is treated as fully paid for once it's started. That makes timing matter: if you're switching platforms anyway, it usually costs nothing extra to keep the Shopify subscription running until the cycle you've already paid for ends, rather than canceling the moment the new store goes live. If your store is less than six months old, check whether it's still earning Shopify Rewards credits before you cancel: new merchants earn 1% back on sales through Shopify Payments (0.5% through other providers) for their first six months, up to a cap that rises with the plan, and canceling forfeits whatever you've built up so far. Neither of these is shown on the plan-price sticker, only in Shopify's billing fine print."
+    },
+    {
+      "q": "How do you move a store off Shopify without losing your data?",
+      "a": "Treat the move as a project with an overlap period, not a single cutover day. Start with the product catalog: it's the part almost any ecommerce platform, this one included, can actually export and re-import, so pull that data out before you touch anything else. Customer accounts and order history carry over less cleanly, and how much of either a new platform can import is worth confirming before you commit to one. A paid Shopify theme is built for Shopify's own templating system, so budget time to rebuild the storefront itself rather than assuming the theme comes with you. Build and test the new store's checkout and product pages before the old one goes dark, point your domain at it only once it's tested, and run both side by side for at least one full billing cycle so a customer who lands on the old checkout on launch day doesn't hit a dead page."
+    },
+    {
+      "q": "Which Shopify alternative is best for a course or coaching business instead of a product catalog?",
+      "a": "Two tools fit that job better than an ecommerce catalog does. Kajabi bundles courses, coaching, community, email and checkout into one subscription, starting at $179 a month on Basic, and takes 0% of what you sell on every plan; Growth and Pro add a discounted Kajabi Payments card rate on top. Systeme.io covers similar ground at a lower entry price, $17 a month on Startup, with unlimited email sends and 0% transaction fees on every plan including its free one, though its course tools are lighter than Kajabi's and its plans are tiered mainly by contact count rather than admin users. Pick Kajabi if community and live cohort features matter and you're past the earliest stage; pick Systeme.io if funnels and email matter as much as the course itself and you want to start at a lower monthly base."
+    },
+    {
+      "q": "Which Shopify alternative doesn't charge extra for using your own payment gateway?",
+      "a": "WooCommerce is the clearest answer: its pricing page lists the additional fee for using a third-party payment solution as 'None,' and you can run more than one gateway on the same store without a platform surcharge on either. ClickFunnels takes the same position from a different angle: it charges no percentage of sales on any of its plans, from $97 a month on Launch, and card payments run through Stripe or its own Payments AI gateway at the same standard rate either way, with nothing extra layered on for ClickFunnels itself. Shopify's own version of this fee is tiered by plan, 2% on Basic, 1% on Grow and 0.6% on Advanced, and it applies only when a store skips Shopify Payments for something else; stores that already use Shopify Payments, Shop Pay or PayPal Express Checkout never see that specific charge at all."
+    },
+    {
+      "q": "Which Shopify alternative fits a service business that sells appointments and invoices, not products?",
+      "a": "Squarespace and Systeme.io both bundle that job into a subscription you might already need anyway. Squarespace's built-in invoicing carries no Squarespace transaction fee on any plan, and Basic, its cheapest tier at $25 a month, already includes it alongside the website you'd be building regardless. Systeme.io folds a booking calendar into the same account as its funnels and email, starting at $17 a month on Startup, so a service business selling consultations or sessions doesn't need a separate scheduling tool billed on its own. Neither is a product-catalog platform the way Shopify is, which is exactly the point: a business whose real transaction is a booked appointment or a sent invoice doesn't need Shopify's checkout, inventory and shipping tools sitting underneath it unused every month."
+    }
+  ]
+}

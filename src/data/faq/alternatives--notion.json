@@ -1,0 +1,29 @@
+{
+  "page": "alternatives/notion",
+  "items": [
+    {
+      "q": "What is the cheapest alternative to Notion?",
+      "a": "For most single-person use, nothing beats Notion's own Free plan, which costs $0 a month and stays fully unlimited for one member. Among the alternatives here, ClickUp's Free Forever plan matches that $0 price and, unlike Notion Free, does not shrink once a second member joins the workspace, though it caps total file storage at 60MB per Workspace and limits several views to a fixed number of one-time uses that never reset. Zoho CRM also has a free plan, for up to 3 users, but it only replaces the job of tracking a sales pipeline, not docs or project pages. Pipedrive and Squarespace have no free-forever tier at all; each starts with a 14-day trial of a paid plan instead. The cheapest real swap is almost always ClickUp, not because it undercuts Notion's price, but because it is the only alternative here that stays free once a second person joins."
+    },
+    {
+      "q": "Is there a free alternative to Notion that stays free once you add teammates?",
+      "a": "Yes, ClickUp's Free Forever plan is the one alternative here built that way. It costs $0 a month regardless of how many members join the Workspace, unlike Notion's Free plan, which is genuinely unlimited in pages and blocks only for a single member and turns 'limited' the moment a second person joins, at a cap Notion has never published. ClickUp's free plan is not unlimited either, just differently limited: it caps total file storage at 60MB for the whole Workspace and gives Custom Fields, Gantt charts, Timeline, Workload and Dashboards a fixed number of one-time uses that never come back once spent. A two-person team that mostly writes documents and rarely uploads large files can genuinely run on ClickUp's Free Forever plan at no cost; a team that uploads a lot of media will hit the 60MB cap quickly and need Unlimited at $10 a seat a month."
+    },
+    {
+      "q": "Which is the better Notion alternative for a sales pipeline: Pipedrive or Zoho CRM?",
+      "a": "Pick Zoho CRM first if cost matters most: it has a free plan for up to 3 users, and its cheapest paid edition, Standard, costs $20 a seat a month ($14 billed yearly), including mass-email sending that a Notion database never had in the first place. Pick Pipedrive if pipeline depth matters more than price: its cheapest plan, Lite, costs $24 a seat a month, and deal-and-lead capacity scales with seats from the entry tier up, though Lite has no built-in email sync or automation at all — both start only on Pipedrive's Growth plan at $49 a seat a month. Neither tool has a native SMS feature, so a business planning to text leads from the same tool needs a different pick entirely. For a small team just outgrowing a Notion database, Zoho CRM's free plan is the cheaper place to start."
+    },
+    {
+      "q": "Is a Notion site a real substitute for a dedicated website builder?",
+      "a": "Not for a public-facing business site. Notion's site tools are a secondary feature bundled into its workspace plans: Free allows one notion.site domain, and connecting a custom domain of your own is billed as 'pay per domain' with no rate shown anywhere on Notion's pricing page. Squarespace is built for this job specifically: its cheapest plan, Basic, costs $25 a month ($19 billed yearly) and bundles a free custom domain for the first year on annual billing, plus a published 2% transaction fee on online-store sales that drops to 0% on its higher plans. Squarespace also allows up to 1,000 pages and unlimited bandwidth on every current plan, limits that a real marketing site is far more likely to reach than a Notion-hosted one is. A handful of public pages linked from a shared workspace can still live on a Notion site; a business selling anything, or running a real marketing site, needs a tool built for that instead."
+    },
+    {
+      "q": "When should you stay on Notion instead of switching to an alternative?",
+      "a": "Stay if your team's real work is writing and organizing, not tracking dozens of dependent tasks or running a sales pipeline. Notion's Business plan, at $24 a seat a month ($20 billed yearly), bundles Notion Agent, AI Meeting Notes and Enterprise Search into the seat price, and its guests are free and unlimited on every paid plan, limited only to the pages someone actually shares with them. None of the alternatives here beat that combination for a wiki-and-docs workspace: ClickUp charges its AI as a separate per-member add-on on top of a paid plan, and Pipedrive, Zoho CRM and Squarespace do not compete on documentation at all. The one case worth checking twice is a growing team that leans hard on task tracking — if a Gantt chart, a timeline or a workload view across many people matters more than the wiki, ClickUp is worth comparing directly before renewing another year of Business seats."
+    },
+    {
+      "q": "How much more does each Notion alternative cost than staying on Notion?",
+      "a": "Notion Plus, the plan a 5-person team actually needs once Free's unpublished member cap kicks in, runs $12 a seat a month ($10 billed yearly). ClickUp's comparable plan, Unlimited, undercuts that at $10 a seat a month ($7 billed yearly), and its Free Forever tier costs nothing at all. The other alternatives here cost more because they replace a different, pricier job: Pipedrive's cheapest plan, Lite, is $24 a seat a month; Zoho CRM's cheapest paid edition, Standard, is $20 a seat a month ($14 billed yearly), though it also has a free plan for up to 3 users; and Squarespace's entry plan, Basic, is $25 a month ($19 billed yearly) per site, not per seat. None of those three price against Notion directly — you are paying for a CRM or a website builder, not a cheaper wiki."
+    }
+  ]
+}

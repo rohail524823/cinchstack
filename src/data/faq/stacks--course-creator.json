@@ -1,0 +1,33 @@
+{
+  "page": "stacks/course-creator",
+  "items": [
+    {
+      "q": "What's the cheapest way to start selling a course online?",
+      "a": "The cheapest real start is Systeme.io's free plan: no card required, up to 2,000 contacts, one course with up to 500 students, and unlimited email sends, with a 0% transaction fee so you keep everything you charge. The catch most free-tier advice skips is that Systeme.io's terms cap a free account at $10,000 in lifetime sales revenue. Cross that line and you get a 3-day window to upgrade before your checkout pages stop taking new payments; nobody charges your card automatically, but you also cannot keep selling. If you can already tell your first launch will sell through that amount, start on the $17 a month Startup plan instead, so an upgrade never catches you mid-launch."
+    },
+    {
+      "q": "Do I need different software if I'm a coach instead of a pure course creator?",
+      "a": "Not fundamentally, but the priority shifts from a course player to scheduling and live delivery. A missed call or a double-booked slot costs a coaching business a client in a way a slow course page does not. Systeme.io's booking calendar, included on every plan, covers scheduling for one-on-one or group calls alongside the same courses, community and email used for async content. Kajabi's Backstage product is built specifically for one-on-one and small-group coaching delivery, with one client seat included on every plan starting at $179 a month, but Kajabi itself still calls Backstage a Beta feature with pricing that can change. Whichever platform you pick, test scheduling, reminders and your cancellation policy before your first paying client, not after."
+    },
+    {
+      "q": "How much should a solo course creator budget for software each month?",
+      "a": "A solo creator running this stack pays $56 a month: $17 for Systeme.io's Startup plan, which covers courses, funnels, a website and checkout; $39 for Kit's Creator plan, which covers email and landing pages; and $0 for Notion, which is free for one person. That is before card-processing fees, which every platform charges no matter which one you pick. The bill moves as you grow: Kit does not publish a price above 1,000 subscribers on any page you can reach without an existing account, so budget for an increase once your list crosses that mark, and Systeme.io's plan changes once your contact count or automation needs outgrow Startup's limits."
+    },
+    {
+      "q": "Is Kajabi worth the extra cost over Systeme.io for a course creator?",
+      "a": "It depends on how established the business already is. Systeme.io's Startup plan costs $17 a month and covers funnels, a website, email and up to five courses, which is enough for most solo and small course businesses. Kajabi's cheapest plan costs $179 a month and adds a more polished course and community experience, unlimited landing pages and marketing emails on every plan, and a 0% revenue share with no per-funnel caps to bump into. For a creator with steady revenue who keeps bumping into Systeme.io's automation or funnel limits, or who wants Kajabi's community features, the extra cost buys real headroom. For a creator who has not yet proven the offer, it pays for capacity that is not needed yet."
+    },
+    {
+      "q": "What's the biggest software mistake new course creators make?",
+      "a": "Buying capacity for a business that does not exist yet. It is common to see a new creator sign up for a $179-a-month all-in-one platform, a CRM and an SEO subscription in the same week, before selling a single course. Start with the cheapest platform that can actually take a payment and send an email, prove that people will buy, and add tools only when you hit a real limit, like running out of automation rules or hiring your first salesperson. Every tool on this page can be added later without losing existing content or contacts, so there is little cost to starting small, and a real, ongoing cost to paying every month for capacity you are not using yet."
+    },
+    {
+      "q": "Can I sell memberships and one-off digital products from the same platform as my course?",
+      "a": "Yes. Systeme.io, Kajabi and ClickFunnels all sell courses, recurring memberships and one-off digital downloads from the same checkout, so a course creator selling all three does not need a separate ecommerce platform like Shopify or WooCommerce. Systeme.io's Startup plan, at $17 a month, includes multiple courses and a store with no separate transaction fee on any of it, on top of the funnels and email already in the same account. Add a dedicated ecommerce platform only if you start selling physical products at real volume, since that is what tools like Shopify are actually built for, not digital delivery."
+    },
+    {
+      "q": "How do I know when to upgrade from Systeme.io's Startup plan?",
+      "a": "Upgrade when you hit one of Startup's actual limits, not before. Startup covers 5,000 contacts, 10 sales funnels, 10 automation rules and 5 courses; the most common trigger is contacts, since going over the limit auto-upgrades your account and bills the next plan's price for the rest of that billing period. If evergreen webinars are part of how you plan to sell, that feature only starts on the $47 a month Webinar plan, so plan the upgrade around your launch calendar rather than waiting for an automatic one to hit mid-campaign. Watch tags and automation rules too, not just contacts: Startup allows only 10 of each, which a busy email sender can reach well before the contact cap."
+    }
+  ]
+}

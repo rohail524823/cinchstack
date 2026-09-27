@@ -1,0 +1,100 @@
+{
+  "id": "klaviyo-vs-mailchimp",
+  "a": "klaviyo",
+  "b": "mailchimp",
+  "layer": "grow",
+  "dimensions": [
+    {
+      "label": "Cheapest paid plan, at about 500 contacts/profiles",
+      "a": "$20/mo (Email, 500 active profiles)",
+      "b": "$13/mo (Essentials, 0-500 contacts band)",
+      "edge": "b"
+    },
+    {
+      "label": "Cost of adding a fourth or fifth person to one account",
+      "a": "Nothing — price is set only by active-profile count, with no seat limit at any tier",
+      "b": "Forces an upgrade — Essentials caps at 3 seats and Standard at 5; only Premium removes the limit",
+      "edge": "a"
+    },
+    {
+      "label": "SMS marketing",
+      "a": "Native and usage-priced: $0.01 per US toll-free segment sent, carrier fees included",
+      "b": "A separate add-on with no published flat rate; needs an application and a monthly credit purchase",
+      "edge": "a"
+    },
+    {
+      "label": "Ecommerce-specific features",
+      "a": "Flows read Shopify/WooCommerce order and browsing history; a Reviews add-on ($25/mo, up to 250 orders) is scoped to store order volume",
+      "b": "Purchase-behavior tracking and product recommendations included on every plan, including Free, but no Shopify- or WooCommerce-specific add-on",
+      "edge": "a"
+    },
+    {
+      "label": "Annual pre-pay discount",
+      "a": "None — every self-serve plan bills monthly only, with no annual toggle on the pricing page",
+      "b": "About 15% off, available on Premium at every tier and on Essentials/Standard once contacts pass 10,000",
+      "edge": "b"
+    },
+    {
+      "label": "Free trial of a paid plan",
+      "a": "None — a free-forever 250-profile plan stands in for a trial",
+      "b": "14-day self-serve trial on Essentials and Standard, credit card required at signup",
+      "edge": "b"
+    },
+    {
+      "label": "What happens when you outgrow your current tier",
+      "a": "Automatic move to the next profile-compliant tier at its published price, whether you opted in or not",
+      "b": "An overage charge applies, but its per-contact or per-email rate isn't published on the pricing or comparison pages",
+      "edge": "a"
+    },
+    {
+      "label": "Paid support beyond what's included",
+      "a": "Professional support from $500/mo and Enterprise support from $1,800/mo, both needing a sales quote",
+      "b": "Scales with plan instead of a separate purchase: 24/7 chat on Essentials/Standard, phone support and a dedicated onboarding specialist on Premium",
+      "edge": "b"
+    },
+    {
+      "label": "Free-plan ceiling",
+      "a": "250 active profiles, 500 emails/month, plus a monthly Composer AI and mobile-messaging usage allowance included at no charge; email support for 60 days",
+      "b": "250 contacts, 500 emails/month (or 250/day), no automation flows or AI features; email support for 30 days only",
+      "edge": "a"
+    },
+    {
+      "label": "How long each company has been operating",
+      "a": "Founded in 2012, as Klaviyo, Inc.",
+      "b": "Founded in 2001; now operates as Intuit Mailchimp",
+      "edge": "tie"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "a",
+      "why": "Klaviyo charges nothing extra as more of an agency's staff log into one client's account, while Mailchimp's seat caps can force a pricier plan regardless of that client's actual list size."
+    },
+    {
+      "business": "course-creator",
+      "pick": "b",
+      "why": "A course creator's list rarely comes from Shopify or WooCommerce order data, so Klaviyo's ecommerce-scoped add-ons go mostly unused while Mailchimp's cheaper entry plan covers the same launch and newsletter emails."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "a",
+      "why": "Klaviyo's flows are built directly on Shopify and WooCommerce order and browsing history, with an order-volume-priced Reviews add-on that Mailchimp has no equivalent for."
+    },
+    {
+      "business": "local-service",
+      "pick": "b",
+      "why": "A business selling appointments rather than a product catalog gets little from Klaviyo's ecommerce integrations and pays less on Mailchimp for the same reminder and newsletter emails."
+    },
+    {
+      "business": "freelancer",
+      "pick": "b",
+      "why": "At solo-operator list sizes Mailchimp's entry plan costs less than Klaviyo's, and a service freelancer rarely has the Shopify or WooCommerce catalog Klaviyo's add-ons are built around."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "b",
+      "why": "An early-stage startup's list is small and not tied to ecommerce orders, so Mailchimp's lower entry price matters more than Klaviyo's Shopify- and WooCommerce-specific features."
+    }
+  ]
+}

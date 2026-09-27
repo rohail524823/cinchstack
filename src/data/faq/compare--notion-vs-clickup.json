@@ -1,0 +1,33 @@
+{
+  "page": "compare/notion-vs-clickup",
+  "items": [
+    {
+      "q": "Is Notion or ClickUp cheaper?",
+      "a": "It depends on team size, and the answer flips twice. For one person, Notion is free: its Free plan is unlimited in pages and blocks for a single member, for a real bill of $0 a month, while a real ClickUp bill for one person runs $10 a month on the Unlimited plan once you account for Free Forever's 60MB storage cap. At five people, ClickUp is cheaper: $50 a month on Unlimited against $60 a month on Notion's Plus plan. At fifteen people, Notion is cheaper again, at $180 a month on Plus, because ClickUp's Dashboards, Timeline and Workload view limits force that size onto Business at $285 a month. Check your team's size against both real bills before assuming either tool is the cheaper one."
+    },
+    {
+      "q": "Which is better for project management, Notion or ClickUp?",
+      "a": "ClickUp, for dedicated project-tracking views. ClickUp's own free-plan limits confirm it ships Gantt charts, Timeline, Workload views and Dashboards from the start, capped at a fixed number of uses on Free Forever and unlimited from the Unlimited and Business plans; Business adds sprint points and reporting on top. Notion's plans list no comparable dedicated view: its databases support subtasks, dependencies and custom properties, which handle a simple task list or a lightweight roadmap well, but not a Gantt chart or a team-wide workload view. A team that needs to see timelines, dependencies and workload across many people at once fits ClickUp; a team that mainly needs a well-organized wiki with a task database attached fits Notion."
+    },
+    {
+      "q": "Can I import my Notion workspace into ClickUp?",
+      "a": "Yes. ClickUp's help center documents a built-in Notion importer available on every plan: export your Notion workspace as an HTML file with all content included, upload that file into ClickUp, and choose the Space to import into. ClickUp turns the Notion workspace into Lists inside one Folder and turns Notion docs into a single ClickUp Doc with subpages. Some detail does not survive the move: comments, attachments and inline database task comments are dropped, and a Notion wiki does not automatically become a ClickUp wiki, though the imported pages can be converted by hand afterward. There is no equivalent documented importer for moving the other way, from ClickUp into Notion."
+    },
+    {
+      "q": "Does ClickUp or Notion have better AI features?",
+      "a": "Notion bundles more AI into its seat price; ClickUp sells more AI capability as a paid add-on. Notion Agent, AI Meeting Notes and Enterprise Search all come included once a workspace is on the $24-a-month Business plan ($20 billed yearly), with Free and Plus limited to a short, unspecified trial. ClickUp's Brain AI and Everything AI are separate add-ons charged per Workspace member on top of any paid plan, at $14 or $33 a month, and that charge applies to every member, including a seat a removed employee left open. A team that wants AI without a second line item fits Notion's Business plan better; a team that wants ClickUp's specific AI tools, like AI Notetaker or Autopilot Agents, pays for them directly instead."
+    },
+    {
+      "q": "Is Notion or ClickUp better for a small agency managing multiple clients?",
+      "a": "ClickUp usually fits an agency better. Its Spaces, Folders and Lists give each client project its own structure inside one Workspace, and Gantt, Timeline and Workload views make it easier to see deadlines and staff capacity across several accounts at once, features Notion's plans do not list as dedicated views. Cost also favors ClickUp at a typical agency's size: five seats run $50 a month on Unlimited against $60 a month on Notion's Plus plan. Notion still works for an agency that mainly wants a shared knowledge base, client-facing docs or simple checklists rather than deadline-and-workload tracking across projects, and its guests are free and unlimited on every paid plan."
+    },
+    {
+      "q": "What happens once my team outgrows the free plan on Notion or ClickUp?",
+      "a": "Each free plan hits a different kind of ceiling. Notion Free stays unlimited in pages and blocks only for a single member; once a second person joins the workspace, pages and blocks become 'limited' by an amount Notion does not publish, which typically pushes a team onto the $12-a-month Plus plan. ClickUp's Free Forever has no member limit, but it caps total file storage at 60MB per Workspace and gives Custom Fields, Gantt charts, Timeline, Workload and Dashboards a fixed number of one-time uses that never reset once spent, which usually forces a move to the $10-a-month Unlimited plan once a team actually uses the tool day to day."
+    },
+    {
+      "q": "Do Notion and ClickUp require a long-term contract?",
+      "a": "No, and both work similarly here. Every plan on Notion and ClickUp, including their most expensive published tier, bills month-to-month or yearly at your choice, with no forced annual term on either pricing page. The one difference is switching billing cycles: ClickUp does not let a single Workspace mix monthly and yearly licenses, and moving from monthly to yearly billing means contacting support rather than flipping a toggle, with the new term starting at the next renewal. Notion's pricing page states no equivalent restriction on switching its own billing cycle. Neither company's pricing page describes how your content moves out if you cancel, so plan an export before you do."
+    }
+  ]
+}

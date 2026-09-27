@@ -1,0 +1,33 @@
+{
+  "page": "stacks/saas-startup",
+  "items": [
+    {
+      "q": "What software does an early-stage SaaS startup actually need?",
+      "a": "Five things, whether it's a solo founder or a team of fifteen: a marketing site to explain the product and hold the content that drives search traffic, a CRM to track trial signups and demo calls, an email tool to nurture a trial into a paid plan, an SEO tool to research and track the keywords a prospect actually searches, and a shared docs tool for onboarding runbooks and specs once there's more than one person to read them. A workable combination is Framer for the site, Pipedrive for the CRM, ActiveCampaign for email, Ahrefs for SEO and Notion for docs, which runs $183 a month combined for a solo founder. Skip a bundled all-in-one CRM like GoHighLevel and an ecommerce email platform like Klaviyo; neither fits a subscription software business's own trial funnel."
+    },
+    {
+      "q": "What's the cheapest software stack for a solo SaaS founder?",
+      "a": "About $183 a month, combining Framer's Basic plan at $15, Pipedrive's Lite plan at $24, ActiveCampaign's Starter plan at $15 for 1,000 contacts, Ahrefs' Lite plan at $129, and Notion's free plan for docs. Ahrefs is the biggest line item by far, and it's worth checking whether the free Ahrefs Free tier, which gives a verified domain real backlink and site-audit data at no cost, covers a pre-launch business until there's an actual audience to research keywords for. Notion costs nothing at this size, and Pipedrive's $24 and ActiveCampaign's $15 are both small next to Ahrefs; the costs that rise fastest once the team grows past one person are the CRM's per-seat price and the email tool's contact-based tiers, since both scale directly with headcount and list size."
+    },
+    {
+      "q": "Is HubSpot or Pipedrive the better CRM for an early-stage SaaS company?",
+      "a": "Pipedrive, for most SaaS startups tracking trial signups and demo calls rather than a large marketing-contact list. Its Lite plan costs $24 a month for one seat and bills strictly per seat, with no contact tiers or SMS add-ons to budget around. HubSpot's free tools are a real option too, covering up to 2 users and 1,000 contacts at no cost, which suits a pre-revenue solo founder just as well. The gap opens once a business outgrows HubSpot's free tier: its next plan, Marketing Hub Professional, costs $890 a month even paid monthly, requires a 12-month commitment either way, and adds a one-time $3,000 onboarding fee, all for contact-volume and email-send limits a sales pipeline tool doesn't need. Start on Pipedrive, or HubSpot's free tools with two people or fewer, and treat HubSpot's paid tiers as a marketing-hub decision, not a CRM one."
+    },
+    {
+      "q": "What's the best email marketing tool for a SaaS company's trial and onboarding emails?",
+      "a": "ActiveCampaign, because its automations trigger on behavior, such as what a contact clicked, opened or did during a trial, rather than a fixed send schedule, which is what an onboarding sequence actually needs. Its Starter plan costs $15 a month for 1,000 contacts and $149 a month at 10,000, though ActiveCampaign only publishes an annual-billed rate, with no month-to-month price shown anywhere on its pricing page. Klaviyo is the wrong choice despite being the biggest name in email marketing: its automations read a customer's order and browsing history from an ecommerce store, and a SaaS company has no purchase history for Klaviyo to work from. Mailchimp is the fallback if month-to-month billing matters more than automation depth; its Essentials plan starts at $13 a month and includes a genuinely free plan under 250 contacts."
+    },
+    {
+      "q": "Do I need Semrush or Ahrefs for a SaaS startup's SEO?",
+      "a": "Ahrefs, for most early-stage SaaS companies watching their budget. Its Lite plan costs $129 a month for one user and 750 tracked keywords, updated weekly, and includes API access from this plan up, useful once an engineer wants to pull SEO data into an internal dashboard. Semrush's equivalent SEO plan costs $139.95 a month but caps at exactly 500 tracked keywords with no headroom, and its API is only available on the $549-a-month Advanced plan. Semrush is worth the switch once the marketing plan grows past search alone: its Content, Social, Local and Advertising toolkits sit under the same login, and it offers a 7-day trial, something Ahrefs does not provide at all. Ahrefs also has a genuinely free Ahrefs Free tier for a verified domain, useful before either paid plan is worth the bill."
+    },
+    {
+      "q": "How much does a full software stack cost for a growing 15-person SaaS company?",
+      "a": "About $2,365 a month, combining the same five tools at their larger-team plans: Framer's Pro plan for the site, Pipedrive's Premium plan for the CRM, ActiveCampaign's Plus plan for email at 50,000 contacts, Ahrefs' Advanced plan for SEO, and Notion's Plus plan for docs. A 5-person team's real combined bill is lower, at $770 a month, because most of these tools price by seat or contact count rather than jumping straight to their top tier. The CRM and email lines grow the fastest as headcount and the contact list rise; the website and SEO tools grow more slowly, since they scale with editors and users rather than with every new hire. Re-check each layer against the limits above as the team grows, rather than assuming the whole bill scales with headcount evenly."
+    },
+    {
+      "q": "Should a SaaS startup use Notion or ClickUp for team docs?",
+      "a": "Notion, for most early-stage SaaS teams whose real need is a shared wiki for specs, onboarding runbooks and meeting notes rather than task boards or sprint planning. Its Free plan costs nothing for a single founder, and Plus costs $12 per seat a month once a workspace has more than one person, since Free's pages and blocks become limited beyond that point. ClickUp is the better fit once the team is also tracking sprints, task boards or Gantt timelines alongside the documentation, not just writing it down; its Unlimited plan costs $10 a month per seat. For a documentation-first need, Notion's per-seat price is lower at small team sizes, and its page-and-database model fits specs and runbooks more naturally than a project-management tool built around tasks."
+    }
+  ]
+}

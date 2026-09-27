@@ -1,0 +1,106 @@
+{
+  "id": "webflow-vs-framer",
+  "a": "webflow",
+  "b": "framer",
+  "layer": "site",
+  "dimensions": [
+    {
+      "label": "Cheapest plan that includes a CMS on a custom domain",
+      "a": "Premium, $39/mo — Basic has no CMS or blog at all",
+      "b": "Basic, $15/mo — 2 CMS collections and 1,000 items included",
+      "edge": "b"
+    },
+    {
+      "label": "What can raise the plan's own listed price, beyond bandwidth",
+      "a": "Nothing — Premium's $39/mo price is flat regardless of AI or Localize add-ons bought",
+      "b": "The AI-credit tier picked on the same plan card, up to $225/mo on Basic or $1,500/mo on Pro",
+      "edge": "a"
+    },
+    {
+      "label": "Bandwidth included before any add-on",
+      "a": "50 GB/month on Premium, fixed",
+      "b": "100 GB/month on Pro; Basic's 50 GB has no paid overage at all",
+      "edge": "b"
+    },
+    {
+      "label": "Cost of buying more bandwidth once it runs out",
+      "a": "$560/month more to reach 1 TB total, on Premium's tiered ladder",
+      "b": "$50 per extra 100 GB/month on Pro, up to a 2 TB cap; not sold on Basic at any price",
+      "edge": "b"
+    },
+    {
+      "label": "Cost of a second, content-only editor",
+      "a": "$19/mo for a Limited seat",
+      "b": "$15/mo for a Content Editor seat",
+      "edge": "b"
+    },
+    {
+      "label": "Cost of a second, full design-and-publish editor",
+      "a": "$45/mo for a Full seat",
+      "b": "$30/mo flat for an Additional Editor, the same on Basic or Pro",
+      "edge": "b"
+    },
+    {
+      "label": "Cap on total paid editors in one workspace",
+      "a": "None — Webflow sells extra seats with no headcount limit",
+      "b": "10 total, on both Basic and Pro; only a custom Enterprise plan removes it",
+      "edge": "a"
+    },
+    {
+      "label": "Static pages and CMS items on the entry CMS-capable plan",
+      "a": "Premium: 300 pages, 20,000 CMS items",
+      "b": "Basic: 30 pages, 1,000 items, both fixed with no overage",
+      "edge": "a"
+    },
+    {
+      "label": "A pay-as-you-go path past the entry plan's limits",
+      "a": "None — Basic and Premium both require a full plan upgrade for more pages or CMS items",
+      "b": "Pro sells metered add-ons for pages, CMS collections, CMS items and bandwidth, with no Enterprise quote needed",
+      "edge": "b"
+    },
+    {
+      "label": "Refund window on a new purchase",
+      "a": "14 days on any new Site or Workspace purchase, monthly or annual",
+      "b": "7 days worldwide, 14 days in the EU and Turkey; usage-based add-ons stop being refundable once used",
+      "edge": "a"
+    },
+    {
+      "label": "Contract commitment at the top of the price list",
+      "a": "The $2,500/mo Team plan requires an annual contract, sold through sales",
+      "b": "Nothing self-serve requires a term commitment; only Enterprise is quote-only",
+      "edge": "b"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "a",
+      "why": "Webflow sells extra seats with no headcount cap, and its Agency Workspace gives every client site its own free seats, where Framer's 10-seat cap applies to the whole workspace at once."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "Neither tool can take a payment for a course or a download, so the actual sale still needs a separate checkout tool no matter which one builds the marketing site."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "neither",
+      "why": "A real product catalog needs a dedicated back office with inventory and checkout: Framer has no cart at all, and Webflow's Ecommerce plans cap out at 15,000 items with a fee on the entry tier."
+    },
+    {
+      "business": "local-service",
+      "pick": "b",
+      "why": "Framer's $15 Basic plan already includes a small CMS and its AI agents can draft a first site from a prompt, a faster, cheaper start than Webflow's design-first canvas."
+    },
+    {
+      "business": "freelancer",
+      "pick": "b",
+      "why": "Running several small client sites costs less on Framer, whose $15 Basic plan already includes a CMS, than on Webflow, where any site needing a blog has to move up to the $39 Premium plan."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "a",
+      "why": "A startup's marketing site can lean on Webflow's custom code and Webflow Cloud to host a small app alongside it, capabilities Framer's per-site plans have no equivalent for."
+    }
+  ]
+}

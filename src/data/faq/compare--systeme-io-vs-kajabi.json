@@ -1,0 +1,33 @@
+{
+  "page": "compare/systeme-io-vs-kajabi",
+  "items": [
+    {
+      "q": "Do you need a credit card to try Systeme.io or Kajabi?",
+      "a": "No for Systeme.io, yes for Kajabi. Systeme.io's Free plan needs no credit card and does not expire on its own: it includes 2,000 contacts, three sales funnels, one course for up to 500 students and unlimited email sends, all at the same 0% transaction fee as every paid tier. It keeps working until your account passes $10,000 in lifetime sales, at which point you get a 3-day window to upgrade before new sales stop processing; you are not charged automatically when that happens. Kajabi has no free-forever option to compare it to. Every Kajabi plan, including the entry-level Basic, is reachable only through a 14-day trial, and signing up requires a card to validate it. Cancel before the trial ends and you pay nothing; let it run out and billing starts automatically at the plan price you chose, with Basic priced at $179 a month."
+    },
+    {
+      "q": "Do Systeme.io and Kajabi charge a percentage of my sales?",
+      "a": "Neither platform takes a cut of your revenue: both charge a flat subscription fee and 0% of what you sell, on every plan. What differs is card processing. Systeme.io connects to your own Stripe or PayPal account, so you pay that processor's standard rate directly, with nothing added by Systeme.io itself. Kajabi runs its own processor, Kajabi Payments, at a rate set by plan: 2.9% plus 30 cents per charge on Basic, improving to 2.8% on Growth and 2.7% on Pro. Kajabi adds two more charges on every plan: 0.7% extra on every subscription payment and 1.5% more when a card was issued outside the US. Route payments through a different processor instead of Kajabi Payments, and Kajabi still charges a surcharge of 2%, 1% or 0.5% depending on your plan. A disputed charge also costs a flat $15 on Kajabi, kept even if you win."
+    },
+    {
+      "q": "Can I sell physical products on Systeme.io or Kajabi?",
+      "a": "In a limited way on Systeme.io, and probably not on Kajabi. Systeme.io's plans track physical-product variants as a capped resource: 50 on Free, 100 on Startup, 250 on Webinar, and up to 5,000 on Unlimited even though its pricing page calls that plan's limit unlimited. That's enough for a small side line of merchandise, not a full catalog. Kajabi's plan limits list only digital product types — courses, coaching, memberships, downloads and podcasts — with nothing published about inventory, shipping or physical variants at all. Neither platform is built the way a dedicated ecommerce platform is, with real inventory tracking, shipping rates and fulfillment tools. A business whose main line is physical goods should look at a platform built for that; a course creator adding a few physical extras alongside digital products is the case where Systeme.io's variant caps are worth knowing about."
+    },
+    {
+      "q": "What happens if I go over my plan's limits on Systeme.io or Kajabi?",
+      "a": "The two handle it in opposite ways. On Systeme.io, going over your plan's contact, tag or automation-rule limit triggers an email warning and a 3-day window to cut usage; after that, Systeme.io auto-upgrades your subscription to the next plan and bills its full price, whether or not you wanted the upgrade. On Kajabi, crossing your contact limit gives a 30-day grace period, and only after that does the account lock until you upgrade or delete contacts down to size — but you can also just pay for more room: an extra 5,000 contacts costs $25 a month, an extra admin user $5 a month, and an extra website $49 a month, all without changing plans. Kajabi's approach is more forgiving on timing and lets you pay for exactly what you need; Systeme.io's is simpler, but the jump, when it comes, is a full plan tier, not a small add-on."
+    },
+    {
+      "q": "Can I get a refund from Systeme.io or Kajabi?",
+      "a": "From Kajabi, yes, within a window; from Systeme.io, no. Kajabi's pricing page and every checkout flow state a 30-day money-back guarantee on any plan. Systeme.io's terms make every subscription non-refundable, so cancelling mid-cycle does not return any of that period's payment; cancellation instead takes effect just before the next renewal date. The two also differ on downgrading to a cheaper plan rather than cancelling outright. Kajabi lets you downgrade yourself at any time, as long as your current usage already fits under the lower plan's limits. Systeme.io's downgrades are not self-serve at all: you contact support, who send a custom order form, and you have to fit your account into the lower plan's caps before they process it. If getting your money back matters more than the exact price, that difference is worth weighing before you subscribe to either one."
+    },
+    {
+      "q": "Is there a cheaper Kajabi plan than Basic?",
+      "a": "Possibly, but it isn't on Kajabi's current public pricing pages. Kajabi's help center still names a Kickstarter tier as one of its plans, priced at $71 a month when billed annually ($852 a year); no month-to-month price for it could be found on any page we captured. Kickstarter's contacts, products, websites and community limits also aren't published anywhere we could find, only its admin-user cap of 2 total. Reaching Kickstarter means using an old checkout link rather than the normal signup flow, and Kajabi gives no assurance that link keeps working or that the plan stays available. For a business that wants Kajabi specifically and finds Basic's $179 a month too steep, it's worth trying that legacy link, but budget for Basic's price and limits as the reliable, current baseline instead of counting on Kickstarter."
+    },
+    {
+      "q": "How hard is it to switch from Systeme.io to Kajabi, or the other way around?",
+      "a": "Harder than moving a spreadsheet. Neither company publishes a tool for exporting funnels, courses, email sequences or students to the other platform, so switching in either direction means manually rebuilding pages, sequences and checkout links on the new platform. Systeme.io does offer one migration path, but only inbound: a free, done-for-you migration service included with its Unlimited plan or with any plan billed annually, where its team moves your content onto Systeme.io for you. That help doesn't run in reverse, and Kajabi publishes no equivalent service for moving in either direction. Before switching, list out exactly what lives on your current platform — course content, email automations, funnel pages, active subscriptions — and confirm each has a place to land on the new one, since nothing carries over automatically and a rebuild takes real time either way."
+    }
+  ]
+}

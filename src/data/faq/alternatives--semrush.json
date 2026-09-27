@@ -1,0 +1,29 @@
+{
+  "page": "alternatives/semrush",
+  "items": [
+    {
+      "q": "What is the closest alternative to Semrush for ongoing SEO work?",
+      "a": "Ahrefs and SE Ranking are the two realistic swaps, since both are built the same way Semrush is: keyword research, rank tracking, site audits and backlink data under one login. Ahrefs' Lite plan costs $129 a month and tracks 750 keywords, more than Semrush's SEO plan at $139.95 for 500, though Ahrefs' Rank Tracker refreshes weekly instead of daily. SE Ranking's Core plan also costs $129 a month and tracks 2,000 keywords a day, matching Semrush's daily update cadence while costing less and covering more. Neither one replicates Semrush's separate Local, Content, Social, Advertising or AI PR toolkits, so a business that already pays for one of those should weigh what it would lose, not just the core SEO price, before switching either way."
+    },
+    {
+      "q": "What is the cheapest alternative to Semrush?",
+      "a": "It depends on whether the plan can actually run ongoing SEO work, not just which sticker price is lowest. Ahrefs' Starter plan lists at $29 a month, far below Semrush's $139.95, but it tracks only 50 keywords in one unverified project, can't export a single report, and can't add a second user at any price, so it isn't a like-for-like replacement for daily tracking work. SE Ranking's Core plan is the more realistic budget swap at $129 a month: it tracks 2,000 keywords a day, includes API access and MCP, and updates daily, all while charging less than Semrush's $139.95 SEO plan, which tracks only 500. Ahrefs' own Lite plan, also $129 a month, sits in between: more keywords than Semrush's SEO plan, weekly instead of daily updates. Match the plan to real usage, not the smallest number on the pricing page."
+    },
+    {
+      "q": "Is there a free alternative to Semrush's SEO toolkit?",
+      "a": "Only a partial one. Ahrefs Free needs no credit card and never expires, and it gives Site Explorer, Site Audit and Web Analytics for websites you verify ownership of, which covers monitoring your own site's backlinks and technical health indefinitely at no cost. It leaves out Keywords Explorer and Rank Tracker entirely, so it can't replace Semrush's Position Tracking or keyword research for a client site you haven't verified. SE Ranking has no free tier at all, only a 14-day trial that needs no card but still ends. Semrush's own free plan, 10 reports a day and 10 tracked keywords with no card required, actually covers occasional competitor lookups better than either alternative's free option, since Ahrefs Free is scoped to sites you own. None of the three free options supports ongoing rank tracking on someone else's site without paying for a subscription somewhere."
+    },
+    {
+      "q": "Which Semrush alternative works best for an agency that has outgrown its login budget?",
+      "a": "SE Ranking is the one built for that specific problem. Its Growth plan includes 3 manager seats in the base price, and any extra seat on either of its plans costs a flat $20 a month, well below the $45 to $100 Semrush charges depending on which plan the account is already on. Both of SE Ranking's plans also include AI-search tracking in that same seat price, so a new hire doesn't need a separate toolkit purchase to see it. Ahrefs is the other option, though its seat math looks more like Semrush's: extra users cost $60 a month on Standard and $80 on Advanced, and Lite caps a team at 3 users in total, so an agency planning to add several logins should check that ceiling before choosing it over SE Ranking. Either alternative still means rebuilding client projects and reporting from scratch, which is real work regardless of which one wins on price."
+    },
+    {
+      "q": "Which Semrush alternative is best for a freelancer or solo SEO consultant on a tight budget?",
+      "a": "It depends on how much research volume the work actually needs. Ahrefs' Starter plan costs $29 a month and covers light, single-project research, 50 tracked keywords in one unverified project, though it can't add a second user later and can't export a single report, so it fits a narrow slice of freelance work rather than an ongoing client engagement. SE Ranking's Core plan, at $129 a month, is the better fit for a freelancer already running real client work: 2,000 keywords tracked daily, Website Audit, and a 14-day trial that needs no card to try first. A freelancer who only checks keywords occasionally, rather than running an ongoing project, may not need a paid subscription to any of the three at all: Semrush's own free plan covers 10 reports a day and 10 tracked keywords with no card required. Pick based on how often the work actually happens, not the lowest sticker price."
+    },
+    {
+      "q": "Does switching from Semrush to Ahrefs or SE Ranking bring your ranking history with you?",
+      "a": "No, not automatically. Semrush doesn't publish a one-click export of Position Tracking history, Site Audit findings or keyword lists into another platform's format, and neither Ahrefs nor SE Ranking advertises a tool that reads a Semrush account directly, so tracked keyword lists and audit settings have to be rebuilt by hand wherever you land. SE Ranking is the one exception worth knowing: pay for an annual subscription there and it includes free assisted migration from another platform, while a monthly subscriber only gets self-serve import tools. Ahrefs publishes no equivalent migration service on any plan. Whichever tool you choose, keep the Semrush account active long enough to export or screenshot the historical reports you'll want for a before-and-after comparison, since that history doesn't travel with the switch on its own. Budget the rebuild time into the decision, not just the new monthly bill."
+    }
+  ]
+}

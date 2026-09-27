@@ -1,0 +1,67 @@
+{
+  "tool": "semrush",
+  "reasons": [
+    {
+      "reason": "SEO and Starter both stop at 500 tracked keywords, and the only documented way past that is the full jump to Pro+ at $299 a month — there is no smaller step in between.",
+      "picks": [
+        {
+          "tool": "ahrefs",
+          "why": "Lite tracks 750 keywords for $129 a month, more than Semrush's 500-keyword SEO plan for less money, though Ahrefs' Rank Tracker updates weekly instead of daily."
+        },
+        {
+          "tool": "se-ranking",
+          "why": "Core tracks 2,000 keywords a day by default for $129 a month, well past Semrush's SEO cap, with no plan upgrade needed until you actually pass that number."
+        }
+      ]
+    },
+    {
+      "reason": "A second login costs $45 a month on SEO or Starter, $80 on Pro+, or $100 on Advanced, and every extra seat gets SEO access only — giving that person AI Visibility too costs another $99 on top.",
+      "picks": [
+        {
+          "tool": "se-ranking",
+          "why": "Extra manager seats cost $20 a month regardless of plan, and Core and Growth both fold AI-search tracking into that same seat price instead of selling it as a separate toolkit."
+        }
+      ]
+    },
+    {
+      "reason": "API access exists on exactly one plan, Advanced, at $549 a month — there is no cheaper tier that can pull ranking data programmatically.",
+      "picks": [
+        {
+          "tool": "ahrefs",
+          "why": "API and MCP access starts on Standard at $249 a month, still far less than the $549 Semrush charges for its own API-enabled plan."
+        },
+        {
+          "tool": "se-ranking",
+          "why": "Core includes API access and MCP with 25,000 credits a month starting at $129 a month, the entry-level plan rather than the most expensive one."
+        }
+      ]
+    },
+    {
+      "reason": "Testing the paid product means handing over a card for a 7-day trial that opens with a refundable authorization charge, and the pricing page shows no trial button at all on Advanced.",
+      "picks": [
+        {
+          "tool": "se-ranking",
+          "why": "Runs a 14-day free trial with no credit card required, including access to the Agency Pack and AI Search add-on during the trial itself."
+        }
+      ]
+    },
+    {
+      "reason": "The free plan covers only 10 reports a day across every tool, so research beyond an occasional lookup means paying $139.95 a month minimum, with no smaller paid plan in between.",
+      "picks": [
+        {
+          "tool": "ahrefs",
+          "why": "Starter costs $29 a month for lighter research, 50 tracked keywords in one project, well under Semrush's SEO price, though it can't add a second user or export a single report."
+        }
+      ]
+    },
+    {
+      "reason": "Site Audit on the SEO plan allows 100,000 crawled pages a month split across 5 monitored sites, 20,000 each — thin for a business auditing a handful of larger sites at once.",
+      "picks": [
+        {
+          "tool": "se-ranking",
+          "why": "Core allows 250,000 pages a month in Website Audit, well over double Semrush's SEO allowance, at close to the same $129 monthly price."
+        }
+      ]
+    }
+  ]
+}

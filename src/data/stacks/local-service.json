@@ -1,0 +1,52 @@
+{
+  "id": "local-service",
+  "label": "Local service business",
+  "profile": "A clinic, salon, trades company or studio with 1 to 15 people that runs on appointments: it takes bookings, follows up by text and email, and depends on Google reviews and a working website to bring in the next customer.",
+  "sizeLabels": { "solo": "Solo operator, one location", "small": "5-person shop, one location", "growing": "15-person business, multiple locations" },
+  "layers": [
+    {
+      "layer": "run",
+      "role": "Booking calendars, CRM, review requests and text follow-up",
+      "pick": "gohighlevel",
+      "why": "GoHighLevel bundles booking calendars, a CRM, review requests and email and SMS follow-up into one subscription with unlimited users, which covers three of this business's four core needs, bookings, reviews and texting, under a single login and a single contact record.",
+      "alternatives": [
+        { "tool": "pipedrive", "when": "the business is really running a sales pipeline for quoting and estimating jobs rather than consumer bookings and review requests, since Pipedrive has no native SMS product at all and text follow-up would still happen by hand" },
+        { "tool": "zoho-crm", "when": "the operation is brand new and pre-revenue and just wants a free place to track leads before paying for booking, review or texting automation; Zoho's Free plan covers up to 3 users but also has no native SMS feature" }
+      ]
+    },
+    {
+      "layer": "site",
+      "role": "The public website and booking page",
+      "pick": "squarespace",
+      "why": "Squarespace publishes a real month-to-month price on every plan and lifts its two-contributor cap once you move to Core, and Core's 0% online-store fee starts to matter the moment a salon or clinic sells a retail item or takes a deposit through the site itself.",
+      "alternatives": [
+        { "tool": "wix", "when": "the business wants the lowest entry price and is comfortable paying annually upfront for a brochure site with no online payments; Wix's Light plan has no published month-to-month rate anywhere on its own site" },
+        { "tool": "webflow", "when": "a multi-location business wants a real content-managed page per location instead of a handful of static pages; Webflow's Premium plan carries a genuine blog-style CMS that Squarespace's page builder does not match" }
+      ]
+    },
+    {
+      "layer": "grow",
+      "role": "Prove and grow local search ranking once you run more than one location",
+      "pick": "se-ranking",
+      "why": "SE Ranking's Core plan includes three Local Marketing Plus locations for tracking Google Business Profile ranking by address, which is the tool for proving whether the reviews GoHighLevel collects are actually moving the needle in Google Maps once a business runs more than a single storefront.",
+      "alternatives": [
+        { "tool": "semrush", "when": "a single location mainly wants Google Business Profile posting and automatic replies to reviews rather than a full rank-tracking suite; Semrush's Local Toolkit add-on covers that for $30 a location a month, though it is an add-on inside a Semrush account rather than a stand-alone subscription" }
+      ],
+      "overrides": {
+        "solo": { "amount": 0, "note": "Skip it. One location's local ranking runs on a complete Google Business Profile and the reviews GoHighLevel already requests, not a rank tracker, and Google Search Console is free for catching basic search problems." },
+        "small": { "amount": 0, "note": "Still skip it at one location. Five people answering the phone and running appointments does not change what actually moves local rank: a complete profile, fast replies to reviews and consistent hours and photos, none of which need a paid tool." },
+        "growing": { "amount": 129, "note": "Core, not Growth: three Local Marketing Plus locations are included, enough for a business that has grown into a second or third site rather than staying at one address. Growth's $279 buys project capacity built for agencies running many clients, not one company's own handful of locations." }
+      }
+    }
+  ],
+  "extras": [
+    { "name": "Google Business Profile", "url": "https://www.google.com/business/", "note": "Free listing that carries most of a single location's local search ranking, and the destination for every review GoHighLevel asks a customer to leave." },
+    { "name": "Google Search Console", "url": "https://search.google.com/search-console/about", "note": "Free indexing and search-query data for the website, enough to catch problems before paying for a rank-tracking tool." }
+  ],
+  "skip": [
+    { "what": "A stand-alone booking or scheduling app", "why": "GoHighLevel's own calendars already take the appointment and log it against the same contact record that runs the follow-up text and the review request; a second scheduling app would just split that record in two." },
+    { "what": "A separate email or SMS marketing subscription", "why": "GoHighLevel already meters email and text sends on top of the plan price, so paying for a second sender on top means paying twice for the same follow-up message." },
+    { "what": "A separate checkout or invoicing tool for deposits and balances", "why": "GoHighLevel's pricing pages describe payment taken through a connected processor such as Stripe, PayPal or Square, so a clinic or salon can already collect a deposit or a balance without a second checkout page." },
+    { "what": "A full SEO suite below three locations", "why": "Semrush and SE Ranking both price their broad SEO plans for agencies and teams running many client sites and keyword sets; a single-location business pays for research and reporting it has no use for." }
+  ]
+}

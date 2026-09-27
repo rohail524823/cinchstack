@@ -1,0 +1,37 @@
+{
+  "page": "compare/klaviyo-vs-activecampaign",
+  "items": [
+    {
+      "q": "Is Klaviyo or ActiveCampaign cheaper?",
+      "a": "It depends on how you want to pay, not just the sticker price. At 1,000 contacts, Klaviyo's Email plan costs $30 a month billed monthly, while ActiveCampaign's Starter plan costs $15 a month, but only on annual billing; ActiveCampaign never publishes a self-serve monthly rate, so $15 isn't a price you can get without paying for a year upfront. At 10,000 contacts the two are close, $150 for Klaviyo against $149 for ActiveCampaign's annually billed Starter plan. Past that point the comparison gets messier: a growing Klaviyo account sending to its full list can be pushed onto an $860-a-month tier by email volume, not contact count, while a comparable ActiveCampaign account lands around $609 a month on the Plus plan, though ActiveCampaign doesn't publish whether its own send-volume limits would force a similar upgrade."
+    },
+    {
+      "q": "Which is better for a Shopify or WooCommerce store, Klaviyo or ActiveCampaign?",
+      "a": "Klaviyo, for most stores with real order volume. Its flows are built directly on Shopify and WooCommerce order and browsing history, so campaigns and automations can target based on what a customer actually bought or viewed, and its Reviews add-on, $25 a month for up to 250 orders, is priced specifically around that order data. ActiveCampaign lists Shopify and WooCommerce among its 1,000+ integrations and includes a CRM Klaviyo doesn't have, but it has no add-on comparable to Klaviyo's Reviews and nothing built specifically around store order volume. A store with enough order history to justify a dedicated ecommerce email platform gets more from Klaviyo's side of this comparison; one that also manages sales leads or wholesale accounts alongside retail customers may still want ActiveCampaign's CRM on top."
+    },
+    {
+      "q": "Does ActiveCampaign or Klaviyo include a CRM?",
+      "a": "ActiveCampaign does, on every paid plan, including the cheapest one, Starter. It ships with a sales pipeline for tracking deals, and its Plus, Pro and Enterprise plans add further CRM tools, Pipelines and Sales Engagement, though neither has a published price. Klaviyo describes itself as a 'B2C CRM,' but that term refers to its unified customer profiles built from email, SMS and order history, not a deal-pipeline or sales-rep tool; there's no equivalent inside Klaviyo to ActiveCampaign's pipeline view. A business that needs to track leads or deals through stages, contacted, quoted, won, needs ActiveCampaign or a separate CRM alongside Klaviyo. A store or brand that only needs to message existing customers based on what they bought or browsed doesn't need a pipeline at all, and Klaviyo's profile-based targeting covers that job without one."
+    },
+    {
+      "q": "Does Klaviyo or ActiveCampaign have a free plan?",
+      "a": "Klaviyo does; ActiveCampaign doesn't. Klaviyo's free plan has no time limit and stays free indefinitely as long as the account holds 250 or fewer active profiles and sends 500 or fewer emails a month; it also includes a small monthly allowance of Composer AI and mobile-messaging usage at no charge. ActiveCampaign has no permanent free tier at all. Its only no-cost option is a 14-day trial that runs on Professional-plan features and doesn't require a credit card to start, though neither ActiveCampaign's pricing page nor its Help Center states what happens to the account once those 14 days pass. A very small list that fits Klaviyo's 250-profile cap can run on Klaviyo at $0 indefinitely; a business that wants to actually use a sales pipeline during that evaluation window only gets one on ActiveCampaign's trial, not for free afterward."
+    },
+    {
+      "q": "Can you pay monthly for ActiveCampaign, or only annually?",
+      "a": "ActiveCampaign's public pricing page shows only the annual-billing, monthly-equivalent rate, for every plan and every contact tier, with no monthly/annual toggle visible anywhere on the page. Its own Help Center confirms that a Monthly billing cadence exists once you're an account holder, alongside Annual and a 'commit annually, pay monthly' option, but the actual Monthly-cadence price is never published on activecampaign.com or in its help articles; you would only see it inside the account after signing up. Klaviyo works the opposite way: every self-serve plan bills and renews monthly, and the pricing calculator has no annual toggle or annual discount for any of its products. If paying month to month at a rate you can check in advance matters, Klaviyo publishes that; ActiveCampaign's genuinely monthly rate is not something you can confirm before committing to a year."
+    },
+    {
+      "q": "How many team members can use Klaviyo or ActiveCampaign on one account?",
+      "a": "Klaviyo doesn't limit or charge for seats at all; its price is set purely by active-profile count, so a fourth or fifth person logging into the same account costs nothing extra. ActiveCampaign fixes the number of included seats by plan: 1 on Starter, 1 on Plus, 3 on Pro and 5 on Enterprise. Starter can add at most 1 extra seat; Plus, Pro and Enterprise can buy more with no stated cap, but no seat add-on price appears anywhere on activecampaign.com or its Help Center, so the cost of a sixth or seventh person isn't something you can check before signing up. A small team of three or fewer fits inside ActiveCampaign's Pro plan without an extra charge; a larger team, or one that expects to keep growing, avoids an unpublished add-on cost entirely by choosing Klaviyo instead."
+    },
+    {
+      "q": "Does Klaviyo or ActiveCampaign charge extra for SMS marketing?",
+      "a": "Both treat SMS as an add-on, but only Klaviyo says what it costs. Klaviyo prices SMS by usage: an outbound text to a US recipient from a toll-free number costs $0.01 per segment, with carrier fees already built into that rate, on top of whatever Email plan you're on. ActiveCampaign's SMS add-on is available on Plus and higher plans, but its Help Center confirms only that you can purchase SMS credits, not what they cost; the price is shown inside an in-app purchase modal after you've already signed in and upgraded, not on any public page. If knowing your SMS cost before you commit to a plan matters, Klaviyo's published per-segment rate is the one you can actually check in advance; ActiveCampaign's SMS is real, but its price isn't visible until you're already a paying customer."
+    },
+    {
+      "q": "Is there a money-back guarantee on Klaviyo or ActiveCampaign?",
+      "a": "ActiveCampaign offers one; Klaviyo doesn't state one at all. ActiveCampaign's pricing page promises a 30-day money-back guarantee on every paid plan: it will give a full refund if you're not satisfied after 30 days. Klaviyo's help articles describe how to cancel, not a refund policy, and they're specific that cancelling immediately, rather than waiting for the current billing cycle to end, forfeits whatever's left of the month you already paid for, with no refund. Cancelling at the end of the cycle instead keeps the plan active and billed through its last day, which is the only way to use what you've already paid for on Klaviyo. A buyer who wants a guaranteed way out of a paid commitment has one, explicitly, on ActiveCampaign; on Klaviyo the safer move is starting on the free plan rather than a paid one you might want to unwind."
+    }
+  ]
+}

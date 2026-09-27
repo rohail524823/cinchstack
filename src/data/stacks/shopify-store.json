@@ -1,0 +1,50 @@
+{
+  "id": "shopify-store",
+  "label": "Shopify store",
+  "profile": "A direct-to-consumer brand that designs, sources or manufactures a physical product and sells it primarily through its own online store, whether or not it also sells wholesale or on marketplaces.",
+  "sizeLabels": {
+    "solo": "Solo founder, one product line",
+    "small": "5-person team, steady repeat sales",
+    "growing": "15-person team, multiple product lines"
+  },
+  "layers": [
+    {
+      "layer": "sell",
+      "role": "Take payment, host the storefront and manage orders",
+      "pick": "shopify",
+      "why": "Shopify bundles hosting, a PCI-compliant checkout, abandoned-cart recovery and automatic sales tax into one plan, so a brand selling a physical product can launch without hiring anyone to run a server or patch software.",
+      "alternatives": [
+        { "tool": "woocommerce", "when": "When you or an agency already run WordPress comfortably, want zero revenue share, and are ready to own hosting, backups and plugin updates yourselves." }
+      ]
+    },
+    {
+      "layer": "grow",
+      "role": "Email and SMS marketing that turns one-time buyers into repeat customers",
+      "pick": "klaviyo",
+      "why": "Klaviyo's flows read a customer's real order and browsing history from Shopify or WooCommerce, so abandoned-cart, back-in-stock and post-purchase messages run on actual purchase data, and its per-message SMS rate is published rather than something you find out after signing up.",
+      "alternatives": [
+        { "tool": "mailchimp", "when": "When your list is still under a few hundred contacts and you want purchase-behavior segmentation included free rather than paying Klaviyo's rates this early." },
+        { "tool": "activecampaign", "when": "When you also manage wholesale or outreach accounts and want deal-stage tracking bundled with the same automations that run your consumer email." }
+      ]
+    },
+    {
+      "layer": "organize",
+      "role": "Hold the SKU list, supplier contacts and SOPs the other two tools were never built to store",
+      "pick": "notion",
+      "why": "Notion's free plan has no cap on total storage for a one-person workspace, unlike a free project-management tool's fixed workspace-wide storage limit; the one catch is a 5 MB cap on each individual file, which the paid Plus plan removes with unlimited file uploads.",
+      "alternatives": [
+        { "tool": "clickup", "when": "When the team is coordinating restock timing, supplier purchase orders and launch dates across several people and needs Gantt or timeline views and workflow automations, not just shared docs." }
+      ]
+    }
+  ],
+  "extras": [
+    { "name": "Google Search Console", "url": "https://search.google.com/search-console/about", "note": "Free. Shows which searches already bring buyers to specific product and collection pages, and flags indexing problems before they cost traffic." },
+    { "name": "Google Merchant Center", "url": "https://merchants.google.com/", "note": "Free. Lists products in Google's free shopping listings; both Shopify and WooCommerce have an official app that keeps the product feed synced automatically." },
+    { "name": "Google Analytics", "url": "https://analytics.google.com/", "note": "Free. Breaks down which channels actually bring buyers, in more detail than the ecommerce platform's own built-in reporting." }
+  ],
+  "skip": [
+    { "what": "A sales CRM such as HubSpot or GoHighLevel", "why": "Both are built around a sales pipeline: moving a lead through stages until someone signs. A store selling physical products to consumers doesn't run that process, so the monthly bill buys a workflow this business doesn't have." },
+    { "what": "A second website builder such as Webflow or Squarespace", "why": "A store's product pages, collections and blog already live on the ecommerce platform. A second site adds a second login, a second bill and a second copy of content to keep current, for a homepage the platform already renders." },
+    { "what": "A dedicated SEO or keyword-research platform", "why": "Rank-tracking software earns its cost once you're publishing content on a schedule. Before that, a small catalog's search visibility depends far more on complete product titles, descriptions and image alt text than on tracking software." }
+  ]
+}

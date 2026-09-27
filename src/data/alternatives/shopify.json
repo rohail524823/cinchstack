@@ -1,0 +1,75 @@
+{
+  "tool": "shopify",
+  "reasons": [
+    {
+      "reason": "Basic, the plan on the sticker price, includes zero staff accounts — hiring one part-time employee already means paying for Grow just to give them a login.",
+      "picks": [
+        {
+          "tool": "woocommerce",
+          "why": "Staff get ordinary WordPress user accounts, and the Shop Manager role grants full store access with no per-account fee and no plan tier gating it."
+        },
+        {
+          "tool": "squarespace",
+          "why": "Core, its cheapest unlimited-contributor plan at $39 a month, and every plan above it remove the contributor cap entirely, with no staff-account limit to hit again as the team grows, unlike Grow's cap of 5 or Advanced's cap of 15."
+        }
+      ]
+    },
+    {
+      "reason": "Pay with anything other than Shopify Payments and Shopify adds its own cut on top of the processor's fee — 2% on Basic, 1% on Grow, 0.6% on Advanced — for as long as that gateway stays connected.",
+      "picks": [
+        {
+          "tool": "woocommerce",
+          "why": "Charges no extra fee for using a third-party gateway; its own comparison table lists that additional fee as 'None,' and you can run several gateways at once."
+        },
+        {
+          "tool": "clickfunnels",
+          "why": "Takes no percentage of sales on any plan, from $97 a month; card payments run through Stripe or its own Payments AI gateway at the standard rate with no separate markup layered on top."
+        }
+      ]
+    },
+    {
+      "reason": "What you're actually selling is a course, a coaching program or a membership, not a catalog of physical items to browse.",
+      "picks": [
+        {
+          "tool": "kajabi",
+          "why": "Bundles courses, coaching, community and checkout into one subscription with 0% platform revenue share on every plan, from $179 a month on Basic."
+        },
+        {
+          "tool": "systeme-io",
+          "why": "Sells funnels, courses and email in the same flat plan, from $17 a month on Startup, also at 0% transaction fees."
+        }
+      ]
+    },
+    {
+      "reason": "You're mostly billing for appointments and services, not running a browsable product catalog.",
+      "picks": [
+        {
+          "tool": "squarespace",
+          "why": "Built-in invoicing and scheduling live on the same $25-a-month Basic subscription as the website, with no separate Squarespace fee added to an invoice."
+        },
+        {
+          "tool": "systeme-io",
+          "why": "Its booking calendar is bundled into the same account as the funnels and email a service business would already need, not sold as a separate app."
+        }
+      ]
+    },
+    {
+      "reason": "You want to own the code and hosting outright, and don't want any platform holding a cut of what you sell, on principle rather than over one bill.",
+      "picks": [
+        {
+          "tool": "woocommerce",
+          "why": "The core plugin costs $0 with 0% revenue share, and you choose, and can switch, the host and payment gateway at any time; nothing about the storefront itself is Shopify's to hold."
+        }
+      ]
+    },
+    {
+      "reason": "Shopify's only $0 plan, Agentic, can't publish an online store or take an order through its checkout — there's no way to run an actual live storefront on Shopify for free.",
+      "picks": [
+        {
+          "tool": "systeme-io",
+          "why": "Its Free plan is a genuine $0 live storefront: build a funnel with a real checkout and take orders with no credit card required, until its lifetime-sales cap kicks in."
+        }
+      ]
+    }
+  ]
+}

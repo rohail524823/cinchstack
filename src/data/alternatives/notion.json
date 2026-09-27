@@ -1,0 +1,54 @@
+{
+  "tool": "notion",
+  "reasons": [
+    {
+      "reason": "Your workspace added a second member, and pages and blocks that were 'unlimited' on Free instantly became 'limited' — Notion has never published the actual cap.",
+      "picks": [
+        {
+          "tool": "clickup",
+          "why": "Free Forever has no membership trigger: it allows unlimited members and tasks from the very first teammate you add, though it caps total file storage at 60MB per Workspace and limits Custom Fields, Gantt charts and time tracking to a fixed number of uses instead."
+        }
+      ]
+    },
+    {
+      "reason": "You need dedicated project-tracking views — a Gantt chart, a timeline, a workload view — not database properties standing in for them.",
+      "picks": [
+        {
+          "tool": "clickup",
+          "why": "Includes Gantt, Timeline and Workload views from Free Forever onward, though Free caps each at 60 uses per Workspace that never reset; Unlimited raises that to 100 uses, and Business removes the cap entirely. Notion's plans list databases with subtasks and custom properties, useful for a simple task list, but no dedicated view of any of these types."
+        }
+      ]
+    },
+    {
+      "reason": "Notion's 'Trial of Notion AI' has no stated length or usage cap, so there is no way to tell how much of it you are actually getting before it stops.",
+      "picks": [
+        {
+          "tool": "clickup",
+          "why": "States its AI trial as an actual number instead of an open-ended 'Limited Trial': Free Forever includes 25 Brain AI uses for a Workspace of up to 10 people, and a paid Workspace gets its own automatic trial on top."
+        }
+      ]
+    },
+    {
+      "reason": "You built a lightweight CRM out of a Notion database, and outgrew what generic properties can do for deal stages, pipeline value and forecasting.",
+      "picks": [
+        {
+          "tool": "pipedrive",
+          "why": "A dedicated sales-pipeline CRM starting at $24 a seat a month, with deal stages, activity reminders and reporting built for a pipeline instead of assembled from database properties."
+        },
+        {
+          "tool": "zoho-crm",
+          "why": "Prices every edition per seat with a free plan for up to 3 users, and its pipeline stages, forecasting and workflow automation are native to the CRM rather than built by hand in a table."
+        }
+      ]
+    },
+    {
+      "reason": "You published your business's site as a Notion site, and need real design control plus a domain price you can see upfront, not an add-on the pricing page never puts a rate on.",
+      "picks": [
+        {
+          "tool": "squarespace",
+          "why": "A flat per-site website builder starting at $25 a month, with a bundled first-year domain on annual billing and published transaction fees, instead of Notion's 'pay per domain' add-on with no listed rate."
+        }
+      ]
+    }
+  ]
+}

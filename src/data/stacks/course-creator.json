@@ -1,0 +1,108 @@
+{
+  "id": "course-creator",
+  "label": "Coach or course creator",
+  "profile": "Sells courses, coaching, memberships or digital downloads under their own name, from a single flagship course to a full curriculum with a paid community.",
+  "sizeLabels": {
+    "solo": "Solo creator",
+    "small": "5-person course business",
+    "growing": "15-person course business"
+  },
+  "layers": [
+    {
+      "layer": "sell",
+      "role": "Courses, coaching, memberships and checkout",
+      "pick": "systeme-io",
+      "why": "Systeme.io bundles a funnel and website builder, checkout, a course player, communities and a booking calendar with unlimited email sends, and it takes 0% of every sale on every plan. For most solo and small course businesses that combination costs a fraction of Kajabi's price at the same size, and its Webinar plan adds evergreen webinars, which is how a lot of course launches are actually sold.",
+      "alternatives": [
+        {
+          "tool": "kajabi",
+          "when": "You have steady revenue and want a more polished course and community experience with no revenue share and no per-funnel or per-automation caps to bump into — though its dedicated coaching product, Backstage, is still a Beta feature with pricing that can change."
+        },
+        {
+          "tool": "clickfunnels",
+          "when": "Your business runs on paid-traffic funnels and a store more than on course content itself, and you are willing to move up to its Scale plan for multiple workspace sub-accounts to manage more than one offer under a single login — Launch, its entry tier, includes only one."
+        }
+      ]
+    },
+    {
+      "layer": "site",
+      "role": "Your marketing site and blog",
+      "pick": "systeme-io",
+      "why": "Systeme.io's own plans already include a website and a blog, so a solo or small course business does not need a second site-builder subscription on top of its course platform. Paying for both is the most common overspend in course-creator stacks.",
+      "alternatives": [
+        {
+          "tool": "squarespace",
+          "when": "You want a real blog for SEO-driven content marketing, or a brand-forward site your course platform's page builder cannot match on design. Every current plan allows up to 1,000 pages, and Core and above drop the two-contributor cap that limits its cheapest tier."
+        }
+      ],
+      "overrides": {
+        "solo": { "amount": 0, "note": "Included in Systeme.io" },
+        "small": { "amount": 0, "note": "Included in Systeme.io" },
+        "growing": { "amount": 0, "note": "Included in Systeme.io" }
+      }
+    },
+    {
+      "layer": "grow",
+      "role": "Email marketing and launches",
+      "pick": "kit",
+      "why": "Kit is built specifically for people selling their own content and products, not for agencies managing client lists, and it sells digital products from the same account that sends the email. Its free plan covers up to 10,000 subscribers before you pay anything. The catch: Kit does not publish a price above 1,000 subscribers on any page you can reach without an existing account, so budget for an increase once your list crosses that mark rather than assuming the entry price holds.",
+      "alternatives": [
+        {
+          "tool": "activecampaign",
+          "when": "A published price at every list size matters more than creator-specific features, and you want a light CRM bundled in for tracking students or coaching leads — though ActiveCampaign's own public price is annual-billing only."
+        },
+        {
+          "tool": "mailchimp",
+          "when": "You would rather use a widely recognized tool with a clear, published price at every contact band than a platform built around a niche."
+        }
+      ]
+    },
+    {
+      "layer": "organize",
+      "role": "Course scripts, SOPs and planning",
+      "pick": "notion",
+      "why": "Notion is free for one person and stays flexible as a place to draft course scripts, outlines and standard operating procedures, without forcing a project-management structure a solo creator does not need yet.",
+      "alternatives": [
+        {
+          "tool": "clickup",
+          "when": "You are coordinating a real production pipeline — video editing, launch checklists, a content calendar — across several people and want task tracking, not just docs."
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "note": "Course thumbnails, worksheets, slide decks and social graphics, free for one person."
+    },
+    {
+      "name": "Loom",
+      "url": "https://www.loom.com",
+      "note": "Free screen recordings for course lessons, quick tutorials or async coaching feedback."
+    },
+    {
+      "name": "Google Analytics",
+      "url": "https://analytics.google.com",
+      "note": "Free traffic reporting for your site and blog once you are publishing on a real schedule."
+    }
+  ],
+  "skip": [
+    {
+      "what": "Kajabi or another premium all-in-one platform, before you have consistent sales",
+      "why": "Kajabi's cheapest plan lists at $179 a month. Start on Systeme.io instead, including its free plan if you are pre-revenue, and move up only once you hit a real limit, not a hypothetical one."
+    },
+    {
+      "what": "A dedicated CRM like Pipedrive or GoHighLevel",
+      "why": "Systeme.io's own CRM pipelines, included on every plan, are enough to track leads and coaching clients at solo and small size. Add a lean CRM only once you hire someone to run sales calls for a high-ticket offer."
+    },
+    {
+      "what": "A dedicated SEO tool like Semrush, Ahrefs or SE Ranking",
+      "why": "SE Ranking's Core plan and Ahrefs' Lite plan both cost $129 a month for one login — more than most solo creators spend on their whole stack. Ahrefs' cheaper Starter plan is only $29 a month, but it caps out at 50 tracked keywords and blocks exports, too thin for real keyword research. Skip all three until you are publishing content on a real schedule and need to prioritize which keywords to target; Google Search Console is free until then."
+    },
+    {
+      "what": "A separate ecommerce platform like Shopify or WooCommerce",
+      "why": "Your course or funnel platform already takes payment for digital downloads, memberships and courses without a separate storefront. Add a dedicated ecommerce platform only if you start selling physical products at real volume."
+    }
+  ]
+}

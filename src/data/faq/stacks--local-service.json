@@ -1,0 +1,33 @@
+{
+  "page": "stacks/local-service",
+  "items": [
+    {
+      "q": "What's the best CRM for a clinic, salon or trades business that needs booking and reviews?",
+      "a": "GoHighLevel, for most single-location clinics, salons and trades businesses. Its Starter plan costs $97 a month and bundles booking calendars, a CRM, review requests and email and SMS follow-up under one login, with unlimited users and contacts. Texting, calls and email are billed separately from a prepaid wallet, so a solo operator's real monthly bill with light usage runs closer to $103.51. Starter's real limit is three sub-accounts, HighLevel's own term for a separate location workspace, so a business open at one address has no reason to pay for a bigger plan. Pipedrive and Zoho CRM are worth a look only if the business mainly tracks a sales pipeline for quoting jobs, since neither sells a native texting feature, which rules both out for a business built around text reminders and review requests."
+    },
+    {
+      "q": "How much does a software stack cost for a small clinic, salon or trades business?",
+      "a": "It depends mostly on how many locations the business runs, not just headcount. A solo operator at one address running GoHighLevel's Starter plan and Squarespace's Basic plan pays about $128.51 a month combined, with no rank-tracking tool needed yet. A 5-person shop at the same single location pays about $164.42 a month, mostly because the website moves to Squarespace's Core plan once a third person needs site access. A 15-person business that has grown into a second or third location jumps to about $396.20 a month, because that is also the point SE Ranking's Core plan earns its place for tracking Google Business Profile rank by address. Staying at one location keeps the bill near the solo figure even with a bigger team."
+    },
+    {
+      "q": "Do I need a separate texting app for appointment reminders and review requests?",
+      "a": "No, not if the business already runs GoHighLevel. Its plans include email and SMS campaigns and workflow automation starting at $97 a month, billed as metered usage per message rather than a second subscription: US texts run $0.0075 per segment plus a small carrier fee. The catch most guides skip is registration and prepayment: sending texts to US numbers needs a one-time $22.50 A2P 10DLC registration, and every text, call and email draws from a prepaid wallet whose auto-recharge cannot be turned off. Adding a separate texting tool on top would mean paying for the same reminder or review request twice, once as GoHighLevel's usage charge and once as a second subscription, for no extra capability a clinic or salon actually needs."
+    },
+    {
+      "q": "What's the cheapest website builder for a local service business?",
+      "a": "Wix's Light plan is the lowest sticker price at $17 a month, but that figure is only published as an annual rate paid upfront; Wix does not show a month-to-month price for Light anywhere on its own site. Squarespace's Basic plan costs $25 a month and publishes that rate month to month, with no annual commitment required, though it caps site editors at two, including the owner. For a plain brochure site with no online payments, Wix's annual price is the cheaper choice. The moment the business wants to take a deposit or sell a retail item through the site itself, Squarespace is the better fit even at the entry tier: Basic already supports online payments, with a 2% fee that drops to 0% once the business moves to Core, while Wix's Light plan excludes online payments and eCommerce entirely, so taking any payment at all needs an upgrade to Wix's Core plan first."
+    },
+    {
+      "q": "Is GoHighLevel worth it for a solo practitioner or independent stylist?",
+      "a": "Yes, for most solo operators running their own bookings, reviews and follow-up. GoHighLevel's Starter plan costs $97 a month and includes a booking calendar, a CRM, review requests and email and SMS follow-up, all with unlimited contacts, more than enough for one person at one location. The real bill with typical light texting and email usage runs closer to $103.51 a month rather than the bare plan price, since messages are metered from a prepaid wallet on top of the subscription. The main reason to hesitate is that wallet: its auto-recharge cannot be switched off, and unused balance left after cancelling is forfeited after 30 days. A solo operator who expects to send very few texts might start on the free tools bundled with Zoho CRM instead, though Zoho has no texting feature to grow into later."
+    },
+    {
+      "q": "Do I need an SEO tool to show up in Google's local search results?",
+      "a": "Not at a single location. A complete, active Google Business Profile plus the reviews GoHighLevel's booking and follow-up workflow already requests do more for local rank than a rank-tracking subscription, and Google Search Console is free for catching basic search problems. A dedicated tool earns its place once a business has grown into more than one location: SE Ranking's Core plan costs $129 a month and includes three Local Marketing Plus locations for tracking Google Business Profile rank by address. Semrush's Local Toolkit add-on is worth checking instead if the real want is Google Business Profile posting and automatic replies to reviews rather than a full rank-tracking suite: it prices that narrower job at $30 a location a month, sold as an add-on inside a Semrush account."
+    },
+    {
+      "q": "How do I get more Google reviews without buying another piece of software?",
+      "a": "Through the tool already running the bookings. GoHighLevel bundles review requests into the same subscription that runs booking calendars and follow-up texts, so a request can go out over the same channel a customer already used to confirm an appointment, with no separate reputation tool to buy. Google Business Profile, which is free, is where those reviews actually live and what most of a single location's local search ranking depends on. Once a business runs more than one location and wants replies drafted and posted automatically at scale, Semrush's Local Toolkit Pro add-on, at $60 a location a month, adds review generation and management on top of the same Google Business Profile posting its Base tier already covers."
+    }
+  ]
+}

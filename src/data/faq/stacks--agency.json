@@ -1,0 +1,33 @@
+{
+  "page": "stacks/agency",
+  "items": [
+    {
+      "q": "What's the best CRM for a marketing agency managing multiple clients?",
+      "a": "GoHighLevel, for most agencies running lead generation and follow-up for small-business clients. Its Starter plan costs $97 a month and includes three client sub-accounts, HighLevel's term for a separate CRM and funnel workspace per client, plus unlimited users and contacts. The catch most guides skip: that three-sub-account cap is hard, so an agency running four or more clients needs the Unlimited plan at $297 a month instead, which removes the cap and lets client usage be rebilled at cost. HubSpot is the main alternative, but it has no comparable sub-account structure, so each client would need its own separate HubSpot subscription rather than one shared login. Pipedrive is worth checking only if the agency needs a sales pipeline for its own new business, not marketing automation run for clients."
+    },
+    {
+      "q": "How much does a software stack cost for a small marketing agency?",
+      "a": "It depends on team size, because each layer's bill scales differently. A solo consultant running GoHighLevel's Starter plan, Framer's Basic site plan, SE Ranking's Core plan and ClickUp's Unlimited plan pays about $257.51 a month combined. A 5-person agency's real bill rises to about $601 a month, mostly because GoHighLevel needs its Unlimited plan once client sub-accounts pass three, not because the other tools jump. A 15-person agency's combined bill reaches about $1,136 a month, split across the same four tools at their next-size plans. Website and SEO costs in that total assume one client site and one tracked project; an agency running several client sites or SEO projects should multiply the Site and Grow layers by how many clients it actually serves, not by its own headcount."
+    },
+    {
+      "q": "Is GoHighLevel worth it for a one-person agency?",
+      "a": "Yes, for most solo consultants doing lead generation and follow-up for a small handful of clients. GoHighLevel's Starter plan costs $97 a month and includes a CRM, a funnel and website builder, calendars, and email and SMS follow-up, all with unlimited users and contacts, plus three client sub-accounts, enough for a consultant just starting out. The real monthly bill, once typical texting and email usage is added, runs closer to $103.51 a month rather than the bare plan price, because texts, calls and email are metered on top of every plan. The main reason to look elsewhere at this size is heavy texting or AI use: both are billed from a prepaid wallet with forced auto-recharge, so a consultant who expects very light usage may prefer HubSpot's free tools instead, though HubSpot doesn't sell marketing SMS below its $890-a-month Professional plan."
+    },
+    {
+      "q": "What website builder should an agency use for client sites?",
+      "a": "Framer, for most agencies building sites for small-business clients. Its Basic plan costs $15 a month per published site, and the workspace's first editor is always free, so running the site costs no extra seat fee. Webflow is the better pick once a client's site needs a real CMS blog or heavier design control, and its Agency Workspace gives each client its own free reviewer seat instead of a paid editor seat: its Premium plan costs $39 a month per site and holds far more content than Framer's Basic tier, though its bandwidth pricing can push a high-traffic site's bill much higher. Squarespace and Wix are not a good fit for an agency running several client sites: both bill and log in per site with no shared agency-wide view, so managing five clients means five separate subscriptions rather than one workspace. Pick Framer by default and reserve Webflow for the client whose site has outgrown a template."
+    },
+    {
+      "q": "Do I need Semrush for a marketing agency, or is there something cheaper?",
+      "a": "Not necessarily. SE Ranking is the cheaper fit for an agency doing SEO and local lead generation for small-business clients: its Core plan costs $129 a month and tracks up to ten client projects under one login, plus Local Marketing tools for tracking Google Business Profile rankings by location. A 5-person agency's real SE Ranking bill runs about $149 a month, against $379 a month for the same team on Semrush's Pro+ plan. Semrush earns its higher price when an agency also resells content, social or paid-ads reporting as its own service, since those toolkits sit under the same Semrush login; Ahrefs is worth the extra cost mainly when a client specifically wants Ahrefs' own crawler-based backlink research. For an agency whose clients mostly want to rank locally and see proof of the work, SE Ranking's project-based pricing fits the job without paying for toolkits most small-business clients never ask about."
+    },
+    {
+      "q": "Do I need a separate email marketing tool if I already have GoHighLevel?",
+      "a": "No, not for most agencies. GoHighLevel already includes email and SMS campaigns and workflow automation in every plan, starting at $97 a month, billed as metered usage per message rather than a separate subscription. Adding Klaviyo or Mailchimp on top means paying for the same follow-up job twice, once as GoHighLevel's usage charges and once as a second subscription. The exception is a client already locked into a specific email platform for reasons outside the agency's control, such as an existing Klaviyo integration tied to a Shopify store; running that one client's email through GoHighLevel anyway would mean rebuilding integrations that already work. Outside that kind of exception, GoHighLevel's built-in email and SMS cover the follow-up layer this stack needs without an added tool."
+    },
+    {
+      "q": "What project management tool should a marketing agency use for client work?",
+      "a": "ClickUp, for most agencies tracking deliverables across several clients at once. Its Unlimited plan costs $10 per seat a month and removes Free Forever's tiny storage cap, and its permission-controlled guest seats scale with the team, so clients can see task status without the agency buying them a paid seat. A 5-person agency's real ClickUp bill runs about $50 a month; a 15-person agency needs the $19-per-seat Business plan instead, because Unlimited caps dashboards, timelines and workload views at a fixed number of uses that never resets, a limit a growing agency with several client dashboards will hit. Notion is the better pick if the real need is shared docs, SOPs and a wiki rather than Gantt charts and task automations; its Plus plan costs $12 per seat a month and is enough for that job well past fifteen people."
+    }
+  ]
+}
