@@ -16,11 +16,11 @@
       "alternatives": [
         {
           "tool": "kajabi",
-          "when": "You have steady revenue and want a more polished course and community experience with no revenue share and no per-funnel or per-automation caps to bump into — though its dedicated coaching product, Backstage, is still a Beta feature with pricing that can change."
+          "when": "You have steady revenue and want a more polished course and community experience with no revenue share and no per-funnel or per-automation caps to bump into \u2014 though its dedicated coaching product, Backstage, is still a Beta feature with pricing that can change."
         },
         {
           "tool": "clickfunnels",
-          "when": "Your business runs on paid-traffic funnels and a store more than on course content itself, and you are willing to move up to its Scale plan for multiple workspace sub-accounts to manage more than one offer under a single login — Launch, its entry tier, includes only one."
+          "when": "Your business runs on paid-traffic funnels and a store more than on course content itself, and you are willing to move up to its Scale plan for multiple workspace sub-accounts to manage more than one offer under a single login \u2014 Launch, its entry tier, includes only one."
         }
       ]
     },
@@ -36,26 +36,53 @@
         }
       ],
       "overrides": {
-        "solo": { "amount": 0, "note": "Included in Systeme.io" },
-        "small": { "amount": 0, "note": "Included in Systeme.io" },
-        "growing": { "amount": 0, "note": "Included in Systeme.io" }
+        "solo": {
+          "amount": 0,
+          "note": "Included in Systeme.io"
+        },
+        "small": {
+          "amount": 0,
+          "note": "Included in Systeme.io"
+        },
+        "growing": {
+          "amount": 0,
+          "note": "Included in Systeme.io"
+        }
       }
     },
     {
       "layer": "grow",
       "role": "Email marketing and launches",
-      "pick": "kit",
-      "why": "Kit is built specifically for people selling their own content and products, not for agencies managing client lists, and it sells digital products from the same account that sends the email. Its free plan covers up to 10,000 subscribers before you pay anything. The catch: Kit does not publish a price above 1,000 subscribers on any page you can reach without an existing account, so budget for an increase once your list crosses that mark rather than assuming the entry price holds.",
+      "pick": "systeme-io",
+      "why": "Every Systeme.io plan includes unlimited email sends, broadcasts, tags and automation rules in the same account that sells the course, so launches need no second email subscription. The limits to watch are Startup's 10 tags, 10 automation rules and 10 email campaigns.",
       "alternatives": [
         {
+          "tool": "kit",
+          "when": "email becomes the center of the business and your launches outgrow Systeme.io's tag and automation caps; Kit's free Newsletter plan covers up to 10,000 subscribers, but its paid prices above 1,000 subscribers appear only in its calculator"
+        },
+        {
           "tool": "activecampaign",
-          "when": "A published price at every list size matters more than creator-specific features, and you want a light CRM bundled in for tracking students or coaching leads — though ActiveCampaign's own public price is annual-billing only."
+          "when": "you want a published price at every contact tier and a light CRM for tracking coaching leads, and you are fine with annual billing on its public price"
         },
         {
           "tool": "mailchimp",
-          "when": "You would rather use a widely recognized tool with a clear, published price at every contact band than a platform built around a niche."
+          "when": "you would rather keep your list in a widely known email tool that is not tied to your course platform"
         }
-      ]
+      ],
+      "overrides": {
+        "solo": {
+          "amount": 0,
+          "note": "Included in Systeme.io"
+        },
+        "small": {
+          "amount": 0,
+          "note": "Included in Systeme.io"
+        },
+        "growing": {
+          "amount": 0,
+          "note": "Included in Systeme.io"
+        }
+      }
     },
     {
       "layer": "organize",
@@ -65,7 +92,7 @@
       "alternatives": [
         {
           "tool": "clickup",
-          "when": "You are coordinating a real production pipeline — video editing, launch checklists, a content calendar — across several people and want task tracking, not just docs."
+          "when": "You are coordinating a real production pipeline \u2014 video editing, launch checklists, a content calendar \u2014 across several people and want task tracking, not just docs."
         }
       ]
     }
@@ -98,7 +125,7 @@
     },
     {
       "what": "A dedicated SEO tool like Semrush, Ahrefs or SE Ranking",
-      "why": "SE Ranking's Core plan and Ahrefs' Lite plan both cost $129 a month for one login — more than most solo creators spend on their whole stack. Ahrefs' cheaper Starter plan is only $29 a month, but it caps out at 50 tracked keywords and blocks exports, too thin for real keyword research. Skip all three until you are publishing content on a real schedule and need to prioritize which keywords to target; Google Search Console is free until then."
+      "why": "SE Ranking's Core plan and Ahrefs' Lite plan both cost $129 a month for one login \u2014 more than most solo creators spend on their whole stack. Ahrefs' cheaper Starter plan is only $29 a month, but it caps out at 50 tracked keywords and blocks exports, too thin for real keyword research. Skip all three until you are publishing content on a real schedule and need to prioritize which keywords to target; Google Search Console is free until then."
     },
     {
       "what": "A separate ecommerce platform like Shopify or WooCommerce",
