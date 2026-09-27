@@ -36,8 +36,8 @@ The plan was to apply once the site has real traffic (about 1,000 visits a month
 | Wix | Declined within minutes | A note went through Wix's chat on Impact. Wait for the answer. |
 | Shopify | Declined within minutes | No way to appeal: no message button, and Shopify gives no feedback. Re-apply once cinchstack.com has about 1,000 visits a month. |
 | Klaviyo, Automattic (WooCommerce) | No Apply button | Invitation only, or the account doesn't meet their criteria yet. Klaviyo can be asked for an invitation through its message button. |
-| Webflow (PartnerStack) | Applied | Wait; the status shows at dash.partnerstack.com. |
-| Kit (PartnerStack) | Application didn't submit | PartnerStack locked the Submit button until you earn a first commission in any PartnerStack program. Try Kit's own form once, https://dash.partnerstack.com/application?company=kit; if that's locked too, ask PartnerStack or Kit support, or wait for a first Webflow commission, which unlocks it. |
+| Webflow (PartnerStack) | Form filled in on webflow.com, not submitted | Submit it. If PartnerStack locks it the way it locked Kit's, apply to the PartnerStack Network first. |
+| Kit (PartnerStack) | Locked, not submitted | PartnerStack locks new programs until you earn a first commission in a program you're already in, and your account has none (n8n and ActiveCampaign both declined it). Apply to the PartnerStack Network (**Discover Partnerships → Apply to the Network**), then apply to Kit again. |
 | Notion (PartnerStack) | Not accepting new partners | Check again in a few months. |
 
 - A decline that arrives within minutes comes from a brand's automatic rules, so re-applying with the same profile gets the same answer. Impact shows a **Re-apply** button on declined brands; use it only after something has changed, above all cinchstack.com's own traffic.

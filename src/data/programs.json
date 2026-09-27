@@ -98,12 +98,12 @@
   },
   "webflow": {
     "label": "Webflow affiliate program",
-    "network": "PartnerStack",
-    "status": "applied",
+    "network": "PartnerStack (Webflow’s own application form, linked from webflow.com/solutions/affiliates)",
+    "status": "not-applied",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?webflow\\.com(/|$)",
-    "terms": "50% of first-year revenue from referred customers.",
+    "terms": "50% of a referred customer’s first subscription payments, for up to 12 months of a monthly plan or one annual plan, per Webflow’s help center; lower renewal shares after that. Confirm the rates and cookie window in the contract before any link goes live.",
     "recurring": true,
     "paysOnTrial": false,
     "cookieDays": null,
@@ -115,7 +115,7 @@
       "noBrandBidding": true
     },
     "rateHistory": [],
-    "notes": "Applied 27 September 2026, as reported by the owner. Pending; the status shows at dash.partnerstack.com. Once approved: read the contract terms before any link goes live."
+    "notes": "27 September 2026: the application on webflow.com was filled in but not submitted. The owner’s PartnerStack account is not in the PartnerStack Network, and its only two programs (n8n and ActiveCampaign) declined it, so PartnerStack may lock this form as it locked Kit’s. Webflow says it reviews applications within 10 business days."
   },
   "semrush": {
     "label": "Semrush affiliate program",
@@ -241,6 +241,6 @@
       "noBrandBidding": true
     },
     "rateHistory": [],
-    "notes": "27 September 2026: the application on PartnerStack did not submit. Its Submit button turned into a padlock under the banner “Unlock the PartnerStack Marketplace. To join more programs, all you need to do is earn a single commission in any of the programs you are already a part of.” Next: check dash.partnerstack.com; if Kit isn’t pending there, try Kit’s own application form (https://dash.partnerstack.com/application?company=kit) once, and if it is locked too, ask PartnerStack or Kit support. The Marketplace unlocks after a first commission in any PartnerStack program (for example Webflow)."
+    "notes": "27 September 2026: the application on PartnerStack did not submit, twice (the Marketplace listing and Kit’s own form, https://dash.partnerstack.com/application?company=kit). Both show the banner “Unlock the PartnerStack Marketplace. To join more programs, all you need to do is earn a single commission in any of the programs you are already a part of.” The owner’s PartnerStack account has no active program to earn that commission in (n8n and ActiveCampaign both declined it) and is not in the PartnerStack Network. Next: apply to the Network from Discover Partnerships (“Apply to the Network”), then apply to Kit again."
   }
 }
