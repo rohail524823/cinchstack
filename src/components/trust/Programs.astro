@@ -1,8 +1,10 @@
 ---
 // Every affiliate program we have joined or plan to join, straight from programs.json.
+// Readers need to know which vendors pay us or may soon, so a declined application reads the same
+// as one not yet made: neither pays us. programs.json keeps the real status.
 import { programs, tools } from '../../lib/data.mjs';
 import { longDate } from '../../lib/format.mjs';
-const STATUS = { approved: 'Approved', applied: 'Applied, waiting', 'not-applied': 'Not applied yet', declined: 'Declined', none: 'No program' };
+const STATUS = { approved: 'Approved', applied: 'Applied, waiting', 'not-applied': 'Not joined', declined: 'Not joined', none: 'No program' };
 const rows = Object.entries(programs).map(([key, p]) => ({ key, p, name: tools[key]?.name ?? p.label.replace(/ affiliate program$/i, ''), live: p.status === 'approved' && Boolean(p.template) }));
 ---
 <div class="tbl-wrap">

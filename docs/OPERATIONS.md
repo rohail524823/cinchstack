@@ -25,9 +25,22 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 - **To widen it** once systeme.io says comparisons are fine (ask through https://systeme.io/support/contact-us): delete `"paidOnlyOn"` from the program's `rules` in `src/data/programs.json`. Nothing else changes.
 - systeme.io has no Sub IDs. Google Analytics `affiliate_click` events show which page sent each click.
 
-### 2. Apply to the other programs, in this order
+### 2. The other affiliate programs (status on 27 September 2026)
 
-The plan is to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. **Semrush** was applied to early, on 27 September 2026, through Impact. On Impact an application comes from the whole partner account (account 7439310, which holds both cinchstack.com and bestaicertifications.com), so there is no per-site choice to make. The public profile now describes both sites, CinchStack first. It is pending under **Discover → Invitations → Sent**. If it is declined, re-apply at the traffic milestone below. The order and the reasons are in `docs/plan/09-affiliate-programs.md`. When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change.
+The plan was to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. Several were applied to early, on 27 September 2026, through Impact. There an application comes from the whole partner account (7439310, which holds cinchstack.com and bestaicertifications.com), so there is no per-site choice. Brands see bestaicertifications.com listed first, with Impact's own traffic estimate and Moz scores, and no figures yet for cinchstack.com.
+
+| Program | Status | Next step |
+|---|---|---|
+| Semrush, HubSpot | Pending under **Discover → Invitations → Sent** | Wait. |
+| Squarespace | Declined within minutes | A re-evaluation request went to squarespace@accelerationpartners.com, as their decline email invites. Wait for the answer. |
+| Wix | Declined within minutes | A note went through Wix's chat on Impact. Wait for the answer. |
+| Shopify | Declined within minutes | No way to appeal: no message button, and Shopify gives no feedback. Re-apply once cinchstack.com has about 1,000 visits a month. |
+| Klaviyo, Automattic (WooCommerce) | No Apply button | Invitation only, or the account doesn't meet their criteria yet. Klaviyo can be asked for an invitation through its message button. |
+
+- A decline that arrives within minutes comes from a brand's automatic rules, so re-applying with the same profile gets the same answer. Impact shows a **Re-apply** button on declined brands; use it only after something has changed, above all cinchstack.com's own traffic.
+- Every program you apply to gets a record in `src/data/programs.json` with its real status. `/how-we-earn/` shows declined and never-applied programs alike as "Not joined", because neither pays us.
+- **Scores:** the methodology promises the lower of the two blind scores for any tool whose program we have joined or may join. When a tool gets a program record for the first time, set its score in `src/data/scores/<tool>.json` to the lower pass score and say so in `method`. Squarespace went from 4.2 to 4.1 this way.
+- When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change. The order and the reasons are in `docs/plan/09-affiliate-programs.md`.
 
 ### 3. Search engines (done 27 September 2026)
 

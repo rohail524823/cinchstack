@@ -27,8 +27,8 @@
   },
   "hubspot": {
     "label": "HubSpot affiliate program",
-    "network": "to confirm at application (has run on Impact)",
-    "status": "not-applied",
+    "network": "Impact (partner account 7439310)",
+    "status": "applied",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?hubspot\\.com(/|$)",
@@ -43,12 +43,13 @@
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": []
+    "rateHistory": [],
+    "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310, which holds cinchstack.com (primary) and bestaicertifications.com. Pending under Discover > Invitations > Sent. Once approved: read the contract on Impact, then create links for media property 8909960 (cinchstack.com) with the page’s Sub ID in subId1."
   },
   "shopify": {
     "label": "Shopify affiliate program",
-    "network": "Impact",
-    "status": "not-applied",
+    "network": "Impact (partner account 7439310)",
+    "status": "declined",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?shopify\\.com(/|$)",
@@ -63,7 +64,8 @@
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": []
+    "rateHistory": [],
+    "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310; declined within minutes, so by an automatic rule. Shopify gives no feedback on declines, and its Impact panel has no message button, so there is no way to appeal. Impact shows a Re-apply button: use it once cinchstack.com has traffic of its own (about 1,000 visits a month), because the same profile is likely to be declined again. Shopify’s stated criteria: an active website, an established audience, original content, and experience with commerce or ecommerce platforms."
   },
   "systeme-io": {
     "label": "Systeme.io affiliate program",
@@ -137,12 +139,12 @@
   },
   "klaviyo": {
     "label": "Klaviyo partner program",
-    "network": "to verify",
+    "network": "Impact (program 25045, invitation only)",
     "status": "not-applied",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?klaviyo\\.com(/|$)",
-    "terms": "To verify: whether an open affiliate track exists that pays Pakistan. If not, Kit replaces Klaviyo as the paying email tool.",
+    "terms": "Invitation only: Klaviyo’s Impact listing has no Apply button, and its partner page offers only agency and technology-partner tracks. Kit is the fallback paying email tool.",
     "recurring": null,
     "paysOnTrial": null,
     "cookieDays": null,
@@ -153,7 +155,8 @@
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": []
+    "rateHistory": [],
+    "notes": "Checked 27 September 2026: no application is possible without an invitation. The Impact listing’s message button can be used to ask for one."
   },
   "notion": {
     "label": "Notion affiliate program",
@@ -174,5 +177,47 @@
       "noBrandBidding": true
     },
     "rateHistory": []
+  },
+  "squarespace": {
+    "label": "Squarespace affiliate program",
+    "network": "Impact (partner account 7439310), program 9084",
+    "status": "declined",
+    "approvedOn": null,
+    "template": null,
+    "match": "^https://(www\\.)?squarespace\\.com(/|$)",
+    "terms": "Not recorded yet: read the contract on Impact if the program accepts us.",
+    "recurring": null,
+    "paysOnTrial": null,
+    "cookieDays": null,
+    "payoutRail": null,
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
+    "rateHistory": [],
+    "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310; declined within minutes. The decline email lists possible reasons: partners in some countries are not accepted; the main URL on the application is not the promoting site (the account lists bestaicertifications.com first); or traffic is below what the program needs. As that email invites, a re-evaluation request naming cinchstack.com as the promoting site, with traffic and marketing details, was emailed to squarespace@accelerationpartners.com on 27 September 2026. Impact shows a Re-apply button; wait for their answer before using it."
+  },
+  "wix": {
+    "label": "Wix affiliate program",
+    "network": "Impact (partner account 7439310), program 25616",
+    "status": "declined",
+    "approvedOn": null,
+    "template": null,
+    "match": "^https://(www\\.)?wix\\.com(/|$)",
+    "terms": "Not recorded yet: read the contract on Impact if the program accepts us.",
+    "recurring": null,
+    "paysOnTrial": null,
+    "cookieDays": null,
+    "payoutRail": null,
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
+    "rateHistory": [],
+    "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310, with Wix’s application survey; declined within minutes (the notification email was blank, with the subject “SUBJECT”). The same day, a note linking the four CinchStack pages that feature Wix was sent through Wix’s chat on Impact. Impact shows a Re-apply button; wait for their answer before using it."
   }
 }
