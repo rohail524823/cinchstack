@@ -1,0 +1,33 @@
+{
+  "page": "pricing/clickup",
+  "items": [
+    {
+      "q": "How much does ClickUp cost per user?",
+      "a": "ClickUp bills every paid plan per Workspace member. Free Forever costs $0 a month with no member limit, but caps total file storage at 60MB per Workspace and gives Custom Fields, Gantt, Timeline, Workload and Dashboards only a fixed one-time allowance of uses that never refill. Unlimited costs $10 a member a month billed monthly, or $7 billed yearly, and removes the storage cap while still limiting Dashboards, Timeline and Workload to 100 shared uses per Workspace. Business costs $19 a member a month, or $12 yearly, and lifts that 100-use cap entirely. Enterprise has no published price; ClickUp requires contacting sales for a quote. A five-member team on Unlimited, billed monthly, pays $50 a month in total, which is the real bill most small teams on ClickUp actually see."
+    },
+    {
+      "q": "Is ClickUp actually free, or does the free plan run out fast?",
+      "a": "ClickUp's Free Forever plan is genuinely free with no time limit and no cap on the number of members or tasks, which is more generous than most competing free plans on headcount alone. The real limits sit elsewhere: total file storage caps at 60MB for the whole Workspace, and Custom Fields, Gantt charts, Timeline, Workload and Dashboards each get only 60 one-time \"uses\" that never refill once spent, alongside 100 time-tracking uses, 5 Spaces and 100 Automation actions a month. Chat history holds only 30 days and the Activity view only 24 hours. Guests on Free Forever get full edit access that can't be restricted, and Brain AI is limited to a one-time trial of 25 uses for a Workspace of up to 10 people, since Free Forever Workspaces can't buy an AI add-on at all. A team that uses ClickUp daily tends to outgrow these caps within weeks."
+    },
+    {
+      "q": "Does ClickUp charge extra for its AI features?",
+      "a": "Yes, on top of any paid plan. Brain AI costs $14 per Workspace member a month billed monthly, or $9 billed yearly, and includes unlimited fair-use AI chat and writing plus a monthly pool of AI Super Credits. Everything AI costs $33 a month or $28 yearly and adds AI Notetaker, Ambient Answers, AI Assign and Prioritize, and Autopilot Agents on top of everything Brain AI includes. Both add-ons are billed for every member in the Workspace, not only the people who use AI, and that includes a seat a removed member left open until someone fills it or the add-on is removed. Free Forever Workspaces can't buy either add-on; they get a one-time trial of 25 Brain AI uses for a Workspace of up to 10 people instead. AI Super Credits, which power Super Agents, AI Fields and image generation, meter separately at $10 per 10,000 credits a month."
+    },
+    {
+      "q": "How does ClickUp bill when a Workspace adds or removes members?",
+      "a": "ClickUp prorates a new paid seat rather than charging a full month right away: adding a member mid-cycle to a $10-a-month Unlimited seat or a $19 Business seat charges only for the days left before the next renewal. Paid seats cover owners, admins, members and limited members; \"chat collaborators,\" who get view-only access, are free on Unlimited and above, and permission-controlled guests are free up to an allowance that scales with paid seats. When a member is removed, their seat does not disappear from the bill immediately — it stays open, ready for the next person invited — and ClickUp's help center does not say whether an unfilled open seat still counts toward the charge at the next renewal or drops off on its own. A Workspace letting several people go at once should confirm this directly rather than assume the bill shrinks automatically."
+    },
+    {
+      "q": "Is there a free trial of ClickUp's paid plans?",
+      "a": "Not in the usual sense. ClickUp's own add-ons documentation says that to trial a paid plan, a Workspace has to contact Support directly rather than start one from the pricing page. What ClickUp does offer automatically is narrower: every Workspace gets an AI trial, for example 50 Brain AI uses for a Workspace of up to 10 people on Unlimited or Business, before deciding whether to buy Brain AI or Everything AI as an add-on. Free Forever itself has no time limit at all, so a Workspace can use ClickUp's core project and docs features indefinitely at $0 without ever starting a formal trial. Once a Workspace does subscribe to a paid plan, ClickUp's refund policy offers new customers a full refund if they ask within 30 days of that first paid subscription, covering any add-ons bought alongside it — though the help center states plainly that refunds stop being available after those first 30 days."
+    },
+    {
+      "q": "Does ClickUp's yearly billing actually save 30%?",
+      "a": "It depends which plan or add-on you mean, and the advertised figure is not a strict ceiling either way. ClickUp's pricing page says \"Save up to 30% with yearly\" for its plans: Unlimited hits that exactly, at $7 a member a month billed yearly against $10 billed monthly, while Business actually saves more than the headline promises, working out to about 37% off its $19 monthly rate at $12 billed yearly. AI add-ons carry a separate \"Save up to 20% with yearly\" claim that runs the other way at both ends: Brain AI's $9 yearly rate against $14 monthly saves about 36%, again beating the advertised ceiling, while Everything AI's $28 yearly rate against $33 monthly saves only about 15%, short of it. Check the specific plan or add-on's own two prices rather than trusting either headline percentage."
+    },
+    {
+      "q": "Does ClickUp charge for guest access?",
+      "a": "No, within limits that grow with your paid seats. View-only guests are unlimited and free on every plan, including Free Forever. Permission-controlled guests, who can edit rather than just view, are also free but capped: Unlimited allows 5 guest seats for a one-member Workspace plus 2 more for every additional member, and Business and above allow 10 plus 5 per additional member. Free Forever handles guests differently and less safely: every guest there gets full edit access that can't be restricted, rather than the permission controls paid plans offer. Run out of permission-controlled guest allowance on a paid plan and inviting one more guest doesn't get rejected — ClickUp automatically adds a new paid member seat instead, which raises the guest allowance and then stays on the Workspace's bill going forward, at $10 a month on Unlimited or $19 on Business."
+    }
+  ]
+}

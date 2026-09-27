@@ -93,11 +93,11 @@
   },
   "pages/methodology": {
     "published": "2026-09-26",
-    "modified": "2026-09-26"
+    "modified": "2026-09-27"
   },
   "pages/privacy": {
     "published": "2026-09-26",
-    "modified": "2026-09-26"
+    "modified": "2026-09-27"
   },
   "pages/terms": {
     "published": "2026-09-26",
@@ -107,6 +107,26 @@
     "published": "2026-09-26",
     "modified": "2026-09-26"
   },
+  "pricing/activecampaign": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/ahrefs": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/clickfunnels": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/clickup": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/framer": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
   "pricing/gohighlevel": {
     "published": "2026-09-27",
     "modified": "2026-09-27"
@@ -115,11 +135,31 @@
     "published": "2026-09-27",
     "modified": "2026-09-27"
   },
+  "pricing/kajabi": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/kit": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
   "pricing/klaviyo": {
     "published": "2026-09-27",
     "modified": "2026-09-27"
   },
+  "pricing/mailchimp": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
   "pricing/notion": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/pipedrive": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/se-ranking": {
     "published": "2026-09-27",
     "modified": "2026-09-27"
   },
@@ -131,11 +171,27 @@
     "published": "2026-09-27",
     "modified": "2026-09-27"
   },
+  "pricing/squarespace": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
   "pricing/systeme-io": {
     "published": "2026-09-27",
     "modified": "2026-09-27"
   },
   "pricing/webflow": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/wix": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/woocommerce": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/zoho-crm": {
     "published": "2026-09-27",
     "modified": "2026-09-27"
   },

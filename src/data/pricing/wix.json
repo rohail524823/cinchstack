@@ -222,7 +222,7 @@
   "billingNotes": [
     "wix.com/plans displays prices for yearly subscriptions paid in full upfront by default; taxes aren't included and are set by billing address.",
     "Wix also sells monthly and 2-/3-year (multi-year) Premium subscriptions per its Help Center, but only the yearly, paid-in-full price is shown on any public page -- the month-to-month and multi-year rates appear only after clicking Select on the logged-in Upgrade page.",
-    "Monthly-billed plans skip the free domain voucher and bundled premium apps that yearly plans include.",
+    "Monthly-billed plans leave out the free first-year domain and the bundled premium apps that yearly plans include.",
     "New Premium purchases carry a 14-day money-back guarantee; Wix states directly that it does not offer a separate free trial of a paid plan.",
     "The Free plan is excluded from Wix's detailed 'Compare Plan Features' table, which compares only the four paid tiers.",
     "Light explicitly excludes Payment tools, customer accounts, and 'Plans and recurring payments' outright, so the Pricing Plans fee tiers (4%/2%/0%) apply only to Core, Business, and Business Elite.",
