@@ -28,7 +28,7 @@ The plan is to apply once the site has real traffic (about 1,000 visits a month)
 ### 3. Search engines (done 27 September 2026)
 
 - **Google Search Console**: domain property `cinchstack.com`, verified by a TXT record at Namecheap (leave that record in place). Sitemap submitted; indexing requested for the homepage, stacks, top pricing pages, a comparison and `/data/`.
-- **Bing Webmaster Tools**: imported from Search Console, sitemap submitted by hand. Bing also feeds Copilot and ChatGPT search, so it matters as much as Google.
+- **Bing Webmaster Tools**: imported from Search Console, sitemap submitted by hand, and the 14 newer pricing pages submitted directly. Bing also feeds Copilot and ChatGPT search, so it matters as much as Google.
 - **IndexNow** stays off until Bing shows healthy indexing (see `docs/plan/06-aeo-geo-bing.md`).
 - Search Console lets you request indexing for about 10 URLs a day. New pages are found through the sitemap anyway; requesting just speeds it up.
 
@@ -55,7 +55,11 @@ What `/site.js` does, as the privacy notice explains to readers:
 - Google signals and ad personalization are off, and cookies expire after 13 months at most.
 - Clicks on vendor buttons are sent as `affiliate_click` (paid links) or `outbound_plain` (plain links), each with `tool`, `placement` and `page`.
 
-In GA4, register `tool`, `placement` and `page` as event-scoped custom dimensions so the reports can show them. Key events: star `outbound_plain` once it first appears (a reader clicked through to a vendor), and `affiliate_click` once a paid link is live. Don't star the built-in `click` event: it counts every outbound link, including source links, so it overstates buying intent.
+In GA4, `tool`, `placement` and `page` are registered as event-scoped custom dimensions (Tool, Placement, Clicked from page), so reports can show which button on which page sent a reader to a vendor. Key events: star `outbound_plain` in **Admin → Events** once it appears there (a reader clicked through to a vendor), and `affiliate_click` once a paid link is live.
+
+Checking your own site in a browser counts as a visit. To stop that, open `/privacy/#analytics` in each browser you use and choose **Turn analytics off**.
+
+In browser developer tools, Google's measurement requests may show as failed or aborted. They are sent without waiting for a reply, so that is expected; the Realtime report is the real test. Don't star the built-in `click` event: it counts every outbound link, including source links, so it overstates buying intent.
 
 ## Jobs that run by themselves
 
