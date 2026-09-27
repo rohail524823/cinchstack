@@ -55,7 +55,7 @@ const jsonld = [
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
       <Byline modified={d.modified} published={d.published} verified={verified} />
-      <Disclosure toolIds={s.layers.map((l) => l.pick)} />
+      <Disclosure toolIds={s.layers.map((l) => l.pick)} page={path} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <p class="lede" data-prose>{s.profile}</p>
       <h2 id="total-cost">What the whole stack costs</h2>

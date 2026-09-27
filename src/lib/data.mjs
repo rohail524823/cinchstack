@@ -75,6 +75,11 @@ export function paysUs(id) {
   const p = program(id);
   return Boolean(p && p.status === 'approved' && p.template);
 }
+/** Whether this tool's links are paid on this page: its program may limit paid links to some pages. */
+export function paysUsOn(id, page) {
+  const only = program(id)?.rules?.paidOnlyOn;
+  return paysUs(id) && (!only || only.some((prefix) => page.startsWith(prefix)));
+}
 export function scenario(id, size) {
   return price(id).scenarios.find((s) => s.size === size);
 }

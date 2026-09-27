@@ -17,6 +17,14 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
 - The link format lives in one place: the `template` of `"gohighlevel"` in `src/data/programs.json` (`{url}?fp_ref=…&fp_sid={sid}`). `{sid}` becomes the page's Sub ID and `{url}` the GoHighLevel page the button names. No page needs editing.
 - What readers see: amber buttons with `rel="sponsored"`, a disclosure at the top of every page that has one, HighLevel's required wording under it, and `/how-we-earn/` listing the program as live. In Google Analytics, clicks arrive as `affiliate_click`; star it as a key event once it shows up in **Admin → Events**.
 
+### 1b. Systeme.io affiliate links (live since 27 September 2026)
+
+Joining is automatic with a free systeme.io account; your affiliate ID is in `src/data/programs.json` (`"systeme-io"`). It pays 60% of every sale for as long as the customer stays subscribed, on the 10th of each month once you pass $30. **Payouts:** PayPal doesn't pay out to Pakistan, so choose wire transfer. systeme.io only lets you add it after your first affiliate sale.
+
+- **Where the links are paid:** only on Systeme.io's own pages (`/tools/systeme-io/` and its pricing page). The affiliate agreement says affiliates "may not use any other competitor trademarks in your promotion of systeme.io". Until systeme.io confirms that honest comparison pages are fine, pages that compare Systeme.io with GoHighLevel, Kajabi and others keep plain Systeme.io links. The build fails if a paid Systeme.io link appears anywhere else.
+- **To widen it** once systeme.io says comparisons are fine (ask through https://systeme.io/support/contact-us): delete `"paidOnlyOn"` from the program's `rules` in `src/data/programs.json`. Nothing else changes.
+- systeme.io has no Sub IDs. Google Analytics `affiliate_click` events show which page sent each click.
+
 ### 2. Apply to the other programs, in this order
 
 The plan is to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. The order and the reasons are in `docs/plan/09-affiliate-programs.md`. When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change.

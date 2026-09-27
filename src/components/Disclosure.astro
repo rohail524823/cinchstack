@@ -1,7 +1,7 @@
 ---
-import { paysUs, program } from '../lib/data.mjs';
-interface Props { toolIds: string[] }
-const paid = [...new Set(Astro.props.toolIds)].filter((id) => paysUs(id));
+import { paysUsOn, program } from '../lib/data.mjs';
+interface Props { toolIds: string[]; page: string }
+const paid = [...new Set(Astro.props.toolIds)].filter((id) => paysUsOn(id, Astro.props.page));
 const mandated = [...new Set(paid.map((id) => program(id)?.rules?.mandatoryDisclosure).filter(Boolean))];
 ---
 {paid.length > 0 && (

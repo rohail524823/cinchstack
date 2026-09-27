@@ -162,6 +162,9 @@ export const programSchema = z.object({
     noEarningsClaims: z.boolean(),
     noUnauthorizedOffers: z.boolean(),
     noBrandBidding: z.boolean(),
+    // Path prefixes where this program's links may be paid; plain everywhere else. Set when a
+    // program's terms restrict where it can be promoted (e.g. no competitor trademarks alongside).
+    paidOnlyOn: z.array(z.string().regex(/^\/.*\/$/)).min(1).optional(),
   }),
   rateHistory: z.array(z.object({ date: isoDate, note: z.string() })).default([]),
   notes: z.string().optional(),

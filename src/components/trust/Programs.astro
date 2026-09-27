@@ -13,7 +13,7 @@ const rows = Object.entries(programs).map(([key, p]) => ({ key, p, name: tools[k
         <tr>
           <th scope="row" data-label="Vendor">{name}</th>
           <td data-label="Status">{STATUS[p.status]}{p.approvedOn ? ` (${longDate(p.approvedOn)})` : ''}</td>
-          <td data-label="Links">{live ? 'Amber affiliate buttons' : 'Plain links, no commission'}</td>
+          <td data-label="Links">{live ? (p.rules.paidOnlyOn ? `Amber buttons on ${name}'s own pages only; plain links elsewhere, as its terms require` : 'Amber affiliate buttons') : 'Plain links, no commission'}</td>
           <td data-label="Pays">{p.status === 'approved' ? p.terms.split(/(?<=\.)\s/)[0] : 'We have not joined this program.'}</td>
         </tr>
       ))}

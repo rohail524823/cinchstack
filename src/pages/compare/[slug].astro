@@ -54,7 +54,7 @@ const jsonld = [
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
       <Byline modified={d.modified} published={d.published} verified={verified} />
-      <Disclosure toolIds={[c.a, c.b]} />
+      <Disclosure toolIds={[c.a, c.b]} page={path} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <h2 id="which-to-pick">Which should you pick?</h2>
       <Verdicts id={c.id} />

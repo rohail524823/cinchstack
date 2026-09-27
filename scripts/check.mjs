@@ -152,6 +152,7 @@ for (const [p, { doc, html, noindex }] of pages) {
     if (!/\bsponsored\b/.test(a.getAttribute('rel') ?? '')) fail(p, `paid link without rel=sponsored (${a.getAttribute('data-tool')})`);
     const prog = programs[toolsData[a.getAttribute('data-tool')]?.affiliate?.program ?? ''];
     if (!prog || prog.status !== 'approved' || !prog.template) fail(p, `paid link for ${a.getAttribute('data-tool')} but its program is not approved with a link`);
+    else if (prog.rules?.paidOnlyOn && !prog.rules.paidOnlyOn.some((prefix) => p.startsWith(prefix))) fail(p, `paid link for ${a.getAttribute('data-tool')} outside the pages its program allows (${prog.rules.paidOnlyOn.join(', ')})`);
   }
   if (paid.length) {
     if (!doc.querySelector('[data-disclosure]')) fail(p, 'paid links without a disclosure');

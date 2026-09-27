@@ -1,6 +1,6 @@
 // Affiliate link handling. A link is paid ONLY when the tool's program is approved and we hold a
 // link template. Everything else is a plain link. Authors never choose; the data does.
-import { program, paysUs, tool } from './data.mjs';
+import { program, paysUs, paysUsOn, tool } from './data.mjs';
 
 /** Sub ID for the page a link sits on: "/tools/gohighlevel/pricing/" -> "cinchstack-tools-gohighlevel-pricing". */
 export function subId(page) {
@@ -33,9 +33,11 @@ export function resolveLink(toolId, { href, page = '/' } = {}) {
   const t = tool(toolId);
   const dest = href ?? t.url;
   const p = program(toolId);
-  if (paysUs(toolId) && new RegExp(p.match).test(dest)) {
+  if (paysUsOn(toolId, page) && new RegExp(p.match).test(dest)) {
     return { href: fillTemplate(p.template, dest, page), paid: true, rel: 'sponsored nofollow noopener', marker: `AFFILIATE: ${p.label}` };
   }
-  const why = p ? (p.status === 'approved' ? 'program approved but no link on file' : `program ${p.status}`) : 'no program';
+  const why = !p ? 'no program'
+    : paysUs(toolId) ? `program terms limit paid links to ${p.rules.paidOnlyOn.join(', ')}`
+    : p.status === 'approved' ? 'program approved but no link on file' : `program ${p.status}`;
   return { href: dest, paid: false, rel: 'noopener', marker: `plain link — ${why}; do not wrap` };
 }
