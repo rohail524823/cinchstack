@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { SITE, NAME, ORG_ID } from '../../lib/site.mjs';
-import { tools, pricing, toolIds, cheapestPaid } from '../../lib/data.mjs';
+import { tools, pricing, toolIds, cheapestPaid, noPaidPlan } from '../../lib/data.mjs';
 import { LAYER_LABELS } from '../../lib/schemas.mjs';
 import { registry } from '../../lib/pages.mjs';
 import { longDate } from '../../lib/format.mjs';
@@ -88,7 +88,7 @@ const dataset = {
                 <th scope="row" data-label="Tool">{toolHref(id) ? <a href={toolHref(id)}>{tools[id].name}</a> : tools[id].name}</th>
                 <td data-label="Layer">{LAYER_LABELS[tools[id].layer]}</td>
                 <td data-label="Plans" class="num">{pricing[id].plans.length}</td>
-                <td data-label="Cheapest paid" class="num">{c ? <><Fig v={c.v} suffix="/mo" /> <span class="sub">{c.p.name}</span></> : '—'}</td>
+                <td data-label="Cheapest paid" class="num">{c ? <><Fig v={c.v} suffix="/mo" /> <span class="sub">{c.p.name}</span></> : <>{noPaidPlan(id).value} <span class="sub">{noPaidPlan(id).sub}</span></>}</td>
                 <td data-label="Checked"><time datetime={pricing[id].checkedOn}>{longDate(pricing[id].checkedOn)}</time></td>
               </tr>
             ); })}

@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../../lib/site.mjs';
-import { tool, price, scenario, cheapestPaid, faqs, sizeBasis } from '../../../lib/data.mjs';
+import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, sizeBasis } from '../../../lib/data.mjs';
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { figHtml, poss } from '../../../lib/format.mjs';
@@ -50,7 +50,7 @@ const jsonld = [
   faqNode(url, faq),
 ];
 const glance = [
-  { label: 'Cheapest paid plan', value: cheapest ? `${figHtml(cheapest.v, '/mo')} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${cheapest.p.name}</span>` : 'Custom' },
+  { label: 'Cheapest paid plan', value: cheapest ? `${figHtml(cheapest.v, '/mo')} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${cheapest.p.name}</span>` : `${noPaidPlan(id).value} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${noPaidPlan(id).sub}</span>` },
   { label: 'Free plan', value: p.freeTier.exists ? 'Yes' : 'No' },
   { label: 'Free trial', value: p.trial.days ? `${p.trial.days} days${p.trial.cardRequired ? ' (card needed)' : ''}` : 'No' },
   { label: 'Real bill, small team', value: `${figHtml(small.monthly, '/mo', small.floor)} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${sizeBasis(id, 'small')}</span>` },

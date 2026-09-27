@@ -74,7 +74,7 @@ export function softwareNode(toolId) {
         '@type': 'UnitPriceSpecification',
         price: pl.monthly ?? pl.annualMonthly,
         priceCurrency: 'USD',
-        unitText: pl.priceUnit === 'per-seat-month' ? 'per seat per month' : 'per month',
+        unitText: { 'per-seat-month': 'per seat per month', 'per-site-month': 'per site per month', 'per-workspace-month': 'per workspace per month' }[pl.priceUnit] ?? 'per month',
         billingIncrement: 1,
       },
     }));

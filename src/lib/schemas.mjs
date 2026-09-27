@@ -15,7 +15,8 @@ export const LAYER_QUESTIONS = {
 };
 export const BUSINESSES = ['agency', 'course-creator', 'shopify-store', 'local-service', 'freelancer', 'saas-startup'];
 export const SIZES = ['solo', 'small', 'growing'];
-export const SIZE_LABELS = { solo: 'Solo (1 person)', small: 'Small team (5 people)', growing: 'Growing (15 people)' };
+// Each scenario's own label says what it counts (seats, contacts, editors); see sizeBasis() in data.mjs.
+export const SIZE_LABELS = { solo: 'Solo', small: 'Small team', growing: 'Growing team' };
 export const FACTORS = ['realCost', 'pricingHonesty', 'smallTeamFit', 'doesTheJob', 'freedomToLeave', 'trackRecord'];
 
 const id = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'lowercase-kebab id');

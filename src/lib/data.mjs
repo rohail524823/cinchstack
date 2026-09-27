@@ -100,9 +100,16 @@ export function plan(id, planId) {
 export function cheapestPaid(id) {
   const paid = price(id).plans
     .map((p) => ({ p, v: p.monthly ?? p.annualMonthly }))
-    .filter((x) => x.v !== null && x.v > 0 && x.p.priceUnit !== 'custom')
-    .sort((a, b) => a.v - b.v);
-  return paid[0] ?? null;
+    .filter((x) => x.v !== null && x.v > 0 && x.p.priceUnit !== 'custom');
+  // A workspace plan (Webflow's) can't publish a site on its own, so when a tool also sells site
+  // plans, the cheapest way in is its cheapest site plan.
+  const sites = paid.filter((x) => x.p.priceUnit === 'per-site-month');
+  const entry = sites.length ? paid.filter((x) => x.p.priceUnit !== 'per-workspace-month') : paid;
+  return entry.sort((a, b) => a.v - b.v)[0] ?? null;
+}
+/** What to show when a tool has no self-serve paid plan: free products say so, the rest are quote-only. */
+export function noPaidPlan(id) {
+  return price(id).freeTier.exists ? { value: 'Free', sub: 'no paid plan' } : { value: 'Custom', sub: 'quote only' };
 }
 
 export function stackBill(stackId) {

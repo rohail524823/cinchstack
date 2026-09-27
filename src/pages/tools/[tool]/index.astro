@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../../lib/site.mjs';
-import { tool, price, scenario, cheapestPaid, faqs, comparisonsFor } from '../../../lib/data.mjs';
+import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, comparisonsFor } from '../../../lib/data.mjs';
 import { LAYER_LABELS, SIZE_LABELS } from '../../../lib/schemas.mjs';
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
@@ -55,7 +55,7 @@ const jsonld = [
 const glance = [
   { label: 'Layer', value: `${LAYER_LABELS[t.layer]} · ${t.category}` },
   { label: 'Best for', value: t.bestFor.length ? t.bestFor.map((b) => BIZ[b]).join(', ') : '—' },
-  { label: 'Cheapest paid plan', value: cheapest ? figHtml(cheapest.v, '/mo') : 'Custom' },
+  { label: 'Cheapest paid plan', value: cheapest ? figHtml(cheapest.v, '/mo') : noPaidPlan(id).value },
   { label: 'Free plan', value: p.freeTier.exists ? 'Yes' : 'No' },
 ];
 ---
