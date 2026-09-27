@@ -21,5 +21,7 @@ jobs:
         run: node scripts/validate-data.mjs
       - name: Trace every price to its saved vendor page
         run: node scripts/trace-figures.mjs
+      - name: Check every page's writing rules
+        run: node scripts/lint-content.mjs --all
       - name: Build and run every gate
         run: npm run build
