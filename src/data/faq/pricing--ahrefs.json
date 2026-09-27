@@ -1,0 +1,33 @@
+{
+  "page": "pricing/ahrefs",
+  "items": [
+    {
+      "q": "How much does Ahrefs cost per month?",
+      "a": "Ahrefs' cheapest paid plan is Starter at $29 a month, covering one user, one unverified project and 50 tracked keywords, with no exports and no way to add a second user. Real research work usually needs Lite at $129 a month, which adds Keywords Explorer research credits, 750 tracked keywords updated weekly, and API access. Standard costs $249 a month for 2,000 tracked keywords and no credit cap, and Advanced costs $449 a month for 5,000 tracked keywords and up to 10 additional users. Enterprise starts at $1,499 a month, requires a minimum one-year subscription, and includes 3 users by default. A free Ahrefs Free account sits below all of these, but it excludes Keywords Explorer and Rank Tracker entirely, so it works for auditing your own verified site rather than researching keywords or competitors."
+    },
+    {
+      "q": "Does Ahrefs offer a free trial?",
+      "a": "No. Ahrefs' help center states plainly that it does not provide free trials of any paid plan, and its pricing FAQ adds that Ahrefs never runs seasonal sales or special pricing for non-profits either. The closest thing to trying Ahrefs without paying is the free Ahrefs Free account, which needs no credit card and never expires, but it only works on websites you verify ownership of, and it leaves out Keywords Explorer and Rank Tracker completely. That makes it useful for auditing a site you already own, not for researching keywords or competitors before committing to a paid plan. The cheapest way to actually test the paid research tools is Starter at $29 a month, which renews monthly and can be canceled before the next renewal date."
+    },
+    {
+      "q": "What's the difference between Ahrefs Free and the Starter plan?",
+      "a": "Ahrefs Free and Starter serve different jobs. Ahrefs Free never expires and needs no credit card, but it only unlocks Site Explorer, Site Audit and Web Analytics for websites whose ownership you verify, with no Keywords Explorer and no Rank Tracker at all, so it is built for checking your own site, not researching anyone else's. Starter costs $29 a month and adds Keywords Explorer and Rank Tracker, but on a single unverified project with just 50 tracked keywords, 250 rows per report, no exports, and one user with no way to add another. Ahrefs' own plan comparison lists Keywords Explorer and Rank Tracker as the tools Starter adds over the free account. Neither plan suits an agency managing several clients; that work starts at Lite, $129 a month."
+    },
+    {
+      "q": "How much does an extra user cost on Ahrefs?",
+      "a": "It depends on the plan, since every Ahrefs plan except Enterprise includes exactly one user. On Lite, an additional user is metered by credits: free if they use 5 credits or fewer in the month, $20 a month as a 'Casual' user on 6 to 100 credits, or $40 a month as a 'Power' user above that, and Lite caps a team at 3 users in total. Standard charges a flat $60 a month per extra user, up to 5 additional users; Advanced charges $80 a month, up to 10 additional users; and Enterprise charges $100 a month with no published cap. None of this is prepaid by default: Ahrefs' pricing FAQ says additional users who are not prepaid are billed automatically on a pay-as-you-go basis, and charges apply to a user's activity in the billing period even if that user is removed before it ends."
+    },
+    {
+      "q": "Is it worth paying for Ahrefs annually?",
+      "a": "Usually, if the budget can handle one larger charge instead of smaller monthly ones. Annual billing charges 10 months for 12 on Lite, Standard and Advanced, dropping the effective price to $107.50 a month on Lite, $207.50 on Standard and $374.17 on Advanced. Ahrefs' pricing page calls that a saving of 'up to 17%,' while its own help articles describe the same discount as '~20%', both describing the same 10-for-12 arithmetic, just rounded differently. Starter has no annual option at all; it only renews monthly. Enterprise flips the usual trade-off around: its card requires an annual commitment, so the $1,499 monthly rate is really a payment schedule inside a required one-year term, not month-to-month flexibility. Switching an existing monthly subscription to annual billing is not self-serve either; Ahrefs' pricing FAQ and help center both say to contact support to make the change."
+    },
+    {
+      "q": "Why is Ahrefs' Lite plan limited by credits?",
+      "a": "Lite is currently the only Ahrefs plan billed this way. Every user on Lite gets 1,000 credits a month, spent by opening reports, applying filters or pulling extra rows in Site Explorer, Keywords Explorer and Ahrefs' other research tools; Site Audit and Rank Tracker don't touch this allowance at all. Ahrefs prices Lite this way because Standard and every plan above it gives every active user unlimited fair-use credits instead, which is why a research-heavy team is usually better off on Standard even before its keyword limit becomes the deciding factor. On Lite itself, running out mid-month means either waiting for the next cycle or buying more: Ahrefs sells extra credits at $50 for every 500, sold pay-as-you-go or prepaid for the year, though pay-as-you-go purchases are switched off by default."
+    },
+    {
+      "q": "Can you get a refund if you cancel Ahrefs?",
+      "a": "Rarely. Ahrefs does not issue refunds as a general policy, whether the subscription is $29 Starter or the top Advanced plan. A subscriber on a monthly plan can request one if the account shows no material use, and Ahrefs may decline even that if it sees activity worth billing for. There is no option to pause a subscription instead of canceling it. Canceling takes effect at the end of the current billing period, not immediately, and once that period ends the account drops down to the free Ahrefs Free tier rather than being deleted outright. Upgrades work differently: moving to a higher plan takes effect right away, charged as the prorated difference for the rest of the billing period, while downgrades and cancellations both wait until the current period finishes before taking effect."
+    }
+  ]
+}

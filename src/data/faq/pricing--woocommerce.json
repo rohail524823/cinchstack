@@ -1,0 +1,29 @@
+{
+  "page": "pricing/woocommerce",
+  "items": [
+    {
+      "q": "Is WooCommerce really free?",
+      "a": "The core plugin, yes: $0, with no monthly subscription, no plan tiers and no cut of sales, and it includes unlimited products, orders and APIs. What isn't free is everything WooCommerce plugs into. It only runs on a WordPress site you host yourself, and hosting is never included — WooCommerce's own pricing page puts it at $25 to $350 a month for most stores. Paid extensions for things like subscriptions or bookings cost extra per site per year, and card processing through WooPayments runs 2.9% plus 30 cents per US transaction, on top of whatever host you choose. Support for the free core comes only through WordPress.org's community forums; a real support ticket queue is bundled with paid extension subscriptions, not the free plugin itself. Treat the $0 price as a starting point, not the whole bill."
+    },
+    {
+      "q": "How much does it cost to run a WooCommerce store each month?",
+      "a": "Mostly, it comes down to hosting and how many paid extensions you add, since the plugin itself costs $0. The solo-seller scenario above runs about $25 a month, all of it hosting, on the cheapest tier a Woo-recommended host offers. The small-team scenario, with three staff accounts and more traffic, needs a bigger hosting tier at about $45; the growing-team scenario, with eight staff accounts, needs a bigger one again at about $155. None of those figures include card processing, since every ecommerce platform charges something comparable there, or paid extensions, since a store only pays for the ones it actually installs. Add a common one, such as WooCommerce Subscriptions at $279 a year or Bookings at $249, and the real monthly number climbs from there. Staff logins themselves stay free at every size, since WooCommerce uses ordinary WordPress user accounts rather than seat-based pricing."
+    },
+    {
+      "q": "Does WooCommerce charge a fee on every sale?",
+      "a": "No, not WooCommerce itself. Its pricing page advertises a flat 0% platform fee and no revenue share, and that holds regardless of which payment gateway actually processes the sale, including third-party ones Woo doesn't sell. What you pay instead is your processor's own rate. Using Woo's own WooPayments, US merchants pay a base 2.9% plus 30 cents per card transaction, and that rate climbs for specific situations: 1.5% more for a card issued outside the US, another 1% when the customer's payment currency doesn't match any of your payout accounts, and higher flat rates again for buy-now-pay-later methods like Affirm, Afterpay or Klarna. None of that is a WooCommerce charge in the platform sense — it's WooPayments acting as a card processor, and switching to a different gateway avoids WooPayments' rates entirely, with no extra fee from WooCommerce for making that switch."
+    },
+    {
+      "q": "How much do WooCommerce extensions cost?",
+      "a": "Individually, and mostly by the year. WooCommerce Subscriptions, for recurring products and memberships, costs $279 a year per site; Bookings, for appointments and rentals, costs $249. Smaller extensions such as Product Add-Ons, Product Bundles or Gift Cards run $79 a year each, and AutomateWoo, for marketing automation, costs $159. Woo also bundles ten extensions into its Essentials collection for $753 a year. Buying its eight paid extensions separately instead adds up to $873 a year, so the bundle does save $120 — but only for a store that wants everything in it. Most stores need one or two extensions, not ten, and for them the bundle is not a saving at all. Every extension subscription, bundled or standalone, covers one live site plus one staging copy of it, renews automatically at the list price in force when it renews, and carries a 30-day money-back guarantee if it turns out to be the wrong pick."
+    },
+    {
+      "q": "What's the cheapest way to host a WooCommerce store?",
+      "a": "On the numbers we could verify, Pressable, a host WooCommerce itself recommends. Its cheapest Signature tier costs $25 a month for one WordPress install and enough traffic for a small store, and that's the host and tier behind the solo-seller bill above. Pressable's tiers scale with traffic rather than store size directly: outgrow one mid-month and it bills the overage at $1.20 for every 1,000 visits past the plan's allowance, rather than switching you to the next tier automatically. WooCommerce's own hosting guide points newer, lower-revenue stores toward a different option instead: WordPress.com's Commerce plan, which costs $45 a month for the first year on yearly billing (or $70 a month billed monthly) and bundles in several paid extensions a Pressable-hosted store would otherwise buy on their own. Which one is actually cheaper depends on how much of that bundle a given store would use anyway."
+    },
+    {
+      "q": "Does WooCommerce offer a free trial?",
+      "a": "No, and it doesn't need one: the core plugin already costs $0, so there's nothing to trial. What WooCommerce offers instead is a 30-day money-back guarantee on anything you do pay for — paid extensions and themes from the Woo Marketplace, requested from your WooCommerce.com orders page, and WooPayments card readers too. WooPayments itself installs for free with no payment details required upfront, and only starts charging once it actually processes a sale, at 2.9% plus 30 cents per US card transaction. The closest thing to a trial offer is WooPayments' advertised 10% off processing fees for a merchant's first three months, though Woo doesn't publish which merchants qualify for it. Budget for hosting from day one either way, since that bill starts the moment a store goes live, trial or not."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page": "pricing/kajabi",
+  "items": [
+    {
+      "q": "How much does Kajabi cost per month?",
+      "a": "Kajabi sells three plans on its current public pricing page: Basic at $179 a month, Growth at $249 a month and Pro at $499 a month, each also available billed annually at $143, $199 or $399 a month. Kajabi takes 0% of a seller's revenue on every plan; the only unavoidable extra cost is card processing through Kajabi Payments or a connected third-party processor. A fourth, cheaper plan called Kickstarter also exists, at $71 a month billed annually, but it is not listed on Kajabi's current public pricing pages. It is reachable only through a legacy checkout link, and its contact, product and website limits are not published anywhere Kajabi makes public. Basic, Growth and Pro differ mainly by contact count, product count and how many admin users can log in, not by feature set."
+    },
+    {
+      "q": "Does Kajabi take a percentage of my sales?",
+      "a": "No. Kajabi charges 0% of a seller's revenue on Basic, Growth and Pro alike; the subscription price is the only fixed cost. Sellers instead pay for card processing, either through Kajabi's own processor, Kajabi Payments, or a connected third-party processor such as Stripe. Kajabi Payments' US rate scales down by plan: 2.9% plus 30 cents per charge on Basic, 2.8% plus 30 cents on Growth, and 2.7% plus 30 cents on Pro. Using a third-party processor instead adds a surcharge on top of that processor's own rate: 2% on Basic, 1% on Growth or 0.5% on Pro. A few smaller fees can also apply: a 1.5% surcharge on cards issued outside the US, a 0.7% recurring-billing fee on subscription payments, and a flat $15 fee on any disputed charge, which Kajabi does not refund even if the dispute is resolved in the seller's favor."
+    },
+    {
+      "q": "Is there a free trial, and does Kajabi require a credit card?",
+      "a": "Yes to both. Every Kajabi plan, including the little-advertised Kickstarter tier, offers a 14-day free trial with no extensions. Kajabi requires a card to start the trial and places a $149 authorization hold to confirm the card is valid; that is a hold, not a charge, and it is released once the card checks out. Canceling before the 14 days end avoids any charge. If the trial runs out without canceling, billing starts automatically at whichever plan price was selected at signup. Most features work normally during the trial, but a few are locked until the account is on a paid subscription: bulk contact import, a custom email domain, site-wide email-template editing, and a handful of automation actions such as sending a certificate or granting an offer."
+    },
+    {
+      "q": "What's the cheapest way to use Kajabi?",
+      "a": "On paper, it's Kickstarter at $71 a month, but only billed annually ($852 a year) — Kajabi has never published a month-to-month price for it, and a guessed monthly checkout link returned an error page instead of a price. Kickstarter also isn't listed on either of Kajabi's current public pricing pages, so most buyers will only ever see Basic, at $179 a month or $143 a month billed annually, as the real entry point. Basic covers 2,500 contacts, 5 products, 1 website and 2 total admin users including the owner, which suits a solo course creator or freelancer just starting out. There's no free-forever plan on any tier: every plan runs on a 14-day trial that needs a card upfront, and after that, billing starts automatically at the plan price chosen at signup."
+    },
+    {
+      "q": "Does Kajabi charge extra for contacts, team members or products?",
+      "a": "Yes, past each plan's included limit. Extra contacts cost $25 per 5,000 a month, extra products $50 per 10 a month, an extra website $49 a month, and an extra admin user $5 a month. Even funnels, which the current plans market as unlimited, carry a paid increase listed at $10 per 10 extra a month. Basic includes 2,500 contacts, 5 products, 1 website and 2 total admin users; Growth raises those to 25,000 contacts, 50 products and 11 total admin users; Pro raises them again to 100,000 contacts, unlimited products, 3 websites and 26 total admin users. Contacts carry a real deadline: Kajabi gives an account a 30-day grace period after it crosses its plan's contact ceiling, then locks the account until contacts are reduced or the plan is upgraded."
+    },
+    {
+      "q": "Can I get a refund if I cancel Kajabi?",
+      "a": "Kajabi states a 30-day money-back guarantee on its pricing page and repeats it at checkout on every plan, Basic through Pro. Outside that window, canceling stops future billing, but Kajabi's published terms do not describe a prorated refund for unused time in the current billing period. A cheaper option than canceling outright is Kajabi's Parked Plan, which pauses a subscription for $29 a month: the site goes offline to customers, and reactivating later requires subscribing to a current standard plan rather than picking the paused legacy rate back up. Anyone who upgrades or migrates off an older 'legacy' pricing plan should know that move is permanent — Kajabi does not allow migrating back to legacy pricing once you've left it, refund guarantee or not."
+    },
+    {
+      "q": "Is Kajabi cheaper than systeme.io or ClickFunnels?",
+      "a": "No, not at the entry level. Kajabi's cheapest listed plan, Basic, costs $179 a month, against systeme.io's Startup plan at $17 a month (or systeme.io's Free plan, which costs nothing until a seller's lifetime sales cross a cap set in its own terms) and ClickFunnels' entry plan, Launch, at $97 a month. All three platforms take 0% of a seller's revenue, so the gap is pure subscription price, not a cut of sales. Kajabi's higher price buys unlimited funnels, landing pages and its Cofounder AI assistant from the first plan, where systeme.io caps funnels by plan and ClickFunnels caps contacts and team seats instead. Systeme.io also sells physical-product variants alongside its digital courses, capped by plan and unlimited on its top tier — a market Kajabi's published plans do not mention at all."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page": "pricing/zoho-crm",
+  "items": [
+    {
+      "q": "Is Zoho CRM actually free, and what are the free plan's limits?",
+      "a": "Yes. Zoho CRM's Free edition costs $0 a month for up to 3 users, with no credit card required. It covers contact, lead and deal management, follow-up reminders, workflow automation, 10 custom email templates, tasks, meetings, calls, data import and export, standard reports, APIs and the mobile apps. The catch is storage and sending: Free caps out at 5,000 records and 10MB of total storage, and it has no Mass Email feature at all, so it cannot send a bulk marketing campaign of any kind — that starts on the $20-a-month Standard edition. Individual one-to-one emails are capped too, at 50 a user a day and 150 for the whole organization a day. For a single person testing whether a CRM fits before spending anything, Free covers the basics; a business that wants to email a list needs a paid edition."
+    },
+    {
+      "q": "How much does Zoho CRM cost per user across its plans?",
+      "a": "Zoho CRM has five editions, each priced flat per user with no contact-count tiers. Free costs $0. Standard costs $20 a user a month paid monthly, or $14 a user a month billed annually. Professional costs $35 monthly or $23 annually. Enterprise costs $50 monthly or $40 annually. Ultimate, the highest tier, costs $65 monthly or $52 annually, and isn't shown as a card on Zoho's main pricing page — its price and limits are listed only on Zoho's separate feature-comparison page. Every jump between editions raises automation, customization and reporting limits, not contact capacity: a 100-contact account and a 90,000-contact account on the same edition pay the same per seat, as long as they stay under that edition's total-record storage cap. Local taxes may apply on top of every listed price, per a single line on Zoho's pricing page that gives no rate or country list."
+    },
+    {
+      "q": "What happens if a Zoho CRM free-plan team needs a fourth user?",
+      "a": "Free is hard-capped at 3 users with no way to add a fourth seat individually; Zoho's pricing page and feature-comparison page both treat that 3-user ceiling as a wall, not a soft limit. To add a fourth person, the account has to move to a paid edition, starting with Standard at $20 a user a month paid monthly, or $14 a user a month billed annually ($168 a year). That means the jump from Free to Standard isn't just paying for one more seat: each edition's limits, like its per-organization Mass Email cap and profile and role counts, apply account-wide rather than per user, so the whole team moves onto the new edition's per-seat price together, not just the new hire. A 3-person team that's about to hire a fourth should budget for the full per-seat cost across everyone when it plans that move."
+    },
+    {
+      "q": "Does Zoho CRM limit how many marketing emails you can send?",
+      "a": "Yes, and the limit works differently than on many CRMs: Zoho caps Mass Email by organization per day, not per user. Standard allows 250 mass emails a day company-wide (roughly 7,500 a month), Professional 500 a day (about 15,000 a month), Enterprise 1,000 a day (about 30,000 a month), and Ultimate 2,000 a day (about 60,000 a month) — the highest tier Zoho publishes. That means a 3-person team sending 20,000 marketing emails a month can be forced onto Enterprise, at $50 a user a month paid monthly, purely by sending volume, even though 3 seats alone would easily fit on a cheaper edition. Individual one-to-one emails are capped separately and per user, starting at 50 a day on Free and rising with each edition. Nothing Zoho publishes covers sending above about 60,000 mass emails a month."
+    },
+    {
+      "q": "Is Zoho CRM cheaper if you pay annually?",
+      "a": "Yes, on every paid edition. Standard drops from $20 a month to $14 a month billed annually ($168 a year instead of $240). Professional drops from $35 to $23 a month ($276 a year instead of $420). Enterprise drops from $50 to $40 a month ($480 a year instead of $600). Ultimate drops from $65 to $52 a month ($624 a year instead of $780). That's a savings of 20 to 34 percent per seat depending on the edition, and it's the default view Zoho shows on its own pricing page. Zoho's FAQ describes the product as pay-as-you-go either way, with no contract and the ability to change plans at any time, but that flexibility costs more per seat: paying month-to-month is the only way to avoid committing to a year upfront, and it costs noticeably more for exactly that option."
+    },
+    {
+      "q": "Does Zoho CRM offer a free trial, and does it need a credit card?",
+      "a": "Yes. Zoho CRM gives every paid edition, Standard, Professional, Enterprise and Ultimate, its own 15-day free trial, and none of them ask for a credit card to start, each with its own \"Free Trial\" or \"Try Now\" button on Zoho's pricing and feature-comparison pages. That lets you test the specific edition you're considering rather than a single generic tier. The Free edition doesn't need a trial at all: it costs $0 and is capped at 3 users, so a solo operator or a very small team can use it directly instead of starting a trial clock. Because no card is required for any trial, there's nothing to cancel before a charge lands the way there is with tools that bill automatically once a trial ends. What isn't stated on Zoho's pricing pages is exactly what happens to trial data if you don't purchase before the 15 days run out."
+    },
+    {
+      "q": "Can Zoho CRM send text messages (SMS) to leads and customers?",
+      "a": "Not as a native, priced feature. Zoho's pricing page and its full feature-comparison page, covering every edition from Free through Ultimate, list workflow automation, mass and individual email, calling and mobile apps, but neither page lists an SMS or texting feature or a per-message rate anywhere. A business that wants to text leads from inside Zoho CRM has to connect a separate integration or third-party service that Zoho doesn't price or support directly on these pages. That gap is worth weighing against Zoho CRM's other advantages if texting leads is part of the daily workflow, since no edition — including Ultimate at the top of the range — adds native SMS later."
+    }
+  ]
+}

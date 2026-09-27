@@ -1,0 +1,33 @@
+{
+  "page": "pricing/squarespace",
+  "items": [
+    {
+      "q": "How much does Squarespace cost per month?",
+      "a": "Squarespace sells four plans, all billed per site. Basic costs $25 a month, or $19 a month billed yearly, and is the cheapest way to get a live site with a blog and a small store, though only two people, including the owner, can work on it. Core, Squarespace's own recommended plan, costs $39 a month, or $29 a month billed yearly, removes that contributor limit, and drops the online-store transaction fee to 0%. Plus costs $65 a month ($49 billed yearly) and Advanced costs $139 a month ($99 billed yearly); both mainly buy a lower card-processing rate and a lower cut of digital-product sales rather than new features. Most solo freelancers and local-service businesses only need Basic or Core; Plus and Advanced pay for themselves only once real sales volume makes the lower fees add up to more than the price difference."
+    },
+    {
+      "q": "Does Squarespace have a free plan?",
+      "a": "No. Squarespace does not offer a free-forever plan the way some website builders do; every plan is a paid subscription starting at $25 a month for Basic. What it offers instead is a 14-day free trial, and no credit card is required to start one. The catch is that a trial site cannot accept real payments, so it is useful for building and previewing a design but not for testing an actual store or invoicing flow with real customers. You can upgrade to a paid plan at any point during or after the trial, and nothing built during the trial is lost when you do. If you need to test real checkout behavior, budget for a paid plan from the start rather than relying on the trial period."
+    },
+    {
+      "q": "How many people can work on a Squarespace site without upgrading?",
+      "a": "It depends entirely on the plan, not on how big the business is otherwise. Basic, at $25 a month, allows only two contributors total, and that count includes the site owner, so in practice only one other person can have a login. Core, at $39 a month, and every plan above it, Plus and Advanced, remove that cap completely and allow unlimited contributors with no per-seat fee added as the team grows, however many people join. That makes the upgrade decision simple: a true solo operator can stay on Basic indefinitely, but the moment a second helper, a co-founder or a hired contractor needs their own login, Core becomes the cheapest plan that actually works, regardless of whether its other features matter to that business."
+    },
+    {
+      "q": "Does Squarespace charge a fee when I sell something?",
+      "a": "Yes, on top of card processing, and the rate depends on both the plan and what is being sold. Selling a physical product or service on Basic costs a 2% Squarespace transaction fee, falling to 0% on Core, Plus and Advanced; that fee applies even if the store uses a payment processor other than Squarespace Payments. Selling a digital product, course or membership is taxed on its own ladder, starting at 7% on Basic and falling to 5% on Core, 1% on Plus and 0% on Advanced. Card processing itself is separate and charged by Squarespace Payments at 2.9% plus 30 cents a transaction on Basic and Core, improving to 2.7% on Plus and 2.5% on Advanced. A business doing meaningful sales volume on Basic or Core should weigh those fees against the cost of upgrading to Plus or Advanced."
+    },
+    {
+      "q": "Is Squarespace's 'save up to 36%' annual discount real?",
+      "a": "The savings are real, just smaller than that headline number for every current plan. Squarespace's pricing page advertises annual billing with a banner reading 'Pay annually to save up to 36%,' but the checkout system behind that same page reports each plan's actual discount as 24% on Basic, 25% on Core, 24% on Plus and 28% on Advanced. None of the four reaches 36%. Annual billing still comes with real extras beyond the lower monthly rate: a free custom domain for the first year on any plan, and, on Core and up, a free Google Workspace inbox for the first year too. Both of those benefits renew at their normal price in year two. If the exact percentage matters to your budget, use the plan-by-plan figures here rather than the banner's headline claim."
+    },
+    {
+      "q": "Can I get a refund if I cancel Squarespace?",
+      "a": "Only in a narrow case. A brand-new annual website subscription is fully refundable if you cancel within 14 days of the first payment. Outside that window, or on a monthly subscription at any point, Squarespace's refund policy does not cover the charge: monthly subscriptions and any renewal payment, whether the plan is billed monthly or annually, are non-refundable. That means the safest way to try a real paid plan risk-free is the 14-day trial that comes before any payment at all, not a paid subscription you plan to cancel quickly. If a business is not sure which plan it needs long-term, starting on monthly billing avoids being locked into a yearly charge, even though monthly billing itself costs more per month and is not refundable once paid."
+    },
+    {
+      "q": "Does Squarespace charge extra for running more than one website?",
+      "a": "Squarespace does not have a per-business or multi-site plan at all; it bills strictly per site. A business running two websites, or a freelancer maintaining a personal site alongside a client project, pays for two separate subscriptions, each with its own plan, its own login and its own bill. There is no published discount for owning multiple sites, and the contributor cap on Basic applies separately to each one, so two Basic sites together still only allow two people per site, not four shared across both. This is the main reason Squarespace fits a single-site freelancer or local business better than an agency managing several client sites: an agency with ten client sites is paying for ten full subscriptions rather than one shared plan built for that kind of work."
+    }
+  ]
+}
