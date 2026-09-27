@@ -1,0 +1,102 @@
+SOURCE: https://support.pipedrive.com/en/article/how-does-web-visitors-pricing-work
+FETCHED: 2026-09-26T22:56:06.418Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Lead generation/Web Visitors/How does Web Visitors...
+
+Topics
+What is a unique organization?
+Can you estimate which tier I will need before I set it up?
+What happens at the end of my free trial?
+How does Web Visitors pricing work?
+JT
+Jenny Takahara
+Last updated: September 2, 2026
+Note: Web Visitors is not included in the LeadBooster add-on and will be charged separately.
+
+Your Web Visitors pricing is determined by the number of unique organizations that visit your website per month.
+
+What is a unique organization?
+
+A unique organization is a company that visits your website. If the same company visits your site multiple times, they still count as just one unique organization if they visit within the same month. If the company visits again next month, it will be counted as another unique organization. We filter out ISPs (Internet Service Providers) and other irrelevant traffic so you only pay for quality organizations.
+
+Can you estimate which tier I will need before I set it up?
+
+There is no way to estimate which tier you will need before setting up the Web Visitors feature. This is because there is unfortunately no formula we can apply based on your website traffic volume that would enable us to know what percentage are Internet Service Providers or unique visits.
+
+However, we allow all users to trial Web Visitors for 14 days for free before subscribing to a tier. After 7 days of the trial, we will have enough visitor information to provide an estimate of the average number of visitors per month and offer you one of the three pricing plans. You will have the option to subscribe when you receive the subscription offer or at the end of your trial.
+
+Leads hidden within the first 7 days will not be counted towards your visitor count.
+
+What happens at the end of my free trial?
+
+At the end of your 14-day trial, you will be sent an email notifying you of the trial expiration and the option to subscribe to the subscription offer. You will not be charged unless you choose to subscribe.
+
+If you subscribe to the Web Visitors feature during your trial, your subscription will start immediately.
+
+If you are trialing Pipedrive and subscribe to Web Visitors during your trial, you will be charged once your Pipedrive trial ends.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Prospector
+Live Chat
+Web Visitors
+Leads Inbox
+Is the Prospector feature GDPR compliant?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

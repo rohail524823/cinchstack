@@ -1,0 +1,490 @@
+SOURCE: https://www.pipedrive.com/es/pricing
+FETCHED: 2026-09-26T22:55:39.535Z
+RENDERER: curl raw HTML (no browser); text below is extracted from the page's embedded __NEXT_DATA__ JSON, props.pageProps
+----
+Why this file exists: https://www.pipedrive.com/en/pricing returns a Cloudflare block page (HTTP 403) to both the headless
+browser and curl from this network. The Spanish-language pricing page at the URL above is served normally and renders prices
+from this same embedded data. The page geolocates the visitor; for this fetch it recorded:
+  country = "us"
+  locale = "es"; page = "/pricing"; buildId = "MiwgViO_EUrLZezuZ9yCt"
+  isValidPricingData = true
+Values are copied verbatim from pricingData. Field names are Pipedrive's own. The currencies listed per item are the
+only ones present in the data (usd, gbp, eur, aud, cad for plans; usd, eur, gbp for packages).
+
+== pricingData.tiers (plans) ==
+[Note by the capturer, not vendor text: comparing with the rendered page, tiers.<plan>.year matches the per-seat monthly
+figure the page shows in its annual-billing view and tiers.<plan>.month the figure in its monthly-billing view.]
+tiers.lite.month: code=lite_monthly_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=24, gbp=24, eur=24, aud=34, cad=34
+tiers.lite.year: code=lite_annual_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=14, gbp=14, eur=14, aud=19, cad=19
+tiers.growth.month: code=growth_monthly_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=49, gbp=49, eur=49, aud=69, cad=69
+tiers.growth.year: code=growth_annual_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=39, gbp=39, eur=39, aud=49, cad=49
+tiers.premium.month: code=premium_monthly_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=79, gbp=79, eur=79, aud=109, cad=109
+tiers.premium.year: code=premium_annual_v3 availableFrom=2025-10-01 10:00:00 availableUntil=None | usd=59, gbp=59, eur=59, aud=79, cad=79
+tiers.ultimate.month: code=ultimate_monthly_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=99, gbp=99, eur=99, aud=139, cad=139
+tiers.ultimate.year: code=ultimate_annual_v2 availableFrom=2025-04-01 10:00:00 availableUntil=None | usd=79, gbp=79, eur=79, aud=109, cad=109
+oldTiers = null
+
+== pricingData.packages (add-ons and top-ups) ==
+[Note by the capturer, not vendor text: for packages, 'year' amounts appear to be per year and 'month' amounts per month;
+the LeadBooster figures match the monthly and annual-billing prices printed on Pipedrive's English lead-capture page.
+Plan keys inside a package are Pipedrive's internal plan codes: lite, growth, premium, ultimate are the current plans; silver,
+gold, platinum, ruby, diamond are not current plan names. 'ending_quantity' is the upper bound of a quantity band; the
+'units a-b' ranges below are derived from consecutive ending_quantity values (None/null = no upper bound).]
+packages.campaigns.month: code=campaigns tier_type=tiered available_from=2022-09-05 13:19:14 available_until=None
+  campaigns.month units 1-1,000: usd=0.016 eur=0.016 gbp=0.016
+  campaigns.month units 1,001-2,000: usd=0.008 eur=0.008 gbp=0.008
+  campaigns.month units 2,001-25,000: usd=0.006 eur=0.006 gbp=0.006
+  campaigns.month units 25,001-40,000: usd=0.005 eur=0.005 gbp=0.005
+  campaigns.month units 40,001+: usd=0.003 eur=0.003 gbp=0.003
+packages.campaigns.year: code=campaigns tier_type=tiered available_from=2022-09-05 13:19:14 available_until=None
+  campaigns.year units 1-1,000: usd=0.16 eur=0.16 gbp=0.16
+  campaigns.year units 1,001-2,000: usd=0.08 eur=0.08 gbp=0.08
+  campaigns.year units 2,001-25,000: usd=0.06 eur=0.06 gbp=0.06
+  campaigns.year units 25,001-40,000: usd=0.05 eur=0.05 gbp=0.05
+  campaigns.year units 40,001+: usd=0.03 eur=0.03 gbp=0.03
+packages.campaigns_premium.month: code=campaigns_premium tier_type=tiered available_from=None available_until=None
+  campaigns_premium.month units 1-1,000: usd=0.024 eur=0.024 gbp=0.024
+  campaigns_premium.month units 1,001-2,000: usd=0.012 eur=0.012 gbp=0.012
+  campaigns_premium.month units 2,001-25,000: usd=0.009 eur=0.009 gbp=0.009
+  campaigns_premium.month units 25,001-40,000: usd=0.0075 eur=0.0075 gbp=0.0075
+  campaigns_premium.month units 40,001+: usd=0.0045 eur=0.0045 gbp=0.0045
+packages.campaigns_premium.year: code=campaigns_premium tier_type=tiered available_from=None available_until=None
+  campaigns_premium.year units 1-1,000: usd=0.24 eur=0.24 gbp=0.24
+  campaigns_premium.year units 1,001-2,000: usd=0.12 eur=0.12 gbp=0.12
+  campaigns_premium.year units 2,001-25,000: usd=0.09 eur=0.09 gbp=0.09
+  campaigns_premium.year units 25,001-40,000: usd=0.075 eur=0.075 gbp=0.075
+  campaigns_premium.year units 40,001+: usd=0.045 eur=0.045 gbp=0.045
+packages.leadbooster.month: code=leadbooster tier_type=flat available_from=2022-09-05 13:19:14 available_until=None
+  leadbooster.month units 1-1: usd=39 eur=39 gbp=39
+packages.leadbooster.year: code=leadbooster tier_type=flat available_from=2022-09-05 13:19:14 available_until=None
+  leadbooster.year units 1-1: usd=390 eur=390 gbp=390
+packages.leadbooster_v2.month: code=leadbooster_v2 tier_type=flat_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  leadbooster_v2.month.diamond: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.gold: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.growth: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.lite: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.platinum: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.premium: usd=0 eur=0 gbp=0 ending_quantity=1
+  leadbooster_v2.month.ruby: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.silver: usd=39 eur=39 gbp=39 ending_quantity=1
+  leadbooster_v2.month.ultimate: usd=0 eur=0 gbp=0 ending_quantity=1
+packages.leadbooster_v2.year: code=leadbooster_v2 tier_type=flat_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  leadbooster_v2.year.diamond: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.gold: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.growth: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.lite: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.platinum: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.premium: usd=0 eur=0 gbp=0 ending_quantity=1
+  leadbooster_v2.year.ruby: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.silver: usd=390 eur=390 gbp=390 ending_quantity=1
+  leadbooster_v2.year.ultimate: usd=0 eur=0 gbp=0 ending_quantity=1
+packages.prospector.month: code=prospector tier_type=tiered_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  prospector.month.diamond units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.diamond units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.diamond units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.diamond units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.diamond units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.gold units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.gold units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.gold units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.gold units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.gold units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.growth units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.growth units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.growth units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.growth units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.growth units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.lite units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.lite units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.lite units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.lite units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.lite units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.platinum units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.platinum units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.platinum units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.platinum units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.platinum units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.premium units 1+: usd=0 eur=0 gbp=0
+  prospector.month.ruby units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.ruby units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.ruby units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.ruby units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.ruby units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.silver units 1-10: usd=0 eur=0 gbp=0
+  prospector.month.silver units 11-40: usd=1 eur=1 gbp=1
+  prospector.month.silver units 41-100: usd=0.5 eur=0.5 gbp=0.5
+  prospector.month.silver units 101-250: usd=0.4 eur=0.4 gbp=0.4
+  prospector.month.silver units 251+: usd=0.3 eur=0.3 gbp=0.3
+  prospector.month.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.prospector.year: code=prospector tier_type=tiered_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  prospector.year.diamond units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.diamond units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.diamond units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.diamond units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.diamond units 251+: usd=3 eur=3 gbp=3
+  prospector.year.gold units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.gold units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.gold units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.gold units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.gold units 251+: usd=3 eur=3 gbp=3
+  prospector.year.growth units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.growth units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.growth units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.growth units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.growth units 251+: usd=3 eur=3 gbp=3
+  prospector.year.lite units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.lite units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.lite units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.lite units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.lite units 251+: usd=3 eur=3 gbp=3
+  prospector.year.platinum units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.platinum units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.platinum units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.platinum units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.platinum units 251+: usd=3 eur=3 gbp=3
+  prospector.year.premium units 1+: usd=0 eur=0 gbp=0
+  prospector.year.ruby units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.ruby units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.ruby units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.ruby units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.ruby units 251+: usd=3 eur=3 gbp=3
+  prospector.year.silver units 1-10: usd=0 eur=0 gbp=0
+  prospector.year.silver units 11-40: usd=10.2 eur=10.2 gbp=10.2
+  prospector.year.silver units 41-100: usd=5.4 eur=5.4 gbp=5.4
+  prospector.year.silver units 101-250: usd=4.2 eur=4.2 gbp=4.2
+  prospector.year.silver units 251+: usd=3 eur=3 gbp=3
+  prospector.year.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.smart_docs.month: code=smart_docs tier_type=flat_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  smart_docs.month.diamond: usd=0 eur=0 gbp=0 ending_quantity=1
+  smart_docs.month.gold: usd=39 eur=39 gbp=39 ending_quantity=1
+  smart_docs.month.platinum: usd=0 eur=0 gbp=0 ending_quantity=1
+  smart_docs.month.ruby: usd=0 eur=0 gbp=0 ending_quantity=1
+packages.smart_docs.year: code=smart_docs tier_type=flat_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  smart_docs.year.diamond: usd=0 eur=0 gbp=0 ending_quantity=1
+  smart_docs.year.gold: usd=390 eur=390 gbp=390 ending_quantity=1
+  smart_docs.year.platinum: usd=0 eur=0 gbp=0 ending_quantity=1
+  smart_docs.year.ruby: usd=0 eur=0 gbp=0 ending_quantity=1
+packages.smart_docs_v2.month: code=smart_docs_v2 tier_type=stairstep_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  smart_docs_v2.month.diamond units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.month.gold units 1-30: usd=39 eur=39 gbp=39
+  smart_docs_v2.month.gold units 31-100: usd=59 eur=59 gbp=59
+  smart_docs_v2.month.growth units 1-30: usd=39 eur=39 gbp=39
+  smart_docs_v2.month.growth units 31-100: usd=59 eur=59 gbp=59
+  smart_docs_v2.month.lite units 1-30: usd=39 eur=39 gbp=39
+  smart_docs_v2.month.lite units 31-100: usd=59 eur=59 gbp=59
+  smart_docs_v2.month.platinum units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.month.premium units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.month.ruby units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.month.silver units 1-30: usd=39 eur=39 gbp=39
+  smart_docs_v2.month.silver units 31-100: usd=59 eur=59 gbp=59
+  smart_docs_v2.month.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.smart_docs_v2.year: code=smart_docs_v2 tier_type=stairstep_plan_tier_based available_from=2022-09-05 13:19:14 available_until=None
+  smart_docs_v2.year.diamond units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.year.gold units 1-30: usd=390 eur=390 gbp=390
+  smart_docs_v2.year.gold units 31-100: usd=590 eur=590 gbp=590
+  smart_docs_v2.year.growth units 1-30: usd=390 eur=390 gbp=390
+  smart_docs_v2.year.growth units 31-100: usd=590 eur=590 gbp=590
+  smart_docs_v2.year.lite units 1-30: usd=390 eur=390 gbp=390
+  smart_docs_v2.year.lite units 31-100: usd=590 eur=590 gbp=590
+  smart_docs_v2.year.platinum units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.year.premium units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.year.ruby units 1+: usd=0 eur=0 gbp=0
+  smart_docs_v2.year.silver units 1-30: usd=390 eur=390 gbp=390
+  smart_docs_v2.year.silver units 31-100: usd=590 eur=590 gbp=590
+  smart_docs_v2.year.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.webvisitors.month: code=webvisitors tier_type=stairstep available_from=2022-09-05 13:19:14 available_until=None
+  pricing = [] (empty)
+packages.webvisitors.year: code=webvisitors tier_type=stairstep available_from=2022-09-05 13:19:14 available_until=None
+  pricing = [] (empty)
+packages.projects.month: code=projects tier_type=volume_plan_tier_based available_from=2022-07-07 00:00:00 available_until=None
+  projects.month.diamond units 1+: usd=0 eur=0 gbp=0
+  projects.month.gold units 1+: usd=8 eur=8 gbp=8
+  projects.month.growth units 1+: usd=8 eur=8 gbp=8
+  projects.month.lite units 1+: usd=8 eur=8 gbp=8
+  projects.month.platinum units 1+: usd=8 eur=8 gbp=8
+  projects.month.premium units 1+: usd=0 eur=0 gbp=0
+  projects.month.ruby units 1+: usd=0 eur=0 gbp=0
+  projects.month.silver units 1+: usd=8 eur=8 gbp=8
+  projects.month.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects.year: code=projects tier_type=volume_plan_tier_based available_from=2022-07-07 00:00:00 available_until=None
+  projects.year.diamond units 1+: usd=0 eur=0 gbp=0
+  projects.year.gold units 1+: usd=80 eur=80 gbp=80
+  projects.year.growth units 1+: usd=80 eur=80 gbp=80
+  projects.year.lite units 1+: usd=80 eur=80 gbp=80
+  projects.year.platinum units 1+: usd=80 eur=80 gbp=80
+  projects.year.premium units 1+: usd=0 eur=0 gbp=0
+  projects.year.ruby units 1+: usd=0 eur=0 gbp=0
+  projects.year.silver units 1+: usd=80 eur=80 gbp=80
+  projects.year.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects_v2.month: code=projects_v2 tier_type=volume_plan_tier_based available_from=2026-06-10 00:00:00 available_until=None
+  projects_v2.month.diamond units 1+: usd=0 eur=0 gbp=0
+  projects_v2.month.gold units 1+: usd=10 eur=10 gbp=10
+  projects_v2.month.growth units 1+: usd=10 eur=10 gbp=10
+  projects_v2.month.lite units 1+: usd=10 eur=10 gbp=10
+  projects_v2.month.platinum units 1+: usd=10 eur=10 gbp=10
+  projects_v2.month.premium units 1+: usd=0 eur=0 gbp=0
+  projects_v2.month.ruby units 1+: usd=0 eur=0 gbp=0
+  projects_v2.month.silver units 1+: usd=10 eur=10 gbp=10
+  projects_v2.month.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects_v2.year: code=projects_v2 tier_type=volume_plan_tier_based available_from=2026-06-10 00:00:00 available_until=None
+  projects_v2.year.diamond units 1+: usd=0 eur=0 gbp=0
+  projects_v2.year.gold units 1+: usd=96 eur=96 gbp=96
+  projects_v2.year.growth units 1+: usd=96 eur=96 gbp=96
+  projects_v2.year.lite units 1+: usd=96 eur=96 gbp=96
+  projects_v2.year.platinum units 1+: usd=96 eur=96 gbp=96
+  projects_v2.year.premium units 1+: usd=0 eur=0 gbp=0
+  projects_v2.year.ruby units 1+: usd=0 eur=0 gbp=0
+  projects_v2.year.silver units 1+: usd=96 eur=96 gbp=96
+  projects_v2.year.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects_v3.month: code=projects_v3 tier_type=volume_plan_tier_based available_from=2026-06-10 00:00:00 available_until=None
+  projects_v3.month.diamond units 1+: usd=0 eur=0 gbp=0
+  projects_v3.month.gold units 1+: usd=15 eur=15 gbp=15
+  projects_v3.month.growth units 1+: usd=15 eur=15 gbp=15
+  projects_v3.month.lite units 1+: usd=15 eur=15 gbp=15
+  projects_v3.month.platinum units 1+: usd=15 eur=15 gbp=15
+  projects_v3.month.premium units 1+: usd=0 eur=0 gbp=0
+  projects_v3.month.ruby units 1+: usd=0 eur=0 gbp=0
+  projects_v3.month.silver units 1+: usd=15 eur=15 gbp=15
+  projects_v3.month.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects_v3.year: code=projects_v3 tier_type=volume_plan_tier_based available_from=2026-06-10 00:00:00 available_until=None
+  projects_v3.year.diamond units 1+: usd=0 eur=0 gbp=0
+  projects_v3.year.gold units 1+: usd=144 eur=144 gbp=144
+  projects_v3.year.growth units 1+: usd=144 eur=144 gbp=144
+  projects_v3.year.lite units 1+: usd=144 eur=144 gbp=144
+  projects_v3.year.platinum units 1+: usd=144 eur=144 gbp=144
+  projects_v3.year.premium units 1+: usd=0 eur=0 gbp=0
+  projects_v3.year.ruby units 1+: usd=0 eur=0 gbp=0
+  projects_v3.year.silver units 1+: usd=144 eur=144 gbp=144
+  projects_v3.year.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects_v4.month: code=projects_v4 tier_type=volume_plan_tier_based available_from=2026-06-10 00:00:00 available_until=None
+  projects_v4.month.diamond units 1+: usd=0 eur=0 gbp=0
+  projects_v4.month.gold units 1+: usd=20 eur=20 gbp=20
+  projects_v4.month.growth units 1+: usd=20 eur=20 gbp=20
+  projects_v4.month.lite units 1+: usd=20 eur=20 gbp=20
+  projects_v4.month.platinum units 1+: usd=20 eur=20 gbp=20
+  projects_v4.month.premium units 1+: usd=0 eur=0 gbp=0
+  projects_v4.month.ruby units 1+: usd=0 eur=0 gbp=0
+  projects_v4.month.silver units 1+: usd=20 eur=20 gbp=20
+  projects_v4.month.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.projects_v4.year: code=projects_v4 tier_type=volume_plan_tier_based available_from=2026-06-10 00:00:00 available_until=None
+  projects_v4.year.diamond units 1+: usd=0 eur=0 gbp=0
+  projects_v4.year.gold units 1+: usd=192 eur=192 gbp=192
+  projects_v4.year.growth units 1+: usd=192 eur=192 gbp=192
+  projects_v4.year.lite units 1+: usd=192 eur=192 gbp=192
+  projects_v4.year.platinum units 1+: usd=192 eur=192 gbp=192
+  projects_v4.year.premium units 1+: usd=0 eur=0 gbp=0
+  projects_v4.year.ruby units 1+: usd=0 eur=0 gbp=0
+  projects_v4.year.silver units 1+: usd=192 eur=192 gbp=192
+  projects_v4.year.ultimate units 1+: usd=0 eur=0 gbp=0
+packages.team_management_pack.month: code=team_management_pack tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  team_management_pack.month.platinum: usd=100 eur=100 gbp=100 ending_quantity=1
+  team_management_pack.month.ruby: usd=100 eur=100 gbp=100 ending_quantity=1
+packages.team_management_pack.year: code=team_management_pack tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  team_management_pack.year.platinum: usd=1000 eur=1000 gbp=1000 ending_quantity=1
+  team_management_pack.year.ruby: usd=1000 eur=1000 gbp=1000 ending_quantity=1
+packages.team_management_pack_premium.month: code=team_management_pack_premium tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  team_management_pack_premium.month.platinum: usd=200 eur=200 gbp=200 ending_quantity=1
+  team_management_pack_premium.month.ruby: usd=200 eur=200 gbp=200 ending_quantity=1
+packages.team_management_pack_premium.year: code=team_management_pack_premium tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  team_management_pack_premium.year.platinum: usd=2000 eur=2000 gbp=2000 ending_quantity=1
+  team_management_pack_premium.year.ruby: usd=2000 eur=2000 gbp=2000 ending_quantity=1
+packages.automations_pack.month: code=automations_pack tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  automations_pack.month.platinum: usd=75 eur=75 gbp=75 ending_quantity=1
+  automations_pack.month.ruby: usd=75 eur=75 gbp=75 ending_quantity=1
+packages.automations_pack.year: code=automations_pack tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  automations_pack.year.platinum: usd=750 eur=750 gbp=750 ending_quantity=1
+  automations_pack.year.ruby: usd=750 eur=750 gbp=750 ending_quantity=1
+packages.automations_pack_premium.month: code=automations_pack_premium tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  automations_pack_premium.month.platinum: usd=125 eur=125 gbp=125 ending_quantity=1
+  automations_pack_premium.month.ruby: usd=125 eur=125 gbp=125 ending_quantity=1
+packages.automations_pack_premium.year: code=automations_pack_premium tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  automations_pack_premium.year.platinum: usd=1250 eur=1250 gbp=1250 ending_quantity=1
+  automations_pack_premium.year.ruby: usd=1250 eur=1250 gbp=1250 ending_quantity=1
+packages.reports_pack.month: code=reports_pack tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  reports_pack.month.platinum: usd=75 eur=75 gbp=75 ending_quantity=1
+  reports_pack.month.ruby: usd=75 eur=75 gbp=75 ending_quantity=1
+packages.reports_pack.year: code=reports_pack tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  reports_pack.year.platinum: usd=750 eur=750 gbp=750 ending_quantity=1
+  reports_pack.year.ruby: usd=750 eur=750 gbp=750 ending_quantity=1
+packages.reports_pack_premium.month: code=reports_pack_premium tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  reports_pack_premium.month.platinum: usd=125 eur=125 gbp=125 ending_quantity=1
+  reports_pack_premium.month.ruby: usd=125 eur=125 gbp=125 ending_quantity=1
+packages.reports_pack_premium.year: code=reports_pack_premium tier_type=flat_plan_tier_based available_from=2023-02-22 00:00:00 available_until=None
+  reports_pack_premium.year.platinum: usd=1250 eur=1250 gbp=1250 ending_quantity=1
+  reports_pack_premium.year.ruby: usd=1250 eur=1250 gbp=1250 ending_quantity=1
+packages.prospector_topup.month: code=prospector_topup tier_type=tiered_plan_tier_based available_from=2025-06-11 00:00:00 available_until=None
+  prospector_topup.month.premium units 1-30: usd=1 eur=1 gbp=1
+  prospector_topup.month.premium units 31-90: usd=0.5 eur=0.5 gbp=0.5
+  prospector_topup.month.premium units 91-240: usd=0.4 eur=0.4 gbp=0.4
+  prospector_topup.month.premium units 241+: usd=0.3 eur=0.3 gbp=0.3
+  prospector_topup.month.ultimate units 1-30: usd=1 eur=1 gbp=1
+  prospector_topup.month.ultimate units 31-90: usd=0.5 eur=0.5 gbp=0.5
+  prospector_topup.month.ultimate units 91-240: usd=0.4 eur=0.4 gbp=0.4
+  prospector_topup.month.ultimate units 241+: usd=0.3 eur=0.3 gbp=0.3
+packages.prospector_topup.year: code=prospector_topup tier_type=tiered_plan_tier_based available_from=2025-06-11 00:00:00 available_until=None
+  prospector_topup.year.premium units 1-30: usd=10.2 eur=10.2 gbp=10.2
+  prospector_topup.year.premium units 31-90: usd=5.4 eur=5.4 gbp=5.4
+  prospector_topup.year.premium units 91-240: usd=4.2 eur=4.2 gbp=4.2
+  prospector_topup.year.premium units 241+: usd=3 eur=3 gbp=3
+  prospector_topup.year.ultimate units 1-30: usd=10.2 eur=10.2 gbp=10.2
+  prospector_topup.year.ultimate units 31-90: usd=5.4 eur=5.4 gbp=5.4
+  prospector_topup.year.ultimate units 91-240: usd=4.2 eur=4.2 gbp=4.2
+  prospector_topup.year.ultimate units 241+: usd=3 eur=3 gbp=3
+packages.api_tokens_pack.month: code=api_tokens_pack tier_type=volume_plan_tier_based available_from=2025-06-19 00:00:00 available_until=None
+  api_tokens_pack.month.diamond units 1+: usd=100 eur=100 gbp=100
+  api_tokens_pack.month.gold units 1+: usd=100 eur=100 gbp=100
+  api_tokens_pack.month.growth units 1+: usd=100 eur=100 gbp=100
+  api_tokens_pack.month.platinum units 1+: usd=100 eur=100 gbp=100
+  api_tokens_pack.month.premium units 1+: usd=100 eur=100 gbp=100
+  api_tokens_pack.month.ruby units 1+: usd=100 eur=100 gbp=100
+  api_tokens_pack.month.ultimate units 1+: usd=100 eur=100 gbp=100
+packages.api_tokens_pack.year: code=api_tokens_pack tier_type=volume_plan_tier_based available_from=2025-06-19 00:00:00 available_until=None
+  api_tokens_pack.year.diamond units 1+: usd=1000 eur=1000 gbp=1000
+  api_tokens_pack.year.gold units 1+: usd=1000 eur=1000 gbp=1000
+  api_tokens_pack.year.growth units 1+: usd=1000 eur=1000 gbp=1000
+  api_tokens_pack.year.platinum units 1+: usd=1000 eur=1000 gbp=1000
+  api_tokens_pack.year.premium units 1+: usd=1000 eur=1000 gbp=1000
+  api_tokens_pack.year.ruby units 1+: usd=1000 eur=1000 gbp=1000
+  api_tokens_pack.year.ultimate units 1+: usd=1000 eur=1000 gbp=1000
+packages.team_management_pack_v2.month: code=team_management_pack_v2 tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  team_management_pack_v2.month.premium units 1+: usd=100 eur=100 gbp=100
+  team_management_pack_v2.month.ultimate units 1+: usd=100 eur=100 gbp=100
+packages.team_management_pack_v2.year: code=team_management_pack_v2 tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  team_management_pack_v2.year.premium units 1+: usd=1000 eur=1000 gbp=1000
+  team_management_pack_v2.year.ultimate units 1+: usd=1000 eur=1000 gbp=1000
+packages.automations_pack_v2.month: code=automations_pack_v2 tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  automations_pack_v2.month.growth units 1+: usd=50 eur=50 gbp=50
+  automations_pack_v2.month.premium units 1+: usd=50 eur=50 gbp=50
+  automations_pack_v2.month.ultimate units 1+: usd=50 eur=50 gbp=50
+packages.automations_pack_v2.year: code=automations_pack_v2 tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  automations_pack_v2.year.growth units 1+: usd=500 eur=500 gbp=500
+  automations_pack_v2.year.premium units 1+: usd=500 eur=500 gbp=500
+  automations_pack_v2.year.ultimate units 1+: usd=500 eur=500 gbp=500
+packages.reports_pack_v2.month: code=reports_pack_v2 tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  reports_pack_v2.month.growth units 1+: usd=50 eur=50 gbp=50
+  reports_pack_v2.month.premium units 1+: usd=50 eur=50 gbp=50
+  reports_pack_v2.month.ultimate units 1+: usd=50 eur=50 gbp=50
+packages.reports_pack_v2.year: code=reports_pack_v2 tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  reports_pack_v2.year.growth units 1+: usd=500 eur=500 gbp=500
+  reports_pack_v2.year.premium units 1+: usd=500 eur=500 gbp=500
+  reports_pack_v2.year.ultimate units 1+: usd=500 eur=500 gbp=500
+packages.leads_deals_pack.month: code=leads_deals_pack tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  leads_deals_pack.month.gold units 1+: usd=100 eur=100 gbp=100
+  leads_deals_pack.month.growth units 1+: usd=100 eur=100 gbp=100
+  leads_deals_pack.month.platinum units 1+: usd=100 eur=100 gbp=100
+  leads_deals_pack.month.premium units 1+: usd=100 eur=100 gbp=100
+  leads_deals_pack.month.ruby units 1+: usd=100 eur=100 gbp=100
+  leads_deals_pack.month.ultimate units 1+: usd=100 eur=100 gbp=100
+packages.leads_deals_pack.year: code=leads_deals_pack tier_type=volume_plan_tier_based available_from=2025-06-26 00:00:00 available_until=None
+  leads_deals_pack.year.gold units 1+: usd=1000 eur=1000 gbp=1000
+  leads_deals_pack.year.growth units 1+: usd=1000 eur=1000 gbp=1000
+  leads_deals_pack.year.platinum units 1+: usd=1000 eur=1000 gbp=1000
+  leads_deals_pack.year.premium units 1+: usd=1000 eur=1000 gbp=1000
+  leads_deals_pack.year.ruby units 1+: usd=1000 eur=1000 gbp=1000
+  leads_deals_pack.year.ultimate units 1+: usd=1000 eur=1000 gbp=1000
+packages.data_enrichment.month: code=data_enrichment tier_type=volume_plan_tier_based available_from=2025-10-16 00:00:00 available_until=None
+  data_enrichment.month.diamond units 1+: usd=0.1 eur=0.1 gbp=0.1
+  data_enrichment.month.premium units 1+: usd=0.1 eur=0.1 gbp=0.1
+  data_enrichment.month.ultimate units 1+: usd=0.1 eur=0.1 gbp=0.1
+packages.data_enrichment.year: code=data_enrichment tier_type=volume_plan_tier_based available_from=2025-10-16 00:00:00 available_until=None
+  data_enrichment.year.diamond units 1+: usd=1 eur=1 gbp=1
+  data_enrichment.year.premium units 1+: usd=1 eur=1 gbp=1
+  data_enrichment.year.ultimate units 1+: usd=1 eur=1 gbp=1
+packages.nova_v1.month: code=nova_v1 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v1.month.diamond units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.gold units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.growth units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.lite units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.platinum units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.premium units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.ruby units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.silver units 1+: usd=10 eur=10 gbp=10
+  nova_v1.month.ultimate units 1+: usd=10 eur=10 gbp=10
+packages.nova_v1.year: code=nova_v1 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v1.year.diamond units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.gold units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.growth units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.lite units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.platinum units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.premium units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.ruby units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.silver units 1+: usd=96 eur=96 gbp=96
+  nova_v1.year.ultimate units 1+: usd=96 eur=96 gbp=96
+packages.nova_v2.month: code=nova_v2 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v2.month.diamond units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.gold units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.growth units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.lite units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.platinum units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.premium units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.ruby units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.silver units 1+: usd=15 eur=15 gbp=15
+  nova_v2.month.ultimate units 1+: usd=15 eur=15 gbp=15
+packages.nova_v2.year: code=nova_v2 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v2.year.diamond units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.gold units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.growth units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.lite units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.platinum units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.premium units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.ruby units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.silver units 1+: usd=144 eur=144 gbp=144
+  nova_v2.year.ultimate units 1+: usd=144 eur=144 gbp=144
+packages.nova_v3.month: code=nova_v3 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v3.month.diamond units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.gold units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.growth units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.lite units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.platinum units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.premium units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.ruby units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.silver units 1+: usd=20 eur=20 gbp=20
+  nova_v3.month.ultimate units 1+: usd=20 eur=20 gbp=20
+packages.nova_v3.year: code=nova_v3 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v3.year.diamond units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.gold units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.growth units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.lite units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.platinum units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.premium units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.ruby units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.silver units 1+: usd=192 eur=192 gbp=192
+  nova_v3.year.ultimate units 1+: usd=192 eur=192 gbp=192
+packages.nova_v4.month: code=nova_v4 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v4.month.diamond units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.gold units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.growth units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.lite units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.platinum units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.premium units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.ruby units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.silver units 1+: usd=25 eur=25 gbp=25
+  nova_v4.month.ultimate units 1+: usd=25 eur=25 gbp=25
+packages.nova_v4.year: code=nova_v4 tier_type=volume_plan_tier_based available_from=None available_until=None
+  nova_v4.year.diamond units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.gold units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.growth units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.lite units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.platinum units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.premium units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.ruby units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.silver units 1+: usd=240 eur=240 gbp=240
+  nova_v4.year.ultimate units 1+: usd=240 eur=240 gbp=240
+packages.custom_fields_pack.month: code=custom_fields_pack tier_type=volume_plan_tier_based available_from=2026-07-01 00:00:00 available_until=None
+  custom_fields_pack.month.growth units 1+: usd=50 eur=50 gbp=50
+  custom_fields_pack.month.premium units 1+: usd=50 eur=50 gbp=50
+  custom_fields_pack.month.ultimate units 1+: usd=50 eur=50 gbp=50
+packages.custom_fields_pack.year: code=custom_fields_pack tier_type=volume_plan_tier_based available_from=2026-07-01 00:00:00 available_until=None
+  custom_fields_pack.year.growth units 1+: usd=500 eur=500 gbp=500
+  custom_fields_pack.year.premium units 1+: usd=500 eur=500 gbp=500
+  custom_fields_pack.year.ultimate units 1+: usd=500 eur=500 gbp=500
+
+== Add-on cards on the page (containers.pricing-page, text verbatim, HTML tags removed) ==
+  Complemento LeadBooster Captura más prospectos A partir de USD 32.50
+  Complemento Projects Entrega proyectos y alcanza tus metas más rápido Desde USD 16
+  Complemento Campaigns Envía campañas increíbles de marketing por correo electrónico Desde USD 13.33
+  Complemento Visitantes Web Mira quién visita tu sitio Desde USD 41
+  Complemento Smart Docs Administra todos tus documentos en un solo lugar Desde USD 32.50
+
+== Raw pricingData JSON (verbatim) ==
+{"tiers": {"lite": {"year": {"code": "lite_annual_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 14, "gbp": 14, "eur": 14, "aud": 19, "cad": 19}, "month": {"code": "lite_monthly_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 24, "gbp": 24, "eur": 24, "aud": 34, "cad": 34}}, "growth": {"year": {"code": "growth_annual_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 39, "gbp": 39, "eur": 39, "aud": 49, "cad": 49}, "month": {"code": "growth_monthly_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 49, "gbp": 49, "eur": 49, "aud": 69, "cad": 69}}, "premium": {"year": {"code": "premium_annual_v3", "availableFrom": "2025-10-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 59, "gbp": 59, "eur": 59, "aud": 79, "cad": 79}, "month": {"code": "premium_monthly_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 79, "gbp": 79, "eur": 79, "aud": 109, "cad": 109}}, "ultimate": {"year": {"code": "ultimate_annual_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 79, "gbp": 79, "eur": 79, "aud": 109, "cad": 109}, "month": {"code": "ultimate_monthly_v2", "availableFrom": "2025-04-01 10:00:00", "availableUntil": null, "requiredFeatureSwitch": null, "usd": 99, "gbp": 99, "eur": 99, "aud": 139, "cad": 139}}}, "oldTiers": null, "packages": {"campaigns": {"month": {"code": "campaigns", "tier_type": "tiered", "quantity_pricing_type": "tiered", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": [{"ending_quantity": 1000, "price_eur": 0.016, "price_usd": 0.016, "price_gbp": 0.016}, {"ending_quantity": 2000, "price_eur": 0.008, "price_usd": 0.008, "price_gbp": 0.008}, {"ending_quantity": 25000, "price_eur": 0.006, "price_usd": 0.006, "price_gbp": 0.006}, {"ending_quantity": 40000, "price_eur": 0.005, "price_usd": 0.005, "price_gbp": 0.005}, {"ending_quantity": null, "price_eur": 0.003, "price_usd": 0.003, "price_gbp": 0.003}]}, "year": {"code": "campaigns", "tier_type": "tiered", "quantity_pricing_type": "tiered", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": [{"ending_quantity": 1000, "price_eur": 0.16, "price_usd": 0.16, "price_gbp": 0.16}, {"ending_quantity": 2000, "price_eur": 0.08, "price_usd": 0.08, "price_gbp": 0.08}, {"ending_quantity": 25000, "price_eur": 0.06, "price_usd": 0.06, "price_gbp": 0.06}, {"ending_quantity": 40000, "price_eur": 0.05, "price_usd": 0.05, "price_gbp": 0.05}, {"ending_quantity": null, "price_eur": 0.03, "price_usd": 0.03, "price_gbp": 0.03}]}}, "campaigns_premium": {"month": {"code": "campaigns_premium", "tier_type": "tiered", "quantity_pricing_type": "tiered", "available_from": null, "available_until": null, "pricing": [{"ending_quantity": 1000, "price_eur": 0.024, "price_usd": 0.024, "price_gbp": 0.024}, {"ending_quantity": 2000, "price_eur": 0.012, "price_usd": 0.012, "price_gbp": 0.012}, {"ending_quantity": 25000, "price_eur": 0.009, "price_usd": 0.009, "price_gbp": 0.009}, {"ending_quantity": 40000, "price_eur": 0.0075, "price_usd": 0.0075, "price_gbp": 0.0075}, {"ending_quantity": null, "price_eur": 0.0045, "price_usd": 0.0045, "price_gbp": 0.0045}]}, "year": {"code": "campaigns_premium", "tier_type": "tiered", "quantity_pricing_type": "tiered", "available_from": null, "available_until": null, "pricing": [{"ending_quantity": 1000, "price_eur": 0.24, "price_usd": 0.24, "price_gbp": 0.24}, {"ending_quantity": 2000, "price_eur": 0.12, "price_usd": 0.12, "price_gbp": 0.12}, {"ending_quantity": 25000, "price_eur": 0.09, "price_usd": 0.09, "price_gbp": 0.09}, {"ending_quantity": 40000, "price_eur": 0.075, "price_usd": 0.075, "price_gbp": 0.075}, {"ending_quantity": null, "price_eur": 0.045, "price_usd": 0.045, "price_gbp": 0.045}]}}, "leadbooster": {"month": {"code": "leadbooster", "tier_type": "flat", "quantity_pricing_type": "flat", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": [{"ending_quantity": 1, "price_eur": 39, "price_usd": 39, "price_gbp": 39}]}, "year": {"code": "leadbooster", "tier_type": "flat", "quantity_pricing_type": "flat", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": [{"ending_quantity": 1, "price_eur": 390, "price_usd": 390, "price_gbp": 390}]}}, "leadbooster_v2": {"month": {"code": "leadbooster_v2", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "gold": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "growth": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "lite": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "platinum": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "premium": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}, "ruby": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "silver": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "ultimate": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}}}, "year": {"code": "leadbooster_v2", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "gold": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "growth": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "lite": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "platinum": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "premium": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}, "ruby": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "silver": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "ultimate": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}}}}, "prospector": {"month": {"code": "prospector", "tier_type": "tiered_plan_tier_based", "quantity_pricing_type": "tiered_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "gold": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "growth": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "lite": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "platinum": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "silver": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 40}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 100}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 250}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}, "year": {"code": "prospector", "tier_type": "tiered_plan_tier_based", "quantity_pricing_type": "tiered_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "gold": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "growth": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "lite": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "platinum": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "silver": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 10}, {"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 40}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 100}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 250}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}}, "smart_docs": {"month": {"code": "smart_docs", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}, "gold": {"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 1}, "platinum": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}, "ruby": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}}}, "year": {"code": "smart_docs", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}, "gold": {"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 1}, "platinum": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}, "ruby": {"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": 1}}}}, "smart_docs_v2": {"month": {"code": "smart_docs_v2", "tier_type": "stairstep_plan_tier_based", "quantity_pricing_type": "stairstep_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 30}, {"price_eur": 59, "price_usd": 59, "price_gbp": 59, "ending_quantity": 100}], "growth": [{"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 30}, {"price_eur": 59, "price_usd": 59, "price_gbp": 59, "ending_quantity": 100}], "lite": [{"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 30}, {"price_eur": 59, "price_usd": 59, "price_gbp": 59, "ending_quantity": 100}], "platinum": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 39, "price_usd": 39, "price_gbp": 39, "ending_quantity": 30}, {"price_eur": 59, "price_usd": 59, "price_gbp": 59, "ending_quantity": 100}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}, "year": {"code": "smart_docs_v2", "tier_type": "stairstep_plan_tier_based", "quantity_pricing_type": "stairstep_plan_tier_based", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 30}, {"price_eur": 590, "price_usd": 590, "price_gbp": 590, "ending_quantity": 100}], "growth": [{"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 30}, {"price_eur": 590, "price_usd": 590, "price_gbp": 590, "ending_quantity": 100}], "lite": [{"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 30}, {"price_eur": 590, "price_usd": 590, "price_gbp": 590, "ending_quantity": 100}], "platinum": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 390, "price_usd": 390, "price_gbp": 390, "ending_quantity": 30}, {"price_eur": 590, "price_usd": 590, "price_gbp": 590, "ending_quantity": 100}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}}, "webvisitors": {"month": {"code": "webvisitors", "tier_type": "stairstep", "quantity_pricing_type": "stairstep", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": []}, "year": {"code": "webvisitors", "tier_type": "stairstep", "quantity_pricing_type": "stairstep", "available_from": "2022-09-05 13:19:14", "available_until": null, "pricing": []}}, "projects": {"month": {"code": "projects", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2022-07-07 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 8, "price_usd": 8, "price_gbp": 8, "ending_quantity": null}], "growth": [{"price_eur": 8, "price_usd": 8, "price_gbp": 8, "ending_quantity": null}], "lite": [{"price_eur": 8, "price_usd": 8, "price_gbp": 8, "ending_quantity": null}], "platinum": [{"price_eur": 8, "price_usd": 8, "price_gbp": 8, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 8, "price_usd": 8, "price_gbp": 8, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}, "year": {"code": "projects", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2022-07-07 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 80, "price_usd": 80, "price_gbp": 80, "ending_quantity": null}], "growth": [{"price_eur": 80, "price_usd": 80, "price_gbp": 80, "ending_quantity": null}], "lite": [{"price_eur": 80, "price_usd": 80, "price_gbp": 80, "ending_quantity": null}], "platinum": [{"price_eur": 80, "price_usd": 80, "price_gbp": 80, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 80, "price_usd": 80, "price_gbp": 80, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}}, "projects_v2": {"month": {"code": "projects_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-06-10 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "growth": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "lite": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "platinum": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}, "year": {"code": "projects_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-06-10 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "growth": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "lite": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "platinum": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}}, "projects_v3": {"month": {"code": "projects_v3", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-06-10 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "growth": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "lite": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "platinum": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}, "year": {"code": "projects_v3", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-06-10 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "growth": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "lite": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "platinum": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}}, "projects_v4": {"month": {"code": "projects_v4", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-06-10 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "growth": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "lite": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "platinum": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}, "year": {"code": "projects_v4", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-06-10 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "gold": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "growth": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "lite": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "platinum": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "premium": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "ruby": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}], "silver": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "ultimate": [{"price_eur": 0, "price_usd": 0, "price_gbp": 0, "ending_quantity": null}]}}}, "team_management_pack": {"month": {"code": "team_management_pack", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": 1}, "ruby": {"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": 1}}}, "year": {"code": "team_management_pack", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": 1}, "ruby": {"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": 1}}}}, "team_management_pack_premium": {"month": {"code": "team_management_pack_premium", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 200, "price_usd": 200, "price_gbp": 200, "ending_quantity": 1}, "ruby": {"price_eur": 200, "price_usd": 200, "price_gbp": 200, "ending_quantity": 1}}}, "year": {"code": "team_management_pack_premium", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 2000, "price_usd": 2000, "price_gbp": 2000, "ending_quantity": 1}, "ruby": {"price_eur": 2000, "price_usd": 2000, "price_gbp": 2000, "ending_quantity": 1}}}}, "automations_pack": {"month": {"code": "automations_pack", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 75, "price_usd": 75, "price_gbp": 75, "ending_quantity": 1}, "ruby": {"price_eur": 75, "price_usd": 75, "price_gbp": 75, "ending_quantity": 1}}}, "year": {"code": "automations_pack", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 750, "price_usd": 750, "price_gbp": 750, "ending_quantity": 1}, "ruby": {"price_eur": 750, "price_usd": 750, "price_gbp": 750, "ending_quantity": 1}}}}, "automations_pack_premium": {"month": {"code": "automations_pack_premium", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 125, "price_usd": 125, "price_gbp": 125, "ending_quantity": 1}, "ruby": {"price_eur": 125, "price_usd": 125, "price_gbp": 125, "ending_quantity": 1}}}, "year": {"code": "automations_pack_premium", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 1250, "price_usd": 1250, "price_gbp": 1250, "ending_quantity": 1}, "ruby": {"price_eur": 1250, "price_usd": 1250, "price_gbp": 1250, "ending_quantity": 1}}}}, "reports_pack": {"month": {"code": "reports_pack", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 75, "price_usd": 75, "price_gbp": 75, "ending_quantity": 1}, "ruby": {"price_eur": 75, "price_usd": 75, "price_gbp": 75, "ending_quantity": 1}}}, "year": {"code": "reports_pack", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 750, "price_usd": 750, "price_gbp": 750, "ending_quantity": 1}, "ruby": {"price_eur": 750, "price_usd": 750, "price_gbp": 750, "ending_quantity": 1}}}}, "reports_pack_premium": {"month": {"code": "reports_pack_premium", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 125, "price_usd": 125, "price_gbp": 125, "ending_quantity": 1}, "ruby": {"price_eur": 125, "price_usd": 125, "price_gbp": 125, "ending_quantity": 1}}}, "year": {"code": "reports_pack_premium", "tier_type": "flat_plan_tier_based", "quantity_pricing_type": "flat_plan_tier_based", "available_from": "2023-02-22 00:00:00", "available_until": null, "pricing": {"platinum": {"price_eur": 1250, "price_usd": 1250, "price_gbp": 1250, "ending_quantity": 1}, "ruby": {"price_eur": 1250, "price_usd": 1250, "price_gbp": 1250, "ending_quantity": 1}}}}, "prospector_topup": {"month": {"code": "prospector_topup", "tier_type": "tiered_plan_tier_based", "quantity_pricing_type": "tiered_plan_tier_based", "available_from": "2025-06-11 00:00:00", "available_until": null, "pricing": {"premium": [{"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 30}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 90}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 240}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}], "ultimate": [{"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": 30}, {"price_eur": 0.5, "price_usd": 0.5, "price_gbp": 0.5, "ending_quantity": 90}, {"price_eur": 0.4, "price_usd": 0.4, "price_gbp": 0.4, "ending_quantity": 240}, {"price_eur": 0.3, "price_usd": 0.3, "price_gbp": 0.3, "ending_quantity": null}]}}, "year": {"code": "prospector_topup", "tier_type": "tiered_plan_tier_based", "quantity_pricing_type": "tiered_plan_tier_based", "available_from": "2025-06-11 00:00:00", "available_until": null, "pricing": {"premium": [{"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 30}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 90}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 240}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}], "ultimate": [{"price_eur": 10.2, "price_usd": 10.2, "price_gbp": 10.2, "ending_quantity": 30}, {"price_eur": 5.4, "price_usd": 5.4, "price_gbp": 5.4, "ending_quantity": 90}, {"price_eur": 4.2, "price_usd": 4.2, "price_gbp": 4.2, "ending_quantity": 240}, {"price_eur": 3, "price_usd": 3, "price_gbp": 3, "ending_quantity": null}]}}}, "api_tokens_pack": {"month": {"code": "api_tokens_pack", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-19 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "gold": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "growth": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "platinum": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "premium": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "ruby": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "ultimate": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}]}}, "year": {"code": "api_tokens_pack", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-19 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "gold": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "growth": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "platinum": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "premium": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "ruby": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "ultimate": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}]}}}, "team_management_pack_v2": {"month": {"code": "team_management_pack_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"premium": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "ultimate": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}]}}, "year": {"code": "team_management_pack_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"premium": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "ultimate": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}]}}}, "automations_pack_v2": {"month": {"code": "automations_pack_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"growth": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}], "premium": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}], "ultimate": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}]}}, "year": {"code": "automations_pack_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"growth": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}], "premium": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}], "ultimate": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}]}}}, "reports_pack_v2": {"month": {"code": "reports_pack_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"growth": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}], "premium": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}], "ultimate": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}]}}, "year": {"code": "reports_pack_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"growth": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}], "premium": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}], "ultimate": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}]}}}, "leads_deals_pack": {"month": {"code": "leads_deals_pack", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"gold": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "growth": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "platinum": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "premium": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "ruby": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}], "ultimate": [{"price_eur": 100, "price_usd": 100, "price_gbp": 100, "ending_quantity": null}]}}, "year": {"code": "leads_deals_pack", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-06-26 00:00:00", "available_until": null, "pricing": {"gold": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "growth": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "platinum": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "premium": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "ruby": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}], "ultimate": [{"price_eur": 1000, "price_usd": 1000, "price_gbp": 1000, "ending_quantity": null}]}}}, "data_enrichment": {"month": {"code": "data_enrichment", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-10-16 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 0.1, "price_usd": 0.1, "price_gbp": 0.1, "ending_quantity": null}], "premium": [{"price_eur": 0.1, "price_usd": 0.1, "price_gbp": 0.1, "ending_quantity": null}], "ultimate": [{"price_eur": 0.1, "price_usd": 0.1, "price_gbp": 0.1, "ending_quantity": null}]}}, "year": {"code": "data_enrichment", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2025-10-16 00:00:00", "available_until": null, "pricing": {"diamond": [{"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": null}], "premium": [{"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": null}], "ultimate": [{"price_eur": 1, "price_usd": 1, "price_gbp": 1, "ending_quantity": null}]}}}, "nova_v1": {"month": {"code": "nova_v1", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "gold": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "growth": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "lite": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "platinum": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "premium": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "ruby": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "silver": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}], "ultimate": [{"price_eur": 10, "price_usd": 10, "price_gbp": 10, "ending_quantity": null}]}}, "year": {"code": "nova_v1", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "gold": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "growth": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "lite": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "platinum": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "premium": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "ruby": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "silver": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}], "ultimate": [{"price_eur": 96, "price_usd": 96, "price_gbp": 96, "ending_quantity": null}]}}}, "nova_v2": {"month": {"code": "nova_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "gold": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "growth": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "lite": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "platinum": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "premium": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "ruby": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "silver": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}], "ultimate": [{"price_eur": 15, "price_usd": 15, "price_gbp": 15, "ending_quantity": null}]}}, "year": {"code": "nova_v2", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "gold": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "growth": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "lite": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "platinum": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "premium": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "ruby": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "silver": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}], "ultimate": [{"price_eur": 144, "price_usd": 144, "price_gbp": 144, "ending_quantity": null}]}}}, "nova_v3": {"month": {"code": "nova_v3", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "gold": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "growth": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "lite": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "platinum": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "premium": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "ruby": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "silver": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}], "ultimate": [{"price_eur": 20, "price_usd": 20, "price_gbp": 20, "ending_quantity": null}]}}, "year": {"code": "nova_v3", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "gold": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "growth": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "lite": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "platinum": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "premium": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "ruby": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "silver": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}], "ultimate": [{"price_eur": 192, "price_usd": 192, "price_gbp": 192, "ending_quantity": null}]}}}, "nova_v4": {"month": {"code": "nova_v4", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "gold": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "growth": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "lite": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "platinum": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "premium": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "ruby": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "silver": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}], "ultimate": [{"price_eur": 25, "price_usd": 25, "price_gbp": 25, "ending_quantity": null}]}}, "year": {"code": "nova_v4", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": null, "available_until": null, "pricing": {"diamond": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "gold": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "growth": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "lite": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "platinum": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "premium": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "ruby": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "silver": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}], "ultimate": [{"price_eur": 240, "price_usd": 240, "price_gbp": 240, "ending_quantity": null}]}}}, "custom_fields_pack": {"month": {"code": "custom_fields_pack", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-07-01 00:00:00", "available_until": null, "pricing": {"growth": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}], "premium": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}], "ultimate": [{"price_eur": 50, "price_usd": 50, "price_gbp": 50, "ending_quantity": null}]}}, "year": {"code": "custom_fields_pack", "tier_type": "volume_plan_tier_based", "quantity_pricing_type": "volume_plan_tier_based", "available_from": "2026-07-01 00:00:00", "available_until": null, "pricing": {"growth": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}], "premium": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}], "ultimate": [{"price_eur": 500, "price_usd": 500, "price_gbp": 500, "ending_quantity": null}]}}}}}

@@ -1,0 +1,117 @@
+SOURCE: https://support.pipedrive.com/en/article/leadbooster-add-on
+FETCHED: 2026-09-26T22:55:53.956Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Lead generation/LeadBooster add-on/LeadBooster add-on
+
+Topics
+What is included?
+Chatbot
+Live Chat
+Web Forms
+Prospector
+LeadBooster add-on
+BF
+Breandan Flood
+Last updated: September 22, 2026
+Note: The LeadBooster add-on is included in the Premium and higher plans but can also be added to Lite and Growth plans. LeadBooster add-on users receive full, unlimited access to the meeting scheduler.
+
+LeadBooster add-on helps you attract, manage and convert leads into active deals. It includes four features designed to capture high-quality inbound and outbound leads.
+
+Once you’ve added the LeadBooster add-on to your subscription, you can view the features under the Leads Inbox in your account.
+
+Note: For details on how LeadBooster and Prospector credits are billed, see this article.
+What is included?
+
+With LeadBooster, you get access to the four lead generation features:
+
+Chatbot
+Live Chat
+Prospector
+Web Forms
+Note: Web Visitors is not included in the LeadBooster add-on package and must be purchased separately.
+Chatbot
+
+The Chatbot interacts with website visitors, asking questions and collecting details to qualify them as potential leads.
+
+You can set it up using a playbook and choose whether to create leads or deals based on the chat.
+
+Live Chat
+
+Live Chat works alongside the Chatbot, letting your team talk directly with the visitors in real time.
+
+Web Forms
+
+Web Forms let you collect visitor information through customizable forms embedded on your site. Submissions go directly into Pipedrive as new leads or deals.
+
+Prospector
+Note: You’ll need a paying Pipedrive subscription to receive and use prospector credits. These credits aren’t available during your Pipedrive free trial.
+
+Prospector is an outbound lead generation tool that connects you with potential customers. It gives access to over 400 million profiles and 10 million companies.
+
+Use filters like job title, location and industry to define your ideal customer. Prospector will return matching leads that you can add to your pipeline with just a few clicks.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Prospector
+Live Chat
+Web Visitors
+Leads Inbox
+Is the Prospector feature GDPR compliant?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

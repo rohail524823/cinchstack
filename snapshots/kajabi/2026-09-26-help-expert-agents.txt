@@ -1,0 +1,251 @@
+SOURCE: https://help.kajabi.com/articles/products/products-overview/expert-agents-overview
+FETCHED: 2026-09-26T22:15:56.355Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Expert Agents overview
+Set up a Teaching Assistant
+Manage a Teaching Assistant
+Set up a Sales Agent
+Manage a Sales Agent
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Key benefits
+Types of Expert Agents
+Teaching Assistant
+Sales Agent
+Choose the right Expert Agent
+How Expert Agents work
+AI model
+Pricing
+Set up an Expert Agent
+FAQs
+What’s the difference between a Teaching Assistant and a Sales Agent?
+How are messages billed?
+Does my Expert Agents limit apply to each site or to my whole account?
+Can an Expert Agent be moved to another site or shared between sites?
+Can a member or visitor talk to an Expert Agent by voice?
+What language do Expert Agents respond in?
+Can an Expert Agent be embedded on a non-Kajabi website?
+Where is each type of Agent available throughout my Kajabi account?
+Expert Agents
+Expert Agents overview
+
+Deploy AI chat experiences that answer member and prospect questions across your Kajabi site.
+
+Expert Agents are AI chat experiences you add to your Kajabi pages to answer questions in your voice, using your own content and Offers. They work around the clock, so your students get help while they learn and your prospects get answers while they decide — without you being online.
+There are two types of Expert Agents, each built for a different moment in the member journey. 
+A Teaching Assistant supports members who already own a Product
+A Sales Agent helps prospects on your landing pages before they buy
+Both types share the same foundation: they’re grounded in materials you’ve already published, they live on Kajabi-hosted pages, and you control their name, tone, and placement.
+​
+Key benefits
+Always-on help and selling — Agents answer questions 24/7, so members aren’t stuck and prospects aren’t left waiting
+Grounded in your expertise — Responses draw from your published content and Offer details, not generic web answers
+Native to Kajabi — No third-party chat tools to connect or maintain
+Coverage across the journey — Support buyers before purchase and members after, on the right pages for each
+You stay in control — Customize each Agent’s knowledge, personality, and where it appears
+​
+Types of Expert Agents
+​
+Teaching Assistant
+A Teaching Assistant lives inside a Product and answers member questions using the Lessons, transcripts, and Community posts they already have access to. It speaks in the third person about your expertise (“Based on what Coach Sarah teaches in Module 3…”), never claims to be you, and refers members back to you for deeper engagement. Each member only sees answers sourced from content their Product membership grants them access to.
+​
+Sales Agent
+A Sales Agent lives on your Landing and Sales Pages and helps prospects before they buy — answering questions about pricing, what’s included, and which Offer is the right fit. Because it speaks to prospects rather than enrolled members, it can reference your Offer details and product descriptions without the visitor needing to own anything first. 
+​
+Choose the right Expert Agent
+	Teaching Assistant	Sales Agent
+Stage	Post-purchase	Pre-purchase
+Audience	Enrolled members	Prospects and visitors
+Lives on	Member pages inside a Product	Landing and Sales Pages
+Draws knowledge from	Lessons, transcripts, and Community posts the member can access	Offer details, pricing, and product descriptions
+Goal	Answer questions and support learning	Answer pre-sale questions and guide buyers to purchase
+​
+How Expert Agents work
+Agents are powered by AI and trained on materials you’ve already published — your content, transcripts, and Offer details
+They respect access. A Teaching Assistant only answers from content a member can access, and a Sales Agent references the Offers you link it to.
+They live on Kajabi-hosted pages. You place an Agent using the Theme Editor as either a floating chat button or an embedded chat block.
+They’re text-based at launch — no voice mode
+Note: Builder 2.0 is required when adding an Expert Agent to a Page or Product. Learn how to upgrade here.
+Note:
+Agents only work on themes built on the latest Encore and Premier site themes, and Premier and Momentum product themes: Encore Site 2.14.7, Encore Landing Page 2.14.7, Encore Offer 2.14.7, Encore Offer Upsell 2.14.7, Premier site 6.5.2, Premier Product 7.10.3, Momentum Product >=7.1.3 and above.
+Third-party templates can be updated to work with Agents.
+​
+AI model
+Expert Agents run on GPT-5.4 for more accurate, more natural responses. Both Teaching Assistants and Sales Agents use it. To confirm the model an agent is running, open the Agent and check the AI model field in its details.
+​
+Pricing
+Expert Agents are priced per agent, per month. Every agent you add includes 1,000 messages per month and 250 AI credits per month.
+	Early adopter rate	Standard rate
+When	August 1st, 2026 through September 30th, 2026	After September 30th, 2026
+Price per agent	$49 per month	$79 per month
+Multi-agent discount	30% off when you buy more than one agent, or $34.30 per month per agent	Not available
+Rate lock	Locked in for 12 months from the date of purchase	Not applicable
+Note: The early adopter rate is only available on agents purchased between August 1st and September 30th, 2026. Buy within that window to lock the rate in for 12 months.
+​
+Set up an Expert Agent
+Ready to add one? Start with the guide for the type you need:
+Set up a Teaching Assistant — Create an Agent that supports members inside a Product
+Manage a Teaching Assistant — Keep content current, monitor conversations, and troubleshoot
+Set up a Sales Agent— Create an Agent that guides prospects to purchase on a Landing Page
+Manage a Sales Agent — Edit, monitor, and troubleshoot a Sales Agent
+​
+FAQs
+​
+What’s the difference between a Teaching Assistant and a Sales Agent?
+A Teaching Assistant supports members who already own a Product, answering questions from content they can access. A Sales Agent helps prospects before they buy, referencing your Offer details and product descriptions on a Landing Page. Both are Expert Agents and share the same account-wide limit.
+​
+How are messages billed?
+Expert Agents are priced per agent, per month, and each agent includes 1,000 messages per month and 250 AI credits per month. There is no separate per-message charge for the messages included with your agents. See Pricing for current rates. If usage terms change in the future, any update will be announced before it takes effect.
+​
+Does my Expert Agents limit apply to each site or to my whole account?
+Your limit applies to your whole account. Every enabled Expert Agent counts toward the same total, no matter which site it lives on, the same way Products count toward one account-wide Product limit. If you have three Agents available and you set up two on one site, you have one left to use on any other site in your account. The Agent count shown in the Agents area is your account total, so it reads the same on every site you switch to.
+​
+Can an Expert Agent be moved to another site or shared between sites?
+No. An Expert Agent belongs to the site you created it on, and it can only use content from that site as its knowledge source. Duplicating a Product onto another site does not bring its Agent along. To run an Agent on a second site, switch to that site, create an Agent there, and connect that site’s content. The Agent you create counts toward your account-wide Agent total, so you do not need a separate limit for each site.
+​
+Can a member or visitor talk to an Expert Agent by voice?
+No. Expert Agents are text-only at launch.
+​
+What language do Expert Agents respond in?
+An Agent responds in the language the person writes in, and draws from your content in whatever language it was originally written or captioned in. You can add a custom instruction if you want an Agent to respond in a single language.
+​
+Can an Expert Agent be embedded on a non-Kajabi website?
+No. Expert Agents render only on Kajabi-hosted pages.
+​
+Where is each type of Agent available throughout my Kajabi account?
+Here is a list of the places you can add each type of Expert Agent:
+Coaching (1-on-1 or Group): Teaching Assistant
+Courses: Teaching Assistant
+Landing Pages: Both Teaching Assistant and Sales Agent
+Offer Checkout pages: Sales Agent
+Upsell pages: Sales Agent
+Website Pages: Both Teaching Assistant and Sales Agent
+
+Was this page helpful?
+
+Yes
+No
+Understand Downloads security
+Previous
+Set up a Teaching Assistant
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

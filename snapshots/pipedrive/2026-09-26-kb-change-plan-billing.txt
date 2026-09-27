@@ -1,0 +1,107 @@
+SOURCE: https://support.pipedrive.com/en/article/what-happens-to-my-billing-when-i-change-my-pipedrive-subscription-plan
+FETCHED: 2026-09-26T22:57:13.738Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Billing information/What happens to my bi...
+
+Topics
+Upgrading plans
+Downgrading plans
+What happens to my billing when I change my Pipedrive subscription plan?
+JT
+Jenny Takahara
+Last updated: September 2, 2026
+Note: Changing subscription plans is an action available only to users with account settings access.
+
+Users with account settings permissions can switch between any of our available plans at any point during the billing cycle.
+
+When changing between subscription plans, the time the change takes effect will depend on whether you‘re upgrading or downgrading plans.
+
+Upgrading plans
+
+If you’re upgrading your plan, the new plan will take effect immediately, and you’ll receive a credit memo and an updated invoice. The credit memo will be for the balance remaining in the current period of the original plan.
+
+You‘ll then receive an invoice charging for the new plan for the remainder of the billing cycle. The balance of the credit memo will be applied fully to the invoice for your new plan.
+
+Example:
+
+A user on the Growth plan, billed monthly, switches to the Premium plan halfway through the billing cycle.
+
+Credit memo: a credit for the remaining time (2 weeks) in the monthly cycle for the Growth plan.
+Invoice: an invoice for the Premium plan for the remaining time (2 weeks) in the billing cycle. The balance of the credit memo will be applied as a partial payment towards this invoice.
+Downgrading plans
+
+If you’re downgrading your plan, the changes will take effect at the end of the current billing cycle, when issuing the next renewal invoice.
+
+Further subscription changes made before the end of the current billing cycle may override the scheduled one.
+
+Example:
+
+A user on the Premium plan, billed monthly, switches to the Growth plan halfway through the billing cycle.
+
+The user will be on the Premium plan for the rest of the billing cycle and be charged for the Growth plan at the beginning of the new cycle
+While the change is pending, you’ll see a banner at the top of your billing overview page specifying the scheduled update.
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

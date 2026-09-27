@@ -1,0 +1,234 @@
+SOURCE: https://www.pipedrive.com/en/nova
+FETCHED: 2026-09-26T22:45:01.247Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+Conversation intelligence built into every deal
+
+Before, during and after every call – Pipedrive Nova captures what matters and keeps your CRM up to date, right inside Pipedrive.
+
+Nova is included in all plans, at no additional cost.
+
+Try it free
+Opens in new window
+
+Client data is never used to train AI models
+
+Protected by Pipedrive
+
+Built with privacy in mind
+
+You're always in control
+
+Trusted by 100,000+ companies in 179 countries
+
+Nova handles the admin work
+
+Briefed before.
+
+Nova automatically pulls deal history, past emails and previous conversations into a brief before every call. You always know exactly where things left off and what you need to do next.
+
+Focused during.
+
+Nova records and transcribes your calls so you don’t have to. With the desktop app, no bot joins the conversation, and it covers VoIP, phone calls, in-person meetings and other calls AI notetakers can’t join.
+
+Updated after.
+
+After the call, Nova automatically generates a recap and drafts CRM updates based on the conversation – everything lands directly in Pipedrive. You can then review and approve the updates with one click, and nothing touches your pipeline until you say so.
+
+Nova takes meeting notes for you
+
+Nova records what’s being discussed and captures key details, decisions and next steps, so you can stay fully focused on the conversation, not on taking notes.
+
+More and more teams are going bot-free with the desktop app, which covers video, VoIP, phone and in-person calls.
+
+Prefer a bot that joins as a visible participant? Nova can join Google Meet, Zoom or Microsoft Teams automatically from your calendar.
+
+Bring Nova into your workflow
+
+Nova is the conversation intelligence platform for sales. From the brief before your call to the update that lands in your CRM, it handles every step in between.
+
+Pre-call briefs
+Context pulled from deal history, past emails and previous conversations, plus contact and organization info where available.
+Checklist highlighting recent activity, so you know what’s changed since your last conversation.
+Fully customizable – add free-form instructions from the deal overview, and Nova tailors every future briefing to match.
+Slack notification the moment your brief is ready.
+Call recording with summaries and transcripts
+Meeting debrief with key takeaways and recommended next steps.
+Notification in Slack as soon as the recap is ready.
+Full transcript with timestamps – click any action item to jump to that moment in the call.
+Automatically saved as a note on the linked deal, person or organization, so the context never gets lost.
+CRM data sync
+Suggested updates across deal, person and organization fields, including custom fields, labels and contact details such as phone numbers or email addresses.
+Nova’s suggestion is shown side by side with the current value, so nothing changes without you seeing it first.
+You have the final say – approve what’s accurate, edit what needs refinement and skip what’s no longer relevant.
+You stay in control
+
+With Nova, nothing happens without your sign-off:
+
+Add your own instructions to the pre-call briefs.
+
+Meeting owners can remove the bot from any call.
+
+Approve, edit or skip every CRM update before it gets to your pipeline.
+
+Security and privacy built into Nova
+You’re always in control
+
+Nova doesn’t update your CRM without your review and approval.
+
+Client data isn’t used to train AI models
+
+Neither Pipedrive nor our AI providers use client data to train AI models.
+
+Built with privacy in mind
+
+Pipedrive implements measures in line with GDPR to safeguard personal data.
+
+Protected by Pipedrive
+
+Nova uses the same technical and organizational measures as the rest of Pipedrive.
+
+Learn more in our Trust Center
+Fits into your process, not around it
+
+Built into Pipedrive
+
+As a sales meeting intelligence platform native to Pipedrive, Nova lives in its own dedicated tab. Every update lands directly into your deal, person and organization records – no copy-pasting or switching between tools required.
+
+Works with tools you already use
+
+Nova records and transcribes Google Meet, Zoom and Microsoft Teams calls, as well as VoIP, dial-in calls and in-person meetings. If your computer can pick up the audio, Nova can capture the details and decisions.
+
+Covers calls Nova didn’t record
+
+Even if a call happened outside Nova, you can upload the transcript afterward. You’ll still get a full recap and ready-to-approve CRM update suggestions, just like any call Nova joins and records directly.
+
+Many of us use third-party apps to record and transcribe meetings, but the real issue has always been importing and managing that information inside Pipedrive. With Nova, everything becomes fantastic.
+M
+Marco
+CEO
+The review brief before doing calls is great. Love it. Instead of having to open the deal and go through all the previous conversations and notes, it just scrapes it all together.
+C
+Cian
+Training Pilot
+I've noticed that it's allowed me to be more present in my calls. If I do miss something, I'm not as worried about it, because I know I can go back and find it.
+T
+Thalia
+Account Executive
+Your data, your call
+Is my client data used to train Nova AI models?
+NO
+Does Pipedrive Nova follow GDPR-compliant data practices?
+YES
+Is Nova included in my standard Pipedrive plan?
+YES
+Does Pipedrive Nova capture VoIP, dial-in and in-person meetings?
+YES
+Can participants opt out of being recorded?
+YES
+Frequently asked questions
+How does Pipedrive Nova use my data?
+
+Nova securely analyzes your Pipedrive data and transcripts to deliver tailored meeting prep, recaps, and CRM updates. We only use your data to power your experience. We don’t allow third-party AI providers to train on your data, nor do we train our own models on it without your explicit permission.
+
+Can I choose which meetings Pipedrive Nova joins or remove it from a call?
+
+Yes, you have complete control over which calls Nova captures. You can easily enable or disable the auto-join feature at any time within Settings. When using the Companion desktop app, you decide whether to capture meetings or not.
+
+Why not just use MCP or my custom AI assistant instead of Pipedrive Nova?
+
+MCP and AI assistants are reactive. They answer questions using whatever’s already in your CRM and only when you ask. Nova is proactive. It builds your pre-call brief, captures the conversation and drafts the CRM update automatically, no prompting needed.
+
+Use MCP for on-demand queries or custom reporting. Use Nova for meeting prep and CRM updates to be handled automatically. Many teams use both together.
+
+Do I need consent to record meetings with Pipedrive Nova?
+
+As the meeting organizer, you’re responsible and accountable for ensuring compliance with applicable laws and regulations, including informing participants that Nova is active and obtaining their consent where required by law, and respecting any participant's request not to be recorded. Nova helps you stay compliant by offering pre-meeting email notifications with built-in consent or opt-out options. Additionally, Nova can generate a shareable consent link, and when the bot joins a call, it automatically posts an in-meeting chat message notifying all participants.
+
+Meeting hosts can remove the Nova bot from the call at any time, which will stop the recording.
+
+Recording and transcription laws vary by jurisdiction. Several U.S. states and the EU require consent from participants before any recording or transcription begins. Some require consent from every participant, others require only one party's consent. You are accountable for honoring participants’ preferences.
+
+Will Pipedrive Nova change my Pipedrive CRM data without my permission?
+
+No. Nova may add meeting summaries and transcripts as notes, but it won't change existing CRM data without your approval.
+
+What is conversation intelligence software?
+
+Conversation intelligence software captures and analyzes sales calls to surface insights like next steps, deal risks and buyer sentiment. Nova is built natively into Pipedrive, so those insights become CRM updates instead of a separate report.
+
+What are the benefits of conversation intelligence software?
+
+The biggest wins from conversation intelligence software are fewer admin tasks and fewer missed details. Nova automatically recaps every call and drafts the CRM update, so nothing falls through the cracks.
+
+How does conversation intelligence software work for sales teams?
+
+Conversation intelligence software records or transcribes sales conversations, then uses AI to pull out details like next steps, objections and deal updates. Nova matches those details to your Pipedrive fields, so reps can keep, edit or skip the CRM update after every call.
+
+How to choose the best conversation intelligence software?
+
+The best conversation intelligence software fits seamlessly into your existing workflow, rather than adding another app to manage. Look for tools that live inside your CRM, turn calls into reviewable updates and give you control over what gets captured. Nova is built natively into Pipedrive to do exactly that.
+
+How can I integrate conversation intelligence software with my current CRM?
+
+Most conversation intelligence software connects to your CRM through custom integrations or manual field mapping, which takes setup and upkeep. Nova skips that step. It’s built natively into Pipedrive, so call insights and CRM updates already live in the same place.
+
+Nova: Pipedrive's built-in sales meeting intelligence software.
+Try it free
+
+Full access. No credit card needed.
+
+Skip footer navigation links
+Product
+Features
+Pipedrive AI
+Pricing
+Integrations
+API
+MCP
+Product updates
+Discover
+Partner program
+Referral program
+Case studies
+Sales pipeline course
+What is CRM?
+Resources
+Sales calculator
+Help Center
+Knowledge Base
+Academy
+FAQs
+Status
+Support
+(Available now)
+Company
+About
+Jobs
+Blog
+Newsroom
+Get our newsletter
+Trust center
+Legal hub
+Sub-processors
+English
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

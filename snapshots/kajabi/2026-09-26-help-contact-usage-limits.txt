@@ -1,0 +1,191 @@
+SOURCE: https://help.kajabi.com/articles/contacts/manage-your-contacts/contact-usage-limits
+FETCHED: 2026-09-26T22:41:15.022Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Understand contact usage limits
+Distinguish between Insights and Analytics
+Import contacts into Kajabi
+Format a CSV for contact imports
+Use Google Sheets to combine first and last name
+Contact search improvements
+Apply filters to the Contacts tab
+Define contact activity
+Segment contacts
+Tags overview
+Manage contact profiles
+Use Contact Preview
+Edit contact information
+Add a note to a contact profile
+Collect additional information from existing contacts
+Understand Gravatar for contact avatars
+Perform bulk actions in the Contacts tab
+Merge contacts
+Hide contacts
+Delete a contact
+Export contacts
+Fix missing contact names in the Contacts tab
+Create a custom affiliate signup page
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+What happens when you approach the contact limit
+What happens when an account is locked
+Make room for contacts
+Upgrade
+Delete contacts
+Contacts
+Understand contact usage limits
+
+Manage your account effectively and avoid interruptions by staying within contact usage limits.
+
+Understanding your contact usage limits helps you manage your account effectively and avoid interruptions to your business.
+​
+What happens when you approach the contact limit
+If you reach 90% of your contact usage, you will see an in-app notification and banner upon login:
+If you hit 100% of your contact usage, you will receive an email notification and an updated in-app banner upon login:
+You will be given 30 days to update or remove your contacts before your account is locked. After the 30-day grace period, you will be unable to access your account and will be required to upgrade to a higher plan or reach out to our support team to help you delete contacts.
+​
+What happens when an account is locked
+After the 30-day grace period, you will be unable to access your account and will be required to upgrade to a higher plan or reach out to our support team to help you delete contacts. During this time you will be able to log into your account but only to use the Account Settings pages to upgrade.
+Important: Your customers’ user experience will not change. They will still be able to engage with your website, emails, automations, courses, etc.
+​
+Make room for contacts
+​
+Upgrade
+If at any point you choose to upgrade your plan, you can upgrade your account through your Account Settings. Learn more.
+Choose the plan that best fits your growing business needs.
+​
+Delete contacts
+Don’t want to change your plan? Consider removing contacts that are:
+Not customers
+Are unsubscribed
+And not added in the last 60 days
+Additionally, it is always a good idea to remove inactive, unsubscribed, or bounced contacts to make room for contacts.
+Learn to delete contacts.
+
+Was this page helpful?
+
+Yes
+No
+Explore the Contacts tab
+Previous
+Distinguish between Insights and Analytics
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

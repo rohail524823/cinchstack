@@ -1,0 +1,272 @@
+SOURCE: https://help.kajabi.com/articles/website/pages/how-to-add-a-website-widget-to-your-page
+FETCHED: 2026-09-26T22:45:16.734Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+⌘K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Getting started
+Standard pages
+Page sections
+Content blocks
+Site navigation
+Lead capture
+Visual styling
+Media assets
+Site templates
+Page settings
+Code & integrations
+Add custom code to pages
+Add an Instagram Feed to a page
+Do you allow in-app code embedding to integrate with other systems?
+Access the code editor
+Add a ManyChat widget to a website
+Add a website widget to a page
+Add Facebook comments to a page
+Collect reviews on a Kajabi site
+Embed a third-party audio player to a page
+Install an add to calendar button to a page
+Sell physical products on Kajabi with Shopify buy buttons
+Use YouTube Live on a page
+Website widgets available in the Kajabi Page Builder
+Common questions
+Premier (Legacy)
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+What is a website widget?
+Which types of widgets can I add?
+Does it cost extra to add a website widget?
+Add a website widget to a page
+Customizing your widget
+Upgrade your widget tier
+Edit a widget
+Delete a widget
+Troubleshooting
+FAQ
+How many widgets can I add?
+Can I customize my widget?
+Will my widget work on mobile devices?
+Can I track analytics from my widget?
+Code & integrations
+Add a website widget to a page
+
+Learn how to enhance the functionality of your website pages and landing pages by adding website widgets in the Page Builder.
+
+This feature is available via licensed 3rd party integration with Common Ninja. Your first widget is free, additional widgets are subject to an additional cost.
+​
+What is a website widget?
+Website widgets enable you to quickly and easily add a large variety of functionality to your online pages to increase user engagement. No code required.
+This powerful tool is now conveniently integrated into the Kajabi Page Builder, allowing you to add features and functionality to your website pages and landing pages in as little as a few clicks.
+​
+Which types of widgets can I add?
+Enjoy an extensive collection of customizable, mobile-friendly widgets, including but not limited to the following website widgets:
+View a description of each widget.
+​
+Does it cost extra to add a website widget?
+Kajabi is not applying the page view limits for our Heroes at any tier.
+Website widgets are an add-on to your base Kajabi plan fee.
+The website widget Free tier allows you to add 1 website widget to 1 page in your Kajabi account free of any extra cost (i.e. if you have multiple sites in your account, you’ll only be able to add a widget to 1 page of 1 site for free).
+Adding more than 1 website widget in your Kajabi account will be subject to an additional cost outside of your base plan fee. Multiple paid tier levels are available for you to choose from so you can pick the add-on plan that best fits your business:
+Learn how to upgrade your widget tier.
+​
+Add a website widget to a page
+Note:
+If you’re adding a widget to a pre-existing page, you may need to update your page template in order to add your widget. Click the “Update” button to the right of your website template name or landing page name to update your template. If you create a new page, your page will automatically have the latest template version.
+To add a widget to a website page or landing page in Kajabi:
+Open your page in the Page Builder for editing.
+Click + Add Section in the left sidebar editor to add your widget in a new page section. Or, click to open any existing page section in the editor and click + Add Content.
+Click the Custom widgets tile at the top of the options menu. Or, scroll down and select the “Custom Widget” regular menu tile.
+A modal popup containing a widget library will appear.
+Hover over each widget name in the menu to see a preview and description of the widget. You can also search for a specific type of widget using the search bar.
+Click on the name of the widget you want to add to your page. The widget will open in a popup widget editor for customization:
+​
+Customizing your widget
+Next, customize your widget as desired in the widget editor. Click the tabs on the left sidebar of the editor to view all of the customization options available for your widget.
+Note:
+Customization options will vary for each type of widget. The options you see in the widget editor may look different than the options for the Animated Number Counter widget displayed in the screenshot examples below.
+On the widget editor “Content” tab, update content elements like text and images:
+On the “Look and Feel” tab, customize visual elements like colors and fonts:
+On the “Settings” tab, adjust your content and formatting settings as desired:
+Use the “Integration” tab to connect your widget to a data source to display live data:
+When you’re done customizing, click Preview at the top right of the widget editor to view a preview of your widget.
+Click X at the top right corner of the preview window to return to the widget editor.
+If everything looks good, click Save Changes at the top right of the widget editor. A preview of the widget will be added to your page section in the Page Builder (if you added your widget in a new section, it will appear at the bottom of your page.)
+Important: You must next click Save at the top right of the Page Builder to save and apply your changes to the page.
+Adding the “Back to Top Button” or the “WhatsApp Chat” widget? Widgets like these will appear at the bottom right corner of your page. In order to add these widgets without affecting the spacing of other page content, we recommend placing the widget block at the bottom of your page and adjusting the block padding (inside spacing) to zero. Learn to adjust your block layout.
+​
+Upgrade your widget tier
+Ready to add more widgets? You can conveniently upgrade your widget tier from inside the widget library.
+To upgrade to a paid tier:
+Open any website or landing page in the Page Builder. (Note: If you’re using a pre-existing page, make sure your page is updated to the latest template version or you might not see the widget feature).
+Click + Add Section in the left sidebar editor.
+Click the Custom widgets tile at the top of the options menu.
+A modal popup containing a widget library will appear.
+Click View plans at the top right of the widget library.
+Select the tier level you want to upgrade to and click Get started:
+You’ll be directed to a page in your Kajabi Billing Settings where you can review and confirm your subscription changes.
+Make sure to click Confirm to complete the upgrade:
+Note:
+When you sign up for a website widget paid tier add-on, the add-on fee will be prorated to match your current Kajabi plan billing cycle. If you’re on a monthly Kajabi subscription plan you’ll only have the option to select a monthly website widget add-on fee, and if you’re on an annual subscription plan you’ll only have the option to select an annual widget add-on fee.
+Upgrade your widget tier level any time either inside the widget library, or in the Add-ons section of your Kajabi Billing Settings (Settings > Billing). To downgrade your widget tier level, contact support.
+​
+Edit a widget
+To edit a widget you’ve added to a page:
+Open your page in the Page Builder for editing.
+Click to open the widget in the sidebar editor.
+Then, click Edit widget. The widget will open in a popup widget editor for customization.
+Edit your widget as desired in the widget editor.
+When you’re done editing, click Preview at the top right of the widget editor to view a preview of your widget.
+Click X at the top right corner of the preview window to return to the widget editor.
+If everything looks good, click Save Changes at the top right of the widget editor. Your changes will automatically appear in both the Page Builder and on your live page. You don’t need to click “Save” again in the Page Builder when editing an existing widget:
+Note:
+Widget blocks cannot be duplicated in the Page Builder. If you duplicate a page section containing a widget block, the widget block will not be duplicated. If you duplicate an entire page with a widget block, only an empty placeholder widget block will be added to the copied page. However, you can manually recreate your widget on the new page if desired.
+​
+Delete a widget
+To remove a widget you’ve added to a page:
+Open your page in the Page Builder for editing.
+Click to open the widget in the sidebar editor.
+Scroll to the bottom of the sidebar editor and click Delete This Block. (Note: If you added your widget inside a Custom Widget page section and you also wish to delete that section from your page, click Delete This Section.)
+Important: You must next click Save at the top right of the Page Builder to save and apply your changes to the page:
+​
+Troubleshooting
+Encountering an error with a widget? If you see an error message while trying to add or edit a widget in the Page Builder, try refreshing your browser tab.
+If you still see the error message after refreshing your browser, contact support for further assistance.
+​
+FAQ
+​
+How many widgets can I add?
+The number of website widgets you can add in your Kajabi account will depend on which add-on plan tier you choose.
+​
+Can I customize my widget?
+Yes. The customization options will differ for each type of widget, but most widgets will allow you to adjust certain aspects of their appearance and functionality to fit your specific needs.
+​
+Will my widget work on mobile devices?
+Yes, website widgets are mobile-friendly and will adjust to mobile device dimensions.
+​
+Can I track analytics from my widget?
+Yes, you’ll be able to view your widget analytics in the page analytics dashboard for your page. If you have a Google Analytics integration set up for your page and you turn on Google Analytics for the widget, you can also view your widget events in Google Analytics.
+
+Was this page helpful?
+
+Yes
+No
+Add a ManyChat widget to a website
+Previous
+Add Facebook comments to a page
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

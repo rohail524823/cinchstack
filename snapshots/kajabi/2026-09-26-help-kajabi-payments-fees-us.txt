@@ -1,0 +1,308 @@
+SOURCE: https://help.kajabi.com/articles/sales/kajabi-payments/kajabi-payments-fees-united-states
+FETCHED: 2026-09-26T22:15:22.016Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Kajabi Payments overview
+ACH Direct Debit for invoicing
+Buy Now, Pay Later methods with Kajabi Payments
+Disputes page overview
+Instant Payouts with Kajabi Payments
+Set up Kajabi Payments: Australia
+Set up Kajabi Payments: Canada
+Set up Kajabi Payments: Europe
+Set up Kajabi Payments: United Arab Emirates
+Set up Kajabi Payments: United Kingdom
+Set up Kajabi Payments: United States
+Bank updates and payout schedule timing
+Use Klarna with Kajabi Payments
+Convert offers from Stripe to Kajabi Payments
+Enable Afterpay on Kajabi Payments Offers
+Enable Apple Pay and Google Pay on Kajabi Payments Offers
+Integrate QuickBooks Online with Kajabi Payments
+Integrate Xero with Kajabi Payments
+Manage failed payments with Kajabi Payments
+Respond to a dispute with Kajabi Payments
+Set up and manage subscriptions with Kajabi Payments
+Update billing dates for Kajabi Payments subscriptions
+Verify an EIN for Kajabi Payments
+View Kajabi Payments payouts and payout details
+Create and manage invoices with Kajabi Payments
+Kajabi Capital: fast, frictionless business funding
+Kajabi Payments 1099-K tax forms
+Complete Kajabi Payments verification requirements
+Complete Kajabi Payments verification requirements
+Kajabi Payments fees: Australia
+Kajabi Payments fees: United Kingdom
+Kajabi Payments fees: Canada
+Kajabi Payments fees: Europe
+Kajabi Payments fees: United Arab Emirates
+Kajabi Payments fees: United States
+Kajabi Payments onboarding required documentation by region
+Kajabi Payments payouts
+Kajabi Payments processing fee invoices
+Kajabi Payments Processing Fees
+Kajabi Payments sales tax overview
+Kajabi Payments statement descriptor
+Updates to Kajabi Payments card pricing in Australia
+Migrate Stripe subscriptions & payment plans to Kajabi Payments
+Payment plans
+Payment settings
+Subscriptions
+Transactions
+Direct Debit for Kajabi Payments (UK, EU, & Australia)
+Understanding Stripe's restricted business list for Kajabi Heroes
+Understanding Stripe's updated billing plans for Kajabi Heroes
+Payment disputes
+Create a manual purchase
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Credit and debit cards (including digital wallets such as Apple Pay and Google Pay)
+Card rate discounts
+ACH Direct Debit
+Buy Now, Pay Later
+Afterpay
+Klarna
+Additional fees
+Subscriptions and payment plans
+Kajabi Sales Tax
+Invoicing
+Manual Purchases
+Disputes
+Currency conversion
+Instant Payouts
+Refunds
+FAQs
+When is an international fee applied?
+When would I be charged a subscription or payment plan fee?
+When does the currency conversion fee get applied?
+Where can I see these fees?
+Will refunding transactions mean that my customer cannot raise a dispute?
+Can I do a refund after a dispute has been raised to avoid the dispute fee?
+Kajabi Payments
+Kajabi Payments fees: United States
+
+A breakdown of Kajabi Payments fees for businesses registered in the United States.
+
+Kajabi Payments processing fees for businesses registered in the United States cover card transactions, ACH Direct Debit, Buy Now Pay Later options, and additional fees such as disputes, currency conversion, sales tax, invoicing, and Instant Payouts.
+Note: Kajabi Payments is currently available to Kajabi Heroes whose businesses are registered in the United States, Canada, Australia, the United Arab Emirates, the United Kingdom, and select European countries.
+​
+Credit and debit cards (including digital wallets such as Apple Pay and Google Pay)
+Fee type	Rate
+Card transactions	2.9% + $0.30 USD
+International cards	+ 1.5%
+Dispute, currency conversion, sales tax, and invoicing fees may also apply. See Additional fees below.
+​
+Card rate discounts
+You may qualify for discounted card rates based on your plan. To check, go to Account Settings > Billing for details of your current plan.
+To see how your plan stacks up against our newest plans and if you might save, explore our Pricing Hub.
+​
+ACH Direct Debit
+Fee type	Rate
+ACH payment processing	0.80% (capped at $5.00)
+Bank account verification	+ $1.50 per verification attempt
+Failed ACH payment	+ $4.00
+Dispute, currency conversion, sales tax, and invoicing fees may also apply. See Additional fees below.
+Learn more about ACH Direct Debit for Invoicing.
+​
+Buy Now, Pay Later
+​
+Afterpay
+Fee type	Rate
+One-time payment transaction	6% + $0.30 USD
+Cross-border	+ 1.5%
+​
+Klarna
+Fee type	Rate
+One-time payment transaction	5.99% + $0.30 USD
+Dispute, currency conversion, sales tax, and invoicing fees may also apply. See Additional fees below.
+​
+Additional fees
+The following fees can apply regardless of which payment method your customer uses. You’ll only be charged for the ones relevant to your transaction.
+​
+Subscriptions and payment plans
+This fee applies to recurring transactions, in addition to the base processing rate for the payment method used. It applies to every transaction in the series, including the first one.
+Fee type	Rate
+Subscriptions & payment plans	+ 0.7%
+​
+Kajabi Sales Tax
+Fee type	Rate
+Kajabi Sales Tax	$0.15 per transaction
+With Kajabi Sales Tax, you only pay for what you use. The fee is 15 cents per transaction and will only apply to transactions from Offers that have Kajabi Sales Tax enabled.
+​
+Invoicing
+Fee type	Rate
+Kajabi Invoicing	+ 0.4% per invoice
+This fee applies when a payment is processed through Kajabi Invoicing, in addition to the base processing rate for the payment method used.
+​
+Manual Purchases
+Fee type	Rate
+Manual Purchase (manually entered card fee)	+ 0.5%
+This fee applies the first time a manually entered card is used for a manual purchase, in addition to the base card processing rate. It does not apply when a manual purchase is charged to a card already saved on file, and once the card is saved, future purchases with that card do not incur the fee. For subscriptions and payment plans, the fee applies to the initial payment only.
+​
+Disputes
+Fee type	Rate
+Dispute (chargeback) fee	$15.00 per disputed transaction
+If a dispute (also called a chargeback) occurs with one of your customers, their issuing bank will deduct the disputed amount from Kajabi, along with the associated dispute fee for the payment method. The total amount, including the dispute fee, will be deducted from your Kajabi Payments Balance. In the event that your Kajabi Payments balance cannot cover the disputed amount, it will be deducted from the bank account you have attached to your Kajabi Payments account.
+Note: The dispute fee will not be refunded even if the dispute is eventually resolved in your favor. There is no evidence submission process for ACH payments and the dispute outcome is final.
+Learn more about payment disputes.
+​
+Currency conversion
+Fee type	Rate
+Currency conversion	+ 1%
+A 1% fee applies when currency conversion is performed. This fee is included in the exchange rate so you will not see this as an explicit fee.
+​
+Instant Payouts
+Fee type	Rate
+Instant Payout	1.5% ($0.50 minimum)
+Instant payouts give you on-demand access to your available Kajabi Payments funds, any day of the week, including weekends and holidays. It’s an optional feature that runs alongside your regular payout schedule, which stays the same. An additional fee applies each time you request an instant payout. Learn more.
+​
+Refunds
+There are no fees to refund a charge. However, the fees from the original charge will not be returned.
+​
+FAQs
+​
+When is an international fee applied?
+The international card fee only applies when the card used by the buyer is issued in a different country from where you are located. This is often called a cross-border fee.
+​
+When would I be charged a subscription or payment plan fee?
+The recurring billing fee only applies to recurring transactions, for example on subscriptions and payment plans. This fee applies to all transactions related to the subscription or payment plans including the initial transaction and all subsequent transactions.
+​
+When does the currency conversion fee get applied?
+The currency conversion fee only applies if the Offer is set to a currency different from your bank’s settlement currency. For example, if you are a US-based business and your bank settles in USD, a currency conversion fee would apply if you set your Offer’s currency to anything other than USD.
+​
+Where can I see these fees?
+All fees are assessed and deducted at the time of the transaction. You can view the details of the fees for each transaction via the Payouts page.
+​
+Will refunding transactions mean that my customer cannot raise a dispute?
+Proactively issuing a refund is the most effective way to prevent disputes. Although disputes may occasionally still arise, you’ll have the opportunity to present evidence that the transaction has already been refunded for the dispute to be reversed in your favor.
+​
+Can I do a refund after a dispute has been raised to avoid the dispute fee?
+Once a cardholder initiates a dispute, it is no longer possible to avoid the fee as the customer is now seeking reimbursement directly from their financial institution and not direct remediation from you.
+
+Was this page helpful?
+
+Yes
+No
+Kajabi Payments fees: United Arab Emirates
+Previous
+Kajabi Payments onboarding required documentation by region
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

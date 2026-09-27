@@ -1,0 +1,199 @@
+SOURCE: https://help.kajabi.com/articles/resources/support/dedicated-customer-success-manager-csm
+FETCHED: 2026-09-26T22:45:16.648Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+⌘K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+Contact Kajabi Support
+Dedicated Customer Success Manager (CSM)
+Migrate a website and content to Kajabi
+Migrate to Kajabi from Podia
+Send a screenshot to support
+Send a video to support
+Resolve a 500 error on Kajabi
+Check Kajabi service status and subscribe to updates
+On this page
+Overview
+What a Dedicated CSM provides
+How the program works
+1:1 Kickoff call
+Ongoing strategic guidance
+When you will hear from a CSM
+Step 1: Onboarding and launch programming
+Step 2: Introduction to a CSM
+Why a Dedicated CSM is different
+Get a Dedicated CSM
+Support
+Dedicated Customer Success Manager (CSM)
+
+Accelerate business growth with a dedicated strategic partner inside Kajabi.
+
+​
+Overview
+A Dedicated Customer Success Manager (CSM) is your primary point of contact inside Kajabi. This trusted partner works alongside you to accelerate growth and help you unlock the full potential of your business.
+A Kajabi CSM proactively partners with you to guide strategy, uncover opportunities, and remove roadblocks — enabling you to scale with confidence.
+​
+What a Dedicated CSM provides
+Your CSM acts as an extension of your team, providing:
+Tailored insights based on Kajabi’s first-party data
+Strategic recommendations to guide business decisions and drive revenue growth
+Hands-on support to remove obstacles and keep you focused on your goals
+With a CSM, you gain clarity, strategic direction, and a trusted partner for your business journey on Kajabi.
+​
+How the program works
+If you are on Kajabi’s Pro Plan, you are eligible to work directly with a Dedicated CSM. Here is what to expect:
+​
+1:1 Kickoff call
+Your CSM will schedule a live kickoff session to understand your business, align on goals, and identify immediate growth opportunities.
+​
+Ongoing strategic guidance
+You will have access to your CSM through:
+Email support for quick questions, strategic guidance, or escalations
+Ad hoc check-ins for live interactions around big moments for your business, such as a launch, site review, and more
+​
+When you will hear from a CSM
+Your journey with a CSM begins after onboarding:
+​
+Step 1: Onboarding and launch programming
+Start with curated live webinars, guided content, and launch programming to help you reach your first dollar quickly.
+​
+Step 2: Introduction to a CSM
+After you have had a chance to explore Kajabi and begin building your business, your CSM will reach out to officially kick off your dedicated partnership.
+If you would like to get connected sooner, email us at success@kajabi.com.
+​
+Why a Dedicated CSM is different
+A CSM is not just support — they are a proactive strategic consultant inside Kajabi. Their role is to:
+Understand the ins and outs of your business
+Provide clarity and confidence in your next steps
+Partner with you to unlock sustainable growth
+​
+Get a Dedicated CSM
+Dedicated Customer Success Managers are a key benefit of the Kajabi Pro Plan. They combine Kajabi’s powerful data with personalized guidance to help you scale confidently.
+If you would like access to a Dedicated CSM, upgrade to the Pro Plan in the Billing tab of your account settings.
+
+Was this page helpful?
+
+Yes
+No
+Contact Kajabi Support
+Previous
+Migrate a website and content to Kajabi
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

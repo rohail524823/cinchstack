@@ -1,0 +1,37 @@
+{
+  "id": "activecampaign",
+  "name": "ActiveCampaign",
+  "vendor": "ActiveCampaign, LLC",
+  "tier": "secondary",
+  "layer": "grow",
+  "category": "Email marketing automation and light CRM",
+  "url": "https://www.activecampaign.com",
+  "pricingUrl": "https://www.activecampaign.com/pricing",
+  "oneLiner": "Email marketing automation with a built-in CRM. Starter/Plus/Pro/Enterprise pricing scales with contact-list size; the public pricing page bills annually only.",
+  "summary": "ActiveCampaign is email marketing automation software with a built-in CRM, sold across four plans (Starter, Plus, Pro, Enterprise) whose price rises with the number of contacts on the account. Its public pricing page shows only the annual-billing, monthly-equivalent rate; sales-pipeline add-ons (Pipelines, Sales Engagement), SMS credits and extra user seats all exist but are not priced anywhere public.",
+  "bestFor": [
+    "agency",
+    "shopify-store",
+    "saas-startup"
+  ],
+  "notFor": [
+    "Buyers who need a genuinely free tool under 1,000 contacts — ActiveCampaign has no permanent free plan, only a 14-day trial."
+  ],
+  "pros": [
+    "Every paid plan, including Starter, includes marketing automation and a CRM, not just the top tier",
+    "30-day money-back guarantee across paid plans",
+    "No setup or onboarding fee on any plan, per ActiveCampaign's own pricing FAQ",
+    "14-day free trial with no credit card required, running on Professional-plan features",
+    "1,000+ native integrations, including Shopify, WooCommerce, Salesforce and Stripe"
+  ],
+  "cons": [
+    "No permanent free plan, only a 14-day trial",
+    "Starter tops out at 25,000 contacts and 1 user seat (plus at most 1 purchasable extra seat)",
+    "Sales-pipeline add-ons (Pipelines, Sales Engagement), SMS credits, Custom Reports and extra user seats all exist but have no published price — visible only after signing up",
+    "Price rises steeply with contacts: Enterprise runs from $145/month at 1,000 contacts to $1,169/month at 50,000 contacts, billed annually",
+    "Public pricing page shows annual-billing rates only; ActiveCampaign's own billing-help article confirms a Monthly cadence exists, but its rate is never published"
+  ],
+  "affiliate": {
+    "program": null
+  }
+}

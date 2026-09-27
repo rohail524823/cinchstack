@@ -1,0 +1,467 @@
+SOURCE: https://support.pipedrive.com/en/article/usage-limits-in-pipedrive
+FETCHED: 2026-09-26T22:54:53.527Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Account settings/Personal settings/Usage limits in Piped...
+
+Topics
+Usage limits per plan
+Old Pipedrive plans
+New Pipedrive plans
+Leads and deals limit
+Automation limits
+How can I view my usage?
+What happens when I reach usage limits?
+Usage limits in Pipedrive
+JT
+Jenny Takahara
+Last updated: September 2, 2026
+Note: As of September 30, 2025, the old Pipedrive plan limits have been updated to reflect the new plan limits.
+
+In Pipedrive, usage limits are based on the plan you’re on.
+
+Usage limits per plan
+Old Pipedrive plans
+Feature
+	
+Essential
+	
+Advanced
+	
+Professional
+	
+Power
+	Enterprise
+Leads and deals (per company)	
+2,000 x seats
+	
+4,000 x seats
+	
+10,000 x seats
+	
+15,000 x seats
+	
+Unlimited
+
+Custom fields (per company)	
+30
+	
+100
+	
+300
+	
+500
+	
+1000
+
+Insights reports (per user)	
+15
+	
+30
+	
+150
+	
+250
+	
+Unlimited
+
+Automations (per company)	
+N/A
+	
+50
+	
+100
+	
+
+150
+
+	
+250
+
+If/else condition (per automation)	
+N/A
+	
+1
+	
+5
+	
+
+10
+
+	
+20
+
+Sequences (per company)	
+N/A
+	
+N/A
+	
+10
+	
+20
+	
+50
+
+Multiple email sync (per user)	
+N/A
+	
+1 email account
+	
+2 email accounts
+	
+3 email accounts
+	
+5 email accounts
+
+Shared team inboxes (per company)	
+N/A
+	
+N/A
+	
+N/A
+	
+1 email account
+	
+5 email accounts
+
+Teams (per company)	
+N/A
+	
+N/A
+	
+3
+	
+15
+	
+150
+
+Custom visibility groups (per company)	
+N/A
+	
+N/A
+	
+3
+	
+15
+	
+150
+
+Custom permission sets (per company)	
+N/A
+	
+N/A
+	
+2
+	
+10
+	
+150
+
+Data enrichment (per company)	
+N/A
+	
+N/A
+	
+N/A
+	
+50 credits
+	
+1000 credits
+
+Custom scores (per company)	
+N/A
+	
+N/A
+	
+
+N/A
+
+	
+5
+	
+10
+
+API tokens (per company)	
+30,000 x seats
+	
+60,000 x seats
+	
+90,000 x seats
+	
+150,000 x seats
+	
+210,000 x seats
+New Pipedrive plans
+Feature
+	
+Lite
+	
+Growth
+	
+Premium
+	
+Ultimate
+
+Leads and deals (per company)	
+2,500 x seats
+
+(up to 300,000)
+
+	
+5,000 x seats
+
+(up to 300,000)
+
+	
+15,000 x seats
+
+(up to 300,000)
+
+	
+20,000 x seats
+
+(up to 300,000)
+
+Custom fields (per company)	
+30
+	
+100
+	
+300
+	
+500
+
+Insights reports (per user)	
+15
+	
+50
+	
+250
+	
+500
+
+Automations (per company)	
+N/A
+	
+50
+	
+150
+	
+
+250
+
+If/else condition (per automation)	
+N/A
+	
+3
+	
+10
+	
+
+20
+
+Sequences (per company)	
+N/A
+	
+5
+	
+25
+	
+50
+
+Multiple email sync (per user)	
+N/A
+	
+1 email account
+	
+3 email accounts
+	
+5 email accounts
+
+Shared team inboxes (per company)	
+N/A
+	
+N/A
+	
+1 email account
+	
+5 email accounts
+
+Teams (per company)	
+N/A
+	
+N/A
+	
+15
+	
+25
+
+Custom visibility groups (per company)	
+N/A
+	
+N/A
+	
+15
+	
+25
+
+Custom permission sets (per company)	
+N/A
+	
+N/A
+	
+15
+	
+25
+
+Data enrichment (per company)	
+N/A
+	
+N/A
+	
+100 credits
+	
+500 credits
+
+Custom scores (per company)	
+N/A
+	
+N/A
+	
+5
+	
+10
+
+API tokens (per company)	
+30,000 x seats
+
+(up to 100 million)
+
+	
+60,000 x seats
+
+(up to 100 million)
+
+	
+150,000 x seats
+
+(up to 100 million)
+
+	
+210,000 x seats
+
+(up to 100 million)
+
+Note: Pipedrive has no usage limits for contacts. However, third-party apps like Google Contacts can. If you have contact sync enabled, you may encounter a limit imposed by your contact provider.
+Note: The absolute maximum number of leads and deals allowed in a company account is 300,000, and the maximum number of API tokens is 100 million, regardless of seat-based calculations.
+Leads and deals limit
+
+Starting May 29, 2025, the leads and deals usage limit has replaced the previous open deals limit for new accounts. Existing accounts have also had their limit replaced at their next renewal date on October 1, 2025.
+
+Open deals
+	An open deal refers to a deal that has not been won, lost, or deleted.
+All accounts will have their open deals limit replaced by a leads and deals limit by October 2026.
+
+Leads and deals
+	Total combined number of active leads and open, won or lost deals that have not been archived or deleted.
+Applicable to new accounts created from May 2025 or to existing accounts at their next renewal date from October 2025.
+To ensure performance stability, the maximum combined number of leads and deals allowed is 300,000 on all plans, except Enterprise.
+
+To determine your current usage and lead and deals limits, refer to your billing information or the Usage menu in your company settings.
+
+Automation limits
+Note: This section covers only some automation limits. For a full overview, see the automation limits article.
+
+Some features of the Automations tool are limited for performance reasons.
+
+Each automation can have:
+
+10 actions per path
+10 delay steps per path (except the Growth plan with 3 delays per path)
+90 days total time limit per path
+7 days maximum in any wait for condition step
+
+The number of if/else conditions you can add to an automation depends on your plan. You can find the specific limits in the usage limits table above.
+
+How can I view my usage?
+
+You can view your usage details by going to Settings > Company > Usage.
+
+Note: Admin users will be notified in-app and by email when the limit reaches 80% and 100%.
+What happens when I reach usage limits?
+
+Pipedrive won’t delete any of your data when you’re over a limit; however, you’ll be blocked from manually adding more of the exceeded data.
+
+When that happens, you can:
+
+Free up space by archiving or deleting old deals/leads
+Purchase a top-up to increase your limit
+Upgrade plan with higher limits
+
+When you reach an open deals or leads and deals limit, excess deals created by automations, LeadBooster (Chatbot or Web Forms), public API or during an import are sent to your deals waitlist or import skip file instead. They can be re-imported when you free up space in your account.
+
+Note: Deals that have been on the waitlist for one year will be automatically deleted. Automatically created leads don’t go to any waitlist and are discarded.
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Does Pipedrive support right-to-left language input?
+Global user management
+User overview
+Pipedrive's referral program
+Callto Syntax: Make VOIP calls from Pipedrive
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

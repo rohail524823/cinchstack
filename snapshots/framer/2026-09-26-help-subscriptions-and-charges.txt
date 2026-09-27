@@ -1,0 +1,417 @@
+SOURCE: https://www.framer.com/help/articles/subscriptions-and-charges/
+FETCHED: 2026-09-26T22:13:23.180Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Framer
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Log in
+
+Sign up
+
+Copy logo SVG
+
+Brand guidelines
+
+Help center
+
+Account
+
+Subscriptions and charges
+
+Search
+
+Subscriptions and charges
+
+Learn how Framer subscriptions, renewals, editor billing, invoices, cancellations, and refunds work.
+
+Framer subscriptions are billed based on your selected plan, billing cycle, and any additional usage or seats. This article explains how billing works and where to manage your subscriptions and invoices.
+
+Subscription types and renewals
+
+Framer offers monthly and annual billing options depending on the plan you choose.
+
+Billing cycle
+
+	
+
+How billing works
+
+Monthly
+
+	
+
+Billed at the start of each billing period and renews automatically every month.
+
+Annual
+
+	
+
+Billed upfront for the full year and renews automatically on the subscription anniversary date.
+
+Subscriptions continue to renew automatically unless canceled before the next renewal date.
+
+Editor billing
+
+Workspaces are billed based on the paid seats assigned to members. Admin, Editor, and Content Editor roles are paid, while Viewer roles are free.
+
+You can add or remove members at any time from your workspace or project settings.
+
+Editor seats are billed separately from Site plans and can be managed from your workspace settings.
+
+For more information about member access, see Members, roles, and permissions.
+
+View plans and invoices
+
+To view your subscriptions:
+
+Open Workspace Settings.
+
+Go to the Plans tab.
+
+The Plans tab displays your active subscriptions and purchased plans.
+
+To view invoices:
+
+Open Workspace Settings.
+
+Go to the Invoices tab.
+
+There you can review and download past invoices.
+
+Cancel a subscription
+
+Subscriptions remain active until the end of the current billing period after cancellation.
+
+To cancel a Site plan:
+
+Open the project.
+
+Go to Settings.
+
+Open the Plans tab.
+
+Select Cancel Plan.
+
+Follow the on-screen instructions.
+
+Your subscription benefits remain available until the end of the paid term.
+
+Downgrades and account credits
+
+If you downgrade a plan before the end of the current billing period, the unused value is converted into account credit.
+
+Account credits:
+
+Are applied automatically to future invoices.
+
+Cannot be refunded.
+
+Reduce future charges until the credit balance is exhausted.
+
+Refunds
+
+Refund eligibility depends on your location and the timing of your request.
+
+Region
+
+	
+
+Refund window
+
+Worldwide
+
+	
+
+Within 7 days of the initial purchase
+
+European Union and Turkey
+
+	
+
+Within 14 days of the initial purchase
+
+Refunds are generally not available for unused subscription time after these periods.
+
+For complete details, see our Refund Policy.
+
+Billing providers
+
+Payments are processed through Framer’s supported payment providers. The payment provider used for your subscription may vary depending on your region and account setup.
+
+Subscription types and automatic renewals
+
+Framer offers monthly and annual subscription options for Basic and Pro plans. Monthly subscriptions are billed at the start of the subscription and recur on the same day each month, including charges for additional editors and usage. Annual subscriptions are billed upfront for the entire year and automatically renew on their anniversary date. Additional charges for editors or usage on annual plans are billed monthly. Learn more about subscription types here.
+
+Editor charges
+
+Each workspace on Framer is billed based on its editors. The cost per editor is outlined on the pricing page and varies depending on the highest-tier site plan in the workspace and the billing cycle. Editors can be added anytime through the invite panel in your project or workspace settings.
+
+Note that added editors are billed monthly for easier management, regardless of the initial subscription type. Viewers are not charged, but upgrading a viewer to an editor will incur charges. Learn more about roles and permissions here.
+
+Viewing and managing plans and invoices
+
+To view your current plan, go to the “Plans” tab in your project or workspace settings. You can see all purchased plans and invoices for your team here. For detailed invoice information, visit the “Invoices” tab in your workspace settings. Enterprise teams with customized billing can contact Framer directly for invoice inquiries.
+
+Cancellation, downgrades, and refunds
+
+Subscriptions automatically renew unless canceled before the renewal date. To cancel, go to the Plans tab in your site settings and select “Cancel Plan”. After cancellation, your plan benefits remain active until the end of the billing cycle. Learn more about canceling your Framer plans here.
+
+If a plan is downgraded, a credit for the unused portion will be applied to future purchases. Billing and payment processing are handled by Stripe or Paddle.com.
+
+Refunds are generally not provided, except for users in the EU or Turkey, who can request a refund within 14 days of the initial purchase. Learn more in our Refund Policy.
+
+For any billing-related inquiries or assistance, contact Framer support.
+
+FAQ
+How does Framer handle subscription renewals and billing cycles?
+
+Framer offers monthly and annual subscription options for Basic and Pro plans. Monthly subscriptions are billed at the start of the subscription and recur on the same day each month, including charges for additional editors and usage. Annual subscriptions are billed upfront for the entire year and automatically renew on their anniversary date. Additional charges for editors or usage on annual plans are billed monthly.
+
+How are editor charges managed in Framer workspaces?
+
+Each workspace on Framer is billed based on its editors. The cost per editor varies depending on the highest-tier site plan in the workspace and the billing cycle. Editors can be added anytime through the invite panel in your project or workspace settings. Added editors are billed monthly for easier management, regardless of the initial subscription type. Viewers are not charged, but upgrading a viewer to an editor will incur charges.
+
+What is Framer’s policy on cancellations, downgrades, and refunds?
+
+Subscriptions automatically renew unless canceled before the renewal date. To cancel, go to the Plans tab in your site settings and select 'Cancel Plan'. After cancellation, your plan benefits remain active until the end of the billing cycle. If a plan is downgraded, a credit for the unused portion will be applied to future purchases. Refunds are generally not provided, except for users in the EU or Turkey, who can request a refund within 14 days of the initial purchase.
+
+Updated
+
+last week
+
+Related articles
+
+Cancel your Framer subscription
+
+Learn about Framer’s new billing system
+
+Check the total and billed editors in your workspace
+
+Add Framer to Preferred Sources
+
+Your next idea starts here
+
+GPT 6 Sol
+
+Create personal portfolio
+
+Build startup site
+
+Launch landing page
+
+Start company blog
+
+Start without AI
+
+Product
+
+AI
+
+Agents
+
+External Agents
+
+Design
+
+Collaborate
+
+CMS
+
+Hosting
+
+Performance
+
+SEO
+
+Skills
+
+NEW
+
+Convert
+
+Publish
+
+Updates
+
+Marketplace
+
+Templates
+
+Components
+
+Plugins
+
+Vectors
+
+Gallery
+
+Experts
+
+Business
+
+Switch
+
+Enterprise
+
+Agencies
+
+Startups
+
+Pricing
+
+Resources
+
+Academy
+
+Download App
+
+Developers
+
+Guides
+
+Blog
+
+Newsletter
+
+Stories
+
+Creators
+
+Experts
+
+Students
+
+Ambassadors
+
+Help Articles
+
+Contact
+
+Meetups
+
+Solutions
+
+Designers
+
+Agencies
+
+Marketers
+
+Growth
+
+Builders
+
+Engineers
+
+Site Teams
+
+Founders
+
+AI website builder
+
+AI design agent
+
+Website builder
+
+Landing pages
+
+Portfolio maker
+
+UI/UX design
+
+Figma to HTML
+
+No-code
+
+Compare
+
+Webflow
+
+Figma
+
+Wix
+
+Squarespace
+
+WordPress
+
+Readymag
+
+Ceros
+
+Unbounce
+
+Lovable
+
+Claude Code
+
+ChatGPT
+
+Codex
+
+Contentful
+
+Sanity
+
+AEM
+
+Replit
+
+v0
+
+Company
+
+Careers
+
+Security
+
+Brand
+
+Abuse
+
+Legal
+
+Trust
+
+By Framer
+
+Merch
+
+Keyboard
+
+Stack Score
+
+Free domains
+
+AEO scanner
+
+State of Sites
+
+CanvasBench
+
+Link Preview
+
+Select Language
+English
+Japanese
+English
+
+CCPA
+
+All services online
+
+Framer
+
+2026
+
+We use cookies to enhance your experience, analyze site traffic and deliver personalized ads and content. Read our Cookie Policy.

@@ -1,0 +1,248 @@
+SOURCE: https://help.kajabi.com/articles/mobile-apps/branded-app/how-do-i-get-started-creating-my-own-branded-app
+FETCHED: 2026-09-26T22:45:17.621Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+⌘K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi Mobile App vs. Branded Mobile App
+Access Community from a Branded App
+Additional steps to change Google Cloud IAP Policy
+Additional verification for the Google Play Console
+Android app transfer process
+Answer Google's closed beta questionnaire
+Apply for Apple and Google's 15% commission programs
+Best practices for launching a Branded App
+Branded Mobile App naming guidelines
+Branded Mobile App resources
+Enter trader status and contact info in App Store Connect
+Examples of good and bad Branded Mobile App logos
+Google photo and video permissions declaration instructions
+Get started creating a Branded App
+Accept the closed testing invite and install the app
+Add an onboarding carousel to a Branded App
+Add app reviewer notes for Apple
+Add custom links to a Branded App
+Add external purchase links to a Branded App
+Add Kajabi as an admin to Google Play Console and Google Cloud Console
+Complete the iOS app transfer process
+Create a Branded Mobile App icon
+Create a Google API key for a Branded Mobile App
+Create a Google Developer account
+Create an Apple Developer account and join the Apple Developer Program
+Create App Offers for a Branded App
+Create Branded App push notifications
+Create custom screens for a Branded Mobile App
+Create a first paid Apple App Offer for approval
+Customize widgets on Branded App screens
+Customize a Branded App
+Edit app store listings
+Publish a Branded App to the Apple App Store
+Publish a Branded App to the closed testing track in Google Play Store
+Publish a Branded App to the Google Play Store
+Redirect users to download an app from the app store
+Set up a Branded App welcome screen
+Set up a merchant account for Google in-app purchases
+Set up banking and tax info with Apple
+Set up a D-U-N-S number for a Branded App
+Update Branded App brand assets or terms and privacy links
+Update a Branded App in the Apple App Store and Google Play Store
+Update Branded App screenshots
+Use the paywall feature in a Branded App
+Use Variants to personalize pages in a Branded App
+Verify a Google Developer account
+Verify a website for Google Play Console
+Write and update an App Store description for a Branded Mobile App
+Kajabi Branded App FAQs
+Kajabi Branded App overview
+Manage refunds for in-app purchases
+Manual vs. automatic updates in the Branded App
+Update the target API level for a Branded App
+Use universal links (deep links) in a Branded App
+Prevent or resolve a Branded App rejection from the App Store or Google Play
+Address a Google Play Console termination warning
+Select Branded App data privacy options for Apple App Store
+Select Branded App data types and data safety for Google Play Store
+Update Kajabi settings for an iOS app transfer
+Branded Mobile App community updates
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Add an app to the subscription plan
+Book the onboarding call
+FAQs
+Will the app add-on subscription be prorated?
+What if I want to cancel the app add-on?
+Can I switch the Kajabi base plan if I have an app add-on?
+What if I have an app add-on and I want to park the plan?
+Branded App
+Get started creating a Branded App
+
+Set up a Branded App subscription and begin the onboarding process with Kajabi.
+
+Branded Apps are white-labeled mobile apps customized with your own branding, built and maintained for you by Kajabi. Instead of directing members to download the Kajabi app, they can download the app by searching for your name in the app store. Brand the app with your own logo and color, and increase customer engagement with on-demand push notifications.
+​
+Add an app to the subscription plan
+To get started creating a Branded App, you’ll first need to add a Branded App to the Kajabi subscription plan. You can add a Branded App featuring Courses, Coaching Programs, Podcasts, and Kajabi Community for an additional $199/month above the base plan cost.
+Note: If you have multiple sites in the Kajabi account, the Branded App will be attached to the site you are on when you confirm the add-on. Make sure you go to the desired site for the app before confirming subscription changes.
+To add a Branded App to the plan:
+From the Dashboard, select Branded Mobile App.
+Click Get Started:
+On the next screen, you’ll be able to interact with the App Builder. You can select a template to start with by clicking Start with this design or click Start with blank:
+After working with the App Builder and saving progress, you’ll be taken to a screen with 5 onboarding steps:
+Design the app (the App Builder you were just interacting with).
+App name & logo.
+Developer accounts.
+Create an Apple developer account (Learn how).
+Create a Google developer account (Learn how).
+Add Kajabi as an Admin to the Google Play Console and Google Cloud Console (Learn how).
+Start your plan.
+Book a call.
+Note: You must complete the first 4 steps, including starting the Branded Mobile App plan, in order to book a call.
+Once you are ready to add the Branded Mobile App to the Kajabi subscription, click on Start your plan.
+On the next screen, review the changes to your subscription and billing.
+Click Confirm to approve the changes:
+​
+Book the onboarding call
+Once you have completed the first 4 onboarding steps, you will unlock the ability to book an onboarding call with Kajabi Support.
+On this call, we will review accounts to make sure we have everything needed to start building apps directly in the developer accounts. Once apps are live, you will be notified by the team.
+After the app is live, the Branded App tab in the Kajabi account will be updated. You can set up the welcome screen, add an onboarding carousel, customize the home screen, add custom links, and/or update app settings on the Branded App Design page.
+​
+FAQs
+​
+Will the app add-on subscription be prorated?
+If you’re on a monthly Kajabi base plan subscription, you’ll be charged a prorated amount for the remaining time left in the current billing cycle when you sign up for the app add-on.
+If you’re on an annual Kajabi base plan, the app will be added on as a monthly subscription and the billing month for the app will begin right away (the base plan billing cycle will not be affected).
+​
+What if I want to cancel the app add-on?
+You can cancel the Branded App subscription at any time. From the Dashboard, go to Settings. Under Account settings, click Subscription & Billing, then the Paid Extras page. If you have any questions or need assistance, please contact bma.support@kajabi.com.
+​
+Can I switch the Kajabi base plan if I have an app add-on?
+You can still change the base plan in the Kajabi Billing Settings.
+​
+What if I have an app add-on and I want to park the plan?
+If you choose to park the Kajabi base plan, the Branded App add-on will be canceled. To park the Kajabi plan and cancel the Branded App add-on, please contact bma.support@kajabi.com.
+
+Was this page helpful?
+
+Yes
+No
+Google photo and video permissions declaration instructions
+Previous
+Accept the closed testing invite and install the app
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

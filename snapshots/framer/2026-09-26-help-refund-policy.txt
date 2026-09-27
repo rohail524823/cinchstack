@@ -1,0 +1,334 @@
+SOURCE: https://www.framer.com/help/articles/refund-policy/
+FETCHED: 2026-09-26T22:15:20.198Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Framer
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Log in
+
+Sign up
+
+Copy logo SVG
+
+Brand guidelines
+
+Help center
+
+Account
+
+Refund policy
+
+Search
+
+Refund policy
+
+Learn when refunds are available for Framer subscriptions and how eligibility varies by region.
+
+Refunds are available only under specific circumstances. This article explains who is eligible for a refund, how cancellations and downgrades are handled, and what to expect when requesting a refund. 
+
+Refund eligibility
+
+You may be eligible for a refund based on your location and the timing of your request.
+
+Region
+
+	
+
+Refund window
+
+Worldwide
+
+	
+
+Within 7 days of the initial purchase
+
+European Union and Turkey
+
+	
+
+Within 14 days of the initial purchase
+
+Refund requests submitted after the applicable refund period are not eligible for a refund.
+
+Cancellations, downgrades, and unused subscription time
+
+Canceling a subscription does not automatically qualify you for a refund. Refunds are not provided for unused time remaining in an active subscription term.
+
+If you downgrade your plan, any unused value from your current subscription is converted into account credit. This credit is automatically applied to future purchases and invoices.
+
+Add-ons
+
+Add-ons are optional extras you can purchase on top of a site plan, such as additional bandwidth, CMS items, locales, or form submissions, as well as one-time purchases like usage credits.
+
+The refund eligibility window applies to each add-on individually and starts on the date that add-on was purchased, not the date of your original site plan purchase.
+
+Usage-based add-ons, such as bandwidth or credits, are non-refundable once any part of them has been consumed, even if the request falls within the refund window. If an add-on has not been used at all, it remains eligible for a refund within the applicable window.
+
+Removing an add-on does not automatically qualify you for a refund. If you remove a recurring add-on before the end of its billing period, the unused value is converted to account credit on your workspace, which is automatically applied to your workspace's future Framer invoices. Refunds are not provided for unused time remaining on an add-on that has been removed. Note that reducing or removing the AI credits add-on within the same billing period does not generate credit.
+
+If you cancel the site plan an add-on is attached to, the plan and the add-on both stay active until the end of the current billing period and then end together; no credit is issued for either. If you downgrade to a plan the add-on is not available on, the add-on is removed immediately along with the plan change, and its unused value is converted to account credit in the same way as the plan itself. Refund requests are handled by support on a case-by-case basis.
+
+Billing and payment processing
+
+Subscription payments are processed through Stripe. You are responsible for all subscription fees, taxes, and charges associated with your monthly or annual billing term.
+
+Request a refund
+
+If you believe you are eligible for a refund, contact the support team through the Contact page. Include details about your subscription and purchase date to help expedite the review process.
+
+FAQ
+Am I eligible for a refund if I cancel my Framer subscription shortly after purchase?
+
+You are entitled to a refund if you cancel your subscription within 7 days of the initial purchase. E.U. and Turkey residents are legally entitled to a refund if they cancel within 14 days of the initial purchase.
+
+What happens if I request a refund after the 14-day period?
+
+Refunds cannot be processed if the request is made after the 14-day period.
+
+If I downgrade my plan or cancel my subscription, will I receive a refund for unused time?
+
+Cancelling your subscription does not guarantee a refund for any portion of the term’s fee. Refunds are not provided for unused terms on an active account. However, if you downgrade your plan, any unused amount will be credited and can be applied to future purchases.
+
+I bought an add-on by mistake. Can I get a refund?
+
+You might be elegible provided you request the refund within the elegible refund window and the add-on has not been used (partially or totally). 
+
+Updated
+
+last week
+
+Related articles
+
+Subscriptions and charges
+
+Cancel your Framer subscription
+
+Redeem a discount code
+
+Add Framer to Preferred Sources
+
+Your next idea starts here
+
+GPT 6 Sol
+
+Create personal portfolio
+
+Build startup site
+
+Launch landing page
+
+Start company blog
+
+Start without AI
+
+Product
+
+AI
+
+Agents
+
+External Agents
+
+Design
+
+Collaborate
+
+CMS
+
+Hosting
+
+Performance
+
+SEO
+
+Skills
+
+NEW
+
+Convert
+
+Publish
+
+Updates
+
+Marketplace
+
+Templates
+
+Components
+
+Plugins
+
+Vectors
+
+Gallery
+
+Experts
+
+Business
+
+Switch
+
+Enterprise
+
+Agencies
+
+Startups
+
+Pricing
+
+Resources
+
+Academy
+
+Download App
+
+Developers
+
+Guides
+
+Blog
+
+Newsletter
+
+Stories
+
+Creators
+
+Experts
+
+Students
+
+Ambassadors
+
+Help Articles
+
+Contact
+
+Meetups
+
+Solutions
+
+Designers
+
+Agencies
+
+Marketers
+
+Growth
+
+Builders
+
+Engineers
+
+Site Teams
+
+Founders
+
+AI website builder
+
+AI design agent
+
+Website builder
+
+Landing pages
+
+Portfolio maker
+
+UI/UX design
+
+Figma to HTML
+
+No-code
+
+Compare
+
+Webflow
+
+Figma
+
+Wix
+
+Squarespace
+
+WordPress
+
+Readymag
+
+Ceros
+
+Unbounce
+
+Lovable
+
+Claude Code
+
+ChatGPT
+
+Codex
+
+Contentful
+
+Sanity
+
+AEM
+
+Replit
+
+v0
+
+Company
+
+Careers
+
+Security
+
+Brand
+
+Abuse
+
+Legal
+
+Trust
+
+By Framer
+
+Merch
+
+Keyboard
+
+Stack Score
+
+Free domains
+
+AEO scanner
+
+State of Sites
+
+CanvasBench
+
+Link Preview
+
+Select Language
+English
+English
+
+CCPA
+
+All services online
+
+Framer
+
+2026
+
+We use cookies to enhance your experience, analyze site traffic and deliver personalized ads and content. Read our Cookie Policy.

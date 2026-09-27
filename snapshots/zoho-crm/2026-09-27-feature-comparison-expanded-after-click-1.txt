@@ -1,0 +1,725 @@
+SOURCE: https://www.zoho.com/crm/complete-feature-list.html
+FETCHED: 2026-09-27T02:23:10.595Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+At Zoho, we do not use third-party software to track website visitors. We take your privacy seriously and use our own tools hosted in our data centres. Your data is yours, and we never monetize it for advertisement purposes. You can learn more about our cookie policy here and change your preferences at any time.
+CLOSE
+Skip to product menu
+Zoho.com
+BiginCRM PlusDeskCampaignsFSMZia AgentsAll Products
+English
+Sign In
+Sign Up For Free
+Features
+Pricing
+Platform 
+Customers
+Resources
+Free Tools
+Ask Zia
+Skip to main content
+Features
+Pricing
+Platform 
+Customers
+Resources
+Free Tools
+Ask Zia
+HELP ME CHOOSE THE RIGHT PAID PLAN
+Compare all features of Zoho CRM editions
+Hide common features	
+FREE
+TRY NOW	
+STANDARD
+TRY NOW	
+PROFESSIONAL
+TRY NOW	
+ENTERPRISE
+TRY NOW	
+ULTIMATE
+TRY NOW
+Collapse all
+Pricing
+Billed Annually	Free for 3 users	US$14/user/month
+US$14
+	US$23/user/month
+US$23
+	US$40/user/month
+US$40
+	US$52/user/month
+US$52
+
+Billed Monthly	Free for 3 users	US$20/user/month
+US$20
+	US$35/user/month
+US$35
+	US$50/user/month
+US$50
+	US$65/user/month
+US$65
+Sales Force Automation
+Leads					
+Accounts					
+Contacts					
+Deals					
+Workqueue	-				
+Sales Forecasting	-				
+Forecasts Based on Territories	-	-	-		
+Macros	-				
+Feeds					
+Signals	-	-			
+Document Library					
+Activities					
+Reminders	Task only				
+Recurring Activities					
+Calendar Booking	-				
+Multiple Currencies	-	5 currencies	10 currencies	25 currencies	50 currencies
+Social	-				
+Social Tab	-				
+Scoring Rules	-	10 criteria/module
+(Calls channel only)	20 criteria/module	30 criteria/module	50 criteria/module
+Multiple Scoring Rule	-	-	-	5 rules/layout
+(30 criteria/rule)	5 rules/layout
+(50 criteria/rule)
+Motivator for Zoho CRM	-	-			
+My Jobs	-				
+CRM Analytics
+Standard Reports					
+Custom Reports	-	100	Unlimited	Unlimited	Unlimited
+Schedule Reports	-	Maximum 100 schedules	Maximum 100 schedules	Maximum 100 schedules	Maximum 200 schedules
+Standard Dashboards	-				
+Custom Dashboards	-	Unlimited	Unlimited	Unlimited	Unlimited
+Charts and KPIs	-				
+Anomaly Detector	-	-	-	10 trends
+Additional 1 trend/user license (max 50)	20 trends
+Additional 2 trends/user license (max 100)
+Zia Notification subscription for Anomaly Detector components	-	10 components	10 components	10 components	30 components
+Comparator	-	25 components	25 components	Unlimited	Unlimited
+Funnel	-	25 components	25 components	Unlimited	Unlimited
+Quadrant Analysis	-				
+Zone	-				
+Target Meter	-				
+Cohort Analysis	-	5	5	10	25
+Stage Component	-	-	-		
+Waterfall Component	-	-	-		
+Marketing Automation
+Campaigns					
+Mass Email	-	250/day/org	500/day/org	1000/day/org	2000/day/org
+Custom Email Templates	10 templates	100 templates	Unlimited	Unlimited	Unlimited
+Email Opt-out					
+Autoresponders	-	-	-	3 autoresponders	5 autoresponders
+Schedule Mass Email	-	-	10/module	10/module	10/module
+Zia
+Data Enrichment	-	500 records/user,
+maximum of 50,000 records	500 records/user,
+maximum of 50,000 records	500 records/user,
+maximum of 50,000 records	2000 records/user,
+maximum of 50,000 records
+Churn Prediction	-	-	-	2/org	20/org
+Field Prediction	-	-	2/org	2/org	20/org
+Recommendation Builder	-	-	1/org	1/org	10/org
+Similarity Recommendation	-	-	1/org	1/org	10/org
+Zia Recommendations for CPQ	-	-			
+Macro Suggestion	-	-			
+Workflow Suggestion	-	-	-		
+Next Best Experience	-	-	-	(>10 users license)	(>10 users license)
+Recommendation Analytics	-	-			
+Best Time to Contact	-	-			
+Best Time to Contact Analytics	-	-	-	
+(>20 users license)	
+(>20 users license)
+Best Mode of Contact	-	-			
+Email and Email Thread Summary	-	-			
+Email Intent	-	-			
+Email Custom Intent	-	-			
+Email Activity Extraction	-	-			
+Email Sentiment, CNS	-	-			
+Email Emotion	-	-			
+Email Subject Suggestion	-	-			
+Email - Sentence Auto Complete	-	-			
+Email Translation	-	-			
+Email Enrichment	-	-			
+Call Summary	-	-			
+Call Intent	-	-			
+Call Sentiment	-	-			
+Call Emotion	-	-			
+Call Transcription	-	-			
+Ask Zia	-	-			
+Ask Zia (Old UI)	-	-			
+Zia Module Creation	-	-			
+Zia Workflow Creation	-	-			
+Anomalies in Workflow Rule	-	-	-		
+Vision - Image Matching	-	-	1/org	1/org	20/org
+Vision - Image Detection	-	-	1/org	1/org	20/org
+Intelligent Character Recognition	-	-	2/org	3/org	5/org
+Zia Notifications	-	-			
+Anomaly Notification	-	-	An user can subscribe to 10 components	An user can subscribe to 10 components	An user can subscribe to 30 components
+Automatic Anomaly Notification	-	-	-		
+Workflow Email Duplicate Alert	-	-	-		
+Competitor Alert	-	-			
+Record Owner Suggestion	-	-	-		
+Zia for Forecasts	-	-			
+Anomaly Detector	-	-	-	10 trends Additional 1 trend/user license (max 50)	10 trends Additional 1 trend/user license (max 50)
+Dashboard Component Suggestion	-	-	-	(>20 users license)	(>20 users license)
+Zia Scores	-	-	5/org	5/org	10/org
+Voice of the Customer	-	-			
+Strategy Influencer	-	-	6/org	6/org	6/org
+Zia Presentation	-	-			
+Prediction Analytics	-	-			
+Smart Prompt (ChatGPT, Gemini, Claude, Cohere)	-	-			
+Smart Prompt (Zoho Hosted LLM)	-	-			
+Notes Summary	-	-			
+Record Summary	-	-			
+Conversation Summary	-	-			
+Duplicate Image Detection	-	-	(>20 users license)	(>20 users license)	(>20 users license)
+Zia Writing Assistant	-	-			
+Custom AI Studio	-				
+Prompt Builder in Custom Button	-	-	-		
+Image to Canvas	-				
+Formula Expression Generator	-	-			
+Zia Agents	-	-			
+Inventory Management
+Products	-	-			
+Price Books	-	-			
+Quotes	-	-			
+Sales Orders	-	-			
+Invoices	-	-			
+Vendors	-	-			
+Purchase Orders	-	-			
+Inventory Templates	-	-			
+CPQ
+Product Configurator
+Total number of product configurations	-	-	10	50	100
+Number of "selected" items you can create a rule for	-	-	5	10	20
+Number of "additional conditions" per "selected" entry in a rule	-	-	25	25	25
+Number of module-based conditions under Primary Rule Criteria	-	-	25	25	25
+Total number of Actions per rule	-	-	10	30	50
+Price Rules
+Total number of price rules	-	-	10	50	100
+Number of module-based conditions under Primary Rule Criteria	-	-	25	25	25
+Number of records that can be selected per rule in the "Direct Type" price rule	-	-	25	25	25
+Number of records that can be selected per rule in the "Volume Type" price rule	-	-	5	5	5
+Number of range rows that can be added per item in the "Volume Type" price rule	-	-	10	10	10
+Guided Selling
+Number of Guided Selling flows	-	-	25	50	100
+Number of Questions that can be added in a Guided selling flow	-	-	10	10	10
+Number of Input Options applicable across all question pages	-	-	18	18	18
+Customer Support
+Cases	-	-			
+Solutions	-	-			
+Web-to-Case Form	-	-	10 forms/module	20 forms/module	100 forms/module
+Notify Owner	-				
+Data Administration
+Admin Tools for configuration management	-	-	-		
+File Storage (for Org.)	1GB	1GB
+plus
+512MB/user license	1GB
+plus
+512MB/user license	1GB
+plus
+1GB/user license	5GB
+plus
+1GB/user license
+Additional File Storage (for Org.)	-	US$4.60/month for 5GB
+US$4.6
+	US$4.60/month for 5GB
+US$4.6
+	US$4.60/month for 5GB
+US$4.6
+	US$4.60/month for 5GB
+US$4.6
+
+Data Storage (1-200 users)	5,000 records (10 MB)	100,000 records (200 MB)	10GB
+(5 Million records approx)	10GB
+(5 Million records approx)	10GB
+(5 Million records approx)
+Additional Data Storage (1-200 users)	-	-	US$4for 100MB /month
+US$4
+	US$4for 100MB /month
+US$4
+	US$4for 100MB /month
+US$4
+
+Data storage (> 200 users)	5,000 records (10 MB)	100,000 records (200 MB)	10GB
+(5 million records approx)	15GB
+(7.5 million records approx)	30GB
+(15 million records approx)
+Additional Data Storage (> 200 users)	-	-	US$2for 100MB /month
+US$2
+	US$2for 100MB /month
+US$2
+	US$2for 100MB /month
+US$2
+
+Default Data Storage per user license	-	20MB	50MB	100MB
+Import Data	1,000/batch	20,000/batch	50,000/batch	100,000/batch	200,000/batch
+Merge Duplicates - Find & Merge Option					
+Merge Duplicates - Deduplicate Option	-	-			
+Import History	Past 60 days	Past 60 days	Past 60 days	Past 60 days	Past 60 days
+Export Module Data	200,000 records/module, upto 10 exports per day	200,000 records/module, upto 100 exports per day	200,000 records/module, upto 250 exports per day	200,000 records/module, upto 500 exports per day	200,000 records/module, upto 1000 exports per day
+Export Reports (Daily)	Unlimited formatted reports	200 detailed reports.
+
+Unlimited formatted reports	200 detailed reports.
+
+Unlimited formatted reports	200 detailed reports.
+
+Unlimited formatted reports	300 detailed reports.
+
+Unlimited formatted reports
+Free Data Backup	-	2 data backups/month	2 data backups/month	2 data backups/month	4 data backups/month
+Data Backup	US$12/request
+US$12
+	US$12/request
+US$12
+	US$12/request
+US$12
+	US$12/request
+US$12
+	US$12/request
+US$12
+
+CRM Variables	-	-	-	11 groups + 25 entry/group	11 groups + 25 entry/group
+Security Management
+Profiles	2	5	15	25	200
+Roles	2	5	25	250	500
+Reporting Hierarchy	-	-	-		
+Territory Management	-	-	-	150	250
+Groups	-	20	30	50	250
+Field-Level Security	-	-			
+Custom Links	-	10 links/module	10 links/module	10 links/module	500 links/module
+Default Data Sharing Settings	-				
+Public Read Only
+(in Default Data Sharing Settings)	-	-			
+Data Sharing Rules	-	-	-	25 rules per module (Up to 10 criteria-based sharing rules)	100 rules per module (Up to 15 criteria-based sharing rules)
+Audit Logs	-				
+Allowed IPs	-				
+Record Sharing	-	-	-		
+Data Encryption	-	-	-	10 fields/module	20 fields/module
+GDPR Compliance Settings					
+HIPAA Compliance Settings	-				
+Product Customization
+Customization Features
+Home Page Components	5	20	20	20	20
+Organize Tabs					
+Rename Tabs					
+Group Tabs	-	10 groups	10 groups	25 groups	50 groups
+Custom Modules	-	10	25	200	500
+Layout Editor					
+Page Layouts	-	-	1 layout/module
+(Note: Not applicable for Activities module)	3 layouts/module
+(Note: Not applicable for Activities module)	6 layouts/module
+(Note: Not applicable for Activities module)
+Layout Rules	-	-	-	10/layout	10/layout
+Record Locking Configuration	-	-	-	5 rules/module	5 rules/module
+Validation Rules	-	-	5/layout	10/layout
+(Using Functions: 3/layout)	25/layout
+(Using Functions: 5/layout)
+Subforms	-	-	1/module	2/module	5/module
+Subform fields	-	-	25/subform in a layout	25/subform in a layout	25/subform in a layout
+Email Address Duplication Check	-				
+Custom Fields	-	10 fields/module
+(Note: Activities module has only 10 fields)	155 fields/module
+(Note: Activities module has only 140 fields)	300 fields/module
+(Note: Activities module has only 230 fields)	500 fields/module
+(Note: Activities module has only 230 fields)
+Unique Fields	-	2 fields/module	2 fields/module	2 fields/module	2 fields/module
+Picklist History Tracking	-	-	-		
+Color Coding Picklists	-	2 picklist fields/module	5 picklist fields/module	10 picklist fields/module	15 picklist fields/module
+Global Sets	-	-	5 global sets/org
+5 global sets/module
+30 picklist associations/global set	30 global sets/org, 15 global sets/module, 30 picklist associations/global set	50 sets/org, 15 global sets/module, 30 picklist associations/global set
+Standard List Views					
+Custom List Views	5 list views/module	Unlimited	Unlimited	Unlimited	Unlimited
+Records in List Views	50	100	100	100	100
+Smart Filter	5	5	5	10	10
+Kanban View	1
+(Only for the Deals and Activities modules)	5	5	5	10
+Modify Criteria Pattern					
+Last Activity Time in Criteria					
+Custom Related Lists	-	-	3/module	5/module	10/module
+Customize Search Layout					
+Customize Related Lists Columns	-				
+Custom Buttons	-	-	1 button / module	50/module	250/module
+Personal Fields	30 fields/module	30 fields/module	30 fields/module	30 fields/module	30 fields/module
+Web Tabs	-	1	5	25	50
+Copy Customization	-				
+Wizards	5 wizards, upto 2 per module	-	-	10 wizards, upto 2 per module	25 wizards, upto 5 per module
+Multiple Sales Pipeline	Default (standard) pipeline only	5	10	20	50
+Customize User Layout	-	10 custom fields	50 custom fields	50 custom fields	50 custom fields
+Domain Mapping	-	-	-		
+External Fields	-	-	-	10	15
+Lookup Filter	-	-	-		
+Fields of Lookup	-	-	-	5 fields/lookup field	5 fields/lookup field
+Kiosk Studio	-	2 kiosks	7 kiosks	25 kiosks	50 kiosks
+Canvas
+List View	-	50 views/module	50 views/module	50 views/module	50 views/module
+Detail View	-	25 views/module	25 views/module	25 views/module	25 views/module
+Form View	-	25 views/module	25 views/module	25 views/module	25 views/module
+Print View	-	25 views/module	25 views/module	25 views/module	25 views/module
+Canvas Rules	-	100 rules/module	100 rules/module	100 rules/module	100 rules/module
+Reusable components	-	25 components/org	25 components/org	25 components/org	25 components/org
+Import/Export Canvas views	-	10 views/org	10 views/org	10 views/org	10 views/org
+Maximum limit for individual field types
+String fields (Single Line, Multi Line, Pick List, Multi-select Pick List, Email, Phone, URL, and Auto Number)
+Maximum 10 Text Area fields	-	10
+(includes upto 1 Rich Text Fields)	60
+(includes upto 2 Rich Text Fields)	200
+(includes upto 5 Rich Text Fields)	200
+(includes upto 5 Rich Text Fields)
+Number fields	-	10	20	40	40
+Decimal, Percentage, Currency fields	-	10	15	60	60
+Date Fields	-	10	15	50	50
+Date Time Fields	-	10	10	50	50
+Boolean (Checkbox)	-	10	20	80	80
+Long Integer Fields	-	10	15	35	35
+Lookup Fields	-	1	5	10	15
+
+Multi-select Lookup Fields	-	-	-	2	2
+User Fields	-	-	-	5	5
+Record Image Field					
+File Upload Field	-	2 fields per module	5 fields per module	10 fields per module	15 fields per module
+Auto-number Fields	-	1	1	1	1
+Formula Fields	-	-	15	20	25
+Multi-user Field	-	-	-	1	1
+Image Upload Field	-	2 fields per module	5 fields per module	10 fields per module	15 fields per module
+Rollup summary	-	-	2 fields per module	10 fields per module	15 fields per module
+Special Fields
+Contact Role					
+Terms & Conditions	-	-			
+Tax Rates	-	-			
+CRM for Everyone
+Next Gen UI
+Sidebar					
+Teamspace availability	-				
+Teamspace Limits	-	5	10	25	25
+Max Folders per Teamspace	-	50	50	50	50
+Interactions Tab	-	-	-		
+Chart view	-	2/module	2/module	5/module	5/module
+Grid view	-	5/module	5/module	10/module	25/module
+Timeline view	-	-	-		
+Split view	1/org	5/org	5/org	10/org	25/org
+Dark mode					
+Team Module
+Team Module	-				
+Maximum Modules	-	10	25	200	500
+Custom fields per Team Module	-	25	50	300	500
+Lookup fields	-	1	5	10	15
+File upload fields	-	1	5	5	5
+Public fields Limits	-	30	30	30	30
+Team Users Availability	-				
+Connected workflows	-	2 workflows, up to 5 modules, 5 triggers each	2 workflows, up to 10 modules, 5 triggers each	10 workflows, up to 15 modules, 10 triggers each	10 workflows, up to 15 modules, 10 triggers each
+Connected workflow actions	-	3 create connected record, 5 field update, 3 notify	3 create connected record, 5 field update, 3 notify	3 create connected record, 5 field update, 3 notify	3 create connected record, 5 field update, 3 notify
+Process Management
+Blueprint	-	-	3 Blueprints (Includes the default Blueprints)	50 Blueprints (Includes the default Blueprints)	100 Blueprints (Includes the default Blueprints)
+Clone Blueprint	-	-			
+Common Transition per Blueprint	-	-	2	10	25
+Transition per Blueprint	-	-	10	100	300
+Field Count During Transition	-	-	4	10	50
+Approval Process	-	-	-	Up to 10 active processes/module, with up to 5 rules/process	Up to 50 active processes/module, with up to 5 rules/process
+Review Process	-	-	-	5/module	10/module
+Journey Builder	-	-	1 active journey
+
+50,000 record entries/day and 100,000 record movements/day across all journeys	5 active journeys
+
+50,000 record entries/day and 100,000 record movements/day across all journeys	5 active journeys
+
+100,000 record entries/day and 200,000 record movements/day across all journeys
+Path Finder	-	-	1 active process
+
+50,000 record entries/day and 100,000 record movements/day across all processes	5 active processes
+
+50,000 record entries/day and 100,000 record movements/day across all processes	5 active processes
+
+100,000 record entries/day and 200,000 record movements/day across all processes
+Automation
+Workflow Rules
+(Organization limits)	2500
+(maximum 2000 active)	2500
+(maximum 2000 active)	2500
+(maximum 2000 active)	2500
+(maximum 2000 active)	2500
+(maximum 2000 active)
+Workflow Rules
+(Configuration limits)	10 rule/module
+(maximum 5 active)	30 rules/module (maximum 15 active)
+5 conditions/rule	80 rules/module (maximum 40 active)
+5 conditions/rule	125 rules/module (maximum 75 active)
+10 conditions/rule	150 rules/module (maximum 100 active)
+10 conditions/rule
+Scheduled Action	-	5 actions/condition	5 actions/condition	5 actions/condition	5 actions/condition
+Workflow Usage	-	-			
+Tasks	5 tasks/action	5 tasks/action	5 tasks/action	5 tasks/action	5 tasks/action
+Reminder for
+Workflow Tasks	-				
+Email Notifications	5 email notifications/action, 50 emails/user license, 150 emails/day
+(whichever is lower)
+**Emails can be sent only to the CRM users.	5 email notifications/action, 100 emails/user license, 5,000 emails/day
+(whichever is lower)	5 email notifications/action, 200 emails/user license, 10,000 emails/day
+(whichever is lower)	5 email notifications/action, 500 emails/user license, 25,000 emails/day
+(whichever is lower)	5 email notifications/Action, 1,000 emails/User License, 50,000 emails/Day
+(whichever is lesser)
+Record Owner, Record Creator, Record Owner's Manager					
+Using Email field from the Module & Related Modules	-				
+Field Updates	-	5 field updates/action	5 field updates/action	5 field updates/action	5 field updates/action
+Delete	-				
+Field Update	-				
+Add Task, Add Meeting, Schedule Call, and Create Record	1,000
+
+(Only Add Task is supported)	50,000	300,000	500,000	500,000
+Assign Record Owner	-				
+Workflow Convert	-				
+Execute Based on Date Field Value	-				
+Execute Based on Record's Score	-				
+Execute Based on Recommendation	-	-	-		
+Webhooks	-	1/action
+25,000 calls/day or 100 calls/user license/day
+Limit applicable for the org.
+(whichever is lower)	1/action
+50,000 calls/day or 100 calls/user license/day
+Limit applicable for the org.
+(whichever is lower)	1/action
+500,000 calls/day or 500 calls/user license/day
+Limit applicable for the org.
+(whichever is lower)	1/action
+1,000,000 calls/day or 1000 calls/user/day
+Limit applicable for the org.
+(whichever is lower)
+Actions by Zoho Flow	-				
+Assignment Rules	-	10 rules/module & 20 rule entries	20 rules/module & 20 rule entries	50 rules/module & 100 rule entries	50 rules/module & 100 rule entries
+Assignment Thresholds	-	-	20 thresholds per module & 500 users per threshold	30 thresholds per module & 500 users per threshold	30 thresholds per module & 500 users per threshold
+Functions	-	-	-	1 Instant Action and 5 Time-Based Actions per Rule	1 Instant Action and 5 Time-Based Actions per Rule
+Custom Schedules	-	-	-	30 schedules/org	50 schedules/org
+Segmentation	-	-	-	1 (active or inactive)
+5 (unpublished or draft)	5 (active or inactive)
+20 (unpublished or draft)
+Workflow Usage Report	-	-	-		
+Cadences	-	20 cadences/module, up to 10 active/module at a time; maximum 18 follow-ups	40 cadences/module, up to 20 active/module at a time; maximum 40 follow-ups	60 cadences/module, up to 30 active/module at a time; maximum 70 follow-ups	70 cadences/module, up to 50 active/module at a time; maximum 90 follow-ups
+Webforms
+Forms for Leads/Contacts	1 form/module	5 forms/module	10 forms/module	20 forms/module	100 forms/module
+Approve Records					
+Auto Response Rules	1 rule	5 rules	10 rules	20 rules	25 rules
+Unsubscribe Links	2	5	10	10	10
+Notify Record Owner	-				
+Webform Analytics	-	-	-	100,000 visits/month and 3 months of data for Analytics	300,000 visits/month and 6 months of data for Analytics
+Webform A/B Testing	-	-	-	2 webforms/module	10 webforms/module
+Email
+Individual Email	50/user/day
+(Maximum 150 per org)	50/user/day
+(Maximum 200 per org)	300/user/day	300/user/day	300/user/day
+Email Integration (IMAP/POP3/Gmail API/Graph API)	-				
+Email Insights	-	
+(Note: Includes response tracking & limited options under advanced filters.)			
+Organization Emails	3	50	75	500	500
+BCC Dropbox	-	10 approved email addresses	10 approved email addresses	10 approved email addresses	10 approved email addresses
+Attachments in Email	10MB	10MB	10MB	10MB	10MB
+Email Sharing	-				
+Email Scheduling					
+Email Authentication	10 Domains	10 Domains	50 Domains	100 Domains	100 Domains
+Email Parser	-	-	-	Up to 20 parsers, with a maximum of 10 active at a time	Up to 40 parsers, with a maximum of 20 active at a time
+Email Association with Deals	-				
+Email Relay	-	-	10 domains	20 domains	20 domains
+Zoho CRM for Office 365	-				
+Zoho CRM for Gmail Add-on	-				
+SalesInbox	-	-	-		
+Integrations
+CRM Marketplace (Extensions for Zoho CRM)
+*some extensions are not available in the Standard and Professional Editions	-	5	10	20	50
+Zoho Creator Integration	-				
+Integration with Online Meeting providers	-				
+Visitor Tracking
+Zoho SalesIQ Integration					
+Zoho Survey Integration					
+Survey Creation in Campaigns Module	-				
+Zoho Writer Add-on	-				
+Zoho Desk Integration					
+Zoho Projects Integration					
+Zoho Finance Suite Integration	-	-			
+Zoho PhoneBridge	-				
+Zoho Analytics Integration					Premium Zoho Analytics with CRM-focused features is included at no extra cost. Need more capabilities? Explore add-ons: Learn more
+Zoho Campaigns Integration					
+Zoho Forms Integration					
+Zoho Webinar Integration	-				
+Zoho Backstage Integration	-				
+Zoho Meetings Integration	-				
+Mail Merge Template (Plug-in for Microsoft Office)	-	-	1000 merges/month/org	1000 merges/month/org	1000 merges/month/org
+Attach from Google Docs	-				
+Google Calendar Synchronization
+(For Google Users)	-				
+Google Contacts Synchronization
+(For Google Users)	-				
+Zoho CRM for Google Ads	-	-			
+Slack Integration	-				
+Zoho CRM Mobile Edition					
+Zoho CRM Analytics Mobile Edition	 				
+Check-in					
+Zoho Directory Integration	-				
+Remote Sales Office	-				
+LinkedIn Sales Navigator Integration	-				
+WhatsApp Business	-				
+Google Chat Integration	-				
+LINE Business	-	-	-		
+ABM for Zoho CRM	-	-	-		
+ABM - Account & Segment	-	-	-	Up to 200,000 accounts, max 25,000 per segment, 25 segments	Up to 500,000 accounts, max 50,000 per segment, 35 segments
+ABM - Journey & Usage	-	-	-	10 journeys, 50,000 email actions, 5,000 enrichments	15 journeys, 50,000 email actions, 5,000 enrichments
+Google Workspace
+Export Meetings to Google Calendar	-				
+Export to Google Tasks	-				
+Synchronize Google Calendar
+(For Google Workspace Users)	-				
+Synchronize Google Contact
+(For Google Workspace Users)	-				
+Zoho CRM Webforms for Google Sites	-	1/module	10/module	20/module	100/module
+Developer Hub
+APIs - Allowed credits
+More details on API limits
+	5,000	50,000 + (Number of User licenses x 250) + Add-on credits	50,000 + (Number of User licenses x 500) + Add-on credits	50,000 + (Number of User licenses x 1000) + Add-on credits	50,000 + (Number of User licenses x 2000) + Add-on credits
+APIs - Maximum credits
+	5,000	100,000	3,000,000	5,000,000	Unlimited
+Functions - Allowed credits
+More details on Function limits
+	-	5,000 + (Number of User licenses x 200)
+*(Available only through extensions)	5,000 + (Number of User licenses x 200)
+*(Available only through extensions)	20,000 + (Number of User licenses x 500) + Add-on credits	20,000 + (Number of User licenses x 1,000) + Add-on credits
+Functions - Maximum credits
+	-	15,000	20,000	400,000	Unlimited
+Client Script	-	-			
+Widgets	-	-	50	200	200
+Connections	-				
+GraphQL	-	-	-		
+ZDK CLI (Beta)
+	-	-	-		
+Queries	-	-	100 Queries	250 Queries, 200 Sources	500 Queries, 200 Sources
+Circuits	-	-	-	15,000 credits	20,000 credits
+Data Model	-	-			
+Sources	-	-	-	200	200
+General
+Personal Settings					
+Company Logo and Theme					
+Fiscal Year					
+Business Hours					
+Portals	-	-	1,000 free invites shared across Portal user types.
+
+Pricing for additional portal user licenses.	1,000 free invites shared across Portal user types.
+
+Pricing for additional portal user licenses.	1,000 Free invites shared across Portal user types.
+
+Pricing for additional portal user licenses.
+Sandbox	-	-	-	3 Configuration, 2 Configuration and Data type Sandboxes	7 Configuration, 3 Configuration and Data type Sandboxes
+Business Card View					
+Calendar					
+Calendar Synchronization
+(CalDAV Access)	-				
+Advanced filters					
+Tags for Records	-	5 tags/record
+20 tags/module	10 tags/record
+60 tags/module	10 tags/record
+100 tags/module	10 tags/record
+200 tags/module
+Sticky Notes					
+Translations	-	-	-		
+Users	3 Users (Free)	US$14
+US$14
+/user license/month
+billed annually or
+US$20
+US$20
+month-to-month	US$23
+US$23
+/user license/month
+billed annually or
+US$35
+US$35
+month-to-month	US$40
+US$40
+/user license/month
+billed annually or
+US$50
+US$50
+month-to-month	US$52
+US$52
+/user license/month
+billed annually or
+US$65
+US$65
+month-to-month
+Lite Users
+	-	-	-	US$12
+US$12
+/user license/month
+billed annually or
+US$15
+US$15
+month-to-month	US$12
+US$12
+/user license/month
+billed annually or
+US$15
+US$15
+month-to-month
+Accessibility Controls					
+Last updated on: May 12, 2026
+See our feature availability of Trial edition
+See our feature availability of Developer edition
+Improved Sales.
+Lasting Relationships.
+Faster Growth.
+
+15-day free trial. No credit card required.
+
+SIGN UP FOR FREESEE PLANS AND PRICING
+ 
+ 
+EXPLORE CRM
+CRM Essentials
+CRM Alternatives
+CRM for Free
+CRM for SMB
+Agents
+AI-Powered CRM
+Customer Experience Suite
+Google Workspace CRM
+Social CRM
+Help Desk CRM
+Revenue Action Orchestration
+RESOURCES
+What is CRM?
+Solutions & Verticals
+Help Center
+CRM for Everyone
+Find a Partner
+Customer Forum
+Release Notes
+SDR Course
+Training
+CRM Express - Blog
+CRM for Enterprises
+GET STARTED
+Request Demo
+Why Zoho CRM?
+Integrations
+Compare CRMs
+Edition Selector Quiz
+Compare Plans
+Awards & Titles
+Get Price Quote
+Contact Sales
+ROI Calculator
+More products from Zoho
+
+Bigin
+
+Simple CRM for first-timers
+
+Desk
+
+Help Desk Software
+
+Campaigns
+
+Email Marketing Software
+sales@zohocorp.com
+Choose Privacy. Choose Zoho.
+English
+Contact UsSecurity ComplianceIPR ComplaintsAnti-spam PolicyTerms of ServicePrivacy PolicyRefund PolicyTrademark PolicyCookie PolicyGDPR ComplianceAbuse Policy
+
+© 2026, Zoho Corporation Pvt. Ltd. All Rights Reserved.

@@ -1,0 +1,517 @@
+{
+  "tool": "kajabi",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read Kajabi's pricing pages (kajabi.com/pricing and kajabi.com/pricing-new) in Annual and Monthly toggle states with the full feature-comparison table opened, followed the real signup/checkout flow for every plan (Kickstarter, Basic, Growth, Pro; annual and monthly where offered), and read Kajabi's help-center articles on account users, AI credits, subscription management, add-ons, trials, parked accounts and Kajabi Payments fees, all in a US-locale headless browser; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.kajabi.com/pricing",
+      "label": "Kajabi pricing page, default Annual view, with the full feature-comparison table shown inline (products, contacts, websites, communities, admin users, AI credits, Kajabi Payments rates)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-pricing-compare.txt"
+    },
+    {
+      "url": "https://www.kajabi.com/pricing",
+      "label": "Kajabi pricing page after clicking the Monthly toggle",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-pricing-www-billing-after-click-1.txt"
+    },
+    {
+      "url": "https://www.kajabi.com/pricing-new",
+      "label": "Kajabi pricing-new page, default Annual view",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.kajabi.com/pricing-new",
+      "label": "pricing-new page after clicking the Monthly toggle",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-pricing-toggle-after-click-1.txt"
+    },
+    {
+      "url": "https://www.kajabi.com/pricing-new",
+      "label": "pricing-new page after the Monthly toggle plus \"Compare every feature\" click (full comparison table with card rates, AI credits, admin users)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-pricing-apex-after-click-2.txt"
+    },
+    {
+      "url": "https://www.kajabi.com/updates/2025-pricing-updates",
+      "label": "Kajabi's Q4 2025 pricing-change announcement (legacy vs. new Basic/Growth/Pro pricing effective Jan 13 2026, Kickstarter named as a current tier, contacts add-on price change $20→$25/5,000)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-pricing-hub-2025-updates.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_kickstarter_annual",
+      "label": "Kickstarter Annual checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-kickstarter-annual.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_basic_annual?signup_source=kajabi_basic_annual",
+      "label": "Basic Annual checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-basic-annual.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_basic_monthly?signup_source=kajabi_basic_monthly",
+      "label": "Basic Monthly checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-basic-monthly.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_growth_annual?signup_source=kajabi_growth_annual",
+      "label": "Growth Annual checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-growth-annual.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_growth_monthly?signup_source=kajabi_growth_monthly",
+      "label": "Growth Monthly checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-growth-monthly.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_pro_annual?signup_source=kajabi_pro_annual",
+      "label": "Pro Annual checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-pro-annual.txt"
+    },
+    {
+      "url": "https://app.kajabi.com/signup/v3_kajabi_pro_monthly?signup_source=kajabi_pro_monthly",
+      "label": "Pro Monthly checkout page",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-signup-pro-monthly.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/users/account-users",
+      "label": "Help center: Account users (admin-user plan limits, names Kickstarter as one of Kajabi's current plans)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-account-users.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/billing/ai-credits",
+      "label": "Help center: AI Credits (plan allotments, $15/500-credit monthly bundle or one-time top-up)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-ai-credits.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/billing/manage-your-subscription",
+      "label": "Help center: Manage subscription (feature-limit-increase price table, add-ons list, nonprofit discount, legacy-plan rules)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-manage-subscription.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/products/backstage/backstage-offer-pricing",
+      "label": "Help center: Backstage Offer pricing ($49/month per extra client seat)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-backstage-pricing.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/mobile-apps/branded-app/how-do-i-get-started-creating-my-own-branded-app",
+      "label": "Help center: Get started creating a Branded App ($199/month add-on above the base plan)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-branded-app-get-started.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/mobile-apps/branded-app/kajabi-branded-app-faqs",
+      "label": "Help center: Branded App FAQs (confirms $199/mo add-on for Basic/Growth, included free on Pro)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-branded-app-faqs.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/api-integrations/public-api/using-kajabis-public-api",
+      "label": "Help center: Public API ($25/month add-on for legacy Pro accounts; included in the current Pro plan)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-public-api.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/products/products-overview/expert-agents-overview",
+      "label": "Help center: Expert Agents overview and pricing ($49/agent/month early-adopter rate through Sep 30 2026, $79/agent/month standard rate after)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-expert-agents.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/resources/support/dedicated-customer-success-manager-csm",
+      "label": "Help center: Dedicated Customer Success Manager (Pro-plan benefit, no separate price)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-dedicated-csm.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/website/pages/is-white-labeling-possible",
+      "label": "Help center: Is white labeling possible (Growth/Pro branding removal; transactional emails and mobile app always show Kajabi branding)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-white-labeling.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/billing/kajabi-trial-information",
+      "label": "Help center: Kajabi trial information (14-day trial, restricted trial features, no extensions)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-trial.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/billing/why-do-i-see-a-149-charge-after-signing-up-for-a-free-trial",
+      "label": "Help center: $149 authorization hold during a free trial (confirms a card is required to start a trial)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-trial-card-hold.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/billing/how-to-pause-your-kajabi-subscription",
+      "label": "Help center: Pause (park) a Kajabi subscription ($29/month Parked Plan)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-parked-plan.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/sales/kajabi-payments/kajabi-payments-fees-united-states",
+      "label": "Help center: Kajabi Payments fees, United States (full US fee schedule: cards, international cards, ACH, BNPL, disputes, instant payouts)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-kajabi-payments-fees-us.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/sales/kajabi-payments/kajabi-payments-overview",
+      "label": "Help center: Kajabi Payments overview (supported countries, third-party-processor fee, discounted plan rates)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-kajabi-payments-overview.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/account-settings/billing/kajabi-subscription-tax-faqs",
+      "label": "Help center: Kajabi subscription tax FAQs (tax billed separately by billing address; nonprofit/tax-exempt process)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-subscription-tax.txt"
+    },
+    {
+      "url": "https://help.kajabi.com/articles/contacts/manage-your-contacts/contact-usage-limits",
+      "label": "Help center: Understand contact usage limits (90%/100% warnings, 30-day grace period, then account locked until upgrade)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kajabi/2026-09-26-help-contact-usage-limits.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": false,
+    "summary": "No ongoing free plan. Kajabi offers only a 14-day free trial on every plan (see trial); there is no free-forever tier."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": true,
+    "summary": "Every plan (Kickstarter, Basic, Growth, Pro) offers a 14-day free trial with no extensions. A card is required at signup: a $149 authorization hold (not a charge) is placed to validate it, and is released once the card is confirmed valid. Canceling before the trial ends avoids any charge; otherwise billing starts automatically at the plan price selected at signup. Most features work during the trial, but bulk contact import, a custom email domain, site-wide email-template editing, and a few automation actions (send certificate/single-use coupon, grant an offer, send an email, register to an event) are locked until the account is on a paid subscription.",
+    "source": 23
+  },
+  "plans": [
+    {
+      "id": "kickstarter",
+      "name": "Kickstarter",
+      "monthly": null,
+      "annualMonthly": 71,
+      "priceUnit": "per-month",
+      "seatsIncluded": 2,
+      "note": "Not listed on Kajabi's current public pricing pages (kajabi.com/pricing and kajabi.com/pricing-new), which show only Basic, Growth and Pro. Reached only via a direct legacy/lower-tier checkout link that still works as of this record: 14-day free trial then $71/mo billed annually ($852/yr), labelled \"Save $216.00/year.\" A guessed month-to-month checkout URL (v3_kajabi_kickstarter_monthly, by analogy with the other plans' URLs) returned a Cloudflare block page rather than a price, so no monthly figure could be captured. Kajabi's help center still names Kickstarter as one of its \"current plans\" for admin-user limits, but its contacts/products/websites/communities limits were not found on any page or help article captured.",
+      "limits": [
+        "2 admin users total (1 owner + 1 additional Owner/Administrator-role user, per Kajabi's help center)",
+        "Contacts, products, websites and communities limits not published on any captured page"
+      ],
+      "highlights": [],
+      "source": 6
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "monthly": 179,
+      "annualMonthly": 143,
+      "priceUnit": "per-month",
+      "seatsIncluded": 2,
+      "note": "Billed annually at $1,716/yr (\"SAVE $432/YEAR\"). Confirmed identically on both the pricing page and the Basic Annual/Monthly checkout pages.",
+      "limits": [
+        "2,500 contacts",
+        "5 products (courses, coaching, memberships, downloads, podcasts)",
+        "1 website",
+        "1 community",
+        "2 admin users total, including the owner",
+        "0 AI credits/month included",
+        "Unlimited landing pages, funnels and marketing emails"
+      ],
+      "highlights": [
+        "Courses, coaching and memberships",
+        "Own website and custom domain",
+        "Private community with access groups",
+        "Checkout and payments built in",
+        "Kajabi Cofounder AI assistant and Kajabi MCP included",
+        "Video transcripts and translations included",
+        "\"Powered by Kajabi\" shown in the site footer; cannot be removed on this plan"
+      ],
+      "source": 0
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "monthly": 249,
+      "annualMonthly": 199,
+      "priceUnit": "per-month",
+      "seatsIncluded": 11,
+      "note": "Billed annually at $2,388/yr (\"SAVE $600/YEAR\"). Marked \"Most Popular\" on the pricing page. Confirmed identically on both the pricing page and the Growth Annual/Monthly checkout pages.",
+      "limits": [
+        "25,000 contacts",
+        "50 products",
+        "1 website",
+        "1 community",
+        "11 admin users total, including the owner",
+        "500 AI credits/month included",
+        "Unlimited landing pages, funnels and marketing emails"
+      ],
+      "highlights": [
+        "Everything in Basic, plus:",
+        "Live cohort courses",
+        "Advanced automations and webhooks",
+        "Own affiliate program",
+        "Comment-to-DM automation",
+        "\"Powered by Kajabi\" removed from the site footer (transactional emails and the Kajabi mobile app still show it)",
+        "Discounted Kajabi Payments rate (2.8% + $0.30 vs Basic's 2.9%) and a lower 1% third-party-processor surcharge (vs Basic's 2%)"
+      ],
+      "source": 0
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "monthly": 499,
+      "annualMonthly": 399,
+      "priceUnit": "per-month",
+      "seatsIncluded": 26,
+      "note": "Billed annually at $4,788/yr (\"SAVE $1,200/YEAR\"). Confirmed identically on both the pricing page and the Pro Annual/Monthly checkout pages.",
+      "limits": [
+        "100,000 contacts",
+        "Unlimited products",
+        "3 websites",
+        "3 communities",
+        "26 admin users total, including the owner",
+        "1,000 AI credits/month included",
+        "Unlimited landing pages, funnels and marketing emails"
+      ],
+      "highlights": [
+        "Everything in Growth, plus:",
+        "Own branded app in the App Store included (a $199/mo add-on on Basic/Growth)",
+        "Public API access included (a $25/mo add-on on legacy Pro accounts without it)",
+        "Custom code editor",
+        "Dedicated Customer Success Manager",
+        "Deepest discounted Kajabi Payments rate (2.7% + $0.30) and lowest 0.5% third-party-processor surcharge"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [
+    {
+      "id": "extra-contacts",
+      "name": "Extra contacts",
+      "price": 25,
+      "unit": "per 5,000 additional contacts per month (billed on the same cadence as the base plan)",
+      "note": "Increased from $20 to $25 per 5,000 contacts as of the Jan 13, 2026 price update. The pricing page also markets this same rate in bigger 25,000-contact blocks at $125/month.",
+      "source": 15
+    },
+    {
+      "id": "extra-products",
+      "name": "Extra products",
+      "price": 50,
+      "unit": "per 10 additional products per month",
+      "source": 15
+    },
+    {
+      "id": "extra-website",
+      "name": "Extra website",
+      "price": 49,
+      "unit": "per additional website per month",
+      "source": 15
+    },
+    {
+      "id": "extra-admin-user",
+      "name": "Extra admin user",
+      "price": 5,
+      "unit": "per additional admin user per month",
+      "source": 15
+    },
+    {
+      "id": "extra-funnels",
+      "name": "Extra funnels",
+      "price": 10,
+      "unit": "per 10 additional funnels per month",
+      "note": "Listed as a paid feature-limit increase even though the current plans market funnels as \"Unlimited.\"",
+      "source": 15
+    },
+    {
+      "id": "ai-credits-topup",
+      "name": "AI credits top-up",
+      "price": 15,
+      "unit": "per 500 additional AI credits, either as a recurring monthly bundle or a one-time top-up",
+      "note": "Unused monthly-bundle credits do not roll over between billing cycles.",
+      "source": 14
+    },
+    {
+      "id": "branded-mobile-app",
+      "name": "Branded Mobile App",
+      "price": 199,
+      "unit": "per month, on top of the base plan",
+      "appliesTo": ["basic", "growth"],
+      "note": "Included free on the Pro plan. Also unlocks Community access inside the branded app.",
+      "source": 17
+    },
+    {
+      "id": "public-api-legacy",
+      "name": "Public API access (legacy Pro plans only)",
+      "price": 25,
+      "unit": "per month",
+      "appliesTo": ["pro"],
+      "note": "Only applies to accounts on a legacy Pro subscription without API access already included; the current Pro plan includes API access at no extra charge.",
+      "source": 19
+    },
+    {
+      "id": "backstage-extra-seat",
+      "name": "Backstage extra client seat",
+      "price": 49,
+      "unit": "per month, per additional Backstage client beyond the first",
+      "note": "Backstage (a premium 1:1/small-group coaching product) and its first client seat are bundled into every plan at no extra charge; Kajabi calls Backstage a Beta feature with pricing subject to change.",
+      "source": 16
+    },
+    {
+      "id": "expert-agent",
+      "name": "Expert Agent (AI chat agent for a site)",
+      "price": 79,
+      "unit": "per agent per month (standard rate, effective Oct 1, 2026); each agent includes 1,000 messages and 250 AI credits per month",
+      "note": "An introductory rate of $49/agent/month (locked for 12 months) applied to agents purchased Aug 1–Sep 30, 2026, with 30% off ($34.30/mo/agent) for a 2nd-plus agent bought in that window; no multi-agent discount at the standard rate. As of this record's capture date, Kajabi's own pricing/comparison pages still list Expert Agents as \"Coming soon\" on every plan, so current purchasability is unclear despite this published help-center pricing.",
+      "source": 20
+    }
+  ],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "kajabi-payments-processing",
+      "label": "Kajabi Payments card processing (US-registered accounts)",
+      "amount": null,
+      "display": "2.9% + $0.30 (Basic) / 2.8% + $0.30 (Growth) / 2.7% + $0.30 (Pro); rates differ by country",
+      "kind": "percent-of-sales",
+      "note": "Kajabi's own built-in payment processor; Growth and Pro get discounted rates. Not summed into the scenario totals below because every seller, on any platform, pays some card-processing rate.",
+      "source": 0
+    },
+    {
+      "id": "third-party-processor-fee",
+      "label": "Third-party payment-processor surcharge (e.g. Stripe, instead of Kajabi Payments)",
+      "amount": null,
+      "display": "2% (Basic) / 1% (Growth) / 0.5% (Pro) of each transaction, only in regions where Kajabi Payments is offered",
+      "kind": "percent-of-sales",
+      "note": "Excludes PayPal and any region where Kajabi Payments isn't available; does not apply at all if the seller stays on a legacy (pre-2026) plan.",
+      "source": 0
+    },
+    {
+      "id": "kajabi-payments-international-card-fee",
+      "label": "Kajabi Payments international-card surcharge (US accounts)",
+      "amount": 1.5,
+      "display": "+1.5% when the customer's card was issued outside the US",
+      "kind": "percent-of-sales",
+      "source": 26
+    },
+    {
+      "id": "kajabi-payments-subscription-fee",
+      "label": "Kajabi Payments recurring-billing fee",
+      "amount": 0.7,
+      "display": "+0.7% on every payment in a subscription or payment plan, including the first one, on top of the base card rate",
+      "kind": "percent-of-sales",
+      "source": 26
+    },
+    {
+      "id": "kajabi-payments-dispute-fee",
+      "label": "Kajabi Payments dispute (chargeback) fee",
+      "amount": 15,
+      "display": "$15.00 per disputed transaction",
+      "kind": "other",
+      "note": "Non-refundable even if the dispute is later resolved in the seller's favor.",
+      "source": 26
+    },
+    {
+      "id": "kajabi-payments-instant-payout-fee",
+      "label": "Kajabi Payments Instant Payout fee",
+      "amount": null,
+      "display": "1.5% of the payout amount, $0.50 minimum, per on-demand instant payout",
+      "kind": "other",
+      "note": "Optional; Kajabi's regular scheduled payouts carry no fee.",
+      "source": 26
+    },
+    {
+      "id": "parked-plan-fee",
+      "label": "Parked (paused) account fee",
+      "amount": 29,
+      "display": "$29/month while paused, plus applicable taxes",
+      "kind": "monthly",
+      "note": "Lets a seller pause instead of cancel; the site goes offline to customers, any legacy plan or discount is forfeited, and reactivating requires subscribing to a current standard plan.",
+      "source": 25
+    }
+  ],
+  "billingNotes": [
+    "Prices rose across all plans effective the first billing date on or after January 13, 2026; Kajabi calls the pre-increase prices \"legacy\" pricing. Migrating off a legacy plan is permanent and cannot be reversed.",
+    "Every plan can switch between monthly and annual billing, or be upgraded/downgraded, at any time; Kajabi does not offer a price lock or renewal discount, so an annual plan renews at Kajabi's then-current published price.",
+    "A 30-day money-back guarantee is stated on the pricing page and repeated at checkout on every signup flow captured.",
+    "Kickstarter is not listed on Kajabi's current public pricing pages; it was reached only via a direct legacy checkout link, and Kajabi's help center still names it as one of the four current plan tiers.",
+    "A 10% nonprofit discount is available on request with documentation of nonprofit status; it applies to the Kajabi subscription only, not to coupons a seller creates for their own customers.",
+    "\"Powered by Kajabi\" footer branding can be removed on Growth and Pro; transactional emails and the Kajabi mobile app always show Kajabi branding, on every plan.",
+    "Subscription tax (sales tax/VAT/GST) is calculated on the billing address and shown as a separate invoice line; it does not change what a seller's own customers pay.",
+    "Downgrading to a lower plan is blocked while current usage (contacts, products, etc.) exceeds that plan's limits; usage must be reduced first."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "Subscription prices ($179/$249/$499 month-to-month; $143/$199/$399 effective-annual) were shown in USD with no country or currency selector visible from a US-locale browser. Kajabi Payments processing fees, by contrast, vary sharply by country: e.g. Australia's domestic card rate is 1.70%/1.60%/1.50% + A$0.30 by plan (Basic/Growth/Pro) versus the US's 2.9%/2.8%/2.7% + $0.30, and Australia's rate is scheduled to drop further on 1 October 2026 and 1 April 2027."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo course creator, $3,000/month in sales",
+      "assumptions": "1 person with 1 staff account (the owner) selling $3,000/month. The sell-layer grid fixes only sales and staff count, not contacts; following this site's convention for other contact-tiered sell-layer tools, we borrow the run-layer solo figure of about 1,000 contacts. Basic's caps (2,500 contacts, 5 products, 2 total admin users including the owner) comfortably cover this. Billed monthly. Kajabi takes 0% of sales on every plan. Card processing is left out of the total: Basic's Kajabi Payments rate is 2.9% + $0.30 (2.9% × $3,000 = $87 plus 30¢ per order), paid to Kajabi Payments or, at a 2% surcharge, to a third-party processor — every seller pays some card-processing rate.",
+      "planId": "basic",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Basic plan, billed monthly", "amount": 179 },
+        { "label": "1 admin user (within Basic's 2-user cap, no per-seat charge)", "amount": 0 },
+        { "label": "Kajabi revenue share: 0% × $3,000 in sales", "amount": 0 }
+      ],
+      "monthly": 179,
+      "confidence": "high",
+      "note": "Billed annually, Basic is $143/month ($1,716/year, \"Save $432/year\")."
+    },
+    {
+      "size": "small",
+      "label": "Small team, $30,000/month in sales, 3 staff accounts",
+      "assumptions": "5 people with 3 staff accounts selling $30,000/month, using the borrowed run-layer figure of about 5,000 contacts. Basic is ruled out twice over: its 2-total-admin-user cap (1 owner + 1 additional) is short of the 3 staff accounts needed, and its 2,500-contact cap is half the assumed list. Growth covers both (11 total admin users, 25,000 contacts) with room to spare. Billed monthly. Card processing is left out: Growth's Kajabi Payments rate is 2.8% + $0.30 (2.8% × $30,000 = $840 plus 30¢ per order), or a 1% surcharge on a third-party processor.",
+      "planId": "growth",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Growth plan, billed monthly", "amount": 249 },
+        { "label": "3 admin users (within Growth's 11-user cap, no per-seat charge)", "amount": 0 },
+        { "label": "Kajabi revenue share: 0% × $30,000 in sales", "amount": 0 }
+      ],
+      "monthly": 249,
+      "confidence": "high",
+      "note": "Billed annually, Growth is $199/month ($2,388/year, \"Save $600/year\"). If the list stays at or under Basic's 2,500 contacts and only 1 extra admin user is needed, Basic at $179/month would work instead."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, $150,000/month in sales, 8 staff accounts",
+      "assumptions": "15 people with 8 staff accounts selling $150,000/month, using the borrowed run-layer figure of about 25,000 contacts. 8 staff accounts alone would still fit Growth's 11-total-admin-user cap, but the assumed contact count exactly equals Growth's 25,000-contact ceiling, leaving no headroom — and Kajabi locks an account out (after a 30-day grace period) once a plan's contact limit is reached. Pro's 100,000-contact cap gives real headroom for a business this size. Billed monthly. Card processing is left out: Pro's Kajabi Payments rate is 2.7% + $0.30 (2.7% × $150,000 = $4,050 plus 30¢ per order), or a 0.5% surcharge on a third-party processor.",
+      "planId": "pro",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Pro plan, billed monthly", "amount": 499 },
+        { "label": "8 admin users (within Pro's 26-user cap, no per-seat charge)", "amount": 0 },
+        { "label": "Kajabi revenue share: 0% × $150,000 in sales", "amount": 0 }
+      ],
+      "monthly": 499,
+      "confidence": "medium",
+      "note": "Billed annually, Pro is $399/month ($4,788/year, \"Save $1,200/year\"). If the actual contact count is well under 25,000, Growth at $249/month (plus contact add-ons at $25/month per extra 5,000, if needed) could still work."
+    }
+  ],
+  "unverified": [
+    "Kickstarter's month-to-month price and its contacts/products/websites/communities limits are not published on any page captured; only its annual price ($71/mo, $852/yr) was found, on a legacy checkout link not linked from Kajabi's current public pricing pages. A guessed monthly-checkout URL returned a Cloudflare block page rather than a price.",
+    "Website Widgets add-on pricing is described only as \"multiple paid tier levels\" on Kajabi's help center; the actual dollar amounts appear to be shown in an image/table that the headless-browser text capture did not extract.",
+    "Expert Agents (AI chat agents) are still marked \"Coming soon\" on the live pricing and feature-comparison pages for every plan, yet a separate help-center article already publishes live per-agent pricing ($49-79/month); whether a new signup can actually buy an Expert Agent today could not be confirmed from a captured snapshot of the purchase flow itself.",
+    "Backstage's long-term pricing is explicitly unconfirmed by Kajabi itself: its help article calls Backstage a Beta feature and states \"Future entitlements and pricing are subject to change.\"",
+    "Whether the $179/$249/$499 US list prices change for non-US billing addresses (beyond added tax) was not checked; only Kajabi Payments' processing fees are confirmed to vary by country (e.g. Australia's rates, captured separately)."
+  ],
+  "history": [
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
+  ]
+}

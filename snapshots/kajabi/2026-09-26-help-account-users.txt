@@ -1,0 +1,304 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/users/account-users
+FETCHED: 2026-09-26T22:15:20.427Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Account users
+Use multiple account users simultaneously
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Add an account user
+Verify an account user
+Edit an account user
+Reset a password for an account user
+Suspend an account user
+Account user roles
+Owner
+Administrator
+Assistant
+Support Specialist
+Plan limits
+Account user role permissions
+FAQs
+Can I delete an account user?
+Can an Administrator connect a payment processor?
+How do I give an Assistant access to payment management actions?
+Users
+Account users
+
+Add, edit, and manage account users to help run your Kajabi site.
+
+You can add account users (also known as extra admin users) to help you manage your Kajabi site. This guide shows you how to add, edit, or suspend an account user quickly and securely.
+Note: Account users log in at the Kajabi login page. They are managed under Settings > Manage Users, not under Contacts.
+Note: The owner of the Kajabi account does not appear in the list of account users.
+​
+Add an account user
+From the Dashboard, click Settings, then click Manage Users.
+Click New User.
+Fill in the user’s details: First name, Last name, Email, Phone number (optional), Time zone, and Password.
+Select a role. See Account user roles below for descriptions.
+Choose which Sites and Communities they should have access to.
+Click Save.
+Note: If you receive an error that the email address has already been taken, it means that the user’s email is already associated with another Kajabi account.
+
+Many email providers allow you to add a ”+” and any word or number to the email address (such as example+kajabi@example.com). In this case, your account user will still receive email notifications at their original email. However, if your email provider does not support this, you will need to enter a different email address.
+​
+Verify an account user
+When you create an account user, they receive a “Confirmation instructions” email from Kajabi. They must verify their account before logging in. Unverified users will see an error when attempting to sign in.
+If a user needs a new confirmation email:
+Click Didn’t receive confirmation instructions? on the login page.
+Enter the email address in the Email field.
+Click Resend confirmation instructions.
+Warning: The verification link expires after 24 hours. If a user needs a new confirmation email, click Didn’t receive confirmation instructions? on the login page and resend.
+​
+Edit an account user
+From the Dashboard, click Settings, then click Manage Users.
+Click the more actions (…) menu for the user, and select Edit.
+Update the relevant details and click Save.
+Warning: When changing or updating an account user’s email, they will receive a new confirmation email and must verify their account again. Changes to their email will not display on the Account Users page until the new email address is verified.
+​
+Reset a password for an account user
+From the Dashboard, click Settings, then click Manage Users.
+Click the more actions (…) menu for the user, and select Edit.
+Click Reset password, then confirm.
+The user receives a password reset email from Kajabi.
+Note: Account users can also reset their own password at any time from the Kajabi login page.
+​
+Suspend an account user
+From the Dashboard, click Settings, then click Manage Users.
+Click the more actions (…) menu for the user, and select Edit.
+Scroll down to the bottom of the page and click Suspend User.
+Click Suspend user.
+To unsuspend them, click Unsuspend User.
+Note: On the Account user edit page, there is not an option to delete a user. Suspended account users do not count against your plan limit. If a suspended user attempts to log in to Kajabi, they may see an error “invalid email or password” even though there is not an issue with their email or password.
+​
+Account user roles
+There are four roles that can be assigned to an account user:
+Owner (also known as sub-owners)
+Administrator
+Assistant
+Support Specialist
+Each role carries a different level of access. Your plan determines how many admin users you can have, based on how many users are assigned the Owner or Administrator role. The Account Owner does not count against this limit.
+Warning: If you see a banner prompting you to update one or more account users, click the ⚠️ icon next to the user and assign a new role. Choose Assistant to lower their permissions or Administrator to raise them.
+​
+Owner
+Owners have maximum permissions, including critical actions. Recommended only for business owners.
+​
+Administrator
+Administrators have the same access as Owners, with one exception: they cannot connect payment processors. If an Administrator attempts to connect Kajabi Payments, Stripe, or PayPal, they’ll be prompted to contact the Account Owner.
+Note: Administrators have access to every site associated with the account, including all notifications, comments, and settings across all sites.
+Note: Account-level Administrator or Assistant access does not automatically grant Community access. The Account Owner must also check the box for that specific Community under Settings > Manage Users > [user’s name] > Communities before the user can open the Community. Once that box is checked, the user’s existing Administrator or Assistant role carries full Community moderation rights — no separate Community admin/moderator/ambassador role exists, and no Access Group or Offer is required (Access Groups and Offers control paying-member access, not staff access).
+​
+Assistant
+Assistants can create and modify site content but cannot access the Settings, Sales or Analytics menus.
+Assistants retain access to individual transaction pages but cannot perform payment management actions by default and will be prompted to contact an administrator.
+To enable payment management for an Assistant, an Owner or Administrator can turn on the Payment Management Access sub-permission in that user’s settings.
+This will allow the Assistant to perform individual payment management actions, including: 
+Issuing refunds
+Cancelling or pausing subscriptions or payment plans
+Editing billing amounts or dates
+Uploading dispute evidence
+Retrying failed payments
+Creating manual transactions for affiliate users
+Note: Assistants can still view customer product progress reports by going to a specific Product > More Actions > View Progress, even without Analytics access.
+​
+Support Specialist
+Support Specialists have limited access to moderate comments and manage the Contact list for the site(s) the Account Owner gives them permission to access.
+Note: For Community user role information, see Community moderation tools.
+​
+Plan limits
+The Account Owner does not count against this limit. For example, on the Growth plan, you can add up to 10 additional users with the Owner or Administrator role, in addition to the Account Owner.
+The following admin user limits are in place for Kajabi’s current plans, based on the limit shown in-app:
+Kickstarter: 1
+Basic: 1
+Growth: 10
+Pro: 25
+Notes:
+For Kajabi’s current plans: Unlimited account users can be assigned the Assistant and Support Specialist roles. Only account users with the Owner or Administrator role count against plan limits.
+For legacy plans: All account users (regardless of role) count against plan limits.
+​
+Account user role permissions
+Feature	Support Specialist	Assistant	Administrator	Owner
+Website		✅	✅	✅
+Design		✅	✅	✅
+Pages		✅	✅	✅
+Blog		✅	✅	✅
+Analytics			✅	✅
+Products		✅	✅	✅
+Courses > Manage Comments	✅	✅	✅	✅
+Payouts			✅	✅
+Offers		✅	✅	✅
+Payments			✅	✅
+Payment Management (refunds,
+cancellations, etc.)		✅
+(if enabled)		
+Payments Setup				✅
+Sales Tax Setup				✅
+Sales Tax Management	✅	✅	✅	✅
+Coupons		✅	✅	✅
+Coupons > Bulk Coupon codes			✅	✅
+Marketing		✅	✅	✅
+Funnels		✅	✅	✅
+Email Campaigns		✅	✅	✅
+Automations		✅	✅	✅
+Events		✅	✅	✅
+Forms		✅	✅	✅
+Contacts	✅	✅	✅	✅
+Contacts > Bulk Export		✅	✅	✅
+Contacts > Bulk Unsubscribe			✅	✅
+Contacts > Bulk Delete			✅	✅
+Contacts > Individual Unsubscribe	✅	✅	✅	✅
+Contacts > Individual Delete	✅	✅	✅	✅
+Assessments		✅	✅	✅
+Affiliates		✅	✅	✅
+All Kajabi Sites (My Sites)			✅	✅
+Kajabi University	✅	✅	✅	✅
+Site Settings			✅	✅
+Account Settings	✅	✅	✅	✅
+Account Details	✅	✅	✅	✅
+API Credentials (in Account Details)			✅	✅
+Billing			✅	✅
+Password	✅	✅	✅	✅
+Contact Info	✅	✅	✅	✅
+Notifications and Privacy	✅	✅	✅	✅
+Users			✅	✅
+Partner Dashboard		✅	✅	✅
+Note: Custom account user roles are not available. The ✅ (if enabled) for Assistant Payment Management reflects a sub-permission that is disabled by default and must be turned on by an Owner or Administrator.
+​
+FAQs
+​
+Can I delete an account user?
+No. Deletion is not available for account users. You can suspend a user to remove their access. Suspended users do not count against your plan limit.
+​
+Can an Administrator connect a payment processor?
+No. Only the Account Owner can connect Kajabi Payments, Stripe, or PayPal under Payment Integrations.
+​
+How do I give an Assistant access to payment management actions?
+Go to Settings > Manage Users, click Edit next to the Assistant, and enable the Payment Management Access sub-permission.
+
+Was this page helpful?
+
+Yes
+No
+Update email notifications
+Previous
+Use multiple account users simultaneously
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

@@ -1,0 +1,230 @@
+SOURCE: https://help.kajabi.com/articles/sales/kajabi-payments/kajabi-payments-processing-fees
+FETCHED: 2026-09-26T22:12:54.442Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Kajabi Payments overview
+ACH Direct Debit for invoicing
+Buy Now, Pay Later methods with Kajabi Payments
+Disputes page overview
+Instant Payouts with Kajabi Payments
+Set up Kajabi Payments: Australia
+Set up Kajabi Payments: Canada
+Set up Kajabi Payments: Europe
+Set up Kajabi Payments: United Arab Emirates
+Set up Kajabi Payments: United Kingdom
+Set up Kajabi Payments: United States
+Bank updates and payout schedule timing
+Use Klarna with Kajabi Payments
+Convert offers from Stripe to Kajabi Payments
+Enable Afterpay on Kajabi Payments Offers
+Enable Apple Pay and Google Pay on Kajabi Payments Offers
+Integrate QuickBooks Online with Kajabi Payments
+Integrate Xero with Kajabi Payments
+Manage failed payments with Kajabi Payments
+Respond to a dispute with Kajabi Payments
+Set up and manage subscriptions with Kajabi Payments
+Update billing dates for Kajabi Payments subscriptions
+Verify an EIN for Kajabi Payments
+View Kajabi Payments payouts and payout details
+Create and manage invoices with Kajabi Payments
+Kajabi Capital: fast, frictionless business funding
+Kajabi Payments 1099-K tax forms
+Complete Kajabi Payments verification requirements
+Complete Kajabi Payments verification requirements
+Kajabi Payments fees: Australia
+Kajabi Payments fees: United Kingdom
+Kajabi Payments fees: Canada
+Kajabi Payments fees: Europe
+Kajabi Payments fees: United Arab Emirates
+Kajabi Payments fees: United States
+Kajabi Payments onboarding required documentation by region
+Kajabi Payments payouts
+Kajabi Payments processing fee invoices
+Kajabi Payments Processing Fees
+Kajabi Payments sales tax overview
+Kajabi Payments statement descriptor
+Updates to Kajabi Payments card pricing in Australia
+Migrate Stripe subscriptions & payment plans to Kajabi Payments
+Payment plans
+Payment settings
+Subscriptions
+Transactions
+Direct Debit for Kajabi Payments (UK, EU, & Australia)
+Understanding Stripe's restricted business list for Kajabi Heroes
+Understanding Stripe's updated billing plans for Kajabi Heroes
+Payment disputes
+Create a manual purchase
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Overview
+Kajabi Payments fees by country
+Card rate discounts
+View individual fees
+Third-party payment processing fee
+Kajabi Payments
+Kajabi Payments Processing Fees
+
+Understand the processing fees associated with Kajabi Payments for each supported region.
+
+​
+Overview
+When you use Kajabi Payments to process your payments, you’ll be charged a processing fee for every successful transaction. Kajabi charges an industry-standard processing fee competitive with other major payment processors.
+By choosing Kajabi Payments as your payment processor, you not only gain the advantage of competitive processing fees but also provide your customers with the convenience of paying through additional payment methods such as a digital wallet like Apple Pay or Google Pay, or via a Buy Now Pay Later solution such as Afterpay during checkout.
+Note: Kajabi Payments is currently available to Kajabi Heroes whose businesses are registered in the Australia, Canada, Select European Countries, the United Arab Emirates, the United Kingdom, and the United States.
+​
+Kajabi Payments fees by country
+Review the links below based on the country in which your business is registered for a detailed breakdown of associated fees:
+Australia
+Canada
+Select European countries
+United Arab Emirates
+United Kingdom
+United States
+Note: The rates shown on our pricing page are for U.S. based Heroes only. Kajabi Payments fees vary by country. To see the full fee schedule that applies to you, click the link for your country above.
+​
+Card rate discounts
+You may qualify for discounted card rates based on your plan. To check, head to Account Settings › Billing to see the details of your current plan.
+Curious about how your plan stacks up against our plans and where you might save more? Visit our Pricing Hub to explore.
+​
+View individual fees
+You can find a breakdown of the individual fees for each transaction on the Payouts Page.
+Navigate to Payments from your Kajabi Account
+Click View payouts
+Click All payouts
+Click into the specified payout date
+Fees can also be viewed from the customer purchase info page:
+From the Kajabi Dashboard, select Payments
+From Payments, click Transactions
+Select the Customer transaction you wish to view individual fees for
+​
+Third-party payment processing fee
+If you process card payments through a third-party processor connected directly to your account, rather than through Kajabi Payments, a transaction fee applies in addition to that processor’s own fees. The fee is based on your Kajabi plan — see the pricing page for current rates. PayPal is not subject to this fee.
+This fee applies only in countries where Kajabi Payments is available. If Kajabi Payments isn’t offered in your country, no third-party transaction fee is charged.
+
+Was this page helpful?
+
+Yes
+No
+Kajabi Payments processing fee invoices
+Previous
+Kajabi Payments sales tax overview
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

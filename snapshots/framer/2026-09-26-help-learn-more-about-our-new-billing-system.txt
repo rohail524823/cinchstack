@@ -1,0 +1,326 @@
+SOURCE: https://www.framer.com/help/articles/learn-more-about-our-new-billing-system/
+FETCHED: 2026-09-26T22:14:02.120Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Framer
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Log in
+
+Sign up
+
+Copy logo SVG
+
+Brand guidelines
+
+Help center
+
+Account
+
+Learn about Framer’s new billing system
+
+Search
+
+Learn about Framer’s new billing system
+
+Learn what changed in Framer’s billing system and how the new structure affects sites, editors, and invoices.
+
+Starting May 27, 2026, Framer introduced a new billing system designed to support future product improvements and provide greater flexibility. This article outlines the key changes and what they mean for your subscriptions.
+
+What changed?
+
+The updated billing system introduces new editor types, simplified pricing, and more transparent invoicing.
+
+Content editors
+
+Framer now supports Content Editors, a new seat type designed for team members who manage content but do not need full editing access.
+
+Content Editors can:
+
+Update CMS content.
+
+Manage localization.
+
+Use on-page editing tools.
+
+Content Editor seats are billed at a lower rate than Full Editor seats.
+
+Simplified editor pricing
+
+Full Editor seats now have the same price across all plans.
+
+This change makes editor pricing more consistent and easier to understand, regardless of the plan associated with your site or workspace.
+
+Promo codes for existing subscriptions
+
+You can now apply eligible promo code discounts to existing subscriptions.
+
+Previously, promo codes were generally limited to new purchases. With the new billing system, qualifying discounts can also be applied to active subscriptions where supported.
+
+Separate billing for sites and add-ons
+
+Sites and add-ons are now billed separately rather than being combined into a single invoice.
+
+This change makes invoices easier to review and understand by clearly separating charges for:
+
+Site plans.
+
+Add-ons.
+
+Editor seats.
+
+Other subscription-related services.
+
+Purchase editor seats upfront
+
+You can now purchase editor seats in advance and assign them as needed.
+
+Editor seats are interchangeable, making it easier to manage access as team members join, leave, or change roles within your workspace.
+
+FAQ
+How can I migrate to the new billing?
+
+Open your workspace settings and navigate to the Plans tab. Scroll down and click ‘Switch Now’ then follow the steps.
+
+Will my workspace use the new billing automatically?
+
+We will slowly migrate existing accounts to the new billing. Your subscriptions will remain active and your site will remain online.
+
+What if I don’t want separate invoices per site subscription?
+
+Our new billing system does not support billing everything on one invoice. However, we are looking into ways to support this in the future.
+
+Updated
+
+last week
+
+Related articles
+
+Check the total and billed editors in your workspace
+
+Subscriptions and charges
+
+Update your billing details
+
+Add Framer to Preferred Sources
+
+Your next idea starts here
+
+GPT 6 Sol
+
+Create personal portfolio
+
+Build startup site
+
+Launch landing page
+
+Start company blog
+
+Start without AI
+
+Product
+
+AI
+
+Agents
+
+External Agents
+
+Design
+
+Collaborate
+
+CMS
+
+Hosting
+
+Performance
+
+SEO
+
+Skills
+
+NEW
+
+Convert
+
+Publish
+
+Updates
+
+Marketplace
+
+Templates
+
+Components
+
+Plugins
+
+Vectors
+
+Gallery
+
+Experts
+
+Business
+
+Switch
+
+Enterprise
+
+Agencies
+
+Startups
+
+Pricing
+
+Resources
+
+Academy
+
+Download App
+
+Developers
+
+Guides
+
+Blog
+
+Newsletter
+
+Stories
+
+Creators
+
+Experts
+
+Students
+
+Ambassadors
+
+Help Articles
+
+Contact
+
+Meetups
+
+Solutions
+
+Designers
+
+Agencies
+
+Marketers
+
+Growth
+
+Builders
+
+Engineers
+
+Site Teams
+
+Founders
+
+AI website builder
+
+AI design agent
+
+Website builder
+
+Landing pages
+
+Portfolio maker
+
+UI/UX design
+
+Figma to HTML
+
+No-code
+
+Compare
+
+Webflow
+
+Figma
+
+Wix
+
+Squarespace
+
+WordPress
+
+Readymag
+
+Ceros
+
+Unbounce
+
+Lovable
+
+Claude Code
+
+ChatGPT
+
+Codex
+
+Contentful
+
+Sanity
+
+AEM
+
+Replit
+
+v0
+
+Company
+
+Careers
+
+Security
+
+Brand
+
+Abuse
+
+Legal
+
+Trust
+
+By Framer
+
+Merch
+
+Keyboard
+
+Stack Score
+
+Free domains
+
+AEO scanner
+
+State of Sites
+
+CanvasBench
+
+Link Preview
+
+Select Language
+English
+English
+
+CCPA
+
+Checking status
+
+Framer

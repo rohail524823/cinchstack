@@ -1,0 +1,217 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/kajabi-subscription-tax-faqs
+FETCHED: 2026-09-26T22:15:55.047Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Why am I being charged tax?
+How is tax calculated?
+What if my organization is exempt from taxes?
+How do I enter my tax ID number for verification?
+How do I know if my tax number is verified?
+How can I ensure my tax number will be verified?
+Tax number formats by country
+What can I do if my tax number is still not verified?
+Will this impact the fees my customers pay?
+Billing
+Kajabi subscription tax FAQs
+
+Understand how taxes are calculated, applied, and verified on your Kajabi subscription.
+
+Below you will find common questions about taxes on your Kajabi subscription, including how tax is calculated and how to enter your tax ID for exemption verification.
+​
+Why am I being charged tax?
+Kajabi collects tax based on applicable laws. Kajabi calculates the exact tax for each account and includes it in the invoice.
+All references to tax in this article, as it relates to your Kajabi subscription, refer to applicable sales tax, VAT, or GST.
+​
+How is tax calculated?
+Tax will be calculated based on the billing address listed on your account. Tax rates vary by location. You can find the amount of tax charged on your Kajabi subscription as a separate line item on your monthly invoice.
+​
+What if my organization is exempt from taxes?
+Some nonprofit, charitable, religious, scientific, or educational organizations may be exempt from tax.
+If you would like to apply for tax exemption, contact our support team and provide your exemption certificate.
+If you have a tax number, you may submit it for verification to become tax exempt.
+​
+How do I enter my tax ID number for verification?
+To enter your tax number into Kajabi for validation:
+Go to Settings > Subscription & Billing.
+Click on the Billing tab.
+Under Billing info, click Edit details.
+Click Edit business address.
+Enter your tax number. If applicable, change the tax type.
+Click Save changes.
+​
+How do I know if my tax number is verified?
+After entering your tax number, the system will display a badge next to your tax number under Billing settings, indicating the status:
+Verified: The tax number was successfully verified by external tax authorities and tax exemption has been provided.
+Pending: The tax number has been sent to external tax authorities to be validated.
+Unverified: The tax number was not able to be verified by external tax authorities.
+Accepted: We are unable to verify the tax number for your region but tax exemption has been approved via other criteria.
+Validated (for Australian account owners only): Your ABN has been validated. If you are also GST registered you will be tax-exempt. If you are not GST registered your subscription will be subject to tax.
+Unavailable: Your current region is not supported for tax exemption regardless of tax number entry. These regions include: Quebec, Mexico, Switzerland, South Africa, Indonesia.
+​
+How can I ensure my tax number will be verified?
+After entering your tax number, Kajabi will verify it with the appropriate government databases to validate tax exemption.
+Every region has a slightly different tax number format. Be sure to enter your tax number exactly as your government provides it to you.
+Important: You are responsible for entering your tax number correctly.
+​
+Tax number formats by country
+Country	Description	Example
+Australia	Australian Business Number (AU ABN)	12345678912
+Australia	Australian Taxation Office Reference Number	123456789123
+Australia	Goods and Service Tax (GST)	12 345 678 912
+Austria	European VAT number	ATU12345678
+Belgium	European VAT number	BE0123456789
+Brazil	Brazilian CNPJ number	01.234.456/5432-10
+Brazil	Brazilian CPF number	123.456.789-87
+Bulgaria	Bulgaria Unified Identification Code	123456789
+Bulgaria	European VAT number	BG123456789
+​
+What can I do if my tax number is still not verified?
+If your tax number is not verified, double-check that you have entered your tax number in the exact format shown for your country in the table above. If you have confirmed your tax number is in the correct format for your country, we recommend contacting your local tax authority and asking them for confirmation of your tax exemption status.
+​
+Will this impact the fees my customers pay?
+No, tax is only applied to your Kajabi subscription. Your customer’s pricing will not change.
+
+Was this page helpful?
+
+Yes
+No
+Manage services and customer payments after account cancellation
+Previous
+Kajabi trial information
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

@@ -1,0 +1,1456 @@
+SOURCE: https://support.pipedrive.com/en/article/what-features-do-the-pipedrive-plans-have
+FETCHED: 2026-09-26T22:57:40.540Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Your Pipedrive subscription plan/What features do the ...
+
+Topics
+Features available on new and old plans
+Features on new plans
+Features on old plans
+Add-on features
+Included add-ons
+Separate add-ons
+What features do the Pipedrive plans have?
+ML
+Marian Luht
+Last updated: September 2, 2026
+
+No matter your company’s needs, Pipedrive has the features to help you become more effective in your sales process.
+
+Below, you can see which features and add-ons are included on different plans.
+
+Features available on new and old plans
+Note: We’ve recently launched new plan tiers, names and limits. You can find the latest information about new plans in this article and check current prices on our pricing page.
+Features on new plans
+Feature
+	
+Lite
+	
+Growth
+	
+Premium
+	
+Ultimate
+
+Customizable pipelines
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Deal card customization
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Deal rotting
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Data import and export
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Merge duplicate data
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Products catalog
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Custom fields
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Leads inbox
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Pulse toolkit
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Pulse feed
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+People and organization management
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Mentions and comments
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+File attachments
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Contacts map
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Calendar view and activity management
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Smart Bcc
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Notifications
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+API access
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Webhooks
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+AI-powered report creation
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Marketplace with over 500+ integrations
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Insights reporting
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Insights dashboard
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Device history and audit log
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Single sign-on (SSO)
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Two-factor authentication (2FA)
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Visibility options
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Security dashboard
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Mobile Android and iOS apps
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Automatic call logging
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Web-to-mobile calls
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Contact sync with Google and Microsoft
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Calendar sync with Google and Microsoft
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Chatbot support
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Video tutorials
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Recurring products and installments
+		
+✔️
+	
+✔️
+	
+✔️
+
+Important fields
+		
+✔️
+	
+✔️
+	
+✔️
+
+Email sync
+		
+✔️
+	
+✔️
+	
+✔️
+
+Email templates and signatures
+		
+✔️
+	
+✔️
+	
+✔️
+
+Email open and click tracking
+		
+✔️
+	
+✔️
+	
+✔️
+
+Group emailing
+		
+✔️
+	
+✔️
+	
+✔️
+
+Email scheduling
+		
+✔️
+	
+✔️
+	
+✔️
+
+Meeting scheduler
+		
+✔️
+	
+✔️
+	
+✔️
+
+Automations
+		
+✔️
+	
+✔️
+	
+✔️
+
+Delay and wait for steps
+		
+✔️
+	
+✔️
+	
+✔️
+
+If/else steps
+		
+✔️
+	
+✔️
+	
+✔️
+
+Live chat support
+		
+✔️
+	
+✔️
+	
+✔️
+
+Sequences
+		
+✔️
+	
+✔️
+	
+✔️
+
+Forecast view
+		
+✔️
+	
+✔️
+	
+✔️
+
+Contacts timeline
+		
+✔️
+	
+✔️
+	
+✔️
+
+Smart Docs
+	
+Paid add-on
+	
+Paid add-on
+	
+✔️
+	
+✔️
+
+Projects add-on
+	
+Paid add-on
+	
+Paid add-on
+	
+✔️
+	
+✔️
+
+LeadBooster add-on
+	
+Paid add-on
+	
+Paid add-on
+	
+✔️
+	
+✔️
+
+Required fields
+			
+✔️
+	
+✔️
+
+Formula fields
+			
+✔️
+	
+✔️
+
+Pipeline-specific fields
+			
+✔️
+	
+✔️
+
+Multiple email account sync
+			
+✔️
+	
+✔️
+
+Automatic assignment
+			
+✔️
+	
+✔️
+
+AI email creation
+			
+✔️
+	
+✔️
+
+AI email summarization
+			
+✔️
+	
+✔️
+
+Multiple Insights dashboards
+			
+✔️
+	
+✔️
+
+Custom field reports
+			
+✔️
+	
+✔️
+
+Team filters and goals
+			
+✔️
+	
+✔️
+
+Custom visibility groups
+			
+✔️
+	
+✔️
+
+Custom permission sets
+			
+✔️
+	
+✔️
+
+Custom scoring
+			
+✔️
+	
+✔️
+
+Organization data enrichment
+			
+✔️
+	
+✔️
+
+Team inbox
+			
+✔️
+	
+✔️
+
+Phone support
+			
+✔️
+	
+✔️
+
+Contact data enrichment
+				
+✔️
+
+Security alerts
+				
+✔️
+
+Security rules
+				
+✔️
+Features on old plans
+Feature
+	
+Essential
+	
+Advanced
+	
+Professional
+	
+Power
+	
+Enterprise
+
+Customizable pipelines
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Deal rotting
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Data import and export
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Merge duplicate data
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Products catalog
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Custom fields
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Leads inbox
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Pulse toolkit
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Pulse feed
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+People and organization management
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Mentions and comments
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+File attachments
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Contacts map
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Calendar view and activity management
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Smart Bcc
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Notifications
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+API access
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Webhooks
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+AI-powered report creation
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Marketplace with over 500+ integrations
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Insights reporting
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Insights dashboard
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Device history and audit log
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Single sign-on (SSO)
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Two-factor authentication (2FA)
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Visibility options
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Security dashboard
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Mobile Android and iOS apps
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Automatic call logging
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Contact sync with Google and Microsoft
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Calendar sync with Google and Microsoft
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Chatbot support
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Video tutorials
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Web-to-mobile calls
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Recurring products and installments
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Important fields
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Email sync
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Email templates and signatures
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Email open and click tracking
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Group emailing
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Email scheduling
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Meeting scheduler
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Automations
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Delay and wait for steps
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+If/else steps
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Live chat support
+		
+✔️
+	
+✔️
+	
+✔️
+	
+✔️
+
+Smart Docs
+	
+Paid add-on
+	
+Paid add-on
+	
+✔️
+	
+✔️
+	
+✔️
+
+Deal card customization
+			
+✔️
+	
+✔️
+	
+✔️
+
+Sequences
+			
+✔️
+	
+✔️
+	
+✔️
+
+Forecast view
+			
+✔️
+	
+✔️
+	
+✔️
+
+Contacts timeline
+			
+✔️
+	
+✔️
+	
+✔️
+
+Required fields
+			
+✔️
+	
+✔️
+	
+✔️
+
+Formula fields
+			
+✔️
+	
+✔️
+	
+✔️
+
+Pipeline-specific fields
+			
+✔️
+	
+✔️
+	
+✔️
+
+Multiple email account sync
+			
+✔️
+	
+✔️
+	
+✔️
+
+Automatic assignment
+			
+✔️
+	
+✔️
+	
+✔️
+
+AI email creation
+			
+✔️
+	
+✔️
+	
+✔️
+
+AI email summarization
+			
+✔️
+	
+✔️
+	
+✔️
+
+Multiple Insights dashboards
+			
+✔️
+	
+✔️
+	
+✔️
+
+Custom field reports
+			
+✔️
+	
+✔️
+	
+✔️
+
+Team filters and goals
+			
+✔️
+	
+✔️
+	
+✔️
+
+Custom visibility groups
+			
+✔️
+	
+✔️
+	
+✔️
+
+Custom permission sets
+			
+✔️
+	
+✔️
+	
+✔️
+
+Projects add-on
+	
+Paid add-on
+	
+Paid add-on
+	
+Paid add-on
+	
+✔️
+	
+✔️
+
+Custom scoring
+				
+✔️
+	
+✔️
+
+Organization data enrichment
+				
+✔️
+	
+✔️
+
+Team inbox
+				
+✔️
+	
+✔️
+
+Phone support
+				
+✔️
+	
+✔️
+
+Contact data enrichment
+					
+✔️
+
+Security alerts
+					
+✔️
+
+Security rules
+					
+✔️
+Add-on features
+
+Pipedrive offers a number of add-on features that are either included on some plans or can be added to your subscription for an additional cost.
+
+You can click on any of the feature names below to read more information about them.
+
+Included add-ons
+
+Smart Docs – Included on Premium and higher plans. Helps to sync your documents from Google Drive, Microsoft OneDrive or SharePoint to Pipedrive and edit them.
+
+Projects – Included on Premium and higher plans. Allows you to manage post-sales activities for your deals, so you can continue to interact with and set objectives for both closed and open deals.
+
+LeadBooster add-on – Available on Premium and higher plans and comes with the following features:
+
+Chatbot – Allows your customers to better qualify themselves as potential customers of your company directly from your website
+Live Chat – Complements your Chatbot playbook flow, allowing you to engage directly with your website visitors and personalize your lead qualification process
+Web Forms – Create your own personalized, embeddable forms for your website to collect your website visitors’ information and funnel them into Pipedrive as deals or leads
+Prospector – An outbound lead generation tool that will allow you to search for and gather high-quality leads based on set criteria
+Separate add-ons
+
+Web Visitors – Allows you to track visitor activity on your website to track and identify the companies that are most engaged with your website and most likely to turn into customers.
+
+Campaigns – Lets you create beautiful email marketing templates, engage your customers and manage all of your data directly in your Pipedrive account.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

@@ -1,0 +1,76 @@
+SOURCE: https://help.activecampaign.com/hc/en-us/articles/115000919184-How-do-I-view-and-update-my-billing-information
+FETCHED: 2026-09-27T02:21:12.125Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+How can we help?
+ 
+
+Stay informed about changes to the ActiveCampaign platform on our Release Updates page.
+
+ActiveCampaign Help Center
+Account, Billing, & Setup
+Account Billing & Upgrade
+ 
+How do I view and update my billing information?
+Sarah N
+Last updated September 6, 2026 at 1:33 PM
+Follow
+Not yet followed by anyone
+ ActiveCampaign plans
+Starter
+Plus
+Pro
+Enterprise
+
+If you are the Primary Account Admin or an Admin with purchase permissions, you can access the Billing & Upgrade page to update your billing information. Changing your billing information is easy and can be done at any time during your billing cycle.
+
+View or update your billing information
+Click your profile > Billing & Upgrade.
+Click the "Edit payment method" option to the right of your payment method at the top right corner of the page.
+Enter your updated billing information into the modal form.
+Click the "Update" button.
+
+The left side of the billing page contains the following information:
+
+Plan Tier
+Contact limit (if applicable)
+Email send limits (if applicable)
+SMS credits (if applicable)
+Activities (if applicable)
+Auto-upgrade controls (if applicable)
+
+The right side of the billing page contains the following information:
+
+Payment method
+Billing Cadence (Annual, Monthly, or Commit annually pay monthly)
+Next billing date
+Next billing amount
+Available credits (Credit amount available to your account to be used for charges such as recurring billing and upgrades. They are automatically applied toward your next payment)
+
+If you have signed a contract, the billing cadence will show you the duration of your contract:
+
+Related to:
+
+Billing
+Account Settings
+Was this article helpful?
+Yes No
+62 out of 392 found this helpful
+
+Have more questions? Get in touch
+
+Start free trial
+Related articles
+How do I view past payments and invoices?
+Basic troubleshooting steps for your ActiveCampaign account
+About the login verification process
+Use the ActiveCampaign WordPress plugin
+Attaching files to campaigns
+Can't find what you're looking for?
+Let us help you right now!
+Submit a request
+
+We - and our partners - use cookies to deliver our services and to show you ads. By using our website, you agree to the use of cookies as described in our Cookie Policy (in English)
+
+Accept

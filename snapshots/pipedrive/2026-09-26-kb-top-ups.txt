@@ -1,0 +1,203 @@
+SOURCE: https://support.pipedrive.com/en/article/top-ups
+FETCHED: 2026-09-26T22:55:11.271Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Billing information/Billing: Top-ups
+
+Topics
+What are top-ups?
+Available top-ups
+How to buy top-ups
+How to remove top-ups
+Top-ups vs. booster packs
+Key differences
+Billing: Top-ups
+YS
+Yssel Salas
+Last updated: September 2, 2026
+
+Top-ups are paid add-ons that let you increase the limit of specific Pipedrive features.
+
+They’re designed to give your team more flexibility, so you can scale your usage without needing to upgrade your plan.
+
+What are top-ups?
+
+Top-ups allow you to increase the limits of certain Pipedrive features, like reports, automations, or API tokens.
+
+Each top-up adds a fixed number of additional units and can be purchased in multiples, up to a set maximum depending on the feature.
+
+Users with account settings permissions enabled can manage top-ups directly in their Billing settings.
+
+Note: Top-up prices vary depending on your billing frequency (monthly or annual). You’ll see the full cost when selecting the add-on. For more details, visit our pricing page.
+Available top-ups
+Top-up type
+	
+Top-up quantity
+	
+Maximum
+	
+Available from
+
+API tokens
+
+(max. 100 million per company)
+
+	
++250,000
+	
+10
+	
+Growth plan
+
+Leads + Deals
+
+(max. 300,000 per company)
+
+	
++25,000
+	
+10
+	
+Growth plan
+
+Reports
+	
++50
+	
+10
+	
+Growth plan
+
+Automations
+	
++50
+	
+10
+	
+Growth plan
+
+Teams
+	
++10
+	
+10
+	
+Premium plan
+
+Custom visibility groups
+	
++10
+	
+10
+	
+Premium plan
+
+Custom permission sets
+	
++10
+	
+10
+	
+Premium plan
+How to buy top-ups
+
+To purchase a top-up:
+
+Go to Billing > Add-ons in your company account
+Scroll to find the available top-up
+Add them to your billing by activating the toggle. The add-on will turn blue once active.
+Click “Review purchase” at the bottom of the page to open the subscription overview
+Confirm the purchase if everything looks correct
+Note: If limits haven’t yet been enforced in your account, you won’t see related top-ups available until enforcement begins.
+How to remove top-ups
+
+To remove a top-up from your subscription:
+
+Go to Billing > Add-ons.
+Click “Manage add-ons”.
+Find the active top-up and untoggle the add-on. The add-on will turn grey once active.
+Click “Review purchase” at the bottom of the page
+Follow the checkout flow to confirm the changes
+Note: Changes will take effect at the start of your next billing cycle. The checkout flow will display your renewal date before you confirm.
+Top-ups vs. booster packs
+
+While top-ups and booster packs both increase feature limits, they work differently.
+
+If you currently use booster packs, you’ll retain access to them on your existing plan. However, you won’t be able to purchase additional ones after July 2025.
+
+To increase limits beyond that date, you’ll need to switch to a new plan and use top-ups instead.
+
+Note: API Tokens and Leads + Deals top-ups can still be purchased on legacy Advanced, Professional and Power plans.
+Key differences
+
+Top-ups are one standard size (no standard vs. premium)
+You can buy top-ups in multiples, based on your needs
+Top-ups are built specifically for the new plans
+Booster packs aren’t supported on new plans and will be removed if you switch
+
+Learn more about Pipedrive plans on our pricing page.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

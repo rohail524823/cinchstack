@@ -1,0 +1,149 @@
+SOURCE: https://support.pipedrive.com/en/article/campaigns-subscription-and-billing
+FETCHED: 2026-09-26T22:55:21.032Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Campaigns/Campaigns settings/Campaigns: subscripti...
+
+Topics
+Trial
+Account review
+Subscriber tiers
+Billing page
+Campaigns: subscription and billing
+YS
+Yssel Salas
+Last updated: September 2, 2026
+Note: Campaigns by Pipedrive is available as a paid add-on. Access to the billing page and subscribing to Campaigns are only available to users with account management enabled.
+
+Campaigns by Pipedrive is a powerful marketing tool that lets you manage your email communication, data and engagement with your customers from one place.
+
+Learn more about account management software
+
+Before adding Campaigns by Pipedrive to your subscription, try it for free and boost your sales with custom newsletters sent directly from your Pipedrive account.
+
+Trial
+Note: This action is only available to users with account settings access.
+
+To activate your 21-day trial, go to the Campaigns page by clicking on the megaphone icon on the left-hand side of the primary navigation bar. Then, click the "Try it free" button.
+
+You will be redirected to the billing page, where you can add the Campaigns add-on to your subscription.
+
+When the trial has been successfully activated, you will see a blue banner at the top of your Campaigns page, showing how many trial days you have left. During the trial, you can add up to 500 subscribers.
+
+Account review
+Note: This action is available to users with "Can send campaigns" permission.
+
+An account review is essential to be able to purchase Campaigns after your Campaigns trial period.
+
+If you wish to purchase Campaigns, but your account hasn't undergone an account review during the trial period, you can prompt a review from the Campaigns page.
+
+Learn more about account verification in this article.
+
+Note: Your company account will keep your access to Campaigns when your trial ends only if the account has been verified successfully.
+Subscriber tiers
+
+The subscriber limit tiers are structured according to the number of marketing contacts with "Subscribed" marketing status that an account has.
+
+If the subscriber limit is reached, new contacts will be assigned a pending upgrade marketing status. When you upgrade your account to a higher subscriber tier, and as long as the number of new contacts you've added stays within its limits, the pending upgrade contacts will automatically change to "Subscribed".
+
+If you reached the subscriber limit and wish to upgrade to a higher tier, click on "Increase limit" to be redirected to the Billing page.
+
+Billing page
+Note: The billing page is only available to users with account settings access.
+
+Adding Campaigns to your subscription
+
+To add Campaigns to your subscription and select the Campaigns add-on on the billing page. Note that you can also change your subscriber tier from this page.
+
+Upgrading to a higher subscriber tier
+
+You can upgrade to a higher tier by clicking on "Change number".
+
+Use the slider to select your desired number of contacts, between 1k and 50k subscriber spots (by 1k increments). As you move the slider, the estimated cost will appear on the right-hand side based on the overall contacts' number. The more contacts you choose, the less you pay per subscriber.
+
+The new tier limit will be applied to your company account immediately. This means you will be charged a prorated amount from that date until the end of your current billing cycle. From the next billing cycle, the new subscriber tier will already be effective, and the full amount will be charged.
+
+Note: If you are still on your trial period and wish to upgrade your subscriber tier, the selected tier will be applied automatically upon the trial's end.
+
+Downgrading to a lower subscriber tier
+
+To downgrade to a lower subscriber tier, click on "Change number" in the Campaigns add-on section on the Billing page and choose a lower limit using the slider.
+
+The slider will not let you downgrade to a tier lesser than the number of subscribed contacts you already have.
+
+For example, in the scenario shown below, the user can't downgrade to below 28,000 subscribed contacts since they already have 27,001 subscribers on their contacts page. If the user wishes to downgrade to the 27,000 subscriber tier, they should remove excess contact with subscribed or pending upgrade marketing status.
+
+This can be done by selecting the required number of contacts on the Contacts page in the list view and archiving them by changing the marketing status to "Archived". Learn more about bulk editing and filtering in this article.
+
+Note: The new subscriber tier will be effective from the starting date of the next billing cycle.
+
+Cancelling Campaigns
+
+If you wish to cancel the subscription to Campaigns, unmark the selection for the Campaigns add-on on the billing page and confirm the action by clicking on the green buttons. You will see a pop-up confirming the add-on cancelation and the effective date.
+
+You can keep using Campaigns until the end of the current billing cycle. Its cancellation will be effective from the starting date of the next billing cycle.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Campaigns: reporting
+Campaigns: account settings
+Campaigns: company account review
+Campaigns: drag-and-drop editor
+Campaigns: marketing contacts
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

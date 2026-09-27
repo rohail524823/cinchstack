@@ -1,0 +1,194 @@
+SOURCE: https://help.kajabi.com/articles/api-integrations/public-api/using-kajabis-public-api
+FETCHED: 2026-09-26T22:15:55.867Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Use Kajabi's public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Before you begin: confirm API access is active
+API keys
+Using Zapier or a third-party integration
+API limits and availability
+Webhooks vs. Public API: which do you need?
+Troubleshooting authentication errors
+API documentation
+Get help
+Public API
+Use Kajabi's public API
+
+Create API keys and access documentation for Kajabi’s public API.
+
+Kajabi’s public API allows you to build custom integrations and automate workflows. This article walks you through creating API keys and accessing the API documentation.
+​
+Before you begin: confirm API access is active
+The Public API is included with the current Pro plan. If you’re on a legacy Pro plan (an older Pro subscription), API access is not included by default — you’ll need to either upgrade to the current Pro plan or add the $25/month Public API add-on.
+​
+API keys
+To create an API key:
+From the Kajabi Dashboard, go to Settings > Public API (under Account Settings)
+Click Create User API Key.
+Enter a name for your key.
+Select the account user and permissions.
+Click Create.
+Important: Only Owners and Subowners can create API Keys.
+Note: For security purposes, you may “Delete” or “Rotate” the API credentials at any time. This will invalidate any access tokens granted with those credentials.
+​
+Using Zapier or a third-party integration
+The credentials created here (OAuth client ID and client secret) are for the Kajabi Public API and are not the same as the API Key and API Secret used for Zapier and other native integrations.
+If you’re connecting Kajabi to Zapier, see Locate the Kajabi API key and API secret instead.
+​
+API limits and availability
+Rate limits: The Kajabi Public API enforces rate limits to protect platform stability. For current rate limit values, refer to the API documentation or contact Kajabi Support.
+Data availability: Not all data visible in your Kajabi dashboard is available via the Public API. If a specific field or metric you need is absent from the API reference, it is not currently exposed via the API — please submit a feature request through the feedback portal.
+IP allowlisting: Kajabi does not currently publish an IP allowlist for API access. If your environment requires allowlisting, contact support for current guidance.
+​
+Webhooks vs. Public API: which do you need?
+	Public API	Webhooks
+What it does	Pull or push data programmatically via REST endpoints	Receive real-time event notifications from Kajabi to your system
+Direction	Two-way (read & write)	Primarily outbound (Kajabi → your endpoint); inbound also available
+Best for	Custom integrations, bulk data access, building apps	Event-driven automations (e.g. trigger a workflow when a purchase occurs)
+Plan required	Pro (included) or $25/mo add-on	Available on Growth and Pro plans
+Learn how to use Webhooks with Kajabi
+​
+Troubleshooting authentication errors
+If you receive a 401 Unauthorized or 403 Forbidden error after generating a token:
+Check key permissions: When creating your API key, you must explicitly select the permission scopes your integration needs. A token generated from a key with insufficient scopes will be rejected on protected endpoints even if the token itself is valid. Delete and recreate the key with the correct permissions.
+Confirm access is active: If API access was recently enabled on your account, allow up to 10 minutes for the change to propagate before testing.
+Check your request headers: Ensure you’re passing the token as a Bearer token in the Authorization header — not as a query parameter.
+​
+API documentation
+For detailed information about endpoints, request parameters, and examples, visit the Kajabi Public API Documentation:
+help.kajabi.com/api-reference
+This documentation provides a comprehensive guide on how to use various endpoints, error handling, and best practices for integrating with the public API.
+​
+Get help
+If you encounter a possible bug or have questions about the functionality of the Kajabi public API, contact our support team.
+Kajabi is not able to support inquiries specific to custom coding. If you need assistance implementing or troubleshooting custom code with the API, we recommend seeking guidance from an expert or developer.
+
+Was this page helpful?
+
+Yes
+No
+View a customer's next billing date in Stripe
+Previous
+Third party integrations
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

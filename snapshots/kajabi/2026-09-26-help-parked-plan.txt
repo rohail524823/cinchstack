@@ -1,0 +1,209 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/how-to-pause-your-kajabi-subscription
+FETCHED: 2026-09-26T22:15:55.981Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Parked accounts
+Customer access while parked
+Cost of parking an account
+Partner commission and parked accounts
+Accessing content in a parked account
+Update payment processors while on a Parked Plan
+Park an account
+Reactivate a parked account
+Billing
+Pause a Kajabi subscription
+
+Park a Kajabi account to take a break while preserving data and progress.
+
+If you need some time away from Kajabi, but still want to scale your business in the future, you can park (pause) your Kajabi account without canceling your subscription, and then reactivate it when you’re ready to return.
+​
+Parked accounts
+Parking your account preserves all your data, content, and site progress. Everything stays intact until you’re ready to reactivate.
+Before parking, make any adjustments to product quantities or configurations, since those changes can’t be made while the account is paused. While parked, you can still reactivate your account, change your Kajabi plan, and update billing information.
+While your account is parked, you can still reactivate, change your Kajabi plan, and update your billing information.
+Note: While parked, you won’t be able to build, customize, or make changes to your site.
+​
+Customer access while parked
+Parking your Kajabi account pauses your site, which will appear offline and remain inaccessible to your contacts and customers. This includes products purchased by your customers.
+Customers of your parked account will not have access to products purchased from your site while your account is parked.
+Note: Subscription payments will continue to process while your account is parked. To avoid charging customers for a product they can’t access, manually pause their subscriptions before parking. Upon reactivation, remember to unpause those subscriptions so customers regain access without disruption.
+
+Learn how to pause a customer subscription.
+​
+Cost of parking an account
+A Parked Plan costs $29/month plus applicable taxes. Any Kajabi discounts on your account will be canceled, and any legacy plans will be permanently forfeited. If you reactivate, you’ll need to subscribe to a current standard plan.
+​
+Partner commission and parked accounts
+Parking preserves your Kajabi Partner status, unlike canceling. You’ll continue earning commission on referrals with active, paid base plans during the time your account is parked. Referrals on a parked plan are not considered active and do not generate commission.
+
+Learn more in the Kajabi Partner Program FAQs.
+Learn more about the Kajabi Partner Program.
+​
+Accessing content in a parked account
+You’ll need to upgrade to an active Kajabi plan to regain full access to your site and content. Before parking, make sure any necessary adjustments are completed, such as preparing to downgrade product offerings to fit a lower-tier plan.
+​
+Update payment processors while on a Parked Plan
+How you update your payment processor depends on which one you use:
+Stripe or PayPal: Update your payment settings directly in your Stripe or PayPal account. No plan upgrade needed.
+Kajabi Payments: You’ll need to upgrade to a paid Kajabi plan to access payment settings in the admin.
+Once your changes are complete, you can downgrade back to the Parked Plan. The cost difference is non-refundable, but any remaining balance will be applied as account credits toward future billing.
+​
+Park an account
+From the Dashboard, open Settings from in the bottom left corner.
+Select Subscription & Billing under the Account settings section.
+Under Your subscription, click Change plan.
+Scroll to the bottom of the page and look for Need to pause your Kajabi account?
+Click Park account.
+Note: If you are unable to see the park option in your plan details, contact support for assistance.
+​
+Reactivate a parked account
+To reactivate your parked account and resume building your business with Kajabi:
+From the Dashboard, open Settings.
+Select Subscription & Billing under the Account settings section.
+Under Your subscription, select a subscription plan.
+Note: Parking your account cancels your current subscription plan. If you’re on an annual plan, any remaining months are forfeited and you’ll start a new plan upon reactivation. To minimize lost time, park closer to the end of your billing cycle. If you have an active promo or legacy plan, pause before it expires to retain those benefits.
+
+Was this page helpful?
+
+Yes
+No
+Cancel a Kajabi account
+Previous
+Reactivate a Kajabi account
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

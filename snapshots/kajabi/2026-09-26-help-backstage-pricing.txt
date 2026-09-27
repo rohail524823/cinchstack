@@ -1,0 +1,190 @@
+SOURCE: https://help.kajabi.com/articles/products/backstage/backstage-offer-pricing
+FETCHED: 2026-09-26T22:15:55.099Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Set up a private client Backstage
+Set up scheduling in Backstage
+Backstage Offer pricing
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+What Backstage is
+The 5× rule
+Why premium pricing is the point
+Small audiences are the sweet spot
+When Backstage is the right fit
+A note on seat costs
+Backstage
+Backstage Offer pricing
+
+Direct access to you is the most valuable thing you can sell on the internet. Price it that way.
+
+Beta: This feature is currently in Beta. Future entitlements and pricing are subject to change.
+​
+What Backstage is
+You promised transformation. Most of your clients got a course they never finished. Backstage is how you actually deliver on the promise.
+It’s the premium tier of the Kajabi suite. Sold like any other Offer, bundled with your existing courses, communities, or coaching programs. If you’ve been running Coaching, Backstage replaces it. It’s a superset that pulls the entire client relationship into one place… no more bouncing between Zoom, Voxer, Notion, Google Drive, and Calendly.
+Learn how to set up a private client Backstage.
+​
+The 5× rule
+Backstage is included in our standard Kajabi plans. Each customer you sell a Backstage offer to uses one seat. Additional seats are $49/month each.
+The dream version: a $2,000/month client from content you already built. Here’s the math that gets you there.
+Price your Backstage offer at roughly 5× your current top monthly offer.
+$200/month course or coaching program → Backstage at $1,000/month
+$500/month program → Backstage at $2,500/month
+$2,000/month mastermind → Backstage at $10,000/month
+That math isn’t arbitrary. At $1,000/month per customer, a $49 seat is about 5% of the revenue each customer brings in. At $2,500/month, it’s 2%. The higher you price the offer, the more negligible the seat cost becomes.
+​
+Why premium pricing is the point
+Backstage is priced for outcomes, not content. The people paying for it aren’t buying lessons. They’re buying the right lesson at the right moment, your direct attention applied to their situation, and the operational depth that turns a course they’d never finish into a program they actually complete.
+Your time, attention, and energy are finite. Years (often decades) of pattern-matching, focused on their problem, so they can skip the dead ends you’ve already navigated. That’s what they’re paying for. AI, courses, and group programs can’t replicate it.
+When you price Backstage low, three things break:
+You attract the wrong customer (someone shopping for a deal, not transformation)
+You burn yourself out delivering high-touch service at low-touch margins
+You devalue what direct access to an expert is worth, for yourself and for every other Hero on the platform
+​
+Small audiences are the sweet spot
+Backstage doesn’t need volume to be profitable. A handful of high-intent customers paying premium can outperform hundreds of low-ticket buyers.
+Three customers at $1,000/month is $3,000/month in revenue. Five customers at $2,500/month is $12,500/month in revenue.
+The model is designed to make small, premium audiences profitable. If you only need 2 or 3 seats, that’s not a problem with Backstage. That’s exactly what it’s for.
+​
+When Backstage is the right fit
+Backstage works best when:
+You have an audience that already trusts your expertise
+Your audience would pay a premium specifically to be closer to you
+You’re ready to deliver personal value to a smaller group of high-intent buyers
+Backstage might not be the right product if:
+You’re early in building your audience and trust hasn’t formed yet
+Your offer is primarily content or curriculum (Courses, Coaching, or Communities are better matches)
+You want to scale to thousands of buyers at a low price point (Products and Communities are built for that)
+If you’re not there yet, that’s not a problem. Other Kajabi products will serve you better until you’re ready to charge a premium for direct access.
+​
+A note on seat costs
+The $49/seat/mo price reflects what Backstage delivers. If it feels steep, the offer is the problem. Your expertise is worth more than you’re charging for it.
+
+Was this page helpful?
+
+Yes
+No
+Set up scheduling in Backstage
+Previous
+Add Coaching resources
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

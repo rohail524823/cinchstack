@@ -1,0 +1,249 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/manage-your-subscription
+FETCHED: 2026-09-26T22:15:19.310Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Change a plan
+Nonprofit discount
+Legacy plan pricing when changing plans
+Annual plan renewals and price changes
+Plan usage
+Feature limit increases
+View plan usage
+Increase a feature limit
+Feature limit increase pricing
+Edit a feature limit
+Manage paid extras
+Add-ons
+Remove an add-on
+Billing
+Manage subscription
+
+Update a Kajabi plan, view usage, increase feature limits, and manage add-ons.
+
+Your Kajabi subscription settings give you full control over your plan, usage limits, and paid extras. From one central location, you can upgrade or downgrade your plan, monitor feature usage, purchase additional capacity, and manage add-ons.
+Note: To update your billing details, such as your billing name, address, or card, see Update billing details.
+​
+Change a plan
+From the Kajabi Dashboard, navigate to Settings > Subscription & Billing.
+Click Change plan.
+Review the available subscription plans and complete the in-app instructions to upgrade or downgrade your account.
+
+Depending on which plan you choose, you’ll either be charged a prorated amount and immediately gain access to all features of the new plan, or the change will take effect at the end of your current billing cycle.
+Note: If your account shows a Legacy plan name (e.g., “Basic Legacy,” “Growth Legacy,” “Legacy Pro”), it means you signed up before Kajabi’s current plan structure. Legacy plans keep their original pricing and limits, but they can differ from the current plan of the same name in feature availability (for example, social integrations in Universal Inbox, or Public API access) and product/site/funnel limits. Before switching, review the plan options on this screen, or contact support, to see your account’s specific legacy vs. current differences. Switching off a legacy plan is permanent — you cannot switch back.
+​
+Nonprofit discount
+Kajabi offers a 10% discount for verified nonprofit organizations. To request it, contact Kajabi Support and provide official documentation confirming nonprofit status (such as an IRS Tax Exempt determination letter or equivalent). The discount applies to your Kajabi subscription only — it does not affect coupons you create for your own customers.
+​
+Legacy plan pricing when changing plans
+If you are on a legacy plan (your plan name includes “Legacy” in your Subscription & Billing settings), your pricing and feature limits differ from current standard plans. Be aware of the following before making any plan changes:
+Switching to a current plan is permanent. You cannot return to a legacy plan once you switch off of it.
+Upgrading from a legacy plan: Review your specific plan differences in the Change plan screen, or contact Support before upgrading to confirm how your current pricing will be affected.
+Downgrading: You cannot downgrade to a lower plan if your current usage exceeds that plan’s limits. Reduce usage first. Legacy pricing does not carry to the new plan.
+Parking (pausing) your account: Parking cancels your current subscription plan. Any discounts on your account will be canceled and any legacy plans will be permanently forfeited. See Pause a Kajabi subscription.
+​
+Annual plan renewals and price changes
+Annual plan pricing may change at renewal. If your renewal amount is higher than your previous year’s charge, this reflects Kajabi’s current published pricing for your plan. Kajabi does not offer price locks or renewal discounts to offset price increases. To confirm your next renewal amount before it bills, go to Settings > Subscription & Billing.
+​
+Plan usage
+You can view your plan usage by going to Settings > Subscription & Billing and look at the Plan usage section.
+Note: You cannot downgrade your current plan to a lower plan if your current plan usage exceeds the new plan limits. If you intend to downgrade, please remove the extra features first to ensure you will meet the limits of the plan you wish to downgrade to.
+​
+Feature limit increases
+Need more features (e.g., products, contacts) but not enough to upgrade to the next plan? Manage your paid extras and increase (or decrease) your feature limit to fit your business needs.
+​
+View plan usage
+Open Settings > Subscription & Billing.
+Scroll down to see the Plan usage section.
+Note: The Extra admin users usage on this page doesn’t include the owner of the Kajabi account.
+​
+Increase a feature limit
+Open the Settings > Subscription & Billing.
+Click Increase Limit for the feature you wish to increase.
+Note: The option to increase your limit will appear when you reach 80% of your limit. Your feature limits are determined by your subscription plan and can be viewed in the Plan Usage section of your Subscription tab in Settings.
+Your feature limit increase will align with your subscription plan payments:
+If you have purchased an annual plan, your feature limit increase will be charged on an annual basis.
+If you have purchased a monthly plan, your feature limit increase will be charged on a monthly basis.
+However, if you wish to pay on a split cadence (e.g., Base Plan is Annual and your feature limit increase charged monthly), you will need to contact our support team.
+After purchasing an increase, your Paid extras page will display the features you have increased.
+​
+Feature limit increase pricing
+Feature	Increment	Price/mo
+Products	10	$50 USD
+Contacts	5,000	$25 USD
+Website	1	$49 USD
+Admin Users	1	$5 USD
+Funnels	10	$10 USD
+AI Credits	500	$15 USD
+​
+Edit a feature limit
+Open the Settings > Subscription & Billing.
+Click Edit limit increase for the feature you wish to edit.
+Note: Decreasing a feature limit is only available if you have not used your increased limit. After using your additional features you will need to contact our support team if you wish to decrease your limit. Removing a feature limit increase will be treated as a scheduled downgrade and will be removed at the end of the current billing cycle.
+​
+Manage paid extras
+To manage your Kajabi Paid Extras:
+Open the Settings > Subscription & Billing.
+Click on Manage paid extras.
+​
+Add-ons
+Kajabi helps you scale your business with our all-in-one system. However, we know that your business is unique to you and your niche, so your needs may vary. That is why we have developed Kajabi Add-Ons to help you grow your business, but only if you need them.
+The following add-ons are currently available:
+Website Widgets - Quickly add a large variety of functionality to your website and landing pages to increase user engagement (no code required).
+Branded Mobile App - Create a white-labeled mobile app that is customized to your brand and pre-loaded with your Kajabi courses and community.
+​
+Remove an add-on
+You can manage and cancel your add-ons directly in your account from the Paid extras page:
+From the Kajabi Dashboard, click Settings → Subscription.
+Click on the Paid extras tab.
+Locate the add-on you’d like to cancel (such as API).
+Click the three dots (…) next to the add-on.
+Select Cancel Add-On.
+In the pop-up window, select a reason for cancellation.
+Confirm the cancellation.
+Your add-on will be canceled, and the change will be reflected in your account.
+If you would like to downgrade your add-on, you can contact our support team.
+
+Was this page helpful?
+
+Yes
+No
+Amplify rewards
+Previous
+Update billing details
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

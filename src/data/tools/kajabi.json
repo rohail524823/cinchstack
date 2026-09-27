@@ -1,0 +1,43 @@
+{
+  "id": "kajabi",
+  "name": "Kajabi",
+  "vendor": "Kajabi LLC",
+  "tier": "secondary",
+  "layer": "sell",
+  "category": "Course, coaching, community and email platform with built-in checkout",
+  "url": "https://www.kajabi.com",
+  "pricingUrl": "https://www.kajabi.com/pricing",
+  "oneLiner": "Course, coaching, community, email and checkout platform priced as three contact-tiered plans (Basic/Growth/Pro) with 0% revenue share and built-in payments.",
+  "summary": "Kajabi bundles course, coaching, community, email marketing, funnels and checkout into one subscription, sold as three plans (Basic, Growth, Pro) that scale mainly by contact count and admin-user limits rather than by seat. It takes 0% of a seller's revenue; sellers instead pay Kajabi's own card-processing rate (2.9%/2.8%/2.7% + 30 cents, by plan) or a surcharge for using a third-party processor instead. A lower-cost Kickstarter tier still exists but is absent from Kajabi's current public pricing pages.",
+  "bestFor": [
+    "course-creator",
+    "freelancer"
+  ],
+  "notFor": [
+    "Sellers who need more than 3 websites/communities or 100,000 contacts without a custom conversation, since Pro is the top self-serve plan",
+    "Buyers who want a true low-cost starter plan on the public pricing page: the cheapest listed plan is Basic at $143-179/month, and the cheaper Kickstarter tier isn't shown there or fully documented",
+    "Teams who need more than 26 total admin users, since that is Pro's cap with no published higher self-serve tier",
+    "Sellers who want a completely free way to try the platform without giving a card, since the 14-day trial requires one upfront"
+  ],
+  "pros": [
+    "0% platform revenue share on every plan; Kajabi charges only its own card-processing rate",
+    "No per-seat pricing: up to 25 additional admin users included on Pro (10 on Growth) at no extra per-user charge",
+    "Growth and Pro get discounted built-in Kajabi Payments card rates (2.8%/2.7% + 30¢ vs Basic's 2.9%) plus a lower third-party-processor surcharge (1%/0.5% vs Basic's 2%)",
+    "Unlimited marketing emails, landing pages and funnels on every plan, with no send-volume charge",
+    "Kajabi Cofounder AI assistant, Kajabi MCP and video transcription/translation included on every plan, including Basic",
+    "14-day free trial plus a 30-day money-back guarantee on every plan"
+  ],
+  "cons": [
+    "Contacts, extra websites, extra admin users, extra products and extra funnels are all separate paid add-ons past each plan's included limit (e.g. +$25/month per 5,000 contacts)",
+    "Branded mobile app ($199/month) and, on legacy Pro accounts, API access ($25/month) are sold as add-ons rather than bundled below Pro",
+    "\"Powered by Kajabi\" branding on transactional emails and the Kajabi mobile app cannot be removed on any plan",
+    "A cheaper Kickstarter tier still exists but is not listed on Kajabi's current public pricing pages, and its feature limits are not published anywhere captured",
+    "Free trial requires a card upfront (a $149 authorization hold validates it), with no ongoing free-forever plan",
+    "Hitting a plan's contact limit gives only a 30-day grace period before the account is locked until you upgrade or delete contacts"
+  ],
+  "founded": 2010,
+  "hq": "Irvine, California",
+  "affiliate": {
+    "program": null
+  }
+}

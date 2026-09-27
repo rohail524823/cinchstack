@@ -1,0 +1,215 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/cancel-your-kajabi-account
+FETCHED: 2026-09-26T22:44:23.266Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Cancel a Kajabi account
+Undo account cancellation
+Undo a cancellation
+FAQs
+What happens after canceling my Kajabi account?
+Are my customers still charged after I cancel my Kajabi account?
+As a Kajabi Partner, will I still receive a commission for my referrals?
+Can I pause my account instead?
+How can I access my content or data if my account is already canceled?
+What happens if I downgrade my Kajabi plan rather than cancel?
+Billing
+Cancel a Kajabi account
+
+Cancel a Kajabi subscription and understand what happens afterward.
+
+If you’re considering canceling your Kajabi account, the steps below cover the cancellation process and explain what to expect. Before proceeding, consider contacting our support team to discuss your options.
+​
+Cancel a Kajabi account
+Click this link to cancel your account:
+Cancel Account
+Or, follow these steps to cancel your account:
+From the Dashboard, click your name in the top right corner. Then, select Account Settings.
+Click Subscription in the sidebar.
+Under Overview, click the Change plan button. Depending on your plan, this button may instead be labeled Upgrade plan.
+Scroll down the page, and under No longer happy with Kajabi?, click Cancel subscription.
+Follow the indicated steps to complete your cancellation.
+Note: If you don’t see a Change plan, Upgrade plan, or Cancel subscription control on your Subscription page at all, use the direct link above (Cancel Account) instead — the available controls can vary by plan type (for example, legacy plans).
+Note: If you do not see the option to cancel, check for a banner at the top of your Subscription page confirming your account is already scheduled for cancellation.
+​
+Undo account cancellation
+You can undo your cancellation before your billing cycle ends.
+​
+Undo a cancellation
+From the Dashboard, click your name in the top right corner. Then, select Account Settings.
+Click Subscription in the sidebar.
+Click the Reinstate account button.
+Click Confirm subscription.
+​
+FAQs
+​
+What happens after canceling my Kajabi account?
+Canceling your Kajabi subscription will cancel all future Kajabi subscription payments and end access to your account (this includes access to your content and site) at the end of your current billing or trial period.
+On the date your account is set to cancel, your site will become inactive and inaccessible to your contacts and customers. This means your existing customers cannot log in to your canceled site and will lose access to the Products they have purchased. We highly recommend downloading your important content or data, such as course videos or customer lists, before your cancellation date.
+Site and Member Access: Your site and member access, including email functionality, will be unavailable until the account is reactivated.
+Custom Domain Disconnection: Any connected custom domain will be automatically disconnected.
+Email Hosting: Kajabi does not host your personal or business email inbox. If your site goes down, you can still access your email through your email provider. Kajabi only sends marketing and transactional emails on your behalf.
+In accordance with our Privacy Notice, any customer data may be deleted 90 days after your account termination. Data permanently removed after 90 days cannot be recovered. Visit your Subscription Settings to review the date your account is set to cancel. Learn how to update your Billing Settings. Kajabi sends reminder emails 14 days and 7 days before the final deletion date.
+Additionally, if granted a 48-hour temporary access extension, your account will remain accessible during that period, allowing you to resolve overdue payments or reactivate your subscription to prevent permanent loss.
+​
+Are my customers still charged after I cancel my Kajabi account?
+Yes, Kajabi gives you full control over your payments and accounting with Kajabi Payments or by connecting third-party payment processors with Stripe and PayPal to process your payments.
+This allows you to determine how and when you want to handle your active recurring subscriptions through your Kajabi Payments account or your Stripe and/or PayPal account(s) if you plan to cancel your Kajabi account and choose to move to a different platform.
+After canceling your account, your customers will no longer have access to the digital products built with Kajabi but will maintain their subscription payments until manually canceled by you or your customer.
+​
+As a Kajabi Partner, will I still receive a commission for my referrals?
+No, to remain eligible for commissions earned from your referrals as a Kajabi Partner, you must maintain your Kajabi account. If you choose to return and reactivate your account as a Kajabi Partner, you will return as a new Kajabi Partner and will not maintain your previous Partner Status.
+​
+Can I pause my account instead?
+Yes. Learn to pause your Kajabi account by parking your account and site. Parking gives you time away from building your business with Kajabi while preserving your work.
+While parked, customers cannot access purchased products. Reactivating your account fully restores access to all features and customer products.
+​
+How can I access my content or data if my account is already canceled?
+To regain access, you need to reactivate your subscription by choosing one of our in-market plans. The Parked Plan does not grant access to your content or site editing features.
+​
+What happens if I downgrade my Kajabi plan rather than cancel?
+When switching to a lower-tier plan with reduced product limits, products exceeding the limit will need to be removed prior to downgrading. Permanently deleted products cannot be recovered, and while a full backup of courses isn’t possible, individual lesson videos can be manually downloaded. Retaining a higher tier ensures all content remains intact within plan limits.
+
+Was this page helpful?
+
+Yes
+No
+Pay an overdue balance
+Previous
+Pause a Kajabi subscription
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

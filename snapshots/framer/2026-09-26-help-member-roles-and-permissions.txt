@@ -1,0 +1,471 @@
+SOURCE: https://www.framer.com/help/articles/member-roles-and-permissions/
+FETCHED: 2026-09-26T22:14:41.279Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Framer
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Log in
+
+Sign up
+
+Copy logo SVG
+
+Brand guidelines
+
+Help center
+
+Account
+
+Members, roles, and permissions
+
+Search
+
+Members, roles, and permissions
+
+Learn how workspace members, project members, roles, and permissions work in Framer.
+
+Framer provides flexible access controls at both the workspace and project level. This allows teams to grant the right level of access while maintaining control over editing, publishing, and billing.
+
+Member types
+
+Framer supports two types of members:
+
+Member type
+
+	
+
+Access
+
+Workspace members
+
+	
+
+Have access to all projects within a workspace.
+
+Project members
+
+	
+
+Have access only to the specific projects they are invited to.
+
+Members with view-only access are free. Members with editing permissions are billed.
+
+For a detailed breakdown of plans and access levels, see Pricing.
+
+Workspace roles
+
+Workspace roles determine access across all projects in a workspace.
+
+Role
+
+	
+
+Description
+
+	
+
+Billed
+
+Admin
+
+	
+
+Can manage workspace settings, members, billing, and projects.
+
+	
+
+Yes
+
+Editor
+
+	
+
+Can create and edit projects across the workspace. Can invite other editors.
+
+	
+
+Yes
+
+Content Editor
+
+	
+
+Can manage CMS content, localization, and on-page editing across the workspace.
+
+	
+
+Yes
+
+Viewer
+
+	
+
+Has read-only access to all projects in the workspace. Cannot create projects or invite members.
+
+	
+
+No
+
+A workspace can have multiple admins.
+
+Project roles
+
+Project roles apply only to individual projects.
+
+Role
+
+	
+
+Description
+
+	
+
+Billed
+
+Owner
+
+	
+
+Can manage the project, transfer ownership, manage settings, and edit content.
+
+	
+
+Yes
+
+Editor
+
+	
+
+Can edit the project based on their assigned permissions.
+
+	
+
+Yes
+
+Viewer
+
+	
+
+Has read-only access to the project.
+
+	
+
+No
+
+Granular project permissions
+
+On plans that support advanced permissions, project access can be customized using granular permissions.
+
+Permission
+
+	
+
+Description
+
+Design
+
+	
+
+Create and modify layouts, pages, components, and design elements.
+
+Content
+
+	
+
+Manage CMS content, localization, and other content-related changes.
+
+Deploy
+
+	
+
+Publish and manage site deployments.
+
+Publishing permissions
+
+Publishing behavior depends on whether staging is enabled.
+
+When staging is enabled:
+
+Any project member can publish changes to staging.
+
+Only members with Deploy permission can promote changes from staging to the live site.
+
+When staging is disabled:
+
+Only members with Deploy permission can publish changes directly to the live site.
+
+Request editor access
+
+Viewers can request editing access directly from a project.
+
+To request access:
+
+Open the project.
+
+Click Request Editor Access.
+
+Wait for approval from the project owner.
+
+The project owner receives an email notification and can approve the request with a single click.
+
+When access is granted:
+
+The member receives editing permissions.
+
+Permissions can be adjusted later by project owners or administrators.
+
+If the member does not already occupy a paid seat, granting edit access may result in an additional charge.
+
+FAQ
+What is the difference between a workspace member and a project member?
+
+Workspace members can access all projects in a workspace. Project members can access only the projects they have been invited to.
+
+What is the difference between an Editor and a Content Editor?
+
+Editors can access design, content, and publishing functionality, depending on their permissions. Content Editors are focused on content management tasks such as CMS updates, localization, and on-page editing.
+
+Do viewers count toward billing?
+
+No. Members with view-only access are free and do not occupy a paid seat.
+
+Updated
+
+last week
+
+Related articles
+
+Downgrade or remove members
+
+Invite members to a workspace or project
+
+Delete a workspace
+
+Add Framer to Preferred Sources
+
+Your next idea starts here
+
+GPT 6 Sol
+
+Create personal portfolio
+
+Build startup site
+
+Launch landing page
+
+Start company blog
+
+Start without AI
+
+Product
+
+AI
+
+Agents
+
+External Agents
+
+Design
+
+Collaborate
+
+CMS
+
+Hosting
+
+Performance
+
+SEO
+
+Skills
+
+NEW
+
+Convert
+
+Publish
+
+Updates
+
+Marketplace
+
+Templates
+
+Components
+
+Plugins
+
+Vectors
+
+Gallery
+
+Experts
+
+Business
+
+Switch
+
+Enterprise
+
+Agencies
+
+Startups
+
+Pricing
+
+Resources
+
+Academy
+
+Download App
+
+Developers
+
+Guides
+
+Blog
+
+Newsletter
+
+Stories
+
+Creators
+
+Experts
+
+Students
+
+Ambassadors
+
+Help Articles
+
+Contact
+
+Meetups
+
+Solutions
+
+Designers
+
+Agencies
+
+Marketers
+
+Growth
+
+Builders
+
+Engineers
+
+Site Teams
+
+Founders
+
+AI website builder
+
+AI design agent
+
+Website builder
+
+Landing pages
+
+Portfolio maker
+
+UI/UX design
+
+Figma to HTML
+
+No-code
+
+Compare
+
+Webflow
+
+Figma
+
+Wix
+
+Squarespace
+
+WordPress
+
+Readymag
+
+Ceros
+
+Unbounce
+
+Lovable
+
+Claude Code
+
+ChatGPT
+
+Codex
+
+Contentful
+
+Sanity
+
+AEM
+
+Replit
+
+v0
+
+Company
+
+Careers
+
+Security
+
+Brand
+
+Abuse
+
+Legal
+
+Trust
+
+By Framer
+
+Merch
+
+Keyboard
+
+Stack Score
+
+Free domains
+
+AEO scanner
+
+State of Sites
+
+CanvasBench
+
+Link Preview
+
+Select Language
+English
+Japanese
+English
+
+CCPA
+
+All services online
+
+Framer
+
+2026
+
+We use cookies to enhance your experience, analyze site traffic and deliver personalized ads and content. Read our Cookie Policy.

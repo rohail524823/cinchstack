@@ -1,0 +1,95 @@
+SOURCE: https://support.pipedrive.com/en/article/texting-contacts-from-the-mobile-app
+FETCHED: 2026-09-26T22:56:45.572Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Mobile apps/General mobile app questions/Texting contacts from...
+
+Topics
+Texting contacts from the iOS app
+Texting contacts from the Android app
+Texting contacts from the mobile app
+BF
+Breandan Flood
+Last updated: September 2, 2026
+Note: You can only send texts to the phone number listed under the default phone number field for a person contact. The minimum OS version required to install the mobile app is 11+ for Android and 18+ for iOS.
+
+You can text your Pipedrive contacts quickly and easily using the Pipedrive mobile app. This feature offers a convenient shortcut to your device’s messaging app, so you don’t have to copy and paste contact numbers manually.
+
+Note: If you’d like to link text messages to detail views, you can explore third-party calling tools that offer this functionality in our Marketplace.
+Texting contacts from the iOS app
+
+To text the contact directly, you can go to the contact detail view and click on the speech bubble icon next to the phone number.
+
+Once clicked, your phone’s Messages app will open with the contact’s default phone number pre-filled.
+
+Texting contacts from the Android app
+
+You can text a contact directly by opening the contact detail view and clicking on the envelope icon.
+
+Once clicked, you can select your preferred messaging app with the contact’s default phone number pre-filled.
+
+Note: Your network charges will be applied to any text messages sent through the Pipedrive mobile apps.
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Marketplace integration: Aircall
+Note scanner in the mobile app
+Push notifications in the mobile app
+Web-to-mobile calling
+What features do the mobile apps have?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

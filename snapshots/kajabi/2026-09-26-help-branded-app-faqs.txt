@@ -1,0 +1,411 @@
+SOURCE: https://help.kajabi.com/articles/mobile-apps/branded-app/kajabi-branded-app-faqs
+FETCHED: 2026-09-26T22:15:57.111Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi Mobile App vs. Branded Mobile App
+Access Community from a Branded App
+Additional steps to change Google Cloud IAP Policy
+Additional verification for the Google Play Console
+Android app transfer process
+Answer Google's closed beta questionnaire
+Apply for Apple and Google's 15% commission programs
+Best practices for launching a Branded App
+Branded Mobile App naming guidelines
+Branded Mobile App resources
+Enter trader status and contact info in App Store Connect
+Examples of good and bad Branded Mobile App logos
+Google photo and video permissions declaration instructions
+Get started creating a Branded App
+Accept the closed testing invite and install the app
+Add an onboarding carousel to a Branded App
+Add app reviewer notes for Apple
+Add custom links to a Branded App
+Add external purchase links to a Branded App
+Add Kajabi as an admin to Google Play Console and Google Cloud Console
+Complete the iOS app transfer process
+Create a Branded Mobile App icon
+Create a Google API key for a Branded Mobile App
+Create a Google Developer account
+Create an Apple Developer account and join the Apple Developer Program
+Create App Offers for a Branded App
+Create Branded App push notifications
+Create custom screens for a Branded Mobile App
+Create a first paid Apple App Offer for approval
+Customize widgets on Branded App screens
+Customize a Branded App
+Edit app store listings
+Publish a Branded App to the Apple App Store
+Publish a Branded App to the closed testing track in Google Play Store
+Publish a Branded App to the Google Play Store
+Redirect users to download an app from the app store
+Set up a Branded App welcome screen
+Set up a merchant account for Google in-app purchases
+Set up banking and tax info with Apple
+Set up a D-U-N-S number for a Branded App
+Update Branded App brand assets or terms and privacy links
+Update a Branded App in the Apple App Store and Google Play Store
+Update Branded App screenshots
+Use the paywall feature in a Branded App
+Use Variants to personalize pages in a Branded App
+Verify a Google Developer account
+Verify a website for Google Play Console
+Write and update an App Store description for a Branded Mobile App
+Kajabi Branded App FAQs
+Kajabi Branded App overview
+Manage refunds for in-app purchases
+Manual vs. automatic updates in the Branded App
+Update the target API level for a Branded App
+Use universal links (deep links) in a Branded App
+Prevent or resolve a Branded App rejection from the App Store or Google Play
+Address a Google Play Console termination warning
+Select Branded App data privacy options for Apple App Store
+Select Branded App data types and data safety for Google Play Store
+Update Kajabi settings for an iOS app transfer
+Branded Mobile App community updates
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Getting a Branded App
+What is a Branded App?
+What are the benefits of launching a Branded App?
+How much does a Branded App cost?
+Can I create multiple Branded Apps for my different Kajabi sites?
+How does a Branded App compare to building my own custom app?
+How does the Branded App compare to the free Kajabi course app?
+Does Kajabi cover app maintenance and updates?
+What type of maintenance does Kajabi perform for my app?
+Do I need to be a Kajabi customer to get a Branded App?
+Is there a trial period so I can test the Branded App before signing up?
+Branded App setup
+How long does it take to get an app published once I purchase the add-on?
+Why do I need to create Apple and Google Developer Accounts?
+Can I use my Kajabi login to get into the app?
+Do we need to create a certificate if it expires?
+Account creation
+How does the Create Account feature work for Branded App?
+Can I disable the ability for users to create an account using the Branded App?
+Do members who create an account count against my Kajabi limits?
+Selling on Apple and Google
+How do Apple and Google app offers work?
+What are the requirements for selling through Apple and Google?
+What countries will my in-app purchases sell in?
+Why can I only choose specific pricing increments for Apple and Google offer prices?
+Can I update in-app purchase prices at any point once I create an app offer?
+How does the in-app purchase approval process work?
+Can I sell existing offers to my Branded Mobile App audience?
+What kind of products can I currently sell inside of the Branded Mobile App?
+What happens if an Apple or Google member requests a refund?
+I noticed a member that signed up through the app is no longer in my contacts tab, but I didn’t delete it. What happened?
+Feature and content visibility
+Why are some of my members not seeing the latest features in the branded app?
+Can I block certain courses from showing up on the mobile app?
+Can I offer a preview of a paid Course in the app?
+App customization and features
+I would like to add my own custom modifications to the app. Is this possible?
+Why don’t my website customizations show up in the Branded App?
+What kind of customizations can I do inside the app at the moment?
+What does the little crown mean showing up on the carousel?
+Where do members find their favorite lessons?
+Will my existing community work inside of the Branded App?
+What languages are supported on the app?
+Replacing my current app
+I currently have an app with someone else. Can I replace that app with a Kajabi Branded Mobile App?
+Push notifications
+What kind of things can I do with push notifications?
+Am I limited on the number of push notifications I can send?
+Canceling the app or site
+What is the cancellation policy for Branded App?
+What happens to my app if I archive or delete my site?
+If I have multiple sites and I delete the site my app is assigned to, will I be asked to reassign the app to another site?
+What happens to my app if I park my site?
+Will my app start working again if I reactivate my parked site?
+Branded App
+Kajabi Branded App FAQs
+
+Find answers to frequently asked questions about Kajabi Branded Apps.
+
+The Branded App is a white-labeled mobile app customized to your brand and pre-loaded with your Kajabi content. Below are frequently asked questions organized by topic.
+​
+Getting a Branded App
+​
+What is a Branded App?
+Branded App is a white-labeled mobile app that is customized to your brand and pre-loaded with your Kajabi evergreen courses, cohort courses, coaching programs, podcasts, community and Backstage. You will have your very own app(s) on the Apple App Store and Google Play store, all customized with your own branding and content. It is your own app with zero Kajabi branding.
+​
+What are the benefits of launching a Branded App?
+The benefits of launching a Branded App are that you will have one place to engage your members in your products and content on mobile. You can acquire customers through the app and sell them products via in-app purchases, or engage existing members through a seamless mobile experience.
+Push notifications also open up a whole marketing channel for your business. You can target, schedule, and send notifications to drive people to your app or any landing page - similar to how you might use email marketing.
+​
+How much does a Branded App cost?
+The Branded App is included at no extra cost on the Pro plan. For Basic and Growth, available as $199/mo add-on.
+​
+Can I create multiple Branded Apps for my different Kajabi sites?
+If you have multiple accounts with Kajabi, you can create one Branded App for each account. However, we don’t currently support the ability to create a Branded App for more than one site within the same Kajabi account.
+​
+How does a Branded App compare to building my own custom app?
+With a Branded App, you can get your own mobile app for a fraction of the time and cost of a custom app. A custom app typically costs between 30-60k and takes 6-12 months to build. With a Branded App from Kajabi, your app goes live in weeks and you can get an app starting at just 199/mo.
+​
+How does the Branded App compare to the free Kajabi course app?
+The Kajabi course app requires customers to download the Kajabi app from the App Store and then log in to your brand. With your Branded App, you will have your own App Store listing with your logo and name, so your members will easily be able to find you.
+The Branded App also has several features that are not available on the Kajabi Course app. You get a range of customization options like custom home screens, welcome and onboarding screens, custom links, and more. Plus, you can set up in-app purchases to be able to sell products and acquire customers in your app, making it a growth channel for your business. The Branded App also comes with targeted and customizable push notifications to help you in your marketing efforts.
+​
+Does Kajabi cover app maintenance and updates?
+Yes, the app is fully built and maintained by Kajabi. We will continue to improve the app experience and you will get access to any features or updates automatically. You can make changes to your branding and design at any time from your Kajabi account, and updates automatically update in the app.
+​
+What type of maintenance does Kajabi perform for my app?
+In addition to building features, we perform ongoing maintenance to keep the app secure, compliant, and compatible with frequent Apple and Google updates. This includes handling breaking changes, updating deprecated code, monitoring performance and crashes, and responding quickly to major regulation or policy shifts. Our engineering and customer experience teams also stay ahead of review best practices to maximize app approval success.
+​
+Do I need to be a Kajabi customer to get a Branded App?
+Yes, currently the Branded App is available only as an add-on to any Kajabi plan. The app is built to include your existing course, coaching, podcast, community and Backstage products within Kajabi.
+​
+Is there a trial period so I can test the Branded App before signing up?
+You can view a limited preview by navigating to Branded App > Design within the Kajabi Dashboard. However, you must purchase the Branded App add-on (or be on the Pro plan) before Kajabi begins building a working version of your Branded App.
+​
+Branded App setup
+​
+How long does it take to get an app published once I purchase the add-on?
+The time frame for publishing an app once you purchase the add-on typically ranges from 6-8 weeks, depending on the review processes conducted by Apple and Google. It’s possible for apps to be rejected during these reviews, necessitating follow-up action from our team. However, you don’t need to worry about these steps—our team will handle all initial approvals and ensure that the app is ready for launch as smoothly and quickly as possible.
+​
+Why do I need to create Apple and Google Developer Accounts?
+Creating your own Apple and Google Developer Accounts is essential for a few reasons. Firstly, it allows you to manage and create in-app purchases directly, giving you full control over this aspect of the app. Secondly, you can manage and respond to app reviews, which can significantly impact the app’s reputation and user feedback. Thirdly, having the app listed under your own brand and name not only enhances your brand’s visibility but also aids in driving organic downloads through effective App Store Optimization (ASO) strategies.
+​
+Can I use my Kajabi login to get into the app?
+Yes, by logging into the app with your Kajabi account email, you will be logged in as an admin. If the Branded App has access to the Community Product, then you will be able to interact with the Community as an admin/moderator.
+Note: In order to see your courses, coaching programs, or podcasts, you will still need to be granted access. Follow the steps in this help article to grant your admin email member access to your products: What do my Customers see?
+​
+Do we need to create a certificate if it expires?
+No action is needed as our system will automatically handle the certificate renewal.
+​
+Account creation
+​
+How does the Create Account feature work for Branded App?
+To set up the Create Account feature for the Branded App, at least one evergreen course should be prominently featured on the home screen. This setup ensures that members, who have not previously purchased any products, are welcomed with a meaningful home screen experience. The presence of a course on the home screen is a condition for enabling the Create Account button to enhance this initial interaction.
+​
+Can I disable the ability for users to create an account using the Branded App?
+Yes, you can prevent account creation in the Branded App. If you don’t utilize the home screen customization option, the feature that allows users to create an account will not be activated. This ensures that account creation is tied directly to how you choose to customize the app’s home screen.
+​
+Do members who create an account count against my Kajabi limits?
+Yes, every member who creates an account through the Branded App is counted as a customer contact within the Kajabi CRM system. These signups are tagged as ‘branded app signup,’ allowing you to set up targeted automations specifically for users who join through the app, enabling effective retargeting and engagement.
+​
+Selling on Apple and Google
+​
+How do Apple and Google app offers work?
+Creating app offers for Apple and Google involves setting up a distinct offer from your existing ones within the Branded App section. You must be aware that pricing these offers will include a fee imposed by Apple and Google, generally ranging from 15% to 30%. Currently, the system supports one-time purchases and subscriptions.
+​
+What are the requirements for selling through Apple and Google?
+To sell offers through Apple and Google, you must first set up the necessary banking information for these platforms. You need to create and get approval for each app offer and in-app purchase, a process that involves Apple’s approval for app builds and specific in-app purchases. Following the creation of the first app offer, the course should be featured on the home screen as this is required by Apple to test and ensure the functionality of in-app purchases. The final step is submitting the app’s latest build and the in-app purchases to App Store Connect for approval. Google does not have such restrictions, as they do not require approvals for either the app or any in-app purchases created.
+​
+What countries will my in-app purchases sell in?
+We will automatically publish in-app purchases through Apple and Google to 175 countries globally. Apple and Google will manage all aspects of currency conversions. To see more accurate revenue numbers, you can check revenue reports in the respective platforms.
+​
+Why can I only choose specific pricing increments for Apple and Google offer prices?
+The pricing increments available for offers within the Apple and Google platforms are set by these companies. Kajabi has no control over these increments; however, they are generally flexible enough to allow you to find an appropriate price point for your offers.
+​
+Can I update in-app purchase prices at any point once I create an app offer?
+No, unfortunately, you cannot edit pricing for existing Apple and Google app offers. We recommend creating an in-app purchase offer by setting up Apple and Google app offers. You can always disable any existing in-app purchase pricing offers if needed.
+​
+How does the in-app purchase approval process work?
+For Apple, every offer that includes an in-app purchase must be approved. When you create an offer in Kajabi, an in-app purchase is automatically created and sent to Apple for approval, typically within a few business days. Google, on the other hand, does not require a similar approval process, and in-app purchases for Google offers are instantly approved through the Google Console. However, Apple’s process includes a review, and it’s possible for in-app purchases to be rejected with reasons provided, requiring follow-up for approval.
+​
+Can I sell existing offers to my Branded Mobile App audience?
+Yes, you can effectively sell existing offers to the app audience using several methods. One approach is to add direct links to the offers within the app using the ‘Links’ feature, which can be particularly effective for higher-priced offers. Another method is to create a mini-course within the app, offered for free or at a low entry price, and use the final module to upsell to a more expensive offer. Additionally, you can utilize the fact that Kajabi tags each mobile signup with a “Branded app sign up” tag to identify app sign-ups, which in turn allows you to trigger targeted email automations, such as welcome emails and promotional offers, to upsell and engage these users effectively.
+​
+What kind of products can I currently sell inside of the Branded Mobile App?
+At the moment, the Branded Mobile App supports the sale of Courses and Community Products.
+​
+What happens if an Apple or Google member requests a refund?
+When a refund is issued by Apple or Google, you will receive a notification about this transaction. Functionality is available that will automatically revoke access to any offers that the refunded members had previously accessed.
+​
+I noticed a member that signed up through the app is no longer in my contacts tab, but I didn’t delete it. What happened?
+This is a requirement from Apple and Google that is only available for members who sign up for content for the first time through the app. Apple and Google require the ability for members to delete their information, so if they proceed with this process then their information will be removed from the Contacts tab in Kajabi as well. You can read more about this requirement from Apple here.
+If someone signs up for content outside of the app, then they will not have this option. You will maintain that information in the Contacts tab.
+​
+Feature and content visibility
+​
+Why are some of my members not seeing the latest features in the branded app?
+Members might not see the latest features for a few reasons. It could be because the latest build that includes these features hasn’t been approved by Apple and Google yet, or it hasn’t been submitted to the App Store and Google Play Store. Another common reason is that the member hasn’t updated their app to the latest version available.
+​
+Can I block certain courses from showing up on the mobile app?
+At present, it is not possible to block specific courses from appearing in the Courses tab of the mobile app. All evergreen courses owned by a member will be accessible regardless of other settings.
+​
+Can I offer a preview of a paid Course in the app?
+There isn’t a separate preview mode for a paid Course. To let members sample your content before they buy, use the built-in Course paywall: members can open the lessons you leave unlocked, then see an upgrade prompt when they reach premium content. You can also publish a free Course as a standalone preview, but the paywall is the best option and is natively supported in the app. Learn how to use the paywall feature in a Branded App.
+​
+App customization and features
+​
+I would like to add my own custom modifications to the app. Is this possible?
+No, unfortunately, at this time we do not support coding customizations of the app. However, we are planning to develop customizable widgets in the future, which you will be able to integrate optionally into the app. These widgets are designed to address some of the most common pain points for members.
+​
+Why don’t my website customizations show up in the Branded App?
+The Branded App does not currently support the integration of customizations made on the website, as there is no mechanism to automatically transfer these changes. The app is primarily designed for general product consumption with limited customization options, though we are planning to expand these capabilities to include more personalized adjustments to the product section in future updates.
+​
+What kind of customizations can I do inside the app at the moment?
+Currently, you can customize the Welcome Screen, Onboarding Carousels, and Home Screen within the app. You can set up multiple carousels on the Home Screen to feature specific products, which facilitates an engaging onboarding experience for members. We plan to introduce more comprehensive customization options in the future to further enhance user engagement and app personalization.
+​
+What does the little crown mean showing up on the carousel?
+The crown icon displayed on a course within the carousel signifies that the course is not yet owned by the member. This course may be available for free through an app offer or as a paid option through an in-app purchase. Once the course is purchased, the crown icon will disappear, indicating that the member now owns the course and can access it through both the carousel and the Course tab in the app.
+​
+Where do members find their favorite lessons?
+Members can favorite individual lessons in an evergreen Course by tapping the heart icon, then find them in that Course’s Favorites list from the top bar. Favorites works the same in the Kajabi Mobile App and the Branded App. Learn more about using Favorites in the mobile apps.
+​
+Will my existing community work inside of the Branded App?
+Yes, if you have an existing community within Kajabi, it will be compatible with the Branded App. Members will be able to access the community through a Communities tab. Community is available with the Branded Mobile App Premium Plan ($199/mo) or included in the Pro plan.
+​
+What languages are supported on the app?
+Currently, there are 5 languages available on the iOS and Android apps. These include English, Spanish, French, German, and Italian.
+​
+Replacing my current app
+​
+I currently have an app with someone else. Can I replace that app with a Kajabi Branded Mobile App?
+Yes, it is entirely feasible to replace an existing app with a Kajabi Branded Mobile App. Once you make this transition, members will see the Kajabi app replacing the previous app on their devices following the next update. It is important to note that members will need to either create an account if they don’t already have one linked to Kajabi offerings, or they can log in using their existing Kajabi credentials. They will not be able to continue using the same credentials that were valid with the previous app provider.
+​
+Push notifications
+​
+What kind of things can I do with push notifications?
+Push notifications are an effective tool for engaging with members. You can target notifications based on specific segments you have created within Kajabi, or send them to all members. These notifications can be scheduled or sent in real-time, and the content of the notification is fully customizable. Additionally, notifications can direct members to various destinations, such as a specific product or an external URL, enhancing the interactive capabilities of the app.
+​
+Am I limited on the number of push notifications I can send?
+No, you are not limited on the number of push notifications you can send in a given month.
+​
+Canceling the app or site
+​
+What is the cancellation policy for Branded App?
+The Branded App subscription will automatically renew at the end of each billing cycle unless you cancel the account before the end of the billing cycle. You may cancel the subscription at any time, in which case the subscription will continue until the end of that billing cycle before terminating. View the full Branded App Terms & Conditions.
+​
+What happens to my app if I archive or delete my site?
+Archiving or deleting a site will disable the data feed for an app connected to that site. Customers will still see the app on their phone and in the app store, but it will no longer be functional.
+​
+If I have multiple sites and I delete the site my app is assigned to, will I be asked to reassign the app to another site?
+No, you will not be asked to transfer the app to another site after you delete the site.
+​
+What happens to my app if I park my site?
+When you are looking to Park a Kajabi Account, you will first need to reach out to bma.support@kajabi.com to cancel the Branded Mobile App add-on subscription. We can reactivate the app in the future if you choose to continue with the Branded Mobile App after upgrading the account from Parked.
+​
+Will my app start working again if I reactivate my parked site?
+Yes, the data feed from the site to the app will also reactivate as long as the app store account is still active and customers still have the app on their phones. Customers may need to update the app to the latest version.
+
+Was this page helpful?
+
+Yes
+No
+Write and update an App Store description for a Branded Mobile App
+Previous
+Kajabi Branded App overview
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

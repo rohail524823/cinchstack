@@ -1,0 +1,179 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/why-am-i-seeing-unexpected-charges-holds-or-duplicate-invoices-during-my-kajabi-trial
+FETCHED: 2026-09-26T22:44:23.160Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Authorization holds vs. actual charges
+Duplicate charges and multiple invoices
+Review and resolve charges
+Billing
+Resolve unexpected charges or duplicate invoices during a trial
+
+Identify and resolve authorization holds, duplicate charges, or unexpected invoices during a Kajabi trial.
+
+Unexpected charges or duplicate invoices can understandably cause confusion during your Kajabi trial. These scenarios often occur due to authorization holds, subscription plan changes, or billing system behavior under specific circumstances. Below you will find the common reasons behind these occurrences, what they mean, and how to address them.
+To avoid unexpected charges, it is essential to understand Kajabi’s free trial policies. Charges during or after the trial can often be prevented by taking proactive steps, such as canceling the trial before it ends or carefully reviewing plan changes.
+​
+Authorization holds vs. actual charges
+When starting a Kajabi trial, your bank may place temporary authorization holds to verify your payment method.
+These holds are a standard banking practice and are not unique to Kajabi. They ensure that the payment method is valid and capable of processing future transactions. Authorization holds:
+Are not actual charges
+Appear as pending transactions
+Automatically drop off based on your bank’s processing time
+For example, if you saw a $149 or $89 charge during the trial, it’s likely an authorization hold rather than a final charge. Authorization holds are reversed without debiting your account once the verification is complete. If the trial signup does not proceed properly, you can create a new account to retry the process.
+​
+Duplicate charges and multiple invoices
+Duplicate charges can occur due to:
+Previous failed billing attempts being retried and successfully processed
+Multiple invoices becoming due simultaneously, such as a past-due invoice alongside the current renewal charge
+For example, you may see two similar charges (e.g., $199), which reflect the collection of both unpaid and new invoices. Updating your payment details or the billing cycle running could trigger this.
+​
+Review and resolve charges
+To better understand the charges posted to your account:
+Access your account’s billing information. Click your name in the top right corner, and select Account Settings. Then, select the Billing tab. This shows details of all invoices and the reasons behind them.
+For authorization holds, contact your bank to confirm the processing timeline.
+For duplicate or unexpected charges, contact our support team with your account details for specific clarifications and assistance.
+
+Was this page helpful?
+
+Yes
+No
+Manage subscriptions and refunds as a course member
+Previous
+Understand the $149 hold during a free trial
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

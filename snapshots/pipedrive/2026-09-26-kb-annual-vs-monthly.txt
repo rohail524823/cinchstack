@@ -1,0 +1,114 @@
+SOURCE: https://support.pipedrive.com/en/article/what-is-the-difference-between-annual-and-monthly-billing-in-pipedrive
+FETCHED: 2026-09-26T22:55:02.119Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Your Pipedrive subscription plan/What is the differenc...
+
+Topics
+Annual vs. monthly billing
+Pricing page
+What is the difference between annual and monthly billing in Pipedrive?
+BF
+Breandan Flood
+Last updated: September 2, 2026
+
+Annual and monthly billing refer to the frequency of your payments, and depending on your needs, either can be your best option.
+
+Annual vs. monthly billing
+
+Here’s a quick guide to illustrate the difference between monthly and annual billing.
+
+Name
+	
+Payment frequency
+	
+Cost
+	
+Cancellation
+
+Annual
+	
+You’re charged once at the start of your subscription for a full year’s cost on your chosen plan.
+	
+Discounted up to 42%
+	
+Annual subscriptions can’t be refunded because they’re prepaid. If you cancel your annual subscription, you’ll retain access to it until the end of the subscription term.
+
+Monthly
+	
+You’re charged on the same date each month for as long as your subscription is active.
+	
+Standard pricing
+	
+You can cancel your account at any time, and it’ll take effect on the next payment date.
+Note: If you switch from monthly to annual billing, your annual subscription will start at your next billing date. If you switch from annual to monthly billing, your monthly subscription will start at the end of the annual subscription term.
+
+Pricing page
+Note: You can click ”See all features“ to view our features page, or click ”Try it free“ to start a new trial account.
+
+On our pricing page, you can view the cost of each subscription and click the toggle to compare monthly and annual options.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

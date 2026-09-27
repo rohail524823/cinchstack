@@ -1,0 +1,152 @@
+SOURCE: https://support.pipedrive.com/en/article/prospector-leadbooster-billing
+FETCHED: 2026-09-26T22:55:43.637Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Lead generation/LeadBooster add-on/Understanding LeadBoo...
+
+Topics
+Understanding Prospector credits
+Changing the number of credits
+Prospector credit renewal and expiration
+Changing Prospector credits mid-cycle
+Reading your invoice
+Understanding LeadBooster and Prospector billing
+BF
+Breandan Flood
+Last updated: September 2, 2026
+Note: LeadBooster is included in Premium and higher plans. It can also be purchased as an add-on for Lite and Growth plans. Only users with account settings access can manage billing. Learn more about user permissions.
+
+To view and make changes to your subscription, open the account menu in the top-right corner and select Billing.
+
+To add LeadBooster to your subscription, click “Manage add-ons”.
+
+Find LeadBooster in the list and enable it.
+
+Note: You’ll need a paying Pipedrive subscription to receive and use prospector credits. Adding LeadBooster to your account gives you 10 Prospector lead credits each month at no extra cost.
+Understanding Prospector credits
+
+You can use Prospector credits to unlock lead details. Each lead generated with the Prospector feature uses one credit.
+
+With ten credits included in the LeadBooster add-on, you can reveal information about ten leads per month.
+
+Changing the number of credits
+
+Depending on your plan type, you can change your Prospector credit amount in the following areas:
+
+LeadBooster included in your plan
+
+Navigate to Billing > Manage add-ons > Top-ups and enable Prospector top-up.
+
+LeadBooster as an add-on
+
+Navigate to Billing > Manage add-ons > Add-ons and find LeadBooster.
+
+Click on “10 credits” and use the slider to set the number of credits you receive each month. The more credits you choose, the lower the cost per credit.
+
+Note: Unused Prospector credits will expire at the end of your monthly credit allowance period.
+
+Finally, click “Confirm” and follow the billing steps to complete your update.
+
+Prospector credit renewal and expiration
+
+Regardless of whether your subscription is billed monthly or annually, you receive Prospector credits each month.
+
+Billing type	When credits are added	When credits expire	Example
+Monthly	First day of each billing cycle	End of that billing cycle	
+A plan starting on January 4 gets credits on the same day. They expire on February 4 when new credits are added.
+
+Annual	Same day each month (based on billing start)	End of that monthly credit cycle	
+A plan starting on January 4 gets credits on the 4th of every month. They expire on the 4th of the following month, when credits are added.
+Changing Prospector credits mid-cycle
+
+Depending on whether you’re adding or removing Prospector credits, the changes apply immediately or at the start of your next billing cycle.
+
+Action	When it takes effect	Charges	Example
+Increase credits	Immediately	
+Partial credits are added based on the time left in your billing cycle. You're only charged for the additional credits.
+	
+Add 20 credits halfway through a cycle and you're charged for 10. Full credits start at your next renewal.
+
+Decrease credits	Next billing cycle	
+No immediate change or refund. Lower credit amount and cost apply at the next renewal.
+	
+Reduce credits on an annual plan. The change applies at the next billing cycle
+Reading your invoice
+
+When you’ve added LeadBooster and purchased additional Prospector credits, each will appear as a separate charge on your invoice.
+
+Here’s an example of an annual subscription that includes 180 Prospector credits per month:
+
+Below the invoice, you’ll also see a tiered pricing table showing how your Prospector credits were billed. The more credits you purchase, the lower the cost per credit.
+
+In this example:
+
+The annual plan includes 120 credits at no additional cost
+Second-tier credits are charged at $0.85 per credit
+Third-tier credits are charged at $0.45 per credit
+Fourth-tier credits are charged at $0.35 per credit
+Fifth-tier credits are charged at $0.25 per credit
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Prospector
+Live Chat
+Web Visitors
+Leads Inbox
+Is the Prospector feature GDPR compliant?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

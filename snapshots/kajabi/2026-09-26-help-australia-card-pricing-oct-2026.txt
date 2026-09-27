@@ -1,0 +1,234 @@
+SOURCE: https://help.kajabi.com/updates-to-card-pricing-in-australia-from-october-2026
+FETCHED: 2026-09-26T22:44:24.656Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Kajabi Payments overview
+ACH Direct Debit for invoicing
+Buy Now, Pay Later methods with Kajabi Payments
+Disputes page overview
+Instant Payouts with Kajabi Payments
+Set up Kajabi Payments: Australia
+Set up Kajabi Payments: Canada
+Set up Kajabi Payments: Europe
+Set up Kajabi Payments: United Arab Emirates
+Set up Kajabi Payments: United Kingdom
+Set up Kajabi Payments: United States
+Bank updates and payout schedule timing
+Use Klarna with Kajabi Payments
+Convert offers from Stripe to Kajabi Payments
+Enable Afterpay on Kajabi Payments Offers
+Enable Apple Pay and Google Pay on Kajabi Payments Offers
+Integrate QuickBooks Online with Kajabi Payments
+Integrate Xero with Kajabi Payments
+Manage failed payments with Kajabi Payments
+Respond to a dispute with Kajabi Payments
+Set up and manage subscriptions with Kajabi Payments
+Update billing dates for Kajabi Payments subscriptions
+Verify an EIN for Kajabi Payments
+View Kajabi Payments payouts and payout details
+Create and manage invoices with Kajabi Payments
+Kajabi Capital: fast, frictionless business funding
+Kajabi Payments 1099-K tax forms
+Complete Kajabi Payments verification requirements
+Complete Kajabi Payments verification requirements
+Kajabi Payments fees: Australia
+Kajabi Payments fees: United Kingdom
+Kajabi Payments fees: Canada
+Kajabi Payments fees: Europe
+Kajabi Payments fees: United Arab Emirates
+Kajabi Payments fees: United States
+Kajabi Payments onboarding required documentation by region
+Kajabi Payments payouts
+Kajabi Payments processing fee invoices
+Kajabi Payments Processing Fees
+Kajabi Payments sales tax overview
+Kajabi Payments statement descriptor
+Updates to Kajabi Payments card pricing in Australia
+Migrate Stripe subscriptions & payment plans to Kajabi Payments
+Payment plans
+Payment settings
+Subscriptions
+Transactions
+Direct Debit for Kajabi Payments (UK, EU, & Australia)
+Understanding Stripe's restricted business list for Kajabi Heroes
+Understanding Stripe's updated billing plans for Kajabi Heroes
+Payment disputes
+Create a manual purchase
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Overview
+Domestic card rates
+International card rates
+FAQ
+Are these fee decreases applicable to my Kajabi payments account?
+Why are these rates decreasing?
+Will my international rate change in October?
+Do I need to do anything?
+Kajabi Payments
+Updates to Kajabi Payments card pricing in Australia
+Lower pricing for Australia card transactions starting 1 October 2026.
+​
+Overview
+Kajabi Payments is lowering card fees for Australian heroes. The Reserve Bank of Australia is reducing the caps on interchange fees for card transactions, and we’re passing these savings on to you.
+We are decreasing our Australian card processing fees on two dates:
+1 October 2026: domestic card processing fees decrease by 0.05%.
+1 April 2027: international card fees decrease by 0.70%.
+These changes also apply to Apple Pay, Google Pay, and Link.
+​
+Domestic card rates
+These apply when the customer’s card was issued in Australia.
+Plan	Current Rate	From 1 Oct 2026
+Basic & Legacy	1.70% + A$0.30	1.65% + A$0.30
+Growth	1.60% + A$0.30	1.55% + A$0.30
+Pro	1.50% + A$0.30	1.45% + A$0.30
+​
+International card rates
+These apply when the customer’s card was issued outside Australia.
+Plan	Current Rate	From 1 Apr 2027
+Basic & Legacy	3.50% + A$0.30	2.80% + A$0.30
+Growth	3.40% + A$0.30	2.70% + A$0.30
+Pro	3.30% + A$0.30	2.60% + A$0.30
+* Your international rate is made up of two line items on your transaction details: a card processing fee and an international fee. On 1 October, the card processing fee decreases and the international fee increases by the same amount, so your total international rate doesn’t change. It stays at its current rate until 1 April 2027, when it drops.
+For more information on fees please see Kajabi Payments Fees: Australia for a full breakdown.
+​
+FAQ
+​
+Are these fee decreases applicable to my Kajabi payments account?
+Only if your Kajabi Payments account is registered in Australia. These rate changes are tied to your Kajabi Payments account’s country of registration. If your Kajabi Payments account is set up in another country, these changes don’t apply to you, even if you sell to Australian customers.
+​
+Why are these rates decreasing?
+The Reserve Bank of Australia is lowering the caps on interchange fees that card networks and issuers can charge, and we’re passing these savings on to you. 
+​
+Will my international rate change in October?
+No, your total international rate stays the same. What changes is how it’s broken down: your transaction details show a card processing fee and an international fee separately, and on 1 October the card processing fee goes down while the international fee goes up by the same amount. Your total international rate won’t actually decrease until 1 April 2027.
+​
+Do I need to do anything?
+No. Both changes apply automatically on or before their effective dates.
+
+Was this page helpful?
+
+Yes
+No
+Kajabi Payments statement descriptor
+Previous
+Migrate Stripe subscriptions & payment plans to Kajabi Payments
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

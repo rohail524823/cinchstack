@@ -1,0 +1,94 @@
+SOURCE: https://support.pipedrive.com/en/article/what-is-the-difference-between-a-user-and-a-seat
+FETCHED: 2026-09-26T22:56:54.476Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Getting started/Getting started/What is the differenc...
+
+What is the difference between a user and a seat?
+JT
+Jenny Takahara
+Last updated: September 2, 2026
+
+In Pipedrive, your subscription is calculated by the number of seats you have in your account. An active (or invited) user will always take up one seat once they have been added to Pipedrive, but it is possible to have empty seats if users have been deactivated or not added yet.
+
+We separate users and seats in Pipedrive to make it easier to deactivate and replace users without creating any immediate changes in your subscription.
+
+Seat – The number of possible active users in your account. You will be billed by the number of seats you have. Extra seats can be removed by going to your Billing tab.
+User – The users you have added to your Pipedrive account. You can have fewer active users than seats, but you will still be charged by the number of seats in your account. You can manage your users by going to Company > Manage users.
+
+We recommend filling in any free seats with users or removing unused seats you are not planning to fill so you don't end up paying for more than you use.
+
+Note: All the seats added to your account will be on the plan that is already being billed.
+
+What happens to my billing when I deactivate a user?
+
+When you deactivate a user in your company account, you will be given the option to keep or remove the seat.
+
+If you keep the seat, you can easily replace the deactivated user with a new user without any updates to your billing. If you choose to remove the seat, the changes will take effect in your subscription at the beginning of the next billing cycle.
+
+Learn more about what happens to a user when it is deactivated in this article.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Pipeline view: manage deals lifecycle
+Pipeline: how to add a stage
+Live and on-demand webinars
+Importing data into Pipedrive with spreadsheets
+Importing: mandatory fields
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

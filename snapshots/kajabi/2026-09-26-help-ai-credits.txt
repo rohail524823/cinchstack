@@ -1,0 +1,227 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/ai-credits
+FETCHED: 2026-09-26T22:15:16.423Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Plans that include AI Credits
+Credit-to-minute conversion
+Example credit usage
+Purchase additional credits
+FAQs
+Do transcriptions use AI Credits?
+Can I upload my own transcript?
+When are AI Credits considered used?
+Which language should I translate or dub first?
+Is there a video length limit?
+What happens if my video is longer than my available credits?
+When do AI Credits reset?
+Can I purchase more credits?
+Is there a way to test before spending credits?
+Billing
+AI Credits
+
+Understand how AI Credits work on Kajabi and what your plan includes for transcription, translation, and dubbing.
+
+AI Credits power transcription, translation, and dubbing across Kajabi. Instead of separate minute buckets, you get a unified pool of credits to use across any AI video service.
+​
+Plans that include AI Credits
+Plan	Monthly AI Credits (reset on the 1st of the month)
+Pro & Founders	1,000 credits
+Growth	500 credits
+Note: All plans are able to purchase AI credits by going to Account Settings → Subscription.
+​
+Credit-to-minute conversion
+Credits are consumed at different rates depending on the complexity and cost of the service.
+Transcription: 1 credit = 1 minute
+Translation: 10 credits = 1 minute
+Dubbing: 100 credits = 1 minute
+This structure ensures predictable usage while giving you full flexibility on how to apply your credits each month.
+​
+Example credit usage
+With 1,000 credits per month, you can choose any combination of:
+Service	Credit cost	Minutes
+Transcription	1 credit / min	1,000 minutes
+Translation	10 credits / min	100 minutes
+Dubbing	100 credits / min	10 minutes
+Or mix and match to fit your needs:
+600 minutes transcription + 40 minutes translation + 3 minutes dubbing
+900 minutes transcription + 1 minute dubbing
+Any combination totaling 1,000 credits
+​
+Purchase additional credits
+There are two options when you are looking to purchase additional credits:
+Monthly bundles: Add 500 credits to your monthly allotment for $15/month. Note that unused bundle credits do not roll over at the end of each billing cycle.
+One-time top-up: Purchase 500 credits for a flat $15 fee. This is a great option if you only need a temporary boost without committing to a monthly increase.
+​
+FAQs
+​
+Do transcriptions use AI Credits?
+Yes. Transcriptions require AI Credits and are a required step before you can use translations or dubbing.
+​
+Can I upload my own transcript?
+Yes. You can upload your own transcript and review it before moving forward. This allows you to confirm accuracy and formatting before using AI Credits. This can help save AI Credits and give you more control over accuracy.
+​
+When are AI Credits considered used?
+AI Credits are considered spent as soon as they’re used to complete an action, such as transcription, translation, or dubbing. Used credits can’t be refunded. If a transcription, translation, or dub fails during generation, the credits will not be used.
+​
+Which language should I translate or dub first?
+Start with your most requested or highest-impact language to maximize value from your AI Credits.
+​
+Is there a video length limit?
+Yes. Your video length must fit within the AI Credits available on your account. The maximum upload size for Kajabi is 4GB.
+​
+What happens if my video is longer than my available credits?
+If your video exceeds your available credits, you won’t be able to start transcription, translation, or dubbing until additional credits are purchased or become available at the start of the month.
+​
+When do AI Credits reset?
+AI Credits reset on the 1st of every month (PST).
+​
+Can I purchase more credits?
+Yes, additional credits may be purchased in a bundle of 500 credits for $15/month or as a one time purchase of 500 credits for $15.
+​
+Is there a way to test before spending credits?
+Yes. Uploading and reviewing a transcript first allows you to confirm everything looks right before using credits on translation or dubbing.
+
+Was this page helpful?
+
+Yes
+No
+Reactivate a Kajabi account
+Previous
+Manage services and customer payments after account cancellation
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

@@ -1,0 +1,186 @@
+SOURCE: https://help.kajabi.com/articles/api-integrations/payment-integrations/payment-options-available-with-kajabi
+FETCHED: 2026-09-26T22:41:15.097Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Check out as a guest through PayPal
+Connect a third-party payment gateway to Kajabi
+Connect PayPal to Kajabi
+Connect Stripe to Kajabi
+Detach Stripe and PayPal from Kajabi
+Send a receipt with PayPal
+How Kajabi supports payment authentication
+Cancel and refund a payment in Stripe
+Cancel and refund a transaction in PayPal
+Manage failed payments in PayPal
+Manage failed payments in Stripe
+Send a receipt in Stripe
+Set up automated emails in Stripe for failed payments
+Upgrade a PayPal account
+View all transactions in PayPal
+Payment options available with Kajabi
+PayPal integration troubleshooting
+View a customer's next billing date in Stripe
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Kajabi Payments
+PayPal
+Stripe
+Payment Integrations
+Payment options available with Kajabi
+
+Kajabi offers three payment gateways—Kajabi Payments, Stripe, and PayPal—to collect payment for the value you offer your audience.
+
+Kajabi also supports a variety of advanced payment features, including digital wallets like Apple Pay and Google Pay, and buy now, pay later options such as Klarna and Afterpay. These additional options provide flexibility for customers and align with Kajabi’s mission to enhance user experiences.
+​
+Kajabi Payments
+Kajabi Payments is an all-in-one solution purpose-built for Kajabi Heroes — giving you everything you need to accept customer payments, oversee purchases, manage refunds, initiate payouts, and more, all from your Kajabi dashboard. It also unlocks exclusive payment methods like Apple Pay, Google Pay, Afterpay, and more:
+With Kajabi Payments, your Checkout page enables customers to purchase your Offers effortlessly. They can either enter their credit card information directly on the page or choose from the additional payment methods you’ve selected. The payments are then processed and collected into your connected bank account, incurring a small fee that’s equivalent to major payment providers. Learn more.
+Kajabi Payments is currently available to Kajabi customers whose businesses are based in the US, Australia, the UK, Canada, and select European countries.
+Tip: Learn how to set up Kajabi Payments.
+​
+PayPal
+PayPal is a worldwide online payment system that allows you to pay, send money, and accept payments with a small fee.
+Note: Unlike other popular platforms for creators, Kajabi never takes a percentage of your revenue. That’s just not our style. Only PayPal fees will be applied when using PayPal.
+PayPal uses data encryption and anti-fraud technology to help keep your information secure, reducing the risk of online fraud.
+PayPal is a well-trusted platform that services 200+ countries. Find out if PayPal is available in your country here.
+With PayPal, your customers can purchase your Offers with their personal PayPal accounts or by creating a guest PayPal account.
+If you choose to connect PayPal to your Kajabi account, your customers can purchase your Offers using PayPal:
+Tip: Learn how to connect PayPal to your Kajabi account and begin pricing your Offers with PayPal.
+Tip: Connect Kajabi Payments or Stripe in addition to PayPal to give your customers the option to select their preferred payment method. Learn more
+​
+Stripe
+Stripe is an American technology company operating in over 34 countries that allows both private individuals and businesses to accept payments over the Internet with a small fee.
+Stripe focuses on providing the technical, fraud prevention, and banking infrastructure required to operate online payment systems. Find out if Stripe is available in your country here.
+With Stripe, your Checkout page will give your customers the ability to purchase your Offers by simply entering their card information directly onto your Checkout page and processing the payments into your connected bank account.
+By entering their valid payment information, your customers can complete their purchase.
+Tip: Learn how to connect Stripe to your Kajabi account and begin pricing your Offers with Stripe.
+Tip: Connect both Kajabi Payments, or Stripe, and PayPal to give your customers the option to select their preferred payment method. Learn more
+If Kajabi Payments, Stripe, or PayPal do not work for you, learn to connect a third-party payment gateway.
+
+Was this page helpful?
+
+Yes
+No
+View all transactions in PayPal
+Previous
+PayPal integration troubleshooting
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

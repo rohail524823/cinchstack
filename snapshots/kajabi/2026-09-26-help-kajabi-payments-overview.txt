@@ -1,0 +1,308 @@
+SOURCE: https://help.kajabi.com/articles/sales/kajabi-payments/kajabi-payments-overview
+FETCHED: 2026-09-26T22:41:15.555Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Kajabi Payments overview
+ACH Direct Debit for invoicing
+Buy Now, Pay Later methods with Kajabi Payments
+Disputes page overview
+Instant Payouts with Kajabi Payments
+Set up Kajabi Payments: Australia
+Set up Kajabi Payments: Canada
+Set up Kajabi Payments: Europe
+Set up Kajabi Payments: United Arab Emirates
+Set up Kajabi Payments: United Kingdom
+Set up Kajabi Payments: United States
+Bank updates and payout schedule timing
+Use Klarna with Kajabi Payments
+Convert offers from Stripe to Kajabi Payments
+Enable Afterpay on Kajabi Payments Offers
+Enable Apple Pay and Google Pay on Kajabi Payments Offers
+Integrate QuickBooks Online with Kajabi Payments
+Integrate Xero with Kajabi Payments
+Manage failed payments with Kajabi Payments
+Respond to a dispute with Kajabi Payments
+Set up and manage subscriptions with Kajabi Payments
+Update billing dates for Kajabi Payments subscriptions
+Verify an EIN for Kajabi Payments
+View Kajabi Payments payouts and payout details
+Create and manage invoices with Kajabi Payments
+Kajabi Capital: fast, frictionless business funding
+Kajabi Payments 1099-K tax forms
+Complete Kajabi Payments verification requirements
+Complete Kajabi Payments verification requirements
+Kajabi Payments fees: Australia
+Kajabi Payments fees: United Kingdom
+Kajabi Payments fees: Canada
+Kajabi Payments fees: Europe
+Kajabi Payments fees: United Arab Emirates
+Kajabi Payments fees: United States
+Kajabi Payments onboarding required documentation by region
+Kajabi Payments payouts
+Kajabi Payments processing fee invoices
+Kajabi Payments Processing Fees
+Kajabi Payments sales tax overview
+Kajabi Payments statement descriptor
+Updates to Kajabi Payments card pricing in Australia
+Migrate Stripe subscriptions & payment plans to Kajabi Payments
+Payment plans
+Payment settings
+Subscriptions
+Transactions
+Direct Debit for Kajabi Payments (UK, EU, & Australia)
+Understanding Stripe's restricted business list for Kajabi Heroes
+Understanding Stripe's updated billing plans for Kajabi Heroes
+Payment disputes
+Create a manual purchase
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Key benefits
+What you can do with Kajabi Payments
+Accept payments
+Send Invoices
+Create manual purchases
+Manage money after the sale
+Handle tax and bookkeeping
+Get paid
+Supported countries
+Kajabi Payments fees
+Kajabi Payments, Stripe, and PayPal
+What happens when you switch
+Detaching your Stripe account
+FAQs
+Can I add more than one bank account to use with Kajabi Payments?
+Do I need a Stripe account to use Kajabi Payments?
+What happens to my subscriptions if I cancel Kajabi?
+How does Kajabi Payments handle payment security?
+Additional Kajabi Payments resources
+Kajabi Payments
+Kajabi Payments overview
+
+What Kajabi Payments offers, where it’s available, and how it compares to Stripe and PayPal.
+
+Kajabi Payments is Kajabi’s built-in payment processor. It accepts all major credit and debit cards, plus digital wallets like Apple Pay and Google Pay and Buy Now, Pay Later options like Afterpay and Klarna, so customers can pay the way they prefer at checkout.
+Because it’s built into Kajabi, you manage transactions, refunds, subscriptions, invoices, sales tax, and payouts from your Dashboard instead of a separate login. It also syncs with QuickBooks Online and Xero for bookkeeping.
+​
+Key benefits
+Complete commerce solution — Handle every financial operation from your Dashboard: manage transactions, collect sales tax, send invoices, issue refunds, oversee subscriptions, and request Instant Payouts when you need funds right away
+Expanded payment options — Accept major credit and debit cards, Apple Pay, Google Pay, and Buy Now, Pay Later options like Afterpay (Clearpay in the UK) and Klarna, so customers can pay the way they prefer
+One place for payments — Consolidate payment processing in Kajabi instead of stitching together third-party tools, so managing your finances takes less of your time
+​
+What you can do with Kajabi Payments
+​
+Accept payments
+Kajabi Payments accepts all major credit and debit cards with no extra setup. You can also turn on digital wallets — Apple Pay and Google Pay — and Buy Now, Pay Later options, where your customer splits the cost into installments while you’re paid in full up front. Afterpay (branded Clearpay in the UK) and Klarna are both supported, and Klarna has a minimum and maximum transaction amount that depends on your currency.
+Payment providers are set per Offer, not account-wide, so you can turn Kajabi Payments on one Offer at a time. See Turn on a payment provider for Offers for instructions.
+Adding payment methods also changes how checkout looks. Once more than one method is configured on an Offer, the Checkout Form switches to a layout built around choosing a payment method.
+​
+Send Invoices
+Create, send, and manage invoices directly in Kajabi from Sales > Invoices. Invoicing is useful for one-off payments, custom pricing, deposits, or B2B transactions like speaking engagements — anything that doesn’t fit a standard Offer checkout.
+US-based Heroes can also accept ACH Direct Debit on invoices, letting customers pay from a U.S. bank account. ACH is supported on invoices only, not on standard Offer checkouts.
+Invoicing is exclusive to Kajabi Payments. See Create and manage invoices with Kajabi Payments for more information.
+​
+Create manual purchases
+Charge a customer directly from their contact record using a card they have on file or new card details, without sending a checkout link. Useful for closing a sale on a call, restarting a canceled subscription, or moving a customer to a different Offer. The customer receives Offer access and a receipt just like a standard purchase. See Create a manual purchase.
+​
+Manage money after the sale
+Every transaction lands in your Kajabi Dashboard. From there you can issue full or partial refunds, send receipts, manually retry a failed payment, change a subscription’s payment amount, and pause or cancel a subscription or payment plan — the same work you’d do in Stripe, without a second login.
+Failed payments follow an automatic retry schedule before you need to step in (Manage failed payments with Kajabi Payments), and you can change a subscription’s billing date after it’s created (Update billing dates for Kajabi Payments subscriptions).
+​
+Handle tax and bookkeeping
+Kajabi Payments calculates sales tax automatically at checkout, so you aren’t maintaining rates by hand. Setup is required before it starts collecting — see the Kajabi Payments sales tax overview to get started.
+For bookkeeping, Kajabi Payments syncs transaction data to QuickBooks Online and Xero:
+Integrate QuickBooks Online with Kajabi Payments
+Integrate Xero with Kajabi Payments
+Note: Sales tax and accounting sync are exclusive to Kajabi Payments.
+​
+Get paid
+Payouts go to the bank account you connect during setup, on a regular schedule. You can add one bank account per supported currency, and how many currencies you get depends on where your business is registered.
+If you need money sooner, eligible Heroes can request an Instant Payout and receive their available balance in minutes — any day of the week, including weekends and holidays. A service fee applies and is shown before you confirm, and requesting one doesn’t change your regular payout schedule.
+See Instant Payouts with Kajabi Payments for eligibility and limits.
+​
+Supported countries
+Kajabi Payments is available to Kajabi Heroes whose businesses are registered in the following regions. Setup differs by country, mostly in the documents you’re asked to verify, so start with the guide for yours:
+United States
+Canada
+Australia
+United Arab Emirates
+United Kingdom
+Select European countries
+Kajabi is working to expand Kajabi Payments to more regions.
+​
+Kajabi Payments fees
+Kajabi Payments has industry-standard processing fees that vary by region, plan, and payment method. Growth and Pro plans include fee discounts that are typically lower than standard Stripe pricing.
+Find your region’s rates:
+United States
+Canada
+Australia
+United Arab Emirates
+United Kingdom
+Europe
+For more information on how those fees are billed to you, see Kajabi Payments processing fee invoices.
+​
+Kajabi Payments, Stripe, and PayPal
+Kajabi Payments doesn’t replace the Stripe and PayPal integrations. Kajabi maintains and supports both, and you can have all three connected to the same account at once.
+Kajabi Payments and Stripe do the same job — they take credit and debit card payments — so on any given Offer you use one of them, not both. PayPal works differently, letting customers pay from their PayPal balance or linked accounts, so you can offer PayPal alongside whichever card processor you’ve chosen.
+The real difference is what you get access to. Apple Pay, Google Pay, Afterpay, Klarna, automatic sales tax, invoicing, and the QuickBooks Online and Xero integrations only work through Kajabi Payments. Stripe and PayPal keep working exactly as they do today, but those features aren’t available through them.
+​
+What happens when you switch
+Turning on Kajabi Payments doesn’t disconnect anything. Stripe stays connected and keeps processing what it already has. Once you enable Kajabi Payments on an Offer, that Offer’s new payments run through Kajabi Payments and appear in your Dashboard. PayPal is unaffected.
+Subscriptions and payment plans already billing through Stripe stay on Stripe and keep charging there — Kajabi Payments applies to new transactions going forward. Moving them is a deliberate migration, not something the switch does for you: see Convert Offers from Stripe to Kajabi Payments and Migrate Stripe subscriptions and payment plans to Kajabi Payments.
+Most customers won’t notice the change. Some returning customers may need to enter their card details again on their first purchase through Kajabi Payments, because cards saved with Stripe don’t carry over.
+​
+Detaching your Stripe account
+Detaching Stripe from Kajabi is a bigger step than switching an Offer over, and it has three effects:
+New payments stop. Stripe no longer processes new payments through Kajabi.
+Existing subscriptions don’t renew. Active subscriptions and multi-payment purchases remain, but they won’t renew unless you manage them manually in another system.
+Old records stay, new data doesn’t sync. Past Stripe transactions remain visible in Kajabi, but new data no longer syncs to Stripe.
+​
+FAQs
+​
+Can I add more than one bank account to use with Kajabi Payments?
+You can add one bank account per supported currency, and the number of currencies available depends on where your business is registered. In Canada you can add a CAD account and a USD account. In the United Kingdom and the select European countries where Kajabi Payments is available, you can add up to 7 accounts, one per supported currency. The accounts you link determine how payments are processed and when currency conversions happen.
+To add an account after your initial setup, go to Sales > Payouts and click Add bank account.
+​
+Do I need a Stripe account to use Kajabi Payments?
+No. Kajabi Payments runs on Stripe’s processing engine, but you don’t create or manage a Stripe account to use it. If you already have a personal Stripe account, deleting it has no effect on your ability to collect payments through Kajabi Payments.
+​
+What happens to my subscriptions if I cancel Kajabi?
+Customer subscriptions aren’t canceled automatically when you cancel Kajabi. They continue to bill unless you cancel them manually.
+After cancellation, you can still log in with limited access to manage customer payments from the Payments section — including refunds, transactions, subscriptions, payment plans, and disputes — regardless of whether payments were processed through Kajabi Payments, Stripe, or PayPal. Stripe and PayPal subscriptions can also be managed directly in those services.
+See Manage services and customer payments after account cancellation for full details.
+​
+How does Kajabi Payments handle payment security?
+Kajabi Payments is built in partnership with Stripe, which means both payment solutions use the same processing engine. Kajabi Payments operates as a standalone feature within the Kajabi platform but is powered by Stripe on the backend, handling core aspects of payment processing. You can expect the same reliability with Kajabi Payments as you would with Stripe.
+​
+Additional Kajabi Payments resources
+Kajabi Payments | Collect Payments Without the Hidden Fees
+Kajabi Payments: Setup & Onboarding
+Understanding Kajabi Payments: What You Really Need to Know
+Digital Product Sales Tax: A Guide for Content Creators
+
+Was this page helpful?
+
+Yes
+No
+Start a successful Podcast for your business
+Previous
+ACH Direct Debit for invoicing
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

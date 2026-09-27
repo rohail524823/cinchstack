@@ -1,0 +1,390 @@
+SOURCE: https://support.pipedrive.com/en/article/new-pipedrive-plans
+FETCHED: 2026-09-26T22:57:49.763Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Billing information/What’s new in Pipedri...
+
+Topics
+Why did we make these changes?
+What changed?
+From Essential to Lite
+What’s new in Lite?
+How to switch from Essential to Lite?
+From Advanced to Growth
+What’s new in Growth?
+Higher limits
+How to switch from Advanced to Growth?
+From Professional to Premium
+What’s new in Premium?
+Higher limits
+How to switch from Professional to Premium?
+From Power to Premium
+What’s new in Premium?
+How to switch from Power to Premium?
+From Enterprise to Ultimate
+What’s different in Ultimate?
+Why are limits being introduced?
+How to switch from Enterprise to Ultimate?
+What’s new in Pipedrive plans?
+YS
+Yssel Salas
+Last updated: September 2, 2026
+
+In 2025 we introduced a new pricing and packaging structure across all Pipedrive plans.
+
+These changes reflect how the product has evolved, bringing key features and usage limits closer to how teams use Pipedrive today.
+
+Note: Only users with account setting permissions can modify the Pipedrive account subscription.
+Why did we make these changes?
+
+Our goal is to simplify plan offerings, improve platform performance and provide a more scalable experience for businesses of all sizes.
+
+What changed?
+
+You’ll notice changes in both the plan names and their structure.
+
+The new plans are:
+
+Lite
+Growth
+Premium
+Ultimate
+
+Each one is designed to reflect the tools, limits and scale appropriate for that stage of business growth.
+
+Here’s how existing plans transition:
+
+Essential
+	
+Lite
+
+Advanced
+	
+Growth
+
+Professional and Power
+	
+Premium
+
+Enterprise
+	
+Ultimate
+From Essential to Lite
+
+If you’re on the Essential plan, Lite gives you added tools and higher limits with no major changes to how you work in Pipedrive.
+
+What’s new in Lite?
+Deal card customization
+Choose what information shows in your pipeline view to highlight key fields, reduce clutter, and review deals faster.
+Enforced two-factor authentication (2FA)
+Admins can now require users to log in using 2FA, ensuring compliance and reducing security risks.
+Web to mobile calls
+Click any number in the web app and complete the call on your mobile device, with the call logged automatically.
+Higher lead and deal limits
+Essential: 2,000 active leads + deals per user
+Lite: 2,500 per user
+Note: If you’re above Essential’s limits, moving to Lite means you can keep your data without interruption.
+How to switch from Essential to Lite?
+
+Go to Billing > Manage subscription in your account settings.
+
+Note: Switching to Lite will update your subscription to Pipedrive’s latest list pricing.
+From Advanced to Growth
+
+If you're on the Advanced plan, Growth adds tools for better forecasting, automation and lead tracking while keeping your existing workflows intact.
+
+What’s new in Growth?
+Forecast view and reports
+Visualize and plan future revenue with:
+Forecast view (revenue by pipeline stage)
+Forecast reports (project revenue over time)
+Sequences
+Build structured, repeatable lead-nurturing workflows using manual emails and follow-up tasks.
+Contacts timeline
+View a chronological record of emails, calls, and meetings to understand relationship history and personalize outreach.
+Also included
+Deal card customization
+Enforced 2FA
+Web to mobile calls
+Higher limits
+Feature
+	
+Advanced
+	
+Growth
+
+Leads + Deals (per user)
+	
+4,000
+	
+5,000
+
+Reports
+	
+30
+	
+50
+
+If/else steps (per automation)
+	
+1
+	
+3
+Note: If you’re currently above the Advanced plan’s limits, switching allows you to keep your data without disruption.
+How to switch from Advanced to Growth?
+
+Go to Billing > Manage subscription in your account settings.
+
+Note: Switching to Growth will update your subscription to Pipedrive’s latest list pricing.
+From Professional to Premium
+
+If you’re currently on the Professional plan and looking for more flexibility and advanced tools, the Premium plan offers enhanced functionality, broader limits and additional collaboration features without requiring major changes to your workflow.
+
+What’s new in Premium?
+LeadBooster included
+Gain access to powerful lead generation tools:
+Chatbot: Engage visitors in real time
+Live Chat: Connect users to real support
+Prospector: Source leads from a global database
+Web Forms: Capture traffic and turn it into contacts
+Custom scoring and enrichment
+Automate your lead qualification process with:
+Scoring based on deal fit
+Enrichment using firmographic data (e.g., industry, revenue)
+Team inbox
+Collaborate on email conversations using shared inboxes like sales@yourcompany.com while maintaining visibility and ownership.
+Also included
+Projects: Manage post-sale tasks inside Pipedrive
+Enforced 2FA: Ensure account-wide login security
+Higher limits
+Feature
+	
+Professional
+	
+Premium
+
+API tokens
+	
+90,000
+	
+150,000
+
+Leads + Deals (per company)
+	
+10,000
+	
+15,000
+
+Reports (per user)
+	
+150
+	
+250
+
+Active automations
+	
+100
+	
+150
+
+If/else steps (per automation)
+	
+5
+	
+10
+
+Email syncs (per user)
+	
+2
+	
+3
+
+Teams (per company)
+	
+3
+	
+15
+
+Custom visibility groups
+	
+3
+	
+15
+
+Custom permission sets
+	
+2
+	
+15
+
+Sequences
+	
+10
+	
+25
+Note: If you’re over any Professional plan limits, moving to Premium allows you to keep working without removing data.
+How to switch from Professional to Premium?
+
+Go to Billing > Manage subscription in your account settings.
+
+Note: The Premium plan may have a higher monthly cost than Professional. For accurate pricing, visit our pricing page.
+From Power to Premium
+
+If you’re currently on the Power plan, the Premium plan offers more flexibility, higher customization limits and additional lead generation tools while maintaining your current workflows.
+
+What’s new in Premium?
+LeadBooster included
+With Premium, you’ll have access to:
+Chatbot: Engage visitors in real time
+Live Chat: Connect users to real support
+Prospector: Source leads from a global database
+Web Forms: Capture traffic and turn it into contacts
+
+Higher limits for permission sets
+You’ll have more flexibility to configure access
+
+Enforced 2FA included
+
+Feature
+	
+Power
+	
+Premium
+
+Custom permission sets (per company)
+	
+10
+	
+15
+How to switch from Power to Premium?
+
+Go to Billing > Manage subscription in your account settings.
+
+Note: Switching to Premium will update your subscription to Pipedrive’s latest list pricing.
+From Enterprise to Ultimate
+
+If you’re on the Enterprise plan, the Ultimate plan offers similar tools but with newly introduced limits, aimed at keeping the platform scalable and reliable for all users.
+
+What’s different in Ultimate?
+Feature
+	
+Enterprise
+	
+Ultimate
+
+Custom fields
+	
+Unlimited
+	
+500
+
+Reports (per user)
+	
+Unlimited
+	
+500
+
+Teams (per company)
+	
+Unlimited
+	
+25
+
+Custom visibility groups
+	
+Unlimited
+	
+25
+
+Custom permission sets
+	
+Unlimited
+	
+25
+Why are limits being introduced?
+
+These limits reflect industry best practices and are designed to:
+
+Keep the platform stable and performant
+Ensure consistent usability across all accounts
+Prevent excessive configuration that could reduce overall system reliability
+
+The goal is to make sure Pipedrive remains efficient and scalable for everyone.
+
+Note: Ultimate is generally priced lower than Enterprise. For current rates, see our pricing page.
+
+In addition, we’ve made our lead generation add-on included on the Ultimate plan, giving you access to:
+
+Chatbot: Engage visitors in real time
+Live Chat: Connect users to real support
+Prospector: Source leads from a global database
+Web Forms: Capture traffic and turn it into contacts
+How to switch from Enterprise to Ultimate?
+
+Go to Billing > Manage subscription in your account settings.
+
+Note: Switching to Ultimate will update your subscription to Pipedrive’s latest list pricing.
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

@@ -1,0 +1,151 @@
+SOURCE: https://support.pipedrive.com/en/article/billing-troubleshooting
+FETCHED: 2026-09-26T22:57:31.480Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Billing information/Billing troubleshooting
+
+Topics
+Unable to add billing details to your trial account
+Location validation
+Declined transactions
+Unable to add your VAT ID (Europe)
+Errors when editing your subscription
+Not receiving billing emails
+Billing troubleshooting
+BF
+Breandan Flood
+Last updated: September 2, 2026
+Note: Only users with account settings can edit and update billing details. You can learn more about user management in this article.
+
+If you experience errors while adding your billing details, start by double-checking that all the information you’ve entered is accurate and up to date.
+
+Before proceeding with the steps in this article, we recommend reviewing our general troubleshooting guide to rule out any cache or browser-related issues.
+
+Unable to add billing details to your trial account
+
+You can add your billing details to your Pipedrive trial account at any time to begin paying once the trial ends. If you get an error while entering your billing details, review the following points to troubleshoot the problem.
+
+Location validation
+
+One possible cause for the error is location validation, which we use in taxable regions to determine the correct tax rate to apply.
+
+Location validation checks whether the billing country in your address matches one of the following secondary indicators:
+
+The IP address used when entering the billing details
+The credit card’s BIN (Bank Identification Number)
+
+If there’s no match, you won’t be able to add your billing details to Pipedrive.
+
+Declined transactions
+
+Another possible reason for billing errors is a declined transaction. In this case, we advise you to contact your card issuing bank to find out why the transaction was declined and check if they can allow it to go through.
+
+Note: Alternatively, you can also try to add your details with another credit or debit card.
+Unable to add your VAT ID (Europe)
+
+If you can’t add your VAT ID to your account billing details, the first step is to verify that it is valid.
+
+To check if your VAT ID is valid, you should follow these steps:
+
+Navigate to the VIES website to validate VAT numbers
+Select the member state (country) in the first field
+Provide the remaining digits of the VAT number in the VAT number field
+Select "Verify"
+
+You’ll then see if your VAT ID is valid or invalid.
+
+Invalid response	You may see an error stating that the maximum number of requests for your country has been reached. This temporary VIES system limit should resolve itself, so try adding your VAT ID again after a few hours.
+
+If your VAT appears invalid, you should contact your local tax authority for more information. The relevant contact details are on the VIES website.
+Valid response	If your VAT ID is valid but still not accepted in Pipedrive, try removing any formatting, such as dashes, hyphens, or slashes. Then, try entering it again using different formats, with or without spaces.
+
+Errors when editing your subscription
+
+You may also receive errors when managing your subscription. For example, if you:
+
+Add users to your account
+Upgrade your subscription plan
+Add a paid add-on such as LeadBooster
+
+Firstly, you should follow our general troubleshooting guide and check your billing information to ensure it is up to date and valid.
+
+Errors when making these changes are often caused by an overdue invoice or a declined transaction. To proceed, ensure all recent invoices are paid since subscription changes require no outstanding payments.
+
+You can learn how to view your past invoices in this article. If the transaction is declined, please contact your card issuing bank for more information.
+
+If the issue persists after these steps, please contact our support team for further assistance.
+
+Not receiving billing emails
+
+All invoices are sent to the billing contact’s email listed under the billing details. If you’re not receiving them, first double-check that the email address is correct.
+
+You can edit your billing details by opening the account menu at the top right corner, selecting “Billing” and clicking on the pencil icon.
+
+If the billing email address is correct but you still can’t find the invoice, check your junk or spam folder to see if the email landed there.
+
+If you still haven’t received the email, please contact support for further assistance.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

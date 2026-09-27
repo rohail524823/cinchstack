@@ -1,0 +1,93 @@
+SOURCE: https://help.activecampaign.com/hc/en-us/articles/115000105844-Purchase-the-SMS-add-on#h_01JH1FZFDRCZ563KBA180FFE6Z
+FETCHED: 2026-09-27T02:20:40.888Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+How can we help?
+ 
+
+Stay informed about changes to the ActiveCampaign platform on our Release Updates page.
+
+ActiveCampaign Help Center
+Account, Billing, & Setup
+Account Billing & Upgrade
+ 
+Purchase the SMS add-on
+Sarah N
+Last updated July 22, 2026 at 12:06 PM
+Follow
+Not yet followed by anyone
+ ActiveCampaign plans
+Starter
+Plus
+Pro
+Enterprise
+SMS add-on To purchase this add-on, you must have a Plus, Professional, or Enterprise plan.
+
+SMS (Short Messaging Service) is a text messaging service that lets you send short text messages to your contacts. Incorporating SMS into your marketing and communications can enhance customer experience, boost engagement, and drive your business growth.
+
+This article will show you how to purchase the SMS add-on and recurring credits.
+
+Take Note
+Only Primary Admins and users with billing permissions can purchase the SMS add-on
+You must have a Plus, Professional, or Enterprise plan to purchase this add-on
+Unused SMS credits do not rollover to the next month
+Billing for the SMS add-on is based on the type of subscription you have:
+If monthly, you are charged every month
+If annual, you are charged annually, and credits renew each month
+View a list of countries we support sending SMS messages from, along with the number of credits used per message
+Visit Getting Started with SMS and ActiveCampaign to learn how to register and set up your SMS after purchase
+If sending SMS messages to recipients in the United States, you are required to register for A2P 10DLC
+Purchase the SMS add-on
+Click your profile > Billing & Upgrade.
+Scroll down to the add-ons section at the bottom of the page and locate the SMS option.
+Click the “Add to plan” button.
+The “Review Purchase” modal will summarize changes to your billing. Click “Confirm purchase” to purchase the SMS add-on.
+
+Once confirmed, your available SMS credits will appear on the upper left corner of your billing page.
+
+Purchase additional SMS credits
+
+Once you purchase the SMS add-on, you can purchase additional credits.
+
+Click your profile > Billing & Upgrade.
+Click “Edit” next to “X SMS Credits” on the top left corner of your screen.
+A modal window will appear. Click the dropdown and select the additional credits you want to add to your plan.
+The modal will display the total cost of your SMS credits. Click the “Continue” button.
+Click the “Confirm Purchase” button on the next screen.
+
+The updated SMS credit amount will appear on the upper left corner of your billing page.
+
+Related to:
+
+Billing
+SMS
+Account Settings
+Was this article helpful?
+Yes No
+11 out of 55 found this helpful
+Start free trial
+ 
+In this article
+Purchase additional SMS credits
+Purchase the SMS add-on
+Take Note
+Purchase the SMS add-on
+Purchase additional SMS credits
+
+Have more questions? Get in touch
+
+Start free trial
+Related articles
+SMS supported countries
+Getting Started with SMS
+How to register for A2P 10DLC in ActiveCampaign
+An overview of SMS requirements
+Set up your sending domain
+Can't find what you're looking for?
+Let us help you right now!
+Submit a request
+
+We - and our partners - use cookies to deliver our services and to show you ads. By using our website, you agree to the use of cookies as described in our Cookie Policy (in English)
+
+Accept

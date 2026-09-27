@@ -1,0 +1,169 @@
+SOURCE: https://www.pipedrive.com/en/features/web-visitors-add-on
+FETCHED: 2026-09-26T22:44:32.698Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+
+Meet Pipedrive Nova: Our new built-in meeting intelligence tool. Learn more.
+
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+Web Visitors add-on
+See who’s browsing your website
+
+Companies used to be able to anonymously visit your website. With Web Visitors, you can now reveal which organizations are looking, how they found you, and what they engage with.
+
+Set up Web Visitors
+
+Try it free for 14 days, from $41 per month afterward
+
+Add Web Visitors to any Pipedrive CRM plan to get more leads and manage all your deals with one software! With Web Visitors, you can:
+
+Reveal already interested leads
+
+Identify organizations that are already engaging with your content and campaigns. Discover new leads and monitor existing customers to know when your key accounts are ready to convert.
+
+Uncover relevant contact persons
+
+Use prospector credits to reveal the relevant contact persons for each organization identified through Web Visitors. Then, add them as leads for follow-up. Buy Prospector credits here.
+
+Know what your leads want
+
+Use insights to understand the wants and needs of your hottest leads and existing customers and to follow up accordingly. View the complete browsing history of any company so you get a full picture of what interests them.
+
+Have your leads ranked
+
+Have Web Visitors automatically rank your leads based on their web activity, so you can set your priorities and know who to focus on first. Filter visitors by country, Google AdWords campaign, or web pages they interact with.
+
+How it works
+1. Install a simple tracker
+
+This easy-to-install script counts how many unique organizations visit your website. If the same company visits your site multiple times, they still count just once.
+
+2. Organizations identified
+
+Web Visitors filters out unidentifiable and unhelpful website traffic, leaving only high-quality organizations to add to your Leads Inbox or contacts. You can also use Prospector to uncover the relevant individuals in each identified organization.
+
+3. Monitor all your websites
+
+Track all types of organizations on as many websites as you like. Use custom filters to segment your visitors by site visited, if they are an existing contact, and more.
+
+Reveal already interested leads
+
+Identify organizations that are already engaging with your content and campaigns. Discover new leads and monitor existing customers to know when your key accounts are ready to convert.
+
+Know what your leads want
+
+Use insights to understand the wants and needs of your hottest leads and existing customers and to follow up accordingly. View the complete browsing history of any company so you get a full picture of what interests them.
+
+Have your leads ranked
+
+Visitors are automatically ranked based on their web activity, so you know who to focus on first. Filter visitors by country, Google AdWords campaign, or web pages they interact with.
+
+Pricing
+
+A fixed price is determined based on the average number of unique identified organizations that visit your website after excluding ISPs (Internet service providers), crawlers and irrelevant web traffic.
+
+Up to 200 identified organizations
+$49
+
+per month
+($0.25 per organization)
+
+201 to 500 identified organizations
+$99
+
+per month
+($0.20 per organization)
+
+501 to 2000 identified organizations
+$299
+
+per month
+($0.15 per organization)
+
+Learn more about how Web Visitors measures your website traffic in our Knowledge Base article.
+
+Web visitors add-on FAQs
+How do I turn website visitors into sales?
+
+Use the Web Visitors add-on to see which organizations are browsing your website and the pages they visit the most.
+
+By understanding who your visitors are and what they want, you can offer them a personalized buying experience and improve your conversion rates.
+
+How do I check how many visitors a website gets?
+
+With the Web Visitors tracker script, you can track every visitor who lands on your website.
+
+Access your Web Visitors inbox for information about every company that has visited your website.
+
+How do I retarget website visitors?
+
+Businesses retarget website visitors with advertising campaigns, either through pixel or list-based targeting.
+
+Pixel-based targeting uses cookies from your website to show ads to people with cookies on their browsers.
+
+List-based targeting is generally used on social media platforms and involves targeting leads who already exist within your contact database.
+
+How can I track visitors to my website?
+
+Use the Web Visitors inbox to see which businesses have visited your website, for how long and whether they’re linked to organizations within your Pipedrive account.
+
+Pipedrive offers lead quality rating to help you determine how engaged each business is and identify your hottest leads.
+
+Try Pipedrive CRM with Web Visitors
+Try it free
+
+No credit card required. 14-day trial.
+
+Skip footer navigation links
+Product
+Features
+Pipedrive AI
+Pricing
+Integrations
+API
+MCP
+Product updates
+Discover
+Partner program
+Referral program
+Case studies
+Sales pipeline course
+What is CRM?
+Resources
+Sales calculator
+Help Center
+Knowledge Base
+Academy
+FAQs
+Status
+Support
+(Available now)
+Company
+About
+Jobs
+Blog
+Newsroom
+Get our newsletter
+Trust center
+Legal hub
+Sub-processors
+English
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

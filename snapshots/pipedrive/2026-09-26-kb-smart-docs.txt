@@ -1,0 +1,298 @@
+SOURCE: https://support.pipedrive.com/en/article/smart-docs
+FETCHED: 2026-09-26T22:56:25.372Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Features/Smart Docs/Smart Docs
+
+Topics
+Connecting to a cloud storage provider
+Connecting from a deal or a contact
+Connecting from settings
+Using shared drives on Google Drive
+Working with templates
+Editing templates and adding fields
+Sharing templates with your team
+Creating a document
+From a template
+How field population works
+Viewing and sharing a document
+Google Drive
+OneDrive and SharePoint
+Tracking document views
+Understanding document versions
+Requesting eSignatures
+Smart Docs
+JT
+Jenny Takahara
+Last updated: September 2, 2026
+Note: Smart Docs is available on the Premium and Ultimate plans. Users on the Lite and Growth plans can purchase the Smart Docs add-on. Only users with account settings access can purchase the add-on, which includes a 14-day free trial with five signature requests. Billing details are required to start the trial. Read the terms and conditions for the add-on on this page.
+
+Smart Docs helps you create proposals, quotes and contracts directly from your deals and contacts. Your documents automatically fill with data from your Pipedrive account, so you don‘t have to manually copy and paste information.
+
+With Smart Docs, you can:
+
+Create documents from templates
+Automatically insert deal, contact, product and project data
+Share documents using trackable links
+Be notified when recipients open the documents
+Request legally binding eSignatures
+Connecting to a cloud storage provider
+
+Before creating documents, you need to connect to your cloud storage provider.
+
+Smart Docs supports:
+
+Google Drive
+Microsoft OneDrive
+SharePoint
+Connecting from a deal or a contact
+
+Open a deal or contact detail view, click the “Documents” tab, then “Connect cloud storage”.
+
+You‘ll be asked to grant Pipedrive access to your storage account.
+
+Once connected:
+
+You can upload existing files
+New documents will automatically save to your selected drive
+
+After connecting, you can choose a personal or shared drive as your storage location.
+
+Connecting from settings
+
+You can also manage your connection by going to Tools and apps > Documents and clicking “+ Add a new account” to connect another provider or “Disconnect” to remove access.
+
+You can learn more about how files are stored in this article.
+
+Note: Connecting your Google account for Smart Docs is different than setting it up for the Google Drive sync feature.
+
+If you experience issues connecting or re-authenticating Google Drive:
+
+Go to your Google Permissions
+Remove Pipedrive access before trying to connect again
+If the issues continue, contact our support team for assistance
+
+You can also set up a default shared drive for your account.
+
+Using shared drives on Google Drive
+
+When you connect Google Drive, Smart Docs automatically assigns a default shared drive folder for your company. You can also select another or create a new one.
+
+To create a new shared drive, open your Google Drive account, go to the Shared drives tab, then click “+ New”:
+
+Once you’ve created your new shared drive in Google Drive, navigate to Tools and Apps > Documents and select the new shared drive for use with your Smart Docs:
+
+Working with templates
+
+Templates help you save time by reusing the same structure across multiple documents.
+
+Note: Only users with the correct global permissions can create templates. The required Pipedrive permission is “Add and import Smart Docs templates”.
+
+To create a template from scratch, open a deal or a contact detail view, then click “Documents” and go to the Templates tab. Click “+ Create new” and choose Document, Spreadsheet or Presentation.
+
+You can also import a template from your provider if you already have one saved.
+
+Note: Creating templates and documents with a spreadsheet or presentation is only available for Google Drive users.
+Note: If you use OneDrive, the file picker, template editor and document editor will open in new pop-up windows. If you don’t see them, enable pop-ups for Pipedrive in your browser settings. Learn how to enable pop-ups in this article.
+Editing templates and adding fields
+Note: Read more about using field data and templates in Smart Docs in this article.
+
+When in the template editor, you can:
+
+Update the template’s name
+Assign a category
+Add any Pipedrive field (deal, contact, product, project, or time-based) to automatically fill in your template‘s content.
+
+To insert a field into your template:
+
+Copy the field from the right-hand panel
+Paste the field into the template body
+
+The field will show in brackets like this: [Deal title (deal title)]
+
+When you create a document from the template, Smart Docs automatically replaces the brackets with real data.
+
+Once you have finished editing your template, click “Close” to save it or click “Use to create document” to immediately generate a document with your newly created template.
+
+Learn more about fields and templates in Smart Docs from this article.
+
+Sharing templates with your team
+
+You can use advanced template sharing to automatically share the template with other users in Pipedrive. To share a template, open it up for editing and click on the “Permissions” tab. There are two different permission levels:
+
+Can use this template – Users can view and use the template to create new documents, but can’t edit or delete it.
+Can edit this template – Users can view, use, edit and delete the template.
+Note: Users must also have access to the original template file in the connected storage provider. This is why we recommend that all templates and documents be stored in a shared drive. You can set this up in the Smart Docs settings. Learn more about how documents are stored in this article.
+
+Shared templates appear under the Shared with me section of the template gallery.
+
+Creating a document
+
+To create a document:
+
+Open a deal or contact in the detail view
+Click the Documents tab
+Choose one of the following:
+Create from a template
+Create a blank document, spreadsheet or presentation
+Upload a file from your device or from cloud storage
+
+You can upload files from:
+
+Your device
+
+Google Drive
+
+OneDrive
+
+SharePoint
+
+Note: You can also upload a PDF from your device, but you won’t be able to edit or save it as a template.
+From a template
+
+To create a document from an existing template, click “From template” and select the template you wish to use.
+
+The document editor will appear, with all fields automatically filled in.
+
+From there, you can:
+
+Rename the document
+Change its category
+Edit the content according to your preferences
+
+Changes save automatically as you work on the document.
+
+How field population works
+
+If you want deal-specific data to populate automatically, create the document from the deal detail view.
+
+If you want person-specific fields to populate automatically, create the document from the deal or contact detail view.
+
+Note: If a field in your template is empty, its respective placeholder will remain in the document. You can then manually edit or remove it. Learn how to clear unpopulated fields in this article.
+
+Viewing and sharing a document
+Google Drive
+
+If you click the “Share” button in the document editor, you can share it, request signatures, or download it as a PDF.
+
+Share as link – Generate a link to a read-only PDF version of this document.
+Request signatures – Request e-signatures from the document recipients.
+Download PDF – Save your document locally.
+OneDrive and SharePoint
+
+To share your document, you’ll first have to close your document editor and click the “...” button on the document created on the detail page.
+
+From there, you can create a shareable link.
+
+Tracking document views
+
+When generating a link, you can enable view tracking and choose to receive email notifications when someone opens it.
+
+You can receive email notifications:
+
+The first time the document is opened
+Every time it‘s opened
+Never
+Note: Our document tracking feature is GDPR compliant. You can read more in this article.
+Understanding document versions
+
+Each time you generate a shareable link, Smart Docs creates a new version of the original document, including the number of views and the creation time.
+
+Once a version is shared:
+
+That version becomes read-only
+
+You can‘t edit it anymore
+
+To update a document, click on the original document, make the necessary updates and generate a new link.
+
+Once the new link is generated, you’ll see it as Version 2, Version 3 and so on, under the original document:
+
+If you create multiple versions of a document, we recommend disabling older links to avoid confusion.
+
+To disable a link:
+
+Click the “...” next to the older version
+Click “Share as link”
+Toggle off “Enable link”
+Requesting eSignatures
+
+With Smart Docs, you can request legally binding eSignatures directly from your document.
+
+To request a signature:
+
+Open the deal or contact detail view
+
+Create, open or upload a document with the Smart Docs feature
+
+Find the option to request signatures
+
+Add recipients and send it.
+
+Learn how to request signatures for your documents in this article.
+
+Note: The eSignatures feature is only available on the Premium and Ultimate plans, and only for users trialing these plans with valid billing details entered. Lite and Growth users can access eSignatures through the Smart Docs add-on.
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+How can I make calls in Pipedrive?
+Merge Duplicates
+How does the Merge Duplicates feature identify duplicates in Pipedrive?
+Automations: first steps
+Meeting scheduler
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

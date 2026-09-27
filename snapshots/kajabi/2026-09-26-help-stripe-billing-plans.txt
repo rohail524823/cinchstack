@@ -1,0 +1,208 @@
+SOURCE: https://help.kajabi.com/articles/sales/kajabi-payments/understanding-stripes-updated-billing-plans-for-kajabi-heroes
+FETCHED: 2026-09-26T22:44:25.261Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Kajabi Payments overview
+ACH Direct Debit for invoicing
+Buy Now, Pay Later methods with Kajabi Payments
+Disputes page overview
+Instant Payouts with Kajabi Payments
+Set up Kajabi Payments: Australia
+Set up Kajabi Payments: Canada
+Set up Kajabi Payments: Europe
+Set up Kajabi Payments: United Arab Emirates
+Set up Kajabi Payments: United Kingdom
+Set up Kajabi Payments: United States
+Bank updates and payout schedule timing
+Use Klarna with Kajabi Payments
+Convert offers from Stripe to Kajabi Payments
+Enable Afterpay on Kajabi Payments Offers
+Enable Apple Pay and Google Pay on Kajabi Payments Offers
+Integrate QuickBooks Online with Kajabi Payments
+Integrate Xero with Kajabi Payments
+Manage failed payments with Kajabi Payments
+Respond to a dispute with Kajabi Payments
+Set up and manage subscriptions with Kajabi Payments
+Update billing dates for Kajabi Payments subscriptions
+Verify an EIN for Kajabi Payments
+View Kajabi Payments payouts and payout details
+Create and manage invoices with Kajabi Payments
+Kajabi Capital: fast, frictionless business funding
+Kajabi Payments 1099-K tax forms
+Complete Kajabi Payments verification requirements
+Complete Kajabi Payments verification requirements
+Kajabi Payments fees: Australia
+Kajabi Payments fees: United Kingdom
+Kajabi Payments fees: Canada
+Kajabi Payments fees: Europe
+Kajabi Payments fees: United Arab Emirates
+Kajabi Payments fees: United States
+Kajabi Payments onboarding required documentation by region
+Kajabi Payments payouts
+Kajabi Payments processing fee invoices
+Kajabi Payments Processing Fees
+Kajabi Payments sales tax overview
+Kajabi Payments statement descriptor
+Updates to Kajabi Payments card pricing in Australia
+Migrate Stripe subscriptions & payment plans to Kajabi Payments
+Payment plans
+Payment settings
+Subscriptions
+Transactions
+Direct Debit for Kajabi Payments (UK, EU, & Australia)
+Understanding Stripe's restricted business list for Kajabi Heroes
+Understanding Stripe's updated billing plans for Kajabi Heroes
+Payment disputes
+Create a manual purchase
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Overview
+FAQs
+How does this affect Kajabi Heroes who use Stripe?
+I have custom Billing pricing with Stripe, will that still be honored?
+Kajabi Payments
+Understanding Stripe's updated billing plans for Kajabi Heroes
+
+Review Stripe’s billing plan changes and how they affect Kajabi Payments fees.
+
+​
+Overview
+On July 10, 2024, Stripe updated their Billing plans and structure, which introduced an adjustment in their subscription fee from 0.5% to 0.7%. For more details, review Stripe’s documentation on these updates. For specific questions regarding Stripe’s fee changes, we recommend contacting Stripe directly, as they can provide the most accurate information about their direct pricing.
+As Kajabi Payments is built in partnership with Stripe, we also adjusted our subscription and payment plan fees from 0.5% to 0.7% effective August 14, 2024.
+To honor Heroes who supported Kajabi Payments from the beginning, we offered a promotional rate of 0.5% to all Heroes who set up Kajabi Payments by August 14, 2024. This promotional rate remained in effect until June 30, 2025, after which the pricing applies.
+​
+FAQs
+​
+How does this affect Kajabi Heroes who use Stripe?
+Heroes on a Stripe Billing Starter or Billing Scale plan before July 10th, 2024 received promotional pricing of 0.5% until June 30th, 2025, after which the 0.7% pricing applies. For specific questions about Stripe’s fee changes, contact Stripe directly as they can provide the most accurate information about their direct pricing.
+​
+I have custom Billing pricing with Stripe, will that still be honored?
+According to Stripe’s documentation, if you have a custom Billing sales contract, there will be no changes to the current agreement. For more questions regarding specific pricing, contact Stripe directly.
+
+Was this page helpful?
+
+Yes
+No
+Understanding Stripe's restricted business list for Kajabi Heroes
+Previous
+Payment disputes
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

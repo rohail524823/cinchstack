@@ -1,0 +1,135 @@
+SOURCE: https://support.pipedrive.com/en/article/projects-billing-and-subscription
+FETCHED: 2026-09-26T22:56:15.455Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Account settings/Users and permissions/Projects: billing and...
+
+Topics
+Projects billing
+Projects add-on billing and seats
+Access to Projects
+Assign access to Projects
+Get started with Projects
+Projects: billing and subscription
+SR
+Steven Reinartz
+Last updated: September 2, 2026
+Note: Only users with account settings access can manage billing and user permissions. Learn more about global user management.
+
+Use Projects to organize work after a deal is won. It helps you track tasks, manage follow-up activities and keep related work in one place.
+
+Projects billing
+
+How you’re charged for Projects depends on your plan:
+
+Plan	Projects availability	Access for users
+Lite and Growth	Available as a paid add-on	Only users assigned a project seat and given project app access
+Premium and Ultimate	Included in the plan	All users have access by default
+
+On Lite and Growth plans, Projects is priced per seat. This means access isn’t enabled for all users by default. Instead, you choose which users can use the feature by assigning them a project seat and enabling the projects app. Each assigned user is included in your billing.
+
+You can add or remove seats from your subscription at any time, depending on how many users need access.
+
+On Premium and Ultimate plans, Projects is included for all users. Changing user access does not affect your billing.
+
+Projects add-on billing and seats
+Note: You can trial Projects for 14 days. The trial automatically converts to a paid subscription unless you cancel before it ends.
+
+To add Projects as an add-on, go to account menu > Billing and click “Manage add-ons”.
+
+Enable Projects, then select how many seats you want to purchase.
+
+To adjust the number of seats, click “Seats”, choose how many you need and confirm.
+
+Reducing the number of seats will lower your billing on the next cycle.
+
+Note: The Projects add-on is billed as a recurring charge and follows the same billing cycle as your subscription.
+Access to Projects
+
+To use Projects, you need access to:
+
+Deals app – requires a paid seat, grants access to Pipedrive core features
+Projects app – allows you to create and manage projects
+
+Users without access to the projects app can still view project information if it’s linked to items they can access, such as deals or contacts, but they can’t create or edit projects.
+
+Assign access to Projects
+
+To give a user access to Projects, you need to enable the projects app for them.
+
+Go to the account menu > Manage users, then select the users you want to update.
+
+Enable the projects app in the access panel.
+
+Finally, click “Edit” to confirm.
+
+If you’re on a Lite or Growth plan and no seats are available, enabling access will add a new projects seat to your subscription.
+
+Get started with Projects
+
+Once you have access, open the Projects tab to start adding and planning your projects.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Does Pipedrive support right-to-left language input?
+Global user management
+User overview
+Pipedrive's referral program
+Callto Syntax: Make VOIP calls from Pipedrive
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

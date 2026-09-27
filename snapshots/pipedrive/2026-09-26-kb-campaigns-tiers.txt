@@ -1,0 +1,241 @@
+SOURCE: https://support.pipedrive.com/en/article/campaigns-add-on-tiers
+FETCHED: 2026-09-26T22:55:33.516Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Campaigns/Campaigns settings/Campaigns: add-on tiers
+
+Campaigns: add-on tiers
+YS
+Yssel Salas
+Last updated: September 2, 2026
+
+Not all businesses have the same marketing needs, which is why our Campaigns tool offers different tiers, allowing you to choose the one that suits your business and marketing strategy.
+
+Below are the features that come with each tier:
+
+Features
+
+	
+
+Standard
+
+	
+
+Premium
+
+Marketing automations
+
+	
+
+✔️
+
+	
+
+✔️
+
+Scheduling
+
+	
+
+✔️
+
+	
+
+✔️
+
+Double opt-in
+
+	
+
+✔️
+
+	
+
+✔️
+
+Customizable email templates
+
+	
+
+✔️
+
+	
+
+✔️
+
+Code-your-own email templates
+
+	
+
+✔️
+
+	
+
+✔️
+
+Two-factor authentication
+
+	
+
+✔️
+
+	
+
+✔️
+
+Real-time engagement reports
+
+	
+
+✔️
+
+	
+
+✔️
+
+Unified sales and marketing contacts list
+
+	
+
+✔️
+
+	
+
+✔️
+
+Contact filtering
+
+	
+
+✔️
+
+	
+
+✔️
+
+Campaign engagement notifications
+
+	
+
+✔️
+
+	
+
+✔️
+
+Email compliance recommendations (ECR)
+
+	
+
+✔️
+
+	
+
+✔️
+
+Sender domain authentication
+
+	
+
+✔️
+
+	
+
+✔️
+
+Campaign insights
+
+	
+
+✔️
+
+	
+
+✔️
+
+Comparative insights
+
+	
+	
+
+✔️
+
+Premium “campaign type” insights filter		
+✔️
+Billing
+Note: This action is only available to users with account settings access.
+
+When adding the Campaigns add-on to your billing, select the tier that better fits your needs.
+
+Click on “Change number” to change the number of subscribers.
+
+As you move the slider, the estimated cost will appear on the right-hand side. The more contacts you add, the less you pay per subscriber.
+
+In the checkout section, you’ll be asked to confirm the total cost, consisting of your campaigns add-on tier and your Pipedrive subscription, as well as the billing date and amount charged.
+
+Once the purchase is confirmed, you’ll be able to set up your campaigns.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Campaigns: reporting
+Campaigns: account settings
+Campaigns: company account review
+Campaigns: drag-and-drop editor
+Campaigns: marketing contacts
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

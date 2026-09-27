@@ -1,0 +1,87 @@
+SOURCE: https://support.pipedrive.com/en/article/what-happens-to-my-billing-when-i-add-a-user-in-pipedrive
+FETCHED: 2026-09-26T22:57:04.821Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Billing information/What happens to my bi...
+
+What happens to my billing when I add a user in Pipedrive?
+BF
+Breandan Flood
+Last updated: September 2, 2026
+Note: This action is only available to users with account settings access. You can learn more about user management in this article.
+
+When you invite a user to join your Pipedrive account and give them deals app access, that new user will occupy a seat in your Pipedrive account.
+
+If you add a new user and already have an open seat in your account, then that user will occupy that open seat. In this case, nothing in the account’s billing information will change.
+If you don’t have an open seat in your account, adding a user will increase the billed seat count in your subscription. This means you’ll be billed immediately after the seat has been added to your account. You’ll see a prorated charge that reflects the time remaining in your current subscription cycle.
+
+For example, if your monthly Premium plan billing cycle started on July 14th and you add an extra seat on July 20th, you’ll be charged the prorated amount of the time left of the current cycle for your extra seat on July 20th. On August 14th, Pipedrive will bill you the total amount for the users on the monthly Premium plan.
+
+You’ll see these changes and your billing update in your checkout summary.
+
+To understand the difference between a billed seat and a Pipedrive user, check out this article. You can find details about costs on our pricing page.
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

@@ -1,0 +1,184 @@
+SOURCE: https://www.kajabi.com/updates/2025-pricing-updates
+FETCHED: 2026-09-26T22:41:57.105Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Products
+Updates
+Pricing
+Login
+Start Free Trial
+Cycle Updates
+Upcoming Changes to your Kajabi plan
+
+A Note from Kajabi's President, Ahad Khan.
+
+Q4 2025
+December 2025
+
+When New Kajabi launched in 2015, we were simply a course platform. No landing pages. No email. Just a way to share knowledge online. In the decade since, we’ve continued to add value, launching products and features like coaching, communities, digital downloads, newsletters, automations, payments, affiliates, branded mobile apps, and hundreds of other upgrades and improvements across the platform.
+
+‍
+
+Here is just a quick summary of the incredible additions we have made to the platform since 2015…
+
+At the same time, we’ve strengthened our infrastructure, expanded our support, and grown our team to serve you better, even as the costs of providing the platform have steadily increased.
+
+Through it all, our goal has remained the same: to build the best all-in-one online business platform for you, our Heroes.
+
+For the last 10 years, our prices have stayed the same, even as Kajabi has evolved to meet your needs. Now, to continue delivering the reliable, high-quality platform you deserve, we’re updating our prices and evolving our plans.
+
+‍
+
+Here's what's changing for you:
+
+A price increase across all plans. For existing Heroes, new pricing takes effect on January 13, 2026.
+
+Founder and Beta Invite Plans are not impacted by price changes. You’ll continue to enjoy your current pricing while gaining access to new features. Thank you for being with us from the very beginning.
+‍
+We are launching new plans. Designed from your feedback, these plans offer higher limits, more features at every plan, lower processing fees with Kajabi Payments, and the flexibility of à la carte add-ons. Plan migration is not required—the decision is yours. If an existing customer chooses not to upgrade, they will remain on their legacy plan, which will transition to the new price point effective January 13.
+
+‍
+
+Kajabi only exists because of you, our Heroes. I understand these changes can impact your business, but know that we only made them to reflect our sincere desire to keep Kajabi growing with you for the long term.
+
+‍
+
+To walk you through exactly what’s changing, I invite you to watch this short session from our Virtual Summit. Below the video, you’ll also find resources and FAQs to help you navigate these updates.
+
+What the New Pricing Means for You
+
+If you remain on your current Kajabi plan, your pricing will update on your first billing date on or after January 13, 2026 (see details below). Your features and limits will stay the same, but you won’t have access to premium features or expanded limits included in the updated plans.
+
+‍
+
+Here is a quick summary of our previous legacy plan pricing and our new pricing which will go into effect in January 2026:
+
+Exceptions:
+
+Bespoke Plans: If you’re on a custom pricing plan, your new pricing (if applicable) will be reflected in the billing tab in your account settings.
+Founder and Beta Invite Plans: You’ll continue to enjoy all the new features, and your price will stay the same. However, Founder and Beta plans will not have the Branded Mobile App or Dedicated CSM included. Branded Mobile App can be purchased as an add-on.
+
+‍
+
+Along with updating pricing across all plans, we have also launched new plans which better reflect how Heroes actually grow.
+
+Our new plans include more generous product limits to give you more flexibility to add new revenue streams and test new offers. With higher product limits and expanded capabilities, we believe our new plans will better serve our Heroes as you scale.
+
+‍
+
+That said, plan migration is not required—the decision is yours. Regardless of whether you choose to migrate or not, pricing across both legacy plans and our new plans will be the same.
+
+‍
+
+Here is a quick summary of the changes from our legacy plans to our new plans:
+
+*Kajabi Payments US rates
+
+‍
+
+What Happens If You Migrate to a New Plan
+
+Starting January 13, 2026, legacy plans will be priced the same as our new plans.
+
+‍
+
+Migrating to a new plan will immediately unlock updated limits, and will adjust your pricing. You’ll also gain access to exclusive features, like Cohort Courses, Comment-to-DM, Video Translations and Transcriptions, and API, which are only available on certain new plans.
+
+‍
+
+If you choose to switch before January 2026, your pricing will update to the new rate immediately. For a full breakdown of what’s included in each plan, see the details below.
+
+Discounted Kajabi Payments Fees
+
+When you migrate to a new plan, you’ll be eligible for discounted card processing fees through Kajabi Payments (in regions where Kajabi Payments is available).
+
+Information on additional fees for Kajabi Payments based on your region are available here.
+
+‍
+
+3rd Party Payment Provider Fees
+
+If you migrate to a new plan and choose to process transactions through a 3rd party provider (such as Stripe) in a region where Kajabi Payments is available, an additional fee will apply.
+
+‍
+
+This fee does not apply:
+
+If you remain on your current plan
+If Kajabi Payments isn’t available in your region
+Or for any transactions processed through PayPal (regardless of plan or region).
+
+‍
+
+You can find the list of regions where Kajabi Payments is available here.
+
+If you’re a Kajabi customer, you should have received an email titled “Upcoming Changes to Your Kajabi Plan.” This message outlines the details of your plan, explains how the updates apply to you, and highlights your available options. Please note that your price will not change until January 2026, giving you time and flexibility to decide what works best for your business.
+
+‍
+
+As always, our team is here to help. If you have any questions, please reach out to support@kajabi.com, and we’ll be happy to assist.
+
+FAQs
+Why is Kajabi changing prices now?
+
+Our prices haven’t changed since 2015, even as Kajabi has grown far beyond courses to include coaching, communities, podcasts, downloads, newsletters, and more. We’re updating our pricing to better reflect the value of today’s platform, and to ensure we can keep investing in Kajabi as a powerful creator commerce platform to support you and your business.
+
+How do I know which plan I’m on?
+
+You can view your current plan and explore new plan options in the billing tab of your account settings. From there, you can easily compare plans and switch whenever it’s convenient for you. For more details on managing your subscription, click here.
+
+How do I know what features and limits apply to me?
+
+The features and limits that apply to you are based on your plan type (legacy, new, or bespoke) and tier (Kickstarter, Basic, Growth & Pro). You can explore your access to features and limits by visiting the billing tab of your account settings. You can explore the new features and limits available on the new plans by reviewing the information above.
+
+Will pricing plans increase again in the future?
+
+This is the first time we’ve adjusted our prices in 10 years. We understand that pricing affects your business, momentum, and long-term goals, which is why we take any change very seriously. If we do adjust prices again in the future, we’ll carefully consider the impact on you and provide as much advance notice as possible.
+
+Will the price of feature limit increases and add-ons (like BMA & Widgets) increase?
+
+The prices for feature limit increases and add-ons are not changing at this time, except for additional contacts. The price for an extra 5,000 contacts is increasing from $20 to $25. In addition, some features that were previously add-ons (like the Public API and Branded Mobile App) are now included in our new Pro Plan.
+
+What are the benefits of using Kajabi Payments over Stripe or PayPal?
+
+Kajabi Payments, our built-in payment provider, makes managing your business easier by eliminating the need for multiple external tools. While supporting high-converting payment methods such as Apple Pay, Google Pay, Afterpay, and Klarna. It can reduce processing fees, simplify reconciliation, and provide a seamless experience across the entire Kajabi platform. With everything working together natively, you’ll also benefit from stronger security, smoother operations, and a more reliable payment solution.
+
+What is the 3rd party payment provider fee?
+
+It’s an additional charge for Heroes on new plans who use 3rd party payment providers (like Stripe) in regions where Kajabi Payments is also available. This fee helps cover the cost of maintaining and supporting such 3rd party payment providers within Kajabi.
+
+Which transactions will the 3rd party payment provider fee apply to?
+
+When on a new plan, the 3rd party payment provider fee applies to all transactions processed through a 3rd party payment provider (like Stripe) in regions where Kajabi Payments is also available. It does not apply to transactions processed with Kajabi Payments or PayPal in any region, or a 3rd party payment provider in regions where Kajabi Payments is not available.
+
+Kajabi Payments is not available in my region. Will I be charged a 3rd party payment provider fee?
+
+No. If Kajabi Payments is not available in your region, you will not be charged a 3rd party payment provider fee. Once Kajabi Payments becomes available in your region and you’re on a new plan, the fee will apply only if you choose to keep using a 3rd party payment provider (like Stripe) instead of Kajabi Payments.
+
+What if I don’t switch to the new Kajabi plans? Will I still be charged a 3rd party payment provider fee?
+
+No. If you stay on your current plan, the 3rd party payment provider fee will not apply. However, you also won’t be eligible for discounted Kajabi Payments rates available on the new Growth and Pro plans.
+
+Build your business on Kajabi
+Start Free Trial
+Company
+About
+Careers
+Hire a Kajabi Expert
+Product
+Overview
+Pricing
+Cofounder
+Updates
+Resources
+Blog
+Videos & Webinars
+Help Center
+Status
+Legal
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices
+© 2026 Kajabi. All rights reserved.
+1

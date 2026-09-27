@@ -1,0 +1,351 @@
+SOURCE: https://www.framer.com/help/articles/understanding-bandwidth-usage/
+FETCHED: 2026-09-26T22:13:33.164Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Framer
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Log in
+
+Sign up
+
+Copy logo SVG
+
+Brand guidelines
+
+Help center
+
+Account
+
+Understanding bandwidth usage
+
+Search
+
+Understanding bandwidth usage
+
+Learn what drives bandwidth usage, how to track it, and how to reduce it effectively.
+
+Bandwidth is the total amount of data your site delivers to visitors. Every time someone loads your site, assets such as images, videos, fonts, and code are downloaded to their device. This guide explains how bandwidth works in Framer, how to monitor it, and how to optimize your project to stay within limits.
+
+What drives bandwidth usage
+
+In Framer, bandwidth usage depends on how much data is downloaded by your visitors, not the storage size of your files.
+
+The main contributors are:
+
+Images and media: Full-screen or autoplaying videos, uncompressed or lossless image formats, and high-resolution media are often the largest bandwidth consumers.
+
+Visitors: The more people visit your site, the more your assets are downloaded, increasing total usage.
+
+Fonts and scripts: These are also downloaded per visitor, though typically cached after the first load.
+
+What are Site Modules?
+
+Site Modules are core system-generated files required to run your Framer site. This includes JavaScript modules, HTML files, CMS data, custom code, and other essential dependencies. These count toward your monthly bandwidth usage.
+
+What happens if you exceed your bandwidth limit?
+
+Framer tracks bandwidth on a monthly cycle. If you exceed your plan’s limit:
+
+First month: You’ll receive an email notification and a banner in Framer.
+
+Second month: You’ll be prompted to upgrade to a plan that supports your usage.
+
+Ongoing overages: Your site may be automatically upgraded or charged an overage fee.
+
+For Enterprise plans, please reach out to your Account Manager or email enterprise@framer.com so we can review the overage together.
+
+How to track high bandwidth usage
+
+Use the Framer dashboard and browser developer tools to identify bandwidth-heavy assets.
+
+Check the Framer dashboard, it lists top bandwidth contributors by file name.
+
+Open Chrome DevTools → Network tab.
+
+Perform a hard refresh (CMD/CTRL + Shift + R) to simulate a first-time visit.
+
+Sort the Size column to identify large assets.
+
+Match these with the dashboard listings (e.g., Cw4grH0hI3nRYQLiC53MUuRL0.mp4).
+
+Common causes of high bandwidth usage
+
+Understanding the typical culprits behind bandwidth spikes can help you narrow down your investigation more efficiently.
+
+Framer-hosted videos, especially full-screen, autoplaying, or unoptimized ones.
+
+Lossless images or unoptimized formats can also be a factor. While Framer automatically optimizes most images, under certain (uncommon) conditions we can still end up with too large images.
+
+Custom code in your project—such as code overrides and code components—can load additional assets. These hidden resources can significantly increase your bandwidth usage if not managed carefully.
+
+Best practices for reducing bandwidth usage
+
+Once you’ve identified the causes, these practical tips can help lower your bandwidth usage and improve site performance.
+
+Optimize videos by uploading a poster image so the video loads only when near the viewport. If you’re using long-form or high-resolution videos, it’s best to host them externally on platforms like YouTube or Vimeo. Try to keep background videos under 30 seconds, especially if they autoplay at full screen. You can find more guidance in this optimization article.
+
+Image resolution set to “Auto”: Ensure your image resolution is set to “Auto” in the image settings panel to keep image sizes as low as possible. Avoid “Auto (Lossless)” unless you see artifacts in the image.
+
+Manage custom code by auditing any code overrides or components you’ve added. Look for unnecessary scripts or embedded assets that could be removed. Worth noting, <script> tags pulling assets from non-Framer domains do not contribute to your Framer bandwidth.
+
+Monitor progress after applying these changes. Bandwidth usage resets on the 1st of every calendar month, so you’ll have a clear window to evaluate whether your optimizations are working.
+
+If you continue to experience high bandwidth usage after following these steps and believe something is wrong, feel free to contact Framer’s support team through our contact page.
+
+Bandwidth tracking for sites behind a reverse proxy
+
+Bandwidth is tracked per referrer. If your site is hosted behind a reverse proxy, we will distribute the usage among all Framer projects that list that domain as the referrer, based on the number of visitors. This means you may see bandwidth usage from an asset that is not part of that specific project.
+
+FAQ
+What happens if my website exceeds the bandwidth included in my Framer plan?
+
+Framer tracks bandwidth on a monthly cycle. If you exceed your limit, the first month triggers an email notification and an in-product banner. If overages continue into a second month, you’ll be prompted to upgrade to a plan that better matches your usage.
+
+Will my Framer website go offline if I go over my bandwidth limit?
+
+Your site is not immediately taken offline for a one-time overage. However, with ongoing overages, Framer may automatically upgrade your site or apply overage charges based on plan policy.
+
+How does Framer notify me if I exceed my plan’s bandwidth?
+
+Framer notifies you by email and with a dashboard banner when you first exceed your monthly limit. For Enterprise plans, you can also contact your Account Manager or email enterprise@framer.com to review overages.
+
+Updated
+
+last week
+
+Related articles
+
+Delete your Framer account
+
+Redeem a discount code
+
+Check the total and billed editors in your workspace
+
+Add Framer to Preferred Sources
+
+Your next idea starts here
+
+GPT 6 Sol
+
+Create personal portfolio
+
+Build startup site
+
+Launch landing page
+
+Start company blog
+
+Start without AI
+
+Product
+
+AI
+
+Agents
+
+External Agents
+
+Design
+
+Collaborate
+
+CMS
+
+Hosting
+
+Performance
+
+SEO
+
+Skills
+
+NEW
+
+Convert
+
+Publish
+
+Updates
+
+Marketplace
+
+Templates
+
+Components
+
+Plugins
+
+Vectors
+
+Gallery
+
+Experts
+
+Business
+
+Switch
+
+Enterprise
+
+Agencies
+
+Startups
+
+Pricing
+
+Resources
+
+Academy
+
+Download App
+
+Developers
+
+Guides
+
+Blog
+
+Newsletter
+
+Stories
+
+Creators
+
+Experts
+
+Students
+
+Ambassadors
+
+Help Articles
+
+Contact
+
+Meetups
+
+Solutions
+
+Designers
+
+Agencies
+
+Marketers
+
+Growth
+
+Builders
+
+Engineers
+
+Site Teams
+
+Founders
+
+AI website builder
+
+AI design agent
+
+Website builder
+
+Landing pages
+
+Portfolio maker
+
+UI/UX design
+
+Figma to HTML
+
+No-code
+
+Compare
+
+Webflow
+
+Figma
+
+Wix
+
+Squarespace
+
+WordPress
+
+Readymag
+
+Ceros
+
+Unbounce
+
+Lovable
+
+Claude Code
+
+ChatGPT
+
+Codex
+
+Contentful
+
+Sanity
+
+AEM
+
+Replit
+
+v0
+
+Company
+
+Careers
+
+Security
+
+Brand
+
+Abuse
+
+Legal
+
+Trust
+
+By Framer
+
+Merch
+
+Keyboard
+
+Stack Score
+
+Free domains
+
+AEO scanner
+
+State of Sites
+
+CanvasBench
+
+Link Preview
+
+Select Language
+English
+Japanese
+English
+
+CCPA
+
+All services online
+
+Framer
+
+2026
+
+We use cookies to enhance your experience, analyze site traffic and deliver personalized ads and content. Read our Cookie Policy.

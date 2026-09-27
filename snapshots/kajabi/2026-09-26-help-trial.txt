@@ -1,0 +1,186 @@
+SOURCE: https://help.kajabi.com/articles/account-settings/billing/kajabi-trial-information
+FETCHED: 2026-09-26T22:15:15.376Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Documentation Index
+
+Fetch the complete documentation index at: /llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+Kajabi home page
+English
+Search...
+Ctrl K
+Dashboard
+Start Free Trial
+Documentation
+Guides
+API Reference
+Video Library
+Home
+ABCs of Kajabi
+Assemble and Offer
+Build Your Brand
+Connect and Automate
+Cofounder
+Cofounder overview
+Cofounder + MCP: Draft resources and edit Themes
+Cofounder FAQs and limitations
+Use Cofounder before signing up for Kajabi
+Use the Kajabi Cofounder app on mobile
+Amplify
+Amplify overview
+Set up Amplify
+Set Location & Language preferences in Amplify
+Amplify promotions
+Amplify rewards
+Account Settings
+Billing
+Manage subscription
+Update billing details
+View Kajabi invoices
+Pay an overdue balance
+Cancel a Kajabi account
+Pause a Kajabi subscription
+Reactivate a Kajabi account
+AI Credits
+Manage services and customer payments after account cancellation
+Kajabi subscription tax FAQs
+Kajabi trial information
+Permanently delete a Kajabi account
+Manage subscriptions and refunds as a course member
+Resolve unexpected charges or duplicate invoices during a trial
+Understand the $149 hold during a free trial
+My Kajabi
+Notifications
+Users
+Products
+Kajabi Products overview
+Backstage
+Coaching
+Community
+Courses
+Downloads
+Expert Agents
+Newsletters
+Podcasts
+Sales
+Kajabi Payments
+Checkout
+Offers and Pricing
+Affiliates
+Coupons
+Website
+Pages
+Domains
+Blog
+Navigation
+Marketing
+Email Campaigns
+Automations
+Universal Inbox
+Funnels
+Events
+Forms
+Creator Studio
+Contacts
+Explore the Contacts tab
+Contacts
+Customers
+Subscribers
+Create Manage And Share Assessments
+Analytics
+Analytics
+Reports
+Media Library
+Media Library overview
+Kajabi Transcripts, Translations, and Dubbing
+Mobile Apps
+Branded App
+Kajabi App
+Kajabi Creator App
+API & Integrations
+Analytics Integrations
+Creator.io
+Email Integrations
+MCP
+Payment Integrations
+Public API
+Webhooks
+Zapier
+Resources
+Kajabi Partner Program
+Kajabi Templates
+Resources
+Support
+On this page
+Features and limitations
+Cancellation policies and billing
+Trial extensions
+Key points to remember
+Activate a trial
+Billing
+Kajabi trial information
+
+Understand the Kajabi free trial, including features, limitations, and billing.
+
+Kajabi offers a free trial to help you familiarize yourself with the platform’s capabilities before committing to a paid subscription. Below you will find frequently asked questions about the trial period, including its features, limitations, cancellation policies, and billing.
+​
+Features and limitations
+While Kajabi makes most features available during the free trial, certain functionalities are locked until the account is activated with a paid subscription. These restricted features include:
+Bulk importing contacts
+Setting up a custom email domain
+Editing site-wide email templates (Settings > Email templates)
+Automation actions: Send a certificate, Send a single-use coupon, Grant an offer, Send an email, Register to an event
+Despite these limitations, you can still add contacts organically via form submissions and utilize other platform functionalities. If you require access to restricted features immediately, activating a paid subscription is necessary, which will end the trial.
+​
+Cancellation policies and billing
+If you cancel your trial before its scheduled end date, you will not be billed, and the authorization hold will not convert into a charge.
+​
+Trial extensions
+Kajabi offers a maximum free trial period of 14 days, and extensions are not available once this period ends. If you wish to continue testing the platform after this timeframe, you will need to activate a paid subscription.
+​
+Key points to remember
+Trial features: Most features are available, but some are limited, such as bulk contact importing and custom email setup.
+Cancellation: Cancel your trial before its expiration to avoid any charges.
+Duration: Trials run for 14 days, with no possibility of extension.
+​
+Activate a trial
+You may activate your account at any time during your trial period to start using all the features included in your Kajabi plan.
+Click on Settings from the Dashboard
+Select Subscription & Billing
+The date your trial automatically ends is listed in the banner at the top of this page
+Click Change Plan to choose the Kajabi plan you would like to immediately activate.
+
+Was this page helpful?
+
+Yes
+No
+Kajabi subscription tax FAQs
+Previous
+Permanently delete a Kajabi account
+Next
+Kajabi home page
+
+Company
+
+About
+Careers
+Partner Program
+
+Resources
+
+Videos & Webinars
+Kajabi University
+Hire a Kajabi Expert
+Feedback
+Status
+
+Legal
+
+Policy Center
+Privacy Notice
+Income Disclaimer
+Your Privacy Choices

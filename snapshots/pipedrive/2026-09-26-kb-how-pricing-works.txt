@@ -1,0 +1,271 @@
+SOURCE: https://support.pipedrive.com/en/article/how-does-pricing-work-in-pipedrive
+FETCHED: 2026-09-26T22:54:40.270Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Features
+Why Pipedrive
+Resources
+Contact sales
+Pricing
+Log in
+Try it free
+HELP CENTER
+Knowledge Base
+Status
+Contact Support
+Try it free
+Knowledge Base
+
+Knowledge Base/Billing/Your Pipedrive subscription plan/How does pricing work...
+
+Topics
+Pipedrive plans and billing cycles
+Add-ons
+Top-ups
+What affects your total subscription cost
+How does pricing work in Pipedrive?
+JT
+Jenny Takahara
+Last updated: September 2, 2026
+Note: Only users with account settings access rights can manage Pipedrive billing. Learn more about user management in this article.
+
+Pipedrive offers four pricing plans to fit teams of any size: Lite, Growth, Premium and Ultimate. You can further customize your subscription with optional add-ons and top-ups.
+
+To view and edit your current subscription, open the account menu in the top-right corner and go to Billing.
+
+Pipedrive plans and billing cycles
+
+To change your plan, click “Manage subscription”, then select “All plans” to see all available options.
+
+Once you’ve chosen your plan, select your preferred billing cycle in the same view:
+
+Here’s how the billing cycles differ:
+
+Billing cycle
+	
+Description
+
+Monthly
+	You’ll pay on the same day each month
+
+Annual
+	You’ll pay upfront for the entire year and receive a discount
+Add-ons
+
+You can enhance your plan with optional add-ons that provide access to additional tools like prospecting, document management and email marketing. Add-ons are billed according to the billing cycle of your selected plan.
+
+Note: Only Premium and Ultimate plans include some add-ons at no additional cost.
+
+Add-on
+	
+Lite
+	
+Growth
+	
+Premium
+	
+Ultimate
+
+LeadBooster
+	
+Add-on
+	
+Add-on
+	
+Included
+	
+Included
+
+Projects
+	
+Add-on
+	
+Add-on
+	
+Included
+	
+Included
+
+Smart Docs
+	
+Add-on
+	
+Add-on
+	
+Included
+	
+Included
+
+Campaigns
+	
+Add-on
+	
+Add-on
+	
+Add-on
+	
+Add-on
+
+Web Visitors
+	
+Add-on
+	
+Add-on
+	
+Add-on
+	
+Add-on
+Top-ups
+
+If you’ve reached the limits of your current plan, but don’t want to upgrade, you can purchase top-ups to increase specific usage limits. Top-ups follow your plan's billing cycle.
+
+Top-up type
+	
+Top-up quantity
+	
+Maximum
+	
+Available from
+
+API tokens
+
+(max. 100 million per company)
+
+	
++250,000
+	
+10
+	
+Growth plan
+
+Leads + Deals
+
+(max. 300,000 per company)
+
+	
++25,000
+	
+10
+	
+Growth plan
+
+Reports
+	
++50
+	
+10
+	
+Growth plan
+
+Automations
+	
++50
+	
+10
+	
+Growth plan
+
+Data enrichment credits
+	
++100
+	
+10,000
+	
+Premium plan
+
+Prospector credits
+	
++10
+	
+1000
+	
+Premium plan
+
+Teams
+	
++10
+	
+10
+	
+Premium plan
+
+Custom visibility groups
+	
++10
+	
+10
+	
+Premium plan
+
+Custom permission sets
+	
++10
+	
+10
+	
+Premium plan
+Note: Teams, visibility groups and permission sets are included in one bundled team management top-up.
+What affects your total subscription cost
+
+Your total cost depends on a few key factors:
+
+Selected plan – Each plan (Lite, Growth, Premium, Ultimate) has its own base price per seat
+Billing cycle – You can choose between annual or monthly billing
+Number of seats – You’re charged per seat, whether it’s assigned to a user or not. Learn more about seats and users.
+Add-ons and top-ups – Optional features and usage extensions that follow your plan's billing cycle
+Currency and location – Your location determines the billing currency and available payment methods
+
+For example, if you’re on the Growth annual plan with four seats and the LeadBooster add-on, your total would be:
+
+4 seats × Growth annual plan price + LeadBooster add-on price
+
+Was this article helpful?
+
+Yes
+
+No
+
+Related articles
+Strong Customer Authentication (SCA) in Pipedrive
+How can I remove seats?
+How can I start paying for Pipedrive?
+Can I change the information in a past Pipedrive invoice?
+How can I update my billing details in Pipedrive?
+Got any questions?
+Contact us
+Pipedrive
+About
+Pricing
+Jobs
+Blog
+Newsroom
+Product
+Sales software
+Features
+Privacy and security
+Marketplace
+Status
+API
+Discover
+Partner Program
+Sales Pipeline Course
+What is CRM?
+CRM Comparison
+Resources
+Help Center
+Knowledge Base
+Academy
+Support
+(Available now)
+© 2026 Pipedrive
+Pipedrive
+Terms of Service
+Pipedrive
+Privacy Notice
+Site map
+Cookie Notice
+Cookie Preferences
+Pipedrive is a Web-based Sales CRM.
+
+This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. Further information is available in our:Cookie NoticePrivacy Notice
+Continue

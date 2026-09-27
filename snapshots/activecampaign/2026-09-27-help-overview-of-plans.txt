@@ -1,0 +1,558 @@
+SOURCE: https://help.activecampaign.com/hc/en-us/articles/14251311251356-Overview-of-ActiveCampaign-plans
+FETCHED: 2026-09-27T02:17:47.744Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+How can we help?
+ 
+
+Stay informed about changes to the ActiveCampaign platform on our Release Updates page.
+
+ActiveCampaign Help Center
+Account, Billing, & Setup
+Account Billing & Upgrade
+ 
+Overview of ActiveCampaign plans
+Sarah N
+Last updated August 20, 2026 at 2:43 PM
+Follow
+Not yet followed by anyone
+ ActiveCampaign plans
+Starter
+Plus
+Pro
+Enterprise
+
+ActiveCampaign offers different plans to help you expand and grow your business with marketing automation. These plans include the ability to drive sales, improve customer retention, and boost engagement.
+
+With our tiered options, you can select the plan that best suits your business needs and customize it further with our SMS, Custom Reporting, Transactional Email, and Enhanced CRM add-ons. 
+
+In this article, you’ll learn about ActiveCampaign’s pricing plans and features available. 
+
+For specific information on costs and what features are included, please visit our pricing page. 
+
+Plan types
+
+Below are our plan types, including our base Email plans and WhatsApp plans. You can also combine a WhatsApp plan with a Plus, Professional, or Enterprise Email plan for a more robust experience. 
+
+Base Email plans
+Plan name	Description	Included features
+Starter Plan   
+Email Marketing & Marketing Automation Essentials	
+
+Tailored for individuals seeking solutions for their Email Marketing and Marketing Automation essentials, such as sending campaigns and organizing contact data.
+
+ 
+
+This plan also includes light automation capabilities to streamline workflows.
+
+ 
+
+*Existing customers do not qualify for this plan. 
+
+	
+
+1 User seat
+
+Ability to purchase 1 additional user seat
+
+Maximum 25,000 contacts
+
+5 actions per automation
+
+Email marketing automation
+
+Third-party integrations
+
+Basic ecommerce integrations (Shopify, WooCommerce, Square)
+
+Email designer & forms
+
+Website tracking
+
+Campaign reporting
+
+Ability to perform A/B campaign tests
+
+Ability to purchase the Transaction Email add-on
+
+Plus Plan  
+Advanced Marketing Automation	
+
+Perfect for customers and prospects advancing from beginner tools.
+
+ 
+
+This plan offers more advanced marketing automation options and optimization features to enhance campaign effectiveness and audience engagement.
+
+	
+
+Everything in Starter and:
+
+1 User seat
+
+Ability to purchase additional user seats
+
+Basic suite of automation triggers and actions
+
+Multichannel marketing automation
+
+Landing pages
+
+Native Ad platforms
+
+Web Push notifications
+
+AI content generation
+
+Custom user permissions
+
+Basic segmentation
+
+Basic reporting and analytics
+
+Ability to purchase any add-on
+
+Professional Plan 
+Omni-Channel Marketing Automation	
+
+Designed for businesses requiring full omnichannel marketing automation capabilities.
+
+This plan empowers users to create cohesive marketing strategies across multiple channels, ensuring a seamless customer experience.
+
+	
+
+Everything in Plus and:
+
+3 user seats
+
+Ability to purchase additional user seats
+
+Advanced suite of automation triggers and actions
+
+Advanced segmentation
+
+Advanced reporting and analytics
+
+Connected automations
+
+Campaign Automation A/B testing
+
+Conditional content
+
+Predictive sending
+
+Revenue and conversion attribution
+
+Custom event tracking
+
+Ability to purchase any add-on
+
+Priority email and chat support & advanced onboarding
+
+Enterprise Plan 
+Secure and Supported Marketing	
+
+Offering enterprise-level security and dedicated support.
+
+This plan is ideal for organizations that prioritize robust security measures and comprehensive support to drive their marketing initiatives forward.
+
+	
+
+Everything in Professional and:
+
+5 user seats
+
+Ability to purchase additional user seats
+
+Custom reporting
+
+Unlimited inbox preview and testing
+
+Single sign-on
+
+HIPAA support
+
+Premium suite of automation triggers and actions
+
+Premium segmentation
+
+Premium reporting and analytics
+
+Access to premium CRM integrations - Salesforce, Microsoft Dynamics 365, and Zendesk Sell
+
+Ability to purchase any add-on
+
+Dedicated team to support you
+
+ 
+
+WhatsApp Messaging plans
+Plan name	Description	Features 
+
+Core plan
+
+ 
+
+	Get started with WhatsApp automation and chatbots.	
+
+3 User seats
+
+Up to 2 WhatsApp lines
+
+Pre-paid monthly recurring credits
+
+25X contact limit
+
+Shared team inbox
+
+Broadcast messaging
+
+Flows
+
+Advanced plan
+
+ 
+
+	Go further with advanced automation capabilities and team support.	
+
+Everything in Core and:
+
+5 User seats
+
+5 WhatsApp lines
+
+Connected flows
+
+Advanced flow steps
+
+Team assignments
+
+Meta conversions
+
+Contact scoring
+
+Premium plan	Automate WhatsApp messaging at scale with enterprise-level support.	
+
+Everything in Advanced and:
+
+8 user seats
+
+Up to 5 WhatsApp lines
+
+100X contact limit
+
+Single sign-on (SSO)
+
+Add-on packages
+
+Depending on your base plan (outlined above), you can also purchase one of our enhanced CRM add-ons (Pipeline & Sales Engagement or Sales Engagement) and/or any of the following add-ons: SMS, Custom Reporting, and Transactional Emails.
+
+You must have a base plan in place before purchasing an add-on package.
+
+Add-on package name	Description	Plan(s) required for add-on
+Transactional Email	
+
+This add-on uses Postmark.
+
+The "Send a transactional email" automation action is available with this add-on.
+
+	Starter, Plus, Professional, and Enterprise
+SMS	
+
+With this add-on, you can send broadcast SMS campaigns and use the “Send SMS” automation action to send SMS messages to your contacts. 
+
+You can also view replies to your SMS messages.
+
+	Plus, Professional, and Enterprise
+Custom Reports	
+
+Create reports that give you a complete view of marketing and sales.
+
+This will help you discover trends and areas of opportunity and grow your business with the specific data you need.
+
+	
+
+Plus and Professional
+
+Included with the Enterprise plan.
+
+Pipelines Enhanced CRM	
+
+Use our Deals feature to automate your pipeline and contact enrichment. 
+
+See the table below for a list of included features.
+
+	Plus, Professional, and Enterprise
+Sales Engagement Enhanced CRM	
+
+Use our Deals feature to automate your deal pipeline, lead engagement, and contact data enrichment. You can also manage and drive sales and send 1:1 emails to prospects and customers. 
+
+See the table below for a list of included features.
+
+	Plus, Professional, and Enterprise
+
+ 
+
+Pipelines and Sales Engagement enhanced CRM add-ons features
+
+The following items are included with the Pipelines enhanced CRM add-on package:
+
+ 
+
+Feature	Pipelines Engagement Enhanced CRM	Sales Engagement Enhanced CRM
+Automation Triggers	 	 
+Deal stage changes	✅	✅
+Deal status changes	✅	✅
+Deal value changes	✅	✅
+Deal Owner changes	✅	✅
+Enters a pipeline	✅	✅
+Deal field changes	✅	✅
+File is downloaded	✅	✅
+Task is completed	✅	✅
+Account field changes	✅	✅
+Deal field changes - Win Probability	
+
+🚫
+
+	✅
+Sentiment changes	
+
+🚫
+
+	✅
+ 	 	 
+Automation Actions	 	 
+Add a deal	✅	✅
+Update a title	✅	✅
+Update a status	
+
+ 
+
+✅
+
+	
+
+✅
+
+Update a deal owner	
+
+✅
+
+	
+
+✅
+
+Update a value	
+
+✅
+
+	
+
+✅
+
+Update a stage	
+
+ 
+
+✅
+
+	
+
+ 
+
+✅
+
+Update a custom deal field	
+
+✅
+
+	
+
+✅
+
+Add a deal task	
+
+✅
+
+	
+
+✅
+
+Add a deal note	
+
+✅
+
+	
+
+✅
+
+Complete a deal task	
+
+✅
+
+	
+
+✅
+
+Update an account field	
+
+✅
+
+	
+
+✅
+
+Add an account note
+
+	
+
+✅
+
+	
+
+✅
+
+Update an account owner	
+
+✅
+
+	
+
+✅
+
+Add contact to account	
+
+✅
+
+	
+
+✅
+
+Adjust a deal score	
+
+✅
+
+	
+
+✅
+
+Send a 1:1 email	
+
+🚫
+
+	
+
+✅
+
+ 	
+
+ 
+
+	
+
+ 
+
+Reports	
+
+ 
+
+	
+
+ 
+
+Deal Overview	
+
+✅
+
+	
+
+✅
+
+Deal Owner Overview	
+
+✅
+
+	
+
+✅
+
+Funnel	
+
+✅
+
+	
+
+✅
+
+Sales Performance	
+
+✅
+
+	
+
+✅
+
+Task Overview	
+
+✅
+
+	
+
+✅
+
+Deal Forecast	
+
+✅
+
+	
+
+✅
+
+Automated 1:1 Emails	
+
+🚫
+
+	
+
+✅
+
+Trial accounts
+
+If you’re not ready to commit to a paid plan, you can sign up for a free 14-day trial. Trial accounts are based on the Professional plan. In addition, you can test our Sales Engagement add-on and Salesforce integration to ensure we’re the right fit for your needs.
+
+Complimentary resources
+
+With each plan, you can access the following free resources:
+
+ActiveOnboarding (formerly Accelerated onboarding)
+Video tutorials
+Contact migration
+Chat and ticket support
+Customer enablement workshops
+Help Center articles
+
+Related to:
+
+Billing
+Account Settings
+Was this article helpful?
+Yes No
+8 out of 48 found this helpful
+
+Have more questions? Get in touch
+
+Start free trial
+Related articles
+How to send 1:1 sales emails with automation
+Create AI content with the Email Designer in ActiveCampaign
+How to use multi-select segmentation
+Product Release Notes - June 2023
+Publish your ActiveCampaign forms to WordPress
+Can't find what you're looking for?
+Let us help you right now!
+Submit a request
+
+We - and our partners - use cookies to deliver our services and to show you ads. By using our website, you agree to the use of cookies as described in our Cookie Policy (in English)
+
+Accept

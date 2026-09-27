@@ -1,0 +1,392 @@
+{
+  "tool": "activecampaign",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Read ActiveCampaign's pricing page (Email tab, the default active tab) in a US-locale headless browser at its default 1,000-contact selection, then set the page's native contacts <select> element to 10,000 and to 50,000 (a real dropdown, not a slider, so clicking the visible tier numbers does not change the selection; Playwright's selectOption was used instead) to capture Starter/Plus/Pro/Enterprise pricing at all three required contact tiers; also expanded both collapsed pricing-page FAQ answers, and read the Help Center's plan-overview, SMS add-on and billing-cadence articles plus the onboarding-services page's cost FAQ. Snapshots saved for every page/state.",
+  "sources": [
+    {
+      "url": "https://www.activecampaign.com/pricing",
+      "label": "Pricing page, Email tab (default active tab), contacts selector at its default 1,000 contacts, billed annually",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/activecampaign/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.activecampaign.com/pricing",
+      "label": "Pricing page, Email tab, native contacts <select> set to 10,000, billed annually",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-pricing-10000-contacts.txt"
+    },
+    {
+      "url": "https://www.activecampaign.com/pricing",
+      "label": "Pricing page, Email tab, native contacts <select> set to 50,000, billed annually (Starter shown as 'Only available on plans with 25,000 contacts or less')",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-pricing-50000-contacts.txt"
+    },
+    {
+      "url": "https://www.activecampaign.com/pricing",
+      "label": "Pricing page FAQ, 'Are there any setup costs or hidden fees when starting with ActiveCampaign?' expanded",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-pricing-faq-after-click-1.txt"
+    },
+    {
+      "url": "https://www.activecampaign.com/pricing",
+      "label": "Pricing page FAQ, 'How does ActiveCampaign help ensure you only pay for what you actually use...' expanded",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-pricing-faq-after-click-2.txt"
+    },
+    {
+      "url": "https://help.activecampaign.com/hc/en-us/articles/14251311251356-Overview-of-ActiveCampaign-plans",
+      "label": "Help Center: Overview of ActiveCampaign plans",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-help-overview-of-plans.txt"
+    },
+    {
+      "url": "https://www.activecampaign.com/services/onboarding",
+      "label": "Onboarding services page FAQ, 'What's the cost?' expanded",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-services-onboarding-cost-after-click-1.txt"
+    },
+    {
+      "url": "https://help.activecampaign.com/hc/en-us/articles/115000105844-Purchase-the-SMS-add-on",
+      "label": "Help Center: Purchase the SMS add-on",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-help-sms-addon.txt"
+    },
+    {
+      "url": "https://help.activecampaign.com/hc/en-us/articles/115000919184-How-do-I-view-and-update-my-billing-information",
+      "label": "Help Center: How do I view and update my billing information (billing cadence options)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/activecampaign/2026-09-27-help-billing-info.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": false,
+    "summary": "No permanent free plan. ActiveCampaign offers only the 14-day free trial; none of the pricing page, the plan-overview Help Center article, or the onboarding page mention a free-forever tier."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": false,
+    "summary": "14-day free trial, no credit card required ('Free 14-day trial with email sign-up ... No credit card needed. Instant setup.' on the pricing page). The Help Center's plan-overview article adds that trial accounts run on the Professional (Pro) plan's features, and that the Sales Engagement add-on and Salesforce integration can also be tried.",
+    "source": 0
+  },
+  "plans": [
+    {
+      "id": "starter-1000",
+      "name": "Starter (1,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 15,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Price when the contacts selector is at its default, 1,000 contacts. Starter is not sold above 25,000 contacts (confirmed on-page and in the Help Center); above that a buyer must move to Plus.",
+      "limits": [
+        "1,000 email contacts included at this price",
+        "Maximum 25,000 contacts on Starter; not sold above that band",
+        "5 actions per automation",
+        "1 user seat; up to 1 additional seat purchasable (price not published)"
+      ],
+      "highlights": [
+        "Email marketing and marketing automation",
+        "Limited segmentation",
+        "Standard CRM and ecommerce integrations (Shopify, WooCommerce, Square)",
+        "Active Intelligence AI features (limits apply)"
+      ],
+      "source": 0
+    },
+    {
+      "id": "starter-10000",
+      "name": "Starter (10,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 149,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Price with the contacts selector set to 10,000. Still within Starter’s 25,000-contact ceiling.",
+      "limits": [
+        "10,000 email contacts included at this price",
+        "Maximum 25,000 contacts on Starter; not sold above that band",
+        "5 actions per automation",
+        "1 user seat; up to 1 additional seat purchasable (price not published)"
+      ],
+      "highlights": [
+        "Email marketing and marketing automation",
+        "Limited segmentation",
+        "Standard CRM and ecommerce integrations (Shopify, WooCommerce, Square)",
+        "Active Intelligence AI features (limits apply)"
+      ],
+      "source": 1
+    },
+    {
+      "id": "plus-1000",
+      "name": "Plus (1,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 49,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Price when the contacts selector is at its default, 1,000 contacts.",
+      "limits": [
+        "1,000 email contacts included at this price",
+        "1 user seat; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Starter, plus unlimited automation actions",
+        "Standard segmentation",
+        "Landing pages",
+        "Standard CRM and ecommerce integrations",
+        "Active Intelligence AI features (limits apply)"
+      ],
+      "source": 0
+    },
+    {
+      "id": "plus-10000",
+      "name": "Plus (10,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 189,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Price with the contacts selector set to 10,000.",
+      "limits": [
+        "10,000 email contacts included at this price",
+        "1 user seat; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Starter, plus unlimited automation actions",
+        "Standard segmentation",
+        "Landing pages",
+        "Standard CRM and ecommerce integrations",
+        "Active Intelligence AI features (limits apply)"
+      ],
+      "source": 1
+    },
+    {
+      "id": "plus-50000",
+      "name": "Plus (50,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 609,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Price with the contacts selector set to 50,000. Cheapest plan that still covers this contact count, since Starter caps at 25,000.",
+      "limits": [
+        "50,000 email contacts included at this price",
+        "1 user seat; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Starter, plus unlimited automation actions",
+        "Standard segmentation",
+        "Landing pages",
+        "Standard CRM and ecommerce integrations",
+        "Active Intelligence AI features (limits apply)"
+      ],
+      "source": 2
+    },
+    {
+      "id": "pro-1000",
+      "name": "Pro (1,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 79,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "Price when the contacts selector is at its default, 1,000 contacts. Shown on-page as \"Pro\"; the Help Center and data attributes call the same plan \"Professional\".",
+      "limits": [
+        "1,000 email contacts included at this price",
+        "3 user seats; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Plus, plus advanced segmentation and premium ecommerce integrations",
+        "Predictive and conditional content",
+        "Attribution and conversion tracking",
+        "Active Intelligence with no stated limits"
+      ],
+      "source": 0
+    },
+    {
+      "id": "pro-10000",
+      "name": "Pro (10,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 375,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "Price with the contacts selector set to 10,000.",
+      "limits": [
+        "10,000 email contacts included at this price",
+        "3 user seats; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Plus, plus advanced segmentation and premium ecommerce integrations",
+        "Predictive and conditional content",
+        "Attribution and conversion tracking",
+        "Active Intelligence with no stated limits"
+      ],
+      "source": 1
+    },
+    {
+      "id": "pro-50000",
+      "name": "Pro (50,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 969,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "Price with the contacts selector set to 50,000.",
+      "limits": [
+        "50,000 email contacts included at this price",
+        "3 user seats; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Plus, plus advanced segmentation and premium ecommerce integrations",
+        "Predictive and conditional content",
+        "Attribution and conversion tracking",
+        "Active Intelligence with no stated limits"
+      ],
+      "source": 2
+    },
+    {
+      "id": "enterprise-1000",
+      "name": "Enterprise (1,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 145,
+      "priceUnit": "per-month",
+      "seatsIncluded": 5,
+      "note": "Price when the contacts selector is at its default, 1,000 contacts. Marked \"Starts at\" on-page; Enterprise can also be fully custom-quoted via sales.",
+      "limits": [
+        "1,000 email contacts included at this price",
+        "5 user seats; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Pro, plus premium segmentation and premium CRM/ecommerce integrations",
+        "Custom objects",
+        "Single Sign-On (SSO)",
+        "Dedicated account team"
+      ],
+      "source": 0
+    },
+    {
+      "id": "enterprise-10000",
+      "name": "Enterprise (10,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 589,
+      "priceUnit": "per-month",
+      "seatsIncluded": 5,
+      "note": "Price with the contacts selector set to 10,000.",
+      "limits": [
+        "10,000 email contacts included at this price",
+        "5 user seats; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Pro, plus premium segmentation and premium CRM/ecommerce integrations",
+        "Custom objects",
+        "Single Sign-On (SSO)",
+        "Dedicated account team"
+      ],
+      "source": 1
+    },
+    {
+      "id": "enterprise-50000",
+      "name": "Enterprise (50,000 contacts)",
+      "monthly": null,
+      "annualMonthly": 1169,
+      "priceUnit": "per-month",
+      "seatsIncluded": 5,
+      "note": "Price with the contacts selector set to 50,000.",
+      "limits": [
+        "50,000 email contacts included at this price",
+        "5 user seats; additional seats purchasable (price not published)"
+      ],
+      "highlights": [
+        "Everything in Pro, plus premium segmentation and premium CRM/ecommerce integrations",
+        "Custom objects",
+        "Single Sign-On (SSO)",
+        "Dedicated account team"
+      ],
+      "source": 2
+    }
+  ],
+  "addOns": [],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "setup-onboarding-fee",
+      "label": "Setup / onboarding fee",
+      "amount": 0,
+      "display": "$0 — none on any plan",
+      "kind": "one-time",
+      "note": "Pricing-page FAQ: 'There are no setup costs or hidden fees when you start with ActiveCampaign.' The onboarding-services page FAQ adds: 'Onboarding is included free with all paid ActiveCampaign plans. Depending on your plan, it may be through a live, 1:1 session or through an AI course.'",
+      "source": 3
+    }
+  ],
+  "billingNotes": [
+    "The public pricing page shows only the annual-billing, monthly-equivalent rate ('Billed annually') for every plan and contact tier, with no visible monthly/annual toggle. The Help Center's billing-information article confirms three billing cadences exist in-account — Annual, Monthly, and 'Commit annually pay monthly' — but does not publish the Monthly-cadence rate, and it was not found anywhere on the public marketing site (see unverified).",
+    "Contacts are sold in named bands (1,000 / 2,500 / 5,000 / 7,500 / 10,000 / 15,000 / 20,000 / 25,000 / 30,000 / 40,000 / 50,000 / >50,000). The Starter plan has a maximum of 25,000 contacts and is shown as unavailable ('Only available on plans with 25,000 contacts or less') at higher bands — confirmed both on the pricing page and in the Help Center's plan-overview article.",
+    "If a contact count grows past the current plan's contact band, ActiveCampaign upgrades the account to the next band/plan rather than penalizing or locking it out (pricing-page FAQ).",
+    "Each plan includes a fixed number of user seats (Starter 1, Plus 1, Pro 3, Enterprise 5). Starter can add at most 1 extra seat; Plus, Pro and Enterprise can buy additional seats with no stated cap — but no seat add-on price is published anywhere on activecampaign.com or its Help Center (see unverified).",
+    "A 30-day money-back guarantee applies to paid plans ('We're so confident you'll grow with us, we'll give you a full refund if you're not satisfied after 30 days' — pricing page).",
+    "The pricing page includes a Currency selector (USD $, BRL R$, CAD $, AUD A$, EUR €, GBP £); this record captures only the default USD selection."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "The pricing page offers a Currency selector (USD, BRL, CAD, AUD, EUR, GBP). We captured only the default USD selection, per this site’s US-list-price convention, and did not test whether the other currencies are simple FX conversions of the USD price or independently set regional prices."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo operator, 1,000 contacts",
+      "assumptions": "One person managing email marketing for about 1,000 contacts and roughly 4 campaigns/month, on the cheapest plan that covers this contact count. The pricing page shows only annual billing; no month-to-month rate is published (see unverified).",
+      "planId": "starter-1000",
+      "billing": "annual",
+      "lines": [
+        {
+          "label": "Starter plan — 1,000 contacts, billed annually",
+          "amount": 15
+        }
+      ],
+      "monthly": 15,
+      "confidence": "high",
+      "note": "Starter is capped at 1 user seat and 5 actions per automation, which is enough for a solo operator at this scale."
+    },
+    {
+      "size": "small",
+      "label": "Small team, 10,000 contacts",
+      "assumptions": "About 10,000 contacts and roughly 8 campaigns/month. Starter’s 25,000-contact ceiling and feature set still cover this; billed annually (no monthly rate published).",
+      "planId": "starter-10000",
+      "billing": "annual",
+      "lines": [
+        {
+          "label": "Starter plan — 10,000 contacts, billed annually",
+          "amount": 149
+        }
+      ],
+      "monthly": 149,
+      "confidence": "high",
+      "note": "Starter still allows only 1 user seat (2 with a purchased extra seat, price unpublished) and 5 actions per automation; a team wanting more seats or richer automation would need Plus ($189/month at this contact count) or higher."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, 50,000 contacts",
+      "assumptions": "About 50,000 contacts and roughly 12 campaigns/month. Starter is not sold above 25,000 contacts, so Plus is the cheapest plan that covers 50,000 contacts; billed annually (no monthly rate published).",
+      "planId": "plus-50000",
+      "billing": "annual",
+      "lines": [
+        {
+          "label": "Plus plan — 50,000 contacts, billed annually",
+          "amount": 609
+        }
+      ],
+      "monthly": 609,
+      "confidence": "high",
+      "note": "ActiveCampaign's comparison table lists an 'email sends' allowance of 10x the contact count for Plus (500,000/month). 12 campaigns to the full 50,000-contact list is 600,000 sends/month, above that figure and at Pro's 12x allowance (600,000, $969/month). We could not confirm whether that multiplier is an enforced send cap or a looser guideline (see unverified); Plus is recorded here as the cheapest plan matching the contact-capacity requirement, but Pro may be the safer real-world pick if the send allowance is a hard limit."
+    }
+  ],
+  "unverified": [
+    "Month-to-month (non-annual) billing rate for any plan or contact tier: the public pricing page shows only the annual-billing monthly-equivalent price. The Help Center's billing-information article confirms 'Monthly' is one of three billing cadences available in-account (the others being Annual and 'Commit annually pay monthly'), but no Monthly-cadence rate is published on the marketing site, so it could not be captured.",
+    "Price of an extra/additional user seat beyond each plan's included seats (Starter can add 1 extra seat; Plus, Pro and Enterprise can add more) — the Help Center confirms the ability to purchase seats but never states a price; it only appears inside the billing/upgrade flow after signing up.",
+    "Enhanced CRM add-ons — Pipelines and Sales Engagement (available on Plus, Professional and Enterprise) — have no published price on activecampaign.com or its Help Center. Third-party review sites cite roughly $68/month and $111/month respectively, but those figures could not be confirmed on an ActiveCampaign-owned page, so they are not included.",
+    "SMS add-on and SMS-credit pricing: the Help Center's 'Purchase the SMS add-on' article confirms Plus, Pro and Enterprise accounts can buy SMS credits, but the cost is shown only inside an in-app purchase modal after logging in; no per-credit or per-message rate is published on any page we could read.",
+    "Custom Reports add-on price (sold separately on Plus and Professional; included free with Enterprise) and Transactional Email add-on price (available on all four plans, built on Postmark) — both are listed as purchasable in the Help Center's plan-overview article with no price shown anywhere public.",
+    "Exact meaning and enforcement of each plan's 'Email sends: Nx contact limit' figure (Starter/Plus 10x, Pro 12x, Enterprise 15x) shown in the pricing page's comparison table — it is never explained whether this is a hard monthly send cap, a fair-use guideline, or a maximum list size. See the growing scenario's note for why this matters.",
+    "Whether the other five display currencies the pricing page offers (BRL, CAD, AUD, EUR, GBP) are simple FX conversions of the USD price or independently set regional prices; only the default USD selection was captured.",
+    "ActiveCampaign HQ (a separate franchise-specific product) is reported by third parties to carry a one-time fee around $4,500; this is a different product line from the four Email plans in this record and was not verified on an ActiveCampaign-owned page, so it is not included."
+  ],
+  "history": [
+    {
+      "date": "2026-09-27",
+      "change": "Initial record."
+    }
+  ]
+}

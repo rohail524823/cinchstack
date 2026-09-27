@@ -1,0 +1,331 @@
+SOURCE: https://www.framer.com/help/articles/legacy-plans/
+FETCHED: 2026-09-26T22:15:32.412Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Framer
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Log in
+
+Sign up
+
+Copy logo SVG
+
+Brand guidelines
+
+Help center
+
+Account
+
+Legacy plans
+
+Search
+
+Legacy plans
+
+Learn what legacy plans are and how pricing, features, and billing are affected after Framer’s October 2025 pricing update.
+
+Plans purchased before October 9, 2025, are considered legacy plans. If you're on a legacy plan, you can continue using it with its existing pricing and features unless you choose to switch to a newer plan.
+
+What are legacy plans?
+
+Legacy plans are any plans that were active before October 9, 2025, when Framer introduced updated pricing and plan structures.
+
+If you subscribed before that date and have remained on the same plan, your subscription is considered a legacy plan.
+
+Will my price change?
+
+No. Your current subscription price remains the same as long as you stay on your existing legacy plan.
+
+This applies to both monthly and yearly billing cycles.
+
+If you:
+
+Switch to a different plan.
+
+Cancel your subscription.
+
+Resubscribe after canceling.
+
+you will be charged according to the pricing shown on the current Pricing page.
+
+Will my features or limits change?
+
+No. Legacy plans retain the features and limits that were included when you originally subscribed.
+
+You can continue using your plan without any changes to its included functionality.
+
+How are editors and locales billed?
+
+Any editors or locales added after October 9, 2025, are billed using the current pricing model.
+
+While your legacy plan pricing remains unchanged, newly added usage-based items follow the latest pricing structure.
+
+Switch to the new pricing
+
+If you'd like to move to the current pricing model:
+
+Open your project's Plans page.
+
+Review the available plans.
+
+Select the plan you'd like to switch to.
+
+Follow the on-screen instructions to confirm the change.
+
+Once you switch to a current plan, you cannot return to your legacy plan.
+
+For billing inquiries, please contact Framer’s support team through our contact page.
+
+FAQ
+Can I keep my legacy plan indefinitely?
+
+Yes. As long as you do not switch plans or cancel your subscription, you can continue using your legacy plan with its existing pricing and features.
+
+Will my monthly or yearly price increase automatically?
+
+No. Your subscription price remains unchanged while you stay on the same legacy plan.
+
+Can I switch back to a legacy plan after moving to a new plan?
+
+No. Once you switch to a current plan, legacy plans are no longer available for reactivation.
+
+Updated
+
+last week
+
+Related articles
+
+Update your billing details
+
+Learn about Framer’s new billing system
+
+Site plans overview
+
+Add Framer to Preferred Sources
+
+Your next idea starts here
+
+GPT 6 Sol
+
+Create personal portfolio
+
+Build startup site
+
+Launch landing page
+
+Start company blog
+
+Start without AI
+
+Product
+
+AI
+
+Agents
+
+External Agents
+
+Design
+
+Collaborate
+
+CMS
+
+Hosting
+
+Performance
+
+SEO
+
+Skills
+
+NEW
+
+Convert
+
+Publish
+
+Updates
+
+Marketplace
+
+Templates
+
+Components
+
+Plugins
+
+Vectors
+
+Gallery
+
+Experts
+
+Business
+
+Switch
+
+Enterprise
+
+Agencies
+
+Startups
+
+Pricing
+
+Resources
+
+Academy
+
+Download App
+
+Developers
+
+Guides
+
+Blog
+
+Newsletter
+
+Stories
+
+Creators
+
+Experts
+
+Students
+
+Ambassadors
+
+Help Articles
+
+Contact
+
+Meetups
+
+Solutions
+
+Designers
+
+Agencies
+
+Marketers
+
+Growth
+
+Builders
+
+Engineers
+
+Site Teams
+
+Founders
+
+AI website builder
+
+AI design agent
+
+Website builder
+
+Landing pages
+
+Portfolio maker
+
+UI/UX design
+
+Figma to HTML
+
+No-code
+
+Compare
+
+Webflow
+
+Figma
+
+Wix
+
+Squarespace
+
+WordPress
+
+Readymag
+
+Ceros
+
+Unbounce
+
+Lovable
+
+Claude Code
+
+ChatGPT
+
+Codex
+
+Contentful
+
+Sanity
+
+AEM
+
+Replit
+
+v0
+
+Company
+
+Careers
+
+Security
+
+Brand
+
+Abuse
+
+Legal
+
+Trust
+
+By Framer
+
+Merch
+
+Keyboard
+
+Stack Score
+
+Free domains
+
+AEO scanner
+
+State of Sites
+
+CanvasBench
+
+Link Preview
+
+Select Language
+English
+Japanese
+English
+
+CCPA
+
+All services online
+
+Framer
+
+2026
+
+We use cookies to enhance your experience, analyze site traffic and deliver personalized ads and content. Read our Cookie Policy.
