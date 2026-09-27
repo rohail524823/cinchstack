@@ -1,0 +1,43 @@
+name: Live deploy check
+# Netlify's deploy-failed email needs a paid plan. This does the same job for free: after each push
+# to main it waits for cinchstack.com to serve that commit (or a later one), read from
+# /version.txt, then loads a few key pages. If either fails, the run fails and GitHub emails the
+# person who pushed (Settings > Notifications > Actions: failed workflows).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: live-deploy-check
+  cancel-in-progress: true
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Wait for cinchstack.com to serve this commit
+        run: |
+          live=''
+          for i in $(seq 1 45); do
+            live=$(curl -fsS "https://cinchstack.com/version.txt?run=$GITHUB_RUN_ID-$i" | tr -d '[:space:]' || true)
+            if [ -n "$live" ] && ! git cat-file -e "$live^{commit}" 2>/dev/null; then git fetch -q origin main || true; fi
+            if [ -n "$live" ] && git merge-base --is-ancestor "$GITHUB_SHA" "$live" 2>/dev/null; then
+              echo "cinchstack.com is serving $live, which includes $GITHUB_SHA."
+              exit 0
+            fi
+            sleep 20
+          done
+          echo "::error title=Deploy did not go live::15 minutes after the push, cinchstack.com serves '${live:-nothing}', not $GITHUB_SHA or a later commit. Open the Netlify deploy log for this commit."
+          exit 1
+      - name: Load key pages
+        run: |
+          for p in / /tools/ /stacks/ /compare/ /methodology/ /privacy/ /sitemap.xml /robots.txt /llms.txt; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://cinchstack.com$p")
+            echo "$code $p"
+            if [ "$code" != 200 ]; then echo "::error title=Live page broken::$p returned $code"; exit 1; fi
+          done

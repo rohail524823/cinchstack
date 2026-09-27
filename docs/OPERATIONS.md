@@ -25,21 +25,20 @@ If the portal gives you a link that can point at any page (for example one with 
 
 The plan is to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. The order and the reasons are in `docs/plan/09-affiliate-programs.md`. When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change.
 
-### 3. Tell search engines the site exists
+### 3. Search engines (done 27 September 2026)
 
-1. **Google Search Console**: add the domain property `cinchstack.com` (DNS verification at your domain registrar), then submit `https://cinchstack.com/sitemap.xml`.
-2. **Bing Webmaster Tools**: sign in and choose "Import from Google Search Console". Bing also feeds Copilot and ChatGPT search, so this matters as much as Google.
-3. Leave both alone for two weeks. New sites take time to be crawled.
+- **Google Search Console**: domain property `cinchstack.com`, verified by a TXT record at Namecheap (leave that record in place). Sitemap submitted; indexing requested for the homepage, stacks, top pricing pages, a comparison and `/data/`.
+- **Bing Webmaster Tools**: imported from Search Console, sitemap submitted by hand. Bing also feeds Copilot and ChatGPT search, so it matters as much as Google.
+- **IndexNow** stays off until Bing shows healthy indexing (see `docs/plan/06-aeo-geo-bing.md`).
+- Search Console lets you request indexing for about 10 URLs a day. New pages are found through the sitemap anyway; requesting just speeds it up.
 
-### 4. Switch on the contact form
+### 4. Contact form (done 27 September 2026)
 
-The "Report a wrong price" form uses Netlify Forms, which needs one setting:
+The "Report a wrong price" form uses Netlify Forms. Form detection is on, and each submission is emailed to the Netlify account's address. Submissions also appear in Netlify under **Forms → contact**.
 
-1. In Netlify, open the `cinchstack-site` project, then **Project configuration → Forms**.
-2. Click **Enable form detection**, then trigger a redeploy (Deploys → Trigger deploy).
-3. Submissions appear under **Forms → contact**. Add a form notification there to get each message by email.
+### 5. Analytics (on since 27 September 2026)
 
-### 5. Analytics
+Google Analytics 4 property "CinchStack", Measurement ID `G-YVPC1K7T3X`: event data kept 14 months, Google signals off, linked to Search Console. A custom channel group, "Channels incl. AI assistants", separates visits from ChatGPT, Perplexity, Claude, Gemini, Copilot and similar.
 
 One line controls it: `GA_ID` in `src/lib/site.mjs`.
 
@@ -56,7 +55,7 @@ What `/site.js` does, as the privacy notice explains to readers:
 - Google signals and ad personalization are off, and cookies expire after 13 months at most.
 - Clicks on vendor buttons are sent as `affiliate_click` (paid links) or `outbound_plain` (plain links), each with `tool`, `placement` and `page`.
 
-In GA4, register `tool`, `placement` and `page` as event-scoped custom dimensions so the reports can show them. Mark `affiliate_click` as a key event.
+In GA4, register `tool`, `placement` and `page` as event-scoped custom dimensions so the reports can show them. Key events: star `outbound_plain` once it first appears (a reader clicked through to a vendor), and `affiliate_click` once a paid link is live. Don't star the built-in `click` event: it counts every outbound link, including source links, so it overstates buying intent.
 
 ## Jobs that run by themselves
 
@@ -64,6 +63,7 @@ In GA4, register `tool`, `placement` and `page` as event-scoped custom dimension
 |---|---|---|
 | Netlify build | every push to `main` | Builds the site and runs every quality gate. If a gate fails, the old site stays live. |
 | CI | every push and pull request | The same build, on GitHub, so problems show before merging. |
+| Live deploy check | every push to `main` | Waits for cinchstack.com to serve the pushed commit (from `/version.txt`), then loads key pages. If the deploy never goes live, the run fails and GitHub emails you. This replaces Netlify's deploy-failed email, which needs a paid plan. |
 | Weekly price check | Mondays 07:00 UTC | Re-opens every vendor page a price came from and confirms the price is still there. Writes the result to `src/data/_checks.json`, which each pricing page shows. If a price has disappeared, it opens a GitHub issue labelled `price-change`. |
 
 The weekly check never changes a price by itself. A changed price needs a person (or Claude Code) to capture the new page, update the record and log the change.
