@@ -1,0 +1,40 @@
+{
+  "id": "mailchimp",
+  "name": "Mailchimp",
+  "vendor": "Intuit Mailchimp",
+  "tier": "secondary",
+  "layer": "grow",
+  "category": "Email Marketing",
+  "url": "https://mailchimp.com/",
+  "pricingUrl": "https://mailchimp.com/pricing/marketing/",
+  "oneLiner": "Email marketing and automation platform from Intuit, priced by contact-count band, with ecommerce features on every paid tier and a free plan for up to 250 contacts.",
+  "summary": "Mailchimp is Intuit's email marketing and marketing-automation platform, sold across four plans — Free, Essentials, Standard and Premium — priced primarily by how many contacts are on the account. Essentials and Standard add automation flows, an SMS/MMS add-on and ecommerce-oriented features such as purchase-behavior segmentation, while Premium removes the seat cap and adds phone support and a dedicated onboarding specialist. Price rises in fixed contact-count bands rather than smoothly, and the free plan is capped at 250 contacts.",
+  "bestFor": [
+    "agency",
+    "shopify-store",
+    "freelancer"
+  ],
+  "notFor": [
+    "Buyers who need an exact price between the published contact bands: only the 1,000/10,000/50,000-contact bands were verified here, and the price jumps at each band boundary rather than scaling smoothly",
+    "Teams that need SMS at a fixed, known monthly cost: Mailchimp's SMS credit pricing varies by sending country and isn't published as a flat rate",
+    "Accounts past 50,000 contacts that want to stay on the cheapest plan: Essentials tops out at 50,000 contacts ($385/month) and needs an upgrade to Standard or Premium beyond that"
+  ],
+  "pros": [
+    "Free plan (250 contacts) available indefinitely",
+    "Self-serve 14-day free trial on Standard and Essentials, no sales call required",
+    "Purchase behavior tracking and personalized product recommendations included on every plan, including Free",
+    "Annual pre-pay pricing (about 15% off) becomes available once an account reaches 10,000+ contacts, alongside the standard monthly rate",
+    "300+ integrations included on every plan, including Free"
+  ],
+  "cons": [
+    "Price rises in fixed contact-count bands, so a small increase in list size can jump the account into a materially more expensive band",
+    "Essentials tops out at 50,000 contacts ($385/month); larger lists require Standard or Premium",
+    "SMS/MMS add-on pricing isn't published as a flat rate; it requires an application/approval process and a monthly credit purchase",
+    "Free plan is capped at 250 contacts and 500 sends/month, tighter than some competitors' free tiers",
+    "Standard tops out at 5 seats and Essentials at 3 seats; larger teams need Premium regardless of contact-list size"
+  ],
+  "founded": 2001,
+  "affiliate": {
+    "program": null
+  }
+}

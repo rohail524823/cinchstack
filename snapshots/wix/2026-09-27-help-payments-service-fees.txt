@@ -1,0 +1,212 @@
+SOURCE: https://support.wix.com/en/article/wix-payments-service-fees
+FETCHED: 2026-09-27T02:40:38.718Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Topics
+Resources
+Hire a Professional
+Pricing
+Log In
+Get Started
+Home
+Managing your business
+Accepting payments on your site
+Payment methods and providers
+Getting Started with Wix Payments
+Wix Payments: Service Fees
+Wix Payments: Service Fees
+A service fee is a fee charged for transactions processed through Wix Payments. Similar to any other payment provider, Wix Payments charges a fee for the processing of funds to and from your account. Additionally, fees may be levied for refunds and chargebacks. 
+Select your location to see the associated fees. 
+United States
+Credit/Debit Card (excl. American Express): 2.9% of the transaction amount + 0.30 USD
+Apple Pay (excl. American Express): 2.9% of the transaction amount + 0.30 USD
+Google Pay (excl. American Express): 2.9% of the transaction amount + 0.30 USD
+American Express Credit Card (incl. use with Apple Pay & Google Pay): 3.7% of the transaction amount + 0.30 USD
+PayPal: 3.49% of the transaction amount + 0.49 USD
+Pay Later: 4.99% of the transaction amount + 0.49 USD
+Venmo: 3.49% of the transaction amount + 0.49 USD
+Wix Payments Point of Sale (POS): 2.6% of the transaction amount + 0 USD
+Tap to Pay: 2.6% of the transaction amount + 0.20 USD
+Wix Payments Manual Card Entry: 3.5% of the transaction amount + 0.30 USD
+American Express Manual Card Entry: 4.3% of the transaction amount + 0.30 USD
+Tap to Pay on mobile: 2.6% of the transaction amount + 0.20 USD
+Afterpay: 6% of the transaction amount + 0.30 USD
+Affirm: 6% of the transaction amount + 0.30 USD
+Klarna: 6% of the transaction amount + 0.30 USD
+
+Cross-border fees: 1.5% of the transaction amount + the standard processing fee for a payment method.
+Note: Cross-border fees are added in addition to the standard processing fee for a payment method.
+Multi-currency payment fees: For payments in a currency different from your site’s main currency. The following fees are charged for each transaction: 
+Processing fee: Based on the payment method used (for example, 2.9% + 0.30 USD for Credit/Debit Cards excluding American Express).
+Cross-border fee: 1.5% of the transaction amount (if applicable)
+Currency conversion fee: 1% of the transaction amount
+Note: Processing fee (depending on the payment method) + 1.5% of the transaction amount (if applicable) + 1% of the transaction amount. These fees are charged in addition to each other and are combined as a single “Fees” amount in your payment details.
+Refunded payments fees: For refunded payments, standard Wix Payments processing fees apply. For example, if you issue a $100 refund to your customer, the original processing fee of $2.90 (2.9%) + $0.30 for that customer's purchase will not be paid back to your Wix Payments account. No additional refund fees will be charged.
+Chargeback fees (Wix Payments): If you receive a chargeback in your Wix Payments account, you may incur a chargeback fee. Exceptions may apply. Chargeback fees are as follows:
+Wix Payments (excl. PayPal): 15 USD
+PayPal with Wix Payments: 20 USD
+EU Countries
+Credit/Debit Card (excl. American Express): 1.9% of the transaction amount + 0.30 EUR
+Apple Pay (excl. American Express): 1.9% of the transaction amount + 0.30 EUR
+Google Pay (excl. American Express): 1.9% of the transaction amount + 0.30 EUR
+American Express Credit Card (incl. use with Apple Pay & Google Pay): 3.1% of the transaction amount + 0.30 EUR
+iDEAL: 2.5% of the transaction amount + 0.30 EUR
+Bancontact: 1.4% of the transaction amount + 0.30 EUR
+Klarna:
+Austria, Belgium, Finland, Germany, Netherlands: 2.99% of the transaction amount + 0.35 EUR
+Italy, Portugal, Spain: 4.99% of the transaction amount + 0.35 EUR
+Giropay: 2.5% of the transaction amount + 0.30 EUR
+Wix Payments Manual Card Entry: 2.3% of the transaction amount + 0.30 EUR
+American Express Manual Card Entry: 3.5% of the transaction amount + 0.30 EUR
+
+Cross-border fees: 1% of the transaction amount + the standard processing fee for a payment method.
+Note: Cross-border fees are added in addition to the standard processing fee for a payment method. No cross-border fees are applied to payments made from one EU country to another.
+Multi-currency payment fees: For payments in a currency different from your site’s main currency. The following fees are charged for each transaction: 
+Processing fee: Based on the payment method used (for example, 1.9% + 0.30 EUR for Credit/Debit Cards excluding American Express).
+Cross-border fee: 1% of the transaction amount (if applicable)
+Currency conversion fee: 2% of the transaction amount.
+Note: Processing fee (depending on the payment method) + 1% of the transaction amount (if applicable) + 2% of the transaction amount. These fees are charged in addition to each other and are combined as a single “Fees” amount in your payment details.
+Refunded payments fees: For refunded payments, standard Wix Payments processing fees apply. For example, if you issue a €100 refund to your customer, the original processing fee of €1.90 (1.9%) + €0.30 for that customer's purchase will not be paid back to your Wix Payments account. No additional refund fees will be charged.
+Chargeback fees: If you receive a chargeback in your Wix Payments account, you may incur a chargeback fee of 15.00 EUR. Exceptions may apply.
+United Kingdom
+Credit/Debit Card (excl. American Express): 2.1% of the transaction amount + 0.20 GBP
+Apple Pay (excl. American Express): 2.1% of the transaction amount + 0.20 GBP
+Google Pay (excl. American Express): 2.1% of the transaction amount + 0.20 GBP
+American Express Credit Card (incl. use with Apple Pay & Google Pay): 3.1% of the transaction amount + 0.20 GBP
+Clearpay: 6% of the transaction amount + 0.30 GBP
+Klarna: 4.99% of the transaction amount + 0.35 GBP
+Wix Payments Point of Sale (POS): 1.7% of the transaction amount + 0 GBP
+Wix Payments Manual Card Entry: 2.5% of the transaction amount + 0.20 GBP
+American Express Manual Card Entry: 3.5% of the transaction amount + 0.20 GBP
+
+Cross-border fees: 1% of the transaction amount + the standard processing fee for a payment method.
+Note: Cross-border fees are added in addition to the standard processing fee for a payment method.
+Multi-currency payment fees: For payments in a currency different from your site’s main currency. The following fees are charged for each transaction: 
+Processing fee: Based on the payment method used (for example, 2.1% + 0.20 GBP for Credit/Debit Cards excluding American Express).
+Cross-border fee: 1% of the transaction amount (if applicable)
+Currency conversion fee: 2% of the transaction amount.
+Note: Processing fee (depending on the payment method) + 1% of the transaction amount (if applicable) + 2% of the transaction amount. These fees are charged in addition to each other and are combined as a single “Fees” amount in your payment details.
+Refunded payments fees: For refunded payments, standard Wix Payments processing fees apply. For example, if you issue a £100 refund to your customer, the original processing fee of £2.10 (2.1%) + £0.20 for that customer's purchase will not be paid back to your Wix Payments account. No additional refund fees will be charged.
+Chargeback fees: If you receive a chargeback in your Wix Payments account, you may incur a chargeback fee of 15.00 GBP. Exceptions may apply.
+Canada
+Credit/Debit Card (excl. American Express): 2.9% of the transaction amount + 0.30 CAD
+Apple Pay (excl. American Express): 2.9% of the transaction amount + 0.30 CAD
+Google Pay (excl. American Express): 2.9% of the transaction amount + 0.30 CAD
+American Express Credit Card (incl. use with Apple Pay & Google Pay): 3.5% of the transaction amount + 0.30 CAD
+Wix Payments Point of Sale (POS): 2.7% of the transaction amount + 0 CAD
+Canada Interac: 0.15 CAD per transaction
+Wix Payments Manual Card Entry: 3.5% of the transaction amount + 0.30 CAD
+American Express Manual Card Entry: 4.1% of the transaction amount + 0.30 CAD
+
+Cross-border fees: 1% of the transaction amount + the standard processing fee for a payment method.
+Note: Cross-border fees are added in addition to the standard processing fee for a payment method.
+Multi-currency payment fees: For payments in a currency different from your site’s main currency. The following fees are charged for each transaction: 
+Processing fee: Based on the payment method used (for example, 2.9% + 0.30 CAD for Credit/Debit Cards excluding American Express).
+Cross-border fee: 1% of the transaction amount (if applicable)
+Currency conversion fee: 2% of the transaction amount.
+Note: Processing fee (depending on the payment method) + 1% of the transaction amount (if applicable) + 2% of the transaction amount. These fees are charged in addition to each other and are combined as a single “Fees” amount in your payment details.
+Refunded payments fees: For refunded payments, standard Wix Payments processing fees apply. For example, if you issue a $100 refund to your customer, the original processing fee of $2.90 (2.9%) + $0.30 for that customer's purchase will not be paid back to your Wix Payments account. No additional refund fees will be charged.
+Chargeback fees: If you receive a chargeback in your Wix Payments account, you may incur a chargeback fee of 15 CAD. Exceptions may apply.
+Switzerland
+Credit/Debit Card (excl. American Express): 2.3% of the transaction amount + 0.30 CHF
+Apple Pay (excl. American Express): 2.3% of the transaction amount + 0.30 CHF
+Google Pay (excl. American Express): 2.3% of the transaction amount + 0.30 CHF
+American Express (incl. use with Apple Pay & Google Pay): 3.1% of the transaction amount + 0.30 CHF
+Klarna: 2.99% of the transaction amount + 0.35 CHF
+iDEAL: 2.5% of the transaction amount + 0.40 CHF
+TWINT: 1.9% of the transaction amount + 0.30 CHF
+Wix Payments Manual Card Entry: 2.8% of the transaction amount + 0.30 CHF
+American Express Manual Card Entry: 3.6% of the transaction amount + 0.30 CHF
+
+Cross-border fees: 1% of the transaction amount + the standard processing fee for a payment method.
+Note: Cross-border fees are added in addition to the standard processing fee for a payment method.
+Multi-currency payment fees: For payments in a currency different from your site’s main currency. The following fees are charged for each transaction: 
+Processing fee: Based on the payment method used (for example, 2.3% + 0.30 CHF for Credit/Debit Cards excluding American Express).
+Cross-border fee: 1% of the transaction amount (if applicable)
+Currency conversion fee: 2% of the transaction amount.
+Note: Processing fee (depending on the payment method) + 1% of the transaction amount (if applicable) + 2% of the transaction amount. These fees are charged in addition to each other and are combined as a single “Fees” amount in your payment details.
+Refunded payments fees: For refunded payments, standard Wix Payments processing fees apply. For example, if you issue a 100 CHF refund to your customer, the original processing fee of 2.30 CHF (2.3%) + 0.30 CHF for that customer's purchase will not be paid back to your Wix Payments account. No additional refund fees will be charged.
+Chargeback fees: If you receive a chargeback in your Wix Payments account, you may incur a chargeback fee of 15.00 CHF. Exceptions may apply.
+Tip:
+You can view invoices for your Wix Payments service fees in the  Billing History page of your Wix account.
+Did this help?
+Yes
+|
+No
+Hire a Professional
+Get matched with a Wix Partner who can help you reach your site goals.
+Start Now
+Helpmate
+Hello
+Need a bit more guidance?
+Unlock personalized help
+Log in to get the most out of Helpmate.
+Log In
+
+Product
+
+Website Builder
+AI Website Builder
+Website Templates
+Website Design
+Web Hosting
+Landing Page Builder
+Domain Registration
+WHOIS Lookup
+Domain Name Search
+Wix Studio
+Mobile App Builder
+Base44
+
+Solutions
+
+Business website
+Online Store Builder
+eCommerce Website
+Portfolio Website
+Blog Website
+Business Software
+Business email
+Free Business Tools
+Point of Sale
+Online Booking
+Logo Maker
+Wix University
+
+Resources
+
+Wix Blog
+Privacy and Security Hub
+SEO Learning Hub
+Wix Website Features
+App Market
+Website Accessibility
+
+Support
+
+Help Center
+Hire a Professional
+Report Abuse
+System Status
+
+Company
+
+Channel Partnerships
+Press & Media
+Investor Relations
+Wix Ventures
+Accessibility Statement
+Patent Notice
+Sitemap
+Careers
+
+Wix is a website builder and domain registrar that gives any business or individual the freedom to build a professional website, register a domain name or do both all in one place. By combining design tools, domain registration and business solutions in one AI-powered platform, Wix makes it easy for anyone to create without limits and scale confidently online.
+
+About
+Contact Us
+Do Not Sell or Share My Personal Information
+Terms of Use
+Privacy Policy
+© 2006-2026 Wix.com, Inc
+
+We use cookies and similar technologies. You can opt-out by clicking 'Do Not Sell or Share My Personal Information' at the bottom of the page.

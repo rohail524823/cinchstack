@@ -1,0 +1,40 @@
+{
+  "id": "kit",
+  "name": "Kit",
+  "vendor": "Kit",
+  "tier": "secondary",
+  "layer": "grow",
+  "category": "Email Marketing",
+  "url": "https://kit.com/",
+  "pricingUrl": "https://kit.com/pricing",
+  "oneLiner": "Email marketing platform for online creators: newsletters, automations, landing pages and digital products, free for up to 10,000 subscribers.",
+  "summary": "Kit (formerly ConvertKit) is an email marketing platform built for online creators, combining newsletters, visual automations, landing pages and digital-product sales in one account. It has a free plan for up to 10,000 subscribers and two paid tiers, Creator and Creator Pro, priced by subscriber count and starting at $39 and $79 per month for up to 1,000 subscribers; Kit raised these starting prices in October 2025, its first increase in twelve years. Creator Pro adds features Creator does not have, such as unlimited team members, advanced deliverability reporting, subscriber engagement scoring and a newsletter referral system.",
+  "bestFor": [
+    "course-creator",
+    "freelancer"
+  ],
+  "notFor": [
+    "Agencies managing many client accounts: Kit is built around one creator's own list and account, not multi-client management",
+    "Buyers who need Kit's exact price above 1,000 subscribers before signing up: the tier ladder above the confirmed 1,000-subscriber starting price is shown only on Kit's own pricing calculator",
+    "Teams needing more than 1-2 people on the account without upgrading: Kit frames Creator as a 1-2 person plan, and moves to Creator Pro once 3 or more people need access",
+    "Anyone who needs Visual Automations, email sequences, or AI Connectors while staying on the free plan: those need Creator or Creator Pro"
+  ],
+  "pros": [
+    "Free plan for up to 10,000 subscribers with unlimited landing pages, forms and email broadcasts, no card required",
+    "14-day free trial on both paid plans, no credit card required",
+    "Bills by confirmed/active subscribers rather than total list size or emails sent",
+    "Automatic proration on subscriber-tier upgrades and a 30-day money-back guarantee on every paid plan, including annual",
+    "Creator Pro adds unlimited team members, versus Creator's 1-2 person framing",
+    "Digital products and subscriptions can be sold from the same account that sends the emails"
+  ],
+  "cons": [
+    "Kit's exact subscriber-tier price above 1,000 subscribers isn't published in its Help Center; it's shown only on kit.com's own interactive pricing calculator",
+    "Free plan has no Visual Automations, email sequences, Rules/RSS campaigns or AI Connectors; those need a paid plan",
+    "Creator is limited to 1-2 people on the account; teams of 3 or more need the more expensive Creator Pro plan",
+    "First price increase in 12 years took effect in October 2025, raising both the Creator and Creator Pro starting prices",
+    "Downgrading to a lower subscriber tier is manual: Kit does not do it automatically even if a list shrinks"
+  ],
+  "affiliate": {
+    "program": null
+  }
+}

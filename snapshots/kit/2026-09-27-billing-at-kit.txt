@@ -1,0 +1,140 @@
+SOURCE: https://intercom.help/convertkit/en/articles/2502679-billing-at-kit
+FETCHED: 2026-09-27T02:25:38.000Z
+RENDERER: curl (raw HTML), content within Kit's Help Center <article> tag extracted to text; Kit's Help Center is hosted on Intercom's intercom.help domain (help.kit.com redirects/mirrors it) and was reachable directly, unlike kit.com itself which returned a Cloudflare bot-check.
+TITLE: Billing at Kit | Kit Help Center
+----
+Billing at Kit | Kit Help Center
+Your bill is based on your active subscribers, not on emails sent or features used. 
+ We're subscriber-centric rather than list-centric, so we bill on your number of confirmed subscribers. Tags and Segments , and every other feature on your plan, are included.
+ Each plan is split into subscriber tiers, and your tier sets your price. Growth is handled for you: when you pass your tier's limit, we move you up automatically so nothing in your account stops working. Going the other way is your call. If your subscriber count drops below a lower tier, you'll see the option to switch in your billing settings, and the lower price starts on your next billing date.
+ Cleaned your list? There may be a lower price waiting for you. Head to Account & Billing and look for "Switch to a lower tier." We show the link whenever your subscriber count qualifies you for one. See Downgrade to a lower subscriber tier .
+ You can find pricing details for all of our plans right here .
+ Let's dive into some details, including:
+ Managing your billing information 
+ How to upgrade or downgrade Kit plans 
+ Downgrade to a lower subscriber tier 
+ Understanding your Kit bill 
+ How our annual plan differs from our monthly plan 
+ Our refund policy 
+ Why you may see a temporary $1 charge on your credit card statement 
+ What happens if you cancel your account 
+ How to customize the billing information in your Kit receipts 
+ DISCLAIMER : This article is neither financial advice nor tax advice. We recommend that you speak to your tax advisor with any questions or concerns about planning for your taxes. 
+ Managing your billing information 
+ Certain states require us to charge our customers sales tax. To handle this, all we need to know is your billing address (this applies to customers in Alabama, Alaska, Arizona, Colorado, Connecticut, District of Columbia Hawaii, Illinois, Iowa, Maryland, Massachusetts, New Mexico, New York, North Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, and West Virginia).
+ To add your billing address to your account, head over to your billing information (click your account name at the top right > Settings > Account & Billing ).
+ To update your billing address click on the "Manage billing" button, then "Update information".
+ Click Save at the bottom of the screen to save your billing address.
+ To show your billing details on your invoices, add your name, email, phone, address, and tax ID in the billing portal.
+ Sales tax and billing address
+ Your billing address determines whether sales tax needs to be applied and the rate charged. For example, if your billing address is in New York, the New York state sales tax will apply and appear as a line item in your receipt.
+ In some states, the rate varies by county, making your exact billing address especially important. Always keep your billing address updated, especially if you've moved. 
+If you're outside the U.S., add your billing address and Tax ID (like your VAT number) to keep our records accurate and ensure the correct details appear on your invoices.
+ Example of sales tax on your invoice
+ Let's say you're based in Idaho and on the $39 plan:
+ If we implement sales tax on November 1st and your billing date is November 5th, and sales tax (6%) applies, your next invoice would be:
+ $39 (plan cost) + $2.34 (sales tax) = $41.34 total 
+ How to upgrade or downgrade Kit plans
+ NOTE: When you change subscriber tiers or plans, we may pro-rate your next bill accordingly. See the next section on " Understanding your Kit bill " for more info. 
+ Upgrade subscriber tiers in any paid plan
+ No need to do anything. The upgrade happens automatically.
+ Downgrade to a lower subscriber tier
+ If you've cleaned your list or removed subscribers, you may be able to move to a lower subscriber tier and reduce your monthly cost.
+ We leave this switch with you rather than moving your plan automatically, since subscriber counts often dip and recover inside the same month, and a steady price is easier to plan around than one that moves with every send. The lower price starts on your next billing date after you switch, so it's worth checking any time you clean your list.
+ Example: You have 1,200 subscribers and pay $59/mo for the Creator plan. After cleaning your list , you have 800 subscribers. You can now downgrade to the 1,000-subscriber tier and pay $39/mo instead.
+ How to downgrade: 
+ Go to Account & Billing tab in your account settings.
+ If you're eligible, you'll see a "Switch to a lower tier" link. Click this link.
+ Review the popup showing your current tier and the lowest tier you can switch to. 
+ Click OK, understood to confirm.
+ You'll see a confirmation on the Account & Billing page. 
+ When the change takes effect: 
+ Your downgrade will apply on your next billing date as long as your subscriber count is still below the lower tier's limit on that date. If there's an even lower tier available, we will adjust it to the lowest possible tier.
+ If you've gained subscribers and your count is above the new tier's limit by your billing date, you'll stay on your current tier. You can downgrade later if your subscriber count drops again.
+ Upgrade from the Creator plan to the Creator Pro plan
+ Click the Learn More button in the menu that appears when you click your account name at the top right.
+ A popup will appear for you to upgrade to the Creator Pro plan.
+ Downgrade from the Creator Pro plan
+ Go to your account settings' Account & Billing tab and click the Downgrade button.
+ Switch from a monthly plan to an annual plan
+ Go to your account settings and click the Account & Billing tab. Then, click the Switch to Annual and Save button next to the message "Get 2 months free by upgrading to an annual plan!".
+ Switch from an annual plan to a monthly plan
+ Contact us using the in-app messenger and request to switch from an annual plan to a monthly plan. The switch will happen at the end of the annual billing cycle.
+ Understanding your Kit bill
+ The two keys to understanding your bill are that:
+ We charge for the billing period ahead. This means when you pay your $39 monthly bill on January 1, for example, you're paying for up to 1,000 subscribers from January 1 to January 31.
+ We always pro-rate for plan upgrades.
+ If you upgrade plans during your billing period, your next bill will reflect the following: 
+ A refund of the pro-rated amount for the unused time on your existing plan, and
+ A charge for a pro-rated amount for the remaining time on your new plan.
+ You'll receive your next bill either during the start of the next billing period or immediately, depending on whether you're on a monthly plan or an annual plan respectively.
+ Here's an example:
+ You paid $39 on the first day of your billing period.
+ 10 days before the end of the billing period, you are upgraded to the next tier, the $59/mo plan.
+ We refund the 10 days of the $39 plan you didn't use. Let's say it's $12.67. This is your Unused Time.
+ We charge you for the 10 days on the upgraded plan. Let's say it's $19.67. This is your Remaining Time.
+ The difference between the credit (from the Unused Time) and the charge (from the Remaining Time) is $19.67 - $12.67 = $7.
+ If you're on a monthly plan, we'll bill you this $7, plus $59 for your upgraded plan, on the first day of your next billing period. So, on the first day of your next billing period, you'll be charged $7 + $59 = $66.
+ If you're on an annual plan, we'll bill you the difference between the credit and the charge immediately upon upgrade. Then, on the first day of your next billing period, you'll be charged just the full amount of the upgraded annual plan (e.g., $590).
+ If you downgrade your subscriber tier , the process is different: 
+ Let's say you have 1,200 subscribers and pay $59/mo for the Creator plan's 3,000-subscriber tier. After cleaning your list , you have 800 subscribers. You can now downgrade to the 1,000-subscriber tier and pay $39/mo instead.
+ Here's what happens when you downgrade your subscriber tier:
+ You paid $59 for the first day of your billing period.
+ 10 days before the end of your billing period, you scheduled a downgrade to the lower $39/mo plan.
+ On the first day of your next billing period, you have 800 subscribers. You're eligible for the lower 1,000-subscriber tier, so we move you to it and charge you $39 on the first day of your next billing period.
+ We apply the same policy when billing for subscriber tier downgrades for annual plans .
+ How is our annual plan different from our monthly plan?
+ We're here for the long term. If you are too, then we've got a deal for you. Our annual plans offer 12 months for the price of 10.
+ NOTE: Because of the bargain price, we do not offer refunds beyond our standard 30-day refund policy. 
+ Our refund policy
+ We understand things don't always work out. If you do have to leave, then we want what's best for you.
+ We have a 30-day refund policy, so if you cancel, you can request any funds paid in the last 30 days to be refunded in full.
+ Our 30-day refund policy applies to all plans, including annual plans. However, we do not refund or pro-rate payments made more than 30 days prior to the request.
+ If your subscriber count dropped a while ago and you've only just spotted the lower tier, email us at help@kit.com . Our 30-day refund policy covers recent payments, and the team will look at your account with you.
+ Why is there a $1 charge on your credit card statement?
+ Whenever you add or change the credit card on file in your account, our payment partner Stripe will run a $1 verification charge.
+ This verification helps to ensure that the card is a legitimate form of payment. It's also checking for available funds.
+ The charge is only temporary. It will be automatically removed from your credit card statement after seven days.
+ What happens if you cancel your account?
+ When you cancel your account, it will remain active until the last day of your billing period .
+ How to customize the billing information in your Kit receipts
+ You can customize your billing information in your Kit receipt directly in your Billing portal.
+ Follow these steps:
+ Navigate to your account settings
+ Head over to your billing information 
+ Click on "Manage billing"
+ Click on "Update information".
+ A modal will appear, where you can add information like your billing address or Tax number.
+ Pricing update 2025 FAQs
+ What are the changes and why are they happening? 
+ This is our first price increase in 12 years. You can read about all the changes and the reasons behind them in Nathan's letter here .
+ When will the new pricing update in 2025 take effect? 
+ If you're a current customer, the new pricing takes effect on your next billing cycle after October 15, 2025. You'll get at least 30 days' notice before anything changes on your account.
+ Will my discount still apply? 
+ Yes. If you have a coupon or discount applied to your billing, it will continue until it expires. The discount will apply to the new price.
+ What if I can't afford the annual price upfront? 
+ You can switch to a monthly plan instead. You can reach out to our support team at help@kit.com and our billing team will help you make the change.
+ What happens if I pause or cancel my account? 
+ You can pause or downgrade to the free plan at any time. Your data will be saved, and you can return later at the new plan price.
+ I saw lower prices in an older blog/review. Which is correct? 
+ Our pricing page always has the most current information. You can find it here .
+ What if I recently canceled but want to come back? 
+ We'd love to have you back. When you reactivate your account, you'll choose from our updated plans and prices.
+ Do nonprofit discounts still apply? 
+ Yes. If you're already on a nonprofit discount, it will be applied to your new price.
+ How can I figure out my new price? 
+ If your plan has been affected, you'll receive an email notification with information about your new price. After October 15, 2025, you'll be able to check your updated subscription amount on your Billing page.
+ Can I switch to annual billing to save money? 
+ Yes, annual billing is available for all plans and offers savings compared to monthly. You can switch to annual billing in your account settings .
+ What if I'm on a custom plan or have special pricing? 
+ If you have custom pricing or a special arrangement, your account manager will reach out to discuss how these changes affect your specific situation.
+ I'm thinking about canceling. Is there anything you can do? 
+ We'd love to help you get the most value from Kit before you make that decision. Our team can walk you through features you might not be using and help optimize your setup. Please reach out to discuss your specific situation at help@kit.com 
+ Will customer support change with the price increase? 
+ No, you'll continue to receive the same level of support you've always had. This investment helps us keep improving our support experience.
+ Will my Automations, Segments, or other settings be affected? 
+ No. All your existing Automations, Segments, subscriber data, and account settings will remain exactly the same.
+ Are there any changes to plan limits or features? 
+ No, the features and limits you're currently using for each plan will remain the same, and we're excited to release more new features in the future to bring more value for your business.
+ Who can I talk to about this change? 
+ You can contact our support team at help@kit.com to talk about this change or ask any other follow-up questions. We're here to help.

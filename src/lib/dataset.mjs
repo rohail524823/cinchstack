@@ -39,7 +39,7 @@ export function datasetJson() {
         addOns: p.addOns.map((x) => ({ id: x.id, name: x.name, price: x.price, unit: x.unit, note: x.note ?? null, source: src(x.source) })),
         usage: p.usage.map((x) => ({ id: x.id, name: x.name, rate: x.rate, unit: x.unit, note: x.note ?? null, source: src(x.source) })),
         extraCosts: p.extraCosts.map((x) => ({ id: x.id, label: x.label, display: x.display, kind: x.kind, source: src(x.source) })),
-        scenarios: p.scenarios.map((s) => ({ size: s.size, label: s.label, assumptions: s.assumptions, plan: s.planId, billing: s.billing, monthly: s.monthly, lines: s.lines, confidence: s.confidence })),
+        scenarios: p.scenarios.map((s) => ({ size: s.size, label: s.label, assumptions: s.assumptions, plan: s.planId, billing: s.billing, monthly: s.monthly, floor: Boolean(s.floor), lines: s.lines, confidence: s.confidence })),
         unverified: p.unverified,
         sources: p.sources.map((s) => ({ url: s.url, label: s.label, checkedOn: s.checkedOn })),
       };

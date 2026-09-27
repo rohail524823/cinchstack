@@ -1,0 +1,39 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "vendor": "Framer B.V.",
+  "tier": "secondary",
+  "layer": "site",
+  "category": "AI website builder and CMS",
+  "url": "https://www.framer.com",
+  "pricingUrl": "https://www.framer.com/pricing",
+  "oneLiner": "No-code AI website builder and CMS priced per site, where the Basic/Pro plan price itself scales with a monthly AI-credit tier, plus separate per-editor seat pricing.",
+  "summary": "Framer is a no-code website builder with a visual canvas editor, built-in CMS, AI design and content agents, and hosting, sold per site rather than per workspace. The Basic and Pro plans each list a price that assumes the lowest AI-credit tier; picking a higher credit tier for Agents or Localization on the same plan card raises that plan's price, up to $225/mo (Basic) or $1,500/mo (Pro) at the top tier. Editors beyond the workspace's first (free) admin are billed separately per seat, and Basic's page, CMS, and bandwidth limits are fixed with no pay-as-you-go option, unlike Pro's.",
+  "bestFor": [
+    "freelancer",
+    "agency",
+    "saas-startup"
+  ],
+  "notFor": [
+    "Online stores needing built-in checkout and payments -- these Site plans have no native e-commerce/cart system",
+    "Teams needing more than 10 total editor seats without moving to a custom Enterprise quote",
+    "Sites planning heavy AI Agent or Localization usage on a fixed budget -- the credit-tier pricing can take Basic to $225/mo or Pro to $1,500/mo"
+  ],
+  "pros": [
+    "The workspace's first editor (the admin) is free, and Full Editor seat pricing is now the same ($20/mo annual or $30/mo monthly) whether the site is on Basic or Pro",
+    "Password protection and site search are included on every paid plan rather than gated behind an add-on",
+    "Switching from monthly to annual billing is instant and self-serve, cutting Basic to $10/mo and Pro to $30/mo",
+    "Pro's page, CMS, and bandwidth limits can be raised with pay-as-you-go add-ons instead of forcing an Enterprise quote",
+    "Refunds are available worldwide within 7 days of purchase, not only in the EU/Turkey (which get 14 days)"
+  ],
+  "cons": [
+    "Basic and Pro's headline $15/$45 (or $10/$30 annual) price is only the plan's lowest AI-credit tier; heavier Agent/Localization use raises the same plan's price up to $225/mo (Basic) or $1,500/mo (Pro)",
+    "Basic is capped at exactly 2 CMS collections and 30 pages with no pay-as-you-go overage option -- exceeding either requires upgrading to Pro",
+    "Switching from annual back to monthly billing isn't self-serve; it requires contacting support, and unused annual value converts to non-refundable account credit",
+    "Both Basic and Pro cap a workspace at 10 total editor seats; only a custom Enterprise plan raises it",
+    "The Convert (A/B testing) and Advanced Hosting add-ons aren't available on Basic at all, only on Pro and Enterprise"
+  ],
+  "affiliate": {
+    "program": null
+  }
+}

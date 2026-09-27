@@ -1,0 +1,124 @@
+SOURCE: https://support.wix.com/en/article/purchasing-a-monthly-premium-plan
+FETCHED: 2026-09-27T02:38:31.104Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Topics
+Resources
+Hire a Professional
+Pricing
+Log In
+Get Started
+In this article
+Upgrading with a monthly plan
+FAQs
+Home
+Account & billing
+Billing & premium subscriptions
+Managing your subscriptions
+Billing for Premium Plans
+Purchasing a Monthly Plan
+Purchasing a Monthly Plan
+With a monthly Premium plan or Studio plan, you don't have to commit to a long-term subscription, and your plan automatically renews each month. By default, you are charged every month for your selected plan on the plan's expiration date. 
+Tip:
+Our yearly plans offer great savings and include a voucher for a 1-year free domain subscription. 
+Upgrading with a monthly plan
+You can upgrade your site at any time from your Wix account to enjoy all the benefits and features of a monthly plan.
+Important information regarding site upgrades:
+Site upgrades are only valid for one site. To upgrade multiple sites in your Wix account, you can purchase multiple plans.
+Plans are set to renew automatically so that your site never experiences downtime. You can turn off the auto-renewal if you don't want your plan to renew. Make sure to do this after the first 14-day money back period, otherwise your plan is cancelled immediately.
+To upgrade with a monthly plan:
+Go to the Upgrade page.
+Click Select under the plan you wish to purchase.
+Select Monthly and click Continue to Checkout.
+Enter your payment details and click Submit Purchase.
+Note:
+After submitting your purchase, your bank may require you to verify your identity. If you're experiencing any issues with the authentication process, contact your bank directly.
+FAQs
+Click a question below to learn more about monthly plans.
+Do monthly plans include Wix vouchers or premium apps?
+Monthly plans do not include Wix vouchers or premium apps.
+Can I buy a Wix Logo plan that includes a monthly site plan?
+Currently, it is not possible to buy Wix Logo plans that include a monthly website subscription. It is only possible to purchase these subscriptions with a yearly site plan. 
+
+You can vote for this feature and we'll make sure to keep you updated. As an alternative option, you can purchase a monthly plan for your website and purchase Wix Logo separately. 
+Did this help?
+Yes
+|
+No
+Hire a Professional
+Get matched with a Wix Partner who can help you reach your site goals.
+Start Now
+Helpmate
+Hello
+Need a bit more guidance?
+Unlock personalized help
+Log in to get the most out of Helpmate.
+Log In
+
+Product
+
+Website Builder
+AI Website Builder
+Website Templates
+Website Design
+Web Hosting
+Landing Page Builder
+Domain Registration
+WHOIS Lookup
+Domain Name Search
+Wix Studio
+Mobile App Builder
+Base44
+
+Solutions
+
+Business website
+Online Store Builder
+eCommerce Website
+Portfolio Website
+Blog Website
+Business Software
+Business email
+Free Business Tools
+Point of Sale
+Online Booking
+Logo Maker
+Wix University
+
+Resources
+
+Wix Blog
+Privacy and Security Hub
+SEO Learning Hub
+Wix Website Features
+App Market
+Website Accessibility
+
+Support
+
+Help Center
+Hire a Professional
+Report Abuse
+System Status
+
+Company
+
+Channel Partnerships
+Press & Media
+Investor Relations
+Wix Ventures
+Accessibility Statement
+Patent Notice
+Sitemap
+Careers
+
+Wix is a website builder and domain registrar that gives any business or individual the freedom to build a professional website, register a domain name or do both all in one place. By combining design tools, domain registration and business solutions in one AI-powered platform, Wix makes it easy for anyone to create without limits and scale confidently online.
+
+About
+Contact Us
+Do Not Sell or Share My Personal Information
+Terms of Use
+Privacy Policy
+© 2006-2026 Wix.com, Inc
+
+We use cookies and similar technologies. You can opt-out by clicking 'Do Not Sell or Share My Personal Information' at the bottom of the page.

@@ -1,0 +1,42 @@
+SOURCE: https://intercom.help/convertkit/en/articles/16627071-the-kit-free-plan
+FETCHED: 2026-09-27T02:25:38.000Z
+RENDERER: curl (raw HTML), content within Kit's Help Center <article> tag extracted to text; Kit's Help Center is hosted on Intercom's intercom.help domain (help.kit.com redirects/mirrors it) and was reachable directly, unlike kit.com itself which returned a Cloudflare bot-check.
+TITLE: The Kit Free plan | Kit Help Center
+----
+The Kit Free plan | Kit Help Center
+Kit's Free plan gives you up to 10,000 email subscribers, unlimited forms and landing pages, and unlimited email broadcasts at no cost. Here's what's included, what needs a paid plan, and how to move between them.
+ What's included on the Free plan
+ The Free plan costs $0 per month for as long as you stay under 10,000 subscribers. It includes:
+ Up to 10,000 email subscribers
+ Unlimited forms and landing pages
+ Unlimited email broadcasts
+ Audience tagging and segmentation
+ Digital products and subscriptions, so you can sell straight from your list
+ A/B testing on your broadcasts
+ Free and Smart Recommendations through the Creator Network, including being featured by other creators. Paid plans get priority.
+ API access
+ What needs a paid plan
+ The Free plan is built around growing your list. These features live on the Creator and Creator Pro plans:
+ Visual automations and the automation template library
+ Email sequences
+ Rules and RSS campaigns
+ AI Connectors
+ Paid apps in the Kit App Store. Free apps are still available to you
+ Earning from Paid Recommendations
+ You can still open the Visual Automations and Email Sequences pages and look around. When you go to create one, you'll see your upgrade options.
+ The Creator Network on the Free plan
+ You're enrolled in the Creator Network when you sign up, so other creators can recommend your newsletter and you can recommend theirs. It's one of the quickest ways to build a list from scratch.
+ You get five Smart Recommendation slots, which fill automatically with creators whose content is similar to yours, and all five are yours to edit. You can also be featured in other creators' Smart Recommendations and gain subscribers from their audiences. Paid plans get priority and a larger share of these recommendations, so you'll be featured more often after you upgrade. Earning from Paid Recommendations needs a paid plan.
+You can turn Recommendations off anytime in your Creator Network settings, and nothing else about your plan changes if you do. See how to turn off your Recommendations for the steps. 
+ How to get started
+ Pick the Free plan on the Kit pricing page to create your account.
+ Importing your existing list
+ You can bring your subscribers with you. Follow the guide on how to import a subscriber list , and keep your total under 10,000 to stay on the Free plan.
+ When you pass 10,000 subscribers
+ You'll need to upgrade to a paid plan to keep sending. Everything you've built stays exactly where it is, and automations, sequences, and the rest of the paid features unlock as soon as you upgrade.
+ Moving to the Free plan from a paid plan
+ You can switch to the Free plan anytime from your billing settings. See how to downgrade your plan for the steps.
+ If you're on a paid plan, you keep your paid features until the end of your current billing period. If you're on a trial, access to paid features ends as soon as you switch.
+ Anything you built on a paid plan stays in your account. Visual automations and sequences stop running while you're on the Free plan, and you'll get them back when you upgrade again.
+ Support on the Free plan
+ Support is available on every Kit plan, Free included. Requests from Free plan accounts are answered in the order they're received within 24 hours.

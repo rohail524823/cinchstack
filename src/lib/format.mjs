@@ -63,7 +63,7 @@ export function wordCount(s) {
 }
 
 /** A data-rendered figure as an HTML string (for places that take raw HTML). */
-export function figHtml(v, suffix = '') {
+export function figHtml(v, suffix = '', floor = false) {
   if (v === null || v === undefined) return '—';
-  return `<data value="${v}" data-fig>${money(v)}${suffix}</data>`;
+  return `${floor ? '<span class="floor">from </span>' : ''}<data value="${v}" data-fig>${money(v)}${suffix}</data>`;
 }

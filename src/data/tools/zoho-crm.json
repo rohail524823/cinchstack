@@ -1,0 +1,33 @@
+{
+  "id": "zoho-crm",
+  "name": "Zoho CRM",
+  "vendor": "Zoho Corporation",
+  "tier": "secondary",
+  "layer": "run",
+  "category": "CRM and sales automation software",
+  "url": "https://www.zoho.com/crm/",
+  "pricingUrl": "https://www.zoho.com/crm/zohocrm-pricing.html",
+  "oneLiner": "Per-user CRM billed flat across five editions (Free through Ultimate); every paid edition costs 20-34% less per seat when billed annually instead of month-to-month.",
+  "summary": "Zoho CRM prices Free, Standard, Professional, Enterprise and Ultimate purely per user, with no contact-count tiers to budget around. Each paid edition raises automation, AI and customization limits, and costs 20 to 34 percent less per seat when billed annually instead of month-to-month. Mass/marketing email sending is capped per organization per day rather than per user, and Zoho does not list a native SMS feature on its pricing or feature-comparison pages.",
+  "bestFor": ["agency", "freelancer", "local-service", "saas-startup"],
+  "notFor": [
+    "Teams that need native SMS/texting billed through the CRM itself (not a listed feature on any edition; would need a separate integration)",
+    "Organizations sending more than about 60,000 mass marketing emails a month (even Ultimate caps org-wide mass email at 2,000/day)",
+    "Buyers who want the annual per-seat price without prepaying the year (month-to-month costs 20-34% more per seat)"
+  ],
+  "pros": [
+    "Free plan for up to 3 users with workflow automation, APIs and mobile apps, no credit card required",
+    "15-day free trial on every paid edition, no credit card required",
+    "Flat per-user pricing across all 5 editions, with no contact-count tiers to budget around",
+    "No long-term contract: pay-as-you-go monthly or yearly, and switch plans anytime",
+    "Cheaper Lite User seats (US$12-15/month) on Enterprise and Ultimate for team members who only need limited access"
+  ],
+  "cons": [
+    "Month-to-month billing costs 20-34% more per seat than paying annually, on every paid edition",
+    "Mass/marketing email is capped per organization per day (250 on Standard up to 2,000 on Ultimate), not scaled per user",
+    "No native SMS/texting feature found on Zoho's own pricing or feature-comparison pages",
+    "Free plan can't send mass emails at all and is capped at 5,000 records (10MB) of storage",
+    "Extra file storage (US$4.60/5GB) and extra data storage (US$4/100MB) are recurring add-on charges, not one-time purchases"
+  ],
+  "affiliate": { "program": null }
+}

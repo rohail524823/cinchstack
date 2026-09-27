@@ -1,0 +1,35 @@
+SOURCE: https://intercom.help/convertkit/en/articles/2537095-account-upgrade-downgrade-faqs
+FETCHED: 2026-09-27T02:25:38.000Z
+RENDERER: curl (raw HTML), content within Kit's Help Center <article> tag extracted to text; Kit's Help Center is hosted on Intercom's intercom.help domain (help.kit.com redirects/mirrors it) and was reachable directly, unlike kit.com itself which returned a Cloudflare bot-check.
+TITLE: Account upgrade | downgrade FAQs | Kit Help Center
+----
+Account upgrade | downgrade FAQs | Kit Help Center
+Whether it's time to grow your list or prune it, we've got you covered. 
+ Pruning your list can be scary. Likewise about growing it! These are both natural parts of list growth over time, and we want you to be comfortable with them.
+ Here's what you should know:
+ When your list is growing
+ What happens when I exceed my pricing tier’s subscriber limit?
+ When you grow past your current tier's subscriber limit, we automatically upgrade you to the next tier. Here's how we handle the billing:
+ Monthly plans: You'll be charged on your next billing date for:
+ Your new tier's monthly price
+ A prorated charge for the days remaining in your current billing period
+ Annual plans: 
+ You'll be charged immediately for the prorated difference
+ At your next renewal date, you'll be charged the full annual price for your new tier
+ Here's an example if you're on the monthly plan: 
+ October 1: You pay $39/mo for up to 1,000 subscribers
+ October 21: You reach 1,001 subscribers and automatically get upgraded to the $59/mo tier for up to 3,000 subscribers
+ October 21: You'll receive an Unused Time credit of $12.67 (for 10 unused days on the $39 tier).
+ October 21: You'll receive a scheduled Remaining Time charge of $19.67 (for 10 pro-rated days on the $59 tier).
+ November 1: You pay $66 for up to 3,000 subscribers, being:
+ $59/mo for the new subscriber tier
+ $7 prorated charge (difference between the credit and charge)
+ We work hard to make sure that all our customers' accounts get upgraded quickly and efficiently. However, if you notice you are getting close and would like to email us at help@kit.com , we're here for that too. Either way, we will get you upgraded as needed!
+ What happens if I import a large list?
+ If you are importing a new list of subscribers (from a giveaway or live event, for instance), your account may be temporarily suspended.
+ If you can, please let us know in advance that you will be importing a large number of subscribers, so we can remove the suspension.
+ When you prune your list
+ Pruning your list about two times a year, or every six months, is a healthy practice. This way, you better ensure your list contains only engaged subscribers, which creates better open rates, supports long-term list health, and can even lower your email bill.
+ Learn how to prune, or clean, your list here. 
+ If you prune your list to the point that your confirmed subscriber count drops below the limit for the next-lowest pricing tier, you can downgrade your pricing tier from your account settings.
+ Learn how to downgrade your pricing tier here.

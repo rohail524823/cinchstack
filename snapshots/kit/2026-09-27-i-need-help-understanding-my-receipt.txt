@@ -1,0 +1,24 @@
+SOURCE: https://intercom.help/convertkit/en/articles/2502683-i-need-help-understanding-my-receipt
+FETCHED: 2026-09-27T02:25:38.000Z
+RENDERER: curl (raw HTML), content within Kit's Help Center <article> tag extracted to text; Kit's Help Center is hosted on Intercom's intercom.help domain (help.kit.com redirects/mirrors it) and was reachable directly, unlike kit.com itself which returned a Cloudflare bot-check.
+TITLE: I need help understanding my receipt | Kit Help Center
+----
+I need help understanding my receipt | Kit Help Center
+Did you receive a Kit receipt with a different amount than you expected?
+ This is likely because your plan was upgraded sometime last month — congratulations! 
+ When we upgrade accounts in the middle of the month, the amount you have already paid for the month and the amount you owe for the month are prorated (charged only for the days you used).
+ Here's an example:
+ On March 1, you paid $39 for the month of March.
+ On March 20, you are upgraded to the next tier, the $59/mo plan.
+ We refund the 10 days of the $39 plan you didn't use ($12.87). This is your Unused Time.
+ We charge you for the 10 days on the upgraded plan ($19.47). This is your Remaining Time.
+ We take the sum of the credit and the charge ($6.60) and add it to your next bill.
+ So on April 1, you are charged $65.67.
+ Downgrades work a little differently than upgrades. If you've cleaned out some cold subscribers and dropped under 1000 subscribers, you can request a downgrade to a lower tier anytime from your Account & Billing settings.
+ Your downgrade will simply take effect on your next billing date, so there's nothing to calculate in the meantime — you'll just see your new, lower rate on your next bill.
+ Here's what that looks like:
+ On May 1, you paid $59 for the month of May.
+ On May 20, you clean your list, drop under 1,000 subscribers, and request a downgrade.
+ You'll stay on your current plan for the rest of May.
+ On June 1, your next billing date, your account moves to the lower tier and your bill reflects the new $39/mo rate.
+ If you still have questions about your receipt, please email us at help@kit.com

@@ -85,7 +85,7 @@ const glance = [
       <p class="table-lead">The real monthly bill at three business sizes, every line included{pricingExists ? '; the full breakdown is on the pricing page' : ''}.</p>
       <div class="tbl-wrap"><table class="data stack">
         <thead><tr><th scope="col">Size</th><th scope="col">Scenario</th><th scope="col" class="num">Per month</th></tr></thead>
-        <tbody>{['solo', 'small', 'growing'].map((s) => { const sc = scenario(id, s); return <tr><th scope="row">{SIZE_LABELS[s]}</th><td data-label="Scenario">{sc.label}</td><td class="num" data-label="Per month"><Fig v={sc.monthly} /></td></tr>; })}</tbody>
+        <tbody>{['solo', 'small', 'growing'].map((s) => { const sc = scenario(id, s); return <tr><th scope="row">{SIZE_LABELS[s]}</th><td data-label="Scenario">{sc.label}</td><td class="num" data-label="Per month"><Fig v={sc.monthly} floor={sc.floor} /></td></tr>; })}</tbody>
       </table></div>
       {pricingExists && <p><a href={`/tools/${id}/pricing/`}>Every plan, add-on and hidden cost in {t.name}'s pricing →</a></p>}
       {(cmps.length > 0 || altExists) && (<>

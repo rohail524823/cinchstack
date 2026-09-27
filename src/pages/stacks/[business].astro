@@ -68,8 +68,8 @@ const jsonld = [
             <h3>{tool(l.pick).name}</h3>
             <p data-prose>{l.why}</p>
             {(() => { const cell = bill.rows[i].cells.small; return cell.override
-              ? <p class="small">{s.sizeLabels.small}: {cell.amount === 0 ? cell.note : <><Fig v={cell.amount} suffix="/mo" /> <span class="muted">({cell.note})</span></>}</p>
-              : <p class="small">{s.sizeLabels.small}: <Fig v={cell.amount} suffix="/mo" />{best(l.pick) && <> · <a href={best(l.pick)}>real cost</a></>}</p>; })()}
+              ? <p class="small">{s.sizeLabels.small}: {cell.amount === 0 ? cell.note : <><Fig v={cell.amount} suffix="/mo" floor={cell.floor} /> <span class="muted">({cell.note})</span></>}</p>
+              : <p class="small">{s.sizeLabels.small}: <Fig v={cell.amount} suffix="/mo" floor={cell.floor} />{best(l.pick) && <> · <a href={best(l.pick)}>real cost</a></>}</p>; })()}
             {!includedEverywhere(i) && <AffLink tool={l.pick} page={path} placement={`stack-${l.layer}`} label={`Visit ${tool(l.pick).name}`} />}
           </div>
           {l.alternatives.length > 0 && (

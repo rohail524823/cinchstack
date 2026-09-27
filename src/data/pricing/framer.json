@@ -1,0 +1,422 @@
+{
+  "tool": "framer",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Read Framer's pricing page in a US-locale headless browser with the Yearly-billing toggle in both states, with the Compare-plans table's checkmark/dash icons converted to text markers, and with every AI-credit-tier dropdown option on the Basic and Pro cards selected in turn in both billing states; checked price consistency across 5 browser locale/timezone settings from one US IP; and read Framer's Help Center articles on site plans, best use cases per plan, changing billing cycle, the new (May 2026) billing system, legacy plans, member roles, refund policy, subscriptions and charges, bandwidth usage, and counting billed editors. All 19 snapshots were captured in an earlier pass and reused as-is; no new snapshots were needed.",
+  "sources": [
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing page, annual billing as loaded (Free/Basic/Pro/Enterprise cards and the Compare plans table)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-pricing-yearly.txt"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing page after clicking the Yearly-billing switch off (monthly billing)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-pricing-monthly.txt"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing page, annual billing, with the Compare-plans table's checkmark/dash icons converted to '[included]'/'[not included]' text markers",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-pricing-feature-icons.txt"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing page, annual billing, every Basic and Pro AI-credit-tier dropdown option selected in turn",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-pricing-yearly-credit-tiers.txt"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing page, monthly billing, every Basic and Pro AI-credit-tier dropdown option selected in turn",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-pricing-monthly-credit-tiers.txt"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing page loaded under 5 browser locale/timezone settings (en-US, en-GB, de-DE, ja-JP, en-IN), all from one US IP address",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-pricing-locales.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/site-plans-explained/",
+      "label": "Help Center: Site plans overview",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-site-plans-explained.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/best-use-cases-for-each-framer-plan/",
+      "label": "Help Center: Best use cases for each Framer plan",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-best-use-cases-for-each-framer-plan.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/modify-your-billing-cycle-in-framer/",
+      "label": "Help Center: Change your billing cycle",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-modify-your-billing-cycle-in-framer.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/learn-more-about-our-new-billing-system/",
+      "label": "Help Center: Learn about Framer's new billing system",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-learn-more-about-our-new-billing-system.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/legacy-plans/",
+      "label": "Help Center: Legacy plans",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-legacy-plans.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/member-roles-and-permissions/",
+      "label": "Help Center: Members, roles, and permissions",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-member-roles-and-permissions.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/refund-policy/",
+      "label": "Help Center: Refund policy",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-refund-policy.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/subscriptions-and-charges/",
+      "label": "Help Center: Subscriptions and charges",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-subscriptions-and-charges.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/understanding-bandwidth-usage/",
+      "label": "Help Center: Understanding bandwidth usage",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-understanding-bandwidth-usage.txt"
+    },
+    {
+      "url": "https://www.framer.com/help/articles/checking-the-total-and-billed-editors-in-your-workspace/",
+      "label": "Help Center: Check the total and billed editors in your workspace",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/framer/2026-09-26-help-checking-the-total-and-billed-editors-in-your-workspace.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free plan with no stated time limit: $0, a free framer.site subdomain (no custom domain), 1 GB bandwidth/month, and 500 one-time AI credits to try (no monthly renewal). Framer's Free-plan FAQ separately states it also includes up to 10 CMS collections, 1,000 pages, and 5 MB file uploads for design/exploration use, and that a workspace with no paid Site plan supports up to 3 collaborating editors for free."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": false,
+    "summary": "Framer doesn't run a time-boxed free trial of Basic or Pro; it instead offers an indefinite Free plan (no credit card required to sign up, per the 'Start for Free'/'Try for free' calls to action) that you upgrade from whenever you need a custom domain or higher limits.",
+    "source": 0
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-site-month",
+      "seatsIncluded": 3,
+      "note": "Every workspace starts here; there's no stated expiry. Framer's own Free-plan FAQ gives a different (more generous) limit set than the plan card's headline bullets: the card shows 1 GB bandwidth, a free Framer subdomain, and 500 one-time AI credits, while the FAQ separately says Free projects get up to 10 CMS collections, 1,000 pages, 5 MB file uploads, and 1 free locale for design/exploration, and that a workspace with no paid Site plan supports up to 3 collaborating editors for free (paid plans only keep the first editor free).",
+      "limits": [
+        "No custom domain — only a free framer.site subdomain, with Framer's own branding shown when published",
+        "1 GB bandwidth/month",
+        "500 AI credits to try, one-time (no monthly renewal); credits are shared workspace-wide",
+        "Per the Free-plan FAQ: up to 10 CMS collections, 1,000 pages, and 5 MB file uploads for design/exploration use"
+      ],
+      "highlights": [
+        "Free Framer domain",
+        "Design pages",
+        "Up to 3 free collaborating editors (no paid Site plan)",
+        "1 free locale to try"
+      ],
+      "source": 0
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "monthly": 15,
+      "annualMonthly": 10,
+      "priceUnit": "per-site-month",
+      "seatsIncluded": 1,
+      "note": "$15/mo month-to-month or $10/mo billed annually ($120/yr) — but that price is only Basic's lowest AI-credit tier (1,000 credits/month). The same Basic card lets you pick a higher credit tier from a dropdown, which raises the whole plan's price on the spot: 2,000 credits = $30/mo monthly ($20/mo annual), 3,000 = $45/$30, 5,000 = $75/$50, 8,000 = $120/$80, 10,000 = $150/$100, 15,000 = $225/$150 (see the basic-credits-15000 add-on). Basic's page/CMS/bandwidth limits are fixed with no pay-as-you-go overage option — Framer's own pricing page labels Basic's limits style 'Fixed' versus Pro's 'Flexible, pay what you use.' The plan's one included seat is the workspace's first (admin) editor, which is always free; additional editors are a separate per-seat add-on.",
+      "limits": [
+        "2 CMS collections and 1,000 CMS items — fixed, no pay-as-you-go overage; upgrading to Pro is the only way to raise them",
+        "30 site pages — fixed, no overage",
+        "50 GB bandwidth/month — fixed, no pay-as-you-go overage; Framer allows exceeding it for one month before requiring an upgrade",
+        "20 CDN edge locations",
+        "30-day analytics history",
+        "Max 10 total editor seats per workspace",
+        "Localization add-on available (up to 20 locales); the Convert (A/B testing) and Advanced Hosting add-ons are Pro/Enterprise-only"
+      ],
+      "highlights": [
+        "Free custom domain (complimentary domain included when billed annually)",
+        "Built-in SEO",
+        "Password protection and site search included",
+        "1,000 AI credits/month at the base tier, doubled in the first month"
+      ],
+      "source": 0
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "monthly": 45,
+      "annualMonthly": 30,
+      "priceUnit": "per-site-month",
+      "seatsIncluded": 1,
+      "note": "$45/mo month-to-month or $30/mo billed annually ($360/yr) — again only Pro's lowest AI-credit tier (3,000 credits/month). Picking a higher tier from the same dropdown raises the plan's price: 5,000 credits = $75/mo monthly ($50/mo annual), 10,000 = $150/$100, 20,000 = $300/$200, 30,000 = $450/$300, 50,000 = $750/$500, 100,000 = $1,500/$1,000 (see the pro-credits-100000 add-on). Unlike Basic, Pro's page/CMS-collection/CMS-item/bandwidth limits are pay-as-you-go: each can be raised with a metered add-on instead of forcing an Enterprise quote. The plan's one included seat is the workspace's first (admin) editor; additional editors and Content Editors are separate per-seat add-ons, priced the same whether the site is on Basic or Pro.",
+      "limits": [
+        "10 CMS collections (add-on raises it to 40) and 2,500 CMS items (add-on raises it to 40,000)",
+        "150 site pages (add-on raises it to 700)",
+        "100 GB bandwidth/month (add-on raises it to 2 TB)",
+        "300+ CDN edge locations",
+        "90-day analytics history",
+        "Max 10 total editor seats per workspace — the same cap as Basic"
+      ],
+      "highlights": [
+        "Free custom domain (complimentary domain included when billed annually)",
+        "Site redirects, staging environment, and branching with previews",
+        "Advanced Hosting and Convert (A/B testing) available as add-ons (not offered on Basic)",
+        "3,000 AI credits/month at the base tier, doubled in the first month"
+      ],
+      "source": 0
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Quote-only via 'Request Trial'/the Enterprise contact form; no self-serve price is shown anywhere on the pricing page. Framer's pricing-page FAQ describes it as tailored to teams that need custom limits, annual billing, and dedicated support. Editor pricing and the 10-seat cap that apply to Basic and Pro are both replaced with 'Custom'/'Unlimited' on Enterprise, and the Advanced Hosting add-on is included at no extra charge.",
+      "limits": [
+        "Custom limits on pages, CMS collections/items, and bandwidth",
+        "Unlimited editors (no 10-seat cap)",
+        "SCIM and SSO"
+      ],
+      "highlights": [
+        "Enterprise-grade security",
+        "Uptime guarantee",
+        "Credits with volume discounts",
+        "Advanced Hosting included"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [
+    {
+      "id": "additional-editor",
+      "name": "Additional editor (Full Editor seat)",
+      "price": 30,
+      "unit": "per editor per month, billed monthly",
+      "appliesTo": [
+        "basic",
+        "pro"
+      ],
+      "note": "$20/mo per editor if the underlying Site plan is billed annually (still charged monthly, not prepaid for the year). Same price on Basic and Pro. The workspace's first (admin) editor is free; this add-on covers every editor after that, up to the plan's 10-seat cap. Framer notifies the workspace and charges within 24 hours of a new editor being added.",
+      "source": 1
+    },
+    {
+      "id": "content-editor",
+      "name": "Content Editor seat",
+      "price": 15,
+      "unit": "per Content Editor seat per month, billed monthly",
+      "appliesTo": [
+        "basic",
+        "pro"
+      ],
+      "note": "$10/mo per seat if the Site plan is billed annually. A cheaper seat type (introduced with Framer's May 27, 2026 billing update) restricted to updating CMS content, managing localization, and on-page editing — it can't do full design/publish work like a Full Editor.",
+      "source": 1
+    },
+    {
+      "id": "translation-locale",
+      "name": "Translation locale (Localization add-on)",
+      "price": 25,
+      "unit": "per additional language locale per month, billed monthly (up to 20 locales)",
+      "appliesTo": [
+        "basic",
+        "pro"
+      ],
+      "note": "$20/mo per locale if billed annually. Available on both Basic and Pro at the same price; Enterprise gets a custom quote instead. The Free plan separately includes 1 locale to try.",
+      "source": 1
+    },
+    {
+      "id": "convert-events",
+      "name": "Convert (A/B testing, funnels, triggers)",
+      "price": 60,
+      "unit": "per 500,000 analytics events per month, billed monthly",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$50/mo per 500,000 events if billed annually. Only sold on Pro (Enterprise gets a custom quote); not available on Basic at all. An event is a page view, a tracked-link click, or a tracked form submission. Also enables up to 5 concurrent A/B tests. Repeated Convert purchases can raise the total to 1.5M events/month on Pro, per the pricing FAQ.",
+      "source": 1
+    },
+    {
+      "id": "advanced-hosting",
+      "name": "Advanced Hosting",
+      "price": 250,
+      "unit": "per month, billed monthly",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$200/mo if billed annually. Only sold on Pro (not offered on Basic); included at no extra charge on Enterprise. Adds up to 6 rewrites, custom Permissions-Policy/Referrer-Policy/X-Frame-Options headers, and lets multiple Framer sites share one domain with custom headers; the pricing FAQ separately says the add-on also allows uploading up to 500 static files.",
+      "source": 1
+    },
+    {
+      "id": "pro-extra-pages",
+      "name": "Extra site pages (Pro overage)",
+      "price": 30,
+      "unit": "per additional 100 site pages per month, billed monthly, up to 700 pages total",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$20 per 100 pages if billed annually. Pro only; Basic's 30-page cap has no pay-as-you-go option.",
+      "source": 1
+    },
+    {
+      "id": "pro-extra-cms-collections",
+      "name": "Extra CMS collections (Pro overage)",
+      "price": 50,
+      "unit": "per additional 10 CMS collections per month, billed monthly, up to 40 collections total",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$40 per 10 collections if billed annually. Pro only; Basic's 2-collection cap has no pay-as-you-go option.",
+      "source": 1
+    },
+    {
+      "id": "pro-extra-cms-items",
+      "name": "Extra CMS items (Pro overage)",
+      "price": 30,
+      "unit": "per additional 10,000 CMS items per month, billed monthly, up to 40,000 items total",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$20 per 10,000 items if billed annually. Pro only; Basic's 1,000-item cap has no pay-as-you-go option.",
+      "source": 1
+    },
+    {
+      "id": "pro-extra-bandwidth",
+      "name": "Extra bandwidth (Pro overage)",
+      "price": 50,
+      "unit": "per additional 100 GB bandwidth per month, billed monthly, up to 2 TB total",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$40 per 100 GB if billed annually. Pro only; Basic's 50 GB cap has no pay-as-you-go option.",
+      "source": 1
+    },
+    {
+      "id": "basic-credits-15000",
+      "name": "Basic plan at the 15,000 AI-credits/month tier",
+      "price": 225,
+      "unit": "per month, billed monthly (replaces Basic's default 1,000-credit-tier price; the plan's top credit tier)",
+      "appliesTo": [
+        "basic"
+      ],
+      "note": "$150/mo if billed annually. This is Basic's own credits dropdown, not a separate purchase: picking a higher tier changes the whole plan price. Full Basic ladder (credits: monthly/annual) confirmed on the pricing page: 1,000: $15/$10 (default), 2,000: $30/$20, 3,000: $45/$30, 5,000: $75/$50, 8,000: $120/$80, 10,000: $150/$100, 15,000: $225/$150 (this tier).",
+      "source": 4
+    },
+    {
+      "id": "pro-credits-100000",
+      "name": "Pro plan at the 100,000 AI-credits/month tier",
+      "price": 1500,
+      "unit": "per month, billed monthly (replaces Pro's default 3,000-credit-tier price; the plan's top credit tier)",
+      "appliesTo": [
+        "pro"
+      ],
+      "note": "$1,000/mo if billed annually. This is Pro's own credits dropdown, not a separate purchase: picking a higher tier changes the whole plan price. Full Pro ladder (credits: monthly/annual) confirmed on the pricing page: 3,000: $45/$30 (default), 5,000: $75/$50, 10,000: $150/$100, 20,000: $300/$200, 30,000: $450/$300, 50,000: $750/$500, 100,000: $1,500/$1,000 (this tier).",
+      "source": 4
+    }
+  ],
+  "usage": [],
+  "extraCosts": [],
+  "billingNotes": [
+    "Framer's Basic and Pro headline prices ($15/$45 monthly, $10/$30 annual) are the price at each plan's lowest AI-credit tier (1,000 credits/month for Basic, 3,000 for Pro). Selecting a higher credit tier from the same plan card raises the whole plan's price -- up to $225/mo monthly ($150/mo annual) at 15,000 credits on Basic, or $1,500/mo monthly ($1,000/mo annual) at 100,000 credits on Pro.",
+    "Basic's page (30), CMS-collection (2), CMS-item (1,000), and bandwidth (50 GB) limits are fixed with no pay-as-you-go overage option; Framer's own pricing page calls Basic's limits style 'Fixed' versus Pro's 'Flexible, pay what you use.' The same limits on Pro can instead be raised with paid add-ons (up to 700 pages, 40 collections, 40,000 items, or 2 TB bandwidth).",
+    "The first editor in every workspace (an admin) is free; every additional Editor or Content Editor seat is billed, and per-editor pricing plus the workspace-wide 10-seat cap (Basic and Pro) are both set by the highest-tier Site plan in the workspace, not by each individual site. A workspace with no paid Site plan at all separately supports up to 3 free editors, per Framer's Free-plan FAQ.",
+    "As of Framer's May 27, 2026 billing update, Full Editor seat pricing is the same on Basic and Pro, Content Editor became its own cheaper seat type, sites/add-ons/editor-seats now bill on separate invoice line items, and editor seats can be bought upfront and reassigned.",
+    "Plans purchased before October 9, 2025 ('legacy plans') keep their original price and features indefinitely unless the customer switches plans or cancels; editors or locales added to a legacy plan after that date are billed at current prices, and switching off a legacy plan can't be undone.",
+    "Switching from monthly to annual billing is instant and self-serve from the project's Plans tab; switching back from annual to monthly is not self-serve and requires contacting support, and any unused annual value converts to non-refundable account credit.",
+    "Additional-Editor and Content-Editor charges always bill monthly, even on an annual Site plan; whether the $20/$30 (Editor) or $10/$15 (Content Editor) rate applies depends on whether the underlying Site plan itself is on annual or monthly billing.",
+    "Refunds are available worldwide within 7 days of the initial purchase, and within 14 days for customers in the EU and Turkey (a local legal requirement); each add-on has its own refund window starting from its own purchase date, and a usage-based add-on (bandwidth or AI credits) becomes non-refundable once any part of it has been used.",
+    "Framer's Refund Policy article says subscription payments are processed through Stripe; a separate Subscriptions and Charges article instead says billing is handled by 'Stripe or Paddle.com' depending on region/account. The pricing page itself says Framer accepts credit cards and, in some regions, PayPal, with custom billing (including bank transfer) available for Enterprise."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "Framer's pricing-page footnote says 'Any applicable sales tax will be added at checkout based on your location,' implying the underlying USD list price itself doesn't change by country. This record checked identical figures across 5 browser locale/timezone settings (en-US, en-GB, de-DE, ja-JP, en-IN), but all requests came from one US IP address, so true IP-based country pricing was not tested."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 site, 1 editor, ~20-page blog/CMS, ~10k visits/mo",
+      "assumptions": "The workspace's first editor (an admin) is always free, so the solo owner adds no editor charge. ~20 pages fits Basic's 30-page cap, and a single CMS collection is enough for a blog this size, well under Basic's 2-collection/1,000-item caps. Framer doesn't publish a bytes-per-visit figure, but a lean ~20-page site at 10,000 visits/month is a plausible fit within Basic's 50 GB/month bandwidth allowance. Month-to-month billing.",
+      "planId": "basic",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Basic plan, billed monthly",
+          "amount": 15
+        }
+      ],
+      "monthly": 15,
+      "confidence": "high",
+      "note": "Billed annually the same plan is $10/mo ($120/yr). Basic's limits are fixed with no pay-as-you-go overage, so if this site later needs more than 2 CMS collections or exceeds 50 GB/month, the only option is to upgrade to Pro."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 1 site, 3 editors, ~200 CMS items, ~50k visits/mo",
+      "assumptions": "Basic is capped at exactly 2 CMS collections with no pay-as-you-go overage option (only Pro offers paid overage on collections), and a small-team site with ~200 CMS items plausibly needs more than 2 content collections (e.g. blog, case studies, and team), so Pro is the safer pick even though 200 items alone would fit Basic's 1,000-item cap. Of the 3 editors, the workspace's first is free; the other 2 are billed as Additional Editors. Pro's 100 GB bandwidth (with paid overage available) comfortably covers ~50k visits/month. Month-to-month billing throughout.",
+      "planId": "pro",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Pro plan, billed monthly",
+          "amount": 45
+        },
+        {
+          "label": "2 additional editors x $30/month each (3 editors total; the workspace's first editor is free)",
+          "amount": 60
+        }
+      ],
+      "monthly": 105,
+      "confidence": "medium",
+      "note": "Billed annually: Pro is $30/mo and each additional editor is $20/mo, i.e. $30 + 2x$20 = $70/mo ($840/yr) instead of $105/mo month-to-month."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 1 site, 8 editors, ~1,000 CMS items, ~250k visits/mo",
+      "assumptions": "Pro's CMS items (2,500 base, expandable to 40,000 via add-on) and CMS collections (10, expandable to 40) comfortably cover ~1,000 CMS items. All 8 editors fit within Pro's 10-seat cap, so Enterprise isn't required on editor count alone. Of the 8 editors, the first is free; the other 7 are billed as Additional Editors. Month-to-month billing throughout.",
+      "planId": "pro",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Pro plan, billed monthly",
+          "amount": 45
+        },
+        {
+          "label": "7 additional editors x $30/month each (8 editors total; the workspace's first editor is free)",
+          "amount": 210
+        }
+      ],
+      "monthly": 255,
+      "confidence": "medium",
+      "note": "Billed annually: Pro is $30/mo and each additional editor is $20/mo, i.e. $30 + 7x$20 = $170/mo ($2,040/yr) instead of $255/mo month-to-month. At ~250,000 visits/month this site will likely exceed Pro's 100 GB/month included bandwidth; Framer's pay-as-you-go overage rate is $50/100GB billed monthly ($40/100GB annual) up to a 2 TB/month cap, but since Framer doesn't publish a bytes-per-visit conversion, no specific overage amount is added to this total -- see unverified[]."
+    }
+  ],
+  "unverified": [
+    "Pro's own (non-add-on) static-file limit isn't shown as a distinct number on the pricing table: Basic shows 50 and Enterprise shows 'Custom', but Pro's cell is blank. The pricing FAQ says the Advanced Hosting add-on raises the cap to 500 files, but doesn't state Pro's base allowance without that add-on.",
+    "Whether the Enterprise plan includes Site redirects, Staging environment, Branching with previews, and Roles and permissions as distinctly available features: the icon-replacement capture shows checkmarks for Basic and Pro on those four rows but no icon at all (neither checkmark nor dash) in the Enterprise column.",
+    "The exact monthly bandwidth (in GB) a ~250,000-visit/month site would use, and therefore the size of any Pro bandwidth-overage charge at that traffic level -- Framer's bandwidth help article explains what drives usage but doesn't publish a bytes-per-visit or visits-per-GB conversion figure.",
+    "Whether Framer's listed USD prices vary by IP-detected country/region: only 5 browser locale/timezone settings from a single US IP address were tested (all showed identical figures); true cross-country IP-based pricing was not tested.",
+    "Whether the Convert add-on's $50/$60-per-500,000-events charge is a flat block price or is prorated below 500,000 events -- the FAQ only says billing is based on the number of events generated each month.",
+    "The dollar value of the 'Pro Experts save 50% on agent credits' and 'Pro Experts get free editor access on any client project' partner-program perks -- no separate published price exists for the Pro Experts program itself."
+  ],
+  "history": [
+    {
+      "date": "2026-09-26",
+      "change": "Initial record."
+    }
+  ]
+}

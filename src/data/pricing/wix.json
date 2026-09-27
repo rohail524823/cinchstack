@@ -1,0 +1,289 @@
+{
+  "tool": "wix",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Read Wix's pricing page (wix.com/plans) in a US-locale headless browser, both as first loaded and with 'Compare Plan Features' and 'Show More Features' expanded, plus Wix Help Center articles on Premium plan pricing, monthly billing, and Wix Payments service fees, and the Domains page for sample registration prices; snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.wix.com/plans",
+      "label": "Pricing page, default view (Free/Light/Core/Business/Business Elite plan cards, annual pricing as displayed by default)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/wix/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.wix.com/plans",
+      "label": "Pricing page with 'Compare Plan Features' and 'Show More Features' expanded (collaborator, storage, form, eCommerce, and Pricing-Plans-fee comparison table)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/wix/2026-09-27-pricing-compare-after-click-2.txt"
+    },
+    {
+      "url": "https://support.wix.com/en/article/wix-premium-plan-pricing",
+      "label": "Help Center: Wix Premium Plan Pricing (regional pricing note; free-trial FAQ)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/wix/2026-09-27-help-premium-plan-pricing.txt"
+    },
+    {
+      "url": "https://support.wix.com/en/article/purchasing-a-monthly-premium-plan",
+      "label": "Help Center: Purchasing a Monthly Plan",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/wix/2026-09-27-help-purchasing-monthly-plan.txt"
+    },
+    {
+      "url": "https://support.wix.com/en/article/wix-payments-service-fees",
+      "label": "Help Center: Wix Payments Service Fees (United States rates)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/wix/2026-09-27-help-payments-service-fees.txt"
+    },
+    {
+      "url": "https://www.wix.com/domains",
+      "label": "Wix Domains page: sample TLD registration prices",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/wix/2026-09-27-domains.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free plan with no stated time limit and no credit card required: reliable web hosting, the drag-and-drop editor, no-code design features, AI creation tools, and 1,000s of templates. It publishes to a Wix subdomain only (no custom domain) and keeps Wix branding on the site. It's excluded from Wix's 'Compare Plan Features' table, which compares only the four paid tiers."
+  },
+  "trial": {
+    "days": null,
+    "cardRequired": null,
+    "summary": "No time-limited free trial of a Premium plan -- Wix's Help Center states this directly: 'We do not offer a free trial for Premium plans, but there is a 14-day money-back guarantee if you are not satisfied with the plan you choose.' The indefinite, no-card-required Free plan fills the try-before-you-buy role for the editor itself.",
+    "source": 2
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-site-month",
+      "note": "Indefinite free plan; excluded from Wix's 'Compare Plan Features' table, which only covers the four paid tiers below.",
+      "limits": [
+        "No custom domain -- publishes to a Wix subdomain with Wix branding shown on the site",
+        "No online payments, customer accounts, or eCommerce (those first appear on Core and up)",
+        "No stated storage or bandwidth number on the pricing page"
+      ],
+      "highlights": [
+        "No credit card required to sign up",
+        "Reliable web hosting",
+        "AI creation tools and 1,000s of templates",
+        "Intuitive drag-and-drop editor with no-code design features"
+      ],
+      "source": 0
+    },
+    {
+      "id": "light",
+      "name": "Light",
+      "monthly": null,
+      "annualMonthly": 17,
+      "priceUnit": "per-site-month",
+      "note": "$17/mo is Wix's displayed price, billed annually and paid in full upfront ($204/yr); no month-to-month figure is published for Light on wix.com or in Wix's Help Center (see unverified[]). The cheapest tier with a custom domain and branding removal, but it excludes online payments, customer accounts, and eCommerce entirely.",
+      "limits": [
+        "2 site collaborators, owner included",
+        "2 GB storage space",
+        "Light marketing suite: 4 lead-capture forms, 10 fields per form",
+        "No payment tools, customer accounts, recurring 'Pricing Plans', or eCommerce of any kind"
+      ],
+      "highlights": [
+        "Custom domain, with a free domain for the first year",
+        "Wix branding removed from the site",
+        "Multi-cloud hosting",
+        "24/7 customer care",
+        "Google Ads with Wix"
+      ],
+      "source": 0
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "monthly": null,
+      "annualMonthly": 29,
+      "priceUnit": "per-site-month",
+      "note": "$29/mo is Wix's displayed price, billed annually and paid in full upfront ($348/yr); no month-to-month figure is published (see unverified[]). The first tier, going up from Light, with online payments, customer accounts, and a basic eCommerce toolkit.",
+      "limits": [
+        "5 site collaborators, owner included",
+        "50 GB storage space",
+        "Basic marketing suite: 10 lead-capture forms, 50 fields per form",
+        "4% Wix service fee on the 'Pricing Plans' recurring-billing/membership feature (ordinary one-time payments and eCommerce sales carry no separate Wix commission beyond card processing)",
+        "No automated sales tax, loyalty tiers, loyalty-point expiration, or referral program (those start on Business)"
+      ],
+      "highlights": [
+        "Accept payments and customer accounts",
+        "Basic eCommerce: 50,000-product catalog, abandoned-cart recovery, automatic discounts, pre-orders, loyalty program, up to 10 back-in-stock alerts/month",
+        "Sell on marketplaces and social channels",
+        "Dropshipping via Modalyst (up to 25 products)",
+        "Scheduling and services"
+      ],
+      "source": 0
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "monthly": null,
+      "annualMonthly": 39,
+      "priceUnit": "per-site-month",
+      "note": "$39/mo is Wix's displayed price, billed annually and paid in full upfront ($468/yr); no month-to-month figure is published (see unverified[]). Marked 'RECOMMENDED' on Wix's own pricing page.",
+      "limits": [
+        "10 site collaborators, owner included",
+        "100 GB storage space",
+        "Standard marketing suite: 25 lead-capture forms, 75 fields per form",
+        "2% Wix service fee on the 'Pricing Plans' recurring-billing/membership feature"
+      ],
+      "highlights": [
+        "Standard eCommerce: 50,000-product catalog, unlimited back-in-stock alerts, loyalty tiers with point expiration, referral program",
+        "Automated sales tax on up to 100 transactions/month",
+        "Dropshipping via Modalyst (up to 250 products)",
+        "Advanced (branded) eGift cards",
+        "Scheduling and services"
+      ],
+      "source": 0
+    },
+    {
+      "id": "business-elite",
+      "name": "Business Elite",
+      "monthly": null,
+      "annualMonthly": 159,
+      "priceUnit": "per-site-month",
+      "note": "$159/mo is Wix's displayed price, billed annually and paid in full upfront ($1,908/yr); no month-to-month figure is published (see unverified[]). Wix's top self-serve tier, positioned below the custom-quote Enterprise plan.",
+      "limits": [
+        "100 site collaborators, owner included",
+        "Unlimited storage space",
+        "Advanced marketing suite: 75 lead-capture forms, 100 fields per form",
+        "0% Wix service fee on the 'Pricing Plans' recurring-billing/membership feature"
+      ],
+      "highlights": [
+        "Priority customer care (the other three tiers get 24/7 customer care)",
+        "Advanced eCommerce: 50,000-product catalog, dropshipping via Modalyst up to 50,000 products",
+        "Automated sales tax on up to 500 transactions/month",
+        "Advanced developer platform",
+        "Scheduling and services"
+      ],
+      "source": 0
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": null,
+      "annualMonthly": null,
+      "priceUnit": "custom",
+      "note": "Custom-quote tier reached via 'Book a Demo', separate from the four self-serve Premium tiers above; no self-serve price is shown anywhere on the pricing page.",
+      "limits": [
+        "No published self-serve limits -- scoped per account by Wix's Enterprise team"
+      ],
+      "highlights": [
+        "Seamless multisite management and full design control, per Wix's own marketing copy",
+        "Support for security assessments/questionnaires (per the pricing-page FAQ)",
+        "Dedicated Enterprise team contact and demo"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [],
+  "usage": [
+    {
+      "id": "card-processing-us",
+      "name": "Wix Payments standard card rate (US, Credit/Debit excl. Amex)",
+      "rate": 2.9,
+      "unit": "% + $0.30 per transaction, domestic US cards",
+      "note": "3.7% + $0.30 for American Express (including via Apple Pay/Google Pay). Other US Wix Payments methods: PayPal 3.49% + $0.49; Pay Later 4.99% + $0.49; Venmo 3.49% + $0.49; in-person POS 2.6% + $0; Tap to Pay 2.6% + $0.20; manual card entry 3.5% + $0.30 (4.3% + $0.30 for Amex); Afterpay/Affirm/Klarna 6% + $0.30. Cross-border payments add 1.5% on top of the standard rate; multi-currency payments add a further 1% currency-conversion fee.",
+      "source": 4
+    }
+  ],
+  "extraCosts": [
+    {
+      "id": "pricing-plans-fee",
+      "label": "'Pricing Plans' (recurring billing/memberships) Wix service fee",
+      "amount": 4,
+      "display": "4% of each charge on Core; 2% on Business; 0% on Business Elite; the feature isn't offered on Light",
+      "kind": "percent-of-sales",
+      "note": "Applies only to Wix's Pricing Plans app (subscriptions, memberships, recurring payments), on top of the Wix Payments processing rate. Ordinary one-time product and service sales through 'Accept payments'/the eCommerce toolkit carry no separate Wix commission.",
+      "source": 1
+    },
+    {
+      "id": "chargeback-fee",
+      "label": "Wix Payments chargeback fee",
+      "amount": 15,
+      "display": "$15 per chargeback (Wix Payments, excluding PayPal); $20 for a PayPal-funded chargeback",
+      "kind": "other",
+      "note": "United States rate. An ordinary refund carries no extra fee beyond not getting back the original processing fee.",
+      "source": 4
+    },
+    {
+      "id": "domain-registration",
+      "label": "Domain registration (first year, standalone)",
+      "amount": null,
+      "display": "From about $6.90 (.org) to $30.95 (.guru) for sample TLDs shown on Wix's Domains page -- e.g. .com $7.90, .net $11.90, .fit $10.00, .training $25.00 -- across roughly 400 TLDs; renewal-year pricing isn't shown",
+      "kind": "other",
+      "note": "One year of domain registration is included free with an annual Premium plan purchase (Light and up). This is the standalone first-year price if bought outside that offer, or for an additional domain.",
+      "source": 5
+    }
+  ],
+  "billingNotes": [
+    "wix.com/plans displays prices for yearly subscriptions paid in full upfront by default; taxes aren't included and are set by billing address.",
+    "Wix also sells monthly and 2-/3-year (multi-year) Premium subscriptions per its Help Center, but only the yearly, paid-in-full price is shown on any public page -- the month-to-month and multi-year rates appear only after clicking Select on the logged-in Upgrade page.",
+    "Monthly-billed plans skip the free domain voucher and bundled premium apps that yearly plans include.",
+    "New Premium purchases carry a 14-day money-back guarantee; Wix states directly that it does not offer a separate free trial of a paid plan.",
+    "The Free plan is excluded from Wix's detailed 'Compare Plan Features' table, which compares only the four paid tiers.",
+    "Light explicitly excludes Payment tools, customer accounts, and 'Plans and recurring payments' outright, so the Pricing Plans fee tiers (4%/2%/0%) apply only to Core, Business, and Business Elite.",
+    "Wix's plan-comparison table publishes storage limits (2 GB/50 GB/100 GB/unlimited) and collaborator caps (2/5/10/100) but no bandwidth or visits-per-month figure for any tier.",
+    "One year of domain registration is bundled free with an annual Premium plan; bought separately, Wix's Domains page lists first-year promotional prices only, not renewal pricing."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "Wix's own Help Center says Premium plan prices vary by geographic location and offers a region-specific preview button. This record captured only the US-locale (en-US, US timezone) headless-browser view of wix.com/plans, whose figures match the standalone USD prices independently reported by third-party US pricing guides; other countries' amounts were not compared."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo: 1 site, 1 editor, ~20-page blog/CMS, ~10k visits/mo",
+      "assumptions": "1 editor fits well within Light's 2-collaborator cap (owner included). A ~20-page blog/CMS site should fit comfortably in Light's 2 GB storage. Wix's comparison table publishes no bandwidth or visit-count limit for any plan, so ~10k visits/month isn't a factor in plan choice. This scenario doesn't call for online payments or eCommerce, so Light -- the cheapest tier with a custom domain and no Wix branding -- is the sensible pick over Core. Wix's only published rate for Light is the annual, paid-in-full price (see note).",
+      "planId": "light",
+      "billing": "annual",
+      "lines": [
+        { "label": "Light plan, billed annually and paid in full upfront (Wix's only published rate for this plan)", "amount": 17 }
+      ],
+      "monthly": 17,
+      "confidence": "high",
+      "note": "Wix doesn't publish a month-to-month figure for Light anywhere public (see unverified[]), so this scenario uses the sourced annual, paid-in-full price at $17/mo ($204 charged upfront for the year) rather than an unverified monthly number."
+    },
+    {
+      "size": "small",
+      "label": "Small team: 1 site, 3 editors, ~200 CMS items, ~50k visits/mo",
+      "assumptions": "3 editors exceed Light's 2-collaborator cap but fit within Core's 5-collaborator cap. Core is also the first tier with online payments, customer accounts, and a real eCommerce toolkit, which a small team is more likely to need than a solo site. ~200 CMS items should fit comfortably in Core's 50 GB storage; Wix doesn't publish a separate CMS-item cap. No bandwidth or visit limit is published for any tier.",
+      "planId": "core",
+      "billing": "annual",
+      "lines": [
+        { "label": "Core plan, billed annually and paid in full upfront (Wix's only published rate for this plan)", "amount": 29 }
+      ],
+      "monthly": 29,
+      "confidence": "high",
+      "note": "Same annual-price caveat as the solo scenario: Core's month-to-month price isn't published anywhere public (see unverified[]), so this uses the sourced annual, paid-in-full price at $29/mo ($348 charged upfront for the year)."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team: 1 site, 8 editors, ~1,000 CMS items, ~250k visits/mo",
+      "assumptions": "8 editors exceed Core's 5-collaborator cap but fit within Business's 10-collaborator cap. Business also raises storage to 100 GB (for the ~1,000 CMS items) and adds automated sales tax, loyalty tiers, and a referral program that Core lacks. Business Elite's 100-collaborator cap and unlimited storage aren't needed at this size -- nothing in Wix's published limits forces it. No bandwidth or visit limit is published for any tier, so ~250k visits/month isn't a factor.",
+      "planId": "business",
+      "billing": "annual",
+      "lines": [
+        { "label": "Business plan, billed annually and paid in full upfront (Wix's only published rate for this plan)", "amount": 39 }
+      ],
+      "monthly": 39,
+      "confidence": "high",
+      "note": "Same annual-price caveat: Business's month-to-month price isn't published anywhere public (see unverified[]), so this uses the sourced annual, paid-in-full price at $39/mo ($468 charged upfront for the year). A growing team that also runs real volume through the Pricing Plans membership feature would additionally owe Business's 2% Pricing Plans service fee (see extraCosts), on top of the Wix Payments card rate."
+    }
+  ],
+  "unverified": [
+    "The true month-to-month (no annual commitment) price for Light, Core, Business, and Business Elite: wix.com/plans states the displayed price is for a yearly subscription paid in full, and 'the final price can be seen on the purchase page, before payment is completed' -- no static or public page shows that figure, and the Help Center's 'Purchasing a Monthly Plan' article only describes clicking Select and then Monthly on the logged-in Upgrade page. Independent third-party pricing guides (not Wix's own pages) report month-to-month rates around $29 (Light), $39 (Core), $46 (Business), and $172 (Business Elite); these are noted here only as context for a future check and were not captured in any Wix-owned snapshot, so none of them are used in this record's structured fields.",
+    "Wix's 2-year and 3-year (multi-year) subscription prices: confirmed to exist via the Help Center article 'Purchasing a 2 or 3 Year Plan,' but no dollar figures for any plan were captured.",
+    "Business Email (Google Workspace) add-on pricing: wix.com/business-email describes the feature with no price shown anywhere on the page.",
+    "Whether the Light plan can comfortably run a blog/CMS the size described in the 'solo' scenario (~20 pages): Wix's plan-comparison table publishes collaborator and storage limits but no page-count or blog-post cap for any tier.",
+    "Any metered cost or credit limit behind 'AI creation tools': every plan card, including Free, lists it as an included feature with no credit count or paid add-on shown anywhere captured.",
+    "Whether Light includes the 'Charge deposits for services' and 'Pricing Plans' feature-table rows: the captured comparison table hits a hidden accessibility marker at Light's column for both rows instead of the explicit 'Not included in Light plan' text every adjacent row prints, so Light's exact answer wasn't captured verbatim. Given Light's confirmed lack of Payment tools and Plans and recurring payments, it almost certainly lacks both, but that's an inference, not a direct citation.",
+    "Non-US pricing: Wix's own Help Center says Premium prices vary by location and offers a region-specific preview; only the US-locale (en-US, US timezone) view was captured."
+  ],
+  "history": [
+    { "date": "2026-09-27", "change": "Initial record." }
+  ]
+}

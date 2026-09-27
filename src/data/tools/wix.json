@@ -1,0 +1,35 @@
+{
+  "id": "wix",
+  "name": "Wix",
+  "vendor": "Wix.com Ltd.",
+  "tier": "secondary",
+  "layer": "site",
+  "category": "Website builder and online store",
+  "url": "https://www.wix.com",
+  "pricingUrl": "https://www.wix.com/plans",
+  "oneLiner": "Website builder with a free plan and four paid per-site tiers whose collaborator cap and storage rise by tier; the public page shows only the annual price.",
+  "summary": "Wix is a website builder and hosting platform with an indefinite free plan and four paid Premium site tiers -- Light, Core, Business, and Business Elite -- each billed per site. The public pricing page shows only the annual, paid-in-full monthly-equivalent price by default; a true month-to-month rate exists but is disclosed only after selecting a plan inside a logged-in account. Each tier raises its storage allowance and collaborator cap (2/5/10/100) and, from Core upward, adds online payments, customer accounts, and a full eCommerce toolkit that the cheapest Light tier does not include.",
+  "bestFor": ["freelancer", "local-service", "course-creator"],
+  "notFor": [
+    "Agencies managing many client sites -- billing and the collaborator cap both apply per individual site, so each client site is its own separate subscription and login",
+    "Buyers who need to see the exact month-to-month price before signing up -- it isn't published anywhere public"
+  ],
+  "pros": [
+    "Indefinite free plan with no credit card required, usable to build and preview a full site before paying anything",
+    "Every paid tier (Light and up) includes a custom domain, Wix-branding removal, and a free domain for the first year",
+    "Collaborator caps and storage both step up by tier (2/5/10/100 collaborators; 2 GB/50 GB/100 GB/unlimited storage) with no separate per-seat charge",
+    "14-day money-back guarantee on new Premium purchases",
+    "Wix Payments' published US card rate (2.9% + $0.30) applies to ordinary product and service sales with no extra Wix commission on top"
+  ],
+  "cons": [
+    "Light, the cheapest paid tier, excludes online payments, customer accounts, and the entire eCommerce toolkit",
+    "The month-to-month price for every paid plan is unpublished -- wix.com/plans shows only the annual, paid-in-full rate, and the FAQ says the final price appears on the purchase page inside a logged-in account",
+    "Premium prices vary by geographic location, and Wix's own Help Center doesn't say by how much for any given country",
+    "The 'Pricing Plans' recurring-billing/membership feature charges its own Wix service fee on top of card processing -- 4% on Core, 2% on Business, 0% only on Business Elite -- and isn't offered on Light at all",
+    "Collaborators are hard-capped per plan with no published add-on to buy more seats; the only way past the cap is upgrading the whole site plan",
+    "Monthly billing forfeits the free domain voucher and any bundled premium apps that yearly plans receive"
+  ],
+  "founded": 2006,
+  "hq": "Tel Aviv, Israel",
+  "affiliate": { "program": null }
+}

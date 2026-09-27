@@ -57,12 +57,12 @@ const jsonld = [
       <Byline modified={d.modified} published={d.published} verified={verified} />
       <Disclosure toolIds={picks} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
-      <p class="table-lead">Every alternative below with its real monthly bill for a 5-person team, next to {t.name}'s own (<Fig v={scenario(id, 'small').monthly} />/month), as of the dates on each pricing page.</p>
+      <p class="table-lead">Every alternative below with its real monthly bill for a 5-person team, next to {t.name}'s own (<Fig v={scenario(id, 'small').monthly} floor={scenario(id, 'small').floor} />/month), as of the dates on each pricing page.</p>
       <div class="tbl-wrap"><table class="data stack">
         <thead><tr><th scope="col">Tool</th><th scope="col">Layer</th><th scope="col" class="num">5-person team</th><th scope="col" class="num">Score</th></tr></thead>
         <tbody>
-          <tr><th scope="row">{t.name} <span class="sub">the tool you are replacing</span></th><td data-label="Layer">{LAYER_LABELS[t.layer]}</td><td class="num" data-label="5-person team"><Fig v={scenario(id, 'small').monthly} /></td><td class="num" data-label="Score">{score(id)?.overall ? oneDecimal(score(id).overall) : '—'}</td></tr>
-          {picks.map((x) => <tr><th scope="row">{best(x) ? <a href={best(x)}>{tool(x).name}</a> : tool(x).name}</th><td data-label="Layer">{LAYER_LABELS[tool(x).layer]}</td><td class="num" data-label="5-person team"><Fig v={scenario(x, 'small').monthly} /></td><td class="num" data-label="Score">{score(x)?.overall ? oneDecimal(score(x).overall) : '—'}</td></tr>)}
+          <tr><th scope="row">{t.name} <span class="sub">the tool you are replacing</span></th><td data-label="Layer">{LAYER_LABELS[t.layer]}</td><td class="num" data-label="5-person team"><Fig v={scenario(id, 'small').monthly} floor={scenario(id, 'small').floor} /></td><td class="num" data-label="Score">{score(id)?.overall ? oneDecimal(score(id).overall) : '—'}</td></tr>
+          {picks.map((x) => <tr><th scope="row">{best(x) ? <a href={best(x)}>{tool(x).name}</a> : tool(x).name}</th><td data-label="Layer">{LAYER_LABELS[tool(x).layer]}</td><td class="num" data-label="5-person team"><Fig v={scenario(x, 'small').monthly} floor={scenario(x, 'small').floor} /></td><td class="num" data-label="Score">{score(x)?.overall ? oneDecimal(score(x).overall) : '—'}</td></tr>)}
         </tbody>
       </table></div>
       {alt.reasons.map((reason) => (<>
@@ -72,7 +72,7 @@ const jsonld = [
             <div class="pick">
               <h3>{tool(pk.tool).name}</h3>
               <p data-prose>{pk.why}</p>
-              <p class="small">Small team: <Fig v={scenario(pk.tool, 'small').monthly} suffix="/mo" />{best(pk.tool) && <> · <a href={best(pk.tool)}>real cost</a></>}</p>
+              <p class="small">Small team: <Fig v={scenario(pk.tool, 'small').monthly} suffix="/mo" floor={scenario(pk.tool, 'small').floor} />{best(pk.tool) && <> · <a href={best(pk.tool)}>real cost</a></>}</p>
               <AffLink tool={pk.tool} page={path} placement="alt-pick" label={`Visit ${tool(pk.tool).name}`} />
             </div>
           ))}

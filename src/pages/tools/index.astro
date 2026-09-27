@@ -35,7 +35,7 @@ const description = 'Every tool CinchStack covers, grouped by what it does for y
               <th scope="row">{href(id) ? <a href={href(id)}>{tools[id].name}</a> : tools[id].name}</th>
               <td data-label="Job">{LAYER_LABELS[tools[id].layer]}</td>
               <td class="num" data-label="Cheapest paid">{c ? <><Fig v={c.v} suffix="/mo" /><span class="sub">{c.p.name}{c.p.priceUnit === 'per-seat-month' ? ', per seat' : ''}</span></> : 'Custom'}</td>
-              <td class="num" data-label="Real bill"><Fig v={sm.monthly} suffix="/mo" /><span class="sub">{sm.confidence} confidence</span></td>
+              <td class="num" data-label="Real bill"><Fig v={sm.monthly} suffix="/mo" floor={sm.floor} /><span class="sub">{sm.floor ? 'lowest possible' : `${sm.confidence} confidence`}</span></td>
               <td data-label="Checked"><time datetime={pricing[id].checkedOn}>{longDate(pricing[id].checkedOn)}</time></td>
             </tr>
           ); })}

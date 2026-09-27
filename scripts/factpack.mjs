@@ -34,7 +34,7 @@ for (const id of ids) {
   L.push('', `**Regional pricing:** ${p.regional.pricedByCountry ? 'varies by country. ' : ''}${p.regional.note}`);
   L.push('', '## The three real bills (use `<Real tool="' + id + '" size="solo|small|growing" />`)');
   for (const s of p.scenarios) {
-    L.push(`- **${s.size}** — ${s.label}: **${money(s.monthly)}/mo** on plan \`${s.planId}\`, billed ${s.billing}, ${s.confidence} confidence.`);
+    L.push(`- **${s.size}** — ${s.label}: **${s.floor ? 'at least ' : ''}${money(s.monthly)}/mo** on plan \`${s.planId}\`, billed ${s.billing}, ${s.confidence} confidence.${s.floor ? ' FLOOR: the vendor does not publish its price at this size in a form we could verify; never present this as the likely bill or call this tool cheaper at this size.' : ''}`);
     L.push(`  - Lines: ${s.lines.map((l) => `${l.label} ${money(l.amount)}`).join('; ')}`);
     L.push(`  - Assumptions: ${s.assumptions}${s.note ? ` Note: ${s.note}` : ''}`);
   }

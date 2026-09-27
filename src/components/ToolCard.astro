@@ -14,5 +14,5 @@ const c = cheapestPaid(id);
   <span class="tag">{LAYER_LABELS[t.layer]} · {t.category}</span>
   <h3>{t.name}</h3>
   <p>{t.oneLiner}</p>
-  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" />{s?.overall ? ` · Score ${oneDecimal(s.overall)}` : ''}</p>
+  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" floor={small.floor} />{s?.overall ? ` · Score ${oneDecimal(s.overall)}` : ''}</p>
 </a>

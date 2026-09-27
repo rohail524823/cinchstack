@@ -1,0 +1,271 @@
+{
+  "tool": "zoho-crm",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Read Zoho CRM's own pricing page in a US-locale (en-US, America/New_York) headless browser, capturing both the Monthly and Annually toggle states with the FAQ expanded, and its full feature-comparison page with every row expanded (the only page that shows Ultimate, which has no card on the main pricing page). Also checked the India-locale URL path directly. Every price on every capture was explicitly prefixed 'US$'. Snapshots saved.",
+  "sources": [
+    {
+      "url": "https://www.zoho.com/crm/zohocrm-pricing.html",
+      "label": "Zoho CRM pricing page, default view (Annually selected), en-US",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/zoho-crm/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.zoho.com/crm/zohocrm-pricing.html",
+      "label": "Zoho CRM pricing page, Monthly billing toggle clicked, FAQ expanded",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/zoho-crm/2026-09-27-pricing-full-after-click-2.txt"
+    },
+    {
+      "url": "https://www.zoho.com/crm/zohocrm-pricing.html",
+      "label": "Zoho CRM pricing page, Annually billing toggle clicked back, FAQ expanded",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/zoho-crm/2026-09-27-pricing-full-after-click-3.txt"
+    },
+    {
+      "url": "https://www.zoho.com/crm/complete-feature-list.html",
+      "label": "Zoho CRM complete feature-comparison table, all rows expanded, Free through Ultimate, both Annually and Monthly prices",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/zoho-crm/2026-09-27-feature-comparison-expanded-after-click-1.txt"
+    },
+    {
+      "url": "https://www.zoho.com/en-in/crm/zohocrm-pricing.html",
+      "label": "India-locale path check: returned HTTP 404, no separate localized pricing page found at this path",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/zoho-crm/2026-09-27-pricing-en-in.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free for up to 3 users, no credit card required: contact/lead/deal management, follow-up reminders, workflow automation, 10 custom email templates, tasks/meetings/calls, data import/export, standard reports, APIs and mobile apps. Capped at 5,000 records (10MB) of storage, and has no Mass Email (bulk/marketing send) feature, which starts at Standard."
+  },
+  "trial": {
+    "days": 15,
+    "cardRequired": false,
+    "summary": "15-day free trial, no credit card required, offered on Standard, Professional, Enterprise and Ultimate (each has its own 'Free Trial' / 'Try Now' button).",
+    "source": 3
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": 0,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "Hard-capped at 3 users; there is no way to add a 4th user on this edition.",
+      "limits": [
+        "Up to 3 users",
+        "5,000 records / 10MB total storage",
+        "No Mass Email (bulk/marketing send) feature - Standard and above only",
+        "10 custom email templates",
+        "Individual (one-to-one) emails capped at 50/user/day, max 150/org/day",
+        "2 profiles, 2 roles"
+      ],
+      "highlights": [
+        "No credit card required",
+        "Contact/lead/deal management, workflow automation, tasks/meetings/calls, data import/export, standard reports, APIs, mobile apps"
+      ],
+      "source": 0
+    },
+    {
+      "id": "standard",
+      "name": "Standard",
+      "monthly": 20,
+      "annualMonthly": 14,
+      "priceUnit": "per-seat-month",
+      "note": "US$20/user/month paid month-to-month, or US$14/user/month billed annually (US$168/user/year). No cap on number of users (the 3-user cap is Free-only).",
+      "limits": [
+        "Mass Email capped at 250/day per organization (about 7,500/month)",
+        "Individual emails capped at 50/user/day, max 200/org/day",
+        "100,000 records (200MB) total storage",
+        "100 custom reports; unlimited custom dashboards",
+        "5 profiles, 5 roles, 20 groups, 10 custom modules, 100 custom email templates",
+        "5 sales pipelines"
+      ],
+      "highlights": [
+        "Email integration & mass emails",
+        "Built-in calling, multiple sales pipelines",
+        "Sales forecasting, data enrichment",
+        "HIPAA compliance",
+        "Gmail/Outlook integration, Slack/Zoom/Teams integration"
+      ],
+      "source": 3
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "monthly": 35,
+      "annualMonthly": 23,
+      "priceUnit": "per-seat-month",
+      "note": "US$35/user/month paid month-to-month, or US$23/user/month billed annually (US$276/user/year). Zoho's 'Most Popular' edition.",
+      "limits": [
+        "Mass Email capped at 500/day per organization (about 15,000/month)",
+        "Individual emails capped at 300/user/day",
+        "Unlimited custom reports and dashboards",
+        "10 sales pipelines, 25 custom modules",
+        "15 profiles, 25 roles, 30 groups"
+      ],
+      "highlights": [
+        "AI agents, process management (Blueprints)",
+        "Inventory management (products, quotes, sales orders, invoices)",
+        "CPQ (Configure, Price, Quote), custom portals, customer journeys",
+        "Web-to-case forms, Google Ads integration"
+      ],
+      "source": 3
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthly": 50,
+      "annualMonthly": 40,
+      "priceUnit": "per-seat-month",
+      "note": "US$50/user/month paid month-to-month, or US$40/user/month billed annually (US$480/user/year).",
+      "limits": [
+        "Mass Email capped at 1,000/day per organization (about 30,000/month)",
+        "20 sales pipelines, 200 custom modules",
+        "25 profiles, 250 roles, 50 groups",
+        "Lite User seats available at US$15/month month-to-month or US$12/month billed annually"
+      ],
+      "highlights": [
+        "Multi-team management, reporting hierarchy",
+        "Custom buttons & functions, extended field types",
+        "Sequential data collection, approval process, Account-Based Marketing",
+        "Developer sandbox (3 configuration + 2 configuration/data sandboxes)",
+        "Field-level encryption, QuickBooks integration"
+      ],
+      "source": 3
+    },
+    {
+      "id": "ultimate",
+      "name": "Ultimate",
+      "monthly": 65,
+      "annualMonthly": 52,
+      "priceUnit": "per-seat-month",
+      "note": "US$65/user/month paid month-to-month, or US$52/user/month billed annually (US$624/user/year). Not shown as a card on the main pricing page (only Free, Standard, Professional and Enterprise are); listed on Zoho's feature-comparison page with its own self-serve 'Try Now' trial. Zoho's FAQ describes it as 'tailored for large-scale, bespoke deployments ... with consultation with experts and migration assistance.'",
+      "limits": [
+        "Mass Email capped at 2,000/day per organization (about 60,000/month) - the highest Zoho CRM tier, still short of very high-volume sending needs",
+        "50 sales pipelines, 500 custom modules",
+        "200 profiles, 500 roles, 250 groups",
+        "Lite User seats available at US$15/month month-to-month or US$12/month billed annually"
+      ],
+      "highlights": [
+        "Highest feature limits across the board (API/function credits, sandboxes, security controls)",
+        "7 configuration + 3 configuration/data sandboxes",
+        "5GB + 1GB/user base file storage"
+      ],
+      "source": 3
+    }
+  ],
+  "addOns": [
+    {
+      "id": "lite-user-seat",
+      "name": "Lite User license (Enterprise/Ultimate)",
+      "price": 12,
+      "unit": "per user per month, billed annually (US$15/user/month paid month-to-month)",
+      "appliesTo": ["enterprise", "ultimate"],
+      "note": "A limited-access seat type cheaper than a full user license. Not available on Free, Standard or Professional.",
+      "source": 3
+    },
+    {
+      "id": "additional-file-storage",
+      "name": "Additional file storage",
+      "price": 4.6,
+      "unit": "per 5GB per month, for the whole organization",
+      "appliesTo": ["standard", "professional", "enterprise", "ultimate"],
+      "note": "Not available on Free. Same US$4.60/5GB rate on every paid edition.",
+      "source": 3
+    },
+    {
+      "id": "additional-data-storage",
+      "name": "Additional data storage (organizations with 1-200 users)",
+      "price": 4,
+      "unit": "per 100MB per month, for the whole organization",
+      "appliesTo": ["professional", "enterprise", "ultimate"],
+      "note": "Not available on Free or Standard. Drops to US$2 per 100MB/month for organizations with more than 200 users.",
+      "source": 3
+    }
+  ],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "local-taxes",
+      "label": "Local taxes",
+      "amount": null,
+      "display": "Local taxes may apply",
+      "kind": "other",
+      "note": "Stated once on the pricing page without a rate or list of countries.",
+      "source": 0
+    },
+    {
+      "id": "on-demand-data-backup",
+      "label": "On-demand data backup request",
+      "amount": 12,
+      "display": "US$12 per request",
+      "kind": "other",
+      "note": "Available on every edition, including Free. Free backups included each month: none on Free, 2 on Standard/Professional/Enterprise, 4 on Ultimate; additional requests cost US$12 each.",
+      "source": 3
+    }
+  ],
+  "billingNotes": [
+    "Zoho CRM is pay-as-you-go with no contracts: pay monthly or yearly, and change plans at any time (Zoho's own FAQ wording).",
+    "Annual billing is the default view on the pricing page and costs 20-34% less per seat than paying month-to-month, depending on plan (Standard: US$14 vs US$20/user/month; Professional: US$23 vs US$35; Enterprise: US$40 vs US$50; Ultimate: US$52 vs US$65).",
+    "Accepted payment: Visa, MasterCard, American Express and PayPal; yearly subscriptions can also be paid by bank transfer or check.",
+    "Local taxes may apply on top of the listed prices.",
+    "Ultimate is not shown as a card on the main pricing page (only Free, Standard, Professional and Enterprise are); its price and features are listed only on Zoho's feature-comparison page, where it still offers a self-serve 'Try Now' free trial."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "We found no evidence that Zoho CRM's pricing page shows a different currency by country: the plain pricing URL redirects to the /en-us/ path and every price on every capture is explicitly prefixed 'US$' (not a bare '$' or '₹'), and a direct request for an /en-in/ locale path returned a 404 rather than an India-priced page. We did not test IP-based geolocation from other countries, so this reflects the paths and locale we could reach, not an exhaustive check."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo operator, 1 seat, on Standard",
+      "assumptions": "1 user, 1,000 contacts, 2,000 marketing emails and 200 SMS a month. Free is ruled out because it has no Mass Email (bulk send) feature at all; Standard adds it with a cap of 250 mass emails/day per organization (about 7,500/month over 30 days), which comfortably covers 2,000/month. 1,000 contacts is far under Standard's 100,000-record storage cap. Zoho CRM has no native SMS/texting feature on its pricing or feature-comparison pages, so the 200 SMS/month cannot be priced and are not included (see unverified).",
+      "planId": "standard",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Zoho CRM Standard, 1 user at US$20/user/month, paid month-to-month", "amount": 20 }
+      ],
+      "monthly": 20,
+      "confidence": "high",
+      "note": "Billed annually the same seat is US$14/month (US$168/year) instead of US$20/month (US$240/year) paid month-to-month."
+    },
+    {
+      "size": "small",
+      "label": "3-person team, 3 seats, on Enterprise (forced by mass-email volume)",
+      "assumptions": "3 users, 5,000 contacts, 20,000 marketing emails and 1,000 SMS a month. Org-wide Mass Email caps, extended to a month at 30 days, are Standard 250/day (about 7,500/month) and Professional 500/day (about 15,000/month) - both short of 20,000/month. Enterprise's 1,000/day (about 30,000/month) is the first tier that covers it. 3 seats and 5,000 contacts are both far under Enterprise's other limits regardless. Zoho CRM has no native SMS feature, so the 1,000 SMS/month cannot be priced and are not included (see unverified).",
+      "planId": "enterprise",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Zoho CRM Enterprise, 3 users at US$50/user/month, paid month-to-month", "amount": 150 }
+      ],
+      "monthly": 150,
+      "confidence": "medium",
+      "note": "Billed annually the same 3 seats are US$40/user/month (US$120/month, US$1,440/year) instead of US$150/month (US$1,800/year) paid month-to-month. If 20,000 mass emails/month were spread unevenly and effectively fit within Professional's roughly 15,000/month published cap, Professional at US$35/user/month (US$105/month for 3 seats) would be cheaper; we picked Enterprise because 20,000/month is the layer's stated assumption and exceeds Professional's published cap."
+    },
+    {
+      "size": "growing",
+      "label": "8-person team, 8 seats, on Ultimate (mass-email volume exceeds every edition's cap)",
+      "assumptions": "8 users, 25,000 contacts, 100,000 marketing emails and 5,000 SMS a month. Ultimate is the highest self-serve edition, and its org-wide Mass Email cap (2,000/day, about 60,000/month over 30 days) is still short of the 100,000/month assumption for this layer - no Zoho CRM edition's published limit reaches 100,000/month. Ultimate is used here as the best available fit; reaching 100,000/month natively would need a separate product or a support-approved limit increase not published on these pages (Zoho's own FAQ points large deployments toward migration/consultation services). 8 seats and 25,000 contacts are both far under Ultimate's other limits. Zoho CRM has no native SMS feature, so the 5,000 SMS/month cannot be priced and are not included (see unverified).",
+      "planId": "ultimate",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Zoho CRM Ultimate, 8 users at US$65/user/month, paid month-to-month", "amount": 520 }
+      ],
+      "monthly": 520,
+      "confidence": "low",
+      "note": "Billed annually the same 8 seats are US$52/user/month (US$416/month, US$4,992/year) instead of US$520/month (US$6,240/year) paid month-to-month. Enterprise and Ultimate both offer a cheaper Lite User seat (US$12/month annual, US$15/month monthly) for team members who only need limited CRM access, which could lower this line if not all 8 need full seats; not applied here because the layer's standard sizing does not distinguish seat types. Confidence is low because no edition's published mass-email limit actually reaches the 100,000/month assumed for this scenario."
+    }
+  ],
+  "unverified": [
+    "Zoho CRM does not list a native SMS/texting feature or per-SMS rate on its pricing or feature-comparison pages; the standard 200/1,000/5,000-SMS-per-month assumptions used for this layer's scenarios are not reflected in any scenario line.",
+    "No Zoho CRM edition's published Mass Email cap reaches 100,000 emails/month (Ultimate's is about 60,000/month); what it would actually cost to send 100,000/month (a different Zoho product, or a support-approved limit increase) is not published.",
+    "Additional Portal user license pricing is referenced ('Pricing for additional portal user licenses') on the feature-comparison page, but no figure is shown there.",
+    "Whether Zoho shows non-USD pricing (e.g. INR) to visitors it detects as being outside the US: we saw only 'US$'-prefixed prices, the bare pricing URL redirected to the /en-us/ path, and a direct /en-in/ path returned a 404; we did not test IP-based geolocation from other countries directly."
+  ],
+  "history": [
+    { "date": "2026-09-27", "change": "Initial record." }
+  ]
+}

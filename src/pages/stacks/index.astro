@@ -25,7 +25,7 @@ const description = 'Recommended software stacks for agencies, course creators, 
           <span class="tag">Stack</span>
           <h3>{s.label}</h3>
           <p>{[...new Set(s.layers.map((l) => tool(l.pick).name))].join(' · ')}</p>
-          <p class="cost">{s.sizeLabels.small}: <Fig v={b.totals.small} suffix="/mo" /></p>
+          <p class="cost">{s.sizeLabels.small}: <Fig v={b.totals.small} suffix="/mo" floor={b.floors.small} /></p>
         </a>
       ); })}
     </div>

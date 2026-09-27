@@ -1,0 +1,416 @@
+{
+  "tool": "pipedrive",
+  "currency": "USD",
+  "checkedOn": "2026-09-26",
+  "method": "Pipedrive's English pricing page (pipedrive.com/en/pricing) returned a Cloudflare bot-block (HTTP 403) to both a US-locale headless Chromium browser and to curl from this network. Prices and plan/add-on data were instead read from Pipedrive's Spanish-locale pricing page (pipedrive.com/es/pricing), which serves the same US-geolocated USD prices from the same underlying pricing data and was not blocked: captured in a headless browser with both billing toggles clicked, and via curl of that page's embedded __NEXT_DATA__ pricingData JSON (Pipedrive's own machine-readable price list, covering every plan, add-on and top-up). This was supplemented with Pipedrive's public Knowledge Base articles and feature pages (LeadBooster, Web Visitors, Projects, Smart Docs, Campaigns, Nova, billing, seats and plan-comparison articles). All pages saved as snapshots.",
+  "sources": [
+    {
+      "url": "https://www.pipedrive.com/en/pricing",
+      "label": "Pipedrive's English pricing page (Cloudflare bot-block, HTTP 403, hit by both a US-locale headless browser and curl)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/es/pricing",
+      "label": "Pipedrive pricing page, default view (annual billing, US-geolocated USD prices)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-pricing-es.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/es/pricing",
+      "label": "Pipedrive pricing page after clicking Monthly billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-pricing-es-after-click-1.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/es/pricing",
+      "label": "Pipedrive pricing page, Monthly billing, plus the expanded plan-comparison table",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-pricing-es-after-click-2.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/es/pricing",
+      "label": "Pipedrive pricing page's embedded __NEXT_DATA__ pricingData JSON (curl, no browser) - plan prices and every add-on/top-up rate",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-pricing-es-embedded-data.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/es/pricing",
+      "label": "Pipedrive pricing page's embedded plan-comparison table (curl, no browser) - per-plan limits with tooltips",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-pricing-es-compare-table.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/how-does-pricing-work-in-pipedrive",
+      "label": "Knowledge Base: How does pricing work in Pipedrive?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-how-pricing-works.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/what-is-the-difference-between-a-user-and-a-seat",
+      "label": "Knowledge Base: What is the difference between a user and a seat?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-user-vs-seat.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/what-is-the-difference-between-annual-and-monthly-billing-in-pipedrive",
+      "label": "Knowledge Base: What is the difference between annual and monthly billing?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-annual-vs-monthly.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/what-are-the-accepted-payment-methods-for-pipedrive",
+      "label": "Knowledge Base: accepted payment methods and billing currency by country",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-payment-methods-currency.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/prospector-leadbooster-billing",
+      "label": "Knowledge Base: Understanding LeadBooster and Prospector billing",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-leadbooster-prospector-billing.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/en/features/lead-generation-software",
+      "label": "LeadBooster feature page (price headline: $32.50/mo annual, $39/mo monthly)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-leadbooster-page.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/en/products/sales/lead-capture",
+      "label": "Lead capture feature page (LeadBooster price confirmation)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-lead-capture-page.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/projects-billing-and-subscription",
+      "label": "Knowledge Base: Projects billing and subscription",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-projects-billing.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/campaigns-add-on-tiers",
+      "label": "Knowledge Base: Campaigns add-on tiers (Standard vs Premium feature tiers)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-campaigns-tiers.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/campaigns-subscription-and-billing",
+      "label": "Knowledge Base: Campaigns subscription and billing (subscriber tiers)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-campaigns-billing.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/en/features/web-visitors-add-on",
+      "label": "Web Visitors add-on feature page (3-tier price table)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-web-visitors-page.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/how-does-web-visitors-pricing-work",
+      "label": "Knowledge Base: How does Web Visitors pricing work?",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-web-visitors-pricing.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/smart-docs",
+      "label": "Knowledge Base: Smart Docs (plan availability, add-on trial)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-smart-docs.txt"
+    },
+    {
+      "url": "https://www.pipedrive.com/en/nova",
+      "label": "Pipedrive Nova product page (Nova included free in all plans)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-nova-page.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/texting-contacts-from-the-mobile-app",
+      "label": "Knowledge Base: texting contacts from the mobile app (device-level shortcut, not a billed Pipedrive feature)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-texting-mobile-app.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/data-enrichment-credits-and-top-ups",
+      "label": "Knowledge Base: data enrichment credits and top-ups",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-data-enrichment-credits.txt"
+    },
+    {
+      "url": "https://support.pipedrive.com/en/article/new-pipedrive-plans",
+      "label": "Knowledge Base: legacy plan names mapped to current plans (Essential/Advanced/Professional/Enterprise to Lite/Growth/Premium/Ultimate)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/pipedrive/2026-09-26-kb-new-plans.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": false,
+    "summary": "No free-forever plan. Pipedrive offers only a 14-day free trial of a paid plan (see trial)."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": false,
+    "summary": "14-day free trial with full access and no credit card required, confirmed on the pricing page and on multiple feature pages. Prospector lead-reveal credits are not available during the main trial. Smart Docs has its own separate 14-day add-on trial limited to 5 signature requests, and Web Visitors has its own separate 14-day trial before a personalized tier and price are assigned.",
+    "source": 1
+  },
+  "plans": [
+    {
+      "id": "lite",
+      "name": "Lite",
+      "monthly": 24,
+      "annualMonthly": 14,
+      "priceUnit": "per-seat-month",
+      "note": "Formerly called 'Essential'. Billed per seat regardless of whether the seat is filled. Has no built-in email sync and no automation of any kind; Growth is the first tier with either. Matches the sticker prices shown on the rendered pricing page (sources 1-3).",
+      "limits": [
+        "2,500 leads + deals per seat, company-wide cap 300,000",
+        "30 custom fields per company",
+        "15 reports per seat",
+        "No automations, no nurture sequences",
+        "No email sync (no connected mailbox)",
+        "30,000 API tokens per seat per 24h, company-wide cap 100,000,000"
+      ],
+      "highlights": [
+        "Leads, deals, calendar and pipeline management in one workspace",
+        "AI-assisted report generation",
+        "500+ app integrations",
+        "Pipedrive Nova meeting intelligence included at no extra cost"
+      ],
+      "source": 4
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "monthly": 49,
+      "annualMonthly": 39,
+      "priceUnit": "per-seat-month",
+      "note": "Formerly called 'Advanced'. Adds full two-way email sync (1 mailbox per seat), automations (50 active company-wide, 3 if/else steps each) and Pulse nurture sequences (5 company-wide). Matches the sticker prices shown on the rendered pricing page (sources 1-3).",
+      "limits": [
+        "5,000 leads + deals per seat, company-wide cap 300,000",
+        "100 custom fields per company",
+        "50 reports per seat",
+        "50 active automations company-wide (3 if/else steps each), 5 nurture sequences company-wide",
+        "1 email sync per seat, no shared team inbox",
+        "60,000 API tokens per seat per 24h"
+      ],
+      "highlights": [
+        "Full two-way email sync with open/click tracking",
+        "Workflow automation and Pulse nurture sequences",
+        "Product subscriptions and revenue forecasting",
+        "Meeting scheduler and contact timeline"
+      ],
+      "source": 4
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "monthly": 79,
+      "annualMonthly": 59,
+      "priceUnit": "per-seat-month",
+      "note": "Formerly called 'Professional' (also referenced as 'Power' in some Pipedrive migration guides). Includes LeadBooster, Projects and Smart Docs at no extra cost, plus 100 data-enrichment credits/month for organizations by default (a separate add-on is needed to also enrich people). Matches the sticker prices shown on the rendered pricing page (sources 1-3).",
+      "limits": [
+        "15,000 leads + deals per seat, company-wide cap 300,000",
+        "300 custom fields per company, 10 formula fields",
+        "250 reports per seat",
+        "150 active automations company-wide (10 if/else steps each), 25 nurture sequences",
+        "3 email syncs per seat, 1 shared team inbox",
+        "15 teams, 15 custom visibility groups, 15 custom permission sets, 5 custom scoring models",
+        "100 data-enrichment credits per company/month (organizations by default; a separate add-on is needed for people)",
+        "150,000 API tokens per seat per 24h"
+      ],
+      "highlights": [
+        "LeadBooster lead capture and routing included",
+        "Custom lead/deal scoring and company data enrichment",
+        "AI email tools with shared team inboxes",
+        "Smart Docs contracts and e-signatures included",
+        "Field-level permissions, required fields and formula fields"
+      ],
+      "source": 4
+    },
+    {
+      "id": "ultimate",
+      "name": "Ultimate",
+      "monthly": 99,
+      "annualMonthly": 79,
+      "priceUnit": "per-seat-month",
+      "note": "Formerly called 'Enterprise'. Adds 500 data-enrichment credits/month (people and organizations), a sandbox test account, extended phone support hours, and partner discounts. Matches the sticker prices shown on the rendered pricing page (sources 1-3).",
+      "limits": [
+        "20,000 leads + deals per seat, company-wide cap 300,000",
+        "500 custom fields per company, 10 formula fields",
+        "500 reports per seat",
+        "250 active automations company-wide (20 if/else steps each), 50 nurture sequences",
+        "5 email syncs per seat, 5 shared team inboxes",
+        "25 teams, 25 custom visibility groups, 25 custom permission sets, 10 custom scoring models",
+        "500 data-enrichment credits per company/month (people and organizations)",
+        "210,000 API tokens per seat per 24h"
+      ],
+      "highlights": [
+        "Account security alerts plus password and IP/time-based access rules",
+        "Phone and email data enrichment included",
+        "Sandbox test account for non-developers",
+        "Extended phone support, Mon-Fri 7am-11pm CET/CEST",
+        "Partner discounts: 20% off PandaDoc and CloudTalk, 15% off Surfe"
+      ],
+      "source": 4
+    }
+  ],
+  "addOns": [
+    {
+      "id": "leadbooster",
+      "name": "LeadBooster (chatbot, live chat, web forms, 10 Prospector credits/month)",
+      "price": 39,
+      "unit": "per company per month, billed monthly (flat fee, not per seat)",
+      "appliesTo": ["lite", "growth"],
+      "note": "$32.50/month if billed annually ($390/year). Included at no extra cost on Premium and Ultimate. Comes with 10 Prospector lead-reveal credits per month at no extra cost.",
+      "source": 12
+    },
+    {
+      "id": "projects-addon",
+      "name": "Projects add-on (project management, per seat)",
+      "price": 20,
+      "unit": "per seat per month, billed monthly (Lite and Growth only; included for every seat on Premium and Ultimate)",
+      "appliesTo": ["lite", "growth"],
+      "note": "$16/seat/month if billed annually ($192/seat/year) - the figure Pipedrive's pricing page currently displays as the Projects add-on's starting price. Pipedrive's own embedded pricing data also lists older per-seat rates ($8, $10 and $15/month) under earlier package versions of this same add-on; the live page and its newest package version agree on $20 monthly / $16 annual-equivalent, which is what is recorded here.",
+      "source": 4
+    },
+    {
+      "id": "smart-docs-addon",
+      "name": "Smart Docs add-on (proposals, quotes, contracts with eSignatures)",
+      "price": 39,
+      "unit": "per month, lower usage band (Lite and Growth only; included for every seat on Premium and Ultimate)",
+      "appliesTo": ["lite", "growth"],
+      "note": "Steps up to $59/month above the lower band. Pipedrive's own pricing data labels the two bands only as 'units 1-30' and 'units 31-100' without saying what is being counted; Smart Docs' free trial is metered in 'five signature requests', so this is most likely a monthly signature-request band, but that is inference rather than a stated fact (see unverified). $32.50/month if billed annually for the lower band ($390/year); $49.17/month if billed annually for the higher band ($590/year).",
+      "source": 4
+    },
+    {
+      "id": "campaigns-standard",
+      "name": "Campaigns add-on, Standard tier (email marketing, priced by subscriber count)",
+      "price": 0.016,
+      "unit": "per marketing subscriber per month, for the first 1,000 subscribers, billed monthly (Standard tier; graduated rate drops to $0.008/subscriber for the next 1,000; $0.006/subscriber from 2,001-25,000; $0.005/subscriber from 25,001-40,000; $0.003/subscriber above 40,000)",
+      "appliesTo": ["lite", "growth", "premium", "ultimate"],
+      "note": "For 1,000 subscribers this is $16.00/month (1,000 x $0.016). Available as a paid add-on on every plan, including Premium and Ultimate. If billed annually the rate is $0.16/subscriber/year, i.e. $13.33/month-equivalent for 1,000 subscribers ($160/year) - the figure Pipedrive's pricing page displays as the Campaigns add-on's starting price. Billed on total subscribed marketing contacts held, not on emails sent.",
+      "source": 4
+    },
+    {
+      "id": "campaigns-premium",
+      "name": "Campaigns add-on, Premium tier (adds comparative insights and premium campaign-type filters)",
+      "price": 0.024,
+      "unit": "per marketing subscriber per month, for the first 1,000 subscribers, billed monthly (Premium feature tier; same graduated bands as the Standard tier, at 1.5x the Standard per-subscriber rate)",
+      "appliesTo": ["lite", "growth", "premium", "ultimate"],
+      "note": "For 1,000 subscribers this is $24.00/month. If billed annually the rate is $0.24/subscriber/year, i.e. $20.00/month-equivalent for 1,000 subscribers ($240/year).",
+      "source": 4
+    },
+    {
+      "id": "web-visitors-tier-1",
+      "name": "Web Visitors add-on, tier 1 (up to 200 identified organizations/month)",
+      "price": 49,
+      "unit": "per month, flat, up to 200 identified organizations per month (about $0.25/organization)",
+      "appliesTo": ["lite", "growth", "premium", "ultimate"],
+      "note": "$41/month if billed annually - matches the figure Pipedrive shows both on its Web Visitors feature page ('from $41 per month') and as the Web Visitors add-on's starting price on the Spanish pricing page. Available on every plan; not included in LeadBooster.",
+      "source": 16
+    },
+    {
+      "id": "web-visitors-tier-2",
+      "name": "Web Visitors add-on, tier 2 (201 to 500 identified organizations/month)",
+      "price": 99,
+      "unit": "per month, flat, 201 to 500 identified organizations per month (about $0.20/organization)",
+      "appliesTo": ["lite", "growth", "premium", "ultimate"],
+      "note": "An annual-billing price for this tier was not published on any page captured.",
+      "source": 16
+    },
+    {
+      "id": "web-visitors-tier-3",
+      "name": "Web Visitors add-on, tier 3 (501 to 2,000 identified organizations/month)",
+      "price": 299,
+      "unit": "per month, flat, 501 to 2,000 identified organizations per month (about $0.15/organization)",
+      "appliesTo": ["lite", "growth", "premium", "ultimate"],
+      "note": "An annual-billing price for this tier was not published on any page captured. Above 2,000 organizations, Pipedrive assigns a custom tier that is not publicly listed.",
+      "source": 16
+    }
+  ],
+  "usage": [
+    {
+      "id": "prospector-credit-topup",
+      "name": "Prospector lead-credit top-up (beyond the 10 included with LeadBooster)",
+      "rate": 1.00,
+      "unit": "per additional Prospector credit per month, 11-40 credits, billed monthly (drops to $0.50 for 41-100, $0.40 for 101-250, $0.30 above 250; or $0.85 / $0.45 / $0.35 / $0.25 at the same bands if billed annually)",
+      "note": "Corroborated by Pipedrive's own invoice-example article, which quotes the annual-billing per-credit rates of $0.85, $0.45, $0.35 and $0.25 for these same four bands. Credits unlock a Prospector lead's contact details; unused credits expire at the end of each monthly cycle.",
+      "source": 4
+    },
+    {
+      "id": "data-enrichment-credit-topup",
+      "name": "Data enrichment credit top-up",
+      "rate": 0.10,
+      "unit": "per additional person/organization enrichment credit per month, billed monthly (Premium and Ultimate only)",
+      "note": "$1.00 per credit per year if billed annually (about $0.083/credit/month equivalent). Premium includes 100 credits/month by default (organization enrichment only; a separate add-on is needed to also enrich people); Ultimate includes 500 credits/month (people and organizations).",
+      "source": 4
+    }
+  ],
+  "extraCosts": [],
+  "billingNotes": [
+    "Billing is strictly per seat: a seat is charged whether or not an active user fills it, and adding a user with no free seat automatically adds (and bills) a new seat.",
+    "Annual billing discount varies by plan: about 42% on Lite ($24 to $14), 20% on Growth ($49 to $39), 25% on Premium ($79 to $59), and 20% on Ultimate ($99 to $79). Pipedrive's own copy describes this as 'discounted up to 42%.'",
+    "Annual subscriptions are prepaid for the full year and are not refundable; cancelling one keeps access until the end of the paid term. Monthly subscriptions can be cancelled to take effect at the next billing date.",
+    "LeadBooster, Projects and Smart Docs are paid add-ons only on Lite and Growth; all three are included at no extra cost for every seat on Premium and Ultimate. Campaigns and Web Visitors are paid add-ons on every plan, including Premium and Ultimate.",
+    "Pipedrive has no native SMS-sending product. The mobile app's 'texting' feature only deep-links to the phone's own messaging app and is not billed by Pipedrive.",
+    "Pipedrive renamed its plans in 2025: Essential to Lite, Advanced to Growth, Professional (also called Power) to Premium, and Enterprise to Ultimate. Accounts still on a legacy-named plan may have different prices or limits than the current public plans recorded here.",
+    "www.pipedrive.com/en/pricing returned a Cloudflare bot-block (HTTP 403) to both a headless browser and curl from this network; every figure in this record was instead read from Pipedrive's Spanish-locale pricing page (which served the same US-geolocated USD prices, unblocked) and from Pipedrive's Knowledge Base and feature pages."
+  ],
+  "regional": {
+    "pricedByCountry": true,
+    "note": "Pipedrive bills in the customer's local currency by billing country: USD for the US and most other countries, AUD for Australia, CAD for Canada, GBP for the UK, and EUR for European countries and Turkey. Pipedrive's own embedded pricing data shows AUD and CAD list prices running higher than the USD/EUR/GBP amount for the same plan (e.g. Lite billed annually: $14 USD/GBP/EUR per seat/month vs $19 AUD/CAD). EU customers are also charged VAT on top of the listed price unless they supply a valid VAT number; Pipedrive states its prices exclusive of VAT. This record reports Pipedrive's US-dollar list price."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo rep, 1 seat, 1,000 contacts, light email marketing",
+      "assumptions": "Standard cinchstack solo sizing: 1 user, 1,000 contacts, 2,000 marketing emails/month, 200 SMS/month. Lite's cap of 2,500 leads+deals per seat comfortably covers 1,000 contacts, and Lite is Pipedrive's cheapest plan, sized for exactly this kind of single-rep setup. Lite has no built-in email sync or bulk email, so to send the 2,000 marketing emails/month, Pipedrive's own answer is the Campaigns add-on, priced by subscriber count and available on every plan including Lite. At exactly 1,000 subscribers this falls entirely within Campaigns' first pricing band ($0.016/subscriber/month paid monthly), so cost = 1,000 x $0.016 = $16.00/month; this figure is unambiguous because 1,000 is exactly the top of that band under either a graduated or a single-rate reading of Pipedrive's tiers. Pipedrive has no native SMS-sending product, so the 200 SMS/month cannot be priced and are not included (see unverified).",
+      "planId": "lite",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Lite plan, 1 seat, billed monthly", "amount": 24 },
+        { "label": "Campaigns add-on (Standard tier), 1,000 subscribers, billed monthly (1,000 x $0.016)", "amount": 16 }
+      ],
+      "monthly": 40,
+      "confidence": "high",
+      "note": "Billed annually this would be $14 (Lite) + $13.33 (Campaigns: 1,000 x $0.16/year, /12) = $27.33/month; both figures are shown directly on Pipedrive's pricing page."
+    },
+    {
+      "size": "small",
+      "label": "3-person sales team, Growth plan, 5,000 contacts, email marketing",
+      "assumptions": "Standard cinchstack small sizing: 3 users, 5,000 contacts, 20,000 marketing emails/month, 1,000 SMS/month. A 3-person team doing real follow-up automation needs Growth: Lite has zero email sync and zero automations of any kind in Pipedrive's own plan-comparison data. Growth's 5,000-leads-and-deals-per-seat cap x 3 seats = 15,000, comfortably covering 5,000 contacts. For the 20,000 marketing emails/month, Campaigns is priced by subscriber count held, not by sends, so the relevant figure is the cost to hold 5,000 marketing subscribers. Pipedrive publishes graduated per-subscriber rates (1-1,000 at $0.016; 1,001-2,000 at $0.008; 2,001-25,000 at $0.006, all paid monthly) and says 'the more contacts you add, the less you pay per subscriber' - consistent with a graduated, banded calculation. Applying each band to 5,000 subscribers: 1,000 x $0.016 + 1,000 x $0.008 + 3,000 x $0.006 = $16.00 + $8.00 + $18.00 = $42.00/month. (If Pipedrive instead charges every subscriber at the single rate of the top band reached, the cost would be 5,000 x $0.006 = $30.00/month instead; nothing captured rules this alternate reading out, hence 'medium' confidence.)",
+      "planId": "growth",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Growth plan, 3 seats, billed monthly (3 x $49)", "amount": 147 },
+        { "label": "Campaigns add-on (Standard tier), 5,000 subscribers, billed monthly (graduated bands)", "amount": 42 }
+      ],
+      "monthly": 189,
+      "confidence": "medium",
+      "note": "Billed annually: 3 x $39 (Growth) + graduated Campaigns at annual rates ((1,000x$0.16 + 1,000x$0.08 + 3,000x$0.06)/12 = $35.00) = $117 + $35.00 = $152.00/month. The 1,000 SMS/month have no Pipedrive equivalent (no native SMS product) and are not included; see unverified."
+    },
+    {
+      "size": "growing",
+      "label": "8-person sales team, Premium plan, 25,000 contacts, email marketing",
+      "assumptions": "Standard cinchstack growing sizing: 8 users, 25,000 contacts, 100,000 marketing emails/month, 5,000 SMS/month. An 8-person team outgrows Growth's caps (50 automations and just 5 nurture sequences company-wide, 1 email sync per seat); Pipedrive's own upsell path is Premium, which raises those to 150 automations, 25 sequences and 3 email syncs per seat, and adds LeadBooster, lead scoring/enrichment and Smart Docs at no extra cost. Premium's 15,000-leads-and-deals-per-seat cap x 8 seats = 120,000, comfortably covering 25,000 contacts. For the 100,000 marketing emails/month, pricing again follows Campaigns' subscriber count (25,000 marketing subscribers), using the same graduated per-subscriber bands as the small scenario: 1,000 x $0.016 + 1,000 x $0.008 + 23,000 x $0.006 = $16.00 + $8.00 + $138.00 = $162.00/month (paid monthly). As with the small scenario, this assumes Pipedrive's tiers are graduated rather than a single blended rate; a single-rate reading would instead give 25,000 x $0.006 = $150.00/month, so confidence is 'medium'.",
+      "planId": "premium",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Premium plan, 8 seats, billed monthly (8 x $79)", "amount": 632 },
+        { "label": "Campaigns add-on (Standard tier), 25,000 subscribers, billed monthly (graduated bands)", "amount": 162 }
+      ],
+      "monthly": 794,
+      "confidence": "medium",
+      "note": "Billed annually: 8 x $59 (Premium) + graduated Campaigns at annual rates ((1,000x$0.16 + 1,000x$0.08 + 23,000x$0.06)/12 = $135.00) = $472 + $135.00 = $607.00/month. The 5,000 SMS/month have no Pipedrive equivalent (no native SMS product) and are not included; see unverified. LeadBooster and Smart Docs are included free at this tier, so no separate add-on line was added for them."
+    }
+  ],
+  "unverified": [
+    "Pipedrive has no native SMS-sending product (its mobile app's 'texting' feature only deep-links to the phone's own messaging app and is not billed by Pipedrive), so the SMS lines in the standard solo/small/growing scenarios (200/1,000/5,000 SMS per month) could not be priced and are not included in any scenario's monthly total.",
+    "Web Visitors add-on: only the entry tier (up to 200 organizations, $49/month paid monthly, $41/month billed annually) and the next two published tiers (201-500 orgs at $99/month; 501-2,000 orgs at $299/month) are public. Annual-billing prices for those higher two tiers, and pricing above 2,000 organizations, are not published on any page Pipedrive makes public; Pipedrive assigns a tier only after a 7-day trial of actual traffic.",
+    "Smart Docs add-on's two published price bands ($39/month lower band, $59/month higher band) are labeled only by an internal 'units 1-30' / 'units 31-100' range in Pipedrive's own pricing data; no page states what is being counted. This is most likely monthly eSignature requests, since Smart Docs' own free trial is metered in 'five signature requests', but that is inference, not a stated fact.",
+    "Pipedrive's embedded pricing data lists paid 'Nova' SKUs (nova_v1 through nova_v4, $10-$25 per seat/month, $96-$240 per seat/year), but every page captured about Nova (pipedrive.com/en/nova and its FAQ) states plainly that 'Nova is included in all plans, at no additional cost.' What the paid Nova SKUs are for (e.g. usage beyond a free monthly allotment) is not explained on any page captured, so no Nova add-on price is recorded here.",
+    "Whether Campaigns' published per-subscriber rate bands are graduated (each band applied only to the subscribers within it, as assumed in the small/growing scenarios) or a single blended rate (the whole subscriber count charged at the rate of the top band reached) is not stated on any page captured; Pipedrive's own copy ('the more contacts you add, the less you pay per subscriber') is consistent with either reading."
+  ],
+  "history": [
+    { "date": "2026-09-26", "change": "Initial record." }
+  ]
+}

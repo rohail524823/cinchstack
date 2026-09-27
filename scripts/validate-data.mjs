@@ -84,7 +84,8 @@ for (const file of files) {
       if (p.tool === d.tool) fail(file, `a tool cannot be its own alternative`);
     }
   }
-  if (kind === 'faq' && d.page !== base) fail(file, `page "${d.page}" must match filename`);
+  // faq/pricing--hubspot.json belongs to the page "pricing/hubspot".
+  if (kind === 'faq' && d.page !== base.replace('--', '/')) fail(file, `page must be "${base.replace('--', '/')}" to match the filename (got "${d.page}")`);
 }
 
 if (bad) { console.log(`\n${bad} problem(s) in ${files.length} file(s).`); process.exit(1); }

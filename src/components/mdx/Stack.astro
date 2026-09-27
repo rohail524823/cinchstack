@@ -5,4 +5,4 @@ interface Props { id: string; size: 'solo' | 'small' | 'growing' }
 if (!stacks[Astro.props.id]) throw new Error(`<Stack>: unknown stack ${Astro.props.id}`);
 const b = stackBill(Astro.props.id);
 ---
-<Fig v={b.totals[Astro.props.size]} />
+<Fig v={b.totals[Astro.props.size]} floor={b.floors[Astro.props.size]} floorText="at least " />

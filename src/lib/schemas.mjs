@@ -81,6 +81,9 @@ export const scenarioSchema = z.object({
   lines: z.array(z.object({ label: z.string(), amount: z.number() })).min(1),
   monthly: z.number(), // must equal the sum of lines
   confidence: z.enum(['high', 'medium', 'low']),
+  // true when the vendor does not publish its price at this size in a form we could capture:
+  // the bill is the lowest it can be, and is shown as "from $X" and never used to call a tool cheaper.
+  floor: z.boolean().optional(),
   note: z.string().optional(),
 });
 

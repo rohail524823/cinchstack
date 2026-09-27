@@ -1,0 +1,33 @@
+{
+  "id": "pipedrive",
+  "name": "Pipedrive",
+  "vendor": "Pipedrive Inc.",
+  "tier": "secondary",
+  "layer": "run",
+  "category": "Sales CRM and pipeline management",
+  "url": "https://www.pipedrive.com/",
+  "pricingUrl": "https://www.pipedrive.com/en/pricing",
+  "oneLiner": "Sales-pipeline CRM billed per seat across four plans, with paid add-ons for lead capture, email marketing, web-visitor ID, projects and e-signatures.",
+  "summary": "Pipedrive is a sales-pipeline CRM billed per seat across four plans (Lite, Growth, Premium and Ultimate), with the higher tiers adding built-in lead capture, workflow automation, e-signatures and data enrichment. On the two lower tiers, several of those same features (LeadBooster, Projects, Smart Docs) are only available as separate paid add-ons, and email marketing (Campaigns) plus website-visitor identification (Web Visitors) are paid add-ons on every plan, Ultimate included. Annual billing cuts the per-seat price by 20 to 42 percent depending on plan, and every plan includes a 14-day free trial with no credit card required.",
+  "bestFor": ["agency", "local-service", "saas-startup"],
+  "notFor": [
+    "Teams that want bulk email marketing or SMS included in the base subscription (email marketing costs extra on every plan; there is no SMS product at all)",
+    "Solo users on the Lite plan who need workflow automation or a synced email inbox (Lite has neither)",
+    "Businesses that want to know Web Visitors' real monthly cost before running a 7-day traffic sample"
+  ],
+  "pros": [
+    "14-day free trial with full access and no credit card required",
+    "Pipedrive Nova meeting intelligence (call recording, transcripts, AI-drafted CRM updates) is included free on every plan, not sold as an add-on",
+    "Every plan bills strictly per seat with no minimum seat count, and annual billing cuts the per-seat price by 20-42%",
+    "Leads-and-deals capacity scales with seats (2,500 to 20,000 per seat depending on plan), not a single fixed number regardless of team size, though a 300,000 combined company-wide cap still applies on every plan",
+    "Plan limits and most add-on rates are published openly on the pricing page, including in a machine-readable format"
+  ],
+  "cons": [
+    "Lite and Growth lack built-in lead capture (LeadBooster), project management and e-signatures (Smart Docs); each is a separate paid add-on on those two plans",
+    "Lite has no workflow automation and no email sync at all; Growth's automation is capped at 50 active automations and just 5 nurture sequences company-wide",
+    "Email marketing (Campaigns) is a paid add-on on every plan, including Ultimate, priced by number of marketing subscribers held",
+    "Web Visitors' price above 2,000 identified organizations is not published and is only set after a 7-day traffic trial; Smart Docs' add-on price bands are labeled by an internal usage unit Pipedrive never defines",
+    "Annual plans are prepaid for the full year and non-refundable if cancelled"
+  ],
+  "affiliate": { "program": null }
+}

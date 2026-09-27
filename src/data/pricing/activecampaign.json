@@ -82,7 +82,8 @@
         "1,000 email contacts included at this price",
         "Maximum 25,000 contacts on Starter; not sold above that band",
         "5 actions per automation",
-        "1 user seat; up to 1 additional seat purchasable (price not published)"
+        "1 user seat; up to 1 additional seat purchasable (price not published)",
+        "Help Center notes existing ActiveCampaign customers do not qualify for this plan (new-signup only)"
       ],
       "highlights": [
         "Email marketing and marketing automation",
@@ -244,7 +245,7 @@
       "annualMonthly": 145,
       "priceUnit": "per-month",
       "seatsIncluded": 5,
-      "note": "Price when the contacts selector is at its default, 1,000 contacts. Marked \"Starts at\" on-page; Enterprise can also be fully custom-quoted via sales.",
+      "note": "Price when the contacts selector is at its default, 1,000 contacts. Marked \"Starts at\" on-page.",
       "limits": [
         "1,000 email contacts included at this price",
         "5 user seats; additional seats purchasable (price not published)"
@@ -369,8 +370,8 @@
         }
       ],
       "monthly": 609,
-      "confidence": "high",
-      "note": "ActiveCampaign's comparison table lists an 'email sends' allowance of 10x the contact count for Plus (500,000/month). 12 campaigns to the full 50,000-contact list is 600,000 sends/month, above that figure and at Pro's 12x allowance (600,000, $969/month). We could not confirm whether that multiplier is an enforced send cap or a looser guideline (see unverified); Plus is recorded here as the cheapest plan matching the contact-capacity requirement, but Pro may be the safer real-world pick if the send allowance is a hard limit."
+      "confidence": "medium",
+      "note": "ActiveCampaign's comparison table lists an 'email sends' allowance of 10x the contact count for Plus (500,000/month). 12 campaigns to the full 50,000-contact list is 600,000 sends/month, above that figure and at Pro's 12x allowance (600,000, $969/month). We could not confirm whether that multiplier is an enforced send cap or a looser guideline (see unverified); Plus is recorded here as the cheapest plan matching the contact-capacity requirement, but Pro may be the safer real-world pick if the send allowance is a hard limit. Confidence is medium rather than high because whether Plus's limits actually cover this scenario depends on that unverified send-cap enforcement detail."
     }
   ],
   "unverified": [

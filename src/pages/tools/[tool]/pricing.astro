@@ -53,7 +53,7 @@ const glance = [
   { label: 'Cheapest paid plan', value: cheapest ? `${figHtml(cheapest.v, '/mo')} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${cheapest.p.name}</span>` : 'Custom' },
   { label: 'Free plan', value: p.freeTier.exists ? 'Yes' : 'No' },
   { label: 'Free trial', value: p.trial.days ? `${p.trial.days} days${p.trial.cardRequired ? ' (card needed)' : ''}` : 'No' },
-  { label: 'Real bill, 5-person team', value: figHtml(small.monthly, '/mo') },
+  { label: 'Real bill, 5-person team', value: figHtml(small.monthly, '/mo', small.floor) },
 ];
 ---
 <Base title={e.data.title} description={e.data.description} path={path} jsonld={jsonld}>

@@ -20,7 +20,7 @@ const label = { paid: 'Our pick among tools that pay us', top: 'Highest-scored o
         <span class="lbl">{label[c.kind]}</span>
         <h3>{tool(c.id).name}</h3>
         <p>{tool(c.id).oneLiner}</p>
-        <p class="small">Score {score(c.id)?.overall ? oneDecimal(score(c.id).overall) : 'not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" /></p>
+        <p class="small">Score {score(c.id)?.overall ? oneDecimal(score(c.id).overall) : 'not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" floor={scenario(c.id, 'small').floor} /></p>
         <AffLink tool={c.id} page={page} placement={`pick-${c.kind}`} label={`Visit ${tool(c.id).name}`} />
       </div>
     ))}

@@ -1,0 +1,220 @@
+{
+  "tool": "mailchimp",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Mailchimp's own marketing pricing page (mailchimp.com/pricing/marketing/) was read in a US-locale headless Chromium browser at its default view (0-500 contacts), then re-driven three more times using the page's native contacts <select> element to the 501-1,500, 5,001-10,000 and 40,001-50,000 contacts bands (covering 1,000, 10,000 and 50,000 contacts respectively) to capture Essentials/Standard/Premium prices at each band. Mailchimp's own plan-comparison page (mailchimp.com/pricing/marketing/compare-plans/) was read the same way for the Free plan's exact contact/send limit and every plan's seat, audience and maximum-contact caps. All five page views were saved as snapshots.",
+  "sources": [
+    {
+      "url": "https://mailchimp.com/pricing/marketing/",
+      "label": "Mailchimp Marketing pricing page, default view (0-500 contacts band)",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/mailchimp/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://mailchimp.com/pricing/marketing/",
+      "label": "Same page, contacts selector set to the 501-1,500 contacts band (covers 1,000 contacts)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/mailchimp/2026-09-27-contacts-1000.txt"
+    },
+    {
+      "url": "https://mailchimp.com/pricing/marketing/",
+      "label": "Same page, contacts selector set to the 5,001-10,000 contacts band (covers 10,000 contacts)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/mailchimp/2026-09-27-contacts-10000.txt"
+    },
+    {
+      "url": "https://mailchimp.com/pricing/marketing/",
+      "label": "Same page, contacts selector set to the 40,001-50,000 contacts band (covers 50,000 contacts)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/mailchimp/2026-09-27-contacts-50000.txt"
+    },
+    {
+      "url": "https://mailchimp.com/pricing/marketing/compare-plans/",
+      "label": "Mailchimp's plan-comparison page: Free plan's exact contact/send limit, seat/audience/role caps per plan, and each plan's maximum published contact tier",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/mailchimp/2026-09-27-compare-plans.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free plan, $0/month, limited to 250 contacts (comparison page's 'Maximum Contact Count' row) with a maximum of 500 email sends per month or 250 per day. Includes 1 seat, 1 audience; no role-based access, Marketing Automation Flows, SMS/MMS Marketing, or Generative AI features. Email support is offered for the first 30 days only. Sending pauses if the contact or send limit is exceeded."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": true,
+    "summary": "Standard and Essentials both offer a self-serve 14-day free trial; valid payment information must be provided at enrollment and the account is charged automatically when the trial ends unless changed or cancelled first. Premium instead offers a separate 1-month trial for qualified new customers who contact sales, not a self-serve signup flow. The Free plan itself is not a trial — it is free indefinitely up to its 250-contact limit.",
+    "source": 0
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "seatsIncluded": 1,
+      "note": "Mailchimp's plan-comparison page states the Free plan's limit as exactly 250 contacts (its 'Maximum Contact Count' row: 'Up to 250 contacts'). The coarser 0-500 band on the main pricing page's contacts selector still lets the Free plan display as usable across that whole band, even though 250 is the true cap.",
+      "limits": [
+        "Hard limit of 250 contacts (Maximum Contact Count row)",
+        "Monthly email sends: max of 500/month or 250/day",
+        "1 seat, 1 audience",
+        "No Marketing Automation Flows, SMS/MMS Marketing, or Generative AI features",
+        "No role-based access",
+        "Email support for first 30 days only",
+        "Sending pauses if the contact or email-send limit is exceeded"
+      ],
+      "highlights": [
+        "Email campaigns, forms, landing pages and pop-up forms included",
+        "Basic reporting, personalized product recommendations and subject-line helper included",
+        "300+ integrations included"
+      ],
+      "source": 4
+    },
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "monthly": 13,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "seatsIncluded": 3,
+      "note": "Price rises with contact count in Mailchimp's own bands: $13/month is the starting rate, for the 0-500 contacts band. Confirmed higher bands: $26.50/month at 501-1,500 contacts, $110/month at 5,001-10,000 contacts, $385/month at 40,001-50,000 contacts (also confirmed as Essentials' published maximum tier — the comparison page states Essentials covers 'Up to 50,000 contacts with our $385/mo tier'). A ~15%-off annual pre-pay price is shown only once the account reaches 10,000+ contacts, not at this plan's starting tier: $93.50/month effective at 5,001-10,000 contacts, $327.25/month effective at 40,001-50,000 contacts — so annualMonthly is left null here rather than assigned a starting-tier figure that doesn't exist on the page.",
+      "limits": [
+        "3 seats, 3 audiences, 2 roles",
+        "Monthly email sends: 10x contacts",
+        "Up to 4 automation-flow steps, not full Marketing Automation Flows",
+        "No Generative AI features, custom reports, or dynamic content",
+        "Maximum published tier: 50,000 contacts at $385/month; above that, upgrade to Standard or Premium"
+      ],
+      "highlights": [
+        "14-day free trial, credit card required",
+        "SMS add-on available",
+        "24/7 email & chat support",
+        "300+ integrations included"
+      ],
+      "source": 0
+    },
+    {
+      "id": "standard",
+      "name": "Standard",
+      "monthly": 20,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "seatsIncluded": 5,
+      "note": "Price rises with contact count in Mailchimp's own bands: $20/month is the starting rate, for the 0-500 contacts band. Confirmed higher bands: $45/month at 501-1,500 contacts, $135/month at 5,001-10,000 contacts, $450/month at 40,001-50,000 contacts. The comparison page states Standard's own maximum published self-serve tier is 'Up to 100,000 contacts with our $800/mo tier' (not independently re-verified by selecting that exact band). A ~15%-off annual pre-pay price is shown only once the account reaches 10,000+ contacts, not at this plan's starting tier: $114.75/month effective at 5,001-10,000 contacts, $382.50/month effective at 40,001-50,000 contacts — so annualMonthly is left null here rather than assigned a starting-tier figure that doesn't exist on the page.",
+      "limits": [
+        "5 seats, 5 audiences, 4 roles",
+        "Monthly email sends: 12x contacts",
+        "Up to 200 Marketing Automation Flows",
+        "Maximum published self-serve tier: 100,000 contacts at $800/month (per Mailchimp's comparison page; not independently captured)"
+      ],
+      "highlights": [
+        "14-day free trial, credit card required",
+        "Marked 'Best value' on Mailchimp's own pricing page",
+        "SMS/MMS add-on available",
+        "24/7 email & chat support, 1 personalized onboarding session",
+        "Custom reports and dynamic content included"
+      ],
+      "source": 0
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "monthly": 350,
+      "annualMonthly": 297.5,
+      "priceUnit": "per-month",
+      "seatsIncluded": null,
+      "note": "The same $350/month ($297.50/month effective if paid annually) price was observed at the 0-500, 501-1,500 and 5,001-10,000 contacts bands alike; it rises to $815/month ($692.75/month effective annually) at the 40,001-50,000 contacts band. The exact breakpoint between 10,000 and 50,000 contacts where the price first rises above $350 was not captured (see unverified). Mailchimp's comparison page lists no fixed maximum for Premium: 'Contact us for a custom plan'.",
+      "limits": [
+        "No fixed published maximum contact count; comparison page says 'Contact us for a custom plan'",
+        "Monthly email sends: 15x contacts"
+      ],
+      "highlights": [
+        "Unlimited seats and audiences; 5 user roles",
+        "Phone & priority support",
+        "Dedicated onboarding specialist plus 4 personalized onboarding sessions",
+        "Premium Migration Services available (contact sales)",
+        "Custom reports, dynamic content and predictive segmentation included",
+        "Qualified new customers may get a separate 1-month free trial by contacting sales"
+      ],
+      "source": 0
+    }
+  ],
+  "addOns": [],
+  "usage": [],
+  "extraCosts": [
+    {
+      "id": "overage-fee",
+      "label": "Overage charge for exceeding the plan's contact or monthly email-send limit",
+      "amount": null,
+      "display": "Rate not published on the pages captured",
+      "kind": "other",
+      "note": "Every plan card on Mailchimp's pricing and comparison pages carries the footnote 'Overages apply if contact or email send limit is exceeded' with a 'Learn More' link, but neither page states a per-contact or per-email dollar rate.",
+      "source": 0
+    }
+  ],
+  "billingNotes": [
+    "Mailchimp bills primarily by contact count, in fixed bands (0-500, 501-1,500, 1,501-2,500, 2,501-5,000, 5,001-10,000, 10,001-15,000, ... up to 1,000,000+); the price shown is for the selected band regardless of exactly where within that band the true contact count falls.",
+    "Standard and Essentials show only a flat month-to-month price below 10,000 contacts; a ~15%-off annual pre-pay price appears alongside the monthly price only once the account reaches 10,000+ contacts.",
+    "Premium shows an annual pre-pay price (15% off) at every contacts tier tested, including its lowest (0-500 contacts) band, unlike Standard/Essentials.",
+    "Mailchimp's own footnote states: 'Annual Plans: For Premium and Standard 10,000+ contact plans, annual plans are available. Contact sales to learn about pricing and eligibility.' Yet the pricing page itself displays a specific annual per-month figure with a self-serve 'Buy Now' button at 10,000+ contacts for Premium, Standard, AND Essentials (which that footnote does not even mention). Both the footnote and the on-page self-serve figures are quoted verbatim from the same snapshots; this record reports the literal on-page figures rather than resolving the discrepancy.",
+    "14-day free trial (credit card required) on Standard and Essentials only; a separate 1-month Premium trial exists for qualified customers who contact sales.",
+    "Nonprofits and charities can request a 15% discount by signing up and contacting Mailchimp's billing team; not modeled in this record's list prices.",
+    "A Pay As You Go option (buy email-send credits instead of a recurring plan) exists at mailchimp.com/pricing/pay-as-you-go/; its per-credit/package pricing was not found on that page (see unverified)."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "Mailchimp's pricing page offers a currency selector listing 15 non-USD currencies (AUD, BRL, CAD, CHF, DKK, EUR, GBP, HKD, INR, JPY, MXN, NZD, SEK, SGD, ZAR) alongside USD. A selector alone does not confirm region-specific list prices (it could be a pure FX display conversion of the USD price), and that was not tested, so pricedByCountry is left false pending verification rather than assumed true. All figures in this record were captured with USD selected, US locale."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo operator, 1,000 contacts",
+      "assumptions": "One person sending about 4 campaigns/month to 1,000 contacts, billed month-to-month. Mailchimp's Free plan caps at 250 contacts (comparison page), well under 1,000, so it isn't usable here. Essentials (3 seats, 10x-contacts monthly send allowance) comfortably covers a solo sender at this size. 1,000 contacts falls in Mailchimp's own '501-1,500 contacts' pricing band, which is the exact figure captured.",
+      "planId": "essentials",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Essentials plan — 501-1,500 contacts band (covers 1,000 contacts)", "amount": 26.5 }
+      ],
+      "monthly": 26.5,
+      "confidence": "high"
+    },
+    {
+      "size": "small",
+      "label": "Small team, 10,000 contacts",
+      "assumptions": "About 5 people and 10,000 contacts sending roughly 8 campaigns/month, billed month-to-month. Essentials caps at 3 seats; Standard's 5-seat cap exactly fits a 5-person team (Mailchimp's own comparison table), so Standard is the plan a 5-person team needs for account access even though Essentials alone would otherwise cover the contact volume. 10,000 contacts falls in Mailchimp's own '5,001-10,000 contacts' pricing band.",
+      "planId": "standard",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Standard plan — 5,001-10,000 contacts band (covers 10,000 contacts)", "amount": 135 }
+      ],
+      "monthly": 135,
+      "confidence": "high",
+      "note": "Mailchimp also offers this same band at an annual pre-pay rate of $114.75/month (12 months upfront); month-to-month billing is used here per the standard methodology. A team needing only 1-3 seats could stay on Essentials at $110/month for the same contacts band instead."
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, 50,000 contacts",
+      "assumptions": "About 15 people and 50,000 contacts sending roughly 12 campaigns/month, billed month-to-month. Standard caps at 5 seats; Premium's unlimited seats (Mailchimp's own comparison table) are needed once 15 people may need account access. 50,000 contacts falls in Mailchimp's own '40,001-50,000 contacts' pricing band.",
+      "planId": "premium",
+      "billing": "monthly",
+      "lines": [
+        { "label": "Premium plan — 40,001-50,000 contacts band (covers 50,000 contacts)", "amount": 815 }
+      ],
+      "monthly": 815,
+      "confidence": "high",
+      "note": "Mailchimp also offers this band at an annual pre-pay rate of $692.75/month; month-to-month billing is used here. A 15-person team needing only 5 seats could use Standard at $450/month for the same contacts band instead — Premium is required here specifically for seats beyond 5, not for the contact volume itself."
+    }
+  ],
+  "unverified": [
+    "Mailchimp's SMS/MMS add-on has no flat published per-message or per-credit rate on its pricing page, comparison page, or 'About SMS Marketing Credits' help article; the help article states credit cost 'varies based on sending country' and gives only a formula (contacts x sends/month x credit cost = credits needed) — the actual per-country credit-cost table is populated only inside a logged-in account. Not included in addOns/usage.",
+    "The Transactional Emails add-on is listed as 'Prices vary' (Premium/Standard) or 'Demo only' (Essentials/Free) on the comparison page, with no dollar figure given.",
+    "The Pay As You Go plan (buy email credits without a recurring subscription, at mailchimp.com/pricing/pay-as-you-go/) exists but its per-credit or package price was not found on that page; pricing appears to require an account's Billing settings to view.",
+    "The exact contact-count breakpoint where Premium's price first rises above $350/month is somewhere between 10,000 and 50,000 contacts; only the endpoints ($350 at 10,000; $815 at 50,000) were captured, not the intermediate bands (10,001-15,000 through 30,001-40,000).",
+    "Standard's maximum published self-serve tier ('Up to 100,000 contacts with our $800/mo tier', per the comparison page) was not independently re-verified by selecting that exact contacts band.",
+    "Whether Mailchimp's underlying list price (not just currency/display) actually differs by country or region was not tested; only the USD/US-locale price was captured. See regional.note.",
+    "The exact per-contact or per-email overage rate charged when a plan's contact or send limit is exceeded is not published on the pages captured (see extraCosts)."
+  ],
+  "history": [
+    { "date": "2026-09-27", "change": "Initial record." }
+  ]
+}

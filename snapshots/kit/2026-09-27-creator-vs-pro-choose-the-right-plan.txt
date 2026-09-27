@@ -1,0 +1,160 @@
+SOURCE: https://intercom.help/convertkit/en/articles/4494683-creator-vs-pro-choose-the-right-plan
+FETCHED: 2026-09-27T02:25:38.000Z
+RENDERER: curl (raw HTML), content within Kit's Help Center <article> tag extracted to text; Kit's Help Center is hosted on Intercom's intercom.help domain (help.kit.com redirects/mirrors it) and was reachable directly, unlike kit.com itself which returned a Cloudflare bot-check.
+TITLE: Creator vs Pro: choose the right plan | Kit Help Center
+----
+Creator vs Pro: choose the right plan | Kit Help Center
+The Creator and Pro plans are paid plans that include Kit's full set of core email marketing tools. Pro adds advanced reporting, automation, audience, and growth features. 
+ Choose the plan that fits you
+ If this describes you 
+ Plan 
+ You need core email tools for building your list
+ Creator
+ You have 1–2 people managing the account
+ Creator
+ You need detailed open and click reporting by provider or segment
+ Pro
+ You want to sync segments to Facebook ad audiences
+ Pro
+ You have 3 or more people who need account access
+ Pro
+ You'll have multiple people collaborating on a Broadcast at once
+ Pro
+ You want to score and segment subscribers by engagement level
+ Pro
+ You want a referral program for your newsletter
+ Pro
+ You want to A/B test email content (not just subject lines)
+ Pro
+ You want full acquisition and sales analytics
+ Pro
+ You want insights into your subscribers' professional and social contexts
+ Pro
+ Pricing
+ Creator 
+ Pro 
+ Starting price (up to 1,000 subscribers)
+ $39 / month
+ $79 / month
+ Annual billing
+ 2 months free
+ 2 months free
+ Free trial
+ 14 days, no card required
+ 14 days, no card required
+ Pricing scales with your subscriber count. To see the exact price for your subscriber tier, visit the Kit pricing page .
+ Feature comparison
+ Feature 
+ Creator 
+ Pro 
+ Unlimited Forms and Landing Pages
+ Yes
+ Yes
+ Unlimited Broadcasts and Email Sequences
+ Yes
+ Yes
+ Visual Automations and Automation Rules
+ Yes
+ Yes
+ Link Triggers
+ Yes
+ Yes
+ Subscriber tagging and segmentation
+ Yes
+ Yes
+ Digital products and subscriptions
+ Yes
+ Yes
+ Custom domain
+ Yes
+ Yes
+ Custom email templates
+ Yes
+ Yes
+ Opt-in incentives
+ Yes
+ Yes
+ Unsubscribe page builder
+ Yes
+ Yes
+ Remove "Built with Kit" branding
+ Yes
+ Yes
+ Third-party integrations, apps, and API
+ Yes
+ Yes
+ Creator Network Recommendations
+ Yes
+ Yes
+ Subject line A/B testing
+ 2 variants
+ Up to 5 variants
+ Email content A/B testing
+ No
+ Yes
+ Team members
+ 2
+ Unlimited
+ Collaborative editing
+ No
+ Yes
+ Advanced deliverability reporting
+ No
+ Yes
+ Subscriber engagement analytics
+ Partial
+ Full
+ Subscriber engagement scoring
+ No
+ Yes
+ Edit links in sent Broadcasts
+ No
+ Yes
+ Facebook Custom Audiences sync
+ No
+ Yes
+ Newsletter referral system (SparkLoop)
+ No
+ Yes
+ Insights dashboard
+ No
+ Yes
+ Subscriber Signals
+ No
+ Yes
+ Pro features
+ Collaborative editing
+ Work together on Broadcasts with your team members in real time with no locking or waiting for someone else to finish first. See who else is editing via the profile icons at the top of the editor.
+ Learn more about collaborative editing 
+ Advanced deliverability reporting
+ View open and click data broken down by email provider (Gmail, Yahoo, Outlook) or by list segment. Use this data to identify deliverability issues and adjust your content strategy.
+ Learn more about advanced deliverability reporting 
+ Subscriber engagement analytics
+ See which subscribers are most engaged, where they came from, and how long they've stayed on your list. Use this to double down on the channels and content that are working.
+ Learn more about subscriber engagement analytics 
+ Subscriber engagement scoring
+ Each subscriber receives a score from 1 to 5 stars based on how they engage with your emails and products. Filter and segment by score to target your most active subscribers or clean inactive contacts from your list.
+ Learn more about subscriber scoring 
+ Facebook Custom Audiences sync
+ Connect Kit Segments to Facebook ad audiences. Subscribers are added and removed automatically as they move in and out of segments, so your ad targeting stays current without manual CSV uploads.
+ Learn more about Facebook Custom Audiences 
+ Edit links in sent Broadcasts
+ If a Broadcast contains a broken or incorrect URL, you can update it after sending. Open the Broadcast's Clicks report and replace the link, and all future clicks will go to the updated URL.
+ Learn how to change a URL after sending 
+ Unlimited team members
+ Add as many team members or assistants as you need and switch between accounts from a single dropdown. The Creator plan is limited to two users.
+ Learn how to invite your team 
+ Newsletter referral system (SparkLoop)
+ Set up a referral program that rewards subscribers for bringing in new readers, or pay partners per signup. Subscriber data syncs between Kit and SparkLoop automatically.
+ Learn how to set up a referral program 
+ Insights dashboard
+ Track acquisition, engagement, sales, and list growth in one place. Requires a tracking pixel and UTM tracking to be enabled. Use this dashboard to see which Broadcasts and traffic sources are driving revenue.
+ Learn how to set up Insights 
+ Subscriber Signals
+ Get automatic audience research on the people behind your email addresses, including their demographics and social influence. Use these insights to tailor content and pitch sponsors with confidence.
+ Learn more about Subscriber Signals 
+ How to switch between Creator and Pro
+ You can upgrade or downgrade anytime by going to Settings in the navigation > Account and Billing . Changes take effect immediately.
+ To upgrade to Pro: 
+ Go to your Account and Billing settings
+ Under My Plan click on Add to plan

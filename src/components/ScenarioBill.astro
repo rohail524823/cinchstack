@@ -16,7 +16,8 @@ const planName = (id) => p.plans.find((x) => x.id === id)?.name ?? id;
     <article data-scenario={s.size}>
       <span class="lbl">{SIZE_LABELS[s.size]}</span>
       <p class="who">{s.label}</p>
-      <p class="total"><Fig v={s.monthly} /> <small>/ month</small></p>
+      <p class="total"><Fig v={s.monthly} floor={s.floor} /> <small>/ month</small></p>
+      {s.floor && <p class="assume"><strong>Lowest possible bill.</strong> {t.name} does not publish its price at this size in a form we could verify, so this is the least it can cost, not the likely bill.</p>}
       <span class={`conf ${s.confidence}`}>{s.confidence} confidence</span>
       <ul>
         {s.lines.map((l) => <li><span>{l.label}</span><span><Fig v={l.amount} /></span></li>)}

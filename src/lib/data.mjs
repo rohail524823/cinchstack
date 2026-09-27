@@ -97,12 +97,13 @@ export function stackBill(stackId) {
       const o = l.overrides?.[size];
       if (o) return [size, { amount: o.amount, note: o.note, override: true }];
       const sc = scenario(l.pick, size);
-      return [size, { amount: sc.monthly, note: sc.label, override: false, confidence: sc.confidence }];
+      return [size, { amount: sc.monthly, note: sc.label, override: false, confidence: sc.confidence, floor: Boolean(sc.floor) }];
     }));
     return { ...l, cells };
   });
   const totals = Object.fromEntries(SIZES.map((size) => [size, Math.round(rows.reduce((a, r) => a + r.cells[size].amount, 0) * 100) / 100]));
-  return { rows, totals };
+  const floors = Object.fromEntries(SIZES.map((size) => [size, rows.some((r) => r.cells[size].floor)]));
+  return { rows, totals, floors };
 }
 
 export function toolsByLayer() {

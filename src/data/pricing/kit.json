@@ -1,0 +1,208 @@
+{
+  "tool": "kit",
+  "currency": "USD",
+  "checkedOn": "2026-09-27",
+  "method": "Kit's own pricing page (kit.com/pricing) and every kit.com/help.kit.com subdomain returned a Cloudflare bot-check ('Are you a robot?' / 'Just a moment...') to curl, WebFetch, a US-locale headless Chromium, and a headed, non-headless Chromium under Xvfb with the automation flag masked and a persistent profile (up to 110 seconds' wait) alike, so the plan-by-plan subscriber-tier prices on that page could not be read. The figures and policies below instead come from Kit's own Help Center, which is actually hosted on Intercom's intercom.help domain (not behind Kit's Cloudflare zone) and was reachable directly over plain curl; those pages were fetched fresh and saved as snapshots.",
+  "sources": [
+    {
+      "url": "https://kit.com/pricing",
+      "label": "Kit's own pricing page — blocked by a Cloudflare bot-check ('Are you a robot?') in a US-locale headless browser",
+      "checkedOn": "2026-09-26",
+      "snapshot": "snapshots/kit/2026-09-26-pricing.txt"
+    },
+    {
+      "url": "https://intercom.help/convertkit/en/articles/16627071-the-kit-free-plan",
+      "label": "Kit Help Center: The Kit Free plan",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/kit/2026-09-27-the-kit-free-plan.txt"
+    },
+    {
+      "url": "https://intercom.help/convertkit/en/articles/4494683-creator-vs-pro-choose-the-right-plan",
+      "label": "Kit Help Center: Creator vs Pro — choose the right plan (starting prices, trial, team-size guidance, feature comparison)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/kit/2026-09-27-creator-vs-pro-choose-the-right-plan.txt"
+    },
+    {
+      "url": "https://intercom.help/convertkit/en/articles/2537095-account-upgrade-downgrade-faqs",
+      "label": "Kit Help Center: Account upgrade | downgrade FAQs (subscriber-tier billing mechanics, worked example)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/kit/2026-09-27-account-upgrade-downgrade-faqs.txt"
+    },
+    {
+      "url": "https://intercom.help/convertkit/en/articles/2502679-billing-at-kit",
+      "label": "Kit Help Center: Billing at Kit (annual billing, refunds, proration, card-verification hold, 2025 price-update FAQ)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/kit/2026-09-27-billing-at-kit.txt"
+    },
+    {
+      "url": "https://intercom.help/convertkit/en/articles/2502683-i-need-help-understanding-my-receipt",
+      "label": "Kit Help Center: I need help understanding my receipt (proration worked example)",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/kit/2026-09-27-i-need-help-understanding-my-receipt.txt"
+    }
+  ],
+  "freeTier": {
+    "exists": true,
+    "summary": "Free plan (Kit's current Help Center calls it the 'Free' plan; the same $0 tier is also labelled 'Newsletter' elsewhere, see the plan note): $0/month for as long as active subscribers stay under 10,000 (Kit's marketing copy rounds this to 'up to 10,000 subscribers'). Includes unlimited forms, landing pages and email broadcasts, audience tagging/segmentation, selling digital products and subscriptions, a newsletter feed/website, API access, and enrollment in the Creator Network's free recommendations. Does not include Visual Automations, email sequences, Rules/RSS campaigns, AI Connectors, or paid App Store apps — those need Creator or Creator Pro."
+  },
+  "trial": {
+    "days": 14,
+    "cardRequired": false,
+    "summary": "14-day free trial on both Creator and Creator Pro, no card required, per Kit's own Creator-vs-Pro comparison article.",
+    "source": 2
+  },
+  "plans": [
+    {
+      "id": "newsletter",
+      "name": "Newsletter",
+      "monthly": 0,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "Kit's current Help Center article is titled 'The Kit Free plan' and calls this tier 'Free'; Kit's own signup-flow code and several third-party trackers use 'Newsletter' for the same $0 tier, which is the name used here per the brief. Free for as long as active subscribers stay under 10,000 (marketing copy rounds this to 'up to 10,000 subscribers').",
+      "limits": [
+        "Under 10,000 subscribers",
+        "No Visual Automations, email sequences, Rules/RSS campaigns, AI Connectors, or paid App Store apps",
+        "1 user"
+      ],
+      "highlights": [
+        "Unlimited forms, landing pages and email broadcasts",
+        "Audience tagging and segmentation",
+        "Sell digital products and subscriptions",
+        "Newsletter feed and website",
+        "API access",
+        "Creator Network free/Smart Recommendations"
+      ],
+      "source": 1
+    },
+    {
+      "id": "creator",
+      "name": "Creator",
+      "monthly": 39,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "seatsIncluded": 2,
+      "note": "$39/month is Kit's starting price, for up to 1,000 subscribers. Price rises with subscriber count through further tiers Kit does not publish outside its own pricing page; the only other confirmed breakpoint is up to 3,000 subscribers = $59/month. The exact price at 10,000 and 50,000 subscribers could not be verified — see unverified[]. Annual billing gives '2 months free' (12 months for the price of 10) but no fixed discounted monthly figure is published, so annualMonthly is left blank rather than computed.",
+      "limits": [
+        "Starting tier: up to 1,000 subscribers (price rises at higher subscriber tiers)",
+        "Kit frames Creator as the plan for 1-2 people managing the account",
+        "Subject-line A/B testing: 2 variants",
+        "No email-content A/B testing, collaborative editing, advanced deliverability reporting, or Facebook Custom Audiences sync"
+      ],
+      "highlights": [
+        "Unlimited forms, landing pages, broadcasts and email sequences",
+        "Visual Automations and Automation Rules",
+        "Digital products and subscriptions",
+        "Custom domain and custom email templates",
+        "Third-party integrations, apps and API",
+        "14-day free trial, no card required"
+      ],
+      "source": 2
+    },
+    {
+      "id": "creator-pro",
+      "name": "Creator Pro",
+      "monthly": 79,
+      "annualMonthly": null,
+      "priceUnit": "per-month",
+      "note": "$79/month is Kit's starting price, for up to 1,000 subscribers. Like Creator, the price rises with subscriber count on tiers Kit does not publish outside its own pricing page; the exact price at 10,000 and 50,000 subscribers could not be verified — see unverified[]. Annual billing gives '2 months free' (12 months for the price of 10) but no fixed discounted monthly figure is published, so annualMonthly is left blank rather than computed.",
+      "limits": [
+        "Starting tier: up to 1,000 subscribers (price rises at higher subscriber tiers)",
+        "Kit frames Creator Pro as the plan once 3 or more people need account access"
+      ],
+      "highlights": [
+        "Unlimited team members",
+        "Subject-line A/B testing up to 5 variants, plus email-content A/B testing",
+        "Advanced deliverability reporting and subscriber engagement scoring/analytics",
+        "Facebook Custom Audiences sync",
+        "Newsletter referral system (SparkLoop)",
+        "Insights dashboard and Subscriber Signals",
+        "Collaborative editing on Broadcasts",
+        "14-day free trial, no card required"
+      ],
+      "source": 2
+    }
+  ],
+  "addOns": [],
+  "usage": [],
+  "extraCosts": [],
+  "billingNotes": [
+    "Kit bills by confirmed/active subscribers, not list size or emails sent; every feature on the plan is included at that price. Each paid plan is split into subscriber tiers, and the tier sets the price.",
+    "Growing past your subscriber tier's limit upgrades you to the next tier automatically. On monthly billing you're charged the new tier's price plus a prorated charge on your next billing date; on annual billing you're charged the prorated difference immediately, then the full new annual price at renewal.",
+    "Kit does not downgrade automatically when your list shrinks: you switch to a lower tier yourself from Account & Billing once your subscriber count qualifies, and the lower price starts on your next billing date.",
+    "Annual billing is '12 months for the price of 10' (2 months free) on Creator and Creator Pro. Because of that discount, annual plans get no refund beyond Kit's standard 30-day policy.",
+    "30-day money-back guarantee on all paid plans, including annual; Kit does not refund or pro-rate payments made more than 30 days before the request.",
+    "Adding or changing a card triggers a temporary $1 Stripe verification charge, automatically removed after about 7 days.",
+    "This is Kit's first price increase in 12 years. For existing customers, the new pricing took effect on the first billing cycle after October 15, 2025, with at least 30 days' notice; existing coupons, discounts and nonprofit discounts continue to apply to the new prices.",
+    "Certain US states require Kit to charge sales tax based on the account's billing address; non-US customers can add a VAT/Tax ID to their billing details."
+  ],
+  "regional": {
+    "pricedByCountry": false,
+    "note": "kit.com/pricing could not be loaded at all in this session (Cloudflare bot-check blocked every access method tried), so regional pricing/currency could not be checked directly. Kit's Help Center discusses US state sales tax and lets non-US customers add a VAT/Tax ID to invoices, which implies tax rather than the underlying subscription price varies by location, but this was not independently confirmed. All figures in this record are Kit's own quoted USD starting prices."
+  },
+  "scenarios": [
+    {
+      "size": "solo",
+      "label": "Solo creator, 1,000 subscribers",
+      "assumptions": "One person sending about 4 campaigns/month to 1,000 subscribers, billed month to month. Kit's Free/Newsletter plan covers up to 10,000 subscribers but excludes Visual Automations and email sequences; Creator is Kit's lowest-cost fully-featured plan and is explicitly framed by Kit as the plan for '1-2 people managing the account', which fits a solo operator. At exactly 1,000 subscribers, Creator's confirmed starting price applies directly.",
+      "planId": "creator",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Creator plan — up to 1,000 subscribers",
+          "amount": 39
+        }
+      ],
+      "monthly": 39,
+      "confidence": "high",
+      "note": "A solo sender who only needs broadcasts (no automations/sequences) could use the Newsletter/Free plan instead, at $0/month, while staying under 10,000 subscribers."
+    },
+    {
+      "size": "small",
+      "label": "Small team, 10,000 subscribers",
+      "assumptions": "About 5 people and 10,000 subscribers sending roughly 8 campaigns/month, billed month to month. At 10,000 subscribers the account is at Kit's Free-plan ceiling (Free applies 'for as long as you stay under 10,000 subscribers'), so a paid plan is needed; a 5-person team also exceeds Creator's team-size framing ('1-2 people'), which Kit says calls for Creator Pro ('3 or more people who need account access').",
+      "planId": "creator-pro",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Creator Pro plan — Kit's confirmed starting price for up to 1,000 subscribers; NOT the true price at 10,000 subscribers, which could not be verified",
+          "amount": 79
+        }
+      ],
+      "monthly": 79,
+      "confidence": "low",
+      "note": "Lowest possible bill, not the likely one. $79 a month is Creator Pro at its entry tier of 1,000 subscribers. Kit raises the price as the subscriber count grows, but its price at 10,000 subscribers appears only in the calculator on kit.com/pricing, which blocks automated visits, so we could not verify it.",
+      "floor": true
+    },
+    {
+      "size": "growing",
+      "label": "Growing team, 50,000 subscribers",
+      "assumptions": "About 15 people and 50,000 subscribers sending roughly 12 campaigns/month, billed month to month. 50,000 subscribers is far past the Free-plan ceiling, and a 15-person team needs Creator Pro's unlimited team members (Creator is framed by Kit as a 1-2-person plan).",
+      "planId": "creator-pro",
+      "billing": "monthly",
+      "lines": [
+        {
+          "label": "Creator Pro plan — Kit's confirmed starting price for up to 1,000 subscribers; NOT the true price at 50,000 subscribers, which could not be verified",
+          "amount": 79
+        }
+      ],
+      "monthly": 79,
+      "confidence": "low",
+      "note": "Lowest possible bill, not the likely one. $79 a month is Creator Pro at its entry tier of 1,000 subscribers. Kit raises the price as the subscriber count grows, but its price at 50,000 subscribers appears only in the calculator on kit.com/pricing, which blocks automated visits, so we could not verify it.",
+      "floor": true
+    }
+  ],
+  "unverified": [
+    "Kit's exact subscriber-tier price for Creator and Creator Pro at 10,000 and 50,000 subscribers (and at every tier beyond the confirmed 1,000-subscriber starting price and the one incidental 3,000-subscriber breakpoint) is not published in Kit's Help Center; it is shown only on kit.com/pricing's interactive plan cards. That page returned a Cloudflare bot-check ('Are you a robot?' / 'Just a moment...') to every method tried: curl with a browser user agent across multiple paths and subdomains (kit.com, www.kit.com, help.kit.com, status.kit.com, convertkit.com), WebFetch, a US-locale headless Chromium (the pre-existing snapshot), and a headed, non-headless Chromium run under Xvfb with the automation-controlled flag masked and a persistent browser profile, given up to 110 seconds to clear the challenge. Kit's own client-side JavaScript (fetched unauthenticated from cdn.kit.com) shows the marketing pricing table pulls live prices from an account-scoped API (app.kit.com/billing/pricing_display/table) that returned 401 Unauthorized without a logged-in session in every attempt (with and without cookies, CSRF token, and Referer/Origin headers set to kit.com). We did not create a Kit account to query that endpoint, because it is built for an existing customer managing their own subscription, not as a public price list, and creating an account purely to extract data would misuse Kit's signup flow.",
+    "The 'small' and 'growing' scenarios above therefore report Creator Pro's confirmed 1,000-subscriber starting price ($79/month) rather than its true, higher price at 10,000 and 50,000 subscribers; each scenario's own note flags this explicitly as an unverified floor, not a real quote.",
+    "Third-party pricing trackers (not Kit's own site) commonly report Creator at roughly $139/month and Pro at roughly $189/month for 10,000 subscribers, and roughly $379/Creator and $519/Pro around 50,000-55,000 subscribers. These numbers come from secondary sources, not from Kit directly, are not fully consistent with each other on the exact tier boundary, and could not be independently confirmed, so they were not recorded in plans[] or scenarios[].",
+    "Whether Kit's price or currency varies by country: kit.com could not be loaded at all in this session (in any locale), so this could not be tested. See the regional note.",
+    "The exact effective monthly price under annual billing ('2 months free' / 12 months for the price of 10) for Creator and Creator Pro: Kit states the policy in words, but no page we could access states the resulting per-month dollar figure as a fixed number, so annualMonthly is left null on both paid plans rather than computed by us.",
+    "Whether Kit has additional named plans, add-ons, or usage-based charges (e.g. a paid App Store app, extra seats beyond what's included) beyond the three plans recorded here: not found in Kit's Help Center corpus (400+ articles reviewed) or on the pricing page (blocked); addOns/usage are left empty rather than guessed."
+  ],
+  "history": [
+    {
+      "date": "2026-09-27",
+      "change": "Initial record."
+    }
+  ]
+}

@@ -18,9 +18,9 @@ const sizes = ['solo', 'small', 'growing'];
       <tr>
         <td data-label="Layer">{LAYER_LABELS[r.layer]}<span class="sub">{r.role}</span></td>
         <td data-label="Tool">{best(r.pick) ? <a href={best(r.pick)}>{tool(r.pick).name}</a> : tool(r.pick).name}</td>
-        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={r.cells[z].amount} />{r.cells[z].override && <span class="sub">{r.cells[z].note}</span>}</td>)}
+        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={r.cells[z].amount} floor={r.cells[z].floor} />{r.cells[z].override && <span class="sub">{r.cells[z].note}</span>}</td>)}
       </tr>
     ))}
   </tbody>
-  <tfoot><tr><th scope="row" colspan="2" data-label="Total">Total per month</th>{sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={bill.totals[z]} /></td>)}</tr></tfoot>
+  <tfoot><tr><th scope="row" colspan="2" data-label="Total">Total per month</th>{sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={bill.totals[z]} floor={bill.floors[z]} /></td>)}</tr></tfoot>
 </table></div>
