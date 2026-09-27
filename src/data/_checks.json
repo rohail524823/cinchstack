@@ -14,7 +14,8 @@
     "checked": 25,
     "missing": [],
     "pages": 4,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "clickfunnels": {
     "ranOn": "2026-09-27",
@@ -22,7 +23,8 @@
     "checked": 6,
     "missing": [],
     "pages": 1,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "clickup": {
     "ranOn": "2026-09-27",
@@ -48,7 +50,8 @@
     "checked": 38,
     "missing": [],
     "pages": 10,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "hubspot": {
     "ranOn": "2026-09-27",
@@ -56,23 +59,30 @@
     "checked": 4,
     "missing": [],
     "pages": 3,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "kajabi": {
     "ranOn": "2026-09-27",
-    "status": "passed",
+    "status": "changed",
     "checked": 17,
-    "missing": [],
+    "missing": [
+      "Basic monthly: $179 no longer on https://www.kajabi.com/pricing",
+      "Growth monthly: $249 no longer on https://www.kajabi.com/pricing",
+      "Pro monthly: $499 no longer on https://www.kajabi.com/pricing"
+    ],
     "pages": 8,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "kit": {
     "ranOn": "2026-09-27",
-    "status": "passed",
-    "checked": 2,
+    "status": "not-checkable",
+    "checked": 0,
     "missing": [],
-    "pages": 1,
-    "blockedPages": 0
+    "pages": 0,
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "klaviyo": {
     "ranOn": "2026-09-27",
@@ -89,7 +99,8 @@
     "checked": 4,
     "missing": [],
     "pages": 1,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "notion": {
     "ranOn": "2026-09-27",
@@ -97,7 +108,8 @@
     "checked": 1,
     "missing": [],
     "pages": 1,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "pipedrive": {
     "ranOn": "2026-09-27",
@@ -105,7 +117,8 @@
     "checked": 4,
     "missing": [],
     "pages": 2,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "se-ranking": {
     "ranOn": "2026-09-27",
@@ -113,7 +126,8 @@
     "checked": 8,
     "missing": [],
     "pages": 3,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "semrush": {
     "ranOn": "2026-09-27",
@@ -121,15 +135,17 @@
     "checked": 5,
     "missing": [],
     "pages": 3,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
   },
   "shopify": {
     "ranOn": "2026-09-27",
     "status": "passed",
-    "checked": 13,
+    "checked": 10,
     "missing": [],
-    "pages": 4,
-    "blockedPages": 0
+    "pages": 3,
+    "blockedPages": 1,
+    "skippedPages": 0
   },
   "squarespace": {
     "ranOn": "2026-09-27",
