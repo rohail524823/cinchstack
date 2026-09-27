@@ -9,18 +9,36 @@ interface Props { id: string }
 const s = stacks[Astro.props.id];
 const bill = stackBill(Astro.props.id);
 const sizes = ['solo', 'small', 'growing'];
+// Overridden cells carry a note explaining why this stack uses a different plan than the tool's
+// standard bill. Notes become numbered footnotes under the table so the columns stay readable.
+const notes = [];
+const noteNo = (r, z) => {
+  const c = r.cells[z];
+  if (!c.override || !c.note) return null;
+  const text = `${tool(r.pick).name}, ${s.sizeLabels[z].toLowerCase()}: ${c.note}`;
+  const same = notes.findIndex((n) => n.note === c.note && n.pick === r.pick);
+  if (same >= 0) { notes[same].sizes.push(s.sizeLabels[z]); return same + 1; }
+  notes.push({ pick: r.pick, note: c.note, sizes: [s.sizeLabels[z]], text });
+  return notes.length;
+};
+const rows = bill.rows.map((r) => ({ r, marks: Object.fromEntries(sizes.map((z) => [z, noteNo(r, z)])) }));
 ---
 <p class="table-lead">The whole stack's monthly bill at three sizes: one row per layer, using each tool's real-cost scenario for that size, with the total at the bottom.</p>
 <div class="tbl-wrap"><table class="data stack">
   <thead><tr><th scope="col">Layer</th><th scope="col">Tool</th>{sizes.map((z) => <th scope="col" class="num">{s.sizeLabels[z]}</th>)}</tr></thead>
   <tbody>
-    {bill.rows.map((r) => (
+    {rows.map(({ r, marks }) => (
       <tr>
         <td data-label="Layer">{LAYER_LABELS[r.layer]}<span class="sub">{r.role}</span></td>
         <td data-label="Tool">{best(r.pick) ? <a href={best(r.pick)}>{tool(r.pick).name}</a> : tool(r.pick).name}</td>
-        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={r.cells[z].amount} floor={r.cells[z].floor} />{r.cells[z].override && <span class="sub">{r.cells[z].note}</span>}</td>)}
+        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={r.cells[z].amount} floor={r.cells[z].floor} />{marks[z] && <sup class="fn"><a href={`#stack-note-${marks[z]}`} aria-label={`Note ${marks[z]}`}>{marks[z]}</a></sup>}</td>)}
       </tr>
     ))}
   </tbody>
   <tfoot><tr><th scope="row" colspan="2" data-label="Total">Total per month</th>{sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={bill.totals[z]} floor={bill.floors[z]} /></td>)}</tr></tfoot>
 </table></div>
+{notes.length > 0 && (
+  <ol class="stack-notes">
+    {notes.map((n, i) => <li id={`stack-note-${i + 1}`}><strong>{tool(n.pick).name}</strong> ({n.sizes.join(', ').toLowerCase()}): {n.note}</li>)}
+  </ol>
+)}

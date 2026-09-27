@@ -209,3 +209,7 @@ details.more > summary { cursor: pointer; font-weight: 600; color: var(--accent)
 details.more[open] > summary { margin-bottom: 8px; }
 .scen details.work > summary { cursor: pointer; font-size: 13.5px; font-weight: 600; color: var(--accent); margin-top: 6px; }
 .scen details.work .assume { margin-top: 6px; }
+sup.fn { font-size: 11px; margin-left: 2px; }
+sup.fn a { text-decoration: none; }
+.stack-notes { font-size: 14px; color: var(--soft); margin: -8px 0 22px; padding-left: 1.4em; }
+.stack-notes li { margin: 0 0 6px; }
