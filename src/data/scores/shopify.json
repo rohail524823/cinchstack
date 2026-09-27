@@ -1,0 +1,24 @@
+{
+  "tool": "shopify",
+  "overall": 4.4,
+  "factors": {
+    "realCost": 4,
+    "pricingHonesty": 4,
+    "smallTeamFit": 4.5,
+    "doesTheJob": 4.5,
+    "freedomToLeave": 4,
+    "trackRecord": 4.5
+  },
+  "reasons": {
+    "realCost": "At $3,000, $30,000 and $150,000 in monthly sales, Shopify's real bill matches Basic ($39), Grow ($105) and Advanced ($399) exactly when the store uses Shopify Payments, since Shopify charges no percentage-of-sales fee on top.",
+    "pricingHonesty": "Every plan's price, the POS Pro add-on ($89 per location) and the Shopify Messaging email overage rate ($1 per 1,000 emails) are published on Shopify's own pricing and help-center pages, with only Plus requiring a sales call.",
+    "smallTeamFit": "Every paid plan bundles hosting, checkout and order management into one admin a non-technical owner can configure directly, though Basic's lack of staff accounts forces an upgrade to Grow ($105) as soon as a second person needs a login.",
+    "doesTheJob": "Shopify covers online store, checkout, point-of-sale and multichannel selling in one platform, replacing separate hosting, checkout and POS subscriptions that other tools in this group need add-ons for.",
+    "freedomToLeave": "Basic, Grow and Advanced are month-to-month with no contract, but Shopify Plus requires a 1- or 3-year term, and leaving Shopify means rebuilding the theme and reconnecting apps rather than a one-click export.",
+    "trackRecord": "Shopify launched in 2006, went public in 2015 and runs a public status page, though its 2023 plan price increase shows sticker prices are not fixed for the long term."
+  },
+  "basis": "Shopify's flat per-tier pricing matches the real bill for stores on Shopify Payments and covers store, checkout and POS in one place, making it the strongest default pick for a small business selling physical products, with the staff-account jump to Grow and Plus's lack of a month-to-month option the main friction.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4.5 and 4.4."
+}

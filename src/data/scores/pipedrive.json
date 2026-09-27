@@ -1,0 +1,24 @@
+{
+  "tool": "pipedrive",
+  "overall": 3.4,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 4,
+    "doesTheJob": 3,
+    "freedomToLeave": 3.5,
+    "trackRecord": 3.5
+  },
+  "reasons": {
+    "realCost": "The solo real bill of $40/mo is about 67% above the $24 Lite seat sticker once the Campaigns email add-on is included, while at the growing size the add-on adds a smaller, predictable ~26% on top of the seat total.",
+    "pricingHonesty": "Most plan and add-on rates are published on Pipedrive's pricing page, though the Smart Docs add-on's usage bands are labeled only by an undefined internal unit.",
+    "smallTeamFit": "Pipedrive is a focused, seat-based sales CRM that a non-technical owner can set up and run without an agency, though Lite lacks any automation or email sync.",
+    "doesTheJob": "It covers sales-pipeline management solidly but gates lead capture, project management and e-signatures behind paid add-ons on its two lower tiers and has no native SMS product.",
+    "freedomToLeave": "Monthly subscriptions can be canceled to take effect at the next billing date with no long-term contract required, though annual plans are prepaid for the full year and non-refundable.",
+    "trackRecord": "Pipedrive has operated since 2010 with a well-known sales-CRM reputation, though its 2025 plan renaming (Essential/Advanced/Professional/Enterprise to Lite/Growth/Premium/Ultimate) has left some legacy accounts on different prices than the current public plans."
+  },
+  "basis": "Pipedrive is a straightforward, honestly priced sales CRM that a small team can run itself, but its lower tiers lean heavily on separately priced add-ons for lead capture, projects and e-signatures, so it fits best as a dedicated pipeline tool rather than an all-in-one replacement for other subscriptions.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down; lowered from 3.6 in calibration: Pipedrive (3.6) outscores Zoho CRM (3.5), but Zoho has lower real bills at every size ($20/$150/$520 against $40/$189/$794), ties Pipedrive on real cost and does-the-job, and scores higher on pricing honesty, freedom to leave and track record, losing only on small-team fit, so Pipedrive belongs below Zoho, in line with its 3.42 factor mean.. Pass scores: 3.6 and 3.6."
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "zoho-crm",
+  "overall": 3.5,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 4,
+    "smallTeamFit": 3.5,
+    "doesTheJob": 3,
+    "freedomToLeave": 4,
+    "trackRecord": 4.5
+  },
+  "reasons": {
+    "realCost": "Per-organization mass-email caps force the small-team bill onto Enterprise ($150/mo) and the growing-team bill onto Ultimate ($520/mo) purely to clear email-volume limits, roughly 2.5x and 3.25x what the same seat count costs on Standard.",
+    "pricingHonesty": "Zoho publishes flat per-user prices for all five editions, including Ultimate, on its feature-comparison page with no hidden contact-count tiers.",
+    "smallTeamFit": "Flat per-seat pricing and a genuine free tier for up to 3 users make it straightforward for a non-technical owner to start without an agency.",
+    "doesTheJob": "It covers standard CRM and sales-automation functions but caps organization-wide mass email at 2,000/day even on its top edition and lists no native SMS feature.",
+    "freedomToLeave": "Billing is pay-as-you-go with no contract, and users can switch between monthly and annual billing or plans at any time.",
+    "trackRecord": "Zoho Corporation is a long-established, privately held software company, and Zoho CRM has been on the market for many years."
+  },
+  "basis": "Zoho CRM is a transparent, contract-free, and cheap entry-level CRM for a small business, but its per-organization mass-email caps mean the real monthly bill can jump two to three times the seat sticker price as soon as email volume grows, undercutting the predictability its flat per-seat pricing otherwise promises.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.3 and 3.8."
+}

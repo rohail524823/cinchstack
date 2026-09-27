@@ -1,0 +1,24 @@
+{
+  "tool": "kit",
+  "overall": 3,
+  "factors": {
+    "realCost": 2,
+    "pricingHonesty": 3,
+    "smallTeamFit": 4.5,
+    "doesTheJob": 3.5,
+    "freedomToLeave": 4,
+    "trackRecord": 2.5
+  },
+  "reasons": {
+    "realCost": "Kit's Free plan costs nothing up to 10,000 subscribers, but Creator and Creator Pro's subscriber-tier pricing above their published 1,000-subscriber starting prices of $39 and $79 is shown only inside Kit's own interactive calculator, so the real bill at typical small-business list sizes cannot be predicted from published figures.",
+    "pricingHonesty": "Kit publishes the $39 Creator and $79 Creator Pro starting prices and one further breakpoint, but its Help Center does not publish a tier-price table beyond 1,000 subscribers, leaving buyers dependent on the live pricing-page calculator to learn the cost at larger list sizes.",
+    "smallTeamFit": "Kit is built around a single creator's own account with a 14-day no-card trial and a Free plan usable without setup help, and frames its Creator plan explicitly as sized for one or two people.",
+    "doesTheJob": "Kit combines newsletters, automations, landing pages and digital-product sales in one account, though it is scoped to a single creator's list rather than the multi-client or ecommerce-CRM depth of some competitors.",
+    "freedomToLeave": "Kit offers a 30-day money-back guarantee on every paid plan and month-to-month billing with no long contract, though downgrading to a lower subscriber tier when a list shrinks is a manual step rather than automatic.",
+    "trackRecord": "Kit raised its Creator and Creator Pro starting prices in October 2025 and applied the new prices to existing customers as well as new ones."
+  },
+  "basis": "Kit suits a solo creator thanks to its free 10,000-subscriber tier and fast self-serve setup, but its October 2025 price rise reached existing customers and its prices above 1,000 subscribers are shown only in a calculator, which undercuts the predictability a small business needs.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3 and 3."
+}

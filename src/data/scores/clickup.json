@@ -1,0 +1,24 @@
+{
+  "tool": "clickup",
+  "overall": 3.5,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 3,
+    "doesTheJob": 4.5,
+    "freedomToLeave": 3.5,
+    "trackRecord": 3
+  },
+  "reasons": {
+    "realCost": "For a fifteen-person team the real bill is $285/mo on Business against $150/mo on Unlimited, because Unlimited caps Dashboards, Timeline and Workload views at 100 uses per Workspace that never reset, pushing usage-heavy teams onto the pricier plan.",
+    "pricingHonesty": "ClickUp publishes per-seat plan prices plus its Brain AI, Everything AI and AI Super Credit add-on rates, but Business Plus pricing and a described 'new set of plans that include more ClickUp AI' are shown only inside the app's upgrade flow rather than the public pricing page.",
+    "smallTeamFit": "ClickUp packs Automations, Dashboards, Custom Fields, Gantt, Timeline and Workload views and AI add-ons into one workspace, which takes more setup to learn than a simple docs workspace.",
+    "doesTheJob": "ClickUp combines task management, docs, dashboards, time tracking, whiteboards and automations in a single plan, replacing several separate point tools that a docs-only workspace would still need.",
+    "freedomToLeave": "ClickUp bills month-to-month by default and offers self-serve data export, but AI add-ons like Brain AI must be cancelled separately from the base plan and monthly and yearly licenses cannot be mixed in one Workspace.",
+    "trackRecord": "ClickUp, founded in 2017, is newer to market than longer-established competitors, and its own Help Center describes its standalone AI Notetaker add-on as being in early access with pricing that 'may evolve.'"
+  },
+  "basis": "ClickUp is a capable but more complex buy for the organize layer: it replaces more separate tools with deeper project-management features, but usage caps push real bills above the advertised per-seat price at growing team sizes, and its AI add-ons are billed per member regardless of who uses them.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.5 and 3.5."
+}

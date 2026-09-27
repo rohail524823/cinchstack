@@ -1,0 +1,24 @@
+{
+  "tool": "kajabi",
+  "overall": 3.5,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 3,
+    "smallTeamFit": 4,
+    "doesTheJob": 4,
+    "freedomToLeave": 3,
+    "trackRecord": 3
+  },
+  "reasons": {
+    "realCost": "The real bills at all three sizes equal the sticker prices ($179, $249 or $499), but exceeding a plan's contact, product, website or admin-user limits adds separate per-unit fees, such as $25 per 5,000 extra contacts.",
+    "pricingHonesty": "Kajabi's help center publishes exact prices for every add-on, including extra contacts, products and admin users, though the lower-cost Kickstarter tier and Expert Agents pricing appear only off the main public pricing pages.",
+    "smallTeamFit": "Kajabi's course, coaching, community, email and checkout tools are built for a non-technical creator to run without a developer, though its entry plan starts at $179/month.",
+    "doesTheJob": "Kajabi bundles courses, coaching, community, email marketing, funnels and checkout with unlimited landing pages and marketing emails on every plan, covering most of a course creator's needs in one subscription.",
+    "freedomToLeave": "Contacts and course content can be exported as CSV or downloaded manually, but customer payment tokens processed through Kajabi Payments cannot be bulk-exported to a new platform.",
+    "trackRecord": "Founded in 2010, Kajabi raised prices across all plans effective January 13, 2026, including raising its extra-contacts add-on rate from $20 to $25 per 5,000 contacts."
+  },
+  "basis": "Kajabi is a capable, well-established course and coaching platform, but its highest entry price among these five, a January 2026 across-the-board price increase, and payment-token lock-in make it a comparatively pricier and stickier buy for a small business.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down; lowered from 3.6 in calibration: Kajabi ties ClickFunnels at 3.6, but ClickFunnels is the clearly better-value tool in the same layer: its real bills are $97/$197/$297 against Kajabi's $179/$249/$499, it scores at least as well on every factor except small-team fit, and Kajabi's own basis calls it the pricier, stickier buy.. Pass scores: 3.6 and 3.7."
+}

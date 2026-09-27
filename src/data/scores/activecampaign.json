@@ -1,0 +1,24 @@
+{
+  "tool": "activecampaign",
+  "overall": 3.6,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 3,
+    "smallTeamFit": 3,
+    "doesTheJob": 4.5,
+    "freedomToLeave": 3,
+    "trackRecord": 4
+  },
+  "reasons": {
+    "realCost": "ActiveCampaign's published contact-tier price is the annual-billing rate a buyer actually pays, and every plan bundles automation and CRM with no required add-on, but the public pricing page never states the monthly (non-annual) rate that its own billing help article confirms exists.",
+    "pricingHonesty": "ActiveCampaign publishes detailed contact-tier pricing across all four plans, but hides the monthly-cadence rate, extra-seat prices, and every CRM and SMS add-on price behind a login rather than the public site.",
+    "smallTeamFit": "ActiveCampaign offers a 14-day no-card trial and includes a free onboarding session or AI course on every paid plan, though its automation-and-CRM feature set is broader than a simple newsletter tool and needs more setup time to use fully.",
+    "doesTheJob": "Every ActiveCampaign plan, including the cheapest Starter tier, bundles marketing automation with a built-in CRM, letting a small business skip a separate CRM subscription.",
+    "freedomToLeave": "ActiveCampaign offers a 30-day money-back guarantee and archives rather than deletes account data for a year after cancellation, but its pricing page shows only annual billing with no visible monthly toggle, nudging buyers toward a longer commitment.",
+    "trackRecord": "ActiveCampaign has operated since 2003 and ran without outside funding until 2016."
+  },
+  "basis": "ActiveCampaign is a solid buy for a small business that wants automation and light CRM in one subscription from a stable, long-run company, though its pricing page hides the monthly-billing rate and every add-on price, and its automation depth asks more setup time than a simpler newsletter tool.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.9 and 3.4."
+}

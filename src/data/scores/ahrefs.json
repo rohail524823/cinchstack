@@ -1,0 +1,24 @@
+{
+  "tool": "ahrefs",
+  "overall": 3.7,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 2.5,
+    "doesTheJob": 4.5,
+    "freedomToLeave": 3,
+    "trackRecord": 4
+  },
+  "reasons": {
+    "realCost": "The real bill equals the $129 Lite sticker for a solo user but reaches $689/mo for a growing team, well above the $449 Advanced sticker, because each extra seat costs $80-$100 a month on top of the plan.",
+    "pricingHonesty": "Every paid plan, its limits and most add-ons carry a published price, but pay-as-you-go rates for extra tracked keywords, export rows and crawl credits beyond a plan's limits are not published on any page Ahrefs makes public.",
+    "smallTeamFit": "Ahrefs pitches its Standard and Advanced plans at freelance SEOs, marketing consultants and in-house marketing teams rather than non-technical owners, and its Lite plan meters each user's own research activity against a monthly credit allowance that adds a usage concept to track.",
+    "doesTheJob": "Ahrefs runs on its own web crawler for backlink and keyword research, technical site audits and rank tracking, and adds a Brand Radar tool for AI-answer brand mentions, all in one subscription.",
+    "freedomToLeave": "Lite, Standard and Advanced can be billed monthly and cancelled before renewal, but Ahrefs does not issue refunds in general, offers no option to pause a subscription, and its Enterprise tier requires a minimum one-year commitment.",
+    "trackRecord": "Ahrefs has operated since 2010 and states on its own site that it does not run discounts or promotional pricing, so the list price is the price everyone pays."
+  },
+  "basis": "Ahrefs offers the deepest backlink and keyword research of the three and a no-discount list price, but its plans and messaging are aimed at SEO practitioners rather than non-technical owners, and its no-refund, no-pause policy makes an exit less forgiving.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.6 and 3.9."
+}

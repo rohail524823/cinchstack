@@ -1,0 +1,24 @@
+{
+  "tool": "woocommerce",
+  "overall": 3.6,
+  "factors": {
+    "realCost": 2.5,
+    "pricingHonesty": 3,
+    "smallTeamFit": 2,
+    "doesTheJob": 4,
+    "freedomToLeave": 5,
+    "trackRecord": 4.5
+  },
+  "reasons": {
+    "realCost": "WooCommerce itself is free, but the real monthly bill comes entirely from third-party hosting (Woo's own estimate: $25-$350/month) and yearly extensions, both of which vary by the buyer's own choices rather than a vendor price list.",
+    "pricingHonesty": "WooCommerce's pricing page discloses the plugin is free with 0% revenue share, states its hosting-cost range and lists the full WooPayments fee schedule, though its own cost calculator emails results only after a lead-form submission.",
+    "smallTeamFit": "Running WooCommerce means choosing and configuring a WordPress host, installing and maintaining plugins, and relying on community forums for free-core support, which typically calls for developer or agency help.",
+    "doesTheJob": "The free core gives unlimited products, orders and APIs, and a large extension marketplace adds subscriptions, bookings and bundles, but each of those capabilities is a separate paid add-on rather than built in.",
+    "freedomToLeave": "Because it is open-source code on self-hosted WordPress, an owner can move to any host or payment gateway at any time, and paid extensions keep working (minus updates and support) if a subscription lapses.",
+    "trackRecord": "WooCommerce launched in 2011 and has been owned by Automattic since 2015, and it remains one of the most widely deployed ecommerce plugins for WordPress."
+  },
+  "basis": "WooCommerce is a good buy for a small business willing to manage, or pay someone to manage, WordPress hosting and plugins: its 0% platform fee and full code ownership are strong, but the total monthly cost is spread across a host and extensions the vendor doesn't set, and it offers no path to run without ongoing technical upkeep.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.6 and 3.7."
+}

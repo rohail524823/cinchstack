@@ -1,0 +1,24 @@
+{
+  "tool": "semrush",
+  "overall": 3.6,
+  "factors": {
+    "realCost": 3,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 3,
+    "doesTheJob": 4.5,
+    "freedomToLeave": 3,
+    "trackRecord": 4
+  },
+  "reasons": {
+    "realCost": "The real bill matches the $139.95 sticker for a solo user but reaches $849/mo for a growing team, well above the $549 Advanced sticker, because each extra seat adds $80-$100 per month on top of the plan.",
+    "pricingHonesty": "Every SEO + AI Search plan, its limits and each toolkit add-on carry an exact published price, but the cost of extra tracked keywords, projects or crawl pages beyond a plan's cap is not published anywhere, and Semrush's own knowledge base still lists legacy Guru/Business tier pricing that contradicts the current pricing page.",
+    "smallTeamFit": "Semrush sells SEO alongside six separate toolkits (Local, Content, Social, Advertising, Traffic & Market, AI PR), each with its own tiers and add-on prices, which is more toolkit-juggling than a non-technical owner running a single small site typically needs.",
+    "doesTheJob": "Paid plans combine keyword research, daily rank tracking, site audits and backlink analysis under one login, and the same account can add local-SEO, content, social, ads and PR toolkits to cover work that would otherwise need separate subscriptions.",
+    "freedomToLeave": "Every SEO + AI Search plan can be billed month to month, but the 7-day money-back guarantee applies only to initial annual subscriptions and add-on purchases, so a monthly subscriber who cancels is not refunded for the current term.",
+    "trackRecord": "Semrush is a long-established SEO platform that, per its own company timeline, became an Adobe company in 2026, and its knowledge base still carries SEO Toolkit Pro/Guru/Business pricing that no longer matches the plans on its public pricing page."
+  },
+  "basis": "Semrush is the broadest platform of the three, bundling core SEO with five other paid toolkits that can replace separate subscriptions, but its real bill climbs fastest with team size and its own documentation shows plan-history inconsistencies a small-business buyer has to work through.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 3.6 and 3.7."
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2026-09-27",
+    "tool": "activecampaign",
+    "kind": "initial-record",
+    "summary": "Started tracking ActiveCampaign's pricing: 11 plans, 0 add-ons and 0 usage rates recorded from 9 vendor pages. Paid plans start at $15 a month billed yearly (Starter (1,000 contacts)).",
+    "source": "https://www.activecampaign.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "ahrefs",
+    "kind": "initial-record",
+    "summary": "Started tracking Ahrefs's pricing: 6 plans, 19 add-ons and 4 usage rates recorded from 30 vendor pages. Paid plans start at $29 a month (Starter).",
+    "source": "https://ahrefs.com/pricing"
+  },
+  {
+    "date": "2026-09-27",
+    "tool": "clickfunnels",
+    "kind": "initial-record",
+    "summary": "Started tracking ClickFunnels's pricing: 4 plans, 0 add-ons and 0 usage rates recorded from 5 vendor pages. Paid plans start at $97 a month (Launch).",
+    "source": "https://www.clickfunnels.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "clickup",
+    "kind": "initial-record",
+    "summary": "Started tracking ClickUp's pricing: 4 plans, 3 add-ons and 1 usage rate recorded from 36 vendor pages. Paid plans start at $10 a month per seat (Unlimited).",
+    "source": "https://clickup.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "framer",
+    "kind": "initial-record",
+    "summary": "Started tracking Framer's pricing: 4 plans, 11 add-ons and 0 usage rates recorded from 16 vendor pages. Paid plans start at $15 a month (Basic).",
+    "source": "https://www.framer.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "gohighlevel",
+    "kind": "initial-record",
+    "summary": "Started tracking GoHighLevel's pricing: 4 plans, 16 add-ons and 21 usage rates recorded from 23 vendor pages. Paid plans start at $97 a month (Starter).",
+    "source": "https://www.gohighlevel.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "hubspot",
+    "kind": "initial-record",
+    "summary": "Started tracking HubSpot's pricing: 4 plans, 17 add-ons and 2 usage rates recorded from 23 vendor pages. Paid plans start at $20 a month per seat (Marketing Hub Starter).",
+    "source": "https://www.hubspot.com/pricing/marketing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "kajabi",
+    "kind": "initial-record",
+    "summary": "Started tracking Kajabi's pricing: 4 plans, 10 add-ons and 0 usage rates recorded from 30 vendor pages. Paid plans start at $71 a month billed yearly (Kickstarter).",
+    "source": "https://www.kajabi.com/pricing"
+  },
+  {
+    "date": "2026-09-27",
+    "tool": "kit",
+    "kind": "initial-record",
+    "summary": "Started tracking Kit's pricing: 3 plans, 0 add-ons and 0 usage rates recorded from 6 vendor pages. Paid plans start at $39 a month (Creator).",
+    "source": "https://kit.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "klaviyo",
+    "kind": "initial-record",
+    "summary": "Started tracking Klaviyo's pricing: 7 plans, 7 add-ons and 1 usage rate recorded from 24 vendor pages. Paid plans start at $20 a month (Email (500 active profiles)).",
+    "source": "https://www.klaviyo.com/pricing"
+  },
+  {
+    "date": "2026-09-27",
+    "tool": "mailchimp",
+    "kind": "initial-record",
+    "summary": "Started tracking Mailchimp's pricing: 4 plans, 0 add-ons and 0 usage rates recorded from 5 vendor pages. Paid plans start at $13 a month (Essentials).",
+    "source": "https://mailchimp.com/pricing/marketing/"
+  },
+  {
+    "date": "2026-09-27",
+    "tool": "notion",
+    "kind": "initial-record",
+    "summary": "Started tracking Notion's pricing: 4 plans, 0 add-ons and 1 usage rate recorded from 4 vendor pages. Paid plans start at $12 a month per seat (Plus).",
+    "source": "https://www.notion.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "pipedrive",
+    "kind": "initial-record",
+    "summary": "Started tracking Pipedrive's pricing: 4 plans, 8 add-ons and 2 usage rates recorded from 23 vendor pages. Paid plans start at $24 a month per seat (Lite).",
+    "source": "https://www.pipedrive.com/en/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "se-ranking",
+    "kind": "initial-record",
+    "summary": "Started tracking SE Ranking's pricing: 3 plans, 8 add-ons and 0 usage rates recorded from 14 vendor pages. Paid plans start at $129 a month (Core).",
+    "source": "https://seranking.com/subscription.html"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "semrush",
+    "kind": "initial-record",
+    "summary": "Started tracking Semrush's pricing: 6 plans, 24 add-ons and 0 usage rates recorded from 30 vendor pages. Paid plans start at $139.95 a month (SEO).",
+    "source": "https://www.semrush.com/prices/"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "shopify",
+    "kind": "initial-record",
+    "summary": "Started tracking Shopify's pricing: 5 plans, 2 add-ons and 4 usage rates recorded from 28 vendor pages. Paid plans start at $39 a month (Basic).",
+    "source": "https://www.shopify.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "squarespace",
+    "kind": "initial-record",
+    "summary": "Started tracking Squarespace's pricing: 4 plans, 4 add-ons and 3 usage rates recorded from 22 vendor pages. Paid plans start at $25 a month (Basic).",
+    "source": "https://www.squarespace.com/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "systeme-io",
+    "kind": "initial-record",
+    "summary": "Started tracking Systeme.io's pricing: 5 plans, 0 add-ons and 0 usage rates recorded from 21 vendor pages. Paid plans start at $17 a month (Startup).",
+    "source": "https://systeme.io/pricing"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "webflow",
+    "kind": "initial-record",
+    "summary": "Started tracking Webflow's pricing: 13 plans, 19 add-ons and 2 usage rates recorded from 31 vendor pages. Paid plans start at $24 a month (Freelancer Workspace).",
+    "source": "https://webflow.com/pricing"
+  },
+  {
+    "date": "2026-09-27",
+    "tool": "wix",
+    "kind": "initial-record",
+    "summary": "Started tracking Wix's pricing: 6 plans, 0 add-ons and 1 usage rate recorded from 6 vendor pages. Paid plans start at $17 a month billed yearly (Light).",
+    "source": "https://www.wix.com/plans"
+  },
+  {
+    "date": "2026-09-26",
+    "tool": "woocommerce",
+    "kind": "initial-record",
+    "summary": "Started tracking WooCommerce's pricing: 1 plan, 10 add-ons and 10 usage rates recorded from 22 vendor pages.",
+    "source": "https://woocommerce.com/pricing/"
+  },
+  {
+    "date": "2026-09-27",
+    "tool": "zoho-crm",
+    "kind": "initial-record",
+    "summary": "Started tracking Zoho CRM's pricing: 5 plans, 3 add-ons and 0 usage rates recorded from 5 vendor pages. Paid plans start at $20 a month per seat (Standard).",
+    "source": "https://www.zoho.com/crm/zohocrm-pricing.html"
+  }
+]

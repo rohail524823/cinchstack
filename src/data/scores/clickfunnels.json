@@ -1,0 +1,24 @@
+{
+  "tool": "clickfunnels",
+  "overall": 3.6,
+  "factors": {
+    "realCost": 4,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 3.5,
+    "doesTheJob": 4,
+    "freedomToLeave": 3,
+    "trackRecord": 3
+  },
+  "reasons": {
+    "realCost": "The real bills at all three sizes equal the sticker prices exactly ($97, $197 or $297), since ClickFunnels takes no percentage of a seller's sales.",
+    "pricingHonesty": "Plan prices, contact and seat limits, and the 0%-of-sales policy are stated on the pricing page, but the exact free-trial length and whether a card is required are not disclosed anywhere on the current site.",
+    "smallTeamFit": "ClickFunnels markets a drag-and-drop funnel, store, course and email builder in one workspace that a non-technical seller can set up without a developer.",
+    "doesTheJob": "Every tier bundles a funnel/website builder, online store, courses, community, email/automation and CRM into one platform, replacing several separate subscriptions.",
+    "freedomToLeave": "Launch, Scale and Optimize can be billed monthly with a 30-day money-back guarantee, but Dominate is sold only on an annual contract with no month-to-month option, and no self-serve data-export process is published.",
+    "trackRecord": "ClickFunnels launched in 2014 and has been sold as a funnel-building platform for more than a decade."
+  },
+  "basis": "ClickFunnels is a solid, if pricier, funnel-and-course bundle for a small business: its real bill matches its sticker price exactly with no revenue share, but there is no free tier, the cheapest plan starts at $97/month, and some trial and top-tier terms are not published.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.7 and 3.5."
+}

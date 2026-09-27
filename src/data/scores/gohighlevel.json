@@ -1,0 +1,24 @@
+{
+  "tool": "gohighlevel",
+  "overall": 3.2,
+  "factors": {
+    "realCost": 2.5,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 2,
+    "doesTheJob": 4.5,
+    "freedomToLeave": 3,
+    "trackRecord": 2.5
+  },
+  "reasons": {
+    "realCost": "For a fifteen-person team, usage charges (about $131 of the $228.20 total) exceed the $97 Starter plan itself, and per-segment SMS, per-minute call, and per-token AI rates make the total hard to predict in advance.",
+    "pricingHonesty": "Plan prices, add-ons, and most usage rates are published on the pricing page and help center, but the in-app Wallet Pricing page requires a login and HighLevel's own articles contradict each other on when the 5% phone pass-through markup applies.",
+    "smallTeamFit": "The platform bundles funnels, workflows, a phone system and AI features around an agency sub-account model, and it is not built for teams that just want a simple CRM without setting up funnels and automations.",
+    "doesTheJob": "A single subscription combines CRM and pipelines, a website/funnel builder, calendars, email/SMS marketing, workflow automation, reviews, courses, and communities, covering more ground than a typical standalone CRM.",
+    "freedomToLeave": "Billing is month-to-month with no long-term contract and cancellation is self-serve from the dashboard, but the Terms state all fees are non-refundable and canceled accounts' data is deleted after 90 days.",
+    "trackRecord": "HighLevel LLC is a comparatively young vendor, and its own billing help articles conflict with each other on core usage-fee policy, such as when the 5% phone pass-through markup applies."
+  },
+  "basis": "GoHighLevel packs CRM, funnels, and marketing automation into one subscription that can replace several tools, but nearly every communication feature is billed separately from a prepaid wallet with non-refundable fees and internally contradictory billing documentation, making the real bill hard for a non-technical small-business owner to predict or budget.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 3.5 and 3.2."
+}

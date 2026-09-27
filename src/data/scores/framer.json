@@ -1,0 +1,24 @@
+{
+  "tool": "framer",
+  "overall": 3,
+  "factors": {
+    "realCost": 1.5,
+    "pricingHonesty": 4,
+    "smallTeamFit": 3.5,
+    "doesTheJob": 3.5,
+    "freedomToLeave": 2,
+    "trackRecord": 2.5
+  },
+  "reasons": {
+    "realCost": "Framer's small and growing-team real bills of $105/mo and $255/mo run well above the $45/mo Pro sticker price from per-editor seat add-ons, and picking a higher AI-credit tier on the same plan can push Basic to $225/mo or Pro to $1,500/mo.",
+    "pricingHonesty": "Every AI-credit tier, editor-seat price and overage add-on is listed with exact dollar figures in the pricing page's own dropdown menus, without a sales call.",
+    "smallTeamFit": "The visual canvas and AI agents let a non-technical owner build a site directly, but working out the real bill means tracking separate credit-tier, seat-cap and fixed-versus-flexible-limit rules across Basic and Pro.",
+    "doesTheJob": "Framer bundles a canvas editor, CMS and AI design/content agents in one plan, but its own pricing page states these Site plans have no native e-commerce or checkout system.",
+    "freedomToLeave": "Unlike Webflow, Framer does not let an owner export a site's HTML/CSS; only CMS collections export as CSV, and switching an annual plan back to monthly billing requires contacting support.",
+    "trackRecord": "Framer's parent company dates to 2013 as a design-prototyping tool and only relaunched as a website builder around 2022, and its billing structure itself changed again on May 27, 2026 with new seat types and credit tiers."
+  },
+  "basis": "Framer's AI-driven builder is easy to start on, but its credit-tier and per-seat pricing can multiply the real bill well past the sticker price, and its limited site-export options make it harder to leave than its main competitors.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 2.9 and 3.2."
+}

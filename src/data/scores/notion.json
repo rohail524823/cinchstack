@@ -1,0 +1,24 @@
+{
+  "tool": "notion",
+  "overall": 4.2,
+  "factors": {
+    "realCost": 4.5,
+    "pricingHonesty": 4.5,
+    "smallTeamFit": 4,
+    "doesTheJob": 4,
+    "freedomToLeave": 4.5,
+    "trackRecord": 4
+  },
+  "reasons": {
+    "realCost": "Notion's real bills at the three sizes ($0, $60 and $180 a month) equal exactly the per-seat plan price times seat count, with no usage overage baked into the organize layer's core docs and database use.",
+    "pricingHonesty": "All four plans list per-seat monthly and yearly prices on the pricing page, and the only paid usage add-on, Notion credits for Custom Agents on Business/Enterprise, is priced at $10 per 1,000 credits, though the price of a custom Notion-site domain and Enterprise's quote are not published.",
+    "smallTeamFit": "Notion's page-and-database model is widely adopted by non-technical teams for wikis and light project tracking without a developer, though building custom database views, subtasks and dependencies has a learning curve.",
+    "doesTheJob": "Notion covers docs, wikis and lightweight databases with subtasks and dependencies well, but has no native Gantt chart, deep automation engine or time tracking, features dedicated project-management tools include.",
+    "freedomToLeave": "Notion bills month-to-month by default, supports self-serve export of all workspace content as HTML, Markdown or CSV at any time, and simply lets paid features run out at the end of the billing cycle after cancellation.",
+    "trackRecord": "Notion, founded in 2013, publishes an official status page and lists every plan's per-seat price and yearly discount on its public pricing page."
+  },
+  "basis": "Notion is a strong buy for a small business's organize layer because its per-seat pricing is fully public and predictable, billing is flexible with full self-serve export, though deeper AI features and admin controls require moving to the Business or Enterprise plan.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4.2 and 4.3."
+}

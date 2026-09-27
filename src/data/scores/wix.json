@@ -1,0 +1,24 @@
+{
+  "tool": "wix",
+  "overall": 3.4,
+  "factors": {
+    "realCost": 4,
+    "pricingHonesty": 2.5,
+    "smallTeamFit": 4.5,
+    "doesTheJob": 3.5,
+    "freedomToLeave": 1.5,
+    "trackRecord": 4
+  },
+  "reasons": {
+    "realCost": "The real bill at each size matches its plan's published annual price exactly ($17, $29 and $39/mo) because Wix caps costs with fixed collaborator and storage tiers rather than metering bandwidth or per-seat fees.",
+    "pricingHonesty": "Wix's public pricing page shows only the annual, paid-in-full price for every paid plan; the true month-to-month rate is disclosed only after selecting a plan inside a logged-in account.",
+    "smallTeamFit": "The free plan and drag-and-drop editor let a non-technical owner build and preview a full site with no credit card and no developer.",
+    "doesTheJob": "Online payments, customer accounts and a full eCommerce toolkit only start at the Core plan, so the cheapest Light tier can't run a store at all.",
+    "freedomToLeave": "Wix is a closed platform: a site cannot be exported as a whole, leaving an owner limited to exporting CMS collections as CSV, downloading media individually, and copying page text by hand.",
+    "trackRecord": "Wix has been a public company on Nasdaq (WIX) since 2013 and runs a public status page, with its Help Center reporting 99.99% uptime across its sites."
+  },
+  "basis": "Wix is easy for a non-technical owner and its real bills match the published price at each size, but hiding the true month-to-month rate behind a login and offering no full-site export make it a weaker exit than its rivals.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.4 and 3.4."
+}

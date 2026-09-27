@@ -1,0 +1,24 @@
+{
+  "tool": "systeme-io",
+  "overall": 3.9,
+  "factors": {
+    "realCost": 4.5,
+    "pricingHonesty": 3.5,
+    "smallTeamFit": 4.5,
+    "doesTheJob": 3.5,
+    "freedomToLeave": 3,
+    "trackRecord": 3.5
+  },
+  "reasons": {
+    "realCost": "At the sell-grid sizes, Systeme.io's real bill matches its sticker price exactly ($17, $47 or $97), since every plan charges 0% of sales, though the Free plan's USD 10,000 lifetime-sales cap pushes a solo seller onto a paid plan within a few months.",
+    "pricingHonesty": "Plan prices and limits are published on the pricing page, but the page's own FAQ contradicts its comparison table on funnel, student and automation-rule limits.",
+    "smallTeamFit": "Systeme.io bundles funnels, email, courses and a store into one no-code account a solo owner can set up without a developer, with unlimited assistant accounts included on every plan.",
+    "doesTheJob": "One subscription replaces separate funnel, email, course and affiliate-management tools, though physical-product selling is capped at 50, 100 or 250 variants on the lower plans.",
+    "freedomToLeave": "Every paid plan can be billed monthly with no annual lock-in, but subscriptions are non-refundable and downgrading is not self-serve, requiring a support ticket and a custom order form.",
+    "trackRecord": "Systeme.io launched in 2018, a shorter public history than the older platforms in this group."
+  },
+  "basis": "Systeme.io's flat, 0%-transaction-fee pricing and generous free tier make it the best-value all-in-one for a solo course or funnel seller, though its shorter history and manual downgrade process are worth weighing against more established platforms.",
+  "scoredOn": "2026-09-27",
+  "paysUs": false,
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4.3 and 3.9."
+}
