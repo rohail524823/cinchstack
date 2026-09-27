@@ -1,18 +1,188 @@
 {
+  "activecampaign": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 4,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "ahrefs": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 25,
+    "missing": [],
+    "pages": 4,
+    "blockedPages": 0
+  },
+  "clickfunnels": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 6,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0
+  },
+  "clickup": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 6,
+    "missing": [],
+    "pages": 2,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "framer": {
+    "ranOn": "2026-09-27",
+    "status": "not-checkable",
+    "checked": 0,
+    "missing": [],
+    "pages": 0,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
   "gohighlevel": {
-    "ranOn": "2026-09-26",
+    "ranOn": "2026-09-27",
     "status": "passed",
     "checked": 38,
     "missing": [],
     "pages": 10,
     "blockedPages": 0
   },
+  "hubspot": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 4,
+    "missing": [],
+    "pages": 3,
+    "blockedPages": 0
+  },
+  "kajabi": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 17,
+    "missing": [],
+    "pages": 8,
+    "blockedPages": 0
+  },
+  "kit": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 2,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0
+  },
+  "klaviyo": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 1,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "mailchimp": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 4,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0
+  },
+  "notion": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 1,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0
+  },
+  "pipedrive": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 4,
+    "missing": [],
+    "pages": 2,
+    "blockedPages": 0
+  },
+  "se-ranking": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 8,
+    "missing": [],
+    "pages": 3,
+    "blockedPages": 0
+  },
+  "semrush": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 5,
+    "missing": [],
+    "pages": 3,
+    "blockedPages": 0
+  },
+  "shopify": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 13,
+    "missing": [],
+    "pages": 4,
+    "blockedPages": 0
+  },
+  "squarespace": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 1,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
   "systeme-io": {
-    "ranOn": "2026-09-26",
+    "ranOn": "2026-09-27",
     "status": "passed",
     "checked": 3,
     "missing": [],
     "pages": 1,
-    "blockedPages": 0
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "webflow": {
+    "ranOn": "2026-09-27",
+    "status": "not-checkable",
+    "checked": 0,
+    "missing": [],
+    "pages": 0,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "wix": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 1,
+    "missing": [],
+    "pages": 1,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "woocommerce": {
+    "ranOn": "2026-09-27",
+    "status": "passed",
+    "checked": 15,
+    "missing": [],
+    "pages": 4,
+    "blockedPages": 0,
+    "skippedPages": 0
+  },
+  "zoho-crm": {
+    "ranOn": "2026-09-27",
+    "status": "not-checkable",
+    "checked": 0,
+    "missing": [],
+    "pages": 0,
+    "blockedPages": 0,
+    "skippedPages": 0
   }
 }
