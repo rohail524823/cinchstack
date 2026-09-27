@@ -116,23 +116,24 @@
   },
   "semrush": {
     "label": "Semrush affiliate program",
-    "network": "Impact",
-    "status": "not-applied",
+    "network": "Impact (partner account 7439310)",
+    "status": "applied",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?semrush\\.com(/|$)",
-    "terms": "$200 per new subscription plus $10 per free-trial activation; 120-day cookie.",
+    "terms": "$200 per first purchase, plus a product bonus of $50 to $300 (Semrush One +$300; SEO Toolkit or Traffic & Market Toolkit +$200), $10 per free trial and $0.01 per registration. Last-click attribution with a 120-day click window. Actions lock 27 days after the month they are tracked and are paid 21 days after locking. Semrush can change the contract with 1 day’s notice.",
     "recurring": false,
     "paysOnTrial": true,
     "cookieDays": 120,
-    "payoutRail": "Impact (Payoneer/bank)",
+    "payoutRail": "Impact (bank details on file; Impact reviews them when the first payment falls due)",
     "rules": {
       "mandatoryDisclosure": null,
       "noEarningsClaims": true,
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": []
+    "rateHistory": [],
+    "notes": "Applied 27 September 2026 from Impact partner account 7439310, which holds both cinchstack.com (primary) and bestaicertifications.com: Impact applications come from the whole account, not one site. Pending under Discover > Invitations > Sent. The listing names no traffic, coupon or trademark rules; its written Program Information was not yet read, so read it before the first link goes live. Once approved: create tracking links for media property 8909960 (cinchstack.com) with subId1 set to the page’s Sub ID ({sid}), so Impact reports separate CinchStack from the other site, and set template to the Impact deep-link form (…?u={url_enc}&subId1={sid}). If declined, re-apply when Search Console shows about 1,000 monthly visitors (see docs/plan/09-affiliate-programs.md)."
   },
   "klaviyo": {
     "label": "Klaviyo partner program",

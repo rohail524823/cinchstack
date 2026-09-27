@@ -27,7 +27,7 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 
 ### 2. Apply to the other programs, in this order
 
-The plan is to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. The order and the reasons are in `docs/plan/09-affiliate-programs.md`. When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change.
+The plan is to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. **Semrush** was applied to early, on 27 September 2026, through Impact. On Impact an application comes from the whole partner account (account 7439310, which holds both cinchstack.com and bestaicertifications.com), so there is no per-site choice to make. The public profile now describes both sites, CinchStack first. It is pending under **Discover → Invitations → Sent**. If it is declined, re-apply at the traffic milestone below. The order and the reasons are in `docs/plan/09-affiliate-programs.md`. When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change.
 
 ### 3. Search engines (done 27 September 2026)
 
