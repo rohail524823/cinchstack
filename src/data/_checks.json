@@ -64,23 +64,19 @@
   },
   "kajabi": {
     "ranOn": "2026-09-27",
-    "status": "changed",
+    "status": "passed",
     "checked": 17,
-    "missing": [
-      "Basic monthly: $179 no longer on https://www.kajabi.com/pricing",
-      "Growth monthly: $249 no longer on https://www.kajabi.com/pricing",
-      "Pro monthly: $499 no longer on https://www.kajabi.com/pricing"
-    ],
+    "missing": [],
     "pages": 8,
     "blockedPages": 0,
     "skippedPages": 0
   },
   "kit": {
     "ranOn": "2026-09-27",
-    "status": "not-checkable",
-    "checked": 0,
+    "status": "passed",
+    "checked": 2,
     "missing": [],
-    "pages": 0,
+    "pages": 1,
     "blockedPages": 0,
     "skippedPages": 0
   },

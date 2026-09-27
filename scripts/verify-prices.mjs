@@ -15,14 +15,20 @@ const dir = 'src/data/pricing';
 const tools = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5)).filter((t) => !only.length || only.includes(t)).sort();
 
 const BLOCKED = /(verify you are human|are you a robot|access denied|just a moment\.\.\.|attention required|enable javascript and cookies|request blocked|captcha)/i;
-// A capture can only be re-checked by a plain page load if it was taken by one. Captures made after
-// clicking a toggle, choosing a calculator tier or fetching through an API record that in their header.
+// A capture can only be re-checked by a plain page load if it recorded what a plain page load shows:
+// the page's visible text as first rendered, or a help article's body. Captures taken after clicking
+// a toggle or choosing a tier, and extracts of APIs, embedded JSON or hidden tooltips, are left out.
+const PLAIN_RENDERERS = [
+  /^headless Chromium, en-US, US timezone$/,
+  /^curl \+ HTML-to-text of article body$/,
+  /^curl \(raw HTML\), content within .*<article> tag extracted to text/,
+];
 function isPlainCapture(file) {
   if (/-after-click-\d+\.txt$/.test(file)) return false;
   const head = fs.readFileSync(file, 'utf8').split('\n----')[0];
   if (/^(ACTION|VIA|CLICK|SELECT):/im.test(head)) return false;
-  const renderer = head.match(/^RENDERER: (.*)$/m)?.[1] ?? '';
-  return !/\(|set to|selected|clicked|toggle/i.test(renderer);
+  const renderer = (head.match(/^RENDERER: (.*)$/m)?.[1] ?? '').trim();
+  return PLAIN_RENDERERS.some((r) => r.test(renderer));
 }
 const dollars = (s) => new Set([...s.matchAll(/\$\s?(\d[\d,]*(?:\.\d{1,4})?)/g)].map((m) => String(Math.round(Number(m[1].replace(/,/g, '')) * 10000) / 10000)));
 const key = (n) => String(Math.round(n * 10000) / 10000);
@@ -48,6 +54,30 @@ async function read(url) {
     await page.waitForTimeout(800);
     return await page.evaluate(() => document.body.innerText);
   } finally { await page.close(); }
+}
+
+// Some pricing pages open on yearly prices for some visitors and monthly for others (a page test or
+// a regional default), which hides the other set until the billing toggle is clicked. Before a price
+// is called gone, load the page afresh and read it again after each billing option is chosen.
+const TOGGLES = [/^(pay |billed )?monthly$/i, /^month$/i, /^(pay |billed )?(annual|annually|yearly)$/i, /^year$/i];
+async function readToggled(url) {
+  const fresh = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36',
+    locale: 'en-US', timezoneId: 'America/New_York', viewport: { width: 1366, height: 900 },
+  });
+  const page = await fresh.newPage();
+  const texts = [];
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    try { await page.waitForLoadState('networkidle', { timeout: 20000 }); } catch {}
+    texts.push(await page.evaluate(() => document.body.innerText));
+    for (const name of TOGGLES) {
+      const el = page.getByRole('button', { name }).or(page.getByRole('tab', { name })).or(page.getByRole('radio', { name })).or(page.getByRole('switch', { name })).or(page.getByText(name));
+      if (!(await el.count())) continue;
+      try { await el.first().click({ timeout: 2000 }); await page.waitForTimeout(800); texts.push(await page.evaluate(() => document.body.innerText)); } catch {}
+    }
+  } finally { await fresh.close(); }
+  return texts.join('\n');
 }
 
 const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : {};
@@ -95,7 +125,12 @@ for (const tool of tools) {
     const was = dollars(fs.readFileSync(p.sources[src].snapshot, 'utf8'));
     const shared = [...was].filter((x) => now.has(x)).length;
     if (was.size >= 4 && shared / was.size < 0.5) { mismatched++; console.log(`  ${tool}: ${url} looks different from our saved copy (${shared}/${was.size} prices shared); skipped`); continue; }
-    for (const f of figs) { checked++; if (!now.has(key(f.n))) missing.push(`${f.label}: $${f.n} no longer on ${url}`); }
+    let gone = figs.filter((f) => !now.has(key(f.n)));
+    if (gone.length) {
+      try { const more = dollars(await readToggled(url)); gone = gone.filter((f) => !more.has(key(f.n))); } catch {}
+    }
+    checked += figs.length;
+    for (const f of gone) missing.push(`${f.label}: $${f.n} no longer on ${url}`);
   }
   const status = checked === 0 ? (blocked ? 'blocked' : 'not-checkable') : missing.length ? 'changed' : 'passed';
   results[tool] = { ranOn: today, status, checked, missing, pages: bySource.size, blockedPages: blocked, skippedPages: mismatched };
