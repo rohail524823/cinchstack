@@ -1,0 +1,33 @@
+{
+  "page": "pricing/shopify",
+  "items": [
+    {
+      "q": "How much does Shopify cost per month?",
+      "a": "Shopify has four paid store plans, month-to-month with no contract: Basic at $39, Grow at $105, Advanced at $399, and Plus, which has no monthly option and instead starts at $2,500 a month on a 1-year term. Billing yearly instead of monthly lowers Basic to $29, Grow to $79 and Advanced to $299 a month, charged as one payment for the full year. There is also a free Agentic plan at $0 a month, but it cannot publish a public online store or take checkout orders; it only lists products for AI shopping channels and Shopify's own Shop app. Most solo sellers start on Basic, and a store needs Grow once a second person needs a staff login."
+    },
+    {
+      "q": "Is there a free version of Shopify?",
+      "a": "Not for running a public store. Shopify's free plan, Agentic, costs $0 a month and only puts a store's products into Shopify Catalog for AI chat assistants and the Shop app; the online store itself stays password-protected until the merchant upgrades to a paid plan, and it cannot take orders through its own checkout. Every plan that can publish a live store and accept checkout orders carries a subscription fee, starting with Basic at $39 a month. New stores do get a 3-day free trial with no credit card, and after that Shopify charges $1 a month for the first 3 months on Basic, Grow or Advanced before the standard price applies."
+    },
+    {
+      "q": "Does Shopify charge a transaction fee?",
+      "a": "Only if a store's checkout does not use Shopify Payments. Pay with a third-party processor instead, and Shopify adds its own fee on top of that processor's charges: 2% of the order on Basic, 1% on Grow, 0.6% on Advanced, and 0.2% on Plus, where it is waived if Shopify Payments is the store's only payment method. That fee never applies to orders paid through Shopify Payments, Shop Pay, Shop Pay Installments, PayPal Express Checkout or manual methods like cash on delivery. For stores created on or after May 12, 2025, there is one exception even with Shopify Payments turned on: the part of an order paid with a gift card or store credit still gets charged the plan's third-party rate."
+    },
+    {
+      "q": "How much does Shopify Plus cost?",
+      "a": "Shopify Plus has no month-to-month billing. It starts at $2,500 a month on a 1-year term, or $2,300 a month on a 3-year term, per Shopify's Plus pricing FAQ. Merchants with more complex or higher-volume operations can instead be quoted a variable platform fee based on revenue, a figure that comes only from Shopify's sales team. Plus also gets its own lower online card rate, 2.25% plus 30 cents with Shopify Payments in the US, and a lower third-party-processor fee of 0.2% of each order, which is waived entirely when Shopify Payments is the store's only payment provider. A Plus subscription can be cancelled once its term commitment ends, not before."
+    },
+    {
+      "q": "Is it cheaper to pay for Shopify monthly or yearly?",
+      "a": "Yearly billing is about 25% cheaper on every plan that offers it. Basic drops from $39 to $29 a month, Grow from $105 to $79, and Advanced from $399 to $299. The saving comes with a condition: yearly billing charges the entire year in one payment, so those become a $348, $948 or $3,588 charge upfront instead of 12 smaller ones. A store that is confident it is staying and has the cash on hand should take the yearly price; one that wants to keep cash free for inventory, ads or a slow month is often better off paying monthly and giving up the discount. Switching from yearly to monthly only takes effect at the end of the current billing cycle."
+    },
+    {
+      "q": "What happens after the Shopify free trial ends?",
+      "a": "Shopify's free trial runs 3 days and needs no credit card to start. After that, new stores that choose Basic, Grow or Advanced pay a discounted $1 a month for the first 3 months before the plan's standard price takes over; Plus and the free Agentic plan are not part of that offer. Nothing about the trial length or the $1 offer changes which plan fits: a solo seller still wants Basic, and a store with staff logins still wants Grow or Advanced once trial pricing ends. Downgrading, upgrading or switching billing frequency afterward takes effect at the end of the current billing cycle, and Shopify does not refund plan charges already paid."
+    },
+    {
+      "q": "How many staff accounts come with each Shopify plan?",
+      "a": "Basic includes none at all: only the store owner has a login, so a single employee forces an upgrade. Grow allows up to 5 staff accounts, and Advanced up to 15; Plus has no staff limit. None of these limits count the store owner's own account, collaborator accounts given to freelancers or an agency, or POS-only staff, so bringing in outside help to build the store does not use up a staff slot. For a small team, that makes Grow at $105 a month the practical floor the moment a second person needs to log in and manage orders, not Basic's $39."
+    }
+  ]
+}

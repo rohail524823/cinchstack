@@ -1,0 +1,37 @@
+{
+  "page": "pricing/notion",
+  "items": [
+    {
+      "q": "How much does Notion cost per user?",
+      "a": "Notion charges per member, not a flat team price. Free costs $0 a month and covers a one-person workspace fully, though pages and blocks become limited once a second member joins, at a cap Notion doesn't publish. Plus costs $12 a member per month billed monthly, or $10 billed yearly, and removes the file-upload cap while extending page history to 30 days. Business costs $24 a member per month billed monthly, or $20 billed yearly, and adds Notion Agent, AI Meeting Notes, Enterprise Search, SAML SSO and private teamspaces. Enterprise has no published price; Notion requires contacting sales for a quote. A 5-person team on Plus, billed monthly, pays $60 a month in total, which is the plan most small teams actually land on."
+    },
+    {
+      "q": "Is Notion actually free for a small team, or does the free plan run out fast?",
+      "a": "It runs out immediately for a team, not slowly. Notion's Free plan gives one person unlimited pages and blocks at $0 a month, but the instant a workspace has two or more members, pages and blocks become \"limited\" by an amount Notion has never published on its pricing page. Free also caps file uploads at 5 MB each, keeps only 7 days of page history, allows up to 10 external guests, and includes just a \"Limited Trial\" of Notion Agent, Meeting Notes and Research mode rather than the real thing. For an actual team of any size, that combination pushes most workspaces onto Plus at $12 a member per month ($10 billed yearly) within days of adding a second person, not months."
+    },
+    {
+      "q": "What happens to the bill when a Notion workspace adds or removes members mid-cycle?",
+      "a": "Notion treats a paid seat as a license for one member, not a fixed batch bought up front. Add a new member to a $12-a-member Plus workspace and Notion either hands them an existing unused paid seat or increases the paid-seat count by one; that new seat is billed pro rata for the days left in the current billing period, invoiced on the date each month or year the workspace first subscribed. Remove a member and the seat they used stays open and paid for until the current period ends, though it's free for the next new hire to reuse. At each renewal, monthly or yearly, Notion resets the paid-seat count to match the members actually in the workspace and bills the plan price times that count. Upgrading is charged immediately, prorated for time already used; downgrading waits until the next renewal."
+    },
+    {
+      "q": "Does Notion's yearly billing actually save 20%?",
+      "a": "Not quite, though it's close. Notion's pricing page advertises \"Save up to 20% with yearly,\" but the seat rates it publishes work out to about 16.7% off: Plus is $10 a member per month billed yearly against $12 billed monthly, and Business is $20 a member billed yearly against $24 billed monthly. Twenty percent is the best case Notion advertises, not what Plus or Business customers actually get. Yearly billing is still worth it for a team whose headcount is stable, since $10 or $20 a member beats $12 or $24. It's a weaker deal for a team that expects to shrink: a paid seat stays on the bill for the rest of the period it was added in, even if that person leaves right away, and on an annual plan that period can run most of a year instead of a month."
+    },
+    {
+      "q": "Does Notion charge extra for its AI features?",
+      "a": "Yes, above Plus. Free and Plus include only a \"Limited Trial\" of Notion Agent, AI Meeting Notes and Research mode, not ongoing access. Business and Enterprise include full Notion Agent, AI Meeting Notes and Enterprise Search inside the $24 and custom seat prices. Custom Agents and Workers, a separate beta feature, are available only on Business and Enterprise and bill separately in Notion credits at $10 per 1,000 credits a month after a free trial. Notion's pricing page doesn't say how many credits that trial includes or how many credits a typical agent task uses, so a workspace planning to run Custom Agents regularly should expect a credit bill on top of its $24-a-member Business seats, without being able to estimate it in advance from the pricing page alone."
+    },
+    {
+      "q": "Does Notion offer a free trial of Plus or Business?",
+      "a": "Not in the usual sense. Notion's pricing page doesn't describe a time-limited free trial of the paid Plus or Business plans the way many competitors do; there's no stated number of trial days before a card is required. What it does offer is narrower: the Free and Plus plan cards list a \"Trial of Notion AI,\" and Notion's comparison table marks Notion Agent, Meeting Notes and Research mode as \"Limited Trial\" on those two plans, with no stated length or usage cap. Custom Agents, a Business and Enterprise feature, are \"free to try, then $10 per 1,000 monthly Notion credits,\" again with no published trial size. In practice, a team can use Free indefinitely at $0 to evaluate the core product, then pay for Plus at $12 a member per month to get what a time-boxed trial would normally cover."
+    },
+    {
+      "q": "Does Notion offer a student or education discount?",
+      "a": "Yes, separately from the four plans on its main pricing page. Notion's help centre describes a free Education Plan for students, teachers and staff at accredited colleges and universities who verify with a school email address; it covers a single-member workspace with unlimited pages, blocks and file uploads plus 30 days of page history, at no charge, and needs re-verification each year. A separate track lets student organizations at approved schools add their whole membership to one workspace for free, rather than paying Notion's normal $12-a-member Plus rate. Neither program applies to a business, a freelancer or an agency: those buyers are priced on Free, Plus, Business or Enterprise like any other workspace, at Notion's standard $0, $12 and $24 seat rates."
+    },
+    {
+      "q": "Are guests free on Notion, and what can they see?",
+      "a": "Guests cost nothing on every plan, but they see very little. Free allows up to 10 external guests, while Plus and Business both allow an unlimited number, and none of that counts toward the per-member seat price of $12 or $24 a month. The trade-off is access: a guest can only open the individual pages someone has directly invited them to, and can't see the team pages listed under Teamspaces in the sidebar, even as a guest on the same workspace as a full member. That makes guests a reasonable way to loop in a freelance client or a contractor for one document without paying for another seat, but a poor substitute for a real member if that person needs to browse the workspace the way an employee would."
+    }
+  ]
+}

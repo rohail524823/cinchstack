@@ -1,0 +1,100 @@
+{
+  "id": "semrush-vs-ahrefs",
+  "a": "semrush",
+  "b": "ahrefs",
+  "layer": "grow",
+  "dimensions": [
+    {
+      "label": "Plan near the $130 entry price",
+      "a": "SEO: $139.95/mo, 500 keywords tracked daily, no historical data, no API access",
+      "b": "Lite: $129/mo, 750 keywords tracked weekly, 6 months of history, API included",
+      "edge": "b"
+    },
+    {
+      "label": "Free trial before you pay",
+      "a": "7-day free trial on SEO, Starter and Pro+ (a card is required)",
+      "b": "No free trial on any paid plan",
+      "edge": "a"
+    },
+    {
+      "label": "How often rankings refresh",
+      "a": "Daily, on every paid plan",
+      "b": "Weekly, on every plan, including Enterprise",
+      "edge": "a"
+    },
+    {
+      "label": "API access",
+      "a": "Only on Advanced, $549/mo",
+      "b": "Included from Lite, $129/mo",
+      "edge": "b"
+    },
+    {
+      "label": "Historical ranking and traffic data",
+      "a": "Not included on the SEO plan; not stated for Starter, Pro+ or Advanced",
+      "b": "6 months on Lite, up to 5 years on Advanced, unlimited on Enterprise",
+      "edge": "b"
+    },
+    {
+      "label": "Room to add teammates",
+      "a": "No published seat cap; each extra login costs $45 to $100 a month",
+      "b": "Lite tops out at 3 users total; Standard at 6; Advanced at 11",
+      "edge": "a"
+    },
+    {
+      "label": "How an extra seat is billed",
+      "a": "One flat price per plan: $45, $80 or $100 a user a month",
+      "b": "Metered by usage on Lite ($20 to $40); a flat $60 to $100 a user a month from Standard up",
+      "edge": "tie"
+    },
+    {
+      "label": "AI-search prompts bundled into the plan",
+      "a": "50 to 200 of your own prompts tracked daily, bundled from Starter up",
+      "b": "5 to 20 of your own prompts tracked daily, bundled from Lite up",
+      "edge": "a"
+    },
+    {
+      "label": "Checking any brand's AI visibility with no setup",
+      "a": "Not sold as a standalone lookup; only your own configured prompts",
+      "b": "Brand Radar's AI Visibility Index, from $199/mo, no prompts to configure",
+      "edge": "b"
+    },
+    {
+      "label": "Refund if you change your mind",
+      "a": "7-day money-back guarantee on annual plans and add-on purchases",
+      "b": "No general refunds; a discretionary exception for unused monthly plans",
+      "edge": "a"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "b",
+      "why": "An agency managing several client sites gets more tracked keywords, API access from Lite up, and cheaper extra seats from Ahrefs than from Semrush's matching plans."
+    },
+    {
+      "business": "freelancer",
+      "pick": "b",
+      "why": "A freelancer working solo pays less on Ahrefs' Lite plan than on Semrush's SEO plan for more tracked keywords, though only Semrush lets you try before you commit with its 7-day trial."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "b",
+      "why": "An online store tracking many product and category keywords gets more headroom for less money from Ahrefs' Lite plan than from Semrush's SEO plan, at a similar monthly crawl allowance for technical audits."
+    },
+    {
+      "business": "local-service",
+      "pick": "a",
+      "why": "A single-location service business needs its Google Business Profile ranking locally, not backlink research, and Semrush is the only one of the two with a standalone Local Toolkit built for exactly that, at $30 a location a month."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "A coach or course creator's traffic usually comes from content, email and paid social rather than technical SEO, so neither platform's keyword-tracking plans are the first tool worth paying for at this stage."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "b",
+      "why": "An early-stage startup gets more from Ahrefs before spending anything, since Ahrefs Free monitors a verified domain indefinitely and Starter adds keyword tracking for $29 a month with no annual lock-in."
+    }
+  ]
+}

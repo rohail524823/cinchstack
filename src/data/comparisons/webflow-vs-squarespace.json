@@ -1,0 +1,100 @@
+{
+  "id": "webflow-vs-squarespace",
+  "a": "webflow",
+  "b": "squarespace",
+  "layer": "site",
+  "dimensions": [
+    {
+      "label": "Cheapest way onto your own custom domain",
+      "a": "$25/mo (Basic) — a custom domain, but no CMS or blog",
+      "b": "$25/mo (Basic) — same price, and it already includes a blog, store and invoicing",
+      "edge": "b"
+    },
+    {
+      "label": "What happens to the bill as traffic grows",
+      "a": "Premium includes only 50 GB bandwidth a month; more traffic means a metered add-on",
+      "b": "Unlimited bandwidth on every current plan; traffic growth alone never raises the bill",
+      "edge": "b"
+    },
+    {
+      "label": "Cost of adding team members past the owner",
+      "a": "$19/mo for every extra Limited seat, on any Workspace, with no headcount limit",
+      "b": "Basic allows 2 people total; Core and up remove the cap for $39/mo, with no per-seat fee",
+      "edge": "b"
+    },
+    {
+      "label": "CMS and content scale at the matching plan price",
+      "a": "Premium, $39/mo: 20,000 CMS items across 40 Collections",
+      "b": "Core, $39/mo: no cap on blog posts; store products capped at 10,000 sitewide",
+      "edge": "tie"
+    },
+    {
+      "label": "Cheapest path to a 0% product transaction fee",
+      "a": "Needs Ecommerce Plus at $84/mo; the entry Ecommerce Standard plan ($42/mo) charges 2%",
+      "b": "Needs only Core at $39/mo; the entry Basic plan ($25/mo) charges 2%",
+      "edge": "b"
+    },
+    {
+      "label": "Selling digital products, courses or memberships",
+      "a": "No published fee tier for digital products or memberships",
+      "b": "Built in, stepping from 7% on Basic to 0% on Advanced, $139/mo",
+      "edge": "b"
+    },
+    {
+      "label": "Trying it before you commit",
+      "a": "A free Starter plan with no time limit, but no custom domain",
+      "b": "A 14-day free trial of a real paid plan, but it can't take real payments",
+      "edge": "tie"
+    },
+    {
+      "label": "Refund window if you change your mind",
+      "a": "Any new Site or Workspace purchase, monthly or annual, within 14 days",
+      "b": "Only a new annual plan's first payment, within 14 days; monthly plans aren't refundable",
+      "edge": "a"
+    },
+    {
+      "label": "Design freedom vs. a guided editor",
+      "a": "Full visual control over layout and custom code; a real learning curve",
+      "b": "Guided sections and blocks; faster to start, less layout freedom",
+      "edge": "tie"
+    },
+    {
+      "label": "AI credits included each month",
+      "a": "200-400 credits a month across Workspace plans, reset monthly, no rollover",
+      "b": "Basic gets 10 one-time credits only; Core and up add 20-120 renewing credits a month",
+      "edge": "a"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "a",
+      "why": "Webflow's Agency Workspace bundles unlimited staging sites and free client seats for exactly this job, while Squarespace bills every client site as its own separate account."
+    },
+    {
+      "business": "course-creator",
+      "pick": "b",
+      "why": "Squarespace prices digital-content sales on a published, falling fee scale, which fits selling a course better than Webflow's ecommerce plans, built around a shipped product catalog."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "neither",
+      "why": "A real product catalog outgrows both: Webflow's ecommerce plans cap out at 15,000 items with an entry-tier fee, and Squarespace's store is a feature bundled into a site plan, not a dedicated back office."
+    },
+    {
+      "business": "local-service",
+      "pick": "b",
+      "why": "Squarespace gets a booking-and-invoicing-ready site live without anyone on staff who can design from scratch, which suits a busy local-service owner better than Webflow's visual canvas."
+    },
+    {
+      "business": "freelancer",
+      "pick": "a",
+      "why": "A freelancer building sites for other people gets Webflow's Freelancer Workspace, built around staging sites and a free client seat per project, with no Squarespace equivalent."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "a",
+      "why": "A startup's marketing site benefits from Webflow's custom code and Webflow Cloud app hosting, neither of which has an equivalent in Squarespace's page-and-block editor."
+    }
+  ]
+}

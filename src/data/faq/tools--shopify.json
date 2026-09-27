@@ -1,0 +1,33 @@
+{
+  "page": "tools/shopify",
+  "items": [
+    {
+      "q": "Is Shopify a good fit for a brand-new online store?",
+      "a": "Yes, for a store selling an actual product catalog. Shopify's Basic plan covers a single owner running checkout, hosting and order management from one admin, and every paid plan includes unlimited products, a custom domain, SSL and casual in-person selling from day one. Basic has no staff-account allowance at all, so it fits best while the owner is the only person who needs to log in; the moment a second person needs their own access, the practical starting plan becomes Grow instead. Shopify is a weaker starting point for a business built around a course, a membership or bookings rather than a product catalog, since its plans, limits and admin are all designed around inventory and orders."
+    },
+    {
+      "q": "Is Shopify a good choice for selling online courses or coaching?",
+      "a": "Generally not. Shopify's plans, limits and admin are built around a product catalog: inventory, shipping and orders, not cohorts, drip content or coaching sessions. Selling a downloadable file or a single digital product through Shopify is possible, but a business whose main product is a course, a membership or coaching is paying for shopping-cart features it does not need while missing course-hosting and community tools it does need. Shopify's help center describes each plan in terms of products and staff, never lessons or students. Kajabi is built specifically for that model, bundling course hosting, coaching, community, email and checkout into one subscription, and is a more direct fit for a coach or course creator than any Shopify plan."
+    },
+    {
+      "q": "Does Shopify work well for selling in person, not just online?",
+      "a": "Yes, casual in-person selling is included on every paid plan through Shopify POS, alongside the online store, checkout and order management in the same admin. A store that wants more than casual point-of-sale, such as unlimited staff roles and permissions, in-store inventory management or flexible local delivery, needs the POS Pro add-on, which costs $89 per location a month on Basic, Grow or Advanced; Plus includes it for up to 20 locations. Selling in person does not require a different plan on its own, only the POS Pro add-on if the business needs its advanced features, and in-store card rates are lower than Shopify's online card rates on Basic, Grow and Advanced. A retailer running several physical locations should budget for POS Pro per location rather than assume it is bundled in."
+    },
+    {
+      "q": "Can every Shopify plan use live carrier-calculated shipping rates?",
+      "a": "No. Basic can't turn on live carrier-calculated shipping rates at checkout, so its shipping options are limited to rates the merchant sets manually. Grow gets access to carrier-calculated rates only if the store is billed yearly, or by paying an extra monthly fee that Shopify's help center doesn't publish a number for; there is no way to get carrier rates on Grow's month-to-month billing without that fee. Advanced and Plus both include live carrier-calculated shipping with no extra charge and no billing-frequency requirement. A store that ships physical products at real volume and wants accurate, carrier-calculated rates at checkout should plan on Advanced, or on Grow only if it is comfortable paying yearly or covering the unpublished add-on fee."
+    },
+    {
+      "q": "Can a Shopify store sell wholesale or B2B orders?",
+      "a": "Yes. Basic, Grow and Advanced each allow up to 3 B2B catalogs for wholesale-style selling alongside the regular storefront, letting a merchant offer separate pricing, minimum order rules or a curated product list to wholesale buyers without building a second store. Shopify's pricing page lists Plus as allowing unlimited B2B catalogs, in line with its broader, custom-quoted feature set. A B2B catalog sits on top of the same staff-account and inventory-location limits each plan already has, so a business that needs several staff logins to manage both retail and wholesale orders still has to pick its plan by staff count first, then confirm its B2B catalog needs fit inside that plan's allowance."
+    },
+    {
+      "q": "Can I still sign up for Shopify's Starter or Retail plan?",
+      "a": "No. Shopify's Starter and Retail plans are both closed to new stores: Shopify's current pricing page no longer lists Starter at all, shopify.com/starter now redirects to the free-trial offer, and the help center confirms neither plan is available to a store signing up today. Merchants who already have Starter or Retail can keep using them, but the help center also says that once you leave either plan, you cannot switch back to it. A new store's real options are the free Agentic plan, which can't publish a public storefront, or the four current plans: Basic, Grow, Advanced and Plus. Anyone who reads about Starter or Retail in an older guide should treat that plan as unavailable rather than try to sign up for it."
+    },
+    {
+      "q": "Is there a limit on how many products I can list on Shopify?",
+      "a": "Not on products. Every paid Shopify plan, Basic through Plus, allows unlimited products, so a large catalog by itself never forces an upgrade. What each plan does limit is inventory locations and staff accounts: Basic, Grow and Advanced each allow 10 inventory locations, and staff accounts run from none on Basic up to 15 on Advanced, with Plus unlimited. A merchant selling from several warehouses or retail locations should check that 10-location cap on Basic, Grow and Advanced before assuming unlimited products means an unlimited setup. For almost every catalog size a small or growing store actually reaches, product count is not the limiting factor; staff accounts and inventory locations are."
+    }
+  ]
+}

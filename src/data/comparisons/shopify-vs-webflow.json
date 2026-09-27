@@ -1,0 +1,106 @@
+{
+  "id": "shopify-vs-webflow",
+  "a": "shopify",
+  "b": "webflow",
+  "layer": "sell",
+  "dimensions": [
+    {
+      "label": "Cheapest way to get a live, sellable store",
+      "a": "$39/mo (Basic) — hosting, checkout and unlimited products included, 0% extra fee via Shopify Payments",
+      "b": "$42/mo (Ecommerce Standard) — capped at 500 items, plus a 2% fee on top of Stripe or PayPal",
+      "edge": "a"
+    },
+    {
+      "label": "Transaction fee on top of card processing",
+      "a": "0% with Shopify Payments on Basic; a different processor costs 2% (Basic), 1% (Grow) or 0.6% (Advanced)",
+      "b": "2% on every sale on Ecommerce Standard, no matter the processor; $84/mo Ecommerce Plus removes it",
+      "edge": "a"
+    },
+    {
+      "label": "Ecommerce catalog size before you must upgrade",
+      "a": "Unlimited products on every paid plan, from Basic up",
+      "b": "500 items (Standard), 5,000 (Plus, $84/mo), 15,000 (Advanced, $235/mo)",
+      "edge": "a"
+    },
+    {
+      "label": "Selling in person with a point-of-sale system",
+      "a": "Built into every paid plan; POS Pro adds advanced tools at $89 per location a month",
+      "b": "No point-of-sale system, built in or as an add-on",
+      "edge": "a"
+    },
+    {
+      "label": "How team members are billed",
+      "a": "Bundled into the plan: 0 staff (Basic), 5 (Grow, $105/mo), 15 (Advanced, $399/mo) — no per-seat fee",
+      "b": "Billed per person on top of the Site plan: $45/mo for a Full seat, $19/mo for a Limited seat",
+      "edge": "a"
+    },
+    {
+      "label": "What drives the bill up as traffic grows",
+      "a": "Nothing — the plan price does not change with visits or bandwidth",
+      "b": "Bandwidth: 50 GB/mo included on Premium, then paid tiers up to $560/mo for 1 TB",
+      "edge": "a"
+    },
+    {
+      "label": "Content beyond the store: blog and marketing pages",
+      "a": "A basic blog exists, but Shopify's CMS is not built for large content-marketing sites",
+      "b": "Premium's CMS handles 20,000 items across 40 Collections — built for this",
+      "edge": "b"
+    },
+    {
+      "label": "Design and layout control over the storefront",
+      "a": "Shopify's themes, apps and Liquid templating language set the boundaries",
+      "b": "A full visual canvas plus custom code, and code components on Premium",
+      "edge": "b"
+    },
+    {
+      "label": "Free plan you can actually build something on",
+      "a": "Agentic ($0) lists products in Shopify's own channels but can't publish a store or take checkout orders",
+      "b": "Starter ($0) builds and tests without limit, but only on a webflow.io subdomain, capped at 2 pages and 50 CMS items",
+      "edge": "tie"
+    },
+    {
+      "label": "Moving to a different platform later",
+      "a": "Not possible without a full rebuild — a Shopify store only runs on Shopify's own servers",
+      "b": "Partial — paid Workspace plans export HTML/CSS, but cart, checkout and CMS content don't come with it",
+      "edge": "tie"
+    },
+    {
+      "label": "Billing commitment at the top tier",
+      "a": "Plus starts at $2,500/mo on a required 1-year term, no month-to-month option",
+      "b": "Team starts at $2,500/mo on a required annual contract, no month-to-month option",
+      "edge": "tie"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "shopify-store",
+      "pick": "a",
+      "why": "A catalog business needs Shopify's unlimited products, built-in point-of-sale and a 0% fee with Shopify Payments; only pick Webflow instead if the catalog stays under 500 items and the site's design and content matter as much as the checkout."
+    },
+    {
+      "business": "agency",
+      "pick": "b",
+      "why": "An agency building client marketing sites gets more value from Webflow's visual design control and CMS than from a checkout, and reaches for Shopify only when a client's site is specifically a product-catalog store."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "A course or coaching business runs on cohort, drip-content and community tools that neither platform provides; both are built to ship a product catalog or a marketing site, not a curriculum."
+    },
+    {
+      "business": "local-service",
+      "pick": "neither",
+      "why": "A booking-and-invoice business needs scheduling software first; add Shopify or Webflow only once it also sells a real product line alongside the services."
+    },
+    {
+      "business": "freelancer",
+      "pick": "b",
+      "why": "A freelancer's site is usually a portfolio and a client pipeline, which is a design and content job that fits Webflow, not a storefront built for inventory."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "b",
+      "why": "A software company's marketing site is a design, CMS and page-speed job that Webflow fits directly; Shopify has no reason to be in a software business's stack."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page": "pricing/systeme-io",
+  "items": [
+    {
+      "q": "Is systeme.io really free?",
+      "a": "Yes, systeme.io's Free plan costs $0 a month forever, with no credit card required to sign up. It covers 2,000 contacts, 3 sales funnels, 1 course with up to 500 students, 1 custom domain and unlimited email sends, and takes 0% of your sales. The catch sits in the terms rather than the pricing page: a Free account is capped at $10,000 in lifetime sales revenue, and affiliate commissions don't count toward that total. Once an account crosses it, systeme.io gives you 3 days to upgrade, and after that its payment pages stop accepting new sales until you subscribe to a paid plan; you are never charged automatically. Free accounts are also limited to a single automation rule, and the systeme.io affiliate badge on your pages can only be removed on a paid plan."
+    },
+    {
+      "q": "How much does systeme.io cost per month?",
+      "a": "Systeme.io has one free plan and three paid plans, each billed monthly or annually. Startup costs $17 a month for 5,000 contacts, Webinar $47 a month for 10,000 contacts plus evergreen webinars, and Unlimited $97 a month, which raises contacts and CRM pipelines well past what a small business needs. Paying annually lowers those to $14.17, $39.17 and $80.83 a month, billed as one charge of $170, $470 or $970 for the year; systeme.io calls this \"2 months free.\" A fifth tier, For Teams, adds a dedicated success manager at a price given only on a sales call. None of the four published plans charge a percentage of sales; systeme.io's own transaction fee, on every plan including Free, is 0%."
+    },
+    {
+      "q": "Does systeme.io charge a transaction fee on sales?",
+      "a": "No. Systeme.io's comparison table lists a 0% transaction fee on every plan, including Free, and its pricing page says you can accept payments through Stripe or PayPal at no extra cost from systeme.io itself. That doesn't make selling free of processing costs, though: whichever card processor you connect still charges its own rate. Stripe's standard US rate is 2.9% plus 30 cents per successful domestic card charge, with added percentages for international cards, manually entered cards and currency conversion. That fee goes to Stripe, not to systeme.io, and it applies no matter which sell-layer platform you use, so it isn't a reason to rule systeme.io out against competitors that also route payments through Stripe or PayPal."
+    },
+    {
+      "q": "What happens if I go over my systeme.io plan's limits?",
+      "a": "Systeme.io does not cut you off right away. If a paid account exceeds its plan's caps on contacts, funnels, courses or similar limits, systeme.io emails a warning and gives you 3 days to bring usage back down. If you don't, it automatically upgrades the subscription to the next plan and bills that plan's price for the rest of the current billing period; a Startup account that outgrows its limits, for example, gets moved to Webinar and billed $47 for the remainder of that period. There's no smaller top-up or overage fee, only the choice to cut usage within 3 days or accept the next plan's price. The Free plan works differently: instead of upgrading you automatically, it simply stops accepting new sales once you pass its lifetime revenue cap."
+    },
+    {
+      "q": "Can I get a refund on systeme.io, or downgrade my plan?",
+      "a": "Refunds are unlikely either way. Systeme.io's terms and conditions state that subscriptions are not refundable, whether you're billed monthly or annually, so a yearly plan locks in a full year's charge with no money-back option. Downgrading isn't handled from your account settings, despite what the pricing page's own FAQ claims; systeme.io's help centre describes a support-ticket process instead, where you contact the team, they send a custom order form, and you have to bring your usage inside the lower plan's limits before they will process it. Cancelling a subscription entirely takes effect just before your next renewal date, so you keep access through the period you already paid for rather than losing it immediately."
+    },
+    {
+      "q": "Does systeme.io charge extra for SMS marketing?",
+      "a": "Systeme.io has no SMS pricing of its own. Sending text messages means connecting your own Twilio account, and systeme.io's help centre says SMS costs and delivery are managed directly through Twilio rather than through systeme.io. That means the per-message rate depends on your Twilio plan and the destination country, not on which systeme.io plan you're on, and Twilio bills it to your Twilio account separately from your systeme.io subscription. If built-in texting without opening a third-party account matters to your business, that's a reason to look at a platform that bills SMS itself rather than through a connected provider. Every other messaging feature, including email sending and automation rules, is included in the plan price with no per-send charge."
+    },
+    {
+      "q": "Is systeme.io cheaper than Kajabi or ClickFunnels?",
+      "a": "At the entry tier, yes, by a wide margin. Systeme.io's Startup plan costs $17 a month, against Kajabi's cheapest listed plan, Basic, at $179 a month, and ClickFunnels' cheapest plan, Launch, at $97 a month. That gap narrows near the top: systeme.io's Unlimited plan costs $97 a month, the same as ClickFunnels' Launch plan. GoHighLevel's Starter plan also lists at $97 a month, though that figure excludes the texting, calling and AI usage GoHighLevel bills separately from a wallet. The lower price buys less in some ways: Kajabi bundles an AI assistant and unlimited landing pages from its first plan, and ClickFunnels allows more team-member seats, so the right pick depends on which features a business actually needs, not price alone."
+    }
+  ]
+}

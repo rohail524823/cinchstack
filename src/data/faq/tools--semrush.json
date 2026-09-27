@@ -1,0 +1,29 @@
+{
+  "page": "tools/semrush",
+  "items": [
+    {
+      "q": "What size business should use Semrush?",
+      "a": "Semrush fits businesses running an active, ongoing SEO program, not someone checking a keyword once in a while. Agencies, freelancers and small SaaS startups tend to get the most value from it, and the paid plans back that up: the cheapest one, SEO, costs $139.95 a month for one login, 5 websites and 500 keywords tracked daily, which matches a solo consultant or a small agency handling one or two active client sites. A team tracking more keywords or managing more sites needs to move up a tier, and each tier still includes only one login, so team size matters as much as keyword volume when sizing a plan. A business that only wants an occasional keyword check does not need a paid plan at all."
+    },
+    {
+      "q": "Does Semrush's free plan work for real SEO work, or is it just for testing?",
+      "a": "Mostly just for testing. Semrush's free plan needs no credit card and never expires, but the limits are tight: one website to monitor, 10 keywords in Position Tracking, one demo project, and 10 reports a day across the main tools. That is enough to try the interface and run a handful of one-off checks, not to run ongoing SEO work for a client or a growing site. Real ongoing work starts on the SEO plan, at $139.95 a month, which raises those limits to 5 websites and 500 keywords tracked daily, still with one login included. Anyone deciding between the two should treat the free plan as a test drive, not a long-term substitute for a paid subscription."
+    },
+    {
+      "q": "Is Semrush a good fit for an agency managing several client sites?",
+      "a": "Reasonably well. Agencies are one of the business types that get the most out of Semrush, and plan limits scale with the number of sites: SEO covers 5 websites, Pro+ covers 15, and Advanced covers 40, so an agency's site count, not just its team size, decides which tier it needs. Reporting is built for client work too: the My Reports add-on turns Semrush data into a shareable report for $10 a month, or $20 a month for a white-labelled version with extra integrations and a shareable link, so an agency does not have to rebuild Semrush's numbers in another tool before sending them to a client. An agency that wants its own branded profile can also pay $90 a month for a listing on Semrush's Agency Partners Platform. The catch: each extra teammate who needs a login is a separate line item, priced by whichever plan the account is on."
+    },
+    {
+      "q": "Does Semrush have an API, or a way to connect it to other tools?",
+      "a": "Two different ways, and only one of them is limited to a single plan. Every Semrush plan, including the entry-level SEO plan, includes MCP access, so an AI assistant or automation tool can query Semrush's data directly with no separate integration to build. A full REST API for pulling raw ranking, crawl or keyword data into your own dashboard is a different feature, and it is included on only one plan: Advanced, at $549 a month. SEO, Starter and Pro+ do not include API access at all. Advanced is also the only plan Semrush's own plan-comparison table lists as including migration support from third-party SEO tools, which matters if you are carrying over an existing project's keyword list and history rather than starting from zero. A business that just needs an AI tool to read Semrush data through MCP does not need Advanced; one that needs raw API access or a guided switch from a competitor does."
+    },
+    {
+      "q": "What happens once you need to track more keywords than your Semrush plan allows?",
+      "a": "There is no partial upgrade. SEO and Starter both cap out at 500 keywords tracked daily, and Semrush does not publish a price for adding a few hundred more keywords, projects or crawl pages inside either plan; its knowledge base points customers to the in-account subscription page instead of listing a rate. The only documented way past the 500-keyword cap is moving to the next full tier, Pro+, which costs $299 a month and raises the ceiling to 1,500 keywords. Pass 1,500 and the next and last self-serve step is Advanced at $549 a month, covering up to 5,000 keywords and the only tier with API access. Above that, Semrush sells a custom Enterprise tier priced only through its sales team, with unlimited projects and limits set case by case. Budget for a full tier jump, not a small add-on, once a plan's keyword cap is in sight."
+    },
+    {
+      "q": "Does Semrush do anything besides SEO, like social media, ads or local listings?",
+      "a": "Yes. Semrush's core plans cover SEO alone; everything else, local search, content creation, social scheduling, paid-ad research and PR, is sold as its own add-on toolkit, at its own price, whether or not you have an SEO plan at all. A single-location business gets Google Business Profile management and map-rank tracking through the Local toolkit for $30 a month, an in-house content team can add SEO briefs and AI-drafted articles for $60 a month, and a small marketing team can layer in post scheduling for $20 a month, competitor-ad tracking for $99 a month, or PR and brand-mention monitoring for $149 a month. A sixth toolkit, Traffic & Market, covers competitor traffic and audience research from $289 a month. Buy only the layers a business actually needs; none of them require upgrading the core SEO plan first."
+    }
+  ]
+}

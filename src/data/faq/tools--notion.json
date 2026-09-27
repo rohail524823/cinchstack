@@ -1,0 +1,29 @@
+{
+  "page": "tools/notion",
+  "items": [
+    {
+      "q": "Does Notion replace a dedicated project management tool?",
+      "a": "Notion's databases support subtasks, dependencies and custom properties, which is enough to build a real task list with owners, due dates and status fields alongside a team's documents, without adding another tool. What Notion's own pricing and feature pages don't claim is feature parity with software built only for project management: timeline views, workload limits and automation rules that fire on their own are the territory of dedicated PM tools, and that level of detail isn't something CinchStack has verified for Notion specifically. A team whose daily work is really scheduling dozens of dependent tasks, or leaning on automation, is better off comparing Notion against a tool like ClickUp, built and priced specifically for that job. A team that mainly wants a structured task list next to its notes and specs can build it in Notion and stop there."
+    },
+    {
+      "q": "Can an agency keep different clients' work private from each other in Notion?",
+      "a": "Only fully on Business or Enterprise. Notion's Plus plan, the tier most 5-person teams land on, does not include private teamspaces, so anything organized into a teamspace on Plus is visible to the rest of the workspace's own members by default. Guests are a separate, narrower mechanism: a client invited as a guest, free on every plan, can only open the individual pages someone has directly shared with them, and can't browse a teamspace's sidebar even if another client's guest belongs to the same workspace. An agency that only ever shares specific pages with specific clients can make Plus work fine. An agency that wants whole client teamspaces walled off from its own staff on other accounts, not just from outside guests, needs Business, where private teamspaces come with the seat price rather than as an add-on."
+    },
+    {
+      "q": "Does Notion automate recurring work without paying for AI credits?",
+      "a": "Yes, and it is a separate system from Notion's AI. Plus, Business and Enterprise all include custom database automations in the seat price: a rules-based feature, such as a status change on one property triggering an update to another, rather than anything billed by usage. That is different from Custom Agents and Workers, a Business-and-Enterprise-only beta that runs on Notion credits billed at $10 per 1,000 credits a month after a free trial of unstated size. A team that wants \"if this happens, do that\" rules inside its databases already gets that on Plus, with no metered bill to watch. A team picturing an AI agent that drafts documents or triages work on its own is describing Custom Agents, not database automations, and should expect a Notion-credits line the pricing page gives no way to estimate in advance."
+    },
+    {
+      "q": "How long does Notion keep page version history?",
+      "a": "It depends entirely on the plan, and the gap is wide. Free keeps 7 days of page history, Plus extends that to 30 days, Business to 90 days, and only Enterprise keeps history for an unlimited period. That matters beyond simple undo convenience: a workspace that needs to show what a policy page said on a given date, or recover a page edited incorrectly weeks earlier, cannot do either on Free or Plus once that window closes, regardless of how the plan is priced otherwise. A team with real compliance or audit needs around document history should treat the history window, not the seat price, as the reason to pick Business over Plus. A team that just wants an occasional undo on recent edits is well covered even on Free's 7 days."
+    },
+    {
+      "q": "Can you get your content out of Notion if you switch tools later?",
+      "a": "Yes. Notion's help centre describes exporting an entire workspace at once, as HTML, Markdown, or CSV for databases, along with any files members have uploaded, from the workspace settings. That export is not instant: a full workspace export can take up to 30 hours to generate, and the resulting download link stays valid for 7 days. There is one plan-based limit inside that process: exporting a single page together with all of its subpages bundled together is restricted to Business and Enterprise, so a Free or Plus workspace exports the same content page by page rather than as ready-made bundles. Form-view databases do not export at all; Notion's help centre says to switch to a table view first. None of that blocks a move, but a large workspace on Free or Plus should expect more manual reassembly than a single one-click export."
+    },
+    {
+      "q": "Is Notion the right place to run a team's CRM or email marketing?",
+      "a": "No. Notion sits in what CinchStack calls the organize layer: docs, databases, forms and simple published sites, not the run layer of a CRM's pipeline and lead tracking, or the grow layer of outbound email and automation sequences. Nothing in Notion's plans adds contact scoring, deal stages, email sending or campaign automation, so a team trying to force a Notion database to act as its CRM ends up rebuilding, by hand, what dedicated CRM software already does natively. The two kinds of tool are meant to sit side by side: a small team's client or lead records belong in an actual CRM, while the proposals, SOPs, meeting notes and internal wiki that reference those clients belong in Notion. Replacing Notion with a CRM, or a CRM with Notion, creates more manual work than either tool was designed for."
+    }
+  ]
+}

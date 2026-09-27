@@ -1,0 +1,44 @@
+---
+title: "Shopify vs WooCommerce: cost and fit for your store"
+description: "Shopify runs $39 to $399 a month with hosting included. WooCommerce is free, but hosting alone starts around $25 a month. Here's which one fits."
+published: 2026-09-27
+quickAnswer: "As of 26 September 2026, Shopify is a hosted ecommerce platform starting at $39 a month, and WooCommerce is a free, open-source plugin for WordPress that adds hosting costs of its own, from about $25 a month on a budget host. Shopify is the simpler choice for a first-time store owner with no in-house WordPress skills: everything runs on one bill. A store that already runs WordPress, wants to avoid a recurring platform subscription, or needs full code control over its checkout should pick WooCommerce instead, and budget separately for hosting and any paid extensions."
+related:
+  - /tools/shopify/pricing/
+  - /tools/woocommerce/pricing/
+  - /stacks/shopify-store/
+---
+
+Shopify and WooCommerce solve the same problem in opposite ways. Shopify is a single subscription that bundles hosting, checkout and point-of-sale into one flat plan. WooCommerce is a free plugin that turns a WordPress site you build yourself into a store. That difference in shape, not just price, decides which one actually fits a given business. Every plan, extension price and billing rule below comes from Shopify's and WooCommerce's own pricing pages.
+
+## Is WooCommerce actually free, or does the bill just move somewhere else?
+
+WooCommerce itself really is $0: no plan tiers, no cut of sales. But a live store needs somewhere to run, and that cost is real. The bill above uses Pressable, a host WooCommerce recommends, at <Real tool="woocommerce" size="solo" /> a month for a solo store's traffic. WooCommerce's own hosting guide, though, points a newer, lower-revenue store toward WordPress.com's Commerce plan instead, at $70 a month, which bundles several extensions a Pressable-hosted store would otherwise buy separately, including Product Add-Ons and Gift Cards. Which number is closer to reality depends on the host you actually pick, and that choice is yours to make, not WooCommerce's.
+
+Card processing is close to a wash at the entry level. Shopify Payments charges 2.9% plus 30 cents per online card transaction on Basic, and WooPayments charges the same 2.9% plus 30 cents on WooCommerce, whichever host you use. Shopify's rate improves to 2.5% plus 30 cents on its Advanced plan; WooCommerce's stays flat no matter how big the store gets.
+
+## Which is cheaper as your store grows?
+
+The bills above show WooCommerce staying cheaper than Shopify at every size shown, and the gap has a clear cause: Basic allows the store owner and no one else, so Shopify forces a plan upgrade the moment a store needs even one staff login beyond the owner, while WooCommerce's WordPress user roles are free and unlimited at any size. That is a real, structural advantage, not a coincidence of the assumptions behind those numbers.
+
+It is not the full picture, though. Those WooCommerce totals cover only the core plugin and hosting. A store that wants to sell subscriptions or take bookings adds a paid extension, and the common ones run $249 to $279 a year each, on top of whatever the host already charges. Add two or three of those and a lot of WooCommerce's price advantage over Shopify's Grow or Advanced plans narrows, or disappears, depending on which extensions the store actually needs. For how this fits into the rest of a store's software choices, see the [shopify-store stack](/stacks/shopify-store/).
+
+## Do you need to know how to code to run a WooCommerce store?
+
+Not to launch a standard one. A managed host that installs WordPress and WooCommerce together, such as WordPress.com's Commerce plan, lets you pick a theme and add products with no code, similar to signing up for Shopify. The two part ways once you want something a standard theme cannot do. WooCommerce's checkout, templates and database are open PHP code that you or a developer can edit directly. Shopify's equivalent customization happens through its own Liquid templating language and app store, on Shopify's infrastructure, not yours.
+
+A business that only ever needs a standard catalog and checkout will rarely notice the difference. One that wants a custom product configurator, a nonstandard checkout flow, or a tight integration with another system will need a developer on either platform, but only WooCommerce hands that developer the full underlying code to work with.
+
+## What does a real WooCommerce store end up paying beyond hosting?
+
+WooPayments, WooCommerce's own payment processor, adds several charges beyond the base 2.9% plus 30 cents: 1.5% more for a card issued outside the US, another 1% if the customer pays in a currency that does not match your payout account, and a flat $15 for each disputed charge. A card reader also costs $5 a month once it processes three or more transactions in a month. None of that shows up in the $0 plugin price, and a store that sells internationally or handles many disputes should expect it to add up. Shopify's own pricing page lists only a flat 1% international surcharge on top of its online card rate; it does not list a separate currency-conversion charge the way WooPayments does.
+
+## What happens if you want to switch platforms later?
+
+Both platforms let you export your product catalog to a CSV file, so your product data is rarely the hard part of a move. The difference is where the store lives. A Shopify store only runs on Shopify's own servers, so leaving the platform, WooCommerce included, means rebuilding the storefront and checkout somewhere else. A WooCommerce store is a WordPress site you host yourself, so you can move it to a different host at any time without touching the storefront at all; only moving off WooCommerce itself, to a different ecommerce platform, requires the kind of rebuild Shopify would.
+
+Payment gateways work differently from hosting. WooCommerce charges nothing extra no matter which gateway processes a sale, so switching away from WooPayments costs nothing beyond whatever the new gateway itself charges. Shopify allows the same freedom to use another gateway, but keeps charging its own fee, 2% on Basic, 1% on Grow or 0.6% on Advanced, on every sale that does not run through Shopify Payments.
+
+## Where most advice gets this wrong
+
+Most comparisons frame this choice as beginner versus developer: Shopify for someone who wants things simple, WooCommerce for someone comfortable with code. That framing misses the actual dividing line, which is whether a WordPress site already exists. A business building a store from nothing pays the full cost of standing up WordPress, a host, a theme and someone to maintain all three, and that cost can erase most of WooCommerce's advantage over Shopify's flat plan price well before the store sells its first order. A business that already runs on WordPress for a blog, a membership area or a content-marketing site adds WooCommerce onto infrastructure it is paying for anyway, so the plugin really is close to free there. The right question is not how technical you are; it is whether you already have a WordPress site to add this to, or you would be starting one just to save a subscription fee.

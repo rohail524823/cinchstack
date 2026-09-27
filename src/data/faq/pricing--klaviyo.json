@@ -1,0 +1,33 @@
+{
+  "page": "pricing/klaviyo",
+  "items": [
+    {
+      "q": "How much does Klaviyo cost per month?",
+      "a": "Klaviyo's Email plan is priced by active-profile count rather than seats, starting at $20 a month for 500 active profiles. The price climbs on a continuous scale as your list grows: $30 a month at 1,000 profiles, $150 at 10,000, $720 at 50,000, and $860 once you need the 60,000-profile tier. Above 150,000 active profiles, Klaviyo stops publishing a number and quotes custom Enterprise pricing through its sales team instead. Email, SMS and every add-on, including an AI agent, a customer hub, social tools and reviews, are billed as separate line items, so your total bill is the Email tier plus whatever add-ons and SMS volume you actually use, not one flat platform fee."
+    },
+    {
+      "q": "Is Klaviyo free to use?",
+      "a": "Yes. Klaviyo's Free plan has no time limit, as long as your account stays at or under 250 active profiles and 500 email sends a month. It also includes $5 of mobile-messaging usage and $5 of Composer AI usage each month at no charge. Going over 250 active profiles or 500 monthly sends blocks further sending until you're back under the limit or you upgrade to a paid Email tier, starting at $20 a month for 500 active profiles. Full email support is included only for the first 60 days after signup; after that, free accounts get Klaviyo's Community and Help Center but not direct support. There's no separate free trial of the paid plan, since the free plan effectively serves that role."
+    },
+    {
+      "q": "What counts as an active profile in Klaviyo?",
+      "a": "An active profile is anyone Klaviyo's system can reach by email, not just people who subscribed to your list. Klaviyo's help center defines two kinds: subscribers who explicitly opted in, and profiles added through general engagement, such as a shopper who abandoned checkout or placed an order without checking a marketing box. Both count toward your paid tier whether or not you actually send them a campaign, which means a Shopify or WooCommerce store can build up billable profiles from checkout traffic alone. Profiles you suppress or delete stop counting toward your tier; profiles you simply stop emailing do not, because an unemailed contact is still counted as reachable until you remove them from your active list."
+    },
+    {
+      "q": "Why is SMS billed separately from Klaviyo's Email plan?",
+      "a": "SMS and MMS run on Klaviyo's Mobile Messaging product, a separate monthly subscription from the Email plan, so no Email tier includes any text-message volume. You prepay a monthly plan spend, and each send draws it down at a rate that varies by country, channel and, in the US and Canada, whether you're sending from a toll-free number or a short code; a US toll-free SMS segment costs $0.01, with carrier fees already built into that rate. Unused monthly spend does not roll over into the next billing cycle, so overbuying wastes money and underbuying means an overage charge or paused sends. Klaviyo's calculator has not shown reliable MMS, WhatsApp or RCS rates, so get an exact quote from Klaviyo before budgeting for those channels."
+    },
+    {
+      "q": "What happens if my active profiles go over my Klaviyo plan's limit?",
+      "a": "Klaviyo enforces what it calls profile compliance: if your active-profile count exceeds your current Email plan's tier, you're moved automatically to the next, more expensive tier at the start of your next billing cycle, regardless of which upgrade preference you had selected. Paid accounts keep sending through the cycle where the overage happened; only free accounts get blocked from sending immediately once they're over their limit. The only way to avoid the automatic upgrade is to suppress or delete enough profiles to get back under your tier's limit at least 24 hours before your billing cycle renews. You can also upgrade to a larger tier manually at any time, which takes effect immediately and is charged at the difference for that first month."
+    },
+    {
+      "q": "Does Klaviyo offer a discount for paying yearly?",
+      "a": "No. Klaviyo's self-serve plans, including Email, Composer, Customer Hub, Social Marketing and Reviews, are billed and renew monthly, and the pricing calculator has no annual-billing toggle or yearly discount for any of them. The only way to a different billing cycle is manual billing, an invoiced contract paid by ACH or wire, which Klaviyo only makes available once your combined plans total $2,000 a month or more, arranged through a Klaviyo representative rather than self-serve checkout. Klaviyo has not published a discount for choosing manual billing over monthly self-serve billing, so buyers below that spending threshold should plan around the monthly Email price with no yearly-prepay option at all."
+    },
+    {
+      "q": "How much do Klaviyo's Composer, Customer Hub and other add-ons cost?",
+      "a": "Composer, Klaviyo's AI agent, is $20 a month flat on top of any Email tier, metered in AI credits that expire each billing period, with $10-per-1,000-credit overage available if you opt in. Customer Hub and Social Marketing both scale with active-profile count on their own tiers; at the 10,000-profile mark, Klaviyo's pricing page showed introductory rates of $20 and $38, discounted off list prices of $30 and $50, running only through 30 September 2026. Reviews is priced by monthly order volume instead of profiles, starting at $25 a month for up to 250 orders on Shopify or WooCommerce. None of these four add-ons is required to send email or SMS; a buyer who only wants core email marketing can skip all of them."
+    }
+  ]
+}

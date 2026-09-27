@@ -1,0 +1,29 @@
+{
+  "page": "pricing/hubspot",
+  "items": [
+    {
+      "q": "How much does HubSpot cost for a small business?",
+      "a": "HubSpot's Marketing Hub starts free for up to 2 users and 1,000 contacts, with HubSpot branding on emails and a 2,000-send-a-month cap. A solo operator who needs the branding removed and normal send volume moves to Starter at $20 a seat a month, billed month to month or annually. The bigger jump comes when a small team needs marketing text messages or more than 10 automated workflow actions: that forces Marketing Hub Professional, which starts at $890 a month paid monthly (or $800 a month on a required 12-month commitment), includes 3 seats and 2,000 contacts, and adds a one-time $3,000 onboarding fee charged automatically on purchase. For most small businesses without an SMS requirement, Starter at $20 a seat is the realistic cost, not the $890 headline for Professional."
+    },
+    {
+      "q": "What does HubSpot's free plan include, and who should skip it?",
+      "a": "HubSpot's free tools cover up to 2 users and 1,000 contacts, with a Smart CRM, forms, landing pages and live chat, plus email marketing capped at 2,000 sends a month and HubSpot branding on every send. It includes exactly 1 automated email action, up to 10 active CRM segments, and up to 3 connected ad accounts, with no credit card required to sign up. Skip it once you outgrow any of those caps: a fourth user, a 1,001st contact, HubSpot's branding on your emails, or a need for more than one automated action all mean it's time to pay for Marketing Hub Starter instead, which starts at $20 a seat a month. Skip it entirely if you need marketing text messages from day one, since SMS isn't available on the free tier or on Starter at any size; only Professional and Enterprise sell that add-on."
+    },
+    {
+      "q": "Why does HubSpot charge a $3,000 onboarding fee?",
+      "a": "The $3,000 fee applies to Marketing Hub Professional: HubSpot charges it automatically the first time you buy the plan, and it is required, not optional. It pays for remote onboarding with a HubSpot specialist, delivered within 90 days of purchase, to help a team set up the more complex automation, reporting and contact-tier structure that Professional adds over Starter. Marketing Hub Enterprise carries its own required onboarding fee of $7,000, also charged automatically on purchase. Starter, by contrast, has no onboarding fee at all, which is one reason it stays the better entry point for a team that doesn't yet need Professional's automation ceiling or its marketing SMS add-on. HubSpot's public pricing pages don't say whether this fee is ever waived or reduced, for example when a HubSpot Solutions Partner runs onboarding instead of HubSpot itself."
+    },
+    {
+      "q": "Does HubSpot require a yearly contract?",
+      "a": "It depends which plan. Marketing Hub Starter can be paid month to month with no minimum term, and costs $20 a seat a month whether you pay monthly or annually. Marketing Hub Professional requires a 12-month commitment no matter how you pay: $890 a month if you pay monthly across that year, or $800 a month if you prepay the full year upfront, with no cancel-anytime monthly option. Marketing Hub Enterprise goes further and is billed annually only, with no monthly-payment option at all. HubSpot's subscription terms also say contracts renew automatically for the same length, up to a year, and that you cannot downgrade or cancel mid-term, with prepaid fees non-refundable. If a flexible, cancel-anytime contract matters to you, that points toward Starter rather than Professional or Enterprise."
+    },
+    {
+      "q": "Can you negotiate a lower price on HubSpot?",
+      "a": "For Marketing Hub Starter, HubSpot already publishes a lower price for new customers: its calculator currently shows a seat at $10 a month billed monthly, against a $20 list price shown struck through beside it. HubSpot doesn't say how long that offer lasts, and its terms allow fees to rise to the list price at renewal with 30 days' notice, so treat it as a starting price rather than a permanent rate. Marketing Hub Professional and Enterprise are sold through HubSpot's sales team rather than self-serve checkout, and HubSpot doesn't publish whether negotiated or multi-year rates are available at that stage. If a lower Professional or Enterprise price matters to you, that's a conversation to have directly with HubSpot's sales team rather than something visible on the public pricing page."
+    },
+    {
+      "q": "What happens if you go over your HubSpot contact limit?",
+      "a": "HubSpot bills the next contact tier immediately, the moment your marketing contact count crosses it, rather than waiting for your renewal date. On Starter, going from the 1,000 included contacts into the next band adds $50 per 1,000 extra marketing contacts a month; on Professional, contacts above the 2,000 included are sold in 5,000-contact packs starting at $250 a month. You can mark contacts as non-marketing so they stop counting toward the limit, but that change only takes effect at the start of the next calendar month or at your contract's renewal, not immediately, so it won't undo an overage that already happened. Once you're billed into a higher tier, HubSpot's terms don't let you drop back down until the contract renews, even if your contact count falls."
+    }
+  ]
+}

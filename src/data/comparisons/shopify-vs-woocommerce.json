@@ -1,0 +1,94 @@
+{
+  "id": "shopify-vs-woocommerce",
+  "a": "shopify",
+  "b": "woocommerce",
+  "layer": "sell",
+  "dimensions": [
+    {
+      "label": "Cheapest way to get a live, sellable store",
+      "a": "$39/mo (Basic) — one plan, hosting and checkout included",
+      "b": "About $25/mo — the plugin is $0 plus budget hosting",
+      "edge": "b"
+    },
+    {
+      "label": "Who handles hosting, backups and security updates",
+      "a": "Shopify — bundled into every plan, nothing to set up",
+      "b": "You, or whichever host you hire — it's a plugin, not a hosted service",
+      "edge": "a"
+    },
+    {
+      "label": "Extra fee for using a payment gateway other than the platform's own",
+      "a": "2% (Basic), 1% (Grow) or 0.6% (Advanced) on top of the gateway's rate",
+      "b": "None — 0% platform fee no matter which gateway you use",
+      "edge": "b"
+    },
+    {
+      "label": "Staff accounts on the cheapest plan",
+      "a": "None — Basic is the owner only; a second login means moving to Grow",
+      "b": "Unlimited — WordPress user roles cost nothing extra",
+      "edge": "b"
+    },
+    {
+      "label": "Product and order limits",
+      "a": "None — unlimited products on every paid plan",
+      "b": "None — unlimited products and orders on the free core plugin",
+      "edge": "tie"
+    },
+    {
+      "label": "Selling in person with a point-of-sale system",
+      "a": "Built in on every plan; POS Pro adds advanced tools at $89 per location a month",
+      "b": "Not built in — needs a separate POS extension and card reader",
+      "edge": "a"
+    },
+    {
+      "label": "Changing how the storefront or checkout code works",
+      "a": "Limited to Shopify's themes, apps and Liquid templates",
+      "b": "Full — it's open-source PHP running on your own server",
+      "edge": "b"
+    },
+    {
+      "label": "Time and skill needed to launch",
+      "a": "Sign up, pick a theme, add products — live the same day, no code",
+      "b": "Needs a working WordPress site first, then the plugin, a theme and a host",
+      "edge": "a"
+    },
+    {
+      "label": "Moving your store to a different host later",
+      "a": "Not possible — a Shopify store only runs on Shopify's own servers",
+      "b": "Yes — it's your WordPress database; move it to any host without rebuilding",
+      "edge": "b"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "shopify-store",
+      "pick": "a",
+      "why": "Shopify is the simpler default with no WordPress skills on hand; pick WooCommerce instead only if you already run WordPress or have someone who can maintain it."
+    },
+    {
+      "business": "agency",
+      "pick": "b",
+      "why": "An agency already comfortable with WordPress gets full code control across client builds and avoids paying a per-store subscription for every site it launches."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "A course or coaching business needs cohort, drip-content and community tools, not a product-catalog checkout; both platforms are built around shipping goods."
+    },
+    {
+      "business": "local-service",
+      "pick": "neither",
+      "why": "A booking-and-invoice business needs scheduling software, not a storefront; only add one of these if you also ship a real product catalog."
+    },
+    {
+      "business": "freelancer",
+      "pick": "neither",
+      "why": "Most freelancers selling a handful of digital products need a lighter checkout tool, not a full ecommerce platform built for inventory and shipping."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "neither",
+      "why": "A software company needs recurring billing built into its own app, which is a different job than either platform's product-catalog checkout."
+    }
+  ]
+}

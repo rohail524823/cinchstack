@@ -1,0 +1,33 @@
+{
+  "page": "compare/semrush-vs-ahrefs",
+  "items": [
+    {
+      "q": "Is Semrush or Ahrefs cheaper?",
+      "a": "It depends on which plan actually fits, not the cheapest button on each pricing page. Ahrefs' Starter plan lists at $29 a month, far below Semrush's cheapest plan at $139.95, but Starter tracks only 50 keywords in one unverified project, has no exports, and can't add a second user, so it isn't a like-for-like alternative for ongoing SEO work. The realistic comparison is Semrush's SEO plan against Ahrefs' Lite plan: $139.95 a month for Semrush against $129 a month for Ahrefs, and Lite tracks 750 keywords weekly against Semrush's 500 tracked daily. Add a second user and the gap holds: Ahrefs' Standard plan plus one extra seat costs less than Semrush's Pro+ plan plus one extra seat. Semrush's advantage is that its rankings refresh daily instead of weekly."
+    },
+    {
+      "q": "Does Ahrefs offer a free trial like Semrush?",
+      "a": "No. Ahrefs' help center says it does not offer free trials or discounts on any paid plan; the cheapest way in is Starter at $29 a month, billed monthly with no minimum term, or the free Ahrefs Free account, which never expires but skips Keywords Explorer and Rank Tracker entirely. Semrush, by contrast, offers a 7-day free trial on its SEO, Starter and Pro+ plans, though a card is required and Semrush places a small authorization charge that is reversed. Cancel within the 7 days and you pay nothing; miss that window and the trial converts to a paid subscription at the standard rate. Semrush's Advanced plan and its separate toolkits, including AI Visibility, carry no trial either."
+    },
+    {
+      "q": "Which is better for an agency managing several clients?",
+      "a": "Ahrefs tends to work out cheaper as an agency adds client seats. Standard's extra user costs $60 a month against Semrush Pro+'s $80, and Advanced's extra user costs $80 against Semrush Advanced's $100, while Ahrefs also tracks more keywords at each matching price point. Ahrefs builds in API and MCP access from Lite ($129 a month) up, which matters if an agency pulls data into its own client-reporting dashboard instead of exporting screenshots by hand. Semrush's advantage for agencies is its My Reports add-on, which supports white-labelling and share-by-link reporting starting at $10 a report a month, plus a listing on its Agency Partners Platform. Either way, extra logins are never free past the first seat on either platform."
+    },
+    {
+      "q": "Can Semrush or Ahrefs handle local SEO for a single-location business?",
+      "a": "Semrush is the better fit if local search is the actual goal. Its Local Toolkit is sold on its own, without needing a core SEO plan, starting at $30 a location a month for a Google Business Profile AI agent that handles posts and review replies, plus a Map Rank Tracker. Ahrefs has no comparable standalone local-search product in its current lineup; its plans are built around keyword tracking, backlink research and site audits for a website, not around managing map-pack rankings or review responses. A single-location plumber, dentist or salon chasing local pack visibility is generally better served by Semrush's Local Toolkit alone than by either company's full SEO plans."
+    },
+    {
+      "q": "How often do Semrush and Ahrefs update keyword rankings?",
+      "a": "Semrush updates tracked keywords daily on every paid plan, from its $139.95 SEO plan up to Advanced. Ahrefs' Rank Tracker updates weekly by default on every plan it sells, including the $1,499-a-month Enterprise tier, and Ahrefs' help center does not list a way to pay for faster updates. For a business that needs to see a ranking move the day it happens, such as after a fast content push or a competitor's site change, that gap matters more than either tool's keyword-count limits. For everything else, a weekly refresh is normal in SEO reporting and unlikely to change which plan you actually need."
+    },
+    {
+      "q": "Do Semrush and Ahrefs track brand mentions in AI answers like ChatGPT?",
+      "a": "Yes, both track how brands appear in AI answers, but they bundle it differently. Semrush's Starter, Pro+ and Advanced plans include an AI Visibility Toolkit that tracks 50 to 200 of your own prompts a day depending on the plan, covering ChatGPT, Google AI, Gemini and Perplexity. Ahrefs' Lite, Standard and Advanced plans include its Brand Radar feature for 5 to 20 of your own prompts a day. Ahrefs also sells Brand Radar's AI Visibility Index separately, from $199 a month, which looks up any brand's existing AI mentions without setting up prompts first; Semrush's AI Visibility Toolkit requires configuring prompts and a domain, and can be bought alone for $99 a month if you don't want a full SEO plan."
+    },
+    {
+      "q": "What happens if I cancel Semrush or Ahrefs?",
+      "a": "On Semrush, cancelling stops the next renewal, and the 7-day money-back guarantee only covers your first annual subscription or add-on purchase paid by card; month-to-month plans are not refundable once billed. On Ahrefs, cancelling takes effect at the end of the current billing period and your account drops to the free Ahrefs Free tier afterward; Ahrefs says it does not issue refunds in general, though a monthly subscriber who hasn't used the service can ask and Ahrefs may grant it at its own discretion. Neither company prorates a mid-term cancellation back to you. If a flexible, low-risk exit matters most, budget around Semrush's annual refund window rather than counting on a refund from Ahrefs."
+    }
+  ]
+}

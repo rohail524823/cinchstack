@@ -1,0 +1,33 @@
+{
+  "page": "pricing/semrush",
+  "items": [
+    {
+      "q": "How much does Semrush cost per month?",
+      "a": "Semrush's cheapest paid plan is SEO at $139.95 a month, covering one user, 5 websites and 500 keywords tracked daily. Adding AI-search visibility tracking, meaning brand mentions in ChatGPT, Google AI, Gemini and Perplexity, moves you to Starter at $199 a month, with the same 500-keyword cap. Once a business needs to track more than 500 keywords, the next step is Pro+ at $299 a month for 1,500 keywords, and the top self-serve tier, Advanced, costs $549 a month for 5,000 keywords and the only API access Semrush sells. A free account sits below all of these, but it allows just 10 reports a day and 10 tracked keywords, useful for testing the product rather than running SEO work. Pricing above Advanced is custom Enterprise pricing, quoted only through Semrush's sales team."
+    },
+    {
+      "q": "Does Semrush have a free plan or a free trial?",
+      "a": "Both, and they work differently. Semrush's free plan needs no credit card and never expires, but it is built for testing, not real SEO work: one website, 10 tracked keywords in Position Tracking and 10 reports a day across the main tools. Separately, Semrush offers a 7-day free trial of its paid SEO + AI Search plans, and that one does require a credit card; Semrush's billing FAQ says it places a $1 authorization that gets reversed, and the trial turns into a paid subscription automatically unless you cancel first. Exports are switched off during the trial. Semrush's pricing page shows a \"Try for free\" button on SEO, Starter and Pro+, but not on Advanced, even though Semrush's own knowledge base says every SEO + AI Search plan includes the same 7-day trial."
+    },
+    {
+      "q": "What's the difference between Semrush's SEO plan and Starter plan?",
+      "a": "The SEO and Starter plans share identical SEO limits: 5 websites, 500 keywords tracked daily, 100,000 pages crawled a month and one user included. The only thing Starter adds is Semrush's AI Visibility Toolkit, tracking up to 50 AI-search prompts a day and brand mentions across ChatGPT, Google AI, Gemini and Perplexity. For that one difference, Starter costs $199 a month against SEO's $139.95. Buying the AI Visibility Toolkit on its own, as a $99 add-on to the plain SEO plan, works out to more in total than upgrading to Starter outright, so a business that wants AI-search tracking should upgrade rather than add the toolkit separately. Pro+ and Advanced both already include the same AI Visibility access at their own higher prices, so this comparison only matters at the SEO-versus-Starter decision point."
+    },
+    {
+      "q": "How much do extra users cost on Semrush?",
+      "a": "It depends on the plan, since every Semrush plan is priced for one login only. An extra user costs $45 a month on the SEO or Starter plan, $80 a month on Pro+, or $100 a month on Advanced, and that price buys SEO features only. On Starter, Pro+ and Advanced, an additional user gets no AI Visibility, Traffic & Market or App Center access unless you buy those again for that specific person. Semrush's own knowledge base gives a worked example: an extra Starter user with full AI Visibility access costs $144 a month in total, the $45 seat fee plus a separate $99 AI Visibility Toolkit licence. Accounts running only a toolkit such as Local, Content or Social, with no SEO plan attached, pay a flat $20 a month per extra user instead."
+    },
+    {
+      "q": "Is it worth paying for Semrush annually?",
+      "a": "Usually, if you are confident you will keep the plan for a full year. Paying annually instead of monthly saves about 17% on Starter, Pro+ and Advanced, and about 16% on the SEO plan, dropping SEO to $117.33 a month, Starter to $165.17, Pro+ to $248.17 and Advanced to $455.67. The catch is how it is billed: annual plans are charged upfront for the whole year in one payment, not spread across 12 monthly charges, and canceling a month-to-month plan gets you nothing back for the time already paid. None of Semrush's separate toolkits, including AI Visibility, Local, Content, Social, Advertising and AI PR, gets any annual discount at all; each costs the same whether the billing toggle is set to monthly or annual, so the yearly saving applies only to your core SEO plan."
+    },
+    {
+      "q": "Can you get a refund if you cancel Semrush?",
+      "a": "Rarely, and it depends heavily on how you paid. Semrush's 7-day money-back guarantee covers only your first annual subscription, 12 months or longer, and your first add-on purchase, bought online by credit card; miss that window and the annual term runs its course with no refund. Month-to-month subscriptions are not refundable at all: canceling stops future billing, but the cancellation only takes effect at the end of the period you already paid for, and that period's payment is not returned. In other words, the flexible month-to-month plans that let you cancel any time carry no safety net if you change your mind partway through a paid month, while the more restrictive annual plans do, but only on the first purchase."
+    },
+    {
+      "q": "Does Semrush charge extra to track AI search results like ChatGPT and Google AI?",
+      "a": "Yes, unless you are already on Starter, Pro+ or Advanced, which have it built in. The plain SEO plan does not include AI-search tracking at all; adding Semrush's AI Visibility Toolkit to it costs $99 a month per domain, covering 25 custom prompts tracked daily. Starter, Pro+ and Advanced include AI Visibility already, tracking 50, 100 or 200 prompts a day respectively across ChatGPT, Google AI, Gemini and Perplexity, with no extra line item. Need more than a plan's prompt allowance? An additional Brand Performance domain costs $99 a month, and 50 extra tracked prompts cost $60 a month. Extra users added to Starter, Pro+ or Advanced do not get AI Visibility automatically; that access costs another $99 a month for each of them."
+    }
+  ]
+}

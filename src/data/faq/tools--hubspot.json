@@ -1,0 +1,33 @@
+{
+  "page": "tools/hubspot",
+  "items": [
+    {
+      "q": "Is HubSpot worth it for a small business?",
+      "a": "It depends on what a business needs from the CRM record, not just the sticker price. HubSpot's free tools cover 2 users and 1,000 contacts with no credit card required, and Marketing Hub Starter removes HubSpot's branding and raises the automation ceiling for $20 a seat a month, still with no onboarding fee and no minimum term. The math changes once a business needs more than 10 automated actions or marketing text messages: that forces Marketing Hub Professional, which starts at $890 a month paid monthly (or $800 billed annually) and adds a mandatory $3,000 onboarding fee plus a 12-month commitment. For a small business that fits inside Starter's limits, HubSpot is worth it. For one that needs Professional's features right away, budget for the onboarding fee and the year-long term before deciding, not just the monthly number."
+    },
+    {
+      "q": "Is HubSpot too complicated to set up without a dedicated marketing team?",
+      "a": "Setting up the free tools or Marketing Hub Starter is self-serve: HubSpot doesn't charge a fee or require a sales call for either tier, so a small team can sign up and start building forms, landing pages and email sends the same day. Marketing Hub Professional is different. HubSpot requires a one-time $3,000 Professional Onboarding fee, charged automatically the first time you buy the plan, for remote onboarding with a HubSpot specialist delivered within 90 days of purchase; Enterprise carries its own required $7,000 onboarding fee on the same basis. HubSpot's public pricing pages don't say whether that fee is ever reduced or waived, for example when a HubSpot Solutions Partner handles setup instead. Budget for a HubSpot specialist's help, not a plug-and-play rollout, once a team moves onto Professional or Enterprise."
+    },
+    {
+      "q": "How many people do you need before HubSpot's per-seat pricing pays off?",
+      "a": "HubSpot's per-seat pricing means the payoff depends on how many people actually need a login, not team size alone. Marketing Hub Starter charges $20 a seat a month with no seats bundled in for free, so a 1-person team pays $20 and a 5-person team pays for 5 full seats. Marketing Hub Professional includes 3 Core Seats in its base price, and extra seats cost $50 a month paid monthly, or $45 a month billed annually; Enterprise includes 5 seats, with extras at $75 a month. A team that only needs 1 or 2 people logged in rarely gets value from Professional's included seats and is usually better off staying on Starter until automation needs, not headcount, force the upgrade."
+    },
+    {
+      "q": "Can you downgrade from HubSpot Professional back to Starter if you overbuy?",
+      "a": "No. HubSpot's subscription terms say you cannot downgrade or cancel a plan during its current term, and prepaid fees aren't refunded, so buying Professional locks in its 12-month commitment even if Starter would have been enough. The same rule applies to marketing contacts: if the count crosses into a higher tier at any point, HubSpot bills that tier immediately, and marking contacts as non-marketing to bring the number back down only takes effect at the start of the next calendar month or at renewal, not right away. The practical fix is sizing the plan conservatively before buying, since HubSpot's own terms give no way to move back down mid-term once a team has moved up a tier."
+    },
+    {
+      "q": "What's the real difference between HubSpot's free CRM and Marketing Hub Starter?",
+      "a": "The free tools cap out at 2 users, 1,000 contacts and 2,000 marketing email sends a month, put HubSpot's branding on every send, and allow only 1 automated email action, with no marketing SMS available at all. Marketing Hub Starter removes the branding, raises email automation to 10 automated actions, and supports up to 50 active CRM segments, for $20 a seat a month. Both tiers share the same Smart CRM record, and neither includes marketing SMS, which HubSpot sells only as an add-on to Professional or Enterprise. The practical line is simple: stay on the free tools while testing with a tiny list, and move to Starter the moment branding, the 1,000-contact cap, or the single automated action starts limiting a real campaign."
+    },
+    {
+      "q": "Does HubSpot work for a business that needs SMS marketing?",
+      "a": "Only partly, and only in the U.S. HubSpot doesn't sell marketing SMS on the free tools or on Marketing Hub Starter at any size; the Marketing SMS add-on is available only with Professional or Enterprise, costs $75 a month for 1,000 message segments, and sends only from a U.S. 10DLC number to U.S. and Canadian phone numbers. Going over the included segments costs $15 a month per extra 1,000-segment pack, and unused segments don't roll over. That means a business that wants texting from day one has to buy a much bigger plan, onboarding fee included, just to unlock it, and a business outside the U.S. that needs native marketing SMS can't get it from HubSpot at all. Either case is a reason to look at a messaging-focused tool instead."
+    },
+    {
+      "q": "Is HubSpot a good fit for a marketing agency managing several clients?",
+      "a": "Reasonably well, which is why HubSpot lists agencies among the businesses it best fits. An agency's advantage is the shared Smart CRM record: client contacts, deals and marketing activity for sales, marketing and service all sit on one record instead of three disconnected tools. Marketing Hub Professional's included 3 Core Seats and up to 300 workflows across 10 teams suit an agency running several client accounts at once, though every Core Seat is priced at the highest edition owned across any hub, so mixing Professional Marketing with a higher Sales Hub tier raises marketing seat costs too. The mandatory $3,000 onboarding fee and 12-month commitment are real costs to build into a client retainer before signing, not absorb afterward."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "gohighlevel-vs-hubspot",
+  "a": "gohighlevel",
+  "b": "hubspot",
+  "layer": "run",
+  "dimensions": [
+    {
+      "label": "Cheapest way to start",
+      "a": "$97 a month (Starter); no free plan, only a 14-day trial",
+      "b": "$0 on the free tools (2 users, 1,000 contacts); $20 a seat a month on Starter",
+      "edge": "b"
+    },
+    {
+      "label": "How texting is sold",
+      "a": "Included on every plan, billed per segment plus a carrier fee as you send",
+      "b": "Not sold on the free tools or Starter; a $75-a-month add-on on Professional or Enterprise only, U.S. numbers only",
+      "edge": "a"
+    },
+    {
+      "label": "Onboarding fee",
+      "a": "None on any plan",
+      "b": "$3,000 one-time on Professional; $7,000 one-time on Enterprise, charged automatically on purchase",
+      "edge": "a"
+    },
+    {
+      "label": "Minimum contract",
+      "a": "Month-to-month on every plan; annual billing is optional",
+      "b": "Starter is month-to-month; Professional requires a 12-month commitment; Enterprise is annual only",
+      "edge": "a"
+    },
+    {
+      "label": "Users and contacts",
+      "a": "Unlimited users and unlimited contacts on every plan, including Starter",
+      "b": "Free tools cap at 2 users and 1,000 contacts; paid seats cost $20-$75 each and contacts bill in tiers that step up as the list grows",
+      "edge": "a"
+    },
+    {
+      "label": "Multi-client structure for agencies",
+      "a": "Built-in sub-accounts: 3 on Starter, unlimited on Unlimited and Agency Pro",
+      "b": "No sub-account system; each client would need its own separate subscription",
+      "edge": "a"
+    },
+    {
+      "label": "Website and funnel builder",
+      "a": "Website, funnel and landing-page builder included on every plan",
+      "b": "Landing pages included; no funnel builder",
+      "edge": "a"
+    },
+    {
+      "label": "One record across marketing, sales and service",
+      "a": "CRM and pipelines built in, but no separate sales or service hub",
+      "b": "Marketing, sales, service and content hubs all read and write the same Smart CRM record",
+      "edge": "b"
+    },
+    {
+      "label": "Pricing transparency",
+      "a": "Plan and add-on prices are public, but usage rates sit across many help-center articles that do not always agree with each other",
+      "b": "List prices, contact tiers, add-ons and limits published in one Product & Services Catalog, plus a public price calculator",
+      "edge": "b"
+    },
+    {
+      "label": "AI features",
+      "a": "Metered per token or per minute, or a flat $50 or $97 per-location AI Employee add-on",
+      "b": "HubSpot Credits included per tier; extra credits cost $0.01 each",
+      "edge": "tie"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "a",
+      "why": "GoHighLevel's sub-accounts let an agency run each client as its own workspace under one subscription, while HubSpot has no comparable sub-account system, so managing several clients on HubSpot would mean a separate subscription for each one."
+    },
+    {
+      "business": "course-creator",
+      "pick": "neither",
+      "why": "GoHighLevel's courses feature and HubSpot's content tools are both add-ons bolted onto a CRM, not a dedicated course platform, so a course creator is better served by a tool built around cohorts, lessons and student progress."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "neither",
+      "why": "Neither tool is an ecommerce platform; a Shopify store needs a shopping cart, product catalog and checkout, not a CRM or a marketing hub."
+    },
+    {
+      "business": "local-service",
+      "pick": "a",
+      "why": "GoHighLevel bundles a CRM, booking calendar, review requests and SMS follow-up that a clinic, contractor or salon runs every day in one flat-plus-usage bill, while HubSpot is built as marketing-and-sales software rather than a front-desk system for appointments and reviews."
+    },
+    {
+      "business": "freelancer",
+      "pick": "b",
+      "why": "A freelancer with a short contact list can run HubSpot's free tools at $0 with no usage wallet to fund, while GoHighLevel's cheapest plan starts at $97 a month for sub-account and phone-system features a solo operator will not use."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "b",
+      "why": "HubSpot's Marketing Hub fits a SaaS startup building a sales-and-marketing motion from scratch, with lead scoring and workflows suited to a product-led sales cycle that GoHighLevel's agency-first, sub-account design is not built around."
+    }
+  ]
+}

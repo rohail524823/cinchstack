@@ -1,0 +1,100 @@
+{
+  "id": "gohighlevel-vs-clickfunnels",
+  "a": "gohighlevel",
+  "b": "clickfunnels",
+  "layer": "sell",
+  "dimensions": [
+    {
+      "label": "What the entry plan includes",
+      "a": "Unlimited users and unlimited contacts on every plan, including the $97 Starter",
+      "b": "The $97 Launch plan caps out at 2 team-member seats and 10,000 contacts",
+      "edge": "a"
+    },
+    {
+      "label": "How the bill grows with usage",
+      "a": "The plan price never changes; texts, calls, email and most AI draw from a prepaid wallet that recharges itself automatically",
+      "b": "No usage meter inside your contact and email-send limits; going over the cap on Launch means upgrading to Scale at $197 or higher",
+      "edge": "tie"
+    },
+    {
+      "label": "Calling, texting and phone numbers",
+      "a": "Local and toll-free numbers, calls and SMS are built in on every plan, billed per use from the wallet",
+      "b": "No built-in phone numbers, calls or SMS sending",
+      "edge": "a"
+    },
+    {
+      "label": "Email sending limits",
+      "a": "Metered per email sent, with no monthly send cap on any plan",
+      "b": "A monthly send allowance by plan, from 50,000 on Launch up to 1,200,000 on Dominate",
+      "edge": "tie"
+    },
+    {
+      "label": "Percentage taken from each sale",
+      "a": "Not part of HighLevel's pricing model; no percent-of-sales fee is published on its pricing page",
+      "b": "None; ClickFunnels' pricing-page FAQ states it takes no percentage of sales",
+      "edge": "tie"
+    },
+    {
+      "label": "Online courses and community",
+      "a": "Courses and communities are included, but positioned as a secondary feature next to the CRM and phone system",
+      "b": "3 courses on Launch, rising to 20 on Dominate, with community included on every tier",
+      "edge": "b"
+    },
+    {
+      "label": "Running multiple client accounts",
+      "a": "Starter includes 3 sub-accounts; Unlimited ($297) and Agency Pro ($497) remove that cap and allow rebilling phone and email usage to clients",
+      "b": "Workspaces scale from 1 on Launch to 20 on Dominate; ClickFunnels publishes no client-rebilling or SaaS-resale feature",
+      "edge": "a"
+    },
+    {
+      "label": "Contract and billing flexibility",
+      "a": "Month-to-month on every plan; annual billing costs exactly 10 months' price",
+      "b": "Launch, Scale and Optimize can be billed monthly or annually; Dominate is sold annually only, at $5,997 a year",
+      "edge": "a"
+    },
+    {
+      "label": "Refunds and cancellation",
+      "a": "HighLevel's terms call all fees non-refundable, and a canceled account's data is deleted after 90 days",
+      "b": "A 30-day money-back guarantee applies, and plans can be changed at any time",
+      "edge": "b"
+    },
+    {
+      "label": "Free trial clarity",
+      "a": "A 14-day free trial is stated on the pricing page; whether a card is required upfront was not confirmed",
+      "b": "A trial button exists, but its length and card requirement are not stated on the current pricing or signup pages",
+      "edge": "a"
+    }
+  ],
+  "verdicts": [
+    {
+      "business": "agency",
+      "pick": "a",
+      "why": "An agency managing several client accounts gets sub-accounts, unlimited seats and at-cost or marked-up rebilling built for that job; ClickFunnels' workspaces are not paired with a rebilling or SaaS-resale feature."
+    },
+    {
+      "business": "course-creator",
+      "pick": "b",
+      "why": "ClickFunnels bundles courses, community and funnels into every tier; a course creator gets that without paying for a phone system and CRM they are unlikely to use."
+    },
+    {
+      "business": "shopify-store",
+      "pick": "neither",
+      "why": "Neither tool is a storefront platform; a Shopify-store owner already has checkout covered and should judge GoHighLevel or ClickFunnels only as an add-on for CRM, email or funnels, not as the store itself."
+    },
+    {
+      "business": "local-service",
+      "pick": "a",
+      "why": "A clinic, contractor or salon runs on booking, reviews and follow-up texts, which GoHighLevel bundles with its CRM; ClickFunnels has no built-in calling, texting or booking calendar."
+    },
+    {
+      "business": "freelancer",
+      "pick": "b",
+      "why": "A freelancer selling one offer needs a funnel and checkout, not a phone system and client sub-accounts; ClickFunnels' $97 Launch plan covers that without GoHighLevel's usage-metered wallet."
+    },
+    {
+      "business": "saas-startup",
+      "pick": "neither",
+      "why": "Neither platform is built for subscription-software sales; a SaaS startup needs product-led signup and billing tools that GoHighLevel's phone-first CRM and ClickFunnels' funnel-and-course platform were not designed to provide."
+    }
+  ]
+}

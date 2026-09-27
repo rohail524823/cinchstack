@@ -1,0 +1,33 @@
+{
+  "page": "tools/webflow",
+  "items": [
+    {
+      "q": "Is Webflow a good fit for a business with no in-house designer or developer?",
+      "a": "It can work, but expect a learning curve. Building a site in Webflow means working directly with layout, styling and a CMS, which suits someone comfortable thinking in page structure and content types, not just picking a template and swapping in a logo. A business with nobody in that role usually hires a freelancer or agency to build the site, then keeps a Content editor seat, $19 a month and available even on the free Starter Workspace, for whoever needs to update text, images or blog posts afterward. That split works because Webflow separates building a site from editing its content: the person who designed it does not have to be the person who keeps it current. A business that wants to both build and maintain the site itself, with nobody willing to learn the CMS, is usually better served by a simpler template-based builder instead."
+    },
+    {
+      "q": "Is Webflow good for running an online store?",
+      "a": "For a small catalog, yes; for a large one, it depends on the fee. Webflow's Ecommerce Standard plan, at $42 a month billed monthly or $29 billed yearly, covers up to 500 items but adds a 2% transaction fee on every sale on top of whatever Stripe or PayPal already charges. Ecommerce Plus, at $84 a month ($74 billed yearly), raises the item cap to 5,000 and removes that fee entirely. A store that expects to grow past 500 items, or that wants to avoid a per-sale fee without jumping straight to Plus's higher price, should compare Webflow's Ecommerce plans against Shopify, whose paid plans include unlimited products regardless of plan, though its own fee of 2% (Basic), 1% (Grow) or 0.6% (Advanced) still applies unless the store uses Shopify Payments."
+    },
+    {
+      "q": "How many people can work on a Webflow site before you have to pay for seats?",
+      "a": "More than you might expect. Every Workspace, even the free Starter one, already includes one Full seat for its owner, and Webflow allows up to 100 free Reviewer seats per Workspace for people who only need to view a site and leave comments, not edit it. The first person who needs to actually edit content or build pages is where paid seats start: a Limited seat, for Marketer or Content editor roles, costs $19 a month billed monthly or $15 billed yearly, and a Full seat, for Admin, Site admin or Designer roles, costs $45 a month billed monthly or $39 billed yearly. A small team of one owner and a couple of content editors can run entirely on the free Starter Workspace plus two Limited seats; it is only Full-seat roles like a second designer or admin that push the bill up faster."
+    },
+    {
+      "q": "Can an agency run several client sites from one Webflow account?",
+      "a": "Yes, and Webflow has Workspace plans built for exactly that. A Freelancer Workspace, at $24 a month billed monthly or $16 billed yearly, includes one free client seat per site so a client can review their own site without the freelancer paying for their seat. An Agency Workspace, at $42 a month billed monthly or $35 billed yearly, raises that to three free client seats per site and adds unlimited staging sites. Either way, each client's live site still needs its own Site plan, from $25 a month for Basic or $39 a month for Premium, because a Workspace pays for the account and its seats, not for publishing rights to a domain. An agency with ten client sites is really running ten separate Site plan subscriptions under one Workspace, and the Workspace plan mainly changes how many client seats and staging sites come free."
+    },
+    {
+      "q": "Does Webflow lock a business into an annual contract?",
+      "a": "Not by default. Site plans and self-serve Workspace plans, including Premium at $39 a month and every seat type, can be billed month-to-month with no contract, and switching between monthly and yearly billing is something the account can do itself. The one plan that does require a contract is the Team platform plan, at $2,500 a month, which is sold only on an annual term through Webflow's sales team rather than as a self-serve monthly option. Enterprise plans are also quote-based and typically involve a negotiated term. For nearly every agency, freelancer or SaaS marketing site on Site and Workspace plans, though, there is no contract at all: cancelling stops the next renewal, though it does not refund the time already paid for on the current term."
+    },
+    {
+      "q": "How hard is it to move a site off Webflow later?",
+      "a": "Harder than moving the content alone would suggest. Exporting a site's actual code requires a paid Workspace plan; the free Starter Workspace does not include that option. Once you have a paid plan, the CMS exports one Collection at a time rather than the whole site in one file, so a blog with several content types means several separate exports to reassemble elsewhere. Forms stop accepting new submissions once the domain no longer points at Webflow, so any lead-capture form needs a replacement lined up before the switch, not after. None of this makes leaving impossible, but it does mean budgeting real time for the export and rebuild rather than expecting an instant migration."
+    },
+    {
+      "q": "Does Webflow have built-in memberships or gated content?",
+      "a": "Not anymore. Webflow's help center confirms its native User Accounts feature, originally launched as Memberships, was sunset on 29 January 2026, after new sites lost the ability to enable it in early 2025. Its Logic feature, a no-code automation and workflow tool, went the same way and was fully disabled on 27 June 2025. Webflow's own updates page frames both changes as a shift toward outside integrations, pointing customers who need gated content toward third-party tools such as Memberstack or Outseta, and Logic users toward Zapier or Make, rather than promising a native replacement. A business that specifically wants a login-gated course area, a paid community, or in-app automation built into the site tool itself should plan on adding one of those separate tools from the start, not assume Webflow still does this alone."
+    }
+  ]
+}

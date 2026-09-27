@@ -1,0 +1,33 @@
+{
+  "page": "tools/gohighlevel",
+  "items": [
+    {
+      "q": "Is GoHighLevel a good fit for a business that is not an agency?",
+      "a": "Yes, for a single business, though the platform is not built with that buyer foremost in mind. GoHighLevel's Starter plan costs $97 a month and includes unlimited users and unlimited contacts, plus up to three sub-accounts, HighLevel's term for a separate business or client workspace. HighLevel's own plan description calls Starter suitable for \"a single business owner or a new agency,\" so three sub-accounts is enough for one company plus a couple of side projects. What does not change for a single business is the rest of the platform: rebilling settings, agency-branded terminology and client-management features built into every tier exist whether you use them or not. A single business gets the same CRM, funnel builder, calendars and automation an agency gets on the same plan; it just will not touch the multi-client tools bundled alongside them."
+    },
+    {
+      "q": "Does GoHighLevel replace a website builder?",
+      "a": "Partially. GoHighLevel includes its own drag-and-drop website and funnel builder with hosting, so a business can run its whole online presence from inside the platform without a separate site tool. The builder is oriented around funnels, landing pages and booking forms that feed straight into GoHighLevel's CRM and calendars, rather than a content-first marketing site meant to carry a large blog or many standalone pages. A business whose funnels exist to capture leads and book appointments can reasonably build its entire front end in GoHighLevel. A business whose website is really a content or SEO effort, with many articles and pages to maintain over time, may still want a dedicated site tool running alongside GoHighLevel, using GoHighLevel mainly for the CRM, forms and follow-up automation instead."
+    },
+    {
+      "q": "Can I white-label GoHighLevel and resell it under my own brand?",
+      "a": "Yes, but only on GoHighLevel's top published plan. Agency Pro, at $497 a month, is the only tier with SaaS mode, which lets you rebrand the platform, set your own prices for sub-accounts and mark up the phone, email and AI usage you resell to clients instead of passing it through at cost. The Unlimited plan, at $297 a month, also lets you rebill usage to clients, but only at cost: HighLevel defaults that markup to 1.05x, just enough to cover its own payment-processing fees, with no allowance for profit. Starter, at $97 a month, cannot rebill any usage to sub-accounts at all. A branded mobile app on top of any plan is a separate purchase: HighLevel sells a white-label mobile app add-on at $497 a month, charged in addition to whichever subscription tier you are on."
+    },
+    {
+      "q": "How many sub-accounts do I get with GoHighLevel?",
+      "a": "It depends on the plan. Starter, at $97 a month, includes up to three sub-accounts, HighLevel's term for a separate business or client workspace; that ceiling is fixed regardless of how many users or contacts you add, since both of those are unlimited on every plan. Moving to Unlimited, at $297 a month, removes the sub-account cap entirely, which is the plan HighLevel markets as built for growing agencies. Agency Pro, at $497 a month, keeps unlimited sub-accounts and adds SaaS mode on top. A single business rarely needs more than Starter's three, since one company plus a couple of side brands fits inside that limit; an agency signing up more client accounts than that needs Unlimited or Agency Pro instead."
+    },
+    {
+      "q": "How long does GoHighLevel take to set up, and can I pay for help?",
+      "a": "GoHighLevel does not publish a typical setup time on its pricing page. What it does sell is an optional one-time service called Advanced Account Setup, priced at $1,000, described as done-with-you help getting a location's funnels, automations and sub-accounts running; HighLevel's pricing page states plainly that this service is optional and not required to use the platform. Every plan also includes a 14-day free trial on whichever tier you choose, Starter, Unlimited or Agency Pro, with full access to that tier's features, which gives a new account time to build out its own setup before paying anything beyond the trial. Beyond the trial length and the paid setup service, HighLevel's pricing page does not state how long a typical business takes to get a location fully configured."
+    },
+    {
+      "q": "Can I use my own phone number provider or email sender instead of GoHighLevel's built-in system?",
+      "a": "Yes. GoHighLevel's own built-in tools are not the only option for phone and email. HighLevel's billing documentation confirms you can connect your own SMTP provider instead of using its built-in LC Email system, and you can switch an individual location from HighLevel's built-in LC Phone system to your own Twilio account instead. Doing either one moves that piece of billing outside HighLevel's usage wallet and onto whatever your SMTP provider or Twilio itself charges, which is not tracked in GoHighLevel's own pricing data. This matters most for a business that already pays for Twilio or a dedicated email-sending service and does not want to duplicate that cost inside GoHighLevel's per-message rates for LC Email and LC Phone."
+    },
+    {
+      "q": "How is GoHighLevel different from a plain CRM like Pipedrive?",
+      "a": "GoHighLevel and Pipedrive both sit in the CRM category, but they are built for different jobs. GoHighLevel bundles a CRM with a funnel and website builder, calendars, email and SMS campaigns, workflow automation, reviews, courses and communities, starting at $97 a month with unlimited users and contacts, plus metered charges for texting, calling and email. Pipedrive is a sales-pipeline CRM only: no funnel builder, no phone system and no bundled courses or communities, priced per seat across its plans rather than by sub-accounts. A team that wants to track deals through a pipeline without building funnels or running its own texting and calling generally finds a plain sales CRM like Pipedrive simpler to price and to learn than GoHighLevel's wider bundle. A team that wants funnels, messaging and automation together in one login is the case GoHighLevel is built for."
+    }
+  ]
+}

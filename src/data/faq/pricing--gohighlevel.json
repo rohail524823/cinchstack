@@ -1,0 +1,33 @@
+{
+  "page": "pricing/gohighlevel",
+  "items": [
+    {
+      "q": "How much does GoHighLevel cost per month?",
+      "a": "GoHighLevel has three published plans: Starter at $97 a month, Unlimited at $297 a month and Agency Pro at $497 a month, plus a custom-quote Enterprise tier for large operations. Every plan includes unlimited users and unlimited contacts, so what changes between tiers is the number of sub-accounts you get and whether you can rebill usage charges to clients, not seats or contact caps. The published price is only the subscription, though: texting, calling, most AI features and email sending are metered separately from a prepaid wallet and billed on top. Because of that, the number people actually pay varies with how much they text, call and email, which is why GoHighLevel's own pricing page shows no single \"real\" total, and why we calculate one from typical usage for a solo operator, a small team and a growing team above."
+    },
+    {
+      "q": "Does GoHighLevel charge extra for texting and calling?",
+      "a": "Yes. GoHighLevel's plan price does not include texting or calling; both are billed by usage from a prepaid wallet. Texts cost $0.00747 per segment, whether you send them or receive them, plus a carrier fee of roughly $0.0045 that varies by the recipient's network. Texting any U.S. number also requires A2P 10DLC registration, a one-time $22.50 fee, plus a monthly campaign fee that starts at $1.50 for light senders. Calls cost $0.0166 a minute outbound and about $0.0117 a minute inbound, and GoHighLevel adds a $0.0018-per-minute conference charge to every outgoing call, not only transfers, because it routes calls as conferences. None of these charges are optional add-ons you can decline; if a location uses HighLevel's built-in phone or texting, the wallet is billed automatically and must stay funded through auto-recharge."
+    },
+    {
+      "q": "Does GoHighLevel offer a free trial or a free plan?",
+      "a": "GoHighLevel has no free plan; every account starts on a paid plan after a 14-day free trial of whichever tier you pick, Starter, Unlimited or Agency Pro, with full access to that tier's features. GoHighLevel's pricing page states that billing begins automatically when the trial ends unless you cancel first, and that usage-based fees for texting, calling or other third-party services can be charged even during the trial. Whether the signup form asks for a card before the trial starts is not stated plainly on the pricing page. Once the trial ends, the cheapest way to keep using GoHighLevel is the $97-a-month Starter plan; there is no ongoing free tier to fall back to the way some competitors offer."
+    },
+    {
+      "q": "How much does GoHighLevel's AI Employee cost?",
+      "a": "GoHighLevel sells AI as a per-location add-on called AI Employee. The Growth tier costs $50 per sub-account a month and includes 1,000 Conversation AI responses and 100 Voice AI minutes, with unlimited Reviews AI and Content AI; go over those limits and the overage bills at GoHighLevel's normal pay-per-use rates. The Unlimited tier costs $97 per sub-account a month and covers Conversation AI, Voice AI, Reviews AI and Content AI without a stated cap, subject to fair use. Skip AI Employee entirely and GoHighLevel still charges for AI by usage: Conversation AI on GPT-5 costs $1.25 per million input tokens and $10.00 per million output tokens, and Voice AI's engine costs $0.045 a minute before text-to-speech and phone charges. Either way, GoHighLevel's Phone System call charges still apply on top of any AI voice minutes."
+    },
+    {
+      "q": "Is GoHighLevel cheaper if you pay yearly?",
+      "a": "Paying yearly saves on the subscription only. GoHighLevel's annual billing charges ten months' price for twelve months of service: Starter falls to $970 for the year instead of paying $97 monthly, Unlimited falls to $2,970 for the year instead of $297 monthly, and Agency Pro falls to $4,970 for the year instead of $497 monthly. That discount applies to the plan alone. Texting, calling, email and AI usage are still billed from the same prepaid wallet at the same per-unit rates whether you pay monthly or yearly, so a business with heavy usage saves a smaller share of its total bill than the subscription discount alone suggests. The trade-off is flexibility: a month-to-month plan can be canceled from the dashboard at any time, but moving an existing annual plan back to monthly requires contacting GoHighLevel directly rather than doing it yourself."
+    },
+    {
+      "q": "Can you get a refund if you cancel GoHighLevel?",
+      "a": "No. GoHighLevel's Terms of Service state that all fees are non-refundable, which covers the monthly or annual subscription, communication surcharges and any third-party services resold through the platform. Canceling stops future billing but does not return money already paid, and GoHighLevel deletes a canceled account's data after 90 days. If you want to stop paying but keep your data intact, GoHighLevel's billing FAQ mentions a $27-a-month Pause Plan as an alternative to canceling outright, though the same FAQ also says agency accounts are not eligible to pause. Money left in your usage wallet is not refunded either: under the Terms, any unclaimed wallet balance is forfeited to GoHighLevel 30 days after cancellation, and free promotional credits expire after 90 days regardless of whether you cancel."
+    },
+    {
+      "q": "What is the difference between GoHighLevel's Starter and Unlimited plans?",
+      "a": "Starter and Unlimited both include unlimited users and unlimited contacts, so seats and contact counts are not the difference. Starter, at $97 a month, caps you at three sub-accounts, HighLevel's term for a separate client or location workspace, and cannot rebill any texting, calling, email or AI usage to clients; you absorb those costs yourself. Unlimited, at $297 a month, removes the sub-account cap and lets you rebill usage to clients, though only at cost, since HighLevel defaults the rebilling markup to 1.05x, just enough to cover its own payment-processing fees. Unlimited also unlocks eligibility for a dedicated sending IP, which Starter cannot buy at any price. Neither plan includes GoHighLevel's SaaS mode or the ability to mark up rebilled usage for profit; those require the $497-a-month Agency Pro plan instead."
+    }
+  ]
+}
