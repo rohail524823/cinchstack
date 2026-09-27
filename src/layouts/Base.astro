@@ -1,6 +1,6 @@
 ---
 import '../styles/site.css';
-import { SITE, NAME, TAGLINE, NAV, IMPACT_VERIFICATION } from '../lib/site.mjs';
+import { SITE, NAME, TAGLINE, NAV, IMPACT_VERIFICATION, GA_ID, GOOGLE_VERIFICATION, BING_VERIFICATION } from '../lib/site.mjs';
 import { orgNodes, websiteNode, graph } from '../lib/jsonld.mjs';
 
 interface Props {
@@ -29,6 +29,8 @@ const current = (href) => (path === href || (href !== '/' && path.startsWith(hre
 <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'}>
 <meta name="theme-color" content="#F4F1EA">
 <meta name='impact-site-verification' value={IMPACT_VERIFICATION}>
+{GOOGLE_VERIFICATION && <meta name="google-site-verification" content={GOOGLE_VERIFICATION}>}
+{BING_VERIFICATION && <meta name="msvalidate.01" content={BING_VERIFICATION}>}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
@@ -48,6 +50,7 @@ const current = (href) => (path === href || (href !== '/' && path.startsWith(hre
 <meta name="twitter:title" content={title}>
 <meta name="twitter:description" content={description}>
 <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+{GA_ID && <script is:inline src="/site.js" data-ga={GA_ID} defer></script>}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -96,6 +99,7 @@ const current = (href) => (path === href || (href !== '/' && path.startsWith(hre
         <ul>
           <li><a href="/privacy/">Privacy</a></li>
           <li><a href="/terms/">Terms</a></li>
+          {GA_ID && <li><a href="/privacy/#analytics">Analytics choices</a></li>}
         </ul>
       </div>
     </div>

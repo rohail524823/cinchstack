@@ -1,0 +1,29 @@
+{
+  "page": "pricing/wix",
+  "items": [
+    {
+      "q": "How much does Wix cost per month?",
+      "a": "Wix's cheapest paid tier, Light, is listed at $17 a month, and Core, the first tier with online payments and ecommerce, is listed at $29 a month — but both of those are the annual, paid-in-full rate, not a true month-to-month price. Wix does not publish a real monthly rate for Light, Core, Business ($39 a month) or Business Elite ($159 a month) on any public page. Its own Help Center says the exact price for monthly billing appears only on the purchase page, after you have logged in and chosen a plan. The Free plan remains $0 with no time limit, but it publishes to a Wix subdomain and has no custom domain. If knowing the true monthly rate before you commit matters to you, that is worth checking on Wix's site directly before you sign up for anything, since no static page anywhere shows it."
+    },
+    {
+      "q": "Can I pay for Wix monthly instead of billing annually?",
+      "a": "Yes — Wix's Help Center confirms it sells monthly Premium subscriptions alongside its annual ones, on every paid tier from Light up to Business Elite. The catch is that the monthly rate is never shown on wix.com/plans itself; you only see it after logging into your account, selecting a plan, and choosing Monthly instead of Yearly at checkout. Monthly billing also costs more in practice than the numbers on the pricing page suggest, because it skips two perks that annual billing includes: the free domain for the first year, and any bundled premium apps that come with a yearly plan. Wix also sells 2-year and 3-year Premium subscriptions the same way, quoted only at checkout. If avoiding a large upfront charge matters more than those perks, monthly billing is real and available; just expect to see its price for the first time during checkout, not before."
+    },
+    {
+      "q": "Does Wix have a free plan?",
+      "a": "Yes. Wix's Free plan costs $0, has no stated time limit, and needs no credit card to start — you get reliable hosting, the drag-and-drop editor, and access to Wix's template library indefinitely. The catch is what it doesn't include: a free-plan site publishes only to a Wix subdomain, keeps Wix's own branding visible on every page, and has no online payments, customer accounts, or ecommerce tools of any kind. Wix's free plan is also left out of its own detailed plan-comparison table, which covers only the four paid tiers. It works well for previewing the editor or building a personal site with nothing at stake, but any business that wants its own domain name needs to upgrade to at least Light, Wix's cheapest paid tier at $17 a month billed annually, and businesses that want to accept payments need Core instead."
+    },
+    {
+      "q": "Does Wix offer a free trial of a paid plan?",
+      "a": "No. Wix's Help Center states this directly: it does not offer a free trial for Premium plans. What it offers instead is a 14-day money-back guarantee on a new Premium purchase, so you can get a refund if the plan turns out to be wrong within that window. The indefinite Free plan, which costs $0 and needs no credit card, fills the try-before-you-buy role for the editor itself — you can build and preview a full site on it before ever paying anything, just without a custom domain, online payments, or ecommerce. That combination means the practical way to evaluate Wix without risk is building on the Free plan first, then upgrading only once you are ready to commit to a paid tier and its annual, paid-in-full price, since a paid plan itself carries no separate trial period of its own."
+    },
+    {
+      "q": "Does Wix charge a fee when I sell something?",
+      "a": "It depends on what you're selling. Ordinary one-time product and service sales through Wix's 'Accept payments' and eCommerce tools carry no separate Wix commission beyond Wix Payments' own card-processing rate, which is 2.9% plus 30 cents a transaction for domestic US cards. Recurring billing is different: Wix's 'Pricing Plans' feature, used for subscriptions and memberships, charges its own service fee on top of that card rate — 4% of each charge on Core, 2% on Business, and 0% on Business Elite. Light doesn't offer Pricing Plans at all, so that fee never applies there. A chargeback costs $15 on top of losing the sale, and more when the disputed payment came through PayPal. None of these fees appear as a single line on Wix's main pricing page; they're documented separately in Wix's Help Center article on Wix Payments service fees."
+    },
+    {
+      "q": "What does Wix cost for an agency running several client sites?",
+      "a": "More than a single bill, because Wix prices and caps every site on its own. There's no multi-site plan or shared collaborator pool anywhere on wix.com/plans: an agency running, say, ten client sites pays for ten separate subscriptions, each on its own plan and its own login, and each with its own collaborator cap — 2 on Light, 5 on Core, 10 on Business, or 100 on Business Elite. A single designer who works across several of those sites has to be added as a collaborator on each site individually, and still counts against that site's own cap every time. For a freelancer or local-service business running one site, none of this matters. For an agency, it means the total bill scales with every new client site added, with no volume discount published anywhere for owning more than one."
+    }
+  ]
+}

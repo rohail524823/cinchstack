@@ -1,0 +1,33 @@
+{
+  "page": "pricing/se-ranking",
+  "items": [
+    {
+      "q": "How much does SE Ranking cost per month?",
+      "a": "SE Ranking sells two self-serve plans. Core costs $129 a month for one manager seat, 10 projects and 2,000 keywords tracked daily, or $103.20 a month if billed annually. Growth costs $279 a month for three seats, 30 projects and 5,000 keywords tracked daily, or $223.20 a month billed annually. Both plans already include AI Overviews, AI Mode, ChatGPT and Perplexity tracking and MCP access, so neither charges extra for AI-search visibility on top of the base price. A third tier, Enterprise, has no published price at all; SE Ranking's pricing page describes it only as 'custom limits and pricing' negotiated directly with its sales team. There is no free-forever plan, only a 14-day trial. Adding a second person to either Core or Growth beyond what's included raises the bill by $20 a month per extra seat."
+    },
+    {
+      "q": "Does SE Ranking have a free trial or a free plan?",
+      "a": "SE Ranking has no permanent free plan; it offers a 14-day free trial instead, and no credit card is required to start it. The trial runs at higher limits than the entry Core plan: 10 projects, 3 manager seats, 750 keywords tracked daily, 20 AI prompts tracked daily, AI competitive research across 3 domains and 50,000 data-export rows, plus access to the Agency Pack and the AI Search add-on for the full 14 days. Two things stay off-limits during the trial: buying extra seats, keywords or locations, and MCP access. After the 14 days, continuing requires subscribing to Core, Growth or Enterprise; anyone who used more than one seat during the trial should expect to pay $20 a month per extra seat to keep that access on Core, since Core itself includes only one manager seat."
+    },
+    {
+      "q": "How much does an extra seat cost on SE Ranking?",
+      "a": "An extra manager seat costs $20 a month per user on either Core or Growth, once a team goes past the seats each plan already includes: one seat on Core, three on Growth. SE Ranking's Users FAQ states this $20-a-month figure directly, and its separate User seats help article confirms the same amount. Confusingly, the pricing page's own 'Compare plans' table lists a lower starting price for extra seats than the FAQ does, unchanged whether the page's monthly or annual toggle is selected; this page uses the FAQ's plain $20 statement rather than the table's unclear figure, since the table never says what plan or billing term its number assumes. Whether the $20 seat price itself drops under annual billing, the way Core and Growth's own prices do, is not stated anywhere SE Ranking publishes."
+    },
+    {
+      "q": "Is it worth paying for SE Ranking annually?",
+      "a": "Usually yes if the budget can absorb one larger charge instead of steady monthly ones. Annual billing cuts Core's effective price to $103.20 a month, down from $129, and Growth's to $223.20 a month, down from $279 — a flat 20% discount on both plans, charged upfront for the full year rather than in 12 smaller payments. SE Ranking's FAQ says there is no way to spread that annual price into monthly installments except through a quarterly-payment schedule arranged directly with sales. The discount doesn't reach everything, though: the Agency Pack and the API add-on are sold on annual billing only, so a monthly Core or Growth subscriber cannot add either one without switching the whole subscription to annual first. Paying annually also unlocks free assisted migration from another SEO platform, a perk monthly subscribers don't get."
+    },
+    {
+      "q": "What happens if you cancel SE Ranking or let it lapse?",
+      "a": "SE Ranking can be cancelled at any time, and payments already made are non-refundable except when the service wasn't delivered as promised or a specific promotion says otherwise. Cancelling stops future billing, but there's a firmer deadline behind it: if a subscription isn't renewed within 60 days of expiring, SE Ranking deletes the account's data outright, not just the ability to log in. That's a shorter grace period than a simple 'cancel anytime' policy suggests, and it applies whether the account was on Core at $129 a month or Growth at $279 a month. Purchased add-ons like extra tracked keywords run on their own separate billing cycle from the main Core or Growth subscription, so cancelling the main plan doesn't automatically stop those charges too; each needs cancelling on its own schedule."
+    },
+    {
+      "q": "Can you track more keywords than SE Ranking's Core plan includes?",
+      "a": "Yes, in two ways. Core includes 2,000 keywords tracked daily by default; going past that means either buying an extra-keywords add-on starting at $22.40 a month for the smallest block (100 more keywords a day) or moving up to Growth, which includes 5,000 keywords tracked daily for $279 a month. Growth has its own extra-keywords add-on too, starting at $32 a month for its smallest block of 500 more keywords a day. SE Ranking's pricing page lists both add-on prices as 'starting from' and doesn't publish a price for larger keyword blocks on either plan, so a team with a much bigger keyword list should ask sales directly rather than assume the smallest block's price scales up in a simple multiple. Purchased extra keywords bill on a separate cycle from the main Core or Growth subscription."
+    },
+    {
+      "q": "Does SE Ranking's Enterprise plan have a published price?",
+      "a": "No. SE Ranking's pricing page lists Enterprise alongside Core and Growth but shows no monthly price, no seat count and no keyword allowance for it — only the phrase 'custom limits and pricing,' negotiated through a sales conversation rather than a self-serve checkout. SE Ranking's Help Center mentions default seat and keyword-purchase figures for Enterprise in articles that group it together with Core and Growth, but since the pricing page itself never confirms those figures, this page treats them as unconfirmed rather than stating a specific number for Enterprise. Anyone comparing Enterprise against Core's $129 a month or Growth's $279 a month should treat those two self-serve prices as the only numbers SE Ranking actually publishes, and expect Enterprise's real cost to depend on what gets negotiated rather than a list price."
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseHTML } from 'linkedom';
 import { loadData, knownFigures, normFig, BANNED } from './lib/figures.mjs';
+import { GA_ID } from '../src/lib/site.mjs';
 
 const DIST = 'dist';
 const SITE = 'https://cinchstack.com';
@@ -184,7 +185,13 @@ for (const [p, { doc, html, noindex }] of pages) {
   // 15. CSS budget + no JS
   const css = [...doc.querySelectorAll('style')].reduce((a, s) => a + s.textContent.length, 0);
   if (css > 30000) fail(p, `inline CSS ${css} bytes (max 30000)`);
-  for (const s of doc.querySelectorAll('script')) if (s.getAttribute('type') !== 'application/ld+json') fail(p, 'page ships JavaScript');
+  // The only script allowed is the analytics loader, and only while GA_ID switches analytics on.
+  for (const s of doc.querySelectorAll('script')) {
+    if (s.getAttribute('type') === 'application/ld+json') continue;
+    const ok = GA_ID && s.getAttribute('src') === '/site.js' && s.getAttribute('data-ga') === GA_ID && s.hasAttribute('defer') && !s.textContent.trim();
+    if (!ok) fail(p, 'page ships JavaScript other than the analytics loader');
+  }
+  if (GA_ID && !doc.querySelector('script[src="/site.js"]')) fail(p, 'analytics is on but this page does not load /site.js');
   // 16. duplicate sentences across pages (editorial text only)
   for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a]')) {
     for (const s of text(el).split(/(?<=[.!?])\s+/)) {
@@ -242,6 +249,19 @@ for (const l of locs) {
   if (!depth.has(l)) fail(l, 'not reachable from the homepage (orphan)');
   else if (depth.get(l) > 3) fail(l, `crawl depth ${depth.get(l)} (max 3)`);
 }
+
+// The Content-Security-Policy must match the analytics switch: no scripts at all while GA_ID is
+// empty, and exactly our loader plus Google's tag and collection hosts while it is set.
+const toml = fs.readFileSync('netlify.toml', 'utf8');
+const csp = toml.match(/Content-Security-Policy = "([^"]+)"/)?.[1] ?? '';
+const dir = (name) => csp.split(';').map((x) => x.trim().split(/\s+/)).find((x) => x[0] === name)?.slice(1) ?? [];
+if (!csp) fail('netlify.toml', 'no Content-Security-Policy header');
+else if (GA_ID) {
+  const need = { 'script-src': ["'self'", 'https://*.googletagmanager.com'], 'connect-src': ['https://*.google-analytics.com', 'https://*.analytics.google.com', 'https://*.googletagmanager.com'], 'img-src': ['https://*.google-analytics.com', 'https://*.googletagmanager.com'] };
+  for (const [d, vals] of Object.entries(need)) for (const v of vals) if (!dir(d).includes(v)) fail('netlify.toml', `analytics is on but the CSP ${d} lacks ${v}`);
+  if (dir('script-src').some((v) => /unsafe/.test(v))) fail('netlify.toml', 'the CSP script-src must not allow unsafe scripts');
+  if (!fs.existsSync(path.join(DIST, 'site.js'))) fail('/site.js', 'analytics is on but the loader was not built');
+} else if (dir('script-src').join(' ') !== "'none'") fail('netlify.toml', "analytics is off, so the CSP script-src must be 'none'");
 
 // robots + llms
 const robots = fs.existsSync(path.join(DIST, 'robots.txt')) ? fs.readFileSync(path.join(DIST, 'robots.txt'), 'utf8') : '';

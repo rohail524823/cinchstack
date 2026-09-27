@@ -15,6 +15,7 @@ import Mandated from '../components/trust/Mandated.astro';
 import ContactForm from '../components/trust/ContactForm.astro';
 import Factors from '../components/trust/Factors.astro';
 import Coverage from '../components/trust/Coverage.astro';
+import Analytics from '../components/trust/Analytics.astro';
 
 export async function getStaticPaths() {
   const reg = await registry();
@@ -38,7 +39,7 @@ if (slug === 'about') {
   // The author page: a ProfilePage whose main entity is the Person node already in the graph.
   extra.push({ '@type': 'ProfilePage', '@id': `${url}#profile`, url, name: `${AUTHOR.name}, ${AUTHOR.jobTitle} of CinchStack`, mainEntity: { '@id': AUTHOR_ID }, dateCreated: d.published, dateModified: d.modified });
 }
-const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage };
+const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage, Analytics };
 ---
 <Base title={e.data.title} description={e.data.description} path={path} noindex={NOINDEX.has(slug)} ogType="website" jsonld={[breadcrumbNode(url, crumbs), page, ...extra]}>
   <div class="wrap page">

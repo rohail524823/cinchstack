@@ -1,0 +1,21 @@
+---
+// The privacy notice's analytics section. It describes whatever the site is actually running,
+// because GA_ID is the same switch that ships the script (see src/lib/site.mjs and public/site.js).
+import { GA_ID } from '../../lib/site.mjs';
+---
+{GA_ID ? (
+  <>
+    <p>We use Google Analytics 4 to count visits, see which pages are read and see which links to vendors are clicked, so we know which pages are useful. It is set up without advertising features: Google signals and ad personalization are off, and it is not linked to any advertising account. Google processes this data for us; <a href="https://policies.google.com/privacy">Google's privacy policy</a> explains how.</p>
+    <p>Whether it runs depends on where you are and what you choose:</p>
+    <ul>
+      <li>If your device's time zone is in the European Economic Area, the UK or Switzerland, or we cannot tell, Google Analytics does not load and sets no cookies unless you choose Allow, on the notice at the bottom of the page or with the switch below.</li>
+      <li>Everywhere else it loads by default, and you can turn it off below at any time.</li>
+      <li>If your browser sends a Global Privacy Control signal, it never loads.</li>
+      <li>With JavaScript turned off, nothing is measured.</li>
+    </ul>
+    <p>When it runs, it sets two first-party cookies, named <code>_ga</code> and <code>_ga_</code> followed by our property code, which expire after 13 months at most. Google says Analytics 4 does not store IP addresses, and we keep event data for 14 months. Your choice is saved in your browser's local storage, not in a cookie, and is never sent to us.</p>
+    <div id="analytics-choice" class="callout"><p>Google Analytics needs JavaScript. With JavaScript off, as it is now, nothing is measured and no cookies are set.</p></div>
+  </>
+) : (
+  <p>CinchStack runs no analytics or tracking scripts, and sets no cookies of its own: the site ships no JavaScript at all.</p>
+)}

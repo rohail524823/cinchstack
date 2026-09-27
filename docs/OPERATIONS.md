@@ -39,6 +39,25 @@ The "Report a wrong price" form uses Netlify Forms, which needs one setting:
 2. Click **Enable form detection**, then trigger a redeploy (Deploys → Trigger deploy).
 3. Submissions appear under **Forms → contact**. Add a form notification there to get each message by email.
 
+### 5. Analytics
+
+One line controls it: `GA_ID` in `src/lib/site.mjs`.
+
+- **Empty** (off): no script ships, and the `Content-Security-Policy` in `netlify.toml` must keep `script-src 'none'`.
+- **Set to your `G-…` Measurement ID** (on): every page loads `/site.js` (the only script on the site), and the policy must allow Google's tag: `script-src 'self' https://*.googletagmanager.com`, plus the `connect-src` and `img-src` hosts listed in `scripts/check.mjs`.
+
+The build fails if the two disagree, so analytics can't be half on.
+
+What `/site.js` does, as the privacy notice explains to readers:
+
+- Visitors whose device time zone is in the EEA, the UK or Switzerland (or can't be read) see a notice, and nothing loads until they choose Allow.
+- Everyone else is measured by default and can turn it off at `/privacy/#analytics`.
+- A browser that sends Global Privacy Control is never measured.
+- Google signals and ad personalization are off, and cookies expire after 13 months at most.
+- Clicks on vendor buttons are sent as `affiliate_click` (paid links) or `outbound_plain` (plain links), each with `tool`, `placement` and `page`.
+
+In GA4, register `tool`, `placement` and `page` as event-scoped custom dimensions so the reports can show them. Mark `affiliate_click` as a key event.
+
 ## Jobs that run by themselves
 
 | Job | When | What it does |
@@ -59,6 +78,14 @@ When the weekly check opens an issue, or a reader reports a wrong price:
 4. Run `npm run validate` and `npm run build`. The build fails if any prose still quotes the old price, so you will see every page that needs a word changed.
 
 The easiest way to do all of this is to paste the issue into Claude Code and ask it to follow this section.
+
+### Dated claims to revisit
+
+Some pages quote a price that a vendor has already said will change on a set date. The weekly check can't catch these, because the old figure stays on the vendor's page. Reword them once the date passes:
+
+| After | Page | What changes |
+|---|---|---|
+| 30 Sep 2026 | `/tools/kajabi/pricing/` | Kajabi's Expert Agent introductory rate ($49 per agent a month) ends; new agents pay the $79 standard rate. |
 
 ## Adding a tool or a page
 

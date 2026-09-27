@@ -26,3 +26,10 @@ export const NAV = [
 
 // Impact.com site verification (keeps cinchstack.com verified as a media property).
 export const IMPACT_VERIFICATION = '1f064047-59ad-4a26-8476-b437d20647a3';
+
+// Google Analytics 4 measurement ID ("G-…"). Empty keeps analytics off: no script ships and the
+// Content-Security-Policy in netlify.toml must keep script-src 'none'. The build checks both agree.
+export const GA_ID = '';
+// Search engine verification tags. Only needed when a property is not verified through DNS.
+export const GOOGLE_VERIFICATION = '';
+export const BING_VERIFICATION = '';

@@ -1,0 +1,33 @@
+{
+  "page": "pricing/clickfunnels",
+  "items": [
+    {
+      "q": "How much does ClickFunnels cost per month?",
+      "a": "ClickFunnels sells four plans. Launch costs $97 a month, Scale $197, and Optimize $297, and each of those three can also be billed annually at $81, $164 or $248 a month. The fourth plan, Dominate, is sold annually only, at $5,997 a year (about $500 a month), and disappears entirely from the pricing page once you switch to the \"Monthly Plans\" toggle. ClickFunnels takes 0% of a seller's sales on every plan; the only cost beyond the subscription is ordinary card processing. The four tiers differ mainly by workspace count (1/5/10/20), team-member seats (2/5/10/20) and contact limits (10,000/75,000/150,000/400,000), not by which core features you get: funnels, a store, courses, community and email tools are bundled into Launch just as they are into Dominate."
+    },
+    {
+      "q": "Does ClickFunnels take a percentage of my sales?",
+      "a": "No. ClickFunnels' own pricing-page FAQ asks this directly and answers, \"No. You'll keep every penny you make,\" and that applies to Launch, Scale, Optimize and Dominate alike. The subscription price is the only fixed cost tied to the platform itself. Selling still costs something: card payments run through Stripe or ClickFunnels' own Payments AI gateway, and both charge the same base rate, 2.9% plus 30 cents per transaction, with no ClickFunnels markup added on top. A few optional extras can stack on that base rate, such as Stripe's separate Billing, Invoicing and Tax add-ons, or Payments AI's bundled version of the same three, but those come from the processor, not from ClickFunnels, and apply to any seller who turns them on."
+    },
+    {
+      "q": "Is there a free trial, and does ClickFunnels require a credit card?",
+      "a": "ClickFunnels shows a \"Start Free Trial\" button on Launch, Scale and Optimize, but the button opens only a two-step signup that asks for a name and email on the first step. Reaching the second step, where billing details would likely appear, requires entering real signup information, so the exact trial length and whether a card is required could not be confirmed from ClickFunnels' current site. Third-party sites and ClickFunnels' own support articles for the older \"Classic\" product describe a 14-day trial that charges the card on file automatically when it ends, but that content is written for the legacy platform, not the one priced on this page, so it should not be treated as confirmed for current signups. Dominate offers no trial at all; its button reads \"Dominate Now.\""
+    },
+    {
+      "q": "What happens if I go over my ClickFunnels plan's contact or team-member limit?",
+      "a": "ClickFunnels does not say, at least not anywhere on its current pricing page or FAQ. Competing platforms tend to publish a clear rule, such as an automatic upgrade, a grace period, or a paid add-on, but ClickFunnels' page is silent on what happens when a workspace crosses its plan's contact cap (10,000 on Launch up to 400,000 on Dominate), its email-send cap, or its team-member cap (2 up to 20 seats). There is also no published add-on price for extra seats or contacts on any plan; the only documented way past a limit is upgrading to the next full tier, whatever that tier's other features cost. Anyone running close to a limit should confirm the actual behavior with ClickFunnels support before it becomes a problem."
+    },
+    {
+      "q": "Is ClickFunnels' annual billing worth it?",
+      "a": "Yes, in the sense that it lowers the price: Launch drops from $97 to $81 a month, Scale from $197 to $164, and Optimize from $297 to $248, each billed as one annual charge. ClickFunnels' page labels Launch's version of that discount \"Save $194/year,\" but the arithmetic is a little off: 12 times ($97 minus $81) comes to $192, two dollars short of the label, and the same math falls a few dollars short on the other two plans too. That gap suggests the displayed annual-equivalent price is rounded from a more precise total the page never shows directly. Dominate skips the choice entirely: it is sold annually only, at $5,997 a year, with no month-to-month option. Every plan carries the same 30-day money-back guarantee regardless of billing period."
+    },
+    {
+      "q": "Does ClickFunnels have a free plan?",
+      "a": "No. ClickFunnels has no free-forever tier; its cheapest plan is Launch, at $97 a month or $81 a month billed annually. That puts it above some other funnel-and-course platforms in its category: systeme.io, for example, offers a Free plan that needs no credit card, though that free plan stops accepting new sales once an account passes a lifetime revenue cap set in systeme.io's own terms. ClickFunnels offers a \"Start Free Trial\" button on Launch, Scale and Optimize instead of an ongoing free tier, though the trial's exact length and whether it requires a card are not stated on ClickFunnels' current pricing or signup pages."
+    },
+    {
+      "q": "Is ClickFunnels cheaper than systeme.io, Kajabi or GoHighLevel?",
+      "a": "It depends which one you compare it to. Systeme.io is cheaper at the entry level: its Startup plan costs $17 a month, well under ClickFunnels' $97 Launch plan, and its Free plan costs nothing until a seller's lifetime sales cross a cap in systeme.io's own terms. Kajabi runs the other way: its cheapest listed plan, Basic, costs $179 a month, nearly twice ClickFunnels' entry price, though Kajabi also takes 0% of a seller's revenue, the same as ClickFunnels. GoHighLevel's Starter plan lists at $97 a month, matching ClickFunnels' Launch price exactly, but that figure excludes texting, calling and most AI features, which GoHighLevel bills separately from a prepaid wallet, so its real monthly cost usually runs higher than the sticker price. None of the four platforms charges a percentage of sales; the differences are in subscription price and what each one bundles for it."
+    }
+  ]
+}
