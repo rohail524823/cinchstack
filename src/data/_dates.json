@@ -1,4 +1,84 @@
 {
+  "alternatives/gohighlevel": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/hubspot": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/klaviyo": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/notion": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/semrush": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/shopify": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/systeme-io": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "alternatives/webflow": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/gohighlevel-vs-clickfunnels": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/gohighlevel-vs-hubspot": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/gohighlevel-vs-systeme-io": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/klaviyo-vs-activecampaign": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/klaviyo-vs-mailchimp": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/notion-vs-clickup": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/semrush-vs-ahrefs": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/shopify-vs-webflow": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/shopify-vs-woocommerce": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/systeme-io-vs-kajabi": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/webflow-vs-framer": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "compare/webflow-vs-squarespace": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
   "pages/about": {
     "published": "2026-09-26",
     "modified": "2026-09-26"
@@ -26,5 +106,93 @@
   "pages/thanks": {
     "published": "2026-09-26",
     "modified": "2026-09-26"
+  },
+  "pricing/gohighlevel": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/hubspot": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/klaviyo": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/notion": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/semrush": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/shopify": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/systeme-io": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "pricing/webflow": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "stacks/agency": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "stacks/course-creator": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "stacks/freelancer": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "stacks/local-service": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "stacks/saas-startup": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "stacks/shopify-store": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/gohighlevel": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/hubspot": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/klaviyo": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/notion": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/semrush": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/shopify": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/systeme-io": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
+  },
+  "tools/webflow": {
+    "published": "2026-09-27",
+    "modified": "2026-09-27"
   }
 }
