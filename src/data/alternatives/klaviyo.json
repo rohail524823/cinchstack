@@ -1,0 +1,71 @@
+{
+  "tool": "klaviyo",
+  "reasons": [
+    {
+      "reason": "Self-serve plans bill monthly only, with no annual-prepay discount to lower the rate.",
+      "picks": [
+        {
+          "tool": "kit",
+          "why": "Creator and Creator Pro both give two free months on annual billing from their very first paid tier, starting at $39 a month, with no contact-count minimum to unlock it."
+        },
+        {
+          "tool": "mailchimp",
+          "why": "Its annual pre-pay saves about 15%, available on every tier of its $350 Premium plan from the start, and on Essentials and Standard once a list passes 10,000 contacts."
+        }
+      ]
+    },
+    {
+      "reason": "You pay the same price whether or not your list is actually tied to a Shopify or WooCommerce order history.",
+      "picks": [
+        {
+          "tool": "mailchimp",
+          "why": "Every plan, including Free, already includes purchase-behavior tracking and personalized product recommendations, so a business without a store catalog isn't paying extra for Klaviyo's order-volume-priced Reviews add-on to get similar insight."
+        },
+        {
+          "tool": "kit",
+          "why": "Built around a creator's newsletter rather than a store's order data, with a free plan covering up to 10,000 subscribers and no product catalog assumed anywhere in the product."
+        }
+      ]
+    },
+    {
+      "reason": "Composer, Customer Hub, Social Marketing and Reviews are separate paid add-ons stacked on the Email plan, not one bundled price.",
+      "picks": [
+        {
+          "tool": "activecampaign",
+          "why": "Marketing automation and a CRM are built into every paid plan, Starter included, from $15 a month billed annually at 1,000 contacts, rather than sold as separate products layered on top."
+        },
+        {
+          "tool": "gohighlevel",
+          "why": "Its $97 Starter plan already bundles a CRM, a funnel and site builder, and usage-priced email and SMS in one subscription; only its AI agent costs extra, at $50 or $97 per location."
+        }
+      ]
+    },
+    {
+      "reason": "Cross your active-profile tier and Klaviyo moves you to a pricier plan automatically, and MMS, WhatsApp and RCS rates aren't published anywhere you can check first.",
+      "picks": [
+        {
+          "tool": "gohighlevel",
+          "why": "Its $97 Starter plan doesn't move with your contact count at all, and its help center publishes exact per-message rates for MMS and WhatsApp, filling the gap where Klaviyo's own calculator showed no usable rate for those same channels."
+        }
+      ]
+    },
+    {
+      "reason": "There's no trial of the paid Email plan or its add-ons, only a capped free-forever tier.",
+      "picks": [
+        {
+          "tool": "activecampaign",
+          "why": "Its 14-day trial needs no credit card and runs on Professional-plan features, so you can use the fuller paid product before committing to it, not just a capped free tier."
+        }
+      ]
+    },
+    {
+      "reason": "Cancel mid-cycle instead of waiting for renewal and Klaviyo keeps the rest of that month's payment.",
+      "picks": [
+        {
+          "tool": "kit",
+          "why": "Every paid plan, including annual ones, carries a 30-day money-back guarantee, so cancelling partway through a cycle isn't automatically a forfeited month the way it is on Klaviyo."
+        }
+      ]
+    }
+  ]
+}
