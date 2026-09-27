@@ -33,6 +33,12 @@
       "label": "Mailchimp's plan-comparison page: Free plan's exact contact/send limit, seat/audience/role caps per plan, and each plan's maximum published contact tier",
       "checkedOn": "2026-09-27",
       "snapshot": "snapshots/mailchimp/2026-09-27-compare-plans.txt"
+    },
+    {
+      "url": "https://mailchimp.com/help/about-your-contacts/",
+      "label": "Help center: About Your Contacts, which contact types count toward the monthly contact limit",
+      "checkedOn": "2026-09-27",
+      "snapshot": "snapshots/mailchimp/2026-09-27-help-about-your-contacts.txt"
     }
   ],
   "freeTier": {
@@ -159,7 +165,8 @@
     "Mailchimp's own footnote states: 'Annual Plans: For Premium and Standard 10,000+ contact plans, annual plans are available. Contact sales to learn about pricing and eligibility.' Yet the pricing page itself displays a specific annual per-month figure with a self-serve 'Buy Now' button at 10,000+ contacts for Premium, Standard, AND Essentials (which that footnote does not even mention). Both the footnote and the on-page self-serve figures are quoted verbatim from the same snapshots; this record reports the literal on-page figures rather than resolving the discrepancy.",
     "14-day free trial (credit card required) on Standard and Essentials only; a separate 1-month Premium trial exists for qualified customers who contact sales.",
     "Nonprofits and charities can request a 15% discount by signing up and contacting Mailchimp's billing team; not modeled in this record's list prices.",
-    "A Pay As You Go option (buy email-send credits instead of a recurring plan) exists at mailchimp.com/pricing/pay-as-you-go/; its per-credit/package pricing was not found on that page (see unverified)."
+    "A Pay As You Go option (buy email-send credits instead of a recurring plan) exists at mailchimp.com/pricing/pay-as-you-go/; its per-credit/package pricing was not found on that page (see unverified).",
+    "Subscribed, unsubscribed and non-subscribed contacts all count toward a plan’s monthly contact limit; cleaned, pending, archived and deleted contacts do not, so archiving (not just unsubscribing) is what removes a contact from the bill. Accounts on legacy paid plans created before May 15, 2019 may follow different contact-limit rules (source 5)."
   ],
   "regional": {
     "pricedByCountry": false,
@@ -173,7 +180,10 @@
       "planId": "essentials",
       "billing": "monthly",
       "lines": [
-        { "label": "Essentials plan — 501-1,500 contacts band (covers 1,000 contacts)", "amount": 26.5 }
+        {
+          "label": "Essentials plan — 501-1,500 contacts band (covers 1,000 contacts)",
+          "amount": 26.5
+        }
       ],
       "monthly": 26.5,
       "confidence": "high"
@@ -185,7 +195,10 @@
       "planId": "standard",
       "billing": "monthly",
       "lines": [
-        { "label": "Standard plan — 5,001-10,000 contacts band (covers 10,000 contacts)", "amount": 135 }
+        {
+          "label": "Standard plan — 5,001-10,000 contacts band (covers 10,000 contacts)",
+          "amount": 135
+        }
       ],
       "monthly": 135,
       "confidence": "high",
@@ -198,7 +211,10 @@
       "planId": "premium",
       "billing": "monthly",
       "lines": [
-        { "label": "Premium plan — 40,001-50,000 contacts band (covers 50,000 contacts)", "amount": 815 }
+        {
+          "label": "Premium plan — 40,001-50,000 contacts band (covers 50,000 contacts)",
+          "amount": 815
+        }
       ],
       "monthly": 815,
       "confidence": "high",
@@ -215,6 +231,9 @@
     "The exact per-contact or per-email overage rate charged when a plan's contact or send limit is exceeded is not published on the pages captured (see extraCosts)."
   ],
   "history": [
-    { "date": "2026-09-27", "change": "Initial record." }
+    {
+      "date": "2026-09-27",
+      "change": "Initial record."
+    }
   ]
 }

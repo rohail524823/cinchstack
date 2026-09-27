@@ -1,0 +1,206 @@
+SOURCE: https://mailchimp.com/help/about-your-contacts/
+FETCHED: 2026-09-27T14:03:27.352Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+___
+Skip to main content
+
+Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today.
+
+Industries and Solutions
+Integrations
+Resources
+Pricing
+Get a demo: +1 (855) 524-5664
+Start Free Trial
+Log In
+Main Menu
+In this article
+Things to know
+Types of contacts
+Sort your audience by contact type
+
+Get the job done with a pro
+
+From training to full-service marketing, our community of partners can help you make things happen.
+
+Hire A Partner
+Help Center
+Audiences
+About Your Contacts
+ Copy Article URL
+
+The people whose information you store in your Mailchimp account are known as your contacts. A person’s contact type determines which marketing content they can receive, and whether they count toward your marketing plan's monthly contact limit.
+
+In this article, you’ll learn more about the contact types in Mailchimp and where to view them.
+
+Things to know
+
+Here are some things to know.
+
+If you have a legacy paid plan created before May 15, 2019, your account may be subject to different rules around contact limits. To learn more, read About Your Legacy Pricing Plan.
+Laws in different jurisdictions could stop you from sending certain content, regardless of your pricing plan, our system's capabilities, or your contacts’ marketing status. We recommend you always establish a legal basis for the collection, storage, and use of your contacts' personal data.
+Types of contacts
+
+We categorize contacts based on their marketing status. A contact can have one of the following statuses on the Contact table: subscribed, unsubscribed, non-subscribed, cleaned, or pending. Pending contacts must confirm their opt-in before being added. Contacts can be archived or deleted. When you archive an email or SMS contact, you remove them from the contact table and add them to a separate archived contacts table.
+
+Here's a list of the different contact types. We'll tell you which of them count toward your monthly plan limits and what kind of marketing content you can send them.
+
+Subscribed
+A subscribed contact, or subscriber, is someone who's opted in to receive your marketing content.
+Subscribed contacts can join your audience from one of your signup forms, landing pages, or connected stores.
+You can also manually add them one by one or with an import, as long as you’ve received explicit permission.
+They’ll have a Subscribed badge in the Email Marketing or SMS Marketing columns of the contact table.
+
+Counts toward monthly contact limit?: Yes
+Can receive: Ads, marketing emails, marketing text messages, and transactional emails such as order notifications
+
+Note
+
+Marketing emails and SMS have separate subscription processes. A subscribed contact who’s opted in to receive email marketing would need to opt in for SMS marketing also.
+
+Unsubscribed
+An unsubscribed contact is someone who previously received your marketing content but has opted out.
+They’ll have an Unsubscribed badge in the Email Marketing or SMS Marketing columns of the contact table.
+
+Counts toward monthly contact limit?: Yes
+Can receive: Ads, and transactional emails
+Can't receive: Marketing emails, marketing text messages
+
+Non-subscribed
+A non-subscribed contact is someone who's interacted with you but hasn’t opted in to receive marketing content.
+These contacts can be from your online store, an integration, a manual import, or from a forwarded email to your Mailchimp Inbox.
+They won’t have a badge in the Email Marketing or SMS Marketing columns of the contact table.
+
+Counts toward monthly contact limit?: Yes
+Can receive: Ads, transactional emails
+Can't receive: Marketing emails, marketing text messages
+
+Cleaned
+Hard bounces and repeated soft bounces become cleaned contacts.
+A cleaned contact has a non-deliverable email address, which might be misspelled or invalid.
+They’ll have a Cleaned badge in the Email Marketing column of the contact table.
+
+Counts toward monthly contact limit?: No
+Can receive: Nothing
+
+Pending
+A pending contact is someone who's completed a signup form but has not confirmed their opt-in.
+The contact's email address won't be added to your audience until they confirm their opt-in, and you won't be able to view them in your audience.
+After 60 days, if they haven't confirmed their opt-in, the contact's email address and any other information they provided will be removed and deleted.
+
+Counts toward monthly contact limit?: No
+Can receive: Nothing
+
+Archived
+An archived contact is someone who’s been removed from your audience.
+As long as a contact remains archived, you won’t be able to edit their profile or send them any marketing communications.
+However, you’ll retain all of their data, including identifiable information in email reports.
+
+Counts toward monthly contact limit?: No
+Can receive: Nothing
+
+Deleted
+A deleted contact is someone you permanently remove.
+This removes all of their personal information from your audience. This action cannot be undone.
+In most cases, if you have outdated or inactive subscribers that don’t interact with your marketing, you should choose to archive them.
+Delete contacts for General Data Protection Regulation (GDPR) purposes only.
+
+Counts toward monthly contact limit?: No
+Can receive: Nothing
+
+Sort your audience by contact type
+
+To view subscribed, unsubscribed, non-subscribed, or cleaned contacts, you’ll use the Email Marketing and SMS Marketing columns in the contact table.
+
+Click Audience.
+If you have more than 1 audience, click the Audience drop-down and choose the one you want to work with.
+Locate the Email Marketing or SMS Marketing column in the contact table. You’ll see a badge that tells you a contacts marketing status.
+Click the box labeled Email Marketing or SMS Marketing to sort your audience by contact type.
+
+You can also create and save a segment for each contact type based on email or SMS marketing status.
+
+View archived contacts
+
+Archived contacts are stored separately from other contacts in your audience. To view your archived contacts, follow these steps.
+
+Click Audience.
+If you have more than 1 audience, click the Audience drop-down and choose the one you want to work with.
+Click the Manage audience drop-down and choose View archived contacts.
+
+We’ll display all of the archived contacts in your audience. Use this data to export your archived contacts, access their contact profile, or unarchive them.
+
+Technical Support
+
+Have a question?
+
+Paid users can log in to access email and chat support.
+
+Log In
+Was this article helpful?
+Yes
+No
+Anything else we can do to improve our site?
+Submit Feedback
+Related
+About Contact Ratings
+
+Learn how we come up with contact ratings for subscribers in your lists.
+
+About Subscriber Engagement
+
+Subscriber engagement is a key part of email marketing. Learn how to increase positive engagement and decrease negative engagement.
+
+Remove Subscribers from Groups
+
+Learn how to remove subscribers from groups, by using bulk actions or individually.
+
+Related Links:
+
+Discover the people behind your data
+One Audience or Several? How to Organize Your Contacts to Optimize...
+Cleaning Email Lists 101: Refreshing Address Lists
+Products
+Why Mailchimp?
+Product Updates
+Email Marketing
+Transactional Email
+How We Compare
+GDPR Compliance
+Security
+Status
+Mobile App
+Resources
+Marketing Library
+Free Marketing Tools
+Marketing Glossary
+Integrations Directory
+Community
+Agencies & Freelancers
+Developers
+Events
+Company
+Our Story
+Newsroom
+Give Where You Live
+Careers
+Accessibility
+Help
+Contact Us
+Hire an Expert
+Help Center
+Talk to Sales
+This page is now available in other languages.
+English
+Español
+Français
+Português
+Deutsch
+Italiano
+
+©2001-2026 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple logo are trademarks of Apple Inc. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc. Privacy | Terms | Legal | Cookie Preferences
+
+Mailchimp uses cookies for our website to function properly; some are optional and help deliver a personalized and enhanced experience. You can consent to all or allow any level of cookies via “Customize Settings” and preferences can be changed at anytime. To learn more, read ourCookie Statement
+Customize settings
+Feedback
+Chat with Sales
