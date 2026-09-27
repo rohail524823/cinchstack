@@ -1,0 +1,33 @@
+{
+  "page": "pricing/framer",
+  "items": [
+    {
+      "q": "How much does Framer cost per month?",
+      "a": "Framer sells four plans. Free costs $0 and publishes only to a framer.site subdomain with Framer's own branding attached. Basic costs $15 a month, or $10 a month billed yearly, and already includes a small CMS: two collections and 1,000 items. Pro costs $45 a month, or $30 a month billed yearly, and raises those same limits to ten collections and 2,500 items, with paid add-ons available to raise them further still. Enterprise has no published price; it is a custom quote arranged through Framer's contact form, mainly for teams that need more than ten total editors or custom security requirements like SSO. Basic and Pro's headline prices both assume the lowest available AI-credit tier; picking more credits on the same plan card raises the price you actually pay each month, sometimes by a lot."
+    },
+    {
+      "q": "Does Framer have a free plan or a free trial?",
+      "a": "A free plan, not a time-boxed trial. Framer's Free plan costs $0 and has no stated expiration: every workspace starts on it. It publishes only to a framer.site subdomain, carries Framer's own branding, and includes 1 GB of bandwidth a month plus 500 AI credits to try once, with no monthly renewal. Framer's own Free-plan FAQ separately states that projects on Free get up to 10 CMS collections, 1,000 pages and 5 MB file uploads for design and exploration, and that a workspace with no paid Site plan at all can have up to three collaborating editors for free. There is no credit-card requirement to sign up, and no countdown forcing an upgrade; you move to Basic or Pro only once you need a custom domain or higher limits than Free allows."
+    },
+    {
+      "q": "Why did my Framer bill jump even though I didn't add an editor or a feature?",
+      "a": "The most likely reason is the AI-credit tier selected on your plan card, not anything added separately. Basic's $15-a-month price and Pro's $45-a-month price each assume the lowest credit tier Framer offers, 1,000 credits for Basic and 3,000 for Pro. A dropdown on that same plan card lets you pick a higher tier instead, and doing so changes the plan's own listed price immediately: Basic can rise as far as $225 a month, and Pro as far as $1,500 a month, at their respective top tiers. Nothing about the plan name or its other limits changes when this happens; only the credit allowance and the price attached to it do. If a bill looks higher than the $15 or $45 you remember seeing, check which AI-credit tier the workspace's Site plan is currently set to before assuming a separate charge was added by mistake."
+    },
+    {
+      "q": "How much does it cost to add more editors to a Framer site?",
+      "a": "The first editor, the workspace admin, is free on every plan, including Free. Every editor after that is a paid seat: a full-access Editor seat costs $30 a month, and a cheaper Content Editor seat, limited to CMS updates, localization and on-page edits, costs $15 a month. Both rates are the same whether the underlying site is on Basic or Pro. A small team of three, the free admin plus two paid Editor seats, adds $60 a month on top of the plan price. The one number editor pricing can't get around is Framer's own cap: Basic and Pro both limit a workspace to 10 total editors combined, counted across every site inside it, and the only way past that limit is a custom Enterprise quote with no published self-serve price."
+    },
+    {
+      "q": "Is it worth switching a Framer site to annual billing?",
+      "a": "Usually, if the plan and editor count already feel settled. Billed annually, Basic falls to $10 a month and Pro falls to $30 a month, and Framer's help center describes the switch from monthly to annual as instant and self-serve, done from the project's own Plans tab with no waiting period. The catch sits on the way back: moving a site from annual billing back to monthly is not self-serve at all, according to Framer's billing documentation; it requires contacting support, and whatever value is left on the annual term converts into non-refundable account credit rather than a refund. Editor and Content Editor seats bill monthly no matter which cycle the Site plan itself is on, so switching the plan to annual lowers the plan price without changing how seat charges arrive. Commit to annual once the setup is stable, not while still testing plan or team size."
+    },
+    {
+      "q": "Does Framer charge extra once a site outgrows its page or bandwidth limit?",
+      "a": "It depends entirely on which plan the site is on. Basic's limits, 30 pages, two CMS collections, 1,000 CMS items and 50 GB of bandwidth a month, are fixed with no pay-as-you-go option at all; Framer's own pricing page labels this style 'Fixed.' The only way past any of those four Basic ceilings is upgrading the whole site to Pro. Pro's matching limits start higher, 150 pages, 10 collections, 2,500 items and 100 GB, and can then be raised individually with metered add-ons: $30 a month per extra 100 pages up to 700, $50 a month per extra 10 collections up to 40, $30 a month per extra 10,000 items up to 40,000, and $50 a month per extra 100 GB of bandwidth up to 2 TB. Framer calls Pro's version of these same limits 'Flexible, pay what you use.'"
+    },
+    {
+      "q": "Can I get a refund if I cancel Framer?",
+      "a": "Within a short window, yes; after that, only in specific cases. Framer refunds a new purchase within 7 days worldwide, and within 14 days for customers in the EU and Turkey, where local law requires the longer window. Each add-on carries its own refund clock starting from when it was bought, not from when the underlying Site plan was purchased. The one hard exception is usage-based add-ons: once any part of a metered purchase, extra bandwidth or a higher AI-credit tier, has actually been used, Framer treats that charge as non-refundable even inside the window. Framer's own help articles are not fully consistent about who processes the charge either, one names Stripe, another names 'Stripe or Paddle.com' depending on region, but the refund windows themselves apply regardless of which processor handled the original payment."
+    }
+  ]
+}

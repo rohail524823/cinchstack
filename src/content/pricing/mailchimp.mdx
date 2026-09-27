@@ -1,0 +1,51 @@
+---
+title: "Mailchimp pricing 2026: what it costs by contact-list size"
+description: "Mailchimp's Essentials plan starts at $13 a month for up to 500 contacts, but the price rises in bands, and unsubscribed contacts still count toward the limit."
+quickAnswer: "As of 27 September 2026, Mailchimp's cheapest paid plan, Essentials, costs $13 a month for up to 500 contacts; the free plan caps at 250 contacts indefinitely. Every paid plan's price is set by contact-count bands rather than a smooth scale, so one contact over a band's ceiling, say 501 instead of 500, moves Essentials to $26.50 a month. A freelancer or small agency under 500 contacts fits Essentials at its starting rate; a five-person team will likely need Standard regardless of list size, since Essentials caps out at 3 seats. Mailchimp's help center confirms unsubscribed contacts still count toward that limit."
+published: 2026-09-27
+related:
+  - /compare/klaviyo-vs-mailchimp/
+  - /tools/klaviyo/
+  - /stacks/shopify-store/
+extraFigures:
+  - value: "110"
+    why: "Essentials plan's price at the 5,001-10,000 contacts band, per Mailchimp's pricing page with the contacts selector re-driven to that band; used to show the small-team bill's move to Standard is about seats, not this contact count"
+  - value: "385"
+    why: "Essentials' own published ceiling — Mailchimp's plan-comparison page states Essentials covers 'Up to 50,000 contacts with our $385/mo tier'; above that a buyer must upgrade to Standard or Premium"
+  - value: "450"
+    why: "Standard plan's price at the 40,001-50,000 contacts band; used to show the growing-team bill's move to Premium is about seats, not this contact count"
+  - value: "800"
+    why: "Standard's published self-serve ceiling per Mailchimp's plan-comparison page ('Up to 100,000 contacts with our $800/mo tier'); not independently re-verified at that exact band"
+  - value: "114.75"
+    why: "Standard's annual pre-pay rate at the 5,001-10,000 contacts band, the small-team bill's own band, shown once the pricing page's contacts selector reaches 10,000+"
+---
+
+## Which Mailchimp plan actually fits your contact list?
+
+Under 250 contacts, Free costs nothing and needs no automation to run. Past that line, or once you need any automation at all, <Price tool="mailchimp" plan="essentials" /> a month buys Essentials, the plan that fits a freelancer, a solo consultant, or a small business running one contact list with one or two people managing it. Its 3 included seats and up to 4 automation-flow steps cover a basic welcome or follow-up sequence, though not Mailchimp's full Marketing Automation Flows.
+
+Team size, more than contact count, is what actually pushes a small business past Essentials. A third or fourth person needing their own login runs into Essentials' 3-seat cap regardless of how small the list still is, forcing an upgrade to Standard at <Price tool="mailchimp" plan="standard" /> a month; a sixth person does the same thing to Standard's own 5-seat cap. Only Premium, at <Price tool="mailchimp" plan="premium" /> a month, drops the seat limit entirely. Budget by how many people need to log in before you budget by how many contacts you have.
+
+## What actually pushes a Mailchimp bill higher than the sticker price?
+
+Every plan's price rises in fixed contact bands rather than a smooth per-contact rate, so the jump at each boundary is real money, not a rounding effect. Essentials starts at <Price tool="mailchimp" plan="essentials" /> a month for up to 500 contacts; one real signup that pushes the account to 501 contacts moves the same plan to $26.50 a month, about twice the starting rate, because 501 lands in Mailchimp's next published band. That shape repeats at every boundary all the way up; a pricing page that only shows one band at a time never makes the size of the next jump obvious.
+
+What counts toward a band matters as much as the count itself. Mailchimp's help center explains that unsubscribed and non-subscribed contacts still count toward your plan's limit, the same as active subscribers — only cleaned, pending, archived or deleted contacts are excluded. An audience full of people who unsubscribed months ago is still billed as if they were active; archiving them, not just leaving them unsubscribed, is the one action that actually removes them from what you're charged for. On top of that, every plan card carries a footnote that overage charges apply once you exceed your contact or send limit, but neither Mailchimp's pricing page nor its comparison page states what that overage actually costs, so there is no way to price the risk of drifting over a limit in advance.
+
+## Could your team get away with a cheaper plan than the bills above show?
+
+The three bills above default to the plan a business that size actually needs for logins, which is not always the plan its contact count alone would require. At 10,000 contacts, Essentials' own band reaches $110 a month, but Essentials caps out at 3 seats, so the five-person team behind the small-team bill pays <Real tool="mailchimp" size="small" /> for Standard instead, mostly for the extra logins rather than the extra contacts.
+
+The same pattern repeats at the top end. At 50,000 contacts, Standard's own band reaches $450 a month, well under the <Real tool="mailchimp" size="growing" /> the growing-team bill above pays for Premium, but Standard's 5-seat cap is exactly why a 15-person team needs Premium at all, not the size of its list. If your own team is smaller than the headcount a bill above assumes, check whether a cheaper plan's seat count actually covers you before assuming its bigger number is what you will pay. Mailchimp's plan-comparison page separately states that Standard's own published self-serve ceiling reaches 100,000 contacts at an $800-a-month tier, a figure we have not independently re-verified at that exact band, which is worth knowing before assuming a list that size needs Premium's custom quote instead.
+
+## Does paying yearly actually save you anything on Mailchimp?
+
+Below 10,000 contacts, no. Essentials and Standard show only a flat monthly price at every band under that mark, and the option to prepay annually does not appear on the page at all until an account reaches 10,000 contacts — Mailchimp's own footnote on annual plans even says to contact sales for pricing and eligibility at that point, despite the page itself showing a specific annual figure with a self-serve checkout button. Once a Standard account does reach that 10,000-contact band, the same tier that costs <Real tool="mailchimp" size="small" /> a month billed monthly drops to $114.75 a month paid annually, a real discount, just one that only shows up once your list is already fairly large.
+
+Premium works differently. Its roughly 15%-off annual rate, <Price tool="mailchimp" plan="premium" field="annualMonthly" /> a month against a <Price tool="mailchimp" plan="premium" /> monthly price, is available from the plan's very first contact band, not gated behind any minimum the way Essentials and Standard are. A freelancer or small business on Essentials simply has no yearly-billing decision to make at all; the choice only becomes real once a list, or a reason to want Premium's uncapped seats, gets that large.
+
+## How does Mailchimp's bill compare with Klaviyo, Kit and ActiveCampaign?
+
+<T id="kit" /> is the sharpest contrast on the free tier: its free plan covers up to 10,000 subscribers with no card required, dwarfing Mailchimp's 250-contact ceiling. Kit's paid tiers start at <Price tool="kit" plan="creator" /> a month for up to 1,000 subscribers, and Kit does not publish the rate above that tier anywhere outside a logged-in account. <T id="klaviyo" /> prices by active-profile count instead of named plans, with no seat limit at any size; at the small-team contact count above it runs <Real tool="klaviyo" size="small" /> a month against Mailchimp's own <Real tool="mailchimp" size="small" />, though Klaviyo adds SMS, an AI agent and other tools as separate paid add-ons rather than folding purchase-behavior tracking into every plan the way Mailchimp does. See [Klaviyo vs. Mailchimp](/compare/klaviyo-vs-mailchimp/) for where each bill actually goes at every size.
+
+<T id="activecampaign" /> is the pick for a business that wants a CRM bundled with its email: Starter runs <Price tool="activecampaign" plan="starter-1000" field="annualMonthly" /> a month for 1,000 contacts, billed annually, since ActiveCampaign publishes no month-to-month rate at all. None of the three is a strict upgrade over Mailchimp; each trades away something Mailchimp includes — Kit's automation on its free plan, Klaviyo's flat SMS rate, ActiveCampaign's monthly-billing option — in exchange for doing one specific thing better.

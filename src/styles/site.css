@@ -7,7 +7,7 @@
 
 :root {
   --paper: #F4F1EA; --paper-2: #EAE5DA; --card: #FBF9F4; --rule: #D9D3C5;
-  --ink: #131410; --ink-2: #1E201A; --soft: #4B4C43; --mute: #6E7066;
+  --ink: #131410; --ink-2: #1E201A; --soft: #4B4C43; --mute: #626459;
   --accent: #0E7A57; --accent-ink: #0A5A40; --accent-lift: #4ECBA5; --accent-wash: #E3F0E9;
   --amber: #B8660B; --amber-ink: #FFFFFF; --amber-wash: #FBEBD5;
   --warn: #9A3B12; --warn-wash: #F8E6DA;
@@ -52,7 +52,7 @@ strong { font-weight: 600; }
 .site-foot { margin-top: 72px; background: var(--ink); color: #D8D6CC; padding: 44px 0 30px; font-size: 15px; }
 .site-foot a { color: #E9E7DE; }
 .site-foot .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 26px; }
-.site-foot h4 { font: 500 12px/1 var(--mono); letter-spacing: .13em; text-transform: uppercase; color: #9A9C90; margin: 0 0 12px; }
+.site-foot h2 { font: 500 12px/1 var(--mono); letter-spacing: .13em; text-transform: uppercase; color: #9A9C90; margin: 0 0 12px; }
 .site-foot ul { list-style: none; padding: 0; margin: 0; }
 .site-foot .fine { border-top: 1px solid #33352C; margin-top: 30px; padding-top: 18px; color: #9A9C90; font-size: 13.5px; }
 
