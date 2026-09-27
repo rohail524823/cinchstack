@@ -4,21 +4,26 @@
     "network": "direct (Tipalti payouts)",
     "status": "approved",
     "approvedOn": "2026-08-19",
-    "template": null,
+    "template": "{url}?fp_ref=bestaicertifications30&fp_sid={sid}",
     "match": "^https://(www\\.)?gohighlevel\\.com(/|$)",
     "terms": "40% recurring commission for the life of the customer on Starter, Unlimited, Agency Pro and White Label Mobile App; 5% second tier. A sale counts once the customer account stays in good standing for 45 days. $50 payout minimum; commissions under $50 in a 120-day window are forfeited.",
     "recurring": true,
     "paysOnTrial": false,
     "cookieDays": 30,
-    "payoutRail": "Tipalti (set up by owner)",
+    "payoutRail": "Tipalti (set up; monthly, Net-15, paid on the 15th once commissions pass $50)",
     "rules": {
       "mandatoryDisclosure": "I am an independent entity from HighLevel. I am not an agent or employee of HighLevel and have no authority to make any binding commitment on behalf of HighLevel.",
       "noEarningsClaims": true,
       "noUnauthorizedOffers": true,
       "noBrandBidding": true
     },
-    "rateHistory": [{ "date": "2026-08-19", "note": "Joined at 40% recurring + 5% second tier." }],
-    "notes": "Referral link not yet supplied: template is null, so every GoHighLevel link renders as a plain link until the owner pastes the portal link here (e.g. https://www.gohighlevel.com/?fp_ref=CODE)."
+    "rateHistory": [
+      {
+        "date": "2026-08-19",
+        "note": "Joined at 40% recurring + 5% second tier."
+      }
+    ],
+    "notes": "The account (FirstPromoter portal: gohighlevel.firstpromoter.com) is shared with the owner’s other sites, so every CinchStack link keeps the account’s referral code and adds a Sub ID naming the page it sits on (fp_sid=cinchstack-<page path>, e.g. cinchstack-tools-gohighlevel-pricing). Signups from this site therefore show separately, page by page, under Reports > Sub Ids. Do not change the referral code with “Customize Token”: that would break the links already placed on the other sites. HighLevel’s own ready-made links put fp_ref on deep pages (e.g. /pricing), so each button lands on the page it names."
   },
   "hubspot": {
     "label": "HubSpot affiliate program",
@@ -28,8 +33,16 @@
     "template": null,
     "match": "^https://(www\\.)?hubspot\\.com(/|$)",
     "terms": "30% recurring (published program terms; confirm at application).",
-    "recurring": true, "paysOnTrial": false, "cookieDays": null, "payoutRail": null,
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": true,
+    "paysOnTrial": false,
+    "cookieDays": null,
+    "payoutRail": null,
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   },
   "shopify": {
@@ -40,8 +53,16 @@
     "template": null,
     "match": "^https://(www\\.)?shopify\\.com(/|$)",
     "terms": "Bounty per referred merchant who becomes paying, up to $150 depending on merchant country; long tracking window.",
-    "recurring": false, "paysOnTrial": false, "cookieDays": null, "payoutRail": "Impact (Payoneer/bank)",
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": false,
+    "paysOnTrial": false,
+    "cookieDays": null,
+    "payoutRail": "Impact (Payoneer/bank)",
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   },
   "systeme-io": {
@@ -52,8 +73,16 @@
     "template": null,
     "match": "^https://(www\\.)?systeme\\.io(/|$)",
     "terms": "60% lifetime commission (published program terms; confirm payout rail).",
-    "recurring": true, "paysOnTrial": false, "cookieDays": null, "payoutRail": null,
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": true,
+    "paysOnTrial": false,
+    "cookieDays": null,
+    "payoutRail": null,
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   },
   "webflow": {
@@ -64,8 +93,16 @@
     "template": null,
     "match": "^https://(www\\.)?webflow\\.com(/|$)",
     "terms": "50% of first-year revenue from referred customers.",
-    "recurring": true, "paysOnTrial": false, "cookieDays": null, "payoutRail": "PartnerStack (AirWallex direct deposit)",
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": true,
+    "paysOnTrial": false,
+    "cookieDays": null,
+    "payoutRail": "PartnerStack (AirWallex direct deposit)",
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   },
   "semrush": {
@@ -76,8 +113,16 @@
     "template": null,
     "match": "^https://(www\\.)?semrush\\.com(/|$)",
     "terms": "$200 per new subscription plus $10 per free-trial activation; 120-day cookie.",
-    "recurring": false, "paysOnTrial": true, "cookieDays": 120, "payoutRail": "Impact (Payoneer/bank)",
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": false,
+    "paysOnTrial": true,
+    "cookieDays": 120,
+    "payoutRail": "Impact (Payoneer/bank)",
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   },
   "klaviyo": {
@@ -88,8 +133,16 @@
     "template": null,
     "match": "^https://(www\\.)?klaviyo\\.com(/|$)",
     "terms": "To verify: whether an open affiliate track exists that pays Pakistan. If not, Kit replaces Klaviyo as the paying email tool.",
-    "recurring": null, "paysOnTrial": null, "cookieDays": null, "payoutRail": null,
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": null,
+    "paysOnTrial": null,
+    "cookieDays": null,
+    "payoutRail": null,
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   },
   "notion": {
@@ -100,8 +153,16 @@
     "template": null,
     "match": "^https://(www\\.)?notion\\.(so|com)(/|$)",
     "terms": "50% of referred revenue for 12 months.",
-    "recurring": true, "paysOnTrial": false, "cookieDays": null, "payoutRail": "PartnerStack (AirWallex direct deposit)",
-    "rules": { "mandatoryDisclosure": null, "noEarningsClaims": true, "noUnauthorizedOffers": true, "noBrandBidding": true },
+    "recurring": true,
+    "paysOnTrial": false,
+    "cookieDays": null,
+    "payoutRail": "PartnerStack (AirWallex direct deposit)",
+    "rules": {
+      "mandatoryDisclosure": null,
+      "noEarningsClaims": true,
+      "noUnauthorizedOffers": true,
+      "noBrandBidding": true
+    },
     "rateHistory": []
   }
 }

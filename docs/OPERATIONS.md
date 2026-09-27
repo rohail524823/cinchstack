@@ -4,22 +4,18 @@ This is the owner's manual. It covers the few things only you can do, the jobs t
 
 ## Things only you can do
 
-### 1. Switch on the GoHighLevel affiliate link
+### 1. GoHighLevel affiliate links (live since 27 September 2026)
 
-GoHighLevel has approved you, but the site has no referral link yet, so every GoHighLevel button is a plain link that earns nothing.
+GoHighLevel is the one approved program, and its buttons are now paid links. The HighLevel affiliate account (portal: `gohighlevel.firstpromoter.com`, payouts through Tipalti) is shared with your other sites, so CinchStack's links keep the account's referral code and add a **Sub ID** naming the page each link sits on:
 
-1. Log in to the HighLevel affiliate portal and copy your referral link. It looks like `https://www.gohighlevel.com/?fp_ref=yourcode`.
-2. Open `src/data/programs.json`, find the `"gohighlevel"` entry, and replace `"template": null` with your link in quotes:
+```
+https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchstack-tools-gohighlevel-pricing
+```
 
-   ```json
-   "template": "https://www.gohighlevel.com/?fp_ref=yourcode",
-   ```
-
-3. Commit to `main`. Netlify rebuilds in about two minutes.
-
-What changes on the site: GoHighLevel buttons turn amber and carry `rel="sponsored"`, a disclosure line appears at the top of every page that has one, HighLevel's required wording appears under it, and `/how-we-earn/` updates itself. You do not need to edit any page.
-
-If the portal gives you a link that can point at any page (for example one with `{url}` in it), you can use `{url_enc}` in the template and the site will send readers to the exact GoHighLevel page they clicked.
+- In the portal, **Reports → Sub Ids** shows signups and commissions per Sub ID. Every CinchStack Sub ID starts with `cinchstack-`, so this site's results never mix with the other sites', and you can see which page earns.
+- Don't use **Customize Token**: it changes the referral code for every site at once and breaks the links already placed elsewhere.
+- The link format lives in one place: the `template` of `"gohighlevel"` in `src/data/programs.json` (`{url}?fp_ref=…&fp_sid={sid}`). `{sid}` becomes the page's Sub ID and `{url}` the GoHighLevel page the button names. No page needs editing.
+- What readers see: amber buttons with `rel="sponsored"`, a disclosure at the top of every page that has one, HighLevel's required wording under it, and `/how-we-earn/` listing the program as live. In Google Analytics, clicks arrive as `affiliate_click`; star it as a key event once it shows up in **Admin → Events**.
 
 ### 2. Apply to the other programs, in this order
 
