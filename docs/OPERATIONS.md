@@ -53,6 +53,22 @@ The plan was to apply once the site has real traffic (about 1,000 visits a month
 - **IndexNow** stays off until Bing shows healthy indexing (see `docs/plan/06-aeo-geo-bing.md`).
 - Search Console lets you request indexing for about 10 URLs a day. New pages are found through the sitemap anyway; requesting just speeds it up.
 
+### 3b. Search and AI visibility: what's left (checked 28 September 2026)
+
+The site itself is done: every page type has its structured data (software offers, reviews, FAQs, breadcrumbs, the dataset, the author profile), `robots.txt` names 25 crawler groups, including the AI assistants', and `llms.txt`, `agents.json` and the CC BY dataset at `/data/` are live. What's left happens outside the code:
+
+| When | Task | Who |
+|---|---|---|
+| Daily until done | Request indexing in Search Console for the pages not yet indexed (about 10 a day). | You |
+| Weekly | Search Console **Pages** and **Performance**; Bing Webmaster **Site Explorer** and **Search Performance**, including the AI queries export. | You |
+| From about 11 October | If Bing shows pages indexed, switch on IndexNow for changed pages only, at most 10 per run (`docs/plan/06-aeo-geo-bing.md`). | Claude Code |
+| Once, then kept in sync | Mirror the `/data/` dataset to Hugging Face, a public GitHub repo, Kaggle and data.world, each linking back. It's the plan's main way to earn links and AI citations. | Claude Code can publish the first two with your go-ahead; Kaggle and data.world need you. |
+| About an hour a week | Answer "what does X cost" and "X vs Y" questions on Reddit and vendor forums with the real, dated figure; link a page only when it adds something. When a vendor changes a price, email writers still quoting the old one (no ask). | You |
+| Monthly, 10 minutes | Ask ChatGPT, Claude, Gemini, Perplexity and Copilot "what does [tool] cost" and "[A] vs [B] pricing"; note which cite CinchStack. | You |
+| When you next edit bestaicertifications.com | Link its About page to cinchstack.com. CinchStack's About page already links back. | You |
+
+Optional later: a social-preview image per page (every page uses one image today), `llms-full.txt`, and the price-change newsletter (`docs/plan/10-growth.md`).
+
 ### 4. Contact form (done 27 September 2026)
 
 The "Report a wrong price" form uses Netlify Forms. Form detection is on, and each submission is emailed to the Netlify account's address. Submissions also appear in Netlify under **Forms → contact**.
