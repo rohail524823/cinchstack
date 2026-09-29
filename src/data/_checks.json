@@ -1,6 +1,6 @@
 {
   "activecampaign": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 4,
     "missing": [],
@@ -9,7 +9,7 @@
     "skippedPages": 0
   },
   "ahrefs": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 25,
     "missing": [],
@@ -18,7 +18,7 @@
     "skippedPages": 0
   },
   "clickfunnels": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 6,
     "missing": [],
@@ -27,7 +27,7 @@
     "skippedPages": 0
   },
   "clickup": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 6,
     "missing": [],
@@ -36,7 +36,7 @@
     "skippedPages": 0
   },
   "framer": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "not-checkable",
     "checked": 0,
     "missing": [],
@@ -45,7 +45,7 @@
     "skippedPages": 0
   },
   "gohighlevel": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 38,
     "missing": [],
@@ -54,7 +54,7 @@
     "skippedPages": 0
   },
   "hubspot": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 4,
     "missing": [],
@@ -63,7 +63,7 @@
     "skippedPages": 0
   },
   "kajabi": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 17,
     "missing": [],
@@ -72,7 +72,7 @@
     "skippedPages": 0
   },
   "kit": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 2,
     "missing": [],
@@ -81,7 +81,7 @@
     "skippedPages": 0
   },
   "klaviyo": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 1,
     "missing": [],
@@ -90,7 +90,7 @@
     "skippedPages": 0
   },
   "mailchimp": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 4,
     "missing": [],
@@ -99,7 +99,7 @@
     "skippedPages": 0
   },
   "notion": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 1,
     "missing": [],
@@ -108,7 +108,7 @@
     "skippedPages": 0
   },
   "pipedrive": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 4,
     "missing": [],
@@ -117,7 +117,7 @@
     "skippedPages": 0
   },
   "se-ranking": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 8,
     "missing": [],
@@ -126,7 +126,7 @@
     "skippedPages": 0
   },
   "semrush": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 5,
     "missing": [],
@@ -135,16 +135,16 @@
     "skippedPages": 0
   },
   "shopify": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
-    "checked": 10,
+    "checked": 12,
     "missing": [],
     "pages": 3,
-    "blockedPages": 1,
+    "blockedPages": 0,
     "skippedPages": 0
   },
   "squarespace": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 1,
     "missing": [],
@@ -153,7 +153,7 @@
     "skippedPages": 0
   },
   "systeme-io": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 3,
     "missing": [],
@@ -162,7 +162,7 @@
     "skippedPages": 0
   },
   "webflow": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "not-checkable",
     "checked": 0,
     "missing": [],
@@ -171,7 +171,7 @@
     "skippedPages": 0
   },
   "wix": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 1,
     "missing": [],
@@ -180,7 +180,7 @@
     "skippedPages": 0
   },
   "woocommerce": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "passed",
     "checked": 15,
     "missing": [],
@@ -189,7 +189,7 @@
     "skippedPages": 0
   },
   "zoho-crm": {
-    "ranOn": "2026-09-27",
+    "ranOn": "2026-09-28",
     "status": "not-checkable",
     "checked": 0,
     "missing": [],
