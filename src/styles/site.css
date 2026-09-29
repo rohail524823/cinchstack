@@ -83,6 +83,11 @@ strong { font-weight: 600; }
 .btn:hover { background: var(--ink); color: var(--paper); }
 .btn-aff { background: var(--amber); border-color: var(--amber); color: var(--amber-ink); }
 .btn-aff:hover { background: #9A5409; border-color: #9A5409; color: #fff; }
+.aff-pair { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.aff-pair-inline { display: inline; }
+.paid-note { font-size: 13px; line-height: 1.35; color: var(--mute); }
+.pick .aff-pair { align-self: flex-start; margin-top: 4px; }
+.pick .aff-pair .btn { margin-top: 0; }
 .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn-primary:hover { background: var(--accent-ink); border-color: var(--accent-ink); color: #fff; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 4px 0 24px; }

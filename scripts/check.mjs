@@ -150,6 +150,9 @@ for (const [p, { doc, html, noindex }] of pages) {
   for (const a of doc.querySelectorAll('a.btn-aff, a.aff-inline')) if (a.getAttribute('data-paid') !== '1') fail(p, 'amber styling on a link that does not pay');
   for (const a of paid) {
     if (!/\bsponsored\b/.test(a.getAttribute('rel') ?? '')) fail(p, `paid link without rel=sponsored (${a.getAttribute('data-tool')})`);
+    // Programs want the disclosure right beside each link, not only at the top of the page.
+    const note = a.nextElementSibling;
+    if (!note?.hasAttribute('data-paid-note') || !/\bpaid link\b/i.test(note.textContent)) fail(p, `paid link without a "Paid link" note beside it (${a.getAttribute('data-tool')})`);
     const prog = programs[toolsData[a.getAttribute('data-tool')]?.affiliate?.program ?? ''];
     if (!prog || prog.status !== 'approved' || !prog.template) fail(p, `paid link for ${a.getAttribute('data-tool')} but its program is not approved with a link`);
     else if (prog.rules?.paidOnlyOn && !prog.rules.paidOnlyOn.some((prefix) => p.startsWith(prefix))) fail(p, `paid link for ${a.getAttribute('data-tool')} outside the pages its program allows (${prog.rules.paidOnlyOn.join(', ')})`);

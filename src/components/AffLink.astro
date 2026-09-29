@@ -4,5 +4,11 @@ interface Props { tool: string; href?: string; page: string; placement: string; 
 const { tool, href, page, placement, label, variant = 'button' } = Astro.props;
 const l = resolveLink(tool, { href, page });
 const cls = variant === 'inline' ? (l.paid ? 'aff-inline' : undefined) : (l.paid ? 'btn btn-aff' : 'btn');
+// Programs ask for the disclosure "as close as possible to the affiliate link itself" (HighLevel's
+// policy, June 2026), so every paid link carries its own note, not only the line at the top of the page.
 ---
-<Fragment set:html={`<!-- ${l.marker} -->`} /><a class={cls} href={l.href} rel={l.rel} target="_blank" data-tool={tool} data-placement={placement} data-paid={l.paid ? '1' : '0'}>{label}{variant === 'button' && <span aria-hidden="true"> →</span>}</a>
+<Fragment set:html={`<!-- ${l.marker} -->`} />{l.paid ? (
+  <span class={variant === 'inline' ? 'aff-pair aff-pair-inline' : 'aff-pair'}><a class={cls} href={l.href} rel={l.rel} target="_blank" data-tool={tool} data-placement={placement} data-paid="1">{label}{variant === 'button' && <span aria-hidden="true"> →</span>}</a><span class="paid-note" data-paid-note>{variant === 'inline' ? '(paid link)' : 'Paid link: we earn a commission if you buy.'}</span></span>
+) : (
+  <a class={cls} href={l.href} rel={l.rel} target="_blank" data-tool={tool} data-placement={placement} data-paid="0">{label}{variant === 'button' && <span aria-hidden="true"> →</span>}</a>
+)}

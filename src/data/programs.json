@@ -6,11 +6,11 @@
     "approvedOn": "2026-08-19",
     "template": "{url}?fp_ref=bestaicertifications30&fp_sid={sid}",
     "match": "^https://(www\\.)?gohighlevel\\.com(/|$)",
-    "terms": "40% recurring commission for the life of the customer on Starter, Unlimited, Agency Pro and White Label Mobile App; 5% second tier. A sale counts once the customer account stays in good standing for 45 days. $50 payout minimum; commissions under $50 in a 120-day window are forfeited.",
+    "terms": "40% of every recurring subscription a referred customer pays (HighLevel plans, the White Label Mobile App, certifications, AI Employee and other recurring add-ons) for as long as they keep an active paid subscription; 5% on second-tier referrals. Last-click attribution within a 90-day window. Paid monthly, typically on the 15th, once commissions pass $50; commissions that don’t reach $50 within 120 days may be forfeited.",
     "recurring": true,
     "paysOnTrial": false,
-    "cookieDays": 30,
-    "payoutRail": "Tipalti (set up; monthly, Net-15, paid on the 15th once commissions pass $50)",
+    "cookieDays": 90,
+    "payoutRail": "Tipalti (selected in the affiliate portal, which shows no verification status; tax forms are completed inside Tipalti). Monthly, typically on the 15th, once commissions pass $50.",
     "rules": {
       "mandatoryDisclosure": "I am an independent entity from HighLevel. I am not an agent or employee of HighLevel and have no authority to make any binding commitment on behalf of HighLevel.",
       "noEarningsClaims": true,
@@ -21,9 +21,13 @@
       {
         "date": "2026-08-19",
         "note": "Joined at 40% recurring + 5% second tier."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Checked against the June 2026 agreement: 40% direct and 5% second tier, recurring while the customer stays subscribed; 90-day last-click window (our record said 30 days)."
       }
     ],
-    "notes": "The account (FirstPromoter portal: gohighlevel.firstpromoter.com) is shared with the owner’s other sites, so every CinchStack link keeps the account’s referral code and adds a Sub ID naming the page it sits on (fp_sid=cinchstack-<page path>, e.g. cinchstack-tools-gohighlevel-pricing). Signups from this site therefore show separately, page by page, under Reports > Sub Ids. Do not change the referral code with “Customize Token”: that would break the links already placed on the other sites. HighLevel’s own ready-made links put fp_ref on deep pages (e.g. /pricing), so each button lands on the page it names."
+    "notes": "The account (FirstPromoter portal: gohighlevel.firstpromoter.com) is shared with the owner’s other sites, so every CinchStack link keeps the account’s referral code and adds a Sub ID naming the page it sits on (fp_sid=cinchstack-<page path>, e.g. cinchstack-tools-gohighlevel-pricing). Signups from this site therefore show separately, page by page, under Reports > Sub Ids. Do not change the referral code with “Customize Token”: that would break the links already placed on the other sites. HighLevel’s own ready-made links put fp_ref on deep pages (e.g. /pricing), so each button lands on the page it names. Program Policies (June 2026): the disclosure must sit as close as possible to each affiliate link; HighLevel’s good examples are “(Paid Link)” and “I earn a commission if you buy through my link.”, and a bare “affiliate link” is a bad example, so every paid button carries a “Paid link” note. No discounts, coupons, promo codes, free trials or other incentives unless HighLevel authorizes them in writing. Comments on competitors must be truthful and fair and make clear we don’t speak for HighLevel; no misleading or disparaging statements. After the second referral, a live conversation with a HighLevel team member about affiliate practices is required before further commission payouts. A customer who cancels and re-subscribes under another affiliate within 30 days may lose us the credit. HighLevel reviews affiliate content for compliance (IntegriShield). Portal check, 29 September 2026: referral ID bestaicertifications30 confirmed; Sub ID parameter fp_sid confirmed; cinchstack.com added to the profile’s Website field beside noderow.com; no clicks, commissions or payouts yet."
   },
   "hubspot": {
     "label": "HubSpot affiliate program",

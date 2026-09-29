@@ -15,7 +15,16 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
 - In the portal, **Reports → Sub Ids** shows signups and commissions per Sub ID. Every CinchStack Sub ID starts with `cinchstack-`, so this site's results never mix with the other sites', and you can see which page earns.
 - Don't use **Customize Token**: it changes the referral code for every site at once and breaks the links already placed elsewhere.
 - The link format lives in one place: the `template` of `"gohighlevel"` in `src/data/programs.json` (`{url}?fp_ref=…&fp_sid={sid}`). `{sid}` becomes the page's Sub ID and `{url}` the GoHighLevel page the button names. No page needs editing.
-- What readers see: amber buttons with `rel="sponsored"`, a disclosure at the top of every page that has one, HighLevel's required wording under it, and `/how-we-earn/` listing the program as live. In Google Analytics, clicks arrive as `affiliate_click`; star it as a key event once it shows up in **Admin → Events**.
+- What readers see: amber buttons with `rel="sponsored"`, a "Paid link: we earn a commission if you buy." note under every amber button, a disclosure at the top of every page that has one, HighLevel's required wording under it, and `/how-we-earn/` listing the program as live. In Google Analytics, clicks arrive as `affiliate_click`; star it as a key event once it shows up in **Admin → Events**.
+- **HighLevel's rules (Program Policies, June 2026):**
+  - The disclosure must sit as close as possible to each link, which is why every amber button has its own note; the build fails if one is missing.
+  - No coupons, discounts, free-trial offers or other incentives unless HighLevel authorizes them in writing.
+  - Comparisons with competitors must be truthful and fair and make clear we don't speak for HighLevel.
+  - HighLevel reviews affiliate content for compliance.
+- **Attribution:** last click within 90 days.
+- **After your second referral**, HighLevel requires a live conversation with one of its team about your affiliate practices before it pays further commissions. Watch for their email and book it promptly.
+- **Payouts:** Tipalti is selected in the portal. Tax forms (W-8BEN) are completed inside Tipalti, so log in there once and confirm yours shows as submitted. Commissions are paid monthly, typically on the 15th, once they pass $50; if they don't reach $50 within 120 days, they may be forfeited.
+- **Portal check (29 September 2026):** referral ID and the `fp_sid` Sub ID parameter confirmed; cinchstack.com added to the profile's Website field beside noderow.com; no clicks, commissions or payouts yet, so **Reports → Sub Ids** stays empty until the first real click.
 
 ### 1b. Systeme.io affiliate links (live since 27 September 2026)
 
@@ -139,7 +148,7 @@ Some pages quote a price that a vendor has already said will change on a set dat
 `npm run build` fails when any page:
 
 - quotes a dollar figure that is not in the pricing data,
-- shows a paid link without a disclosure above it, or without `rel="sponsored"`,
+- shows a paid link without a disclosure above it, without a "Paid link" note beside it, or without `rel="sponsored"`,
 - shows amber styling on a link that does not pay,
 - has a broken internal link or a link to a missing section,
 - has an FAQ or breadcrumb that differs from its structured data,
