@@ -23,7 +23,7 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
   - HighLevel reviews affiliate content for compliance.
 - **Attribution:** last click within 90 days.
 - **After your second referral**, HighLevel requires a live conversation with one of its team about your affiliate practices before it pays further commissions. Watch for their email and book it promptly.
-- **Payouts:** Tipalti is selected in the portal. Tax forms (W-8BEN) are completed inside Tipalti, so log in there once and confirm yours shows as submitted. Commissions are paid monthly, typically on the 15th, once they pass $50; if they don't reach $50 within 120 days, they may be forfeited.
+- **Payouts:** through Tipalti, set up and complete since 28 August 2026 (HighLevel's email that day: "You are now ready to receive payment"; registration includes the tax form). Log in at https://suppliers.tipalti.com/HighLevel/account/Login with rohail.nisar786@gmail.com ("Forgot password?" there if needed) to see your payment method, tax form and payments. Don't reuse the registration link from the invitation email; it was one-time. Commissions are paid monthly, typically on the 15th, once they pass $50; if they don't reach $50 within 120 days, they may be forfeited. Payout questions: affiliatepayments@gohighlevel.com.
 - **Portal check (29 September 2026):** referral ID and the `fp_sid` Sub ID parameter confirmed; cinchstack.com added to the profile's Website field beside noderow.com; no clicks, commissions or payouts yet, so **Reports → Sub Ids** stays empty until the first real click.
 
 ### 1b. Systeme.io affiliate links (live since 27 September 2026)

@@ -10,7 +10,7 @@
     "recurring": true,
     "paysOnTrial": false,
     "cookieDays": 90,
-    "payoutRail": "Tipalti (selected in the affiliate portal, which shows no verification status; tax forms are completed inside Tipalti). Monthly, typically on the 15th, once commissions pass $50.",
+    "payoutRail": "Tipalti: registration completed 28 August 2026 (HighLevel’s email: “You are now ready to receive payment”), including the tax-identity step. Payee login: https://suppliers.tipalti.com/HighLevel/account/Login. Monthly, typically on the 15th, once commissions pass $50. Payout questions: affiliatepayments@gohighlevel.com.",
     "rules": {
       "mandatoryDisclosure": "I am an independent entity from HighLevel. I am not an agent or employee of HighLevel and have no authority to make any binding commitment on behalf of HighLevel.",
       "noEarningsClaims": true,
