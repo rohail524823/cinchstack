@@ -131,11 +131,9 @@ The easiest way to do all of this is to paste the issue into Claude Code and ask
 
 ### Dated claims to revisit
 
-Some pages quote a price that a vendor has already said will change on a set date. The weekly check can't catch these, because the old figure stays on the vendor's page. Reword them once the date passes:
+Some pages quote a price that a vendor has already said will change on a set date. The weekly check can't catch these, because the old figure stays on the vendor's page. Reword them once the date passes.
 
-| After | Page | What changes |
-|---|---|---|
-| 30 Sep 2026 | `/tools/kajabi/pricing/` | Kajabi's Expert Agent introductory rate ($49 per agent a month) ends; new agents pay the $79 standard rate. |
+None are pending. The last one, Kajabi's Expert Agent introductory rate, ended on 30 September 2026, and its page was reworded on 1 October. When a new one comes up, list it here as a table with three columns: After (the date), Page, and What changes.
 
 ## Adding a tool or a page
 
