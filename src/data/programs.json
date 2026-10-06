@@ -32,7 +32,7 @@
   "hubspot": {
     "label": "HubSpot affiliate program",
     "network": "Impact (partner account 7439310)",
-    "status": "applied",
+    "status": "declined",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?hubspot\\.com(/|$)",
@@ -48,7 +48,7 @@
       "noBrandBidding": true
     },
     "rateHistory": [],
-    "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310, which holds cinchstack.com (primary) and bestaicertifications.com. Pending under Discover > Invitations > Sent. Once approved: read the contract on Impact, then create links for media property 8909960 (cinchstack.com) with the page’s Sub ID in subId1."
+    "notes": "Applied 27 September 2026 (UTC) from Impact partner account 7439310, which holds cinchstack.com (primary) and bestaicertifications.com. Declined 30 September 2026 by email, with HubSpot’s generic list of reasons (site inactive or under development, audience not aligned, unclear promotion plan, branding inconsistencies) and an invitation to reply with more detail. Re-apply once cinchstack.com has traffic of its own (about 1,000 visits a month), with a note listing the pages that cover HubSpot. If approved later: read the contract on Impact, then create links for media property 8909960 (cinchstack.com) with the page’s Sub ID in subId1."
   },
   "shopify": {
     "label": "Shopify affiliate program",
@@ -124,7 +124,7 @@
   "semrush": {
     "label": "Semrush affiliate program",
     "network": "Impact (partner account 7439310)",
-    "status": "applied",
+    "status": "declined",
     "approvedOn": null,
     "template": null,
     "match": "^https://(www\\.)?semrush\\.com(/|$)",
@@ -140,7 +140,7 @@
       "noBrandBidding": true
     },
     "rateHistory": [],
-    "notes": "Applied 27 September 2026 from Impact partner account 7439310 (display name “Rohail Nisar”; holds cinchstack.com, primary, and bestaicertifications.com). Impact applications come from the whole account, not one site. Pending under Discover > Invitations > Sent; a note linking the four CinchStack pages that feature Semrush was sent the same day through Impact’s message button (replies go to the account email). Semrush’s written rules (Program Information page and FAQ): minimum 1,000 unique monthly visitors, and “if your site is not yet live or has recently been launched, please consider applying later”, so a decline or hold is likely until traffic grows; re-apply then. No bidding on Semrush brand keywords or misspellings in paid ads, and all PPC must be pre-approved. No coupons, no references to non-existent discounts, and a free trial must not be presented as a coupon or discount. No Semrush trademarks in domain, social account or community names. FTC-style disclosure required, with no fixed wording (our disclosure line covers it). Use the tracking link exactly as Impact provides it, including its parameters; direct linking and ad hijacking are banned. Deep linking is supported. Self-referrals, cookie stuffing and misleading claims are banned. Semrush’s full affiliate terms, linked from its FAQ, have not been read yet: read them before the first link goes live. Once approved: create links for media property 8909960 (cinchstack.com) through Impact, with the page’s Sub ID in subId1, so reports separate CinchStack from the other site."
+    "notes": "Applied 27 September 2026 from Impact partner account 7439310 (display name “Rohail Nisar”; holds cinchstack.com, primary, and bestaicertifications.com). Impact applications come from the whole account, not one site. A note linking the four CinchStack pages that feature Semrush was sent the same day through Impact’s message button. Declined 28 September 2026 with the reason “Business model mismatch”. Semrush’s written rules (Program Information page and FAQ): minimum 1,000 unique monthly visitors, and “if your site is not yet live or has recently been launched, please consider applying later”, so re-apply once traffic grows. No bidding on Semrush brand keywords or misspellings in paid ads, and all PPC must be pre-approved. No coupons, no references to non-existent discounts, and a free trial must not be presented as a coupon or discount. No Semrush trademarks in domain, social account or community names. FTC-style disclosure required, with no fixed wording (our disclosure line covers it). Use the tracking link exactly as Impact provides it, including its parameters; direct linking and ad hijacking are banned. Deep linking is supported. Self-referrals, cookie stuffing and misleading claims are banned. Semrush’s full affiliate terms, linked from its FAQ, have not been read yet: read them before the first link goes live. If approved later: create links for media property 8909960 (cinchstack.com) through Impact, with the page’s Sub ID in subId1, so reports separate CinchStack from the other site."
   },
   "klaviyo": {
     "label": "Klaviyo partner program",

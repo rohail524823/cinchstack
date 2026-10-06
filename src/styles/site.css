@@ -224,3 +224,22 @@ sup.fn a { text-decoration: none; }
 .consent .consent-actions { display: flex; gap: 10px; margin: 0; }
 .consent .btn { flex: 1; cursor: pointer; font-family: inherit; }
 #analytics-choice .btn { cursor: pointer; font-family: inherit; }
+
+/* Services page */
+.pkgs { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin: 18px 0; }
+.pkg { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; display: flex; flex-direction: column; }
+.pkg h3 { margin: 4px 0 2px; font-size: 21px; }
+.pkg p, .pkg ul { margin: 6px 0; font-size: 15.5px; }
+.pkg ul { padding-left: 18px; }
+.pkg-price { font: 600 19px var(--body); }
+.pkg-honest { color: var(--soft); border-top: 1px solid var(--rule); padding-top: 8px; }
+.pkg p:last-child { margin-top: auto; padding-top: 8px; }
+.pkg-care { font-size: 15.5px; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.cta-row .btn { flex: 0 1 auto; }
+.form-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 14px; }
+.form .check { display: flex; gap: 10px; align-items: flex-start; }
+.form .check input { width: auto; margin-top: 5px; }
+.form .check label { font-weight: 400; }
+.svc-box { border: 1px dashed var(--rule-strong, #bdb6a6); border-radius: var(--radius); padding: 14px 16px; margin: 26px 0; font-size: 15.5px; }
+.svc-box p { margin: 0; }

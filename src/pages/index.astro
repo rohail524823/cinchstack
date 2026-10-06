@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE, TAGLINE } from '../lib/site.mjs';
-import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing } from '../lib/data.mjs';
+import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing, checks } from '../lib/data.mjs';
 import { registry } from '../lib/pages.mjs';
 import { longDate } from '../lib/format.mjs';
 import { itemListNode, webPageNode } from '../lib/jsonld.mjs';
@@ -16,6 +16,9 @@ const liveCompare = Object.values(comparisons).filter((c) => reg.has(`/compare/$
 const realChanges = changelog.filter((c) => c.kind !== 'initial-record').slice(0, 5);
 const toolsTracked = Object.keys(pricing).length;
 const latest = Object.values(pricing).map((p) => p.checkedOn).sort().at(-1);
+// The weekly script re-reads every vendor page it can; its date is fresher than the last manual record.
+const passed = Object.values(checks).filter((c) => c.status === 'passed');
+const lastRun = passed.map((c) => c.ranOn).sort().at(-1);
 const path = '/';
 const url = `${SITE}/`;
 const title = `CinchStack — ${TAGLINE}`;
@@ -31,7 +34,7 @@ const ld = [
       <p class="lbl">CinchStack recommends</p>
       <h1>The software stack that's best for your business, and what it really costs.</h1>
       <p class="lede">Pick your kind of business. We name one tool for each job, say when to choose something else, and add up the whole monthly bill with every add-on counted. Every price is read from the vendor's own pricing page, dated, and checked again each week.</p>
-      {latest && <p class="muted small">{toolsTracked} tools tracked · prices last checked <time datetime={latest}>{longDate(latest)}</time></p>}
+      {latest && <p class="muted small">{toolsTracked} tools tracked · {lastRun && lastRun > latest ? <>prices for {passed.length} re-checked automatically on <time datetime={lastRun}>{longDate(lastRun)}</time></> : <>prices last checked <time datetime={latest}>{longDate(latest)}</time></>}</p>}
     </section>
 
     {liveStacks.length > 0 && (

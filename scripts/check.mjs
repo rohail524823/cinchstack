@@ -165,6 +165,11 @@ for (const [p, { doc, html, noindex }] of pages) {
     const firstPaid = paid[0];
     if (disc && firstPaid && (disc.compareDocumentPosition(firstPaid) & 4) === 0) fail(p, 'disclosure appears after the first paid link');
   }
+  // 11b. the editor's own paid-service box: never inside editorial text, a score, a table or a pick
+  for (const box of doc.querySelectorAll('[data-svc]')) {
+    if (box.closest('.prose-body, [data-prose], [data-quick-answer], table, .pick, .picks, .score, [data-score], [data-verdict]')) fail(p, 'service box inside editorial text, a score, a table or a pick');
+    if (!/our own paid service/i.test(text(box))) fail(p, 'service box without its "Our own paid service" label');
+  }
   // 12. banned lexicon (main content, excluding the mandated disclosure text)
   if (main) {
     const clone = main.cloneNode(true);

@@ -1,7 +1,7 @@
 // Loads and validates every data file once, at build time. Invalid data fails the build.
 import {
   pricingSchema, toolSchema, scoreSchema, programSchema, comparisonSchema, stackSchema,
-  alternativesSchema, faqSchema, changelogSchema, pricingIntegrity, SIZES, LAYERS,
+  alternativesSchema, faqSchema, changelogSchema, servicesSchema, pricingIntegrity, SIZES, LAYERS,
 } from './schemas.mjs';
 
 function collect(globbed, schema, kind) {
@@ -36,6 +36,9 @@ export const programs = Object.fromEntries(
 const changelogRaw = import.meta.glob('../data/changelog.json', { eager: true });
 export const changelog = changelogSchema.parse(Object.values(changelogRaw)[0]?.default ?? [])
   .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : a.tool.localeCompare(b.tool)));
+const servicesRaw = import.meta.glob('../data/services.json', { eager: true });
+/** The editor's own paid services, shown on /services/ and in the labelled box after verdicts. */
+export const services = servicesSchema.parse(Object.values(servicesRaw)[0]?.default ?? {});
 const datesRaw = import.meta.glob('../data/_dates.json', { eager: true });
 export const pageDates = Object.values(datesRaw)[0]?.default ?? {};
 const checksRaw = import.meta.glob('../data/_checks.json', { eager: true });

@@ -18,6 +18,7 @@ import PickCards from '../../components/PickCards.astro';
 import Provenance from '../../components/Provenance.astro';
 import Faq from '../../components/Faq.astro';
 import AuthorBox from '../../components/AuthorBox.astro';
+import ServiceBox from '../../components/ServiceBox.astro';
 import KeepReading from '../../components/KeepReading.astro';
 import Updated from '../../components/Updated.astro';
 import Fig from '../../components/Fig.astro';
@@ -84,6 +85,7 @@ const jsonld = [
       </div>
       <Provenance ids={[id, ...picks]} />
       <Faq items={faq} />
+      <ServiceBox scope="alternatives" />
       <AuthorBox />
       <KeepReading links={related} />
       <Updated modified={d.modified} published={d.published} />

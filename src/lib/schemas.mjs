@@ -222,6 +222,27 @@ export const faqSchema = z.object({
   items: z.array(z.object({ q: z.string().min(8), a: z.string().min(40) })).min(4).max(10),
 });
 
+// The editor's own paid services (/services/). Prices are set by the editor, not read from a vendor.
+export const servicesSchema = z.object({
+  updated: isoDate,
+  provider: z.string(),
+  upworkUrl: z.string().url(),
+  proof: z.object({ asOf: isoDate, badge: z.string(), jobs: z.number().int(), earnings: z.string(), note: z.string() }),
+  packages: z.array(z.object({
+    id: z.string().regex(/^[a-z0-9-]+$/),
+    name: z.string(),
+    kind: z.string(),
+    for: z.string(),
+    deliverables: z.array(z.string()).min(3),
+    timeline: z.string(),
+    price: z.number().positive(),
+    from: z.boolean(),
+    terms: z.string(),
+    honesty: z.string(),
+  })).min(1),
+  care: z.object({ name: z.string(), price: z.number().positive(), unit: z.string(), what: z.string() }),
+});
+
 export const changelogSchema = z.array(z.object({
   date: isoDate,
   tool: id,

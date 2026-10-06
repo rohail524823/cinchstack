@@ -1,0 +1,115 @@
+{
+  "updated": "2026-10-06",
+  "provider": "Rohail Nisar",
+  "upworkUrl": "https://www.upwork.com/freelancers/~019d1190b8777b2000",
+  "proof": {
+    "asOf": "2026-10-06",
+    "badge": "Top Rated on Upwork",
+    "jobs": 121,
+    "earnings": "$100K+ earned on Upwork",
+    "note": "Read from Rohail's public Upwork profile. Jobs are contracts, not clients."
+  },
+  "packages": [
+    {
+      "id": "stack-check",
+      "name": "Stack Check",
+      "kind": "Software stack review",
+      "for": "Solo to 20-person businesses choosing or untangling their CRM, email, funnel and automation tools, or paying for tools that overlap.",
+      "deliverables": [
+        "45-minute call about how the business runs today",
+        "Review of every tool you pay for, and what each one costs",
+        "Written report: keep, cut or switch, tool by tool",
+        "Monthly cost now against the proposed stack, using this site's dated pricing records",
+        "The three fixes worth doing first, ranked by effort and payoff",
+        "A 30-day plan"
+      ],
+      "timeline": "5 business days",
+      "price": 200,
+      "from": false,
+      "terms": "Credited in full against any build booked within 30 days.",
+      "honesty": "If nothing needs to change, or a free plan will do, the report says so."
+    },
+    {
+      "id": "automation",
+      "name": "Automation Build",
+      "kind": "Zapier, Make or n8n",
+      "for": "Teams retyping the same data between two to four tools: forms into the CRM, orders into a sheet, invoices into accounting.",
+      "deliverables": [
+        "One end-to-end workflow, built in your own account",
+        "Duplicate checks, error handling, retries and failure alerts",
+        "A test log run with real records",
+        "Written documentation and a short video walkthrough",
+        "30 days of fixes"
+      ],
+      "timeline": "3 to 7 business days",
+      "price": 400,
+      "from": true,
+      "terms": "Extra workflows are quoted after the call.",
+      "honesty": "If the tool you already pay for has a built-in automation that covers it, you will hear that first."
+    },
+    {
+      "id": "crm",
+      "name": "CRM Setup and Migration",
+      "kind": "HubSpot, Pipedrive, Zoho CRM, GoHighLevel and others",
+      "for": "Businesses moving off spreadsheets, or from one CRM to another.",
+      "deliverables": [
+        "Pipeline, stages and custom fields",
+        "Import and clean-up of contacts from one source (up to 10,000)",
+        "Web form, email and calendar connected",
+        "Three to five automations: lead routing, follow-ups, reminders",
+        "One dashboard, and user accounts set up",
+        "One hour of training, recorded",
+        "30 days of support"
+      ],
+      "timeline": "2 to 3 weeks",
+      "price": 1200,
+      "from": true,
+      "terms": "Extra data sources, integrations or several teams are quoted after the call.",
+      "honesty": "Only need a basic GoHighLevel account set up? HighLevel sells its own done-for-you setup for $299. Use that."
+    },
+    {
+      "id": "ai-assistant",
+      "name": "AI Website Assistant",
+      "kind": "A chat assistant that answers from your own documents",
+      "for": "Local and service businesses whose inbox fills with the same questions about prices, policies and booking.",
+      "deliverables": [
+        "Assistant trained on your site pages and documents",
+        "Answers limited to those sources, with rules for handing off to a person",
+        "Leads captured into your CRM, plus your booking link",
+        "Hand-off to a person by email or text message",
+        "A 30-question test set, with the results",
+        "Built in a platform account you own"
+      ],
+      "timeline": "1 to 2 weeks",
+      "price": 800,
+      "from": true,
+      "terms": "The chat platform's own monthly fee is separate and paid by you.",
+      "honesty": "If an off-the-shelf chat tool covers your questions on its own, you will hear that on the call."
+    },
+    {
+      "id": "ai-voice",
+      "name": "AI Voice Receptionist",
+      "kind": "Answers calls, books appointments, sends summaries",
+      "for": "Trades, clinics, salons and repair shops that miss calls while they work.",
+      "deliverables": [
+        "Voice agent in an account you own, on a new number or call forwarding",
+        "Call script and a knowledge base of your answers",
+        "Bookings into your calendar or CRM, with text confirmations",
+        "Call summaries to email or your CRM",
+        "Transfer and escalation rules",
+        "A set of test calls, and 30 days of tuning"
+      ],
+      "timeline": "2 to 3 weeks",
+      "price": 1200,
+      "from": true,
+      "terms": "Call minutes and the phone number are billed by the voice platform to you.",
+      "honesty": "If a ready-made AI receptionist covers your calls for a monthly fee, you will hear that on the call."
+    }
+  ],
+  "care": {
+    "name": "Keep it running",
+    "price": 120,
+    "unit": "/mo",
+    "what": "Monitoring, fixes and small changes to what was built. Optional, and you can stop it any month."
+  }
+}

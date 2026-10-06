@@ -20,6 +20,7 @@ import CostsTable from '../../../components/CostsTable.astro';
 import Provenance from '../../../components/Provenance.astro';
 import Faq from '../../../components/Faq.astro';
 import AuthorBox from '../../../components/AuthorBox.astro';
+import ServiceBox from '../../../components/ServiceBox.astro';
 import KeepReading from '../../../components/KeepReading.astro';
 import Updated from '../../../components/Updated.astro';
 
@@ -90,6 +91,7 @@ const glance = [
         {p.trial.days ? <span class="note">{t.name} offers a {p.trial.days}-day trial{p.trial.cardRequired === false ? ' with no card required' : ''}.</span> : null}
       </div>
       <Faq items={faq} />
+      <ServiceBox scope="tool" />
       <AuthorBox />
       <KeepReading links={related} />
       <Updated modified={d.modified} published={d.published} />

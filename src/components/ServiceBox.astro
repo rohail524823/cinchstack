@@ -1,0 +1,10 @@
+---
+// The labelled box for the editor's own paid service. It is the same on every page of a kind,
+// sits after the verdict and FAQ, and never inside a score, table or pick (scripts/check.mjs).
+interface Props { scope?: 'tool' | 'stack' | 'compare' | 'alternatives' }
+const { scope = 'tool' } = Astro.props;
+const which = { tool: 'this tool or any tool it competes with', stack: 'any tool in this stack or its alternatives', compare: 'either tool', alternatives: 'any tool on this page' }[scope];
+---
+<aside class="svc-box" data-svc aria-label="Our own paid service">
+  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor does setup, migration and automation work for a fee, at the same price for {which}. It is separate from the review above. <a href="/services/">See the packages</a>.</p>
+</aside>

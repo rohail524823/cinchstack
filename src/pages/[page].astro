@@ -16,6 +16,9 @@ import ContactForm from '../components/trust/ContactForm.astro';
 import Factors from '../components/trust/Factors.astro';
 import Coverage from '../components/trust/Coverage.astro';
 import Analytics from '../components/trust/Analytics.astro';
+import Packages from '../components/trust/Packages.astro';
+import ServicesForm from '../components/trust/ServicesForm.astro';
+import { services } from '../lib/data.mjs';
 
 export async function getStaticPaths() {
   const reg = await registry();
@@ -39,7 +42,17 @@ if (slug === 'about') {
   // The author page: a ProfilePage whose main entity is the Person node already in the graph.
   extra.push({ '@type': 'ProfilePage', '@id': `${url}#profile`, url, name: `${AUTHOR.name}, ${AUTHOR.jobTitle} of CinchStack`, mainEntity: { '@id': AUTHOR_ID }, dateCreated: d.published, dateModified: d.modified });
 }
-const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage, Analytics };
+if (slug === 'services') {
+  // One Service node per package, offered by the editor (the Person node already in the graph).
+  for (const p of services.packages) {
+    extra.push({
+      '@type': 'Service', '@id': `${url}#pkg-${p.id}`, name: p.name, description: p.for, serviceType: p.kind,
+      provider: { '@id': AUTHOR_ID }, areaServed: 'Worldwide', url: `${url}#pkg-${p.id}`,
+      offers: { '@type': 'Offer', priceCurrency: 'USD', ...(p.from ? { priceSpecification: { '@type': 'PriceSpecification', minPrice: p.price, priceCurrency: 'USD' } } : { price: p.price }) },
+    });
+  }
+}
+const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage, Analytics, Packages, ServicesForm };
 ---
 <Base title={e.data.title} description={e.data.description} path={path} noindex={NOINDEX.has(slug)} ogType="website" jsonld={[breadcrumbNode(url, crumbs), page, ...extra]}>
   <div class="wrap page">

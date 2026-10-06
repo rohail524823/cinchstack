@@ -19,6 +19,7 @@ import ScorePanel from '../../../components/ScorePanel.astro';
 import Provenance from '../../../components/Provenance.astro';
 import Faq from '../../../components/Faq.astro';
 import AuthorBox from '../../../components/AuthorBox.astro';
+import ServiceBox from '../../../components/ServiceBox.astro';
 import KeepReading from '../../../components/KeepReading.astro';
 import Updated from '../../../components/Updated.astro';
 import Fig from '../../../components/Fig.astro';
@@ -98,6 +99,7 @@ const glance = [
       <Provenance ids={[id]} />
       <div class="cta-row"><AffLink tool={id} page={path} placement="end-cta" label={`Go to ${t.name}`} /></div>
       <Faq items={faq} />
+      <ServiceBox scope="tool" />
       <AuthorBox />
       <KeepReading links={related} />
       <Updated modified={d.modified} published={d.published} />

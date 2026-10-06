@@ -1,0 +1,21 @@
+---
+// The editor's service packages, from src/data/services.json. Plain styling only: amber is
+// reserved for affiliate links, and none of these links pay anyone.
+import { services } from '../../lib/data.mjs';
+import Fig from '../Fig.astro';
+---
+<div class="pkgs">
+  {services.packages.map((p) => (
+    <section class="pkg" id={`pkg-${p.id}`} aria-labelledby={`pkg-${p.id}-h`}>
+      <p class="tag">{p.kind}</p>
+      <h3 id={`pkg-${p.id}-h`}>{p.name}</h3>
+      <p class="pkg-price"><Fig v={p.price} floor={p.from} /> <span class="muted small">· {p.timeline}</span></p>
+      <p class="pkg-for">{p.for}</p>
+      <ul>{p.deliverables.map((d) => <li>{d}</li>)}</ul>
+      <p class="small">{p.terms}</p>
+      <p class="small pkg-honest">{p.honesty}</p>
+      <p><a class="btn" href="#start">Ask about {p.name}</a></p>
+    </section>
+  ))}
+</div>
+<p class="pkg-care"><strong>{services.care.name}:</strong> <Fig v={services.care.price} suffix={services.care.unit} />. {services.care.what}</p>

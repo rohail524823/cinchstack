@@ -1,0 +1,91 @@
+---
+// Netlify Forms, like the contact form: no JavaScript, a honeypot, and a redirect to /thanks/.
+// "How did you find us?" is required: it records that a client met Rohail here, not on Upwork,
+// which is what Upwork's rules turn on (see docs/OPERATIONS.md, "Services").
+import { services } from '../../lib/data.mjs';
+---
+<form class="form" id="start" name="services" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="company">
+  <input type="hidden" name="form-name" value="services">
+  <p class="hp" aria-hidden="true"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+  <div class="form-2">
+    <p><label for="s-name">Your name</label><input id="s-name" name="name" required autocomplete="name"></p>
+    <p><label for="s-email">Your email</label><input id="s-email" name="email" type="email" required autocomplete="email"></p>
+  </div>
+  <div class="form-2">
+    <p><label for="s-biz">Your business</label>
+      <select id="s-biz" name="business" required>
+        <option value="">Choose one</option>
+        <option>Agency</option>
+        <option>Coach or course creator</option>
+        <option>Online store</option>
+        <option>Local service business</option>
+        <option>Freelancer or consultant</option>
+        <option>Software startup</option>
+        <option>Something else</option>
+      </select></p>
+    <p><label for="s-size">Team size</label>
+      <select id="s-size" name="team" required>
+        <option value="">Choose one</option>
+        <option>Just me</option>
+        <option>2 to 5</option>
+        <option>6 to 20</option>
+        <option>21 or more</option>
+      </select></p>
+  </div>
+  <p><label for="s-pkg">What do you need?</label>
+    <select id="s-pkg" name="package" required>
+      <option value="">Choose one</option>
+      {services.packages.map((p) => <option value={p.id}>{p.name}</option>)}
+      <option value="other">Something else (spreadsheets, dashboards, an integration)</option>
+      <option value="not-sure">Not sure yet</option>
+    </select></p>
+  <p><label for="s-tools">Tools you use now</label><input id="s-tools" name="tools" required placeholder="For example: Gmail, HubSpot free, Google Sheets, Shopify"></p>
+  <p><label for="s-what">What should be fixed or built?</label><textarea id="s-what" name="brief" rows="5" required placeholder="Where does work get retyped, or leads get lost?"></textarea></p>
+  <div class="form-2">
+    <p><label for="s-when">When do you need it? <span class="muted">(optional)</span></label>
+      <select id="s-when" name="timeline">
+        <option value="">Choose one</option>
+        <option>This month</option>
+        <option>In 1 to 3 months</option>
+        <option>Just exploring</option>
+      </select></p>
+    <p><label for="s-budget">Budget <span class="muted">(optional)</span></label>
+      <select id="s-budget" name="budget">
+        <option value="">Choose one</option>
+        <option>Under 500 US dollars</option>
+        <option>500 to 1,500 US dollars</option>
+        <option>1,500 to 3,000 US dollars</option>
+        <option>Over 3,000 US dollars</option>
+        <option>Not sure</option>
+      </select></p>
+  </div>
+  <div class="form-2">
+    <p><label for="s-pay">How would you like to pay? <span class="muted">(optional)</span></label>
+      <select id="s-pay" name="payment">
+        <option value="">Choose one</option>
+        <option>Direct invoice (card or bank)</option>
+        <option>Through Upwork</option>
+        <option>No preference</option>
+      </select></p>
+    <p><label for="s-upwork">Do you already hire on Upwork? <span class="muted">(optional)</span></label>
+      <select id="s-upwork" name="upwork-client">
+        <option value="">Choose one</option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Not sure</option>
+      </select></p>
+  </div>
+  <p><label for="s-found">How did you find us?</label>
+    <select id="s-found" name="found" required>
+      <option value="">Choose one</option>
+      <option>A page on CinchStack</option>
+      <option>A search engine</option>
+      <option>An AI assistant</option>
+      <option>Someone recommended you</option>
+      <option>Upwork</option>
+      <option>Somewhere else</option>
+    </select></p>
+  <p><label for="s-page">Page you came from <span class="muted">(optional)</span></label><input id="s-page" name="page" type="url" placeholder="https://cinchstack.com/stacks/…"></p>
+  <p class="check"><input id="s-ok" name="consent" type="checkbox" required value="yes"><label for="s-ok">Use my details only to reply about this project. See the <a href="/privacy/">privacy notice</a>.</label></p>
+  <p><button class="btn btn-primary" type="submit">Send project details</button></p>
+</form>

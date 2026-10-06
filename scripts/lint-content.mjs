@@ -115,7 +115,7 @@ for (const file of files) {
     if (m[1] === 'Price' && attrs.plan) { const pl = data.pricing[t].plans.find((p) => p.id === attrs.plan); const fld = attrs.field ?? 'monthly'; if (pl && pl[fld] == null) bad(`<Price tool="${t}" plan="${attrs.plan}" field="${fld}"> is null in the data`); }
     if (m[1] === 'Real' && !SIZES.includes(attrs.size)) bad(`<Real size="${attrs.size}"> must be solo|small|growing`);
   }
-  for (const m of body.matchAll(/<([A-Z]\w*)\b/g)) if (!['Price', 'Real', 'Stack', 'Checked', 'T', 'Programs', 'Mandated', 'ContactForm', 'Factors', 'Coverage', 'Analytics'].includes(m[1])) bad(`unknown component <${m[1]}>`);
+  for (const m of body.matchAll(/<([A-Z]\w*)\b/g)) if (!['Price', 'Real', 'Stack', 'Checked', 'T', 'Programs', 'Mandated', 'ContactForm', 'Factors', 'Coverage', 'Analytics', 'Packages', 'ServicesForm'].includes(m[1])) bad(`unknown component <${m[1]}>`);
   // links
   for (const m of body.matchAll(/\]\((\/[^)\s]*)\)/g)) {
     const href = m[1].split('#')[0];

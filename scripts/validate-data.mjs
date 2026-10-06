@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   pricingSchema, toolSchema, scoreSchema, programSchema, comparisonSchema, stackSchema,
-  alternativesSchema, faqSchema, changelogSchema, pricingIntegrity,
+  alternativesSchema, faqSchema, changelogSchema, servicesSchema, pricingIntegrity,
 } from '../src/lib/schemas.mjs';
 
 const ROOT = 'src/data';
@@ -22,7 +22,7 @@ function listAll() {
     if (!fs.existsSync(d)) continue;
     for (const f of fs.readdirSync(d)) if (f.endsWith('.json') && !f.startsWith('_')) out.push(path.join(d, f));
   }
-  for (const f of ['programs.json', 'changelog.json']) if (fs.existsSync(path.join(ROOT, f))) out.push(path.join(ROOT, f));
+  for (const f of ['programs.json', 'changelog.json', 'services.json']) if (fs.existsSync(path.join(ROOT, f))) out.push(path.join(ROOT, f));
   return out;
 }
 
@@ -41,6 +41,7 @@ for (const file of files) {
   let schema = kinds[kind];
   if (base === 'programs') schema = null;
   if (base === 'changelog') schema = changelogSchema;
+  if (base === 'services') schema = servicesSchema;
   if (base === 'programs') {
     for (const [k, v] of Object.entries(data)) {
       const r = programSchema.safeParse(v);

@@ -19,6 +19,7 @@ import AffLink from '../../components/AffLink.astro';
 import Provenance from '../../components/Provenance.astro';
 import Faq from '../../components/Faq.astro';
 import AuthorBox from '../../components/AuthorBox.astro';
+import ServiceBox from '../../components/ServiceBox.astro';
 import KeepReading from '../../components/KeepReading.astro';
 import Updated from '../../components/Updated.astro';
 
@@ -76,6 +77,7 @@ const jsonld = [
       </div>
       <Provenance ids={[c.a, c.b]} />
       <Faq items={faq} />
+      <ServiceBox scope="compare" />
       <AuthorBox />
       <KeepReading links={related} />
       <Updated modified={d.modified} published={d.published} />
