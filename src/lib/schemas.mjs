@@ -168,6 +168,16 @@ export const programSchema = z.object({
   }),
   rateHistory: z.array(z.object({ date: isoDate, note: z.string() })).default([]),
   notes: z.string().optional(),
+  // A trial the program has authorized us in writing to promote (programs with noUnauthorizedOffers
+  // bar trial wording otherwise). Used for the closing button on that tool's own pages.
+  trialOffer: z.object({
+    href: z.string().url(),
+    days: z.number().int().positive(),
+    label: z.string(),
+    note: z.string(),
+    authorized: z.string(),
+    snapshot: z.string(),
+  }).optional(),
 });
 
 export const comparisonSchema = z.object({

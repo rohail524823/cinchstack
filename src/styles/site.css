@@ -92,6 +92,7 @@ strong { font-weight: 600; }
 .btn-primary:hover { background: var(--accent-ink); border-color: var(--accent-ink); color: #fff; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; margin: 4px 0 24px; }
 .cta-row .note { font-size: 14px; color: var(--mute); line-height: 46px; }
+.cta-row .offer-note { flex-basis: 100%; margin: 0; font-size: 14px; color: var(--mute); }
 
 /* tables */
 .table-lead { font-size: 15.5px; color: var(--soft); margin-bottom: 10px; }

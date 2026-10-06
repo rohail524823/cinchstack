@@ -104,7 +104,7 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
 
 **Rules that shape these pages:**
 - No earnings claims.
-- No trial, coupon or bonus wording near HighLevel links unless HighLevel authorises it in writing (asked by email on 6 October 2026).
+- No coupon or bonus wording near HighLevel links, and trial wording only as HighLevel authorised it in writing on 6 October 2026: the 30-day Bootcamp trial, on the closing button of GoHighLevel's own pages (`trialOffer` in `programs.json`).
 - No sentence reused on more than three pages: the build enforces it, so each vertical page needs real substance.
 - No first-hand claims without a trial record.
 
@@ -133,7 +133,7 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
   - A GoHighLevel link under "Who should stay" on its alternatives page.
   - Buttons that say "See X's plans and prices" now open the vendor's pricing page, and paid inline links are amber like paid buttons.
   - Systeme.io links on comparison pages stay plain until Systeme.io answers the trademark question in writing. A shortcut that sent those readers to our paid Systeme.io page was tried and withdrawn on review.
-  - No trial wording beside HighLevel's paid links (its policy bars unauthorised trial offers).
+  - No trial wording beside HighLevel's paid links (its policy bars unauthorised trial offers), until HighLevel authorised it in writing later the same day.
   - Clearer button labels.
 - **Design fixes:**
   - Amber darkened to pass WCAG AA.
@@ -148,10 +148,12 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
   - Systeme.io paid links narrowed to its competitor-free pages until Systeme.io answers.
   - Price-change alerts built behind one switch (`ALERTS_URL`), waiting only for an opt-in page.
   - Analytics counts sent enquiries (`generate_lead`) and alerts clicks; build checks tightened (each program's required disclosure wording; buttons no longer counted as prose).
+  - HighLevel's affiliate manager answered in writing: trial wording is allowed and every affiliate has a 30-day trial link (the HighLevel Bootcamp page). The closing button on GoHighLevel's pricing page, review and cost guides now reads "Start your 30-day free trial" and goes there, with a note on what the trial still charges. Comparison and stack pages keep neutral buttons. Clicks arrive in Analytics with placement `end-trial` or `guide-trial`.
 
 ## 5. Owner's to-do list, in order
 
-1. **Watch for three replies** (all emailed on 6 October 2026): HighLevel's affiliate manager on trial wording, an extended-trial page and a referral slug; Systeme.io support (reply promised within 24 hours) on whether comparison pages may carry its link; and HubSpot's affiliate team, answering the reply to its decline. Forward each answer to Claude Code; each is a small change.
+1. **Watch for two replies** (both emailed on 6 October 2026): Systeme.io support on whether comparison pages may carry its link (they wrote back that the question is with "the relevant team member"), and HubSpot's affiliate team, answering the reply to its decline. Forward each answer to Claude Code; each is a small change. HighLevel's affiliate manager has already answered, and the 30-day trial button is live.
+   - Optional: HighLevel's affiliate strategy sessions, which Devesh Khatri invited you to (speakwith.us/deveshstrategy; the first offered was 10 AM US Central on 6 October, 8 PM in Pakistan). While in the affiliate dashboard, check that its "HighLevel Bootcamp" link is `gohighlevel.com/highlevel-bootcamp`; if it shows another page, send Claude Code the link.
 2. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
 3. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough). Then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
 4. **HighLevel Certified Admin directory:** it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one, so it is the most likely source of paying setup clients while the site has little traffic. It costs $97/month and needs an active HighLevel subscription as well (Starter is $97/month), so about $194/month in all. The subscription also gives you the hands-on access the site's GoHighLevel pages can then cite as first-hand evidence. Your call: one $400 setup job a month covers it.
@@ -173,4 +175,4 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
 
 - **MailerLite's payout method.** The marketing-programs report says Tipalti. The demand report says its terms list final payouts "exclusively via PayPal". Read the current terms before building MailerLite pages.
 - **GetResponse, Brevo and other PartnerStack programs.** One report says the vendor's own external application link avoids the Network gate. Another treats the whole platform as blocked. Try the external links for Pipedrive and GetResponse; the result settles it.
-- **HighLevel trial links.** HighLevel's help centre says 30-day trial links are for affiliates with 100+ active customers. Expect a no to the extended-trial question, and keep plain "See plans" wording until HighLevel answers.
+- **HighLevel trial links (resolved 6 October 2026).** HighLevel's help center said 30-day trial links were for affiliates with 100+ active customers, but the affiliate manager wrote that every affiliate has one (the HighLevel Bootcamp link). His written answer is what the site follows.

@@ -83,6 +83,11 @@ export function paysUsOn(id, page) {
   const only = program(id)?.rules?.paidOnlyOn;
   return paysUs(id) && (!only || only.some((prefix) => page.startsWith(prefix)));
 }
+/** A trial the tool's program authorized in writing, offered only where its links pay us. */
+export function trialOffer(id, page) {
+  const o = program(id)?.trialOffer;
+  return o && paysUsOn(id, page) ? o : null;
+}
 export function scenario(id, size) {
   return price(id).scenarios.find((s) => s.size === size);
 }

@@ -4,7 +4,7 @@
 import Base from '../../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../../lib/site.mjs';
-import { tool, price, faqs } from '../../../lib/data.mjs';
+import { tool, price, faqs, trialOffer } from '../../../lib/data.mjs';
 import { registry, relatedFor, exists, guideParts } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { poss } from '../../../lib/format.mjs';
@@ -37,6 +37,7 @@ const p = price(id);
 const e = r.entry;
 const path = `/tools/${id}/${topic}/`;
 const url = `${SITE}${path}`;
+const offer = trialOffer(id, path);
 const { Content } = await render(e);
 const faq = faqs[`guides--${r.slug}`]?.items ?? [];
 const d = datesFor(e);
@@ -63,8 +64,11 @@ const jsonld = [
         <Content components={mdxComponents} />
       </div>
       <div class="cta-row">
-        <AffLink tool={id} href={t.pricingUrl} page={path} placement="guide-end" label={`See ${poss(t.name)} plans and prices`} />
+        {offer
+          ? <AffLink tool={id} href={offer.href} page={path} placement="guide-trial" label={offer.label} />
+          : <AffLink tool={id} href={t.pricingUrl} page={path} placement="guide-end" label={`See ${poss(t.name)} plans and prices`} />}
         {pricingExists && <a class="btn" href={`/tools/${id}/pricing/`}>Every {t.name} price, line by line</a>}
+        {offer && <p class="offer-note">{offer.note}</p>}
       </div>
       <Provenance ids={[id]} />
       <AlertsCta place="guide" />

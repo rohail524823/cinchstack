@@ -46,6 +46,10 @@ for (const file of files) {
     for (const [k, v] of Object.entries(data)) {
       const r = programSchema.safeParse(v);
       if (!r.success) r.error.issues.forEach((i) => fail(file, `${k}.${i.path.join('.')}: ${i.message}`));
+      if (v.trialOffer) {
+        if (!new RegExp(v.match).test(v.trialOffer.href)) fail(file, `${k}.trialOffer.href is not on the program's own site`);
+        if (!fs.existsSync(v.trialOffer.snapshot)) fail(file, `${k}.trialOffer.snapshot missing: ${v.trialOffer.snapshot}`);
+      }
       if (v.status === 'approved' && v.template && !v.template.includes('{url_enc}') && !v.template.includes('{url}')) {
         // allowed: fixed referral links (e.g. ?fp_ref=code) — no destination substitution
       }

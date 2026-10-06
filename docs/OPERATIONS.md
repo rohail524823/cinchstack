@@ -19,6 +19,8 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
 - **HighLevel's rules (Program Policies, June 2026):**
   - The disclosure must sit as close as possible to each link, which is why every amber button has its own note; the build fails if one is missing.
   - No coupons, discounts, free-trial offers or other incentives unless HighLevel authorizes them in writing.
+    **Authorized on 6 October 2026:** Devesh Khatri, the affiliate manager, replied in writing that trial wording on our buttons is fine ("something like 'Start your Free Trial now'") and that every affiliate has a 30-day trial link, the **HighLevel Bootcamp** link in the dashboard (`https://www.gohighlevel.com/highlevel-bootcamp`). So the closing button on GoHighLevel's pricing page, review page and cost guides now reads "Start your 30-day free trial" and goes to that page with our referral code and Sub ID, with a note on what the trial charges (payment details at signup, usage fees during the trial, monthly billing after it). The wording, link and note live in `trialOffer` in `src/data/programs.json`, with his words in `authorized` and a dated copy of the page in `snapshots/gohighlevel/`. Comparison and stack pages keep the neutral "See GoHighLevel's plans and prices" buttons, so both tools in a comparison get the same kind of button.
+  - Keep the referral code `bestaicertifications30`. HighLevel's **Customize Token** would rename it, but sign-ups through links with the old code would stop counting, and the code is also on your other sites.
   - Comparisons with competitors must be truthful and fair and make clear we don't speak for HighLevel.
   - HighLevel reviews affiliate content for compliance.
 - **Attribution:** last click within 90 days.
@@ -58,7 +60,7 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 
 | Program | Status | Next step |
 |---|---|---|
-| GoHighLevel | **Approved**, paid links live | See section 1. Questions about trial wording, an extended-trial page and a CinchStack referral slug were emailed to the affiliate manager (Devesh Khatri) on 6 October 2026. Until HighLevel answers in writing, no trial wording appears near its links. |
+| GoHighLevel | **Approved**, paid links live | See section 1. Devesh Khatri (affiliate manager) answered in writing on 6 October 2026: trial wording allowed, 30-day Bootcamp trial link available to every affiliate, referral code can be renamed but old links would stop counting. The 30-day trial button is live on GoHighLevel's own pages. He also invited you to HighLevel's affiliate strategy sessions (speakwith.us/deveshstrategy). |
 | Systeme.io | **Approved**, paid links on its competitor-free pages | See section 1b. The comparison-page question was emailed to support@systeme.io on 6 October 2026. |
 | HubSpot | Declined 30 September; reply sent 6 October 2026 | HubSpot's decline email invited more detail, so a reply went with the four live HubSpot pages and an honest note on traffic. Wait for the answer. |
 | Semrush, Shopify, Squarespace, Wix | Declined | Don't re-apply until something real has changed (traffic of your own, or an invitation from the brand). |
