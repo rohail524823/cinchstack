@@ -21,7 +21,7 @@ export const NAV = [
   { href: '/tools/', label: 'Tools' },
   { href: '/compare/', label: 'Compare' },
   { href: '/changes/', label: 'Price changes' },
-  { href: '/methodology/', label: 'How we check' },
+  { href: '/methodology/', label: 'Method' },
 ];
 
 // Impact.com site verification (keeps cinchstack.com verified as a media property).

@@ -1,11 +1,17 @@
 ---
 import { longDate } from '../lib/format.mjs';
 import { AUTHOR } from '../lib/site.mjs';
-interface Props { modified: string; published?: string; verified?: string | null }
-const { modified, published, verified } = Astro.props;
+import { checks } from '../lib/data.mjs';
+interface Props { modified: string; published?: string; verified?: string | null; ids?: string[] }
+const { modified, published, verified, ids = [] } = Astro.props;
+// The weekly script re-reads vendor pages; when every tool on the page passed a run newer than the
+// manual record, say so (the manual date stays the one search engines get as lastReviewed).
+const runs = ids.map((id) => checks[id]);
+const rechecked = runs.length && runs.every((c) => c?.status === 'passed') ? runs.map((c) => c.ranOn).sort()[0] : null;
 ---
 <p class="byline">
   <span>By <a href="/about/"><strong>{AUTHOR.name}</strong></a></span>
   <span>Updated <time datetime={modified}>{longDate(modified)}</time></span>
   {verified && <span>Prices verified <time datetime={verified} data-verified>{longDate(verified)}</time></span>}
+  {verified && rechecked && rechecked > verified && <span>Re-checked automatically <time datetime={rechecked}>{longDate(rechecked)}</time></span>}
 </p>

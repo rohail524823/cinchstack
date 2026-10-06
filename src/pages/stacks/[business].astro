@@ -55,7 +55,7 @@ const jsonld = [
     <article class="read" style="max-width:920px">
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
-      <Byline modified={d.modified} published={d.published} verified={verified} />
+      <Byline modified={d.modified} published={d.published} verified={verified} ids={[...new Set(s.layers.map((l) => l.pick))]} />
       <Disclosure toolIds={s.layers.map((l) => l.pick)} page={path} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <p class="lede" data-prose>{s.profile}</p>

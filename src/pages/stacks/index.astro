@@ -19,12 +19,12 @@ const description = 'Recommended software stacks for agencies, course creators, 
     <Breadcrumbs crumbs={crumbs} />
     <h1>The stack that's best for you</h1>
     <p class="lede">Pick the business closest to yours. Each stack names one tool per job, says when to choose something else, and adds up the whole monthly bill at three sizes.</p>
-    <div class="grid" style="margin-top:22px">
+    <div class="grid-3" style="margin-top:22px">
       {live.map((s) => { const b = stackBill(s.id); return (
         <a class="card" href={`/stacks/${s.id}/`}>
           <span class="tag">Stack</span>
           <h3>{s.label}</h3>
-          <p>{[...new Set(s.layers.map((l) => tool(l.pick).name))].join(' · ')}</p>
+          <p>{[...new Set(s.layers.map((l) => tool(l.pick).name))].map((n, i) => <>{i > 0 && ' · '}<span class="nw">{n}</span></>)}</p>
           <p class="cost">{s.sizeLabels.small}: <Fig v={b.totals.small} suffix="/mo" floor={b.floors.small} /></p>
         </a>
       ); })}

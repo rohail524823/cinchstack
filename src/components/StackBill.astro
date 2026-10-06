@@ -17,7 +17,7 @@ const noteNo = (r, z) => {
   if (!c.override || !c.note) return null;
   const text = `${tool(r.pick).name}, ${s.sizeLabels[z].toLowerCase()}: ${c.note}`;
   const same = notes.findIndex((n) => n.note === c.note && n.pick === r.pick);
-  if (same >= 0) { notes[same].sizes.push(s.sizeLabels[z]); return same + 1; }
+  if (same >= 0) { if (!notes[same].sizes.includes(s.sizeLabels[z])) notes[same].sizes.push(s.sizeLabels[z]); return same + 1; }
   notes.push({ pick: r.pick, note: c.note, sizes: [s.sizeLabels[z]], text });
   return notes.length;
 };
@@ -31,7 +31,7 @@ const rows = bill.rows.map((r) => ({ r, marks: Object.fromEntries(sizes.map((z) 
       <tr>
         <td data-label="Layer">{LAYER_LABELS[r.layer]}<span class="sub">{r.role}</span></td>
         <td data-label="Tool">{best(r.pick) ? <a href={best(r.pick)}>{tool(r.pick).name}</a> : tool(r.pick).name}</td>
-        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><Fig v={r.cells[z].amount} floor={r.cells[z].floor} />{marks[z] && <sup class="fn"><a href={`#stack-note-${marks[z]}`} aria-label={`Note ${marks[z]}`}>{marks[z]}</a></sup>}</td>)}
+        {sizes.map((z) => <td class="num" data-label={s.sizeLabels[z]}><span class="v"><Fig v={r.cells[z].amount} floor={r.cells[z].floor} />{marks[z] && <sup class="fn"><a href={`#stack-note-${marks[z]}`} aria-label={`Note ${marks[z]}`}>{marks[z]}</a></sup>}</span></td>)}
       </tr>
     ))}
   </tbody>

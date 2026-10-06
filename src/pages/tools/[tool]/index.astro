@@ -65,7 +65,7 @@ const glance = [
     <article class="read" style="max-width:860px">
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
-      <Byline modified={d.modified} published={d.published} verified={p.checkedOn} />
+      <Byline modified={d.modified} published={d.published} verified={p.checkedOn} ids={[id]} />
       <Disclosure toolIds={[id]} page={path} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <ScorePanel id={id} />

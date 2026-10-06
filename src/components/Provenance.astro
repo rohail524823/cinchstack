@@ -7,11 +7,8 @@ const items = Astro.props.ids.map((id) => ({ t: tool(id), p: price(id) }));
 <section class="prov" data-provenance>
   <h2 id="how-we-checked">How we checked this</h2>
   {items.map(({ t, p }) => (
-    <div>
-      <p><strong>{t.name}:</strong> {p.method} Last verified <time datetime={p.checkedOn}>{longDate(p.checkedOn)}</time>. Prices are US list prices in USD{p.regional.pricedByCountry ? `; ${p.regional.note}` : '.'}</p>
-      <ul>
-        {p.sources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
-      </ul>
+    <div class="prov-tool">
+      <p><strong>{t.name}:</strong> {p.sources.length} vendor page{p.sources.length === 1 ? '' : 's'} read, last verified <time datetime={p.checkedOn}>{longDate(p.checkedOn)}</time>. Prices are US list prices in USD{p.regional.pricedByCountry ? `; ${p.regional.note}` : '.'}</p>
       {checks[t.id] && (() => { const c = checks[t.id]; return (
         <p class="small" data-check={c.status}>{
           c.status === 'passed' ? <>Automated re-check on <time datetime={c.ranOn}>{longDate(c.ranOn)}</time>: all {c.checked} prices we re-read were still on {poss(t.name)} pages.</>
@@ -20,9 +17,16 @@ const items = Astro.props.ids.map((id) => ({ t: tool(id), p: price(id) }));
           : <>These prices appear only after choosing options on the vendor's page, so they are re-checked by hand rather than automatically.</>
         }</p>
       ); })()}
-      {p.unverified.length > 0 && (
-        <div class="unv"><strong>What we could not verify:</strong><ul>{p.unverified.map((u) => <li>{u}</li>)}</ul></div>
-      )}
+      <details class="prov-more">
+        <summary>How {t.name} was checked: the method and {p.sources.length} source{p.sources.length === 1 ? '' : 's'}{p.unverified.length > 0 ? `, and ${p.unverified.length} point${p.unverified.length === 1 ? '' : 's'} we could not verify` : ''}</summary>
+        <p>{p.method}</p>
+        <ul>
+          {p.sources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
+        </ul>
+        {p.unverified.length > 0 && (
+          <div class="unv"><strong>What we could not verify:</strong><ul>{p.unverified.map((u) => <li>{u}</li>)}</ul></div>
+        )}
+      </details>
     </div>
   ))}
   <p class="small muted">We re-check every price against the vendor's page each Monday; changes are logged on <a href="/changes/">the changes page</a>. See a price that's wrong? <a href="/contact/">Tell us</a> and we will correct it the same week.</p>
