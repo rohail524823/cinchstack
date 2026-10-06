@@ -34,26 +34,56 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 - **To widen it** once systeme.io says comparisons are fine (ask through https://systeme.io/support/contact-us): delete `"paidOnlyOn"` from the program's `rules` in `src/data/programs.json`. Nothing else changes.
 - systeme.io has no Sub IDs. Google Analytics `affiliate_click` events show which page sent each click.
 
-### 2. The other affiliate programs (status on 27 September 2026)
+### 1c. Your own setup services (live since 6 October 2026)
 
-The plan was to apply once the site has real traffic (about 1,000 visits a month), because networks approve sites that already have readers. Several were applied to early, on 27 September 2026, through Impact. There an application comes from the whole partner account (7439310, which holds cinchstack.com and bestaicertifications.com), so there is no per-site choice. Brands see bestaicertifications.com listed first, with Impact's own traffic estimate and Moz scores, and no figures yet for cinchstack.com.
+`/services/` sells your setup and automation work: five packages, a free 30-minute call, then a fixed quote. Prices, deliverables and the proof line live in `src/data/services.json`; change them there and the page, the cards and the structured data follow. The strategy behind it is in `docs/STRATEGY-2026-10.md`.
+
+- **Enquiries** arrive through Netlify Forms (**Forms → services**), emailed to the Netlify account's address like the contact form. The page promises a reply within two business days.
+- **Upwork rules (keep them exactly):**
+  - Never link `/services/` or cinchstack.com from your Upwork profile or portfolio. Linking the other way (CinchStack → Upwork profile) is fine.
+  - A client who found you on CinchStack is yours to invoice directly. The form's required "How did you find us?" answer, with its timestamp, is your record. If someone says they found you on Upwork, continue on Upwork.
+  - Existing Upwork clients stay on Upwork.
+  - Plain text "Top Rated on Upwork" only, no Upwork logo. Update the "as of" figures in `services.json` when they change.
+- **Getting paid:**
+  - Default: a Payoneer payment request. Ask US clients to pay by ACH (1%) rather than card.
+  - Larger invoices (about $2,000 or more): a bank wire. Ask your bank for an ePRC with the IT purpose code.
+  - Clients who want escrow: send an Upwork Direct Contract from your account (5% fee, or 0% on Freelancer Plus).
+  - Not usable for services: Stripe, PayPal, Wise receiving, Lemon Squeezy, Paddle.
+- **The same-price rule** is published on `/how-we-earn/#our-own-services`: setup costs the same whichever tool the client picks. The "Our own paid service" box sits after the FAQ on tool, pricing, compare, stack and alternatives pages, and a build gate keeps it out of editorial text, scores, tables and picks.
+
+### 2. Affiliate programs: status and what to apply to next (updated 6 October 2026)
+
+**Why most applications failed.** Impact lets each brand switch on a ready-made workflow, "Reject non-qualifying partners", that automatically declines small partners from outside the brand's chosen countries. Shopify, Squarespace and Wix declined within minutes, and Squarespace's agency confirmed the reason in writing: location. Traffic won't fix that rule soon, so don't keep re-applying to those brands. Semrush ("Business model mismatch") and HubSpot (generic list) declined too. PartnerStack's Network also declined, and that blocks its Marketplace buttons.
 
 | Program | Status | Next step |
 |---|---|---|
-| Semrush, HubSpot | Pending under **Discover → Invitations → Sent** | Wait. |
-| Squarespace | Declined within minutes | A re-evaluation request went to squarespace@accelerationpartners.com, as their decline email invites. Wait for the answer. |
-| Wix | Declined within minutes | A note went through Wix's chat on Impact. Wait for the answer. |
-| Shopify | Declined within minutes | No way to appeal: no message button, and Shopify gives no feedback. Re-apply once cinchstack.com has about 1,000 visits a month. |
-| Klaviyo, Automattic (WooCommerce) | No Apply button | Invitation only, or the account doesn't meet their criteria yet. Klaviyo can be asked for an invitation through its message button. |
-| Webflow (PartnerStack) | Form filled in on webflow.com, not submitted | Submit it. If PartnerStack locks it the way it locked Kit's, apply to the PartnerStack Network first. |
-| Kit (PartnerStack) | Locked, not submitted | PartnerStack locks new programs until you earn a first commission in a program you're already in, and your account has none (n8n and ActiveCampaign both declined it). Apply to the PartnerStack Network (**Discover Partnerships → Apply to the Network**), then apply to Kit again. |
-| Notion (PartnerStack) | Not accepting new partners | Check again in a few months. |
+| GoHighLevel | **Approved**, paid links live | See section 1. A draft email to HighLevel about trial wording and a CinchStack referral slug is in your Gmail drafts. |
+| Systeme.io | **Approved**, paid links on its own pages | See section 1b. The question about comparison pages is in your Gmail drafts, ready to paste into their contact form. |
+| HubSpot, Semrush, Shopify, Squarespace, Wix | Declined | Don't re-apply until something real has changed (traffic of your own, or an invitation from the brand). |
+| Klaviyo | Agency and tech partners only | No affiliate program to join. |
+| Notion | Closed to new partners | Check again in 2027. |
+| Webflow, Kit, ActiveCampaign | PartnerStack | Locked until the PartnerStack Network approves you. Re-apply to the Network with a @cinchstack.com email address and a matching LinkedIn profile. |
 
-- **Decision (27 September 2026): hold every new and repeat application until cinchstack.com itself shows about 1,000 visits a month in Search Console or Analytics.** That includes the PartnerStack Network: a declined applicant may reapply only "in the future", with no date given, and brands on PartnerStack can block a partner they decline from applying again. Review in early December 2026. Semrush and HubSpot stay pending in the meantime; don't withdraw them.
-- A decline that arrives within minutes comes from a brand's automatic rules, so re-applying with the same profile gets the same answer. Impact shows a **Re-apply** button on declined brands; use it only after something has changed, above all cinchstack.com's own traffic.
+**Apply to these now.** They pay into a Pakistani bank, Payoneer or Tipalti, and they don't go through Impact's location filter. Programs for tools already on the site come first, because the pages that will carry their links already exist.
+
+| # | Program | Why | Sign-up | Paid by |
+|---|---|---|---|---|
+| 1 | **SE Ranking** (on the site) | 30% of every payment for the customer's lifetime; no approval: join from the Affiliate Program tab inside any SE Ranking account, even a trial | https://seranking.com/sign-up.html | Payoneer, $50 minimum, every 14 days |
+| 2 | **ClickFunnels** (on the site) | 30% recurring | https://www.clickfunnels.com/affiliate-program | Tipalti (the same payee setup as HighLevel). Forfeits commissions under $100 per 120 days. |
+| 3 | **Framer** (on the site) | 50% for 12 months | https://www.framer.com/community/?settings=open&settingsTab=links | Dub → Pakistani bank, $200 minimum |
+| 4 | **Zoho** (Zoho CRM is on the site) | 15–20% for 12 months; in-house | https://www.zoho.com/affiliate/signup.html | Wire, $100 minimum |
+| 5 | **Pipedrive** (on the site) | 20% for 12 months. Use this external link, not the PartnerStack Marketplace button. | https://dash.partnerstack.com/application?company=pipedrive&group=risingaffiliatet3 | PartnerStack direct deposit (Airwallex lists Pakistan) to a PKR account |
+| 6 | **Automattic** (WooCommerce is on the site) | "No minimum traffic required" | https://app.impact.com/campaign-mediapartner-signup/Automattic-Inc.brand?type=dm&io=vQ3rTDgl1c8sLLE2AjebfUHsFZrQnzSBZlKopA6Fk3cAprN9qQSpWq7BCfuwlxkV | Impact wire (PKR) |
+| 7 | **hosting.com** | 50%, up to $400 per hosting sale; fills the hosting line on WordPress/WooCommerce pages | https://hosting.firstpromoter.com/signup/42825 | Bank wire on request, $100 minimum |
+| 8 | **Hostinger** | Up to 40% of first purchases; n8n self-hosting pages | https://affiliates.hostinger.com/users/signup/ | Bank transfer, $500 minimum |
+
+After a program approves you, tell Claude Code; it adds the program to `src/data/programs.json` with its link template, and the existing buttons turn into paid links. Tools not yet on the site (MailerLite, GetResponse, Thinkific, Teachable, beehiiv, Circle, Kartra) get pages only after the programs above are running. The reports behind these lists are summarised in `docs/STRATEGY-2026-10.md`.
+
+- A decline that arrives within minutes comes from a brand's automatic rules, so re-applying with the same profile gets the same answer.
 - Every program you apply to gets a record in `src/data/programs.json` with its real status. `/how-we-earn/` shows declined and never-applied programs alike as "Not joined", because neither pays us.
 - **Scores:** the methodology promises the lower of the two blind scores for any tool whose program we have joined or may join. When a tool gets a program record for the first time, set its score in `src/data/scores/<tool>.json` to the lower pass score and say so in `method`. Squarespace went from 4.2 to 4.1 this way.
-- When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change. The order and the reasons are in `docs/plan/09-affiliate-programs.md`.
+- When a program approves you, set its `status` to `"approved"`, its `approvedOn` date, and its `template` link in `src/data/programs.json`. Nothing else needs to change.
+- Never enter tax, bank or ID details on a form you reached from a link in an email you didn't expect; open the network's site directly.
 
 ### 3. Search engines (done 27 September 2026)
 
@@ -133,7 +163,13 @@ The easiest way to do all of this is to paste the issue into Claude Code and ask
 
 Some pages quote a price that a vendor has already said will change on a set date. The weekly check can't catch these, because the old figure stays on the vendor's page. Reword them once the date passes.
 
-None are pending. The last one, Kajabi's Expert Agent introductory rate, ended on 30 September 2026, and its page was reworded on 1 October. When a new one comes up, list it here as a table with three columns: After (the date), Page, and What changes.
+| After | Page | What changes |
+|---|---|---|
+| No end date given; check monthly | `/tools/hubspot/pricing/` (and `src/data/pricing/hubspot.json`, solo scenario) | HubSpot's "limited-time" $10 Starter seat for new customers. When it ends, the solo bill uses the $20 list seat. |
+| No end date given; check monthly | `/tools/clickfunnels/pricing/` | ClickFunnels' "Unlimited Funnels — Limited Time" label. |
+| No end date given; check monthly | `/tools/klaviyo/pricing/` | Klaviyo's $19-off first month on the 500-profile Email tier. |
+
+Recently closed: Kajabi's Expert Agent introductory rate (ended 30 September 2026, reworded 1 October); Klaviyo's introductory add-on prices (ended 30 September 2026; Social Marketing is now $50, recorded 6 October); GoHighLevel's WhatsApp billing change (in force since 1 October 2026, reworded 6 October).
 
 ## Adding a tool or a page
 

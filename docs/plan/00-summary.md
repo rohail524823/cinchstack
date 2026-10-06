@@ -3,6 +3,8 @@
 **Date:** 26 September 2026 · **Owner:** Rohail · **Builder:** Claude Code
 **Read this first. Everything else in this folder is detail behind a line here.**
 
+> **October 2026 revision.** Most Impact and PartnerStack applications were declined by automatic location rules, so the revenue path below no longer holds. The current plan (services first, programs that approve from Pakistan, content focused on GoHighLevel and Systeme.io buyers) is in `docs/STRATEGY-2026-10.md`. This page is kept as the record of the original plan.
+
 ---
 
 ## What CinchStack is
