@@ -1,0 +1,120 @@
+SOURCE: https://help.gohighlevel.com/support/solutions/articles/48001186075-twilio-error-21610-recipient-unsubscribed-stop-when-sending-sms
+FETCHED: 2026-10-06T10:14:39.113Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+HighLevel Support Portal
+Home
+Knowledge base
+Login
+Sign up
+Home
+...
+Twilio Error 21610 "Recipient unsubscribed (STOP)&qu...
+Twilio Error 21610 "Recipient unsubscribed (STOP)" when sending SMS
+
+Modified on: Tue, 8 Sep, 2026 at 7:36 AM
+
+SMS COMPLIANCE
+Error 21610 "Recipient Unsubscribed (STOP)" When Sending SMS
+Why undeliverable messages happen and how to resolve opt-out and Do Not Disturb blocks.
+OVERVIEW
+
+When sending SMS/MMS through Twilio (or integrated platforms), you may encounter cases where your message cannot be delivered because the recipient has opted out or enabled Do Not Disturb (DND). This is enforced to honor user preferences and maintain compliance with messaging regulations.
+
+TABLE OF CONTENTS
+1
+Description
+2
+Possible Causes
+3
+Possible Solutions
+4
+Twilio-Specific Opt-Out Behavior
+5
+Important Notice
+6
+Frequently Asked Questions
+1
+Description
+
+The person you are trying to message has opted out of receiving messages from:
+
+Your phone number,
+Your Channels sender, or
+Your Messaging Service.
+
+Alternatively, the contact may have DND (Do Not Disturb) status enabled in their contact profile.
+
+If a recipient has previously replied with "STOP" to one of your messages, you will not be able to send to them again until they respond with "START."
+
+2
+Possible Causes
+The recipient's handset replied with STOP or another opt-out keyword.
+The phone number may have been reassigned to a new user who never opted in.
+The contact has enabled DND for SMS, calls, or all communication types.
+The platform blocks outgoing messages to respect regulatory and compliance requirements.
+3
+Possible Solutions
+Remove unsubscribed numbers from your contact list.
+Ask the recipient to re-subscribe by texting "START" (or another opt-in keyword) to your number.
+Verify consent before sending — ensure recipients have explicitly opted in to receive your messages.
+4
+Twilio-Specific Opt-Out Behavior
+
+If you attempt to send a message to a recipient who has opted out, the Twilio API will return an error, and the message will not be sent. You will not be charged for the attempt.
+
+Opt-Out Keywords (Unsubscribe)
+
+Messages will be blocked if the recipient replied with any of these:
+
+STOP STOPALL UNSUBSCRIBE CANCEL END QUIT
+Opt-In Keywords (Resubscribe)
+
+To resume receiving your messages, recipients must reply with:
+
+START YES
+5
+Important Notice
+
+If a user opts out of a Messaging Service number, the opt-out applies to all messages sent from that service.
+
+This ensures subscribers are fully protected from unwanted communication.
+
+KEY TAKEAWAY
+
+Always secure proper opt-in consent, and respect opt-out requests. If someone has opted out, they must manually opt back in before you can send them messages again.
+
+6
+Frequently Asked Questions
+Q: Will I be charged for a message blocked by an opt-out?
+No. If the recipient has opted out, the Twilio API returns an error and the message is never sent, so you won't be charged for the attempt.
+Q: Can I manually re-add a contact who opted out?
+No. Opt-out status must be reversed by the recipient themselves — they need to text "START" or "YES" back to your number. You cannot override this on their behalf.
+Q: If someone opts out of one number, does that block all my numbers?
+It depends on scope. Opting out of a single phone number only blocks that number. But opting out of a Messaging Service blocks every number tied to that service.
+Q: What's the difference between an opt-out and DND?
+Opt-out is triggered by the recipient replying with a keyword like STOP. DND is a status toggled directly on the contact's profile that blocks SMS, calls, or all communication, independent of any keyword reply.
+Q: Why would a number that never opted out still be blocked?
+The number may have been reassigned to a new subscriber by the carrier, who never opted in themselves — or DND may have been enabled directly on the contact profile rather than through a keyword reply.
+Q: How can I avoid running into opt-out blocks in the first place?
+Only message contacts who explicitly opted in, regularly clean unsubscribed numbers out of your lists, and honor STOP requests immediately to stay compliant and avoid deliverability issues.
+Was this article helpful?
+No 
+Yes
+Print
+Articles in this Folder
+Troubleshooting SMS Delivery Issues
+How to Send Inbound SMS Notifications via a Workflow
+Error: The "From" number is not SMS-capable.
+Troubleshooting: Inbound SMS Showing as Calls or Not Appearing at all.
+Why Calls or Messages May Appear Incorrectly in Conversations
+Twilio Error 21610 "Recipient unsubscribed (STOP)" when sending SMS
+Related Articles
+What is the HighLevel’s Native Phone System? (LC Phone)
+Troubleshooting SMS Delivery Issues
+Understanding Common SMS Delivery Errors
+International SMS Compliance: UK & Turkey Regulations
+How to Use Twilio Messaging Logs to Troubleshoot SMS(non-isv)
+Workflow Trigger - Messaging Error Code - SMS
+Home Knowledge base

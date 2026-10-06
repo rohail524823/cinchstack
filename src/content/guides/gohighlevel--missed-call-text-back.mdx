@@ -1,0 +1,95 @@
+---
+title: "GoHighLevel missed call text back 2026: setup and cost"
+description: "GoHighLevel's missed call text back has no add-on fee, but each automatic text costs $0.00747 a segment plus carrier fees, and local numbers need A2P registration."
+h1: "GoHighLevel missed call text back: setup, requirements and cost"
+quickAnswer: "As of 26 September 2026, GoHighLevel's missed call text back has no add-on fee, but each automatic reply costs $0.00747 per text segment plus a carrier fee of $0.0035 to $0.0050. Before it can text US mobiles from a local number, a business needs a GoHighLevel phone number at $1.15 a month and A2P 10DLC registration: $22.50 once, then a campaign fee from $1.50 a month. At 200 missed calls a month, the number, campaign fee and texts total about $5.16 on top of the $97 Starter plan. GoHighLevel suits a salon, studio or trades business that also wants booking, reviews and follow-up in one account; one that wants only the automatic text should first check its current phone provider."
+published: 2026-10-06
+related:
+  - /tools/gohighlevel/sms-and-calling-costs/
+  - /stacks/local-service/
+  - /tools/gohighlevel/plans-compared/
+extraFigures:
+  - value: "0.012"
+    why: "One single-segment text-back to a T-Mobile or Verizon number: $0.00747 SMS segment + $0.0045 carrier fee = $0.01197; with HighLevel's disputed 5% markup on the carrier fee (5% x $0.0045 = $0.000225) it is $0.012195. Both round to about $0.012."
+  - value: "5.16"
+    why: "Monthly cost of the number, A2P campaign fee and texts for 200 missed calls, one single-segment text each: $1.15 local number + $1.49 SMS (200 x $0.00747) + $0.90 carrier fees (200 x $0.0045) + $1.50 Low Volume Mixed campaign + $0.12 markup (5% x ($0.90 + $1.50)) = $5.16. These are the texting lines of the solo scenario in src/data/pricing/gohighlevel.json ($103.51 - $97 plan - $1.35 email)."
+---
+
+## What does missed call text back do in GoHighLevel?
+
+Missed call text back sends an automatic text to a person whose call to your business went unanswered, so they can carry on by text instead of waiting for a callback. In <T id="gohighlevel" />, it is a setting in the built-in phone system, not a paid add-on. HighLevel's pricing guide makes that phone system available on every plan, so the Starter plan at <Price tool="gohighlevel" plan="starter" /> a month already has it. What you pay for is each text it sends, drawn from the prepaid wallet that funds all of GoHighLevel's texting, plus the phone number and registration covered below.
+
+HighLevel's help article on the feature, last updated 7 September 2026, describes how it behaves:
+
+- **A call counts as missed once it rings past your timeout.** A slider in the voicemail settings sets the ring time, and HighLevel suggests 10 to 20 seconds. Answered calls never trigger a text.
+- **Every missed call gets its own text**, including a second or third try from the same person a few minutes later.
+- **The text may come from another number.** HighLevel tries the number the caller dialed first. If that number cannot send texts, as can happen with call tracking numbers, number pools and unverified toll-free numbers, it moves on to a number that has already texted the contact successfully, then the default outbound number, then any other eligible number in the location.
+- **Contacts on Do Not Disturb are skipped**, whichever number would have sent the text.
+- **Merge fields need a known contact.** A placeholder such as the caller's name fills in only when HighLevel already recognizes the caller from an earlier interaction, so write a message that reads well without it.
+
+When no number in the location can send, the failed attempt appears in the contact's conversation along with the reason.
+
+## How do you set up missed call text back in GoHighLevel?
+
+The quick route is the switch in Settings. Inside the sub-account, open Settings, choose Phone System from the left menu and Voice from the top menu, then open Voicemail & Missed Call Text Back and pick Missed Call Text Back in the side panel. Tick Enable Missed Call Text Back, click Customize, write the message, send a test from the field below the editor and click Save. The same voicemail settings hold the ring timeout and an optional recorded greeting, uploaded as an mp3 or wav file, that replaces the carrier's standard one.
+
+The second route is a workflow, which HighLevel's article recommends once repeat callers become a problem. Start from the missed-call recipe in Workflows, or build one on the Call Status trigger, which HighLevel's current help article titles Call details, filtered to incoming calls that end busy or not answered. Add the text and whatever should follow it, such as an alert or a callback task for whoever answers the phones, then switch on the Publish toggle. To keep a persistent caller from getting one text per attempt, HighLevel suggests a wait step of about 20 minutes or tags that count first and second calls.
+
+Run one route at a time. When callers get duplicate messages, HighLevel's troubleshooting notes for the WhatsApp version of this feature point to overlapping text-back settings and workflows, and every duplicate is billed. Then test from another phone: let the call ring out, check that the text arrives, and find the charge in the Transactions tab of Wallet & Transactions, under Billing in your agency settings.
+
+## What does GoHighLevel need before a missed call text back can send?
+
+Four things have to be in place, and a missing one stops the text from going out.
+
+1. **A HighLevel phone number.** LC Phone, HighLevel's built-in phone system, rents local US and Canadian numbers at $1.15 a month and toll-free numbers at $2.15.
+2. **Calls that ring that number.** The feature only acts on calls that reach the HighLevel phone system. You can publish the HighLevel number as your business line, or keep your existing number and have your carrier forward unanswered calls to it; HighLevel's Google Business Profile integration can also put its number on your listing. Forwarding keeps your public number in your hands: HighLevel's Terms say numbers bought through the platform are released within 14 days of cancellation. Make sure no two numbers forward to each other, which HighLevel warns can bounce a call back and forth.
+3. **A2P 10DLC registration.** Before a local number can text US mobiles, the business must register a brand and a campaign in the Trust Center, under Settings and then Phone System. HighLevel's campaign guide asks for an approved brand and a live business website, and a business without a Tax ID can register a single number only. The brand and first campaign cost $22.50 once at the Sole Proprietor or Low Volume Standard level; the campaign then costs $1.50 a month as Low Volume Mixed, $2.00 as Sole Proprietor or $10.00 for a standard use case. A toll-free number goes through a separate toll-free verification instead.
+4. **The number linked to the approved campaign.** Under Settings, Phone System, Phone Numbers, a sending number should carry a green A2P Verified label. If it does not, link it to the campaign; HighLevel's error guide allows up to 24 hours after approval for carriers to activate it.
+
+The registration and the monthly campaign fee both start when the campaign is submitted, regardless of the review's outcome. Our [GoHighLevel SMS and calling cost breakdown](/tools/gohighlevel/sms-and-calling-costs/) covers those rules and the prepaid wallet in full.
+
+## How much does each missed call text back cost?
+
+Each text-back is billed like any other GoHighLevel text: $0.00747 for every segment, with a carrier fee on top that depends on the caller's mobile network. T-Mobile and Verizon customers carry a $0.0045 fee, AT&T customers $0.0035, US Cellular customers $0.0050 and everyone else $0.0040, so a single-segment text-back to a T-Mobile or Verizon customer costs about $0.012. HighLevel's help articles disagree on whether it adds 5% to carrier fees. Its markup article says it does, while its A2P fee article and its campaign registration guide say carrier and A2P fees pass through without a markup. On a single text, the 5% comes to a small fraction of a cent.
+
+The price per caller rises in four ways:
+
+- **Long or decorated messages.** A segment holds 160 characters of plain text, and the 161st starts a second one. HighLevel's cost article says any emoji switches the text to Unicode, which fits 70 characters per segment, and that text pasted from a word processor can carry hidden characters that add segments.
+- **Replies.** A caller's reply is billed too, at the same $0.00747 per segment with an inbound carrier charge between $0.0025 and $0.0100 on top, and every answer your staff send is billed the same way as the first text.
+- **Repeat calls.** With the Settings switch, a person who rings three times before anyone calls back receives three texts.
+- **Landlines.** HighLevel charges for a text once delivery has been attempted, whether or not it arrives, and refunds nothing for undelivered texts, so a text-back to a landline caller is still billed. When a text fails with error 30006, which HighLevel's error guide describes as a landline or unreachable carrier, its Do Not Disturb article says SMS DND is switched on for that contact, so later calls from the same line are not texted again.
+
+One case costs nothing. A text to someone who has already replied STOP is blocked before sending, and HighLevel's opt-out article says the blocked attempt is not charged.
+
+## What does missed call text back cost at 200 missed calls a month?
+
+Take one business on Starter, with one local number and a Low Volume Mixed campaign, that misses 200 calls a month and sends each caller one single-segment text. Price every text at the T-Mobile and Verizon carrier fee and include HighLevel's 5% markup, as our real-bill examples do. The month's costs for the number, the campaign and the texts are:
+
+- Local number: $1.15
+- 200 text segments at $0.00747: $1.49
+- Carrier fees at $0.0045 a segment: $0.90
+- Low Volume Mixed campaign fee: $1.50
+- 5% markup on the carrier and campaign fees: $0.12
+- **Total: $5.16 a month**, on top of <Price tool="gohighlevel" plan="starter" /> for the Starter plan
+
+The first month also carries the $22.50 registration, plus 5% if the markup applies. These are the same texting lines as the solo bill on our [GoHighLevel pricing page](/tools/gohighlevel/pricing/), which adds the plan and 2,000 emails to reach <Real tool="gohighlevel" size="solo" /> a month.
+
+Two of those lines, the number and the campaign fee, stay the same however many calls you miss. The per-text lines grow in step with missed calls, and replies, repeat callers and two-segment messages push them higher. The campaign type matters more than volume: moving to a standard campaign at $10.00 a month would add more to the bill than doubling the missed calls. HighLevel's registration guide says to choose Mixed, which sets the $1.50 Low Volume Mixed use case, when one messaging program genuinely includes both promotional and informational texts, so a business that texts only missed callers should check which use case fits before counting on that fee. Either way, the texting is small next to the subscription, so the real decision is whether you will use enough of the rest of GoHighLevel to justify the plan.
+
+Call minutes are not in the list above. HighLevel bills inbound calls by the minute, $0.01165 for one answered in its app and $0.02 for one it forwards to another US number, so publishing the HighLevel number as your main line puts every answered call on that meter. Forwarding only unanswered calls from your existing line keeps the calls you pick up off it.
+
+## How does GoHighLevel handle consent and STOP replies to a text-back?
+
+A missed call text back goes to someone who phoned the business, not to someone who signed up for texts. HighLevel's opt-out article tells senders to secure explicit opt-in consent and to honor opt-outs. Whether a phone call amounts to that consent is a legal question for whoever advises your business, and this page does not answer it.
+
+HighLevel's own articles describe what the system does:
+
+- **Opt-out keywords block further texts.** After a caller replies STOP, STOPALL, UNSUBSCRIBE, CANCEL, END or QUIT, texts to them from that number are blocked, and HighLevel's DND article says the reply also switches on SMS Do Not Disturb for the contact. HighLevel's opt-out article adds that only the caller can lift the block, by texting START or YES.
+- **Do Not Disturb covers the text-back.** A contact with SMS DND switched on, whether by a keyword or by your staff, does not receive the automatic text.
+- **The A2P campaign asks about consent.** HighLevel's registration guide asks who receives your messages and how they opt in, accepts methods ranging from website forms to verbal consent, and wants sample messages that name the sender and include opt-out wording. Describe the missed-call reply accurately in that registration, and write the live text the same way: name the business and say how to stop further texts.
+
+## When is GoHighLevel too much to buy for missed call text back alone?
+
+When the automatic text is the only thing you want. GoHighLevel's cheapest plan is Starter at <Price tool="gohighlevel" plan="starter" /> a month, or <Price tool="gohighlevel" plan="starter" field="annualMonthly" /> a month on yearly billing, and the number, the registration and the texts come on top. Before adding a second system, check whether the phone service you already pay for can send an automatic reply to missed calls. Changing provider does not change the texting rules: HighLevel's A2P article describes A2P 10DLC as the standard for business texts to US mobiles from local numbers, so expect a similar registration step wherever the text is sent from.
+
+GoHighLevel is worth its subscription when the text-back starts a process rather than being the whole of it. A missed caller becomes a contact, the reply lands in GoHighLevel's unified conversations inbox, a workflow can alert whoever handles callbacks or create a task, and the same account holds the booking calendar and the review requests that come later. That is the setup our [local service business stack](/stacks/local-service/) is built around. A single business needs no more than Starter for it; our [GoHighLevel plan comparison](/tools/gohighlevel/plans-compared/) explains when the larger plans start to matter. A medical or dental practice should also price HighLevel's HIPAA add-on, $297 a month for the whole account, and read what it does and does not cover in our [GoHighLevel add-ons guide](/tools/gohighlevel/add-ons/) before texting patients.

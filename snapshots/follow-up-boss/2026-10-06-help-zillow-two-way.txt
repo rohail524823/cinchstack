@@ -1,0 +1,131 @@
+SOURCE: https://help.followupboss.com/hc/en-us/articles/8895957403927-Zillow-Two-Way-Integration-Overview
+FETCHED: 2026-10-06T10:20:11.116Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+Webinars Community Blog Submit a request Log In
+Zillow Two Way Integration Overview
+Search
+Follow Up Boss - Help Center
+Integrations
+Zillow
+ 
+B. Claire
+11 months ago
+Updated
+Follow
+Not yet followed by anyone
+
+Follow Up Boss and Zillow have partnered together to create a two-way integration for Zillow Teams so your team can work leads seamlessly in both systems. Updates made in Follow Up Boss like stage assignments, lead assignments, notes, communications, and deals will integrate with Zillow keeping your leads up to date. Say goodbye to being behind on your Zillow updates and dual entry. 
+
+Note: The Zillow Two Way Integration is for teams and agents with their own FUB account. If you are an agent on a team FUB account, where the team doesn't have the Zillow Two Way Integration with FUB, you will need to use the Zillow One Way Integration.
+
+⚠️ Zillow Team Leads need to enable the Zillow two-way integration first, then team members can integrate. 
+
+ 
+
+How it Works
+
+ 
+
+To learn more about how the Two-Way Integration works between Zillow and FUB and get a step by step guide of how to get started, you can take the FUB Two-Way Integration On-Demand course in Zillow Academy.
+
+The Zillow One Way Integration is also available. Not sure which integration option is best for you? Learn more about the Zillow integration differences.
+
+ 
+
+What information is included in the integration? 
+
+When initiated, a two-way integration will be established for all Zillow leads with a modified date of less than 2 years (this includes profile, MBP, and Zillow Preferred). Once the integration has been established, information about your leads will flow in both directions, Follow Up Boss and Zillow. 
+
+ 
+
+Before Integrating FUB and Zillow 
+
+Before Integrating, a couple of steps need to be taken to make the transition smooth and successful. 
+
+Integration Instructions 
+
+Now that you have prepared your database for the integration, it is time to follow the Integration Instructions to get up and running. 
+
+Initial Integration
+
+Once the integration steps are complete, the system will begin the Initial Integration. 
+
+Ongoing Integration
+
+The Ongoing Integration will send new Zillow leads to FUB and update stage changes, assignments, notes, communication signals, deals, and the My Agent Relationship status. For contacts with an active My Agent Status, viewed and saved properties will appear in FUB. 
+
+Common Questions 
+
+Use the Common Questions guide to help answer questions and resolve issues. 
+
+ 
+
+FAQs
+What happens to my non-Zillow leads?
+The non-Zillow leads will remain untouched, and information will not be sent between Follow Up Boss and Zillow. Any newly added Zillow stages will be visible on non-Zillow leads but their stages will not be limited and no Zillow icon will appear.
+Here is an example of a combination of Zillow and Non-Zillow leads on a Smart List:
+
+Here is an example of what the stages look like on a Non-Zillow Lead vs a Zillow Lead:
+. 
+
+What if I don't want to use the Zillow stages?
+No problem! You can continue to use the Zillow One Way Integration Integration.
+What if I don't want to share my Follow Up Boss information with Zillow?
+No problem! You can continue to use the Zillow One Way Integration Integration.
+If I set up the Zillow two-way integration and change my mind, can I disconnect it later?
+Yes! To disconnect the Zillow two-way integration, go to Admin > Integrations > Zillow, and then click the button to disconnect. When you disconnect, we will remove the stage restrictions on all Zillow leads as well as the Zillow icon that appears next to those stages.
+Please note, we will not delete any leads and we will not update any stages when you disconnect. If you want to return leads to the stage they were in prior to connecting, you need to do this manually. We recommend that you tag leads with their old stages prior to turning on the integration in case you need these stages for reference.
+I'm not on a Zillow Team, can I still use two-way integration?
+As of August 2023, the 2-way integration is available for ALL Zillow agents, including independent agents! Some independent agents prefer the one-way, Zillow Tech Connect integration because they work all leads in FUB and don't need to update the Zillow CRM, use the Zillow Stages, etc. It comes down to user preference.
+
+ 
+
+ 
+
+Next Article: Zillow Two Way Integration: Before Integrating
+
+Was this article helpful?
+Yes No
+5 out of 5 found this helpful
+Have more questions? Submit a request
+Return to top 
+Related articles
+Zillow One Way Integration Overview
+Zillow One Way vs. Two Way Integration
+Users, Roles & Permissions
+Changing a Lead Stage
+Mass Actions
+  Articles in this section
+Zillow Two Way Integration Overview
+Zillow One Way Integration Overview
+Zillow One Way vs. Two Way Integration
+How to upgrade from FUB to a Zillow Pro membership
+Zillow Pro: How to identify your strongest My Agent opportunities
+Zillow Workspace is now Zillow Pro
+Likely to List (Beta)
+Zillow Pro: Get started
+Zillow Pro: Seat Upgrades
+Schedule ShowingTime Tours from Follow Up Boss
+See more
+Try Follow Up Boss Free For 14 Days
+Start a Trial
+Phone and email support
+8am - 8pm EST
+7 days a week
+(855) 622-5311
+support@followupboss.com
+‍
+Company
+About Careers Press Kit
+Resources
+Blog Customer Results Get a Demo FAQ Updates Status Support
+Product
+For Solo Agents For Team Leaders For ISAs For Admins Large Teams Small Teams Pricing
+Compare
+Open System vs
+All-In-Ones Top Producer Wise Agent Boomtown CINC LionDesk
+Legal
+Security Privacy Terms
+© Follow Up Boss

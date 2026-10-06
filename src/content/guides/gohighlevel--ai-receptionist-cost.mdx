@@ -1,0 +1,138 @@
+---
+title: "AI receptionist cost 2026: GoHighLevel vs Rosie, Goodcall, Retell"
+description: "What an AI receptionist costs at 600 minutes a month: GoHighLevel Voice AI, Rosie at $149, Goodcall, My AI Front Desk or a custom Retell agent."
+h1: "AI receptionist cost: GoHighLevel Voice AI vs ready-made services vs a custom build"
+quickAnswer: "As of 26 September 2026, GoHighLevel's Voice AI runs about $44.14 a month in voice and phone charges, plus AI tokens, to answer 600 minutes of calls for a business already paying for GoHighLevel, or $141.14 plus tokens with the $97 Starter plan. Ready-made AI receptionists checked on 6 October 2026 charge $149 on Rosie's Scale plan, $154 on Goodcall's Growth plan with 300 different callers, and $189 on My AI Front Desk for the same month. A custom Retell AI agent costs $89.40 in usage but must be built first. A single location already on GoHighLevel should use its Voice AI unless it takes patient calls; a business that only wants calls answered should start with Rosie's Scale plan."
+published: 2026-10-06
+related:
+  - /tools/gohighlevel/ai-pricing/
+  - /tools/gohighlevel/sms-and-calling-costs/
+  - /stacks/local-service/
+extraFigures:
+  - value: "36"
+    why: "Estimate at this page's stated volume (600 minutes a month: 300 calls averaging 2 minutes). GoHighLevel pay-per-use Voice Engine plus voice for 600 minutes, before LLM tokens and phone charges: 600 x ($0.045 Voice Engine + $0.015 OpenAI or Cartesia voice) = 600 x $0.06. Rates from the voice-ai-engine usage entry and its note in src/data/pricing/gohighlevel.json."
+  - value: "44.14"
+    why: "Estimate at the stated 600 minutes for an account already on a GoHighLevel plan, before LLM tokens: $36 AI voice + 600 x $0.01165 inbound call rate ($6.99; our assumption, since HighLevel does not name the phone line item for AI-answered calls; it counts 600 billed phone minutes, and HighLevel's rounding of each call up to a whole minute can add some) + $1.15 local number. Rates from call-inbound and local-number in src/data/pricing/gohighlevel.json."
+  - value: "141.14"
+    why: "Estimate at the stated 600 minutes on a new GoHighLevel account, before LLM tokens: $44.14 + $97 Starter plan."
+  - value: "0.015"
+    why: "Per-minute rate printed as $0.015 in three places: GoHighLevel's OpenAI or Cartesia text-to-speech (voice-ai-engine usage note, HighLevel's AI Product Pricing article); Retell AI's Retell Platform voices; and Retell AI's United States (Twilio) telephony rate, the default option of its country selector (snapshots/retell-ai/2026-10-06-pricing.txt, pay-as-you-go plan)."
+  - value: "49"
+    why: "Rosie Professional plan, $49 per month billed monthly, 250 minutes (snapshots/rosie/2026-10-06-pricing.txt). Monthly view confirmed by snapshots/rosie/2026-10-06-pricing-annual-after-click-1.txt, where the annual toggle shows $41."
+  - value: "149"
+    why: "Rosie Scale plan, $149 per month billed monthly, 1,000 minutes (snapshots/rosie/2026-10-06-pricing.txt)."
+  - value: "299"
+    why: "Rosie Growth plan, $299 per month billed monthly, 2,000 minutes (snapshots/rosie/2026-10-06-pricing.txt)."
+  - value: "79"
+    why: "Goodcall Starter plan, $79 per agent per month in the Monthly view, 100 unique customers a month (snapshots/goodcall/2026-10-06-pricing-after-click-1.txt)."
+  - value: "129"
+    why: "Goodcall Growth plan, $129 per agent per month in the Monthly view, 250 unique customers a month (snapshots/goodcall/2026-10-06-pricing-after-click-1.txt)."
+  - value: "249"
+    why: "Goodcall Scale plan, $249 per agent per month in the Monthly view, 500 unique customers a month (snapshots/goodcall/2026-10-06-pricing-after-click-1.txt)."
+  - value: "0.50"
+    why: "Goodcall charge per unique customer beyond the plan allowance: '$0.50/customer after 100', 'after 250' and 'after 500' on Starter, Growth and Scale (snapshots/goodcall/2026-10-06-pricing-after-click-1.txt)."
+  - value: "154"
+    why: "Estimate for Goodcall Growth at the stated volume, assuming 300 different callers: $129 + (300 - 250) x $0.50 = $129 + $25."
+  - value: "99"
+    why: "My AI Front Desk Business-in-a-Box plan, $99 per month billed monthly, 200 voice minutes and 1,000 monthly overage credits (snapshots/my-ai-front-desk/2026-10-06-pricing.txt)."
+  - value: "10"
+    why: "My AI Front Desk auto-reload, '$10 for 1,000 credits' on Business-in-a-Box (snapshots/my-ai-front-desk/2026-10-06-pricing.txt)."
+  - value: "0.25"
+    why: "My AI Front Desk voice overage per minute on Business-in-a-Box: 25 credits a minute x $0.01 per credit ('1 credit = $0.01', overage table in snapshots/my-ai-front-desk/2026-10-06-pricing.txt)."
+  - value: "189"
+    why: "Estimate for My AI Front Desk Business-in-a-Box at the stated 600 minutes: (600 - 200 included minutes) x 25 credits = 10,000 credits, less the 1,000 monthly overage credits = 9,000 credits = 9 auto-reloads x $10 = $90; $99 + $90."
+  - value: "0.07"
+    why: "Low end of Retell AI's pay-as-you-go range, '$0.07-$0.31 / min for AI Voice Agents' (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "0.31"
+    why: "High end of the same Retell AI pay-as-you-go range (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "0.055"
+    why: "Retell AI 'Retell Voice Infra', $0.055 per minute, pay-as-you-go (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "0.064"
+    why: "Retell AI LLM price per minute, standard tier, for GPT 5.6 Terra and Claude 5 Sonnet, both marked Recommended (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "89.40"
+    why: "Estimate for a Retell AI build at the stated 600 minutes: 600 x ($0.055 voice infra + $0.015 Retell Platform voice + $0.064 GPT 5.6 Terra + $0.015 United States Twilio telephony) = 600 x $0.149. Excludes the $2.00 number and any add-ons."
+  - value: "2.00"
+    why: "Retell AI phone number, '$2.00/month' under Monthly Subscription Items (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "0.005"
+    why: "Retell AI Knowledge Base call add-on, '+$0.005/minute' (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "20.00"
+    why: "Retell AI 'Retell SMS' monthly subscription item, $20.00/month (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "0.01"
+    why: "Retell AI SMS, '$0.01/Msg' under call agent add-ons (snapshots/retell-ai/2026-10-06-pricing.txt)."
+  - value: "0.02"
+    why: "GoHighLevel inbound call forwarded to another US number, $0.02 a minute (used in the FAQ): recorded in the call-inbound usage note in src/data/pricing/gohighlevel.json from HighLevel's Phone System guide; not computed."
+---
+
+## How much does an AI receptionist cost per month at 600 minutes?
+
+A monthly price means little until the call volume is fixed, so every figure below assumes the same month: 600 minutes of answered calls, which is 300 calls averaging 2 minutes, or about 10 a day. Goodcall counts callers rather than minutes, so the month also assumes 300 different callers, the expensive case for that plan. The totals are our estimates at that volume before sales tax, worked out from each vendor's published prices: GoHighLevel's as we checked them on <Checked tool="gohighlevel" />, and the others as their pricing pages stood on 6 October 2026.
+
+- **GoHighLevel Voice AI on an account you already pay for: $44.14 plus AI tokens.** That is $36 in Voice Engine and voice charges on pay-per-use, phone charges at the inbound rate of $0.01165 a minute, and $1.15 for a local number. HighLevel does not say which phone rate applies when its AI answers, so the standard inbound rate is our assumption, and rounding each call up to a whole minute adds a little.
+- **The same agent on a new GoHighLevel account: $141.14 plus tokens,** because the Starter plan, at <Price tool="gohighlevel" plan="starter" /> a month, comes first.
+- **Rosie's Scale plan: $149.** It includes 1,000 minutes, so this month fits with room to spare.
+- **Goodcall's Growth plan: $154.** The plan costs $129 per agent and covers 250 different callers; the other 50 cost $0.50 each, and minutes are not metered.
+- **My AI Front Desk's Business-in-a-Box plan: $189.** The $99 plan includes 200 voice minutes and 1,000 overage credits. Each further minute takes 25 credits, so the other 400 minutes use up those credits and then nine $10 top-ups of 1,000 credits each.
+- **A custom agent on Retell AI: $89.40 in usage, plus $2.00 a month for its phone number,** before anyone has built it.
+
+Only the GoHighLevel lines leave a usage charge out. HighLevel bills the language model behind a voice agent by the token, and the count changes from call to call, so it cannot be priced in advance; our [GoHighLevel AI pricing guide](/tools/gohighlevel/ai-pricing/) explains how those tokens are billed. The ready-made plans include their AI in the fee, and Retell prices each model by the minute, so neither needs a separate allowance for tokens. Volume also reshuffles the order: a bundled plan holds still until you cross its allowance, while GoHighLevel and Retell rise with every minute.
+
+## What does GoHighLevel's Voice AI cost a business already on GoHighLevel?
+
+Any <T id="gohighlevel" /> sub-account can run Voice AI without an AI subscription. On pay-per-use, each minute costs $0.045 for HighLevel's Voice Engine and $0.015 for an OpenAI or Cartesia voice, then the model's tokens and the phone charges for the call. The [AI pricing guide](/tools/gohighlevel/ai-pricing/) explains each part; at receptionist volumes, three rules matter more.
+
+- **AI Employee Growth is the wrong plan to buy for a phone agent alone.** Its $50 a month per sub-account includes 100 Voice AI minutes, worth a small fraction of that fee at pay-per-use rates before tokens, and every minute after the 100th is billed at those same rates anyway.
+- **AI Employee Unlimited is a bet on heavy use.** For $97 a month per sub-account it covers the AI side of every call, subject to HighLevel's fair-use terms. At 600 minutes the Voice Engine and voice come to $36 before tokens, so Unlimited only wins on a much busier line or with a costly model or voice.
+- **Phone charges stay on every plan.** HighLevel's AI article applies Phone System charges to all calls whatever the AI plan, and its Phone System guide rounds each call up to the next whole minute, so 30-second calls are charged as full phone minutes.
+
+What the usage buys is reach into the rest of the account. HighLevel's help center lists the agent's actions: transfer the caller to a human phone number, book an appointment, update contact fields, trigger a workflow and send a text during the call. Bookings go into HighLevel's own booking calendars, so at least one needs its availability, appointment length, buffers and booking rules set before the agent can use it. You decide whether the agent answers calls directly or steps in as a backup when nobody picks up, and whether it works all hours or to a custom schedule. Its number has to be on LC Phone or a connected Twilio account.
+
+The catches are the build and the texting. GoHighLevel supplies the parts and a handful of starting templates, not a finished receptionist: someone writes or adjusts the prompt and welcome message, completes the actions, tests the agent with a web or phone call and deploys it to a number. An agent that texts US callers needs A2P 10DLC registration first, $22.50 once and a campaign fee from $1.50 a month, which our [GoHighLevel texting and calling guide](/tools/gohighlevel/sms-and-calling-costs/) covers. This is the right route for one location whose contacts, calendar and follow-up already live in GoHighLevel, because bookings, contact updates and call summaries land in those records with no connector in between.
+
+## What do Rosie, Goodcall and My AI Front Desk include for the price?
+
+These services sell the receptionist as a finished product. They run the AI and the phone line, and setting one up means filling in your business details and choosing options rather than building an agent. This is what each pricing page listed on 6 October 2026.
+
+**Rosie** sells three plans by the minute. Professional, at $49 a month, includes 250 minutes, message taking, spam detection and booking links sent by text. Scale, at $149, raises that to 1,000 minutes and adds booking directly into Google Calendar, Calendly, Acuity or Appointlet, warm and live call transfers, and texts sent during a call. Growth, at $299, gives 2,000 minutes, transfers that try several numbers in turn, training on your own documents and a setup specialist. Every plan answers in English and Spanish and reaches a CRM through Zapier; Rosie says direct CRM integrations are still being built.
+
+**Goodcall** charges per agent and meters callers, not minutes. Starter costs $79 a month for 100 different callers, Growth $129 for 250 and Scale $249 for 500, each with unlimited minutes and $0.50 for every caller beyond the allowance. Goodcall counts a caller as a phone number that actually speaks to the agent during the month, so a customer who rings back counts once. The plans also differ in how many people can take transferred calls (3, 25 or 500 directory contacts) and how long call details are kept: 7 days on Starter, 30 on Growth and with no limit on Scale. CRM sync runs through Zapier, and the plan lists do not mention calendar booking.
+
+**My AI Front Desk**, whose product is called Frontdesk, sells one self-serve plan. Business-in-a-Box costs $99 a month for 200 voice minutes, 100 website chats, 400 texts, a built-in CRM, follow-up sequences and Zapier. Its limits sit further down the page: 2 of each agent action (transferring a call, sending a text, looking something up, pushing data to another app), 20 outbound calls a day, 2 editor seats and only the last 200 logs kept.
+
+Smith.ai is missing for a plain reason: when we saved its AI receptionist pricing page on 6 October 2026, it showed a contact form, not prices.
+
+All three suit a business that wants calls answered without building anything, and a bill that stays flat inside the allowance. What they give up is reach: call records live in each service's own dashboard, and anything beyond its direct connections travels through Zapier.
+
+## How do overage charges work on AI receptionist plans?
+
+Each pricing model punishes a different kind of busy month.
+
+- **Rosie moves you up a plan.** Its FAQ says you get warning emails as you near the limit; go past it and Rosie switches you to the next plan at that plan's standard price, where you stay until you downgrade yourself. One heavy month on Professional puts you on the $149 plan until you move back.
+- **My AI Front Desk charges by the minute.** Once the 200 included minutes and the month's 1,000 overage credits are gone (unused credits expire monthly), each voice minute costs 25 credits, or $0.25, from top-ups that reload automatically at $10 per 1,000 credits. That is more than four times GoHighLevel's pay-per-use Voice Engine and voice charges combined, before GoHighLevel adds tokens and phone charges, so this plan's bill climbs steeply once calls pass the allowance.
+- **Goodcall charges for more callers, not longer calls.** A caller who talks for 20 minutes costs no more than one who talks for 1. The month that runs over is one with many different callers, such as the weeks after an advertising push.
+- **GoHighLevel bills every minute from the wallet.** Pay-per-use has no allowance to exceed, the wallet refills from your card as it runs down, and AI Employee Growth moves to pay-per-use rates after its 100 minutes unless the sub-account's AI usage limit is set to stop the AI.
+- **Retell bills to the second, silence included.** Its FAQ says hold time and silence count because the agent keeps listening, calls that never connect cost nothing, and after a transfer only the telephony charge continues.
+
+## What does it take to build your own AI receptionist on Retell AI?
+
+Retell AI sells the parts of a voice agent, not a finished receptionist. Its pricing page quotes $0.07 to $0.31 a minute for a voice agent, depending on the model and voice, and prices each part: $0.055 a minute for Retell's voice infrastructure, voices from $0.015 a minute, and language models charged per minute, $0.064 for GPT 5.6 Terra or Claude 5 Sonnet, two of the models it marks as recommended. Calls on Retell's US Twilio numbers add $0.015 a minute, and each number costs $2.00 a month. A knowledge base adds $0.005 a minute, texting through Retell's own numbers needs a $20.00 monthly SMS subscription plus $0.01 a message, and 20 calls can run at once before extra capacity is charged.
+
+Retell offers pre-built agent templates, but building a receptionist from those parts is still a project. Someone has to:
+
+1. Write the agent's instructions and test them against the calls you really get: bookings, price questions, emergencies, wrong numbers and callers who wander off topic.
+2. Set up call transfers and calendar booking with Retell's own features, connect your CRM through its webhooks and API, and keep those links working when either side changes.
+3. Sort out the phone side: a Retell number or forwarding from your current line, plus A2P 10DLC registration before it texts US mobiles from a local number.
+4. Read transcripts after launch and update the instructions as your hours, prices and services change.
+
+Retell's pay-as-you-go plan comes with community and email support, and dedicated implementation help is sold only as an Enterprise add-on. A custom build suits a business whose calls need handling the packaged services cannot offer, such as routing across many staff or booking into an unusual system, and that has a developer to own the result. At 600 minutes its usage costs less than any ready-made plan above, but that monthly saving has to repay the hours spent building and maintaining the agent.
+
+## Which AI receptionist should a small business choose?
+
+- **One location already on GoHighLevel:** build Voice AI on pay-per-use. Run it first as the backup for calls nobody answers, read a month of wallet charges, and move to AI Employee Unlimited only when your monthly minutes pass the break-even worked out in the AI pricing guide.
+- **Not on GoHighLevel, and you only want calls answered:** do not buy GoHighLevel for the voice agent alone. Starter plus usage comes to about Rosie's Scale price before tokens, and you would still have to build the agent. GoHighLevel makes sense when it also runs your CRM, calendar, texting and follow-up; [GoHighLevel's full pricing](/tools/gohighlevel/pricing/) shows that bill.
+- **Message taking only, reliably under 250 minutes a month:** Rosie Professional at $49, the cheapest ready-made plan here.
+- **Booking and transfers, from a few hundred minutes up to 1,000:** Rosie Scale at $149, the plan to beat on price and published features.
+- **Long calls or many repeat callers:** Goodcall, which charges per caller and never per minute.
+- **Calls plus website chat, texting and a simple CRM on one bill:** My AI Front Desk, as long as calls stay near 200 minutes a month.
+- **Routing or integrations no package offers, with a developer on hand:** a custom agent on Retell AI.
+
+A medical, dental or therapy practice should not point GoHighLevel's Voice AI at patient calls. HighLevel's Terms of Service have customers agree not to enter protected health information, other sensitive personal information or confidential information into its AI features, and they make no exception for accounts on its $297-a-month HIPAA add-on; the HIPAA section of our [add-ons guide](/tools/gohighlevel/add-ons/) explains what that add-on does cover. Of the other services here, only Retell's pricing page mentions HIPAA at all, so ask each vendor how it handles patient information before any patient calls reach it.

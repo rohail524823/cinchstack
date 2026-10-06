@@ -1,0 +1,101 @@
+---
+title: "GoHighLevel n8n integration 2026: API, webhooks and costs"
+description: "GoHighLevel links to n8n through its API and workflow webhooks: the plan and token you need, the $0.01 premium step fee, and n8n Cloud vs self-hosting."
+h1: "GoHighLevel and n8n: how they connect and what each side costs"
+quickAnswer: "As of 26 September 2026, GoHighLevel connects to n8n through its API, which HighLevel's API article includes at a basic level from the $97 Starter plan, and through workflow webhooks. The Inbound Webhook trigger and the Custom Webhook action are premium steps that cost $0.01 a run once a sub-account has used 100 free runs, a one-time allowance that never refills. On 6 October 2026, n8n Cloud's Starter plan cost $24 billed monthly for 2,500 workflow executions, and the self-hosted Community Edition was free apart from the server. A business whose automations stay inside GoHighLevel can skip n8n; one whose workflows must reach apps GoHighLevel has no connection to, or chain several apps in one run, needs it."
+published: 2026-10-06
+related:
+  - /tools/gohighlevel/plans-compared/
+  - /tools/gohighlevel/add-ons/
+  - /stacks/agency/
+extraFigures:
+  - value: "24"
+    why: "n8n Cloud Starter plan billed monthly ('$24 /mo, billed monthly', 2.5k workflow executions). n8n is not a tracked tool; read from snapshots/n8n/2026-10-06-pricing-after-click-1.txt, n8n.io/pricing with the Monthly toggle selected on 6 October 2026."
+  - value: "20"
+    why: "n8n Cloud Starter plan billed yearly ('$20 /mo, billed annually'). From snapshots/n8n/2026-10-06-pricing.txt, the default view of n8n.io/pricing, which shows annual billing; the Annually toggle in 2026-10-06-pricing-after-click-2.txt shows the same prices."
+  - value: "60"
+    why: "n8n Cloud Pro plan billed monthly ('$60 /mo, billed monthly', 10k workflow executions). From snapshots/n8n/2026-10-06-pricing-after-click-1.txt (Monthly toggle)."
+  - value: "50"
+    why: "n8n Cloud Pro plan billed yearly ('$50 /mo, billed annually'). From snapshots/n8n/2026-10-06-pricing.txt (default annual view)."
+  - value: "960"
+    why: "n8n Business plan billed monthly ('$960 /mo, billed monthly', 40k workflow executions, marked 'Self-hosted only'). From snapshots/n8n/2026-10-06-pricing-after-click-1.txt (Monthly toggle)."
+  - value: "800"
+    why: "n8n Business plan billed yearly ('$800 /mo, billed annually', self-hosted only). From snapshots/n8n/2026-10-06-pricing.txt (default annual view)."
+  - value: "0.008"
+    why: "Overage per premium execution on GoHighLevel's Workflow Pro Starter tier, recorded in the workflow-pro-starter add-on note in src/data/pricing/gohighlevel.json (HighLevel's Workflows Pro Plan article, snapshots/gohighlevel/2026-09-26-help-workflow-pro-plan.txt); not computed."
+  - value: "1,000"
+    why: "Premium executions a month at which Workflow Pro's $10 Starter tier costs the same as paying $0.01 per execution: $10 / $0.01 = 1,000. A count, not a dollar figure."
+---
+
+## Is n8n a replacement for GoHighLevel, or an add-on to it?
+
+For nearly every small business, it is an add-on. The two tools work at different layers. <T id="gohighlevel" /> holds the customer records and the channels that reach those customers: contacts, pipelines, calendars, funnels, a phone system for texts and calls, and an email service. Its workflow builder acts on those records and comes with every plan, starting at <Price tool="gohighlevel" plan="starter" /> a month. n8n has no CRM, pipelines or phone numbers of its own. It is an automation engine that waits for an event, works on the data it receives and calls other apps' APIs, GoHighLevel's among them.
+
+That turns "GoHighLevel vs n8n" into a narrower decision: should a given automation live in GoHighLevel's builder or in n8n? The two bill differently. GoHighLevel charges nothing for standard workflow steps and a fee per run for a short list of premium steps. n8n's paid plans charge by the workflow execution, while its self-hosted Community Edition charges nothing per execution and leaves the server and its upkeep as the cost. GoHighLevel's builder is the simpler home for automations that never leave GoHighLevel; n8n copes better with logic that spans several outside apps. Adding n8n also means a second bill, a second login and a second place to look when a lead goes missing.
+
+## How do GoHighLevel and n8n send data to each other?
+
+Each direction uses a different mechanism.
+
+**From GoHighLevel to n8n,** a step in a GoHighLevel workflow sends an HTTP request to the URL of a Webhook trigger in n8n. GoHighLevel offers two steps for the job:
+
+- The **Webhook** action (outbound) sends the contact's standard and custom fields, plus details of other records only when the workflow's trigger relates to them. HighLevel's help article gives appointment data as the example, which travels only when an appointment trigger such as Appointment Booked starts the workflow, and notes that the action cannot send files or images.
+- The **Custom Webhook** action lets you pick GET, POST, PUT or DELETE and add authentication, headers, query parameters and a raw JSON body. HighLevel recommends it for advanced authentication and flexible request building.
+
+**From n8n to GoHighLevel,** there are two routes. The first is the API. n8n's built-in HighLevel node creates, fetches, updates and deletes contacts, opportunities and tasks, books appointments and finds free calendar slots; for any other endpoint, n8n's docs send you to its general HTTP Request node. The second route posts to a GoHighLevel workflow's Inbound Webhook trigger, which has a URL of its own and starts that workflow with whatever data arrives. Use the API to change records, and the Inbound Webhook when a GoHighLevel workflow should decide what happens next. The routes are priced differently, as the cost section below explains.
+
+## Which GoHighLevel plan and API credentials does n8n need?
+
+**The plan.** HighLevel's API help article includes basic API access on Starter and on Unlimited, at <Price tool="gohighlevel" plan="unlimited" /> a month, and advanced access on Agency Pro, at <Price tool="gohighlevel" plan="agency-pro" /> a month. Advanced access adds agency-level keys and OAuth 2.0; below it, keys belong to a single location, HighLevel's word for a sub-account. An agency linking n8n to several client accounts on Starter or Unlimited should therefore plan on one credential per sub-account. The article caps traffic at 100 requests per 10 seconds and 200,000 a day for each app on each sub-account or agency, so a bulk update from n8n should be paced. Our [GoHighLevel plan comparison](/tools/gohighlevel/plans-compared/) covers the other differences, including a pricing card that disagrees with the article about Starter.
+
+**The credential.** HighLevel's version 1 API reached end of support on 31 December 2025, and its private integrations article, updated 29 September 2026, says new version 1 keys can no longer be created; an old key left unused for more than 90 days may also be marked expired. The replacement is a private integration token. You generate it in settings, switching the feature on under Labs if it is missing, choose the scopes it may use and copy it at once, since HighLevel will not display it again. The token works with version 2 of the API and stays fixed until you rotate it, unlike OAuth access tokens, which expire daily. HighLevel advises rotating every 90 days, and its rotate-later option keeps the old token working for 7 days while you update n8n. Each agency and each sub-account can hold up to 20 tokens.
+
+**The n8n side.** n8n's HighLevel credential supports an API key, which n8n ties to the unsupported version 1 API, and OAuth2, which needs an app made in a HighLevel developer account with Sub-Account distribution and 6 scopes covering locations, contacts, opportunities and users. A private integration token is not among those options, so it goes in n8n's HTTP Request node instead, sent in the Authorization header as HighLevel's examples show. Settle one gap before building: HighLevel's API article lists OAuth among Agency Pro's advanced features, yet n8n's guide connects through OAuth2. On Starter or Unlimited, confirm with HighLevel that a developer app can connect your sub-account, or use the token route. Budget for technical help either way, because HighLevel's support team does not build or debug API integrations.
+
+## What does GoHighLevel charge for the webhook steps n8n relies on?
+
+Standard workflow steps cost nothing on any GoHighLevel plan. Charges apply to premium triggers and actions, a list that contains both webhook steps n8n setups lean on, the Inbound Webhook trigger and the Custom Webhook action, plus the Google Sheets and Slack actions. HighLevel's Workflow Pro article counts steps from Marketplace apps and LC Apps used in workflows as premium executions too. Each premium run costs $0.01, taken from the agency's prepaid wallet.
+
+The free allowance is smaller than it looks. When an agency switches premium features on, every sub-account gets 100 free executions, and HighLevel's Workflow Pro article describes them as lifetime executions: once spent, they never come back. A sub-account that pushes a steady stream of leads through a premium step runs through them early, and every run after that is charged. HighLevel's premium features article reserves passing that cost on to clients for agencies on Agency Pro.
+
+Two HighLevel documents point to a cheaper design. The premium list names the Custom Webhook action but not the plain outbound Webhook action, and HighLevel's pricing guide puts no price on API requests. A flow that sends data out with the plain Webhook action and writes results back through the API therefore stays off the premium list. The saving covers only the requests: a text or email that n8n sends through GoHighLevel still bills at the rates in our [full GoHighLevel price breakdown](/tools/gohighlevel/pricing/). Pay for the premium steps when a request needs authentication or custom headers, or when an outside system has to start a GoHighLevel workflow by itself.
+
+For steady premium volume, HighLevel sells Workflow Pro. Its Starter tier costs $10 a month for 10,000 premium executions, then $0.008 for each one beyond that. The Workflow Pro article counts that allowance per sub-account, but one line of HighLevel's Pricing Guide calls the $10 a price "for the agency", so confirm the unit before buying for several clients. At $0.01 a run, 1,000 runs cost the same $10, so the tier becomes the cheaper option once a sub-account passes about 1,000 premium runs a month. It does not cover ChatGPT or Workflow AI steps, and the [GoHighLevel add-ons guide](/tools/gohighlevel/add-ons/) lists the 2 larger tiers.
+
+## What does n8n cost on its Cloud plans and when self-hosted?
+
+n8n prices its paid plans by workflow executions. An execution is one complete run of a workflow, whatever the number of steps, and only production runs, the ones started automatically by a trigger, a schedule or polling, count. n8n's docs exclude test runs from the editor, sub-workflows called by another workflow and error-handling workflows. Every plan comes with unlimited users, unlimited workflows and every integration. On n8n's pricing page, checked on 6 October 2026:
+
+- **Starter:** $24 a month billed monthly, or $20 a month billed yearly, for 2,500 executions a month, 5 concurrent executions and 1 shared project. The page's comparison table limits each run to 5 minutes.
+- **Pro:** $60 a month, or $50 a month billed yearly, for 10,000 executions, up to 50 concurrent executions, admin roles and workflow history.
+- **Business:** $960 a month, or $800 a month billed yearly, for 40,000 executions, adding SSO, Git version control and separate environments. n8n's FAQ says Business is available only for self-hosted n8n at present.
+- **Enterprise:** custom pricing, hosted by n8n or on your own servers.
+
+The self-hosted **Community Edition** is free: the same software, run without a license key. n8n's docs attach execution quotas to paid plans, so on Community the practical ceiling is the server's capacity. The docs call it almost the complete feature set. The gaps a team notices are projects, SSO, Git version control and sharing, since on Community a workflow or credential stays visible only to the instance owner and the person who created it. Registering the instance with an email address, also free, adds folders and debugging tools. What Community does cost is a server rented from a host such as DigitalOcean, Hetzner or AWS, each covered by a setup guide in n8n's docs, plus the hours to install, secure, update and back it up. For anyone without that expertise, n8n's own guide to choosing a deployment points to Cloud.
+
+Two more items shape the n8n bill. AI steps are paid separately: through your own account with the model provider, or on Cloud Starter and Pro through prepaid Gateway credits that n8n deducts per request, and nodes using those credits stop when the balance reaches zero. Licensing matters to agencies: the Sustainable Use License behind Community lets an agency run workflows for clients on its own instance and charge for building and maintaining them, provided clients cannot open n8n or edit those workflows. Hosting n8n so that clients can build their own automations needs a separate commercial agreement with n8n.
+
+## When are GoHighLevel's own workflows enough, and when is n8n worth adding?
+
+GoHighLevel on its own is enough when:
+
+- **Every step acts on GoHighLevel's records and channels.** A form creates a contact, a tag moves it along a pipeline, texts and emails go out, a calendar books the call and a review request follows. All of it runs on standard steps.
+- **The other app already connects to GoHighLevel.** HighLevel's help center documents a 2-way QuickBooks sync for customers, payments and invoices, workflow triggers and actions for apps such as Typeform, Airtable, Basecamp and Housecall Pro, and premium actions for Google Sheets and Slack.
+- **Premium volume is low.** The first 100 premium runs per sub-account are free, and a few hundred a month after that cost a few dollars, less than any paid n8n plan.
+
+n8n is worth adding when:
+
+- **The logic spans several apps.** Looking a record up in one system, branching on the answer and writing to two others is the work n8n is designed for, and its pricing page lists code steps in JavaScript or Python and custom API requests among its developer tools.
+- **An app has no GoHighLevel connection,** such as a database, an internal tool with an API or accounting software that HighLevel does not sync with.
+- **The AI step has to work across apps.** GoHighLevel's 4 premium Workflow AI actions (Decision Maker, Intent Detection, Summarize Text and Translate) cost $0.01 a run, and its GPT action bills at the model's own rates, which suits AI work on GoHighLevel's own records. n8n's Starter plan includes agent and AI nodes, so a model can read from one app and its answer can drive steps in others within the same run, with the model's usage billed separately.
+- **Volume grows and you can self-host.** GoHighLevel counts each premium step, so a workflow with 3 premium steps uses 3 executions every time it runs, while n8n counts the whole run once and its self-hosted Community Edition sets no execution quota. On n8n Cloud the sums run the other way: Workflow Pro's $10 tier covers 10,000 premium executions a month, while Cloud Starter's $24 covers 2,500 runs. For an agency, GoHighLevel's free allowance and Workflow Pro are counted per sub-account, whereas a single n8n instance can serve every client.
+
+## What do common GoHighLevel and n8n setups look like?
+
+Three patterns show how the pieces fit together:
+
+1. **Form to CRM.** A lead form outside GoHighLevel, on another site builder or an ad platform, sends each entry to an n8n webhook. n8n tidies the phone number, checks whether the person already exists and creates or updates the contact through HighLevel's API, and a GoHighLevel workflow started by a standard trigger sends the first text. Cost: 1 n8n execution per lead and no premium step, because the contact arrives through the API. If the form is one of GoHighLevel's own, n8n adds nothing.
+2. **CRM to accounting.** A workflow triggered by Pipeline Stage Changed uses the plain Webhook action to send a won deal and its contact to n8n. n8n creates the customer and the invoice in the accounting software, then writes the invoice number back to the GoHighLevel contact through the API. Cost: 1 n8n execution per won deal. If the books are in QuickBooks and invoices go out from GoHighLevel, check HighLevel's own QuickBooks integration first: its help article says it creates the QuickBooks invoice once a GoHighLevel invoice is sent.
+3. **AI enrichment.** The plain Webhook action sends each new contact to n8n, which asks an AI model to summarize the inquiry or sort it by service and writes the answer back to the contact; a GoHighLevel workflow then routes the lead. Cost: 1 n8n execution plus the model provider's charge for each request. For a summary or a sort on its own, GoHighLevel's Summarize Text and Intent Detection actions cost $0.01 a run and need no n8n.
+
+Give each pattern a failure alert. n8n can run an error workflow whenever a run fails, and its docs leave those runs out of the execution count.

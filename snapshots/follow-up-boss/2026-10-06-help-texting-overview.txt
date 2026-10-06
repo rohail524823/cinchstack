@@ -1,0 +1,129 @@
+SOURCE: https://help.followupboss.com/hc/en-us/articles/360014690533-Texting-Overview
+FETCHED: 2026-10-06T10:18:25.810Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+Webinars Community Blog Submit a request Log In
+Texting Overview
+Search
+Follow Up Boss - Help Center
+Communication
+Texting
+ 
+B. Claire
+2 months ago
+Updated
+Follow
+Not yet followed by anyone
+
+Whether it's from the app or the desktop, texting in Follow Up Boss is simple and quick. When texting through Follow Up Boss, all texts are logged on the corresponding profile, making communication with people seamless as you have all the information at your fingertips.   
+
+⚠️ Important: Business Registration must be approved to send text messages from FUB. 
+
+How it Works 
+
+Follow Up Boss texting can be done from the desktop as well as from the mobile apps. Need to send a video text or a group text? No problem! We got you covered. Check out the resources below to learn more about texting with Follow Up Boss. 
+
+ 
+
+Texting on the Desktop 💻
+
+There are three ways to Text on the Desktop:
+
+From the lead profile
+Quick text
+From the Inbox
+Smartlist contact number
+Texting on the App 📱
+
+iPhone and Android texting is perfect for when you are on the go. All texts sent from the app will use your Follow Up Boss number (if always text in app is enabled, check your iPhone and Android settings). 
+
+Texting Features 
+Texting Images 🌅
+
+Need to send a picture of the property? You can send images via text, just like you would from any other text app! 
+
+ 
+
+Video Texting 🎥
+
+Sending videos to clients is common. Through the Follow Up Boss app, you can send Video Texts directly from your Follow Up Boss number. 
+
+ 
+
+Group Texting 👥
+
+When selling or buying, spouses/partners/clients all need to be informed. To keep everyone in the loop, utilize Group Texting. 
+
+ 
+
+Related Guides
+
+Group Texting
+
+Video Texting
+
+Text on the Desktop
+
+iPhone Texting
+
+Android Texting
+
+Texting for Lenders
+
+vCard
+
+Schedule Texts 
+
+ 
+
+FAQs
+What number do my texts come from?
+Without the dialer enabled, texts will come from the Company Number. If a user has the Dialer enabled, text messages will be sent from the outbound number listed in the user's Settings. 
+Can I use my own cell number? 
+For texting through the desktop app we use Follow Up Boss numbers as phone companies do not allow tracking or sending of texts from personal cell numbers. Through the iPhone App, there is an option to text using your cell number. To toggle this setting, click your initials/image in the upper left-hand corner of the iPhone app > toggle off (grey) Always text in app. Although these text messages won't be automatically tracked. 
+Is there a character limit? 
+For the best deliverability and user experience, our carrier recommends sending texts that are no more than 320 characters. 
+Was this article helpful?
+Yes No
+2 out of 3 found this helpful
+Have more questions? Submit a request
+Return to top 
+Related articles
+Video Texting Overview
+Group Texting Overview
+iPhone: Texting
+Texting on the Desktop
+Schedule Text for the next 24 hrs
+  Articles in this section
+Group Texting Overview
+Texting Overview
+Video Texting Overview
+After Hours Queued Text Messages
+Company Number: What number do texts come from?
+Creating Text Templates
+Group Texting: Desktop
+How to Work Your Leads
+Lead Flow: Initial Text
+Past Client Scripts
+See more
+Try Follow Up Boss Free For 14 Days
+Start a Trial
+Phone and email support
+8am - 8pm EST
+7 days a week
+(855) 622-5311
+support@followupboss.com
+‍
+Company
+About Careers Press Kit
+Resources
+Blog Customer Results Get a Demo FAQ Updates Status Support
+Product
+For Solo Agents For Team Leaders For ISAs For Admins Large Teams Small Teams Pricing
+Compare
+Open System vs
+All-In-Ones Top Producer Wise Agent Boomtown CINC LionDesk
+Legal
+Security Privacy Terms
+© Follow Up Boss

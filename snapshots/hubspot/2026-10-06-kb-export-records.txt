@@ -1,0 +1,110 @@
+SOURCE: https://knowledge.hubspot.com/import-and-export/export-records
+FETCHED: 2026-10-06T10:14:40.405Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+We use cookies to improve HubSpot’s site. Some cookies are necessary for our website and services to function properly. Other cookies are optional and help personalize your experience, including advertising and analytics. You can consent to all cookies, decline all optional cookies, or manage optional cookies. Without a selection, our default cookie settings will apply. You can change your preferences at any time. To learn more, check out our Cookie Policy.
+
+Accept All
+Decline All
+Manage Cookies
+Skip to content
+ English 
+: Select a language
+Go to my account
+Get a demo
+Get started free
+ Knowledge Base
+Help Center
+Documentation 
+Training 
+Community 
+Blogs 
+Knowledge Base
+CRM
+Import & Export
+Export your records
+Export your records
+
+Last updated: April 2, 2026
+
+Available with any of the following subscriptions, except where noted:
+All products and plans
+
+You can export your records (e.g., contacts, deals) in your HubSpot account. This downloads their current property values and associations. Export records to analyze data outside of HubSpot, share data with external stakeholders, and get snapshot reports.
+
+If you want to export contact activities (e.g., calls, notes) instead, you can:
+
+Export individual contact data.
+
+Export certain activity reports.
+
+Use the engagements API.
+
+Please note: your account may use personalized names for each object (e.g., account instead of company). This article refers to objects by their HubSpot default names.
+
+Export records
+
+Permissions required Export permissions are required to export records.
+
+Navigate to your records:
+Appointments: In your HubSpot account, click More, then navigate to CRM > Appointments. If More doesn't appear in your account, navigate to CRM > Appointments directly.
+Calls: In your HubSpot account, click More, then navigate to CRM > Calls. If More doesn't appear in your account, navigate to CRM > Calls directly.
+Contacts: In your HubSpot account, click More, then navigate to CRM > Contacts. If More doesn't appear in your account, navigate to CRM > Contacts directly.
+Companies: In your HubSpot account, click More, then navigate to CRM > Companies. If More doesn't appear in your account, navigate to CRM > Companies directly.
+Courses: In your HubSpot account, click More, then navigate to CRM > Courses. If More doesn't appear in your account, navigate to CRM > Courses directly.
+Custom objects: In your HubSpot account, navigate to CRM, then select the custom object.
+Deals: In your HubSpot account, click More, then navigate to CRM > Deals. If More doesn't appear in your account, navigate to CRM > Deals directly.
+Listings: In your HubSpot account, click More, then navigate to CRM > Listings. If More doesn't appear in your account, navigate to CRM > Listings directly.
+Marketing events: In your HubSpot account, click More, then navigate to Marketing > Events. If More doesn't appear in your account, navigate to Marketing > Events directly.
+Payments: In your HubSpot account, click More, then navigate to Revenue > Payments. If More doesn't appear in your account, navigate to Revenue > Payments directly.
+Tickets: In your HubSpot account, click More, then navigate to CRM > Tickets. If More doesn't appear in your account, navigate to CRM > Tickets directly.
+To open the view you want to export:
+In listViewtable view, click the view's tab, or click Add view then select the view from the dropdown menu. To export all records of that object, open the All [records] view.
+In grid board view (deals, tickets, admin-activated, or custom objects only), click the pipeline dropdown menu in the upper left and select the pipeline with the view you want to export, then click the view tab. To export all records in the pipeline, open the All [records] view.
+To export the records:
+In listView list view, in the top right of the table, click Export.
+In grid board view, in the top right of the board, click Board options, then select Export view.
+
+In the dialog box, click the File format dropdown menu, then select the format of your exported file.
+Enter a name in the Export name field to customize the name of your exported file.
+Click the Language of column headers dropdown menu, then select a language to specify a language for the column headers in the exported file.
+By default, the dropdown menu will show the language you've selected in your settings. The column headers of default properties will be translated, but the property values within each column will not be translated to the selected language.
+
+By default, only the properties and associations in the view will be included in the file, and for associations, this will include: up to one thousand associated record ID values per association column and the associated record name. 
+To edit which properties and associations are included, click Customize, then select from the following options:
+Contacts with multiple email addresses: select the Include all email addresses checkbox to include all email addresses for contacts with multiple emails in the export file.
+Companies with multiple domains: select the Include all domains checkbox to include all domain names for companies with multiple domains in the export file.
+Properties included in export: options include Properties and associations in your view (default), All properties on records (i.e. no associations), or All properties and associations on records. The order of the columns in the export file depends on the option you select:
+If you export only properties in the view, the columns are displayed in the same property order set for the view.
+If you export all properties, the columns are displayed in alphabetical order, with the exception of Record ID which will be the first column in the file. If you export all properties and associations, associations are included at the end.
+Associations included in export: options include Associated record name (e.g., Up to 1,000 associated records (default), or All associated records (CSV files only).
+
+Please note: clearing the Include associated record name checkbox can result in quicker exports.
+
+Click Export. You'll receive an email with a download link to your export file. Download links to export files will expire after 30 days.
+
+If the records you export have associated records, each associated object will have its own column within the file. Depending on the object, you can export information about associated contacts, companies, deals, tickets, custom object records, line items, subscriptions, or payments. Historical exports remain visible in your export log for 3 years then they will be automatically removed.
+
+Learn more about configuring notifications when users start large exports.
+
+Technical limits
+
+The following is expected when completing record exports:
+
+You can complete up to 300 exports within a rolling 24 hour window, and up to three exports simultaneously. Any additional exports will be queued until one of the three concurrent exports is completed.
+Large exports may take a few hours to complete the export and you may receive multiple files delivered in a zip file. Multiple files are expected when exporting CSV or XLSX files with more than 1,000,000 rows and XLS files with more than 65,535 rows.
+An exported CSV file will be automatically zipped if the resulting file is greater than 2MB.
+For XLS and XLSX files, there's a limit to the number of columns that can be exported (256 for XLS and 16,384 for XLSX). If your export contains more columns than the limit, the additional columns won't be included in the file. For exports with a large number of columns, it's recommended to export CSV files which won't have a column limit.
+Was this article helpful?
+Yes No
+This form is used for documentation feedback only. Learn how to get help with HubSpot.
+0 / 0
+Table of contents
+Export records
+Technical limits
+Related content
+Copyright © 2026 HubSpot, Inc.
+Legal Stuff
+Privacy Policy
+Manage Cookies
+Your Privacy Choices

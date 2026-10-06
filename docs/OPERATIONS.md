@@ -60,7 +60,8 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 |---|---|---|
 | GoHighLevel | **Approved**, paid links live | See section 1. Questions about trial wording, an extended-trial page and a CinchStack referral slug were emailed to the affiliate manager (Devesh Khatri) on 6 October 2026. Until HighLevel answers in writing, no trial wording appears near its links. |
 | Systeme.io | **Approved**, paid links on its competitor-free pages | See section 1b. The comparison-page question was emailed to support@systeme.io on 6 October 2026. |
-| HubSpot, Semrush, Shopify, Squarespace, Wix | Declined | Don't re-apply until something real has changed (traffic of your own, or an invitation from the brand). |
+| HubSpot | Declined 30 September; reply sent 6 October 2026 | HubSpot's decline email invited more detail, so a reply went with the four live HubSpot pages and an honest note on traffic. Wait for the answer. |
+| Semrush, Shopify, Squarespace, Wix | Declined | Don't re-apply until something real has changed (traffic of your own, or an invitation from the brand). |
 | Klaviyo | Agency and tech partners only | No affiliate program to join. |
 | Notion | Closed to new partners | Check again in 2027. |
 | Webflow, Kit, ActiveCampaign | PartnerStack | Locked until the PartnerStack Network approves you. Re-apply to the Network with a @cinchstack.com email address and a matching LinkedIn profile. |

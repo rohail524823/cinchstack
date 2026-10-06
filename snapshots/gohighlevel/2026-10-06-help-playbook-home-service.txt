@@ -1,0 +1,60 @@
+SOURCE: https://help.gohighlevel.com/support/solutions/articles/155000000961-industry-playbook-home-service-business
+FETCHED: 2026-10-06T10:19:21.404Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+HighLevel Support Portal
+Home
+Knowledge base
+Login
+Sign up
+Home
+...
+Industry Playbook - Home Service Business
+Industry Playbook - Home Service Business
+
+Modified on: Tue, 3 Oct, 2023 at 3:22 PM
+
+The roadmap for growing a local Home Service business online is simple: capture new leads, conversationally convert those leads into sales, turn those customers into positive reviews, and then reactivate those customers into repeat customers. Here’s the playbook:
+
+Capture More Leads
+
+Install the SMS Webchat Widget on the Home Service business’s website.
+Integrate the Home Service business’s Google Business Profile to activate Google Chat
+Activate The Missed-Call Text-Back so that any unanswered calls to the Home Service business immediately receive a text message saying, “Sorry we missed your call - how can we help?”
+
+Nurture Leads into Bookings
+
+Configure helpful Text Snippets for phrases & links the Home Service business often sends to people.
+Activate Conversation AI so the Home Service business has a fully trained, always-on assistant to conversationally convert leads into bookings.
+
+Turn Leads into Sales
+
+Configure Payment Integration for Payment Forms, Paid Appointment Calendars, Text-2-Pay, and Tap-2-Pay.
+
+Turn Sales into Positive Reviews 
+
+Configure Email & SMS Review Request Templates so the Home Service business can quickly & easily request reviews with the tap of a button.
+
+Turn Sales into Repeat Customers
+
+Configure Newsletter Email Template so the Home Service business can easily send out news, updates, and promotions to their contacts.
+Was this article helpful?
+No 
+Yes
+Print
+Articles in this Folder
+Industry Playbook - Dental Practice/Dentistry
+Industry Playbook - Hair/Nail Salon
+Industry Playbook - Coaching & Consultation Agency
+Industry Playbook - Financial Service Business
+Industry Playbook - Health & Wellness Business
+Industry Playbook - Home Service Business
+Related Articles
+Industry Playbook - Financial Service Business
+Industry Playbook - Health & Wellness Business
+Industry Playbook - Coaching & Consultation Agency
+Content That Converts: The Electrician’s Playbook for Social Media & Digital Success
+Full Bookings, Full Pipeline: How Real Estate Consultants Can Rank Higher on Google & Close More Deals
+Sparkling Ads: The Blueprint to Sweep Up More Clients for Your Cleaning & Maintenance Business
+Home Knowledge base

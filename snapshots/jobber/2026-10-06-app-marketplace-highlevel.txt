@@ -1,0 +1,77 @@
+SOURCE: https://secure.getjobber.com/app_marketplace/highlevel
+FETCHED: 2026-10-06T10:26:13.960Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Jobber.com HomeJobber Pricing
+Log In
+Start Free Trial
+
+ App Marketplace
+
+HighLevel
+
+Connect Jobber to HighLevel for Unified Marketing and Job Management. When marketing data and job details live in separate places, service businesses bleed time and can even miss revenue. Linking Jobber with HighLevel dissolves those barriers so every lead, scheduled job, and follow up moves in one uninterrupted rhythm.
+
+✅ Easily maintain consistent customer data
+
+✅ Create powerful marketing automations based on job status changes
+
+✅ Automatically follow-up with customers after job completion to boost your online reviews
+
+Learn More
+
+Developer
+
+HighLevel
+
+Available in
+
+All countries
+
+Features & benefits
+
+Capture and convert leads with chat widgets, forms, and AI-powered follow-up
+
+Automate lead nurture, appointment booking, and follow-ups with built-in workflows and AI agents
+
+Maintain a constant sync of client and job info between Jobber and HighLevel for campaign triggers
+
+Boost 5★ reviews with automated review requests once a job is completed
+
+Run ads, schedule social posts, and track ROI—all from one unified experience
+
+Before you start
+‣ Confirm client and job data in Jobber is accurate and up-to-date
+‣ Create a HighLevel sub-account to connect with Jobber
+Installation steps
+‣ Log in to your HighLevel account and go to Settings → Integrations
+‣ Select Jobber and click Connect
+‣ Authorize HighLevel to access your Jobber account via secure OAuth
+‣ Choose sync preferences: Clients, Jobs, and Job Updates
+Gallery
+Need help?
+
+Visit our Help Center. View your support tickets, our support articles and helpful FAQs!
+
+Other resources
+
+Jobber Integration - Everything you need to know
+
+Power your business with endless possibilities
+
+Grow your revenue an average of 37% in your first year using Jobber. Free up your evenings so you can be with friends and family, and get back to dreaming about where you’ll take your business next.
+
+Start Free Trial
+Visit Jobber.com
+About App Marketplace
+Careers
+Developer Center
+1-888-721-1115
+hello@getjobber.com
+
+© Jobber 2024
+
+Privacy
+Accessibility
+Terms of Service
+Sitemap

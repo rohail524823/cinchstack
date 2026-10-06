@@ -82,20 +82,25 @@ Everything below serves those three groups.
   - Example of a head term: "gohighlevel" has about 90,500 US searches a month. Only 25% of gohighlevel.com's visits are from the US, and many searches are job-seekers.
   - "gohighlevel price" and "review" are each up 300% year on year in the US.
 
-### Next pages, in order
+### The money pages (built 6 October 2026)
 
-The P1 list comes from the demand report: each page carries a GoHighLevel or Systeme.io paid link and a route to `/services/`.
+Each carries a paid link for the tool that pays us and the labelled route to `/services/`, and each was written from the pricing records and saved vendor pages, then checked claim by claim by a second editor.
 
-1. GoHighLevel real monthly cost: a static cost matrix by texts and emails, plus a "hidden costs" section.
-2. GoHighLevel SMS, phone and email costs: LC Phone, A2P 10DLC registration, email per 1,000.
-3. GoHighLevel AI pricing: AI Employee, Voice AI, Conversation AI.
-4. GoHighLevel plans compared: $97 vs $297 vs $497, and SaaS mode, with **no income claims**.
-5. GoHighLevel + n8n: API v2, webhooks, private integration tokens. This is the owner's core skill.
-6. HubSpot → GoHighLevel migration guide, which links the CRM migration package.
-7. How much an AI receptionist costs: SaaS vs GoHighLevel Voice AI vs a custom build.
-8. GoHighLevel for roofers and contractors; for real estate agents; HIPAA and the $297 add-on (dental, med spa).
-9. Systeme.io free plan: exact limits and the $10,000 lifetime-sales cap. It names no competitor, so paid links are allowed.
-10. Missed-call text-back: costs and setup.
+| Page | Target searches |
+|---|---|
+| `/tools/gohighlevel/sms-and-calling-costs/` (with the texts × emails cost grid) | gohighlevel sms pricing, cost per text, a2p registration cost, cost calculator |
+| `/tools/gohighlevel/ai-pricing/` | gohighlevel ai employee pricing, voice ai pricing |
+| `/tools/gohighlevel/plans-compared/` | gohighlevel 97 vs 297, unlimited vs pro, saas mode pricing |
+| `/tools/gohighlevel/add-ons/` (incl. the HIPAA add-on) | gohighlevel hipaa, whatsapp pricing, white label app cost |
+| `/tools/gohighlevel/n8n-integration/` | gohighlevel n8n, gohighlevel api n8n |
+| `/tools/gohighlevel/migrate-from-hubspot/` | hubspot to gohighlevel migration |
+| `/tools/gohighlevel/ai-receptionist-cost/` | ai receptionist cost, ai receptionist pricing |
+| `/tools/gohighlevel/missed-call-text-back/` | missed call text back, gohighlevel missed call text back |
+| `/tools/gohighlevel/real-estate/` | gohighlevel for real estate agents, vs follow up boss |
+| `/tools/gohighlevel/contractors/` | gohighlevel for roofing, crm for roofing companies, vs jobber |
+| `/tools/systeme-io/free-plan/` (names no competitor, so its links are paid) | systeme io free plan, free plan limits |
+
+**Next, when these show impressions in Search Console:** GoHighLevel vs Jobber, Podium and HoneyBook; GoHighLevel with Zapier or Make; GoHighLevel + QuickBooks; GoHighLevel WhatsApp; GoHighLevel MCP and AI agents; AI receptionist pages per trade; Zapier → n8n migration; Systeme.io payments, digital products and automations (competitor-free). The demand report's P2 list has the details.
 
 **Rules that shape these pages:**
 - No earnings claims.
@@ -137,14 +142,23 @@ The P1 list comes from the demand report: each page carries a GoHighLevel or Sys
   - Stack-bill footnotes stay inline on mobile, and mobile navigation is one scrollable row.
   - Stack cards in a 3-column grid; FAQ markers and labels fixed.
 
+- **Later the same day:**
+  - Both program questions emailed: HighLevel's affiliate manager (trial wording, extended trial, referral slug) and Systeme.io support (comparison pages), which acknowledged and promised a reply within 24 hours.
+  - The eleven money pages above, a new guide page type at `/tools/<tool>/<topic>/`, and guide lists on the homepage and tools hub.
+  - Systeme.io paid links narrowed to its competitor-free pages until Systeme.io answers.
+  - Price-change alerts built behind one switch (`ALERTS_URL`), waiting only for an opt-in page.
+  - Analytics counts sent enquiries (`generate_lead`) and alerts clicks; build checks tightened (each program's required disclosure wording; buttons no longer counted as prose).
+
 ## 5. Owner's to-do list, in order
 
-1. **Watch for two replies** (both emailed on 6 October 2026): HighLevel's affiliate manager on trial wording, an extended-trial page and a referral slug; Systeme.io support (reply promised within 24 hours) on whether comparison pages may carry its link. Forward each answer to Claude Code; each is a one-line change.
+1. **Watch for three replies** (all emailed on 6 October 2026): HighLevel's affiliate manager on trial wording, an extended-trial page and a referral slug; Systeme.io support (reply promised within 24 hours) on whether comparison pages may carry its link; and HubSpot's affiliate team, answering the reply to its decline. Forward each answer to Claude Code; each is a small change.
 2. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
 3. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough). Then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
 4. **HighLevel Certified Admin directory:** it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one, so it is the most likely source of paying setup clients while the site has little traffic. It costs $97/month and needs an active HighLevel subscription as well (Starter is $97/month), so about $194/month in all. The subscription also gives you the hands-on access the site's GoHighLevel pages can then cite as first-hand evidence. Your call: one $400 setup job a month covers it.
 5. **Service prices:** check them against your real hours on past Upwork jobs and edit `src/data/services.json` if needed. Also confirm the promise of a reply within two business days.
 6. **Monthly:** update the Upwork "as of" figures in `services.json` when they change.
+7. **Price-change alerts:** create a free opt-in page and a `price-alerts` tag in your Systeme.io account and send Claude Code the page's URL (steps in `docs/OPERATIONS.md` §6). The buttons appear on the next deploy.
+8. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
 
 ## 6. Measures and kill criteria
 

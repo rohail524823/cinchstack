@@ -1,0 +1,123 @@
+SOURCE: https://help.gohighlevel.com/support/solutions/articles/48001222668-how-to-send-review-requests
+FETCHED: 2026-10-06T10:19:12.644Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+HighLevel Support Portal
+Home
+Knowledge base
+Login
+Sign up
+Home
+...
+How to Send Review Requests
+How to Send Review Requests
+
+Modified on: Tue, 29 Apr, 2025 at 2:45 PM
+
+In this article, we will cover several ways to send review requests to clients manually and automatically within the CRM. Prompting your clients to provide reviews on your Google My Business Page provides several benefits which we will cover below
+
+Covered in this article:
+Pre-requisites before getting started with review requests
+Ways to send Review Requests:
+1. Quick Actions: (Manual)
+2. Workflow Action: (Automated)
+3. Reputations Tab: (Manual)
+
+What do the different review request statuses mean?
+
+Troubleshooting
+How to dispute or report a google review
+
+Pre-requisites before getting started with review requests
+To send Google reviews links please integrate GMB first (See Guide), Or if you would like to use a 3rd party review link please click here
+Review requests will need to be enabled (toggled on) in the sub-accounts settings (See Guide)
+(Optional) Customize your outbound (SMS/Email) review messaging (See Guide)
+Ensure your Google Business Profile is fully integrated and connected to the correct location. (See Guide)
+
+Here are several reasons why you would want to get as many reviews as possible:
+
+If you’re a business owner, then you probably already know that the answer to why your business or service would need reviews is “because it helps people find out more about your business.” 
+
+And there's more...
+
+1) To increase sales and conversions
+
+If you’re selling a product or service, then it makes sense to have positive reviews from happy customers. They can help convince potential buyers that the product/service will be good for them.
+
+2) To improve SEO
+
+SEO (Search Engine Optimization) is one of the most important aspects of running an online business. Having high-quality content is great, but if your site isn’t optimized for search engines like Google and Bing, then it won’t rank as well in searches.
+
+3) To build trust with visitors
+
+When people visit your website, they want to know that they are dealing with someone who is trustworthy. If you have lots of negative comments on your site, then this could damage your reputation and cause customers to be less likely to buy from you in the future.
+
+4) To provide a better customer experience
+
+If you don’t offer any reviews or ratings for products, then it can make it difficult for potential buyers to find what they need. This will also mean that they may not get the best deal when buying online.
+
+Ways to send Review Requests:
+
+There are three ways to send review requests from within the CRM:
+
+1. Quick Actions - This is a Manual action by the user
+2. Workflow Action - This is an Automated action that sends a review request from within a workflow. If the contact has an assigned user the review request will come from the assigned user.
+3. Reputation Tab - This is a Manual action by the user
+
+1. Quick Actions: (Manual)
+
+Quick Actions are shortcuts available in the top left above the sidebar which allows you to perform a set of actions with a few clicks. One of those actions is Sending a review Request:
+
+Please Note:
+
+When sending a review request, the person who is signed in will be the one listed as the sender of that message. 
+
+If you are looking to send a review request from the contact's assigned user, please use the Workflows action "Send Review Request" to send a request on behalf of the assigned user (listed below).
+
+2. Workflow Action: (Automated)
+
+To automate the review request process within a workflow please add the "Send Review Request" action > Select the channel Email/ SMS
+
+3. Reputations Tab: (Manual)
+
+In the sidebar, you can head to the Reputation tab> Requests> To send an individual Review Request Manually and to keep a track of all the review requests that are being sent:
+
+What do the different review request statuses mean?
+
+Queued: When the user creates a review request, the system will attempt to send the request immediately. If there is a queue of other review requests in front of your request, there may be a slight delay before the request goes out.
+
+Another possible reason is that the email/SMS request is set up to send after one day:
+
+Sent: The system has sent the review request.
+Delivered: After the system has sent the review request, only Twilio confirms the delivery of the SMS sent. Mailgun will not provide a delivered status.
+
+Failed: When a review request fails to deliver. This can happen for a variety of reasons such as the phone number not being valid.
+
+If you are using another SMTP integration, please make sure to send the review request by logging in with the user email that matches the SMTP integrated email. The system will use the user login email as the sender's email when sending review request emails.
+
+Troubleshooting
+How to dispute or report a google review
+
+To dispute or report a Google Review that you believe is wrong or spam please follow the instructions in this article:
+How to Dispute a Google Review and Check on the Dispute Status
+
+Was this article helpful?
+No 
+Yes
+Print
+Articles in this Folder
+How to Customize the Review Request Messages (SMS/Email)
+How to Dispute a Google Review and Check on the Dispute Status
+How to Send Review Requests
+Reputation Management - Customizing & Displaying the Review Widget
+Call Tracking and Missed Call Text Back Through Google Business Profile
+Reputation - Breaking Down the Reputation Overview Dashboard
+Related Articles
+How to Use Twilio Messaging Logs to Troubleshoot SMS(non-isv)
+How to send Review Request via Whatsapp
+Multi-Channel Review Requests
+Attaching Images to Review Requests
+How to Customize the Review Request Messages (SMS/Email)
+List of all outgoing system generated emails
+Home Knowledge base

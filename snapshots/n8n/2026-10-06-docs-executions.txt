@@ -1,0 +1,269 @@
+SOURCE: https://docs.n8n.io/build/understand-workflows/understand-executions
+FETCHED: 2026-10-06T10:19:22.847Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+n8n Docs
+Ctrl
+K
+Forum
+Changelog
+Get started
+Deploy
+Build
+Nodes
+Connect
+Administer
+Contribute
+Build
+Understand workflows
+Workflow components
+Understand executions
+Types of executions
+Understand dirty nodes
+Debug executions
+View executions for a single workflow
+View all executions
+Customize executions data
+Stream real-time responses
+Create and run workflows
+Save and publish workflows
+Create and edit credentials
+Use Gateway credits
+Build and manage agents
+Preview
+Ways of building workflows
+Manage workflows
+Flow logic
+Work with data
+Code in n8n
+Integrate AI
+Keyboard shortcuts
+ON THIS PAGE
+In this section
+Execution modes
+How executions count towards quotas:
+Execution count by trigger type
+Triggers and runs that don't count
+Execution lists
+Execution data redaction
+Related resources
+
+Was this helpful?
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+Copy
+BuildUnderstand workflows
+Understand executions
+
+An execution is a single run of a workflow.
+
+In this section
+
+Manual, partial, and production executions: how manual, partial, and production executions differ.
+
+View all executions: view and filter all executions across all your workflows.
+
+View executions for a single workflow: view and filter executions for the workflow currently open on the canvas.
+
+Debug and re-run past executions: copy data from a previous execution into your current workflow to debug it.
+
+Customize executions data: add custom data to your workflow executions using the Code node.
+
+Stream real-time responses: send data back to users as an AI Agent node generates it.
+
+Dirty nodes: what dirty nodes are and how they affect workflow execution.
+
+Execution modes
+
+There are two execution modes:
+
+Manual: Run workflows manually by clicking Execute Workflow. Unpublish workflows while testing through manual runs.
+
+Production: Production workflows run automatically. Publish a version of the workflow to put it into production.
+
+How executions count towards quotas:
+
+Paid plans, whether cloud or self-hosted, have an execution limit quota. Only production executions count towards this quota. These are executions started automatically by triggers, schedules, or polling. This distinction applies regardless of the instance environment, such as development or production.
+
+Execution count by trigger type
+
+The way executions are counted depends on the type of trigger node used:
+
+Schedule Trigger nodes: Count one execution every time the node fires, regardless of outcome.
+
+Polling nodes (like Google Drive Trigger): Count one execution only when new data is found. Polls that return no results don't count as an execution.
+
+Webhook Trigger nodes: Count one execution for every inbound request that activates the trigger. This includes requests with an empty body (such as {}). Malformed requests that fail before the workflow starts don't count as an execution.
+
+Triggers and runs that don't count
+
+The following don't count towards your execution quota:
+
+Manual executions: Running a workflow from the editor while building or testing.
+
+Sub-workflow executions: When a workflow calls another workflow with the Execute Sub-workflow node, only the parent (top-level) execution counts.
+
+Error workflow executions: Runs of a workflow set as an error workflow.
+
+Polls that return no data: A polling trigger only counts when it finds new data.
+
+Malformed or rejected requests: Webhook requests that fail before the workflow starts.
+
+Execution lists
+
+n8n provides two execution lists:
+
+Workflow-level executions: this execution list shows the executions for a single workflow.
+
+All executions: this list shows all executions for all your workflows.
+
+n8n supports adding custom data to executions.
+
+Execution data redaction
+
+You can redact execution data to protect sensitive information. Redaction hides the input and output data of workflow executions while preserving execution metadata like status, timing, and node names. Refer to Execution data redaction for details.
+
+Related resources
+
+Understand workflows
+
+Create and run workflows
+
+Save and publish workflows
+
+Create and edit credentials
+
+Use Gateway credits
+
+Workflow components
+
+Previous
+Find your workflow ID
+Next
+Types of executions
+
+Last updated 18 days ago
+
+Company
+n8n.io
+Careers
+Blog
+Resources
+Templates
+Academy
+Changelog
+Legal and privacy
+Security
+Privacy
+n8n community license
+Sustainable use license
+
+© 2026 n8n | All rights reserved
+
+This website uses cookies
+We use cookies to personalise content, ads and to analyse our traffic. We also share information about your use of our site with our advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Read more
+ESSENTIAL
+FUNCTIONAL
+MARKETING
+ SHOW DETAILS
+ACCEPT ALL
+DECLINE ALL
+COOKIE DECLARATION
+ABOUT COOKIES
+Essential
+Functional
+Marketing
+Essential cookies allow core website functionality such as user login, account management, and consent preferences. The website cannot be used properly without these strictly necessary cookies.
+Name	Provider / Domain	Expiration	Description
+__sec__ghost	n8n.io	9 months 4 weeks	Used by the consent management platform (Cookie-Script) to detect automated or suspicious browsing activity.
+__sec__cid	n8n.io	1 day	Used by the consent management platform (Cookie-Script) for short-term visitor verification.
+__sec__token	n8n.io	1 day	Used by the consent management platform (Cookie-Script) to validate the authenticity of consent interactions.
+_shopify_essential	
+Shopify
+merch.n8n.io	11 months 4 weeks	This cookie is essential for the secure checkout and payment function on the merch store and is provided by Shopify.
+CookieScriptConsent	
+CookieScript
+.n8n.io	11 months 4 weeks	This cookie is used by Cookie-Script.com service to remember visitor cookie consent preferences. It is necessary for Cookie-Script.com cookie banner to work properly.
+__sec_tid	n8n.io	9 months 3 weeks	Used by the consent management platform (Cookie-Script) to track the consent session and ensure banner integrity.
+__sec_crid	n8n.io	9 months 4 weeks	Used by the consent management platform (Cookie-Script) to verify returning visitors and prevent abuse.
+__sec__fid	n8n.io	9 months 3 weeks	Used by the consent management platform (Cookie-Script) for anti-fraud protection and bot detection.
+localization	
+Shopify
+merch.n8n.io	11 months 4 weeks	Used by Shopify to store the user's locale/language preference for the merch store.
+csrftoken	learn.n8n.io	1 year	Strictly necessary security cookie for the n8n learning portal (Open edX LMS). Protects against Cross-Site Request Forgery (CSRF) by verifying that form submissions and API requests (enrolments, assessments, data exports) originate from the legitimate user session.
+sessionid	learn.n8n.io	2 weeks	Strictly necessary authentication cookie for the n8n learning portal (Open edX LMS). Identifies the logged-in user session; without it the user is signed out and cannot access courses or submit work.
+edx-jwt-cookie-header-payload	learn.n8n.io	2 weeks	Strictly necessary authentication cookie for the n8n learning portal (Open edX). Contains the header+payload of the JWT used to authenticate the user across Open edX micro-frontends and backend services (enrolments, grades, discussions).
+edx-jwt-cookie-signature	learn.n8n.io	2 weeks	Strictly necessary security cookie for the n8n learning portal (Open edX). Holds the cryptographic signature half of the JWT (kept separate and HttpOnly) that validates token integrity; required alongside the header-payload cookie to stay authenticated across MFEs.
+openedx-language-preference	learn.n8n.io	1 year	Strictly necessary functionality cookie for the n8n learning portal (Open edX). Stores the selected interface language so the LMS and MFEs render in the correct locale; without it MFEs fail to initialise i18n and page loads break.
+_shop_app_essential	.shop.app	1 year	Set by Shop Pay (Shopify’s accelerated checkout) and only relevant to the n8n merch store (merch.n8n.io). Essential for the Shop Pay checkout experience to function. It is a third-party cookie on the .shop.app domain and is not used anywhere else on n8n.io.
+Functional cookies help us understand how visitors use our website and improve your experience. This includes analytics, performance measurement, and remembering your preferences.
+Name	Provider / Domain	Expiration	Description
+_gid	
+Google LLC
+.n8n.io	1 day	This cookie is set by Google Analytics. It stores and update a unique value for each page visited and is used to count and track pageviews.
+_shopify_y	
+Shopify Inc.
+.n8n.io	1 year 6 hours	Analytics for Shopify in our merch store
+Provider address: 151 O'Connor Street, Ground floor, Ottawa, ON, K2P 2L8, Canada
+
+originalClientId	.n8n.io	4 weeks 2 days	Stores the visitor's initial analytics identifier from their first visit, used to connect browsing sessions for website analytics.
+_ga_0SC4FF2FH9	
+Google LLC
+.n8n.io	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_shopify_s	
+Shopify Inc.
+.n8n.io	30 minutes	Analytics for Shopify in our merch store
+_shopify_analytics	merch.n8n.io	11 months 4 weeks	Analytics for Shopify in our merch store
+_ga	
+Google LLC
+.n8n.io	1 year 1 month	This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.
+n8n_tracking_id	.n8n.io	1 year 1 month	A unique identifier generated by n8n to understand how visitors navigate across our web properties. Used for website analytics.
+Marketing cookies are used to deliver relevant advertisements and measure the effectiveness of our campaigns. They may also be used by third-party advertising and social media platforms.
+Name	Provider / Domain	Expiration	Description
+rl_group_id	.n8n.io	11 months 4 weeks	Associates the visitor with an organization for usage analytics on the subscription management page.
+rl_group_trait	.n8n.io	11 months 4 weeks	Stores organization-level attributes for usage analytics on the subscription management page.
+YSC	
+Google LLC
+.youtube.com	Session	Set by YouTube on pages with embedded videos. Registers a unique session ID to collect statistics on video playback.
+VISITOR_INFO1_LIVE	
+Google LLC
+.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Used to estimate bandwidth and display settings for the video player.
+rl_trait	.n8n.io	11 months 4 weeks	Stores visitor attributes for usage analytics on the subscription management page.
+rl_page_init_referring_domain	.n8n.io	11 months 4 weeks	Records the referral domain when visiting the subscription management page, used for analytics.
+__Secure-YNID	.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Stores video player preferences and playback settings.
+lidc	
+LinkedIn Corporation
+.linkedin.com	1 day	LinkedIn data center routing
+bcookie	
+LinkedIn Corporation
+.linkedin.com	11 months 4 weeks	LinkedIn browser identification
+rl_session	.n8n.io	11 months 4 weeks	Manages the analytics session for tracking usage on the subscription management page.
+IDE	
+Google LLC
+.doubleclick.net	1 year 1 month	Google Ads targeting
+_gcl_au	
+Google LLC
+.n8n.io	2 months 4 weeks	Used by Google AdSense for experimenting with advertisement efficiency across websites using their services
+rl_user_id	.n8n.io	11 months 4 weeks	Stores the identified user ID for usage analytics on the subscription management page.
+rl_page_init_referrer	.n8n.io	11 months 4 weeks	Records the referral URL when visiting the subscription management page, used for analytics.
+li_gc	
+LinkedIn Corporation
+.linkedin.com	5 months 4 weeks	LinkedIn guest consent state
+rl_anonymous_id	.n8n.io	11 months 4 weeks	Assigns an anonymous identifier to track usage analytics on the subscription management page (plans.n8n.io).
+_fbp	
+Meta Platform Inc.
+.n8n.io	2 months 4 weeks	Used by Meta to deliver a series of advertisement products such as real time bidding from third party advertisers
+__Secure-ROLLOUT_TOKEN	
+Google LLC
+.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Used internally by YouTube to manage feature rollouts for the video player.
+test_cookie	
+Google LLC
+.doubleclick.net	15 minutes	This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor's browser supports cookies.
+_shopify_marketing	merch.n8n.io	1 year	Set by Shopify and only relevant to the n8n merch store (merch.n8n.io). Used for marketing attribution — recording how a visitor arrived at the store so marketing performance can be measured. It is not set or read anywhere else on n8n.io. Set server-side (HttpOnly) by Shopify; gating is governed by the merch store’s own Shopify consent settings.
+signals-sdk-user-id	.n8n.io	1 year	Set by Common Room (Common Room, Inc.) to recognise a returning visitor and correlate their activity across visits, so n8n can identify the company a visitor belongs to and understand engagement across the funnel. Contains a randomly generated identifier, not your name or email address. Set only after you consent to marketing cookies.
+signals-sdk-session-id	.n8n.io	30 minutes	Set by Common Room (Common Room, Inc.) to group a visitor’s page views into a single browsing session. Contains a randomly generated identifier and expires after 30 minutes of inactivity. Set only after you consent to marketing cookies.
+Cookies are small text files that are placed on your computer by websites that you visit. Websites use cookies to help users navigate efficiently and perform certain functions. Cookies that are required for the website to operate properly are allowed to be set without your permission. All other cookies need to be approved before they can be set in the browser.
+
+You can change your consent to cookie usage at any time on our Privacy Policy page.
+We also use cookies to collect data for the purpose of personalizing and measuring the effectiveness of our advertising. For more details, visit the Google Privacy Policy.
+Cookie report created by CookieScript

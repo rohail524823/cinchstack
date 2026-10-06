@@ -1,0 +1,186 @@
+SOURCE: https://www.followupboss.com/faq
+FETCHED: 2026-10-06T10:16:25.241Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Platform
+Who we serve
+Community
+Pricing
+About
+FREE TRIAL
+Log In
+FAQ
+
+Find answers to common questions about our products and services in our frequently asked questions (FAQ) section
+
+What is Follow Up Boss?
+
+Follow Up Boss is a real estate CRM (Customer Relationship Management) platform that takes all your online leads, puts them in one simple system and makes sure they get followed up super fast. It does this 24 hours a day, 7 days a week so that you can provide superior customer service, turn more of your leads into appointments and close more transactions.
+
+‍
+
+How does Follow Up Boss help me close more transactions?
+
+The internet means that you are receiving more leads than ever before, through many different lead providers. To respond, you have to keep logging into different systems to manage leads by email. The end result is you don’t give every lead proper attention and you don’t make the money you should be making from your marketing dollars.
+
+Ignored leads mean you are letting deals slip right through your fingers. You may have tried to band aid this problem by hiring an assistant or paying for a complicated tool that no one on your team actually uses.
+
+Once you start using Follow Up Boss you will no longer need to worry if your leads are being taken care of. Leads will be responded to faster than ever before. You will know precisely which marketing dollars are paying off. You will be able to identify key leverage points in your business that will enable you to grow profits and provide better customer service.
+
+How does Follow Up Boss work? What does it do?
+
+Follow Up Boss is an automated system that doesn’t rely on manual data entry. It allows you to send in leads from your existing marketing and websites via email. You can still enter a lead manually if they call in.
+
+Our user-friendly CRM then distributes leads via an instant phone call or email.
+
+The end result is your leads are contacted much faster and more often. Agents and marketing dollars are held accountable for producing results.
+
+How hard is this to set up? How long does it take?
+
+Getting set up is as simple as swapping an email address. Simply change the email address on file with all your lead providers to the unique @followupboss.com email address we give you after signup. It takes less than 10 minutes to get set up.
+
+If you need help, we provide extensive Follow Up Boss support. Our documentation and video guides cover every scenario. If you ever need to talk to our customer support team, you can call us or submit a ticket for a fast response seven days a week.
+
+What doesn’t Follow Up Boss do?
+
+Follow Up Boss is not a real estate lead provider or website company. We help you process all your existing online leads, so you can provide superior customer service and convert more of them into closed transactions.
+
+We are 100% focused on providing the best possible real estate CRM follow up system, because it is the most important part of the lead conversion process.
+
+We are a big advocate of using the best possible systems for each part of your business, not using one system that claims to “do it all”.
+
+Can I reassign a lead to a new agent?
+
+Yes absolutely, you can reassign leads to new agents. This is useful if an agent wants to pass a lead to someone else or if you have a lead coordinator screening your leads upfront then assigning out to agents.
+
+Assigning a lead to a new agent is just 3 easy clicks in Follow Up Boss. Once you do that the new agent will receive an email with the leads details and all the history with the lead up until that point automatically.
+
+Who is Follow Up Boss for? Who is it not for?
+
+Follow Up Boss is the best real estate CRM for Real Estate Pros who:
+
+Want to provide superior customer service
+Want to convert their internet leads
+Want to make smart decisions about marketing based on data
+Want to reduce time and money spent on data entry
+Want to attract top agents
+Want to build systems that grow their business over time
+
+Follow Up Boss is not for anyone who:
+
+Generates less than 30 leads per month
+Doesn’t take action and implement systems
+Doesn’t follow up internet leads
+Runs their business like a hobby
+Am I locked into a contract? Who owns my data?
+
+No you are never locked into a contract with Follow Up Boss, you pay monthly. We are committed to helping you grow your business not tricking you into lengthy contracts.
+
+You own your data, with the click of two buttons you can export it in full any time you need.
+
+We have a 14 day trial, so trying it out is completely risk free.
+
+How Follow Up Boss uses my Google data?
+
+Follow Up Boss's use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+
+Will Zillow Pro be available outside of the United States?
+Can Automations run on new leads?
+
+Yes. You can set automations to run automatically as new leads flow into Follow Up Boss.
+
+‍
+
+Can Automations help with existing leads too?
+
+Yes. One of the biggest benefits is catching signals from leads already in your database so your team can re-engage at the right time.
+
+Can Automations send drip texts?
+
+You can send an automatic first text to new leads on your Lead Flow page, but Automations do not send drip texts.
+
+Can Automations determine which agent gets assigned to a brand new incoming lead?
+
+No, but you can set distribution rules to determine who gets assigned to brand new incoming leads on your Lead Flow page.
+
+Can Automations reassign a lead later?
+
+Yes. Once a lead is already in Follow Up Boss, Automations can reassign ownership based on your workflow.
+
+How is Automations 2.0 different from Action Plans and Automations 1.0?
+
+Automations 2.0 brings structured follow-up and trigger-based automation together in one place. Action Plans are now built into Automations 2.0, giving teams a more flexible way to send emails, create tasks, update records, and trigger the next step based on what’s happening in Follow Up Boss.
+
+What is Automations?
+
+Automations is a way to automate repeatable actions inside Follow Up Boss based on events and conditions in your database.
+
+Try Follow Up Boss Free For 14 Days
+
+Try FUB for free, no credit card needed. Join the OS that real estate teams love,  
+and we’ll make sure it’s the easiest move you’ll ever make.
+
+START FREE TRIAL
+Organize
+250+ integrations
+Lead distribution
+FUB Pixel
+Calendar
+Team collaboration
+Mobile apps
+Smart Lists
+Engage
+Calling
+Texting
+Email
+Automations
+Team inbox
+Company number
+Zillow Pro
+NEW
+Coach
+Reporting
+Deal tracking
+Team Leaderboard
+Community
+Customer results
+Daily training
+Upcoming events
+TeamOS Podcast
+FUB private Facebook group
+Blog
+Guides
+Solutions
+For team leads & admins
+For agents on teams
+For ISAs
+For solo agents
+Open system vs all-in-ones
+Better support & easy migration
+Pricing
+AI
+NEW
+Get Help
+See a demo
+FAQ
+Help docs
+Guided onboarding
+System status
+Latest updates
+Company
+About
+Careers
+Security
+Legal
+Privacy
+Terms
+Sign up for the Team OS newsletter
+Get support
+8am - 8pm ET / 7 days a week
+(855) 622-5311‍
+‍Submit a new request
+
+© FUB 2026
+Terms of Use
+Privacy Policy
+Do Not Sell or Share My Personal Information

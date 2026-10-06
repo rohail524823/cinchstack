@@ -1,0 +1,278 @@
+SOURCE: https://docs.n8n.io/n8n-community-license
+FETCHED: 2026-10-06T10:17:54.053Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+n8n Docs
+Ctrl
+K
+Forum
+Changelog
+Get started
+Deploy
+Build
+Nodes
+Connect
+Administer
+Contribute
+Community license
+License FAQ
+ON THIS PAGE
+What license do you use?
+What source code is covered by the Sustainable Use License?
+What is the Sustainable Use License?
+What if I want to use n8n for something that's not permitted by the license?
+Why don't you use an open source license?
+Why did you create a license?
+My company has a policy against using code that restricts commercial use – can I still use n8n?
+What happens to the code I contribute to n8n in light of the Sustainable Use License?
+Why did you switch to the Sustainable Use License from your previous license arrangement (Apache 2.0 with Commons Clause)?
+What are the main differences between the Sustainable Use License and your previous license arrangement (Apache 2.0 with Commons Clause)?
+Is n8n open source?
+What is fair-code, and how does the Sustainable Use License relate to it?
+Can I use n8n's Sustainable Use License for my own project?
+
+Was this helpful?
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+Copy
+n8n Community license
+Community license
+
+Proprietary licenses for Enterprise
+
+Proprietary licenses are available for enterprise customers. Get in touch for more information.
+
+n8n's Sustainable Use License and n8n Enterprise License are based on the fair-code model. More guidance is available in our License FAQs.
+
+What license do you use?
+
+n8n uses the Sustainable Use License and n8n Enterprise License. These licenses are based on the fair-code model.
+
+What source code is covered by the Sustainable Use License?
+
+The Sustainable Use License applies to all our source code hosted in our main GitHub repository except:
+
+Content of branches other than master.
+
+Source code files that contain .ee. in their file name. These are licensed under the n8n Enterprise License.
+
+What is the Sustainable Use License?
+
+The Sustainable Use License is a fair-code software license created by n8n in 2022. You can read more about why we did this here. The license allows you the free right to use, modify, create derivative works, and redistribute, with three limitations:
+
+You may use or modify the software only for your own internal business purposes or for non-commercial or personal use.
+
+You may distribute the software or provide it to others only if you do so free of charge for non-commercial purposes.
+
+You may not alter, remove, or obscure any licensing, copyright, or other notices of the licensor in the software. Any use of the licensor's trademarks is subject to applicable law.
+
+For practical guidance on what you can do with n8n community version, please check our License FAQs.
+
+We encourage anyone who wants to use the Sustainable Use License. If you are building something out in the open, it makes sense to think about licensing earlier in order to avoid problems later. Contact us at license@n8n.io if you would like to ask any questions about it.
+
+What if I want to use n8n for something that's not permitted by the license?
+
+You must sign a separate commercial agreement with us. We actively encourage software creators to build with n8n in their products; we just ask them to sign an agreement laying out the terms of use, and the fees owed to n8n for using the product in this way. Contact us to learn more.
+
+If you are unsure whether the use case you have in mind constitutes an internal business purpose or not, check our License FAQs or email us at license@n8n.io.
+
+Why don't you use an open source license?
+
+n8n's mission is to give everyone who uses a computer technical superpowers. We've decided the best way for us to achieve this mission is to make n8n as widely and freely available as possible for users, while ensuring we can build a sustainable, viable business. By making our product free to use, easy to distribute, and source-available we help everyone access the product. By operating as a business, we can continue to release features, fix bugs, and provide reliable software at scale long-term.
+
+Why did you create a license?
+
+Creating a license was our least favorite option. We only went down this path after reviewing the possible existing licenses and deciding nothing fit our specific needs. There are two ways in which we try to mitigate the pain and friction of using a proprietary license:
+
+By using plain English, and keeping it as short as possible.
+
+By promoting fair-code with the goal of making it a well-known umbrella term to describe software models like ours.
+
+Our goals when we created the Sustainable Use License were:
+
+To be as permissive as possible.
+
+Safeguarding our ability to build a business.
+
+Being as clear as possible what use was permitted or not.
+
+My company has a policy against using code that restricts commercial use – can I still use n8n?
+
+Provided you are using n8n for internal business purposes, and not making n8n available to your customers for them to connect their accounts and build workflows, you should be able to use n8n. If you are unsure whether the use case you have in mind constitutes an internal business purpose or not, check our License FAQs or email us at license@n8n.io.
+
+What happens to the code I contribute to n8n in light of the Sustainable Use License?
+
+Any code you contribute on GitHub is subject to GitHub's terms of use. In simple terms, this means you own, and are responsible for, anything you contribute, but that you grant other GitHub users certain rights to use this code. When you contribute code to a repository containing notice of a license, you license the code under the same terms.
+
+n8n asks every contributor to sign our Contributor License Agreement. In addition to the above, this gives n8n the ability to change its license without seeking additional permission. It also means you aren't liable for your contributions (e.g. in case they cause damage to someone else's business).
+
+It's easy to get started contributing code to n8n here, and we've listed broader ways of participating in our community here.
+
+Why did you switch to the Sustainable Use License from your previous license arrangement (Apache 2.0 with Commons Clause)?
+
+n8n was licensed under Apache 2.0 with Commons Clause until 17 March 2022. Commons Clause was initiated by various software companies wanting to protect their rights against cloud providers. The concept involved adding a commercial restriction on top of an existing open source license.
+
+However, the use of the Commons Clause as an additional condition to an open source license, as well as the use of wording that's open to interpretation, created some confusion and uncertainty regarding the terms of use. The Commons Clause also restricted people's ability to offer consulting and support services: we realized these services are critical in enabling people to get value from n8n, so we wanted to remove this restriction.
+
+We created the Sustainable Use License to be more permissive and more clear about what use is allowed, while continuing to ensure n8n gets the funding needed to build and improve our product.
+
+What are the main differences between the Sustainable Use License and your previous license arrangement (Apache 2.0 with Commons Clause)?
+
+There are two main differences between the Sustainable Use License and our previous license arrangement. The first is that we have tightened the definition of how you can use the software. Previously the Commons Clause restricted users ability to "sell" the software; we have redefined this to restrict use to internal business purposes. The second difference is that our previous license restricted people's ability to charge fees for consulting or support services related to the software: we have lifted that restriction altogether.
+
+That means you are now free to offer commercial consulting or support services (e.g. building n8n workflows) without the need for a separate license agreement with us. If you are interested in joining our community of n8n experts providing these services, you can learn more here.
+
+Is n8n open source?
+
+Although n8n's source code is available under the Sustainable Use License, according to the Open Source Initiative (OSI), open source licenses can't include limitations on use, so we do not call ourselves open source. In practice, n8n offers most users many of the same benefits as OSI-approved open source.
+
+We coined the term 'fair-code' as a way of describing our licensing model, and the model of other companies who are source-available, but restrict commercial use of their source code.
+
+What is fair-code, and how does the Sustainable Use License relate to it?
+
+Fair-code isn't a software license. It describes a software model where software:
+
+Is generally free to use and can be distributed by anybody.
+
+Has its source code openly available.
+
+Can be extended by anybody in public and private communities.
+
+Is commercially restricted by its authors.
+
+The Sustainable Use License is a fair-code license. You can read more about it and see other examples of fair-code licenses here.
+
+We're always excited to talk about software licenses, fair-code, and other principles around sharing code with interested parties. To get in touch to chat, email license@n8n.io.
+
+Can I use n8n's Sustainable Use License for my own project?
+
+Yes! We're excited to see more software use the Sustainable Use License. We'd love to hear about your project if you're using our license: license@n8n.io.
+
+Next
+License FAQ
+
+Last updated 13 days ago
+
+Company
+n8n.io
+Careers
+Blog
+Resources
+Templates
+Academy
+Changelog
+Legal and privacy
+Security
+Privacy
+n8n community license
+Sustainable use license
+
+© 2026 n8n | All rights reserved
+
+This website uses cookies
+We use cookies to personalise content, ads and to analyse our traffic. We also share information about your use of our site with our advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Read more
+ESSENTIAL
+FUNCTIONAL
+MARKETING
+ SHOW DETAILS
+ACCEPT ALL
+DECLINE ALL
+COOKIE DECLARATION
+ABOUT COOKIES
+Essential
+Functional
+Marketing
+Essential cookies allow core website functionality such as user login, account management, and consent preferences. The website cannot be used properly without these strictly necessary cookies.
+Name	Provider / Domain	Expiration	Description
+__sec__ghost	n8n.io	9 months 4 weeks	Used by the consent management platform (Cookie-Script) to detect automated or suspicious browsing activity.
+__sec__cid	n8n.io	1 day	Used by the consent management platform (Cookie-Script) for short-term visitor verification.
+__sec__token	n8n.io	1 day	Used by the consent management platform (Cookie-Script) to validate the authenticity of consent interactions.
+_shopify_essential	
+Shopify
+merch.n8n.io	11 months 4 weeks	This cookie is essential for the secure checkout and payment function on the merch store and is provided by Shopify.
+CookieScriptConsent	
+CookieScript
+.n8n.io	11 months 4 weeks	This cookie is used by Cookie-Script.com service to remember visitor cookie consent preferences. It is necessary for Cookie-Script.com cookie banner to work properly.
+__sec_tid	n8n.io	9 months 3 weeks	Used by the consent management platform (Cookie-Script) to track the consent session and ensure banner integrity.
+__sec_crid	n8n.io	9 months 4 weeks	Used by the consent management platform (Cookie-Script) to verify returning visitors and prevent abuse.
+__sec__fid	n8n.io	9 months 3 weeks	Used by the consent management platform (Cookie-Script) for anti-fraud protection and bot detection.
+localization	
+Shopify
+merch.n8n.io	11 months 4 weeks	Used by Shopify to store the user's locale/language preference for the merch store.
+csrftoken	learn.n8n.io	1 year	Strictly necessary security cookie for the n8n learning portal (Open edX LMS). Protects against Cross-Site Request Forgery (CSRF) by verifying that form submissions and API requests (enrolments, assessments, data exports) originate from the legitimate user session.
+sessionid	learn.n8n.io	2 weeks	Strictly necessary authentication cookie for the n8n learning portal (Open edX LMS). Identifies the logged-in user session; without it the user is signed out and cannot access courses or submit work.
+edx-jwt-cookie-header-payload	learn.n8n.io	2 weeks	Strictly necessary authentication cookie for the n8n learning portal (Open edX). Contains the header+payload of the JWT used to authenticate the user across Open edX micro-frontends and backend services (enrolments, grades, discussions).
+edx-jwt-cookie-signature	learn.n8n.io	2 weeks	Strictly necessary security cookie for the n8n learning portal (Open edX). Holds the cryptographic signature half of the JWT (kept separate and HttpOnly) that validates token integrity; required alongside the header-payload cookie to stay authenticated across MFEs.
+openedx-language-preference	learn.n8n.io	1 year	Strictly necessary functionality cookie for the n8n learning portal (Open edX). Stores the selected interface language so the LMS and MFEs render in the correct locale; without it MFEs fail to initialise i18n and page loads break.
+_shop_app_essential	.shop.app	1 year	Set by Shop Pay (Shopify’s accelerated checkout) and only relevant to the n8n merch store (merch.n8n.io). Essential for the Shop Pay checkout experience to function. It is a third-party cookie on the .shop.app domain and is not used anywhere else on n8n.io.
+Functional cookies help us understand how visitors use our website and improve your experience. This includes analytics, performance measurement, and remembering your preferences.
+Name	Provider / Domain	Expiration	Description
+_gid	
+Google LLC
+.n8n.io	1 day	This cookie is set by Google Analytics. It stores and update a unique value for each page visited and is used to count and track pageviews.
+_shopify_y	
+Shopify Inc.
+.n8n.io	1 year 6 hours	Analytics for Shopify in our merch store
+Provider address: 151 O'Connor Street, Ground floor, Ottawa, ON, K2P 2L8, Canada
+
+originalClientId	.n8n.io	4 weeks 2 days	Stores the visitor's initial analytics identifier from their first visit, used to connect browsing sessions for website analytics.
+_ga_0SC4FF2FH9	
+Google LLC
+.n8n.io	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_shopify_s	
+Shopify Inc.
+.n8n.io	30 minutes	Analytics for Shopify in our merch store
+_shopify_analytics	merch.n8n.io	11 months 4 weeks	Analytics for Shopify in our merch store
+_ga	
+Google LLC
+.n8n.io	1 year 1 month	This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.
+n8n_tracking_id	.n8n.io	1 year 1 month	A unique identifier generated by n8n to understand how visitors navigate across our web properties. Used for website analytics.
+Marketing cookies are used to deliver relevant advertisements and measure the effectiveness of our campaigns. They may also be used by third-party advertising and social media platforms.
+Name	Provider / Domain	Expiration	Description
+rl_group_id	.n8n.io	11 months 4 weeks	Associates the visitor with an organization for usage analytics on the subscription management page.
+rl_group_trait	.n8n.io	11 months 4 weeks	Stores organization-level attributes for usage analytics on the subscription management page.
+YSC	
+Google LLC
+.youtube.com	Session	Set by YouTube on pages with embedded videos. Registers a unique session ID to collect statistics on video playback.
+VISITOR_INFO1_LIVE	
+Google LLC
+.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Used to estimate bandwidth and display settings for the video player.
+rl_trait	.n8n.io	11 months 4 weeks	Stores visitor attributes for usage analytics on the subscription management page.
+rl_page_init_referring_domain	.n8n.io	11 months 4 weeks	Records the referral domain when visiting the subscription management page, used for analytics.
+__Secure-YNID	.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Stores video player preferences and playback settings.
+lidc	
+LinkedIn Corporation
+.linkedin.com	1 day	LinkedIn data center routing
+bcookie	
+LinkedIn Corporation
+.linkedin.com	11 months 4 weeks	LinkedIn browser identification
+rl_session	.n8n.io	11 months 4 weeks	Manages the analytics session for tracking usage on the subscription management page.
+IDE	
+Google LLC
+.doubleclick.net	1 year 1 month	Google Ads targeting
+_gcl_au	
+Google LLC
+.n8n.io	2 months 4 weeks	Used by Google AdSense for experimenting with advertisement efficiency across websites using their services
+rl_user_id	.n8n.io	11 months 4 weeks	Stores the identified user ID for usage analytics on the subscription management page.
+rl_page_init_referrer	.n8n.io	11 months 4 weeks	Records the referral URL when visiting the subscription management page, used for analytics.
+li_gc	
+LinkedIn Corporation
+.linkedin.com	5 months 4 weeks	LinkedIn guest consent state
+rl_anonymous_id	.n8n.io	11 months 4 weeks	Assigns an anonymous identifier to track usage analytics on the subscription management page (plans.n8n.io).
+_fbp	
+Meta Platform Inc.
+.n8n.io	2 months 4 weeks	Used by Meta to deliver a series of advertisement products such as real time bidding from third party advertisers
+__Secure-ROLLOUT_TOKEN	
+Google LLC
+.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Used internally by YouTube to manage feature rollouts for the video player.
+test_cookie	
+Google LLC
+.doubleclick.net	15 minutes	This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor's browser supports cookies.
+_shopify_marketing	merch.n8n.io	1 year	Set by Shopify and only relevant to the n8n merch store (merch.n8n.io). Used for marketing attribution — recording how a visitor arrived at the store so marketing performance can be measured. It is not set or read anywhere else on n8n.io. Set server-side (HttpOnly) by Shopify; gating is governed by the merch store’s own Shopify consent settings.
+signals-sdk-user-id	.n8n.io	1 year	Set by Common Room (Common Room, Inc.) to recognise a returning visitor and correlate their activity across visits, so n8n can identify the company a visitor belongs to and understand engagement across the funnel. Contains a randomly generated identifier, not your name or email address. Set only after you consent to marketing cookies.
+signals-sdk-session-id	.n8n.io	30 minutes	Set by Common Room (Common Room, Inc.) to group a visitor’s page views into a single browsing session. Contains a randomly generated identifier and expires after 30 minutes of inactivity. Set only after you consent to marketing cookies.
+Cookies are small text files that are placed on your computer by websites that you visit. Websites use cookies to help users navigate efficiently and perform certain functions. Cookies that are required for the website to operate properly are allowed to be set without your permission. All other cookies need to be approved before they can be set in the browser.
+
+You can change your consent to cookie usage at any time on our Privacy Policy page.
+We also use cookies to collect data for the purpose of personalizing and measuring the effectiveness of our advertising. For more details, visit the Google Privacy Policy.
+Cookie report created by CookieScript

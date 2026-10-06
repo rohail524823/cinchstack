@@ -1,0 +1,220 @@
+SOURCE: https://www.followupboss.com/blog/follow-up-boss-acquired-by-zillow-group
+FETCHED: 2026-10-06T10:21:12.444Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Platform
+Who we serve
+Community
+Pricing
+About
+FREE TRIAL
+Log In
+
+HOME / BLOG / FOLLOW UP BOSS ACQUIRED BY ZILLOW GROUP: HERE'S WHAT YOU NEED TO KNOW
+
+Follow Up Boss acquired by Zillow Group: Here's what you need to know
+Dan Corkill
+December 8, 2023
+Category:
+Follow Up Boss Updates
+Reading Time: 
+5
+Min
+Share article:
+
+Follow Up Boss will be joining Zillow Group; the agreement to be acquired was announced on November 1, 2023 and closed on December 8, 2023.
+
+It feels like our entrepreneurial journey has come full-circle. Back in 2011, I met someone who was buying leads from Zillow and struggling to get his agents to convert them. My co-founder, Tom Markov, and I knew we could help solve that problem, and Follow Up Boss was born. 
+
+Over the years, Zillow has become one of our most popular integrations and valued partners. Now, Zillow Group is going to give us more of what every business needs: leverage. This acquisition means more resources to invest in making our software and service better for you. And we’ll be able to do it much faster than we could have on our own.
+
+Follow Up Boss will remain an independent brand and a standalone product, with the same focus on support and community that you’ve come to expect; we’ll just have access to more resources and support.
+
+How and why this came together
+
+For more than a dozen years, Follow Up Boss has found success by helping real estate agents, teams, and brokerages build their businesses. We self-funded the company without any outside investors, and with 100,000 agents on the platform today; the product, company, and community have grown far beyond Tom and me.
+
+The same questions you ask yourself about your business, we’ve been asking ourselves about ours. Questions like: How do we hit our future goals? What resources do we need? Do we have the right systems and processes?
+
+For you, the direction may involve adjusting your business model, changing brands or brokerages, or going independent. For us, it became clear that we could do more as part of a larger organization. 
+
+We talked with many different people and teams. We considered several options. And we’ve found a great direction and a great partner.
+
+Like FUB, Zillow Group has built a consumer-centric company. They are the most visited portal for buyers and sellers. At the same time, they’ve taken an agent-centric and agent-focused approach, developing their own tools and acquiring companies that add value to the agent experience.
+
+As we got to know their team, product, values, and mission better, it became clear that they could help us achieve our vision for building the absolute best operating system for real estate businesses–to do more for you. Together, we’ll continue investing to make the industry and every business within it stronger.
+
+If you like Follow Up Boss today, you’ll love it tomorrow
+
+As you know from your own business, it’s a privilege to be of service and value to others. And it’s our privilege to have built Follow Up Boss with you and for you.
+
+If you like our product, company, and community today, you’ll love it tomorrow.
+
+Very few changes for our customers and things get even better:
+
+We’re the same team on the same mission with the same customer-focused culture and the same, exceptional level of customer support.
+The customer data you enter into Follow Up Boss remains yours, and our privacy and security investments continue.
+You can be a valued Follow Up Boss customer regardless of whether you use other Zillow Group products or services.
+We’ll be supported in a way that allows us to focus on and deliver more improvements and features for you faster (click here for recent product announcements from CMO Steve Pacinelli and Realtor in Residence Tiffany Gelzinis and click here to see fub.ai)
+
+Our success as a company is based on our dedication to helping you build a thriving business. This has always been true and it will remain that way, whether or not you use other Zillow Group offerings.
+
+As always, your customer data is safe
+
+Customer data that you enter into the platform is yours, just as it always has been. It stays within Follow Up Boss. Zillow Group won’t be able to use it unless you give permission.
+
+The privacy and security of your customer data are our highest priority because we know it's the foundation of your business. Over the years we’ve made significant investments in data security, including security-specific roles within our engineering team, third-party audits, an annual Google audit, SOC 2 compliance, and more.
+
+This should go without saying, but I’ll say it anyway: We wouldn’t have agreed to this acquisition if we weren’t confident we could keep your customer data safe and protected. But just to be absolutely certain, we’re also working with a third-party validator — unaffiliated with Follow Up Boss or Zillow Group — to make sure of that. They’ll issue SOC 3 reports regularly, beginning with one published on the day the acquisition closed. As FUB joins Zillow Group, these reports will continue to examine how customer data is handled.
+
+Here's a quick FAQ about customer data:
+
+Can Zillow Group access, use, or “scrape” your customer data?
+No. The customer data you enter into Follow Up Boss stays within Follow Up Boss. Zillow Group won’t be able to use it unless you give permission.
+
+Can Zillow Group market to your clients based on your customer data?
+No. Again, the customer data you enter into Follow Up Boss is yours, just as it always has been.
+
+Can Zillow Group run analytics on, see the source of, or view reports on leads?
+‍No, not if there is any customer data in the report.
+
+Can Zillow Group take your leads and give them to Premier Agents?
+Not to sound like a broken record, but again, no.
+
+Can Zillow Group access my customer data with the Zillow one-way FUB integration?
+No. This integration is a one-way sync of Zillow Premier Agent leads into Follow Up Boss.
+
+Can Zillow Group access my data with the Zillow two-way FUB integration?
+When using the optional Zillow two-way sync, your Zillow leads’ assigned agent, stage, and communication signals are synced with Zillow in the same way the integration operates today. You decide whether to use this capability to sync your Zillow leads between Zillow and FUB to improve your agent experience. (Note: Zillow Premier Agent teams who use Follow Up Boss and enable the Z-Connect integration convert 16% more Zillow connections than those who don't.)
+
+Follow Up Boss will remain Follow Up Boss
+
+I understand why people care deeply when anything changes about a product that’s integral to their business. And it’s easy to make assumptions if you don’t have the information that I do. This is our means of sharing some of that information.
+
+We thought about our customers, our integration partners, and our team members throughout this entire process. I shared my thoughts on the privacy and security of customer data (in the section immediately above). We talked through impacts to our customers’ businesses. This transition needs to be seamless for all of our customers, including you.
+
+As we considered the next step, I realized that many of the downsides one might fear or imagine do not actually exist. And I came to see that this would allow us to do things for you that would have been impossible at worst or taken much longer to deliver at best. With this acquisition, we get to continue building our company with more resources and support.
+
+We've joined Zillow Group, but we are still Follow Up Boss. You will continue to get excellent care and support from us, whether or not you ever use other Zillow Group products.
+
+My mission as CEO and co-founder continues
+
+I’m excited about the past, present, and future of Follow Up Boss. I’ve been part of it all and I’ll continue to lead our mission. I feel an obligation to our customers to keep improving the platform and to see your business succeed, especially in a tougher real estate market.
+
+Today’s market conditions mean technology companies need to step up with more innovation and education for their clients. I see this as our responsibility and my responsibility, and this acquisition will help us deliver more for you.
+
+I want to see the entire ecosystem be successful - agents building their businesses, integration partners helping make it all happen, our team bringing things to life. I want Follow Up Boss to be meaningful and valuable for years to come.
+
+Different stages of this journey have presented me with different challenges and opportunities. I see this as a new opportunity and I expect lots of personal and professional growth for our team members in joining Zillow Group.
+
+Our employee experience remains similar
+
+Every Follow Up Boss employee who wants to stay with us will stay with us through this transition. And their day-to-day experience won’t change much.
+
+Our engineers will still be writing code. Our product team will plan new features, fixes, and upgrades. Our marketing team will still spread the word. Our customer-facing teams will still be using the same tools, helping our customers set up and get value from the platform, answering questions, and providing best-in-class support.
+
+Again, we’ll remain an independent brand and a standalone product. We’ll just have access to more resources to help us serve you better.
+
+Our partnerships and platform remain open and flexible
+
+Partnerships and integrations are at the heart of Follow Up Boss. What’s made our platform so special and powerful over the years are the companies who have built and connected products with us in service of our shared customers.
+
+Our API remains open. Our philosophy remains open. We’ll continue to invest in these relationships and solutions. And the ecosystem will continue growing.
+
+More opportunities for our partners produces more opportunities for our customers. We’ve succeeded together and we’ll continue growing together.
+
+Helpful information to know and share
+
+To close, here are a few key reminders:
+
+Your customer data is yours. It’s safe and secure. You control it. Period.
+‍We’ll keep improving Follow Up Boss guided by your needs, your feedback, and your success. And we’ll be supported in a way that allows us to innovate faster for you.
+‍Our team will be here for you. We’re still the same team and the same customer-centric company that we were yesterday. We’re still on the same mission to help real estate professionals build thriving businesses. Even if you never use any other Zillow Group services, you’ll still be able to rely on Follow Up Boss just as before.
+We share values and vision. The more people we met at Zillow Group, and the more we learned about how they’d handled past acquisitions like dotloop and ShowingTime, we didn’t just get comfortable with the idea. Instead, we realized it was a great opportunity to help us get where we want to go. They’re a product and tech company first, they care about the consumer and they invest significantly into agent tools. They’re founder-led and long-term thinkers. They’re fully remote and respect work/life balance. Knowing that we share these things gives me nothing but confidence in our collective future.
+
+Thank you!
+
+Thank you for being a part of the FUB community. We wouldn’t have gotten this far without all of our customers, partners, and teammates. I couldn’t be more excited about what’s to come and I appreciate you sharing our vision for the future. It’s my privilege - and our whole team’s privilege - to be of service and value to you.
+
+For additional perspective, including a rich Q&A section, click here to read the Zillow Group blog post about the acquisition.
+
+‍
+
+Read related posts
+Follow Up Boss Updates
+9
+Min Read
+Welcome to the Real Estate Team OS
+Lead Conversion
+17
+Min Read
+Zillow Leads: The real estate leader’s guide to real ROI
+Team Management
+11
+Min Read
+How to build a winning real estate team in 10 proven steps
+Free trial. Easy migration. Unlimited support.
+START FREE TRIAL
+Organize
+250+ integrations
+Lead distribution
+FUB Pixel
+Calendar
+Team collaboration
+Mobile apps
+Smart Lists
+Engage
+Calling
+Texting
+Email
+Automations
+Team inbox
+Company number
+Zillow Pro
+NEW
+Coach
+Reporting
+Deal tracking
+Team Leaderboard
+Community
+Customer results
+Daily training
+Upcoming events
+TeamOS Podcast
+FUB private Facebook group
+Blog
+Guides
+Solutions
+For team leads & admins
+For agents on teams
+For ISAs
+For solo agents
+Open system vs all-in-ones
+Better support & easy migration
+Pricing
+AI
+NEW
+Get Help
+See a demo
+FAQ
+Help docs
+Guided onboarding
+System status
+Latest updates
+Company
+About
+Careers
+Security
+Legal
+Privacy
+Terms
+Sign up for the Team OS newsletter
+Get support
+8am - 8pm ET / 7 days a week
+(855) 622-5311‍
+‍Submit a new request
+
+© FUB 2026
+Terms of Use
+Privacy Policy
+Do Not Sell or Share My Personal Information

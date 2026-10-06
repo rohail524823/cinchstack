@@ -1,0 +1,115 @@
+---
+title: "HubSpot to GoHighLevel migration 2026: what moves, what it costs"
+description: "What moves from HubSpot to GoHighLevel, what you rebuild by hand, the $22.50 A2P registration for US texts, and how a texting team's monthly bill changes."
+h1: "Moving from HubSpot to GoHighLevel: what transfers and what you rebuild"
+quickAnswer: "As of 26 September 2026, a 3-person team with 5,000 contacts and 1,000 texts a month pays $1,100 a month on HubSpot's Marketing Hub Professional, billed yearly with the SMS add-on, and $125.42 a month on GoHighLevel's Starter plan including texting and email usage. HighLevel's HubSpot Importer carries over contacts, companies, deals, pipelines, custom properties, notes, tasks and emails; workflows, email templates, forms, reports and integrations must be rebuilt. Texting US mobiles from GoHighLevel needs A2P 10DLC registration, from $22.50 once. Switch if you text leads, run client accounts or keep hiring. Stay if you are a one- or two-person business with a small list and no texting, or if sales and service teams share HubSpot's CRM record."
+published: 2026-10-06
+related:
+  - /compare/gohighlevel-vs-hubspot/
+  - /tools/gohighlevel/sms-and-calling-costs/
+  - /alternatives/hubspot/
+extraFigures:
+  - value: "16,200"
+    why: "Recorded, not computed: HubSpot's price calculator set to the small-team bundle (Marketing Hub Professional, 3 seats, 7,000 contacts, SMS add-on, billed annually) shows an estimated cost to get started of $16,200, which is the $13,200 year billed annually plus the required $3,000 Professional Onboarding fee (snapshots/hubspot/2026-09-26-calc-pro-annual-3seats-7k-sms-breakdown.txt, lines 304-309). The same figure is in the small scenario note in src/data/pricing/hubspot.json."
+  - value: "250"
+    why: "Small scenario note in src/data/pricing/hubspot.json: without SMS, Marketing Hub Starter covers the same 3 users and 5,000 contacts for $250 a month at list price, billed monthly. Arithmetic: 3 Core Seats x $20 list + $190 for 4,000 extra marketing contacts (HubSpot calculator, snapshots/hubspot/2026-09-26-calc-starter-monthly-3seats-5k-breakdown.txt)."
+  - value: "45"
+    why: "Recorded, not computed: an extra Marketing Hub Professional Core Seat costs $45 per seat per month billed annually, per the professional-extra-seat add-on note and the growing scenario line '5 additional Core Seats x $45 (billed annually)' in src/data/pricing/hubspot.json. The add-on's numeric price field holds the $50 monthly rate."
+---
+
+This guide is for a business already paying for HubSpot and weighing a move. Details from HubSpot's knowledge base and HighLevel's help center are as saved between 26 September and 6 October 2026, and prices are as we checked them on <Checked tool="gohighlevel" />.
+
+## Is HubSpot similar to GoHighLevel?
+
+In what they do, yes; in how they are built and billed, no. Both keep contacts and companies in a CRM, move deals through pipeline stages, send marketing email, capture leads with forms and landing pages, automate follow-up with workflows, and report on the results in dashboards. Much of the CRM vocabulary has a direct match: a HubSpot deal becomes a GoHighLevel opportunity, and a custom HubSpot property becomes a custom field.
+
+Four differences decide whether a move makes sense:
+
+- **How you pay.** HubSpot charges per seat and by marketing-contact tier, and sells marketing, sales, service, content and data tools as separate hubs, alone or bundled. GoHighLevel charges one flat plan with unlimited users and contacts, then bills texts, calls, email and most AI by use from a prepaid wallet.
+- **Texting.** Every GoHighLevel plan includes a phone system for texts and calls. HubSpot sells marketing SMS only as an add-on to Marketing Hub Professional or Enterprise, and only to US customers.
+- **What one subscription covers.** GoHighLevel's Starter plan also includes a website and funnel builder, booking calendars, review management, courses and communities. HubSpot's free tools and Starter seat cover website pages, landing pages and meeting links too, capped at 30 website pages and 30 landing pages.
+- **Account structure.** GoHighLevel splits work into sub-accounts, one per business or client, a design built for agencies. HubSpot runs one company's marketing, sales and service teams from a single shared contact record.
+
+HubSpot keeps real advantages that a move gives up. Marketing Hub Professional adds up to 100 custom reports and 75 dashboards plus lead scoring. GoHighLevel has custom dashboards of its own, but its importer carries over none of the reports or scoring rules you built in HubSpot. And a sales or service team working in HubSpot's other hubs sees the same record marketing does.
+
+## Who should move from HubSpot to GoHighLevel, and who should stay?
+
+Move if one of these fits:
+
+- **You text leads, or plan to.** Texting from HubSpot itself takes at least Marketing Hub Professional, with its 12-month commitment and $3,000 onboarding fee, before the $75-a-month SMS add-on. GoHighLevel sends texts on its <Price tool="gohighlevel" plan="starter" /> Starter plan once A2P registration clears. A business based outside the US cannot buy HubSpot's SMS add-on at all, while GoHighLevel prices texting country by country.
+- **You manage accounts for clients.** Starter includes 3 sub-accounts, and our [GoHighLevel plans compared](/tools/gohighlevel/plans-compared/) guide shows when an agency needs Unlimited instead.
+- **Your team keeps hiring.** GoHighLevel never charges per user. On HubSpot Professional, each seat beyond the 3 included costs $50 a month, or $45 billed yearly.
+- **You want to leave on short notice.** GoHighLevel runs month to month. HubSpot's paid terms cannot be ended early, and Professional's term lasts 12 months.
+
+Stay with HubSpot if one of these fits:
+
+- **You are a one- or two-person business with a small list and no texting.** HubSpot's free tools cost nothing for up to 2 users and 1,000 contacts, and a Starter seat with 1,000 marketing contacts costs <Price tool="hubspot" plan="starter" /> a month, both well under GoHighLevel's lowest plan.
+- **Your sales or service team lives in HubSpot's other hubs.** Tickets, sales sequences and years of custom reports would all need rebuilding, and HighLevel's HubSpot Importer does not list tickets among the objects it moves.
+- **You want a fixed monthly bill.** GoHighLevel's usage draws on a prepaid wallet that tops itself up from your card, and HighLevel's wallet article says Auto Recharge cannot be switched off.
+- **You are early in a Professional or Enterprise term.** HubSpot bills to the end of the term regardless, so moving now means paying for both.
+
+## What can you export from HubSpot and import into GoHighLevel?
+
+Three tools do the carrying. HighLevel's HubSpot Importer moves the CRM directly, HubSpot's own exports give you a backup, and GoHighLevel's CSV import fills the gaps.
+
+**HighLevel's importer.** The help article "Import data from HubSpot" describes a connector you start from the Import menu on GoHighLevel's Contacts, Companies or Opportunities page: you log in to HubSpot, pick the objects, confirm the record counts and let it run in the background. It supports contacts, companies, deals, custom properties, pipelines and their stages, custom folders, notes, tasks and emails. Deals arrive as opportunities, keeping their pipeline and stage where the importer supports it. Afterward, a report lists successes, errors and warnings record by record, and the errors download as a CSV that names each failed record's HubSpot ID. The article sets out these precautions and limits:
+
+- Switch on Allow duplicates for contacts and opportunities first, and import into a location with no hand-entered data, ideally a test location before the live one; Starter's 3 sub-accounts leave room for that. De-duplication can go back on once the import ends.
+- A deal with no associated contact will not import, and one opportunity can hold up to 10 additional contacts.
+- Custom fields map by internal key, so an existing GoHighLevel field with the same key fails, and HubSpot calculated properties arrive as single-line text.
+- Imported emails are read-only, recurring tasks are not supported, and notes cannot attach to companies.
+- On attachments the article contradicts itself, listing them as supported in one section and as a cause of failed records in another. Download any file you need from HubSpot first.
+
+**HubSpot's exports.** HubSpot's article "Export your records" covers contacts, companies, deals, tickets, calls, custom objects and more. Choose "All properties and associations on records" when exporting for a move, because a default export holds only the columns in your current view. HubSpot emails a download link that expires after 30 days, and it allows up to 300 exports in a rolling 24 hours, three at a time. Meetings and chats come out through custom reports or HubSpot's engagements API, according to its article "Export your content and data". HubSpot's pricing page reserves custom reports for Professional and Enterprise, so a Starter account leans on standard activity reports, single-contact exports or the API.
+
+**GoHighLevel's CSV import** handles contact and opportunity records the importer skips or rejects. HighLevel's article "Importing Contacts and Opportunities via CSV" lets only admins import, accepts one sheet per file with a header row, and needs a name, email or phone for every contact. It caps files at 30 MB, though the same article's FAQ says 50 MB; split at 30 to be safe. The companion article "Importing Opportunities using a CSV file" adds that pipelines and stages must exist before you import, that every opportunity-only row needs a Contact ID, opportunity name and pipeline, that status must read Open, Won, Lost or Abandoned, and that a finished import has no one-click undo. A CSV also carries just one note per contact, up to 5,000 characters.
+
+## Which HubSpot assets have to be rebuilt in GoHighLevel?
+
+Anything made of logic or design stays behind in HubSpot. HubSpot warns that some of it stops working once an account is deactivated, so rebuild it before your paid term ends.
+
+- **Workflows and sequences.** HubSpot exports a spreadsheet of workflow names, status and enrollment counts, plus a PNG image of any single workflow, and its export article says these files carry no history, no performance data and none of the emails a workflow sends. Save an image of every active workflow as a blueprint. HighLevel's "Hubspot to HighLevel (Migration Guide)" treats the rebuild as manual: record each trigger, action and delay, recreate it under Automation, and test it before it goes live. Standard workflow steps carry no per-run charge on GoHighLevel, though the texts and emails they send are billed as usage; premium steps such as webhooks cost $0.01 per execution once a sub-account has used its 100 free lifetime executions.
+- **Email templates and landing pages.** HighLevel's guide says to save HTML copies of HubSpot email templates and landing pages, then recreate or import the templates in GoHighLevel's email builder and rebuild the pages in its page builder.
+- **Forms and calls to action.** HubSpot's export article warns that its forms lose their paid features once the account is deactivated, and that legacy CTAs stop working. Export the submission data, then replace each HubSpot form embedded on your website with a GoHighLevel form tied to a workflow.
+- **Segments.** The importer's list of objects leaves out HubSpot segments. Export each segment you rely on as its own file, then re-import it with the CSV import set to Update Only, tagging those contacts or saving them as a Smart List.
+- **Reports and dashboards.** HubSpot lets you export reports for your records, but nothing turns them into GoHighLevel reports. Rebuild the few you check every week in GoHighLevel's dashboards.
+- **Integrations.** Neither HubSpot's export article nor HighLevel's importer covers connected apps. List every app linked to HubSpot, then reconnect or replace each one before cutover.
+- **Products and invoices.** HighLevel's guide says to recreate your product catalog under Payments and issue invoices from its own invoicing tool.
+
+## What texting setup does GoHighLevel need before you switch?
+
+Start with texting, because it waits on outside approvals.
+
+1. **Register for A2P 10DLC.** HighLevel's article "A2P 10DLC Messaging Fees" says every business on its phone system must register a brand and campaign with The Campaign Registry before texting US mobile numbers from a local number. A Sole Proprietor or Low Volume Standard brand costs $22.50 once, covering the first campaign's vetting and a Fast Track fee aimed at approval within 3 business days. Each further campaign costs $15.00 to vet, and the monthly campaign fee starts at $1.50. HighLevel's Phone System Pricing & Billing Guide says both the registration fee and the monthly fee begin the moment you submit, even if the campaign is rejected.
+2. **Pick your number.** A new US or Canadian local number costs $1.15 a month. To keep the number customers already text, HighLevel's "Moving Phone Numbers: Migration Guide" puts a port from an outside carrier at about 2 to 4 weeks for fewer than 50 numbers. Keep the old line active until the port is confirmed and tested.
+3. **Recheck registration after a port.** The same guide warns against assuming that A2P registration travels with a number. Confirm the number sits on an approved campaign before the first send.
+
+Per-text rates, carrier fees and the 5% markup that HighLevel's own articles disagree on are broken down in our [GoHighLevel SMS and calling costs](/tools/gohighlevel/sms-and-calling-costs/) guide.
+
+## How does the monthly bill change after moving from HubSpot to GoHighLevel?
+
+Our recorded bills for the same small team, with 3 users, 5,000 contacts, 20,000 emails and 1,000 texts a month, count different things. Both are priced as of <Checked tool="hubspot" />:
+
+- **HubSpot: <Real tool="hubspot" size="small" /> a month.** Texting is what puts this team on Marketing Hub Professional. The bill counts the <Price tool="hubspot" plan="professional" field="annualMonthly" /> base with 3 Core Seats, one 5,000-contact pack and the $75 SMS add-on with 1,000 segments, prepaid on the required 12-month commitment. The $3,000 onboarding fee comes on top: HubSpot's calculator puts this team's cost to get started, a year billed upfront plus that fee, at $16,200.
+- **GoHighLevel: <Real tool="gohighlevel" size="small" /> a month.** That covers Starter billed monthly, one local number, 1,000 single-segment texts with carrier fees, the $1.50 campaign fee, 20,000 emails and a 5% markup on carrier and campaign fees, which HighLevel's articles disagree on and the bill includes to be safe. It leaves out the one-time $22.50 registration, replies, calls, AI and tax. Twelve months cost <Real tool="gohighlevel" size="small" year />.
+
+HubSpot's figure is almost nine times GoHighLevel's. Three facts keep that comparison fair:
+
+- **HubSpot's price buys more than texting.** It covers email sends up to 10 times the contact tier with no per-email charge, plus Professional's reporting, lead scoring and 3,000 HubSpot Credits a month. GoHighLevel bills every email that goes through its own sending service.
+- **Most of the gap is the price of texting on HubSpot.** Without SMS, the same team fits Marketing Hub Starter for $250 a month at list price, a little over twice what GoHighLevel's plan and email would cost, though Starter caps email automation at 10 automated actions.
+- **At solo size HubSpot costs less.** One Starter seat comes to <Real tool="hubspot" size="solo" /> a month against <Real tool="gohighlevel" size="solo" /> on GoHighLevel, though that HubSpot bill sends no texts.
+
+Our [GoHighLevel vs HubSpot comparison](/compare/gohighlevel-vs-hubspot/) follows both bills as a team grows, and the [HubSpot pricing](/tools/hubspot/pricing/) and [GoHighLevel pricing](/tools/gohighlevel/pricing/) pages list every line. HighLevel also sells Advanced Account Setup, a done-with-you service its Pricing Guide lists among optional add-ons, for $1,000 once.
+
+## When should you cancel HubSpot during the move?
+
+Plan the move around your HubSpot renewal date. HubSpot's knowledge-base article "Downgrade or cancel your HubSpot subscription" says paid subscriptions cannot be canceled mid-contract: you turn off auto-renewal, pay to the end of the commitment term, and the account then drops to HubSpot's free tools rather than closing. Moving to a lower tier instead takes a request at least five business days before renewal.
+
+That makes the last two or three months of a HubSpot term the cheapest time to migrate. You owe HubSpot for the full term either way, so it stays live as the record while GoHighLevel, billed monthly, adds only its own plan and usage. HighLevel's migration guide also suggests running the two side by side before you cancel. A workable order:
+
+1. Turn off HubSpot's auto-renewal once you decide; HubSpot lets you switch it back on before the cancellation date.
+2. Submit the A2P registration and any number port in the first week.
+3. Run the importer into a test location, fix what the error file shows, then import into the live one.
+4. Rebuild workflows, templates and forms, and swap the forms on your website.
+5. Take final exports of records and activity, and download each file promptly, since HubSpot's links expire after 30 days.
+6. Let the HubSpot term run out.

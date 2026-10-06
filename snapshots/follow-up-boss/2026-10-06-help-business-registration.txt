@@ -1,0 +1,133 @@
+SOURCE: https://help.followupboss.com/hc/en-us/articles/24817184747031-Why-Business-Registration-Matters
+FETCHED: 2026-10-06T10:18:17.618Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+Webinars Community Blog Submit a request Log In
+Why Business Registration Matters
+Search
+Follow Up Boss - Help Center
+Account Management
+Business Registration
+ 
+Jimmy Miller
+1 year ago
+Updated
+Follow
+Not yet followed by anyone
+Stay connected: Complete your business registration for seamless texting with FUB
+
+We all know the feeling: Your phone dings, you stop what you’re doing to fish it out of your pocket or purse, and instead of a nice message from someone you love, you’re greeted with an ad for weight loss pills, a donation request, or worse–a scheme to steal your personal info 😡
+
+ 
+
+US mobile carriers like AT&T, Verizon, and T-Mobile are working hard to cut down on spam texting on their networks. Overall, this is a good thing, but it also means that legitimate businesses like yours need to take a few steps to make sure texts are delivered to your customers. 
+
+ 
+
+This guide will keep you up to date on these industry-wide changes and show you how to take the steps needed to keep your texts flowing smoothly. 
+
+ 
+
+New industry-wide requirement for 2024: 10DLC registration
+
+You’re going to hear a lot about “business registration” and “10DLC registration,” along with a bunch of other jargon, as carriers move to reduce spam texting on their networks. They’ve done a lot to make it sound complicated, but it’s actually pretty simple: think of it like identity verification for your business phone numbers. 
+
+ 
+
+Carriers want to confirm that you’re running a real business and then link your phone numbers to that verified business so they know text messages coming from those phone numbers are legitimate. They also want to know that the people you’re texting have agreed to receive texts from you. 
+
+ 
+
+To continue sending texts through FUB or any other CRM or texting service, you are required to register your business. December 1, 2024, carriers will begin blocking unregistered numbers from sending text messages through third-party services. 
+
+ 
+
+The mobile carriers have partnered with a third-party company called The Campaign Registry (TCR) to handle 10DLC registration. When you register your business, TCR facilitates a review of your business that will check for a few key things:
+
+A valid EIN (employer ID number issued by the IRS)
+Your business’s legal name, address, and other details match those on file with your EIN
+The primary Contact Us form on your website has texting opt-in language
+Your website’s privacy policy clearly states that you don’t share phone numbers you collect for marketing or promotional purposes
+10DLC registration will help get your messages delivered
+
+Carriers want to know which senders they can trust. By registering your business, you’ll let the carriers know that you’re a real business with customers who have opted into texting, so they’ll be less likely to block your messages or flag them as spam. 
+
+ 
+
+Plus, 10DLC registration will reduce the number of spam messages that we all have to deal with, so important messages (like yours!) won’t have to compete with junk for a customer’s attention. 
+
+10DLC registration is quick for you, but the review takes time. Submit your info now.
+
+It’s not hard to register your business, but it’s important that you start now. That’s because TCR manually reviews your business prior to approval. Reviews can last around 48 hours and can take longer if any information is missing or if they have additional questions.
+
+ 
+
+To register your business, you’ll need to take a few simple steps:
+Make sure your website has texting opt-in language on the primary lead form and a privacy policy that states that you won’t sell phone numbers that you collect
+Submit your business’s name, legal address, and EIN, along with the phone numbers you plan to use for business communications (your FUB numbers)
+Wait for TCR to vet your business and respond to any follow-up questions they have
+
+ 
+
+TCR will confirm that your business information is correct and that your website meets the opt-in and privacy policy requirements. 
+
+ 
+
+FUB makes registering your business easy
+
+You can handle most of the 10DLC registration process right inside of Follow Up Boss. Here’s our detailed guide for how to do it. 
+
+ 
+
+What’s more, the FUB team will help you every step of the way. We’ll review your submission before sending it on to TCR. If your submission doesn’t meet their criteria, we’ll send it back to you with notes so you can make the necessary changes and resubmit it to us for another review. When your Follow Up Boss business registration meets TCR’s criteria, FUB will submit it on your behalf. We’ll also cover the registration fees at no additional cost to you. 
+
+ 
+
+FUB will help you keep your registration up to date
+
+When you submit your 10DLC registration through Follow Up Boss, we’ll automatically register all current FUB phone numbers and any new ones you add in the future. Going forward, we will keep you informed of any changes in policies and rules so you stay compliant without extra effort.
+
+Was this article helpful?
+Yes No
+3 out of 4 found this helpful
+Have more questions? Submit a request
+Return to top 
+Related articles
+How to register your phone numbers
+Zillow Two Way Integration Overview
+Power-Up: Appointment Reminder Texts
+Zillow One Way Integration Overview
+How lead inquiries are handled in Follow Up Boss
+  Articles in this section
+How to register your phone numbers
+Why Business Registration Matters
+Business Registration Status
+Business Registration: Canada
+Business Registration: Impacted Accounts
+Business Registration: Impacted Canadian Accounts
+Business Registration: Privacy Policy
+Business Registration: Rejections & Solutions
+Create a Business Page with a Contact Form
+EIN Application
+See more
+Try Follow Up Boss Free For 14 Days
+Start a Trial
+Phone and email support
+8am - 8pm EST
+7 days a week
+(855) 622-5311
+support@followupboss.com
+‍
+Company
+About Careers Press Kit
+Resources
+Blog Customer Results Get a Demo FAQ Updates Status Support
+Product
+For Solo Agents For Team Leaders For ISAs For Admins Large Teams Small Teams Pricing
+Compare
+Open System vs
+All-In-Ones Top Producer Wise Agent Boomtown CINC LionDesk
+Legal
+Security Privacy Terms
+© Follow Up Boss

@@ -1,0 +1,288 @@
+SOURCE: https://knowledge.hubspot.com/account-management/export-your-content-and-data
+FETCHED: 2026-10-06T10:14:20.178Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to content
+ English 
+: Select a language
+Go to my account
+Get a demo
+Get started free
+ Knowledge Base
+Help Center
+Documentation 
+Training 
+Community 
+Blogs 
+Knowledge Base
+Account & Setup
+Account Management
+Export your content and data
+Export your content and data
+
+Last updated: September 25, 2026
+
+Available with any of the following subscriptions, except where noted:
+All products and plans
+
+Learn how to export HubSpot content and data from your account, such as pages, contacts, and files. 
+
+Please note: there is no way to merge all the data between HubSpot accounts. The best way to move assets between accounts is to export your data from a HubSpot account, then import the objects and/or recreate certain data in the other account.
+
+Account data
+
+You can export the following account-related information:
+
+Account activity history.
+Export audit logs
+Users.
+
+Revenue data
+Contracts
+
+Learn how to export contracts.
+
+Credit memos
+
+Learn how to export credit memos.
+
+Invoices
+
+Learn how to export invoices.
+
+Payments
+Learn how to export payment records.
+Learn how to export payment and payout reports.
+Products
+
+Learn how to export your products.
+
+Please note: all HubSpot forms will lose their paid features once your account is deactivated. If you are canceling your account, consider replacing your embedded forms.
+
+Quotes
+
+Learn how to export published quotes.
+
+Subscriptions
+
+Learn how to export subscriptions.
+
+Content
+Website and landing pages, posts, and templates
+Learn how to export HTML files pages, posts, and templates.
+Learn how to export data for pages.
+Learn how to export data for posts.
+Files tool
+
+Learn how to export files.
+
+HubDB
+
+Learn how to export HubDB data.
+
+Memberships
+
+Learn how to export membership data.
+
+Private content
+
+Learn how to export registration and sign-in activity for your private content.
+
+SEO
+
+Learn how to export SEO data.
+
+Sitemap
+
+Learn how to export your sitemap.
+
+URL redirects
+
+Learn how to export URL redirects.
+
+CRM data
+Backups
+Learn how to download a backup of your CRM data.
+Properties
+Learn how to export properties for your objects.
+Learn how to export property history.
+Records
+
+Learn how to export records such as contacts, companies, deals, tickets, calls, custom objects, and more.
+
+Please note: exporting all your contacts will include unsubscribes. To exclude them, add Contact property | Unsubscribed from all email | is not equal to | True to your filter.
+
+Tasks
+
+Learn how to export your tasks.
+
+Data management
+Data quality
+
+Learn how to export the historical values of a property.
+
+Datasets
+
+Learn how to export a dataset.
+
+Data sync
+
+Learn how to export records from a data sync app.
+
+Marketing content
+
+You can export the following marketing assets and their data. You may also want to review the types of marketing reporting data you can export.
+
+Ads campaign data.
+Campaign data.
+Forms:
+Form data using dashboard filters.
+Form submission data.
+Segments.
+Marketing events (can be exported using the Marketing Events API).
+Published social posts.
+SMS.
+
+Please note: all HubSpot forms will lose their paid features once your account is deactivated. If you are canceling your account, consider replacing your embedded forms.
+
+Reporting
+Analytics suites
+Learn how to export data from analytics suites.
+
+Goals
+
+Learn how to export goals.
+
+Reports and dashboards
+
+Learn how to export your reports and dashboards.
+
+Please note: a funnel report displays objects that changed stages within the selected date range. However, when you export a funnel report, the export file will contain the objects created in that date range. Hence, the export file will not match the report data.
+
+Marketing email analytics
+
+Learn how to:
+
+Export your marketing email performance data.
+Export recipient data for an individual marketing email.
+Export hard bounces and unsubscribes.
+Calls-to-action (CTA) analytics
+
+Learn how to export CTA data.
+
+Learn how to export your CTA (legacy) analytics.
+
+Please note: all HubSpot CTAs (legacy) will stop functioning once your account is deactivated. If you are canceling your HubSpot account, remove them from any external pages.
+
+Page and blog analytics
+
+Learn how to download your page and blog analytics.
+
+Sales data
+Forecasts
+
+Learn how to export forecasting data.
+
+Prospects
+
+To export your prospects data:
+
+In your HubSpot account's global search bar, enter Website Visits.
+
+Click Website Visits.
+
+In the left sidebar menu, click the Options dropdown menu and select Export.
+
+In the dialog box, click the File format dropdown menu to select the file format for the export.
+Click Export. Once the export is processed, you'll receive a download link through email and in your notification center.
+Sales activity
+
+You can export sales activity data (calls, chat conversations, meetings, etc.) by creating reports with the custom report builder or using HubSpot's Engagements API.
+
+Sales documents
+
+To export an individual sales document:
+
+In your HubSpot account, click More, then navigate to Sales > Documents. If More doesn't appear in your account, navigate to Sales > Documents directly.
+Hover over the document you want to download, then click the Actions dropdown menu and select Download. The document will automatically download.
+Target accounts
+
+Learn how to export target account reports.
+
+Service data
+Customer feedback
+
+Learn how to export customer feedback survey responses.
+
+Customer success
+
+Learn how to export records from the customer success workspace.
+
+Inbox
+
+Inbox data can be exported using the Conversations API to export inbox data. For past chat transcripts, use the Conversations API's relevant conversations or thread endpoints, including authentication and pagination, or manually copy, print/save to PDF, or use a third-party tool.
+
+Knowledge Base
+Learn how to export data for articles.
+Workflows
+
+You can export a spreadsheet containing information about all of your workflows, and you can export images of individual workflows.
+
+Workflow spreadsheet exports will contain information such as:
+
+The name of the workflow.
+Whether or not the workflow is currently active.
+Total enrollments and the count of records currently enrolled.
+Total records that have joined the workflow goal list and the total conversion rate.
+Create date and the user who created the workflow.
+Last modification date and the user who modified it.
+The workflow type.
+
+Please note: workflows exports don't include performance data or the workflow's history. In addition, workflow exports don't include data from emails used in the workflow. Marketing email exports do include an Associated workflows column which identifies the workflows that an email is being used in. Learn more about exporting your marketing email data.
+
+To export a spreadsheet of all workflows not located in folders:
+
+In your HubSpot account, click More, then navigate to Automation > Workflows. If More doesn't appear in your account, navigate to Automation > Workflows directly.
+In the upper right, click the Table actions dropdown menu, and select Export view. The file will download automatically.
+To export a spreadsheet of all workflows in a folder: 
+
+In your HubSpot account, click More, then navigate to Automation > Workflows. If More doesn't appear in your account, navigate to Automation > Workflows directly.
+Click the name of the folder. 
+In the upper right, click the Table actions dropdown menu, and select Export view. The file will download automatically. 
+
+To export an image of an individual workflow:
+
+In your HubSpot account, click More, then navigate to Automation > Workflows. If More doesn't appear in your account, navigate to Automation > Workflows directly.
+Click the Workflows tab.
+Click the name of a workflow.
+In the upper left, click the File dropdown the select Export as .PNG. The export will process, then download as a .png file.
+
+Necessary disclosure:
+
+HubSpot will store workflow action logs data within the below time periods:
+
+180 days: all workflows action log data will be stored.
+180 days - 2 years: high level action log data such as object ID (which contact, company, deal, etc.), event type (enrollment, unenrollment, etc.), and action type will be stored.
+2 years+: historical data of enrollments will be retained in our system to enable workflow based filters.
+Was this article helpful?
+Yes No
+This form is used for documentation feedback only. Learn how to get help with HubSpot.
+0 / 0
+Table of contents
+Account data
+Revenue data
+Content
+CRM data
+Data management
+Marketing content
+Reporting
+Sales data
+Service data
+Workflows
+Related content
+Customize your robots.txt file
+Copyright © 2026 HubSpot, Inc.
+Legal Stuff
+Privacy Policy
+Manage Cookies
+Your Privacy Choices

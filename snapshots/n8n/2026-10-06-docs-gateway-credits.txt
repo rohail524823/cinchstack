@@ -1,0 +1,288 @@
+SOURCE: https://docs.n8n.io/deploy/use-n8n-cloud/gateway-credits
+FETCHED: 2026-10-06T10:19:38.692Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+n8n Docs
+Ctrl
+K
+Forum
+Changelog
+Get started
+Deploy
+Build
+Nodes
+Connect
+Administer
+Contribute
+Deploy
+Use n8n Cloud
+Try free then choose a plan
+Use the admin dashboard
+Update your version
+Configure Cloud
+Understand concurrency
+Gateway credits
+Top up Gateway credits
+Track Gateway credit spend
+Assistant credits
+Download workflows
+Host n8n
+ON THIS PAGE
+In this section
+How Gateway credits work
+Supported services
+Your credit balance
+Credit expiry and forfeiture
+Gateway credits and other credit types
+Data handling
+Related resources
+
+Was this helpful?
+
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+Copy
+DeployUse n8n Cloud
+Gateway credits
+
+Gateway credits let you use supported AI models and third-party services in your workflows without creating provider accounts or managing API keys. Instead of setting up a credential, you select Gateway credits on a supported node, and n8n bills the usage from a prepaid credit balance.
+
+Gateway credits only pay for nodes in your workflows. They don't pay for n8n Assistant, which uses separate Assistant credits, starting with a monthly allowance included in your plan. Topping up Gateway credits doesn't give n8n Assistant more credits.
+
+In this section
+
+Top up Gateway credits: add credit manually or automatically.
+
+Track Gateway credit spend: monitor your balance, spend, and top-up history.
+
+Feature availability
+
+Gateway credits are available on:
+
+n8n Cloud: Starter, Pro
+
+They aren't available on n8n Cloud Enterprise or self-hosted n8n. Gateway credits are available from n8n 2.36.0. Free trials include Gateway credits, but you can't top up until you upgrade to a paid plan.
+
+How Gateway credits work
+
+When you select Use Gateway credits on a supported node, n8n routes the node's requests through an n8n-managed gateway to the service provider. The gateway authenticates with the provider on n8n's behalf, so you don't need a provider account. n8n deducts the cost of each request from your credit balance.
+
+n8n bills usage per request at the rates listed on the service pricing page. Rates vary by model and service, and change as providers update their pricing, so the service pricing page is always the source of truth for current rates.
+
+To learn how to select Gateway credits on a node and find supported nodes in the editor, see Use Gateway credits.
+
+Supported services
+
+Gateway credits cover two categories of service:
+
+AI models: large language model providers such as OpenAI, Anthropic, and Google Gemini.
+
+Tool services: services for tasks like web search, web scraping, browser automation, and document parsing, such as Brave Search and Firecrawl.
+
+The catalogue grows over time. For the current list of supported services and models, check the service pricing page. In the editor, the Included in n8n section of the nodes panel shows the nodes you can use with Gateway credits.
+
+Services that aren't in the catalogue still work in n8n the usual way: create a credential with your own API key. Refer to Create and edit credentials for details.
+
+Your credit balance
+
+Each Cloud instance has one credit balance, shared by everyone who uses Gateway credits on that instance. You can see the balance in the editor next to the Gateway credits option on a node, and on the Gateway credits tab in the Cloud admin dashboard, which also shows your spend over time. Refer to Track Gateway credit spend for details.
+
+New Cloud users receive a small amount of free credit at sign-up, so you can try supported services before you buy credits. Free trials include Gateway credits too: you can use them from your first workflow.
+
+When your balance reaches zero, nodes using Gateway credits stop working until you add credit. Nodes using your own credentials aren't affected. If the balance runs out in the middle of an execution, n8n lets the in-flight requests finish rather than stopping them partway through, and deducts the difference from your next top-up. On a paid plan, you can top up your balance manually or automatically. Topping up isn't available during a free trial, so if you use up your free credit while trialing, upgrade to a paid plan to add more.
+
+Credit expiry and forfeiture
+
+n8n uses free credits before top-up credits, and uses the credits that expire soonest first.
+
+Top-up credits expire 12 months after purchase.
+
+Credits aren't cash and you can't transfer them to another account.
+
+Top-ups are final. n8n doesn't refund unused credits except where required by law.
+
+If you close your n8n account, you forfeit any remaining credits. Canceling your subscription doesn't forfeit credits while your account still exists.
+
+Gateway credits and other credit types
+
+n8n has more than one kind of credit. They have separate balances and pay for different things:
+
+Credit type
+What it pays for
+Where you see it
+
+Gateway credits
+
+AI models and tool services used by nodes in your workflows
+
+On supported nodes, and on the Gateway credits tab in the Cloud admin dashboard
+
+Assistant credits
+
+Your usage of n8n Assistant, from a monthly allowance included in your plan
+
+In the n8n Assistant panel in the editor, and on the Assistant credits tab in the Cloud admin dashboard
+
+Free OpenAI API credits
+
+A legacy one-time OpenAI allowance for new Cloud users
+
+Only on instances without Gateway credits
+
+Topping up Gateway credits doesn't add Assistant credits, and using n8n Assistant doesn't spend your Gateway credit balance.
+
+Data handling
+
+When a node runs on Gateway credits, n8n sends the request through its gateway to the service provider under n8n's own provider account. The provider receives the content of the request, such as the prompt you send to a model or the text you send to a parser, but not your identity or n8n account details. For more on how n8n handles your data, refer to Privacy and n8n's terms of service.
+
+Related resources
+
+Use n8n Cloud
+
+Try free then choose a plan
+
+Use the admin dashboard
+
+Update your version
+
+Configure Cloud
+
+Assistant credits
+
+Understand concurrency
+
+Download workflows
+
+Use Gateway credits: select Gateway credits on a node and find supported nodes.
+
+Service pricing page: current rates for all supported services and models.
+
+Previous
+Understand concurrency
+Next
+Top up Gateway credits
+
+Last updated 5 days ago
+
+Company
+n8n.io
+Careers
+Blog
+Resources
+Templates
+Academy
+Changelog
+Legal and privacy
+Security
+Privacy
+n8n community license
+Sustainable use license
+
+© 2026 n8n | All rights reserved
+
+This website uses cookies
+We use cookies to personalise content, ads and to analyse our traffic. We also share information about your use of our site with our advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Read more
+ESSENTIAL
+FUNCTIONAL
+MARKETING
+ SHOW DETAILS
+ACCEPT ALL
+DECLINE ALL
+COOKIE DECLARATION
+ABOUT COOKIES
+Essential
+Functional
+Marketing
+Essential cookies allow core website functionality such as user login, account management, and consent preferences. The website cannot be used properly without these strictly necessary cookies.
+Name	Provider / Domain	Expiration	Description
+__sec__ghost	n8n.io	9 months 4 weeks	Used by the consent management platform (Cookie-Script) to detect automated or suspicious browsing activity.
+__sec__cid	n8n.io	1 day	Used by the consent management platform (Cookie-Script) for short-term visitor verification.
+__sec__token	n8n.io	1 day	Used by the consent management platform (Cookie-Script) to validate the authenticity of consent interactions.
+_shopify_essential	
+Shopify
+merch.n8n.io	11 months 4 weeks	This cookie is essential for the secure checkout and payment function on the merch store and is provided by Shopify.
+CookieScriptConsent	
+CookieScript
+.n8n.io	11 months 4 weeks	This cookie is used by Cookie-Script.com service to remember visitor cookie consent preferences. It is necessary for Cookie-Script.com cookie banner to work properly.
+__sec_tid	n8n.io	9 months 3 weeks	Used by the consent management platform (Cookie-Script) to track the consent session and ensure banner integrity.
+__sec_crid	n8n.io	9 months 4 weeks	Used by the consent management platform (Cookie-Script) to verify returning visitors and prevent abuse.
+__sec__fid	n8n.io	9 months 3 weeks	Used by the consent management platform (Cookie-Script) for anti-fraud protection and bot detection.
+localization	
+Shopify
+merch.n8n.io	11 months 4 weeks	Used by Shopify to store the user's locale/language preference for the merch store.
+csrftoken	learn.n8n.io	1 year	Strictly necessary security cookie for the n8n learning portal (Open edX LMS). Protects against Cross-Site Request Forgery (CSRF) by verifying that form submissions and API requests (enrolments, assessments, data exports) originate from the legitimate user session.
+sessionid	learn.n8n.io	2 weeks	Strictly necessary authentication cookie for the n8n learning portal (Open edX LMS). Identifies the logged-in user session; without it the user is signed out and cannot access courses or submit work.
+edx-jwt-cookie-header-payload	learn.n8n.io	2 weeks	Strictly necessary authentication cookie for the n8n learning portal (Open edX). Contains the header+payload of the JWT used to authenticate the user across Open edX micro-frontends and backend services (enrolments, grades, discussions).
+edx-jwt-cookie-signature	learn.n8n.io	2 weeks	Strictly necessary security cookie for the n8n learning portal (Open edX). Holds the cryptographic signature half of the JWT (kept separate and HttpOnly) that validates token integrity; required alongside the header-payload cookie to stay authenticated across MFEs.
+openedx-language-preference	learn.n8n.io	1 year	Strictly necessary functionality cookie for the n8n learning portal (Open edX). Stores the selected interface language so the LMS and MFEs render in the correct locale; without it MFEs fail to initialise i18n and page loads break.
+_shop_app_essential	.shop.app	1 year	Set by Shop Pay (Shopify’s accelerated checkout) and only relevant to the n8n merch store (merch.n8n.io). Essential for the Shop Pay checkout experience to function. It is a third-party cookie on the .shop.app domain and is not used anywhere else on n8n.io.
+Functional cookies help us understand how visitors use our website and improve your experience. This includes analytics, performance measurement, and remembering your preferences.
+Name	Provider / Domain	Expiration	Description
+_gid	
+Google LLC
+.n8n.io	1 day	This cookie is set by Google Analytics. It stores and update a unique value for each page visited and is used to count and track pageviews.
+_shopify_y	
+Shopify Inc.
+.n8n.io	1 year 6 hours	Analytics for Shopify in our merch store
+Provider address: 151 O'Connor Street, Ground floor, Ottawa, ON, K2P 2L8, Canada
+
+originalClientId	.n8n.io	4 weeks 2 days	Stores the visitor's initial analytics identifier from their first visit, used to connect browsing sessions for website analytics.
+_ga_0SC4FF2FH9	
+Google LLC
+.n8n.io	1 year 1 month	This cookie is used by Google Analytics to persist session state.
+_shopify_s	
+Shopify Inc.
+.n8n.io	30 minutes	Analytics for Shopify in our merch store
+_shopify_analytics	merch.n8n.io	11 months 4 weeks	Analytics for Shopify in our merch store
+_ga	
+Google LLC
+.n8n.io	1 year 1 month	This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.
+n8n_tracking_id	.n8n.io	1 year 1 month	A unique identifier generated by n8n to understand how visitors navigate across our web properties. Used for website analytics.
+Marketing cookies are used to deliver relevant advertisements and measure the effectiveness of our campaigns. They may also be used by third-party advertising and social media platforms.
+Name	Provider / Domain	Expiration	Description
+rl_group_id	.n8n.io	11 months 4 weeks	Associates the visitor with an organization for usage analytics on the subscription management page.
+rl_group_trait	.n8n.io	11 months 4 weeks	Stores organization-level attributes for usage analytics on the subscription management page.
+YSC	
+Google LLC
+.youtube.com	Session	Set by YouTube on pages with embedded videos. Registers a unique session ID to collect statistics on video playback.
+VISITOR_INFO1_LIVE	
+Google LLC
+.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Used to estimate bandwidth and display settings for the video player.
+rl_trait	.n8n.io	11 months 4 weeks	Stores visitor attributes for usage analytics on the subscription management page.
+rl_page_init_referring_domain	.n8n.io	11 months 4 weeks	Records the referral domain when visiting the subscription management page, used for analytics.
+__Secure-YNID	.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Stores video player preferences and playback settings.
+lidc	
+LinkedIn Corporation
+.linkedin.com	1 day	LinkedIn data center routing
+bcookie	
+LinkedIn Corporation
+.linkedin.com	11 months 4 weeks	LinkedIn browser identification
+rl_session	.n8n.io	11 months 4 weeks	Manages the analytics session for tracking usage on the subscription management page.
+IDE	
+Google LLC
+.doubleclick.net	1 year 1 month	Google Ads targeting
+_gcl_au	
+Google LLC
+.n8n.io	2 months 4 weeks	Used by Google AdSense for experimenting with advertisement efficiency across websites using their services
+rl_user_id	.n8n.io	11 months 4 weeks	Stores the identified user ID for usage analytics on the subscription management page.
+rl_page_init_referrer	.n8n.io	11 months 4 weeks	Records the referral URL when visiting the subscription management page, used for analytics.
+li_gc	
+LinkedIn Corporation
+.linkedin.com	5 months 4 weeks	LinkedIn guest consent state
+rl_anonymous_id	.n8n.io	11 months 4 weeks	Assigns an anonymous identifier to track usage analytics on the subscription management page (plans.n8n.io).
+_fbp	
+Meta Platform Inc.
+.n8n.io	2 months 4 weeks	Used by Meta to deliver a series of advertisement products such as real time bidding from third party advertisers
+__Secure-ROLLOUT_TOKEN	
+Google LLC
+.youtube.com	5 months 4 weeks	Set by YouTube on pages with embedded videos. Used internally by YouTube to manage feature rollouts for the video player.
+test_cookie	
+Google LLC
+.doubleclick.net	15 minutes	This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor's browser supports cookies.
+_shopify_marketing	merch.n8n.io	1 year	Set by Shopify and only relevant to the n8n merch store (merch.n8n.io). Used for marketing attribution — recording how a visitor arrived at the store so marketing performance can be measured. It is not set or read anywhere else on n8n.io. Set server-side (HttpOnly) by Shopify; gating is governed by the merch store’s own Shopify consent settings.
+signals-sdk-user-id	.n8n.io	1 year	Set by Common Room (Common Room, Inc.) to recognise a returning visitor and correlate their activity across visits, so n8n can identify the company a visitor belongs to and understand engagement across the funnel. Contains a randomly generated identifier, not your name or email address. Set only after you consent to marketing cookies.
+signals-sdk-session-id	.n8n.io	30 minutes	Set by Common Room (Common Room, Inc.) to group a visitor’s page views into a single browsing session. Contains a randomly generated identifier and expires after 30 minutes of inactivity. Set only after you consent to marketing cookies.
+Cookies are small text files that are placed on your computer by websites that you visit. Websites use cookies to help users navigate efficiently and perform certain functions. Cookies that are required for the website to operate properly are allowed to be set without your permission. All other cookies need to be approved before they can be set in the browser.
+
+You can change your consent to cookie usage at any time on our Privacy Policy page.
+We also use cookies to collect data for the purpose of personalizing and measuring the effectiveness of our advertising. For more details, visit the Google Privacy Policy.
+Cookie report created by CookieScript

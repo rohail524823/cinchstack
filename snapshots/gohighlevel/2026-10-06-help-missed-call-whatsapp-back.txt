@@ -1,0 +1,152 @@
+SOURCE: https://help.gohighlevel.com/support/solutions/articles/155000002417-missed-call-whatsapp-back-overview-setup
+FETCHED: 2026-10-06T10:21:45.952Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Skip to main content
+HighLevel Support Portal
+Home
+Knowledge base
+Login
+Sign up
+Home
+...
+Missed Call WhatsApp Back — Overview & Setup
+Missed Call WhatsApp Back — Overview & Setup
+
+Modified on: Thu, 2 Jul, 2026 at 8:41 AM
+
+Missed Call WhatsApp Back
+
+Automatically follow up on missed calls with a friendly, on-brand WhatsApp message
+
+TABLE OF CONTENTS
+
+• What Is Missed Call WhatsApp Back?
+• Key Benefits
+• Prerequisites
+• How to Set Up Missed Call WhatsApp Back
+• Default Message & Personalization Variables
+• Troubleshooting
+• Frequently Asked Questions
+• Related Articles
+
+Missed Call WhatsApp Back automatically messages callers on WhatsApp when their call isn't answered, helping teams re-engage faster without building workflows. Enable it in the Phone System and customize a friendly, on-brand follow-up that can include variables like the business name or booking link. Ideal for locations where WhatsApp response rates outperform SMS.
+
+What Is Missed Call WhatsApp Back?
+
+Missed Call WhatsApp Back is a Phone System capability in the CRM that sends a WhatsApp message to a contact after a call is classified as "missed." It's designed to close the post-call gap so leads get a quick acknowledgment and a next step, improving conversion and customer experience.
+
+Key Benefits
+
+Understanding the benefits clarifies when to use WhatsApp versus SMS and how this feature impacts speed-to-lead and customer satisfaction.
+
+Instant Engagement: Contacts get a timely WhatsApp message right after a missed call.
+No Workflows Required: Quick to configure and active within minutes, no automations needed.
+Higher Readability: WhatsApp often sees stronger open/reply rates compared with SMS.
+Brand Consistency: Customize wording to match brand voice and include helpful links.
+Personalization: Insert dynamic details like business name or booking link.
+Operational Efficiency: Fewer callbacks missed and clearer next steps for the contact.
+Prerequisites
+
+Verifying prerequisites avoids common setup failures and delivery issues.
+
+A WhatsApp-enabled number connected to the sub-account (WhatsApp must be active and in good standing).
+The user configuring the feature must have permission to access Settings > Phone System.
+Contacts must be reachable on WhatsApp; otherwise, the message won't deliver via WhatsApp.
+Ensure your business has appropriate consent to message contacts on WhatsApp.
+How to Set Up Missed Call WhatsApp Back
+
+Knowing the exact navigation path reduces confusion with similarly named SMS features. A clear, step-by-step setup ensures the feature is enabled correctly and the message is on-brand before going live.
+
+1
+
+Go to Settings > Phone System > Voice > Voicemail & Missed Call TextBack > Missed Call Textback.
+
+2
+
+Toggle Missed Call WhatsApp Back to On.
+
+3
+
+Click Customize and review the prefilled text.
+
+4
+
+Insert variables as needed (e.g., {location_name}, {booking_link}). Keep the tone helpful and concise.
+
+5
+
+Save your changes.
+
+6
+
+Place a test call to confirm the WhatsApp message sends and renders as expected.
+
+Default Message & Personalization Variables
+
+Starting from a prefilled message speeds up launch, while variables ensure relevant, human-sounding replies.
+
+Prefilled Message:
+
+"Hi this is {{location.name}}, I saw that we just missed your call. How can I help?"
+
+Customization: The message body is editable directly within the Missed Call Textback area (not in WhatsApp > Templates).
+
+Supported Variables (Examples):
+
+{agent_name} – Inserts the assigned agent's name when available.
+{booking_link} – Inserts a scheduling link you've configured for the location.
+{business_hours} – Inserts a human-readable summary of open hours.
+{location_name} or {{location.name}} – Inserts the current location's name.
+Troubleshooting
+
+Quick diagnostics reduce downtime and help teams resolve common errors without support tickets.
+
+No Message Sent: Confirm WhatsApp is connected for the sending number and the toggle is enabled.
+Variables Unresolved: Verify the variable syntax and that values exist (e.g., a booking link is configured).
+Duplicate Messages: Check for overlapping SMS Textback or workflows that send on missed calls.
+Contact Didn't Receive: Ensure the contact uses WhatsApp and hasn't opted out; verify number formatting (including country code).
+After-Hours Messaging Concerns: If you don't want messages sent after hours, disable during those times or manage with call routing and schedules.
+Frequently Asked Questions
+
+Q. Can I enable WhatsApp Back without enabling SMS Missed Call Textback?
+
+Yes. You can enable WhatsApp Back on its own or alongside SMS; avoid duplicates by choosing a single primary channel.
+
+Q. Where do I edit the message body?
+
+Inside Settings > Phone System > Voice > Missed Call Textback. Do not edit this message in WhatsApp > Templates.
+
+Q. Does it send during off hours?
+
+Yes, if a call is marked missed. Add {business_hours} to inform the contact, or adjust call routing if you prefer different behavior.
+
+Q. What if the contact isn't on WhatsApp?
+
+The WhatsApp message will not deliver. Consider enabling SMS Missed Call Textback or a fallback workflow if desired.
+
+Related Articles
+Set Up WhatsApp for a Sub-Account
+Agency-Level WhatsApp Setup & Billing
+Missed Call Textback (SMS) — Overview & Setup
+WhatsApp Template Basics & Best Practices
+Troubleshoot WhatsApp Delivery & Statuses
+Was this article helpful?
+No 
+Yes
+Print
+Articles in this Folder
+WhatsApp Full Setup Guide for Agency
+WhatsApp - Messaging Limits
+How to Set Up WhatsApp for a Sub-Account
+WhatsApp Pricing, Billing, and Rebilling Guide
+WhatsApp Template Statuses and Best Practice
+How to create a WhatsApp Template?
+Related Articles
+WhatsApp Voice Calling in HighLevel
+Where and How to Configure the Missed Call Text Back Feature
+How to Use the All-in-One Chat Widget
+From Missed Calls to Fully Booked: The Operations Automation Playbook for Beauty Salons
+Electrician’s Guide to Maximizing Your Business with HighLevel
+Chiropractor's All-in-One Growth System: Simplify, Scale, and Serve Better
+Home Knowledge base

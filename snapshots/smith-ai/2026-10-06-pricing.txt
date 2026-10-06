@@ -1,0 +1,49 @@
+SOURCE: https://smith.ai/pricing/ai-receptionist
+FETCHED: 2026-10-06T10:15:21.388Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Webinar with our new CEO | Join us 10/08 | Intake is a Sales Funnel: How to Convert More Callers to Clients
+
+First name
+Last name
+Email address
+Phone number
+Company website
+Company name
+Your industry
+Choose an option
+Legal
+Home Services & Construction
+Business & Professional Services
+Marketing Agencies & Consulting
+Medical & Wellness
+Real Estate
+Financial Services
+Retail & Consumer Services
+Software & IT Services
+Other
+Roughly how many calls do you need answered per day?
+Choose an option
+Fewer than 3
+3–5
+6–10
+11–50
+51–100
+Over 100
+Not sure yet
+Roughly how many calls do you need answered per day?
+AI-first
+Human-first
+I’m not sure yet
+How did you hear about Smith.ai?
+Choose an option
+Advertisement
+Search engine
+AI search (e.g., ChatGPT, Claude)
+Event / webinar
+Referral
+Review site
+Social media
+Other
+Please specify
+Form variant

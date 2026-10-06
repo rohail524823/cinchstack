@@ -1,0 +1,126 @@
+SOURCE: https://help.followupboss.com/hc/en-us/articles/360016051333-Realtor-com
+FETCHED: 2026-10-06T10:20:45.882Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+Webinars Community Blog Submit a request Log In
+Realtor.com
+Search
+Follow Up Boss - Help Center
+Integrations
+Lead Providers
+ 
+B. Claire
+6 months ago
+Updated
+Follow
+Not yet followed by anyone
+Integration Types
+API
+Email
+Zapier
+Follow Up Boss Pixel
+
+Have your Realtor.com leads flow into Follow Up Boss seamlessly through API and Email Parsing.
+
+ 
+
+API integration (Connections℠ Plus)
+
+Note: This is a connection you'll want to enable in addition to the email parsing integration below. 
+
+1. Create a Follow Up Boss API Key by going to Admin > API
+
+2. Select Create API Key 
+
+3. Name the API Key Realtor.com > Create API Key
+
+4. Press Copy 
+
+5. Log in to Realtor.com 
+
+6. Use the drop-down menu in the top-right corner of the page and navigate to Settings > Lead Settings > Add Lead Delivery API
+
+7. Choose Follow Up Boss as your API Source Application
+
+8. Paste your Follow Up Boss API Key in the API Key section
+
+9. Enter your Follow Up Boss login email address in the space for Application Login Name
+
+ 
+
+Troubleshooting API integration error
+
+If you see the error shown in the screenshot below, it likely means you have a Lead Flow for Realtor.com that is Archived. Unarchive the Realtor.com Lead Flow, then attempt the connection again. Click here for instructions on unarchiving Lead Flow Sources.
+
+ 
+Email parsing integration (required)
+Microsoft 365, GSuite, and Gmail users
+
+Leads will flow into Follow Up Boss automatically via your Connected Email. Ensure Lead Processing is enabled for FUB to monitor your email inbox for new lead notifications and add them to Follow Up Boss automatically.
+
+Alternative eetup
+
+1. Copy your Follow Up Boss Lead Email Address by going to Admin > API
+
+2. Log in to Realtor.com
+
+3. Click your profile picture in the top right > Settings
+
+4. Notification Settings > Send Email Notifications To
+
+5. Paste your Follow Up Boss Lead Email Address > Save
+
+6. Test the connection by clicking Send Test in the upper right-hand corner
+
+ 
+
+Product, source value & tags
+
+ 
+
+Resource: Realtor.com help articles for the API Integration and Email Parsing. 
+
+Was this article helpful?
+Yes No
+1 out of 1 found this helpful
+Have more questions? Submit a request
+Return to top 
+Related articles
+API Key
+Zillow Two Way Integration Overview
+Zillow One Way Integration Overview
+Importing Contacts Overview
+Drip & Mass Texting Integrations
+  Articles in this section
+72 SOLD
+Agent Elite
+Agent Pronto
+AgentDash
+AgentLocator
+AgentMachine / ReferralExchange
+All Property Management
+Altos Research
+Anywhere Real Estate
+Apartment Guide
+See more
+Try Follow Up Boss Free For 14 Days
+Start a Trial
+Phone and email support
+8am - 8pm EST
+7 days a week
+(855) 622-5311
+support@followupboss.com
+‍
+Company
+About Careers Press Kit
+Resources
+Blog Customer Results Get a Demo FAQ Updates Status Support
+Product
+For Solo Agents For Team Leaders For ISAs For Admins Large Teams Small Teams Pricing
+Compare
+Open System vs
+All-In-Ones Top Producer Wise Agent Boomtown CINC LionDesk
+Legal
+Security Privacy Terms
+© Follow Up Boss

@@ -1,0 +1,733 @@
+SOURCE: https://ideas.gohighlevel.com/integrations/p/idx-integration
+FETCHED: 2026-10-06T10:18:00.312Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+HighLevel
+Log in
+Roadmap
+Feedback
+Changelog
+CATEGORY
+Uncategorized
+VOTERS
+M
+Marcel Asprila
+A
+Alec Rocha
+B
+Brandon Howard
+C
+Chris Chesar
+M
+Muhammad Abubakar
+T
+Théo JUSTINE
+T
+Todd Amsbaugh
+V
+Viraj Raut
+J
+Jesus Gutierrez
+H
+Hugh Macken
+and 279 more...
+Powered by Canny
+289
+IDX Integration
+UNDER REVIEW
+J
+Joe Peres
+Having the IDX integration would allow realtors to set up their clients inside of highlevel email and text them listings as well as create web pages with idx integrated.
+HIGHLVL-I-1472
+May 27, 2020
+Log in to leave a comment
+Log In
+Activity Feed
+Sort by
+Newest first
+D
+Dean Cacioppo
+this product uses GHL as the CRM and WordPress for the sites https://agentictools.realestate/
+
+﻿
+
+·
+April 13, 2026
+·
+Reply
+F
+Fernando Lopes Jr.
+Need this asap
+
+﻿
+
+·
+April 13, 2026
+·
+Reply
+Z
+Zill Syed
+If GHL becomes the technology provider for IDX or Canadian DDF, then develops a simple way to integrate would the IDX via wiit wilwithit will da widgetevelopl devela widg etopdget or embed code. Even a paid feature (like $25 per month) a widgetwoua widget that will be developed and embeddedld be valuable.
+
+﻿
+
+·
+February 22, 2026
+·
+Reply
+G
+Graeham Watts
+This would be a game changer and Would be great to know if they are actually working on it
+
+1 like
+
+·
+December 25, 2025
+·
+Reply
+R
+Richard Andrew
+also MLS for non USA users
+
+1 like
+
+·
+October 9, 2025
+·
+Reply
+J
+John Naccarato.
+This would be fantastic!  Highly needed!
+
+﻿
+
+·
+March 29, 2025
+·
+Reply
+D
+Dionne Randle Owner
+Where are with this? I would like some kind of plug in within the contacts, where each contact can have their own search option. I have another CRM, that is a real estate crm that has this feature, it streamlines the process.
+
+1 like
+
+·
+March 22, 2025
+·
+Reply
+R
+RealtyCandy Support James
+Dionne Randle Owner If you reach out to me on Facebook I can help out with this.  We have the ability for each contact to have their own saved searches in GHL using IDXAddons.com.  So this is homes in their chosen area.  
+Is that what you are referring to?  Let me know.  If we don't have what you need, we can build it.
+
+﻿
+
+·
+April 3, 2025
+·
+Reply
+D
+Dionne Randle Owner
+RealtyCandy Support James I am Realty Candy Subscriber. I am working on my assignments
+
+﻿
+
+·
+April 3, 2025
+·
+Reply
+K
+Keith Winn
+Dionne Randle Owner Dionne - I am confused what GHL can do on this, beyond what Realty Candy has already done - its awesome.  in my GHL, for any contact, i can within GHL create custom IDX searches - using an address, a polygon, anything i can do in our MLS tools, Realty Candy makes it easy to do within GHL.  Then each contact receives their search results and when they click and look at any properties - that activity - at the property level as viewed shows up in my GHL contact.  isn't that what you are asking for  - and the folks at Realty Candy are just amazing at answering questions to help anyone get going (they had many from me at first and answered every one!).
+I don't see how a GHL can financially even consider getting into the IDX business.. they'd be competing with well established companies who specialize in this and have years and years of a head start..  They could never be as focused or experienced as a Realty Candy.  (and no i dont work for them or get compensated in any way... i came to them after trying three others and remain so impressed after a couple years of use..)
+
+1 like
+
+·
+April 16, 2025
+·
+Reply
+F
+Freddie Sahhar
+Keith Winn hey Keith hard to tell from the website how realtycandy or idxaddons does this - especially for free? anyway I can contact you?
+
+﻿
+
+·
+April 22, 2025
+·
+Reply
+Z
+Zill Syed
+Everyone is talking about IDXaddons but thats pretty expensive. Can't we have some plugin like: realtypress.ca
+
+﻿
+
+·
+January 24, 2025
+·
+Reply
+R
+RealtyCandy Support James
+Zill Syed Just so you know.... Our software at https://idxaddons.com is free.  You just need a subscription to IDX Broker.
+
+﻿
+
+·
+April 3, 2025
+·
+Reply
+K
+Keith Winn
+Zill Syed That MAY be good in Canada - but here in the US - I don't think so.
+and - Since when did people start thinking all software should be free? 
+I don't want my software vendors to be in a "race to the bottom" to see who can downsize the most, have the least experienced staff and worse support.
+
+﻿
+
+·
+April 16, 2025
+·
+Reply
+Z
+Zill Syed
+Keith Winn I understand Keith and I agree with you.
+
+1 like
+
+·
+April 19, 2025
+·
+Reply
+R
+RealtyCandy Support James
+There is a great integration at https://idxaddons.com/ghl that is free for people who use IDX Broker.  I don't believe it is in HighLevel's best interest to get mired down in the real estate niche to the level that it would take for them to compete with IDX Broker and iHomefinder. 
+I think since we already have a whitelabel solution that it is best for GHL to work on making their product the best they can, and opening up more API endpoints like "CustomObjects_Write" and then let 3rd parties develop the industry-specific solutions to work on their platform.  :)
+
+2 likes
+
+·
+January 13, 2025
+·
+Reply
+W
+Wesley Rocha
+Please don't do this. It's a whole business inside itself.
+
+2 likes
+
+·
+December 17, 2024
+·
+Reply
+M
+Michael Spickes
+If this is under review, does anybody have an update on what is being reviewed and/or considered? As a founder of an app that utilizes an IDX feed, I know there are a ton of things to consider. 500+ MLSs with various versions of the IDX data feeds (RETS, Bridge, MLSGrid, RESO data dictionary considerations, etc.), user authentication requirements, etc. Trust me. IDX is an entire world in of itself. I doubt GHL would want to assume responsibility of managing it's own IDX feed and policing how real estate agents display information, including offered compensation on sites, when the DOJ and a handful of attorneys is looking to pounce. Simplifying plugins and marketplace integrations for real estate agents to utilize is likely the way to go on this.
+
+1 like
+
+·
+November 14, 2024
+·
+Reply
+W
+Wesley Rocha
+Michael Spickes exactly! Maybe a plugin or something from existing IDX company would make more sense.
+
+1 like
+
+·
+December 17, 2024
+·
+Reply
+B
+Brad White
+Don't forget Canada!
+
+﻿
+
+·
+September 3, 2024
+·
+Reply
+K
+Keith Winn
+Brad WhiteNow that you all are becoming a State, it will be much easier for you :)
+
+﻿
+
+·
+April 16, 2025
+·
+Reply
+J
+Jose Gomez
+Yes, with the new NAR settlement rules going into affect an IDX integration would allow us to compete with companies ListingSplit, NestHook, and Gitcha. We would also be able to eliminate kvCore, IDX Broker, and KW Command. IDX!! LETS! GOOO!!!
+
+5 likes
+
+·
+July 10, 2024
+·
+Reply
+R
+Robert Satrom
+If we could have an IDX system, we would blow the Sox off chime, IDX broker etc
+
+2 likes
+
+·
+April 26, 2024
+·
+Reply
+K
+Keith Winn
+not sure GHL would be well served to make an IDX - as that's an entire business in itself.
+IMHO - This integration is already EXCEPTIONALLY well served by vendor:
+https://idxaddons.com/ghl   - this company "Realty Candy" is a developer for 
+https://www.idxbroker.com/  and they both rock.. stil now its 2/2024 - and they still have a few kinks to iron out - but they are very supportive..
+
+3 likes
+
+·
+February 27, 2024
+·
+Reply
+K
+Keith Winn
+test
+
+﻿
+
+·
+February 27, 2024
+·
+Reply
+T
+Topher Lund
+Essential for GHL to continue growing
+
+﻿
+
+·
+February 15, 2024
+·
+Reply
+T
+Traci Woolfolk
+Any update on IDX integration becoming a reality?
+
+1 like
+
+·
+February 15, 2024
+·
+Reply
+O
+Osaheni Ayanru
+that would be awesome!
+
+﻿
+
+·
+January 15, 2024
+·
+Reply
+S
+Scott Lantow
+looking into this for a prospect, came across this:
+https://idxaddons.com/plans
+Anyone familiar? Trying to figure out why the Premium plan is free, how they make money on that? haha
+
+2 likes
+
+·
+November 21, 2023
+·
+Reply
+T
+Traci Woolfolk
+Scott Lantow How did it work for you?
+
+﻿
+
+·
+February 15, 2024
+·
+Reply
+C
+Chadwick Lundgren
+Scott Lantow, they are an affiliate for IDX Broker
+Realtors pay IDX Broker /mo and IDX addons take a commission
+i.e. free for end user
+
+1 like
+
+·
+February 16, 2024
+·
+Reply
+S
+Scott Lantow
+Traci Woolfolk haven't moved forward yet
+
+﻿
+
+·
+February 16, 2024
+·
+Reply
+K
+Keith Winn
+Scott LantowI know I am replying to an old post - but just in case new people come across this - yes I've been using idx-broker with RealtyCandy (IDXaddons.com) as my designated developer/support for IDX broker and they have been performing very very well.  The Realty Candy (IDXAddons.com is their product for users and i think they are also at realtycandy.com)  support people are amazing and have turn key sites - for free - and they truly deliver best in class support and experience for all things IDX, realtor sites and GHL integration.  They even provide GHL automations and templates for our use.
+
+4 likes
+
+·
+April 3, 2024
+·
+Reply
+E
+Eric Williamson
+Keith Winn It would be fantastic to have the IDX integration to look similar to how the GHL payments integration infrastructure works. This would allow the flexibility to have several integration options. Just a suggestion.
+
+﻿
+
+·
+July 14, 2024
+·
+Reply
+R
+RealtyCandy Support James
+Scott Lantow I am one of the team members at https://realtycandy.com and we run IDXAddons.  
+Just like Chadwick  Lundgren mentioned, we get paid an affiliate payment from IDX Broker, so that is how we are able to provide all of the features you see at https://idxaddons.com/ghl  for free. 
+We are continuously adding more and more features.  
+Like several people have mentioned, this is too messy for a company like HighLevel to get involved with.  KVCore, BoomTown, Lofty/Chime,  Follow-up Boss FUB, and those companies do it because they have niched-down to ONLY do real estate.   That is NOT what HighLevel wants to do. 
+I appreciate Keith Winn's feedback.  We do have an incredible team.  We share our financial success with our team, so they are all real partners, and have a vested interest in you getting the kind of service you need. 
+Feel free to visit our site, and contact us for a free, no-pressure look at what we do, or check out the hundreds of videos we have on our  RealtyCandy YouTube channel.
+
+1 like
+
+·
+January 13, 2025
+·
+Reply
+Z
+Zill Syed
+Scott Lantow Realty candy an IDXaddons will charge you ever month and thats very expensive.
+
+﻿
+
+·
+January 24, 2025
+·
+Reply
+R
+RealtyCandy Support James
+Zill Syed actually RealtyCandy and IDXAddons.com don't charge.  There is a subscription to IDX Broker that is needed.  We get compensated by them.  
+I think that an expectation to have all of the MLS and IDX data for free is not going to happen in the foreseeable future.  We are building out solutions and it requires a lot of server resources and developer resources.
+
+﻿
+
+·
+April 3, 2025
+·
+Reply
+S
+Selina Eizik
+The ability to integrate IDX would open up GHL to whole niche that is currently using GHL but not fully activated. This is critical for realtors for full websites. Only using funnels isn't enough as most of the funnels require a page that has MLS listings on them. Please make this a reality!
+
+3 likes
+
+·
+September 20, 2023
+·
+Reply
+E
+Eric Preston
+Selina Eizik 100%. As an agency owner, I would be all over this for my 300+ clients. The IDX would need to be optimized for Google ads, which is hard in and of itself.
+
+1 like
+
+·
+February 12, 2024
+·
+Reply
+T
+Traci Woolfolk
+Eric Preston so I guess this answers my question. I was getting ready to build a website on go high level and started researching IDX generation and found nothing.
+
+﻿
+
+·
+February 15, 2024
+·
+Reply
+Core Platform
+Merged in a post:
+IDX Integration
+P
+Paul Schlanger
+Viewing IDX listings from within a contact view (without having leave that contact) is what is missing from GHL.
+February 18, 2023
+September 5, 2023
+Core Platform
+Merged in a post:
+Integrate MLS for Realtor
+B
+Belinda Agosto
+This platform would be PERFECT for Realtors if there was the ability to integrate MLS for a setup fee.
+HIGHLVL-I-2490
+December 2, 2020
+September 5, 2023
+Core Platform
+Merged in a post:
+FlexMLS Integration with Highlevel!
+A
+Arnel Cenidoza
+Hey, Highlevel Team.  It would be great if you will add integration with IDX for MLS listings (hopefully FlexMLS) . Many of our real estate clients is asking on how we can track their website activity and saved listings. This could be a game changer if it happens!
+HIGHLVL-I-3592
+May 12, 2021
+September 5, 2023
+Core Platform
+Merged in a post:
+Having an IDX integration>
+Carlos
+HIGHLVL-I-1962
+August 26, 2020
+September 5, 2023
+R
+Rob Bruce
+Sounds like a great idea.  Would like to have this option.
+
+1 like
+
+·
+August 27, 2023
+·
+Reply
+Core Platform
+updated the status to
+Under Review
+
+2 likes
+
+·
+August 18, 2023
+·
+Reply
+A
+Allan McNabb
+This feature is a must to compete with many other real estate CRMs. Plus, the IDX must integrate with websites within HL. Thanks!
+
+2 likes
+
+·
+June 13, 2023
+·
+Reply
+M
+Matthew Reif
+Support Admin can we PLEASE get this?? This would make sales call so much smoother (especially because we have to sell for a minimum of $97 per month when CRMs for realtors average around half of that)
+
+4 likes
+
+·
+April 10, 2023
+·
+Reply
+D
+Derek LeBon
+Please make an IDX integration!
+
+2 likes
+
+·
+April 7, 2023
+·
+Reply
+S
+Shaun Lynch
+We need this!!!
+
+2 likes
+
+·
+April 3, 2023
+·
+Reply
+J
+James Pavlicek
+WE really need this Support Admin
+
+﻿
+
+·
+March 25, 2023
+·
+Reply
+Y
+Yosef Abushaaban
+Please look into this! Support Admin
+
+﻿
+
+·
+March 25, 2023
+·
+Reply
+H
+Harry Gilliam
+what are IDX listings?
+
+﻿
+
+·
+February 20, 2023
+·
+Reply
+M
+Mike Hughes
+Harry Gilliam: IDX is a real estate multiple listing service data feed ... typically for home buyers
+
+﻿
+
+·
+February 21, 2023
+·
+Reply
+M
+Matthew Reif
+Support Admin is there any chance this is coming at some point in the future? It is an old request but seems to have a lot of upvotes!
+
+﻿
+
+·
+February 7, 2023
+·
+Reply
+C
+Chadwick Lundgren
+Matthew Reif: it is already out
+https://youtu.be/32lZB4i-G64?si=-LQNr6pEczQyg3FH
+
+2 likes
+
+·
+December 19, 2023
+·
+Reply
+D
+Demo User
+Chadwick Lundgren: Yes! It wasn't out when I posted this.
+
+﻿
+
+·
+December 20, 2023
+·
+Reply
+C
+Chris Vogt
+Matthew Reif: The video Chadwick Lundgren linked does not have IDX integration directly in GHL, it is using outside widgets to add IDX feeds from IDX Broker with development by RealtyCandy.
+
+1 like
+
+·
+January 25, 2024
+·
+Reply
+J
+JLW Online
+Support  Team PLEASE BE INFORMED OF COMMERCIAL SPAMMER: Chadwick Lundgren  posting youtube links to promote a third-party commercial service
+
+﻿
+
+·
+September 3, 2024
+·
+Reply
+R
+Robert Krowel
+is there a way to integrate mls for realtors?
+
+﻿
+
+·
+February 1, 2023
+·
+Reply
+C
+Chadwick Lundgren
+Robert Krowel: https://youtu.be/32lZB4i-G64?si=-LQNr6pEczQyg3FH
+it is already out
+
+1 like
+
+·
+December 19, 2023
+·
+Reply
+J
+JLW Online
+Support  GHL 
+PLEASE BE INFORMED OF COMMERCIAL SPAMMER: Chad lundgren  posting youtube links to promote a third-party commercial service
+
+﻿
+
+·
+September 3, 2024
+·
+Reply
+I
+Inayet Hadi
+Hi Joe Peres, does IDX have an API that you can use or pay to use? if yes, then you can make GHL and IDX play nice with each other easily choosing your preferred tool mine is Xano.com
+
+2 likes
+
+·
+November 3, 2022
+·
+Reply
+C
+Craig Sinclair
+How can we ad and IDX platform for realtors?
+
+2 likes
+
+·
+June 28, 2022
+·
+Reply
+J
+Joe Fernette
+This is an older request, but it would be great to see this integration!
+
+3 likes
+
+·
+June 15, 2022
+·
+Reply
+C
+Chadwick Lundgren
+Joe Fernette: https://youtu.be/32lZB4i-G64?si=-LQNr6pEczQyg3FH
+
+1 like
+
+·
+December 19, 2023
+·
+Reply
+H
+hoda@vancoweb.ca
+It would be great
+
+1 like
+
+·
+June 17, 2021
+·
+Reply
+Load More
+→

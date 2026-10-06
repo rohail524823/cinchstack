@@ -1,0 +1,180 @@
+SOURCE: https://help.followupboss.com/hc/en-us/articles/4406955536919-How-to-register-your-phone-numbers
+FETCHED: 2026-10-06T10:18:09.838Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+Help Center
+Webinars Community Blog Submit a request Log In
+How to register your phone numbers
+Search
+Follow Up Boss - Help Center
+Account Management
+Business Registration
+ 
+B. Claire
+2 months ago
+Updated
+Follow
+Not yet followed by anyone
+
+Follow Up Boss ensures you're always up to date with changing texting practices and standards set by phone carriers. Major carriers like Verizon, T-Mobile, and AT&T are tightening measures to block spam texting. Completing your Business Registration in Follow Up Boss verifies your identity with these carriers and proves that you're a legitimate business. This critical step ensures these carriers deliver your texts! We’re here to guide you through this process smoothly so you can maintain seamless and effective communication with your leads and clients. 
+
+⚠️ Important: To text from FUB, your business needs to be registered and approved by US mobile carriers. You can still receive texts in Follow Up Boss. Calling and emailing are not impacted.
+
+ 
+
+ 
+
+1. Website opt-in language
+
+Before completing the Business Registration form, confirm that you have opt-in language on the primary contact form of your website. When your Business Registration is submitted, carriers verify that contacts are opting in to text communication and know how to opt-out. To learn more about these requirements, check out How to Obtain Proper Opt-In Consent on your Website. 
+
+Sample opt-in statement: 
+
+"I agree to be contacted by [Business Name] via call, email, and text for real estate services. To opt out, you can reply 'stop' at any time or reply 'help' for assistance. You can also click the unsubscribe link in the emails. Message and data rates may apply. Message frequency may vary. [Link to Privacy Policy]."
+
+ 
+
+2. Privacy policy 
+
+Your privacy policy must state that you do not sell phone numbers. To meet requirements, we recommend adding the statement, "Data will not be sold or shared with third parties for marketing or promotional purposes." Here is more information on how to create a privacy policy.
+
+Your Privacy Policy also needs to specify several Terms and Conditions. The text below can be added directly to your Privacy Policy to meet these requirements:
+
+Terms and Conditions
+
+1. We use SMS to confirm appointments, send reminders, and notify clients of schedule updates or important changes.
+
+2. You can cancel the SMS service at any time. Just text "STOP". After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us. If you want to join again, just sign up as you did the first time, and we will start sending SMS messages to you again.
+
+3. If you are experiencing issues with the messaging program you can reply with the keyword “HELP” for more assistance, or you can get help directly at [CONTACT EMAIL ADDRESS].
+
+4. Carriers are not liable for delayed or undelivered messages.
+
+5. As always, message and data rates may apply for any messages sent to you from us and to us from you. Message frequency may vary. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.
+
+6. If you have any questions regarding privacy, please read our privacy policy: [LINK TO PRIVACY POLICY]
+
+ 
+
+3. Employer Identification Number (EIN)
+
+If you are the owner of your FUB account, you will need to have an EIN. Already have your own EIN? Great! Continue to step 4. If you need an EIN, here is how to complete the EIN Application.
+
+ 
+
+4. Register your FUB numbers
+
+The Business Registration can be completed by owner and admin roles. The form only needs to be completed once, as it covers all team members. Complete the form with the exact business information listed on your EIN. 
+
+A. Getting started
+1. Navigating to the Business Registration 
+
+Go to Admin > Business Registration
+
+2. Get started
+
+Add the country in which your business is registered, if you have an EIN, and your full website URL. 
+
+B. Tax ID
+1. Business information
+
+Enter your business legal name, business type, and EIN. 
+
+2. Registered business address
+
+Add your business address as shown on the EIN. 
+
+C. Website compliance 
+1. Privacy policy
+
+Confirm that your Privacy Policy states that you will not share lead data.
+
+2. Opt-in language 
+
+Confirm your website meets the Opt-In Requirements. 
+
+Note: BoomTown, CINC, Luxury Presence, RealGeeks, Sierra Interactive, Realty One, RealScout, and Ylopo web forms already meet the requirements for opt-in consent.
+
+3. Submit
+
+Save to complete at a later date or Submit to send the completed form to the FUB team for review. 
+
+ 
+
+How can I check the status of my Business Registration? 
+
+To view your Business Registration status, go to Admin > Company > View Business Registration. At the top of this page, you will see the status bar. For more information about each status, check out Business Registration Status.  
+
+⭐️ Tip: To understand Business Registration rejections, check out Business Registration: Rejections & Solutions.
+
+ 
+
+FAQ
+What is the background of A2P texting? 
+
+Texting with a 10-digit long (10DLC) phone number was originally designed for person-to-person (P2P) communication. P2P texts have low volume and lack necessary security measures, resulting in many spam texts being sent. Phone carriers consider P2P texting to be an unsanctioned route for business texts. For this reason, messages are often subject to blocking and throttling.
+
+Verizon was the first US carrier to introduce application-to-person (A2P) messaging for businesses in 2019. As demand for high-volume business texting increased, other carriers, including AT&T and T-Mobile, launched versions of A2P in 2021.
+
+What are the requirements for Business Registration? 
+US carriers implemented A2P 10DLC, therefore businesses who use Follow Up Boss to text with their US-based leads and clients must register their business information to avoid carrier filtering. 
+We refer to "A2P 10DLC" as "Business Registration" on Follow Up Boss, and we use the information you provide in your Business Registration form to complete A2P 10DLC for you.
+Will I need to submit a new Business Registration if we add numbers to our FUB account?
+
+No. When you add another number to your Follow Up Boss account (a new Team Inbox number or a number for a new agent, for example), your business profile information will be used to register that new number automatically. 
+
+What do we do if we have more than one business in our FUB account?
+
+Every phone number needs to be registered with a business. Choose one of the businesses to register all numbers on your account under. In the future, we may have a way to separate registrations within an account, but as of today, there is one registration per account.
+
+I live in Canada/Mexico. Do I need to complete the Business Registration form? 
+
+You only need to register if you are sending text messages to numbers in the US.
+
+Here are step-by-step instructions on how to register your business in Canada with your Business Number (BN).  
+
+If you are a business in Mexico with a Value-Added Tax Identification Number (VAT ID), please reach out to support@followupboss.com to complete the business registration process.
+
+Was this article helpful?
+Yes No
+4 out of 7 found this helpful
+Have more questions? Submit a request
+Return to top 
+Related articles
+EIN Application
+Best Practice: Calling & Texting
+Zillow Two Way Integration Overview
+Calling and Texting Compliance
+Kickstart your Follow Up Boss in 2026
+  Articles in this section
+How to register your phone numbers
+Why Business Registration Matters
+Business Registration Status
+Business Registration: Canada
+Business Registration: Impacted Accounts
+Business Registration: Impacted Canadian Accounts
+Business Registration: Privacy Policy
+Business Registration: Rejections & Solutions
+Create a Business Page with a Contact Form
+EIN Application
+See more
+Try Follow Up Boss Free For 14 Days
+Start a Trial
+Phone and email support
+8am - 8pm EST
+7 days a week
+(855) 622-5311
+support@followupboss.com
+‍
+Company
+About Careers Press Kit
+Resources
+Blog Customer Results Get a Demo FAQ Updates Status Support
+Product
+For Solo Agents For Team Leaders For ISAs For Admins Large Teams Small Teams Pricing
+Compare
+Open System vs
+All-In-Ones Top Producer Wise Agent Boomtown CINC LionDesk
+Legal
+Security Privacy Terms
+© Follow Up Boss
