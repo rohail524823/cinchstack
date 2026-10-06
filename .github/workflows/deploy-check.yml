@@ -24,7 +24,7 @@ jobs:
         run: |
           live=''
           for i in $(seq 1 45); do
-            live=$(curl -fsS "https://cinchstack.com/version.txt?run=$GITHUB_RUN_ID-$i" | tr -d '[:space:]' || true)
+            live=$(curl -fsS --max-time 20 "https://cinchstack.com/version.txt?run=$GITHUB_RUN_ID-$i" | tr -d '[:space:]' || true)
             if [ -n "$live" ] && ! git cat-file -e "$live^{commit}" 2>/dev/null; then git fetch -q origin main || true; fi
             if [ -n "$live" ] && git merge-base --is-ancestor "$GITHUB_SHA" "$live" 2>/dev/null; then
               echo "cinchstack.com is serving $live, which includes $GITHUB_SHA."
@@ -36,8 +36,11 @@ jobs:
           exit 1
       - name: Load key pages
         run: |
+          # 30 seconds and up to three retries per page: one stalled CDN transfer once hung this step
+          # for six minutes and failed it (curl exit 18) while the site was fine. A page that keeps
+          # answering with anything but 200, or never answers, still fails the run.
           for p in / /tools/ /stacks/ /compare/ /methodology/ /privacy/ /sitemap.xml /robots.txt /llms.txt; do
-            code=$(curl -s -o /dev/null -w '%{http_code}' "https://cinchstack.com$p")
+            code=$(curl -s -o /dev/null --max-time 30 --retry 3 --retry-all-errors --retry-delay 5 -w '%{http_code}' "https://cinchstack.com$p" || true)
             echo "$code $p"
-            if [ "$code" != 200 ]; then echo "::error title=Live page broken::$p returned $code"; exit 1; fi
+            if [ "$code" != 200 ]; then echo "::error title=Live page broken::$p returned ${code:-no answer}"; exit 1; fi
           done
