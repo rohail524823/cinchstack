@@ -43,7 +43,7 @@ Everything below serves those three groups.
    - **What:** Rohail's own work, sold at `/services/`. Five packages, from a $200 Stack Check to a $1,200 CRM migration or AI voice receptionist, with an optional $120/month care plan.
    - **Why it leads:** one $400–$1,200 job equals 10–30 months of a single GoHighLevel Starter referral (40% of $97 = $38.80 a month).
    - **Getting paid:** by Payoneer, bank wire or an Upwork Direct Contract.
-   - **Proof:** his public Upwork record (Top Rated, 121 jobs, $100K+).
+   - **Proof:** the public Upwork record (Top Rated, 121 jobs, $100K+).
    - **The rule that keeps the reviews honest:** setup costs the same for every tool. Service offers sit only in a labelled box after the verdict.
 2. **Affiliate commissions from programs that approve from anywhere (a slow-building annuity).**
    - **Paying now:** GoHighLevel and Systeme.io.
