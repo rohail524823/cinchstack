@@ -152,15 +152,17 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
 
 ## 5. Owner's to-do list, in order
 
-1. **Watch for two replies** (both emailed on 6 October 2026): Systeme.io support on whether comparison pages may carry its link (they wrote back that the question is with "the relevant team member"), and HubSpot's affiliate team, answering the reply to its decline. Forward each answer to Claude Code; each is a small change. HighLevel's affiliate manager has already answered, and the 30-day trial button is live.
+1. **Switch on email alerts for the site's forms (one minute, first):** a labelled test enquiry sent on 6 October never reached your Gmail, so a client's enquiry would sit in Netlify unseen. Steps in `docs/OPERATIONS.md` section 4. Then delete the test entry.
+2. **Watch for two replies** (both emailed on 6 October 2026): Systeme.io support on whether comparison pages may carry its link (they wrote back that the question is with "the relevant team member"), and HubSpot's affiliate team, answering the reply to its decline. Claude Code has a check-in booked for 7 October (and 9 October if needed) to read both answers and make the change; nothing to forward. HighLevel's affiliate manager has already answered, and the 30-day trial button is live.
    - Optional: HighLevel's affiliate strategy sessions, which Devesh Khatri invited you to (speakwith.us/deveshstrategy; the first offered was 10 AM US Central on 6 October, 8 PM in Pakistan). While in the affiliate dashboard, check that its "HighLevel Bootcamp" link is `gohighlevel.com/highlevel-bootcamp`; if it shows another page, send Claude Code the link.
-2. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
-3. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough). Then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
-4. **HighLevel Certified Admin directory:** it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one, so it is the most likely source of paying setup clients while the site has little traffic. It costs $97/month and needs an active HighLevel subscription as well (Starter is $97/month), so about $194/month in all. The subscription also gives you the hands-on access the site's GoHighLevel pages can then cite as first-hand evidence. Your call: one $400 setup job a month covers it.
-5. **Service prices:** check them against your real hours on past Upwork jobs and edit `src/data/services.json` if needed. Also confirm the promise of a reply within two business days.
-6. **Monthly:** update the Upwork "as of" figures in `services.json` when they change.
-7. **Price-change alerts:** create a free opt-in page and a `price-alerts` tag in your Systeme.io account and send Claude Code the page's URL (steps in `docs/OPERATIONS.md` §6). The buttons appear on the next deploy.
-8. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
+3. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
+4. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough). Then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
+5. **HighLevel Certified Admin directory:** it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one, so it is the most likely source of paying setup clients while the site has little traffic. It costs $97/month and needs an active HighLevel subscription as well (Starter is $97/month), so about $194/month in all. The subscription also gives you the hands-on access the site's GoHighLevel pages can then cite as first-hand evidence. Your call: one $400 setup job a month covers it.
+6. **Service prices:** check them against your real hours on past Upwork jobs and edit `src/data/services.json` if needed. Also confirm the promise of a reply within two business days.
+7. **Monthly:** update the Upwork "as of" figures in `services.json` when they change.
+8. **Price-change alerts:** create a free opt-in page and a `price-alerts` tag in your Systeme.io account and send Claude Code the page's URL (steps in `docs/OPERATIONS.md` §6). The buttons appear on the next deploy.
+9. **Hugging Face copy of the dataset (3 minutes):** create a write token and save it as the `HF_TOKEN` secret on GitHub (`docs/OPERATIONS.md` section 3c). The copy then publishes and stays in step with the site by itself.
+10. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
 
 ## 6. Measures and kill criteria
 

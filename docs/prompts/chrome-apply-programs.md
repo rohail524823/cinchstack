@@ -11,7 +11,7 @@ You are helping me (Rohail Nisar, owner of cinchstack.com, based in Pakistan) ap
 - Never accept terms on my behalf without showing me the key terms first: commission, cookie length, payout method and minimum, and any traffic or country rules.
 - Never withdraw an existing application, never re-apply to a program that declined me, and never send a message to a program unless I approve its text.
 - Use these details:
-  - Email: rohail.nisar786@gmail.com
+  - Email: my usual Gmail address, the one this browser is signed in to
   - Website: https://cinchstack.com
   - Name: Rohail Nisar
   - Country: Pakistan

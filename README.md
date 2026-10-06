@@ -14,6 +14,14 @@ It is funded by affiliate commissions from some of the tools it covers. Which on
 
 **Built and launching.** The site is an Astro build driven entirely by the data in `src/data/`. Owner tasks, the weekly jobs and how to change things safely are in [`docs/OPERATIONS.md`](docs/OPERATIONS.md). The plan behind it is in [`docs/plan/`](docs/plan/); start with [`00-summary.md`](docs/plan/00-summary.md).
 
+## Open data
+
+The pricing dataset behind the site is free to reuse under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/):
+
+- **Files:** [`pricing.csv`](https://cinchstack.com/data/pricing.csv) (one row per plan), [`scenarios.csv`](https://cinchstack.com/data/scenarios.csv) (the real monthly bill per team size) and [`pricing.json`](https://cinchstack.com/data/pricing.json) (everything, with add-ons, usage fees and sources), described at [cinchstack.com/data](https://cinchstack.com/data/). They rebuild whenever a price changes.
+- **Source records:** one JSON file per tool in [`src/data/pricing/`](src/data/pricing/), each figure with its vendor URL and check date. The dated copies of vendor pages in [`snapshots/`](snapshots/) are the evidence; they are the vendors' own text and not part of the CC BY dataset.
+- **Cite as:** CinchStack, "Software pricing dataset", https://cinchstack.com/data/, licensed CC BY 4.0.
+
 ## Stack
 
 Astro · TypeScript · JSON data with zod schemas · one CSS file · zero client JS on content pages · Netlify · GitHub Actions for weekly price verification.

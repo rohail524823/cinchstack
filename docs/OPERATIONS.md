@@ -25,7 +25,7 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
   - HighLevel reviews affiliate content for compliance.
 - **Attribution:** last click within 90 days.
 - **After your second referral**, HighLevel requires a live conversation with one of its team about your affiliate practices before it pays further commissions. Watch for their email and book it promptly.
-- **Payouts:** through Tipalti, set up and complete since 28 August 2026 (HighLevel's email that day: "You are now ready to receive payment"; registration includes the tax form). Log in at https://suppliers.tipalti.com/HighLevel/account/Login with rohail.nisar786@gmail.com ("Forgot password?" there if needed) to see your payment method, tax form and payments. Don't reuse the registration link from the invitation email; it was one-time. Commissions are paid monthly, typically on the 15th, once they pass $50; if they don't reach $50 within 120 days, they may be forfeited. Payout questions: affiliatepayments@gohighlevel.com.
+- **Payouts:** through Tipalti, set up and complete since 28 August 2026 (HighLevel's email that day: "You are now ready to receive payment"; registration includes the tax form). Log in at https://suppliers.tipalti.com/HighLevel/account/Login with your usual Gmail address ("Forgot password?" there if needed) to see your payment method, tax form and payments. Don't reuse the registration link from the invitation email; it was one-time. Commissions are paid monthly, typically on the 15th, once they pass $50; if they don't reach $50 within 120 days, they may be forfeited. Payout questions: affiliatepayments@gohighlevel.com.
 - **Portal check (29 September 2026):** referral ID and the `fp_sid` Sub ID parameter confirmed; cinchstack.com added to the profile's Website field beside noderow.com; no clicks, commissions or payouts yet, so **Reports → Sub Ids** stays empty until the first real click.
 
 ### 1b. Systeme.io affiliate links (live since 27 September 2026)
@@ -40,7 +40,7 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 
 `/services/` sells your setup and automation work: five packages, a free 30-minute call, then a fixed quote. Prices, deliverables and the proof line live in `src/data/services.json`; change them there and the page, the cards and the structured data follow. The strategy behind it is in `docs/STRATEGY-2026-10.md`.
 
-- **Enquiries** arrive through Netlify Forms (**Forms → services**), emailed to the Netlify account's address like the contact form. The page promises a reply within two business days.
+- **Enquiries** arrive through Netlify Forms (**Forms → services**). Netlify emails them to you only once form notifications are switched on (section 4); until then, nobody is told when one arrives. The page promises a reply within two business days.
 - **Upwork rules (keep them exactly):**
   - Never link `/services/` or cinchstack.com from your Upwork profile or portfolio. Linking the other way (CinchStack → Upwork profile) is fine.
   - A client who found you on CinchStack is yours to invoice directly. The form's required "How did you find us?" answer, with its timestamp, is your record. If someone says they found you on Upwork, continue on Upwork.
@@ -104,17 +104,27 @@ The site itself is done: every page type has its structured data (software offer
 |---|---|---|
 | Daily until done | Request indexing in Search Console for the pages not yet indexed (about 10 a day). | You |
 | Weekly | Search Console **Pages** and **Performance**; Bing Webmaster **Site Explorer** and **Search Performance**, including the AI queries export. | You |
-| From about 11 October | If Bing shows pages indexed, switch on IndexNow for changed pages only, at most 10 per run (`docs/plan/06-aeo-geo-bing.md`). | Claude Code |
-| Once, then kept in sync | Mirror the `/data/` dataset to Hugging Face, a public GitHub repo, Kaggle and data.world, each linking back. It's the plan's main way to earn links and AI citations. | Claude Code can publish the first two with your go-ahead; Kaggle and data.world need you. |
+| From about 11 October | If Bing shows pages indexed, switch on IndexNow for changed pages only, at most 10 per run (`docs/plan/06-aeo-geo-bing.md`). Checked 6 October: Bing has no cinchstack.com pages yet, not even for a search on the name, though `robots.txt` allows Bingbot and every page is indexable. A check-in on 11 October looks again. | Claude Code |
+| Once, then kept in sync | Mirror the `/data/` dataset to Hugging Face, a public GitHub repo, Kaggle and data.world, each linking back. It's the plan's main way to earn links and AI citations. | GitHub: done 6 October (this repository is public and its README has an Open data section linking back; optionally, add `https://cinchstack.com` as the repo's Website in **About ⚙** on its GitHub page). Hugging Face: ready, waiting for one token (section 3c). Kaggle and data.world need you. |
 | About an hour a week | Answer "what does X cost" and "X vs Y" questions on Reddit and vendor forums with the real, dated figure; link a page only when it adds something. When a vendor changes a price, email writers still quoting the old one (no ask). | You |
 | Monthly, 10 minutes | Ask ChatGPT, Claude, Gemini, Perplexity and Copilot "what does [tool] cost" and "[A] vs [B] pricing"; note which cite CinchStack. | You |
 | When you next edit bestaicertifications.com | Link its About page to cinchstack.com. CinchStack's About page already links back. | You |
 
 Optional later: a social-preview image per page (every page uses one image today), `llms-full.txt`, and the price-change newsletter (`docs/plan/10-growth.md`).
 
+### 3c. Dataset mirror on Hugging Face (ready to switch on)
+
+`.github/workflows/dataset-mirror.yml` copies what cinchstack.com/data/ serves to a Hugging Face dataset after every successful live deploy check, with a dataset card (`scripts/assets/dataset-card.md`) that links back. It is off until it has a token. To switch it on (about 3 minutes):
+
+1. On huggingface.co, signed in as `rohailnisar`: **Settings → Access Tokens → Create new token**, type **Write**. Copy it.
+2. On GitHub, in `rohail524823/cinchstack`: **Settings → Secrets and variables → Actions → New repository secret**, name `HF_TOKEN`, paste the token.
+3. **Actions → Dataset mirror → Run workflow** (or wait for the next deploy). It creates `huggingface.co/datasets/rohailnisar/cinchstack-software-pricing` and keeps it in step with the site from then on. A repository variable `HF_DATASET` publishes it under another name instead.
+
 ### 4. Contact form (done 27 September 2026)
 
-The "Report a wrong price" form uses Netlify Forms. Form detection is on, and each submission is emailed to the Netlify account's address. Submissions also appear in Netlify under **Forms → contact**.
+The "Report a wrong price" form uses Netlify Forms. Form detection is on, and submissions are stored in Netlify under **Forms → contact**.
+
+**Email alerts for both forms are not switched on yet.** A labelled test sent through the services form on 6 October 2026 never reached Gmail, and no CinchStack form email has ever arrived. To switch them on (one minute): Netlify → the cinchstack project → **Project configuration** (Site configuration on older screens) → **Notifications** → **Emails and webhooks** → **Form submission notifications** → **Add notification** → **Email notification**; event **New form submission**, form **Any form**, your Gmail address. Then delete the test entry ("Claude Code test (please ignore)") under **Forms → services**, and look through both forms' lists, including the spam tab, for anything missed since 27 September.
 
 ### 5. Analytics (on since 27 September 2026)
 

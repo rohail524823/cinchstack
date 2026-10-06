@@ -1,0 +1,40 @@
+name: Dataset mirror
+# Copies the live CC BY dataset (https://cinchstack.com/data/) to Hugging Face after each
+# successful live deploy check, so the copy never falls behind the site. It stays off until the
+# repository has an HF_TOKEN secret (a Hugging Face write token); see docs/OPERATIONS.md §3c.
+on:
+  workflow_run:
+    workflows: [Live deploy check]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dataset-mirror
+  cancel-in-progress: false
+jobs:
+  huggingface:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_DATASET: ${{ vars.HF_DATASET }}
+    steps:
+      - name: Check for the Hugging Face token
+        id: gate
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::notice title=Hugging Face mirror is off::Add an HF_TOKEN repository secret (a Hugging Face write token) to publish cinchstack.com/data/ there."
+            echo "on=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "on=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.on == 'true'
+      - name: Mirror to Hugging Face
+        if: steps.gate.outputs.on == 'true'
+        run: |
+          python3 -m pip install --quiet "huggingface_hub>=0.25"
+          python3 scripts/mirror-dataset.py
