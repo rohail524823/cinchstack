@@ -1,0 +1,303 @@
+SOURCE: https://www.klaviyo.com/pricing
+FETCHED: 2026-10-06T01:20:36.962Z
+RENDERER: headless Chromium, en-US, US timezone
+METHOD: Clicked the "Marketing" pricing tab and set the Email card's "Active profiles" slider to position 1 (native value setter + input event, as a drag would). Cards then read: Email: Active profiles | 1,000 | $30 | 10,000 emails/month |. Customer Hub: Customer Hub | A personalized destination on your site where customers can self serve and find offers. | Add to plan | active profiles | 1,000 | Email, Personalization, and Social marketing are also based on active profiles. Moving this slider will affect those prices as well. | $20 |. Social marketing: Social marketing | Turn your social engagement into customer growth. | Add to plan | active profiles | 10,000 | Email, Customer Hub, and Personalization are also based on active profiles. Moving this slider will affect those prices as well. | $50 |. Saved document.body.innerText.
+----
+___
+Skip to main content
+Platform
+Apps & Integrations
+Resources
+What’s New
+Pricing
+Log in
+Sign up
+Get a demo
+Home/Pricing
+Klaviyo pricing:
+Build your plan
+
+Scale as you grow with flexible pricing across marketing, service, and data products and features. Email marketing comes standard with every plan.
+
+Platform
+GET STARTED
+Free
+SOLUTIONS PRICING
+Marketing
+Data + Analytics
+Service
+AI AGENTS
+Composer
+Customer Agent
+TALK TO SALES
+Professional Services
+Enterprise
+Marketing
+
+Build smarter campaigns with email, text, WhatsApp, Customer Hub, social, reviews, and agents that drive engagement and revenue.
+
+Limited time: $19 off your first month of Klaviyo Email (500 profiles only). See Full Terms
+
+Email
+INCLUDED
+
+Reach your customers with personalized email campaigns and automated flows.
+
+Active profiles
+1,000
+$30
+10,000 emails/month
+What's included
+Composer
+
+Create, analyze, and automate more with Composer.
+
+Add to plan
+$20month
+What's included
+
+Additional Composer usage can be purchased in $10 increments.
+
+Mobile messages
+
+Calculate your messaging costs based on volume and destination.
+
+Add to plan
+SMS messages
+United States - Toll free
+
+$0.01 + carrier fees* per send
+
+MMS messages
+United States - Toll free
+
+$0.00 + carrier fees* per send
+
+WhatsApp marketing
+United Kingdom
+
+$0.00 + carrier fees* per send
+
+WhatsApp transactional
+United Kingdom
+
+$0.00 + carrier fees* per send
+
+Basic RCS
+United States
+
+$0.00 + carrier fees* per send
+
+Single RCS
+United States
+
+$0.00 + carrier fees* per send
+
+Monthly cost
+$40.00
+
+*Price includes carrier fees where applicable. Learn more.
+
+FREE 30-DAY TRIAL
+Customer Hub
+
+A personalized destination on your site where customers can self serve and find offers.
+
+Add to plan
+active profiles
+1,000
+
+Email, Personalization, and Social marketing are also based on active profiles. Moving this slider will affect those prices as well.
+
+$20
+What's included
+Social marketing
+
+Turn your social engagement into customer growth.
+
+Add to plan
+active profiles
+10,000
+
+Email, Customer Hub, and Personalization are also based on active profiles. Moving this slider will affect those prices as well.
+
+$50
+What's included
+Reviews
+
+Collect and display product reviews to build trust and drive conversions.
+
+Add to plan
+orders per month
+250
+$25
+What's included
+Compare free vs. paid marketing plans
+Feature	Free	Paid
+Unified, lifetime profiles	Up to 250 active profiles	
+
+Real-time segments	
+	
+
+Email messaging	Up to 500 sends/month	
+
+✦
+Composer	$5 of usage/month	
+
+Mobile messaging	$5/month	
+
+Social auto-replies	
+	
+
+Mobile app marketing	
+	
+
+Web forms	
+	
+
+Email and flow templates	
+	
+
+✦
+Personalized product recommendations	
+	
+
+Reports and dashboards	
+	
+
+Connect data from 350+ integrations	
+	
+
+✦
+Peer group benchmarks	
+	
+
+Email support	First 60 days	
+
+Learning and resources: Klaviyo Community, Help Center, and Academy	
+	
+
+Klaviyo logo removed from emails	
+	
+
+✦
+Generative AI for segments, content, flows, and images	
+	
+
+✦
+Predictive analytics	
+	
+$30
+🇺🇸
+USD
+
+per month
+
+Estimated total price
+
+Email
+$30
+
+Included in every plan
+
+Standard support
+Included
+Total estimated
+$30.00
+Get started
+Frequently asked questions
+Do you offer a free tier?
+Is Klaviyo worth the price?
+What are carrier fees?
+What happens if my active profiles count grows beyond my current plan?
+How do I pay?
+What kind of support do I receive with Klaviyo?
+What happens if I need to send a higher volume of emails/SMS than my current plan allows?
+What is a profile?
+How do I change my plan?
+What is a short code and when do I need one?
+What can I do with Composer?
+How much does Composer cost?
+Is there a free version of Composer?
+How does Composer usage work?
+What happens when I use all my credits?
+Do unused credits roll over?
+Why use Composer instead of a general-purpose AI tool?
+COMPANY
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+KLAVIYO FOR
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+PLATFORM
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Klaviyo and GDPR
+WHY KLAVIYO
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+CHANNELS
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+TOOLS + RESOURCES
+Marketing resources
+AI prompt library
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+TOP PRODUCTS + FEATURES
+Composer
+PREVIEW
+Customer Agent
+Customer Hub
+Helpdesk
+Personalization
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+EXPLORE MORE
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States - EN
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices
+Cookie Settings
+Your Privacy Preferences

@@ -1,14 +1,14 @@
 {
   "tool": "klaviyo",
   "currency": "USD",
-  "checkedOn": "2026-09-26",
-  "method": "Read Klaviyo's pricing page (the 'Free' tab; the 'Marketing' tab's Email active-profiles slider at its default 500-profile position and moved to 1,000, 10,000, 50,000 and 60,000 profiles, plus the full 50-position slider sweep; the Composer, Professional Services and Enterprise tabs) with FAQ answers expanded, plus klaviyo.com/uk/pricing, the sign-up and About pages and Klaviyo Help Center articles on billing, plan changes, active profiles, mobile messaging and Composer, all in a US-locale headless browser; snapshots saved. An independent fact-check on 2026-09-27 re-read every cited figure against its snapshot and re-rendered the Marketing tab live, which still showed the same Email, add-on and SMS figures.",
+  "checkedOn": "2026-10-06",
+  "method": "Read Klaviyo's pricing page (the 'Free' tab; the 'Marketing' tab's Email active-profiles slider at its default 500-profile position and moved to 1,000, 10,000, 50,000 and 60,000 profiles, plus the full 50-position slider sweep; the Composer, Professional Services and Enterprise tabs) with FAQ answers expanded, plus klaviyo.com/uk/pricing, the sign-up and About pages and Klaviyo Help Center articles on billing, plan changes, active profiles, mobile messaging and Composer, all in a US-locale headless browser; snapshots saved. An independent fact-check on 2026-09-27 re-read every cited figure against its snapshot and re-rendered the Marketing tab live, which still showed the same Email, add-on and SMS figures. On 2026-10-06 the 'Free' tab, the 'Marketing' tab (FAQ answers expanded; Email slider at 1,000, 10,000, 50,000 and 60,000 profiles; the Customer Hub and Social marketing cards' own sliders swept through every position) and the help center's billing article were captured again: the Email, Composer, Reviews and SMS figures were unchanged, and the Customer Hub and Social Marketing introductory discounts were gone.",
   "sources": [
     {
       "url": "https://www.klaviyo.com/pricing",
       "label": "Pricing page, default 'Free' tab (initial load)",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-pricing.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing.txt"
     },
     {
       "url": "https://www.klaviyo.com/pricing",
@@ -19,32 +19,32 @@
     {
       "url": "https://www.klaviyo.com/pricing",
       "label": "Pricing page, 'Marketing' tab, Email active-profiles slider at its default 500 profiles, with all FAQ answers expanded",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing-marketing.txt"
     },
     {
       "url": "https://www.klaviyo.com/pricing",
       "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 1,000 profiles",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-1000-profiles.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing-marketing-1000-profiles.txt"
     },
     {
       "url": "https://www.klaviyo.com/pricing",
       "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 10,000 profiles",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-10000-profiles.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing-marketing-10000-profiles.txt"
     },
     {
       "url": "https://www.klaviyo.com/pricing",
       "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 50,000 profiles",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-50000-profiles.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing-marketing-50000-profiles.txt"
     },
     {
       "url": "https://www.klaviyo.com/pricing",
       "label": "Pricing page, 'Marketing' tab, Email active-profiles slider set to 60,000 profiles",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-pricing-marketing-60000-profiles.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing-marketing-60000-profiles.txt"
     },
     {
       "url": "https://www.klaviyo.com/pricing",
@@ -91,8 +91,8 @@
     {
       "url": "https://help.klaviyo.com/hc/en-us/articles/115000976672",
       "label": "Help Center: How Klaviyo billing works",
-      "checkedOn": "2026-09-26",
-      "snapshot": "snapshots/klaviyo/2026-09-26-help-how-billing-works.txt"
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-help-how-billing-works.txt"
     },
     {
       "url": "https://help.klaviyo.com/hc/en-us/articles/115005246968",
@@ -147,6 +147,12 @@
       "label": "Help Center: How to add or change a billing plan (manual upgrades, auto-upgrade default)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/klaviyo/2026-09-26-help-add-change-plan.txt"
+    },
+    {
+      "url": "https://www.klaviyo.com/pricing",
+      "label": "Pricing page, 'Marketing' tab, Customer Hub card's active-profiles slider swept through all 50 positions (500 to 150,000+) and Social marketing card's slider through all 5 positions (10,000 to 150,000+), one line per position",
+      "checkedOn": "2026-10-06",
+      "snapshot": "snapshots/klaviyo/2026-10-06-pricing-addon-profile-tiers.txt"
     }
   ],
   "freeTier": {
@@ -302,8 +308,8 @@
       "id": "customer-hub",
       "name": "Customer Hub",
       "price": 20,
-      "unit": "per month for up to 10,000 active profiles (scales up with active-profile count)",
-      "note": "Klaviyo's help center: 'Customer Hub is priced based on your active profile count, starting at $20 per month for up to 10,000 active profiles' (source 14). On the pricing calculator the same tier shows a $30 list price cut 30% to $20 as 'special introductory pricing ... through 09/30/2026' (sources 2-4), so the price after that date may be $30. At 50,000 active profiles the calculator showed $123 list / $86 discounted, and at 60,000 profiles $147 list / $103 discounted (sources 5, 6). The calculator also labels Customer Hub 'FREE 30-DAY TRIAL'.",
+      "unit": "per month for up to 10,000 active profiles (rises with active-profile count above that)",
+      "note": "Klaviyo's help center: 'Customer Hub is priced based on your active profile count, starting at $20 per month for up to 10,000 active profiles' (source 14). On 6 October 2026 the pricing calculator showed the same $20 at every Customer Hub tier from 500 to 10,000 profiles, with no discount label and no higher list price (sources 2-4, 24). Until 30 September 2026 the calculator had shown that $20 as a 30%-off 'special introductory' price off a $30 list price; once the offer ended, $20 stayed as the price shown. Above 10,000 profiles the price rises with each tier: $21 at 10,500, $50 at 25,000, $86 at 50,000, $103 at 60,000 and $235 at 150,000, with 'Talk to sales' above 150,000 (sources 5, 6, 24). The calculator also labels Customer Hub 'FREE 30-DAY TRIAL'.",
       "appliesTo": [
         "email-500",
         "email-1000",
@@ -316,9 +322,9 @@
     {
       "id": "social-marketing",
       "name": "Social Marketing",
-      "price": 38,
-      "unit": "per month at the 10,000-active-profile tier shown on the calculator (25%-off introductory rate); Klaviyo says full pricing scales with active-profile count but publishes no separate starting figure",
-      "note": "List price $50/month at this tier, discounted 25% to $38 as 'special introductory pricing ... through 09/30/2026' (source 2). Social Marketing has its own coarser profile tiers: its card still read '10,000 profiles' while the Email slider was at 500 or 1,000, read 50,000 profiles ($200 list / $150 discounted) at the 50,000 Email setting, and jumped to 150,000 profiles ($300 list / $225 discounted) at the 60,000 Email setting (sources 5, 6).",
+      "price": 50,
+      "unit": "per month for up to 10,000 active profiles, Social Marketing's smallest tier (rises with active-profile count above that)",
+      "note": "Social Marketing has its own coarser profile tiers, set by its own slider on the calculator: $50 at 10,000 profiles, $125 at 25,000, $200 at 50,000 and $300 at 150,000, with 'Talk to sales' above 150,000 (source 24). Its card reads 10,000 profiles while the Email slider is anywhere from 500 to 10,000 profiles, 50,000 profiles at the 50,000 Email setting, and 150,000 profiles at the 60,000 Email setting (sources 2-6). Until 30 September 2026 the calculator showed these as list prices cut 25% under 'special introductory pricing' ($38 at 10,000 profiles, $150 at 50,000, $225 at 150,000); on 6 October 2026 it showed the list prices with no discount.",
       "appliesTo": [
         "email-500",
         "email-1000",
@@ -378,7 +384,7 @@
     "Self-serve Klaviyo plans are billed and renew monthly; the pricing calculator has no annual toggle and shows no annual-prepay discount for Email, Composer, Customer Hub, Social Marketing or Reviews. Contracted ('manually billed') accounts, available only at $2,000/month or more, can have monthly, quarterly, semi-annual or annual billing cycles set in the contract; any discount for those is not published.",
     "Klaviyo enforces 'profile compliance': if your active-profile count exceeds your current Email plan's tier, you are automatically moved to a profile-compliant (more expensive) tier at the start of your next billing cycle, whether or not you opted into any auto-upgrade preference. The only way to avoid it is to suppress or delete enough profiles at least 24 hours before your billing cycle renews.",
     "For email-send overages (sending more emails than your profile tier includes, while still within your profile limit), you choose one of: Flexible sending (a one-time charge for the next tier's extra sends, at your current plan's per-unit rate), Auto-upgrade (permanently moves you to a larger tier; on by default when you first buy a subscription), or 'None' (stops sending until the next billing cycle). You can also manually upgrade to a larger tier at any time; upgrades take effect immediately and you pay the difference for that first month.",
-    "As of this check (2026-09-26), Customer Hub is discounted 30% and Social Marketing 25% off their list prices, and the Email plan carries a $19-off first-month promo at the 500-profile tier only; Klaviyo's site says these run 'through 09/30/2026' — i.e., about to end within days of this check.",
+    "The introductory discounts on Customer Hub (30% off) and Social Marketing (25% off) that the calculator showed on 2026-09-26 ran 'through 09/30/2026' and were gone on 2026-10-06: Social Marketing is back at its list prices, while Customer Hub's $20 starting price stayed and is no longer shown as a discount. The calculator still shows a 'Limited time' $19-off-first-month offer on the Email plan at the 500-profile tier only, with no end date on the page.",
     "Cancelling immediately (rather than at the end of the billing cycle) forfeits the rest of the paid cycle with no refund; cancelling at the end of the cycle keeps the plan active, and billed, through its last day.",
     "Self-serve customers pay month to month by credit card with no long-term contract. 'Manual billing' (an invoiced contract, ACH or wire) is only available once combined Klaviyo plans total $2,000/month or more, and is arranged through a Klaviyo representative rather than self-serve checkout.",
     "Klaviyo's pricing FAQ, asked whether there are setup or onboarding fees, answers 'We do not charge hidden fees. Some plans include onboarding support — for larger implementations, we offer optional paid professional services.' No setup fee appears anywhere on the pricing calculator.",
@@ -419,7 +425,7 @@
       ],
       "monthly": 150,
       "confidence": "high",
-      "note": "Composer ($20/month) or Customer Hub ($20/month at the introductory rate) are optional and not included; neither is required to send email."
+      "note": "Composer ($20/month) or Customer Hub ($20/month for up to 10,000 profiles) are optional and not included; neither is required to send email."
     },
     {
       "size": "growing",
@@ -440,18 +446,22 @@
   ],
   "unverified": [
     "MMS, WhatsApp (marketing and transactional) and RCS (Basic and Single) per-message rates: the pricing calculator displayed all four at a literal $0.00 + carrier fees per send at every tier we checked, which we don't believe is the real rate (Klaviyo's own help center says MMS costs more to send than SMS). We could not get the calculator to render a non-zero, channel-specific number, so these were left out of usage[] rather than record a figure we don't trust.",
-    "Full profile-tier price tables for Customer Hub and Social Marketing beyond the single data points captured (their displayed tier breakpoints don't move in lockstep with the Email plan's own slider), and Reviews pricing above the 250-orders/month tier.",
+    "Reviews pricing above the 250-orders/month tier shown by default on the calculator (the Reviews card's orders slider was not swept).",
     "Mobile Messaging's own subscription tiers and starting price: SMS is bought as a prepaid monthly Mobile Messaging plan, but Klaviyo's help articles give only example amounts ('$115 Mobile Messaging plan', a '$900/month plan'), and the calculator's Mobile messages card showed 'Monthly cost $40.00' without stating the message volume behind it, so no Mobile Messaging subscription price went into addOns.",
     "Marketing Analytics (help center: starting at $100/month for up to 13,500 active profiles), Advanced Klaviyo Data Platform (help center example: $4,765/month for 1,000,000 profiles), Helpdesk (starting at $10/month for up to 50 tickets) and Customer Agent (starting at $50/month for up to 75 conversations) all have published starting prices in Klaviyo's help center, but this record is scoped to the Email/Marketing side of Klaviyo and does not verify or include these Service/Data-platform products as add-ons.",
     "Whether a visitor with a genuine non-US geo-IP sees a different currency or price on klaviyo.com; see the regional note. Only US-locale/egress sessions were captured.",
     "Exact Professional and Enterprise support-package prices beyond the published 'starting at $500/month' and 'starting at $1,800/month' figures; both require 'Contact sales' for a final quote.",
     "Whether a payment card is required to create a free account: the captured sign-up page shows only the first form step (email and password). Klaviyo's help center says no card is needed to start the free Composer plan, but that article is about Composer, not account sign-up.",
-    "Whether the introductory Customer Hub ($20) and Social Marketing ($38 at 10,000 profiles) prices continue after 09/30/2026; the calculator's list prices at those tiers are $30 and $50."
+    "What accounts that added Customer Hub or Social Marketing at the introductory prices before 09/30/2026 pay now: neither the pricing page nor the help center's billing article, both captured on 2026-10-06, says whether those subscriptions move to the current calculator prices or keep the old rate for a time."
   ],
   "history": [
     {
       "date": "2026-09-26",
       "change": "Initial record."
+    },
+    {
+      "date": "2026-10-06",
+      "change": "Customer Hub and Social Marketing introductory pricing (advertised through 09/30/2026) ended. Social Marketing now shows its list prices: $50/month at 10,000 profiles (was $38), $200 at 50,000 (was $150) and $300 at 150,000 (was $225). Customer Hub stayed at $20/month for up to 10,000 profiles, now shown with no discount label and no $30 list price. Re-captured the Free and Marketing tabs, the Email tiers at 1,000, 10,000, 50,000 and 60,000 profiles and the billing help article, and swept the Customer Hub and Social Marketing sliders for their full tier tables; Email, Composer, Reviews and SMS figures were unchanged."
     }
   ]
 }

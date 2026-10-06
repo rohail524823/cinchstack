@@ -70,6 +70,15 @@
     "source": "https://www.klaviyo.com/pricing"
   },
   {
+    "date": "2026-10-06",
+    "tool": "klaviyo",
+    "kind": "price-change",
+    "summary": "Social Marketing's 25% introductory discount, advertised through 30 September 2026, has ended: it now costs $50 a month at its smallest tier (up to 10,000 active profiles), up from $38. Customer Hub stayed at $20 a month for up to 10,000 profiles, now shown with no discount and no $30 list price.",
+    "old": "Social Marketing $38/month at 10,000 profiles",
+    "new": "$50/month",
+    "source": "https://www.klaviyo.com/pricing"
+  },
+  {
     "date": "2026-09-27",
     "tool": "mailchimp",
     "kind": "initial-record",
