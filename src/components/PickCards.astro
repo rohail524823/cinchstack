@@ -9,7 +9,8 @@ const { candidates, page, heading = 'Where we would start' } = Astro.props;
 const scored = candidates.map((id) => ({ id, s: score(id)?.overall ?? 0 })).sort((a, b) => b.s - a.s);
 const top = scored[0]?.id;
 const paid = scored.filter((x) => paysUsOn(x.id, page))[0]?.id;
-const cards = paid && paid !== top ? [{ id: paid, kind: 'paid' }, { id: top, kind: 'top' }] : [{ id: top, kind: paid === top ? 'paid-top' : 'top' }];
+// The highest-scored option leads; a paying pick, when different, sits beside it, never ahead of it.
+const cards = paid && paid !== top ? [{ id: top, kind: 'top' }, { id: paid, kind: 'paid' }] : [{ id: top, kind: paid === top ? 'paid-top' : 'top' }];
 const label = { paid: 'Our pick among tools that pay us', top: 'Highest-scored option', 'paid-top': 'Highest-scored, and it pays us' };
 ---
 {top && (<>
