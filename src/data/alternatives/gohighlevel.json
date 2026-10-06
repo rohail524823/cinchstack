@@ -88,5 +88,11 @@
         }
       ]
     }
+  ],
+  "sameJob": [
+    "hubspot",
+    "zoho-crm",
+    "pipedrive",
+    "systeme-io"
   ]
 }

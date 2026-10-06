@@ -84,6 +84,8 @@ for (const file of files) {
       if (!toolIds.has(p.tool)) fail(file, `unknown pick "${p.tool}"`);
       if (p.tool === d.tool) fail(file, `a tool cannot be its own alternative`);
     }
+    const pickIds = new Set(d.reasons.flatMap((x) => x.picks.map((p) => p.tool)));
+    for (const s of d.sameJob ?? []) if (!pickIds.has(s)) fail(file, `sameJob "${s}" is not one of the page's picks`);
   }
   // faq/pricing--hubspot.json belongs to the page "pricing/hubspot".
   if (kind === 'faq' && d.page !== base.replace('--', '/')) fail(file, `page must be "${base.replace('--', '/')}" to match the filename (got "${d.page}")`);

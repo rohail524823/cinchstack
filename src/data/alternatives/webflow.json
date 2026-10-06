@@ -66,5 +66,10 @@
         }
       ]
     }
+  ],
+  "sameJob": [
+    "squarespace",
+    "wix",
+    "framer"
   ]
 }

@@ -75,5 +75,10 @@
         }
       ]
     }
+  ],
+  "sameJob": [
+    "gohighlevel",
+    "pipedrive",
+    "zoho-crm"
   ]
 }

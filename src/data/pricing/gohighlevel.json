@@ -524,7 +524,7 @@
       "name": "WhatsApp utility template message (US & Canada)",
       "rate": 0.0036,
       "unit": "per delivered message",
-      "note": "Free inside an open 24-hour customer service window only through 30 September 2026; billable in and out of the window from 1 October 2026.",
+      "note": "Billable in and out of the 24-hour customer service window since 1 October 2026; until 30 September 2026 it was free inside an open window.",
       "source": 9
     }
   ],
@@ -611,7 +611,7 @@
     "Starter cannot rebill usage to sub-accounts. Unlimited rebills at cost (default 1.05x to cover Stripe fees). Only Agency Pro may mark up pass-through fees, and only Agency Pro can rebill AI Employee usage.",
     "You can connect your own SMTP provider instead of LC Email, and switch a location from LC Phone to your own Twilio account.",
     "LC Email sending ramps up over the first 7 days (250 on day 1 to 10,000 on day 7), then allows 25,000 a day on a shared domain or up to 550,000 a day with a dedicated sending domain.",
-    "WhatsApp: from 1 October 2026, service messages beyond 1,000 per phone number per month and utility messages inside the 24-hour window become billable, and rates change in several markets.",
+    "WhatsApp: since 1 October 2026, service messages beyond 1,000 per phone number per month and utility messages inside the 24-hour window are billable, and rates changed in several markets.",
     "If a subscription payment fails, access continues for 21 days and is then locked. Canceled accounts' data is deleted after 90 days. Phone numbers are released within 14 days of cancellation.",
     "HIPAA compliance cannot be canceled once enabled, and Online Listings has a 3-month commitment."
   ],
@@ -747,7 +747,7 @@
     "The Phone System guide lists A2P monthly fees with the 5% built in (Sole Proprietor 'up to $2.10', Low Volume '$1.50-$10.50', High Volume '$10.50'), while the A2P article lists $2.00 / $1.50 / $10.00. The scenarios use the A2P article's $1.50.",
     "Carrier fees depend on each recipient's carrier; the scenarios assume $0.0045 per outbound segment for every text.",
     "Pay-per-use Conversation AI and Voice AI cost per conversation depends on token counts and cannot be priced in advance; only the per-token and per-minute rates are recorded.",
-    "The per-message price for US WhatsApp service messages beyond the free 1,000 a month from 1 October 2026 appears only in an attached CSV ($0.0034 before the 5% fee), not in the guide's table.",
+    "The per-message price for US WhatsApp service messages beyond the free 1,000 a month (in force since 1 October 2026) appears only in an attached CSV ($0.0034 before the 5% fee), not in the guide's table.",
     "HighLevel's pricing pages list no platform fee on payments taken through Stripe, PayPal, Square and other connected processors, but processor fees were not captured.",
     "Domain purchase prices vary by TLD and were not captured.",
     "Whether a dedicated email sending domain costs anything: the setup article lists no fee, but does not say it is free.",

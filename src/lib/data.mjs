@@ -99,7 +99,11 @@ const SIZE_BASIS = {
 export function sizeBasis(id, size) {
   const t = tool(id);
   const job = t.layer === 'grow' ? (/\bseo\b/i.test(t.category) ? 'seo' : 'email') : t.layer;
-  return SIZE_BASIS[job]?.[size] ?? '';
+  const base = SIZE_BASIS[job]?.[size] ?? '';
+  // Say so when a tool's scenario adds something the generic basis does not (HubSpot's mid sizes
+  // include texting, which needs Professional), so a bill is never compared without its basis.
+  const label = price(id).scenarios.find((x) => x.size === size)?.label ?? '';
+  return base && /\bwith SMS\b/i.test(label) ? `${base}, with texting` : base;
 }
 export function plan(id, planId) {
   return price(id).plans.find((p) => p.id === planId);

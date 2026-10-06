@@ -67,5 +67,10 @@
         }
       ]
     }
+  ],
+  "sameJob": [
+    "kit",
+    "mailchimp",
+    "activecampaign"
   ]
 }

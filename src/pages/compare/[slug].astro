@@ -16,6 +16,7 @@ import CompareCost from '../../components/CompareCost.astro';
 import CompareDims from '../../components/CompareDims.astro';
 import ScorePanel from '../../components/ScorePanel.astro';
 import AffLink from '../../components/AffLink.astro';
+import { poss } from '../../lib/format.mjs';
 import Provenance from '../../components/Provenance.astro';
 import Faq from '../../components/Faq.astro';
 import AuthorBox from '../../components/AuthorBox.astro';
@@ -58,7 +59,7 @@ const jsonld = [
       <Disclosure toolIds={[c.a, c.b]} page={path} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <h2 id="which-to-pick">Which should you pick?</h2>
-      <Verdicts id={c.id} />
+      <Verdicts id={c.id} page={path} />
       <h2 id="real-cost">What each one really costs</h2>
       <CompareCost a={c.a} b={c.b} />
       <h2 id="side-by-side">{A.name} and {B.name} side by side</h2>
@@ -72,8 +73,8 @@ const jsonld = [
       <h3>{B.name}</h3>
       <ScorePanel id={c.b} />
       <div class="cta-row">
-        <AffLink tool={c.a} page={path} placement="end-cta-a" label={`Go to ${A.name}`} />
-        <AffLink tool={c.b} page={path} placement="end-cta-b" label={`Go to ${B.name}`} />
+        <AffLink tool={c.a} page={path} placement="end-cta-a" label={`See ${poss(A.name)} plans and prices`} />
+        <AffLink tool={c.b} page={path} placement="end-cta-b" label={`See ${poss(B.name)} plans and prices`} />
       </div>
       <Provenance ids={[c.a, c.b]} />
       <Faq items={faq} />

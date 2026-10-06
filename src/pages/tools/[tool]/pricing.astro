@@ -67,7 +67,7 @@ const glance = [
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <Glance items={glance} />
       <div class="cta-row">
-        <AffLink tool={id} href={t.pricingUrl} page={path} placement="top-pricing" label={`${poss(t.name)} own pricing page`} />
+        <AffLink tool={id} href={t.pricingUrl} page={path} placement="top-pricing" label={`Compare plans on ${poss(t.name)} own site`} />
         <span class="note">Opens {new URL(t.pricingUrl).hostname.replace(/^www\./, '')}</span>
       </div>
       <h2 id="plans">{t.name} plans and prices</h2>
@@ -87,7 +87,7 @@ const glance = [
       </>)}
       <Provenance ids={[id]} />
       <div class="cta-row">
-        <AffLink tool={id} page={path} placement="end-cta" label={`Go to ${t.name}`} />
+        <AffLink tool={id} page={path} placement="end-cta" label={`See ${poss(t.name)} plans and prices`} />
         {p.trial.days ? <span class="note">{t.name} offers a {p.trial.days}-day trial{p.trial.cardRequired === false ? ' with no card required' : ''}.</span> : null}
       </div>
       <Faq items={faq} />

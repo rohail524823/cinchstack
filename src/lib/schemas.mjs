@@ -215,6 +215,9 @@ export const alternativesSchema = z.object({
     reason: z.string(), // "It gets expensive past 10,000 contacts"
     picks: z.array(z.object({ tool: id, why: z.string() })).min(1).max(3),
   })).min(3).max(7),
+  // Tools that do the same overall job as the one being replaced. Only these compete for
+  // "If you want one answer", so a reason-specific pick (an email tool on a CRM page) never wins it.
+  sameJob: z.array(id).min(1).optional(),
 });
 
 export const faqSchema = z.object({

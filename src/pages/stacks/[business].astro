@@ -4,7 +4,7 @@ import { render } from 'astro:content';
 import { SITE } from '../../lib/site.mjs';
 import { tool, price, stacks, stackBill, faqs, scenario } from '../../lib/data.mjs';
 import { LAYER_LABELS } from '../../lib/schemas.mjs';
-import { registry, relatedFor } from '../../lib/pages.mjs';
+import { registry, relatedFor, lowerFirst } from '../../lib/pages.mjs';
 import { datesFor } from '../../lib/meta.mjs';
 import { breadcrumbNode, articleNode, itemListNode, faqNode } from '../../lib/jsonld.mjs';
 import { mdxComponents } from '../../components/mdx/index.mjs';
@@ -46,7 +46,7 @@ const best = (x) => (reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/` : 
 const jsonld = [
   breadcrumbNode(url, crumbs),
   articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
-  itemListNode(url, `Software stack for a ${s.label.toLowerCase()}`, s.layers.map((l) => ({ name: tool(l.pick).name, url: `${SITE}${best(l.pick) ?? path}` }))),
+  itemListNode(url, `Software stack for a ${lowerFirst(s.label)}`, s.layers.map((l) => ({ name: tool(l.pick).name, url: `${SITE}${best(l.pick) ?? path}` }))),
   faqNode(url, faq),
 ];
 ---

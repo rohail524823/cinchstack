@@ -1,7 +1,10 @@
 ---
-import { tool, comparisons, stacks } from '../lib/data.mjs';
-interface Props { id: string }
+import { tool, comparisons, stacks, paysUsOn } from '../lib/data.mjs';
+import AffLink from './AffLink.astro';
+interface Props { id: string; page: string }
 const c = comparisons[Astro.props.id];
+const { page } = Astro.props;
+const pickId = (v) => (v.pick === 'a' ? c.a : v.pick === 'b' ? c.b : null);
 const A = tool(c.a), B = tool(c.b);
 const BIZ = { agency: 'Marketing agency', 'course-creator': 'Coach or course creator', 'shopify-store': 'Online store', 'local-service': 'Local service business', freelancer: 'Freelancer or consultant', 'saas-startup': 'Early-stage SaaS' };
 ---
@@ -9,6 +12,6 @@ const BIZ = { agency: 'Marketing agency', 'course-creator': 'Coach or course cre
 <div class="tbl-wrap"><table class="data stack">
   <thead><tr><th scope="col">If you run a…</th><th scope="col">Pick</th><th scope="col">Why</th></tr></thead>
   <tbody>
-    {c.verdicts.map((v) => <tr><th scope="row">{stacks[v.business] ? <a href={`/stacks/${v.business}/`}>{BIZ[v.business]}</a> : BIZ[v.business]}</th><td class="edge" data-label="Pick">{v.pick === 'a' ? A.name : v.pick === 'b' ? B.name : 'Neither'}</td><td data-prose data-label="Why">{v.why}</td></tr>)}
+    {c.verdicts.map((v) => <tr><th scope="row">{stacks[v.business] ? <a href={`/stacks/${v.business}/`}>{BIZ[v.business]}</a> : BIZ[v.business]}</th><td class="edge" data-label="Pick">{v.pick === 'a' ? A.name : v.pick === 'b' ? B.name : 'Neither'}{pickId(v) && paysUsOn(pickId(v), page) && <><br /><AffLink tool={pickId(v)} page={page} placement={`verdict-${v.business}`} label="See plans" variant="inline" /></>}</td><td data-prose data-label="Why">{v.why}</td></tr>)}
   </tbody>
 </table></div>

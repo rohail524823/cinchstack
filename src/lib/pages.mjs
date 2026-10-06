@@ -16,13 +16,18 @@ export function pathFor(entryId) {
   }
 }
 
+// Lower-case only a generic first word ("Marketing agency" -> "marketing agency"), never a brand
+// or acronym ("SaaS startup", "Shopify store" stay as written).
+const KEEP = /^(SaaS|Shopify|WooCommerce|HubSpot)\b/;
+export const lowerFirst = (s) => (KEEP.test(s) ? s : s.charAt(0).toLowerCase() + s.slice(1));
+
 export function defaultH1(entryId) {
   const [kind, slug] = entryId.split('/');
   if (kind === 'pricing') return `${tools[slug].name} pricing: what it really costs`;
   if (kind === 'tools') return `${tools[slug].name} review: who it's for and what it costs`;
   if (kind === 'compare') { const c = comparisons[slug]; return `${tools[c.a].name} vs ${tools[c.b].name}`; }
   if (kind === 'alternatives') return `${tools[slug].name} alternatives, priced honestly`;
-  if (kind === 'stacks') return `The best software stack for a ${stacks[slug]?.label?.toLowerCase() ?? slug}`;
+  if (kind === 'stacks') return `The best software stack for a ${lowerFirst(stacks[slug]?.label ?? slug)}`;
   return slug;
 }
 
