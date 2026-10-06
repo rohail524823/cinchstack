@@ -1,10 +1,15 @@
 ---
 // The labelled box for the editor's own paid service. It is the same on every page of a kind,
 // sits after the verdict and FAQ, and never inside a score, table or pick (scripts/check.mjs).
-interface Props { scope?: 'tool' | 'stack' | 'compare' | 'alternatives' }
-const { scope = 'tool' } = Astro.props;
+import { tool } from '../lib/data.mjs';
+interface Props { scope?: 'tool' | 'stack' | 'compare' | 'alternatives'; ids?: string[] }
+const { scope = 'tool', ids = [] } = Astro.props;
+// No package sets up an SEO suite or builds a website, so the box stays off pages that are only
+// about those tools. It is the same box, with the same price promise, everywhere else.
+const noFit = (id) => { const t = tool(id); return t.layer === 'site' || (t.layer === 'grow' && /\bseo\b/i.test(t.category)); };
+const show = !ids.length || !ids.every(noFit);
 const which = { tool: 'this tool or any tool it competes with', stack: 'any tool in this stack or its alternatives', compare: 'either tool', alternatives: 'any tool on this page' }[scope];
 ---
-<aside class="svc-box" data-svc aria-label="Our own paid service">
+{show && <aside class="svc-box" data-svc aria-label="Our own paid service">
   <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor does setup, migration and automation work for a fee, at the same price for {which}. It is separate from the review above. <a href="/services/">See the packages</a>.</p>
-</aside>
+</aside>}

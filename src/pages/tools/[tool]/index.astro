@@ -99,7 +99,7 @@ const glance = [
       <Provenance ids={[id]} />
       <div class="cta-row"><AffLink tool={id} page={path} placement="end-cta" label={`See ${poss(t.name)} plans and prices`} /></div>
       <Faq items={faq} />
-      <ServiceBox scope="tool" />
+      <ServiceBox scope="tool" ids={[id]} />
       <AuthorBox />
       <KeepReading links={related} />
       <Updated modified={d.modified} published={d.published} />

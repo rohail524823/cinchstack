@@ -94,7 +94,7 @@ const jsonld = [
       </div>
       <Provenance ids={s.layers.map((l) => l.pick)} />
       <Faq items={faq} />
-      <ServiceBox scope="stack" />
+      <ServiceBox scope="stack" ids={s.layers.map((l) => l.pick)} />
       <AuthorBox />
       <KeepReading links={related} />
       <Updated modified={d.modified} published={d.published} />
