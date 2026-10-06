@@ -1,0 +1,99 @@
+---
+title: "GoHighLevel AI pricing 2026: AI Employee and Voice AI costs"
+description: "GoHighLevel's AI Employee costs $50 or $97 per sub-account a month; without it, Conversation AI, Voice AI and review replies bill per token, minute or reply."
+h1: "GoHighLevel AI pricing: AI Employee, Voice AI and Conversation AI"
+quickAnswer: "As of 26 September 2026, GoHighLevel's AI Employee plans cost $50 (Growth) or $97 (Unlimited) a month per sub-account, on top of the platform plan. A sub-account without one pays per use from the prepaid wallet: Conversation AI on GPT-5 costs $1.25 per million input tokens and $10.00 per million output tokens, the Voice AI engine costs $0.045 a minute before text-to-speech, token and phone charges, and each AI-assisted review reply costs $0.01. Phone charges apply to every AI phone call on any plan. A single local business should start on pay-per-use; an agency should reserve Unlimited for client sub-accounts whose AI use, usually a busy voice agent, would cost more than $97 a month on pay-per-use."
+published: 2026-10-06
+related:
+  - /stacks/agency/
+  - /stacks/local-service/
+extraFigures:
+  - value: "10.00"
+    why: "GPT-5 output-token rate per 1M tokens for Conversation AI, from the conversation-ai-tokens-gpt5 usage note (HighLevel's AI Product Pricing article)"
+  - value: "0.015"
+    why: "Text-to-speech rate per minute for OpenAI or Cartesia voices, from the voice-ai-engine usage note (HighLevel's AI Product Pricing article)"
+  - value: "0.06"
+    why: "Cheapest pay-per-use Voice AI minute before LLM tokens and phone charges: $0.045 Voice Engine + $0.015 OpenAI or Cartesia text-to-speech"
+  - value: "6"
+    why: "Pay-per-use cost of the AI Employee Growth plan's 100 included Voice AI minutes before LLM tokens: 100 × $0.06"
+  - value: "1,600"
+    why: "Voice AI minutes a month at which pay-per-use reaches the $97 AI Employee Unlimited fee at the cheapest rate, before LLM tokens: $97 ÷ $0.06 = 1,617, rounded to about 1,600"
+  - value: "450"
+    why: "Voice AI minutes a month at which pay-per-use reaches the $97 AI Employee Unlimited fee with ElevenLabs' V3 voice, before LLM tokens: $97 ÷ ($0.045 Voice Engine + $0.170 V3 text-to-speech, from the voice-ai-engine usage note) = 451, about 450"
+  - value: "800"
+    why: "Content AI images that cost as much as the $50 Growth plan on pay-per-use: $50 ÷ $0.063 per image = 794, nearly 800"
+  - value: "0.05"
+    why: "AI Employee Growth's $50 monthly fee spread over its 1,000 included Conversation AI responses: $50 ÷ 1,000"
+  - value: "5,000"
+    why: "AI-assisted review replies that cost as much as the $50 Growth plan on pay-per-use: $50 ÷ $0.01 per reply"
+  - value: "0.375"
+    why: "HighLevel's worked example in its AI Product Pricing article: 100,000 input tokens × $1.25/1M + 25,000 output tokens × $10.00/1M = $0.125 + $0.25"
+---
+
+## How does GoHighLevel bill for AI: a plan or pay-per-use?
+
+When we read it on <Checked tool="gohighlevel" />, HighLevel's AI Product Pricing article, updated the day before, put every sub-account on one of three AI billing modes. A sub-account is HighLevel's name for a client or location workspace. Two of the modes are monthly subscriptions sold per sub-account: AI Employee Growth at $50 and AI Employee Unlimited at $97. The third, pay-per-use, has no monthly fee and applies automatically to any sub-account on neither plan. It charges each AI action by the token, the minute or the item, and the money comes out of the same prepaid wallet that pays for texts, calls and email.
+
+All of these charges sit on top of the platform subscription, which starts at <Price tool="gohighlevel" plan="starter" /> a month for Starter. The choice is made sub-account by sub-account, so an agency can put its busiest client on Unlimited, another on Growth and leave quiet accounts on pay-per-use.
+
+Mind the names: "AI Employee Unlimited" is the $97 AI add-on, while plain "Unlimited" is the <Price tool="gohighlevel" plan="unlimited" /> platform plan, and buying one does not include the other. Some AI costs nothing extra in any mode, subject to fair use, including Funnel AI (up to 1,000 prompts a day per sub-account), Email AI and the knowledge base itself, though its content counts toward Conversation AI's input tokens.
+
+## What do AI Employee Growth and AI Employee Unlimited include?
+
+AI Employee Growth costs $50 per sub-account a month. HighLevel's article lists these monthly allowances:
+
+- 1,000 Conversation AI agent responses
+- 100 Voice AI minutes, shared across inbound calls, outbound calls and the Voice AI widget
+- Reviews AI and Content AI with no monthly cap, under fair use
+- 100 messages a day plus 500 more a month on the Conversation AI prompt optimizer, and 100 minutes on the Voice AI one
+- Ask AI and AI Studio usage, metered in 5-hour windows, and 100 Managed Agents runs
+
+Past an allowance, the sub-account's AI usage limit setting decides what happens: "Keep AI running, just notify" bills the extra at pay-per-use rates, while "Block AI at the limit" stops the AI.
+
+AI Employee Unlimited costs $97 per sub-account a month. It lifts the monthly caps on Conversation AI, Voice AI, Reviews AI, Content AI and both prompt optimizers, gives 3 times Growth's Ask AI and AI Studio allowance per 5-hour window, and allows 1,000 Managed Agents runs a month. The plan is subject to fair use: HighLevel says it may throttle, limit, require an upgrade or end access, with or without notice, if usage is excessive, abusive or hurts platform performance. Its pricing page adds that "unlimited" describes "platform functionality and access only."
+
+Neither plan covers Agent Studio, which stays pay-per-use everywhere, or the Phone System charges for calls and texts.
+
+## What do Conversation AI, Reviews AI and Content AI cost on pay-per-use?
+
+Conversation AI, the agent that replies to customers' messages, is billed in tokens, the units AI models use to measure text. Input tokens are everything sent to the model: the customer's message, the conversation history, the agent's instructions, contact details and knowledge-base content. Output tokens are the words the agent writes back. On GPT-5, input costs $1.25 per million tokens and output $10.00 per million; GPT-5 Mini costs a fifth of both rates.
+
+Because the token count changes with every exchange, nobody can quote the price of a conversation in advance. HighLevel's own worked example, a conversation with 100,000 input tokens and 25,000 output tokens at GPT-5's rates, comes to $0.375, and in it the output costs twice as much as the input despite being a quarter of the volume. More back-and-forth, longer replies and a bigger knowledge base all raise the count.
+
+Reviews AI costs $0.01 for each AI-assisted reply sent. Generating up to 4 suggestions per review is not charged, and a suggestion you substantially rewrite before sending counts as a manual reply. Content AI costs $0.063 per image, with text billed separately per 1,000 words.
+
+## How much does GoHighLevel Voice AI cost per minute?
+
+On pay-per-use, HighLevel's AI article splits a standard Voice AI call into three charges, plus the phone line:
+
+1. The Voice Engine, at $0.045 a minute, the rate in force since 20 May 2026.
+2. The text-to-speech voice: $0.015 a minute for OpenAI or Cartesia, while ElevenLabs' V3 voice costs more than 10 times as much.
+3. LLM tokens for the model that writes the agent's words, at a price per million tokens that varies widely across the OpenAI, Google and Anthropic models listed.
+4. Phone System charges for the call itself.
+
+That puts the floor at $0.06 a minute before tokens and phone charges, the same arithmetic behind HighLevel's own 10-minute example.
+
+Speech-to-speech models work differently: one realtime model hears the caller and answers in audio, at a single rate that bundles audio, text, cache tokens, transcripts and infrastructure. That rate is $0.10 a minute for Google's Gemini live model, or twice that for OpenAI's gpt-realtime, and phone charges still apply. The article does not say whether Growth's 100 minutes or the Unlimited plan cover speech-to-speech, so confirm that in the app before relying on it.
+
+The phone charge applies on every plan. HighLevel's glossary says Phone System charges "still apply even when Voice AI Inbound is covered by AI Employee Unlimited." Its Phone System guide lists US and Canada calls at $0.0166 a minute outbound and $0.01165 a minute for inbound calls answered in the web or mobile app or on a desk phone, billed in whole minutes with any partial minute rounded up, plus $1.15 a month per local number. The AI article does not say which of those line items an AI-handled call uses.
+
+## What else adds to a GoHighLevel AI bill?
+
+- **Texts.** HighLevel's AI article says text and call charges are billed separately on every plan, so an agent that replies by SMS also runs up ordinary texting charges: $0.00747 per segment in the US plus a carrier fee, with incoming texts charged at the same rate.
+- **Agent Studio.** It bills by model tokens, API usage, searches or content-generation units on every plan, AI Employee Unlimited included.
+- **Workflow AI actions.** The article's summary table lists Workflow AI as free, yet its Workflow AI section prices 4 premium actions (Decision Maker, Intent Detection, Summarize Text and Translate) at $0.01 per execution, and GPT actions inside workflows bill at the model's own rates.
+- **The wallet.** HighLevel's wallet article says auto recharge cannot be switched off, and Smart Adjustment raises the top-up amount after more than 3 recharges in 7 days unless you disable it. A wallet usage notification per sub-account emails you when a client's spend passes a threshold you set.
+- **Rebilling.** Starter cannot rebill any usage to clients, and HighLevel's rebilling article says at-cost rebilling starts on the <Price tool="gohighlevel" plan="unlimited" /> Unlimited plan, but its AI article says rebilling AI Employee usage needs the <Price tool="gohighlevel" plan="agency-pro" /> Agency Pro plan. Without rebilling, the agency's wallet carries the cost.
+- **Taxes.** Sales tax or VAT is added on top where it applies, and tax on wallet spending is taken from the wallet after each month.
+- **Rate changes.** HighLevel warns that AI prices and model availability can change. Before quoting a client, check the in-app Wallet Pricing page, a Labs feature you switch on under Settings.
+
+## When does an AI Employee plan cost less than pay-per-use?
+
+Growth is cheaper than pay-per-use when the usage it includes would cost a sub-account more than $50 on pay-per-use. Unlimited beats pay-per-use once the sub-account's covered AI usage would cost more than $97 there, and beats Growth once Growth's $50 plus its overage passes $97. Phone and text charges don't change the comparison, because they apply either way. Product by product, the thresholds look like this:
+
+- **Chat:** Growth's $50 spread across its 1,000 responses works out to $0.05 a reply. Unless the average reply costs more than that in tokens, which on GPT-5 takes tens of thousands of input tokens and on GPT-5 Mini 5 times as many, chat alone does not justify Growth.
+- **Review replies:** at $0.01 each, a sub-account would need 5,000 AI-assisted replies in a month to match Growth's fee.
+- **Images:** at $0.063 each, it takes nearly 800 Content AI images a month to reach $50.
+- **Voice:** Growth's 100 included minutes would cost $6 on pay-per-use at the $0.06 floor before tokens, and past 100 minutes Growth charges the same rates as pay-per-use, so Growth does little for a sub-account that mainly wants a voice agent. Unlimited's $97 equals about 1,600 minutes at that floor, every cent of tokens per minute pulls the crossover lower, and ElevenLabs' V3 voice drops it to about 450 minutes. On the standard voice pipeline, a voice agent that talks for more than about 1,600 minutes a month is cheaper on Unlimited whatever the model or voice.
+
+The sound method is to measure before you commit. Leave a new sub-account on pay-per-use for a full month, then open the AI Suite, HighLevel's agency-level report, which breaks AI spend, token use and pay-per-use charges down by sub-account. Price that month's covered AI usage three ways: as billed on pay-per-use, as $50 plus whatever fell outside Growth's allowances, and as a flat $97. Move the sub-account to the cheapest. A single local business should begin on pay-per-use and let those numbers decide; an agency should treat the plans as tools for its heaviest clients, not as a default for every sub-account.

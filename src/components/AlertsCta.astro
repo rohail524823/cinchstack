@@ -1,0 +1,10 @@
+---
+// "Get an email when these prices change": shown only once ALERTS_URL (src/lib/site.mjs) points at
+// a working opt-in page, so the site never promises an email nobody is set up to send.
+import { ALERTS_URL } from '../lib/site.mjs';
+interface Props { place: string }
+const { place } = Astro.props;
+---
+{ALERTS_URL && (
+  <p class="alerts"><a class="btn" href={ALERTS_URL} rel="noopener" data-alerts={place}>Get an email when these prices change</a> <span class="note">Free. One short email when a price we track changes. Unsubscribe in one click.</span></p>
+)}

@@ -99,7 +99,7 @@ The P1 list comes from the demand report: each page carries a GoHighLevel or Sys
 
 **Rules that shape these pages:**
 - No earnings claims.
-- No trial, coupon or bonus wording near HighLevel links unless HighLevel authorises it in writing (a draft asking is in Gmail).
+- No trial, coupon or bonus wording near HighLevel links unless HighLevel authorises it in writing (asked by email on 6 October 2026).
 - No sentence reused on more than three pages: the build enforces it, so each vertical page needs real substance.
 - No first-hand claims without a trial record.
 
@@ -139,10 +139,10 @@ The P1 list comes from the demand report: each page carries a GoHighLevel or Sys
 
 ## 5. Owner's to-do list, in order
 
-1. **Gmail drafts:** send the HighLevel one (trial wording, extended trial, referral slug). Paste the Systeme.io one into https://systeme.io/support/contact-us.
+1. **Watch for two replies** (both emailed on 6 October 2026): HighLevel's affiliate manager on trial wording, an extended-trial page and a referral slug; Systeme.io support (reply promised within 24 hours) on whether comparison pages may carry its link. Forward each answer to Claude Code; each is a one-line change.
 2. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
 3. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough). Then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
-4. **HighLevel Certified Admin directory** ($97/month): it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one. It is the most likely source of paying setup clients while the site has little traffic. Ask HighLevel first whether it needs a separate subscription.
+4. **HighLevel Certified Admin directory:** it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one, so it is the most likely source of paying setup clients while the site has little traffic. It costs $97/month and needs an active HighLevel subscription as well (Starter is $97/month), so about $194/month in all. The subscription also gives you the hands-on access the site's GoHighLevel pages can then cite as first-hand evidence. Your call: one $400 setup job a month covers it.
 5. **Service prices:** check them against your real hours on past Upwork jobs and edit `src/data/services.json` if needed. Also confirm the promise of a reply within two business days.
 6. **Monthly:** update the Upwork "as of" figures in `services.json` when they change.
 

@@ -1,0 +1,37 @@
+{
+  "page": "guides/gohighlevel--sms-and-calling-costs",
+  "items": [
+    {
+      "q": "Does GoHighLevel charge for incoming texts, calls and emails?",
+      "a": "Yes. GoHighLevel bills incoming messages and calls from the same prepaid wallet as outgoing ones. An incoming text costs $0.00747 per segment in the US and Canada, exactly what a sent text costs, plus an inbound carrier fee of $0.0025 to $0.0100 per segment that depends on the network. An incoming picture message costs $0.0165 on a local number or $0.0200 on a toll-free number, plus carrier fees.\n\nAnswering a call in the browser, the mobile app or a desk phone costs $0.01165 a minute, and forwarding it to another US number costs $0.02 a minute because both legs are billed. LC Email counts received mail as well: HighLevel's LC Email article says incoming and outgoing emails, including To, CC and BCC, are all charged at $0.675 per 1,000. A business whose customers reply often should budget for traffic in both directions, not only for what it sends."
+    },
+    {
+      "q": "What happens to the fees if my GoHighLevel A2P campaign is rejected?",
+      "a": "The money already charged stays charged. HighLevel's Phone System guide says submitting an A2P 10DLC campaign starts both the one-time registration fee, $22.50 for a Sole Proprietor or Low Volume Standard brand, and the monthly campaign fee, whatever the review outcome. The $3 Fast Track part of the registration is non-refundable, and HighLevel's Terms of Service say all fees are non-refundable.\n\nA rejection does not bring a second vetting fee, though. Since 1 February 2026, resubmitting a rejected campaign carries no charge, replacing the earlier $15 resubmission fee. A new, separate campaign under the same brand still costs $15.00 in vetting. If you decide not to text after all, delete the campaign: the guide says that is how to stop future monthly charges, which start at $1.50 a month for a Low Volume Mixed campaign."
+    },
+    {
+      "q": "Can I turn off auto-recharge in my GoHighLevel wallet?",
+      "a": "No. HighLevel's help article on wallet settings states that Auto Recharge cannot be disabled on the wallet that prepays GoHighLevel's texts, calls, numbers and email. What you control is the recharge amount and the threshold balance that triggers it, and HighLevel's Terms of Service name a $10 threshold.\n\nYou can turn off the separate Smart Adjustment setting, shown as Auto-update. Left on, it raises the recharge amount to the next level whenever the same amount triggers more than 3 times in 7 days, for example from $200 to $500. Switching it off leaves Auto Recharge running at the amount you picked. Two related rules matter before you load a large balance: wallet credit cannot pay the plan subscription, and under the Terms a balance still sitting in the wallet 30 days after cancellation passes to HighLevel unless you request a refund first."
+    },
+    {
+      "q": "Does GoHighLevel charge for text messages that are not delivered?",
+      "a": "Yes, in most cases. HighLevel's Phone System guide says charges apply to every message where a delivery attempt has been made, regardless of the final delivery status, and that refunds are not provided for undelivered texts. That covers texts from toll-free numbers, texts from A2P-registered numbers and texts blocked by country restrictions. The only exception the guide names is an internal error before the message reaches the phone provider, which is not charged.\n\nEach failed attempt to a US or Canadian number therefore costs the full $0.00747 per segment. The practical fix is list hygiene: remove numbers that keep failing before the next campaign. HighLevel also sells a Number Intelligence bundle whose validation check stops a text to an invalid number from being sent, but it is priced per check and switches on paid spam detection and caller-name lookup at the same time."
+    },
+    {
+      "q": "Are GoHighLevel's SMS and call rates the same outside the US?",
+      "a": "Only in Canada. The rates in GoHighLevel's Phone System guide, such as $0.00747 per text segment, $1.15 a month for a local number and $0.0166 a minute for outbound calls, are US and Canada rates. HighLevel's guide applies those prices only to numbers in the two countries and to texts and calls that stay between them, so they do not carry over to other markets.\n\nRates for other countries are in rate sheets attached to the same guide, and the in-app Wallet Pricing page, a Labs feature, shows localized prices for 27 countries, with default pricing for any country it does not list yet. Forwarding a call to an international number uses higher international rates for the second leg, and calls to Alaska and the Yukon follow regional pricing. Check your own country's rates before you budget for texting or calling there."
+    },
+    {
+      "q": "Does GoHighLevel have a calculator for SMS and email costs?",
+      "a": "Not yet. HighLevel's Wallet Pricing article lists a pricing calculator among future phases of its billing transparency work, so for now GoHighLevel offers a rate list rather than an estimator. That list is the in-app Wallet Pricing page, switched on under Settings and then Labs, which shows unit prices for every wallet-billed product in 27 countries.\n\nTo estimate a month yourself, multiply your text segments by $0.00747 plus the carrier fee, $0.0045 for T-Mobile and Verizon customers, and add $0.675 for every 1,000 emails. Then add $1.15 per local number, the A2P campaign fee of $1.50 a month for Low Volume Mixed, and 5% of the carrier and campaign fees if HighLevel's markup applies to your account. The grid on this page runs that sum for 200 to 10,000 texts and 2,000 to 100,000 emails, using the same rates as our real-bill examples."
+    },
+    {
+      "q": "Does GoHighLevel add sales tax to texting and email charges?",
+      "a": "Yes, where tax applies. HighLevel's Terms of Service say every fee excludes sales tax, VAT, GST and similar charges, and that products bought with wallet funds are generally taxable in many jurisdictions. Instead of adding tax to each text or email, GoHighLevel calculates tax on wallet spending after the end of each calendar month and takes it from the wallet balance. If that leaves the balance negative, the Terms say HighLevel charges the card on file to cover it.\n\nA business with a VAT or GST number should give it to HighLevel, because the Terms warn that VAT or GST may be assessed without one and may not be refunded if the number arrives later. None of the rates on this page, from $0.00747 per text segment to $0.675 per 1,000 emails, include tax."
+    },
+    {
+      "q": "How much does call recording cost in GoHighLevel?",
+      "a": "Recording a call on GoHighLevel's phone system costs $0.0025 a minute on top of the call's own per-minute rate, and the file then costs $0.0005 per stored minute every month it is kept. HighLevel's Phone System guide says storage is billed daily per sub-account and applies to older recordings too, so an account that has recorded calls for years keeps paying for the archive. To stop that, the guide points to the call recording option under Settings, Phone Numbers, Advanced Settings, where recordings can be deleted automatically after a set period.\n\nTranscription is priced separately at $0.024 a minute, more than the $0.0166 a minute an outbound call costs, so transcribing every call more than doubles its per-minute cost."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+---
+title: "GoHighLevel SMS pricing 2026: texts, calls, A2P and email"
+description: "GoHighLevel bills US and Canadian texts at $0.00747 a segment plus carrier fees, with calls, numbers, A2P and email on top of the plan. Rates and a monthly grid."
+h1: "GoHighLevel SMS, calling and email costs"
+quickAnswer: "As of 26 September 2026, GoHighLevel charges $0.00747 per text segment sent or received in the US and Canada, plus a carrier fee of $0.0035 to $0.0050 on each outbound segment, and the plan price covers none of it. A local number costs $1.15 a month, outbound calls $0.0166 a minute plus a conference charge, and LC Email $0.675 per 1,000 emails. Texting US mobiles from a local number also requires A2P 10DLC registration: from $22.50 once, then a campaign fee from $1.50 a month. On the $97 Starter plan, a small team sending 1,000 texts and 20,000 emails a month pays $125.42 before tax, replies and the one-time registration."
+published: 2026-10-06
+related:
+  - /stacks/local-service/
+  - /stacks/agency/
+extraFigures:
+  - value: "64.00"
+    why: "High Volume Standard A2P 10DLC brand and first-campaign registration, one-time. A published fee recorded in the a2p-registration note in src/data/pricing/gohighlevel.json from HighLevel's A2P fee article (source 7), not a computed figure."
+---
+
+## What does GoHighLevel charge for each text message?
+
+GoHighLevel's built-in phone system, LC Phone, bills texts by the segment rather than by the message. HighLevel's Phone System guide puts the US and Canada rate at $0.00747 per segment and applies the same rate to texts your customers send you. HighLevel's A2P article says most US carriers count 160 characters of plain text as one segment; anything longer splits into two or more segments, and each one is billed.
+
+The recipient's carrier then adds its own fee to every outbound segment: $0.0035 for AT&T, $0.0045 for T-Mobile and Verizon, $0.0050 for US Cellular and $0.0040 for every other network. Incoming texts carry inbound carrier fees of $0.0025 to $0.0100 a segment. For a T-Mobile or Verizon customer, the carrier fee adds more than half again to the segment rate.
+
+HighLevel may also add 5% to those carrier fees, and its own help articles disagree on whether and when. Its markup article, last updated 9 September 2026, says the 5% applies whether or not an agency rebills its clients. Its Phone System guide says in one place that the markup always applies and in another that it applies only when re-billing is enabled, and its A2P article says HighLevel adds no markup to them. Our real-bill examples and the grid below include it, and the amount at stake is small: in the small-team bill, the markup on carrier and A2P fees is a $0.30 line.
+
+Stale lists cost money too. HighLevel charges for every text it attempts to deliver, whatever the outcome, and its guide says undelivered texts are not refunded, so texts to dead numbers are paid for on every send. Picture messages cost more: an outbound MMS is $0.022 per segment, about three times a plain text segment, and an incoming one is $0.0165 on a local number or $0.0200 on a toll-free number, before carrier fees.
+
+## What does A2P 10DLC registration cost on GoHighLevel?
+
+Texting US mobile numbers from a GoHighLevel local number requires A2P 10DLC registration. HighLevel's A2P article says every business on its phone system must register a brand and its campaigns with The Campaign Registry. The fees come in three parts:
+
+- **One-time registration:** $22.50 for a Sole Proprietor or Low Volume Standard brand, covering brand registration, vetting of the first campaign and a $3 Fast Track fee meant to get approval within 3 business days. A High Volume Standard brand costs $64.00 to register.
+- **Each further campaign:** $15.00 in vetting under the same brand. Resubmitting a rejected campaign costs nothing extra.
+- **Monthly campaign fee:** $1.50 for the Low Volume Mixed use case, $2.00 for a Sole Proprietor campaign and $10.00 for standard use cases, for as long as the campaign stays active.
+
+The timing is the catch. Submitting a campaign starts both the registration fee and the monthly fee, whatever the review decides, and the monthly fee keeps running until you delete the campaign. If HighLevel's 5% markup applies, it covers these fees too, and the Phone System guide prints some monthly fees 5% higher than the A2P article does. Our examples use the A2P article's $1.50.
+
+Daily limits matter when you pick a tier. The A2P article gives a Sole Proprietor brand one number and 3,000 segments a day, a Low Volume Standard brand 6,000 a day and a High Volume Standard brand 600,000 a day, and the Low Volume Mixed campaign caps traffic to T-Mobile customers at 2,000 segments a day. A whole list sent in one burst can reach those limits long before the monthly total looks large.
+
+## How much does GoHighLevel charge to send and validate email?
+
+LC Email, GoHighLevel's built-in email service, costs $0.675 per 1,000 emails on every plan. The meter counts more than campaigns: HighLevel's LC Email article says all incoming and outgoing emails are charged, including To, CC and BCC, and forwarded emails cost the same as sent ones. A shared inbox that receives plenty of mail adds to the bill even in a month without a newsletter.
+
+Email validation, which checks that an address can receive mail before you send to it, costs $2.50 per 1,000 checks, almost four times the price of sending to the same addresses. HighLevel's validation help article says each address is checked before the first email goes to it, unless it has been checked already. With the optional 90-day re-verification setting on, an address last checked more than 90 days earlier is checked, and billed, again before its next email.
+
+New sub-accounts also face sending caps while they build a reputation: 250 emails on day 1, rising to 10,000 on day 7, then up to 25,000 a day on a shared domain or up to 550,000 a day with a dedicated sending domain. The same article's FAQ also mentions a 15,000 limit for a sub-account without its own dedicated domain, so a bigger list may need splitting across days. A dedicated IP costs $59 a month, is sold only on the Unlimited and Agency Pro plans, and suits only big senders: HighLevel's guidance is to keep one busy with 50,000 or more emails each week. A business that already pays another email provider can connect its own SMTP service instead of LC Email and pay that provider for sending rather than HighLevel.
+
+## What does a month of GoHighLevel texting and email cost?
+
+<UsageMatrix />
+
+Find your monthly texts down the side and your emails across the top, then add the plan price: <Price tool="gohighlevel" plan="starter" /> a month on Starter. The cell for 1,000 texts and 20,000 emails is the usage in our small-team bill, which comes to <Real tool="gohighlevel" size="small" /> a month with Starter included. The 200-text, 2,000-email cell matches the solo bill, and the 5,000-text, 100,000-email cell matches the growing team's.
+
+Texts move the total far more than email does. One text segment costs more than ten emails before any carrier fee, so a business sending 10,000 texts and few emails pays more than one sending 100,000 emails and few texts. At about 5,000 texts and 50,000 emails, usage alone costs as much as the Starter plan, and above that it becomes the larger share of the bill. The fixed part of every cell, one local number and one campaign fee, stays small at any volume.
+
+Treat each cell as a baseline, not a quote. It leaves out replies, which cost the same segment rate plus an inbound carrier fee; incoming email; texts longer than 160 characters; picture messages, calls and extra numbers; the one-time A2P registration; and tax. It prices every carrier fee at the T-Mobile and Verizon rate, near the top of the range, so a list made up mostly of AT&T customers pays slightly less on that line. It also assumes the $1.50 Low Volume Mixed campaign throughout, which fits steady daily sending better than one large blast.
+
+## How much do GoHighLevel phone numbers and calls cost?
+
+A local US or Canadian number on GoHighLevel costs $1.15 a month, and a toll-free number costs $2.15 a month. Rates for numbers, texts and calls in other countries sit in separate rate sheets attached to HighLevel's Phone System guide.
+
+Calls are billed per minute, and any partial minute rounds up to a full one:
+
+- **Outbound:** $0.0166 a minute, made up of a $0.0126 carrier leg and $0.004 in client minutes. HighLevel runs every outgoing call as a conference call, so each also carries a conference charge of $0.0018 a minute per participant, transfer or not.
+- **Inbound, answered in the browser, the mobile app or a desk phone:** $0.01165 a minute.
+- **Inbound, forwarded to another US number:** $0.02 a minute, since both legs of the call are billed.
+- **Inbound to a US toll-free number:** $0.0198 a minute.
+
+Extras run on the same minutes. Recording costs $0.0025 a minute, then $0.0005 per stored minute for every month the file is kept, older recordings included; the call recording option under Settings, Phone Numbers, Advanced Settings can delete recordings automatically. Transcription costs $0.024 a minute, more than the outbound call it transcribes. HighLevel's pricing guide adds that an outbound call nobody answers, with no voicemail left, is generally not charged.
+
+## How does GoHighLevel's prepaid wallet charge your card?
+
+GoHighLevel takes texts, calls, numbers and email from a prepaid wallet, billed apart from the plan; HighLevel's billing FAQ says wallet credit cannot pay the subscription. You set a recharge amount and a threshold balance, and whenever the balance drops below the threshold, HighLevel charges your card the recharge amount. Its wallet help article says Auto Recharge cannot be disabled, and its Terms of Service name a $10 threshold. The Phone System guide even answers a customer charged before making any calls: the wallet had recharged as soon as the balance fell under the threshold. On Starter, that one wallet covers the usage of every sub-account, because passing usage on to clients through rebilling starts on the Unlimited plan.
+
+A second setting, Smart Adjustment (labeled Auto-update), lifts the recharge amount to the next level when the same amount triggers more than 3 times within 7 days; HighLevel's example moves a $200 recharge to $500. You can switch Smart Adjustment off from the three-dot menu beside the recharge controls, and Auto Recharge carries on at the amount you chose.
+
+Tax and location change the numbers as well. HighLevel's fees exclude sales tax and VAT, and its Terms say tax on wallet spending is calculated after each calendar month and taken from the wallet balance, which can push the balance negative and set off another card charge. The phone and text rates on this page are US and Canada rates, as published when we checked on <Checked tool="gohighlevel" />. HighLevel's in-app Wallet Pricing page, a Labs feature you switch on in Settings, lists rates for 27 countries, and its help article puts a pricing calculator in a later phase of that work; until it arrives, the grid above does the arithmetic from the published rates.

@@ -21,6 +21,7 @@ import AuthorBox from '../../../components/AuthorBox.astro';
 import ServiceBox from '../../../components/ServiceBox.astro';
 import KeepReading from '../../../components/KeepReading.astro';
 import Updated from '../../../components/Updated.astro';
+import AlertsCta from '../../../components/AlertsCta.astro';
 
 export async function getStaticPaths() {
   const reg = await registry();
@@ -66,6 +67,7 @@ const jsonld = [
         {pricingExists && <a class="btn" href={`/tools/${id}/pricing/`}>Every {t.name} price, line by line</a>}
       </div>
       <Provenance ids={[id]} />
+      <AlertsCta place="guide" />
       <Faq items={faq} />
       <ServiceBox scope="tool" ids={[id]} />
       <AuthorBox />

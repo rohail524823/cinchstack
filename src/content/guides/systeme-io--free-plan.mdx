@@ -1,0 +1,88 @@
+---
+title: "Systeme.io free plan 2026: limits and when you must upgrade"
+description: "Systeme.io's Free plan covers 2,000 contacts, 3 funnels and 1 course for $0, but caps lifetime sales at $10,000. What it includes, and when to upgrade."
+h1: "Systeme.io free plan: what you get and when you must upgrade"
+quickAnswer: "As of 26 September 2026, Systeme.io's Free plan costs $0, needs no credit card and never expires. It includes 2,000 contacts, 3 sales funnels, 1 automation rule, 1 custom domain, 1 course with up to 500 students and unlimited email sends, and Systeme.io takes 0% of each sale. The limit that can halt sales sits in the terms, not on the pricing page: after $10,000 in lifetime sales, you get 3 days to upgrade before payment pages stop accepting new sales. A course creator or coach should build on Free, then move to Startup at $17 a month before any launch that could cross that line."
+published: 2026-10-06
+related:
+  - /tools/systeme-io/pricing/
+  - /tools/systeme-io/
+extraFigures:
+  - value: "10,000"
+    why: "Free-plan lifetime sales-revenue cap from systeme.io's terms, Article 5a: 'Accounts on the free plan are limited to USD 10,000 in lifetime sales revenue' (snapshots/systeme-io/2026-09-26-terms.txt, line 49). The plans API behind the pricing page sets maxTotalRevenue to 1000000 US cents on Free only."
+  - value: "3,000"
+    why: "CinchStack's sell-layer solo scenario: $3,000 a month in sales (src/data/pricing/systeme-io.json, scenarios[0] label and assumptions, which note this seller passes the Free cap in month 4; same figure in the /methodology/ table). Recorded as text, not as a numeric field."
+---
+
+Systeme.io's Free plan is a plan, not a trial, so what matters is which of its limits you reach first. This guide lists the ones that matter, including a sales cap that sits in the terms rather than on the pricing page, and names the paid plan that lifts each. Figures are as we checked them on <Checked tool="systeme-io" />.
+
+## What does the Systeme.io free plan include?
+
+The Free plan costs nothing, needs no credit card and, according to Systeme.io's pricing FAQ, never expires. The plan card itself calls it "perfect for testing the platform". The comparison table on the pricing page, which agrees with the plans data behind it, sets these limits:
+
+- **Contacts and email:** 2,000 contacts, unlimited emails sent and unlimited newsletters, but 1 email campaign and 1 tag.
+- **Automation:** 1 automation rule and 1 workflow.
+- **Selling:** 3 sales funnels with 15 funnel steps, 1 one-click upsell, 1 order bump, 1 A/B test and 50 physical product variants, with a 0% Systeme.io transaction fee.
+- **Courses and community:** 1 course for up to 500 students, and 1 community with unlimited members.
+- **Website:** 1 website in up to 2 languages, 1 blog with unlimited posts, 1 custom domain and 1 link-in-bio page.
+- **Running the business:** 1 CRM pipeline, 1 booking calendar event with unlimited bookings, unlimited file storage, and unlimited assistant (staff) accounts and sub-accounts.
+- **Not included:** evergreen webinars.
+
+Two other parts of the pricing page make Free sound roomier. Its "All plans include" box promises unlimited students, but the table and the plans data stop Free at 500. Its FAQ calls funnels and courses "the only meaningful limits" on Free, which passes over the single tag and automation rule and leaves out the sales cap. The terms have a gap of their own: their automatic-upgrade rule covers paid plans only, and they do not say what happens when a Free account passes 2,000 contacts. Treat 2,000 as a ceiling, not a soft target.
+
+## How does Systeme.io's $10,000 free-plan sales cap work?
+
+Article 5a of Systeme.io's terms limits Free accounts to USD 10,000 in lifetime sales revenue: a running total of every sale the account has taken, which does not reset monthly or yearly. Affiliate commissions do not count. Sales in other currencies are converted to US dollars, and the terms warn that exchange-rate changes can affect when an account reaches the limit, so leave headroom if you price in another currency.
+
+The terms set out the sequence:
+
+1. A notice appears on your dashboard as you approach the limit.
+2. When you reach it, Systeme.io emails you and gives you 3 days to upgrade to a paid plan.
+3. If you have not upgraded by then, your payment pages stop accepting new sales.
+4. Selling resumes only when you subscribe to a paid plan. The account is never upgraded or charged automatically.
+
+Paid plans work the other way around: going over a limit brings an email and 3 days to cut usage, then an automatic upgrade and a bill. On Free, nothing is billed and you lose sales instead. The plans data sets a revenue limit on Free and on no paid plan, so any upgrade lifts the cap.
+
+The cap arrives sooner than it sounds. [CinchStack's solo-seller scenario](/methodology/) assumes $3,000 a month in sales, a pace that passes $10,000 during the fourth month, which is why the solo bill on our [Systeme.io pricing page](/tools/systeme-io/pricing/) uses Startup rather than Free. A launch that sells well can cross the line in days, and 3 days is a short window in the middle of a promotion. Upgrade before a launch that could reach the cap, not after the email arrives.
+
+Recurring offers carry one more risk. The terms speak only of new sales and do not say whether payments on subscriptions or installment plans that customers started earlier continue after the cutoff. If you sell memberships or payment plans on Free, get an answer from Systeme.io support before your total gets close.
+
+## Can you remove the Systeme.io badge without paying?
+
+No. Systeme.io's help center is direct: "Users on the Free plan cannot remove the affiliate badge." The badge appears on your sales funnel pages, and the help article makes no exception for pages on a custom domain.
+
+On Startup, Webinar or Unlimited, you switch it off page by page: open the funnel page in the editor, go to Settings and uncheck the box labeled "Display an affiliate badge to earn lifetime commissions". As that label suggests, the badge is part of Systeme.io's affiliate program rather than a plain credit line.
+
+For a test offer or a first lead magnet, the badge is a fair trade for a free account. For a coach or consultant whose pages carry the brand, removing it is reason enough to pay for Startup, at <Price tool="systeme-io" plan="startup" /> a month or <Price tool="systeme-io" plan="startup" field="annualMonthly" /> a month billed yearly.
+
+## What do you still pay for on Systeme.io's free plan?
+
+Systeme.io bills a Free account nothing, but other companies charge you once you sell or send texts.
+
+- **Card processing.** Systeme.io takes 0% of each sale on every plan, Free included, and its pricing page says you can accept payments through Stripe or PayPal "at no extra cost". The processor still takes its fee from your own account. Stripe's standard US rate is 2.9% + 30¢ per successful domestic card charge, plus 1.5% for international cards, 0.5% for manually entered cards and 1% when currency conversion is needed. PayPal charges its own rates.
+- **Text messages.** SMS goes out through a Twilio account you connect yourself. The help center says "SMS costs and delivery are managed directly through Twilio", and Systeme.io publishes no SMS rate of its own. Texts are sent by automation rules and workflows, so on Free they share the single rule and workflow with everything else you automate.
+
+Staff logins cost nothing: assistant accounts are unlimited on every plan, including Free. Assistants and admins cannot reach owner-only areas such as the plan, payment gateways and custom domains, so those jobs stay with the owner.
+
+## Which free-plan limit will you hit first, and which plan lifts it?
+
+Pick the plan that lifts the first limit you hit, not the plan with the biggest numbers.
+
+**Startup** costs <Price tool="systeme-io" plan="startup" /> a month, or <Price tool="systeme-io" plan="startup" field="annualMonthly" /> a month billed yearly. It raises every Free limit except evergreen webinars and has no revenue cap. Move here when the sales cap is in sight, when you need a second tag, automation rule, course or custom domain, when your one course nears 500 students, or when you want the badge gone. It allows 5,000 contacts, 10 funnels, 10 automation rules, 10 tags, 3 custom domains and 5 courses with unlimited students. The funnel limit is 10, whatever the pricing FAQ's "unlimited funnels" says.
+
+**Webinar** costs <Price tool="systeme-io" plan="webinar" /> a month, or <Price tool="systeme-io" plan="webinar" field="annualMonthly" /> a month billed yearly. Skip Startup and come straight here if evergreen webinars are how you sell, if your list is already close to 5,000, or if 10 automation rules and 10 tags look tight. Webinar allows 10 evergreen webinars, 10,000 contacts, 50 funnels and 100 each of automation rules and tags.
+
+**Unlimited** costs <Price tool="systeme-io" plan="unlimited" /> a month, or <Price tool="systeme-io" plan="unlimited" field="annualMonthly" /> a month billed yearly. You need it once contacts pass 10,000. It is also the only plan that includes the free done-for-you migration on monthly billing, which helps if you are moving an existing business across. The pricing page calls its contacts unlimited, but the plans data caps them at 1,000,000.
+
+**Physical products** are unlimited on every plan, but their variants are not. Free allows 50 product variants, Startup 100 and Webinar 250, and the plans data stops even Unlimited at 5,000. If your products come in many sizes and colors, count your variants before you choose a plan; a store that needs more than 5,000 should look at a platform built around a product catalog.
+
+## What changes once you pay for a Systeme.io plan?
+
+Four billing rules apply once you leave Free.
+
+- **No trial comes first.** Systeme.io advertises no trial of its paid plans; you upgrade straight from Settings, under My plan.
+- **Yearly billing costs 10 times the monthly price**, which Systeme.io presents as "2 months free", and it brings the free migration on any plan.
+- **Subscriptions are non-refundable** under the terms, and moving down a plan goes through support rather than a button, so prove your setup on Free and start monthly unless you are sure.
+- **Overages turn into upgrades.** Go over a paid plan's limits and Systeme.io emails you; if you have not cut usage within 3 days, it moves you up and bills the higher plan for the rest of the period. Buy with some headroom.
+
+For a course creator or coach with one offer, the order is simple: build and test on Free, move to Startup before the first launch that could pass $10,000 in lifetime sales, and take Webinar only when evergreen webinars or a list near 5,000 contacts call for it.

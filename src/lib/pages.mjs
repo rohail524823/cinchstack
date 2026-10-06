@@ -1,7 +1,7 @@
 // The page registry: every page that exists, its path, kind and heading.
 // Links to pages not in the registry are rendered as plain text ("parked") until the page ships.
 import { getCollection } from 'astro:content';
-import { tools, stacks, comparisons, alternatives, toolIds } from './data.mjs';
+import { tools, stacks, comparisons, alternatives, toolIds, programs } from './data.mjs';
 
 /** "gohighlevel--sms-and-calling-costs" -> ["gohighlevel", "sms-and-calling-costs"] */
 export function guideParts(slug) {
@@ -104,7 +104,14 @@ export async function relatedFor(entryId, extra = []) {
   }
   if (kind === 'guides') {
     const [t] = guideParts(slug);
-    push(`/tools/${t}/pricing/`); guidesFor(t).forEach(push); push(`/tools/${t}/`); cmpFor(t).forEach(push); push(`/alternatives/${t}/`);
+    push(`/tools/${t}/pricing/`); guidesFor(t).forEach(push); push(`/tools/${t}/`);
+    // A program that bars other tools' names on its promotional pages (Systeme.io): its guides link
+    // only to that tool's own pages and our method pages, never to comparisons naming competitors.
+    if (programs[tools[t]?.affiliate?.program ?? t]?.rules?.paidOnlyOn) {
+      const ok = (p) => p.startsWith(`/tools/${t}/`) || ['/methodology/', '/how-we-earn/', '/about/'].includes(p);
+      return out.filter((p) => ok(p) && p !== pathFor(entryId) && reg.has(p)).slice(0, 8).map((p) => ({ href: p, label: reg.get(p).h1 }));
+    }
+    cmpFor(t).forEach(push); push(`/alternatives/${t}/`);
   }
   if (kind === 'stacks') {
     for (const l of stacks[slug].layers) push(`/tools/${l.pick}/pricing/`);

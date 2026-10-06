@@ -1,0 +1,10 @@
+---
+// The privacy notice's paragraph about price-change alerts, present only while alerts are offered.
+import { ALERTS_URL } from '../../lib/site.mjs';
+---
+{ALERTS_URL && (
+  <>
+    <h2 id="price-alerts">Price-change alerts</h2>
+    <p>If you sign up for price-change alerts, you do it on our email provider's sign-up page, which collects your email address (and your name, if you give it). We use it only to send those alerts, each email has a one-click unsubscribe link, and the provider stores the list for us under its own privacy terms.</p>
+  </>
+)}

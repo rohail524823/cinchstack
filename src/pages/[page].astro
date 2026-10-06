@@ -18,6 +18,7 @@ import Coverage from '../components/trust/Coverage.astro';
 import Analytics from '../components/trust/Analytics.astro';
 import Packages from '../components/trust/Packages.astro';
 import ServicesForm from '../components/trust/ServicesForm.astro';
+import AlertsPrivacy from '../components/trust/AlertsPrivacy.astro';
 import { services } from '../lib/data.mjs';
 
 export async function getStaticPaths() {
@@ -52,7 +53,7 @@ if (slug === 'services') {
     });
   }
 }
-const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage, Analytics, Packages, ServicesForm };
+const components = { ...mdxComponents, Programs, Mandated, ContactForm, Factors, Coverage, Analytics, Packages, ServicesForm, AlertsPrivacy };
 ---
 <Base title={e.data.title} description={e.data.description} path={path} noindex={NOINDEX.has(slug)} ogType="website" jsonld={[breadcrumbNode(url, crumbs), page, ...extra]}>
   <div class="wrap page">

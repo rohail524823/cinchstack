@@ -1,11 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { SITE } from '../../lib/site.mjs';
-import { changelog, tool, pricing } from '../../lib/data.mjs';
+import { changelog, tool, pricing, checks } from '../../lib/data.mjs';
 import { registry } from '../../lib/pages.mjs';
 import { longDate } from '../../lib/format.mjs';
 import { breadcrumbNode, webPageNode } from '../../lib/jsonld.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AlertsCta from '../../components/AlertsCta.astro';
 const reg = await registry();
 const path = '/changes/';
 const url = `${SITE}${path}`;
@@ -13,6 +14,9 @@ const crumbs = [{ label: 'Home', href: '/' }, { label: 'Price changes' }];
 const title = 'Software price changes, logged as we find them';
 const description = 'Every price and plan change CinchStack has found on the vendor pricing pages it checks each week, with the date, what changed and the source.';
 const latest = Object.values(pricing).map((p) => p.checkedOn).sort().at(-1);
+const oldest = Object.values(pricing).map((p) => p.checkedOn).sort()[0];
+const passed = Object.values(checks).filter((c) => c.status === 'passed');
+const lastRun = passed.map((c) => c.ranOn).sort().at(-1);
 const toolHref = (id) => (reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
 const real = changelog.filter((c) => c.kind !== 'initial-record');
 const initial = changelog.filter((c) => c.kind === 'initial-record');
@@ -22,8 +26,9 @@ const initial = changelog.filter((c) => c.kind === 'initial-record');
     <div class="read">
       <Breadcrumbs crumbs={crumbs} />
       <h1>Price changes</h1>
-      <p class="lede">We re-read every vendor's pricing page each Monday. When a price, plan or limit changes, it is logged here with the date and the source, and the pricing pages update the same week. Subscribe with <a href="/changes/rss.xml">RSS</a>.</p>
-      <p class="muted">Last check across all tools: <time datetime={latest}>{longDate(latest)}</time>.</p>
+      <p class="lede">Each Monday a script re-reads the vendor pricing pages it can open, and the rest are checked by hand. When a price, plan or limit changes, it is logged here with the date and the source, and the pricing pages update the same week. Subscribe with <a href="/changes/rss.xml">RSS</a>.</p>
+      <AlertsCta place="changes" />
+      <p class="muted">Every price recorded since <time datetime={oldest}>{longDate(oldest)}</time>{lastRun && <>; pages for {passed.length} tools re-read automatically on <time datetime={lastRun}>{longDate(lastRun)}</time></>}.</p>
       <h2 id="changes">Changes found</h2>
       {real.length === 0 ? <p>No changes yet since we began recording on {longDate(initial.at(-1)?.date ?? latest)}. The first weekly re-check will appear here as soon as a vendor moves a price.</p> : (
         <ul class="changes-list">{real.map((c) => <li><time datetime={c.date}>{longDate(c.date)}</time><div><strong>{toolHref(c.tool) ? <a href={toolHref(c.tool)}>{tool(c.tool).name}</a> : tool(c.tool).name}:</strong> {c.summary}{c.old && c.new ? ` (${c.old} → ${c.new})` : ''}{c.source && <> · <a href={c.source} rel="noopener nofollow" target="_blank">source</a></>}</div></li>)}</ul>

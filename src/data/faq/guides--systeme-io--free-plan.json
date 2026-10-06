@@ -1,0 +1,33 @@
+{
+  "page": "guides/systeme-io--free-plan",
+  "items": [
+    {
+      "q": "Does the $10,000 limit on Systeme.io's free plan ever reset?",
+      "a": "No. Systeme.io's terms cap a Free account at $10,000 in lifetime sales revenue, which makes it a running total of everything the account has sold rather than a monthly or yearly allowance. Two details affect how fast you get there. Affiliate commissions do not count toward the total. Sales in other currencies are converted to US dollars, and the terms warn that exchange-rate movements can change when the limit is reached, so a seller who prices in euros or another currency should not plan to the last dollar. As the total nears the cap, a notice appears on the dashboard; at the cap, Systeme.io emails you and allows 3 days to upgrade before payment pages stop accepting new sales. Upgrading is the only way to keep selling, and it is never done for you. Startup, the cheapest paid plan at $17 a month, carries no revenue limit."
+    },
+    {
+      "q": "Is there a free trial of Systeme.io's paid plans?",
+      "a": "Systeme.io does not advertise a trial of Startup, Webinar or Unlimited. On its pricing page, the \"Start for free\" button under each paid plan opens the same \"Create your free account\" signup as the Free plan, so signing up there starts you on Free, and you upgrade from inside the app, under Settings and then My plan. Free works as an open-ended test of the core tools because it never expires and needs no card, but it cannot show you the paid-only parts: evergreen webinars, more than 1 automation rule or tag, or pages without the affiliate badge. Test as much as you can before paying, because Systeme.io's terms say subscriptions are not refundable. The smallest commitment is Startup billed monthly at $17. Billing yearly lowers that to $14.17 a month, but you pay for the whole year at once, with no refund if your plans change."
+    },
+    {
+      "q": "Can I sell an online course on Systeme.io's free plan?",
+      "a": "Yes. Systeme.io's Free plan includes 1 course for up to 500 students, 3 sales funnels, 1 one-click upsell and 1 order bump, and you take payment through your own Stripe or PayPal account with a 0% Systeme.io transaction fee. The pricing page's \"All plans include\" box says students are unlimited, but its comparison table and plans data cap Free at 500, so plan around 500. Three limits decide how far a course business gets on Free. The first is the $10,000 lifetime sales cap in the terms, after which payment pages stop taking new sales once a 3-day upgrade window passes. The second is the single course: a second course, or a 501st student, needs Startup at $17 a month, which allows 5 courses with unlimited students. The third is evergreen webinars, which are missing from Free and Startup and start on Webinar at $47 a month."
+    },
+    {
+      "q": "How many emails can I send on Systeme.io's free plan?",
+      "a": "As many as you like, subject to the fair use policy in Systeme.io's terms. Systeme.io's comparison table lists emails sent and email newsletters as unlimited on every plan, Free included, with no per-email charge. The limits on Free sit around the sending rather than on it: 2,000 contacts, 1 email campaign, 1 tag, 1 automation rule and 1 workflow. With 1 campaign and 1 tag, sending different follow-ups to buyers and subscribers, or to people who came in through two different lead magnets, outgrows the plan long before sending does. Startup, at $17 a month or $14.17 a month billed yearly, raises those counts to 5,000 contacts, 10 email campaigns, 10 tags, 10 automation rules and 5 workflows, with sending still unlimited. Webinar, at $47 a month, goes to 10,000 contacts and 100 campaigns, tags and automation rules."
+    },
+    {
+      "q": "Can I use my own domain on Systeme.io's free plan?",
+      "a": "Yes, one. Systeme.io's Free plan includes 1 custom domain, alongside 1 website in up to 2 languages, 1 blog with unlimited posts and 3 sales funnels. Domains are managed in the Custom Domains section of the settings, which is also where the help center says you can rename your systeme.io subdomain. Only the account owner can add, configure or remove custom domains; assistants and admins invited to the account cannot open that section. A custom domain does not remove the systeme.io affiliate badge, because the help center says Free users cannot turn it off at all. A second or third domain in the same account needs Startup at $17 a month, which allows 3; Webinar, at $47 a month, allows 10, and Unlimited lists custom domains as unlimited. A separate brand can instead go in a sub-account, which the help center says gets the same limits as the main account."
+    },
+    {
+      "q": "Can I go back to Systeme.io's free plan after upgrading?",
+      "a": "Yes, by canceling the paid subscription: in Settings, open Manage my subscriptions, click the three dots beside the plan and choose Cancel subscription. Systeme.io's help center says the cancellation takes effect just before the next renewal date, and the terms make subscriptions non-refundable, so you keep the paid plan until the time you paid for runs out. According to the pricing page's FAQ, the account then returns to Free, and contacts above the 2,000 limit are archived rather than deleted until you take a paid plan again. Free's other limits, such as 3 funnels and 1 automation rule, apply again too. Check your sales history first: the terms measure the $10,000 cap in lifetime sales revenue and make no exception for sales taken on a paid plan, so an account already past it may not be able to keep selling on Free."
+    },
+    {
+      "q": "Do sub-accounts give a free Systeme.io account more room?",
+      "a": "Partly. Systeme.io allows unlimited sub-accounts on every plan, Free included, and its help center says each one gets the same resource limits as the main account. On Free, that means each sub-account has its own 2,000 contacts, 3 funnels, 1 course and 1 automation rule. Each is a separate workspace with its own statistics and its own payment gateway, built for a second brand, project or client, so one list or one funnel cannot borrow room from another sub-account. Neither the help article nor the terms say how the $10,000 lifetime sales cap is counted across sub-accounts, so do not plan a business around splitting sales between them. The same article warns that offering sub-accounts publicly as lifetime deals, or below Systeme.io's official prices, breaks its terms and can lead to immediate suspension."
+    }
+  ]
+}

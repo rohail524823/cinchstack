@@ -1,0 +1,33 @@
+{
+  "page": "guides/gohighlevel--plans-compared",
+  "items": [
+    {
+      "q": "Can I start on GoHighLevel Starter and move to Unlimited when I sign more clients?",
+      "a": "Yes, and starting small carries no penalty. A GoHighLevel upgrade is self-serve from Agency Settings > Billing: you pick the new plan, choose monthly or yearly billing, and HighLevel charges the new plan immediately with a prorated credit for the unused part of Starter. HighLevel's pricing FAQ describes a mid-month upgrade the same way, as paying only the prorated difference. That makes the fourth sub-account the natural trigger. Starter at $97 a month covers 3 sub-accounts; Unlimited at $297 a month removes the cap. Unless you want client rebilling sooner, upgrading before you need the fourth workspace only moves the higher bill earlier. The caution runs the other way: moving down a plan, or from yearly back to monthly billing, is not always possible from the dashboard and can need a request to HighLevel's billing team."
+    },
+    {
+      "q": "What happens if I downgrade from GoHighLevel Unlimited back to Starter?",
+      "a": "GoHighLevel lets an agency pick a lower plan from Agency Settings > Billing, review the new price, effective date and any prorated adjustment, and confirm the change. HighLevel's billing article tells agencies to check the lower plan's features and sub-account limit first, which matters here: Starter allows 3 sub-accounts and has no client rebilling or dedicated email IPs, and the article does not say what happens to any sub-accounts above that number, so ask HighLevel support before downgrading an account that runs more. A downgrade also leaves add-ons, Marketplace apps and phone numbers in place; HighLevel does not cancel them automatically. If the downgrade option is missing from the dashboard, or the plan is billed yearly and you want monthly billing instead, the change goes through HighLevel's support or billing team. HighLevel's Terms of Service say fees already paid are non-refundable."
+    },
+    {
+      "q": "Do I need GoHighLevel Agency Pro to bill clients for their texts and emails?",
+      "a": "No. GoHighLevel's Unlimited plan, at $297 a month, can already pass each client's phone and email usage to that client, but only at cost. HighLevel sets the multiplier at 1.05x on Unlimited and says the extra 5% covers the Stripe fees on the agency's own Stripe account, which is what charges the client's card. Unlimited's rebilling also has conditions: the client must add their own card, phone rebilling works only on HighLevel's built-in phone system rather than a connected Twilio account, and email rebilling works only through HighLevel's own email service. Agency Pro, at $497 a month, is needed to set a higher multiplier, to rebill AI Employee usage and premium workflow steps, or to resell most add-ons at your own markup. Starter, at $97 a month, cannot rebill usage at all."
+    },
+    {
+      "q": "How much does GoHighLevel's SaaS mode cost?",
+      "a": "GoHighLevel includes SaaS mode in its Agency Pro plan, which costs $497 a month or $4,970 billed yearly. The pricing page lists no separate SaaS mode fee, and no cheaper published plan includes it. Several related costs sit outside that price. HighLevel still charges the agency's wallet for every client's texts, calls, email and AI before the agency's Stripe account charges the client, and Stripe's processing fees apply to those charges. An optional white label mobile app is a separate add-on at $497 a month, and per-sub-account add-ons such as AI Employee, at $50 or $97 a month, bill on top. What clients pay is set by the agency in the SaaS Configurator, within HighLevel's rule against advertising access to its core platform for less than HighLevel's own current price for a similar plan."
+    },
+    {
+      "q": "Which GoHighLevel plans include API access?",
+      "a": "HighLevel's API help article says all 3 published GoHighLevel plans include some API access, but not the same kind. In that article, Starter, at $97 a month, and Unlimited, at $297 a month, get basic access with location-level keys, while Agency Pro, at $497 a month, gets advanced access: agency-level keys and OAuth 2.0, which HighLevel recommends for public or Marketplace apps and for reaching several sub-accounts. The pricing page's plan cards list basic API access as an Unlimited addition, so HighLevel's two sources do not fully agree about Starter. The same article says the old V1 API reached end of support on 31 December 2025 and that the option to generate new API keys is being removed for accounts not already using one. Its published limits are 100 requests per 10 seconds and 200,000 a day, per app, for each sub-account or agency."
+    },
+    {
+      "q": "Is GoHighLevel Agency Pro worth it if I don't resell the software?",
+      "a": "Usually not. Most of what GoHighLevel's Agency Pro plan adds over Unlimited is selling machinery: SaaS mode, automatic sub-account creation when a client signs up, a markup on rebilled usage, rebilling of AI Employee usage and premium workflow steps, and most add-ons resold at your own markup. The other two additions are user and agent reporting and advanced API access with agency-level keys and OAuth 2.0. An agency that bills clients a flat retainer and runs their accounts itself gets the same core features, unlimited sub-accounts and at-cost rebilling on Unlimited at $297 a month, against $497 for Agency Pro. Our 15-person agency stack stays on Unlimited for that reason. Pay for Agency Pro when you will actually use SaaS mode, need AI Employee usage rebilled, or run an integration that requires agency-level API access."
+    },
+    {
+      "q": "What does GoHighLevel's Enterprise plan add over Agency Pro?",
+      "a": "GoHighLevel's Enterprise plan has no public price; HighLevel quotes it through its enterprise team and describes it as designed for high-volume businesses and agencies. According to the pricing page, it carries the full feature set of HighLevel's highest platform plan and includes 3 items that are paid add-ons elsewhere: Premium Support, which otherwise costs $500 a month, the white label mobile app, otherwise $497 a month, and the HIPAA compliance add-on, otherwise $297 a month. It also adds a dedicated customer success manager and account manager, a dedicated Slack channel, quarterly business reviews, enterprise reporting, custom development opportunities and API limit increases on request. For most agencies the real choice stays between Unlimited and Agency Pro; Enterprise is worth a quote only when you would buy those add-ons anyway or need higher API limits."
+    }
+  ]
+}

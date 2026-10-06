@@ -97,6 +97,8 @@
   });
 
   document.addEventListener('click', function (e) {
+    var al = e.target.closest ? e.target.closest('a[data-alerts]') : null;
+    if (al && loaded && !window['ga-disable-' + id]) window.gtag('event', 'alerts_click', { placement: al.getAttribute('data-alerts'), page: location.pathname });
     var a = e.target.closest ? e.target.closest('a[data-tool]') : null;
     if (!a || !loaded || window['ga-disable-' + id]) return;
     window.gtag('event', a.getAttribute('data-paid') === '1' ? 'affiliate_click' : 'outbound_plain', {

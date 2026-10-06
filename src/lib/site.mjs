@@ -24,6 +24,11 @@ export const NAV = [
   { href: '/methodology/', label: 'Method' },
 ];
 
+// Price-change alerts: the opt-in page of the email list (for example a free Systeme.io list). Empty
+// hides every alerts button and the privacy paragraph about it; the list's own page handles consent
+// and unsubscribes. See docs/OPERATIONS.md, "Price-change alerts".
+export const ALERTS_URL = '';
+
 // Impact.com site verification (keeps cinchstack.com verified as a media property).
 export const IMPACT_VERIFICATION = '1f064047-59ad-4a26-8476-b437d20647a3';
 

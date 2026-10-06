@@ -23,6 +23,7 @@ import AuthorBox from '../../../components/AuthorBox.astro';
 import ServiceBox from '../../../components/ServiceBox.astro';
 import KeepReading from '../../../components/KeepReading.astro';
 import Updated from '../../../components/Updated.astro';
+import AlertsCta from '../../../components/AlertsCta.astro';
 
 export async function getStaticPaths() {
   const reg = await registry();
@@ -88,6 +89,7 @@ const glance = [
         <ul>{p.billingNotes.map((n) => <li>{n}</li>)}</ul>
       </>)}
       <Provenance ids={[id]} />
+      <AlertsCta place="pricing" />
       <div class="cta-row">
         <AffLink tool={id} href={t.pricingUrl} page={path} placement="end-cta" label={`See ${poss(t.name)} plans and prices`} />
         {p.trial.days && !quietTrial ? <span class="note">{t.name} offers a {p.trial.days}-day trial{p.trial.cardRequired === false ? ' with no card required' : ''}.</span> : null}

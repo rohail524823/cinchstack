@@ -5,11 +5,12 @@ import { tools, toolsByLayer, toolIds, cheapestPaid, noPaidPlan, scenario, prici
 import { longDate } from '../../lib/format.mjs';
 import Fig from '../../components/Fig.astro';
 import { LAYERS, LAYER_LABELS, LAYER_QUESTIONS } from '../../lib/schemas.mjs';
-import { registry } from '../../lib/pages.mjs';
+import { registry, pathFor } from '../../lib/pages.mjs';
 import { breadcrumbNode, itemListNode, webPageNode } from '../../lib/jsonld.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ToolCard from '../../components/ToolCard.astro';
 const reg = await registry();
+const guides = [...reg.values()].filter((r) => r.kind === 'guides').map((r) => ({ path: pathFor(r.id), h1: r.h1 }));
 const href = (id) => (reg.has(`/tools/${id}/`) ? `/tools/${id}/` : reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
 const byLayer = toolsByLayer();
 const listed = Object.keys(tools).filter((id) => href(id));
@@ -42,6 +43,13 @@ const description = 'Every tool CinchStack covers, grouped by what it does for y
         </tbody>
       </table></div>
     </section>
+    {guides.length > 0 && (
+      <section class="section" aria-labelledby="guides">
+        <h2 id="guides">Cost guides</h2>
+        <p class="muted">Usage fees, add-ons and plan choices worked through from each vendor's published rates.</p>
+        <ul class="related-list">{guides.map((g) => <li><a href={g.path}>{g.h1}</a></li>)}</ul>
+      </section>
+    )}
     {LAYERS.map((l) => { const ids = byLayer[l].filter((id) => href(id)); return ids.length > 0 && (
       <section class="section">
         <h2 id={l}>{LAYER_LABELS[l]} <span class="muted" style="font-weight:400;font-size:.7em">— {LAYER_QUESTIONS[l]}</span></h2>

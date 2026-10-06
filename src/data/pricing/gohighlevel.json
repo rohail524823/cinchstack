@@ -610,7 +610,7 @@
     "The plan price does not include messaging: SMS, calls, phone numbers, email, most AI, WhatsApp messages and premium workflow steps are billed separately from a prepaid wallet.",
     "Starter cannot rebill usage to sub-accounts. Unlimited rebills at cost (default 1.05x to cover Stripe fees). Only Agency Pro may mark up pass-through fees, and only Agency Pro can rebill AI Employee usage.",
     "You can connect your own SMTP provider instead of LC Email, and switch a location from LC Phone to your own Twilio account.",
-    "LC Email sending ramps up over the first 7 days (250 on day 1 to 10,000 on day 7), then allows 25,000 a day on a shared domain or up to 550,000 a day with a dedicated sending domain.",
+    "LC Email sending ramps up over the first 7 days (250 on day 1 to 10,000 on day 7), then allows up to 25,000 a day on a shared domain (HighLevel's article gives a range from 250 to 25,000, and 15,000 for a sub-account without its own dedicated domain) or up to 550,000 a day with a dedicated sending domain.",
     "WhatsApp: since 1 October 2026, service messages beyond 1,000 per phone number per month and utility messages inside the 24-hour window are billable, and rates changed in several markets.",
     "If a subscription payment fails, access continues for 21 days and is then locked. Canceled accounts' data is deleted after 90 days. Phone numbers are released within 14 days of cancellation.",
     "HIPAA compliance cannot be canceled once enabled, and Online Listings has a 3-month commitment."
@@ -753,7 +753,9 @@
     "Whether a dedicated email sending domain costs anything: the setup article lists no fee, but does not say it is free.",
     "The $27/month Pause Plan is mentioned in HighLevel's billing FAQ, which also says agency accounts cannot be paused.",
     "Enterprise pricing is quote-only.",
-    "HighLevel's in-app Wallet Pricing page (the source it calls authoritative for usage rates) requires a login and was not captured."
+    "HighLevel's in-app Wallet Pricing page (the source it calls authoritative for usage rates) requires a login and was not captured.",
+    "The dedicated email IP's unit: the pricing page and the dedicated IP article say $59 a month per IP, while HighLevel's Pricing Guide says \"$59/mo per dedicated domain\". The record follows the two that agree.",
+    "The Workflow Pro unit: HighLevel's Pricing Guide calls the $10 tier a price \"for the agency\" in one line but lists it per enabled sub-account in its table, and the Workflow Pro article counts allowances per sub-account. The record treats it as per sub-account."
   ],
   "history": [
     {

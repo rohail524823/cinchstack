@@ -1,0 +1,33 @@
+{
+  "page": "guides/gohighlevel--add-ons",
+  "items": [
+    {
+      "q": "Is GoHighLevel HIPAA compliant?",
+      "a": "Not out of the box. HighLevel's pricing guide says GoHighLevel accounts are not HIPAA compliant by default, and compliance controls come from a paid add-on that costs $297 a month. Any plan can add it, it is charged once for the whole account, and it is then configured for the sub-accounts that hold patient data. HighLevel's Terms of Service tie its Business Associate Agreement to that add-on staying fully paid, so a failed payment ends the agreement automatically. The same Terms make each customer responsible for its own compliance with HIPAA and have customers agree to keep protected health information out of GoHighLevel's AI features. The add-on cannot be deactivated after it is enabled, and HighLevel's custom-priced Enterprise plan includes HIPAA compliance in its price."
+    },
+    {
+      "q": "How much does WhatsApp cost on GoHighLevel?",
+      "a": "GoHighLevel's WhatsApp integration costs $10 a month for each sub-account with WhatsApp switched on, and delivered messages are billed on top from the prepaid usage wallet. Message prices depend on the destination country and the category. For US and Canadian numbers, HighLevel's guide lists marketing templates at $0.0263 and utility templates, used for order updates and appointment reminders, at $0.0036 per delivered message. HighLevel says a 5% payment-processing fee is added to WhatsApp rates, and the US figures in its table appear to include it already. Since 1 October 2026, utility templates sent inside the 24-hour customer service window are billed, and free-form service messages are billed after the first 1,000 per phone number each month. Conversations that start from a Click to WhatsApp ad stay free for 72 hours if the business replies within 24 hours."
+    },
+    {
+      "q": "How much does the GoHighLevel white label mobile app cost?",
+      "a": "HighLevel lists its white label mobile app at $497 a month or $1,491 a quarter, which is the same as three monthly payments. It is an agency-level purchase rather than a per-client fee, charged on top of whichever GoHighLevel plan the agency already pays for, and the custom-priced Enterprise plan includes it. The app gives an agency's clients or other end users a mobile app under the agency's brand that connects to their HighLevel tools. It is not the same product as the Branded Client Portal App, a separate add-on at $49 a month per enabled sub-account that gives a client's community members mobile access to that community. HighLevel's Terms let agencies publish a white-labeled version in app stores, but they also say HighLevel is not responsible if the agency is unable to publish it."
+    },
+    {
+      "q": "How much is GoHighLevel's WordPress hosting?",
+      "a": "GoHighLevel sells WordPress hosting in three plans, charged on top of the main subscription. Standard costs $10 a month for one site, or $108 a year. Utility costs $220 a month for 25 sites, and Truly Unlimited costs $497 a month for an unlimited number of sites. HighLevel hosts each site inside a sub-account, and site owners keep logging in to the normal WordPress admin to edit their content. Before any sub-account can use it, the account owner has to choose a plan under Agency > Reselling, and moving existing sites between plans goes through HighLevel support. For one business keeping a WordPress site, Standard puts hosting on the same bill as the CRM. An agency should compare Utility with paying per site, because Utility only works out cheaper when nearly all 25 of its slots are in use."
+    },
+    {
+      "q": "Do I need a dedicated email IP on GoHighLevel?",
+      "a": "Most GoHighLevel accounts do not. A dedicated IP costs $59 a month per IP and can only be bought on the Unlimited and Agency Pro plans, so a Starter account cannot add one. HighLevel's dedicated IP article recommends sending at least 50,000 emails a week to keep a dedicated IP's reputation healthy, suggests one IP for every 1 million messages a month, and says a dedicated IP makes sense at hundreds of thousands to millions of emails a month. It also warns that irregular bursts from a dedicated IP can get mail flagged by spam filters, so a sender with uneven volume may do better on a shared IP. A dedicated IP can only be linked to a dedicated sending domain, and a new IP goes through a warm-up period in which mail may alternate with the old shared IP."
+    },
+    {
+      "q": "Is GoHighLevel's Workflow Pro plan worth it?",
+      "a": "Only for sub-accounts whose automations run many premium steps. Standard workflow actions in GoHighLevel cost nothing. Premium triggers and actions, such as inbound webhooks, custom webhooks, Google Sheets and Slack steps, come with 100 free executions per sub-account for the life of the account and then cost $0.01 each. Workflow Pro swaps that rate for a monthly allowance: $10 for 10,000 executions with $0.008 overage, $25 for 30,000 with $0.006 overage, or $50 for 65,000 with $0.004 overage. Allowances are counted per sub-account, reset with each billing cycle and do not roll over. ChatGPT and Workflow AI steps are not covered and stay pay-as-you-go. A sub-account that runs only a few hundred premium steps a month spends less without Workflow Pro."
+    },
+    {
+      "q": "How much does the HighLevel certification cost?",
+      "a": "The HighLevel Certification Program costs $97 a month or $970 a year, charged on top of a GoHighLevel subscription. HighLevel describes it as structured training for people who want to build product knowledge and validate their skills on the platform, and its Terms describe certification as passing a HighLevel-administered exam. The Terms also limit what a pass means: it is not a guarantee of quality or an endorsement, and the badge belongs to the individual who earned it, not to their agency. Participants allow HighLevel to list their name and contact details in its Certified Directory, and they may not present themselves as HighLevel employees, agents or partners. HighLevel can end anyone's participation at any time, for any reason. Treat it as training and a personal credential, not as a business relationship with HighLevel."
+    }
+  ]
+}

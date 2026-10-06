@@ -30,8 +30,8 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
 
 Joining is automatic with a free systeme.io account; your affiliate ID is in `src/data/programs.json` (`"systeme-io"`). It pays 60% of every sale for as long as the customer stays subscribed, on the 10th of each month once you pass $30. **Payouts:** PayPal doesn't pay out to Pakistan, so choose wire transfer. systeme.io only lets you add it after your first affiliate sale.
 
-- **Where the links are paid:** only on Systeme.io's own pages (`/tools/systeme-io/` and its pricing page). The affiliate agreement says affiliates "may not use any other competitor trademarks in your promotion of systeme.io". Until systeme.io confirms that honest comparison pages are fine, pages that compare Systeme.io with GoHighLevel, Kajabi and others keep plain Systeme.io links. The build fails if a paid Systeme.io link appears anywhere else.
-- **To widen it** once systeme.io says comparisons are fine (ask through https://systeme.io/support/contact-us): delete `"paidOnlyOn"` from the program's `rules` in `src/data/programs.json`. Nothing else changes.
+- **Where the links are paid (since 6 October 2026):** only on Systeme.io pages that name no other tool, today `/tools/systeme-io/free-plan/` (listed in `rules.paidOnlyOn` in `src/data/programs.json`). The affiliate agreement says affiliates "may not use any other competitor trademarks in your promotion of systeme.io", and the Systeme.io review and pricing pages compare it with Kajabi, ClickFunnels and GoHighLevel by name, so they carry plain links for now. The build fails if a paid Systeme.io link appears anywhere else, and the content linter fails any Systeme.io guide that names another tracked tool.
+- **The question is with Systeme.io:** emailed to support@systeme.io on 6 October 2026 (their desk acknowledged it and promised a reply within 24 hours; the reply arrives in your Gmail). If they say honest comparison pages are fine, delete `"paidOnlyOn"` from the program's `rules`: every Systeme.io button on the site becomes paid. If they say only pages without competitor names, keep it as it is and add new competitor-free Systeme.io guides to the list.
 - systeme.io has no Sub IDs. Google Analytics `affiliate_click` events show which page sent each click.
 
 ### 1c. Your own setup services (live since 6 October 2026)
@@ -49,6 +49,7 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
   - Larger invoices (about $2,000 or more): a bank wire. Ask your bank for an ePRC with the IT purpose code.
   - Clients who want escrow: send an Upwork Direct Contract from your account (5% fee, or 0% on Freelancer Plus).
   - Not usable for services: Stripe, PayPal, Wise receiving, Lemon Squeezy, Paddle.
+- **Measuring it:** a sent services form fires the Google Analytics event `generate_lead` (with the package and the "how did you find us" answer, never the message or contact details). In GA4 **Admin → Events**, mark `generate_lead` as a key event once it first appears.
 - **The same-price rule** is published on `/how-we-earn/#our-own-services`: setup costs the same whichever tool the client picks. The "Our own paid service" box sits after the FAQ on tool, pricing, compare, stack and alternatives pages, and a build gate keeps it out of editorial text, scores, tables and picks.
 
 ### 2. Affiliate programs: status and what to apply to next (updated 6 October 2026)
@@ -57,8 +58,8 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 
 | Program | Status | Next step |
 |---|---|---|
-| GoHighLevel | **Approved**, paid links live | See section 1. A draft email to HighLevel about trial wording and a CinchStack referral slug is in your Gmail drafts. |
-| Systeme.io | **Approved**, paid links on its own pages | See section 1b. The question about comparison pages is in your Gmail drafts, ready to paste into their contact form. |
+| GoHighLevel | **Approved**, paid links live | See section 1. Questions about trial wording, an extended-trial page and a CinchStack referral slug were emailed to the affiliate manager (Devesh Khatri) on 6 October 2026. Until HighLevel answers in writing, no trial wording appears near its links. |
+| Systeme.io | **Approved**, paid links on its competitor-free pages | See section 1b. The comparison-page question was emailed to support@systeme.io on 6 October 2026. |
 | HubSpot, Semrush, Shopify, Squarespace, Wix | Declined | Don't re-apply until something real has changed (traffic of your own, or an invitation from the brand). |
 | Klaviyo | Agency and tech partners only | No affiliate program to join. |
 | Notion | Closed to new partners | Check again in 2027. |
@@ -137,6 +138,16 @@ Checking your own site in a browser counts as a visit. To stop that, open `/priv
 
 In browser developer tools, Google's measurement requests may show as failed or aborted. They are sent without waiting for a reply, so that is expected; the Realtime report is the real test. Don't star the built-in `click` event: it counts every outbound link, including source links, so it overstates buying intent.
 
+### 6. Price-change alerts (ready to switch on)
+
+The site can offer "Get an email when these prices change" on every pricing page, every guide and `/changes/`, plus a matching paragraph in the privacy notice. It stays hidden until there is a working list to send from, so the site never promises an email nobody sends.
+
+To switch it on (about 20 minutes, free):
+
+1. In your existing Systeme.io account, create a contact tag such as `price-alerts` and a simple opt-in page with an email field (Systeme.io's free plan includes 2,000 contacts and unlimited email sends; check that its email footer shows an unsubscribe link and your business address before the first send).
+2. Send the opt-in page's URL to Claude Code. It goes into `ALERTS_URL` in `src/lib/site.mjs`, and the button, its Analytics event (`alerts_click`) and the privacy paragraph appear on the next deploy.
+3. When the Monday check finds a change (it opens a GitHub issue) and the change is logged on `/changes/`, send one short email to the `price-alerts` tag in Systeme.io: the tool, the old and new price, the date, and a link to the pricing page. Claude Code can draft it from the changelog entry.
+
 ## Jobs that run by themselves
 
 | Job | When | What it does |
@@ -175,6 +186,7 @@ Recently closed: Kajabi's Expert Agent introductory rate (ended 30 September 202
 
 - **A tool**: follow `docs/prompts/pricing-research.md` to create `src/data/pricing/<tool>.json` and `src/data/tools/<tool>.json`. Add a pricing page by writing `src/content/pricing/<tool>.mdx` and `src/data/faq/pricing--<tool>.json` using `docs/prompts/content-writing.md`.
 - **A comparison, stack or alternatives page**: same brief. A page exists only when both its prose and its data exist, so nothing half-finished goes live.
+- **A cost guide** (`/tools/<tool>/<topic>/`): write `src/content/guides/<tool>--<topic>.mdx` (with its own `h1`) and `src/data/faq/guides--<tool>--<topic>.json`, same brief. The tool's pricing and review pages and the homepage list it automatically. `<UsageMatrix />` renders GoHighLevel's usage bill for texts × emails from the recorded rates. A guide for a tool whose program limits paid links (Systeme.io) must name no other tool, and its path must be added to that program's `paidOnlyOn` for its links to be paid.
 - Run `node scripts/lint-content.mjs <file.mdx>` while writing, then `npm run dates` and `npm run build` before committing.
 
 ## The quality gates, briefly
