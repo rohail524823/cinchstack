@@ -20,6 +20,7 @@ export async function indexablePages() {
       const d = datesFor(r.entry);
       lastmod = d.modified;
       if (r.kind === 'pricing' || r.kind === 'tools') lastmod = maxDate(lastmod, priceChanged(r.slug));
+      if (r.kind === 'guides') lastmod = maxDate(lastmod, priceChanged(r.slug.split('--')[0]));
       if (r.kind === 'compare') { const c = comparisons[r.slug]; lastmod = maxDate(lastmod, priceChanged(c.a), priceChanged(c.b)); }
       if (r.kind === 'stacks') lastmod = maxDate(lastmod, ...stacks[r.slug].layers.map((l) => priceChanged(l.pick)));
       if (r.kind === 'alternatives') lastmod = maxDate(lastmod, priceChanged(r.slug), ...(alternatives[r.slug]?.reasons ?? []).flatMap((x) => x.picks.map((p) => priceChanged(p.tool))));

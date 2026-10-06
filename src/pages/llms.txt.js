@@ -17,6 +17,7 @@ export async function GET() {
     sec('Stacks by business', pick('stacks')),
     sec('Pricing: what each tool really costs', pick('pricing')),
     sec('Tool reviews', pick('tools')),
+    sec('Cost guides', pick('guides')),
     sec('Comparisons', pick('compare')),
     sec('Alternatives', pick('alternatives')),
     sec('Data and method', byPath(['/data/', '/changes/', '/methodology/', '/how-we-earn/', '/about/'])),

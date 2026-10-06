@@ -23,7 +23,8 @@ function walk(dir, out = []) {
 }
 const allMdx = walk('src/content');
 const idOf = (f) => path.relative('src/content', f).replace(/\.mdx$/, '').split(path.sep).join('/');
-const pathFor = (id) => { const [k, s] = id.split('/'); return { pricing: `/tools/${s}/pricing/`, tools: `/tools/${s}/`, compare: `/compare/${s}/`, alternatives: `/alternatives/${s}/`, stacks: `/stacks/${s}/`, pages: `/${s}/` }[k]; };
+const guideParts = (s) => { const i = s.indexOf('--'); return i > 0 ? [s.slice(0, i), s.slice(i + 2)] : [s, '']; };
+const pathFor = (id) => { const [k, s] = id.split('/'); if (k === 'guides') { const [t, topic] = guideParts(s); return `/tools/${t}/${topic}/`; } return { pricing: `/tools/${s}/pricing/`, tools: `/tools/${s}/`, compare: `/compare/${s}/`, alternatives: `/alternatives/${s}/`, stacks: `/stacks/${s}/`, pages: `/${s}/` }[k]; };
 
 // Pages that exist or are being written now (a prose file exists), plus static hubs.
 const planned = fs.existsSync('docs/prompts/launch-pages.json') ? JSON.parse(fs.readFileSync('docs/prompts/launch-pages.json', 'utf8')).pages : [];
@@ -79,8 +80,9 @@ for (const file of files) {
   if (!desc || desc.length < 110 || desc.length > 165) bad(`description must be 110–165 chars (is ${desc?.length ?? 0})`);
   if (!pub || !/^\d{4}-\d{2}-\d{2}$/.test(pub)) bad('published must be YYYY-MM-DD');
   for (const y of `${title} ${fm('h1') ?? ''}`.match(/\b20\d\d\b/g) ?? []) if (y !== '2026') bad(`title/h1 year ${y} must be the verification year 2026`);
-  const tool = data.tools[slug];
-  if (['pricing', 'tools', 'alternatives'].includes(kind) && !tool) bad(`no tool data for "${slug}"`);
+  const tool = kind === 'guides' ? data.tools[guideParts(slug)[0]] : data.tools[slug];
+  if (['pricing', 'tools', 'alternatives', 'guides'].includes(kind) && !tool) bad(`no tool data for "${slug}"`);
+  if (kind === 'guides' && !fm('h1')) bad('a guide needs its own h1 in frontmatter');
   if (kind !== 'pages') {
     if (!qa) bad('quickAnswer is required');
     else {
@@ -115,7 +117,7 @@ for (const file of files) {
     if (m[1] === 'Price' && attrs.plan) { const pl = data.pricing[t].plans.find((p) => p.id === attrs.plan); const fld = attrs.field ?? 'monthly'; if (pl && pl[fld] == null) bad(`<Price tool="${t}" plan="${attrs.plan}" field="${fld}"> is null in the data`); }
     if (m[1] === 'Real' && !SIZES.includes(attrs.size)) bad(`<Real size="${attrs.size}"> must be solo|small|growing`);
   }
-  for (const m of body.matchAll(/<([A-Z]\w*)\b/g)) if (!['Price', 'Real', 'Stack', 'Checked', 'T', 'Programs', 'Mandated', 'ContactForm', 'Factors', 'Coverage', 'Analytics', 'Packages', 'ServicesForm', 'Visit'].includes(m[1])) bad(`unknown component <${m[1]}>`);
+  for (const m of body.matchAll(/<([A-Z]\w*)\b/g)) if (!['Price', 'Real', 'Stack', 'Checked', 'T', 'Programs', 'Mandated', 'ContactForm', 'Factors', 'Coverage', 'Analytics', 'Packages', 'ServicesForm', 'Visit', 'UsageMatrix'].includes(m[1])) bad(`unknown component <${m[1]}>`);
   // links
   for (const m of body.matchAll(/\]\((\/[^)\s]*)\)/g)) {
     const href = m[1].split('#')[0];
@@ -131,7 +133,7 @@ for (const file of files) {
   const indep = (all.match(/\bindependen(t|ce|tly)\b/gi) ?? []).length;
   if (kind !== 'pages' && indep > 1) bad(`"independent" appears ${indep} times (max 1 per page)`);
   const n = words(prose);
-  const MIN = { pricing: 550, tools: 450, compare: 700, alternatives: 450, stacks: 700 };
+  const MIN = { pricing: 550, tools: 450, compare: 700, alternatives: 450, stacks: 700, guides: 650 };
   if (MIN[kind] && n < MIN[kind]) bad(`body is ${n} words; a ${kind} page needs at least ${MIN[kind]} to be useful`);
   // FAQ
   if (kind !== 'pages') {
@@ -151,6 +153,12 @@ for (const file of files) {
         if (!it.q.trim().endsWith('?')) bad(`faq question should be a question: "${it.q}"`);
       }
     }
+  }
+  // A guide for a tool whose program allows paid links only on its own pages (Systeme.io's agreement
+  // bars competitor trademarks in its promotion) must not name any other tool.
+  if (kind === 'guides' && tool && data.programs[tool.affiliate?.program ?? tool.id]?.rules?.paidOnlyOn) {
+    const txt = `${prose} ${qa ?? ''} ${data.faq[`${kind}--${slug}`]?.items.map((i) => `${i.q} ${i.a}`).join(' ') ?? ''}`;
+    for (const o of Object.values(data.tools)) if (o.id !== tool.id && new RegExp(`\\b${o.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(txt)) bad(`names ${o.name}; this tool's program bars other tools' names on its promotional pages`);
   }
   // page data
   if (kind === 'compare') { const c = data.comparisons[slug]; if (!c) bad(`missing src/data/comparisons/${slug}.json`); else { const r = comparisonSchema.safeParse(c); if (!r.success) bad(`comparison data invalid`); const txt = [...c.dimensions.flatMap((d) => [d.a, d.b]), ...c.verdicts.map((v) => v.why)].join(' '); for (const f of figuresIn(txt)) if (!figOk(f.v)) bad(`comparison data figure ${f.raw} not in the data`); for (const [re, why] of BANNED) { const m = txt.match(re); if (m) bad(`comparison data ${why}: "${m[0]}"`); } } }

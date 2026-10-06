@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { SITE } from '../lib/site.mjs';
 import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing, checks, scenario, cheapestPaid, services, sizeBasis } from '../lib/data.mjs';
-import { registry } from '../lib/pages.mjs';
+import { registry, pathFor } from '../lib/pages.mjs';
 import { longDate } from '../lib/format.mjs';
 import { LAYER_LABELS } from '../lib/schemas.mjs';
 import { itemListNode, webPageNode } from '../lib/jsonld.mjs';
@@ -18,6 +18,7 @@ const leadStacks = LEAD.map((id) => stacks[id]).filter((s) => s && reg.has(`/sta
 const otherStacks = liveStacks.filter((s) => !LEAD.includes(s.id));
 const toolHref = (id) => (reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : reg.has(`/tools/${id}/`) ? `/tools/${id}/` : null);
 const liveCore = coreToolIds.filter((id) => toolHref(id));
+const guides = [...reg.values()].filter((r) => r.kind === 'guides').map((r) => ({ path: pathFor(r.id), h1: r.h1 }));
 // Comparisons that involve the core tools first.
 const coreSet = new Set(coreToolIds);
 const liveCompare = Object.values(comparisons).filter((c) => reg.has(`/compare/${c.id}/`))
@@ -86,6 +87,16 @@ const ld = [
             </a>
           ))}
         </div>
+      </section>
+    )}
+
+    {guides.length > 0 && (
+      <section class="section" aria-labelledby="guides">
+        <h2 id="guides">Cost guides</h2>
+        <p class="muted">The costs a pricing page leaves out, worked through from each vendor's own published rates.</p>
+        <ul class="related-list">
+          {guides.map((g) => <li><a href={g.path}>{g.h1}</a></li>)}
+        </ul>
       </section>
     )}
 

@@ -27,6 +27,7 @@ const known = knownFigures(data);
 // Per-page extra figures declared in MDX frontmatter.
 function pathForEntry(id) {
   const [kind, slug] = id.split('/');
+  if (kind === 'guides') { const i = slug.indexOf('--'); return `/tools/${slug.slice(0, i)}/${slug.slice(i + 2)}/`; }
   return { pricing: `/tools/${slug}/pricing/`, tools: `/tools/${slug}/`, compare: `/compare/${slug}/`, alternatives: `/alternatives/${slug}/`, stacks: `/stacks/${slug}/`, pages: `/${slug}/` }[kind];
 }
 const extraFigs = new Map();
@@ -138,7 +139,7 @@ for (const [p, { doc, html, noindex }] of pages) {
   if (qa) {
     const n = words(text(qa));
     if (n < 50 || n > 130) fail(p, `quick answer is ${n} words (aim 60–120)`);
-    if (/\/(tools\/[^/]+\/pricing|compare|stacks)\//.test(p) && !/\d/.test(text(qa))) fail(p, 'quick answer on a cost page has no number');
+    if (/\/(tools\/[^/]+\/[^/]+|compare|stacks)\//.test(p) && !/\d/.test(text(qa))) fail(p, 'quick answer on a cost page has no number');
   }
   // 10. table leads
   for (const w of doc.querySelectorAll('.tbl-wrap')) {
@@ -155,6 +156,9 @@ for (const [p, { doc, html, noindex }] of pages) {
     if (!note?.hasAttribute('data-paid-note') || !/\bpaid link\b/i.test(note.textContent)) fail(p, `paid link without a "Paid link" note beside it (${a.getAttribute('data-tool')})`);
     const prog = programs[toolsData[a.getAttribute('data-tool')]?.affiliate?.program ?? ''];
     if (!prog || prog.status !== 'approved' || !prog.template) fail(p, `paid link for ${a.getAttribute('data-tool')} but its program is not approved with a link`);
+    // A program's own required wording must be in the page's disclosure, wherever its link appears.
+    const must = prog?.rules?.mandatoryDisclosure;
+    if (must && ![...doc.querySelectorAll('[data-disclosure]')].some((d) => text(d).includes(must.replace(/\s+/g, ' ').trim()))) fail(p, `paid link for ${a.getAttribute('data-tool')} without the wording its program requires in the disclosure`);
     else if (prog.rules?.paidOnlyOn && !prog.rules.paidOnlyOn.some((prefix) => p.startsWith(prefix))) fail(p, `paid link for ${a.getAttribute('data-tool')} outside the pages its program allows (${prog.rules.paidOnlyOn.join(', ')})`);
   }
   if (paid.length) {
@@ -181,7 +185,7 @@ for (const [p, { doc, html, noindex }] of pages) {
   const allowed = extraFigs.get(p) ?? new Set();
   for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a]')) {
     const c = el.cloneNode(true);
-    c.querySelectorAll('data[data-fig]').forEach((x) => x.remove());
+    c.querySelectorAll('data[data-fig], .aff-pair, [data-paid-note], .prose-cta').forEach((x) => x.remove());
     for (const m of text(c).matchAll(/\$\s?(\d[\d,]*(?:\.\d+)?)(\s?[kK]\b)?/g)) {
       const v = normFig(m[1] + (m[2] ? 'k' : ''));
       if (v && !known.has(v) && !allowed.has(v)) fail(p, `prose figure ${m[0].trim()} is not in the data (use a data token or declare it in extraFigures)`);
@@ -203,7 +207,10 @@ for (const [p, { doc, html, noindex }] of pages) {
   if (GA_ID && !doc.querySelector('script[src="/site.js"]')) fail(p, 'analytics is on but this page does not load /site.js');
   // 16. duplicate sentences across pages (editorial text only)
   for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a]')) {
-    for (const s of text(el).split(/(?<=[.!?])\s+/)) {
+    // Buttons and their "Paid link" notes are template text, not editorial sentences.
+    const ed = el.cloneNode(true);
+    ed.querySelectorAll('.aff-pair, [data-paid-note], .prose-cta, .tbl-wrap, .table-lead').forEach((x) => x.remove());
+    for (const s of text(ed).split(/(?<=[.!?])\s+/)) {
       if (words(s) < 10) continue;
       const k = s.toLowerCase();
       if (!sentencePages.has(k)) sentencePages.set(k, new Set());

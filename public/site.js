@@ -82,6 +82,20 @@
   }
   render();
 
+  // A sent enquiry is the services funnel's conversion; the contact form is counted separately.
+  document.addEventListener('submit', function (e) {
+    var f = e.target;
+    if (!f || !loaded || window['ga-disable-' + id] || !f.getAttribute) return;
+    var name = f.getAttribute('name');
+    if (name === 'services') {
+      var pkg = f.querySelector('[name="package"]');
+      var found = f.querySelector('[name="found"]');
+      window.gtag('event', 'generate_lead', { form: 'services', package: pkg ? pkg.value : '', found: found ? found.value : '', page: location.pathname });
+    } else if (name === 'contact') {
+      window.gtag('event', 'contact_form', { page: location.pathname });
+    }
+  });
+
   document.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-tool]') : null;
     if (!a || !loaded || window['ga-disable-' + id]) return;

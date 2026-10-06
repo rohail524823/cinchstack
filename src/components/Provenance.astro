@@ -20,9 +20,10 @@ const items = Astro.props.ids.map((id) => ({ t: tool(id), p: price(id) }));
       <details class="prov-more">
         <summary>How {t.name} was checked: the method and {p.sources.length} source{p.sources.length === 1 ? '' : 's'}{p.unverified.length > 0 ? `, and ${p.unverified.length} point${p.unverified.length === 1 ? '' : 's'} we could not verify` : ''}</summary>
         <p>{p.method}</p>
-        <ul>
-          {p.sources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
-        </ul>
+        {/* Numbered from 0 to match the "(source N)" references in each record's notes. */}
+        <ol class="src-list" start="0">
+          {p.sources.map((s, i) => <li id={`src-${t.id}-${i}`}><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
+        </ol>
         {p.unverified.length > 0 && (
           <div class="unv"><strong>What we could not verify:</strong><ul>{p.unverified.map((u) => <li>{u}</li>)}</ul></div>
         )}

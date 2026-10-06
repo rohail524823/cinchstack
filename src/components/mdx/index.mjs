@@ -4,4 +4,5 @@ import Checked from './Checked.astro';
 import T from './T.astro';
 import Stack from './Stack.astro';
 import Visit from './Visit.astro';
-export const mdxComponents = { Price, Real, Checked, T, Stack, Visit };
+import UsageMatrix from './UsageMatrix.astro';
+export const mdxComponents = { Price, Real, Checked, T, Stack, Visit, UsageMatrix };

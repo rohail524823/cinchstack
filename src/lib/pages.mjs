@@ -3,6 +3,12 @@
 import { getCollection } from 'astro:content';
 import { tools, stacks, comparisons, alternatives, toolIds } from './data.mjs';
 
+/** "gohighlevel--sms-and-calling-costs" -> ["gohighlevel", "sms-and-calling-costs"] */
+export function guideParts(slug) {
+  const i = slug.indexOf('--');
+  return i > 0 ? [slug.slice(0, i), slug.slice(i + 2)] : [slug, ''];
+}
+
 export function pathFor(entryId) {
   const [kind, slug] = entryId.split('/');
   switch (kind) {
@@ -12,6 +18,8 @@ export function pathFor(entryId) {
     case 'alternatives': return `/alternatives/${slug}/`;
     case 'stacks': return `/stacks/${slug}/`;
     case 'pages': return `/${slug}/`;
+    // Guides live under their tool: guides/gohighlevel--sms-and-calling-costs -> /tools/gohighlevel/sms-and-calling-costs/
+    case 'guides': { const [t, topic] = guideParts(slug); return `/tools/${t}/${topic}/`; }
     default: throw new Error(`Unknown prose kind: ${entryId}`);
   }
 }
@@ -28,6 +36,7 @@ export function defaultH1(entryId) {
   if (kind === 'compare') { const c = comparisons[slug]; return `${tools[c.a].name} vs ${tools[c.b].name}`; }
   if (kind === 'alternatives') return `${tools[slug].name} alternatives, priced honestly`;
   if (kind === 'stacks') return `The best software stack for a ${lowerFirst(stacks[slug]?.label ?? slug)}`;
+  if (kind === 'guides') { const [t, topic] = guideParts(slug); return `${tools[t]?.name ?? t}: ${topic.replace(/-/g, ' ')}`; }
   return slug;
 }
 
@@ -43,6 +52,7 @@ export async function registry() {
     if (kind === 'alternatives' && !alternatives[slug]) continue;
     if (kind === 'compare' && !comparisons[slug]) continue;
     if (kind === 'stacks' && !stacks[slug]) continue;
+    if (kind === 'guides' && !tools[guideParts(slug)[0]]) continue;
     map.set(pathFor(e.id), { id: e.id, kind, slug, title: e.data.title, h1: e.data.h1 ?? defaultH1(e.id), entry: e });
   }
   // Static hubs and utility pages (always exist).
@@ -76,10 +86,13 @@ export async function relatedFor(entryId, extra = []) {
   const out = [];
   const push = (p) => { if (!out.includes(p)) out.push(p); };
   extra.forEach(push);
+  const reg = await registry();
+  // A tool's guides sit right after its review on its own pages, so they are two clicks from home.
+  const guidesFor = (id) => [...reg.values()].filter((r) => r.kind === 'guides' && guideParts(r.slug)[0] === id).map((r) => pathFor(r.id));
   const cmpFor = (id) => Object.values(comparisons).filter((c) => c.a === id || c.b === id).map((c) => `/compare/${c.id}/`);
   const stacksFor = (id) => Object.values(stacks).filter((s) => s.layers.some((l) => l.pick === id)).map((s) => `/stacks/${s.id}/`);
-  if (kind === 'pricing') { push(`/tools/${slug}/`); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
-  if (kind === 'tools') { push(`/tools/${slug}/pricing/`); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
+  if (kind === 'pricing') { push(`/tools/${slug}/`); guidesFor(slug).forEach(push); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
+  if (kind === 'tools') { push(`/tools/${slug}/pricing/`); guidesFor(slug).forEach(push); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
   if (kind === 'compare') {
     const c = comparisons[slug];
     [c.a, c.b].forEach((t) => { push(`/tools/${t}/pricing/`); push(`/tools/${t}/`); });
@@ -89,11 +102,14 @@ export async function relatedFor(entryId, extra = []) {
     push(`/tools/${slug}/pricing/`); push(`/tools/${slug}/`);
     for (const r of alternatives[slug]?.reasons ?? []) for (const p of r.picks) push(`/tools/${p.tool}/pricing/`);
   }
+  if (kind === 'guides') {
+    const [t] = guideParts(slug);
+    push(`/tools/${t}/pricing/`); guidesFor(t).forEach(push); push(`/tools/${t}/`); cmpFor(t).forEach(push); push(`/alternatives/${t}/`);
+  }
   if (kind === 'stacks') {
     for (const l of stacks[slug].layers) push(`/tools/${l.pick}/pricing/`);
     Object.keys(stacks).filter((s) => s !== slug).forEach((s) => push(`/stacks/${s}/`));
   }
-  const reg = await registry();
   const self = pathFor(entryId);
   return out.filter((p) => p !== self && reg.has(p)).slice(0, 8).map((p) => ({ href: p, label: reg.get(p).h1 }));
 }

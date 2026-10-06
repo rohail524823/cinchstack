@@ -89,7 +89,7 @@
       "noUnauthorizedOffers": true,
       "noBrandBidding": true,
       "paidOnlyOn": [
-        "/tools/systeme-io/"
+        "/tools/systeme-io/free-plan/"
       ]
     },
     "rateHistory": [
@@ -98,7 +98,7 @@
         "note": "Joined at 60% lifetime recurring (automatic enrolment with a free account)."
       }
     ],
-    "notes": "Affiliate ID sa0282539325802d7f308f4a60a92b5eac51733968; ?sa= works on any systeme.io page, so buttons deep-link. The affiliate agreement (systeme.io/affiliate-agreement, “Brand promotion”) says affiliates “may not use any other competitor trademarks in your promotion of systeme.io”. Until systeme.io confirms that honest comparison pages are fine, paid links appear only on systeme.io’s own pages (its review and pricing page); comparison, alternatives and stack pages that name competitors keep plain links. To widen after written confirmation, delete rules.paidOnlyOn. systeme.io has no sub-IDs; Google Analytics affiliate_click events show which page sent each click. Self-referrals are excluded by the agreement."
+    "notes": "Affiliate ID sa0282539325802d7f308f4a60a92b5eac51733968; ?sa= works on any systeme.io page, so buttons deep-link. The affiliate agreement (systeme.io/affiliate-agreement, “Brand promotion”) says affiliates “may not use any other competitor trademarks in your promotion of systeme.io”. Until systeme.io confirms that honest comparison pages are fine, paid links appear only on systeme.io’s own pages (its review and pricing page); comparison, alternatives and stack pages that name competitors keep plain links. To widen after written confirmation, delete rules.paidOnlyOn. systeme.io has no sub-IDs; Google Analytics affiliate_click events show which page sent each click. Self-referrals are excluded by the agreement. 6 October 2026: paid links narrowed to Systeme.io pages that name no other tool (now /tools/systeme-io/free-plan/), because the review and pricing pages compare Systeme.io with competitors by name; the question whether comparison pages may carry the link was emailed to support@systeme.io the same day. If Systeme.io says yes, delete paidOnlyOn."
   },
   "webflow": {
     "label": "Webflow affiliate program",
