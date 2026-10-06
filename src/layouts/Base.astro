@@ -14,7 +14,7 @@ interface Props {
 const { title, description, path, noindex = false, jsonld = [], ogType = 'article' } = Astro.props;
 const url = `${SITE}${path}`;
 // Keep the brand suffix only when the whole title still fits in a search result (~65 chars).
-const fullTitle = path === '/' ? `${NAME} — ${TAGLINE}` : `${title} | ${NAME}`.length <= 65 ? `${title} | ${NAME}` : title;
+const fullTitle = path === '/' ? title : `${title} | ${NAME}`.length <= 65 ? `${title} | ${NAME}` : title;
 const ld = graph(orgNodes(), path === '/' ? websiteNode() : null, jsonld);
 const current = (href) => (path === href || (href !== '/' && path.startsWith(href)) ? 'page' : undefined);
 ---

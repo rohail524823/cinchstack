@@ -2,7 +2,7 @@
   "id": "notion",
   "name": "Notion",
   "vendor": "Notion Labs, Inc.",
-  "tier": "core",
+  "tier": "secondary",
   "layer": "organize",
   "category": "Docs and project workspace",
   "url": "https://www.notion.com",

@@ -2,7 +2,7 @@
   "id": "webflow",
   "name": "Webflow",
   "vendor": "Webflow, Inc.",
-  "tier": "core",
+  "tier": "secondary",
   "layer": "site",
   "category": "Website builder and CMS",
   "url": "https://webflow.com",

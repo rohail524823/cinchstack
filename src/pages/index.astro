@@ -1,28 +1,41 @@
 ---
 import Base from '../layouts/Base.astro';
-import { SITE, TAGLINE } from '../lib/site.mjs';
-import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing, checks } from '../lib/data.mjs';
+import { SITE } from '../lib/site.mjs';
+import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing, checks, scenario, cheapestPaid, services } from '../lib/data.mjs';
 import { registry } from '../lib/pages.mjs';
 import { longDate } from '../lib/format.mjs';
+import { LAYER_LABELS } from '../lib/schemas.mjs';
 import { itemListNode, webPageNode } from '../lib/jsonld.mjs';
 import ToolCard from '../components/ToolCard.astro';
 import Fig from '../components/Fig.astro';
 
 const reg = await registry();
+// The three businesses both of the site's earners serve (the programs that pay us and the setup
+// work) lead; the other stacks stay one click away.
+const LEAD = ['agency', 'local-service', 'course-creator'];
 const liveStacks = Object.values(stacks).filter((s) => reg.has(`/stacks/${s.id}/`));
-const toolHref = (id) => (reg.has(`/tools/${id}/`) ? `/tools/${id}/` : reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
+const leadStacks = LEAD.map((id) => stacks[id]).filter((s) => s && reg.has(`/stacks/${s.id}/`));
+const otherStacks = liveStacks.filter((s) => !LEAD.includes(s.id));
+const toolHref = (id) => (reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : reg.has(`/tools/${id}/`) ? `/tools/${id}/` : null);
 const liveCore = coreToolIds.filter((id) => toolHref(id));
-const liveCompare = Object.values(comparisons).filter((c) => reg.has(`/compare/${c.id}/`)).slice(0, 8);
+// Comparisons that involve the core tools first.
+const coreSet = new Set(coreToolIds);
+const liveCompare = Object.values(comparisons).filter((c) => reg.has(`/compare/${c.id}/`))
+  .sort((x, y) => (coreSet.has(y.a) + coreSet.has(y.b)) - (coreSet.has(x.a) + coreSet.has(x.b))).slice(0, 8);
 const realChanges = changelog.filter((c) => c.kind !== 'initial-record').slice(0, 5);
 const toolsTracked = Object.keys(pricing).length;
 const latest = Object.values(pricing).map((p) => p.checkedOn).sort().at(-1);
 // The weekly script re-reads every vendor page it can; its date is fresher than the last manual record.
 const passed = Object.values(checks).filter((c) => c.status === 'passed');
 const lastRun = passed.map((c) => c.ranOn).sort().at(-1);
+const proof = stackBill('agency');
+const proofStack = stacks.agency;
+// Sticker price against the real bill: the gap is the point of the site.
+const gaps = ['gohighlevel', 'systeme-io', 'hubspot'].filter((id) => toolHref(id)).map((id) => ({ id, entry: cheapestPaid(id), small: scenario(id, 'small') }));
 const path = '/';
 const url = `${SITE}/`;
-const title = `CinchStack — ${TAGLINE}`;
-const description = 'Find the software stack that fits your business. Real monthly costs for every tool, read from vendor pricing pages, dated, and re-checked weekly.';
+const title = 'What CRM, funnel and course software really costs | CinchStack';
+const description = 'Real monthly costs of GoHighLevel, Systeme.io, HubSpot and the tools they get compared with, read from vendor pages, dated and re-checked every Monday.';
 const ld = [
   webPageNode({ url, name: title, description, lastReviewed: latest }),
   liveStacks.length ? itemListNode(url, 'Software stacks by business', liveStacks.map((s) => ({ name: reg.get(`/stacks/${s.id}/`).h1, url: `${SITE}/stacks/${s.id}/` }))) : null,
@@ -30,46 +43,52 @@ const ld = [
 ---
 <Base title={title} description={description} path={path} ogType="website" jsonld={ld}>
   <div class="wrap">
-    <section class="hero">
-      <p class="lbl">CinchStack recommends</p>
-      <h1>The software stack that's best for your business, and what it really costs.</h1>
-      <p class="lede">Pick your kind of business. We name one tool for each job, say when to choose something else, and add up the whole monthly bill with every add-on counted. Every price is read from the vendor's own pricing page, dated, and checked again each week.</p>
-      {latest && <p class="muted small">{toolsTracked} tools tracked · {lastRun && lastRun > latest ? <>prices for {passed.length} re-checked automatically on <time datetime={lastRun}>{longDate(lastRun)}</time></> : <>prices last checked <time datetime={latest}>{longDate(latest)}</time></>}</p>}
+    <section class="hero hero-grid">
+      <div>
+        <p class="lbl">For agencies, local businesses and course creators</p>
+        <h1>Know what your software will really cost before you sign up.</h1>
+        <p class="lede">The plan price is only the start. We add up the whole monthly bill, with the seats, texts, contacts and add-ons you will actually need, from each vendor's own pricing page, and re-check it every Monday.</p>
+        <nav class="chips" aria-label="Pick your business">
+          <span class="chips-q">I run a…</span>
+          {leadStacks.map((s) => <a class="chip" href={`/stacks/${s.id}/`}>{s.label}</a>)}
+        </nav>
+        {otherStacks.length > 0 && <p class="small muted">Also: {otherStacks.map((s, i) => <>{i > 0 && ' · '}<a href={`/stacks/${s.id}/`}>{s.label}</a></>)}</p>}
+        {latest && <p class="muted small">{toolsTracked} tools tracked · {lastRun && lastRun > latest ? <>prices for {passed.length} re-checked automatically on <time datetime={lastRun}>{longDate(lastRun)}</time></> : <>prices last checked <time datetime={latest}>{longDate(latest)}</time></>}</p>}
+      </div>
+      <aside class="proof card" aria-label="Example monthly bill">
+        <span class="lbl">Real bill: {proofStack.sizeLabels.small.toLowerCase()}</span>
+        <p class="proof-total"><Fig v={proof.totals.small} suffix="/mo" floor={proof.floors.small} /></p>
+        <ul class="proof-lines">
+          {proof.rows.map((r) => <li><span>{tool(r.pick).name} <span class="muted">· {LAYER_LABELS[r.layer]}</span></span><Fig v={r.cells.small.amount} floor={r.cells.small.floor} /></li>)}
+        </ul>
+        <a href="/stacks/agency/">See the whole agency stack, line by line →</a>
+      </aside>
     </section>
 
-    {liveStacks.length > 0 && (
-      <section class="section" aria-labelledby="stacks">
-        <h2 id="stacks">Start with your business</h2>
+    {gaps.length > 0 && (
+      <section class="section" aria-labelledby="gap">
+        <h2 id="gap">Sticker price against the real bill</h2>
+        <p class="muted">The cheapest paid plan each vendor advertises, next to what a small team actually pays once the usage and add-ons it needs are counted.</p>
         <div class="grid-3">
-          {liveStacks.map((s) => { const b = stackBill(s.id); return (
-            <a class="card" href={`/stacks/${s.id}/`}>
-              <span class="tag">Stack</span>
-              <h3>{s.label}</h3>
-              <p>{[...new Set(s.layers.map((l) => tool(l.pick).name))].map((n, i) => <>{i > 0 && ' · '}<span class="nw">{n}</span></>)}</p>
-              <p class="cost">{s.sizeLabels.small}: <Fig v={b.totals.small} suffix="/mo" floor={b.floors.small} /></p>
+          {gaps.map((g) => (
+            <a class="card" href={toolHref(g.id)}>
+              <span class="tag">{LAYER_LABELS[tool(g.id).layer]} · {tool(g.id).category}</span>
+              <h3>{tool(g.id).name}</h3>
+              <p>Advertised from {g.entry ? <Fig v={g.entry.v} suffix="/mo" /> : 'free'}</p>
+              <p class="cost">Real bill, small team: <Fig v={g.small.monthly} suffix="/mo" floor={g.small.floor} /></p>
+              <p class="small">See every plan, add-on and usage fee →</p>
             </a>
-          ); })}
+          ))}
         </div>
       </section>
     )}
 
-    <section class="section" aria-labelledby="changes">
-      <h2 id="changes">Latest price changes</h2>
-      {realChanges.length > 0 ? (
-        <ul class="changes-list">
-          {realChanges.map((c) => <li><time datetime={c.date}>{longDate(c.date)}</time><div><strong>{toolHref(c.tool) ? <a href={toolHref(c.tool)}>{tool(c.tool).name}</a> : tool(c.tool).name}:</strong> {c.summary}</div></li>)}
-        </ul>
-      ) : (
-        <p>No vendor has changed a price since we started recording. When one does, it shows up here and on the <a href="/changes/">price changes log</a> the same week.</p>
-      )}
-    </section>
-
     {liveCore.length > 0 && (
       <section class="section" aria-labelledby="tools">
         <h2 id="tools">The tools we cover most closely</h2>
-        <p class="muted">Each card shows the real monthly bill for a small team, sized for the job the tool does, not the headline price.</p>
+        <p class="muted">CRMs, funnel builders, course platforms and email tools. Each card shows the real monthly bill for a small team, sized for the job the tool does.</p>
         <div class="grid">{liveCore.map((id) => <ToolCard id={id} href={toolHref(id)} />)}</div>
-        <p><a href="/tools/">See every tool we track</a></p>
+        <p><a href="/tools/">See all {toolsTracked} tools we track</a></p>
       </section>
     )}
 
@@ -82,6 +101,25 @@ const ld = [
         <p><a href="/compare/">All comparisons</a></p>
       </section>
     )}
+
+    {realChanges.length > 0 && (
+      <section class="section" aria-labelledby="changes">
+        <h2 id="changes">Latest price changes</h2>
+        <ul class="changes-list">
+          {realChanges.map((c) => <li><time datetime={c.date}>{longDate(c.date)}</time><div><strong>{toolHref(c.tool) ? <a href={toolHref(c.tool)}>{tool(c.tool).name}</a> : tool(c.tool).name}:</strong> {c.summary}</div></li>)}
+        </ul>
+        <p><a href="/changes/">Every recorded change</a></p>
+      </section>
+    )}
+
+    <section class="section" aria-labelledby="setup">
+      <div class="svc-box svc-home" data-svc>
+        <p class="lbl">Our own paid service</p>
+        <h2 id="setup">Want it set up for you?</h2>
+        <p>CinchStack's editor, Rohail Nisar, sets up CRMs, moves contacts, builds automations and AI assistants for small businesses, at the same price whichever tool you choose. Packages start at <Fig v={Math.min(...services.packages.map((p) => p.price))} />, after a free 30-minute call. It is separate from our reviews.</p>
+        <p><a class="btn" href="/services/">See the setup packages</a></p>
+      </div>
+    </section>
 
     <section class="section read" aria-labelledby="verify">
       <h2 id="verify">How we check a price</h2>

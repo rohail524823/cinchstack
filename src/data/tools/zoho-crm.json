@@ -2,7 +2,7 @@
   "id": "zoho-crm",
   "name": "Zoho CRM",
   "vendor": "Zoho Corporation",
-  "tier": "secondary",
+  "tier": "core",
   "layer": "run",
   "category": "CRM and sales automation software",
   "url": "https://www.zoho.com/crm/",

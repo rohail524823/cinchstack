@@ -2,7 +2,7 @@
   "id": "clickfunnels",
   "name": "ClickFunnels",
   "vendor": "Etison LLC",
-  "tier": "secondary",
+  "tier": "core",
   "layer": "sell",
   "category": "Funnel builder with courses, store, community and email marketing",
   "url": "https://www.clickfunnels.com",

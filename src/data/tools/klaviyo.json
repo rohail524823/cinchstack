@@ -2,7 +2,7 @@
   "id": "klaviyo",
   "name": "Klaviyo",
   "vendor": "Klaviyo, Inc.",
-  "tier": "core",
+  "tier": "secondary",
   "layer": "grow",
   "category": "Email and SMS marketing platform",
   "url": "https://www.klaviyo.com/",

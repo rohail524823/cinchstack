@@ -2,7 +2,7 @@
   "id": "activecampaign",
   "name": "ActiveCampaign",
   "vendor": "ActiveCampaign, LLC",
-  "tier": "secondary",
+  "tier": "core",
   "layer": "grow",
   "category": "Email marketing automation and light CRM",
   "url": "https://www.activecampaign.com",

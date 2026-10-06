@@ -2,7 +2,7 @@
   "id": "kajabi",
   "name": "Kajabi",
   "vendor": "Kajabi LLC",
-  "tier": "secondary",
+  "tier": "core",
   "layer": "sell",
   "category": "Course, coaching, community and email platform with built-in checkout",
   "url": "https://www.kajabi.com",

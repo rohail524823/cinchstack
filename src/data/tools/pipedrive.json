@@ -2,7 +2,7 @@
   "id": "pipedrive",
   "name": "Pipedrive",
   "vendor": "Pipedrive Inc.",
-  "tier": "secondary",
+  "tier": "core",
   "layer": "run",
   "category": "Sales CRM and pipeline management",
   "url": "https://www.pipedrive.com/",

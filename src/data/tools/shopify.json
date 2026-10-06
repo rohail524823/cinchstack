@@ -2,7 +2,7 @@
   "id": "shopify",
   "name": "Shopify",
   "vendor": "Shopify Inc.",
-  "tier": "core",
+  "tier": "secondary",
   "layer": "sell",
   "category": "Ecommerce platform",
   "url": "https://www.shopify.com",
