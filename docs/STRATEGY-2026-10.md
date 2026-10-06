@@ -113,6 +113,7 @@ The P1 list comes from the demand report: each page carries a GoHighLevel or Sys
   - Aimed at agencies, local businesses and course creators.
   - Business chips, a line-by-line real bill for a 5-person agency, and "sticker price against the real bill" cards.
   - The core tools re-pointed at the money cluster.
+  - Every real bill shows its basis (for example "with texting"), and the agency example reads "from $601/mo" because GoHighLevel's metered texts, calls and email come on top.
   - A services block.
   - The weekly check date in place of the stale manual date.
 - **Credibility fixes:**
@@ -125,7 +126,9 @@ The P1 list comes from the demand report: each page carries a GoHighLevel or Sys
 - **Conversion fixes:**
   - Paid "See plans" links in comparison verdict rows where GoHighLevel is the pick.
   - A GoHighLevel link under "Who should stay" on its alternatives page.
-  - Systeme.io buttons on pages where its terms forbid paid links now open our Systeme.io review (which carries the paid link) instead of a plain link that earned nothing.
+  - Buttons that say "See X's plans and prices" now open the vendor's pricing page, and paid inline links are amber like paid buttons.
+  - Systeme.io links on comparison pages stay plain until Systeme.io answers the trademark question in writing. A shortcut that sent those readers to our paid Systeme.io page was tried and withdrawn on review.
+  - No trial wording beside HighLevel's paid links (its policy bars unauthorised trial offers).
   - Clearer button labels.
 - **Design fixes:**
   - Amber darkened to pass WCAG AA.

@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../../lib/site.mjs';
-import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, sizeBasis } from '../../../lib/data.mjs';
+import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, sizeBasis, paysUsOn, program } from '../../../lib/data.mjs';
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { figHtml, poss } from '../../../lib/format.mjs';
@@ -50,10 +50,12 @@ const jsonld = [
   softwareNode(id),
   faqNode(url, faq),
 ];
+const quietTrial = paysUsOn(id, path) && Boolean(program(id)?.rules?.noUnauthorizedOffers);
 const glance = [
   { label: 'Cheapest paid plan', value: cheapest ? `${figHtml(cheapest.v, '/mo')} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${cheapest.p.name}</span>` : `${noPaidPlan(id).value} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${noPaidPlan(id).sub}</span>` },
   { label: 'Free plan', value: p.freeTier.exists ? 'Yes' : 'No' },
-  { label: 'Free trial', value: p.trial.days ? `${p.trial.days} days${p.trial.cardRequired ? ' (card needed)' : ''}` : 'No' },
+  // HighLevel (and any program with noUnauthorizedOffers) bars trial wording beside its paid links.
+  ...(quietTrial ? [] : [{ label: 'Free trial', value: p.trial.days ? `${p.trial.days} days${p.trial.cardRequired ? ' (card needed)' : ''}` : 'No' }]),
   { label: 'Real bill, small team', value: `${figHtml(small.monthly, '/mo', small.floor)} <span class="sub" style="font-weight:400;color:var(--mute);font-size:14px">${sizeBasis(id, 'small')}</span>` },
 ];
 ---
@@ -87,8 +89,8 @@ const glance = [
       </>)}
       <Provenance ids={[id]} />
       <div class="cta-row">
-        <AffLink tool={id} page={path} placement="end-cta" label={`See ${poss(t.name)} plans and prices`} />
-        {p.trial.days ? <span class="note">{t.name} offers a {p.trial.days}-day trial{p.trial.cardRequired === false ? ' with no card required' : ''}.</span> : null}
+        <AffLink tool={id} href={t.pricingUrl} page={path} placement="end-cta" label={`See ${poss(t.name)} plans and prices`} />
+        {p.trial.days && !quietTrial ? <span class="note">{t.name} offers a {p.trial.days}-day trial{p.trial.cardRequired === false ? ' with no card required' : ''}.</span> : null}
       </div>
       <Faq items={faq} />
       <ServiceBox scope="tool" ids={[id]} />

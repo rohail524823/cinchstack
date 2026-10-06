@@ -6,7 +6,7 @@ const mandated = [...new Set(paid.map((id) => program(id)?.rules?.mandatoryDiscl
 ---
 {paid.length > 0 && (
   <div class="disclosure" data-disclosure>
-    <p>Amber buttons are affiliate links: if you sign up through one, that vendor pays us a commission at no extra cost to you. Plain buttons are not. <a href="/how-we-earn/">How we earn</a>.</p>
+    <p>Amber buttons and amber links are affiliate links: if you sign up through one, that vendor pays us a commission at no extra cost to you. Plain buttons and links are not. <a href="/how-we-earn/">How we earn</a>.</p>
     {mandated.map((m) => <p>{m}</p>)}
   </div>
 )}

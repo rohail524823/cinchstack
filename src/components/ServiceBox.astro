@@ -8,8 +8,7 @@ const { scope = 'tool', ids = [] } = Astro.props;
 // about those tools. It is the same box, with the same price promise, everywhere else.
 const noFit = (id) => { const t = tool(id); return t.layer === 'site' || (t.layer === 'grow' && /\bseo\b/i.test(t.category)); };
 const show = !ids.length || !ids.every(noFit);
-const which = { tool: 'this tool or any tool it competes with', stack: 'any tool in this stack or its alternatives', compare: 'either tool', alternatives: 'any tool on this page' }[scope];
 ---
 {show && <aside class="svc-box" data-svc aria-label="Our own paid service">
-  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor does setup, migration and automation work for a fee, at the same price for {which}. It is separate from the review above. <a href="/services/">See the packages</a>.</p>
+  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor sets up CRMs, email and funnel tools, automations and AI assistants for a fee, at the same price whichever of them you choose. It is separate from the review above. <a href="/services/">See the packages</a>.</p>
 </aside>}

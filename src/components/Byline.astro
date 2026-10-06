@@ -8,10 +8,11 @@ const { modified, published, verified, ids = [] } = Astro.props;
 // manual record, say so (the manual date stays the one search engines get as lastReviewed).
 const runs = ids.map((id) => checks[id]);
 const rechecked = runs.length && runs.every((c) => c?.status === 'passed') ? runs.map((c) => c.ranOn).sort()[0] : null;
+const reread = runs.reduce((a, c) => a + (c?.checked ?? 0), 0);
 ---
 <p class="byline">
   <span>By <a href="/about/"><strong>{AUTHOR.name}</strong></a></span>
   <span>Updated <time datetime={modified}>{longDate(modified)}</time></span>
   {verified && <span>Prices verified <time datetime={verified} data-verified>{longDate(verified)}</time></span>}
-  {verified && rechecked && rechecked > verified && <span>Re-checked automatically <time datetime={rechecked}>{longDate(rechecked)}</time></span>}
+  {verified && rechecked && rechecked > verified && <span>{reread} price{reread === 1 ? '' : 's'} re-read automatically <time datetime={rechecked}>{longDate(rechecked)}</time></span>}
 </p>

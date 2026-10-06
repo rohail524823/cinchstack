@@ -73,8 +73,8 @@ const jsonld = [
       <h3>{B.name}</h3>
       <ScorePanel id={c.b} />
       <div class="cta-row">
-        <AffLink tool={c.a} page={path} placement="end-cta-a" label={`See ${poss(A.name)} plans and prices`} />
-        <AffLink tool={c.b} page={path} placement="end-cta-b" label={`See ${poss(B.name)} plans and prices`} />
+        <AffLink tool={c.a} href={A.pricingUrl} page={path} placement="end-cta-a" label={`See ${poss(A.name)} plans and prices`} />
+        <AffLink tool={c.b} href={B.pricingUrl} page={path} placement="end-cta-b" label={`See ${poss(B.name)} plans and prices`} />
       </div>
       <Provenance ids={[c.a, c.b]} />
       <Faq items={faq} />

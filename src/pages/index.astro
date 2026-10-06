@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE } from '../lib/site.mjs';
-import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing, checks, scenario, cheapestPaid, services } from '../lib/data.mjs';
+import { stacks, stackBill, tool, tools, coreToolIds, comparisons, changelog, pricing, checks, scenario, cheapestPaid, services, sizeBasis } from '../lib/data.mjs';
 import { registry } from '../lib/pages.mjs';
 import { longDate } from '../lib/format.mjs';
 import { LAYER_LABELS } from '../lib/schemas.mjs';
@@ -24,18 +24,22 @@ const liveCompare = Object.values(comparisons).filter((c) => reg.has(`/compare/$
   .sort((x, y) => (coreSet.has(y.a) + coreSet.has(y.b)) - (coreSet.has(x.a) + coreSet.has(x.b))).slice(0, 8);
 const realChanges = changelog.filter((c) => c.kind !== 'initial-record').slice(0, 5);
 const toolsTracked = Object.keys(pricing).length;
-const latest = Object.values(pricing).map((p) => p.checkedOn).sort().at(-1);
+// Every price was last recorded on or after the oldest record date; say that, not the newest one.
+const latest = Object.values(pricing).map((p) => p.checkedOn).sort()[0];
 // The weekly script re-reads every vendor page it can; its date is fresher than the last manual record.
 const passed = Object.values(checks).filter((c) => c.status === 'passed');
 const lastRun = passed.map((c) => c.ranOn).sort().at(-1);
 const proof = stackBill('agency');
+// Override cells can carry a plan price that leaves metered usage out (GoHighLevel here); say so.
+const usageOut = proof.rows.filter((r) => r.cells.small.override && /extra/i.test(r.cells.small.note ?? ''));
+const proofFloor = proof.floors.small || usageOut.length > 0;
 const proofStack = stacks.agency;
 // Sticker price against the real bill: the gap is the point of the site.
 const gaps = ['gohighlevel', 'systeme-io', 'hubspot'].filter((id) => toolHref(id)).map((id) => ({ id, entry: cheapestPaid(id), small: scenario(id, 'small') }));
 const path = '/';
 const url = `${SITE}/`;
 const title = 'What CRM, funnel and course software really costs | CinchStack';
-const description = 'Real monthly costs of GoHighLevel, Systeme.io, HubSpot and the tools they get compared with, read from vendor pages, dated and re-checked every Monday.';
+const description = 'Real monthly costs of GoHighLevel, Systeme.io, HubSpot and the tools they get compared with, read from vendor pricing pages, dated, with a weekly re-read.';
 const ld = [
   webPageNode({ url, name: title, description, lastReviewed: latest }),
   liveStacks.length ? itemListNode(url, 'Software stacks by business', liveStacks.map((s) => ({ name: reg.get(`/stacks/${s.id}/`).h1, url: `${SITE}/stacks/${s.id}/` }))) : null,
@@ -47,20 +51,21 @@ const ld = [
       <div>
         <p class="lbl">For agencies, local businesses and course creators</p>
         <h1>Know what your software will really cost before you sign up.</h1>
-        <p class="lede">The plan price is only the start. We add up the whole monthly bill, with the seats, texts, contacts and add-ons you will actually need, from each vendor's own pricing page, and re-check it every Monday.</p>
+        <p class="lede">The plan price is only the start. We add up the whole monthly bill, with the seats, texts, contacts and add-ons you will actually need, from each vendor's own pricing page, and a script re-reads those pages every Monday.</p>
         <nav class="chips" aria-label="Pick your business">
           <span class="chips-q">I run a…</span>
           {leadStacks.map((s) => <a class="chip" href={`/stacks/${s.id}/`}>{s.label}</a>)}
         </nav>
         {otherStacks.length > 0 && <p class="small muted">Also: {otherStacks.map((s, i) => <>{i > 0 && ' · '}<a href={`/stacks/${s.id}/`}>{s.label}</a></>)}</p>}
-        {latest && <p class="muted small">{toolsTracked} tools tracked · {lastRun && lastRun > latest ? <>prices for {passed.length} re-checked automatically on <time datetime={lastRun}>{longDate(lastRun)}</time></> : <>prices last checked <time datetime={latest}>{longDate(latest)}</time></>}</p>}
+        {latest && <p class="muted small">{toolsTracked} tools tracked · every price recorded since <time datetime={latest}>{longDate(latest)}</time>{lastRun && <> · pages for {passed.length} tools re-read automatically on <time datetime={lastRun}>{longDate(lastRun)}</time></>}</p>}
       </div>
       <aside class="proof card" aria-label="Example monthly bill">
         <span class="lbl">Real bill: {proofStack.sizeLabels.small.toLowerCase()}</span>
-        <p class="proof-total"><Fig v={proof.totals.small} suffix="/mo" floor={proof.floors.small} /></p>
+        <p class="proof-total"><Fig v={proof.totals.small} suffix="/mo" floor={proofFloor} /></p>
         <ul class="proof-lines">
           {proof.rows.map((r) => <li><span>{tool(r.pick).name} <span class="muted">· {LAYER_LABELS[r.layer]}</span></span><Fig v={r.cells.small.amount} floor={r.cells.small.floor} /></li>)}
         </ul>
+        {usageOut.length > 0 && <p class="small muted">{usageOut.map((r) => tool(r.pick).name).join(', ')}: plan price only; its metered texts, calls and email come on top.</p>}
         <a href="/stacks/agency/">See the whole agency stack, line by line →</a>
       </aside>
     </section>
@@ -68,14 +73,15 @@ const ld = [
     {gaps.length > 0 && (
       <section class="section" aria-labelledby="gap">
         <h2 id="gap">Sticker price against the real bill</h2>
-        <p class="muted">The cheapest paid plan each vendor advertises, next to what a small team actually pays once the usage and add-ons it needs are counted.</p>
+        <p class="muted">Each vendor's cheapest paid plan, next to what a small team pays once the plan, seats, usage and add-ons it needs are counted. The basis of each bill is under it.</p>
         <div class="grid-3">
           {gaps.map((g) => (
             <a class="card" href={toolHref(g.id)}>
               <span class="tag">{LAYER_LABELS[tool(g.id).layer]} · {tool(g.id).category}</span>
               <h3>{tool(g.id).name}</h3>
-              <p>Advertised from {g.entry ? <Fig v={g.entry.v} suffix="/mo" /> : 'free'}</p>
+              <p>List price from {g.entry ? <><Fig v={g.entry.v} suffix="/mo" />{/per-seat/.test(g.entry.p.priceUnit) ? ' per seat' : ''} ({g.entry.p.name})</> : 'free'}</p>
               <p class="cost">Real bill, small team: <Fig v={g.small.monthly} suffix="/mo" floor={g.small.floor} /></p>
+              <p class="small muted">{g.small.label}</p>
               <p class="small">See every plan, add-on and usage fee →</p>
             </a>
           ))}

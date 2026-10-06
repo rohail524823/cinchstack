@@ -65,7 +65,7 @@
       "price": 1200,
       "from": true,
       "terms": "Extra data sources, integrations or several teams are quoted after the call.",
-      "honesty": "Only need a basic GoHighLevel account set up? HighLevel sells its own done-for-you setup for $299. Use that."
+      "honesty": "Only need a basic GoHighLevel account set up? HighLevel listed its own done-for-you setup at $299 one-time on 6 October 2026. Use that."
     },
     {
       "id": "ai-assistant",
@@ -90,7 +90,7 @@
       "id": "ai-voice",
       "name": "AI Voice Receptionist",
       "kind": "Answers calls, books appointments, sends summaries",
-      "for": "Trades, clinics, salons and repair shops that miss calls while they work.",
+      "for": "Trades, salons, repair shops and other appointment businesses that miss calls while they work. Not for practices handling health records.",
       "deliverables": [
         "Voice agent in an account you own, on a new number or call forwarding",
         "Call script and a knowledge base of your answers",

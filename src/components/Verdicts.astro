@@ -12,6 +12,6 @@ const BIZ = { agency: 'Marketing agency', 'course-creator': 'Coach or course cre
 <div class="tbl-wrap"><table class="data stack">
   <thead><tr><th scope="col">If you run a…</th><th scope="col">Pick</th><th scope="col">Why</th></tr></thead>
   <tbody>
-    {c.verdicts.map((v) => <tr><th scope="row">{stacks[v.business] ? <a href={`/stacks/${v.business}/`}>{BIZ[v.business]}</a> : BIZ[v.business]}</th><td class="edge" data-label="Pick">{v.pick === 'a' ? A.name : v.pick === 'b' ? B.name : 'Neither'}{pickId(v) && paysUsOn(pickId(v), page) && <><br /><AffLink tool={pickId(v)} page={page} placement={`verdict-${v.business}`} label="See plans" variant="inline" /></>}</td><td data-prose data-label="Why">{v.why}</td></tr>)}
+    {c.verdicts.map((v) => <tr><th scope="row">{stacks[v.business] ? <a href={`/stacks/${v.business}/`}>{BIZ[v.business]}</a> : BIZ[v.business]}</th><td class="edge" data-label="Pick">{v.pick === 'a' ? A.name : v.pick === 'b' ? B.name : 'Neither'}{pickId(v) && paysUsOn(pickId(v), page) && <><br /><AffLink tool={pickId(v)} href={tool(pickId(v)).pricingUrl} page={page} placement={`verdict-${v.business}`} label="See plans" variant="inline" /></>}</td><td data-prose data-label="Why">{v.why}</td></tr>)}
   </tbody>
 </table></div>

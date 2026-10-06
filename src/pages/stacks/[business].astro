@@ -92,7 +92,7 @@ const jsonld = [
       <div class="prose-body" data-prose>
         <Content components={mdxComponents} />
       </div>
-      <Provenance ids={s.layers.map((l) => l.pick)} />
+      <Provenance ids={[...new Set(s.layers.map((l) => l.pick))]} />
       <Faq items={faq} />
       <ServiceBox scope="stack" ids={s.layers.map((l) => l.pick)} />
       <AuthorBox />

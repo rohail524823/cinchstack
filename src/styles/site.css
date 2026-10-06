@@ -280,3 +280,5 @@ sup.fn a { display: inline-block; padding: 2px 5px; }
 .svc-home { background: var(--card); border-style: solid; padding: 20px 22px; }
 .svc-home h2 { margin: 4px 0 8px; }
 .svc-home p { margin: 0 0 10px; max-width: 72ch; }
+.aff-inline { color: var(--amber); font-weight: 600; text-decoration-color: var(--amber); }
+.aff-inline:hover { color: #8F4E08; }

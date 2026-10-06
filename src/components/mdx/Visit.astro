@@ -7,4 +7,4 @@ import { poss } from '../../lib/format.mjs';
 interface Props { tool: string; label?: string; placement?: string }
 const { tool: id, label, placement = 'prose' } = Astro.props;
 ---
-<div class="cta-row prose-cta"><AffLink tool={id} page={Astro.url.pathname} placement={placement} label={label ?? `See ${poss(tool(id).name)} plans and prices`} /></div>
+<div class="cta-row prose-cta"><AffLink tool={id} href={tool(id).pricingUrl} page={Astro.url.pathname} placement={placement} label={label ?? `See ${poss(tool(id).name)} plans and prices`} /></div>
