@@ -50,7 +50,7 @@ Order matters: **pricing data comes first because everything else renders from i
 | **3** | 12 comparisons · `/compare/` · verification job live and run once by hand | Comparisons render from two pricing files each — cheap once data exists. |
 | **4** | 8 alternatives · 6 stacks · `/stacks/` · newsletter **sender** built and tested · newsletter block enabled · `index.html` retired | Stacks are the identity feature and need all eight tools' scenarios. |
 | **5** | Schema validation on every page type in Rich Results Test · Lighthouse pass · social images · llms.txt / agents.json · dataset mirrors (Kaggle, HF, GitHub) · first manual AI-citation spot check | Polish and discovery. |
-| **6** | Day-30 review against kill criteria · first Reddit/community answers · IndexNow enabled (content-change only) once Bing Webmaster Tools' Site Explorer shows at least 10 sitemap URLs with content from after 26 September, and Search Performance shows impressions on at least 7 of the last 14 days | Measure before adding. |
+| **6** | Day-30 review against kill criteria · first Reddit/community answers · IndexNow as a hand-run drip (started 7 October 2026; `docs/plan/06-aeo-geo-bing.md`) | Measure before adding. |
 
 **Week 7 onward:** two to three new pages a week, chosen by the value rule below; weekly verification; monthly review; apply to programs the week GSC crosses ~1,000 monthly visitors.
 

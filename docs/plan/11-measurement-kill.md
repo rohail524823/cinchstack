@@ -49,7 +49,7 @@ Set now, before anything is built, so they can't be moved when the numbers arriv
 
 1. Price job result: any drift issues open? Resolve within the week.
 2. GSC: top 20 pages by impressions; any page with impressions > 500 and CTR < 1% gets its Quick answer and title rewritten.
-3. Bing: impressions trend; zero for 7 days → IndexNow off, issue opened.
+3. Bing: impressions trend; zero for 7 days after impressions have started → stop the IndexNow drip, issue opened.
 4. Affiliate by page: which pages send clicks; which clicks convert. Feed the value rule in `08-publishing-workflow.md`.
 5. New queries in GSC that no page owns → candidates for FAQ additions or new pages.
 6. One line in `growth/weekly.md`: what changed, what we'll do.

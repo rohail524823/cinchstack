@@ -125,7 +125,7 @@ The site itself is done: every page type has its structured data (software offer
 | Monthly, 10 minutes | Ask ChatGPT, Claude, Gemini, Perplexity and Copilot "what does [tool] cost" and "[A] vs [B] pricing"; note which cite CinchStack. | You |
 | When you next edit bestaicertifications.com | Link its About page to cinchstack.com. CinchStack's About page already links back. | You |
 
-Done on 7 October 2026: a social-preview image per page, built from the data at build time, and `/llms-full.txt`, the full text of every indexable page for AI assistants. Price changes already have an RSS feed (`/changes/rss.xml`, also listed in `robots.txt` as a sitemap). The emailed newsletter waits until the site has about 500 visits a month (section 6).
+Done on 7 October 2026: a social-preview image per page, built from the data at build time, and `/llms-full.txt`, the full text of every indexable page for AI assistants. Price changes already have an RSS feed (`/changes/rss.xml`, linked from `/changes/` and from every page's head; it is deliberately not listed as a sitemap, because its change dates differ from the pages' `lastmod`). The emailed newsletter waits until the site has about 500 visits a month (section 6).
 
 ### 3c. Dataset mirror on Hugging Face (ready to switch on)
 

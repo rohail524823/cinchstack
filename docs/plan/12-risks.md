@@ -11,7 +11,7 @@
 | 7 | **A wrong price is published** | Medium | High (trust) | Every figure has source + snapshot; weekly re-check; corrections same week and logged in `/changes/`; contact form on every page | Claude |
 | 8 | **GHL contract breach** (earnings claim, unauthorized offer, trademark misuse) | Low | High (program loss) | Gates in CI for lexicon, offers, URL paths, mandatory disclosure | Claude |
 | 9 | **Netlify free tier hard-stops** at traffic | Medium | Medium | Budget $9–20/month from month 1; deploy only on merge to `main`; alerts on credit usage | Rohail |
-| 10 | **Bing goes to zero** as the sister site did | Medium | Medium | IndexNow off by default; content-change-only when on; weekly Bing check with a 7-day-zero trigger | Claude |
+| 10 | **Bing goes to zero** as the sister site did | Medium | Medium | IndexNow as a hand-run drip since 7 October 2026 (at most 10 changed or never-sent URLs, 48 hours apart, never on a push); weekly Bing check with a 7-day-zero trigger | Claude |
 | 11 | **Site "feels affiliate"** to readers or to Google's reviewers | Medium | High | Six stacks as the identity; non-paying tools recommended where honest; one disclosure per page; no advisor widget; no earnings content; duplicate-sentence gate | Claude |
 | 12 | **Thin/duplicate content across 52 pages** | Medium | High | Data-rendered tables + prose that only adds what data can't; duplicate gate; length is not a target | Claude |
 | 13 | **Schema errors** (SoftwareApplication/Offer required fields) | Medium | Low–Medium | Validate every page type in Rich Results Test before launch; gate on parse and on price = data | Claude |

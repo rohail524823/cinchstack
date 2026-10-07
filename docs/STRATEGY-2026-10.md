@@ -175,6 +175,7 @@ On 7 October 2026 Rohail asked Claude Code to decide every pending item. What fo
 - **Search Console's "Page with redirect" notice:** expected (the netlify.app and www hosts redirect on purpose).
 - **Systeme.io and HubSpot replies:** Claude Code reads them at its check-ins and makes the change; nothing to forward.
 - **HighLevel's affiliate strategy sessions:** optional; skip unless one suits you.
+- **First-hand experience claims:** none added. A read-only scan of all 119 Upwork contracts on 7 October 2026 found n8n builds (2 contracts) and work on Shopify export data, and no contract naming GoHighLevel, HubSpot, Zoho CRM or Pipedrive. So the site keeps offering setup on those tools without claiming past client work on them. The first paid job on each tool becomes its first experience record (`trials/<tool>.json`, `docs/plan/04-content-system.md`). The "more than ten years inside operations and finance teams" line stays, because it matches the Upwork profile the services page points readers to.
 
 ## 6. Measures and kill criteria
 

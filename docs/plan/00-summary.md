@@ -75,7 +75,7 @@ Every program that declined the sister site did so when it was 7–9 weeks old w
 3. Design language kept from the current `index.html` (paper palette, Bricolage Grotesque + IBM Plex), rebuilt lean.
 4. **Six scoring factors** for software, two blind passes, lower-of-two for tools that pay us, "Not scored" when evidence is thin, reasoning published beside every score.
 5. **Newsletter = price-change alerts.** The sender is built before the form is shown. The weekly price diff *is* the email.
-6. **IndexNow only on real content change**, never on every push — the sister site went to zero on Bing after firing it on 155 URLs per deploy.
+6. **IndexNow only on real content change**, never on every push (since 7 October 2026: a hand-run drip of at most 10 URLs every 48 hours, `docs/plan/06-aeo-geo-bing.md`) — the sister site went to zero on Bing after firing it on 155 URLs per deploy.
 7. **Plain links, not affiliate links, wherever a tool has not approved us.** The sister site has 732 buttons pointing at a vendor who said no. We will never have one.
 8. GHL's mandatory disclosure text, earnings-claim ban and coupon ban are **gates in CI**, not guidelines.
 9. `index.html` stays live untouched until the Astro site replaces it — it carries the Impact verification tag.
