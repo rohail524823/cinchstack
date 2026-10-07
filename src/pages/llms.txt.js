@@ -29,7 +29,7 @@ export async function GET() {
     sec('Comparisons', pick('compare')),
     sec('Alternatives', pick('alternatives')),
     sec('Data and method', byPath(['/data/', '/changes/', '/methodology/', '/how-we-earn/', '/about/'])),
-    `## Optional\n\n- [Pricing dataset (JSON)](${SITE}/data/pricing.json): every plan, add-on, usage rate, extra cost and team-size scenario, with sources and check dates\n- [Plans (CSV)](${SITE}/data/pricing.csv): one row per plan with the monthly and annual price\n- [Team-size costs (CSV)](${SITE}/data/scenarios.csv): CinchStack's estimate of each tool's real monthly bill at three business sizes\n`,
+    `## Optional\n\n- [Full text of every page](${SITE}/llms-full.txt): the readable text of every page in the sitemap in one plain-text file, each with its URL and the date it was last updated, rebuilt with the site\n- [Pricing dataset (JSON)](${SITE}/data/pricing.json): every plan, add-on, usage rate, extra cost and team-size scenario, with sources and check dates\n- [Plans (CSV)](${SITE}/data/pricing.csv): one row per plan with the monthly and annual price\n- [Team-size costs (CSV)](${SITE}/data/scenarios.csv): CinchStack's estimate of each tool's real monthly bill at three business sizes\n`,
   ].filter(Boolean);
   const txt = `# ${NAME}\n\n${summary}\n\n${info}\n\n${sections.join('\n')}`;
   return new Response(txt, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
