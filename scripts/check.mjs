@@ -7,7 +7,7 @@ import path from 'node:path';
 import { parseHTML } from 'linkedom';
 import { loadData, knownFigures, normFig, figuresIn, BANNED } from './lib/figures.mjs';
 import { pageRef, pageScope, passageFigures, passageDates, leadDates, badAsOf, ukSpellings, FAQ_CONTEXT, vagueQuestion } from './lib/scope.mjs';
-import { GA_ID } from '../src/lib/site.mjs';
+import { GA_ID, INDEXNOW_KEY } from '../src/lib/site.mjs';
 import { money } from '../src/lib/format.mjs';
 
 const DIST = 'dist';
@@ -481,6 +481,12 @@ else if (GA_ID) {
 // robots + llms
 const robots = fs.existsSync(path.join(DIST, 'robots.txt')) ? fs.readFileSync(path.join(DIST, 'robots.txt'), 'utf8') : '';
 if (!/Sitemap: https:\/\/cinchstack\.com\/sitemap\.xml/.test(robots)) fail('/robots.txt', 'missing or has no Sitemap line');
+// IndexNow key file (scripts/indexnow.mjs): exactly the key, so engines can confirm we own the
+// host, and never in the sitemap, since it is not a page.
+const keyFile = path.join(DIST, `${INDEXNOW_KEY}.txt`);
+if (!fs.existsSync(keyFile)) fail(`/${INDEXNOW_KEY}.txt`, 'IndexNow key file missing (public/<key>.txt)');
+else if (fs.readFileSync(keyFile, 'utf8') !== INDEXNOW_KEY) fail(`/${INDEXNOW_KEY}.txt`, 'IndexNow key file must hold exactly INDEXNOW_KEY, with no trailing newline');
+if (sitemap.includes(`${INDEXNOW_KEY}.txt`)) fail('/sitemap.xml', 'lists the IndexNow key file');
 const llms = fs.existsSync(path.join(DIST, 'llms.txt')) ? fs.readFileSync(path.join(DIST, 'llms.txt'), 'utf8') : '';
 if (!llms) fail('/llms.txt', 'missing');
 const llmsUrls = [...llms.matchAll(/\]\((https:\/\/cinchstack\.com[^)]*)\)/g)].map((m) => m[1].replace(SITE, ''));
