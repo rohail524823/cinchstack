@@ -227,6 +227,8 @@ export const alternativesSchema = z.object({
   tool: id,
   reasons: z.array(z.object({
     reason: z.string(), // "It gets expensive past 10,000 contacts"
+    // Short H2 label for the reason ("Want a predictable bill"); the template adds the picks' names.
+    short: z.string().max(48).optional(),
     picks: z.array(z.object({ tool: id, why: z.string() })).min(1).max(3),
   })).min(3).max(7),
   // Tools that do the same overall job as the one being replaced. Only these compete for

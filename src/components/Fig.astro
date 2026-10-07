@@ -1,7 +1,8 @@
 ---
 // A figure rendered from data. The check script treats [data-fig] values as sourced.
+// A floor figure ("from $79") sits in one no-wrap span so the prefix never splits from its figure.
 import { money } from '../lib/format.mjs';
 interface Props { v: number | null; suffix?: string; decimals?: number; floor?: boolean; floorText?: string }
 const { v, suffix = '', decimals, floor = false, floorText = 'from ' } = Astro.props;
 ---
-{v === null || v === undefined ? <span>—</span> : <>{floor && <span class="floor">{floorText}</span>}<data value={String(v)} data-fig data-floor={floor ? '1' : undefined}>{money(v, { decimals })}{suffix}</data></>}
+{v === null || v === undefined ? <span>—</span> : floor ? <span class="nw"><span class="floor">{floorText}</span><data value={String(v)} data-fig data-floor="1">{money(v, { decimals })}{suffix}</data></span> : <data value={String(v)} data-fig>{money(v, { decimals })}{suffix}</data>}

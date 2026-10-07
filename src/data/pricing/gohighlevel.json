@@ -742,7 +742,7 @@
     }
   ],
   "unverified": [
-    "Whether the 14-day trial requires a card up front: the signup form asks for business details first and its 'Trial Details' step was not reached. The pricing page says billing starts automatically when the trial ends unless canceled.",
+    "Whether the 14-day trial started from the pricing page requires a card up front: that signup form asks for business details first and its 'Trial Details' step was not reached. The pricing page says billing starts automatically when the trial ends unless canceled. This applies only to the 14-day route: the 30-day trial on HighLevel's Bootcamp page shows a Payment Information step in its signup form (snapshot of 6 October 2026).",
     "The 5% pass-through markup on A2P and carrier fees: the markup article (9 Sep 2026) says it applies whether or not rebilling is enabled and the Phone System guide (24 Sep 2026) says it 'always applies', but the same guide also says 'only when re-billing is enabled' and the A2P fee article says HighLevel adds no markup. The scenarios include it; without it they fall by $0.12 (solo), $0.30 (small) and $1.20 (growing).",
     "The Phone System guide lists A2P monthly fees with the 5% built in (Sole Proprietor 'up to $2.10', Low Volume '$1.50-$10.50', High Volume '$10.50'), while the A2P article lists $2.00 / $1.50 / $10.00. The scenarios use the A2P article's $1.50.",
     "Carrier fees depend on each recipient's carrier; the scenarios assume $0.0045 per outbound segment for every text.",
