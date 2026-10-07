@@ -6,6 +6,10 @@ interface Props { id: string }
 const t = tool(Astro.props.id);
 const p = price(Astro.props.id);
 const cell = (plan, key) => (plan.priceUnit === 'custom' ? 'custom' : plan[key]);
+// A vendor string with no break point (Kajabi's "contacts/products/websites/communities", a plan code
+// in a note) would hold its column open and push the table past the page between 641 and 700px.
+// Only cells holding such a run may break inside it, so every other table lays out as before.
+const wrapLong = (...parts) => (parts.some((x) => /\S{24,}/.test(x ?? '')) ? 'overflow-wrap:anywhere' : undefined);
 ---
 <p class="table-lead">{poss(t.name)} published plans as of {longDate(p.checkedOn)}: the month-to-month price, the effective monthly price when billed annually, and what each plan is priced by (US list prices in USD).</p>
 <div class="tbl-wrap">
@@ -14,11 +18,11 @@ const cell = (plan, key) => (plan.priceUnit === 'custom' ? 'custom' : plan[key])
   <tbody>
     {p.plans.map((pl) => (
       <tr>
-        <th scope="row">{pl.name}{pl.note && <span class="sub">{pl.note}</span>}</th>
+        <th scope="row" style={wrapLong(pl.name, pl.note)}>{pl.name}{pl.note && <span class="sub">{pl.note}</span>}</th>
         <td class="num" data-label="Monthly">{cell(pl, 'monthly') === 'custom' ? 'Custom' : pl.monthly === null ? <span class="sub">annual only</span> : pl.monthly === 0 ? 'Free' : <Fig v={pl.monthly} />}</td>
         <td class="num" data-label="Billed annually">{cell(pl, 'annualMonthly') === 'custom' ? 'Custom' : pl.annualMonthly === null ? <span class="sub">—</span> : pl.annualMonthly === 0 ? 'Free' : <><Fig v={pl.annualMonthly} /><span class="sub">per month</span></>}</td>
         <td data-label="Priced">{UNIT_LABEL[pl.priceUnit]}{pl.seatsIncluded ? <span class="sub">{pl.seatsIncluded} seat{pl.seatsIncluded > 1 ? 's' : ''} included</span> : null}</td>
-        <td data-label="Key limits">{pl.limits.length ? pl.limits.join('; ') : '—'}</td>
+        <td data-label="Key limits" style={wrapLong(...pl.limits)}>{pl.limits.length ? pl.limits.join('; ') : '—'}</td>
       </tr>
     ))}
   </tbody>

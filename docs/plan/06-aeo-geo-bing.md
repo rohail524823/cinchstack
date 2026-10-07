@@ -66,7 +66,7 @@ Honest note: Google has stated `llms.txt` does nothing for AI Overviews or AI Mo
 
 ## Entity consistency
 
-One `Organization` (`CinchStack`, `@id` `https://cinchstack.com/#org`) and one `Person` (the author, `@id` `…#rohail-nisar`) inlined identically on every page. Person `sameAs` to LinkedIn and GitHub. Organization `sameAs` deliberately empty until brand social accounts exist — the sister site's decision, and correct.
+One `Organization` (`CinchStack`, `@id` `https://cinchstack.com/#org`) and one `Person` (the author, `@id` `…#rohail-nisar`) inlined identically on every page. Person `sameAs` to LinkedIn, GitHub, Upwork and BestAICertifications.com (the last two are linked visibly from /about/; the list lives in `AUTHOR.sameAs` in `src/lib/site.mjs`). Organization `sameAs` deliberately empty until brand social accounts exist — the sister site's decision, and correct.
 
 A dedicated author page at `/about/` with `ProfilePage` schema (the sister site lacked one; its Person URL was `/about/` without the type).
 

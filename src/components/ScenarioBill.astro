@@ -1,7 +1,7 @@
 ---
 import { price, tool } from '../lib/data.mjs';
 import { SIZE_LABELS } from '../lib/schemas.mjs';
-import { longDate } from '../lib/format.mjs';
+import { longDate, poss } from '../lib/format.mjs';
 import Fig from './Fig.astro';
 interface Props { id: string }
 const t = tool(Astro.props.id);
@@ -10,7 +10,7 @@ const order = ['solo', 'small', 'growing'];
 const scen = order.map((s) => p.scenarios.find((x) => x.size === s));
 const planName = (id) => p.plans.find((x) => x.id === id)?.name ?? id;
 ---
-<p class="table-lead">What a business actually pays for {t.name} each month at three sizes, with every line of the bill shown. Built from the prices above as of {longDate(p.checkedOn)}; open “How we worked this out” under any total for the assumptions.</p>
+<p class="table-lead">What a business actually pays for {t.name} each month at three sizes, with every line of the bill shown. Built from {poss(t.name)} prices above as of {longDate(p.checkedOn)}; open “How we worked this out” under any {t.name} total for the assumptions.</p>
 <div class="scen">
   {scen.map((s) => (
     <article data-scenario={s.size}>

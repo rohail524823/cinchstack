@@ -231,8 +231,8 @@ for (const [p, { doc, html, noindex }] of pages) {
     if (!ok) fail(p, 'page ships JavaScript other than the analytics loader');
   }
   if (GA_ID && !doc.querySelector('script[src="/site.js"]')) fail(p, 'analytics is on but this page does not load /site.js');
-  // 16. duplicate sentences across pages (editorial text only)
-  for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a]')) {
+  // 16. duplicate sentences across pages (editorial text only, plus every table lead)
+  for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a], .table-lead')) {
     // Buttons and their "Paid link" notes are template text, not editorial sentences. Table leads
     // are not exempt: each one is built from data and must say something specific to its page.
     const ed = el.cloneNode(true);
