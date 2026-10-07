@@ -165,6 +165,17 @@ To switch it on (about 20 minutes, free):
 2. Send the opt-in page's URL to Claude Code. It goes into `ALERTS_URL` in `src/lib/site.mjs`, and the button, its Analytics event (`alerts_click`) and the privacy paragraph appear on the next deploy.
 3. When the Monday check finds a change (it opens a GitHub issue) and the change is logged on `/changes/`, send one short email to the `price-alerts` tag in Systeme.io: the tool, the old and new price, the date, and a link to the pricing page. Claude Code can draft it from the changelog entry.
 
+### 7. Access for Claude Code (optional, added 7 October 2026)
+
+Claude Code already reaches Gmail, GitHub, Hugging Face (read only) and DataForSEO. Three more grants would let it check indexing, enquiries and traffic itself instead of asking you. Connectors and environment variables load when a session starts, so add them, then start a new session. Never paste a key into the chat.
+
+| Add | How | What Claude Code can then do | Still yours |
+|---|---|---|---|
+| **Netlify connector** | claude.ai → Settings → Connectors → Netlify | Read form enquiries and deploys directly | The email-alert switch in section 4, unless the connector turns out to offer it |
+| **Google service account**, as the environment variable `GOOGLE_SERVICE_ACCOUNT_JSON` | In Google Cloud, create a project, enable the **Search Console API** and the **Google Analytics Data API**, create a service account and download a JSON key. Add the service account's email in Search Console (**Settings → Users and permissions**, Restricted) and in GA4 (**Admin → Property access management**, Viewer). Then put the key in the environment's settings: the cloud environment menu in the session's title bar → **Edit** → environment variables. | See which pages Google has indexed, the queries each page shows for, and the `affiliate_click` and `generate_lead` counts | **Request indexing**: Google's API has no such call, so that click stays manual |
+| **Bing Webmaster API key**, as `BING_WEBMASTER_API_KEY` | Bing Webmaster Tools → **Settings → API access → API key**; store it the same way | Read what Bing holds and its crawl errors directly instead of through Yahoo; that reading decides when IndexNow goes on (section 3b) | — |
+| **DataForSEO credit** | The connector is added, but the balance is empty (it answers 402) | Track rankings, and whether ChatGPT, Perplexity and Google's AI answers mention CinchStack | — |
+
 ## Jobs that run by themselves
 
 | Job | When | What it does |
