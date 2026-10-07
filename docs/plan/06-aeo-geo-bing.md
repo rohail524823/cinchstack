@@ -75,7 +75,7 @@ A dedicated author page at `/about/` with `ProfilePage` schema (the sister site 
 Bing drove real clicks (88 in five weeks) and all the Copilot citations on the sister site. Then it went to **zero impressions from 28 August** — the day after IndexNow started firing ~155 URLs on every push. Cause unproven; correlation strong. Our policy:
 
 - **Verify in Bing Webmaster Tools on day one**, import from GSC, submit the sitemap.
-- **IndexNow only for URLs whose content actually changed**, computed by the same content-diff that sets `lastmod`. Cap 10 URLs per run. **Off by default; enabled only after week 2 once indexing is confirmed.** Never on a full rebuild.
+- **IndexNow only for URLs whose content actually changed**, computed by the same content-diff that sets `lastmod`. Cap 10 URLs per run. **Off by default; enabled only once Bing Webmaster Tools' Site Explorer shows at least 10 sitemap URLs with content from after 26 September, and Search Performance shows impressions on at least 7 of the last 14 days** (made precise on 7 October 2026: on 6 October Bing held only the August holding page of the homepage, which a looser test would have counted as indexed). Never on a full rebuild.
 - Watch Bing impressions weekly; if they drop to zero for seven days, switch IndexNow off and open an issue.
 
 ## Measuring AI citations with no paid tools
