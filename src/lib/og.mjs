@@ -2,6 +2,7 @@
 // by src/pages/og/[slug].png.js from the card built here. Base.astro uses the same card for og:image
 // and its alt text, so the image and the markup that describes it can never disagree. Noindex pages
 // and the 404 keep the site-wide /og.png. Every figure comes from src/data through the usual helpers.
+import { createHash } from 'node:crypto';
 import { SITE, TAGLINE } from './site.mjs';
 import { tool, price, scenario, score, cheapestPaid, noPaidPlan, sizeBasis, stacks, stackBill, comparisons, alternatives, pricing, toolIds } from './data.mjs';
 import { money, longDate, oneDecimal } from './format.mjs';
@@ -80,7 +81,8 @@ function content(row) {
   }
   if (row.path === '/data/') {
     const plans = Object.values(pricing).reduce((a, p) => a + p.plans.length, 0);
-    return { figures: [{ label: 'Tools', value: String(toolIds.length) }, { label: 'Plans', value: String(plans) }], date: lastChecked() };
+    // The newest check, not every price's: the page's own wording ("Last checked"), not "Prices checked".
+    return { figures: [{ label: 'Tools', value: String(toolIds.length) }, { label: 'Plans', value: String(plans) }], date: lastChecked(), dateLabel: 'Last checked' };
   }
   // Home, hubs, /changes/ and the trust pages: the heading and the tagline.
   return { figures: [], date: null };
@@ -90,23 +92,26 @@ const spoken = (f) => `${f.label}: ${f.spoken ?? `${f.prefix ? `${f.prefix} ` : 
 
 /**
  * What the image for a page shows, or null for a page without one: its label, heading (the page H1,
- * or a hub's title), key figures, the verified date its Byline shows, the money strings it prints and
- * its alt text.
+ * or a hub's title), key figures, the verified date its Byline shows and how it names it, the money
+ * strings it prints, its alt text and a version that changes whenever any of that does.
  */
 export async function ogCard(path) {
   const row = (await pages()).get(path);
   if (!row) return null;
   const heading = STATIC_HEADING[path] ?? row.h1;
   const label = LABELS[row.kind] ?? (row.kind === 'data' ? 'Data' : null);
-  const { figures, date } = content(row);
+  const { figures, date, dateLabel = 'Prices checked' } = content(row);
   const tagline = !figures.length && !date && heading.toLowerCase() !== TAGLINE.toLowerCase() ? TAGLINE : null;
   const checked = date ? longDate(date) : null;
-  const alt = [heading.replace(/\.$/, ''), tagline, ...figures.map(spoken), checked && `Prices checked ${checked}`].filter(Boolean).join('. ') + '.';
-  return { path, slug: ogSlug(path), label, heading, tagline, figures, date, checked, money: figures.filter((f) => f.money).map((f) => f.value), alt };
+  const alt = [heading.replace(/\.$/, ''), tagline, ...figures.map(spoken), checked && `${dateLabel} ${checked}`].filter(Boolean).join('. ') + '.';
+  // Facebook, LinkedIn and X cache a share image by its URL, so the URL carries a hash of what the
+  // image says: a new price or date gives a new URL, and shares fetch the new image.
+  const version = createHash('sha256').update(JSON.stringify({ label, heading, tagline, figures, date, dateLabel })).digest('hex').slice(0, 8);
+  return { path, slug: ogSlug(path), label, heading, tagline, figures, date, dateLabel, checked, money: figures.filter((f) => f.money).map((f) => f.value), alt, version };
 }
 
 /** The share image for a page: {url, alt, width, height}, or null when the page has none (use OG_FALLBACK). */
 export async function ogImageFor(path) {
   const card = await ogCard(path);
-  return card ? { url: `${SITE}/og/${card.slug}.png`, alt: card.alt, width: OG_WIDTH, height: OG_HEIGHT } : null;
+  return card ? { url: `${SITE}/og/${card.slug}.png?v=${card.version}`, alt: card.alt, width: OG_WIDTH, height: OG_HEIGHT } : null;
 }

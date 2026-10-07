@@ -391,8 +391,10 @@ for (const [p, { doc, html, noindex }] of pages) {
     if (`${meta('meta[property="og:image:width"]')}x${meta('meta[property="og:image:height"]')}` !== '1200x630') fail(p, 'og:image:width and og:image:height must say 1200x630');
     if (!alt) fail(p, 'og:image without og:image:alt');
     if (noindex) { if (og !== `${SITE}/og.png`) fail(p, `noindex page uses ${og} (want ${SITE}/og.png)`); continue; }
-    const file = og.match(/^https:\/\/cinchstack\.com(\/og\/[a-z0-9-]+\.png)$/)?.[1];
-    if (!file) { fail(p, `og:image ${og} is not a ${SITE}/og/ image`); continue; }
+    // ?v= is a hash of what the image says (src/lib/og.mjs), so a share made after a price change
+    // fetches the new image instead of the one Facebook, LinkedIn or X cached under the old URL.
+    const [, file, version] = og.match(/^https:\/\/cinchstack\.com(\/og\/[a-z0-9-]+\.png)\?v=([0-9a-f]{8})$/) ?? [];
+    if (!file) { fail(p, `og:image ${og} is not a ${SITE}/og/ image with a ?v= version`); continue; }
     if (owner.has(file)) fail(p, `og:image ${file} is also ${owner.get(file)}'s`);
     owner.set(file, p);
     if (!fs.existsSync(path.join(DIST, file))) { fail(p, `og:image ${file} was not built`); continue; }
@@ -414,6 +416,7 @@ for (const [p, { doc, html, noindex }] of pages) {
     try { said = JSON.parse(img.text.cinchstack ?? ''); } catch {}
     if (!said) { fail(p, `${file} has no "cinchstack" text chunk saying what it shows`); continue; }
     if (said.path !== p) fail(p, `${file} was drawn for ${said.path}`);
+    if (said.version !== version) fail(p, `og:image says ?v=${version} but ${file} was drawn as version ${said.version}`);
     if (said.heading !== text(doc.querySelector('h1')) && said.heading !== meta('meta[property="og:title"]')) fail(p, `${file} heading "${said.heading}" is neither the page's H1 nor its title (src/lib/og.mjs)`);
     if (!alt.startsWith(said.heading.replace(/\.$/, ''))) fail(p, 'og:image:alt does not describe the page image');
     const vis = text(doc.querySelector('main'));

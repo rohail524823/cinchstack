@@ -10,6 +10,8 @@ import { initWasm, Resvg } from '@resvg/resvg-wasm';
 const WIDTH = 1200;
 const HEIGHT = 630;
 const PAD_X = 72;
+const PAD_BOTTOM = 44;
+const HEAD_GAP = 16; // the least space between the header row and the heading
 const INNER = WIDTH - PAD_X * 2;
 const C = { paper: '#F4F1EA', card: '#FBF9F4', ink: '#131410', soft: '#4B4C43', mute: '#626459', rule: '#D9D3C5', accent: '#0E7A57' };
 
@@ -49,17 +51,23 @@ const keepWhole = (s) => s.replace(/(?<=\w)-(?=\w)/g, '\u2011');
 const headingStyle = (size) => ({ fontFamily: 'Bricolage', fontWeight: 800, fontSize: size, lineHeight: LINE, letterSpacing: -0.03 * size, color: C.ink, width: INNER, textWrap: 'balance' });
 
 /**
- * The largest heading size that keeps the heading to three lines, measured with satori's own line
- * breaking. Words are never split and nothing is cut: a heading too long for three lines at the
- * smallest size fails the build.
+ * The card as SVG at the largest heading size that keeps the heading to three lines and the whole card
+ * inside its margins: the heading clear of the header row, the footer above the bottom padding. Both
+ * are measured with satori's own layout. Words are never split and nothing is cut: a card that fits
+ * at no size fails the build.
  */
-async function headingSize(text, sizes, fonts) {
+async function fitted(card, fonts) {
+  const text = keepWhole(card.heading);
+  const sizes = card.figures.length ? [64, 60, 56] : [80, 72, 64, 56];
   for (const size of sizes) {
     let height = 0;
     await satori(h(headingStyle(size), text), { width: INNER, fonts, onNodeDetected: (n) => { height = Math.max(height, n.top + n.height); } });
-    if (Math.round(height / (size * LINE)) <= 3) return size;
+    if (Math.round(height / (size * LINE)) > 3) continue;
+    const at = {};
+    const svg = await satori(layout(card, size), { width: WIDTH, height: HEIGHT, fonts, onNodeDetected: (n) => { if (n.key) at[n.key] = n; } });
+    if (at.heading.top >= at.head.top + at.head.height + HEAD_GAP && at.foot.top + at.foot.height <= HEIGHT - PAD_BOTTOM) return svg;
   }
-  throw new Error(`Share image: "${text}" needs more than three lines at ${sizes.at(-1)}px. Shorten the heading.`);
+  throw new Error(`Share image for ${card.path}: "${card.heading}" with its figures does not fit the card at ${sizes.at(-1)}px. Shorten the heading or a figure's note.`);
 }
 
 // One cell of the key-figure block. Two or more cells share the width equally; one hugs its content.
@@ -73,20 +81,22 @@ function figure(f, i, n) {
     f.sub ? h({ fontFamily: 'OG Sans', fontWeight: 400, fontSize: 22, color: C.soft, marginTop: 8 }, f.sub) : null);
 }
 
+// The keys name the nodes fitted() measures.
+const keyed = (key, el) => ({ ...el, key });
 function layout(card, size) {
   const figs = card.figures;
-  return h({ width: WIDTH, height: HEIGHT, flexDirection: 'column', backgroundColor: C.paper, padding: `52px ${PAD_X}px 44px`, fontFamily: 'OG Sans', color: C.ink },
-    h({ alignItems: 'center', justifyContent: 'space-between', height: 48 },
+  return h({ width: WIDTH, height: HEIGHT, flexDirection: 'column', backgroundColor: C.paper, padding: `52px ${PAD_X}px ${PAD_BOTTOM}px`, fontFamily: 'OG Sans', color: C.ink },
+    keyed('head', h({ alignItems: 'center', justifyContent: 'space-between', height: 48 },
       h({ alignItems: 'center' }, mark(44), h({ fontFamily: 'Bricolage', fontWeight: 800, fontSize: 34, letterSpacing: -0.7, marginLeft: 14 }, 'CinchStack')),
-      card.label ? h({ ...lbl(22), color: C.accent, border: `2px solid ${C.accent}`, borderRadius: 999, padding: '7px 18px 6px' }, card.label) : null),
+      card.label ? h({ ...lbl(22), color: C.accent, border: `2px solid ${C.accent}`, borderRadius: 999, padding: '7px 18px 6px' }, card.label) : null)),
     h({ flexDirection: 'column', flexGrow: 1, justifyContent: 'center', paddingBottom: figs.length ? 26 : 8 },
-      h(headingStyle(size), keepWhole(card.heading)),
+      keyed('heading', h(headingStyle(size), keepWhole(card.heading))),
       card.tagline ? h({ fontFamily: 'OG Sans', fontWeight: 600, fontSize: 32, color: C.accent, marginTop: 22 }, card.tagline) : null),
     figs.length ? h({ backgroundColor: C.card, border: `2px solid ${C.rule}`, borderRadius: 12, alignSelf: figs.length > 1 ? 'stretch' : 'flex-start', marginBottom: 30 },
       figs.map((f, i) => figure(f, i, figs.length))) : null,
-    h({ justifyContent: 'space-between', alignItems: 'center', borderTop: `3px solid ${C.ink}`, paddingTop: 16, ...lbl(22), letterSpacing: 1.3, color: C.soft },
+    keyed('foot', h({ justifyContent: 'space-between', alignItems: 'center', borderTop: `3px solid ${C.ink}`, paddingTop: 16, ...lbl(22), letterSpacing: 1.3, color: C.soft },
       h({}, 'cinchstack.com'),
-      card.checked ? h({}, `Prices checked ${card.checked}`) : null));
+      card.checked ? h({}, `${card.dateLabel} ${card.checked}`) : null)));
 }
 
 // A "cinchstack" tEXt chunk (PNG spec 11.3.4.3) carrying what the image says, as JSON, so
@@ -106,14 +116,12 @@ function withText(png, text) {
 }
 
 export async function renderCard(card) {
-  const fonts = await ready();
-  const size = await headingSize(keepWhole(card.heading), card.figures.length ? [64, 60, 56] : [80, 72, 64, 56], fonts);
-  const svg = await satori(layout(card, size), { width: WIDTH, height: HEIGHT, fonts });
+  const svg = await fitted(card, await ready());
   const r = new Resvg(svg, { fitTo: { mode: 'original' } });
   const img = r.render();
   const png = Buffer.from(img.asPng());
   img.free();
   r.free();
-  const said = { path: card.path, heading: card.heading, label: card.label, money: card.money, checked: card.date };
+  const said = { path: card.path, heading: card.heading, label: card.label, money: card.money, checked: card.date, version: card.version };
   return withText(png, JSON.stringify(said));
 }
