@@ -8,7 +8,7 @@ import { parseHTML } from 'linkedom';
 import { loadData, knownFigures, normFig, figuresIn, BANNED } from './lib/figures.mjs';
 import { pageRef, pageScope, passageFigures, passageDates, leadDates, badAsOf, ukSpellings, FAQ_CONTEXT, vagueQuestion } from './lib/scope.mjs';
 import { GA_ID, INDEXNOW_KEY } from '../src/lib/site.mjs';
-import { money } from '../src/lib/format.mjs';
+import { money, longDate } from '../src/lib/format.mjs';
 
 const DIST = 'dist';
 const SITE = 'https://cinchstack.com';
@@ -362,6 +362,74 @@ for (const [p, { doc, html, noindex }] of pages) {
     if (pages.has(clean)) out.add(clean);
   }
   linkGraph.set(p, out);
+}
+
+// ---------- share images (src/lib/og.mjs draws them, src/pages/og/ builds them) ----------
+// Every indexable page shows its own 1200x630 PNG under /og/, under 300 KB, as og:image, twitter:image
+// and the image of its Article and WebPage nodes; noindex pages and the 404 keep /og.png. Each image
+// carries a tEXt chunk saying what it shows, so this tests the file that ships: it was drawn for this
+// page, its heading is the page's H1 or title, its money figures are in the data and printed on the
+// page, and its date is the verified date the page shows.
+{
+  const readPng = (file) => {
+    const b = fs.readFileSync(file);
+    if (b.length < 33 || b.toString('latin1', 1, 4) !== 'PNG' || b.toString('latin1', 12, 16) !== 'IHDR') return null;
+    const out = { bytes: b.length, width: b.readUInt32BE(16), height: b.readUInt32BE(20), text: {} };
+    for (let i = 8; i + 12 <= b.length; i += 12 + b.readUInt32BE(i)) {
+      if (b.toString('latin1', i + 4, i + 8) !== 'tEXt') continue;
+      const s = b.toString('latin1', i + 8, i + 8 + b.readUInt32BE(i));
+      out.text[s.slice(0, s.indexOf('\0'))] = s.slice(s.indexOf('\0') + 1);
+    }
+    return out;
+  };
+  const owner = new Map();
+  for (const [p, { doc, noindex }] of pages) {
+    const meta = (sel) => doc.querySelector(sel)?.getAttribute('content') ?? '';
+    const og = meta('meta[property="og:image"]');
+    const alt = meta('meta[property="og:image:alt"]');
+    if (meta('meta[name="twitter:image"]') !== og) fail(p, `twitter:image ${meta('meta[name="twitter:image"]')} ≠ og:image ${og}`);
+    if (`${meta('meta[property="og:image:width"]')}x${meta('meta[property="og:image:height"]')}` !== '1200x630') fail(p, 'og:image:width and og:image:height must say 1200x630');
+    if (!alt) fail(p, 'og:image without og:image:alt');
+    if (noindex) { if (og !== `${SITE}/og.png`) fail(p, `noindex page uses ${og} (want ${SITE}/og.png)`); continue; }
+    // ?v= is a hash of what the image says (src/lib/og.mjs), so a share made after a price change
+    // fetches the new image instead of the one Facebook, LinkedIn or X cached under the old URL.
+    const [, file, version] = og.match(/^https:\/\/cinchstack\.com(\/og\/[a-z0-9-]+\.png)\?v=([0-9a-f]{8})$/) ?? [];
+    if (!file) { fail(p, `og:image ${og} is not a ${SITE}/og/ image with a ?v= version`); continue; }
+    if (owner.has(file)) fail(p, `og:image ${file} is also ${owner.get(file)}'s`);
+    owner.set(file, p);
+    if (!fs.existsSync(path.join(DIST, file))) { fail(p, `og:image ${file} was not built`); continue; }
+    const img = readPng(path.join(DIST, file));
+    if (!img) { fail(p, `${file} is not a PNG`); continue; }
+    if (img.width !== 1200 || img.height !== 630) fail(p, `${file} is ${img.width}x${img.height} (want 1200x630)`);
+    if (img.bytes > 300 * 1024) fail(p, `${file} is ${Math.round(img.bytes / 1024)} KB (max 300)`);
+    // JSON-LD: the page's Article and WebPage carry the image, and every image named is og:image.
+    const g = graphs.get(p) ?? [];
+    for (const n of g) for (const key of ['image', 'primaryImageOfPage']) {
+      if (n[key] && (n[key].url ?? n[key]) !== og) fail(p, `JSON-LD ${key} of ${n['@id'] ?? n['@type']} is ${n[key].url ?? n[key]}, not og:image ${og}`);
+    }
+    const art = g.find((n) => n['@id'] === `${SITE}${p}#article`);
+    const wp = g.find((n) => n['@id'] === `${SITE}${p}#webpage`);
+    if (art && !art.image) fail(p, 'JSON-LD Article without the page image');
+    if (wp && !wp.primaryImageOfPage) fail(p, 'JSON-LD WebPage without primaryImageOfPage');
+    // What the image says.
+    let said = null;
+    try { said = JSON.parse(img.text.cinchstack ?? ''); } catch {}
+    if (!said) { fail(p, `${file} has no "cinchstack" text chunk saying what it shows`); continue; }
+    if (said.path !== p) fail(p, `${file} was drawn for ${said.path}`);
+    if (said.version !== version) fail(p, `og:image says ?v=${version} but ${file} was drawn as version ${said.version}`);
+    if (said.heading !== text(doc.querySelector('h1')) && said.heading !== meta('meta[property="og:title"]')) fail(p, `${file} heading "${said.heading}" is neither the page's H1 nor its title (src/lib/og.mjs)`);
+    if (!alt.startsWith(said.heading.replace(/\.$/, ''))) fail(p, 'og:image:alt does not describe the page image');
+    const vis = text(doc.querySelector('main'));
+    for (const fig of said.money ?? []) {
+      if (!known.has(normFig(fig))) fail(p, `${file} shows ${fig}, which is not a figure in the data`);
+      if (!new RegExp(`${fig.replace(/[$.]/g, '\\$&')}(?!\\d|[.,]\\d)`).test(vis)) fail(p, `${file} shows ${fig}, which the page does not print`);
+      if (!alt.includes(fig)) fail(p, `og:image:alt leaves out ${fig}, which the image shows`);
+    }
+    const verified = doc.querySelector('time[data-verified]')?.getAttribute('datetime') ?? null;
+    if (verified && said.checked !== verified) fail(p, `${file} says prices checked ${said.checked}, the page says ${verified}`);
+    else if (said.checked && said.checked !== (verified ?? wp?.lastReviewed)) fail(p, `${file} says prices checked ${said.checked}, a date the page does not show`);
+    if (said.checked && !alt.includes(longDate(said.checked))) fail(p, 'og:image:alt leaves out the date the image shows');
+  }
 }
 
 // ---------- site-wide ----------
