@@ -41,3 +41,5 @@ export const GA_ID = 'G-YVPC1K7T3X';
 // Search engine verification tags. Only needed when a property is not verified through DNS.
 export const GOOGLE_VERIFICATION = '';
 export const BING_VERIFICATION = '';
+// IndexNow key (scripts/indexnow.mjs). The key file at /<key>.txt proves to IndexNow engines that we own the host.
+export const INDEXNOW_KEY = '7e1d5a9fc48a3143406369871a0b9f1b';
