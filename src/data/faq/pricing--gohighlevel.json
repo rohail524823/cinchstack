@@ -3,7 +3,7 @@
   "items": [
     {
       "q": "How much does GoHighLevel cost per month?",
-      "a": "GoHighLevel has three published plans: Starter at $97 a month, Unlimited at $297 a month and Agency Pro at $497 a month, plus a custom-quote Enterprise tier for large operations. Every plan includes unlimited users and unlimited contacts, so what changes between tiers is the number of sub-accounts you get and whether you can rebill usage charges to clients, not seats or contact caps. The published price is only the subscription, though: texting, calling, most AI features and email sending are metered separately from a prepaid wallet and billed on top. Because of that, the number people actually pay varies with how much they text, call and email, which is why GoHighLevel's own pricing page shows no single \"real\" total, and why we calculate one from typical usage for a solo operator, a small team and a growing team above."
+      "a": "As of 26 September 2026, GoHighLevel, often shortened to GHL, costs $97 a month on Starter, $297 a month on Unlimited and $497 a month on Agency Pro, with a custom-quote Enterprise tier for large operations. Every plan includes unlimited users and unlimited contacts, so the tiers differ by sub-accounts and client rebilling, not by seats. The plan price pays for the software only: texting, calling, email sending and most AI features are metered from a prepaid wallet and billed on top. Counting that usage, a solo operator on Starter who sends 200 texts and 2,000 emails a month pays about $103.51, and a 3-user team sending 1,000 texts and 20,000 emails pays about $125.42. GoHighLevel's own pricing page shows no total like this, because the usage half of the bill depends on how much each business texts, calls and emails."
     },
     {
       "q": "Does GoHighLevel charge extra for texting and calling?",
@@ -11,7 +11,7 @@
     },
     {
       "q": "Does GoHighLevel offer a free trial or a free plan?",
-      "a": "GoHighLevel has no free plan; every account starts on a paid plan after a 14-day free trial of whichever tier you pick, Starter, Unlimited or Agency Pro, with full access to that tier's features. GoHighLevel's pricing page states that billing begins automatically when the trial ends unless you cancel first, and that usage-based fees for texting, calling or other third-party services can be charged even during the trial. Whether the signup form asks for a card before the trial starts is not stated plainly on the pricing page. Once the trial ends, the cheapest way to keep using GoHighLevel is the $97-a-month Starter plan; there is no ongoing free tier to fall back to the way some competitors offer."
+      "a": "GoHighLevel has no free plan, but it has two free-trial routes. Its pricing page offers 14 days on Starter, Unlimited or Agency Pro, with full access to the chosen tier; HighLevel's Bootcamp trial page, which the trial button at the end of this page opens, gives 30 days instead. On either route, billing starts automatically when the trial ends unless you cancel first, and usage fees for texts, calls and email can be charged during the trial itself. The Bootcamp signup form includes a payment step; the pricing page does not say plainly whether its 14-day route takes a card up front. Once a trial ends, the cheapest way to keep using GoHighLevel is the $97-a-month Starter plan, and there is no ongoing free tier to fall back to the way some competitors offer."
     },
     {
       "q": "How much does GoHighLevel's AI Employee cost?",
