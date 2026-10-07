@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 // Tells IndexNow engines (Bing, which feeds ChatGPT search and Copilot) about pages as a slow drip:
-// at most 10 URLs per submission, at least 48 hours apart, and only URLs never sent before or whose
-// sitemap lastmod is later than the day they were last sent. Run by hand, never on a push or rebuild:
-// a sister site lost its Bing impressions the day after it began sending ~155 URLs on every deploy
-// (docs/plan/06-aeo-geo-bing.md). Every submission is logged in src/data/_indexnow.json.
+// at most 10 URLs per submission, at least 48 hours apart (a 429 refusal starts the same wait), and
+// only URLs never sent before or whose sitemap lastmod is later than the day they were last sent.
+// Run by hand, never on a push or rebuild: a sister site lost its Bing impressions the day after it
+// began sending ~155 URLs on every deploy (docs/plan/06-aeo-geo-bing.md). Every submission is logged
+// in src/data/_indexnow.json; commit the log after every real run.
 // Usage: node scripts/indexnow.mjs [--dry-run] [--force] <url-or-path> ...   (1 to 10 URLs)
 //   --dry-run  run every check and print the payload, but send nothing and log nothing
 //   --force    skip only the 48-hour gap
@@ -66,13 +67,15 @@ async function get(url, tries = 2) {
 }
 const answered = (r) => r.error ?? `answered ${r.status}${r.headers?.get('location') ? ` -> ${r.headers.get('location')}` : ''}`;
 
-// 1. Spacing: at least 48 hours since the last accepted submission.
-const lastAt = accepted.map((e) => e.at).sort().at(-1);
+// 1. Spacing: at least 48 hours since the last accepted submission. A 429 (too many requests) starts
+// the same wait, so a refused batch is not resent minutes later.
+const lastAt = log.filter((e) => ACCEPTED.includes(e.status) || e.status === 429).map((e) => e.at).sort().at(-1);
+const last = lastAt && log.some((e) => e.at === lastAt && e.status === 429) ? 'last submission (refused with 429, too many requests)' : 'last accepted submission';
 const hours = lastAt ? (Date.now() - Date.parse(lastAt)) / 3.6e6 : Infinity;
 if (!lastAt) ok('spacing: no accepted submission yet');
-else if (hours >= GAP_HOURS) ok(`spacing: last accepted submission ${lastAt}, ${Math.floor(hours)} hours ago`);
-else if (FORCE) note(`spacing: last accepted submission ${lastAt} was ${hours.toFixed(1)} hours ago; --force skips the ${GAP_HOURS}-hour gap`);
-else bad(`spacing: last accepted submission ${lastAt} was ${hours.toFixed(1)} hours ago; wait until ${iso(Date.parse(lastAt) + GAP_HOURS * 3.6e6)} or pass --force`);
+else if (hours >= GAP_HOURS) ok(`spacing: ${last} ${lastAt}, ${Math.floor(hours)} hours ago`);
+else if (FORCE) note(`spacing: ${last} ${lastAt} was ${hours.toFixed(1)} hours ago; --force skips the ${GAP_HOURS}-hour gap`);
+else bad(`spacing: ${last} ${lastAt} was ${hours.toFixed(1)} hours ago; wait until ${iso(Date.parse(lastAt) + GAP_HOURS * 3.6e6)} or pass --force`);
 
 // 2. Every URL is in the live sitemap. A URL already sent is dropped unless its lastmod is later
 // than the day it was last sent.
@@ -143,7 +146,7 @@ log.push({ at: iso(Date.now()), urls: send, status: res.status });
 fs.writeFileSync(LOG, JSON.stringify(log, null, 2) + '\n');
 if (ACCEPTED.includes(res.status)) console.log(`IndexNow answered ${res.status}: ${send.length} URL(s) accepted, logged in ${LOG}. Commit the log.`);
 else {
-  console.log(`IndexNow answered ${res.status}: not accepted, logged in ${LOG}.`);
+  console.log(`IndexNow answered ${res.status}: not accepted, logged in ${LOG}.${res.status === 429 ? ` The ${GAP_HOURS}-hour wait starts now.` : ''} Commit the log.`);
   if (body) console.log(body);
   process.exit(1);
 }
