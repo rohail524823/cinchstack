@@ -7,6 +7,7 @@ import path from 'node:path';
 import { parseHTML } from 'linkedom';
 import { loadData, knownFigures, normFig, BANNED } from './lib/figures.mjs';
 import { GA_ID } from '../src/lib/site.mjs';
+import { money } from '../src/lib/format.mjs';
 
 const DIST = 'dist';
 const SITE = 'https://cinchstack.com';
@@ -58,6 +59,8 @@ for (const file of htmlFiles) {
   pages.set(p, { doc: document, html, file, noindex: /noindex/.test(robots) || p === '/404.html' });
 }
 const exists = (p) => pages.has(p) || fs.existsSync(path.join(DIST, p.replace(/^\//, ''))) || fs.existsSync(path.join(DIST, p.replace(/^\//, ''), 'index.html'));
+// A built page or file (a folder that only holds other pages, like /tools/ahrefs/, is not a page).
+const built = (p) => pages.has(p) || (!p.endsWith('/') && fs.existsSync(path.join(DIST, p.replace(/^\//, ''))));
 
 const text = (el) => (el?.textContent ?? '').replace(/\s+/g, ' ').trim();
 const words = (s) => s.split(/\s+/).filter(Boolean).length;
@@ -66,6 +69,8 @@ const words = (s) => s.split(/\s+/).filter(Boolean).length;
 
 const titles = new Map();
 const descs = new Map();
+const graphs = new Map(); // path -> JSON-LD @graph, for references from one page to a node on another
+const crossRefs = []; // [page, key, @id]
 const sentencePages = new Map();
 const linkGraph = new Map();
 
@@ -104,7 +109,49 @@ for (const [p, { doc, html, noindex }] of pages) {
     const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
     if (dup.length) fail(p, `duplicate @id in graph: ${[...new Set(dup)].join(', ')}`);
   } catch (e) { fail(p, `JSON-LD does not parse: ${e.message}`); }
-  const node = (type) => graph.find((n) => n['@type'] === type);
+  graphs.set(p, graph);
+  const typeOf = (n) => [].concat(n['@type'] ?? []);
+  const node = (type) => graph.find((n) => typeOf(n).includes(type));
+  // 4b. every @id names a page that is built, and no @id reference dangles. A reference is an object
+  // holding only an @id. about/mentions/isBasedOn may point at a node on another page (checked
+  // after all pages are read); every other reference must resolve in this page's graph.
+  {
+    const defined = new Set(graph.map((n) => n['@id']).filter(Boolean));
+    for (const id of defined) if (!id.startsWith(`${SITE}/`) || !built(id.slice(SITE.length).split('#')[0])) fail(p, `JSON-LD @id ${id} is not on a built page`);
+    const refs = (o, key) => {
+      if (Array.isArray(o)) return o.forEach((x) => refs(x, key));
+      if (!o || typeof o !== 'object') return;
+      if (Object.keys(o).length === 1 && typeof o['@id'] === 'string') {
+        if (defined.has(o['@id'])) return;
+        if (['about', 'mentions', 'isBasedOn'].includes(key)) crossRefs.push([p, key, o['@id']]);
+        else fail(p, `JSON-LD ${key} -> ${o['@id']} is not defined in the page's graph`);
+        return;
+      }
+      for (const [k, v] of Object.entries(o)) if (k !== '@id') refs(v, k);
+    };
+    graph.forEach((n) => refs(n, ''));
+  }
+  // 4c. software apps (Google's software-app result needs offers with a price and a rating): each one
+  // carries a review or rating, and every offer's price is printed on the page.
+  {
+    const vis = text(main);
+    for (const s of graph.filter((n) => typeOf(n).includes('SoftwareApplication'))) {
+      if (!s.review && !s.aggregateRating) fail(p, `SoftwareApplication ${s.name} without a review or rating (link its Review, or leave the app out)`);
+      const offers = [].concat(s.offers ?? []);
+      if (!offers.length) fail(p, `SoftwareApplication ${s.name} without offers`);
+      for (const o of offers) {
+        if (o.price === undefined || o.price === null || o.price === '') { fail(p, `${s.name} offer ${o.name} without a price`); continue; }
+        const v = Number(o.price);
+        if (v > 0 && !new RegExp(`${money(v).replace(/[$.]/g, '\\$&')}(?!\\d|[.,]\\d)`).test(vis)) fail(p, `${s.name} offer ${o.name} at ${money(v)} is in the markup but not printed on the page`);
+      }
+    }
+    // A list names each entry once (a stack layer is named with its layer).
+    for (const l of graph.filter((n) => typeOf(n).includes('ItemList') && Array.isArray(n.itemListElement) && n.itemListElement.every((x) => x.name))) {
+      const names = l.itemListElement.map((x) => x.name);
+      const twice = names.filter((x, i) => names.indexOf(x) !== i);
+      if (twice.length) fail(p, `ItemList ${l['@id']} names ${twice[0]} more than once`);
+    }
+  }
   // 5. FAQ sync
   const qs = [...doc.querySelectorAll('[data-faq-q]')].map(text);
   const faqNode = node('FAQPage');
@@ -123,16 +170,25 @@ for (const [p, { doc, html, noindex }] of pages) {
   if (crumbNode) {
     const names = crumbNode.itemListElement.map((x) => x.name);
     if (names.join(' > ') !== visCrumbs.join(' > ')) fail(p, `breadcrumbs differ: page "${visCrumbs.join(' > ')}" vs schema "${names.join(' > ')}"`);
+    // Google requires item on every crumb but the last, and it must be a page that exists.
+    crumbNode.itemListElement.forEach((x, i, all) => {
+      if (i === all.length - 1) return;
+      if (!x.item) fail(p, `breadcrumb "${x.name}" has no item URL (only the last crumb may leave it out)`);
+      else if (!x.item.startsWith(`${SITE}/`) || !built(x.item.slice(SITE.length))) fail(p, `breadcrumb "${x.name}" points at ${x.item}, which is not built`);
+    });
   } else if (visCrumbs.length) fail(p, 'visible breadcrumbs without BreadcrumbList');
   // 7. verified date sync
   const wp = graph.find((n) => /WebPage|AboutPage|ContactPage|CollectionPage/.test(n['@type']) && n.lastReviewed);
   const vis = doc.querySelector('time[data-verified]')?.getAttribute('datetime');
   if (vis && wp && wp.lastReviewed !== vis) fail(p, `lastReviewed ${wp.lastReviewed} ≠ visible verified date ${vis}`);
-  // 8. review rating visible
-  const rev = node('Review');
-  if (rev) {
-    const shown = doc.querySelector('[data-score]')?.getAttribute('data-score');
-    if (String(rev.reviewRating.ratingValue) !== String(shown)) fail(p, `Review rating ${rev.reviewRating.ratingValue} not the visible score ${shown}`);
+  // 8. review rating visible: each Review matches the score panel (#score-<tool>) of the tool it reviews
+  for (const rev of graph.filter((n) => typeOf(n).includes('Review'))) {
+    const app = graph.find((n) => n['@id'] && n['@id'] === rev.itemReviewed?.['@id']);
+    const id = (app?.['@id'] ?? '').match(/\/tools\/([a-z0-9-]+)\//)?.[1];
+    const shown = id ? doc.getElementById(`score-${id}`)?.getAttribute('data-score') : undefined;
+    if (!app) fail(p, `Review ${rev['@id']} does not review an app in the page's graph`);
+    else if (String(rev.reviewRating?.ratingValue) !== String(shown)) fail(p, `Review rating ${rev.reviewRating?.ratingValue} for ${app.name} not the visible score ${shown}`);
+    else if (app.review?.['@id'] !== rev['@id']) fail(p, `SoftwareApplication ${app.name} does not link its Review (review: {"@id": "${rev['@id']}"})`);
   }
   // 9. quick answer
   const qa = doc.querySelector('[data-quick-answer] p');
@@ -266,6 +322,11 @@ for (const [p, { doc, html, noindex }] of pages) {
 }
 
 // ---------- site-wide ----------
+// JSON-LD references to a node on another page (about/mentions/isBasedOn) must find that node there.
+for (const [p, key, id] of crossRefs) {
+  const host = id.startsWith(`${SITE}/`) ? graphs.get(id.slice(SITE.length).split('#')[0]) : null;
+  if (!host || !host.some((n) => n['@id'] === id)) fail(p, `JSON-LD ${key} -> ${id} is defined on no built page`);
+}
 for (const [s, ps] of sentencePages) if (ps.size > 3) fail([...ps].slice(0, 4).join(', '), `sentence repeated on ${ps.size} pages: "${s.slice(0, 90)}…"`);
 
 // sitemap

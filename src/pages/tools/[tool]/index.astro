@@ -7,7 +7,7 @@ import { LAYER_LABELS, SIZE_LABELS } from '../../../lib/schemas.mjs';
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { figHtml, poss, longDate } from '../../../lib/format.mjs';
-import { breadcrumbNode, articleNode, softwareNode, reviewNode, faqNode } from '../../../lib/jsonld.mjs';
+import { breadcrumbNode, articleNode, webPageNode, softwareWithReview, plansShownIn, sourceUrls, faqNode } from '../../../lib/jsonld.mjs';
 import { mdxComponents } from '../../../components/mdx/index.mjs';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import Byline from '../../../components/Byline.astro';
@@ -45,11 +45,13 @@ const pricingExists = await exists(`/tools/${id}/pricing/`);
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: t.name }];
 const related = await relatedFor(e.id, e.data.related);
 const BIZ = { agency: 'marketing agencies', 'course-creator': 'coaches and course creators', 'shopify-store': 'online stores', 'local-service': 'local service businesses', freelancer: 'freelancers', 'saas-startup': 'early-stage SaaS teams' };
+// The review shows no plans table, so the offers are only the plans whose price the page prints.
+const app = softwareWithReview(id, url, { plans: plansShownIn(id, [e.body, e.data.quickAnswer, ...faq.flatMap((x) => [x.q, x.a]), ...t.pros, ...t.cons], cheapest ? [cheapest.p.id] : []) });
 const jsonld = [
   breadcrumbNode(url, crumbs),
-  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
-  softwareNode(id),
-  reviewNode(id, url),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified, about: app[0] && { '@id': app[0]['@id'] }, isBasedOn: sourceUrls(id) }),
+  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: p.checkedOn, article: true }),
+  app,
   faqNode(url, faq),
 ];
 const glance = [

@@ -2,7 +2,7 @@
 // Trust and utility pages written as MDX in src/content/pages/.
 import Base from '../layouts/Base.astro';
 import { render } from 'astro:content';
-import { SITE, AUTHOR_ID, AUTHOR } from '../lib/site.mjs';
+import { SITE, AUTHOR_ID } from '../lib/site.mjs';
 import { registry } from '../lib/pages.mjs';
 import { datesFor } from '../lib/meta.mjs';
 import { breadcrumbNode, webPageNode } from '../lib/jsonld.mjs';
@@ -35,14 +35,13 @@ const d = datesFor(e);
 const NOINDEX = new Set(['thanks']);
 const TYPE = { about: 'AboutPage', contact: 'ContactPage', methodology: 'WebPage', 'how-we-earn': 'WebPage' };
 const crumbs = [{ label: 'Home', href: '/' }, { label: r.h1 }];
-const page = webPageNode({ url, name: e.data.title, description: e.data.description, type: TYPE[slug] ?? 'WebPage' });
+// /about/ is also the author page: one node typed AboutPage and ProfilePage, whose main entity is
+// the Person node already in the graph.
+const page = webPageNode({ url, name: e.data.title, description: e.data.description, type: slug === 'about' ? ['AboutPage', 'ProfilePage'] : TYPE[slug] ?? 'WebPage' });
 page.datePublished = d.published;
 page.dateModified = d.modified;
+if (slug === 'about') Object.assign(page, { mainEntity: { '@id': AUTHOR_ID }, dateCreated: d.published });
 const extra = [];
-if (slug === 'about') {
-  // The author page: a ProfilePage whose main entity is the Person node already in the graph.
-  extra.push({ '@type': 'ProfilePage', '@id': `${url}#profile`, url, name: `${AUTHOR.name}, ${AUTHOR.jobTitle} of CinchStack`, mainEntity: { '@id': AUTHOR_ID }, dateCreated: d.published, dateModified: d.modified });
-}
 if (slug === 'services') {
   // One Service node per package, offered by the editor (the Person node already in the graph).
   for (const p of services.packages) {

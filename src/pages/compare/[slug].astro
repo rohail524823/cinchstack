@@ -5,7 +5,7 @@ import { SITE } from '../../lib/site.mjs';
 import { tool, price, comparisons, faqs } from '../../lib/data.mjs';
 import { registry, relatedFor } from '../../lib/pages.mjs';
 import { datesFor } from '../../lib/meta.mjs';
-import { breadcrumbNode, articleNode, softwareNode, itemListNode, faqNode } from '../../lib/jsonld.mjs';
+import { breadcrumbNode, articleNode, webPageNode, softwareRef, itemListNode, faqNode } from '../../lib/jsonld.mjs';
 import { mdxComponents } from '../../components/mdx/index.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Byline from '../../components/Byline.astro';
@@ -44,8 +44,10 @@ const reg = await registry();
 const hubHref = (id) => (reg.has(`/tools/${id}/`) ? `/tools/${id}/` : reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
 const jsonld = [
   breadcrumbNode(url, crumbs),
-  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
-  softwareNode(c.a), softwareNode(c.b),
+  // The apps are referenced, not redefined: SoftwareApplication items live on each tool's review or
+  // pricing page (docs/plan/05-seo.md), and two reviews on one comparison would be a review of a list.
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified, about: [c.a, c.b].map((x) => softwareRef(x, (q) => reg.has(q))) }),
+  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: verified, article: true }),
   itemListNode(url, `${A.name} vs ${B.name}`, [c.a, c.b].map((id) => ({ name: tool(id).name, url: `${SITE}${hubHref(id) ?? path}` }))),
   faqNode(url, faq),
 ];

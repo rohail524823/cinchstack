@@ -8,7 +8,7 @@ import { tool, price, faqs, trialOffer } from '../../../lib/data.mjs';
 import { registry, relatedFor, exists, guideParts } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { poss } from '../../../lib/format.mjs';
-import { breadcrumbNode, articleNode, webPageNode, faqNode } from '../../../lib/jsonld.mjs';
+import { breadcrumbNode, articleNode, webPageNode, softwareRef, sourceUrls, faqNode } from '../../../lib/jsonld.mjs';
 import { mdxComponents } from '../../../components/mdx/index.mjs';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import Byline from '../../../components/Byline.astro';
@@ -45,10 +45,11 @@ const hubExists = await exists(`/tools/${id}/`);
 const pricingExists = await exists(`/tools/${id}/pricing/`);
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: t.name, href: hubExists ? `/tools/${id}/` : pricingExists ? `/tools/${id}/pricing/` : undefined }, { label: r.h1 }];
 const related = await relatedFor(e.id, e.data.related);
+const reg = await registry();
 const jsonld = [
   breadcrumbNode(url, crumbs),
-  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
-  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: p.checkedOn }),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified, about: softwareRef(id, (x) => reg.has(x)), isBasedOn: sourceUrls(id) }),
+  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: p.checkedOn, article: true }),
   faqNode(url, faq),
 ];
 ---
