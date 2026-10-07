@@ -244,6 +244,21 @@ export function websiteNode() {
   };
 }
 
+/**
+ * The page's own share image (src/lib/og.mjs) on the nodes that describe the page at `url`: `image`
+ * on its Article and `primaryImageOfPage` on its WebPage. Pages without a generated image are left as
+ * they are. Base.astro applies this to every page, so no template needs to.
+ */
+export function withPageImage(nodes, url, img) {
+  if (!img) return nodes;
+  const image = { '@type': 'ImageObject', url: img.url, width: img.width, height: img.height };
+  return [nodes].flat(Infinity).filter(Boolean).map((n) => {
+    if (n['@id'] === `${url}#article`) return { ...n, image };
+    if (n['@id'] === `${url}#webpage`) return { ...n, primaryImageOfPage: image };
+    return n;
+  });
+}
+
 export function graph(...nodes) {
   const clean = (o) => JSON.parse(JSON.stringify(o)); // drops undefined
   // The same node passed twice (the WebSite node on the homepage) is kept once. Two different nodes

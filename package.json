@@ -19,7 +19,9 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.14",
+    "@resvg/resvg-wasm": "2.6.2",
     "astro": "^5.18.2",
+    "satori": "0.29.1",
     "zod": "^3.25.76"
   },
   "devDependencies": {

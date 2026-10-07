@@ -1,7 +1,8 @@
 ---
 import '../styles/site.css';
 import { SITE, NAME, TAGLINE, NAV, IMPACT_VERIFICATION, GA_ID, GOOGLE_VERIFICATION, BING_VERIFICATION } from '../lib/site.mjs';
-import { orgNodes, websiteNode, graph } from '../lib/jsonld.mjs';
+import { orgNodes, websiteNode, graph, withPageImage } from '../lib/jsonld.mjs';
+import { ogImageFor, OG_FALLBACK } from '../lib/og.mjs';
 
 interface Props {
   title: string;
@@ -15,7 +16,11 @@ const { title, description, path, noindex = false, jsonld = [], ogType = 'articl
 const url = `${SITE}${path}`;
 // Keep the brand suffix only when the whole title still fits in a search result (~65 chars).
 const fullTitle = path === '/' ? title : `${title} | ${NAME}`.length <= 65 ? `${title} | ${NAME}` : title;
-const ld = graph(orgNodes(), path === '/' ? websiteNode() : null, jsonld);
+// The page's own share image (one per indexable page, built by src/pages/og/); noindex pages and the
+// 404 share the site-wide card.
+const og = noindex ? null : await ogImageFor(path);
+const image = og ?? OG_FALLBACK;
+const ld = graph(orgNodes(), path === '/' ? websiteNode() : null, withPageImage(jsonld, url, og));
 const current = (href) => (path === href || (href !== '/' && path.startsWith(href)) ? 'page' : undefined);
 ---
 <!doctype html>
@@ -42,12 +47,14 @@ const current = (href) => (path === href || (href !== '/' && path.startsWith(hre
 <meta property="og:title" content={title}>
 <meta property="og:description" content={description}>
 {!noindex && <meta property="og:url" content={url}>}
-<meta property="og:image" content={`${SITE}/og.png`}>
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="CinchStack: the software stack that's best for you, and what it really costs.">
+<meta property="og:image" content={image.url}>
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content={String(image.width)}>
+<meta property="og:image:height" content={String(image.height)}>
+<meta property="og:image:alt" content={image.alt}>
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content={`${SITE}/og.png`}>
+<meta name="twitter:image" content={image.url}>
+<meta name="twitter:image:alt" content={image.alt}>
 <meta name="twitter:title" content={title}>
 <meta name="twitter:description" content={description}>
 <script type="application/ld+json" set:html={JSON.stringify(ld)} />
