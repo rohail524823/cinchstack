@@ -1,14 +1,25 @@
 ---
-import { score, tool, paysUs, program } from '../lib/data.mjs';
+import { score, tool, price, paysUs, program } from '../lib/data.mjs';
+import { exists } from '../lib/pages.mjs';
 import { FACTORS } from '../lib/schemas.mjs';
-import { oneDecimal, stars, longDate } from '../lib/format.mjs';
+import { oneDecimal, stars, longDate, poss } from '../lib/format.mjs';
+// compact: the version on a tool's pricing page, so every score on the site has a visible home with
+// its reasons. Each panel carries the anchor #score-<tool>, which every "Score X" elsewhere links to.
 interface Props { id: string; compact?: boolean }
 const { id, compact = false } = Astro.props;
 const t = tool(id);
 const s = score(id);
 const LABEL = { realCost: 'Real cost', pricingHonesty: 'Pricing honesty', smallTeamFit: 'Small-team fit', doesTheJob: 'Does the whole job', freedomToLeave: 'Freedom to leave', trackRecord: 'Track record' };
+const hub = `/tools/${id}/`;
+const onReview = Astro.url.pathname === hub;
+const hasReview = compact && (await exists(hub));
+// What a review rests on, from the pricing record: no review draws on a paid account.
+const p = price(id);
+const read = p.sources.map((x) => x.checkedOn).sort();
+const when = read[0] === read.at(-1) ? `on ${longDate(read[0])}` : `between ${longDate(read[0])} and ${longDate(read.at(-1))}`;
 ---
-<section class="score" data-score={s?.overall ?? 'none'}>
+{compact && <h2 id="our-score">How we score {t.name}</h2>}
+<section class="score" id={`score-${id}`} data-score={s?.overall ?? 'none'}>
   <div>
     <span class="lbl">Our score</span>
     {s && s.overall !== null ? (
@@ -17,15 +28,17 @@ const LABEL = { realCost: 'Real cost', pricingHonesty: 'Pricing honesty', smallT
     {s && s.overall !== null && <span class="stars" role="img" aria-label={`${oneDecimal(s.overall)} out of 5`}><i style={`width:${stars(s.overall)}%`}></i></span>}
   </div>
   <div>
-    {s ? <p style="margin:0">{s.basis}</p> : <p style="margin:0">We have not scored {t.name} yet. We score a tool only after two independent passes over its pricing and product evidence.</p>}
+    {s ? <p style="margin:0">{s.basis}</p> : <p style="margin:0">We have not scored {t.name} yet. We score a tool only after two independent AI passes over its pricing and product evidence.</p>}
     {s?.notScoredReason && <p class="small muted">{s.notScoredReason}</p>}
-    {!compact && s?.factors && (
+    {onReview && <p class="small" data-review-basis>This review is based on {p.sources.length} vendor page{p.sources.length === 1 ? '' : 's'} and help articles read {when}, not on a paid {t.name} account.</p>}
+    {s?.factors && (
       <details class="why">
         <summary>Why we score it {oneDecimal(s.overall)}</summary>
         <ul class="factors">{FACTORS.map((f) => <li><span>{LABEL[f]}</span><strong>{oneDecimal(s.factors[f])}</strong></li>)}</ul>
         <ul>{FACTORS.map((f) => <li><strong>{LABEL[f]}:</strong> {s.reasons?.[f]}</li>)}</ul>
-        <p class="small muted">Scored {longDate(s.scoredOn)} by two independent passes. {paysUs(id) ? `${t.name} pays us a commission, so this is the lower of the two scores.` : program(id) ? `${t.name} runs an affiliate program we have joined or may join, so this is the lower of the two scores.` : `${t.name} does not pay us, so this is the average of the two.`} <a href="/methodology/#scoring">How scoring works</a>.</p>
+        <p class="small muted">Scored {longDate(s.scoredOn)} by two independent AI passes: separate runs of Anthropic's Claude over the same evidence, neither seeing the other's score. {paysUs(id) ? `${t.name} pays us a commission, so this is the lower of the two scores.` : program(id) ? `${t.name} runs an affiliate program we have joined or may join, so this is the lower of the two scores.` : `${t.name} does not pay us, so this is the average of the two.`} <a href="/methodology/#scoring">How scoring works</a>.</p>
       </details>
     )}
+    {hasReview && <p class="small"><a href={hub}>Read the full {t.name} review</a></p>}
   </div>
 </section>

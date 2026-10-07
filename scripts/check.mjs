@@ -174,6 +174,32 @@ for (const [p, { doc, html, noindex }] of pages) {
     if (box.closest('.prose-body, [data-prose], [data-quick-answer], table, .pick, .picks, .score, [data-score], [data-verdict]')) fail(p, 'service box inside editorial text, a score, a table or a pick');
     if (!/our own paid service/i.test(text(box))) fail(p, 'service box without its "Our own paid service" label');
   }
+  // 11c. a stack pick from a tool that pays us is never shown alone (/how-we-earn/, /methodology/):
+  // every pick whose program is approved, and every paid link, sits in a layer that also shows the
+  // highest-scored option for that job, or says the pick is itself the highest scored.
+  if (/^\/stacks\/[^/]+\/$/.test(p)) {
+    const approved = (id) => { const pr = programs[toolsData[id]?.affiliate?.program ?? '']; return Boolean(pr && pr.status === 'approved' && pr.template); };
+    const scoreOf = (id) => { try { return JSON.parse(fs.readFileSync(path.join('src/data/scores', `${id}.json`), 'utf8')).overall ?? null; } catch { return null; } };
+    const cards = [...doc.querySelectorAll('[data-layer-pick]')];
+    if (!cards.length) fail(p, 'stack page without [data-layer-pick] pick cards, so the paid-pick rule cannot be checked');
+    const shownBeside = (card) => {
+      const layer = card.closest('.picks');
+      const top = layer?.querySelector('[data-top-option]');
+      if (layer?.querySelector('[data-top-note]')) return true;
+      if (!top) return false;
+      const a = scoreOf(top.getAttribute('data-top-option')), b = scoreOf(card.getAttribute('data-layer-pick'));
+      if (a === null || b === null || a < b) { fail(p, `"Highest-scored option" ${top.getAttribute('data-top-option')} does not outscore the pick ${card.getAttribute('data-layer-pick')}`); }
+      if (!/highest-scored option/i.test(text(top))) fail(p, `top-option card for ${top.getAttribute('data-top-option')} without its "Highest-scored option" label`);
+      return true;
+    };
+    for (const card of cards) {
+      const id = card.getAttribute('data-layer-pick');
+      if (!approved(id) && !card.querySelector('a[data-paid="1"]')) continue;
+      if (!/our pick among tools that pay us/i.test(text(card.querySelector('.lbl')))) fail(p, `${id} pays us but its pick card is not labeled "Our pick among tools that pay us"`);
+      if (!shownBeside(card)) fail(p, `paid pick ${id} shown without the highest-scored option beside it or a note that it is the highest scored`);
+    }
+    for (const a of paid) if (!a.closest('[data-layer-pick]')) fail(p, `paid link for ${a.getAttribute('data-tool')} outside a stack pick card, where the paid-pick rule cannot be checked`);
+  }
   // 12. banned lexicon (main content, excluding the mandated disclosure text)
   if (main) {
     const clone = main.cloneNode(true);

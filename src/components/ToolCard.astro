@@ -1,5 +1,6 @@
 ---
-import { tool, scenario, score, cheapestPaid } from '../lib/data.mjs';
+import { tool, scenario, score } from '../lib/data.mjs';
+import { exists } from '../lib/pages.mjs';
 import { LAYER_LABELS } from '../lib/schemas.mjs';
 import { oneDecimal } from '../lib/format.mjs';
 import Fig from './Fig.astro';
@@ -8,11 +9,19 @@ const { id, href } = Astro.props;
 const t = tool(id);
 const small = scenario(id, 'small');
 const s = score(id);
-const c = cheapestPaid(id);
+// The score links to its "Why we score it" panel: the review when there is one, else the pricing page.
+const panel = (await exists(`/tools/${id}/`)) ? `/tools/${id}/#score-${id}` : (await exists(`/tools/${id}/pricing/`)) ? `/tools/${id}/pricing/#score-${id}` : '/methodology/#scoring';
 ---
-<a class="card" href={href}>
+<div class="card tcard">
   <span class="tag">{LAYER_LABELS[t.layer]} · {t.category}</span>
-  <h3>{t.name}</h3>
+  <h3><a class="tcard-link" href={href}>{t.name}</a></h3>
   <p>{t.oneLiner}</p>
-  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" floor={small.floor} />{s?.overall ? ` · Score ${oneDecimal(s.overall)}` : ''}</p>
-</a>
+  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" floor={small.floor} />{s?.overall ? <> · <a class="tcard-score" href={panel}>Score {oneDecimal(s.overall)}</a></> : ''}</p>
+</div>
+<style is:global>
+  .tcard { position: relative; }
+  .tcard:hover { border-color: var(--accent); }
+  .tcard-link { color: inherit; text-decoration: none; }
+  .tcard-link::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+  .tcard-score { position: relative; z-index: 1; }
+</style>

@@ -13,6 +13,9 @@ export const AUTHOR = {
   sameAs: [
     'https://www.linkedin.com/in/rohailnisarahmad/',
     'https://github.com/rohail524823',
+    // Both linked visibly from /about/.
+    'https://www.upwork.com/freelancers/~019d1190b8777b2000',
+    'https://bestaicertifications.com/',
   ],
 };
 
