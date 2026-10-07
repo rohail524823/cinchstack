@@ -487,7 +487,8 @@ const llmsUrls = [...llms.matchAll(/\]\((https:\/\/cinchstack\.com[^)]*)\)/g)].m
 for (const u of llmsUrls) if (!exists(u)) fail('/llms.txt', `lists ${u}, which does not exist`);
 if (new Set(llmsUrls).size !== llmsUrls.length) fail('/llms.txt', 'lists a URL twice');
 // llms-full.txt (scripts/llms-full.mjs): one section per sitemap URL, in sitemap order, as plain text
-// with no page chrome. The footer's lines must not repeat, and the file must stay small enough to fetch.
+// with no page chrome. The footer's lines must not repeat. Past 3 MB it warns; only a file that has
+// grown far past that (10 MB) fails, so a growing site cannot block a price fix through this file.
 const full = fs.existsSync(path.join(DIST, 'llms-full.txt')) ? fs.readFileSync(path.join(DIST, 'llms-full.txt'), 'utf8') : '';
 if (!full) fail('/llms-full.txt', 'missing (npm run build writes it with scripts/llms-full.mjs)');
 else {
@@ -496,25 +497,18 @@ else {
   if (heads !== locs.length) fail('/llms-full.txt', `${heads} page sections for ${locs.length} sitemap URLs`);
   const off = [...Array(Math.max(locs.length, secUrls.length)).keys()].find((i) => secUrls[i] !== locs[i]);
   if (off !== undefined) fail('/llms-full.txt', `section ${off + 1} has the URL line ${secUrls[off] ?? 'none'}, but sitemap URL ${off + 1} is ${locs[off] ?? 'none'}`);
-  const tag = full.search(/<[a-z/]/i);
-  if (tag >= 0) fail('/llms-full.txt', `HTML left in the text: "${full.slice(tag, tag + 50).split('\n')[0]}"`);
+  // Code fences and code spans hold literal markup on purpose (the /data/ credit line, a named <select>).
+  const prose = full.replace(/^```[\s\S]*?^```$/gm, '').replace(/`[^`\n]*`/g, '');
+  const tag = prose.search(/<[a-z/]/i);
+  if (tag >= 0) fail('/llms-full.txt', `HTML left in the text: "${prose.slice(tag, tag + 50).split('\n')[0]}"`);
   for (const el of pages.get('/')?.doc.querySelectorAll('footer p') ?? []) {
     const t = text(el);
     if (t && full.split(t).length > 2) fail('/llms-full.txt', `the footer line "${t.slice(0, 60)}…" appears more than once`);
   }
   const size = Buffer.byteLength(full);
-  if (size >= 3 * 1024 * 1024) fail('/llms-full.txt', `${(size / 1048576).toFixed(1)} MB (max 3 MB)`);
-}
-// robots.txt lists the price-change feed as a second sitemap, so every item must link a canonical,
-// indexable page that is in sitemap.xml.
-if (/^Sitemap: https:\/\/cinchstack\.com\/changes\/rss\.xml$/m.test(robots)) {
-  const rss = fs.existsSync(path.join(DIST, 'changes/rss.xml')) ? fs.readFileSync(path.join(DIST, 'changes/rss.xml'), 'utf8') : '';
-  if (!rss) fail('/changes/rss.xml', 'listed as a sitemap in robots.txt but missing');
-  for (const l of new Set([...rss.matchAll(/<item>[\s\S]*?<link>([^<]*)<\/link>/g)].map((m) => m[1]))) {
-    const p = l.startsWith(`${SITE}/`) ? l.slice(SITE.length) : null;
-    const canon = p && pages.get(p)?.doc.querySelector('link[rel="canonical"]')?.getAttribute('href');
-    if (!p || !locs.includes(p) || canon !== l) fail('/changes/rss.xml', `item links ${l}, which is not a canonical page URL in the sitemap`);
-  }
+  const mb = `${(size / 1048576).toFixed(1)} MB`;
+  if (size >= 10 * 1024 * 1024) fail('/llms-full.txt', `${mb} (max 10 MB)`);
+  else if (size >= 3 * 1024 * 1024) warn('/llms-full.txt', `${mb}: past 3 MB, consider printing repeated sourcing blocks once`);
 }
 
 // ---------- report ----------

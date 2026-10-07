@@ -29,10 +29,12 @@ const BR = String.fromCharCode(0xe000); // a <br>: a private-use character, so w
 const dropped = (n) => n.nodeType !== 1 || n.matches(DROP);
 const isBlock = (n) => BLOCK.has(n.localName) || [...n.children].some(isBlock);
 // Collapse whitespace; a <br> becomes `br` (a new line in a paragraph, a space elsewhere).
-const clean = (s, br = ' ') => esc(s.replace(/\s+/g, ' ').replaceAll(` ${BR}`, BR).replaceAll(`${BR} `, BR).replaceAll(BR, br).trim());
-// Page text sometimes names an HTML element ("the contacts <select> menu"); Markdown's &lt; keeps that
-// from reading as a tag.
-const esc = (s) => s.replace(/<(?=[A-Za-z/!?])/g, '&lt;');
+const squash = (s, br = ' ') => s.replace(/\s+/g, ' ').replaceAll(` ${BR}`, BR).replaceAll(`${BR} `, BR).replaceAll(BR, br).trim();
+const clean = (s, br = ' ') => esc(squash(s, br));
+// Page text sometimes names an HTML element ("the contacts <select> menu"): it goes in a code span, so
+// it reads as the literal tag (raw, since this file is read as plain text) and Markdown does not render
+// it. Text already in a code span is left as it is.
+const esc = (s) => s.split(/(`[^`]*`)/).map((p, i) => (i % 2 ? p : p.replace(/<[A-Za-z/!?][^<>]*>|<(?=[A-Za-z/!?])/g, '`$&`'))).join('');
 
 // ---------- inline text ----------
 function inline(el) {
@@ -66,7 +68,7 @@ function inlineEl(n) {
   const tag = n.localName;
   if (tag === 'br') return BR;
   if (tag === 'a') return link(n);
-  if (tag === 'code') return `\`${clean(n.textContent)}\``;
+  if (tag === 'code') return `\`${squash(n.textContent)}\``;
   if (tag === 'sup' && n.classList.contains('fn')) return `[${clean(n.textContent)}]`;
   // A block inside inline content (a paragraph in a table cell, say) reads as its own phrase.
   if (BLOCK.has(tag)) return ` ${inline(n)} `;
@@ -135,9 +137,9 @@ function block(n, out) {
     if (t) out.push(t.split('\n').map((l) => (l ? `> ${l}` : '>')).join('\n'));
     return;
   }
-  // Preformatted text (the HTML credit line on /data/) stays line for line but unfenced: inside a code
-  // fence Markdown would show "&lt;" itself rather than the "<" it stands for.
-  if (tag === 'pre') { const t = esc(n.textContent.trim()); if (t) out.push(t); return; }
+  // Preformatted text (the HTML credit line on /data/, meant to be pasted) goes in a code fence, line
+  // for line with its markup kept raw.
+  if (tag === 'pre') { const t = n.textContent.trim(); if (t) out.push(`\`\`\`\n${t}\n\`\`\``); return; }
   if (tag === 'hr') return;
   render(n, out);
 }
