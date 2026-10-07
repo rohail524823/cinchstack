@@ -5,7 +5,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseHTML } from 'linkedom';
-import { loadData, knownFigures, normFig, BANNED } from './lib/figures.mjs';
+import { loadData, knownFigures, normFig, figuresIn, BANNED } from './lib/figures.mjs';
+import { pageRef, pageScope, passageFigures, passageDates, leadDates, badAsOf, ukSpellings, FAQ_CONTEXT, vagueQuestion } from './lib/scope.mjs';
 import { GA_ID } from '../src/lib/site.mjs';
 import { money } from '../src/lib/format.mjs';
 
@@ -24,6 +25,9 @@ const data = loadData();
 const { pricing, programs } = data;
 const toolsData = data.tools;
 const known = knownFigures(data);
+const toolNames = Object.values(toolsData).map((t) => t.name);
+// Pipeline words a reader should never see: data-file field names, "earlier pass", raw ISO dates.
+const JARGON = /\b\w+\[\]|\b(?:checkedOn|annualMonthly|priceUnit|addOns|extraCosts|billingNotes|freeTier|lastReviewed|dateModified|ranOn|seatsIncluded|sizeLabels|pricedByCountry|pricingUrl|rateHistory|appliesTo|cardRequired|sameJob|notScoredReason|oneLiner|trialOffer|paidOnlyOn)\b|\bearlier pass\b|\b\d{4}-\d{2}-\d{2}\b/;
 
 // Per-page extra figures declared in MDX frontmatter.
 function pathForEntry(id) {
@@ -265,12 +269,46 @@ for (const [p, { doc, html, noindex }] of pages) {
   }
   // 13. prose figures must come from data
   const allowed = extraFigs.get(p) ?? new Set();
-  for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a]')) {
-    const c = el.cloneNode(true);
-    c.querySelectorAll('data[data-fig], .aff-pair, [data-paid-note], .prose-cta').forEach((x) => x.remove());
-    for (const m of text(c).matchAll(/\$\s?(\d[\d,]*(?:\.\d+)?)(\s?[kK]\b)?/g)) {
-      const v = normFig(m[1] + (m[2] ? 'k' : ''));
-      if (v && !known.has(v) && !allowed.has(v)) fail(p, `prose figure ${m[0].trim()} is not in the data (use a data token or declare it in extraFigures)`);
+  const figText = (el) => { const c = el.cloneNode(true); c.querySelectorAll('data[data-fig], .aff-pair, [data-paid-note], .prose-cta').forEach((x) => x.remove()); return text(c); };
+  for (const el of doc.querySelectorAll('.prose-body, [data-prose]')) {
+    for (const f of figuresIn(figText(el))) if (f.v && !known.has(f.v) && !allowed.has(f.v)) fail(p, `prose figure ${f.raw} is not in the data (use a data token or declare it in extraFigures)`);
+  }
+  // 13b. The passages answer engines quote (Quick answer, FAQ answers, title, description) may only
+  // use figures of the tools this page covers (or that the passage itself names), and an "as of
+  // <date>" must be one of those tools' check dates (scripts/lib/scope.mjs).
+  {
+    const [kind, slug] = pageRef(p) ?? ['pages', p];
+    const scope = pageScope(data, kind, slug, known);
+    const passage = (label, t, figs = t) => {
+      const ok = passageFigures(data, scope, figs);
+      for (const f of figuresIn(t)) if (f.v && !ok.has(f.v) && !allowed.has(f.v)) fail(p, `${label} figure ${f.raw} is not a figure of ${scope.tools ? scope.tools.join(', ') : 'any tool'} in the data`);
+      const lead = leadDates(data, scope, t);
+      for (const d of badAsOf(t, lead, passageDates(data, scope, figs))) fail(p, `${label} says "as of ${d}", but the tools it dates were checked ${[...lead].join(' or ')}`);
+    };
+    for (const el of doc.querySelectorAll('[data-quick-answer] p')) passage('quick answer', figText(el));
+    for (const d of doc.querySelectorAll('[data-faq] details')) {
+      const q = text(d.querySelector('[data-faq-q]'));
+      const a = [...d.querySelectorAll('[data-faq-a]')].map(figText).join(' ');
+      passage(`FAQ answer "${q}"`, a, `${q} ${a}`);
+    }
+    if (!noindex) passage('title/description', `${title} ${desc}`);
+  }
+  // 13c. text hygiene, on everything a reader sees (code samples excepted):
+  // US spelling; FAQ answers that stand alone when quoted; no pipeline jargon (JSON field names,
+  // "earlier pass", ISO dates outside <time> and <data>) in reader-facing text.
+  {
+    const body = doc.querySelector('body')?.cloneNode(true);
+    body?.querySelectorAll('script, style, code, pre').forEach((x) => x.remove());
+    const uk = ukSpellings(`${title} ${desc} ${text(body)}`);
+    if (uk.length) fail(p, `US spelling, please: ${[...new Set(uk)].join(', ')}`);
+    body?.querySelectorAll('time, data').forEach((x) => x.remove());
+    const jargon = text(body).match(JARGON);
+    if (jargon) fail(p, `pipeline jargon in reader-facing text: "${jargon[0]}"`);
+    for (const d of doc.querySelectorAll('[data-faq] details')) {
+      const q = text(d.querySelector('[data-faq-q]'));
+      const m = [...d.querySelectorAll('[data-faq-a]')].map(text).join(' ').match(FAQ_CONTEXT);
+      if (m) fail(p, `FAQ answer must stand alone when quoted, but says "${m[0].trim()}": "${q}"`);
+      if (vagueQuestion(q, toolNames)) fail(p, `FAQ question must name the tools it compares: "${q}"`);
     }
   }
   // 14. year agreement in title/h1

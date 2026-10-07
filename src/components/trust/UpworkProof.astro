@@ -1,0 +1,17 @@
+---
+// The editor's public Upwork record (badge, jobs, earnings, the date it was read), rendered from
+// src/data/services.json so /about/ and /services/ cannot drift apart. Update the figures there only.
+// variant "inline": a phrase for a sentence on /about/ (no earnings figure).
+// variant "line": the bold proof line on /services/.
+import { services } from '../../lib/data.mjs';
+import { longDate } from '../../lib/format.mjs';
+interface Props { variant?: 'inline' | 'line' }
+const { variant = 'line' } = Astro.props;
+const { proof, upworkUrl } = services;
+const badge = proof.badge.replace(/\s+on Upwork$/i, '');
+const earned = proof.earnings.replace(/\s+on Upwork$/i, '');
+const asOf = longDate(proof.asOf);
+---
+{variant === 'inline'
+  ? <span data-upwork-proof>{proof.jobs} jobs on Upwork, with a {badge} badge (<a href={upworkUrl}>public profile</a>, as of <time datetime={proof.asOf}>{asOf}</time>)</span>
+  : <span data-upwork-proof><strong>{proof.badge} · {proof.jobs} jobs · {earned}</strong> (as of <time datetime={proof.asOf}>{asOf}</time>). <a href={upworkUrl}>See the profile and reviews</a>.</span>}

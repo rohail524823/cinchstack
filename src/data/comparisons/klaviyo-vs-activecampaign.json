@@ -60,7 +60,7 @@
     },
     {
       "label": "Refund or guarantee if it's not a fit",
-      "a": "None stated; cancelling immediately rather than at the end of the billing cycle forfeits the rest of the paid month",
+      "a": "None stated; canceling immediately rather than at the end of the billing cycle forfeits the rest of the paid month",
       "b": "A 30-day money-back guarantee on every paid plan",
       "edge": "b"
     }

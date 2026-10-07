@@ -24,7 +24,7 @@
     "Priced by active-profile count rather than per user seat",
     "Every paid Email tier includes monthly email sends equal to 10x its profile count (e.g. 500,000 emails/month at 50,000 profiles)",
     "Pricing FAQ says Klaviyo charges no hidden fees and that paid onboarding services are optional",
-    "Self-serve plans are month-to-month by credit card and can be cancelled from the Billing page, effective immediately or at the end of the cycle",
+    "Self-serve plans are month-to-month by credit card and can be canceled from the Billing page, effective immediately or at the end of the cycle",
     "SMS rates include carrier fees, with no separate carrier-fee line item on the invoice"
   ],
   "cons": [
@@ -32,7 +32,7 @@
     "Cost climbs with list size, $30/month at 1,000 active profiles, $150 at 10,000 and $720 at 50,000, and you pay for inactive profiles unless you suppress them",
     "If active profiles exceed your tier, Klaviyo moves you to a larger, more expensive tier at the next billing cycle whether or not you opted in to upgrades",
     "Composer, Customer Hub, Social Marketing, Reviews, Helpdesk, Customer Agent and SMS are all billed separately from the Email plan",
-    "Cancelling immediately rather than at cycle end gives no refund for the rest of the paid month",
+    "Canceling immediately rather than at cycle end gives no refund for the rest of the paid month",
     "Social Marketing's smallest tier covers 10,000 active profiles, so even a 500-profile account pays $50/month for it; its 25% introductory discount ended on 30 September 2026"
   ],
   "founded": 2012,

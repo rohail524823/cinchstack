@@ -1,7 +1,11 @@
 ---
 import { AUTHOR } from '../lib/site.mjs';
+// The editor's relevant background, in claims already published on /about/ only. No years (still to
+// be reconciled with the sister site) and no Upwork job counts or earnings: this box sits beside
+// affiliate links on every money page, and the dated proof lives on /about/ and /services/.
+const background = 'MBA in Finance; builds automations, CRM integrations and spreadsheet systems for clients.';
 ---
 <aside class="author" aria-label="About the author">
   <div class="av" aria-hidden="true">RN</div>
-  <div><strong><a href="/about/">{AUTHOR.name}</a></strong> — {AUTHOR.jobTitle}. {AUTHOR.bio}</div>
+  <div><strong><a href="/about/">{AUTHOR.name}</a></strong> — {AUTHOR.jobTitle}. {background} {AUTHOR.bio}</div>
 </aside>
