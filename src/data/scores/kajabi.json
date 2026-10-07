@@ -20,5 +20,9 @@
   "basis": "Kajabi is a capable, well-established course and coaching platform, but its highest entry price among these five, a January 2026 across-the-board price increase, and payment-token lock-in make it a comparatively pricier and stickier buy for a small business.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down; lowered from 3.6 in calibration: Kajabi ties ClickFunnels at 3.6, but ClickFunnels is the clearly better-value tool in the same layer: its real bills are $97/$197/$297 against Kajabi's $179/$249/$499, it scores at least as well on every factor except small-team fit, and Kajabi's own basis calls it the pricier, stickier buy.. Pass scores: 3.6 and 3.7."
+  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down; lowered from 3.6 in calibration: Kajabi ties ClickFunnels at 3.6, but ClickFunnels is the clearly better-value tool in the same layer: its real bills are $97/$197/$297 against Kajabi's $179/$249/$499, it scores at least as well on every factor except small-team fit, and Kajabi's own basis calls it the pricier, stickier buy.. Pass scores: 3.6 and 3.7.",
+  "calibration": {
+    "from": 3.6,
+    "why": "ClickFunnels, which it tied, costs less at every team size and scores at least as well on every factor except small-team fit"
+  }
 }

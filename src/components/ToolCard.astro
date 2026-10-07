@@ -16,7 +16,7 @@ const panel = (await exists(`/tools/${id}/`)) ? `/tools/${id}/#score-${id}` : (a
   <span class="tag">{LAYER_LABELS[t.layer]} · {t.category}</span>
   <h3><a class="tcard-link" href={href}>{t.name}</a></h3>
   <p>{t.oneLiner}</p>
-  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" floor={small.floor} />{s?.overall ? <> · <a class="tcard-score" href={panel}>Score {oneDecimal(s.overall)}</a></> : ''}</p>
+  <p class="cost">Small team: <Fig v={small.monthly} suffix="/mo" floor={small.floor} />{s?.overall ? <> · <a class="tcard-score" href={panel}>{t.name} score {oneDecimal(s.overall)}</a></> : ''}</p>
 </div>
 <style is:global>
   .tcard { position: relative; }

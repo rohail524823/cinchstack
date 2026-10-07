@@ -24,7 +24,7 @@ const label = { paid: 'Our pick among tools that pay us', top: 'Highest-scored o
         <span class="lbl">{label[c.kind]}</span>
         <h3>{tool(c.id).name}</h3>
         <p>{tool(c.id).oneLiner}</p>
-        <p class="small">{score(c.id)?.overall ? <a href={panels[c.id]}>Score {oneDecimal(score(c.id).overall)}</a> : 'Not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" floor={scenario(c.id, 'small').floor} />{sizeBasis(c.id, 'small') && <span class="muted"> ({sizeBasis(c.id, 'small')})</span>}</p>
+        <p class="small">{score(c.id)?.overall ? <a href={panels[c.id]}>{tool(c.id).name} score {oneDecimal(score(c.id).overall)}</a> : 'Not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" floor={scenario(c.id, 'small').floor} />{sizeBasis(c.id, 'small') && <span class="muted"> ({sizeBasis(c.id, 'small')})</span>}</p>
         <AffLink tool={c.id} page={page} placement={`pick-${c.kind}`} label={`Visit ${tool(c.id).name}`} />
       </div>
     ))}

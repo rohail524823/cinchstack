@@ -63,8 +63,8 @@ Each tool gets one score out of five, based on six factors. The factors are abou
 The procedure:
 
 1. **Two separate AI passes.** Each pass is a separate run of an AI model (Anthropic's Claude) over the same saved evidence. It scores all six factors from one to five, gives a one-sentence reason for each, and gives an overall score. Neither pass sees the other's scores or reasons.
-2. **Calibration.** Both passes compare against every tool already scored, so a 4 means the same thing across the site.
-3. **If a tool pays us a commission, or runs an affiliate program we have joined or may join, we publish the lower of the two scores.** Otherwise we publish the average of the two, rounded down.
+2. **Calibration.** Both passes compare against every tool already scored, so a 4 means the same thing across the site. If the result would rank a tool above a rival in the same job that costs less and scores at least as well on most factors, we lower it, and that tool's score panel says by how much and why.
+3. **If a tool pays us a commission, or runs an affiliate program we have joined or may join, we publish the lower of the two scores.** Otherwise we publish the average of the two, rounded down, unless calibration (step 2) lowered it.
 4. **The overall score is a judgment, not a formula.** It is not the average of the six factors, because the factors do not matter equally for every job.
 5. **Thin evidence means no score.** If we cannot find enough to judge a tool fairly, the page says "Not scored" rather than showing a made-up number.
 

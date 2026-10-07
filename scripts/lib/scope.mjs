@@ -14,7 +14,9 @@ export const AS_OF = /\bas of (\d{1,2} [A-Z][a-z]+ \d{4}|[A-Z][a-z]+ \d{1,2},? \
 
 const uniq = (xs) => [...new Set(xs)];
 const strings = (x) => (typeof x === 'string' ? [x] : x && typeof x === 'object' ? Object.values(x).flatMap(strings) : []);
-const nameRe = (n) => new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+// Case-sensitive: the site writes tool names with their brand casing, and some (Notion, Kit, Wix) are
+// also common words that must not pull another tool's figures into a passage's scope.
+const nameRe = (n) => new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
 
 /**
  * Every figure of some tools: plan, add-on, usage and scenario values (knownFigures), plus the

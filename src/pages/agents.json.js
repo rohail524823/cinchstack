@@ -16,7 +16,7 @@ export function GET() {
     data: { dataset: `${SITE}/data/`, json: `${SITE}/data/pricing.json`, csv: `${SITE}/data/pricing.csv`, scenarios: `${SITE}/data/scenarios.csv`, lastChecked: lastChecked() },
     trust: {
       methodology: `${SITE}/methodology/`,
-      funding: 'Some vendors pay CinchStack an affiliate commission. Paid links are marked and listed at /how-we-earn/. Commissions never change prices, scores or picks.',
+      funding: 'Some vendors pay CinchStack an affiliate commission. Paid links are marked and listed at /how-we-earn/. Prices come from the vendors\' own pages and scores follow the published method; when a tool pays us, we publish the lower of its two scores.',
       fundingPage: `${SITE}/how-we-earn/`,
       firstHandExperience: 'Prices come from vendor pricing pages, not from paid accounts. A page claims hands-on use only where it gives a dated record of that use.',
       corrections: `${SITE}/contact/`,

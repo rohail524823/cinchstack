@@ -27,14 +27,14 @@ const kind = (id) => { const t = tool(id); if (t.layer === 'run') return 'crm'; 
 const named = ids.filter((id) => kind(id));
 const guide = seg[0] === 'tools' && seg.length >= 3 && seg[2] !== 'pricing' ? seg[2] : null;
 const main = ids[0] && kind(ids[0]) ? ids[0] : null;
-let anchor = 'See the packages';
+let anchor = 'our setup packages';
 if (main && guide === 'migrate-from-hubspot') anchor = `HubSpot to ${tool(main).name} migration help`;
 else if (main && guide === 'n8n-integration') anchor = `n8n and ${tool(main).name} automation builds`;
-else if (scope === 'stack') anchor = 'Setup help for this stack';
-else if (scope === 'alternatives') anchor = main && kind(main) === 'crm' ? `Help moving off ${tool(main).name}` : 'Setup help for the tool you switch to';
-else if (scope === 'compare' && named.length === 2) anchor = `Setup help for ${tool(named[0]).name} or ${tool(named[1]).name}`;
+else if (scope === 'stack') anchor = 'setup help for this stack';
+else if (scope === 'alternatives') anchor = main && kind(main) === 'crm' ? `help moving off ${tool(main).name}` : 'setup help for the tool you switch to';
+else if (scope === 'compare' && named.length === 2) anchor = `setup help for ${tool(named[0]).name} or ${tool(named[1]).name}`;
 else if (named.length) anchor = kind(named[0]) === 'crm' ? `${tool(named[0]).name} setup and migration help` : `${tool(named[0]).name} setup help`;
 ---
 {show && <aside class="svc-box" data-svc aria-label="Our own paid service">
-  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor sets up CRMs, email and funnel tools, automations and AI assistants for a fee, at the same price whichever of them you choose. It is separate from the {above}. <a href="/services/">{anchor}</a>.</p>
+  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor sets up CRMs, email and funnel tools, automations and AI assistants for a fee, at the same price whichever of them you choose. It is separate from the {above}. See <a href="/services/">{anchor}</a>.</p>
 </aside>}

@@ -83,6 +83,16 @@ export function paysUsOn(id, page) {
   const only = program(id)?.rules?.paidOnlyOn;
   return paysUs(id) && (!only || only.some((prefix) => page.startsWith(prefix)));
 }
+/**
+ * Tools whose program pays us that a page's own text names (by display name, or by id in a price
+ * token such as <T id="gohighlevel" />), so its disclosure can say they pay us even where none of the
+ * page's links to them is paid.
+ */
+export function programMentions(...texts) {
+  const text = texts.map((x) => (typeof x === 'string' ? x : JSON.stringify(x ?? ''))).join('\n');
+  const esc = (v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return Object.keys(tools).filter((id) => paysUs(id) && (text.includes(`"${id}"`) || new RegExp(`\\b${esc(tools[id].name)}\\b`).test(text)));
+}
 /** A trial the tool's program authorized in writing, offered only where its links pay us. */
 export function trialOffer(id, page) {
   const o = program(id)?.trialOffer;

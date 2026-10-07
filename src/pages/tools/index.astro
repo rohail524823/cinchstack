@@ -30,7 +30,19 @@ const lowPaid = paidRows.length ? Math.min(...paidRows.map((r) => r.c.v)) : null
 const lowPaidRows = paidRows.filter((r) => r.c.v === lowPaid);
 const bySmall = [...crmRows].sort((a, b) => a.sm.monthly - b.sm.monthly);
 const crmDates = crms.map((id) => pricing[id].checkedOn).sort();
-const crmWhen = crmDates[0] === crmDates.at(-1) ? `on ${longDate(crmDates[0])}` : `between ${longDate(crmDates[0])} and ${longDate(crmDates.at(-1))}`;
+// A bill that includes texting is not like-for-like with one that does not: say so, from the same
+// basis string the table shows under each figure.
+const texting = (id) => /, with texting$/.test(sizeBasis(id, 'small'));
+const crmEnds = bySmall.length ? [...new Set([bySmall[0].id, bySmall.at(-1).id])] : [];
+const endsTexting = crmEnds.filter(texting);
+const crmNoTexting = bySmall.map((r) => r.id).filter((x) => !texting(x));
+const textingNote = endsTexting.length && crmNoTexting.length
+  ? ` ${endsTexting.length > 1 ? 'Both of those bills include' : `The ${tools[endsTexting[0]].name} bill includes`} texting, which the ${names(crmNoTexting)} bill${crmNoTexting.length > 1 ? 's leave' : ' leaves'} out.`
+  : '';
+const sameMonth = crmDates[0].slice(0, 7) === crmDates.at(-1).slice(0, 7);
+const crmWhen = crmDates[0] === crmDates.at(-1) ? `on ${longDate(crmDates[0])}`
+  : sameMonth ? `on ${Number(crmDates[0].slice(8))} and ${longDate(crmDates.at(-1))}`
+  : `between ${longDate(crmDates[0])} and ${longDate(crmDates.at(-1))}`;
 ---
 <Base title={title} description={description} path={path} jsonld={[breadcrumbNode(url, crumbs), webPageNode({ url, name: title, description, type: 'CollectionPage' }), itemListNode(url, 'Tools', listed.map((id) => ({ name: tools[id].name, url: `${SITE}${href(id)}` })))]}>
   <div class="wrap page">
@@ -58,7 +70,7 @@ const crmWhen = crmDates[0] === crmDates.at(-1) ? `on ${longDate(crmDates[0])}` 
     {crmRows.length > 1 && (
       <section class="section">
         <h2 id="crm-cost">How much does a CRM cost a small business?</h2>
-        <p>{`On prices checked ${crmWhen}, `}{freeCrms.length > 0 && <>{`a small business can start on a CRM for `}<Fig v={0} />{` with the free plan${freeCrms.length > 1 ? 's' : ''} of ${names(freeCrms)}; `}</>}{lowPaidRows.length > 0 && <>{`the cheapest paid plan among the ${crmRows.length} CRMs we track is `}<Fig v={lowPaid} suffix="/mo" />{lowPaidRows.some((r) => r.c.p.priceUnit === 'per-seat-month') ? ' per seat' : ''}{` (${lowPaidRows.map((r) => `${tools[r.id].name} ${r.c.p.name}`).join(' and ')}); `}</>}{`and once seats, contacts and usage are counted, CinchStack's estimate of a small team's real monthly bill runs from `}<Fig v={bySmall[0].sm.monthly} suffix="/mo" floor={bySmall[0].sm.floor} />{` with ${tools[bySmall[0].id].name} to `}<Fig v={bySmall.at(-1).sm.monthly} suffix="/mo" floor={bySmall.at(-1).sm.floor} />{` with ${tools[bySmall.at(-1).id].name}.`}</p>
+        <p>{`On prices checked ${crmWhen}, `}{freeCrms.length > 0 && <>{`a small business can start on a CRM for `}<Fig v={0} />{` with the free plan${freeCrms.length > 1 ? 's' : ''} of ${names(freeCrms)}; `}</>}{lowPaidRows.length > 0 && <>{`the cheapest paid plan among the ${crmRows.length} CRMs we track is `}<Fig v={lowPaid} suffix="/mo" />{lowPaidRows.some((r) => r.c.p.priceUnit === 'per-seat-month') ? ' per seat' : ''}{` (${lowPaidRows.map((r) => `${tools[r.id].name} ${r.c.p.name}`).join(' and ')}); `}</>}{`and once seats, contacts and usage are counted, CinchStack's estimate of a small team's real monthly bill runs from `}<Fig v={bySmall[0].sm.monthly} suffix="/mo" floor={bySmall[0].sm.floor} />{` with ${tools[bySmall[0].id].name} to `}<Fig v={bySmall.at(-1).sm.monthly} suffix="/mo" floor={bySmall.at(-1).sm.floor} />{` with ${tools[bySmall.at(-1).id].name}.${textingNote}`}</p>
         <p class="table-lead">{`The ${crmRows.length} CRMs side by side, cheapest small-team bill first: whether each has a free plan, its cheapest paid plan, and the real bill for a five-person business, which each CRM counts as the users and contacts shown under the figure.`}</p>
         <div class="tbl-wrap" tabindex="0" role="region" aria-label="What each CRM costs a small business"><table class="data stack">
           <thead><tr><th scope="col">CRM</th><th scope="col">Free plan</th><th scope="col" class="num">Cheapest paid plan</th><th scope="col" class="num">Real bill, small team</th><th scope="col">Checked</th></tr></thead>

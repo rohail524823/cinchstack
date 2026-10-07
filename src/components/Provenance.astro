@@ -38,7 +38,7 @@ const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
           )}
         </details>
       ) : (
-        <p class="small"><a href={`/tools/${t.id}/pricing/#how-we-checked`}>{`How ${t.name} was checked: the method, ${p.sources.length === 1 ? 'its one source' : `all ${p.sources.length} sources`}${p.unverified.length > 0 ? ` and the ${plural(p.unverified.length, 'point')} we could not verify` : ''}, on the ${t.name} pricing page`}</a></p>
+        <p class="small"><a href={`/tools/${t.id}/pricing/#how-we-checked`}>{`How ${t.name} prices were checked`}</a>{`: the method, ${p.sources.length === 1 ? 'its one source' : `all ${p.sources.length} sources`}${p.unverified.length > 0 ? ` and the ${plural(p.unverified.length, 'point')} we could not verify` : ''}, on the ${t.name} pricing page.`}</p>
       )}
     </div>
   ))}

@@ -18,7 +18,7 @@ const list = (a) => (a.length <= 1 ? a.join('') : `${a.slice(0, -1).join(', ')} 
 const range = (vals) => { const v = vals.filter((x) => typeof x === 'number'); return v.length ? { lo: Math.min(...v), hi: Math.max(...v) } : null; };
 const addOnRange = range(p.addOns.map((a) => a.price));
 const usageRange = range(p.usage.map((u) => u.rate));
-const KIND = { 'one-time': ['one-time charge', 'one-time charges'], monthly: ['recurring charge', 'recurring charges'], 'per-transaction': ['fee on sales', 'fees on sales'], 'percent-of-sales': ['fee on sales', 'fees on sales'], other: ['other cost or condition', 'other costs or conditions'] };
+const KIND = { 'one-time': ['one-time charge', 'one-time charges'], monthly: ['recurring charge', 'recurring charges'], 'per-transaction': ['card or sales fee', 'card or sales fees'], 'percent-of-sales': ['card or sales fee', 'card or sales fees'], other: ['other cost or condition', 'other costs or conditions'] };
 // Costs recorded at zero (a $0 setup fee, a 0% transaction fee) are not counted as costs in the lead;
 // it only notes how many rows of the table are zero.
 const charged = p.extraCosts.filter((x) => x.amount !== 0);
@@ -26,7 +26,9 @@ const zeros = p.extraCosts.length - charged.length;
 const kinds = {};
 for (const x of charged) { const k = KIND[x.kind] ?? KIND.other; kinds[k[0]] = { k, n: (kinds[k[0]]?.n ?? 0) + 1 }; }
 const zeroText = !zeros ? '' : `, plus ${zeros === 1 ? 'one item' : `${zeros} items`} in the table recorded at zero`;
-const kindText = list(Object.values(kinds).map(({ k, n }) => count(n, k[0], k[1]))) + zeroText;
+// When every charged cost is of the generic kind, the count already says it; do not repeat it.
+const onlyOther = Object.keys(kinds).length === 1 && kinds[KIND.other[0]];
+const kindText = (onlyOther ? '' : `: ${list(Object.values(kinds).map(({ k, n }) => count(n, k[0], k[1])))}`) + zeroText;
 const fixed = p.extraCosts.filter((x) => typeof x.amount === 'number' && x.amount > 0 && x.kind !== 'percent-of-sales').sort((a, b) => b.amount - a.amount)[0];
 const region = (what) => ({ class: 'tbl-wrap', tabindex: '0', role: 'region', 'aria-label': what });
 ---
@@ -53,7 +55,7 @@ const region = (what) => ({ class: 'tbl-wrap', tabindex: '0', role: 'region', 'a
 {p.extraCosts.length > 0 && (<>
   {charged.length === 0
     ? <p class="table-lead">{`No other cost recorded for ${t.name} on ${date} adds to the bill beyond its plans, add-ons and usage rates; ${zeros === 1 ? 'the one item in the table below is' : `all ${zeros} items in the table below are`} zero.`}</p>
-    : <p class="table-lead">{`${t.name} lists ${count(charged.length, 'other cost')} beyond its plans, add-ons and usage rates, recorded on ${date}: ${kindText}`}{fixed ? <>{`. The largest fixed one is ${fixed.label}, at `}<data value={String(fixed.amount)} data-fig>{fixed.display}</data>.</> : '.'}</p>}
+    : <p class="table-lead">{`We recorded ${count(charged.length, 'other cost')} around ${poss(t.name)} plans, add-ons and usage rates on ${date}${kindText}`}{fixed ? <>{`. The largest fixed one is ${fixed.label}, at `}<data value={String(fixed.amount)} data-fig>{fixed.display}</data>.</> : '.'}</p>}
   {[head(p.extraCosts), rest(p.extraCosts)].map((rows, i) => rows.length > 0 && (() => { const tbl = (
     <div {...region(i === 0 ? `Other costs of ${t.name}` : `More other costs of ${t.name}`)}><table class="data stack">
       <thead><tr><th scope="col">Cost</th><th scope="col">Amount</th><th scope="col">Notes</th></tr></thead>

@@ -229,6 +229,11 @@ for (const [p, { doc, html, noindex }] of pages) {
     const firstPaid = paid[0];
     if (disc && firstPaid && (disc.compareDocumentPosition(firstPaid) & 4) === 0) fail(p, 'disclosure appears after the first paid link');
   }
+  // 11d. a "pays us, links here are plain" disclosure line never sits beside a paid link for that tool
+  for (const el of doc.querySelectorAll('[data-pays-plain]')) {
+    const tid = el.getAttribute('data-pays-plain');
+    if (doc.querySelector(`a[data-paid="1"][data-tool="${tid}"]`)) fail(p, `disclosure says links to ${tid} are plain, but the page has a paid ${tid} link`);
+  }
   // 11b. the editor's own paid-service box: never inside editorial text, a score, a table or a pick
   for (const box of doc.querySelectorAll('[data-svc]')) {
     if (box.closest('.prose-body, [data-prose], [data-quick-answer], table, .pick, .picks, .score, [data-score], [data-verdict]')) fail(p, 'service box inside editorial text, a score, a table or a pick');

@@ -303,6 +303,7 @@ sup.fn a { display: inline-block; padding: 2px 5px; }
 .proof { gap: 4px; }
 .proof:hover { border-color: var(--rule); }
 .proof .proof-total { font: 800 44px/1 var(--display); letter-spacing: -.03em; margin: 6px 0 10px !important; color: var(--ink) !important; }
+@media (max-width: 359px) { .proof .proof-total .nw { white-space: normal; } }
 .proof-lines { list-style: none; padding: 0; margin: 0 0 10px; font-size: 15px; }
 .proof-lines li { display: flex; justify-content: space-between; gap: 10px; border-top: 1px dashed var(--rule); padding: 6px 0; margin: 0; }
 .svc-home { background: var(--card); border-style: solid; padding: 20px 22px; }

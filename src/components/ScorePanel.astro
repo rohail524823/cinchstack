@@ -17,6 +17,12 @@ const hasReview = compact && (await exists(hub));
 const p = price(id);
 const read = p.sources.map((x) => x.checkedOn).sort();
 const when = read[0] === read.at(-1) ? `on ${longDate(read[0])}` : `between ${longDate(read[0])} and ${longDate(read.at(-1))}`;
+// Which published-score rule applies, said plainly; calibration (methodology step 2) can lower a score.
+const rule = !s || s.overall === null ? ''
+  : paysUs(id) ? `${t.name} pays us a commission, so this is the lower of two separate AI scores.`
+  : program(id) ? `${t.name} runs an affiliate program we have joined or may join, so this is the lower of two separate AI scores.`
+  : s.calibration ? `${t.name} does not pay us. The average of its two scores, rounded down, was ${oneDecimal(s.calibration.from)}; we lowered it to ${oneDecimal(s.overall)} in calibration because ${s.calibration.why}.`
+  : `${t.name} does not pay us, so this is the average of two separate AI scores.`;
 ---
 {compact && <h2 id="our-score">How we score {t.name}</h2>}
 <section class="score" id={`score-${id}`} data-score={s?.overall ?? 'none'}>
@@ -28,17 +34,18 @@ const when = read[0] === read.at(-1) ? `on ${longDate(read[0])}` : `between ${lo
     {s && s.overall !== null && <span class="stars" role="img" aria-label={`${oneDecimal(s.overall)} out of 5`}><i style={`width:${stars(s.overall)}%`}></i></span>}
   </div>
   <div>
-    {s ? <p style="margin:0">{s.basis}</p> : <p style="margin:0">We have not scored {t.name} yet. We score a tool only after two independent AI passes over its pricing and product evidence.</p>}
+    {s ? <p style="margin:0">{s.basis}</p> : <p style="margin:0">We have not scored {t.name} yet. We score a tool only after two separate AI passes over its pricing and product evidence.</p>}
     {s?.notScoredReason && <p class="small muted">{s.notScoredReason}</p>}
-    {onReview && <p class="small" data-review-basis>This review is based on {p.sources.length} vendor page{p.sources.length === 1 ? '' : 's'} and help articles read {when}, not on a paid {t.name} account.</p>}
-    {s?.factors && (
+    {onReview && <p class="small" data-review-basis>This review is based mainly on {p.sources.length} vendor page{p.sources.length === 1 ? '' : 's'} and help articles read {when}, not on a paid {t.name} account.</p>}
+    {s?.factors && !hasReview && (
       <details class="why">
         <summary>Why we score it {oneDecimal(s.overall)}</summary>
         <ul class="factors">{FACTORS.map((f) => <li><span>{LABEL[f]}</span><strong>{oneDecimal(s.factors[f])}</strong></li>)}</ul>
         <ul>{FACTORS.map((f) => <li><strong>{LABEL[f]}:</strong> {s.reasons?.[f]}</li>)}</ul>
-        <p class="small muted">Scored {longDate(s.scoredOn)} by two independent AI passes: separate runs of Anthropic's Claude over the same evidence, neither seeing the other's score. {paysUs(id) ? `${t.name} pays us a commission, so this is the lower of the two scores.` : program(id) ? `${t.name} runs an affiliate program we have joined or may join, so this is the lower of the two scores.` : `${t.name} does not pay us, so this is the average of the two.`} <a href="/methodology/#scoring">How scoring works</a>.</p>
+        <p class="small muted">Scored {longDate(s.scoredOn)} by two separate AI passes: two runs of Anthropic's Claude over the same evidence, neither seeing the other's score. {rule}{' '}<a href="/methodology/#scoring">How scoring works</a>.</p>
       </details>
     )}
+    {s?.factors && hasReview && <p class="small muted">{rule}{' '}<a href="/methodology/#scoring">How scoring works</a>.</p>}
     {hasReview && <p class="small"><a href={hub}>Read the full {t.name} review</a></p>}
   </div>
 </section>

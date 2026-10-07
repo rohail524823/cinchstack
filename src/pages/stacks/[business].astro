@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../lib/site.mjs';
-import { tool, price, stacks, stackBill, faqs, scenario, score, paysUs, paysUsOn, toolIds } from '../../lib/data.mjs';
+import { tool, price, stacks, stackBill, faqs, scenario, score, paysUs, paysUsOn, toolIds, programMentions } from '../../lib/data.mjs';
 import { oneDecimal } from '../../lib/format.mjs';
 import { LAYER_LABELS } from '../../lib/schemas.mjs';
 import { registry, relatedFor, lowerFirst } from '../../lib/pages.mjs';
@@ -80,7 +80,7 @@ const jsonld = [
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
       <Byline modified={d.modified} published={d.published} verified={verified} ids={[...new Set(s.layers.map((l) => l.pick))]} />
-      <Disclosure toolIds={all} page={path} />
+      <Disclosure toolIds={all} page={path} mentions={programMentions(e.body, faq)} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <p class="lede" data-prose>{s.profile}</p>
       <h2 id="total-cost">What the whole stack costs</h2>
@@ -93,7 +93,7 @@ const jsonld = [
             <span class="lbl">{pays ? 'Our pick among tools that pay us' : 'Our pick'}</span>
             <h3>{tool(l.pick).name}</h3>
             <p data-prose>{l.why}</p>
-            {scoreOf(l.pick) !== null && <p class="small"><a href={panel(l.pick)}>Score {oneDecimal(scoreOf(l.pick))}</a></p>}
+            {scoreOf(l.pick) !== null && <p class="small"><a href={panel(l.pick)}>{tool(l.pick).name} score {oneDecimal(scoreOf(l.pick))}</a></p>}
             {pays && tf.top === l.pick && <p class="small" data-top-note>Highest score among the {tf.count} {tf.job} tools we track.</p>}
             {(() => { const cell = bill.rows[i].cells.small; return cell.override
               ? <p class="small">{s.sizeLabels.small}: {cell.amount === 0 ? cell.note : <><Fig v={cell.amount} suffix="/mo" floor={cell.floor} /> <span class="muted">({cell.note})</span></>}</p>
@@ -105,7 +105,7 @@ const jsonld = [
               <span class="lbl">Highest-scored option</span>
               <h3>{tool(tf.top).name}</h3>
               <p>{tool(tf.top).oneLiner}</p>
-              <p class="small"><a href={panel(tf.top)}>Score {oneDecimal(scoreOf(tf.top))}</a>, the highest among the {tf.count} {tf.job} tools we track</p>
+              <p class="small"><a href={panel(tf.top)}>{tool(tf.top).name} score {oneDecimal(scoreOf(tf.top))}</a>, the highest among the {tf.count} {tf.job} tools we track</p>
               {best(tf.top) && <p class="small"><a href={best(tf.top)}>{tool(tf.top).name} prices and real cost</a></p>}
             </div>
           )}

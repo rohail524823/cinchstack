@@ -104,7 +104,7 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
 
 **Rules that shape these pages:**
 - No earnings claims.
-- No coupon or bonus wording near HighLevel links, and trial wording only as HighLevel authorised it in writing on 6 October 2026: the 30-day Bootcamp trial, on the closing button of GoHighLevel's own pages (`trialOffer` in `programs.json`).
+- No coupon or bonus wording near HighLevel links, and trial wording only as HighLevel authorised it in writing on 6 October 2026: the 30-day Bootcamp trial, on the closing button of GoHighLevel's own pages (`trialOffer` in `programs.json`). Comparison and alternatives tables may state the 14-day and 30-day routes as plain facts, with no link, button or call to action.
 - No sentence reused on more than three pages: the build enforces it, so each vertical page needs real substance.
 - No first-hand claims without a trial record.
 

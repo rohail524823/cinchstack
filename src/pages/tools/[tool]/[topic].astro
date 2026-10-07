@@ -4,7 +4,7 @@
 import Base from '../../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../../lib/site.mjs';
-import { tool, price, faqs, trialOffer } from '../../../lib/data.mjs';
+import { tool, price, faqs, trialOffer, programMentions } from '../../../lib/data.mjs';
 import { registry, relatedFor, exists, guideParts } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { poss } from '../../../lib/format.mjs';
@@ -59,7 +59,7 @@ const jsonld = [
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
       <Byline modified={d.modified} published={d.published} verified={p.checkedOn} ids={[id]} />
-      <Disclosure toolIds={[id]} page={path} />
+      <Disclosure toolIds={[id]} page={path} mentions={programMentions(e.body, faq)} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <div class="prose-body" data-prose>
         <Content components={mdxComponents} />

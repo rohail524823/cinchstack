@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../lib/site.mjs';
-import { tool, price, comparisons, faqs } from '../../lib/data.mjs';
+import { tool, price, comparisons, faqs, programMentions } from '../../lib/data.mjs';
 import { registry, relatedFor } from '../../lib/pages.mjs';
 import { datesFor } from '../../lib/meta.mjs';
 import { breadcrumbNode, articleNode, webPageNode, softwareRef, itemListNode, faqNode } from '../../lib/jsonld.mjs';
@@ -58,7 +58,7 @@ const jsonld = [
       <Breadcrumbs crumbs={crumbs} />
       <h1>{r.h1}</h1>
       <Byline modified={d.modified} published={d.published} verified={verified} ids={[c.a, c.b]} />
-      <Disclosure toolIds={[c.a, c.b]} page={path} />
+      <Disclosure toolIds={[c.a, c.b]} page={path} mentions={programMentions(e.body, faq)} />
       {e.data.quickAnswer && <QuickAnswer text={e.data.quickAnswer} />}
       <h2 id="which-to-pick">Which should you pick?</h2>
       <Verdicts id={c.id} page={path} />

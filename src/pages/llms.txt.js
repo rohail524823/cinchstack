@@ -18,7 +18,7 @@ export async function GET() {
   const sec = (h, rows) => (rows.length ? `## ${h}\n\n${rows.map(line).join('\n')}\n` : '');
   const byPath = (paths) => paths.map((x) => pages.find((p) => p.path === x)).filter(Boolean);
   const summary = `> ${TAGLINE}. Independent software stack recommendations for small online businesses, with the real monthly cost of every tool at three team sizes. Prices are read from each vendor's own pricing page, saved with the date, and re-checked every Monday. Last check: ${checked}.`;
-  const info = 'All prices are US list prices in USD. Each pricing page shows when it was last verified and links to its sources. The full dataset is free to reuse under CC BY 4.0; please cite CinchStack with a link to the page you used. Funding: some vendors pay CinchStack an affiliate commission; paid links are marked, and commissions never change a price, score or pick.';
+  const info = 'All prices are US list prices in USD. Each pricing page shows when it was last verified and links to its sources. The full dataset is free to reuse under CC BY 4.0; please cite CinchStack with a link to the page you used. Funding: some vendors pay CinchStack an affiliate commission; paid links are marked, prices come from the vendors\' own pages, scores follow the published method, and when a tool pays us we publish the lower of its two scores.';
   // Only empty sections are dropped; the blank lines around the summary and the info paragraph stay,
   // so the summary is a blockquote of its own and the info is a separate paragraph.
   const sections = [

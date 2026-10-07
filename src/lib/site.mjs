@@ -9,7 +9,7 @@ export const AUTHOR = {
   name: 'Rohail Nisar',
   url: `${SITE}/about/`,
   jobTitle: 'Founder and editor',
-  bio: 'Rohail runs CinchStack: reading vendor pricing pages so buyers do not have to, recording what they say with the date, and re-checking them every week. Rohail also publishes BestAICertifications.com.',
+  bio: 'Rohail owns and edits CinchStack, which reads vendor pricing pages so buyers do not have to, records what they say with the date and re-checks them every week. Rohail also publishes BestAICertifications.com.',
   sameAs: [
     'https://www.linkedin.com/in/rohailnisarahmad/',
     'https://github.com/rohail524823',

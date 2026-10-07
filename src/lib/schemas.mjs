@@ -145,6 +145,9 @@ export const scoreSchema = z.object({
   scoredOn: isoDate,
   paysUs: z.boolean(),
   method: z.string(),
+  // When calibration lowered the published score below the passes' rounded-down average, the panel
+  // says so with this short reason instead of claiming the score is that average.
+  calibration: z.object({ from: z.number().min(1).max(5), why: z.string() }).optional(),
 });
 
 export const programSchema = z.object({

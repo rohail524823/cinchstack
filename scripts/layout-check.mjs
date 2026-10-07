@@ -24,9 +24,13 @@ const pages = [];
     const p = path.join(dir, e.name);
     if (e.isDirectory()) walk(p);
     else if (e.name === 'index.html') pages.push(('/' + path.relative(DIST, dir).split(path.sep).join('/') + '/').replace('//', '/'));
+    else if (e.name === '404.html' && path.resolve(dir) === path.resolve(DIST)) pages.push('/404.html');
   }
 })(DIST);
 pages.sort();
+// CLS sample pages that are not built fail the check instead of being skipped silently.
+const clsPages = CLS_PAGES.filter((x) => pages.includes(x));
+const missingCls = CLS_PAGES.filter((x) => !pages.includes(x));
 
 const ROOT = path.resolve(DIST);
 const server = http.createServer((req, res) => {
@@ -44,6 +48,7 @@ const base = `http://127.0.0.1:${server.address().port}`;
 const exe = [process.env.CHROME_PATH, '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].find((p) => p && fs.existsSync(p));
 const browser = await chromium.launch(exe ? { executablePath: exe, args: ['--no-sandbox'] } : { channel: 'chrome' });
 const fails = [];
+for (const m of missingCls) fails.push(`${m}: CLS sample page is not built (update CLS_PAGES)`);
 
 // 1. sideways scrolling and nav visibility at phone width
 const ctx = await browser.newContext({ viewport: { width: WIDTH, height: 800 }, isMobile: true, hasTouch: true });
@@ -80,7 +85,7 @@ for (const width of [412, 1280]) {
     window.__cls = 0;
     new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: 'layout-shift', buffered: true });
   });
-  for (const p of CLS_PAGES.filter((x) => pages.includes(x))) {
+  for (const p of clsPages) {
     await pg.goto(base + p, { waitUntil: 'load' });
     await pg.evaluate(() => document.fonts.ready);
     await pg.waitForTimeout(300);
@@ -97,4 +102,4 @@ if (fails.length) {
   fails.forEach((f) => console.log(`  ✗ ${f}`));
   process.exit(1);
 }
-console.log(`✓ layout check passed: ${pages.length} pages at ${WIDTH}px, late-font CLS under ${CLS_MAX} on ${CLS_PAGES.length} sample pages.`);
+console.log(`✓ layout check passed: ${pages.length} pages at ${WIDTH}px, late-font CLS under ${CLS_MAX} on ${clsPages.length} sample pages.`);

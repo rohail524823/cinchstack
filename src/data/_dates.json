@@ -1,87 +1,87 @@
 {
   "alternatives/gohighlevel": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/hubspot": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/klaviyo": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/notion": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/semrush": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/shopify": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/systeme-io": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "alternatives/webflow": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "compare/gohighlevel-vs-clickfunnels": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/gohighlevel-vs-hubspot": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/gohighlevel-vs-systeme-io": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/klaviyo-vs-activecampaign": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "compare/klaviyo-vs-mailchimp": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "compare/notion-vs-clickup": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/semrush-vs-ahrefs": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/shopify-vs-webflow": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/shopify-vs-woocommerce": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/systeme-io-vs-kajabi": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/webflow-vs-framer": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "compare/webflow-vs-squarespace": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "guides/gohighlevel--add-ons": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "guides/gohighlevel--ai-pricing": {
     "published": "2026-10-06",
@@ -89,7 +89,7 @@
   },
   "guides/gohighlevel--ai-receptionist-cost": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "guides/gohighlevel--contractors": {
     "published": "2026-10-06",
@@ -97,11 +97,11 @@
   },
   "guides/gohighlevel--migrate-from-hubspot": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "guides/gohighlevel--missed-call-text-back": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "guides/gohighlevel--n8n-integration": {
     "published": "2026-10-06",
@@ -109,7 +109,7 @@
   },
   "guides/gohighlevel--plans-compared": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "guides/gohighlevel--real-estate": {
     "published": "2026-10-06",
@@ -117,15 +117,15 @@
   },
   "guides/gohighlevel--sms-and-calling-costs": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "guides/systeme-io--free-plan": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pages/about": {
     "published": "2026-09-26",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pages/contact": {
     "published": "2026-09-26",
@@ -133,23 +133,23 @@
   },
   "pages/how-we-earn": {
     "published": "2026-09-26",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pages/methodology": {
     "published": "2026-09-26",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pages/privacy": {
     "published": "2026-09-26",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pages/services": {
     "published": "2026-10-06",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pages/terms": {
     "published": "2026-09-26",
-    "modified": "2026-09-26"
+    "modified": "2026-10-07"
   },
   "pages/thanks": {
     "published": "2026-09-26",
@@ -157,119 +157,119 @@
   },
   "pricing/activecampaign": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pricing/ahrefs": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/clickfunnels": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/clickup": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/framer": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/gohighlevel": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pricing/hubspot": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/kajabi": {
     "published": "2026-09-27",
-    "modified": "2026-10-01"
+    "modified": "2026-10-07"
   },
   "pricing/kit": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/klaviyo": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "pricing/mailchimp": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/notion": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/pipedrive": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/se-ranking": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/semrush": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/shopify": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/squarespace": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/systeme-io": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/webflow": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/wix": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/woocommerce": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "pricing/zoho-crm": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "stacks/agency": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "stacks/course-creator": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "stacks/freelancer": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "stacks/local-service": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "stacks/saas-startup": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "stacks/shopify-store": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "tools/gohighlevel": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "tools/hubspot": {
     "published": "2026-09-27",
@@ -277,15 +277,15 @@
   },
   "tools/klaviyo": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "tools/notion": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "tools/semrush": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   },
   "tools/shopify": {
     "published": "2026-09-27",
@@ -293,10 +293,10 @@
   },
   "tools/systeme-io": {
     "published": "2026-09-27",
-    "modified": "2026-10-06"
+    "modified": "2026-10-07"
   },
   "tools/webflow": {
     "published": "2026-09-27",
-    "modified": "2026-09-27"
+    "modified": "2026-10-07"
   }
 }

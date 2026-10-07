@@ -30,6 +30,11 @@ const sorted = [...gaps].sort((a, b) => a.ratio - b.ratio);
 const mid = sorted.length / 2;
 const median = sorted.length % 2 ? sorted[Math.floor(mid)].ratio : (sorted[mid - 1].ratio + sorted[mid].ratio) / 2;
 const widest = sorted.slice(-3).reverse();
+// The widest gaps are partly texting: a small-team bill that includes texts is not like-for-like.
+const wideTexting = widest.filter((g) => /, with texting$/.test(sizeBasis(g.id, 'small'))).map((g) => tools[g.id].name);
+const wideNote = wideTexting.length === 0 ? ''
+  : wideTexting.length === 1 ? `${wideTexting[0]}'s small-team bill includes texting, which widens that gap. `
+  : `The ${wideTexting.slice(0, -1).join(', ')} and ${wideTexting.at(-1)} small-team bills include texting, which widens those gaps. `;
 const narrowest = sorted.slice(0, 3);
 const otherPlan = gaps.filter((g) => g.sm.planId !== g.c.p.id).length;
 const perSeat = gaps.filter((g) => g.c.p.priceUnit === 'per-seat-month').length;
@@ -100,9 +105,9 @@ const dataset = {
       <h2 id="what-the-data-shows">What the data shows</h2>
       <p>These figures are computed from the same records as the team-cost CSV, with prices checked between <time datetime={oldest}>{longDate(oldest)}</time> and <time datetime={latest}>{longDate(latest)}</time>. Each tool's cheapest paid plan is taken at its advertised price, which for a per-seat plan means one seat.</p>
       <ul>
-        <li>In {above === gaps.length ? <>all <data value={above}>{above}</data></> : <><data value={above}>{above}</data> of the <data value={gaps.length}>{gaps.length}</data></>} tools with a self-serve paid plan, CinchStack's estimate of a small team's real monthly bill is higher than the cheapest plan's advertised price. The median small-team bill is <data value={times(median)}>{times(median)}</data> times that price.</li>
+        <li>For {above === gaps.length ? <>all <data value={above}>{above}</data></> : <><data value={above}>{above}</data> of the <data value={gaps.length}>{gaps.length}</data></>} tools with a self-serve paid plan, CinchStack's estimate of a small team's real monthly bill is higher than the cheapest plan's advertised price. The median small-team bill is <data value={times(median)}>{times(median)}</data> times that price.</li>
         <li>In <data value={otherPlan}>{otherPlan}</data> of those tools the small-team scenario uses a different plan from the cheapest one. Of the cheapest plans, <data value={perSeat}>{perSeat}</data> are priced per seat, while the small-team bill counts every seat the job needs.</li>
-        <li>The gap is widest for {widest.map((g, i) => <>{i > 0 && (i === widest.length - 1 ? ' and ' : ', ')}<a href={toolHref(g.id) ?? `/tools/${g.id}/`}>{tools[g.id].name}</a> (<Fig v={g.c.v} suffix="/mo" /> to <Fig v={g.sm.monthly} suffix="/mo" floor={g.sm.floor} />, <data value={times(g.ratio)}>{times(g.ratio)}</data> times)</>)}, and narrowest for {narrowest.map((g, i) => <>{i > 0 && (i === narrowest.length - 1 ? ' and ' : ', ')}<a href={toolHref(g.id) ?? `/tools/${g.id}/`}>{tools[g.id].name}</a> (<Fig v={g.c.v} suffix="/mo" /> to <Fig v={g.sm.monthly} suffix="/mo" floor={g.sm.floor} />, <data value={times(g.ratio)}>{times(g.ratio)}</data> times)</>)}. Each tool's pricing page shows what its small-team bill counts.</li>
+        <li>The gap is widest for {widest.map((g, i) => <>{i > 0 && (i === widest.length - 1 ? ' and ' : ', ')}<a href={toolHref(g.id) ?? `/tools/${g.id}/`}>{tools[g.id].name}</a> (<Fig v={g.c.v} suffix="/mo" /> to <Fig v={g.sm.monthly} suffix="/mo" floor={g.sm.floor} />, <data value={times(g.ratio)}>{times(g.ratio)}</data> times)</>)}, and narrowest for {narrowest.map((g, i) => <>{i > 0 && (i === narrowest.length - 1 ? ' and ' : ', ')}<a href={toolHref(g.id) ?? `/tools/${g.id}/`}>{tools[g.id].name}</a> (<Fig v={g.c.v} suffix="/mo" /> to <Fig v={g.sm.monthly} suffix="/mo" floor={g.sm.floor} />, <data value={times(g.ratio)}>{times(g.ratio)}</data> times)</>)}. {wideNote}Each tool's pricing page shows what its small-team bill counts.</li>
         <li><data value={metered}>{metered}</data> of the <data value={toolIds.length}>{toolIds.length}</data> tools bill some usage per unit on top of the subscription, <data value={withAddOns}>{withAddOns}</data> sell paid add-ons, and <data value={freePlans}>{freePlans}</data> offer a free plan.</li>
       </ul>
 
