@@ -56,16 +56,16 @@ Design rule kept from the sister site: **markup only repeats what a reader can s
 | Node | On | Source |
 |---|---|---|
 | `Organization` + `Person` (author), shared `@id`s | every page | `entity.json` |
-| `WebSite` + `SearchAction` | homepage | |
-| `BreadcrumbList` | every page | route data — same source as the visible trail |
-| `Article` (`headline`, `datePublished`, `dateModified`, `author`, `publisher`) | every content page | frontmatter + git dates |
-| **`SoftwareApplication`** with `offers` (`Offer` per plan: `price`, `priceCurrency`, `billingIncrement`, `url`) | tool hubs and pricing pages | `tools/*.json` + `pricing/*.json` |
-| **`Review`** with `reviewRating`, `positiveNotes`, `negativeNotes`, `itemReviewed` → the `SoftwareApplication` `@id` | tool hubs | score data — rating must be visible |
+| `WebSite` (no `SearchAction`: the site has no search box) | every page | |
+| `BreadcrumbList`; every crumb but the last has an `item` (a pricing page of a tool without a review collapses its trail to Home › Tools › "<Tool> pricing") | every page but the homepage | route data — same source as the visible trail |
+| `Article` + `WebPage`, linked both ways; `about`/`mentions` point to the tool's app, `isBasedOn` to the vendor pages under "How we checked this" | every article page | frontmatter + git dates |
+| **`SoftwareApplication`** with `offers` (an `Offer` only for each plan the page prints; a yearly-only plan says "billed annually" with `billingDuration` P1Y) | tool reviews and pricing pages; comparisons point to the apps instead of redefining them | `tools/*.json` + `pricing/*.json` |
+| **`Review`**, linked both ways with its app: `reviewRating` = the score the page shows; `positiveNotes`/`negativeNotes` on reviews only | tool reviews and pricing pages | score data — rating must be visible |
 | `FAQPage` | every page with a FAQ | `faq/*.json`, word-for-word with the visible text |
-| `ItemList` | comparisons (2 items), stacks (the tools), any ranked list | same data as the table; `numberOfItems` gated |
-| `Dataset` with `DataDownload` (JSON + CSV), `license` CC BY 4.0 | `/data/` | generated |
-| `WebPage` with `lastReviewed`, `reviewedBy` | pricing pages | the weekly job |
-| `AboutPage`, `ContactPage` | those pages | |
+| `ItemList` (names unique; stack items named by their layer) | homepage, comparisons (2 items), stacks, alternatives, hubs | same data as the table; `numberOfItems` gated |
+| `Dataset` with named `DataDownload`s (JSON + CSV), `license` CC BY 4.0, `citation`, `creditText`, `version`, `spatialCoverage`, `measurementTechnique` | `/data/` | generated |
+| `WebPage` with `lastReviewed` = the visible verified date | pricing pages, reviews, guides, comparisons, stacks, alternatives, `/data/`, `/changes/`, homepage | the weekly job |
+| `AboutPage`+`ProfilePage` (one node), `ContactPage` | `/about/`, `/contact/` | |
 
 **Absent on purpose:** `AggregateRating` (our scores are self-published editorial, not aggregated); `speakable` (unproven); `HowTo`.
 
@@ -89,7 +89,7 @@ Adapted from `site_audit.py` and friends, collapsed into one `check` script:
 
 **Head:** title and description present and within length; canonical correct; no stray text in `<head>`; year agreement across title/H1/headline.
 **Content:** exactly one H1; Quick answer present and passes its per-type rule; ≥ 300 words; no duplicate titles; no sentence repeated on > 3 pages outside generated blocks.
-**JSON-LD:** parses; no dangling `@id`; `ItemList.numberOfItems` equals rendered items; every `FAQPage` question visible; every rating visible; every `Offer.price` equals the data.
+**JSON-LD:** parses; no dangling `@id` (cross-page `about`/`mentions` resolve on their own page) and every `@id` on a built page; non-last crumbs have a built `item`; `ItemList.numberOfItems` equals rendered items and item names are unique; every `FAQPage` question visible; every app carries a rating, and each `Review` matches its own tool's visible score; only printed plans get an `Offer`, and every `Offer.price` equals the data.
 **Tables/images:** every table has a lead; every image has alt, width, height.
 **Links:** every internal link, fragment, canonical and sitemap `<loc>` resolves; crawl depth ≤ 3; no orphan (after week 4).
 **Policy:** every paid link `rel="sponsored nofollow noopener"`; disclosure line present and first on any page with a paid link; ≥ 150 words per paid button; amber class only on approved-program hosts; no earnings-claim or coupon lexicon near paid links; GHL mandatory disclosure on every GHL page.
