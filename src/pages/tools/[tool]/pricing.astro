@@ -6,7 +6,7 @@ import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, sizeBasis, paysU
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
 import { figHtml, poss } from '../../../lib/format.mjs';
-import { breadcrumbNode, articleNode, webPageNode, softwareNode, faqNode } from '../../../lib/jsonld.mjs';
+import { breadcrumbNode, articleNode, webPageNode, softwareWithReview, sourceUrls, faqNode } from '../../../lib/jsonld.mjs';
 import { mdxComponents } from '../../../components/mdx/index.mjs';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import Byline from '../../../components/Byline.astro';
@@ -44,13 +44,18 @@ const d = datesFor(e);
 const cheapest = cheapestPaid(id);
 const small = scenario(id, 'small');
 const hubExists = await exists(`/tools/${id}/`);
-const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: t.name, href: hubExists ? `/tools/${id}/` : undefined }, { label: 'Pricing' }];
+// Without a review page there is nothing to link the tool's own crumb to, so the trail is one step shorter.
+const crumbs = hubExists
+  ? [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: t.name, href: `/tools/${id}/` }, { label: 'Pricing' }]
+  : [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: `${t.name} pricing` }];
 const related = await relatedFor(e.id, e.data.related);
+// Every plan is in the plans table and the compact score panel shows the rating, without pros and cons.
+const app = softwareWithReview(id, url, { notes: false });
 const jsonld = [
   breadcrumbNode(url, crumbs),
-  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
-  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: p.checkedOn }),
-  softwareNode(id),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified, about: app[0] && { '@id': app[0]['@id'] }, isBasedOn: sourceUrls(id) }),
+  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: p.checkedOn, article: true }),
+  app,
   faqNode(url, faq),
 ];
 // A trial the program authorized in writing (HighLevel's 30-day Bootcamp trial) replaces the closing button.

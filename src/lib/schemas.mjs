@@ -115,6 +115,8 @@ export const pricingSchema = z.object({
 export const toolSchema = z.object({
   id,
   name: z.string(),
+  // Other names the product goes by, for the SoftwareApplication markup (GoHighLevel is "HighLevel" in its own help center).
+  alternateName: z.array(z.string()).optional(),
   vendor: z.string(),
   tier: z.enum(['core', 'secondary']),
   layer: z.enum(LAYERS),

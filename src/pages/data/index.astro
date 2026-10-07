@@ -49,21 +49,34 @@ const dataset = {
   description: 'US list prices for small-business software (plans, add-ons, usage fees and extra costs) read from each vendor\'s pricing page, with the date checked and the source URL, plus estimated monthly costs at three team sizes.',
   url,
   license: LICENSE,
+  // The credit line shown under "How to cite this data".
+  citation: CITATION,
+  creditText: CITATION,
   isAccessibleForFree: true,
   creator: { '@id': ORG_ID },
   publisher: { '@id': ORG_ID },
   dateModified: latest,
+  // The files carry no version number of their own; they are versioned by the date of the newest check.
+  version: latest ?? undefined,
+  // "All money is US dollars, as shown to a US buyer" (Field notes).
+  spatialCoverage: { '@type': 'Place', name: 'United States' },
+  // How each figure is collected, in the words of /methodology/ ("How we read a price").
+  measurementTechnique: [
+    "Each price is read from the vendor's own pricing page, opened in a headless Chromium browser set to a US location and saved as a dated plain-text copy; a script checks every recorded figure against the saved copy it cites.",
+    `${SITE}/methodology/#how-we-read-a-price`,
+  ],
   temporalCoverage: latest ? `${Object.values(pricing).map((p) => p.checkedOn).sort()[0]}/${latest}` : undefined,
   keywords: ['software pricing', 'SaaS pricing', 'CRM pricing', 'ecommerce platform pricing', 'email marketing pricing', 'website builder pricing'],
   variableMeasured: ['monthly price (USD)', 'annual price per month (USD)', 'add-on price (USD)', 'usage rate (USD)', 'estimated monthly cost by team size (USD)'],
   distribution: [
-    { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${SITE}/data/pricing.json` },
-    { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: `${SITE}/data/pricing.csv` },
-    { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: `${SITE}/data/scenarios.csv` },
+    // Named as the download buttons name them.
+    { '@type': 'DataDownload', name: 'Full dataset (JSON)', encodingFormat: 'application/json', contentUrl: `${SITE}/data/pricing.json` },
+    { '@type': 'DataDownload', name: 'Plans CSV', encodingFormat: 'text/csv', contentUrl: `${SITE}/data/pricing.csv` },
+    { '@type': 'DataDownload', name: 'Team-cost CSV', encodingFormat: 'text/csv', contentUrl: `${SITE}/data/scenarios.csv` },
   ],
 };
 ---
-<Base title={title} description={description} path={path} jsonld={[breadcrumbNode(url, crumbs), webPageNode({ url, name: title, description, lastReviewed: latest }), dataset]}>
+<Base title={title} description={description} path={path} jsonld={[breadcrumbNode(url, crumbs), { ...webPageNode({ url, name: title, description, lastReviewed: latest }), mainEntity: { '@id': dataset['@id'] } }, dataset]}>
   <div class="wrap page">
     <div class="read">
       <Breadcrumbs crumbs={crumbs} />

@@ -1,6 +1,9 @@
 {
   "id": "gohighlevel",
   "name": "GoHighLevel",
+  "alternateName": [
+    "HighLevel"
+  ],
   "vendor": "HighLevel LLC (a subsidiary of GoHighLevel Inc.)",
   "tier": "core",
   "layer": "run",

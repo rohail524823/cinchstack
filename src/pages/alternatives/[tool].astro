@@ -7,7 +7,7 @@ import { LAYER_LABELS } from '../../lib/schemas.mjs';
 import { registry, relatedFor } from '../../lib/pages.mjs';
 import { datesFor } from '../../lib/meta.mjs';
 import { oneDecimal, slugify, poss } from '../../lib/format.mjs';
-import { breadcrumbNode, articleNode, itemListNode, faqNode } from '../../lib/jsonld.mjs';
+import { breadcrumbNode, articleNode, webPageNode, softwareRef, itemListNode, faqNode } from '../../lib/jsonld.mjs';
 import { mdxComponents } from '../../components/mdx/index.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Byline from '../../components/Byline.astro';
@@ -58,7 +58,8 @@ const reg = await registry();
 const best = (x) => (reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/` : reg.has(`/tools/${x}/`) ? `/tools/${x}/` : null);
 const jsonld = [
   breadcrumbNode(url, crumbs),
-  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified, about: softwareRef(id, (x) => reg.has(x)), mentions: picks.map((x) => softwareRef(x, (q) => reg.has(q))) }),
+  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: verified, article: true }),
   itemListNode(url, `${t.name} alternatives`, picks.map((x) => ({ name: tool(x).name, url: `${SITE}${best(x) ?? path}` }))),
   faqNode(url, faq),
 ];

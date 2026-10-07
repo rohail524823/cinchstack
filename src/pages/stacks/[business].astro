@@ -7,7 +7,7 @@ import { oneDecimal } from '../../lib/format.mjs';
 import { LAYER_LABELS } from '../../lib/schemas.mjs';
 import { registry, relatedFor, lowerFirst } from '../../lib/pages.mjs';
 import { datesFor } from '../../lib/meta.mjs';
-import { breadcrumbNode, articleNode, itemListNode, faqNode } from '../../lib/jsonld.mjs';
+import { breadcrumbNode, articleNode, webPageNode, softwareRef, itemListNode, faqNode } from '../../lib/jsonld.mjs';
 import { mdxComponents } from '../../components/mdx/index.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Byline from '../../components/Byline.astro';
@@ -66,8 +66,11 @@ const topFor = (l) => {
 };
 const jsonld = [
   breadcrumbNode(url, crumbs),
-  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified }),
-  itemListNode(url, `Software stack for a ${lowerFirst(s.label)}`, s.layers.map((l) => ({ name: tool(l.pick).name, url: `${SITE}${best(l.pick) ?? path}` }))),
+  articleNode({ url, headline: e.data.title, description: e.data.description, published: d.published, modified: d.modified, mentions: [...new Set(s.layers.map((l) => l.pick))].map((x) => softwareRef(x, (q) => reg.has(q))) }),
+  webPageNode({ url, name: e.data.title, description: e.data.description, lastReviewed: verified, article: true }),
+  // One entry per layer, named as the page's layer headings name it ("Sell: Systeme.io"), so a tool
+  // picked for two layers is not listed twice under the same name.
+  itemListNode(url, `Software stack for a ${lowerFirst(s.label)}`, s.layers.map((l) => ({ name: `${LAYER_LABELS[l.layer]}: ${tool(l.pick).name}`, url: `${SITE}${best(l.pick) ?? path}` }))),
   faqNode(url, faq),
 ];
 ---
