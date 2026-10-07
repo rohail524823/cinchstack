@@ -1,6 +1,7 @@
 ---
 // "Our pick among tools that pay us" shown beside the highest-scored option, whatever it pays.
-import { tool, score, paysUsOn, scenario } from '../lib/data.mjs';
+import { tool, score, paysUsOn, scenario, sizeBasis } from '../lib/data.mjs';
+import { exists } from '../lib/pages.mjs';
 import { oneDecimal } from '../lib/format.mjs';
 import AffLink from './AffLink.astro';
 import Fig from './Fig.astro';
@@ -11,6 +12,8 @@ const top = scored[0]?.id;
 const paid = scored.filter((x) => paysUsOn(x.id, page))[0]?.id;
 // The highest-scored option leads; a paying pick, when different, sits beside it, never ahead of it.
 const cards = paid && paid !== top ? [{ id: top, kind: 'top' }, { id: paid, kind: 'paid' }] : [{ id: top, kind: paid === top ? 'paid-top' : 'top' }];
+// Each score links to its "Why we score it" panel: the review when there is one, else the pricing page.
+const panels = Object.fromEntries(await Promise.all(cards.map(async ({ id }) => [id, (await exists(`/tools/${id}/`)) ? `/tools/${id}/#score-${id}` : (await exists(`/tools/${id}/pricing/`)) ? `/tools/${id}/pricing/#score-${id}` : '/methodology/#scoring'])));
 const label = { paid: 'Our pick among tools that pay us', top: 'Highest-scored option', 'paid-top': 'Highest-scored, and it pays us' };
 ---
 {top && (<>
@@ -21,9 +24,10 @@ const label = { paid: 'Our pick among tools that pay us', top: 'Highest-scored o
         <span class="lbl">{label[c.kind]}</span>
         <h3>{tool(c.id).name}</h3>
         <p>{tool(c.id).oneLiner}</p>
-        <p class="small">Score {score(c.id)?.overall ? oneDecimal(score(c.id).overall) : 'not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" floor={scenario(c.id, 'small').floor} /></p>
+        <p class="small">{score(c.id)?.overall ? <a href={panels[c.id]}>Score {oneDecimal(score(c.id).overall)}</a> : 'Not yet scored'} · small team <Fig v={scenario(c.id, 'small').monthly} suffix="/mo" floor={scenario(c.id, 'small').floor} />{sizeBasis(c.id, 'small') && <span class="muted"> ({sizeBasis(c.id, 'small')})</span>}</p>
         <AffLink tool={c.id} page={page} placement={`pick-${c.kind}`} label={`Visit ${tool(c.id).name}`} />
       </div>
     ))}
   </div>
+  <p class="small muted">The highest-scored option comes first. When we pick a tool that pays us, it is labeled and shown beside it. <a href="/methodology/#scoring">How scores and picks work</a>.</p>
 </>)}

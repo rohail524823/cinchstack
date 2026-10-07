@@ -18,6 +18,7 @@ import PlansTable from '../../../components/PlansTable.astro';
 import ScenarioBill from '../../../components/ScenarioBill.astro';
 import CostsTable from '../../../components/CostsTable.astro';
 import Provenance from '../../../components/Provenance.astro';
+import ScorePanel from '../../../components/ScorePanel.astro';
 import Faq from '../../../components/Faq.astro';
 import AuthorBox from '../../../components/AuthorBox.astro';
 import ServiceBox from '../../../components/ServiceBox.astro';
@@ -90,6 +91,7 @@ const glance = [
         <h2 id="billing">Billing rules worth knowing</h2>
         <ul>{p.billingNotes.map((n) => <li>{n}</li>)}</ul>
       </>)}
+      <ScorePanel id={id} compact />
       <Provenance ids={[id]} />
       <AlertsCta place="pricing" />
       <div class="cta-row">

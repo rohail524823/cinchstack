@@ -1,12 +1,17 @@
 ---
-import { paysUsOn, program } from '../lib/data.mjs';
+import { paysUs, paysUsOn, program, tool } from '../lib/data.mjs';
 interface Props { toolIds: string[]; page: string }
-const paid = [...new Set(Astro.props.toolIds)].filter((id) => paysUsOn(id, Astro.props.page));
+const ids = [...new Set(Astro.props.toolIds)];
+const paid = ids.filter((id) => paysUsOn(id, Astro.props.page));
+// A tool whose program pays us but limits paid links to other pages (Systeme.io outside its free-plan
+// guide) still pays us, so the page says so, in one neutral line, even though its links here are plain.
+const plain = ids.filter((id) => paysUs(id) && !paysUsOn(id, Astro.props.page));
 const mandated = [...new Set(paid.map((id) => program(id)?.rules?.mandatoryDisclosure).filter(Boolean))];
 ---
-{paid.length > 0 && (
+{(paid.length > 0 || plain.length > 0) && (
   <div class="disclosure" data-disclosure>
-    <p>Amber buttons and amber links are affiliate links: if you sign up through one, that vendor pays us a commission at no extra cost to you. Plain buttons and links are not. <a href="/how-we-earn/">How we earn</a>.</p>
+    {paid.length > 0 && <p>Amber buttons and amber links are affiliate links: if you sign up through one, that vendor pays us a commission at no extra cost to you. Plain buttons and links are not. <a href="/how-we-earn/">How we earn</a>.</p>}
     {mandated.map((m) => <p>{m}</p>)}
+    {plain.map((id) => <p data-pays-plain={id}>{tool(id).name} pays us a commission through its affiliate program. Links to {tool(id).name} on this page are plain links with no referral code, so they earn us nothing.{paid.length === 0 && <> <a href="/how-we-earn/">How we earn</a>.</>}</p>)}
   </div>
 )}
