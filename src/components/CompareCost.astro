@@ -1,7 +1,7 @@
 ---
-import { tool, scenario, price } from '../lib/data.mjs';
+import { tool, scenario, price, sizeBasis } from '../lib/data.mjs';
 import { SIZE_LABELS } from '../lib/schemas.mjs';
-import { longDate } from '../lib/format.mjs';
+import { longDate, poss } from '../lib/format.mjs';
 import Fig from './Fig.astro';
 interface Props { a: string; b: string }
 const { a, b } = Astro.props;
@@ -9,9 +9,15 @@ const A = tool(a), B = tool(b);
 const sizes = ['solo', 'small', 'growing'];
 const rows = sizes.map((s) => ({ s, x: scenario(a, s), y: scenario(b, s) }));
 const d = [price(a).checkedOn, price(b).checkedOn].sort()[0];
+const R = Object.fromEntries(rows.map((r) => [r.s, r]));
+const at = 'at least ';
+// When only one of the two bills counts texting, the "Cheaper" verdict says so, so it is never quoted
+// as like-for-like.
+const texts = (id, s) => /, with texting$/.test(sizeBasis(id, s));
+const onlyTexts = (s) => (texts(a, s) === texts(b, s) ? null : texts(a, s) ? A : B);
 ---
-<p class="table-lead">The real monthly bill for {A.name} and {B.name} at three business sizes, as of {longDate(d)}. Each tool's bill is sized for the job it does, so the two are not always built on the same assumptions: the line under each figure says what it counts. Open either pricing page for every line of each bill.</p>
-<div class="tbl-wrap"><table class="data stack">
+<p class="table-lead">{`As of ${longDate(d)}, ${A.name} comes to `}<Fig v={R.solo.x.monthly} floor={R.solo.x.floor} floorText={at} />{` a month for a solo operator against `}<Fig v={R.solo.y.monthly} floor={R.solo.y.floor} floorText={at} />{` for ${B.name}, `}<Fig v={R.small.x.monthly} floor={R.small.x.floor} floorText={at} /> against <Fig v={R.small.y.monthly} floor={R.small.y.floor} floorText={at} />{` for a small team, and `}<Fig v={R.growing.x.monthly} floor={R.growing.x.floor} floorText={at} /> against <Fig v={R.growing.y.monthly} floor={R.growing.y.floor} floorText={at} />{` for a growing team. ${poss(A.name)} and ${poss(B.name)} bills are each sized for the job the tool does, so they do not always count the same things: the line under each figure says what it counts, and each pricing page lists every line.`}</p>
+<div class="tbl-wrap" tabindex="0" role="region" aria-label={`Real monthly bill for ${A.name} and ${B.name} by business size`}><table class="data stack">
   <thead><tr><th scope="col">Size</th><th scope="col" class="num">{A.name}</th><th scope="col" class="num">{B.name}</th><th scope="col">Cheaper</th></tr></thead>
   <tbody>
     {rows.map((r) => (
@@ -19,7 +25,7 @@ const d = [price(a).checkedOn, price(b).checkedOn].sort()[0];
         <th scope="row">{SIZE_LABELS[r.s]}</th>
         <td class="num" data-label={A.name}><Fig v={r.x.monthly} floor={r.x.floor} /><span class="sub">{r.x.label}</span><span class="sub">{r.x.floor ? 'lowest possible' : `${r.x.confidence} confidence`}</span></td>
         <td class="num" data-label={B.name}><Fig v={r.y.monthly} floor={r.y.floor} /><span class="sub">{r.y.label}</span><span class="sub">{r.y.floor ? 'lowest possible' : `${r.y.confidence} confidence`}</span></td>
-        <td data-label="Cheaper">{r.x.floor || r.y.floor ? <span class="sub">Not comparable: {(r.x.floor ? A : B).name} does not publish its price at this size</span> : Math.abs(r.x.monthly - r.y.monthly) < 0.5 ? 'About the same' : r.x.monthly < r.y.monthly ? <span class="edge">{A.name}, by <Fig v={Math.round((r.y.monthly - r.x.monthly) * 100) / 100} />/mo</span> : <span class="edge">{B.name}, by <Fig v={Math.round((r.x.monthly - r.y.monthly) * 100) / 100} />/mo</span>}</td>
+        <td data-label="Cheaper">{r.x.floor || r.y.floor ? <span class="sub">Not comparable: {(r.x.floor ? A : B).name} does not publish its price at this size</span> : Math.abs(r.x.monthly - r.y.monthly) < 0.5 ? 'About the same' : r.x.monthly < r.y.monthly ? <span class="edge">{A.name}, by <Fig v={Math.round((r.y.monthly - r.x.monthly) * 100) / 100} />/mo</span> : <span class="edge">{B.name}, by <Fig v={Math.round((r.x.monthly - r.y.monthly) * 100) / 100} />/mo</span>}{!(r.x.floor || r.y.floor) && onlyTexts(r.s) && <span class="sub">{`Only ${poss(onlyTexts(r.s).name)} bill includes texting`}</span>}</td>
       </tr>
     ))}
   </tbody>

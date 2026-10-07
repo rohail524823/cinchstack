@@ -207,9 +207,10 @@ for (const [p, { doc, html, noindex }] of pages) {
   if (GA_ID && !doc.querySelector('script[src="/site.js"]')) fail(p, 'analytics is on but this page does not load /site.js');
   // 16. duplicate sentences across pages (editorial text only)
   for (const el of doc.querySelectorAll('.prose-body, [data-prose], [data-quick-answer], [data-faq-a]')) {
-    // Buttons and their "Paid link" notes are template text, not editorial sentences.
+    // Buttons and their "Paid link" notes are template text, not editorial sentences. Table leads
+    // are not exempt: each one is built from data and must say something specific to its page.
     const ed = el.cloneNode(true);
-    ed.querySelectorAll('.aff-pair, [data-paid-note], .prose-cta, .tbl-wrap, .table-lead').forEach((x) => x.remove());
+    ed.querySelectorAll('.aff-pair, [data-paid-note], .prose-cta, .tbl-wrap').forEach((x) => x.remove());
     for (const s of text(ed).split(/(?<=[.!?])\s+/)) {
       if (words(s) < 10) continue;
       const k = s.toLowerCase();

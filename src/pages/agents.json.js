@@ -13,7 +13,7 @@ export function GET() {
       citation: 'Please cite CinchStack by name with a link to the specific page, and include the date the price was last verified, which is shown on every pricing page.',
       dataLicense: LICENSE,
     },
-    data: { dataset: `${SITE}/data/`, json: `${SITE}/data/pricing.json`, csv: `${SITE}/data/pricing.csv`, lastChecked: lastChecked() },
+    data: { dataset: `${SITE}/data/`, json: `${SITE}/data/pricing.json`, csv: `${SITE}/data/pricing.csv`, scenarios: `${SITE}/data/scenarios.csv`, lastChecked: lastChecked() },
     trust: {
       methodology: `${SITE}/methodology/`,
       funding: 'Some vendors pay CinchStack an affiliate commission. Paid links are marked and listed at /how-we-earn/. Commissions never change prices, scores or picks.',

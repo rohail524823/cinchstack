@@ -1,8 +1,9 @@
 ---
-import { stacks, stackBill, tool } from '../lib/data.mjs';
+import { stacks, stackBill, tool, price } from '../lib/data.mjs';
 import { LAYER_LABELS } from '../lib/schemas.mjs';
+import { longDate } from '../lib/format.mjs';
 import Fig from './Fig.astro';
-import { registry } from '../lib/pages.mjs';
+import { registry, lowerFirst } from '../lib/pages.mjs';
 const reg = await registry();
 const best = (x) => (reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/` : reg.has(`/tools/${x}/`) ? `/tools/${x}/` : null);
 interface Props { id: string }
@@ -22,9 +23,14 @@ const noteNo = (r, z) => {
   return notes.length;
 };
 const rows = bill.rows.map((r) => ({ r, marks: Object.fromEntries(sizes.map((z) => [z, noteNo(r, z)])) }));
+// The lead states the three totals and the oldest check date among the stack's tools, from data.
+const oldest = [...new Set(bill.rows.map((r) => r.pick))].map((x) => price(x).checkedOn).sort()[0];
+const an = (s) => (/^(8|11|18|[aeiou])/i.test(s) ? 'an' : 'a');
+const who = (z) => { const l = lowerFirst(s.sizeLabels[z]); return `${an(l)} ${l}`; };
+const label = lowerFirst(s.label);
 ---
-<p class="table-lead">The whole stack's monthly bill at three sizes: one row per layer, using each tool's real-cost scenario for that size, with the total at the bottom.</p>
-<div class="tbl-wrap"><table class="data stack">
+<p class="table-lead">{`By CinchStack's estimate, the ${label} stack comes to `}<Fig v={bill.totals.solo} floor={bill.floors.solo} floorText="at least " />{` a month for ${who('solo')}, `}<Fig v={bill.totals.small} floor={bill.floors.small} floorText="at least " />{` for ${who('small')} and `}<Fig v={bill.totals.growing} floor={bill.floors.growing} floorText="at least " />{` for ${who('growing')}, adding up ${bill.rows.length} layers from each tool's real-cost scenario${notes.length ? ' (exceptions are noted under the table)' : ''} at prices checked on or after ${longDate(oldest)}.`}</p>
+<div class="tbl-wrap" tabindex="0" role="region" aria-label={`Monthly bill for the ${label} stack by layer and size`}><table class="data stack">
   <thead><tr><th scope="col">Layer</th><th scope="col">Tool</th>{sizes.map((z) => <th scope="col" class="num">{s.sizeLabels[z]}</th>)}</tr></thead>
   <tbody>
     {rows.map(({ r, marks }) => (

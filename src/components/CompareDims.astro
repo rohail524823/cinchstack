@@ -1,12 +1,17 @@
 ---
-import { tool, comparisons } from '../lib/data.mjs';
+import { tool, comparisons, price } from '../lib/data.mjs';
+import { longDate } from '../lib/format.mjs';
 interface Props { id: string }
 const c = comparisons[Astro.props.id];
 const A = tool(c.a), B = tool(c.b);
 const name = (e) => (e === 'a' ? A.name : e === 'b' ? B.name : 'Tie');
+// The lead counts the edges from the same rows the table shows, and dates the prices they rest on.
+const n = (e) => c.dimensions.filter((d) => d.edge === e).length;
+const ties = n('tie');
+const checked = longDate([price(c.a).checkedOn, price(c.b).checkedOn].sort()[0]);
 ---
-<p class="table-lead">{A.name} and {B.name} side by side on the things that decide the choice for a small business, with our call on which has the edge on each.</p>
-<div class="tbl-wrap"><table class="data stack">
+<p class="table-lead">{`${A.name} and ${B.name} side by side on ${c.dimensions.length} things that decide the choice for a small business, with prices as checked on ${checked}: by our call ${A.name} has the edge on ${n('a')} and ${B.name} on ${n('b')}${ties ? `, with ${ties} a tie` : ''}.`}</p>
+<div class="tbl-wrap" tabindex="0" role="region" aria-label={`${A.name} and ${B.name} compared on what matters`}><table class="data stack">
   <thead><tr><th scope="col">What matters</th><th scope="col">{A.name}</th><th scope="col">{B.name}</th><th scope="col">Edge</th></tr></thead>
   <tbody>
     {c.dimensions.map((d) => <tr><th scope="row">{d.label}</th><td data-prose data-label={A.name}>{d.a}</td><td data-prose data-label={B.name}>{d.b}</td><td data-label="Edge" class={d.edge !== 'tie' ? 'edge' : ''}>{name(d.edge)}</td></tr>)}
