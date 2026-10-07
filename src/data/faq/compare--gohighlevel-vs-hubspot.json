@@ -2,6 +2,10 @@
   "page": "compare/gohighlevel-vs-hubspot",
   "items": [
     {
+      "q": "Is GoHighLevel better than HubSpot?",
+      "a": "Neither is better across the board; each one is better for a different business. GoHighLevel is the better fit for a marketing agency running client accounts or a local-service business that texts its leads: every plan from the $97-a-month Starter includes unlimited users and contacts, sub-accounts for separate clients and a built-in phone system, with texts and calls metered from a wallet. HubSpot is the better fit for a SaaS startup or any company whose marketing, sales and service teams need one shared CRM record, and for a freelancer with a short list who can stay on its free tools at $0. Its weak spot for small teams is texting: marketing SMS needs Marketing Hub Professional, from $890 a month plus a required $3,000 onboarding fee. Pick by whether you run client accounts and text leads, not by the brand."
+    },
+    {
       "q": "Is GoHighLevel cheaper than HubSpot?",
       "a": "It depends on whether you need to text leads. GoHighLevel's Starter plan costs $97 a month with unlimited users and unlimited contacts, and a small team's real bill lands at $125.42 a month once typical texting and email usage is added. HubSpot's Marketing Hub Starter costs $20 a seat a month with no usage wallet, so a solo operator can run it for $20 a month or less on the free tools. The comparison flips once a team needs marketing text messages: HubSpot doesn't sell SMS below Marketing Hub Professional, which starts at $890 a month, or $800 billed annually, plus a required $3,000 onboarding fee, while GoHighLevel bills texts by the segment on every plan. HubSpot is cheaper for a small, email-only team; GoHighLevel is cheaper for any team that plans to text leads."
     },
