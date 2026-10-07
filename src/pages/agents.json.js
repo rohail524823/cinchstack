@@ -14,6 +14,8 @@ export function GET() {
       dataLicense: LICENSE,
     },
     data: { dataset: `${SITE}/data/`, json: `${SITE}/data/pricing.json`, csv: `${SITE}/data/pricing.csv`, scenarios: `${SITE}/data/scenarios.csv`, lastChecked: lastChecked() },
+    // The page index for AI assistants, and the full text of every page in the sitemap in one file.
+    llms: { index: `${SITE}/llms.txt`, fullText: `${SITE}/llms-full.txt` },
     trust: {
       methodology: `${SITE}/methodology/`,
       funding: 'Some vendors pay CinchStack an affiliate commission. Paid links are marked and listed at /how-we-earn/. Prices come from the vendors\' own pages and scores follow the published method; when a tool pays us, we publish the lower of its two scores.',

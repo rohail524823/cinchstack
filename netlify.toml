@@ -36,6 +36,19 @@
   [headers.values]
     Content-Type = "application/rss+xml; charset=utf-8"
 
+# The text files for AI assistants. llms-full.txt repeats every page's text, so it stays out of search
+# results (noindex) while any crawler can still fetch and read it; the pages themselves are what get cited.
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    X-Robots-Tag = "noindex"
+
 # Static files without a content hash in their name: cached briefly, never immutable. /site.js holds
 # the consent and privacy logic, so a fix to it must reach returning visitors within the hour.
 [[headers]]

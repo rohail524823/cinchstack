@@ -41,7 +41,7 @@ const rule = !s || s.overall === null ? ''
       <details class="why">
         <summary>Why we score it {oneDecimal(s.overall)}</summary>
         <ul class="factors">{FACTORS.map((f) => <li><span>{LABEL[f]}</span><strong>{oneDecimal(s.factors[f])}</strong></li>)}</ul>
-        <ul>{FACTORS.map((f) => <li><strong>{LABEL[f]}:</strong> {s.reasons?.[f]}</li>)}</ul>
+        <ul>{FACTORS.map((f) => <li><strong>{LABEL[f]}:</strong>{' '}{s.reasons?.[f]}</li>)}</ul>
         <p class="small muted">Scored {longDate(s.scoredOn)} by two separate AI passes: two runs of Anthropic's Claude over the same evidence, neither seeing the other's score. {rule}{' '}<a href="/methodology/#scoring">How scoring works</a>.</p>
       </details>
     )}
