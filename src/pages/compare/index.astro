@@ -19,6 +19,8 @@ const description = 'Head-to-head comparisons of small-business software, built 
     <Breadcrumbs crumbs={crumbs} />
     <h1>Comparisons</h1>
     <p class="lede">Two tools, the same assumptions, the real bill at three sizes — and which one we would pick for each kind of business.</p>
+    <h2>How these comparisons work</h2>
+    <p class="muted read">Each comparison prices both tools for the same businesses at three team sizes, using the plan each business would actually need rather than the cheapest plan on the page. The {live.length} comparisons below are grouped by the job the tools do, and each page shows the date its prices were last checked.</p>
     {LAYERS.map((l) => { const cs = live.filter((c) => c.layer === l); return cs.length > 0 && (
       <section class="section">
         <h2 id={l}>{LAYER_LABELS[l]}</h2>
