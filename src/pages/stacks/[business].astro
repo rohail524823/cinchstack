@@ -47,10 +47,15 @@ const best = (x) => (reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/` : 
 // Scores link to each tool's "Why we score it" panel: its review when there is one, else its pricing page.
 const panel = (x) => (reg.has(`/tools/${x}/`) ? `/tools/${x}/#score-${x}` : reg.has(`/tools/${x}/pricing/`) ? `/tools/${x}/pricing/#score-${x}` : '/methodology/#scoring');
 const scoreOf = (x) => score(x)?.overall ?? null;
-// The job a layer does. Grow covers two jobs, SEO and email, told apart by the pick's category,
-// so an SEO pick is never set against an email tool.
-const JOB_NAMES = { run: 'CRM', sell: 'selling', site: 'website', seo: 'SEO', email: 'email', organize: 'project and docs' };
-const jobOf = (layer, x) => (layer === 'grow' ? (/\bseo\b/i.test(tool(x).category) ? 'seo' : 'email') : layer);
+// The job a layer does. Grow covers two jobs, SEO and email, and sell covers two, courses and funnels
+// against online stores, told apart by the tool's category, so an SEO pick is never set against an
+// email tool and a course platform never against a web store.
+const JOB_NAMES = { run: 'CRM', courses: 'course and funnel', store: 'online store', site: 'website', seo: 'SEO', email: 'email', organize: 'project and docs' };
+const jobOf = (layer, x) => {
+  if (layer === 'grow') return /\bseo\b/i.test(tool(x).category) ? 'seo' : 'email';
+  if (layer === 'sell') return /course|funnel/i.test(tool(x).category) ? 'courses' : 'store';
+  return layer;
+};
 // The site's rule: a pick from a tool that pays us is never shown alone. When it is not the
 // highest-scored tool we track for that job, the highest-scored one is shown beside it.
 const topFor = (l) => {
