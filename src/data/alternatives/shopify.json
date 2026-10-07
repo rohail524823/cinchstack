@@ -2,6 +2,7 @@
   "tool": "shopify",
   "reasons": [
     {
+      "short": "Add staff without upgrading",
       "reason": "Basic, the plan on the sticker price, includes zero staff accounts — hiring one part-time employee already means paying for Grow just to give them a login.",
       "picks": [
         {
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "short": "Use your own payment gateway",
       "reason": "Pay with anything other than Shopify Payments and Shopify adds its own cut on top of the processor's fee — 2% on Basic, 1% on Grow, 0.6% on Advanced — for as long as that gateway stays connected.",
       "picks": [
         {
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "short": "Sell courses or memberships",
       "reason": "What you're actually selling is a course, a coaching program or a membership, not a catalog of physical items to browse.",
       "picks": [
         {
@@ -41,6 +44,7 @@
       ]
     },
     {
+      "short": "Bill for services and appointments",
       "reason": "You're mostly billing for appointments and services, not running a browsable product catalog.",
       "picks": [
         {
@@ -54,6 +58,7 @@
       ]
     },
     {
+      "short": "Own the code and hosting",
       "reason": "You want to own the code and hosting outright, and don't want any platform holding a cut of what you sell, on principle rather than over one bill.",
       "picks": [
         {
@@ -63,6 +68,7 @@
       ]
     },
     {
+      "short": "Run a live store for free",
       "reason": "Shopify's only $0 plan, Agentic, can't publish an online store or take an order through its checkout — there's no way to run an actual live storefront on Shopify for free.",
       "picks": [
         {

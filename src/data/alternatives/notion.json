@@ -2,6 +2,7 @@
   "tool": "notion",
   "reasons": [
     {
+      "short": "Outgrew Free with a second member",
       "reason": "Your workspace added a second member, and pages and blocks that were 'unlimited' on Free instantly became 'limited' — Notion has never published the actual cap.",
       "picks": [
         {
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "short": "Need Gantt, timeline or workload views",
       "reason": "You need dedicated project-tracking views — a Gantt chart, a timeline, a workload view — not database properties standing in for them.",
       "picks": [
         {
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "short": "Want an AI trial with a stated limit",
       "reason": "Notion's 'Trial of Notion AI' has no stated length or usage cap, so there is no way to tell how much of it you are actually getting before it stops.",
       "picks": [
         {
@@ -29,6 +32,7 @@
       ]
     },
     {
+      "short": "Outgrew a CRM built in a database",
       "reason": "You built a lightweight CRM out of a Notion database, and outgrew what generic properties can do for deal stages, pipeline value and forecasting.",
       "picks": [
         {
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "short": "Need a real website",
       "reason": "You published your business's site as a Notion site, and need real design control plus a domain price you can see upfront, not an add-on the pricing page never puts a rate on.",
       "picks": [
         {
