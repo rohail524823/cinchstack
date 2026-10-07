@@ -20,5 +20,5 @@
   "basis": "WooCommerce is a good buy for a small business willing to manage, or pay someone to manage, WordPress hosting and plugins: its 0% platform fee and full code ownership are strong, but the total monthly cost is spread across a host and extensions the vendor doesn't set, and it offers no path to run without ongoing technical upkeep.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.6 and 3.7."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.6 and 3.7."
 }

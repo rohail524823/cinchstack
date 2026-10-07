@@ -20,5 +20,5 @@
   "basis": "HubSpot's free tier and Starter plan are genuinely useful and honestly priced for a very small business, but growing past Starter's automation limits brings a mandatory onboarding fee, a 12-month lock-in, and a bill that can multiply well beyond the plan sticker once contacts, seats, and SMS are added.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 3.6 and 3.3."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 3.6 and 3.3."
 }

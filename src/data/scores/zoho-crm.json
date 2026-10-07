@@ -20,5 +20,5 @@
   "basis": "Zoho CRM is a transparent, contract-free, and cheap entry-level CRM for a small business, but its per-organization mass-email caps mean the real monthly bill can jump two to three times the seat sticker price as soon as email volume grows, undercutting the predictability its flat per-seat pricing otherwise promises.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.3 and 3.8."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.3 and 3.8."
 }

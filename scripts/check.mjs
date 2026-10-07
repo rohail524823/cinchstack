@@ -463,6 +463,9 @@ for (const l of locs) {
     if (isGuide(l) && n < 3) fail(l, `guide has ${n} inbound editorial link(s) from other pages (min 3, not counting / and the hubs)`);
     else if (n < 2) (isContent(l) && today >= ORPHAN_FAIL_FROM ? fail : warn)(l, `${n} inbound editorial link(s) (min 2, not counting / and the hubs)`);
   }
+  // 4. Keep reading carries 5 to 8 links on every content page (report only; the frontmatter
+  // `related` list and relatedFor in src/lib/pages.mjs fill it).
+  for (const l of locs) { const k = pages.get(l)?.doc.querySelectorAll('[data-related] a').length ?? 0; if (isContent(l) && k < 5) warn(l, `Keep reading has ${k} link(s) (aim 5 to 8)`); }
 }
 
 // The Content-Security-Policy must match the analytics switch: no scripts at all while GA_ID is

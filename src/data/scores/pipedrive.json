@@ -20,7 +20,7 @@
   "basis": "Pipedrive is a straightforward, honestly priced sales CRM that a small team can run itself, but its lower tiers lean heavily on separately priced add-ons for lead capture, projects and e-signatures, so it fits best as a dedicated pipeline tool rather than an all-in-one replacement for other subscriptions.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down; lowered from 3.6 in calibration: Pipedrive (3.6) outscores Zoho CRM (3.5), but Zoho has lower real bills at every size ($20/$150/$520 against $40/$189/$794), ties Pipedrive on real cost and does-the-job, and scores higher on pricing honesty, freedom to leave and track record, losing only on small-team fit, so Pipedrive belongs below Zoho, in line with its 3.42 factor mean.. Pass scores: 3.6 and 3.6.",
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down; lowered from 3.6 in calibration: Pipedrive (3.6) outscores Zoho CRM (3.5), but Zoho has lower real bills at every size ($20/$150/$520 against $40/$189/$794), ties Pipedrive on real cost and does-the-job, and scores higher on pricing honesty, freedom to leave and track record, losing only on small-team fit, so Pipedrive belongs below Zoho, in line with its 3.42 factor mean.. Pass scores: 3.6 and 3.6.",
   "calibration": {
     "from": 3.6,
     "why": "Zoho CRM costs less at every team size and scores higher on pricing honesty, freedom to leave and track record, losing only on small-team fit"

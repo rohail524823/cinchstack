@@ -20,5 +20,5 @@
   "basis": "SE Ranking gives the most predictable real bill and the simplest plan structure of the three for a small business, but a conflicting seat price on its own pricing page and a recent full pricing overhaul temper how much a buyer can rely on it staying stable.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.7 and 3.8."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.7 and 3.8."
 }

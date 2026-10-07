@@ -8,7 +8,7 @@ CinchStack tells people running an online business which software stack fits the
 - **Honest comparisons** built from that data, not from templates.
 - **Stack recommendations** for six kinds of business, with the total monthly bill.
 
-It is funded by affiliate commissions from some of the tools it covers. Which ones, and how, is on `/how-we-earn/`. A tool that pays us is never scored higher for it — the method takes the *lower* of two blind scores for any tool that does.
+It is funded by affiliate commissions from some of the tools it covers. Which ones, and how, is on `/how-we-earn/`. A tool that pays us is never scored higher for it — the method takes the *lower* of two separate AI scores (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) for any tool that does.
 
 ## Status
 
@@ -16,7 +16,7 @@ It is funded by affiliate commissions from some of the tools it covers. Which on
 
 ## Open data
 
-The pricing dataset behind the site is free to reuse under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/):
+The pricing dataset behind the site is free to reuse under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Its public copy is [github.com/rohail524823/cinchstack-data](https://github.com/rohail524823/cinchstack-data), which copies the files from cinchstack.com/data every day; its git history is a dated record of every change. Point people there, not at this repository, which may become private.
 
 - **Files:** [`pricing.csv`](https://cinchstack.com/data/pricing.csv) (one row per plan), [`scenarios.csv`](https://cinchstack.com/data/scenarios.csv) (the real monthly bill per team size) and [`pricing.json`](https://cinchstack.com/data/pricing.json) (everything, with add-ons, usage fees and sources), described at [cinchstack.com/data](https://cinchstack.com/data/). They rebuild whenever a price changes.
 - **Source records:** one JSON file per tool in [`src/data/pricing/`](src/data/pricing/), each figure with its vendor URL and check date. The dated copies of vendor pages in [`snapshots/`](snapshots/) are the evidence; they are the vendors' own text and not part of the CC BY dataset.
