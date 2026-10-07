@@ -2,6 +2,7 @@
   "tool": "webflow",
   "reasons": [
     {
+      "short": "Want unmetered bandwidth",
       "reason": "Bandwidth is metered, so a traffic spike or a run of bot traffic can push the bill into a pricier tier on its own.",
       "picks": [
         {
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "short": "Pay less for extra editors",
       "reason": "Every editor beyond the workspace owner is its own paid seat, stacked on top of the Site plan you already pay for.",
       "picks": [
         {
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "short": "Outgrew the ecommerce plan",
       "reason": "The store has outgrown a 500-item ecommerce plan with a transaction fee stacked on top of card processing.",
       "picks": [
         {
@@ -41,6 +44,7 @@
       ]
     },
     {
+      "short": "No designer on the team",
       "reason": "There's no in-house designer, and Webflow's canvas expects real design and code skill before a page looks finished.",
       "picks": [
         {
@@ -54,6 +58,7 @@
       ]
     },
     {
+      "short": "Need funnels, checkout or courses",
       "reason": "The page is really the front end of a funnel or a paid course, and Webflow has no checkout, email sending or course tool of its own to attach to it.",
       "picks": [
         {

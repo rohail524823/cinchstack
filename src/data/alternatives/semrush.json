@@ -2,6 +2,7 @@
   "tool": "semrush",
   "reasons": [
     {
+      "short": "Track more than 500 keywords",
       "reason": "SEO and Starter both stop at 500 tracked keywords, and the only documented way past that is the full jump to Pro+ at $299 a month — there is no smaller step in between.",
       "picks": [
         {
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "short": "Add logins for less",
       "reason": "A second login costs $45 a month on SEO or Starter, $80 on Pro+, or $100 on Advanced, and every extra seat gets SEO access only — giving that person AI Visibility too costs another $99 on top.",
       "picks": [
         {
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "short": "Need API access on a cheaper plan",
       "reason": "API access exists on exactly one plan, Advanced, at $549 a month — there is no cheaper tier that can pull ranking data programmatically.",
       "picks": [
         {
@@ -37,6 +40,7 @@
       ]
     },
     {
+      "short": "Want a trial without a card",
       "reason": "Testing the paid product means handing over a card for a 7-day trial that opens with a refundable authorization charge, and the pricing page shows no trial button at all on Advanced.",
       "picks": [
         {
@@ -46,6 +50,7 @@
       ]
     },
     {
+      "short": "Need more than the free plan, for less",
       "reason": "The free plan covers only 10 reports a day across every tool, so research beyond an occasional lookup means paying $139.95 a month minimum, with no smaller paid plan in between.",
       "picks": [
         {
@@ -55,6 +60,7 @@
       ]
     },
     {
+      "short": "Audit bigger sites",
       "reason": "Site Audit on the SEO plan allows 100,000 crawled pages a month split across 5 monitored sites, 20,000 each — thin for a business auditing a handful of larger sites at once.",
       "picks": [
         {

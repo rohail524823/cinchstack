@@ -2,6 +2,7 @@
   "tool": "klaviyo",
   "reasons": [
     {
+      "short": "Want an annual discount",
       "reason": "Self-serve plans bill monthly only, with no annual-prepay discount to lower the rate.",
       "picks": [
         {
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "short": "Your list isn't tied to a store",
       "reason": "You pay the same price whether or not your list is actually tied to a Shopify or WooCommerce order history.",
       "picks": [
         {
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "short": "Want one bundled price",
       "reason": "Composer, Customer Hub, Social Marketing and Reviews are separate paid add-ons stacked on the Email plan, not one bundled price.",
       "picks": [
         {
@@ -41,6 +44,7 @@
       ]
     },
     {
+      "short": "Avoid automatic tier moves",
       "reason": "Cross your active-profile tier and Klaviyo moves you to a pricier plan automatically, and MMS, WhatsApp and RCS rates aren't published anywhere you can check first.",
       "picks": [
         {
@@ -50,6 +54,7 @@
       ]
     },
     {
+      "short": "Want a trial of the paid plan",
       "reason": "There's no trial of the paid Email plan or its add-ons, only a capped free-forever tier.",
       "picks": [
         {
@@ -59,11 +64,12 @@
       ]
     },
     {
+      "short": "Want a money-back window",
       "reason": "Cancel mid-cycle instead of waiting for renewal and Klaviyo keeps the rest of that month's payment.",
       "picks": [
         {
           "tool": "kit",
-          "why": "Every paid plan, including annual ones, carries a 30-day money-back guarantee, so cancelling partway through a cycle isn't automatically a forfeited month the way it is on Klaviyo."
+          "why": "Every paid plan, including annual ones, carries a 30-day money-back guarantee, so canceling partway through a cycle isn't automatically a forfeited month the way it is on Klaviyo."
         }
       ]
     }

@@ -2,6 +2,7 @@
   "tool": "systeme-io",
   "reasons": [
     {
+      "short": "Need built-in SMS",
       "reason": "There's no native SMS: texting only works once you connect and pay for your own Twilio account, since systeme.io publishes no messaging rate of its own.",
       "picks": [
         {
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "short": "Sell a large product catalog",
       "reason": "Product variants are capped at 50, 100 or 250 depending on plan, and even the plans API behind the $97 Unlimited tier still stops at 5,000 despite the pricing page calling that limit unlimited, so a real physical-product catalog needs a dedicated commerce back office.",
       "picks": [
         {
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "short": "Outgrew Startup's limits",
       "reason": "Startup's own limits show up fast: 10 tags, 10 automation rules and 10 sales funnels, tight the moment a list or its sequences grow past a beginner setup.",
       "picks": [
         {
@@ -33,6 +36,7 @@
       ]
     },
     {
+      "short": "Run a course-first business",
       "reason": "The course tool is one feature inside a funnel builder, not a dedicated platform, so a business built around courses, coaching and community outgrows it once campaigns and pages need to run with no cap at all.",
       "picks": [
         {
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "short": "Manage several client accounts",
       "reason": "Running several client accounts turns into several capped accounts, not several separate allowances, since every sub-account simply inherits its parent plan's own tags, funnels and automation-rule limits.",
       "picks": [
         {

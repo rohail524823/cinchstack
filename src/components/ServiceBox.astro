@@ -1,6 +1,8 @@
 ---
-// The labelled box for the editor's own paid service. It is the same on every page of a kind,
-// sits after the verdict and FAQ, and never inside a score, table or pick (scripts/check.mjs).
+// The labeled box for the editor's own paid service. Its sentences are the same on every page,
+// it sits after the verdict and FAQ, and never inside a score, table or pick (scripts/check.mjs).
+// Only two things vary: the link's wording, built from the page's own tool ids (never free text),
+// and the name of the page it sits under, so "separate from the ... above" is true where it appears.
 import { tool } from '../lib/data.mjs';
 interface Props { scope?: 'tool' | 'stack' | 'compare' | 'alternatives'; ids?: string[] }
 const { scope = 'tool', ids = [] } = Astro.props;
@@ -8,7 +10,31 @@ const { scope = 'tool', ids = [] } = Astro.props;
 // about those tools. It is the same box, with the same price promise, everywhere else.
 const noFit = (id) => { const t = tool(id); return t.layer === 'site' || (t.layer === 'grow' && /\bseo\b/i.test(t.category)); };
 const show = !ids.length || !ids.every(noFit);
+
+const path = Astro.url.pathname;
+const seg = path.split('/').filter(Boolean);
+// What the box sits under on this page.
+const above = scope === 'stack' ? 'stack above'
+  : scope === 'compare' ? 'comparison above'
+  : scope === 'alternatives' ? 'list of alternatives above'
+  : seg[0] === 'tools' && seg.length === 2 ? 'review above'
+  : seg[0] === 'tools' && seg[2] === 'pricing' ? 'pricing breakdown above'
+  : seg[0] === 'tools' && seg.length >= 3 ? 'guide above'
+  : 'page above';
+// Tools the packages actually cover: CRMs (setup and migration), email tools and funnel or course
+// platforms (setup). Stores, docs workspaces, site builders and SEO suites fall back to the generic link.
+const kind = (id) => { const t = tool(id); if (t.layer === 'run') return 'crm'; if (t.layer === 'grow' && !/\bseo\b/i.test(t.category)) return 'setup'; if (t.layer === 'sell' && /funnel|course/i.test(t.category)) return 'setup'; return null; };
+const named = ids.filter((id) => kind(id));
+const guide = seg[0] === 'tools' && seg.length >= 3 && seg[2] !== 'pricing' ? seg[2] : null;
+const main = ids[0] && kind(ids[0]) ? ids[0] : null;
+let anchor = 'See the packages';
+if (main && guide === 'migrate-from-hubspot') anchor = `HubSpot to ${tool(main).name} migration help`;
+else if (main && guide === 'n8n-integration') anchor = `n8n and ${tool(main).name} automation builds`;
+else if (scope === 'stack') anchor = 'Setup help for this stack';
+else if (scope === 'alternatives') anchor = main && kind(main) === 'crm' ? `Help moving off ${tool(main).name}` : 'Setup help for the tool you switch to';
+else if (scope === 'compare' && named.length === 2) anchor = `Setup help for ${tool(named[0]).name} or ${tool(named[1]).name}`;
+else if (named.length) anchor = kind(named[0]) === 'crm' ? `${tool(named[0]).name} setup and migration help` : `${tool(named[0]).name} setup help`;
 ---
 {show && <aside class="svc-box" data-svc aria-label="Our own paid service">
-  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor sets up CRMs, email and funnel tools, automations and AI assistants for a fee, at the same price whichever of them you choose. It is separate from the review above. <a href="/services/">See the packages</a>.</p>
+  <p><strong>Our own paid service.</strong> Want it set up for you? CinchStack's editor sets up CRMs, email and funnel tools, automations and AI assistants for a fee, at the same price whichever of them you choose. It is separate from the {above}. <a href="/services/">{anchor}</a>.</p>
 </aside>}

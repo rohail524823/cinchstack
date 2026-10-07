@@ -2,6 +2,7 @@
   "tool": "hubspot",
   "reasons": [
     {
+      "short": "Skip the onboarding fee",
       "reason": "Marketing Hub Professional charges a mandatory one-time onboarding fee — $3,000 on Professional, $7,000 on Enterprise — before you send a single campaign.",
       "picks": [
         {
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "short": "Avoid a 12-month contract",
       "reason": "Professional locks you into a 12-month term even when you pay monthly, and Enterprise sells on annual billing only, with no cancel-anytime option at either tier.",
       "picks": [
         {
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "short": "Avoid contact-tier jumps",
       "reason": "Marketing contacts above your tier bill immediately, and asking to exclude contacts from marketing status to bring the count back down only takes effect at your next renewal.",
       "picks": [
         {
@@ -41,6 +44,7 @@
       ]
     },
     {
+      "short": "Text customers without an add-on",
       "reason": "Marketing SMS exists only as an add-on to Professional or Enterprise, and only for U.S. numbers texting U.S. and Canadian recipients.",
       "picks": [
         {
@@ -54,6 +58,7 @@
       ]
     },
     {
+      "short": "Build longer automations for less",
       "reason": "Starter's email automation stops at 10 automated actions, so a small team building real multi-step workflows has to jump straight to Professional's much larger monthly base.",
       "picks": [
         {
@@ -63,6 +68,7 @@
       ]
     },
     {
+      "short": "Keep seat prices flat",
       "reason": "Every Core Seat is billed at your highest edition across every hub, so adding one pricier Sales or Service Hub tier quietly raises what your existing marketing seats cost too.",
       "picks": [
         {
