@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Mobile layout gate, run in CI after the build (not in the Netlify build, which has no browser).
-// Serves dist/ and opens every page in Chrome at a 360px phone width:
+// Serves dist/ and opens every page in Chrome at a 360px phone width, then resizes it to 680px and
+// 768px (tablets, where tables no longer stack into cards but the page is still narrow):
 //   - the page must not scroll sideways;
 //   - no table wrapper may scroll sideways, except one marked as a scrolling region (role="region");
 //   - every primary nav link must be fully visible.
@@ -12,7 +13,7 @@ import path from 'node:path';
 import { chromium } from 'playwright-core';
 
 const DIST = 'dist';
-const WIDTH = 360;
+const WIDTHS = [360, 680, 768];
 const CLS_MAX = 0.1;
 const CLS_PAGES = ['/tools/gohighlevel/pricing/', '/tools/gohighlevel/', '/compare/gohighlevel-vs-hubspot/', '/tools/gohighlevel/real-estate/', '/stacks/agency/'];
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.woff2': 'font/woff2', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon', '.xml': 'application/xml', '.json': 'application/json' };
@@ -50,28 +51,33 @@ const browser = await chromium.launch(exe ? { executablePath: exe, args: ['--no-
 const fails = [];
 for (const m of missingCls) fails.push(`${m}: CLS sample page is not built (update CLS_PAGES)`);
 
-// 1. sideways scrolling and nav visibility at phone width
-const ctx = await browser.newContext({ viewport: { width: WIDTH, height: 800 }, isMobile: true, hasTouch: true });
+// 1. sideways scrolling and nav visibility at phone and tablet widths. Each page loads once and is
+// resized in place: the pages ship no script, so the CSS alone decides the layout at each width.
+const ctx = await browser.newContext({ viewport: { width: WIDTHS[0], height: 800 }, isMobile: true, hasTouch: true });
 await ctx.route('**/site.js', (r) => r.abort()); // no analytics or consent notice in the check
 const page = await ctx.newPage();
 for (const p of pages) {
+  await page.setViewportSize({ width: WIDTHS[0], height: 800 });
   await page.goto(base + p, { waitUntil: 'load' });
   await page.evaluate(() => document.fonts.ready);
-  const r = await page.evaluate(() => {
-    const out = { page: document.documentElement.scrollWidth - document.documentElement.clientWidth, wraps: [], nav: [] };
-    document.querySelectorAll('.tbl-wrap:not([role="region"])').forEach((el) => {
-      if (el.scrollWidth > el.clientWidth + 1) out.wraps.push(`${(el.previousElementSibling?.textContent ?? '').trim().slice(0, 50)}… (${el.scrollWidth}px in ${el.clientWidth}px)`);
+  for (const width of WIDTHS) {
+    await page.setViewportSize({ width, height: 800 });
+    const r = await page.evaluate(() => {
+      const out = { page: document.documentElement.scrollWidth - document.documentElement.clientWidth, wraps: [], nav: [] };
+      document.querySelectorAll('.tbl-wrap:not([role="region"])').forEach((el) => {
+        if (el.scrollWidth > el.clientWidth + 1) out.wraps.push(`${(el.previousElementSibling?.textContent ?? '').trim().slice(0, 50)}… (${el.scrollWidth}px in ${el.clientWidth}px)`);
+      });
+      const nav = document.querySelector('.nav');
+      if (nav) {
+        const box = nav.getBoundingClientRect();
+        nav.querySelectorAll('a').forEach((a) => { const b = a.getBoundingClientRect(); if (b.left < Math.max(0, box.left) - 1 || b.right > Math.min(innerWidth, box.right) + 1) out.nav.push(a.textContent.trim()); });
+      }
+      return out;
     });
-    const nav = document.querySelector('.nav');
-    if (nav) {
-      const box = nav.getBoundingClientRect();
-      nav.querySelectorAll('a').forEach((a) => { const b = a.getBoundingClientRect(); if (b.left < Math.max(0, box.left) - 1 || b.right > Math.min(innerWidth, box.right) + 1) out.nav.push(a.textContent.trim()); });
-    }
-    return out;
-  });
-  if (r.page > 0) fails.push(`${p}: page scrolls sideways by ${r.page}px at ${WIDTH}px`);
-  for (const w of r.wraps) fails.push(`${p}: table scrolls sideways at ${WIDTH}px: ${w}`);
-  if (r.nav.length) fails.push(`${p}: nav link(s) cut off at ${WIDTH}px: ${r.nav.join(', ')}`);
+    if (r.page > 0) fails.push(`${p}: page scrolls sideways by ${r.page}px at ${width}px`);
+    for (const w of r.wraps) fails.push(`${p}: table scrolls sideways at ${width}px: ${w}`);
+    if (r.nav.length) fails.push(`${p}: nav link(s) cut off at ${width}px: ${r.nav.join(', ')}`);
+  }
 }
 await ctx.close();
 
@@ -102,4 +108,4 @@ if (fails.length) {
   fails.forEach((f) => console.log(`  ✗ ${f}`));
   process.exit(1);
 }
-console.log(`✓ layout check passed: ${pages.length} pages at ${WIDTH}px, late-font CLS under ${CLS_MAX} on ${clsPages.length} sample pages.`);
+console.log(`✓ layout check passed: ${pages.length} pages at ${WIDTHS.slice(0, -1).join(', ')} and ${WIDTHS.at(-1)}px, late-font CLS under ${CLS_MAX} on ${clsPages.length} sample pages.`);

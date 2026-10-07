@@ -20,5 +20,5 @@
   "basis": "ActiveCampaign is a solid buy for a small business that wants automation and light CRM in one subscription from a stable, long-run company, though its pricing page hides the monthly-billing rate and every add-on price, and its automation depth asks more setup time than a simpler newsletter tool.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.9 and 3.4."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.9 and 3.4."
 }

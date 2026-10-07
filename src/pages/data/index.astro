@@ -47,12 +47,17 @@ const basisFor = (pred) => { const id = toolIds.find((x) => pred(tools[x])); ret
 const crmSmall = basisFor((t) => t.layer === 'run');
 const seoSmall = basisFor((t) => t.layer === 'grow' && /\bseo\b/i.test(t.category));
 const snippet = `Source: <a href="${url}">${NAME} software pricing dataset</a>, prices checked ${longDate(latest)}, licensed <a href="${LICENSE}">CC BY 4.0</a>.`;
+// The public copy of these files: a repository that syncs from this page every day, so its commit
+// history is a dated record of every change. Linked under the download buttons.
+const REPO = 'https://github.com/rohail524823/cinchstack-data';
 const dataset = {
   '@type': 'Dataset',
   '@id': `${url}#dataset`,
   name: `${NAME} software pricing dataset`,
   description: 'US list prices for small-business software (plans, add-ons, usage fees and extra costs) read from each vendor\'s pricing page, with the date checked and the source URL, plus estimated monthly costs at three team sizes.',
   url,
+  // The same dataset in another repository (Google's Dataset guidelines use sameAs for this).
+  sameAs: REPO,
   license: LICENSE,
   // The credit line shown under "How to cite this data".
   citation: CITATION,
@@ -93,6 +98,7 @@ const dataset = {
         <a class="btn" href="/data/pricing.csv" download>Plans CSV</a>
         <a class="btn" href="/data/scenarios.csv" download>Team-cost CSV</a>
       </div>
+      <p class="muted">A copy updated daily, with its change history, is on <a href={REPO}>GitHub</a>.</p>
 
       <h2 id="whats-in-it">What is in it</h2>
       <ul>

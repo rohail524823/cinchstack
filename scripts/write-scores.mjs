@@ -31,7 +31,7 @@ for (const [tool, f] of Object.entries(final)) {
     basis: f.basis,
     scoredOn,
     paysUs,
-    method: `Two independent blind passes scored six factors (1–5) and an overall; published overall is the ${rule}${f.calibratedFrom ? `; lowered from ${f.calibratedFrom} in calibration: ${f.calibrationNote}` : ''}. Pass scores: ${f.passA} and ${f.passB}.`,
+    method: `Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the ${rule}${f.calibratedFrom ? `; lowered from ${f.calibratedFrom} in calibration: ${f.calibrationNote}` : ''}. Pass scores: ${f.passA} and ${f.passB}.`,
   };
   const r = scoreSchema.safeParse(record);
   if (!r.success) { console.log(`✗ ${tool}: ${r.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`).join('; ')}`); continue; }

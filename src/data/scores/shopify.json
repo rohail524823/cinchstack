@@ -20,5 +20,5 @@
   "basis": "Shopify's flat per-tier pricing matches the real bill for stores on Shopify Payments and covers store, checkout and POS in one place, making it the strongest default pick for a small business selling physical products, with the staff-account jump to Grow and Plus's lack of a month-to-month option the main friction.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4.5 and 4.4."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4.5 and 4.4."
 }

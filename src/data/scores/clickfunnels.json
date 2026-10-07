@@ -20,5 +20,5 @@
   "basis": "ClickFunnels is a solid, if pricier, funnel-and-course bundle for a small business: its real bill matches its sticker price exactly with no revenue share, but there is no free tier, the cheapest plan starts at $97/month, and some trial and top-tier terms are not published.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.7 and 3.5."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 3.7 and 3.5."
 }

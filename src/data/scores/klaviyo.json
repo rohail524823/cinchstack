@@ -20,5 +20,5 @@
   "basis": "Klaviyo is a strong buy for an ecommerce-focused small business: its core Email pricing is transparent and scales predictably with active profiles, and its add-ons let a buyer add capability without switching platforms, though add-on sprawl and no annual discount mean the total bill can grow beyond the base plan's sticker price.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4 and 4.1."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the lower of the two overall scores, because this tool runs an affiliate program we have joined or may join. Pass scores: 4 and 4.1."
 }

@@ -20,5 +20,5 @@
   "basis": "Framer's AI-driven builder is easy to start on, but its credit-tier and per-seat pricing can multiply the real bill well past the sticker price, and its limited site-export options make it harder to leave than its main competitors.",
   "scoredOn": "2026-09-27",
   "paysUs": false,
-  "method": "Two independent blind passes scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 2.9 and 3.2."
+  "method": "Two separate AI passes (two runs of Anthropic's Claude over the same evidence, neither seeing the other's score) scored six factors (1–5) and an overall; published overall is the mean of the two overall scores, rounded down. Pass scores: 2.9 and 3.2."
 }
