@@ -75,8 +75,9 @@ A dedicated author page at `/about/` with `ProfilePage` schema (the sister site 
 Bing drove real clicks (88 in five weeks) and all the Copilot citations on the sister site. Then it went to **zero impressions from 28 August** — the day after IndexNow started firing ~155 URLs on every push. Cause unproven; correlation strong. Our policy:
 
 - **Verify in Bing Webmaster Tools on day one**, import from GSC, submit the sitemap.
-- **IndexNow only for URLs whose content actually changed**, computed by the same content-diff that sets `lastmod`. Cap 10 URLs per run. **Off by default; enabled only once Bing Webmaster Tools' Site Explorer shows at least 10 sitemap URLs with content from after 26 September, and Search Performance shows impressions on at least 7 of the last 14 days** (made precise on 7 October 2026: on 6 October Bing held only the August holding page of the homepage, which a looser test would have counted as indexed). Never on a full rebuild.
-- Watch Bing impressions weekly; if they drop to zero for seven days, switch IndexNow off and open an issue.
+- **IndexNow only for URLs whose content actually changed**, computed by the same content-diff that sets `lastmod`. Cap 10 URLs per run. Never on a full rebuild, and never fired automatically by a push.
+- **Changed on 7 October 2026: a hand-run drip instead of waiting.** The earlier rule kept IndexNow off until Bing showed at least 10 current sitemap URLs and impressions on 7 of 14 days. But after six weeks Bing still held only the August holding page of the homepage, so that test could never pass on its own, and Bing is the index behind ChatGPT search and Copilot. The sister site's own record says the zero-impressions episode was a correlation and Bing later recovered. So `scripts/indexnow.mjs` sends at most 10 URLs at a time, at least 48 hours apart, only URLs never sent before or whose content changed since, and only after checking that each is live, canonical and in the sitemap. Claude Code runs it by hand from its check-ins; the log is `src/data/_indexnow.json`. Per-push automation stays off until the original test passes.
+- Watch Bing impressions weekly; if they drop to zero for seven days after having started, stop the drip and open an issue.
 
 ## Measuring AI citations with no paid tools
 

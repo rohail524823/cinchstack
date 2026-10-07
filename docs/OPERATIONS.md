@@ -81,6 +81,16 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 | 7 | **hosting.com** | 50%, up to $400 per hosting sale; fills the hosting line on WordPress/WooCommerce pages | https://hosting.firstpromoter.com/signup/42825 | Bank wire on request, $100 minimum |
 | 8 | **Hostinger** | Up to 40% of first purchases; n8n self-hosting pages | https://affiliates.hostinger.com/users/signup/ | Bank transfer, $500 minimum |
 
+**Answers to paste into the applications** (written 7 October 2026; keep them true as the site changes):
+
+- **Website:** https://cinchstack.com
+- **What the site is:** "CinchStack publishes what small-business software really costs: plan prices, add-ons and usage fees read from each vendor's own pricing page, with the date, and the real monthly bill at three team sizes. It covers 22 tools across CRM, e-commerce, websites, SEO, email and project management, and its dataset is open under CC BY 4.0."
+- **How you will promote us:** "On [tool]'s pricing page, review and comparison pages, as clearly marked affiliate buttons beside dated price figures. Every page with a paid link carries a disclosure at the top. No coupon sites, no paid search on your brand, no email or social spam."
+- **Traffic:** "A new site (launched 26 September 2026), so traffic is still small and comes from search. I'm applying now so the pages that already cover [tool] can carry your link." Don't inflate this; programs check.
+- **Audience:** "Small-business owners buying software. Prices are shown in US dollars."
+- **Other sites:** bestaicertifications.com (same editor).
+- **Payout:** choose the Pakistan-friendly method in the table above. Never enter tax or bank details on a page reached from an unexpected email.
+
 After a program approves you, tell Claude Code; it adds the program to `src/data/programs.json` with its link template, and the existing buttons turn into paid links. Tools not yet on the site (MailerLite, GetResponse, Thinkific, Teachable, beehiiv, Circle, Kartra) get pages only after the programs above are running. The reports behind these lists are summarised in `docs/STRATEGY-2026-10.md`.
 
 - A decline that arrives within minutes comes from a brand's automatic rules, so re-applying with the same profile gets the same answer.
@@ -93,7 +103,8 @@ After a program approves you, tell Claude Code; it adds the program to `src/data
 
 - **Google Search Console**: domain property `cinchstack.com`, verified by a TXT record at Namecheap (leave that record in place). Sitemap submitted; indexing requested for the homepage, stacks, top pricing pages, a comparison and `/data/`.
 - **Bing Webmaster Tools**: imported from Search Console, sitemap submitted by hand, and the 14 newer pricing pages submitted directly. Bing also feeds Copilot and ChatGPT search, so it matters as much as Google.
-- **IndexNow** stays off until Bing Webmaster Tools' Site Explorer shows at least 10 sitemap URLs with content from after 26 September, and Search Performance shows impressions on at least 7 of the last 14 days (see `docs/plan/06-aeo-geo-bing.md`). A homepage alone does not count.
+- **IndexNow runs as a hand-run drip since 7 October 2026** (decided that day; the reasoning is in `docs/plan/06-aeo-geo-bing.md`). `node scripts/indexnow.mjs <url-or-path> …` sends at most 10 URLs, at least 48 hours after the last batch, and only URLs never sent before or changed since. It first checks that each URL is live, canonical and in the sitemap, and that the key file `/7e1d5a9fc48a3143406369871a0b9f1b.txt` is deployed. `--dry-run` shows the payload without sending. Every batch is logged in `src/data/_indexnow.json`; commit the log after a run. Nothing sends automatically on a push.
+- **"Page with redirect" in Search Console (email of 7 October 2026)** is expected. `cinchstack-site.netlify.app`, `main--cinchstack-site.netlify.app` and `www.` redirect to `cinchstack.com` on purpose, and so do paths without their trailing slash. No action needed.
 - **What the engines held on 6 October 2026** (verified audit; Bing read through Yahoo and DuckDuckGo, Google through Startpage, because both block scripted queries):
   - **Bing:** exactly one URL, the homepage, and still the 19-30 August holding page ("Notify me"). Bing has not recrawled it since, although the sitemap and the 14 pricing pages were submitted on 27 September. Nothing on the site blocks Bingbot.
   - **Google:** about 30 URLs: home, trust pages, hubs, the 6 stacks, 7 reviews, 6 comparisons and one pricing page (HubSpot's). Missing: the GoHighLevel pricing page, the other 21 pricing pages, all 8 alternatives pages and the 11 guides (published 6 October).
@@ -108,15 +119,17 @@ The site itself is done: every page type has its structured data (software offer
 |---|---|---|
 | Daily until done | Request indexing in Search Console for the pages not yet indexed (about 10 a day). | You |
 | Weekly | Search Console **Pages** and **Performance**; Bing Webmaster **Site Explorer** and **Search Performance**, including the AI queries export. | You |
-| From about 11 October | Switch on IndexNow for changed pages only, at most 10 per run, once Bing Webmaster Tools' Site Explorer shows at least 10 sitemap URLs with content from after 26 September, and Search Performance shows impressions on at least 7 of the last 14 days (`docs/plan/06-aeo-geo-bing.md`). Checked 6 October: Bing holds only the August holding page of the homepage, so it stays off. A check-in on 11 October looks again. | Claude Code |
-| Once, then kept in sync | Mirror the `/data/` dataset to Hugging Face, a public GitHub repo, Kaggle and data.world, each linking back. It's the plan's main way to earn links and AI citations. | GitHub: done 6 October (this repository is public and its README has an Open data section linking back; optionally, add `https://cinchstack.com` as the repo's Website in **About ⚙** on its GitHub page). Hugging Face: ready, waiting for one token (section 3c). Kaggle and data.world need you. |
+| Every 2 days or more, until Bing holds the sitemap | IndexNow drip: the next 10 most useful URLs Bing doesn't hold yet (section 3). First batch sent 7 October 2026. Check Bing through Yahoo and DuckDuckGo before each batch and record what it holds here. | Claude Code |
+| Once, then kept in sync | Mirror the `/data/` dataset, each copy linking back. It's the plan's main way to earn links and AI citations. | GitHub: `github.com/rohail524823/cinchstack-data` (public, CC BY 4.0, with `CITATION.cff`), published 7 October 2026. Its own workflow copies `/data/` every day and commits any change, so it needs nothing from this repository and keeps working once this one is private. Hugging Face: ready, waiting for one token (section 3c). Kaggle and data.world: not now (decided 7 October 2026). Revisit once Search Console shows the site ranking. |
 | About an hour a week | Answer "what does X cost" and "X vs Y" questions on Reddit and vendor forums with the real, dated figure; link a page only when it adds something. When a vendor changes a price, email writers still quoting the old one (no ask). | You |
 | Monthly, 10 minutes | Ask ChatGPT, Claude, Gemini, Perplexity and Copilot "what does [tool] cost" and "[A] vs [B] pricing"; note which cite CinchStack. | You |
 | When you next edit bestaicertifications.com | Link its About page to cinchstack.com. CinchStack's About page already links back. | You |
 
-Optional later: a social-preview image per page (every page uses one image today), `llms-full.txt`, and the price-change newsletter (`docs/plan/10-growth.md`).
+Done on 7 October 2026: a social-preview image per page, built from the data at build time, and `/llms-full.txt`, the full text of every indexable page for AI assistants. Price changes already have an RSS feed (`/changes/rss.xml`, also listed in `robots.txt` as a sitemap). The emailed newsletter waits until the site has about 500 visits a month (section 6).
 
 ### 3c. Dataset mirror on Hugging Face (ready to switch on)
+
+The public GitHub copy, `github.com/rohail524823/cinchstack-data`, is already live and needs nothing from you (section 3b). The Hugging Face copy is optional, but it reaches a different audience of data and AI users.
 
 `.github/workflows/dataset-mirror.yml` copies what cinchstack.com/data/ serves to a Hugging Face dataset after every successful live deploy check, with a dataset card (`scripts/assets/dataset-card.md`) that links back. It is off until it has a token. To switch it on (about 3 minutes):
 
@@ -158,6 +171,8 @@ In browser developer tools, Google's measurement requests may show as failed or 
 ### 6. Price-change alerts (ready to switch on)
 
 The site can offer "Get an email when these prices change" on every pricing page, every guide and `/changes/`, plus a matching paragraph in the privacy notice. It stays hidden until there is a working list to send from, so the site never promises an email nobody sends.
+
+**Decided 7 October 2026: not yet.** An email list needs readers first, and the RSS feed at `/changes/rss.xml` already lets anyone follow changes. Switch it on once Analytics shows about 500 visits a month.
 
 To switch it on (about 20 minutes, free):
 

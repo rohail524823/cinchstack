@@ -150,22 +150,31 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
   - Analytics counts sent enquiries (`generate_lead`) and alerts clicks; build checks tightened (each program's required disclosure wording; buttons no longer counted as prose).
   - HighLevel's affiliate manager answered in writing: trial wording is allowed and every affiliate has a 30-day trial link (the HighLevel Bootcamp page). The closing button on GoHighLevel's pricing page, review and cost guides now reads "Start your 30-day free trial" and goes there, with a note on what the trial still charges. Comparison and stack pages keep neutral buttons. Clicks arrive in Analytics with placement `end-trial` or `guide-trial`.
 
-## 5. Owner's to-do list, in order
+## 5. Owner's to-do list, in order (decided 7 October 2026)
+
+On 7 October 2026 Rohail asked Claude Code to decide every pending item. What follows is only what needs Rohail's own logins, signature or identity; the decisions are recorded under it.
 
 1. **Switch on email alerts for the site's forms (one minute, first):** a labelled test enquiry sent on 6 October never reached your Gmail, so a client's enquiry would sit in Netlify unseen. Steps in `docs/OPERATIONS.md` section 4. Then delete the test entry.
-2. **Get the money pages indexed (10 minutes a day this week):** Google holds about 30 pages but not the GoHighLevel pricing page, any alternatives page or the new guides, and Bing holds only the old August holding page of the homepage. Steps and order in `docs/OPERATIONS.md` section 3 ("What the engines held on 6 October 2026").
-3. **Make the GitHub repository private** (Settings → General → Danger Zone → Change visibility). It is public, so github.com republishes every page's text (duplicate content for pages Google has not indexed yet) and 659 copies of vendor pages, which are the vendors' own text. Netlify and the GitHub Actions keep working on a private repository. If you want a public GitHub copy of the dataset, create an empty public repository such as `cinchstack-data` and tell Claude Code; the dataset mirror can publish there.
-4. **Link the site from what you already own:** one sentence with a link on bestaicertifications.com/about/ (Bing crawls that site every few days), cinchstack.com on your LinkedIn profile, and claim the auto-generated LaunchIndex listing (launchindex.net, search cinchstack.com) to correct its description, which calls the site "hands-on".
-5. **Watch for two replies** (both emailed on 6 October 2026): Systeme.io support on whether comparison pages may carry its link (they wrote back that the question is with "the relevant team member"), and HubSpot's affiliate team, answering the reply to its decline. Claude Code has a check-in booked for 7 October (and 9 October if needed) to read both answers and make the change; nothing to forward. HighLevel's affiliate manager has already answered, and the 30-day trial button is live.
-   - Optional: HighLevel's affiliate strategy sessions, which Devesh Khatri invited you to (speakwith.us/deveshstrategy; the first offered was 10 AM US Central on 6 October, 8 PM in Pakistan). While in the affiliate dashboard, check that its "HighLevel Bootcamp" link is `gohighlevel.com/highlevel-bootcamp`; if it shows another page, send Claude Code the link.
-6. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
-7. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough). Then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
-8. **HighLevel Certified Admin directory:** it listed 456 admins who got 1,031 leads in November 2025, and 78% received at least one, so it is the most likely source of paying setup clients while the site has little traffic. It costs $97/month and needs an active HighLevel subscription as well (Starter is $97/month), so about $194/month in all. The subscription also gives you the hands-on access the site's GoHighLevel pages can then cite as first-hand evidence. Your call: one $400 setup job a month covers it.
-9. **Service prices:** check them against your real hours on past Upwork jobs and edit `src/data/services.json` if needed. Also confirm the promise of a reply within two business days.
-10. **Monthly:** update the Upwork "as of" figures in `services.json` when they change.
-11. **Price-change alerts:** create a free opt-in page and a `price-alerts` tag in your Systeme.io account and send Claude Code the page's URL (steps in `docs/OPERATIONS.md` §6). The buttons appear on the next deploy.
-12. **Hugging Face copy of the dataset (3 minutes):** create a write token and save it as the `HF_TOKEN` secret on GitHub (`docs/OPERATIONS.md` section 3c). The copy then publishes and stays in step with the site by itself.
-13. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
+2. **Request indexing in Google Search Console (10 minutes a day this week):** Google holds about 30 pages but not the GoHighLevel pricing page, any alternatives page or the guides. Order in `docs/OPERATIONS.md` section 3. Bing is now handled by the IndexNow drip; in Bing Webmaster Tools just confirm the site is still verified.
+3. **Make the GitHub repository private** (Settings → General → Danger Zone → Change visibility), unless section 3b of `docs/OPERATIONS.md` says it is done. It republishes every page's text and 659 copies of vendor pages. The public copy of the dataset now lives in `rohail524823/cinchstack-data`, so nothing public is lost. Netlify and the Actions keep working, and the Actions use about 350 of the 2,000 free private minutes a month.
+4. **Add cinchstack.com to your LinkedIn profile, and claim the LaunchIndex listing** (launchindex.net, search cinchstack.com) to correct its description, which calls the site "hands-on". bestaicertifications.com/about/ links CinchStack since 7 October.
+5. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. The answers to paste are there. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
+6. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough), then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
+7. **Optional, 3 minutes:** the `HF_TOKEN` secret for the Hugging Face copy of the dataset (`docs/OPERATIONS.md` section 3c).
+8. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
+
+**Decided for you on 7 October 2026:**
+
+- **IndexNow:** switched from "wait for Bing" to a hand-run drip of at most 10 URLs every 2 days or more (`docs/plan/06-aeo-geo-bing.md`). Bing had ignored the sitemap for six weeks, and it feeds ChatGPT search and Copilot.
+- **Public dataset:** published as `github.com/rohail524823/cinchstack-data`, copied from `/data/` every day by its own workflow, CC BY 4.0, with a citation file. Kaggle and data.world copies: not now.
+- **Per-page preview images and `llms-full.txt`:** built, so shared links and AI answer cards show each page's own title and key figure, and AI assistants can read every page in one file.
+- **HighLevel Certified Admin directory ($97 a month plus the $97 Starter subscription it requires):** not now. It needs HighLevel's certification first and costs more than the site earns today. Revisit at the day-60 review (about 25 November) or after the first paid GoHighLevel setup job.
+- **Service prices and the two-business-day reply promise:** kept as they are. Upwork figures re-read on 7 October and unchanged. Claude Code can re-read them through the Upwork connector whenever asked.
+- **Price-change email alerts:** not until the site has about 500 visits a month; the RSS feed covers followers until then.
+- **Trial facts in comparison tables:** kept as plain facts with no link or button (`docs/OPERATIONS.md` §1).
+- **Search Console's "Page with redirect" notice:** expected (the netlify.app and www hosts redirect on purpose).
+- **Systeme.io and HubSpot replies:** Claude Code reads them at its check-ins and makes the change; nothing to forward.
+- **HighLevel's affiliate strategy sessions:** optional; skip unless one suits you.
 
 ## 6. Measures and kill criteria
 
@@ -178,6 +187,6 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
 
 ## 7. Conflicts between the reports (resolve before acting on them)
 
-- **MailerLite's payout method.** The marketing-programs report says Tipalti. The demand report says its terms list final payouts "exclusively via PayPal". Read the current terms before building MailerLite pages.
-- **GetResponse, Brevo and other PartnerStack programs.** One report says the vendor's own external application link avoids the Network gate. Another treats the whole platform as blocked. Try the external links for Pipedrive and GetResponse; the result settles it.
+- **MailerLite's payout method.** The marketing-programs report says Tipalti. The demand report says its terms list final payouts "exclusively via PayPal". Read the current terms before building MailerLite pages. **Decided 7 October 2026: deferred.** No MailerLite pages until the programs in OPERATIONS §2 are running; read its terms then.
+- **GetResponse, Brevo and other PartnerStack programs.** One report says the vendor's own external application link avoids the Network gate. Another treats the whole platform as blocked. Try the external links for Pipedrive and GetResponse; the result settles it. **Decided 7 October 2026:** the Pipedrive application (program 5 in OPERATIONS §2) uses the external link and settles it.
 - **HighLevel trial links (resolved 6 October 2026).** HighLevel's help center said 30-day trial links were for affiliates with 100+ active customers, but the affiliate manager wrote that every affiliate has one (the HighLevel Bootcamp link). His written answer is what the site follows.
