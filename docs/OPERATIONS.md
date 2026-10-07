@@ -26,6 +26,7 @@ https://www.gohighlevel.com/pricing?fp_ref=bestaicertifications30&fp_sid=cinchst
 - **Attribution:** last click within 90 days.
 - **After your second referral**, HighLevel requires a live conversation with one of its team about your affiliate practices before it pays further commissions. Watch for their email and book it promptly.
 - **Payouts:** through Tipalti, set up and complete since 28 August 2026 (HighLevel's email that day: "You are now ready to receive payment"; registration includes the tax form). Log in at https://suppliers.tipalti.com/HighLevel/account/Login with your usual Gmail address ("Forgot password?" there if needed) to see your payment method, tax form and payments. Don't reuse the registration link from the invitation email; it was one-time. Commissions are paid monthly, typically on the 15th, once they pass $50; if they don't reach $50 within 120 days, they may be forfeited. Payout questions: affiliatepayments@gohighlevel.com.
+- **Reviewed by HighLevel (7 October 2026):** Devesh Khatri, the affiliate manager, looked at the live changes (the 30-day trial button, the note under it, keeping the referral code) and replied "Everything looks great!". He offered a call on Monday 12 October to help scale up: book it at speakwith.us/deveshkhatri. It's worth taking, and HighLevel requires a live conversation about affiliate practices after your second referral anyway.
 - **Portal check (29 September 2026):** referral ID and the `fp_sid` Sub ID parameter confirmed; cinchstack.com added to the profile's Website field beside noderow.com; no clicks, commissions or payouts yet, so **Reports → Sub Ids** stays empty until the first real click.
 
 ### 1b. Systeme.io affiliate links (live since 27 September 2026)
@@ -60,9 +61,9 @@ Joining is automatic with a free systeme.io account; your affiliate ID is in `sr
 
 | Program | Status | Next step |
 |---|---|---|
-| GoHighLevel | **Approved**, paid links live | See section 1. Devesh Khatri (affiliate manager) answered in writing on 6 October 2026: trial wording allowed, 30-day Bootcamp trial link available to every affiliate, referral code can be renamed but old links would stop counting. The 30-day trial button is live on GoHighLevel's own pages. He also invited you to HighLevel's affiliate strategy sessions (speakwith.us/deveshstrategy). |
-| Systeme.io | **Approved**, paid links on its competitor-free pages | See section 1b. The comparison-page question was emailed to support@systeme.io on 6 October 2026. |
-| HubSpot | Declined 30 September; reply sent 6 October 2026 | HubSpot's decline email invited more detail, so a reply went with the four live HubSpot pages and an honest note on traffic. Wait for the answer. |
+| GoHighLevel | **Approved**, paid links live | See section 1. Devesh Khatri (affiliate manager) answered in writing on 6 October 2026: trial wording allowed, 30-day Bootcamp trial link available to every affiliate, referral code can be renamed but old links would stop counting. The 30-day trial button is live on GoHighLevel's own pages. He also invited you to HighLevel's affiliate strategy sessions (speakwith.us/deveshstrategy). On 7 October he reviewed the changes ("Everything looks great!") and offered a call on Monday 12 October (speakwith.us/deveshkhatri). |
+| Systeme.io | **Approved**, paid links on its competitor-free pages | See section 1b. The comparison-page question was emailed to support@systeme.io on 6 October 2026; no answer by 7 October, checked again on 9 October. |
+| HubSpot | Declined 30 September; reply sent 6 October 2026 | HubSpot's decline email invited more detail, so a reply went with the four live HubSpot pages and an honest note on traffic. No answer by 7 October; checked again on 9 October. |
 | Semrush, Shopify, Squarespace, Wix | Declined | Don't re-apply until something real has changed (traffic of your own, or an invitation from the brand). |
 | Klaviyo | Agency and tech partners only | No affiliate program to join. |
 | Notion | Closed to new partners | Check again in 2027. |

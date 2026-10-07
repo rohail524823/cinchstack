@@ -155,13 +155,14 @@ Each carries a paid link for the tool that pays us and the labelled route to `/s
 On 7 October 2026 Rohail asked Claude Code to decide every pending item. What follows is only what needs Rohail's own logins, signature or identity; the decisions are recorded under it.
 
 1. **Switch on email alerts for the site's forms (one minute, first):** a labelled test enquiry sent on 6 October never reached your Gmail, so a client's enquiry would sit in Netlify unseen. Steps in `docs/OPERATIONS.md` section 4. Then delete the test entry.
-2. **Request indexing in Google Search Console (10 minutes a day this week):** Google holds about 30 pages but not the GoHighLevel pricing page, any alternatives page or the guides. Order in `docs/OPERATIONS.md` section 3. Bing is now handled by the IndexNow drip; in Bing Webmaster Tools just confirm the site is still verified.
-3. **Make the GitHub repository private** (Settings → General → Danger Zone → Change visibility), unless section 3b of `docs/OPERATIONS.md` says it is done. It republishes every page's text and 659 copies of vendor pages. The public copy of the dataset now lives in `rohail524823/cinchstack-data`, so nothing public is lost. Netlify and the Actions keep working, and the Actions use about 350 of the 2,000 free private minutes a month.
-4. **Add cinchstack.com to your LinkedIn profile, and claim the LaunchIndex listing** (launchindex.net, search cinchstack.com) to correct its description, which calls the site "hands-on". bestaicertifications.com/about/ links CinchStack since 7 October.
-5. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. The answers to paste are there. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
-6. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough), then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
-7. **Optional, 3 minutes:** the `HF_TOKEN` secret for the Hugging Face copy of the dataset (`docs/OPERATIONS.md` section 3c).
-8. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
+2. **Book the call HighLevel's affiliate manager offered for Monday 12 October** (speakwith.us/deveshkhatri). On 7 October he reviewed the site's HighLevel changes and replied "Everything looks great!", and offered help to scale up. Ask what a higher commission tier needs, and whether HighLevel lists affiliate content anywhere. HighLevel requires a live conversation after your second referral anyway, so this covers it early.
+3. **Request indexing in Google Search Console (10 minutes a day this week):** Google holds about 30 pages but not the GoHighLevel pricing page, any alternatives page or the guides. Order in `docs/OPERATIONS.md` section 3. Bing is now handled by the IndexNow drip; in Bing Webmaster Tools just confirm the site is still verified.
+4. **Make the GitHub repository private** (Settings → General → Danger Zone → Change visibility), unless section 3b of `docs/OPERATIONS.md` says it is done. It republishes every page's text and 659 copies of vendor pages. The public copy of the dataset now lives in `rohail524823/cinchstack-data`, so nothing public is lost. Netlify and the Actions keep working, and the Actions use about 350 of the 2,000 free private minutes a month.
+5. **Add cinchstack.com to your LinkedIn profile, and claim the LaunchIndex listing** (launchindex.net, search cinchstack.com) to correct its description, which calls the site "hands-on". bestaicertifications.com/about/ links CinchStack since 7 October.
+6. **Apply to programs 1–6** in `docs/OPERATIONS.md` §2. The answers to paste are there. SE Ranking takes five minutes and needs no approval. Tell Claude Code the result of each.
+7. **Business email:** set up `rohail@cinchstack.com` (Namecheap email forwarding to Gmail is enough), then re-apply to the PartnerStack Network with it and a matching LinkedIn headline. This unlocks Webflow, Kit, GetResponse and others.
+8. **Optional, 3 minutes:** the `HF_TOKEN` secret for the Hugging Face copy of the dataset (`docs/OPERATIONS.md` section 3c).
+9. **In Google Analytics, Admin → Events:** mark `generate_lead` (services enquiries) and `affiliate_click` as key events once each first appears.
 
 **Decided for you on 7 October 2026:**
 
@@ -174,7 +175,7 @@ On 7 October 2026 Rohail asked Claude Code to decide every pending item. What fo
 - **Trial facts in comparison tables:** kept as plain facts with no link or button (`docs/OPERATIONS.md` §1).
 - **Search Console's "Page with redirect" notice:** expected (the netlify.app and www hosts redirect on purpose).
 - **Systeme.io and HubSpot replies:** Claude Code reads them at its check-ins and makes the change; nothing to forward.
-- **HighLevel's affiliate strategy sessions:** optional; skip unless one suits you.
+- **HighLevel's group strategy sessions:** optional. The one-to-one call with Devesh (item 2) is the one to take.
 - **First-hand experience claims:** none added. A read-only scan of all 119 Upwork contracts on 7 October 2026 found n8n builds (2 contracts) and work on Shopify export data, and no contract naming GoHighLevel, HubSpot, Zoho CRM or Pipedrive. So the site keeps offering setup on those tools without claiming past client work on them. The first paid job on each tool becomes its first experience record (`trials/<tool>.json`, `docs/plan/04-content-system.md`). The "more than ten years inside operations and finance teams" line stays, because it matches the Upwork profile the services page points readers to.
 
 ## 6. Measures and kill criteria
