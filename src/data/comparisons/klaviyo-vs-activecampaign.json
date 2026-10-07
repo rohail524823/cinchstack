@@ -7,7 +7,7 @@
     {
       "label": "Pricing mechanism",
       "a": "One Email plan priced only by active-profile count, with no seat limit at any tier",
-      "b": "Four named plans (Starter/Plus/Pro/Enterprise) priced by contact-count band, each bundling more CRM, automation actions and seats as you go up",
+      "b": "Four named plans (Starter, Plus, Pro and Enterprise) priced by contact-count band, each bundling more CRM, automation actions and seats as you go up",
       "edge": "tie"
     },
     {
