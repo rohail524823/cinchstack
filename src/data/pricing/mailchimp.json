@@ -48,7 +48,7 @@
   "trial": {
     "days": 14,
     "cardRequired": true,
-    "summary": "Standard and Essentials both offer a self-serve 14-day free trial; valid payment information must be provided at enrollment and the account is charged automatically when the trial ends unless changed or cancelled first. Premium instead offers a separate 1-month trial for qualified new customers who contact sales, not a self-serve signup flow. The Free plan itself is not a trial — it is free indefinitely up to its 250-contact limit.",
+    "summary": "Standard and Essentials both offer a self-serve 14-day free trial; valid payment information must be provided at enrollment and the account is charged automatically when the trial ends unless changed or canceled first. Premium instead offers a separate 1-month trial for qualified new customers who contact sales, not a self-serve signup flow. The Free plan itself is not a trial — it is free indefinitely up to its 250-contact limit.",
     "source": 0
   },
   "plans": [
@@ -83,7 +83,7 @@
       "annualMonthly": null,
       "priceUnit": "per-month",
       "seatsIncluded": 3,
-      "note": "Price rises with contact count in Mailchimp's own bands: $13/month is the starting rate, for the 0-500 contacts band. Confirmed higher bands: $26.50/month at 501-1,500 contacts, $110/month at 5,001-10,000 contacts, $385/month at 40,001-50,000 contacts (also confirmed as Essentials' published maximum tier — the comparison page states Essentials covers 'Up to 50,000 contacts with our $385/mo tier'). A ~15%-off annual pre-pay price is shown only once the account reaches 10,000+ contacts, not at this plan's starting tier: $93.50/month effective at 5,001-10,000 contacts, $327.25/month effective at 40,001-50,000 contacts — so annualMonthly is left null here rather than assigned a starting-tier figure that doesn't exist on the page.",
+      "note": "Price rises with contact count in Mailchimp's own bands: $13/month is the starting rate, for the 0-500 contacts band. Confirmed higher bands: $26.50/month at 501-1,500 contacts, $110/month at 5,001-10,000 contacts, $385/month at 40,001-50,000 contacts (also confirmed as Essentials' published maximum tier — the comparison page states Essentials covers 'Up to 50,000 contacts with our $385/mo tier'). A ~15%-off annual pre-pay price is shown only once the account reaches 10,000+ contacts, not at this plan's starting tier: $93.50/month effective at 5,001-10,000 contacts, $327.25/month effective at 40,001-50,000 contacts — so no annual monthly price is listed here rather than a starting-tier figure that doesn't exist on the page.",
       "limits": [
         "3 seats, 3 audiences, 2 roles",
         "Monthly email sends: 10x contacts",
@@ -106,7 +106,7 @@
       "annualMonthly": null,
       "priceUnit": "per-month",
       "seatsIncluded": 5,
-      "note": "Price rises with contact count in Mailchimp's own bands: $20/month is the starting rate, for the 0-500 contacts band. Confirmed higher bands: $45/month at 501-1,500 contacts, $135/month at 5,001-10,000 contacts, $450/month at 40,001-50,000 contacts. The comparison page states Standard's own maximum published self-serve tier is 'Up to 100,000 contacts with our $800/mo tier' (not independently re-verified by selecting that exact band). A ~15%-off annual pre-pay price is shown only once the account reaches 10,000+ contacts, not at this plan's starting tier: $114.75/month effective at 5,001-10,000 contacts, $382.50/month effective at 40,001-50,000 contacts — so annualMonthly is left null here rather than assigned a starting-tier figure that doesn't exist on the page.",
+      "note": "Price rises with contact count in Mailchimp's own bands: $20/month is the starting rate, for the 0-500 contacts band. Confirmed higher bands: $45/month at 501-1,500 contacts, $135/month at 5,001-10,000 contacts, $450/month at 40,001-50,000 contacts. The comparison page states Standard's own maximum published self-serve tier is 'Up to 100,000 contacts with our $800/mo tier' (not independently re-verified by selecting that exact band). A ~15%-off annual pre-pay price is shown only once the account reaches 10,000+ contacts, not at this plan's starting tier: $114.75/month effective at 5,001-10,000 contacts, $382.50/month effective at 40,001-50,000 contacts — so no annual monthly price is listed here rather than a starting-tier figure that doesn't exist on the page.",
       "limits": [
         "5 seats, 5 audiences, 4 roles",
         "Monthly email sends: 12x contacts",
@@ -170,7 +170,7 @@
   ],
   "regional": {
     "pricedByCountry": false,
-    "note": "Mailchimp's pricing page offers a currency selector listing 15 non-USD currencies (AUD, BRL, CAD, CHF, DKK, EUR, GBP, HKD, INR, JPY, MXN, NZD, SEK, SGD, ZAR) alongside USD. A selector alone does not confirm region-specific list prices (it could be a pure FX display conversion of the USD price), and that was not tested, so pricedByCountry is left false pending verification rather than assumed true. All figures in this record were captured with USD selected, US locale."
+    "note": "Mailchimp's pricing page offers a currency selector listing 15 non-USD currencies (AUD, BRL, CAD, CHF, DKK, EUR, GBP, HKD, INR, JPY, MXN, NZD, SEK, SGD, ZAR) alongside USD. A selector alone does not confirm region-specific list prices (it could be a pure FX display conversion of the USD price), and that was not tested, so this record does not treat Mailchimp as pricing by country until that is verified. All figures in this record were captured with USD selected, US locale."
   },
   "scenarios": [
     {
@@ -222,13 +222,13 @@
     }
   ],
   "unverified": [
-    "Mailchimp's SMS/MMS add-on has no flat published per-message or per-credit rate on its pricing page, comparison page, or 'About SMS Marketing Credits' help article; the help article states credit cost 'varies based on sending country' and gives only a formula (contacts x sends/month x credit cost = credits needed) — the actual per-country credit-cost table is populated only inside a logged-in account. Not included in addOns/usage.",
+    "Mailchimp's SMS/MMS add-on has no flat published per-message or per-credit rate on its pricing page, comparison page, or 'About SMS Marketing Credits' help article; the help article states credit cost 'varies based on sending country' and gives only a formula (contacts x sends/month x credit cost = credits needed) — the actual per-country credit-cost table is populated only inside a logged-in account. Not included in the add-on or usage charges.",
     "The Transactional Emails add-on is listed as 'Prices vary' (Premium/Standard) or 'Demo only' (Essentials/Free) on the comparison page, with no dollar figure given.",
     "The Pay As You Go plan (buy email credits without a recurring subscription, at mailchimp.com/pricing/pay-as-you-go/) exists but its per-credit or package price was not found on that page; pricing appears to require an account's Billing settings to view.",
     "The exact contact-count breakpoint where Premium's price first rises above $350/month is somewhere between 10,000 and 50,000 contacts; only the endpoints ($350 at 10,000; $815 at 50,000) were captured, not the intermediate bands (10,001-15,000 through 30,001-40,000).",
     "Standard's maximum published self-serve tier ('Up to 100,000 contacts with our $800/mo tier', per the comparison page) was not independently re-verified by selecting that exact contacts band.",
     "Whether Mailchimp's underlying list price (not just currency/display) actually differs by country or region was not tested; only the USD/US-locale price was captured. See regional.note.",
-    "The exact per-contact or per-email overage rate charged when a plan's contact or send limit is exceeded is not published on the pages captured (see extraCosts)."
+    "The exact per-contact or per-email overage rate charged when a plan's contact or send limit is exceeded is not published on the pages captured (see the other costs table)."
   ],
   "history": [
     {

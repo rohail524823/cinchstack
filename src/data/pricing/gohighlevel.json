@@ -2,7 +2,7 @@
   "tool": "gohighlevel",
   "currency": "USD",
   "checkedOn": "2026-09-26",
-  "method": "Read from HighLevel's pricing page (monthly, annual and Enterprise views), 18 help-centre billing articles plus one CSV rate attachment, and the Terms of Service in a US-locale headless browser; snapshots saved.",
+  "method": "Read from HighLevel's pricing page (monthly, annual and Enterprise views), 18 help-center billing articles plus one CSV rate attachment, and the Terms of Service in a US-locale headless browser; snapshots saved.",
   "sources": [
     {
       "url": "https://www.gohighlevel.com/pricing",
@@ -24,43 +24,43 @@
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide",
-      "label": "HighLevel Pricing Guide (help centre)",
+      "label": "HighLevel Pricing Guide (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-pricing-guide.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing",
-      "label": "AI Product Pricing (help centre)",
+      "label": "AI Product Pricing (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-ai-pricing.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001223556-lc-phone-pricing-structure",
-      "label": "Phone System Pricing & Billing Guide (help centre)",
+      "label": "Phone System Pricing & Billing Guide (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-lc-phone-pricing.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000007147-understanding-the-5-markup-on-phone-system-pass-through-charges",
-      "label": "Understanding the 5% Markup on Phone System Pass-Through Charges (help centre)",
+      "label": "Understanding the 5% Markup on Phone System Pass-Through Charges (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-phone-5pct-markup.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000005200-a2p-10dlc-messaging-fees-registration-monthly-and-carrier-costs",
-      "label": "A2P 10DLC Messaging Fees (help centre)",
+      "label": "A2P 10DLC Messaging Fees (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-a2p-fees.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001220605",
-      "label": "What is LC Email? (pricing and sending limits, help centre)",
+      "label": "What is LC Email? (pricing and sending limits, help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-lc-email.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000001428",
-      "label": "WhatsApp Pricing, Billing, and Rebilling Guide (help centre)",
+      "label": "WhatsApp Pricing, Billing, and Rebilling Guide (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-whatsapp-pricing.txt"
     },
@@ -72,67 +72,67 @@
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000002095-rebilling-reselling-and-wallets-explained",
-      "label": "Rebilling, Reselling, and Wallets Explained (help centre)",
+      "label": "Rebilling, Reselling, and Wallets Explained (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-rebilling-explained.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001177740-activate-saas-mode-request-payment-and-configure-phone-rebilling",
-      "label": "Activate SaaS Mode and Configure Phone Rebilling (help centre)",
+      "label": "Activate SaaS Mode and Configure Phone Rebilling (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-saas-phone-rebilling.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001188579-email-re-billing-on-the-unlimited-297-2970-and-pro-497-4970-plans",
-      "label": "Email Re-Billing on the Unlimited and Pro Plans (help centre)",
+      "label": "Email Re-Billing on the Unlimited and Pro Plans (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-email-rebilling.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000005678",
-      "label": "How to enable and rebill Premium Features for Workflows (help centre)",
+      "label": "How to enable and rebill Premium Features for Workflows (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-workflow-premium.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000003971",
-      "label": "Workflows Pro Plan - New Pricing Tiers (help centre)",
+      "label": "Workflows Pro Plan - New Pricing Tiers (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-workflow-pro-plan.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000001152",
-      "label": "What is a Dedicated IP? (help centre)",
+      "label": "What is a Dedicated IP? (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-dedicated-ip.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001226115-dedicated-email-sending-domains-overview-setup",
-      "label": "Dedicated Email Sending Domains Overview & Setup (help centre)",
+      "label": "Dedicated Email Sending Domains Overview & Setup (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-dedicated-sending-domain.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001208376-billing-related-questions-for-agencies",
-      "label": "Billing Related Questions for Agencies (help centre)",
+      "label": "Billing Related Questions for Agencies (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-billing-faq.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api",
-      "label": "HighLevel API: access by plan level (help centre)",
+      "label": "HighLevel API: access by plan level (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-api-access.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000005620-wallet-auto-recharge-and-smart-adjustment-settings",
-      "label": "Wallet Auto Recharge and Smart Adjustment Settings (help centre)",
+      "label": "Wallet Auto Recharge and Smart Adjustment Settings (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-wallet-auto-recharge.txt"
     },
     {
       "url": "https://help.gohighlevel.com/support/solutions/articles/155000008643-wallet-pricing-page",
-      "label": "Wallet Pricing Page (help centre)",
+      "label": "Wallet Pricing Page (help center)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/gohighlevel/2026-09-26-help-wallet-pricing-page.txt"
     },

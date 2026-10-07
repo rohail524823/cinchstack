@@ -3,7 +3,7 @@
   "items": [
     {
       "q": "How much does Notion cost per user?",
-      "a": "Notion charges per member, not a flat team price. Free costs $0 a month and covers a one-person workspace fully, though pages and blocks become limited once a second member joins, at a cap Notion doesn't publish. Plus costs $12 a member per month billed monthly, or $10 billed yearly, and removes the file-upload cap while extending page history to 30 days. Business costs $24 a member per month billed monthly, or $20 billed yearly, and adds Notion Agent, AI Meeting Notes, Enterprise Search, SAML SSO and private teamspaces. Enterprise has no published price; Notion requires contacting sales for a quote. A 5-person team on Plus, billed monthly, pays $60 a month in total, which is the plan most small teams actually land on."
+      "a": "Notion charges per member, not a flat team price. As of 27 September 2026, Free costs $0 a month and covers a one-person workspace fully, though pages and blocks become limited once a second member joins, at a cap Notion doesn't publish. Plus costs $12 a member per month billed monthly, or $10 billed yearly, and removes the file-upload cap while extending page history to 30 days. Business costs $24 a member per month billed monthly, or $20 billed yearly, and adds Notion Agent, AI Meeting Notes, Enterprise Search, SAML SSO and private teamspaces. Enterprise has no published price; Notion requires contacting sales for a quote. A 5-person team on Plus, billed monthly, pays $60 a month in total, which is the plan most small teams actually land on."
     },
     {
       "q": "Is Notion actually free for a small team, or does the free plan run out fast?",
@@ -27,7 +27,7 @@
     },
     {
       "q": "Does Notion offer a student or education discount?",
-      "a": "Yes, separately from the four plans on its main pricing page. Notion's help centre describes a free Education Plan for students, teachers and staff at accredited colleges and universities who verify with a school email address; it covers a single-member workspace with unlimited pages, blocks and file uploads plus 30 days of page history, at no charge, and needs re-verification each year. A separate track lets student organizations at approved schools add their whole membership to one workspace for free, rather than paying Notion's normal $12-a-member Plus rate. Neither program applies to a business, a freelancer or an agency: those buyers are priced on Free, Plus, Business or Enterprise like any other workspace, at Notion's standard $0, $12 and $24 seat rates."
+      "a": "Yes, separately from the four plans on its main pricing page. Notion's help center describes a free Education Plan for students, teachers and staff at accredited colleges and universities who verify with a school email address; it covers a single-member workspace with unlimited pages, blocks and file uploads plus 30 days of page history, at no charge, and needs re-verification each year. A separate track lets student organizations at approved schools add their whole membership to one workspace for free, rather than paying Notion's normal $12-a-member Plus rate. Neither program applies to a business, a freelancer or an agency: those buyers are priced on Free, Plus, Business or Enterprise like any other workspace, at Notion's standard $0, $12 and $24 seat rates."
     },
     {
       "q": "Are guests free on Notion, and what can they see?",

@@ -3,7 +3,7 @@
   "items": [
     {
       "q": "How much does Framer cost per month?",
-      "a": "Framer sells four plans. Free costs $0 and publishes only to a framer.site subdomain with Framer's own branding attached. Basic costs $15 a month, or $10 a month billed yearly, and already includes a small CMS: two collections and 1,000 items. Pro costs $45 a month, or $30 a month billed yearly, and raises those same limits to ten collections and 2,500 items, with paid add-ons available to raise them further still. Enterprise has no published price; it is a custom quote arranged through Framer's contact form, mainly for teams that need more than ten total editors or custom security requirements like SSO. Basic and Pro's headline prices both assume the lowest available AI-credit tier; picking more credits on the same plan card raises the price you actually pay each month, sometimes by a lot."
+      "a": "Framer sells four plans. As of 26 September 2026, Free costs $0 and publishes only to a framer.site subdomain with Framer's own branding attached. Basic costs $15 a month, or $10 a month billed yearly, and already includes a small CMS: two collections and 1,000 items. Pro costs $45 a month, or $30 a month billed yearly, and raises those same limits to ten collections and 2,500 items, with paid add-ons available to raise them further still. Enterprise has no published price; it is a custom quote arranged through Framer's contact form, mainly for teams that need more than ten total editors or custom security requirements like SSO. Basic and Pro's headline prices both assume the lowest available AI-credit tier; picking more credits on the same plan card raises the price you actually pay each month, sometimes by a lot."
     },
     {
       "q": "Does Framer have a free plan or a free trial?",
@@ -15,7 +15,7 @@
     },
     {
       "q": "How much does it cost to add more editors to a Framer site?",
-      "a": "The first editor, the workspace admin, is free on every plan, including Free. Every editor after that is a paid seat: a full-access Editor seat costs $30 a month, and a cheaper Content Editor seat, limited to CMS updates, localization and on-page edits, costs $15 a month. Both rates are the same whether the underlying site is on Basic or Pro. A small team of three, the free admin plus two paid Editor seats, adds $60 a month on top of the plan price. The one number editor pricing can't get around is Framer's own cap: Basic and Pro both limit a workspace to 10 total editors combined, counted across every site inside it, and the only way past that limit is a custom Enterprise quote with no published self-serve price."
+      "a": "The first editor, the workspace admin, is free on every plan, including Free. As of 26 September 2026, every editor after that is a paid seat: a full-access Editor seat costs $30 a month, and a cheaper Content Editor seat, limited to CMS updates, localization and on-page edits, costs $15 a month. Both rates are the same whether the underlying site is on Basic or Pro. A small team of three, the free admin plus two paid Editor seats, adds $60 a month on top of the plan price. The one number editor pricing can't get around is Framer's own cap: Basic and Pro both limit a workspace to 10 total editors combined, counted across every site inside it, and the only way past that limit is a custom Enterprise quote with no published self-serve price."
     },
     {
       "q": "Is it worth switching a Framer site to annual billing?",

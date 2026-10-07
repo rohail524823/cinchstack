@@ -2,6 +2,10 @@
   "page": "pricing/webflow",
   "items": [
     {
+      "q": "How much does Webflow cost per month?",
+      "a": "As of 26 September 2026, a Webflow site on a custom domain costs at least $25 a month for the Basic Site plan billed monthly, or $15 billed yearly. Basic has no CMS, so a site with a blog needs Premium at $39 a month, or $25 billed yearly. A Site plan pays only for publishing: the free Starter Workspace already includes the owner's Full seat, so a one-person site can run on the Site plan alone. Each extra editor adds $45 a month for a Full seat or $19 for a Limited seat, and a site that outgrows Premium's 50 GB of monthly bandwidth needs an add-on from $30 a month. Worked through for three team sizes, a solo blog comes to $39 a month, a three-editor team to $167 and an eight-editor team with heavy traffic to $732, so treat the plan price as the floor of the bill, not the bill itself."
+    },
+    {
       "q": "What is the difference between a Webflow Site plan and a Workspace plan?",
       "a": "A Site plan pays to publish one website; a Workspace plan pays for the account that builds it, including seats, staging sites and AI credits. They are billed separately, so publishing a site with a custom domain costs a Site plan (from $25/mo for Basic, $39/mo for Premium) on top of whatever Workspace plan and seats the team already pays for. Every Workspace, even the free one, already includes one Full seat for its owner. An agency with ten client sites needs ten Site plans, one for each site, plus a single Workspace plan covering the whole team that builds them. Webflow bills both to the same card, but they are separate subscriptions with separate limits, which is why an invoice rarely matches the single price shown on the homepage."
     },
@@ -11,19 +15,15 @@
     },
     {
       "q": "How much does an extra editor cost on Webflow?",
-      "a": "It depends on the role. A Full seat costs $45 a month billed monthly, or $39 a month if the Workspace is billed yearly, and covers Admin, Site admin or Designer roles with full editing rights. A Limited seat costs $19 a month, or $15 billed yearly, for Marketer or Content editor roles that can edit content or build pages from existing components. A Limited seat can be added even on the free Starter Workspace, so a small team does not need to upgrade its Workspace plan just to bring on a content editor. Reviewers who only need to view a site and leave comments don't need a paid seat at all: Webflow allows up to 100 free Reviewer seats per Workspace."
+      "a": "It depends on the role. As of 26 September 2026, a Full seat costs $45 a month billed monthly, or $39 a month if the Workspace is billed yearly, and covers Admin, Site admin or Designer roles with full editing rights. A Limited seat costs $19 a month, or $15 billed yearly, for Marketer or Content editor roles that can edit content or build pages from existing components. A Limited seat can be added even on the free Starter Workspace, so a small team does not need to upgrade its Workspace plan just to bring on a content editor. Reviewers who only need to view a site and leave comments don't need a paid seat at all: Webflow allows up to 100 free Reviewer seats per Workspace."
     },
     {
       "q": "What happens if a Webflow site goes over its bandwidth limit?",
       "a": "Nothing the first time: Webflow calls this surge protection, and the first month over a site's bandwidth limit is not charged. If the same site goes over again the next billing month, Webflow automatically upgrades it to a higher bandwidth tier at the start of the following month, sized to the lower of the two over-limit months, and that upgrade is not refundable. Premium includes 50 GB a month; going higher costs from $30 a month for the next tier up to $560 a month for 1 TB. Bandwidth is metered per site and counts bot traffic as well as real visitors, so a site that gets crawled heavily can use up its allowance faster than its actual visitor count suggests."
     },
     {
-      "q": "Does billing Webflow yearly save money?",
-      "a": "Yes. Webflow advertises 'Save up to 40%' for yearly billing, and the plan prices show why: Premium drops from $39 a month to $25, Basic from $25 to $15, a Full seat from $45 to $39, and a Limited seat from $19 to $15. Bandwidth add-ons cost less yearly too, by about a third at every tier. The trade-off is commitment: switching a Workspace's billing frequency also switches every paid seat on it to that frequency, and upgrades or downgrades are prorated but the credit stays in the Workspace rather than being refunded to you. Yearly billing suits a site and team you expect to keep at roughly the same size; it is harder to unwind cheaply if your needs shrink partway through the year."
-    },
-    {
       "q": "Can I get my money back if I cancel Webflow?",
-      "a": "Only in a narrow window. A new Site plan or Workspace plan purchase, monthly or annual, is fully refundable if you cancel and request a refund within 14 days of that initial purchase. After that, cancelling stops the plan from renewing but does not refund the time left on the current term, so you keep access and keep paying until the term ends. Renewals, seats, add-ons, AI credit purchases and bandwidth upgrades are not covered by the refund policy at all, only the first purchase of a Site or Workspace plan. If you are not sure whether Webflow is right for a project, build and test it on the free Starter plan first, since that costs nothing and has no time limit."
+      "a": "Only in a narrow window. A new Site plan or Workspace plan purchase, monthly or annual, is fully refundable if you cancel and request a refund within 14 days of that initial purchase. After that, canceling stops the plan from renewing but does not refund the time left on the current term, so you keep access and keep paying until the term ends. Renewals, seats, add-ons, AI credit purchases and bandwidth upgrades are not covered by the refund policy at all, only the first purchase of a Site or Workspace plan. If you are not sure whether Webflow is right for a project, build and test it on the free Starter plan first, since that costs nothing and has no time limit."
     },
     {
       "q": "Does Webflow charge a fee on ecommerce sales?",

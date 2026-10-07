@@ -144,7 +144,7 @@
     },
     {
       "url": "https://www.semrush.com/kb/1493-ai-visibility-toolkit",
-      "label": "Semrush KB: AI Visibility Toolkit (price, per-user licence, extra domains and prompts)",
+      "label": "Semrush KB: AI Visibility Toolkit (price, per-user license, extra domains and prompts)",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/semrush/2026-09-26-kb-ai-visibility-toolkit.txt"
     },
@@ -378,7 +378,7 @@
       "id": "extra-user-ai-visibility",
       "name": "AI Visibility access for an additional user",
       "price": 99,
-      "unit": "per additional user (a separate AI Visibility Toolkit licence)",
+      "unit": "per additional user (a separate AI Visibility Toolkit license)",
       "appliesTo": [
         "starter",
         "pro-plus",
@@ -540,7 +540,7 @@
       "name": "My Reports: Pro Report",
       "price": 20,
       "unit": "per report per month",
-      "note": "Adds 20+ external integrations, white-labelling and sharing by link.",
+      "note": "Adds 20+ external integrations, white-labeling and sharing by link.",
       "source": 2
     }
   ],

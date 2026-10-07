@@ -172,7 +172,7 @@
     "Once a paid seat is added you keep it (and pay for it) for the rest of the billing period. Seats added mid-cycle are charged pro rata, and those charges are invoiced on the day of the month you first subscribed.",
     "At each renewal (monthly or yearly) the paid-seat count is reset to the number of members in the workspace, and you're charged the plan price times that count plus any prorated charges for seats added in the past month.",
     "Upgrading is charged immediately, reduced by the share of the billing cycle already used. Downgrading takes effect at the end of the current billing cycle.",
-    "Monthly and yearly subscriptions renew automatically until cancelled. After cancelling, paid features stay active until the end of the billing cycle."
+    "Monthly and yearly subscriptions renew automatically until canceled. After canceling, paid features stay active until the end of the billing cycle."
   ],
   "regional": {
     "pricedByCountry": false,

@@ -2,7 +2,7 @@
   "tool": "framer",
   "currency": "USD",
   "checkedOn": "2026-09-26",
-  "method": "Read Framer's pricing page in a US-locale headless browser with the Yearly-billing toggle in both states, with the Compare-plans table's checkmark/dash icons converted to text markers, and with every AI-credit-tier dropdown option on the Basic and Pro cards selected in turn in both billing states; checked price consistency across 5 browser locale/timezone settings from one US IP; and read Framer's Help Center articles on site plans, best use cases per plan, changing billing cycle, the new (May 2026) billing system, legacy plans, member roles, refund policy, subscriptions and charges, bandwidth usage, and counting billed editors. All 19 snapshots were captured in an earlier pass and reused as-is; no new snapshots were needed.",
+  "method": "Read Framer's pricing page in a US-locale headless browser with the Yearly-billing toggle in both states, with the Compare-plans table's checkmark/dash icons converted to text markers, and with every AI-credit-tier dropdown option on the Basic and Pro cards selected in turn in both billing states; checked price consistency across 5 browser locale/timezone settings from one US IP; and read Framer's Help Center articles on site plans, best use cases per plan, changing billing cycle, the new (May 2026) billing system, legacy plans, member roles, refund policy, subscriptions and charges, bandwidth usage, and counting billed editors. All 19 snapshots were saved on 26 September 2026, the day these pages were read.",
   "sources": [
     {
       "url": "https://www.framer.com/pricing",
@@ -402,7 +402,7 @@
       ],
       "monthly": 255,
       "confidence": "medium",
-      "note": "Billed annually: Pro is $30/mo and each additional editor is $20/mo, i.e. $30 + 7x$20 = $170/mo ($2,040/yr) instead of $255/mo month-to-month. At ~250,000 visits/month this site will likely exceed Pro's 100 GB/month included bandwidth; Framer's pay-as-you-go overage rate is $50/100GB billed monthly ($40/100GB annual) up to a 2 TB/month cap, but since Framer doesn't publish a bytes-per-visit conversion, no specific overage amount is added to this total -- see unverified[]."
+      "note": "Billed annually: Pro is $30/mo and each additional editor is $20/mo, i.e. $30 + 7x$20 = $170/mo ($2,040/yr) instead of $255/mo month-to-month. At ~250,000 visits/month this site will likely exceed Pro's 100 GB/month included bandwidth; Framer's pay-as-you-go overage rate is $50/100GB billed monthly ($40/100GB annual) up to a 2 TB/month cap, but since Framer doesn't publish a bytes-per-visit conversion, no specific overage amount is added to this total (see the points we could not verify)."
     }
   ],
   "unverified": [

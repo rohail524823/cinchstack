@@ -190,7 +190,7 @@
       "monthly": 0,
       "annualMonthly": null,
       "priceUnit": "per-month",
-      "note": "No subscription fee. Shopify's help centre describes it as a plan for merchants that don't already use Shopify as their ecommerce platform, for selling in AI chat channels through Shopify Catalog; you pay only payment fees when you make a sale.",
+      "note": "No subscription fee. Shopify's help center describes it as a plan for merchants that don't already use Shopify as their ecommerce platform, for selling in AI chat channels through Shopify Catalog; you pay only payment fees when you make a sale.",
       "limits": [
         "Online store stays password-protected; moving to a paid plan is required to publish it",
         "Can't publish an online store or take orders through the online store checkout",
@@ -462,7 +462,7 @@
   ],
   "billingNotes": [
     "Basic, Grow and Advanced cost $39, $105 and $399 a month month-to-month, or $29, $79 and $299 a month billed yearly. Yearly billing charges the full year upfront ($348, $948 and $3,588).",
-    "Shopify Plus has no month-to-month option: it starts at $2,500/mo on a 1-year term or $2,300/mo on a 3-year term, and more complex, higher-volume businesses pay a variable platform fee based on revenue. A Plus subscription can be cancelled when its term commitment expires.",
+    "Shopify Plus has no month-to-month option: it starts at $2,500/mo on a 1-year term or $2,300/mo on a 3-year term, and more complex, higher-volume businesses pay a variable platform fee based on revenue. A Plus subscription can be canceled when its term commitment expires.",
     "New stores get a 3-day free trial with no credit card, then $1/month for the first 3 months on Basic, Grow or Advanced, after which the standard price applies. Switching to yearly billing during that promotion starts the annual cycle when the promotion ends, with the full year charged upfront.",
     "Shopify Rewards (new merchants only): for the first 6 months, 1% back on sales through Shopify Payments (0.5% through other providers) as subscription credits, capped (in USD markets) at $5,000 on Basic, $7,500 on Grow, $10,000 on Advanced and, for Plus through self-serve enrollment, $10,000 or $15,000 (1- or 3-year contract). Credits are lost if you cancel. The scenarios leave these credits out.",
     "No Shopify transaction fee applies to orders paid through Shopify Payments, Shop Pay, Shop Pay Installments, PayPal Express Checkout or manual methods such as cash on delivery and bank transfer.",
@@ -470,7 +470,7 @@
     "Staff accounts: Basic allows none (store owner only), Grow up to 5, Advanced up to 15, Plus unlimited. The store owner, collaborator accounts for freelancers and agencies, and POS-only staff don't count toward the limit.",
     "Third-party carrier-calculated shipping is included on Advanced and Plus. Grow gets it only with yearly billing or for an extra monthly fee; Basic can't activate it.",
     "Themes and apps are real, variable extra costs: paid themes are one-time purchases, and third-party apps charge their own subscriptions on their own billing cycle. Neither is included in the scenarios.",
-    "There are no setup fees. Plan charges are generally non-refundable. Downgrades, and switches from yearly to monthly billing, take effect at the end of the current billing cycle; the help centre says to contact Shopify Support before the yearly cycle ends to move to monthly billing.",
+    "There are no setup fees. Plan charges are generally non-refundable. Downgrades, and switches from yearly to monthly billing, take effect at the end of the current billing cycle; the help center says to contact Shopify Support before the yearly cycle ends to move to monthly billing.",
     "The Starter and Retail plans are closed to new stores, and merchants who leave either plan can't switch back to it.",
     "Shopify's own estimate for US stores using Shopify Payments: Grow's lower card rates pay for its higher price at about $200,000 a year in sales, and Advanced's at about $1,320,000 a year.",
     "Grow is the plan previously named Shopify; the rename is noted in Shopify's developer changelog."
@@ -542,9 +542,9 @@
     }
   ],
   "unverified": [
-    "Starter plan price: Shopify's current pricing page no longer lists Starter, shopify.com/starter now redirects to the free-trial offer, and the help centre says Starter isn't available to new stores. No captured Shopify page shows its price, so it is not listed.",
+    "Starter plan price: Shopify's current pricing page no longer lists Starter, shopify.com/starter now redirects to the free-trial offer, and the help center says Starter isn't available to new stores. No captured Shopify page shows its price, so it is not listed.",
     "Retail plan price: the plan is closed to new stores and no captured Shopify page shows its price.",
-    "The monthly fee for adding carrier-calculated shipping to a Grow plan billed monthly is not published; the help centre only says it costs an additional monthly fee.",
+    "The monthly fee for adding carrier-calculated shipping to a Grow plan billed monthly is not published; the help center only says it costs an additional monthly fee.",
     "The Advanced tax platform is marked as an add-on on every plan, with no price on the pricing page.",
     "Shopify Plus: the variable platform fee for complex businesses is quote-only, non-US card rates require contacting sales, and Shopify's pages differ on how the Plus term is paid (the pricing page's comparison table puts 'Starts at $2,300 USD/mo' in its Pay monthly row and marks Pay yearly as not included, while shopify.com/about shows $2,300 'billed yearly' on a 3-year term). We list the 1-year term price in the annual column because every Plus option carries at least a 1-year commitment. The terms behind the pricing page's 'Try for $399' Plus button were not captured.",
     "The pricing page does not define which cards count as premium cards for the higher online rate.",

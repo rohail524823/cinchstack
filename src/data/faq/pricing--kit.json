@@ -3,7 +3,7 @@
   "items": [
     {
       "q": "How much does Kit cost per month?",
-      "a": "Kit has three tiers. The Newsletter plan is $0 a month for as long as your active subscriber count stays under 10,000, though it excludes Visual Automations, email sequences and other automation features. Creator starts at $39 a month and Creator Pro at $79, both for up to 1,000 subscribers; Creator's confirmed next tier, at 3,000 subscribers, is $59 a month, the only other breakpoint Kit states outside its interactive pricing calculator. Past 1,000 subscribers, both paid plans keep rising, but Kit shows the exact figure only inside that calculator on kit.com/pricing, which blocks automated access, so no page, including this one, can state your real price at 10,000 or 50,000 subscribers without you checking it yourself."
+      "a": "Kit has three tiers. As of 27 September 2026, the Newsletter plan is $0 a month for as long as your active subscriber count stays under 10,000, though it excludes Visual Automations, email sequences and other automation features. Creator starts at $39 a month and Creator Pro at $79, both for up to 1,000 subscribers; Creator's confirmed next tier, at 3,000 subscribers, is $59 a month, the only other breakpoint Kit states outside its interactive pricing calculator. Past 1,000 subscribers, both paid plans keep rising, but Kit shows the exact figure only inside that calculator on kit.com/pricing, which blocks automated access, so no outside page, ours included, can state your real price at 10,000 or 50,000 subscribers without you checking it yourself."
     },
     {
       "q": "Is Kit really free for up to 10,000 subscribers?",
@@ -11,7 +11,7 @@
     },
     {
       "q": "How much does Kit cost for 10,000 or 50,000 subscribers?",
-      "a": "Kit does not publish that number anywhere we could verify, and we want to be direct about that rather than guess. Both Creator and Creator Pro rise in subscriber tiers past their confirmed $39 and $79 starting prices for up to 1,000 subscribers, and Kit shows the higher tiers only inside an interactive calculator on kit.com/pricing that blocks automated access, including ours. What we can say honestly is that $79 a month, Creator Pro's starting price, is the least Kit could possibly charge at 10,000 or 50,000 subscribers; treat that as a floor, not an estimate of your real bill, which will be higher. To get your actual number, open kit.com/pricing yourself and enter your subscriber count, or start Kit's 14-day free trial, which needs no card, and check the price shown once you add subscribers up to your real list size."
+      "a": "Kit does not publish that number anywhere we could verify, and we want to be direct about that rather than guess. As of 27 September 2026, both Creator and Creator Pro rise in subscriber tiers past their confirmed $39 and $79 starting prices for up to 1,000 subscribers, and Kit shows the higher tiers only inside an interactive calculator on kit.com/pricing that blocks automated access, including ours. What we can say honestly is that $79 a month, Creator Pro's starting price, is the least Kit could possibly charge at 10,000 or 50,000 subscribers; treat that as a floor, not an estimate of your real bill, which will be higher. To get your actual number, open kit.com/pricing yourself and enter your subscriber count, or start Kit's 14-day free trial, which needs no card, and check the price shown once you add subscribers up to your real list size."
     },
     {
       "q": "Does Kit have a free trial on its paid plans?",
@@ -27,7 +27,7 @@
     },
     {
       "q": "Why did Kit's prices go up in 2025?",
-      "a": "Kit raised its starting prices in October 2025, the first increase in twelve years, to $39 a month for Creator and $79 for Creator Pro, both still for up to 1,000 subscribers. Kit's billing help article says the change took effect for existing customers on their first billing cycle after October 15, 2025, with at least 30 days' notice before it applied. Existing discounts, including nonprofit pricing, carried over to the new prices rather than being cancelled by the increase. Kit has not said whether the higher subscriber tiers above 1,000, the ones shown only in its own pricing calculator, rose by the same amount or a different one, so a customer already past 1,000 subscribers should not assume their old bill simply shifted by the same gap as the starting price did."
+      "a": "Kit raised its starting prices in October 2025, the first increase in twelve years, to $39 a month for Creator and $79 for Creator Pro, both still for up to 1,000 subscribers. Kit's billing help article says the change took effect for existing customers on their first billing cycle after October 15, 2025, with at least 30 days' notice before it applied. Existing discounts, including nonprofit pricing, carried over to the new prices rather than being canceled by the increase. Kit has not said whether the higher subscriber tiers above 1,000, the ones shown only in its own pricing calculator, rose by the same amount or a different one, so a customer already past 1,000 subscribers should not assume their old bill simply shifted by the same gap as the starting price did."
     }
   ]
 }

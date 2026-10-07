@@ -78,7 +78,7 @@
       "monthly": null,
       "annualMonthly": 17,
       "priceUnit": "per-site-month",
-      "note": "$17/mo is Wix's displayed price, billed annually and paid in full upfront ($204/yr); no month-to-month figure is published for Light on wix.com or in Wix's Help Center (see unverified[]). The cheapest tier with a custom domain and branding removal, but it excludes online payments, customer accounts, and eCommerce entirely.",
+      "note": "$17/mo is Wix's displayed price, billed annually and paid in full upfront ($204/yr); no month-to-month figure is published for Light on wix.com or in Wix's Help Center (see the points we could not verify). The cheapest tier with a custom domain and branding removal, but it excludes online payments, customer accounts, and eCommerce entirely.",
       "limits": [
         "2 site collaborators, owner included",
         "2 GB storage space",
@@ -100,7 +100,7 @@
       "monthly": null,
       "annualMonthly": 29,
       "priceUnit": "per-site-month",
-      "note": "$29/mo is Wix's displayed price, billed annually and paid in full upfront ($348/yr); no month-to-month figure is published (see unverified[]). The first tier, going up from Light, with online payments, customer accounts, and a basic eCommerce toolkit.",
+      "note": "$29/mo is Wix's displayed price, billed annually and paid in full upfront ($348/yr); no month-to-month figure is published (see the points we could not verify). The first tier, going up from Light, with online payments, customer accounts, and a basic eCommerce toolkit.",
       "limits": [
         "5 site collaborators, owner included",
         "50 GB storage space",
@@ -123,7 +123,7 @@
       "monthly": null,
       "annualMonthly": 39,
       "priceUnit": "per-site-month",
-      "note": "$39/mo is Wix's displayed price, billed annually and paid in full upfront ($468/yr); no month-to-month figure is published (see unverified[]). Marked 'RECOMMENDED' on Wix's own pricing page.",
+      "note": "$39/mo is Wix's displayed price, billed annually and paid in full upfront ($468/yr); no month-to-month figure is published (see the points we could not verify). Marked 'RECOMMENDED' on Wix's own pricing page.",
       "limits": [
         "10 site collaborators, owner included",
         "100 GB storage space",
@@ -145,7 +145,7 @@
       "monthly": null,
       "annualMonthly": 159,
       "priceUnit": "per-site-month",
-      "note": "$159/mo is Wix's displayed price, billed annually and paid in full upfront ($1,908/yr); no month-to-month figure is published (see unverified[]). Wix's top self-serve tier, positioned below the custom-quote Enterprise plan.",
+      "note": "$159/mo is Wix's displayed price, billed annually and paid in full upfront ($1,908/yr); no month-to-month figure is published (see the points we could not verify). Wix's top self-serve tier, positioned below the custom-quote Enterprise plan.",
       "limits": [
         "100 site collaborators, owner included",
         "Unlimited storage space",
@@ -245,7 +245,7 @@
       ],
       "monthly": 17,
       "confidence": "high",
-      "note": "Wix doesn't publish a month-to-month figure for Light anywhere public (see unverified[]), so this scenario uses the sourced annual, paid-in-full price at $17/mo ($204 charged upfront for the year) rather than an unverified monthly number."
+      "note": "Wix doesn't publish a month-to-month figure for Light anywhere public (see the points we could not verify), so this scenario uses the sourced annual, paid-in-full price at $17/mo ($204 charged upfront for the year) rather than an unverified monthly number."
     },
     {
       "size": "small",
@@ -258,7 +258,7 @@
       ],
       "monthly": 29,
       "confidence": "high",
-      "note": "Same annual-price caveat as the solo scenario: Core's month-to-month price isn't published anywhere public (see unverified[]), so this uses the sourced annual, paid-in-full price at $29/mo ($348 charged upfront for the year)."
+      "note": "Same annual-price caveat as the solo scenario: Core's month-to-month price isn't published anywhere public (see the points we could not verify), so this uses the sourced annual, paid-in-full price at $29/mo ($348 charged upfront for the year)."
     },
     {
       "size": "growing",
@@ -271,11 +271,11 @@
       ],
       "monthly": 39,
       "confidence": "high",
-      "note": "Same annual-price caveat: Business's month-to-month price isn't published anywhere public (see unverified[]), so this uses the sourced annual, paid-in-full price at $39/mo ($468 charged upfront for the year). A growing team that also runs real volume through the Pricing Plans membership feature would additionally owe Business's 2% Pricing Plans service fee (see extraCosts), on top of the Wix Payments card rate."
+      "note": "Same annual-price caveat: Business's month-to-month price isn't published anywhere public (see the points we could not verify), so this uses the sourced annual, paid-in-full price at $39/mo ($468 charged upfront for the year). A growing team that also runs real volume through the Pricing Plans membership feature would additionally owe Business's 2% Pricing Plans service fee (see the other costs table), on top of the Wix Payments card rate."
     }
   ],
   "unverified": [
-    "The true month-to-month (no annual commitment) price for Light, Core, Business, and Business Elite: wix.com/plans states the displayed price is for a yearly subscription paid in full, and 'the final price can be seen on the purchase page, before payment is completed' -- no static or public page shows that figure, and the Help Center's 'Purchasing a Monthly Plan' article only describes clicking Select and then Monthly on the logged-in Upgrade page. Independent third-party pricing guides (not Wix's own pages) report month-to-month rates around $29 (Light), $39 (Core), $46 (Business), and $172 (Business Elite); these are noted here only as context for a future check and were not captured in any Wix-owned snapshot, so none of them are used in this record's structured fields.",
+    "The true month-to-month (no annual commitment) price for Light, Core, Business, and Business Elite: wix.com/plans states the displayed price is for a yearly subscription paid in full, and 'the final price can be seen on the purchase page, before payment is completed' -- no static or public page shows that figure, and the Help Center's 'Purchasing a Monthly Plan' article only describes clicking Select and then Monthly on the logged-in Upgrade page. Independent third-party pricing guides (not Wix's own pages) report month-to-month rates around $29 (Light), $39 (Core), $46 (Business), and $172 (Business Elite); these are noted here only as context for a future check and were not captured in any Wix-owned snapshot, so none of them are used in this record's prices or cost scenarios.",
     "Wix's 2-year and 3-year (multi-year) subscription prices: confirmed to exist via the Help Center article 'Purchasing a 2 or 3 Year Plan,' but no dollar figures for any plan were captured.",
     "Business Email (Google Workspace) add-on pricing: wix.com/business-email describes the feature with no price shown anywhere on the page.",
     "Whether the Light plan can comfortably run a blog/CMS the size described in the 'solo' scenario (~20 pages): Wix's plan-comparison table publishes collaborator and storage limits but no page-count or blog-post cap for any tier.",
