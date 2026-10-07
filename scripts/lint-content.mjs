@@ -7,11 +7,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadData, knownFigures, normFig, figuresIn, BANNED } from './lib/figures.mjs';
+import { pageScope, passageFigures, passageDates, leadDates, badAsOf, ukSpellings, FAQ_CONTEXT, vagueQuestion } from './lib/scope.mjs';
 import { faqSchema, comparisonSchema, stackSchema, alternativesSchema } from '../src/lib/schemas.mjs';
 
 const data = loadData();
 const known = knownFigures(data);
 const SIZES = ['solo', 'small', 'growing'];
+const toolNames = Object.values(data.tools).map((t) => t.name);
+const nameRe = (n) => new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
 
 function walk(dir, out = []) {
   if (!fs.existsSync(dir)) return out;
@@ -34,6 +37,7 @@ const args = process.argv.slice(2);
 const files = args.includes('--all') ? allMdx : args;
 if (!files.length) { console.error('usage: node scripts/lint-content.mjs <file.mdx> [...] | --all'); process.exit(2); }
 
+const strings = (x) => (typeof x === 'string' ? [x] : x && typeof x === 'object' ? Object.values(x).flatMap(strings) : []);
 const words = (s) => s.split(/\s+/).filter(Boolean).length;
 const stripMdx = (body) => body
   .replace(/^import .*$/gm, '')
@@ -74,11 +78,19 @@ for (const file of files) {
   const title = fm('title'); const desc = fm('description'); const qa = fm('quickAnswer'); const pub = fm('published');
   const extras = new Set([...fmRaw.matchAll(/-\s*value:\s*["']?([^"'\n]+)["']?/g)].map((m) => normFig(m[1])).filter(Boolean));
   const figOk = (v) => known.has(v) || extras.has(v);
+  // Quick answers, FAQ answers, titles and descriptions are the passages search engines and AI
+  // answers quote. Their figures must belong to the tools this page covers, not merely to some tool,
+  // and any "as of <date>" must be the check date of one of those tools.
+  const scope = pageScope(data, kind, slug, known);
+  const scopedOk = (v, passage) => passageFigures(data, scope, passage).has(v) || extras.has(v);
+  const scopeNote = scope.tools ? ` for ${scope.tools.map((t) => data.tools[t]?.name ?? t).join(', ')}` : '';
+  const datesNote = scope.dates ? [...scope.dates].join(' or ') : '';
 
   // frontmatter
   if (!title || title.length < 20 || title.length > 66) bad(`title must be 20–66 chars (is ${title?.length ?? 0})`);
   if (!desc || desc.length < 110 || desc.length > 165) bad(`description must be 110–165 chars (is ${desc?.length ?? 0})`);
   if (!pub || !/^\d{4}-\d{2}-\d{2}$/.test(pub)) bad('published must be YYYY-MM-DD');
+  for (const f of figuresIn(`${title ?? ''} ${desc ?? ''}`)) if (!scopedOk(f.v, `${title ?? ''} ${desc ?? ''}`)) bad(`title/description figure ${f.raw} is not a figure in the data${scopeNote}`);
   for (const y of `${title} ${fm('h1') ?? ''}`.match(/\b20\d\d\b/g) ?? []) if (y !== '2026') bad(`title/h1 year ${y} must be the verification year 2026`);
   const tool = kind === 'guides' ? data.tools[guideParts(slug)[0]] : data.tools[slug];
   if (['pricing', 'tools', 'alternatives', 'guides'].includes(kind) && !tool) bad(`no tool data for "${slug}"`);
@@ -89,7 +101,11 @@ for (const file of files) {
       const n = words(qa);
       if (n < 60 || n > 120) (n < 50 || n > 130 ? bad : warn)(`quickAnswer is ${n} words (aim 60–120)`);
       if (!/\d/.test(qa)) bad('quickAnswer states no number');
-      for (const f of figuresIn(qa)) if (!figOk(f.v)) bad(`quickAnswer figure ${f.raw} is not in the data`);
+      for (const f of figuresIn(qa)) if (!scopedOk(f.v, qa)) bad(`quickAnswer figure ${f.raw} is not a figure in the data${scopeNote}`);
+      { const lead = leadDates(data, scope, qa); for (const d of badAsOf(qa, lead, passageDates(data, scope, qa))) bad(`quickAnswer says "as of ${d}", but the tools it dates were checked ${[...lead].join(" or ")}`); }
+      // The first sentence is what a snippet shows: keep it short enough to carry tool, price and date.
+      const first = qa.split(/(?<=[.!?])\s+/)[0];
+      if (words(first) > 45) warn(`quickAnswer's first sentence is ${words(first)} words (aim 45 or fewer)`);
       if (tool && !qa.toLowerCase().includes(tool.name.toLowerCase())) bad(`quickAnswer must name ${tool.name}`);
       if (kind === 'compare') { const c = data.comparisons[slug]; if (c) for (const t of [c.a, c.b]) if (!qa.toLowerCase().includes(data.tools[t].name.toLowerCase())) bad(`quickAnswer must name ${data.tools[t].name}`); }
       if (kind === 'pricing' && tool) {
@@ -117,7 +133,7 @@ for (const file of files) {
     if (m[1] === 'Price' && attrs.plan) { const pl = data.pricing[t].plans.find((p) => p.id === attrs.plan); const fld = attrs.field ?? 'monthly'; if (pl && pl[fld] == null) bad(`<Price tool="${t}" plan="${attrs.plan}" field="${fld}"> is null in the data`); }
     if (m[1] === 'Real' && !SIZES.includes(attrs.size)) bad(`<Real size="${attrs.size}"> must be solo|small|growing`);
   }
-  for (const m of body.matchAll(/<([A-Z]\w*)\b/g)) if (!['Price', 'Real', 'Stack', 'Checked', 'T', 'Programs', 'Mandated', 'ContactForm', 'Factors', 'Coverage', 'Analytics', 'Packages', 'ServicesForm', 'Visit', 'UsageMatrix', 'AlertsPrivacy'].includes(m[1])) bad(`unknown component <${m[1]}>`);
+  for (const m of body.matchAll(/<([A-Z]\w*)\b/g)) if (!['Price', 'Real', 'Stack', 'Checked', 'T', 'Programs', 'Mandated', 'ContactForm', 'Factors', 'Coverage', 'Analytics', 'Packages', 'ServicesForm', 'Visit', 'UsageMatrix', 'AlertsPrivacy', 'UpworkProof'].includes(m[1])) bad(`unknown component <${m[1]}>`);
   // links
   for (const m of body.matchAll(/\]\((\/[^)\s]*)\)/g)) {
     const href = m[1].split('#')[0];
@@ -130,6 +146,13 @@ for (const file of files) {
   const all = `${prose} ${qa ?? ''}`;
   for (const [re, why] of BANNED) { const m = all.match(re); if (m) bad(`${why}: "${m[0]}"`); }
   for (const f of figuresIn(prose)) if (!figOk(f.v)) bad(`figure ${f.raw} is not in the data; use a token (<Price/>, <Real/>, <Stack/>) or declare it in extraFigures with a reason`);
+  // US English (house style): UK spellings in the page text, its FAQ and its page data.
+  {
+    const pageData = kind === 'compare' ? data.comparisons[slug] : kind === 'stacks' ? data.stacks[slug] : kind === 'alternatives' ? data.alternatives[slug] : null;
+    const faqTxt = data.faq[`${kind}--${slug}`]?.items.map((i) => `${i.q} ${i.a}`).join(' ') ?? '';
+    const uk = ukSpellings(`${title ?? ''} ${desc ?? ''} ${fm('h1') ?? ''} ${all} ${faqTxt} ${strings(pageData).join(' ')}`);
+    if (uk.length) bad(`US spelling, please: ${[...new Set(uk)].join(', ')}`);
+  }
   const indep = (all.match(/\bindependen(t|ce|tly)\b/gi) ?? []).length;
   if (kind !== 'pages' && indep > 1) bad(`"independent" appears ${indep} times (max 1 per page)`);
   const n = words(prose);
@@ -148,7 +171,10 @@ for (const file of files) {
       for (const it of fq.items) {
         const w = words(it.a);
         if (w < 90 || w > 160) (w < 60 || w > 200 ? bad : warn)(`faq answer ${w} words (aim 90–160): "${it.q}"`);
-        for (const f of figuresIn(it.a)) if (!figOk(f.v)) bad(`faq figure ${f.raw} not in the data: "${it.q}"`);
+        for (const f of figuresIn(it.a)) if (!scopedOk(f.v, `${it.q} ${it.a}`)) bad(`faq figure ${f.raw} is not a figure in the data${scopeNote}: "${it.q}"`);
+        for (const d of badAsOf(it.a, leadDates(data, scope, it.a), passageDates(data, scope, `${it.q} ${it.a}`))) bad(`faq answer says "as of ${d}" but this page's prices were checked ${datesNote}: "${it.q}"`);
+        { const m = it.a.match(FAQ_CONTEXT); if (m) bad(`faq answer must stand alone when quoted; it says "${m[0].trim()}": "${it.q}"`); }
+        if (vagueQuestion(it.q, toolNames)) bad(`faq question must name the tools it compares: "${it.q}"`);
         for (const [re, why] of BANNED) { const m = `${it.q} ${it.a}`.match(re); if (m) bad(`faq ${why}: "${m[0]}"`); }
         if (!it.q.trim().endsWith('?')) bad(`faq question should be a question: "${it.q}"`);
       }
@@ -163,7 +189,14 @@ for (const file of files) {
   // page data
   if (kind === 'compare') { const c = data.comparisons[slug]; if (!c) bad(`missing src/data/comparisons/${slug}.json`); else { const r = comparisonSchema.safeParse(c); if (!r.success) bad(`comparison data invalid`); const txt = [...c.dimensions.flatMap((d) => [d.a, d.b]), ...c.verdicts.map((v) => v.why)].join(' '); for (const f of figuresIn(txt)) if (!figOk(f.v)) bad(`comparison data figure ${f.raw} not in the data`); for (const [re, why] of BANNED) { const m = txt.match(re); if (m) bad(`comparison data ${why}: "${m[0]}"`); } } }
   if (kind === 'stacks') { const s = data.stacks[slug]; if (!s) bad(`missing src/data/stacks/${slug}.json`); else { const txt = [s.profile, ...s.layers.flatMap((l) => [l.why, ...l.alternatives.map((a) => a.when)]), ...s.skip.map((x) => x.why), ...s.extras.map((x) => x.note)].join(' '); for (const f of figuresIn(txt)) if (!figOk(f.v)) bad(`stack data figure ${f.raw} not in the data`); for (const [re, why] of BANNED) { const m = txt.match(re); if (m) bad(`stack data ${why}: "${m[0]}"`); } for (const l of s.layers) if (!data.tools[l.pick]) bad(`stack pick "${l.pick}" has no tool data`); } }
-  if (kind === 'alternatives') { const a = data.alternatives[slug]; if (!a) bad(`missing src/data/alternatives/${slug}.json`); else { const txt = a.reasons.flatMap((r) => [r.reason, ...r.picks.map((p) => p.why)]).join(' '); for (const f of figuresIn(txt)) if (!figOk(f.v)) bad(`alternatives data figure ${f.raw} not in the data`); for (const [re, why] of BANNED) { const m = txt.match(re); if (m) bad(`alternatives data ${why}: "${m[0]}"`); } for (const r of a.reasons) for (const p of r.picks) if (!data.tools[p.tool]) bad(`alternative "${p.tool}" has no tool data`); } }
+  if (kind === 'alternatives') { const a = data.alternatives[slug]; if (!a) bad(`missing src/data/alternatives/${slug}.json`); else { const txt = a.reasons.flatMap((r) => [r.reason, ...r.picks.map((p) => p.why)]).join(' '); for (const f of figuresIn(txt)) if (!figOk(f.v)) bad(`alternatives data figure ${f.raw} not in the data`); for (const [re, why] of BANNED) { const m = txt.match(re); if (m) bad(`alternatives data ${why}: "${m[0]}"`); } for (const r of a.reasons) for (const p of r.picks) if (!data.tools[p.tool]) bad(`alternative "${p.tool}" has no tool data`);
+    // The Quick answer is the passage people quote for "<tool> alternatives": it must name them.
+    const picks = [...new Set(a.reasons.flatMap((r) => r.picks.map((p) => p.tool)))].filter((t) => data.tools[t]);
+    const named = picks.filter((t) => nameRe(data.tools[t].name).test(qa ?? ''));
+    if (named.length < 2) bad(`quickAnswer names ${named.length} of this page's alternatives (${named.map((t) => data.tools[t].name).join(', ') || 'none'}); name at least 2`);
+    // "7 options" in a title or H1 must be the number of alternatives the page actually lists.
+    for (const [lbl, s] of [['title', title], ['h1', fm('h1')]]) for (const n of (s ?? '').replace(/\$\s?\d[\d,.]*/g, ' ').match(/\b\d+\b/g) ?? []) if (!/^20\d\d$/.test(n) && Number(n) !== picks.length) bad(`${lbl} says ${n}, but src/data/alternatives/${slug}.json lists ${picks.length} alternatives`);
+  } }
   // reused sentences
   const mine = new Set([...sentences(prose), ...sentences(data.faq[`${kind}--${slug}`]?.items.map((i) => i.a).join(' ') ?? '')]);
   for (const s of mine) { const others = [...(sentenceIndex.get(s) ?? [])].filter((x) => x !== id); if (others.length >= 2) bad(`sentence also used on ${others.join(', ')}: "${s.slice(0, 80)}…"`); }

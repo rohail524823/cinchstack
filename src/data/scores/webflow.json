@@ -14,7 +14,7 @@
     "pricingHonesty": "Every Site and Workspace plan, per-seat rate, bandwidth-overage tier and usage charge is listed with exact dollar figures on webflow.com/pricing without needing a sales call.",
     "smallTeamFit": "Webflow's own pricing page lists owners who want a simple template editor with no design learning curve as a poor fit, since the visual canvas assumes design skill beyond drag-and-drop.",
     "doesTheJob": "Premium bundles a 20,000-item CMS, custom code, Webflow Cloud apps and localization into one plan, covering ground that would otherwise need separate CMS, hosting and localization tools.",
-    "freedomToLeave": "Code exports free on any paid Workspace plan, but CMS content exports one Collection at a time, forms stop working after export, and cancelling still leaves the rest of the current term billed.",
+    "freedomToLeave": "Code exports free on any paid Workspace plan, but CMS content exports one Collection at a time, forms stop working after export, and canceling still leaves the rest of the current term billed.",
     "trackRecord": "Webflow has operated since 2013 with a public status page, and its May 2026 update merged the CMS and Business plans into a single Premium tier."
   },
   "basis": "Webflow's CMS and code depth are among the strongest of the four, but for a small non-technical owner the real bill is driven by metered bandwidth that can run many times the sticker price, and leaving cleanly takes real migration work.",

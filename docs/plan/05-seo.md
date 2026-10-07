@@ -35,7 +35,7 @@ Both dates are visible. Neither is ever hand-typed. One job writes them; a gate 
 
 ## Titles and descriptions
 
-Patterns, by convention and checked for length (title ≤ 60, description 120–160):
+Patterns, by convention and checked for length (title 20–66 characters as written, with " | CinchStack" added only while the whole title stays within 65; description 110–165):
 
 | Page type | Title pattern | Example |
 |---|---|---|
