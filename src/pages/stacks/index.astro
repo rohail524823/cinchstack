@@ -19,6 +19,8 @@ const description = 'Recommended software stacks for agencies, course creators, 
     <Breadcrumbs crumbs={crumbs} />
     <h1>The stack that's best for you</h1>
     <p class="lede">Pick the business closest to yours. Each stack names one tool per job, says when to choose something else, and adds up the whole monthly bill at three sizes.</p>
+    <h2>Stacks by kind of business</h2>
+    <p class="muted read">Each card lists the tools in that stack and the monthly bill for the business size it names. The full page breaks that bill down line by line at three sizes and says when a different tool would suit you better.</p>
     <div class="grid-3" style="margin-top:22px">
       {live.map((s) => { const b = stackBill(s.id); return (
         <a class="card" href={`/stacks/${s.id}/`}>

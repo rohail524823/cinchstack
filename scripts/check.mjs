@@ -281,6 +281,22 @@ for (const l of locs) {
 }
 for (const [p, { noindex }] of pages) if (!noindex && p !== '/404.html' && !locs.includes(p)) fail(p, 'indexable page missing from sitemap');
 
+// date sync (docs/plan/05-seo.md): sitemap lastmod = JSON-LD dateModified = the visible "Updated" date
+for (const [, loc, lastmod] of sitemap.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)) {
+  const p = loc.replace(SITE, '');
+  const pg = pages.get(p);
+  if (!pg) continue;
+  let graph = [];
+  try { graph = JSON.parse(pg.doc.querySelector('script[type="application/ld+json"]')?.textContent ?? '{}')['@graph'] ?? []; } catch {}
+  const ld = [...new Set(graph.map((n) => n.dateModified).filter(Boolean))];
+  const shown = [...new Set([...pg.doc.querySelectorAll('.byline span, p.updated')]
+    .filter((el) => /Updated/.test(el.textContent))
+    .map((el) => [...el.querySelectorAll('time:not([data-verified])')].at(-1)?.getAttribute('datetime'))
+    .filter(Boolean))];
+  for (const d of ld) if (d !== lastmod) fail(p, `sitemap lastmod ${lastmod} ≠ JSON-LD dateModified ${d}`);
+  for (const d of shown) if (d !== lastmod) fail(p, `sitemap lastmod ${lastmod} ≠ visible "Updated" date ${d}`);
+}
+
 // crawl depth from the homepage
 const depth = new Map([['/', 0]]);
 const queue = ['/'];

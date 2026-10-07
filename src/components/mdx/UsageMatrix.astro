@@ -18,7 +18,7 @@ const n = (x) => x.toLocaleString('en-US');
 ---
 {ok && (<>
   <p class="table-lead">GoHighLevel's monthly usage charges on top of the plan price, by texts and emails sent, at the US rates recorded on {longDate(p.checkedOn)}. Each cell counts one local number, one A2P campaign, every text as one outbound segment with the carrier fee, and HighLevel's 5% markup on carrier and A2P fees.</p>
-  <div class="tbl-wrap"><table class="data">
+  <div class="tbl-wrap" tabindex="0" role="region" aria-label="GoHighLevel monthly usage charges by texts and emails (scrolls sideways on small screens)"><table class="data">
     <thead><tr><th scope="col">Texts a month</th>{emails.map((e) => <th scope="col" class="num">{n(e)} emails</th>)}</tr></thead>
     <tbody>
       {texts.map((t) => <tr><th scope="row">{n(t)}</th>{emails.map((e) => <td class="num" data-label={`${n(e)} emails`}><Fig v={usage(t, e)} /></td>)}</tr>)}

@@ -31,16 +31,17 @@ const current = (href) => (path === href || (href !== '/' && path.startsWith(hre
 <meta name='impact-site-verification' value={IMPACT_VERIFICATION}>
 {GOOGLE_VERIFICATION && <meta name="google-site-verification" content={GOOGLE_VERIFICATION}>}
 {BING_VERIFICATION && <meta name="msvalidate.01" content={BING_VERIFICATION}>}
+<link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="alternate" type="application/rss+xml" title="CinchStack price changes" href="/changes/rss.xml">
 <meta property="og:site_name" content={NAME}>
 <meta property="og:type" content={ogType}>
 <meta property="og:title" content={title}>
 <meta property="og:description" content={description}>
-<meta property="og:url" content={url}>
+{!noindex && <meta property="og:url" content={url}>}
 <meta property="og:image" content={`${SITE}/og.png`}>
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">

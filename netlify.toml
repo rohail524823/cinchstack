@@ -36,9 +36,64 @@
   [headers.values]
     Content-Type = "application/rss+xml; charset=utf-8"
 
+# Static files without a content hash in their name: cached briefly, never immutable. /site.js holds
+# the consent and privacy logic, so a fix to it must reach returning visitors within the hour.
+[[headers]]
+  for = "/site.js"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/favicon.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/apple-touch-icon.png"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/og.png"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
 # The old placeholder had no other URLs; www redirects to the apex.
 [[redirects]]
   from = "https://www.cinchstack.com/*"
   to = "https://cinchstack.com/:splat"
   status = 301
+  force = true
+
+# Netlify's own hostnames for the production site serve the same pages; send them to the apex so
+# only one host can be crawled. Deploy previews (deploy-preview-N--...) are left alone.
+[[redirects]]
+  from = "https://cinchstack-site.netlify.app/*"
+  to = "https://cinchstack.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://main--cinchstack-site.netlify.app/*"
+  to = "https://cinchstack.com/:splat"
+  status = 301
+  force = true
+
+# The 404 page's own URLs answer 404 too, never 200. Forced, because the file 404.html exists and
+# Netlify would otherwise serve it with a 200 (redirect shadowing). /404/ normalizes to /404.
+[[redirects]]
+  from = "/404"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/404.html"
+  to = "/404.html"
+  status = 404
   force = true

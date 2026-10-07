@@ -1,13 +1,12 @@
 // Indexable pages and their real last-modified dates, shared by sitemap.xml, llms.txt and the check gate.
 import { registry } from './pages.mjs';
 import { datesFor } from './meta.mjs';
-import { pricing, comparisons, stacks, alternatives, changelog } from './data.mjs';
+import { changelog } from './data.mjs';
 import { lastChecked } from './dataset.mjs';
 
 export const NOINDEX = new Set(['/thanks/', '/alternatives/']);
 
 const maxDate = (...ds) => ds.filter(Boolean).sort().at(-1) ?? null;
-const priceChanged = (id) => pricing[id]?.history.map((h) => h.date).sort().at(-1) ?? null;
 
 export async function indexablePages() {
   const reg = await registry();
@@ -15,16 +14,10 @@ export async function indexablePages() {
   const byPath = new Map();
   for (const [path, r] of reg) {
     if (NOINDEX.has(path)) continue;
-    let lastmod = null;
-    if (r.entry) {
-      const d = datesFor(r.entry);
-      lastmod = d.modified;
-      if (r.kind === 'pricing' || r.kind === 'tools') lastmod = maxDate(lastmod, priceChanged(r.slug));
-      if (r.kind === 'guides') lastmod = maxDate(lastmod, priceChanged(r.slug.split('--')[0]));
-      if (r.kind === 'compare') { const c = comparisons[r.slug]; lastmod = maxDate(lastmod, priceChanged(c.a), priceChanged(c.b)); }
-      if (r.kind === 'stacks') lastmod = maxDate(lastmod, ...stacks[r.slug].layers.map((l) => priceChanged(l.pick)));
-      if (r.kind === 'alternatives') lastmod = maxDate(lastmod, priceChanged(r.slug), ...(alternatives[r.slug]?.reasons ?? []).flatMap((x) => x.picks.map((p) => priceChanged(p.tool))));
-    }
+    // A prose page's lastmod is the same date as its JSON-LD dateModified and visible "Updated" line:
+    // the last editorial change, from git (docs/plan/05-seo.md, "Dates"). A price change moves the
+    // page's "Prices verified" date and adds a /changes/ entry, which dates /changes/ and /data/.
+    const lastmod = r.entry ? datesFor(r.entry).modified : null;
     const row = { path, kind: r.kind, slug: r.slug, h1: r.h1, title: r.title, lastmod };
     out.push(row);
     byPath.set(path, row);
@@ -52,4 +45,5 @@ export const CRAWLERS = [
   'CCBot', 'Applebot', 'Applebot-Extended', 'Amazonbot', 'meta-externalagent', 'FacebookBot',
   'DuckAssistBot', 'MistralAI-User', 'cohere-ai', 'YouBot', 'Bytespider', 'DuckDuckBot',
 ];
-export const DISALLOW = ['/.netlify/', '/api/', '/thanks/'];
+// /thanks/ is not disallowed: crawlers must be able to fetch it to read its noindex.
+export const DISALLOW = ['/.netlify/', '/api/'];
