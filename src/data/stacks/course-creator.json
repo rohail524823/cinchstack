@@ -1,5 +1,6 @@
 {
   "id": "course-creator",
+  "guides": ["/tools/systeme-io/free-plan/"],
   "label": "Coach or course creator",
   "profile": "Sells courses, coaching, memberships or digital downloads under their own name, from a single flagship course to a full curriculum with a paid community.",
   "sizeLabels": {

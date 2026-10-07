@@ -1,5 +1,6 @@
 {
   "id": "agency",
+  "guides": ["/tools/gohighlevel/plans-compared/", "/tools/gohighlevel/n8n-integration/"],
   "label": "Marketing agency",
   "profile": "A marketing agency of 1 to 15 people that runs lead generation, funnels, websites, CRM and follow-up on behalf of small-business clients such as local shops, clinics and contractors.",
   "sizeLabels": { "solo": "Solo consultant", "small": "5-person agency", "growing": "15-person agency" },

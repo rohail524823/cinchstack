@@ -80,44 +80,118 @@ export async function linkTo(path) {
   return hit ? { href: path, label: hit.h1 } : null;
 }
 
+// ---------- link candidates shared by Keep reading and the generated link blocks ----------
+
+/** Every guide of one tool, in registry order: /tools/<id>/<topic>/. */
+export async function guidesFor(id) {
+  const reg = await registry();
+  return [...reg.values()].filter((r) => r.kind === 'guides' && guideParts(r.slug)[0] === id).map((r) => pathFor(r.id));
+}
+
+/** Guides of OTHER tools whose topic names this tool ("migrate-from-hubspot" names hubspot). */
+export async function guidesNaming(id) {
+  const reg = await registry();
+  const want = id.split('-');
+  const names = (topic) => { const w = topic.split('-'); return w.some((_, i) => want.every((x, j) => w[i + j] === x)); };
+  return [...reg.values()].filter((r) => {
+    if (r.kind !== 'guides') return false;
+    const [t, topic] = guideParts(r.slug);
+    return t !== id && names(topic);
+  }).map((r) => pathFor(r.id));
+}
+
+/** Every published comparison that includes this tool. */
+export async function comparesFor(id) {
+  const reg = await registry();
+  return Object.values(comparisons).filter((c) => (c.a === id || c.b === id) && reg.has(`/compare/${c.id}/`)).map((c) => `/compare/${c.id}/`);
+}
+
+// A program that bars other tools' names on its promotional pages (Systeme.io, rules.paidOnlyOn).
+const restricted = (id) => Boolean(programs[tools[id]?.affiliate?.program ?? id]?.rules?.paidOnlyOn);
+
+/**
+ * The generated blocks on a tool's pricing page and review (docs/plan/03-architecture.md,
+ * "Internal linking"): every comparison of the tool plus its alternatives page, and every guide
+ * for the tool. They sit outside Keep reading, so its 5-8 link cap never cuts a comparison or a guide.
+ */
+export async function toolLinks(id) {
+  const reg = await registry();
+  const link = (p) => ({ href: p, label: reg.get(p).h1 });
+  const compare = (await comparesFor(id)).map(link);
+  const alt = reg.has(`/alternatives/${id}/`) ? link(`/alternatives/${id}/`) : null;
+  const guides = (await guidesFor(id)).map(link);
+  // Another tool's guide about this one (moving from HubSpot to GoHighLevel, on HubSpot's pages).
+  const naming = restricted(id) ? [] : (await guidesNaming(id)).map(link);
+  return { compare, alt, guides, naming };
+}
+
+// Alternatives pages: which of the tool's own guides a switcher most needs (the plan choice and the
+// usage bill). A tool not listed here gets its first three guides.
+const ALT_GUIDES = {
+  gohighlevel: ['plans-compared', 'sms-and-calling-costs', 'ai-pricing'],
+};
+
 /** Hub-to-spoke "Keep reading" candidates for a page, filtered to pages that exist. */
 export async function relatedFor(entryId, extra = []) {
   const [kind, slug] = entryId.split('/');
   const out = [];
   const push = (p) => { if (!out.includes(p)) out.push(p); };
-  extra.forEach(push);
   const reg = await registry();
-  // A tool's guides sit right after its review on its own pages, so they are two clicks from home.
-  const guidesFor = (id) => [...reg.values()].filter((r) => r.kind === 'guides' && guideParts(r.slug)[0] === id).map((r) => pathFor(r.id));
+  const self = pathFor(entryId);
+  // Curated guides in a stack's or comparison's data (its `guides` array) lead its Keep reading.
+  const curated = kind === 'stacks' ? stacks[slug]?.guides : kind === 'compare' ? comparisons[slug]?.guides : null;
+  for (const p of curated ?? []) {
+    if (reg.get(p)?.kind !== 'guides') throw new Error(`${kind}/${slug}.json lists guide ${p}, which is not a published guide`);
+    push(p);
+  }
+  // A comparison's frontmatter extras follow both pricing pages and both reviews (below), so the
+  // cap never cuts a page the plan requires every comparison to link.
+  if (kind !== 'compare') extra.forEach(push);
   const cmpFor = (id) => Object.values(comparisons).filter((c) => c.a === id || c.b === id).map((c) => `/compare/${c.id}/`);
   const stacksFor = (id) => Object.values(stacks).filter((s) => s.layers.some((l) => l.pick === id)).map((s) => `/stacks/${s.id}/`);
-  if (kind === 'pricing') { push(`/tools/${slug}/`); guidesFor(slug).forEach(push); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
-  if (kind === 'tools') { push(`/tools/${slug}/pricing/`); guidesFor(slug).forEach(push); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
+  // Pricing pages and reviews list every guide and comparison in their own generated blocks
+  // (toolLinks), so Keep reading spends its slots on the hub, comparisons, alternatives and stacks.
+  if (kind === 'pricing') { push(`/tools/${slug}/`); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
+  if (kind === 'tools') { push(`/tools/${slug}/pricing/`); cmpFor(slug).forEach(push); push(`/alternatives/${slug}/`); stacksFor(slug).forEach(push); }
   if (kind === 'compare') {
     const c = comparisons[slug];
-    [c.a, c.b].forEach((t) => { push(`/tools/${t}/pricing/`); push(`/tools/${t}/`); });
+    [c.a, c.b].forEach((t) => push(`/tools/${t}/pricing/`));
+    [c.a, c.b].forEach((t) => push(`/tools/${t}/`));
+    extra.forEach(push);
+    [c.a, c.b].forEach((t) => push(`/alternatives/${t}/`));
     Object.values(comparisons).filter((x) => x.id !== slug && x.layer === c.layer).forEach((x) => push(`/compare/${x.id}/`));
   }
   if (kind === 'alternatives') {
     push(`/tools/${slug}/pricing/`); push(`/tools/${slug}/`);
+    const own = await guidesFor(slug);
+    const best = ALT_GUIDES[slug]?.map((topic) => `/tools/${slug}/${topic}/`).filter((p) => own.includes(p)) ?? own;
+    best.slice(0, 3).forEach(push);
+    if (!restricted(slug)) (await guidesNaming(slug)).forEach(push);
     for (const r of alternatives[slug]?.reasons ?? []) for (const p of r.picks) push(`/tools/${p.tool}/pricing/`);
   }
   if (kind === 'guides') {
     const [t] = guideParts(slug);
-    push(`/tools/${t}/pricing/`); guidesFor(t).forEach(push); push(`/tools/${t}/`);
+    push(`/tools/${t}/pricing/`);
+    // Three siblings from a window that starts right after this guide and wraps around, so every
+    // guide is linked by the guides before it, not only the first ones in registry order.
+    const sibs = (await guidesFor(t)).filter((p) => p !== self);
+    const at = (await guidesFor(t)).indexOf(self);
+    const rotated = at < 0 ? sibs : [...sibs.slice(at), ...sibs.slice(0, at)];
+    let added = 0;
+    for (const p of rotated) { if (added >= 3) break; if (!out.includes(p)) { push(p); added += 1; } }
+    push(`/tools/${t}/`);
     // A program that bars other tools' names on its promotional pages (Systeme.io): its guides link
     // only to that tool's own pages and our method pages, never to comparisons naming competitors.
-    if (programs[tools[t]?.affiliate?.program ?? t]?.rules?.paidOnlyOn) {
+    if (restricted(t)) {
       const ok = (p) => p.startsWith(`/tools/${t}/`) || ['/methodology/', '/how-we-earn/', '/about/'].includes(p);
-      return out.filter((p) => ok(p) && p !== pathFor(entryId) && reg.has(p)).slice(0, 8).map((p) => ({ href: p, label: reg.get(p).h1 }));
+      return out.filter((p) => ok(p) && p !== self && reg.has(p)).slice(0, 8).map((p) => ({ href: p, label: reg.get(p).h1 }));
     }
-    cmpFor(t).forEach(push); push(`/alternatives/${t}/`);
+    push(`/alternatives/${t}/`); cmpFor(t).forEach(push);
   }
   if (kind === 'stacks') {
     for (const l of stacks[slug].layers) push(`/tools/${l.pick}/pricing/`);
     Object.keys(stacks).filter((s) => s !== slug).forEach((s) => push(`/stacks/${s}/`));
   }
-  const self = pathFor(entryId);
   return out.filter((p) => p !== self && reg.has(p)).slice(0, 8).map((p) => ({ href: p, label: reg.get(p).h1 }));
 }
 

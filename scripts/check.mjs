@@ -266,6 +266,58 @@ for (const l of locs) {
   else if (depth.get(l) > 3) fail(l, `crawl depth ${depth.get(l)} (max 3)`);
 }
 
+// ---------- internal linking gates (docs/plan/03-architecture.md, "Internal linking") ----------
+// Editorial links are the <a> inside <main> of an indexable page, minus breadcrumbs. Links from
+// the homepage and the hubs are generated lists, so they do not count as inbound editorial links.
+{
+  const HUBS = new Set(['/', '/tools/', '/compare/', '/stacks/', '/alternatives/']);
+  // 05-seo.md: the orphan gate reports at launch and fails after week four.
+  const ORPHAN_FAIL_FROM = '2026-10-24';
+  const today = new Date().toISOString().slice(0, 10);
+  const mainLinks = new Map();
+  for (const [p, { doc, noindex }] of pages) {
+    if (noindex || p === '/404.html') continue;
+    const set = new Set();
+    for (const a of doc.querySelectorAll('main a[href]')) {
+      if (a.closest('nav.crumbs')) continue;
+      const href = a.getAttribute('href');
+      if (!href.startsWith('/') || href.startsWith('//')) continue;
+      const clean = href.split('#')[0].split('?')[0];
+      if (clean !== p && pages.has(clean) && !pages.get(clean).noindex) set.add(clean);
+    }
+    mainLinks.set(p, set);
+  }
+  const inbound = new Map();
+  for (const [src, set] of mainLinks) {
+    if (HUBS.has(src)) continue;
+    for (const t of set) { if (!inbound.has(t)) inbound.set(t, new Set()); inbound.get(t).add(src); }
+  }
+  // 1. Every pricing page links every comparison of its tool and its alternatives page.
+  for (const [p, set] of mainLinks) {
+    const id = p.match(/^\/tools\/([a-z0-9-]+)\/pricing\/$/)?.[1];
+    if (!id) continue;
+    const want = Object.values(data.comparisons).filter((c) => c.a === id || c.b === id).map((c) => `/compare/${c.id}/`).filter((x) => pages.has(x));
+    if (pages.has(`/alternatives/${id}/`)) want.push(`/alternatives/${id}/`);
+    for (const w of want) if (!set.has(w)) fail(p, `pricing page does not link ${w} (every comparison of the tool and its alternatives page)`);
+  }
+  // 2. Curated guides in stack and comparison data must be published guides.
+  for (const [kind, prefix] of [['stacks', '/stacks/'], ['comparisons', '/compare/']]) {
+    for (const [slug, d] of Object.entries(data[kind] ?? {})) for (const g of d.guides ?? []) {
+      if (!pages.has(g) || !/^\/tools\/[a-z0-9-]+\/[a-z0-9-]+\/$/.test(g) || g.endsWith('/pricing/')) fail(`${prefix}${slug}/`, `data lists guide ${g}, which is not a published guide`);
+    }
+  }
+  // 3. Every guide has at least 3 inbound editorial links; every other indexable page at least 2
+  // (content pages: report until ORPHAN_FAIL_FROM, then fail; utility pages: report only).
+  const isGuide = (p) => /^\/tools\/[a-z0-9-]+\/[a-z0-9-]+\/$/.test(p) && !p.endsWith('/pricing/');
+  const isContent = (p) => /^\/(tools|compare|alternatives|stacks)\/[a-z0-9-]+\//.test(p);
+  for (const l of locs) {
+    if (HUBS.has(l) || !pages.has(l)) continue;
+    const n = inbound.get(l)?.size ?? 0;
+    if (isGuide(l) && n < 3) fail(l, `guide has ${n} inbound editorial link(s) from other pages (min 3, not counting / and the hubs)`);
+    else if (n < 2) (isContent(l) && today >= ORPHAN_FAIL_FROM ? fail : warn)(l, `${n} inbound editorial link(s) (min 2, not counting / and the hubs)`);
+  }
+}
+
 // The Content-Security-Policy must match the analytics switch: no scripts at all while GA_ID is
 // empty, and exactly our loader plus Google's tag and collection hosts while it is set.
 const toml = fs.readFileSync('netlify.toml', 'utf8');

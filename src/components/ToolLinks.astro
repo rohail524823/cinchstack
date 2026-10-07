@@ -1,0 +1,22 @@
+---
+// Generated link blocks for a tool's pricing page and review (docs/plan/03-architecture.md,
+// "Internal linking"). "compare": every comparison of the tool plus its alternatives page.
+// "guides": every cost guide for the tool, then other tools' guides about it. Both sit outside
+// Keep reading, so its 5-8 link cap never cuts a comparison or a guide. scripts/check.mjs gates them.
+import { tool } from '../lib/data.mjs';
+import { toolLinks } from '../lib/pages.mjs';
+interface Props { id: string; block: 'compare' | 'guides' }
+const { id, block } = Astro.props;
+const t = tool(id);
+const l = await toolLinks(id);
+const compare = [...l.compare, ...(l.alt ? [l.alt] : [])];
+const guides = [...l.guides, ...l.naming];
+---
+{block === 'compare' && compare.length > 0 && (<>
+  <h2 id="compare">Compare {t.name}</h2>
+  <ul data-links="compare">{compare.map((x) => <li><a href={x.href}>{x.label}</a></li>)}</ul>
+</>)}
+{block === 'guides' && guides.length > 0 && (<>
+  <h2 id="guides">{l.guides.length > 0 ? `Cost guides for ${t.name}` : `Guides that cover ${t.name}`}</h2>
+  <ul data-links="guides">{guides.map((x) => <li><a href={x.href}>{x.label}</a></li>)}</ul>
+</>)}

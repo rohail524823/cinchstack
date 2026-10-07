@@ -1,5 +1,6 @@
 {
   "id": "gohighlevel-vs-systeme-io",
+  "guides": ["/tools/systeme-io/free-plan/", "/tools/gohighlevel/plans-compared/"],
   "a": "gohighlevel",
   "b": "systeme-io",
   "layer": "sell",

@@ -22,6 +22,7 @@ import Faq from '../../../components/Faq.astro';
 import AuthorBox from '../../../components/AuthorBox.astro';
 import ServiceBox from '../../../components/ServiceBox.astro';
 import KeepReading from '../../../components/KeepReading.astro';
+import ToolLinks from '../../../components/ToolLinks.astro';
 import Updated from '../../../components/Updated.astro';
 import AlertsCta from '../../../components/AlertsCta.astro';
 
@@ -90,6 +91,8 @@ const glance = [
         <h2 id="billing">Billing rules worth knowing</h2>
         <ul>{p.billingNotes.map((n) => <li>{n}</li>)}</ul>
       </>)}
+      <ToolLinks id={id} block="guides" />
+      <ToolLinks id={id} block="compare" />
       <Provenance ids={[id]} />
       <AlertsCta place="pricing" />
       <div class="cta-row">

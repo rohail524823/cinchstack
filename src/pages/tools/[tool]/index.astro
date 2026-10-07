@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { SITE } from '../../../lib/site.mjs';
-import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, comparisonsFor, trialOffer } from '../../../lib/data.mjs';
+import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, trialOffer } from '../../../lib/data.mjs';
 import { LAYER_LABELS, SIZE_LABELS } from '../../../lib/schemas.mjs';
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
@@ -21,6 +21,7 @@ import Faq from '../../../components/Faq.astro';
 import AuthorBox from '../../../components/AuthorBox.astro';
 import ServiceBox from '../../../components/ServiceBox.astro';
 import KeepReading from '../../../components/KeepReading.astro';
+import ToolLinks from '../../../components/ToolLinks.astro';
 import Updated from '../../../components/Updated.astro';
 import Fig from '../../../components/Fig.astro';
 
@@ -43,9 +44,6 @@ const cheapest = cheapestPaid(id);
 const pricingExists = await exists(`/tools/${id}/pricing/`);
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: t.name }];
 const related = await relatedFor(e.id, e.data.related);
-const reg = await registry();
-const cmps = comparisonsFor(id).filter((c) => reg.has(`/compare/${c.id}/`));
-const altExists = await exists(`/alternatives/${id}/`);
 const BIZ = { agency: 'marketing agencies', 'course-creator': 'coaches and course creators', 'shopify-store': 'online stores', 'local-service': 'local service businesses', freelancer: 'freelancers', 'saas-startup': 'early-stage SaaS teams' };
 const jsonld = [
   breadcrumbNode(url, crumbs),
@@ -90,13 +88,8 @@ const glance = [
         <tbody>{['solo', 'small', 'growing'].map((s) => { const sc = scenario(id, s); return <tr><th scope="row">{SIZE_LABELS[s]}</th><td data-label="Scenario">{sc.label}</td><td class="num" data-label="Per month"><Fig v={sc.monthly} floor={sc.floor} /></td></tr>; })}</tbody>
       </table></div>
       {pricingExists && <p><a href={`/tools/${id}/pricing/`}>Every plan, add-on and hidden cost in {poss(t.name)} pricing →</a></p>}
-      {(cmps.length > 0 || altExists) && (<>
-        <h2 id="compare">Compare {t.name}</h2>
-        <ul>
-          {cmps.map((c) => <li><a href={`/compare/${c.id}/`}>{reg.get(`/compare/${c.id}/`).h1}</a></li>)}
-          {altExists && <li><a href={`/alternatives/${id}/`}>{reg.get(`/alternatives/${id}/`).h1}</a></li>}
-        </ul>
-      </>)}
+      <ToolLinks id={id} block="compare" />
+      <ToolLinks id={id} block="guides" />
       <Provenance ids={[id]} />
       {offer ? (
         <div class="cta-row"><AffLink tool={id} href={offer.href} page={path} placement="end-trial" label={offer.label} /><p class="offer-note">{offer.note}</p></div>
