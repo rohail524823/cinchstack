@@ -1,5 +1,6 @@
 {
   "id": "freelancer",
+  "guides": ["/tools/systeme-io/free-plan/"],
   "label": "Freelancer or solo consultant",
   "profile": "A freelancer or solo consultant who sells their own time or expertise directly to clients, project by project or on retainer, rather than a course, a membership or a product sold to a wider audience.",
   "sizeLabels": {

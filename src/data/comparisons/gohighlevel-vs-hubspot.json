@@ -1,5 +1,6 @@
 {
   "id": "gohighlevel-vs-hubspot",
+  "guides": ["/tools/gohighlevel/migrate-from-hubspot/", "/tools/gohighlevel/plans-compared/"],
   "a": "gohighlevel",
   "b": "hubspot",
   "layer": "run",

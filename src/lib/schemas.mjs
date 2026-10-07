@@ -191,6 +191,8 @@ export const comparisonSchema = z.object({
     b: z.string(),
     edge: z.enum(['a', 'b', 'tie']),
   })).min(5).max(12),
+  // Curated cost guides that lead this comparison's Keep reading (/tools/<tool>/<topic>/).
+  guides: z.array(z.string().regex(/^\/tools\/[a-z0-9-]+\/[a-z0-9-]+\/$/)).max(3).optional(),
   verdicts: z.array(z.object({
     business: z.enum(BUSINESSES),
     pick: z.enum(['a', 'b', 'neither']),
@@ -217,6 +219,8 @@ export const stackSchema = z.object({
   })).min(3),
   extras: z.array(z.object({ name: z.string(), url: z.string().url(), note: z.string() })).default([]),
   skip: z.array(z.object({ what: z.string(), why: z.string() })).default([]),
+  // Curated cost guides that lead this stack's Keep reading (/tools/<tool>/<topic>/).
+  guides: z.array(z.string().regex(/^\/tools\/[a-z0-9-]+\/[a-z0-9-]+\/$/)).max(3).optional(),
 });
 
 export const alternativesSchema = z.object({

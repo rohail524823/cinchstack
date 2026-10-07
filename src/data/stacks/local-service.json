@@ -1,5 +1,6 @@
 {
   "id": "local-service",
+  "guides": ["/tools/gohighlevel/missed-call-text-back/", "/tools/gohighlevel/contractors/", "/tools/gohighlevel/ai-receptionist-cost/"],
   "label": "Local service business",
   "profile": "A clinic, salon, trades company or studio with 1 to 15 people that runs on appointments: it takes bookings, follows up by text and email, and depends on Google reviews and a working website to bring in the next customer.",
   "sizeLabels": { "solo": "Solo operator, one location", "small": "5-person shop, one location", "growing": "15-person business, multiple locations" },
