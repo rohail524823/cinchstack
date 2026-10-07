@@ -1,12 +1,20 @@
 ---
 import { price, tool, checks } from '../lib/data.mjs';
 import { longDate, poss } from '../lib/format.mjs';
-interface Props { ids: string[] }
-const items = Astro.props.ids.map((id) => ({ t: tool(id), p: price(id) }));
+import { registry } from '../lib/pages.mjs';
+// On a page about several tools (comparisons, stacks, alternatives) each tool's method, source list
+// and unverified points stay one click away on its own pricing page instead of being repeated here.
+// `compact` defaults to true when more than one tool is listed; a tool without a pricing page
+// always shows its full record.
+interface Props { ids: string[]; compact?: boolean }
+const { ids, compact = ids.length > 1 } = Astro.props;
+const reg = await registry();
+const items = ids.map((id) => ({ t: tool(id), p: price(id), full: !compact || !reg.has(`/tools/${id}/pricing/`) }));
+const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 ---
 <section class="prov" data-provenance>
   <h2 id="how-we-checked">How we checked this</h2>
-  {items.map(({ t, p }) => (
+  {items.map(({ t, p, full }) => (
     <div class="prov-tool">
       <p><strong>{t.name}:</strong> {p.sources.length} vendor page{p.sources.length === 1 ? '' : 's'} read, last verified <time datetime={p.checkedOn}>{longDate(p.checkedOn)}</time>. Prices are US list prices in USD{p.regional.pricedByCountry ? `; ${p.regional.note}` : '.'}</p>
       {checks[t.id] && (() => { const c = checks[t.id]; return (
@@ -17,17 +25,21 @@ const items = Astro.props.ids.map((id) => ({ t: tool(id), p: price(id) }));
           : <>These prices appear only after choosing options on the vendor's page, so they are re-checked by hand rather than automatically.</>
         }</p>
       ); })()}
-      <details class="prov-more">
-        <summary>How {t.name} was checked: the method and {p.sources.length} source{p.sources.length === 1 ? '' : 's'}{p.unverified.length > 0 ? `, and ${p.unverified.length} point${p.unverified.length === 1 ? '' : 's'} we could not verify` : ''}</summary>
-        <p>{p.method}</p>
-        {/* Numbered from 0 to match the "(source N)" references in each record's notes. */}
-        <ol class="src-list" start="0">
-          {p.sources.map((s, i) => <li id={`src-${t.id}-${i}`}><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
-        </ol>
-        {p.unverified.length > 0 && (
-          <div class="unv"><strong>What we could not verify:</strong><ul>{p.unverified.map((u) => <li>{u}</li>)}</ul></div>
-        )}
-      </details>
+      {full ? (
+        <details class="prov-more">
+          <summary>How {t.name} was checked: the method and {p.sources.length} source{p.sources.length === 1 ? '' : 's'}{p.unverified.length > 0 ? `, and ${p.unverified.length} point${p.unverified.length === 1 ? '' : 's'} we could not verify` : ''}</summary>
+          <p>{p.method}</p>
+          {/* Numbered from 0 to match the "(source N)" references in each record's notes. */}
+          <ol class="src-list" start="0">
+            {p.sources.map((s, i) => <li id={`src-${t.id}-${i}`}><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a> — read {longDate(s.checkedOn)}</li>)}
+          </ol>
+          {p.unverified.length > 0 && (
+            <div class="unv"><strong>What we could not verify:</strong><ul>{p.unverified.map((u) => <li>{u}</li>)}</ul></div>
+          )}
+        </details>
+      ) : (
+        <p class="small"><a href={`/tools/${t.id}/pricing/#how-we-checked`}>{`How ${t.name} was checked: the method, ${p.sources.length === 1 ? 'its one source' : `all ${p.sources.length} sources`}${p.unverified.length > 0 ? ` and the ${plural(p.unverified.length, 'point')} we could not verify` : ''}, on the ${t.name} pricing page`}</a></p>
+      )}
     </div>
   ))}
   <p class="small muted">We re-check every price against the vendor's page each Monday; changes are logged on <a href="/changes/">the changes page</a>. See a price that's wrong? <a href="/contact/">Tell us</a> and we will correct it the same week.</p>

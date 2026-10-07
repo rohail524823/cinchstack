@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { SITE, NAME, ORG_ID } from '../../lib/site.mjs';
-import { tools, pricing, toolIds, cheapestPaid, noPaidPlan } from '../../lib/data.mjs';
+import { tools, pricing, toolIds, cheapestPaid, noPaidPlan, scenario, sizeBasis } from '../../lib/data.mjs';
 import { LAYER_LABELS } from '../../lib/schemas.mjs';
 import { registry } from '../../lib/pages.mjs';
 import { longDate } from '../../lib/format.mjs';
@@ -20,6 +20,28 @@ const latest = lastChecked();
 const nPlans = Object.values(pricing).reduce((a, p) => a + p.plans.length, 0);
 const nScen = Object.values(pricing).reduce((a, p) => a + p.scenarios.length, 0);
 const toolHref = (id) => (reg.has(`/tools/${id}/pricing/`) ? `/tools/${id}/pricing/` : null);
+const oldest = Object.values(pricing).map((p) => p.checkedOn).sort()[0];
+
+// "What the data shows": computed at build time from the same records as scenarios.csv, so every
+// number below moves when a price changes.
+const gaps = toolIds.map((id) => { const c = cheapestPaid(id); const sm = scenario(id, 'small'); return c && sm ? { id, c, sm, ratio: sm.monthly / c.v } : null; }).filter(Boolean);
+const above = gaps.filter((g) => g.sm.monthly > g.c.v).length;
+const sorted = [...gaps].sort((a, b) => a.ratio - b.ratio);
+const mid = sorted.length / 2;
+const median = sorted.length % 2 ? sorted[Math.floor(mid)].ratio : (sorted[mid - 1].ratio + sorted[mid].ratio) / 2;
+const widest = sorted.slice(-3).reverse();
+const narrowest = sorted.slice(0, 3);
+const otherPlan = gaps.filter((g) => g.sm.planId !== g.c.p.id).length;
+const perSeat = gaps.filter((g) => g.c.p.priceUnit === 'per-seat-month').length;
+const metered = toolIds.filter((id) => pricing[id].usage.length > 0).length;
+const withAddOns = toolIds.filter((id) => pricing[id].addOns.length > 0).length;
+const freePlans = toolIds.filter((id) => pricing[id].freeTier.exists).length;
+const times = (r) => (Math.round(r * 10) / 10).toFixed(1);
+// What a five-person business counts as in two jobs, from the same basis the pricing pages show.
+const basisFor = (pred) => { const id = toolIds.find((x) => pred(tools[x])); return id ? sizeBasis(id, 'small').split(',')[0] : null; };
+const crmSmall = basisFor((t) => t.layer === 'run');
+const seoSmall = basisFor((t) => t.layer === 'grow' && /\bseo\b/i.test(t.category));
+const snippet = `Source: <a href="${url}">${NAME} software pricing dataset</a>, prices checked ${longDate(latest)}, licensed <a href="${LICENSE}">CC BY 4.0</a>.`;
 const dataset = {
   '@type': 'Dataset',
   '@id': `${url}#dataset`,
@@ -58,13 +80,24 @@ const dataset = {
       <ul>
         <li><strong>Plans.</strong> The price when billed month to month and the effective monthly price when billed yearly, the unit (flat, per seat, per site) and the main limits.</li>
         <li><strong>Add-ons, usage fees and extra costs.</strong> Extra seats, contact tiers, SMS and email rates, transaction fees and one-time onboarding charges.</li>
-        <li><strong>Team-size costs.</strong> Our estimate of the real monthly bill for one person, a small team of five and a growing team of fifteen, each sized for the job the tool does, with every line shown and a confidence level.</li>
+        <li><strong>Team-size costs.</strong> Our estimate of the real monthly bill at three business sizes: one person, a five-person business and a fifteen-person business. Each tool is sized for the job it does, not for the headcount{crmSmall && seoSmall ? `, so a five-person business counts as ${crmSmall} in a CRM and ${seoSmall} in an SEO tool` : ''}; each scenario's label says what it counts, and <a href="/methodology/#how-we-work-out-the-real-monthly-bill">the methodology</a> has the full table. Every line of the bill is shown, with a confidence level.</li>
         <li><strong>Sources.</strong> The vendor URL each figure came from and the date we read it. Anything we could not confirm is listed separately and never shown as a price.</li>
       </ul>
 
+      <h2 id="what-the-data-shows">What the data shows</h2>
+      <p>These figures are computed from the same records as the team-cost CSV, with prices checked between <time datetime={oldest}>{longDate(oldest)}</time> and <time datetime={latest}>{longDate(latest)}</time>. Each tool's cheapest paid plan is taken at its advertised price, which for a per-seat plan means one seat.</p>
+      <ul>
+        <li>In {above === gaps.length ? <>all <data value={above}>{above}</data></> : <><data value={above}>{above}</data> of the <data value={gaps.length}>{gaps.length}</data></>} tools with a self-serve paid plan, CinchStack's estimate of a small team's real monthly bill is higher than the cheapest plan's advertised price. The median small-team bill is <data value={times(median)}>{times(median)}</data> times that price.</li>
+        <li>In <data value={otherPlan}>{otherPlan}</data> of those tools the small-team scenario uses a different plan from the cheapest one. Of the cheapest plans, <data value={perSeat}>{perSeat}</data> are priced per seat, while the small-team bill counts every seat the job needs.</li>
+        <li>The gap is widest for {widest.map((g, i) => <>{i > 0 && (i === widest.length - 1 ? ' and ' : ', ')}<a href={toolHref(g.id) ?? `/tools/${g.id}/`}>{tools[g.id].name}</a> (<Fig v={g.c.v} suffix="/mo" /> to <Fig v={g.sm.monthly} suffix="/mo" floor={g.sm.floor} />, <data value={times(g.ratio)}>{times(g.ratio)}</data> times)</>)}, and narrowest for {narrowest.map((g, i) => <>{i > 0 && (i === narrowest.length - 1 ? ' and ' : ', ')}<a href={toolHref(g.id) ?? `/tools/${g.id}/`}>{tools[g.id].name}</a> (<Fig v={g.c.v} suffix="/mo" /> to <Fig v={g.sm.monthly} suffix="/mo" floor={g.sm.floor} />, <data value={times(g.ratio)}>{times(g.ratio)}</data> times)</>)}. Each tool's pricing page shows what its small-team bill counts.</li>
+        <li><data value={metered}>{metered}</data> of the <data value={toolIds.length}>{toolIds.length}</data> tools bill some usage per unit on top of the subscription, <data value={withAddOns}>{withAddOns}</data> sell paid add-ons, and <data value={freePlans}>{freePlans}</data> offer a free plan.</li>
+      </ul>
+
       <h2 id="how-to-cite">How to cite this data</h2>
-      <p>You may copy, share and adapt the dataset for any purpose, including commercial use, under the <a href={LICENSE} rel="license noopener">Creative Commons Attribution 4.0 licence</a>. Please credit us and link back:</p>
+      <p>You may copy, share and adapt the dataset for any purpose, including commercial use, under the <a href={LICENSE} rel="license noopener">Creative Commons Attribution 4.0 license</a>. Please credit us and link back:</p>
       <blockquote class="callout mono small">{CITATION}</blockquote>
+      <p>On a web page, this HTML credit line is ready to paste:</p>
+      <pre class="callout mono small" style="white-space:pre-wrap;overflow-wrap:anywhere"><code>{snippet}</code></pre>
       <p>If you quote a single price, link to that tool's pricing page on this site so readers can see the check date. Prices change; a figure is only as good as the date beside it.</p>
 
       <h2 id="fields">Field notes</h2>
@@ -79,7 +112,7 @@ const dataset = {
     <section class="section">
       <h2 id="tools">Tools in the dataset</h2>
       <p class="table-lead">Every tool in the files, with its cheapest paid plan (the month-to-month price where one is offered) and the date we last read its pricing page.</p>
-      <div class="tbl-wrap">
+      <div class="tbl-wrap" tabindex="0" role="region" aria-label="Tools in the dataset with their cheapest paid plan">
         <table class="data stack">
           <thead><tr><th scope="col">Tool</th><th scope="col">Layer</th><th scope="col" class="num">Plans</th><th scope="col" class="num">Cheapest paid plan</th><th scope="col">Checked</th></tr></thead>
           <tbody>

@@ -1,5 +1,6 @@
 ---
-import { tool, comparisons, stacks, paysUsOn } from '../lib/data.mjs';
+import { tool, comparisons, stacks, paysUsOn, price } from '../lib/data.mjs';
+import { longDate } from '../lib/format.mjs';
 import AffLink from './AffLink.astro';
 interface Props { id: string; page: string }
 const c = comparisons[Astro.props.id];
@@ -7,9 +8,15 @@ const { page } = Astro.props;
 const pickId = (v) => (v.pick === 'a' ? c.a : v.pick === 'b' ? c.b : null);
 const A = tool(c.a), B = tool(c.b);
 const BIZ = { agency: 'Marketing agency', 'course-creator': 'Coach or course creator', 'shopify-store': 'Online store', 'local-service': 'Local service business', freelancer: 'Freelancer or consultant', 'saas-startup': 'Early-stage SaaS' };
+// The lead names the pick for every kind of business, from the same verdicts the table shows.
+const PLURAL = { agency: 'marketing agencies', 'course-creator': 'coaches and course creators', 'shopify-store': 'online stores', 'local-service': 'local service businesses', freelancer: 'freelancers and consultants', 'saas-startup': 'early-stage SaaS teams' };
+const list = (a) => (a.length <= 1 ? a.join('') : `${a.slice(0, -1).join(', ')} or ${a.at(-1)}`);
+const forPick = (k) => list(c.verdicts.filter((v) => v.pick === k).map((v) => PLURAL[v.business]));
+const parts = [['a', A.name], ['b', B.name], ['neither', 'neither of them']].filter(([k]) => forPick(k)).map(([k, n]) => `${n} for ${forPick(k)}`);
+const checked = longDate([price(c.a).checkedOn, price(c.b).checkedOn].sort()[0]);
 ---
-<p class="table-lead">Which one we would pick for each kind of business, and the one-line reason.</p>
-<div class="tbl-wrap"><table class="data stack">
+<p class="table-lead">{`Between ${A.name} and ${B.name}, on prices checked on ${checked}, we would pick ${parts.join('; ')}. The reason for each is in its row.`}</p>
+<div class="tbl-wrap" tabindex="0" role="region" aria-label={`Which of ${A.name} and ${B.name} we would pick by kind of business`}><table class="data stack">
   <thead><tr><th scope="col">If you run a…</th><th scope="col">Pick</th><th scope="col">Why</th></tr></thead>
   <tbody>
     {c.verdicts.map((v) => <tr><th scope="row">{stacks[v.business] ? <a href={`/stacks/${v.business}/`}>{BIZ[v.business]}</a> : BIZ[v.business]}</th><td class="edge" data-label="Pick">{v.pick === 'a' ? A.name : v.pick === 'b' ? B.name : 'Neither'}{pickId(v) && paysUsOn(pickId(v), page) && <><br /><AffLink tool={pickId(v)} href={tool(pickId(v)).pricingUrl} page={page} placement={`verdict-${v.business}`} label="See plans" variant="inline" /></>}</td><td data-prose data-label="Why">{v.why}</td></tr>)}

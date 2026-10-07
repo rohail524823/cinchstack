@@ -6,7 +6,7 @@ import { tool, price, scenario, cheapestPaid, noPaidPlan, faqs, trialOffer } fro
 import { LAYER_LABELS, SIZE_LABELS } from '../../../lib/schemas.mjs';
 import { registry, relatedFor, exists } from '../../../lib/pages.mjs';
 import { datesFor } from '../../../lib/meta.mjs';
-import { figHtml, poss } from '../../../lib/format.mjs';
+import { figHtml, poss, longDate } from '../../../lib/format.mjs';
 import { breadcrumbNode, articleNode, softwareNode, reviewNode, faqNode } from '../../../lib/jsonld.mjs';
 import { mdxComponents } from '../../../components/mdx/index.mjs';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
@@ -82,8 +82,8 @@ const glance = [
         <div class="pick"><span class="lbl">Weaknesses</span><ul>{t.cons.map((x) => <li>{x}</li>)}</ul></div>
       </div>
       <h2 id="real-cost">What {t.name} really costs</h2>
-      <p class="table-lead">The real monthly bill at three business sizes, every line included{pricingExists ? '; the full breakdown is on the pricing page' : ''}.</p>
-      <div class="tbl-wrap"><table class="data stack">
+      <p class="table-lead">{`CinchStack's estimate of ${poss(t.name)} real monthly bill as of ${longDate(p.checkedOn)}, every line included: `}<Fig v={scenario(id, 'solo').monthly} floor={scenario(id, 'solo').floor} floorText="at least " />{` for a solo operator, `}<Fig v={scenario(id, 'small').monthly} floor={scenario(id, 'small').floor} floorText="at least " />{` for a small team and `}<Fig v={scenario(id, 'growing').monthly} floor={scenario(id, 'growing').floor} floorText="at least " />{` for a growing team${pricingExists ? `; the ${t.name} pricing page breaks down each line` : ''}.`}</p>
+      <div class="tbl-wrap" tabindex="0" role="region" aria-label={`${poss(t.name)} real monthly bill by business size`}><table class="data stack">
         <thead><tr><th scope="col">Size</th><th scope="col">Scenario</th><th scope="col" class="num">Per month</th></tr></thead>
         <tbody>{['solo', 'small', 'growing'].map((s) => { const sc = scenario(id, s); return <tr><th scope="row">{SIZE_LABELS[s]}</th><td data-label="Scenario">{sc.label}</td><td class="num" data-label="Per month"><Fig v={sc.monthly} floor={sc.floor} /></td></tr>; })}</tbody>
       </table></div>

@@ -19,6 +19,18 @@ const url = `${SITE}${path}`;
 const crumbs = [{ label: 'Home', href: '/' }, { label: 'Tools' }];
 const title = 'Software tools for small businesses and what they really cost';
 const description = 'Every tool CinchStack covers, grouped by what it does for your business, with the real monthly bill for a small team and our score.';
+
+// "How much does a CRM cost?": the CRMs are the tools in the Run layer. Every figure comes from data.
+const crms = byLayer.run.filter((id) => href(id));
+const crmRows = crms.map((id) => ({ id, c: cheapestPaid(id), sm: scenario(id, 'small') }));
+const names = (ids) => { const n = ids.map((id) => tools[id].name); return n.length <= 1 ? n.join('') : `${n.slice(0, -1).join(', ')} and ${n.at(-1)}`; };
+const freeCrms = crms.filter((id) => pricing[id].freeTier.exists);
+const paidRows = crmRows.filter((r) => r.c);
+const lowPaid = paidRows.length ? Math.min(...paidRows.map((r) => r.c.v)) : null;
+const lowPaidRows = paidRows.filter((r) => r.c.v === lowPaid);
+const bySmall = [...crmRows].sort((a, b) => a.sm.monthly - b.sm.monthly);
+const crmDates = crms.map((id) => pricing[id].checkedOn).sort();
+const crmWhen = crmDates[0] === crmDates.at(-1) ? `on ${longDate(crmDates[0])}` : `between ${longDate(crmDates[0])} and ${longDate(crmDates.at(-1))}`;
 ---
 <Base title={title} description={description} path={path} jsonld={[breadcrumbNode(url, crumbs), webPageNode({ url, name: title, description, type: 'CollectionPage' }), itemListNode(url, 'Tools', listed.map((id) => ({ name: tools[id].name, url: `${SITE}${href(id)}` })))]}>
   <div class="wrap page">
@@ -28,7 +40,7 @@ const description = 'Every tool CinchStack covers, grouped by what it does for y
     <section class="section">
       <h2 id="sticker-vs-real">Sticker price vs the real bill</h2>
       <p class="table-lead">For every tool we track: the cheapest paid plan as the vendor advertises it, next to what a small team really pays each month once seats, contact tiers, add-ons and usage are counted. A five-person business doesn't need five seats in every tool, so each bill is sized for the tool's job, shown under the figure and explained in <a href="/methodology/#how-we-work-out-the-real-monthly-bill">how we check</a>. Prices as verified on each tool's check date.</p>
-      <div class="tbl-wrap"><table class="data stack">
+      <div class="tbl-wrap" tabindex="0" role="region" aria-label="Sticker price against the real small-team bill for every tool"><table class="data stack">
         <thead><tr><th scope="col">Tool</th><th scope="col">Job</th><th scope="col" class="num">Cheapest paid plan</th><th scope="col" class="num">Real bill, small team</th><th scope="col">Checked</th></tr></thead>
         <tbody>
           {toolIds.map((id) => { const c = cheapestPaid(id); const sm = scenario(id, 'small'); return (
@@ -43,6 +55,27 @@ const description = 'Every tool CinchStack covers, grouped by what it does for y
         </tbody>
       </table></div>
     </section>
+    {crmRows.length > 1 && (
+      <section class="section">
+        <h2 id="crm-cost">How much does a CRM cost a small business?</h2>
+        <p>{`On prices checked ${crmWhen}, `}{freeCrms.length > 0 && <>{`a small business can start on a CRM for `}<Fig v={0} />{` with the free plan${freeCrms.length > 1 ? 's' : ''} of ${names(freeCrms)}; `}</>}{lowPaidRows.length > 0 && <>{`the cheapest paid plan among the ${crmRows.length} CRMs we track is `}<Fig v={lowPaid} suffix="/mo" />{lowPaidRows.some((r) => r.c.p.priceUnit === 'per-seat-month') ? ' per seat' : ''}{` (${lowPaidRows.map((r) => `${tools[r.id].name} ${r.c.p.name}`).join(' and ')}); `}</>}{`and once seats, contacts and usage are counted, CinchStack's estimate of a small team's real monthly bill runs from `}<Fig v={bySmall[0].sm.monthly} suffix="/mo" floor={bySmall[0].sm.floor} />{` with ${tools[bySmall[0].id].name} to `}<Fig v={bySmall.at(-1).sm.monthly} suffix="/mo" floor={bySmall.at(-1).sm.floor} />{` with ${tools[bySmall.at(-1).id].name}.`}</p>
+        <p class="table-lead">{`The ${crmRows.length} CRMs side by side, cheapest small-team bill first: whether each has a free plan, its cheapest paid plan, and the real bill for a five-person business, which each CRM counts as the users and contacts shown under the figure.`}</p>
+        <div class="tbl-wrap" tabindex="0" role="region" aria-label="What each CRM costs a small business"><table class="data stack">
+          <thead><tr><th scope="col">CRM</th><th scope="col">Free plan</th><th scope="col" class="num">Cheapest paid plan</th><th scope="col" class="num">Real bill, small team</th><th scope="col">Checked</th></tr></thead>
+          <tbody>
+            {bySmall.map(({ id, c, sm }) => (
+              <tr>
+                <th scope="row"><a href={href(id)}>{tools[id].name}</a></th>
+                <td data-label="Free plan">{pricing[id].freeTier.exists ? 'Yes' : 'No'}</td>
+                <td class="num" data-label="Cheapest paid">{c ? <><Fig v={c.v} suffix="/mo" /><span class="sub">{c.p.name}{c.p.priceUnit === 'per-seat-month' ? ', per seat' : ''}</span></> : <>{noPaidPlan(id).value}<span class="sub">{noPaidPlan(id).sub}</span></>}</td>
+                <td class="num" data-label="Real bill"><Fig v={sm.monthly} suffix="/mo" floor={sm.floor} /><span class="sub">{sizeBasis(id, 'small')}{sm.floor ? ' · lowest possible' : ''}</span></td>
+                <td data-label="Checked"><time datetime={pricing[id].checkedOn}>{longDate(pricing[id].checkedOn)}</time></td>
+              </tr>
+            ))}
+          </tbody>
+        </table></div>
+      </section>
+    )}
     {guides.length > 0 && (
       <section class="section" aria-labelledby="guides">
         <h2 id="guides">Cost guides</h2>
