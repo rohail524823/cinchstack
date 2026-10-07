@@ -3,7 +3,7 @@
   "items": [
     {
       "q": "Is WooCommerce cheaper than Shopify?",
-      "a": "Usually at the start, but not automatically forever. WooCommerce's core plugin costs $0, with no plan tiers and no cut of sales, while Shopify's cheapest plan, Basic, costs $39 a month. WooCommerce still needs hosting, though, and a budget host such as Pressable starts around $25 a month, which is below Shopify's Basic price. The gap tends to hold as a team grows too, mainly because Shopify charges more once a store needs extra staff logins, while WooCommerce's WordPress user accounts stay free at any size. WooCommerce's price advantage narrows once a store adds paid extensions: common ones such as WooCommerce Subscriptions or Bookings cost $279 and $249 a year, on top of hosting, and two or three of those can close most of the gap to Shopify's Grow or Advanced plans."
+      "a": "Usually at the start, but not automatically forever. As of 26 September 2026, WooCommerce's core plugin costs $0, with no plan tiers and no cut of sales, while Shopify's cheapest plan, Basic, costs $39 a month. WooCommerce still needs hosting, though, and a budget host such as Pressable starts around $25 a month, which is below Shopify's Basic price. The gap tends to hold as a team grows too, mainly because Shopify charges more once a store needs extra staff logins, while WooCommerce's WordPress user accounts stay free at any size. WooCommerce's price advantage narrows once a store adds paid extensions: common ones such as WooCommerce Subscriptions or Bookings cost $279 and $249 a year, on top of hosting, and two or three of those can close most of the gap to Shopify's Grow or Advanced plans."
     },
     {
       "q": "Can I switch from Shopify to WooCommerce, or the other way, later?",
@@ -18,7 +18,7 @@
       "a": "No. WooCommerce's own pricing page states a 0% platform fee, and that applies no matter which payment gateway processes the sale. Shopify only avoids its own transaction fee when a store uses Shopify Payments, Shop Pay or PayPal Express Checkout; picking a different payment gateway on Shopify adds a charge of 2% on Basic, 1% on Grow or 0.6% on Advanced, on top of that gateway's own processing rate. WooCommerce's own payment processor, WooPayments, is not free of extra charges, though: it adds 1.5% for a card issued outside the US, another 1% when the customer pays in a different currency than your payout account, and a flat $15 for every disputed charge. The real difference is that Shopify can charge extra for choosing a different gateway, and WooCommerce cannot."
     },
     {
-      "q": "Which one is better for a store that sells in person too?",
+      "q": "Is Shopify or WooCommerce better for a store that sells in person too?",
       "a": "Shopify, for most stores that split time between an online store and a physical counter. Shopify POS is built into every plan for casual in-person selling, and POS Pro adds advanced tools such as unlimited staff roles and in-store inventory for $89 per location a month. WooCommerce has no built-in point-of-sale system: selling in person means adding a separate POS extension and card reader on top of the core plugin and hosting, and WooCommerce's own pages do not publish a price for that setup. A retailer whose business is mostly walk-in, with an online store on the side, will generally find Shopify's bundled POS simpler to set up and support than assembling an equivalent on WooCommerce."
     },
     {

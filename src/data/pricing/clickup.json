@@ -398,19 +398,19 @@
     "Yearly billing is cheaper: Unlimited $7 vs $10 and Business $12 vs $19 per member per month; Brain AI $9 vs $14 and Everything AI $28 vs $33. The page says 'Save up to 30% with yearly' for plans and 'Save up to 20% with yearly' for AI, but the listed prices work out to 30% off Unlimited, about 37% off Business, about 36% off Brain AI and about 15% off Everything AI.",
     "Monthly and yearly licenses can't be mixed in one Workspace. Switching from monthly to yearly billing means contacting Support, and the switch charges the next 12 months when the plan renews.",
     "Paid seats are owners, admins, members and limited members. 'Chat collaborators' (view-only limited members) are free on Unlimited and above, view-only guests are unlimited and free, and permission-controlled guests are free up to the plan's allowance. People from inside your organization are billed as paid users, not guests.",
-    "Paid users added mid-cycle are charged a prorated amount for the time left in the cycle. When a member is removed, their seat stays open until a new member fills it; ClickUp's help centre does not say whether an open seat still counts toward the bill, or is dropped, at the next renewal if it stays unfilled.",
+    "Paid users added mid-cycle are charged a prorated amount for the time left in the cycle. When a member is removed, their seat stays open until a new member fills it; ClickUp's help center does not say whether an open seat still counts toward the bill, or is dropped, at the next renewal if it stays unfilled.",
     "AI add-ons are bought per Workspace and billed for every member, including open seats: Brain AI for a 15-member Workspace is 15 x $14 = $210/mo month-to-month. Free Forever Workspaces can't buy AI add-ons.",
     "Automation action allowances reset on the first of every month (PST). When a Workspace goes over, its Automations pause for the rest of that month; extra actions can be bought only on Business Plus and Enterprise.",
-    "Cancelling or downgrading takes effect at the end of the billing cycle, and add-ons must be removed separately. All paid plan subscriptions renew automatically.",
-    "Refunds: the pricing page advertises a '100% Money-back Guarantee' and its FAQ says to ask within 30 days; the help centre limits the full refund to new customers within 30 days of their first paid plan subscription (including add-ons bought with it), with no refunds after 30 days.",
+    "Canceling or downgrading takes effect at the end of the billing cycle, and add-ons must be removed separately. All paid plan subscriptions renew automatically.",
+    "Refunds: the pricing page advertises a '100% Money-back Guarantee' and its FAQ says to ask within 30 days; the help center limits the full refund to new customers within 30 days of their first paid plan subscription (including add-ons bought with it), with no refunds after 30 days.",
     "Payment by Visa, Mastercard, American Express or Discover; ClickUp can't process prepaid debit cards or PayPal. Bank transfer is accepted only for Enterprise orders above a minimum.",
-    "Business Plus (custom role permissions, priority support, 25,000 Automation actions a month) is not on the public pricing page; ClickUp says its details show only in the in-app upgrade flow. The help centre also says some Workspaces see a new set of plans that include more ClickUp AI.",
+    "Business Plus (custom role permissions, priority support, 25,000 Automation actions a month) is not on the public pricing page; ClickUp says its details show only in the in-app upgrade flow. The help center also says some Workspaces see a new set of plans that include more ClickUp AI.",
     "ClickUp offers nonprofit and academic discounts and startup credits by application; amounts aren't published.",
     "ClickUp charges sales tax in some US jurisdictions (including New York, Pennsylvania, Texas and Washington) and VAT or GST in many other countries; the renewal total includes tax where it applies."
   ],
   "regional": {
     "pricedByCountry": false,
-    "note": "ClickUp publishes one USD price list: its German-language pricing page shows the same $7/$10/$12/$19 prices, and its help centre says customers whose local currency isn't USD are charged in USD, with no conversion fee from ClickUp (banks may add a foreign transaction fee). VAT, GST or sales tax is added based on the billing address. Checked from a US locale only."
+    "note": "ClickUp publishes one USD price list: its German-language pricing page shows the same $7/$10/$12/$19 prices, and its help center says customers whose local currency isn't USD are charged in USD, with no conversion fee from ClickUp (banks may add a foreign transaction fee). VAT, GST or sales tax is added based on the billing address. Checked from a US locale only."
   },
   "scenarios": [
     {
@@ -455,7 +455,7 @@
   ],
   "unverified": [
     "Enterprise pricing is quote-only ('Contact sales').",
-    "Business Plus, and the 'new set of plans that include more ClickUp AI' that ClickUp's help centre says some Workspaces see, are priced only inside the app's upgrade flow; their prices are not on the public pricing page and were not captured.",
+    "Business Plus, and the 'new set of plans that include more ClickUp AI' that ClickUp's help center says some Workspaces see, are priced only inside the app's upgrade flow; their prices are not on the public pricing page and were not captured.",
     "Prices of the Automation Actions add-on (Business Plus and Enterprise only), the standalone AI Talk to Text add-on and ClickUp Assist (live 1:1 training) are shown only in a Workspace's billing page or not at all on the pages we captured. Whether the standalone AI Notetaker add-on has a fee beyond its hour blocks is not stated.",
     "Nonprofit, academic and startup discount amounts are not published.",
     "ClickUp's 'Upgrade your plan' help article says Free Forever Workspaces with more than 100 MB of data must upgrade, while the pricing page, the feature list and the 'Workspace storage limits' article say 60MB; this record uses 60MB.",

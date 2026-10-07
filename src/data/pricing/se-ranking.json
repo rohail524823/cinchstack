@@ -107,7 +107,7 @@
       "annualMonthly": 103.2,
       "priceUnit": "per-month",
       "seatsIncluded": 1,
-      "note": "Pitched as 'SEO + GEO for marketing teams with repeatable delivery.' Both the monthly ($129) and annual-equivalent ($103.20, i.e. 20% off) prices are shown together on the pricing page's default view (source 1); the page's Monthly-only toggle shows $129/mo alone (source 0). An extra manager seat costs $20/month; buying more tracked keywords starts from $22.40/month (see addOns).",
+      "note": "Pitched as 'SEO + GEO for marketing teams with repeatable delivery.' Both the monthly ($129) and annual-equivalent ($103.20, i.e. 20% off) prices are shown together on the pricing page's default view (source 1); the page's Monthly-only toggle shows $129/mo alone (source 0). An extra manager seat costs $20/month; buying more tracked keywords starts from $22.40/month (see the add-ons table).",
       "limits": [
         "10 projects",
         "1 manager seat (the administrator) included",
@@ -136,7 +136,7 @@
       "annualMonthly": 223.2,
       "priceUnit": "per-month",
       "seatsIncluded": 3,
-      "note": "Pitched as 'Automation and collaboration for multi-client SEO + GEO.' Both the monthly ($279) and annual-equivalent ($223.20, i.e. 20% off) prices are shown together on the pricing page's default view (source 1); the page's Monthly-only toggle shows $279/mo alone (source 0). An extra manager seat costs $20/month; buying more tracked keywords starts from $32/month (see addOns).",
+      "note": "Pitched as 'Automation and collaboration for multi-client SEO + GEO.' Both the monthly ($279) and annual-equivalent ($223.20, i.e. 20% off) prices are shown together on the pricing page's default view (source 1); the page's Monthly-only toggle shows $279/mo alone (source 0). An extra manager seat costs $20/month; buying more tracked keywords starts from $32/month (see the add-ons table).",
       "limits": [
         "30 projects",
         "3 manager seats included",
@@ -184,7 +184,7 @@
       "price": 20,
       "unit": "per user per month",
       "appliesTo": ["core", "growth"],
-      "note": "SE Ranking's Users FAQ states additional user seats cost $20/month per user on any plan once you hit its included-seat limit (source 4), confirmed by the User seats help article (source 5). The pricing page's own 'Compare plans' table separately lists 'Extra Manager Seats: from $16' for both Core and Growth, unchanged whether the page's Monthly or Annually toggle is active (sources 2 and 3) — see unverified[] for this discrepancy.",
+      "note": "SE Ranking's Users FAQ states additional user seats cost $20/month per user on any plan once you hit its included-seat limit (source 4), confirmed by the User seats help article (source 5). The pricing page's own 'Compare plans' table separately lists 'Extra Manager Seats: from $16' for both Core and Growth, unchanged whether the page's Monthly or Annually toggle is active (sources 2 and 3) — see the points we could not verify for this discrepancy.",
       "source": 4
     },
     {
@@ -211,7 +211,7 @@
       "price": 69,
       "unit": "per month, billed annually together with the main subscription (annual Core, Growth or Enterprise plans only)",
       "appliesTo": ["core", "growth", "enterprise"],
-      "note": "Adds white-label platform/reporting, unlimited scheduled reports & AI summaries, Agency Catalog placement and the Lead Generator widget; can only be added to an annual subscription (source 10). The pricing page lists '30 projects, 30 client seats' for the Agency Pack (source 1), but SE Ranking's own Agency Pack help article describes its Client Seats feature as 'Invite up to 10 specialists' (source 10) — see unverified[] for this discrepancy.",
+      "note": "Adds white-label platform/reporting, unlimited scheduled reports & AI summaries, Agency Catalog placement and the Lead Generator widget; can only be added to an annual subscription (source 10). The pricing page lists '30 projects, 30 client seats' for the Agency Pack (source 1), but SE Ranking's own Agency Pack help article describes its Client Seats feature as 'Invite up to 10 specialists' (source 10) — see the points we could not verify for this discrepancy.",
       "source": 1
     },
     {
@@ -276,7 +276,7 @@
   ],
   "regional": {
     "pricedByCountry": false,
-    "note": "The German-locale pricing page (seranking.com/de/subscription.html) shows the same USD list prices ($129/$103.20 Core, $279/$223.20 Growth) as the US page — checked from the DE locale only, no other countries tested. SE Ranking's billing FAQ says VAT is added on top of these prices for customers in EU countries and the UK (see extraCosts); no VAT applies to US billing."
+    "note": "The German-locale pricing page (seranking.com/de/subscription.html) shows the same USD list prices ($129/$103.20 Core, $279/$223.20 Growth) as the US page — checked from the DE locale only, no other countries tested. SE Ranking's billing FAQ says VAT is added on top of these prices for customers in EU countries and the UK (see the other costs table); no VAT applies to US billing."
   },
   "scenarios": [
     {
@@ -304,7 +304,7 @@
       ],
       "monthly": 149,
       "confidence": "high",
-      "note": "Paid annually instead, the Core plan alone would run $103.20/month; the extra-seat add-on's annual price was not confirmed (see unverified[])."
+      "note": "Paid annually instead, the Core plan alone would run $103.20/month; the extra-seat add-on's annual price was not confirmed (see the points we could not verify)."
     },
     {
       "size": "growing",
@@ -318,7 +318,7 @@
       ],
       "monthly": 299,
       "confidence": "high",
-      "note": "5,000 keywords/day is exactly Growth's default keyword-tracking tier, with no headroom; more would require the 'extra keywords' add-on (from $32/month, see addOns). Paid annually instead, the Growth plan alone would run $223.20/month; the extra-seat add-on's annual price was not confirmed."
+      "note": "5,000 keywords/day is exactly Growth's default keyword-tracking tier, with no headroom; more would require the 'extra keywords' add-on (from $32/month, see the add-ons table). Paid annually instead, the Growth plan alone would run $223.20/month; the extra-seat add-on's annual price was not confirmed."
     }
   ],
   "unverified": [

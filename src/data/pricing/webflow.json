@@ -723,7 +723,7 @@
     "Yearly billing is cheaper: Basic $15 vs $25, Premium $25 vs $39, Limited seat $15 vs $19 and Full seat $39 vs $45 per month. Webflow advertises 'Save up to 40%'.",
     "The Team platform plan ($2,500/mo) requires an annual contract and has no monthly option.",
     "Switching the Workspace plan between monthly and yearly billing also switches the billing frequency of its paid seats.",
-    "Cancelling keeps a plan active until the end of the term, and you still pay the remainder of the term. Only new Site and Workspace plan purchases are refundable (within 14 days); renewals, seats, add-ons, AI credits and bandwidth auto-upgrades are not.",
+    "Canceling keeps a plan active until the end of the term, and you still pay the remainder of the term. Only new Site and Workspace plan purchases are refundable (within 14 days); renewals, seats, add-ons, AI credits and bandwidth auto-upgrades are not.",
     "Upgrades, downgrades and billing-frequency switches are prorated, with any credit held as Workspace credit rather than refunded.",
     "May 2026 price change: the CMS and Business plans were merged into Premium ($25/mo yearly, $39/mo monthly) and Basic went up to $15/mo yearly, $25/mo monthly. Existing sites move over at their next renewal or billable change from June 29, 2026, or from November 16, 2026 for sites in Freelancer or Agency Workspaces and sites on legacy pricing from 2022 or earlier. Switching from monthly to yearly billing before the change applies locks in the current plan for one more year.",
     "Bandwidth is metered per site and counts traffic from bots as well as people.",

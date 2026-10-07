@@ -2,7 +2,7 @@
   "tool": "ahrefs",
   "currency": "USD",
   "checkedOn": "2026-09-26",
-  "method": "Read from Ahrefs' pricing page (default monthly view and with the 'Pay annually' switch on), its add-on product pages, FAQ and Terms of Service, and Ahrefs help-centre articles on plans, users, credits, billing and tax in a US-locale headless browser; snapshots saved.",
+  "method": "Read from Ahrefs' pricing page (default monthly view and with the 'Pay annually' switch on), its add-on product pages, FAQ and Terms of Service, and Ahrefs help-center articles on plans, users, credits, billing and tax in a US-locale headless browser; snapshots saved.",
   "sources": [
     {
       "url": "https://ahrefs.com/pricing",
@@ -138,7 +138,7 @@
     },
     {
       "url": "https://help.ahrefs.com/en/articles/73707-how-do-i-unsubscribe-cancel-my-subscription-delete-my-account",
-      "label": "Ahrefs help: cancelling a subscription",
+      "label": "Ahrefs help: canceling a subscription",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/ahrefs/2026-09-26-help-cancel.txt"
     },
@@ -192,7 +192,7 @@
   "trial": {
     "days": null,
     "cardRequired": null,
-    "summary": "No free trial. Ahrefs' help centre says 'We don't provide any free trials' and points to the free Ahrefs Free account instead, and the pricing FAQ says Ahrefs never runs discounts. The cheapest paid entry is Starter at $29/month, which renews monthly and can be cancelled before the renewal date.",
+    "summary": "No free trial. Ahrefs' help center says 'We don't provide any free trials' and points to the free Ahrefs Free account instead, and the pricing FAQ says Ahrefs never runs discounts. The cheapest paid entry is Starter at $29/month, which renews monthly and can be canceled before the renewal date.",
     "source": 14
   },
   "plans": [
@@ -329,7 +329,7 @@
       "annualMonthly": 1249.17,
       "priceUnit": "per-month",
       "seatsIncluded": 3,
-      "note": "Not month-to-month: the plan card says 'Annual commitment required' (source 0) and the help centre gives Enterprise a minimum 1-year subscription (source 16), so paying monthly means 12 × $1,499 = $17,988 over the minimum term. Paid upfront it is $14,990 a year (source 1): $14,990 ÷ 12 = $1,249.17 a month. The comparison table lists included users as 'From 3' and several limits as 'From', and the card's button is 'Talk to sales'. Only Enterprise can pay by bank or wire transfer (sources 17 and 18).",
+      "note": "Not month-to-month: the plan card says 'Annual commitment required' (source 0) and the help center gives Enterprise a minimum 1-year subscription (source 16), so paying monthly means 12 × $1,499 = $17,988 over the minimum term. Paid upfront it is $14,990 a year (source 1): $14,990 ÷ 12 = $1,249.17 a month. The comparison table lists included users as 'From 3' and several limits as 'From', and the card's button is 'Talk to sales'. Only Enterprise can pay by bank or wire transfer (sources 17 and 18).",
       "limits": [
         "From 3 users included; unlimited additional users",
         "100 projects with unverified ownership (unlimited verified); 100 competitors per project",
@@ -356,7 +356,7 @@
       "price": 40,
       "unit": "per user per month",
       "appliesTo": ["lite"],
-      "note": "The pricing page lists $40/mo per additional user on Lite, up to 2 (source 0). Ahrefs' help centre says Lite users are billed by the credits they use in the month: 0–5 credits free (Inactive), 6–100 credits $20 (Casual), 101–1,000 credits $40 (Power) (source 4).",
+      "note": "The pricing page lists $40/mo per additional user on Lite, up to 2 (source 0). Ahrefs' help center says Lite users are billed by the credits they use in the month: 0–5 credits free (Inactive), 6–100 credits $20 (Casual), 101–1,000 credits $40 (Power) (source 4).",
       "source": 0
     },
     {
@@ -548,7 +548,7 @@
       "amount": null,
       "display": "Charged automatically when use passes plan limits",
       "kind": "other",
-      "note": "The pricing FAQ says additional users who are not prepaid are charged automatically on a pay-as-you-go basis, and that once pay-as-you-go credits and data are enabled you are charged automatically when consumption exceeds the plan's limits. The help centre adds that charges apply to any activity in the billing period even if the user was removed before it ended (source 4).",
+      "note": "The pricing FAQ says additional users who are not prepaid are charged automatically on a pay-as-you-go basis, and that once pay-as-you-go credits and data are enabled you are charged automatically when consumption exceeds the plan's limits. The help center adds that charges apply to any activity in the billing period even if the user was removed before it ended (source 4).",
       "source": 0
     },
     {
@@ -563,12 +563,12 @@
   ],
   "billingNotes": [
     "Lite, Standard, Advanced and Enterprise can be paid monthly or annually. Annual billing charges the price of 10 months for 12 (Ahrefs' example: Standard $249 × 10 = $2,490 a year). That is a 16.7% saving, which the pricing page rounds to 'save up to 17%'; Ahrefs' help articles call it '~20%' and 'almost 20%'. The annual view shows $1,290, $2,490, $4,490 and $14,990 a year.",
-    "The pricing page's 'Pay annually' switch shows the yearly prices. To move an existing monthly subscription to annual billing, both the pricing FAQ and the help centre say to contact Ahrefs support.",
+    "The pricing page's 'Pay annually' switch shows the yearly prices. To move an existing monthly subscription to annual billing, both the pricing FAQ and the help center say to contact Ahrefs support.",
     "Enterprise needs an annual commitment (minimum 1-year subscription): $1,499 a month or $14,990 a year upfront. Only Enterprise can pay by bank or wire transfer; Lite, Standard and Advanced need a Visa, Mastercard, American Express or UnionPay card.",
     "Starter ($29/mo) renews monthly only, and extra users or credits can't be bought on it.",
     "Every plan except Enterprise includes one user. Additional users that are not prepaid are charged automatically on a pay-as-you-go basis. On Lite the charge depends on the credits a user consumes in the month (0–5 credits free, 6–100 credits $20, 101–1,000 credits $40). On Standard, Advanced and Enterprise every active additional user costs the flat plan rate ($60, $80 or $100). Users set as inactive are free but can only use Site Audit and Rank Tracker, and they do not count toward the plan's user limit.",
     "Pay-as-you-go purchases other than users (report credits, export rows, crawl credits, API units) last three billing months, including the current one, and prepaid limits are used first.",
-    "Refunds: Ahrefs does not issue refunds in general. A monthly subscriber can request one if they haven't used the service, and Ahrefs may decline it if it sees material activity in the account. Cancelling takes effect at the end of the billing period, after which the account drops to Ahrefs Free. There is no option to pause a subscription.",
+    "Refunds: Ahrefs does not issue refunds in general. A monthly subscriber can request one if they haven't used the service, and Ahrefs may decline it if it sees material activity in the account. Canceling takes effect at the end of the billing period, after which the account drops to Ahrefs Free. There is no option to pause a subscription.",
     "Upgrades take effect immediately, charged as the prorated difference for the rest of the billing period; downgrades and cancellations take effect at the end of the current period. Ahrefs' Terms say pricing changes come into effect on your next renewal.",
     "Ahrefs says it never runs discounts: no seasonal sales, no promotional codes and no special pricing for non-profits.",
     "Rank Tracker updates tracked keywords weekly by default on every plan, including Enterprise. Each keyword counts once per location and per project, and one project can hold at most 10,000 tracked keywords."
@@ -621,7 +621,7 @@
     }
   ],
   "unverified": [
-    "Extra tracked keywords: Ahrefs' help centre says they can be bought on any plan in batches of 500, pay-as-you-go or prepaid through support, but no captured page gives the price.",
+    "Extra tracked keywords: Ahrefs' help center says they can be bought on any plan in batches of 500, pay-as-you-go or prepaid through support, but no captured page gives the price.",
     "Faster rank updates: Ahrefs says Rank Tracker updates weekly by default on every plan. Whether more frequent updates can be bought, and at what price, is not stated on any captured page.",
     "Pay-as-you-go prices for export rows and crawl credits are not published on the captured pages; the pricing FAQ only says they are charged automatically once enabled. On API units the two FAQs disagree: the pricing-page FAQ lists them among pay-as-you-go purchases, while Ahrefs' FAQ page says extra API units can't be bought below Enterprise. No price was captured for either.",
     "The 'RB Enterprise' Report Builder add-on (unlimited reports and widgets) is listed on the Report Builder page without a price.",

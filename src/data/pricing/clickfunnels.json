@@ -53,7 +53,7 @@
       "annualMonthly": 81,
       "priceUnit": "per-month",
       "seatsIncluded": 2,
-      "note": "Monthly billing is $97/mo (shown on the \"Monthly Plans\" toggle). The default \"Annual Discount\" view shows $97 struck through against $81/mo billed annually, labelled \"Save $194/year.\"",
+      "note": "Monthly billing is $97/mo (shown on the \"Monthly Plans\" toggle). The default \"Annual Discount\" view shows $97 struck through against $81/mo billed annually, labeled \"Save $194/year.\"",
       "limits": [
         "1 workspace (sub-account)",
         "2 team members",
@@ -78,7 +78,7 @@
       "annualMonthly": 164,
       "priceUnit": "per-month",
       "seatsIncluded": 5,
-      "note": "Monthly billing is $197/mo. The \"Annual Discount\" view shows $197 struck through against $164/mo billed annually, labelled \"Save $394/year.\" Marked \"Most Popular\" on the pricing page.",
+      "note": "Monthly billing is $197/mo. The \"Annual Discount\" view shows $197 struck through against $164/mo billed annually, labeled \"Save $394/year.\" Marked \"Most Popular\" on the pricing page.",
       "limits": [
         "5 workspaces (sub-accounts)",
         "5 team members",
@@ -105,7 +105,7 @@
       "annualMonthly": 248,
       "priceUnit": "per-month",
       "seatsIncluded": 10,
-      "note": "Monthly billing is $297/mo. The \"Annual Discount\" view shows $297 struck through against $248/mo billed annually, labelled \"Save $594/year.\"",
+      "note": "Monthly billing is $297/mo. The \"Annual Discount\" view shows $297 struck through against $248/mo billed annually, labeled \"Save $594/year.\"",
       "limits": [
         "10 workspaces (sub-accounts)",
         "10 team members",
@@ -200,7 +200,7 @@
       ],
       "monthly": 97,
       "confidence": "high",
-      "note": "Billed annually, Launch is shown at $81/month, labelled \"Save $194/year.\""
+      "note": "Billed annually, Launch is shown at $81/month, labeled \"Save $194/year.\""
     },
     {
       "size": "small",
@@ -214,7 +214,7 @@
       ],
       "monthly": 197,
       "confidence": "high",
-      "note": "Billed annually, Scale is shown at $164/month, labelled \"Save $394/year.\""
+      "note": "Billed annually, Scale is shown at $164/month, labeled \"Save $394/year.\""
     },
     {
       "size": "growing",
@@ -228,7 +228,7 @@
       ],
       "monthly": 297,
       "confidence": "high",
-      "note": "Billed annually, Optimize is shown at $248/month, labelled \"Save $594/year.\" Dominate (20 team members, $5,997/yr annual-only, about $500/month) would only be needed above 10 staff accounts or 150,000 contacts."
+      "note": "Billed annually, Optimize is shown at $248/month, labeled \"Save $594/year.\" Dominate (20 team members, $5,997/yr annual-only, about $500/month) would only be needed above 10 staff accounts or 150,000 contacts."
     }
   ],
   "unverified": [

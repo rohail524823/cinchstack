@@ -2,7 +2,7 @@
   "tool": "pipedrive",
   "currency": "USD",
   "checkedOn": "2026-09-26",
-  "method": "Pipedrive's English pricing page (pipedrive.com/en/pricing) returned a Cloudflare bot-block (HTTP 403) to both a US-locale headless Chromium browser and to curl from this network. Prices and plan/add-on data were instead read from Pipedrive's Spanish-locale pricing page (pipedrive.com/es/pricing), which serves the same US-geolocated USD prices from the same underlying pricing data and was not blocked: captured in a headless browser with both billing toggles clicked, and via curl of that page's embedded __NEXT_DATA__ pricingData JSON (Pipedrive's own machine-readable price list, covering every plan, add-on and top-up). This was supplemented with Pipedrive's public Knowledge Base articles and feature pages (LeadBooster, Web Visitors, Projects, Smart Docs, Campaigns, Nova, billing, seats and plan-comparison articles). All pages saved as snapshots.",
+  "method": "Pipedrive's English pricing page (pipedrive.com/en/pricing) returned a Cloudflare bot-block (HTTP 403) to both a US-locale headless Chromium browser and to curl from this network. Prices and plan/add-on data were instead read from Pipedrive's Spanish-locale pricing page (pipedrive.com/es/pricing), which serves the same US-geolocated USD prices from the same underlying pricing data and was not blocked: captured in a headless browser with both billing toggles clicked, and by reading the machine-readable price list built into that page (Pipedrive's own data, covering every plan, add-on and top-up). This was supplemented with Pipedrive's public Knowledge Base articles and feature pages (LeadBooster, Web Visitors, Projects, Smart Docs, Campaigns, Nova, billing, seats and plan-comparison articles). All pages saved as snapshots.",
   "sources": [
     {
       "url": "https://www.pipedrive.com/en/pricing",
@@ -30,7 +30,7 @@
     },
     {
       "url": "https://www.pipedrive.com/es/pricing",
-      "label": "Pipedrive pricing page's embedded __NEXT_DATA__ pricingData JSON (curl, no browser) - plan prices and every add-on/top-up rate",
+      "label": "Pipedrive pricing page's built-in machine-readable price list - plan prices and every add-on/top-up rate",
       "checkedOn": "2026-09-26",
       "snapshot": "snapshots/pipedrive/2026-09-26-pricing-es-embedded-data.txt"
     },
@@ -349,7 +349,7 @@
   "billingNotes": [
     "Billing is strictly per seat: a seat is charged whether or not an active user fills it, and adding a user with no free seat automatically adds (and bills) a new seat.",
     "Annual billing discount varies by plan: about 42% on Lite ($24 to $14), 20% on Growth ($49 to $39), 25% on Premium ($79 to $59), and 20% on Ultimate ($99 to $79). Pipedrive's own copy describes this as 'discounted up to 42%.'",
-    "Annual subscriptions are prepaid for the full year and are not refundable; cancelling one keeps access until the end of the paid term. Monthly subscriptions can be cancelled to take effect at the next billing date.",
+    "Annual subscriptions are prepaid for the full year and are not refundable; canceling one keeps access until the end of the paid term. Monthly subscriptions can be canceled to take effect at the next billing date.",
     "LeadBooster, Projects and Smart Docs are paid add-ons only on Lite and Growth; all three are included at no extra cost for every seat on Premium and Ultimate. Campaigns and Web Visitors are paid add-ons on every plan, including Premium and Ultimate.",
     "Pipedrive has no native SMS-sending product. The mobile app's 'texting' feature only deep-links to the phone's own messaging app and is not billed by Pipedrive.",
     "Pipedrive renamed its plans in 2025: Essential to Lite, Advanced to Growth, Professional (also called Power) to Premium, and Enterprise to Ultimate. Accounts still on a legacy-named plan may have different prices or limits than the current public plans recorded here.",
