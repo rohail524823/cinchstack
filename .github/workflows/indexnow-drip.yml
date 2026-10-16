@@ -1,0 +1,39 @@
+name: IndexNow drip
+# Sends the next 10 sitemap URLs that were never sent to IndexNow, at most once every 48 hours
+# (scripts/indexnow.mjs --next; policy in docs/plan/06-aeo-geo-bing.md). It runs daily so a batch
+# goes out as soon as the gap has passed, exits quietly when one is not due, and stops sending once
+# every sitemap URL has been sent once. Changed pages are still sent by hand. Never runs on a push.
+on:
+  schedule:
+    - cron: '37 6 * * *'   # daily, 06:37 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: indexnow-drip
+  cancel-in-progress: false
+jobs:
+  drip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      - name: Send the next batch, if one is due
+        run: node scripts/indexnow.mjs --next
+      - name: Commit the log
+        run: |
+          if git diff --quiet -- src/data/_indexnow.json; then echo 'Nothing sent.'; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/_indexnow.json
+          git commit -m 'IndexNow: log the next drip batch'
+          git push

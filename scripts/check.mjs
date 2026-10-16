@@ -185,14 +185,17 @@ for (const [p, { doc, html, noindex }] of pages) {
   const wp = graph.find((n) => /WebPage|AboutPage|ContactPage|CollectionPage/.test(n['@type']) && n.lastReviewed);
   const vis = doc.querySelector('time[data-verified]')?.getAttribute('datetime');
   if (vis && wp && wp.lastReviewed !== vis) fail(p, `lastReviewed ${wp.lastReviewed} ≠ visible verified date ${vis}`);
-  // 8. review rating visible: each Review matches the score panel (#score-<tool>) of the tool it reviews
-  for (const rev of graph.filter((n) => typeOf(n).includes('Review'))) {
-    const app = graph.find((n) => n['@id'] && n['@id'] === rev.itemReviewed?.['@id']);
-    const id = (app?.['@id'] ?? '').match(/\/tools\/([a-z0-9-]+)\//)?.[1];
+  // 8. review rating visible: each app's nested Review matches the score panel (#score-<tool>) of
+  // that tool. Reviews are nested in their app and never name an itemReviewed: Google reports a
+  // nested review that also points back at its parent as a directional conflict.
+  for (const rev of graph.filter((n) => typeOf(n).includes('Review'))) fail(p, `top-level Review ${rev['@id']}: nest it in its app's review instead`);
+  for (const app of graph.filter((n) => typeOf(n).includes('SoftwareApplication') && n.review)) {
+    const rev = app.review;
+    const id = (app['@id'] ?? '').match(/\/tools\/([a-z0-9-]+)\//)?.[1];
     const shown = id ? doc.getElementById(`score-${id}`)?.getAttribute('data-score') : undefined;
-    if (!app) fail(p, `Review ${rev['@id']} does not review an app in the page's graph`);
-    else if (String(rev.reviewRating?.ratingValue) !== String(shown)) fail(p, `Review rating ${rev.reviewRating?.ratingValue} for ${app.name} not the visible score ${shown}`);
-    else if (app.review?.['@id'] !== rev['@id']) fail(p, `SoftwareApplication ${app.name} does not link its Review (review: {"@id": "${rev['@id']}"})`);
+    if (!rev.reviewRating) fail(p, `SoftwareApplication ${app.name}: its review has no rating`);
+    else if (String(rev.reviewRating.ratingValue) !== String(shown)) fail(p, `Review rating ${rev.reviewRating.ratingValue} for ${app.name} not the visible score ${shown}`);
+    if (rev.itemReviewed) fail(p, `SoftwareApplication ${app.name}: its nested review must not name itemReviewed`);
   }
   // 9. quick answer
   const qa = doc.querySelector('[data-quick-answer] p');

@@ -6,8 +6,12 @@
 // began sending ~155 URLs on every deploy (docs/plan/06-aeo-geo-bing.md). Every submission is logged
 // in src/data/_indexnow.json; commit the log after every real run.
 // Usage: node scripts/indexnow.mjs [--dry-run] [--force] <url-or-path> ...   (1 to 10 URLs)
+//        node scripts/indexnow.mjs [--dry-run] --next
 //   --dry-run  run every check and print the payload, but send nothing and log nothing
 //   --force    skip only the 48-hour gap
+//   --next     pick the next 10 sitemap URLs never sent (PRIORITY first, then sitemap order); when
+//              the gap has not passed or nothing is left, say so and exit 0. The IndexNow drip
+//              workflow runs this daily, so it never fails just because a batch is not due.
 // Behind a proxy, set NODE_USE_ENV_PROXY=1 so Node's fetch goes through it.
 import fs from 'node:fs';
 import { parseHTML } from 'linkedom';
@@ -18,18 +22,25 @@ const ENDPOINT = 'https://api.indexnow.org/indexnow';
 const KEY_URL = `${SITE}/${INDEXNOW_KEY}.txt`;
 const MAX_URLS = 10;
 const GAP_HOURS = 48;
+// The order --next works through: the money pages first, then the rest of the sitemap.
+const PRIORITY = [
+  '/tools/gohighlevel/plans-compared/', '/tools/gohighlevel/ai-pricing/', '/tools/gohighlevel/add-ons/',
+  '/alternatives/gohighlevel/', '/compare/gohighlevel-vs-clickfunnels/', '/compare/gohighlevel-vs-systeme-io/',
+  '/tools/systeme-io/free-plan/', '/stacks/local-service/', '/compare/', '/stacks/',
+];
 const ACCEPTED = [200, 202];
 const iso = (ms) => new Date(ms).toISOString().replace(/\.\d{3}Z$/, 'Z');
 
 const args = process.argv.slice(2);
 const DRY = args.includes('--dry-run');
 const FORCE = args.includes('--force');
+const NEXT = args.includes('--next');
 const usage = (msg) => {
   if (msg) console.error(msg);
   console.error('usage: node scripts/indexnow.mjs [--dry-run] [--force] <url-or-path> ...   (1 to 10 URLs)');
   process.exit(2);
 };
-const unknown = args.filter((a) => a.startsWith('--') && a !== '--dry-run' && a !== '--force');
+const unknown = args.filter((a) => a.startsWith('--') && !['--dry-run', '--force', '--next'].includes(a));
 if (unknown.length) usage(`unknown option ${unknown.join(', ')}`);
 
 // Paths resolve against the site; full URLs must be on it.
@@ -41,7 +52,8 @@ for (const a of args.filter((x) => !x.startsWith('--'))) {
   if (u.search || u.hash) usage(`${a}: leave out the query and the fragment`);
   if (!urls.includes(u.href)) urls.push(u.href);
 }
-if (!urls.length) usage();
+if (NEXT && urls.length) usage('--next picks the URLs itself; give no URLs with it.');
+if (!urls.length && !NEXT) usage();
 if (urls.length > MAX_URLS) usage(`${urls.length} URLs given; send at most ${MAX_URLS} per submission.`);
 
 let log;
@@ -75,6 +87,7 @@ const hours = lastAt ? (Date.now() - Date.parse(lastAt)) / 3.6e6 : Infinity;
 if (!lastAt) ok('spacing: no accepted submission yet');
 else if (hours >= GAP_HOURS) ok(`spacing: ${last} ${lastAt}, ${Math.floor(hours)} hours ago`);
 else if (FORCE) note(`spacing: ${last} ${lastAt} was ${hours.toFixed(1)} hours ago; --force skips the ${GAP_HOURS}-hour gap`);
+else if (NEXT) { note(`not due: ${last} ${lastAt} was ${hours.toFixed(1)} hours ago; the next batch goes after ${iso(Date.parse(lastAt) + GAP_HOURS * 3.6e6)}`); process.exit(0); }
 else bad(`spacing: ${last} ${lastAt} was ${hours.toFixed(1)} hours ago; wait until ${iso(Date.parse(lastAt) + GAP_HOURS * 3.6e6)} or pass --force`);
 
 // 2. Every URL is in the live sitemap. A URL already sent is dropped unless its lastmod is later
@@ -85,6 +98,16 @@ if (sm.status === 200) for (const m of sm.body.matchAll(/<loc>([^<]+)<\/loc>(?:\
 const haveSitemap = lastmod.size > 0;
 if (haveSitemap) ok(`live sitemap: ${lastmod.size} URLs`);
 else bad(`live sitemap ${SITE}/sitemap.xml: ${sm.status === 200 ? 'lists no URLs' : answered(sm)}`);
+
+if (NEXT && haveSitemap) {
+  const sentEver = new Set(accepted.flatMap((e) => e.urls ?? []));
+  for (const u of [...PRIORITY.map((x) => `${SITE}${x}`), ...lastmod.keys()]) {
+    if (urls.length >= MAX_URLS) break;
+    if (lastmod.has(u) && !sentEver.has(u) && !urls.includes(u)) urls.push(u);
+  }
+  if (!urls.length) { note('nothing left: every sitemap URL has been sent once; send changed pages by hand'); process.exit(0); }
+  ok(`next batch: ${urls.length} URL(s) never sent before`);
+}
 
 const send = [];
 for (const u of urls) {

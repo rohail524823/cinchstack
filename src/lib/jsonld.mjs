@@ -122,7 +122,7 @@ export function plansShownIn(toolId, texts, alsoShown = []) {
  * A SoftwareApplication for the page at `url` (@id `${url}#software`). `plans` limits the offers to
  * the plans the page shows; leave it out only where every plan is on the page (pricing pages).
  */
-export function softwareNode(toolId, { url, plans, reviewId } = {}) {
+export function softwareNode(toolId, { url, plans, review } = {}) {
   const t = tool(toolId);
   const p = price(toolId);
   const offers = p.plans
@@ -159,13 +159,15 @@ export function softwareNode(toolId, { url, plans, reviewId } = {}) {
     description: t.oneLiner,
     publisher: { '@type': 'Organization', name: t.vendor },
     offers,
-    review: reviewId ? { '@id': reviewId } : undefined,
+    review: review ?? undefined,
   };
 }
 
 /**
- * Our review of a tool on the page at `url`. `notes` adds the pros and cons, only where the page
- * shows them (the tool's hub). Returns null for an unscored tool.
+ * Our review of a tool on the page at `url`, nested in the app's `review`. Google flags a nested
+ * review that also names its `itemReviewed` (a directional conflict), so it carries none. `notes`
+ * adds the pros and cons, only where the page shows them (the tool's hub). Returns null for an
+ * unscored tool.
  */
 export function reviewNode(toolId, url, { notes = true } = {}) {
   const s = score(toolId);
@@ -174,7 +176,6 @@ export function reviewNode(toolId, url, { notes = true } = {}) {
   return {
     '@type': 'Review',
     '@id': `${url}#review`,
-    itemReviewed: { '@id': `${url}#software` },
     reviewRating: { '@type': 'Rating', ratingValue: String(s.overall), bestRating: '5', worstRating: '1' },
     ...(notes ? {
       positiveNotes: { '@type': 'ItemList', itemListElement: t.pros.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x })) },
@@ -187,13 +188,13 @@ export function reviewNode(toolId, url, { notes = true } = {}) {
 }
 
 /**
- * The app and our review of it, linked both ways, for a page that shows the tool's score. Google's
- * software-app result needs a rating on the app, so an unscored tool gets neither node.
+ * The app with our review nested in it, for a page that shows the tool's score. Google's
+ * software-app result needs a rating on the app, so an unscored tool gets no app node.
  */
 export function softwareWithReview(toolId, url, { plans, notes = true } = {}) {
   const review = reviewNode(toolId, url, { notes });
   if (!review) return [];
-  return [softwareNode(toolId, { url, plans, reviewId: review['@id'] }), review];
+  return [softwareNode(toolId, { url, plans, review })];
 }
 
 export function faqNode(url, items) {

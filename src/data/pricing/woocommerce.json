@@ -10,7 +10,7 @@
     { "url": "https://woocommerce.com/payments/", "label": "WooPayments overview page (pay-as-you-go, no setup costs or monthly fees)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-payments.txt" },
     { "url": "https://woocommerce.com/products/woocommerce-subscriptions/", "label": "WooCommerce Subscriptions extension page (1-year and 2-year prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-product-subscriptions.txt" },
     { "url": "https://woocommerce.com/products/woocommerce-bookings/", "label": "WooCommerce Bookings extension page (1-year and 2-year prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-product-bookings.txt" },
-    { "url": "https://woocommerce.com/collection/woocommerce-essentials/", "label": "WooCommerce Essentials collection (bundle price and individual extension prices)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-essentials.txt" },
+    { "url": "https://woocommerce.com/collection/woocommerce-essentials/", "label": "WooCommerce Essentials collection (bundle price and individual extension prices)", "checkedOn": "2026-10-16", "snapshot": "snapshots/woocommerce/2026-10-16-essentials.txt" },
     { "url": "https://woocommerce.com/refund-policy/", "label": "Woo Marketplace refund policy (30-day full refund on extensions and themes)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-refund-policy.txt" },
     { "url": "https://woocommerce.com/document/managing-woocommerce-com-subscriptions/what-are-woocommerce-com-subscriptions/", "label": "Docs: what a WooCommerce.com extension subscription includes (billing periods, renewal price, sites covered, expiry)", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-doc-what-are-subscriptions.txt" },
     { "url": "https://woocommerce.com/document/managing-woocommerce-com-subscriptions/auto-renewal-cancellation-refunds/", "label": "Docs: auto-renewal, cancellation, failed payments and expiry of extension subscriptions", "checkedOn": "2026-09-26", "snapshot": "snapshots/woocommerce/2026-09-26-doc-auto-renewal.txt" },
@@ -117,7 +117,7 @@
     {
       "id": "smart-coupons",
       "name": "Smart Coupons (by StoreApps)",
-      "price": 129,
+      "price": 99,
       "unit": "per year, per site",
       "note": "A third-party extension sold on the Woo Marketplace.",
       "source": 6
@@ -134,7 +134,7 @@
       "name": "WooCommerce Essentials collection (10 products)",
       "price": 753,
       "unit": "per year, per site",
-      "note": "\"Get 10 extensions for $753\", with a year of updates and a 30-day money-back guarantee. The ten are WooPayments and Google for WooCommerce (both free), Product Add-Ons, Product Bundles and Gift Cards ($79 each), AutomateWoo ($159), Smart Coupons ($129), Composite Products ($149), Jetpack VaultPress Backup ($120) and Luminate ($79). Bought separately, the eight paid items total $873/year (79 × 4 + 159 + 129 + 149 + 120), so the bundle saves $120.",
+      "note": "\"Get 10 extensions for $753\", with a year of updates and a 30-day money-back guarantee. The ten are WooPayments and Google for WooCommerce (both free), Product Add-Ons, Product Bundles and Gift Cards ($79 each), AutomateWoo ($159), Smart Coupons ($99, down from $129 on 16 October 2026), Composite Products ($149), Jetpack VaultPress Backup ($120) and Luminate ($79). Bought separately, the eight paid items total $843/year (79 × 4 + 159 + 99 + 149 + 120), so the bundle saves $90.",
       "source": 6
     }
   ],

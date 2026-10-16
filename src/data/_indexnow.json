@@ -14,5 +14,21 @@
       "https://cinchstack.com/data/"
     ],
     "status": 202
+  },
+  {
+    "at": "2026-10-16T18:39:31Z",
+    "urls": [
+      "https://cinchstack.com/tools/gohighlevel/plans-compared/",
+      "https://cinchstack.com/tools/gohighlevel/ai-pricing/",
+      "https://cinchstack.com/tools/gohighlevel/add-ons/",
+      "https://cinchstack.com/alternatives/gohighlevel/",
+      "https://cinchstack.com/compare/gohighlevel-vs-clickfunnels/",
+      "https://cinchstack.com/compare/gohighlevel-vs-systeme-io/",
+      "https://cinchstack.com/tools/systeme-io/free-plan/",
+      "https://cinchstack.com/stacks/local-service/",
+      "https://cinchstack.com/compare/",
+      "https://cinchstack.com/stacks/"
+    ],
+    "status": 200
   }
 ]

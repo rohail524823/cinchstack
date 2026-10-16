@@ -1,0 +1,508 @@
+SOURCE: https://woocommerce.com/products/smart-coupons/
+FETCHED: 2026-10-16T18:41:13.928Z
+RENDERER: headless Chromium, en-US, US timezone
+----
+___
+Skip to navigation
+Skip to content
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Develop on Woo
+Hire an expert
+Get support
+Sell
+Click to show 12 more items
+Extensions
+Click to show 18 more items
+Resources
+Click to show 23 more items
+Enterprise ecommerce
+Log in
+Get started
+Marketplace / WooCommerce extensions / Marketing / Smart Coupons
+Excellence verified
+Smart Coupons for WooCommerce
+by StoreApps
+The original WooCommerce coupons plugin: discount rules, gift cards, store credits, BOGO, dynamic pricing, bulk coupon codes & URL coupons.
+Skip the plugin chaos. Save $588 every year.
+
+Run all types of high converting discounts, loyalty and promotion offers from the original StoreApps Smart Coupons plugin. You don’t need to buy multiple plugins or fall into the trap of copycat freemium plugins!
+
+Buying separate plugins for what this one plugin does can easily cost you $713+. StoreApps Smart Coupons was launched in the year 2012 and has generated millions of sales for over 20k users. WebToffee Smart Coupons, Rymera Advanced Coupons, Extended Coupons, Progos on CodeCanyon and many others have copied our name and features.
+
+This StoreApps Smart Coupons for WooCommerce is the first and still the best plugin for dynamic discounts and gift card management. It gives you everything in one secure, high performance plugin for just $99: no bloat, no plugin juggling, no hidden costs. All supported by a top-notch team.
+
+Advanced discount rules for WooCommerce
+
+Get more sales with pro discount rules based on product and category, location, user roles, brands, bulk discounts, tiered discounts, and much more.
+
+Sitewide discount, flash sales, welcome coupons, cart abandonment email discount, new product launches, dynamic pricing, giveaways, subscription signups, and Black Friday deals – convert more customers using flexible discount-based smart coupon offers.
+
+ 
+
+Advanced WooCommerce gift cards with scheduling
+
+Create, send or sell. Gift certificates, store credits, account funds, e-gift cards, gift vouchers… Assign prepaid credits that customers can use for multiple purchases until the balance or validity runs out. Even send credits instead of refunds to boost retention.
+
+You can also allow customers to personalize and schedule gift card delivery before purchase, directly from the product page.
+
+StoreApps Smart Coupons plugin allows creating and selling various types of such gift cards – fixed denominations, user entered or product linked.
+
+ 
+
+WooCommerce BOGO coupons/free gift coupons
+
+Set up simple “Buy One, Get One” (BOGO) deals or “Buy X, Get Y” offers based on rules and product quantities. Offer one or multiple products for free – a giveaway or offer them at a discount.
+
+You can create “buy 3 get 1”, “buy 2 get 1 free”, “buy 2 get 1 at 50% off”, “buy 5 get one”, “buy 2 get 2” and so on. Launch these campaigns in minutes using the dedicated BOGO quick-action setup.
+
+With Smart Coupons, you have full flexibility to offer buy more get more and similar discounts to boost sales and move inventory.
+
+ 
+
+Popular ways to use Smart Coupons
+
+People use Smart Coupons plugin in hundreds of real-life dynamic pricing and discounting needs.
+
+% or $ Off by Cart Total – 10% off $300+, $9 off $300+
+BOGO / Free Gift – buy 1 get 1 or add free item
+Volume Discounts – 5% off 10+, 10% off 20+, etc.
+Gift Cards – any value, fixed or discounted
+Bulk Coupon Generator – for sales, email, deals
+First Order Coupons – reward after first purchase
+URL Coupons – auto-applied via shared links
+Cart Quantity Deals – e.g., buy 3 get 1 free
+Scheduled Expiry – auto-end at set date/time
+Gift Cards on Renewals – usable for subs, shipping
+Exclude Brands – no discount for Apple, Nike etc.
+Geo-Targeted Offers – by country, region, zip
+Order history – 25% off above 5 orders
+User Role / Email Rules – for Subscribers, VIPs
+Color or Attribute Deals – e.g., black clothes only
+Coupon Categories – tag as Flash Sale, Holiday
+Payment / Shipping Rules – restrict as needed
+Print Coupons – redeem codes from flyers
+Bulk Store Credit Import – auto-assign credits
+Conditional Discounts – e.g., 10–20 items = 10%
+Gift Card Storefront – any denomination $25, $100…
+Stacked Rewards – discount + credit + gift
+Product / Category Targeting – apply by type
+Exclude Sale Items – avoid double discounts
+Launch Offers – limited-time product promos
+
+ 
+
+Real results from real WooCommerce stores
+
+Real stories of how Smart Coupons help businesses increase sales and streamline promotions.
+
+ 
+
+Advanced coupons restrictions
+
+Enhance core WooCommerce coupons with lots of advanced restrictions, rules and options. Create coupons based on minimum spend, products and product categories.
+
+Or customer emails, address-based geolocation (country, state, city, zip), payment methods, shipping methods, past order count, user roles, product attributes, product quantity and product taxonomies – type, visibility, tags and shipping classes.
+
+Combine single, multiple or all restrictions to create coupons for specific targets and avoid misuse.
+
+ 
+
+URL coupons & auto-applying dynamic pricing discounts
+
+Quickly create shareable links that auto-apply coupon discounts (and even add products to cart) whenever someone clicks on the link.
+
+Share these URLs with deal sites, affiliates, via email, blog posts, or on social media. Users can quickly and easily redeem these coupons now – meaning more sales for the store.
+
+Create coupons and promotions that are automatically applied when customers add products to the cart – no need to remember or search for coupon codes.
+
+ 
+
+Coupon code generator – bulk generate, export and send
+
+Let Smart Coupons generate hundreds and thousands of coupons with unique voucher codes or coupon codes for you – and add them to the store or export as a CSV.
+
+You can personalize coupon promo codes with custom prefix and suffix. You can even email these discount coupons directly to recipients.
+
+ 
+
+Better coupons management, designs and storewide display
+
+Manage all coupons from one place, organize them into categories, export/import and bulk manage coupons.
+
+Select from beautiful responsive coupon designs – and apply your own brand color scheme. Display a storewide notice when you’re running holiday season sales to nudge customers.
+
+Feature packed plugin for advanced discounts and coupons…
+
+You can do a lot more with this Smart Coupons plugin – apart from everything listed earlier.
+
+Set up subscription / recurring coupon discounts
+Offer free shipping and taxes via store credit coupons
+Show available coupons on cart / checkout – and apply with one-click
+Setup Amazon Prime like “free shipping for a year” campaign
+Automatically generate and issue coupons / credits with product purchases
+Send an instant “cashback” credit for future use
+Revenue insights dashboard – track coupon revenue, store credit usage, and order performance from one dashboard widget.
+Show a custom message when a coupon is applied to cart / checkout – or when it’s emailed
+Email coupons or store credits
+Change, replace, and override the coupons’ email template using Email Customizer Pro using a live preview editor.
+Create time-bound, automatically expiring coupon discounts
+Display a live coupon expiry countdown to create urgency
+Support for multi-currency plugins like Aelia
+Bypass “individual use” restriction for loyal customers
+Redirect to any page after clicking on a coupon
+Import / export coupons
+Print coupons and gift certificates
+Upload a custom image for gift cards / gift certificates.
+Show applied and available store credit balance on cart and checkout pages
+Allow customers to pick one gift product from a predefined list.
+Coupons stacking – let customers apply multiple coupons. 10% off welcome discount + 10% off above $200”.
+Reminder email for unused coupons and expiring coupons
+Track time saved, auto-generated coupons, and automated emails
+Show promotional messages when cart value reaches a certain threshold – “Spend $5 more to get 50% off!
+Display customizable coupon banners on your website
+Auto-generate coupons to give as cashback or rewards based on the order total
+Show promotional messages directly on product pages to boost conversions
+Embed / show coupons anywhere – even on a blog page
+Resend coupons
+Display the crossed-out and discounted prices together in the cart to boost perceived savings.
+Show/hide the “Available Coupons” section on the cart/checkout and hide it when no coupons exist.
+REST API, lots of hooks and documentation for customizations
+Highly rated by users and experts alike…
+
+ 
+
+Full of features, saved hours and hours of work.
+Options for almost any scenario!
+I tested a lot of plugins, but this is the only one that checked all the boxes.
+Far ahead of the standard coupon functionality of WooCommerce.
+Does everything I need. Very powerful and flexible.
+Clients can manage promotions themselves.
+Great plugin and great customer service. Developers answer all my questions!
+Using this product since 2013 and it has always worked.
+
+Experience Smart Coupons today!
+All the features: Smart Coupons for WooCommerce plugin is loaded with lots of proven methods to run discounts and promotions automatically. Achieve higher sales, repeat customers and better customer loyalty.
+Benefits all businesses: Fashion, pet supplies, hobbies, recurring products, memberships, electronics, FMCGs, digital downloads, health and fitness… every WooCommerce store can grow revenue and conversions using Smart Coupons.
+Use it throughout the year, in all seasons: Black Friday, Christmas, festivals or even during the recession or slump period, Smart Coupons will get you revenue.
+High performance: Smart Coupons does not slow down your site or checkout process. Some of the largest WooCommerce stores use it and you too can rely on its quality, security and speed.
+Easy to use: It’s super flexible, yet intuitive. Your clients, store admins and junior staff can easily run promotions using Smart Coupons without needing developer assistance.
+Genuine, compatible, regular updates: You’re getting 100% genuine and original plugin. Smart Coupons is tested with other popular plugins and we keep improving it regularly. No risks here!
+Is this really worth the price? Will it work for me?
+
+We understand… Today’s times are uncertain. We all feel a bit skeptical when it comes to making long term decisions in such a time. And Smart Coupons may seem “too-good-to-be-true” or “too-expensive”.
+
+Let’s take a step back. Coupons are not just about discounts. Credits are not just about gifts. Creating higher value for your customers is the golden rule of business. Smart Coupons positively alters customer experience, conversion, and revenue. It’s not just a plugin, it’s your tool to build a better business. A more successful, more predictable business.
+
+Smart Coupons is battle-tested, top-rated, unbeatable price-to-value, and from a reputed brand with 13 years’ track record. If you want the best coupons plugin for WooCommerce, this is it.
+
+26,740+ paying customers have made millions with Smart Coupons. You will too.
+
+Smart Coupons is built by StoreApps, a leading WooCommerce.com extension developer. You can trust you’re getting high-quality code and first-class support. Check out our other best-selling and popular plugins on WooCommerce.
+
+Frequently asked questions
+Can I setup "Buy One, Get One" / BOGO kind of offers?
+When someone buys a product, I want to issue a discount coupon for future purchase. Is that possible?
+I want the discount to apply only on the cheapest (or most expensive) item in the cart. How do I configure that?
+How do I setup recurring discounts? Does Smart Coupons work with the Subscriptions plugin?
+Is it possible to bulk update many coupons at once?
+How does Smart Coupons improve built in coupons / discounts features?
+How does Smart Coupons compare to other advanced coupons plugins? To other gift cards / store credit plugins?
+Will this plugin slow down my site? How does Smart Coupons affect site performance?
+There are other plugins with similar names, what is the difference?
+Is Smart Coupons compatible with multi-currency plugins?
+I'm already using WooCommerce's native coupons. Will switching to Smart Coupons affect my existing coupons?
+Smart Coupons for WooCommerce 
+by StoreApps
+Choose a billing option
+1-year plan
+Price:
+$99
+2-year plan
+Save 20%
+$198
+Price:
+$158.40
+Buy now
+Add to cart
+View demo
+Price $8.25
+$8.25
+Per month
+ monthly billed annually at $99
+
+Reviews
+
+4.4
+(235)
+4.4 out of 5 stars,235 reviews
+
+Latest version
+
+9.82.2
+
+Active installs
+
+20K+
+
+Click to rate
+
+Subscription includes
+
+Product updates and improvements
+Customer support
+30-day money-back guarantee
+
+Support
+
+Documentation
+Feature requests
+Get support
+
+Categories
+
+WooCommerce extensions
+Conversion
+Promotions
+Marketing
+
+Extension information
+
+ 
+WordPress version required: 4.6
+WooCommerce version required: 3.0.0
+PHP version required: 5.6
+Tested with WordPress: 7.1.2
+Tested with WooCommerce: 11.1.2
+Requires at least WordPress: 4.4
+Requires at least WooCommerce: 3.0.0
+
+Quality Checks
+
+ 
+Known vulnerability check passed
+Dependent packages vulnerability check passed
+Compatible with standard WooCommerce flows and extensions
+
+Works with
+
+ 
+Affiliate, Chained Products, Name Your Price, Smart Refunder, Email Customizer Pro, WooCommerce Subscriptions
+
+Compatibility
+
+ 
+Cart & checkout blocks
+High performance order storage (HPOS)
+
+Countries
+
+ 
+Worldwide
+
+Languages
+
+Arabic, Chinese (China), Danish, Dutch, English (UK), English (United States), French (France), German, Italian, Japanese, Korean, Polish,
+More
+Customer reviews
+Average rating
+4.4
+
+235 reviews from verified users
+
+5 stars, 80% of reviews
+5
+4 stars, 5% of reviews
+4
+3 stars, 3% of reviews
+3
+2 stars, 3% of reviews
+2
+1 star, 10% of reviews
+1
+
+Click to rate
+
+Rated 5 out of 5
+maiblusports
+·
+United Kingdom (UK)
+·
+Oct 10, 2026
+Rated 3 out of 5
+lucafriedrichb056610ce7
+·
+Germany
+·
+Aug 11, 2026
+Support is great but quite a bit of features dont work and the 5th review request after a good support experience didnt help the score either.
+1 reply
+Rated 5 out of 5
+David Inglis
+·
+Canada
+·
+Jun 8, 2026
+Support is great! We had a weird problem when two other plugins were interacting badly causing a downstream issue in this one. they figured it out for us. Much appreciated!
+Rated 5 out of 5
+snittleone
+·
+Australia
+·
+May 15, 2026
+I am enjoying the plug-in, i have had some issues but every time i have had the plug in glitch, the support team sorts it for me and are very helpful. Thank you team.
+Rated 5 out of 5
+edoc001
+·
+Australia
+·
+Apr 20, 2026
+We had an issue with an exclusive percentage coupon being used together with a store credit. The developers were extremely helpful and courteous despite the tricky problem and much troubleshooting. They managed to provide a code snippet which fixed the issue immediately. Great support and very helpful thank you.
+Pagination
+1
+2
+…
+47
+Recommended reading on Smart Coupons
+How Landyachtz cut ecommerce costs by more than 75% and gained full control with WooCommerce
+How to run an ecommerce sale that attracts customers and grows profits
+Related Products
+WooCommerce Subscriptions
+Excellence verified
+Price $279 annually
+$279
+annually
+Rated 3.9 out of 5 stars
+3.9 
+(137)
+Table Rate Shipping
+Excellence verified
+Price $119 annually
+$119
+annually
+Rated 3.5 out of 5 stars
+3.5 
+(19)
+WooCommerce Memberships
+Excellence verified
+Price $199 annually
+$199
+annually
+Rated 4 out of 5 stars
+4 
+(150)
+reCaptcha Integration
+Excellence verified
+Price $29 annually
+$29
+annually
+Rated 3.7 out of 5 stars
+3.7 
+(51)
+Conditional Shipping and Payments
+Excellence verified
+Price $109 annually
+$109
+annually
+Rated 4.6 out of 5 stars
+4.6 
+(52)
+Customer / Order / Coupon Export
+Excellence verified
+Price $79 annually
+$79
+annually
+Rated 4.2 out of 5 stars
+4.2 
+(44)
+Checkout Field Editor
+Price $49 annually
+$49
+annually
+Rated 2.7 out of 5 stars
+2.7 
+(18)
+Print Invoices and Packing Lists
+Excellence verified
+Price $79 annually
+$79
+annually
+Rated 4 out of 5 stars
+4 
+(41)
+WooCommerce Bookings
+Price $249 annually
+$249
+annually
+Rated 2.7 out of 5 stars
+2.7 
+(60)
+30-day money-back guarantee
+Support teams across the world
+Safe and secure online payments
+Sell
+WooCommerce
+WooCommerce pricing
+Payments
+No-code customization
+Marketing
+Checkout
+Shipping
+Mobile app
+Enterprise ecommerce
+Marketplace
+WooCommerce extensions
+WooCommerce themes
+New
+Essentials
+Collections
+Developed by Woo
+Build
+Woo for developers
+Developer resources
+Become a Woo agency
+Become a Marketplace partner
+Become an affiliate
+Resources
+Blog
+Documentation
+WooCommerce site examples
+Product updates
+Email newsletter
+Support
+Feature requests
+WooCommerce hosting
+Hire an agency
+Participate in customer research
+Accessibility
+Support forums
+Company
+About
+Press
+Download WooCommerce free
+Join the Woo community
+Woo trademark guidelines
+Brand and logo guidelines
+Do not sell or share my personal information
+WooCommerce Support Policy
+Refund Policy
+Contact us
+Follow us on Facebook
+Follow us on X
+Follow us on Instagram
+Follow us on LinkedIn
+USD
+Change site currency USD selected
+English
+Change site language English selected
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+© WooCommerce, Inc. 2026
+
+AN
+AUTOMATTIC
+THINGAMAJIG

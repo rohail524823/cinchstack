@@ -9,13 +9,10 @@
     "skippedPages": 0
   },
   "ahrefs": {
-    "ranOn": "2026-10-12",
-    "status": "changed",
+    "ranOn": "2026-10-16",
+    "status": "passed",
     "checked": 25,
-    "missing": [
-      "AI Content Helper (entry tier of the Content Kit add-on): $99 no longer on https://ahrefs.com/ai-content-helper",
-      "Content Kit: $299 no longer on https://ahrefs.com/ai-content-helper"
-    ],
+    "missing": [],
     "pages": 4,
     "blockedPages": 0,
     "skippedPages": 0
@@ -183,12 +180,10 @@
     "skippedPages": 0
   },
   "woocommerce": {
-    "ranOn": "2026-10-12",
-    "status": "changed",
+    "ranOn": "2026-10-16",
+    "status": "passed",
     "checked": 15,
-    "missing": [
-      "Smart Coupons (by StoreApps): $129 no longer on https://woocommerce.com/collection/woocommerce-essentials/"
-    ],
+    "missing": [],
     "pages": 4,
     "blockedPages": 0,
     "skippedPages": 0

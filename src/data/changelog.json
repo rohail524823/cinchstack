@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-16",
+    "tool": "woocommerce",
+    "kind": "price-change",
+    "summary": "Smart Coupons by StoreApps, one of the ten WooCommerce Essentials extensions, now costs $99 a year per site, down from $129. The Essentials bundle stays at $753 a year, so buying its eight paid extensions separately now totals $843 and the bundle saves $90.",
+    "old": "Smart Coupons $129/year per site",
+    "new": "$99/year",
+    "source": "https://woocommerce.com/collection/woocommerce-essentials/"
+  },
+  {
     "date": "2026-09-27",
     "tool": "activecampaign",
     "kind": "initial-record",
