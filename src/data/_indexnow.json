@@ -30,5 +30,21 @@
       "https://cinchstack.com/stacks/"
     ],
     "status": 200
+  },
+  {
+    "at": "2026-10-19T13:53:05Z",
+    "urls": [
+      "https://cinchstack.com/about/",
+      "https://cinchstack.com/alternatives/klaviyo/",
+      "https://cinchstack.com/alternatives/notion/",
+      "https://cinchstack.com/alternatives/semrush/",
+      "https://cinchstack.com/alternatives/shopify/",
+      "https://cinchstack.com/alternatives/systeme-io/",
+      "https://cinchstack.com/alternatives/webflow/",
+      "https://cinchstack.com/changes/",
+      "https://cinchstack.com/compare/klaviyo-vs-activecampaign/",
+      "https://cinchstack.com/compare/klaviyo-vs-mailchimp/"
+    ],
+    "status": 200
   }
 ]
