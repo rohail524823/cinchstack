@@ -62,5 +62,21 @@
       "https://cinchstack.com/methodology/"
     ],
     "status": 200
+  },
+  {
+    "at": "2026-10-25T11:57:54Z",
+    "urls": [
+      "https://cinchstack.com/privacy/",
+      "https://cinchstack.com/services/",
+      "https://cinchstack.com/stacks/course-creator/",
+      "https://cinchstack.com/stacks/freelancer/",
+      "https://cinchstack.com/stacks/saas-startup/",
+      "https://cinchstack.com/stacks/shopify-store/",
+      "https://cinchstack.com/terms/",
+      "https://cinchstack.com/tools/activecampaign/pricing/",
+      "https://cinchstack.com/tools/ahrefs/pricing/",
+      "https://cinchstack.com/tools/clickfunnels/pricing/"
+    ],
+    "status": 200
   }
 ]
