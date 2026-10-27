@@ -78,5 +78,21 @@
       "https://cinchstack.com/tools/clickfunnels/pricing/"
     ],
     "status": 200
+  },
+  {
+    "at": "2026-10-27T12:37:41Z",
+    "urls": [
+      "https://cinchstack.com/tools/clickup/pricing/",
+      "https://cinchstack.com/tools/framer/pricing/",
+      "https://cinchstack.com/tools/gohighlevel/ai-receptionist-cost/",
+      "https://cinchstack.com/tools/gohighlevel/contractors/",
+      "https://cinchstack.com/tools/gohighlevel/migrate-from-hubspot/",
+      "https://cinchstack.com/tools/gohighlevel/missed-call-text-back/",
+      "https://cinchstack.com/tools/gohighlevel/n8n-integration/",
+      "https://cinchstack.com/tools/gohighlevel/real-estate/",
+      "https://cinchstack.com/tools/hubspot/",
+      "https://cinchstack.com/tools/kajabi/pricing/"
+    ],
+    "status": 200
   }
 ]
