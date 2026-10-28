@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-28",
+    "tool": "gohighlevel",
+    "kind": "price-change",
+    "summary": "HighLevel's AI pricing article no longer lists Content AI's pay-per-use rates ($0.063 per image and $0.0945 per 1,000 words) for sub-accounts without an AI Employee plan. It now says only that such usage is billed per use, so CinchStack no longer quotes a rate.",
+    "old": "Content AI image $0.063 pay-per-use",
+    "new": "rate no longer published",
+    "source": "https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing"
+  },
+  {
+    "date": "2026-10-28",
+    "tool": "kajabi",
+    "kind": "price-change",
+    "summary": "Expert Agent, Kajabi's AI chat agent add-on, is back to $49 per agent a month, with 30% off ($34.30 per agent) when you buy more than one. Kajabi's help center had listed $79 as the standard rate since 1 October.",
+    "old": "Expert Agent $79/agent/month",
+    "new": "$49/agent/month",
+    "source": "https://help.kajabi.com/en/articles/17174557-expert-agents-overview"
+  },
+  {
     "date": "2026-10-16",
     "tool": "woocommerce",
     "kind": "price-change",

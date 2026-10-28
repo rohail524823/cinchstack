@@ -504,14 +504,6 @@
       "source": 4
     },
     {
-      "id": "content-ai-image",
-      "name": "Content AI image, pay-per-use",
-      "rate": 0.063,
-      "unit": "per image",
-      "note": "Text is $0.0945 per 1,000 words.",
-      "source": 4
-    },
-    {
       "id": "whatsapp-marketing-us",
       "name": "WhatsApp marketing template message (US & Canada)",
       "rate": 0.0263,

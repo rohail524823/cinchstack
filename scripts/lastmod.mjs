@@ -20,7 +20,7 @@ function walk(dir, out = []) {
   return out;
 }
 
-const dirty = new Set(git('status', '--porcelain', '--untracked-files=all').split('\n').filter(Boolean).map((l) => l.slice(3).trim()));
+const dirty = new Set(git('status', '--porcelain', '--untracked-files=all').split('\n').filter(Boolean).map((l) => l.replace(/^\s*\S+\s+/, '').trim())); // git() trims, so the first line may lose its leading status space
 const isDirty = (f) => dirty.has(f) || [...dirty].some((d) => d.endsWith('/') && f.startsWith(d));
 
 // The frontmatter `related:` list only picks the page's Keep reading links. A change to that list

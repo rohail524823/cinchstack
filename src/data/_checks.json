@@ -46,11 +46,9 @@
   },
   "gohighlevel": {
     "ranOn": "2026-10-28",
-    "status": "changed",
-    "checked": 38,
-    "missing": [
-      "Content AI image, pay-per-use: $0.063 no longer on https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing"
-    ],
+    "status": "passed",
+    "checked": 37,
+    "missing": [],
     "pages": 10,
     "blockedPages": 0,
     "skippedPages": 0
@@ -66,11 +64,9 @@
   },
   "kajabi": {
     "ranOn": "2026-10-28",
-    "status": "changed",
+    "status": "passed",
     "checked": 16,
-    "missing": [
-      "Expert Agent (AI chat agent for a site): $79 no longer on https://help.kajabi.com/en/articles/17174557-expert-agents-overview"
-    ],
+    "missing": [],
     "pages": 8,
     "blockedPages": 1,
     "skippedPages": 0
