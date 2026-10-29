@@ -94,5 +94,21 @@
       "https://cinchstack.com/tools/kajabi/pricing/"
     ],
     "status": 200
+  },
+  {
+    "at": "2026-10-29T13:39:53Z",
+    "urls": [
+      "https://cinchstack.com/tools/kit/pricing/",
+      "https://cinchstack.com/tools/klaviyo/",
+      "https://cinchstack.com/tools/klaviyo/pricing/",
+      "https://cinchstack.com/tools/mailchimp/pricing/",
+      "https://cinchstack.com/tools/notion/",
+      "https://cinchstack.com/tools/notion/pricing/",
+      "https://cinchstack.com/tools/pipedrive/pricing/",
+      "https://cinchstack.com/tools/se-ranking/pricing/",
+      "https://cinchstack.com/tools/semrush/",
+      "https://cinchstack.com/tools/semrush/pricing/"
+    ],
+    "status": 200
   }
 ]
